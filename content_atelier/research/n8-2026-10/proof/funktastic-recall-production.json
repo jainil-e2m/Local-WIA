@@ -1,0 +1,204 @@
+{
+  "golden": "funktastic-chain",
+  "scenes": 5,
+  "versions": [
+    "2026-10-18.scenes.v1",
+    "2026-10-19.scenes.v2",
+    "2026-10-25.scenes.v4"
+  ],
+  "recall": {
+    "2026-10-18.scenes.v1": 0.8,
+    "2026-10-19.scenes.v2": 0.8,
+    "2026-10-25.scenes.v4": 0.8
+  },
+  "by_version": {
+    "2026-10-18.scenes.v1": {
+      "extractor_version": "2026-10-18.scenes.v1",
+      "scenes": 5,
+      "found": 4,
+      "recall": 0.8,
+      "lost_to_quote_mismatch": [],
+      "missed": [
+        "f05"
+      ],
+      "results": [
+        {
+          "id": "f01",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_f2fe3397dde787395e237274",
+          "match": "anchor_passage",
+          "document_id": "transcript_5d467dca06f78064adf23cf5"
+        },
+        {
+          "id": "f02",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_f2fe3397dde787395e237274",
+          "match": "anchor_passage",
+          "document_id": "transcript_5d467dca06f78064adf23cf5"
+        },
+        {
+          "id": "f03",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_f2fe3397dde787395e237274",
+          "match": "quote",
+          "document_id": "transcript_5d467dca06f78064adf23cf5"
+        },
+        {
+          "id": "f04",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_d776c9b26a93acb7302435e6",
+          "match": "anchor_passage",
+          "document_id": "transcript_5d467dca06f78064adf23cf5"
+        },
+        {
+          "id": "f05",
+          "found": false,
+          "lost_to_quote_mismatch": false,
+          "moment_id": null,
+          "match": null,
+          "document_id": "transcript_5d467dca06f78064adf23cf5"
+        }
+      ]
+    },
+    "2026-10-19.scenes.v2": {
+      "extractor_version": "2026-10-19.scenes.v2",
+      "scenes": 5,
+      "found": 4,
+      "recall": 0.8,
+      "lost_to_quote_mismatch": [],
+      "missed": [
+        "f05"
+      ],
+      "results": [
+        {
+          "id": "f01",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_3c187ce21ba9ef82df0b7479",
+          "match": "anchor_passage",
+          "document_id": "transcript_5d467dca06f78064adf23cf5"
+        },
+        {
+          "id": "f02",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_3c187ce21ba9ef82df0b7479",
+          "match": "anchor_passage",
+          "document_id": "transcript_5d467dca06f78064adf23cf5"
+        },
+        {
+          "id": "f03",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_3c187ce21ba9ef82df0b7479",
+          "match": "anchor_passage",
+          "document_id": "transcript_5d467dca06f78064adf23cf5"
+        },
+        {
+          "id": "f04",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_ef88dbdf90a2608ae2639f90",
+          "match": "anchor_passage",
+          "document_id": "transcript_5d467dca06f78064adf23cf5"
+        },
+        {
+          "id": "f05",
+          "found": false,
+          "lost_to_quote_mismatch": false,
+          "moment_id": null,
+          "match": null,
+          "document_id": "transcript_5d467dca06f78064adf23cf5"
+        }
+      ]
+    },
+    "2026-10-25.scenes.v4": {
+      "extractor_version": "2026-10-25.scenes.v4",
+      "scenes": 5,
+      "found": 4,
+      "recall": 0.8,
+      "lost_to_quote_mismatch": [],
+      "missed": [
+        "f05"
+      ],
+      "results": [
+        {
+          "id": "f01",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_73100d88c87611e752bab599",
+          "match": "anchor_passage",
+          "document_id": "transcript_5d467dca06f78064adf23cf5"
+        },
+        {
+          "id": "f02",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_73100d88c87611e752bab599",
+          "match": "anchor_passage",
+          "document_id": "transcript_5d467dca06f78064adf23cf5"
+        },
+        {
+          "id": "f03",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_73100d88c87611e752bab599",
+          "match": "quote",
+          "document_id": "transcript_5d467dca06f78064adf23cf5"
+        },
+        {
+          "id": "f04",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_837bad7766811ae45daac73c",
+          "match": "anchor_passage",
+          "document_id": "transcript_5d467dca06f78064adf23cf5"
+        },
+        {
+          "id": "f05",
+          "found": false,
+          "lost_to_quote_mismatch": false,
+          "moment_id": null,
+          "match": null,
+          "document_id": "transcript_5d467dca06f78064adf23cf5"
+        }
+      ]
+    }
+  },
+  "found_by": {
+    "f01": {
+      "2026-10-18.scenes.v1": true,
+      "2026-10-19.scenes.v2": true,
+      "2026-10-25.scenes.v4": true
+    },
+    "f02": {
+      "2026-10-18.scenes.v1": true,
+      "2026-10-19.scenes.v2": true,
+      "2026-10-25.scenes.v4": true
+    },
+    "f03": {
+      "2026-10-18.scenes.v1": true,
+      "2026-10-19.scenes.v2": true,
+      "2026-10-25.scenes.v4": true
+    },
+    "f04": {
+      "2026-10-18.scenes.v1": true,
+      "2026-10-19.scenes.v2": true,
+      "2026-10-25.scenes.v4": true
+    },
+    "f05": {
+      "2026-10-18.scenes.v1": false,
+      "2026-10-19.scenes.v2": false,
+      "2026-10-25.scenes.v4": false
+    }
+  },
+  "only_found_by": {
+    "2026-10-18.scenes.v1": [],
+    "2026-10-19.scenes.v2": [],
+    "2026-10-25.scenes.v4": []
+  }
+}

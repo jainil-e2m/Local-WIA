@@ -1,0 +1,63 @@
+{
+  "status": "LOCAL_PACKAGE_VERIFIED",
+  "prepared_date": "2026-10-19",
+  "timezone": "Asia/Kolkata",
+  "payload_files": 6448,
+  "payload_bytes": 576487380,
+  "groups": {
+    "artifacts": {
+      "files": 3410,
+      "bytes": 264622280
+    },
+    "code": {
+      "files": 1291,
+      "bytes": 51960063
+    },
+    "context/reference-material": {
+      "files": 15,
+      "bytes": 2262977
+    },
+    "corpus": {
+      "files": 289,
+      "bytes": 11124009
+    },
+    "databases": {
+      "files": 1,
+      "bytes": 27973432
+    },
+    "dating-inputs": {
+      "files": 15,
+      "bytes": 12001647
+    },
+    "legacy-datastore": {
+      "files": 1135,
+      "bytes": 193318520
+    },
+    "sources/fathom-staging": {
+      "files": 42,
+      "bytes": 1769915
+    },
+    "sources/legacy-zoom": {
+      "files": 10,
+      "bytes": 469383
+    },
+    "sources/zoom-backfill": {
+      "files": 240,
+      "bytes": 10985154
+    }
+  },
+  "database_dump": "payload/databases/atelier.dump",
+  "database_restore_test": "passed; all 13 tables and 2657 chunk embeddings match",
+  "transcript_source_coverage": "170 of 170 original content hashes verified",
+  "credential_scan": "passed within documented scanner scope",
+  "code_history": "sanitized, 227 commits; original commit hashes changed",
+  "originals_preserved": true,
+  "temporary_helpers_removed": true,
+  "railway_upload_performed": false,
+  "upload_source_allowlist": "reports/payload-manifest.csv",
+  "remaining_upload_requirements": [
+    "Review transfer-tool implementation and verify Railway project/bucket ownership.",
+    "Adapt upload to the prepared dump and explicit payload allowlist.",
+    "Keep source originals and this package until owner confirmation."
+  ]
+}

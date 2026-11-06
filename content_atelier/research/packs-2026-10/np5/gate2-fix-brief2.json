@@ -1,0 +1,30 @@
+{
+  "purpose": "NP-6 correction on production: brief 2's Gate 2 edit of its story Reel's script (whose new text contains its old text) was applied three times by resumed runs of gate2.py, so the approved brief repeated one sentence three times. The WIA team (D12) edits it back to the single sentence the proof approved, then re-checks the claims and approves again, so the approved copy equals scratch copy B's.",
+  "actor": "ai@weddingindustryads.com",
+  "author": "WIA team under delegation (D12)",
+  "client_okay": "Before posting: WIA confirms the client's okay",
+  "briefs": [
+    {
+      "label": "brief 2",
+      "brief_id": "brief_b2ad696069930da13b4e2c4d",
+      "edits": [
+        {
+          "path": "format_plan.reels[0].script",
+          "old": "We recently sent a client some new ads, and they told me they didn't think they loved them. We recently sent a client some new ads, and they told me they didn't think they loved them. We recently sent a client some new ads, and they told me they didn't think they loved them.",
+          "new": "We recently sent a client some new ads, and they told me they didn't think they loved them."
+        }
+      ],
+      "cta": "keep",
+      "answers": {
+        "P1": "client_okay",
+        "P2": "Checked under D12 by the WIA team: the matching prior-coverage entries are unpublished cards from this cycle; no published piece links to them.",
+        "P3": "Confirmed under D12 by the WIA team: the copy states WIA's belief about creative approval and does not present this exchange as an across-client policy.",
+        "P4": "Confirmed under D12: no explicit ask on the Instagram pieces or the email.",
+        "P5": "Kept out under D12: the business stays unnamed; no performance claim, no suggestion the ads were poor, no claim the client declined them, and the quick-review line is not used."
+      },
+      "clearances": [],
+      "review_reason": "The WIA team checked every claim against the call under delegation (D12) after removing a sentence a resumed run had repeated; the copy is the version approved on scratch copy B.",
+      "reopen": true
+    }
+  ]
+}

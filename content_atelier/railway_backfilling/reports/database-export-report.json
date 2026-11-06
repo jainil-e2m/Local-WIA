@@ -1,0 +1,122 @@
+{
+  "exports": [
+    {
+      "database": "atelier",
+      "postgres": "17.10 (Debian 17.10-1.pgdg12+1)",
+      "pgvector": "0.8.2",
+      "tables": [
+        {
+          "schema": "public",
+          "name": "angle_moments",
+          "rows": 13
+        },
+        {
+          "schema": "public",
+          "name": "calendar_entries",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "content_angles",
+          "rows": 13
+        },
+        {
+          "schema": "public",
+          "name": "content_assets",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "content_briefs",
+          "rows": 2
+        },
+        {
+          "schema": "public",
+          "name": "content_packs",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "key_moments",
+          "rows": 14
+        },
+        {
+          "schema": "public",
+          "name": "pipeline_events",
+          "rows": 367
+        },
+        {
+          "schema": "public",
+          "name": "pipeline_jobs",
+          "rows": 92
+        },
+        {
+          "schema": "public",
+          "name": "pipeline_runs",
+          "rows": 49
+        },
+        {
+          "schema": "public",
+          "name": "transcript_chunks",
+          "rows": 2657
+        },
+        {
+          "schema": "public",
+          "name": "transcripts",
+          "rows": 170
+        },
+        {
+          "schema": "public",
+          "name": "weeks",
+          "rows": 20
+        }
+      ],
+      "source": "docker",
+      "role": "application_database",
+      "source_is_copy": true,
+      "transcript_chunks_embedded_rows": 2657,
+      "content_angles_embedded_rows": 13,
+      "schema_versions": [],
+      "payload_path": "databases/atelier.dump",
+      "dump_bytes": 27973432,
+      "dump_sha256": "ae33033d14860bf4d8765bcfa3da119395a7aec2bf2fd276fd5cd4873846a84d",
+      "dump_toc_verified": true,
+      "restored_sql_secret_scan": "passed"
+    }
+  ],
+  "excluded_databases": [
+    {
+      "source": "docker",
+      "database": "atelier_intake_test",
+      "reason": "test_database"
+    },
+    {
+      "source": "docker",
+      "database": "atelier_test",
+      "reason": "test_database"
+    },
+    {
+      "source": "docker",
+      "database": "postgres",
+      "reason": "empty_maintenance_database"
+    },
+    {
+      "source": "native",
+      "database": "atelier_calendar_migration_test",
+      "reason": "test_database"
+    },
+    {
+      "source": "native",
+      "database": "atelier_test",
+      "reason": "test_database"
+    },
+    {
+      "source": "native",
+      "database": "postgres",
+      "reason": "empty_maintenance_database"
+    }
+  ],
+  "errors": [],
+  "original_container_left_stopped": true,
+  "source_volumes_not_modified": true
+}

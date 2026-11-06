@@ -1,0 +1,30 @@
+{"call_id": "llm_d80bedde77354a5bb586d715", "event": "sent", "stage": "evaluation", "model": "openai/gpt-6.1-sol", "fingerprint": "W4-d4f2db12", "routing_policy": "2026-10-18.deny-collection-zdr.v1", "at": "2026-10-19T20:55:45.150369+00:00"}
+{"call_id": "llm_d80bedde77354a5bb586d715", "event": "succeeded", "cost_usd": 0.161791, "error": null, "at": "2026-10-19T20:58:25.087662+00:00"}
+{"call_id": "llm_1ed17f945ff042b3889b37fe", "event": "sent", "stage": "evaluation", "model": "anthropic/claude-sonnet-5.5", "fingerprint": "V1-d4f2db12", "routing_policy": "2026-10-18.deny-collection-zdr.v1", "at": "2026-10-19T20:58:25.204015+00:00"}
+{"call_id": "llm_1ed17f945ff042b3889b37fe", "event": "failed", "cost_usd": 0.0, "error": "HTTPStatusError: Client error '400 Bad Request' for url 'https://openrouter.ai/api/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400", "at": "2026-10-19T20:59:08.701615+00:00"}
+{"call_id": "llm_1f997f18fc6c4596a42b40c6", "event": "sent", "stage": "evaluation", "model": "anthropic/claude-sonnet-5.5", "fingerprint": "V1-d4f2db12", "routing_policy": "2026-10-18.deny-collection-zdr.v1", "at": "2026-10-19T21:07:34.924834+00:00"}
+{"call_id": "llm_1f997f18fc6c4596a42b40c6", "event": "succeeded", "cost_usd": 0.177638, "error": null, "at": "2026-10-19T21:08:45.053667+00:00"}
+{"call_id": "llm_dd08f9c041de4aa881a55e59", "event": "sent", "stage": "evaluation", "model": "openai/gpt-6.1-sol", "fingerprint": "R4-d4f2db12", "routing_policy": "2026-10-18.deny-collection-zdr.v1", "at": "2026-10-19T21:08:45.236016+00:00"}
+{"call_id": "llm_dd08f9c041de4aa881a55e59", "event": "succeeded", "cost_usd": 0.1473085, "error": null, "at": "2026-10-19T21:09:52.952734+00:00"}
+{"call_id": "llm_bceeafef09c242a4b17e9504", "event": "sent", "stage": "evaluation", "model": "anthropic/claude-sonnet-5.5", "fingerprint": "V2-d4f2db12", "routing_policy": "2026-10-18.deny-collection-zdr.v1", "at": "2026-10-19T21:09:53.077574+00:00"}
+{"call_id": "llm_bceeafef09c242a4b17e9504", "event": "succeeded", "cost_usd": 0.013552, "error": null, "at": "2026-10-19T21:09:56.040807+00:00"}
+{"call_id": "llm_525b253f799f48689fb20421", "event": "sent", "stage": "evaluation", "model": "openai/gpt-6.1-sol", "fingerprint": "W4-1f79f6d4", "routing_policy": "2026-10-18.deny-collection-zdr.v1", "at": "2026-10-19T21:09:56.216239+00:00"}
+{"call_id": "llm_525b253f799f48689fb20421", "event": "succeeded", "cost_usd": 0.0607157, "error": null, "at": "2026-10-19T21:12:38.200705+00:00"}
+{"call_id": "llm_ef85b918064a47c9b09d19f0", "event": "sent", "stage": "evaluation", "model": "anthropic/claude-sonnet-5.5", "fingerprint": "V1-1f79f6d4", "routing_policy": "2026-10-18.deny-collection-zdr.v1", "at": "2026-10-19T21:12:38.283257+00:00"}
+{"call_id": "llm_ef85b918064a47c9b09d19f0", "event": "succeeded", "cost_usd": 0.125244, "error": null, "at": "2026-10-19T21:13:37.602093+00:00"}
+{"call_id": "llm_2c66bb3ec1624a0986eb641c", "event": "sent", "stage": "evaluation", "model": "openai/gpt-6.1-sol", "fingerprint": "W4-d0e9fbc9", "routing_policy": "2026-10-18.deny-collection-zdr.v1", "at": "2026-10-19T21:13:37.798431+00:00"}
+{"call_id": "llm_2c66bb3ec1624a0986eb641c", "event": "succeeded", "cost_usd": 0.0729357, "error": null, "at": "2026-10-19T21:17:02.018255+00:00"}
+{"call_id": "llm_323f9a9664d445dbb5db7cde", "event": "sent", "stage": "evaluation", "model": "anthropic/claude-sonnet-5.5", "fingerprint": "V1-d0e9fbc9", "routing_policy": "2026-10-18.deny-collection-zdr.v1", "at": "2026-10-19T21:17:02.135482+00:00"}
+{"call_id": "llm_323f9a9664d445dbb5db7cde", "event": "succeeded", "cost_usd": 0.12794, "error": null, "at": "2026-10-19T21:18:04.723447+00:00"}
+{"call_id": "llm_a949f77b0543435295373913", "event": "sent", "stage": "evaluation", "model": "anthropic/claude-sonnet-5.5", "fingerprint": "J-eb22-c3-d4f2db12", "routing_policy": "2026-10-18.deny-collection-zdr.v1", "at": "2026-10-19T21:18:20.914736+00:00"}
+{"call_id": "llm_a949f77b0543435295373913", "event": "succeeded", "cost_usd": 0.18426, "error": null, "at": "2026-10-19T21:18:42.807418+00:00"}
+{"call_id": "llm_a8a3973fc26541bbb7793e7a", "event": "sent", "stage": "evaluation", "model": "anthropic/claude-sonnet-5.5", "fingerprint": "J-c3-eb22-d4f2db12", "routing_policy": "2026-10-18.deny-collection-zdr.v1", "at": "2026-10-19T21:18:42.818923+00:00"}
+{"call_id": "llm_a8a3973fc26541bbb7793e7a", "event": "succeeded", "cost_usd": 0.0470312, "error": null, "at": "2026-10-19T21:18:59.460114+00:00"}
+{"call_id": "llm_f85cf8778797469d8fbb9413", "event": "sent", "stage": "evaluation", "model": "anthropic/claude-sonnet-5.5", "fingerprint": "J-eb22-c3-1f79f6d4", "routing_policy": "2026-10-18.deny-collection-zdr.v1", "at": "2026-10-19T21:18:59.480936+00:00"}
+{"call_id": "llm_f85cf8778797469d8fbb9413", "event": "succeeded", "cost_usd": 0.0488772, "error": null, "at": "2026-10-19T21:19:21.529704+00:00"}
+{"call_id": "llm_970b4d393d2744aa9ffa73b6", "event": "sent", "stage": "evaluation", "model": "anthropic/claude-sonnet-5.5", "fingerprint": "J-c3-eb22-1f79f6d4", "routing_policy": "2026-10-18.deny-collection-zdr.v1", "at": "2026-10-19T21:19:21.542623+00:00"}
+{"call_id": "llm_970b4d393d2744aa9ffa73b6", "event": "succeeded", "cost_usd": 0.0488772, "error": null, "at": "2026-10-19T21:19:43.366115+00:00"}
+{"call_id": "llm_4c62a9c257e545d6acc00691", "event": "sent", "stage": "evaluation", "model": "anthropic/claude-sonnet-5.5", "fingerprint": "J-eb22-c3-d0e9fbc9", "routing_policy": "2026-10-18.deny-collection-zdr.v1", "at": "2026-10-19T21:19:43.387856+00:00"}
+{"call_id": "llm_4c62a9c257e545d6acc00691", "event": "succeeded", "cost_usd": 0.0404632, "error": null, "at": "2026-10-19T21:19:55.869005+00:00"}
+{"call_id": "llm_4679b0aa69db46379117861c", "event": "sent", "stage": "evaluation", "model": "anthropic/claude-sonnet-5.5", "fingerprint": "J-c3-eb22-d0e9fbc9", "routing_policy": "2026-10-18.deny-collection-zdr.v1", "at": "2026-10-19T21:19:55.884514+00:00"}
+{"call_id": "llm_4679b0aa69db46379117861c", "event": "succeeded", "cost_usd": 0.0422532, "error": null, "at": "2026-10-19T21:20:09.098849+00:00"}

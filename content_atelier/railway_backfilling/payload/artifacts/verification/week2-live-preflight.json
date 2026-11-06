@@ -1,0 +1,48 @@
+{
+  "week_id": "week_2026-06-08",
+  "workflow": "historical_comparison_v1",
+  "source_count": 11,
+  "passage_count": 5218,
+  "packet_utf8_bytes": 516999,
+  "request_message_utf8_bytes": 533885,
+  "local_input_limits_enabled": false,
+  "request_output_cap": null,
+  "history_vectors": 6,
+  "history_ids": [
+    "angle_0fbe8cc9cfffa8f9d70fdb6f",
+    "angle_9d5b915e1d67f035e55a6c6e",
+    "angle_ab0db137df928ed4e835dfda",
+    "angle_b8d9b3f43299c825040d7812",
+    "angle_d5e284128bd876fcc252938e",
+    "angle_d745e4ebad2bc0287e9a7087"
+  ],
+  "chat_endpoint": "https://openrouter.ai/api/v1/chat/completions",
+  "embedding_endpoint": "https://openrouter.ai/api/v1/embeddings",
+  "chat_model": "openai/gpt-6-luna",
+  "embedding_model": "openai/text-embedding-3-small",
+  "dimensions": 1536,
+  "schema": {
+    "tables": 13,
+    "vectors": [
+      {
+        "table_name": "content_angles",
+        "attname": "embedding",
+        "type": "vector(1536)"
+      },
+      {
+        "table_name": "transcript_chunks",
+        "attname": "embedding",
+        "type": "vector(1536)"
+      }
+    ],
+    "schema_sha256": "1f89fa2894074cd6c54b51083e6c775a76ac1e1f59341d3b3f2fbefbb25fc6bb",
+    "foreign_keys": 30,
+    "checks": 18
+  },
+  "persistent_switches": {
+    "generation": false,
+    "encoding": false,
+    "refinement": false
+  },
+  "external_calls": 0
+}

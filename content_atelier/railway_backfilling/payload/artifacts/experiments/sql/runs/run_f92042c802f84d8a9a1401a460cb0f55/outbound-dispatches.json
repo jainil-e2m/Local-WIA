@@ -1,0 +1,57 @@
+{
+  "run_id": "run_f92042c802f84d8a9a1401a460cb0f55",
+  "calls": [
+    {
+      "stage": "moment_extraction",
+      "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+      "model": "openai/gpt-6-luna",
+      "dispatched_at": "2026-10-12T09:54:16.483294+00:00"
+    },
+    {
+      "stage": "angle_generation",
+      "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+      "model": "openai/gpt-6-luna",
+      "dispatched_at": "2026-10-12T09:55:03.062408+00:00"
+    },
+    {
+      "stage": "angle_initial_embedding",
+      "endpoint": "https://openrouter.ai/api/v1/embeddings",
+      "model": "openai/text-embedding-3-small",
+      "dispatched_at": "2026-10-12T10:18:35.390940+00:00"
+    },
+    {
+      "stage": "angle_initial_embedding",
+      "endpoint": "https://openrouter.ai/api/v1/embeddings",
+      "model": "openai/text-embedding-3-small",
+      "dispatched_at": "2026-10-12T10:18:38.138289+00:00"
+    },
+    {
+      "stage": "angle_initial_embedding",
+      "endpoint": "https://openrouter.ai/api/v1/embeddings",
+      "model": "openai/text-embedding-3-small",
+      "dispatched_at": "2026-10-12T10:18:40.528152+00:00"
+    },
+    {
+      "stage": "angle_initial_embedding",
+      "endpoint": "https://openrouter.ai/api/v1/embeddings",
+      "model": "openai/text-embedding-3-small",
+      "dispatched_at": "2026-10-12T10:18:42.974703+00:00"
+    },
+    {
+      "stage": "angle_initial_embedding",
+      "endpoint": "https://openrouter.ai/api/v1/embeddings",
+      "model": "openai/text-embedding-3-small",
+      "dispatched_at": "2026-10-12T10:18:45.264973+00:00"
+    },
+    {
+      "stage": "angle_initial_embedding",
+      "endpoint": "https://openrouter.ai/api/v1/embeddings",
+      "model": "openai/text-embedding-3-small",
+      "dispatched_at": "2026-10-12T10:18:47.485901+00:00"
+    }
+  ],
+  "chat_dispatches": {
+    "moment_extraction": 1,
+    "angle_generation": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J0-gpt-6-luna-P04-HA",
+  "model": "openai/gpt-6-luna",
+  "provider": "OpenAI",
+  "effort": null,
+  "prompt_tokens": 188,
+  "completion_tokens": 294,
+  "cached_tokens": 0,
+  "cost": 0.0001658,
+  "seconds": 4.4,
+  "finish": "stop",
+  "system_sha": "ea72523eb9c9",
+  "user_sha": "a817d5fda7fa"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 4,
+  "reason": "It directly highlights WIA’s Google and Meta ads, while A focuses on a generic funnel rather than WIA’s core service."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: threads\n\nVersion A:\n\"you look happier\"\nThanks, I stopped taking dead-end sales calls.\nNow my funnel weeds out tire kickers and pre-sells my services before I even get on Zoom.\n\nVersion B:\n“you look less stressed”  \nThanks, I stopped chasing the algorithm.  \nNow I run Google + Meta Ads that bring in leads on autopilot.",
+  "cache_prefix_sha": "ea72523eb9c9"
+ }
+}

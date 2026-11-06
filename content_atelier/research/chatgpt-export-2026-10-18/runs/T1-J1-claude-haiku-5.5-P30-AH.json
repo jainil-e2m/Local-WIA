@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J1-claude-haiku-5.5-P30-AH",
+  "model": "anthropic/claude-haiku-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 16281,
+  "completion_tokens": 688,
+  "cached_tokens": 15842,
+  "cost": 0.00054632,
+  "seconds": 3.8,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "bb57a6497f5f"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 3,
+  "reason": "Version B is more measured and matches WIA's positioning that organic and referrals are a ceiling rather than something to dismiss, while Version A's 'done wasting time on SEO and organic social' reads as a dig and makes an unverified claim, though B's phrasing is clunky."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: other\n\nVersion A:\nWe’re Whitney and Daniela, co-founders of Wedding Industry Ads. We help venues and wedding professionals run strategic, profitable Google and Meta ad campaigns. From florists to planners to venue owners, we’ve worked with pros who were done wasting time on SEO and organic social — and ready for a system that consistently brings in quality leads and books their calendar.\n\nVersion B:\nWe’re Whitney and Daniela, co-founders of Wedding Industry Ads. We help venues and wedding professionals run profitable Google and Meta ad campaigns. From venues to planners to photographers, we work with pros who are ready to grow their businesses beyond organic marketing and referrals. They want to amplify their marketing strategically to create a lead generation system that consistently brings in high-quality leads.",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

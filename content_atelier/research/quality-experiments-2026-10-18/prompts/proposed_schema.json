@@ -1,0 +1,24 @@
+{"type":"object","additionalProperties":false,"required":["week_summary","angles","internal_insights","considered_not_selected"],
+ "properties":{
+  "week_summary":{"type":"string"},
+  "angles":{"type":"array","items":{"type":"object","additionalProperties":false,
+    "required":["rank","title","pillar","content_type","audience","core_perspective","why_it_matters","wia_in_action","offer_connection","moment_ids","evidence_points","verify_before_publishing","why_selected"],
+    "properties":{
+      "rank":{"type":"integer"},
+      "title":{"type":"string"},
+      "pillar":{"type":"string","enum":["ATTRACT","WARM","CONVERT"]},
+      "content_type":{"type":"string","enum":["polarizing_opinion","founder_forward","campaign_breakdown","trend","uvp","lightbulb_moment","process_or_framework","behind_the_scenes","education","founder_story","solution_selling","social_proof"]},
+      "audience":{"type":"string"},
+      "core_perspective":{"type":"string"},
+      "why_it_matters":{"type":"string"},
+      "wia_in_action":{"type":["string","null"]},
+      "offer_connection":{"type":["string","null"]},
+      "moment_ids":{"type":"array","items":{"type":"string"}},
+      "evidence_points":{"type":"array","items":{"type":"string"}},
+      "verify_before_publishing":{"type":"array","items":{"type":"string"}},
+      "why_selected":{"type":"string"}}}},
+  "internal_insights":{"type":"array","items":{"type":"object","additionalProperties":false,"required":["moment_ids","insight","use"],
+    "properties":{"moment_ids":{"type":"array","items":{"type":"string"}},"insight":{"type":"string"},"use":{"type":"string"}}}},
+  "considered_not_selected":{"type":"array","items":{"type":"object","additionalProperties":false,"required":["moment_ids","idea","reason"],
+    "properties":{"moment_ids":{"type":"array","items":{"type":"string"}},"idea":{"type":"string"},"reason":{"type":"string"}}}}
+ }}

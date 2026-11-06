@@ -1,0 +1,42 @@
+/* Optional KB-only palette. Hash navigation retains ?variant=blue. */
+:root[data-variant='blue'] {
+  --gold: #346bd6;
+  --line: #d7e5fb;
+  --shadow: 0 5px 24px rgba(57, 107, 178, .055);
+  --variant-accent: #346bd6;
+  --variant-soft: #e2edff;
+  --variant-ink: #3269ae;
+  background: #f4f8ff;
+}
+[data-variant='blue'] .ambient {
+  background: radial-gradient(ellipse at 88% 4%, #e8f1ff 0, transparent 42%), radial-gradient(ellipse at 6% 100%, #e8f1ff 0, transparent 40%), #f4f8ff;
+}
+[data-variant='blue'] .sidebar { border-right-color: #7ea7ee; box-shadow: 10px 0 28px rgba(57,107,178,.06); }
+[data-variant='blue'] .nav-item.active { background: #e4edff; }
+[data-variant='blue'] .nav-item b, [data-variant='blue'] .segmented button span { background: #dceaff; color: #4b79b6; }
+[data-variant='blue'] .nav-divider { background: #dce7f7; }
+[data-variant='blue'] .preview-badge { color: var(--variant-ink); background: var(--variant-soft); border-color: #caddfc; }
+[data-variant='blue'] .preview-badge > span, [data-variant='blue'] .notification-button i, [data-variant='blue'] .attention-dot { background: #3e82db; }
+[data-variant='blue'] .page-description, [data-variant='blue'] .dashboard-hero > div > p:last-child { color: #3266b6; }
+[data-variant='blue'] .button-gold { background: var(--variant-accent); box-shadow: 0 3px 9px #346bd620; }
+[data-variant='blue'] .button-gold:hover { background: #2857ba; }
+[data-variant='blue'] :is(.text-amber, .text-green, .text-rose) { color: var(--variant-ink); }
+[data-variant='blue'] :is(.badge-blue, .badge-green, .badge-amber, .badge-gold, .badge-rose) { color: var(--variant-ink); background: var(--variant-soft); }
+[data-variant='blue'] .client-avatar { background: var(--variant-soft); color: #4878bd; border-color: #d0e2fc; }
+[data-variant='blue'] .sparkline { color: #5c90e5; }
+[data-variant='blue'] .coverage-track { background: #e2edff; }
+[data-variant='blue'] .coverage-track span { background: #719cf3; }
+[data-variant='blue'] .segmented { background: #e7eefb; }
+[data-variant='blue'] :is(.client-card, .source-card, .connection-card, .call-brief, .stat) { border-color: var(--line); }
+[data-variant='blue'] .client-card:hover { border-color: #adcafa; }
+[data-variant='blue'] :is(.focus-icon, .contract-icon, .about-icon, .loop-marker.overdue) { background: #edf4ff; color: #5b8bd4; }
+[data-variant='blue'] .listening-note { color: #78a0df; }
+[data-variant='blue'] .call-objective { background: #eff5ff; border-color: #d7e6ff; color: #6692d5; }
+[data-variant='blue'] .call-objective h3 { color: #396aa9; }
+[data-variant='blue'] .call-objective .small-label { color: #698fc6; }
+[data-variant='blue'] :is(.agenda-list span, .handover-sections section > span) { color: #7da1d9; }
+[data-variant='blue'] .next-meeting { background: #eff5ff; }
+[data-variant='blue'] :is(.lane-0, .lane-3) button { background: #7da1d9; }
+[data-variant='blue'] .health-orb { background: #edf4ff; color: #7199d4; }
+[data-variant='blue'] :is(.signal-excerpt, .evidence-quote) { color: #7b9ed5; }
+[data-variant='blue'] .atelier-calendar-grid button.today { border-color: #8eb4f1; color: var(--variant-ink); }

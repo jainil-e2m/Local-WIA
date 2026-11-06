@@ -1,0 +1,27 @@
+{
+ "angle_id": "angle_e433d15abd5303981d557ef8",
+ "request": {
+  "expected_hash": "bb78fc67caad81f93955a2e3bb63030dd76005eb19f2c48dab20011ab2b49d97",
+  "disposition": "develop",
+  "author": "kenil.shah@e2m.solutions (delegated, D12)",
+  "note": "Developed for N11's benchmark on scratch copy D (delegated, D12, R55). The overlap is with the same week's first benchmark sample (strategist v8), whose card on this moment is not developed: this is the second sample of the same week, not a second piece.",
+  "cta": {
+   "choice": "decide_in_development"
+  },
+  "verify_acknowledged": [
+   "Confirm permission and verify SLO against the recording before quoting or displaying the term."
+  ],
+  "overlap_acknowledged": true
+ },
+ "status": 200,
+ "response": {
+  "angle_id": "angle_e433d15abd5303981d557ef8",
+  "approval_status": "approved",
+  "decision_id": "decision_b7220c1c0d56463b8abbc570c44e13e5",
+  "brief_run": {
+   "run_id": "brief_run_938b4fbbb1773d9f8cae9dc0",
+   "status": "queued"
+  },
+  "disposition": "develop"
+ }
+}

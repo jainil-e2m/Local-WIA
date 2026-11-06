@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J1-claude-haiku-5.5-P29-HA",
+  "model": "anthropic/claude-haiku-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 16478,
+  "completion_tokens": 596,
+  "cached_tokens": 15842,
+  "cost": 0.00052002,
+  "seconds": 3.6,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "be0ea64bd7c9"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 4,
+  "reason": "Version A leans on a 'spend money to make money' message and a hard-sell 'DM us ELEVATE' CTA, which contradict Whitney's stance against spend-more advice and earned CTAs, while Version B reframes the hesitation more thoughtfully, though its repeated 'doubled' claims are still a weakness."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: caption\n\nVersion A:\nWhat if the biggest thing holding your business back is your mindset in investing in your growth.\n\nMost wedding business owners hesitate about investing in ads.\n\nSo they DIY it without direction or they hire a freelancer or agency whose the most cost effective option.\n\nIt feels safer because you're making budget-conscious decisions.\n\nWhen in reality, the results are falling flat because of what's missing.\n[...]\nOne of our wedding planner clients was so matter of fact when she told us:\n\n\"You have to spend money to make money.\"\n\nShe committed to a full advertising strategy, trusted the process, and stayed consistent.\n\nOne year later:\nHer inquiry volume doubled.\nHer revenue doubled.\nShe's personally booked out.\nShe's growing her team.\nShe's fully stepping into her role as CEO.\n\nThe businesses that make the biggest leaps are the ones willing to make strategic decisions before they feel \"ready.\"\n\nIf you're ready to stop guessing and build a client acquisition system that actually grows your business, DM us ELEVATE and let's talk.\n\nVersion B:\nWhat if the biggest thing holding your business back isn't your budget... it's your belief about investing in growth?\n\nMost wedding business owners hesitate before investing in marketing.\n\nYou wonder:\n- \"What if it doesn't work?\"\n- \"What if I waste my money?\"\n[...]\nOne year later:\nHer inquiry volume doubled.\nHer business doubled.\nHer revenue doubled.",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

@@ -1,0 +1,61 @@
+[
+  {
+    "local_key": "google_ads_timeline",
+    "error": "Context boundaries must be chronological within the same meeting",
+    "received_record": {
+      "local_key": "google_ads_timeline",
+      "anchor_span_ids": [
+        "m1.t0151",
+        "m1.t0153",
+        "m3.t0375"
+      ],
+      "context_first_span_id": "m1.t0151",
+      "context_last_span_id": "m3.t0375",
+      "quote": "don't touch the ads",
+      "context_summary": "Carmen sets expectations with Shannon for the Love Like Wild Google Ads launch: the first two weeks leave the ads alone and let data run, monitor for 72 hours, expect leads after about a month, and take a full 3 months (90 days) to know if it's truly working.",
+      "moment_type": "mechanism",
+      "proposition": "Google Ads needs a 90-day runway before evaluation; early silence is normal, not failure.",
+      "audience_relevance": "Owners who stop or panic-spend after a few weeks never give search ads the data they need.",
+      "qualifications": [
+        "Agency practitioner's stated process, not audited results.",
+        "Individual results vary by buyer intent and search volume."
+      ],
+      "claim_status": "reported",
+      "sensitivity": "public_candidate",
+      "strength": 4,
+      "reasons": [
+        "Gives a concrete evaluation window instead of vague 'wait and see.'",
+        "Explains the sequence: no-touch period, 72-hour monitor, month-one leads, 90-day verdict."
+      ]
+    }
+  },
+  {
+    "local_key": "tour_cancellation_rate",
+    "error": "Moment quote must match an existing anchor span",
+    "received_record": {
+      "local_key": "tour_cancellation_rate",
+      "anchor_span_ids": [
+        "m4.t0246",
+        "m4.t0254"
+      ],
+      "context_first_span_id": "m4.t0236",
+      "context_last_span_id": "m4.t0254",
+      "quote": "55% of the tours from ads",
+      "context_summary": "Fallon audits Davis and Gray Farms and finds lead volume is acceptable but roughly 55% of ad-sourced tours cancel, with reasons including destination-wedding decisions and work emergencies. She recommends narrowing targeting to closer zip codes and improving the landing page.",
+      "moment_type": "result",
+      "proposition": "Good lead volume can still mean a broken funnel if tours cancel at high rates.",
+      "audience_relevance": "Venues and planners should track tour show/cancel rates, not just inquiry counts.",
+      "qualifications": [
+        "Single client, internal LeadLock data.",
+        "Cancellation reasons are self-reported by the client."
+      ],
+      "claim_status": "reported",
+      "sensitivity": "internal_only",
+      "strength": 4,
+      "reasons": [
+        "Shows a metric owners often ignore (tour cancellation) that undermines lead quality.",
+        "Pairs the problem with two concrete fixes: tighter targeting and page clarity."
+      ]
+    }
+  }
+]

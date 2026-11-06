@@ -1,0 +1,11 @@
+{
+  "model": "openai/text-embedding-3-small",
+  "input": [
+    "Internally verify the transcript speaker labels against meeting attendance records or source metadata; do not use names in external searches.",
+    "Check the recording’s consent, confidentiality, and public-reuse terms before considering any attributed quotation or identifying details.",
+    "Check internal product documentation or release records for whether the proposed LeadLock survey and shared-spreadsheet workflow was implemented.",
+    "Verify whether survey setup is currently offered as a client service, distinguishing a live offering from the proposal in this meeting."
+  ],
+  "dimensions": 1536,
+  "encoding_format": "float"
+}

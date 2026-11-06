@@ -1,0 +1,124 @@
+[
+ {
+  "label": "brief 1",
+  "brief_id": "brief_3bc1cb7f812a42be9214ba4d588fa54b",
+  "content_hash": "f1777b7f5c3c948eed939dcbd5df8e326a6f0cffd427b58135235c170df8a305",
+  "steps": [
+   {
+    "cta": "explicit"
+   },
+   {
+    "answers": [
+     "P1",
+     "P2",
+     "P3",
+     "P4",
+     "P5"
+    ]
+   },
+   {
+    "review": 49
+   },
+   {
+    "decision": "approved",
+    "pack_run": {
+     "pack_id": "pack_50ddb51d110c81abee455f22",
+     "run_id": "pack_run_50ddb51d110c81abee455f22",
+     "status": "queued",
+     "mode": "live"
+    },
+    "pack_note": null
+   }
+  ]
+ },
+ {
+  "label": "brief 2",
+  "brief_id": "brief_c5165e590e22442682fb5c55f9679896",
+  "content_hash": "d5dd6bf1d3e65aac15d7835020d8dbcfa31e914e749cfa1668934d2943493cfe",
+  "steps": [
+   {
+    "edit": [
+     "format_plan.email.body",
+     "format_plan.email.opening",
+     "format_plan.reels[0].script",
+     "supporting_example.scene"
+    ],
+    "brief_id": "brief_a8d078e99d96414db4235a0555616442"
+   },
+   {
+    "cta": "no_explicit_ask"
+   },
+   {
+    "answers": [
+     "P1",
+     "P2",
+     "P3",
+     "P4",
+     "P5"
+    ]
+   },
+   {
+    "review": 42
+   },
+   {
+    "decision": "approved",
+    "pack_run": {
+     "pack_id": "pack_cf717ff58a9ef86bae562411",
+     "run_id": "pack_run_cf717ff58a9ef86bae562411",
+     "status": "queued",
+     "mode": "live"
+    },
+    "pack_note": null
+   }
+  ]
+ },
+ {
+  "label": "brief 3",
+  "brief_id": "brief_4efa9b9dcbba4851a3f9f00640ee5ca3",
+  "content_hash": "688ccc209a193d03893414f13f4da65a729f99dbfbed6a6ac9bdfe6eef4e837f",
+  "steps": [
+   {
+    "edit": [
+     "format_plan.carousel.slides[2].text",
+     "format_plan.email.opening",
+     "format_plan.reels[0].caption.body",
+     "format_plan.reels[0].cover_text",
+     "format_plan.reels[0].script",
+     "format_plan.reels[1].caption.body",
+     "format_plan.reels[1].cover_text",
+     "format_plan.reels[1].screens[1]",
+     "supporting_example.credits[1].did",
+     "supporting_example.details[0]",
+     "supporting_example.scene",
+     "supporting_example.timestamps[0]"
+    ],
+    "brief_id": "brief_7e16cd69cf084efe9b9c7f6bd72120dc"
+   },
+   {
+    "cta": "explicit"
+   },
+   {
+    "answers": [
+     "P1",
+     "P2",
+     "P3",
+     "P4",
+     "P5"
+    ]
+   },
+   {
+    "review": 66
+   },
+   {
+    "decision": "approved",
+    "pack_run": {
+     "pack_id": "pack_32a0d763b2207c2eb65d4070",
+     "run_id": "pack_run_32a0d763b2207c2eb65d4070",
+     "status": "queued",
+     "mode": "live"
+    },
+    "pack_note": null
+   }
+  ]
+ }
+]

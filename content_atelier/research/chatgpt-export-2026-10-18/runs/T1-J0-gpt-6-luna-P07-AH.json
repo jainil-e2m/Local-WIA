@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J0-gpt-6-luna-P07-AH",
+  "model": "openai/gpt-6-luna",
+  "provider": "OpenAI",
+  "effort": null,
+  "prompt_tokens": 289,
+  "completion_tokens": 402,
+  "cached_tokens": 0,
+  "cost": 0.0002299,
+  "seconds": 6.2,
+  "finish": "stop",
+  "system_sha": "ea72523eb9c9",
+  "user_sha": "249663061a3e"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 4,
+  "reason": "It makes the cost of being hard to find clear without the overly absolute claim that none of your strengths matter."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: stories\n\nVersion A:\nYou’re the venue couples dream about.  \nYou’re the planner who overdelivers.  \nYou’re the creative who makes wedding day magic.\n\nBut if couples can’t find you on Google, none of that matters.\n\nHere’s the hard truth:\n\nVendors who aren’t as good as you are getting booked — simply because they showed up first in the search.\n\nVersion B:\nYou’re the venue couples dream about.\nYou’re the planner who overdelivers.\nYou’re the creative who makes wedding day magic.\n\nBut if ideal couples can’t find you on Google, you’re missing out on ready-to-book, high-intent leads.\n\nHere’s the hard truth you may not want to hear:\nCouples are searching. And they’re finding your competitors first.\nEven the less qualified ones are winning bookings...simply because they’re easier to find.",
+  "cache_prefix_sha": "ea72523eb9c9"
+ }
+}

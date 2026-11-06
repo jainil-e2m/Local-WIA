@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J0-gpt-6-luna-P34-AH",
+  "model": "openai/gpt-6-luna",
+  "provider": "OpenAI",
+  "effort": null,
+  "prompt_tokens": 192,
+  "completion_tokens": 742,
+  "cached_tokens": 0,
+  "cost": 0.0003902,
+  "seconds": 9.8,
+  "finish": "stop",
+  "system_sha": "ea72523eb9c9",
+  "user_sha": "7c99e581b14b"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 4,
+  "reason": "It speaks to the inconsistent results many prospects actually face, rather than assuming they already see leads and are ready to scale."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: email\n\nVersion A:\nThis is where many businesses find themselves.\nThey know ads work.\nThey’re seeing leads.\nNow they’re thinking more strategically about how to scale.\n\nVersion B:\n(Locked replacement) They believe ads should work for their business — but they haven’t seen consistent results yet. They may have tried one platform and felt unsure whether it was doing what it was supposed to do.",
+  "cache_prefix_sha": "ea72523eb9c9"
+ }
+}

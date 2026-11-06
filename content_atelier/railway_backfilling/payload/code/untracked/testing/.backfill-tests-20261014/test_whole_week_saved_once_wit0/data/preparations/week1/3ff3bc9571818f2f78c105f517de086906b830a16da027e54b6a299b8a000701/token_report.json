@@ -1,0 +1,73 @@
+{
+  "tokenizer": "o200k_harmony",
+  "tokenizer_package": "tiktoken==0.12.0",
+  "vocabulary_sha256": "446a9538cb6c348e3516120d7c08b09f57c36495e2acfffe59a5bf8b0cfb1a2d",
+  "counting_is_local": true,
+  "hosted_provider_exact_input_tokens": null,
+  "method": "Exact local BPE counts of rendered messages; minified schema is a provider-format proxy. Margin is not measured usage.",
+  "system_text_tokens": 17384,
+  "user_text_tokens": 4472,
+  "message_text_tokens": 21856,
+  "source_packet_tokens": 374,
+  "schema_proxy_tokens": 3057,
+  "input_with_schema_proxy_tokens": 24913,
+  "provider_framing_and_schema_margin": 2048,
+  "context_limit_reference_tokens": 131072,
+  "selected_completion_reserve": 20480,
+  "selected_reserve_includes_reasoning_and_final_json": true,
+  "context_headroom_after_reserves": 83631,
+  "capacity_fits_selected_budget": true,
+  "coverage_only_output_tokens": 65,
+  "completion_space_after_coverage_only": 20415,
+  "completion_budget_scenarios": [
+    {
+      "completion_reserved": 16384,
+      "remaining_context": 87727,
+      "fits": true
+    },
+    {
+      "completion_reserved": 20480,
+      "remaining_context": 83631,
+      "fits": true
+    },
+    {
+      "completion_reserved": 24576,
+      "remaining_context": 79535,
+      "fits": true
+    },
+    {
+      "completion_reserved": 32768,
+      "remaining_context": 71343,
+      "fits": true
+    }
+  ],
+  "request_serialized_characters": 25418,
+  "dialogue_only_tokens_sum": 38,
+  "per_source": [
+    {
+      "meeting_ref": "m1",
+      "filename": "meeting.txt",
+      "turns": 1,
+      "cue_turns": 1,
+      "packet_tokens_in_isolation": 187
+    },
+    {
+      "meeting_ref": "m2",
+      "filename": "second.txt",
+      "turns": 1,
+      "cue_turns": 1,
+      "packet_tokens_in_isolation": 186
+    }
+  ],
+  "legacy_message_text_tokens": 19105,
+  "message_token_reduction_percent": -14.4,
+  "source_count": 2,
+  "turn_count": 2,
+  "requested_model": "openai/gpt-oss-120b:free",
+  "requested_route_advertised_in_snapshot": null,
+  "meeting_metadata_complete": false,
+  "live_readiness": "not_cleared",
+  "live_requests_sent": 0,
+  "profile": "2026-10-13.wia-strategic-discovery.v1.preparation",
+  "legacy_live_runner_uses_this_profile": false
+}

@@ -1,0 +1,156 @@
+{
+  "files": [
+    {
+      "path": "backend/backend_pipeline/prompt_templates/angle_generation.sql_comparison_v1.md",
+      "sha256": "addf5cbe4fe0c1c3354308a2312ab2fb1ef508d4e9cbb75836c1c452707252f7",
+      "bytes": 1243
+    },
+    {
+      "path": "backend/backend_pipeline/prompt_templates/angle_generation.system.md",
+      "sha256": "a0f2e497a0113474469a1dc0336ad04fc4aa3711145c84b4dad53174ae24d867",
+      "bytes": 8989
+    },
+    {
+      "path": "backend/backend_pipeline/prompt_templates/angle_generation.user.md",
+      "sha256": "dd7bb005807ee1fc654a2bfae524b5ad8b0b7409d37223767275bbc9df7de0ea",
+      "bytes": 9517
+    },
+    {
+      "path": "backend/backend_pipeline/prompt_templates/angle_refinement.sql_comparison_v1.md",
+      "sha256": "9cee513f405a1485f52bd592ef940b1b1d0d127a7921202895b4b38c1a7aa5b0",
+      "bytes": 1418
+    },
+    {
+      "path": "backend/backend_pipeline/prompt_templates/brief_grade.v1.md",
+      "sha256": "241d72a18aa8fc4e0a11361a1c378a0242e3e8c197e244e6152c061d843c4344",
+      "bytes": 558
+    },
+    {
+      "path": "backend/backend_pipeline/prompt_templates/brief_plan.v1.md",
+      "sha256": "d31fb515d8cad7f6a95e7a35f7d078b3e9ce28397686eaf191419884c3fbc0ea",
+      "bytes": 563
+    },
+    {
+      "path": "backend/backend_pipeline/prompt_templates/brief_repair.v1.md",
+      "sha256": "3c7e4121baa1a9e3e1ab507f41379d497c0663f26799fd60b08eddc344771b0c",
+      "bytes": 537
+    },
+    {
+      "path": "backend/backend_pipeline/prompt_templates/brief_review.v1.md",
+      "sha256": "3f921267d24278536185c82701a0592570d17daf34aff9ba3fa9ebe84de08878",
+      "bytes": 986
+    },
+    {
+      "path": "backend/backend_pipeline/prompt_templates/brief_write.v1.md",
+      "sha256": "4d2ed0629a5e977ceab822409ffefad479130dd0f7a656456783d0b66a3dbba3",
+      "bytes": 2017
+    },
+    {
+      "path": "backend/backend_pipeline/prompt_templates/editorial_policy.md",
+      "sha256": "7296620c8c8f2af6aac7840b9f9d8d23627e0490f82dd0458e76ce4f66fdcfc9",
+      "bytes": 5344
+    },
+    {
+      "path": "backend/backend_pipeline/prompt_templates/moment_extraction.compact.md",
+      "sha256": "3c69f6099c8b45015d18e529bcbbaf9656e878392f583808df491a59e333f0ec",
+      "bytes": 2741
+    },
+    {
+      "path": "backend/backend_pipeline/prompt_templates/moment_extraction.system.md",
+      "sha256": "89c0477fb4f01b8e81a6fc80a441cb8d33b9a86874ddd63dc5bd21fdce4f34af",
+      "bytes": 3624
+    },
+    {
+      "path": "backend/backend_pipeline/prompt_templates/moment_extraction.user.md",
+      "sha256": "950ba4937cc37361e4dc6098921c3a67464a693e6473eead962d9e25631789e3",
+      "bytes": 4117
+    },
+    {
+      "path": "backend/backend_pipeline/prompt_templates/moment_extraction.weekly_v2.md",
+      "sha256": "496fc190e3666c611049ea6c40d74f1b13a36751da043b9801fc5f4648e86d2d",
+      "bytes": 4776
+    },
+    {
+      "path": "backend/backend_pipeline/prompt_templates/moment_extraction.weekly_v3.md",
+      "sha256": "9e1a742f6a0898f87cd4b196c34cd49fcfec3818c50da7d1341d15c8e8d1d296",
+      "bytes": 16027
+    },
+    {
+      "path": "backend/backend_pipeline/prompt_templates/wia_strategy.md",
+      "sha256": "c0eb92ef3985e5b6cf837581aa9e737c5268935591759c0daaa1a977ba3ef7bc",
+      "bytes": 5677
+    },
+    {
+      "path": "backend/backend_pipeline/prompts.py",
+      "sha256": "e1c4bb803ca8a5823cfe41d68d8883d0e067bc2b6f3800eaae71fda94a34d44f",
+      "bytes": 4489
+    },
+    {
+      "path": "backend/backend_pipeline/provider.py",
+      "sha256": "b8c4d1cd65a7303ce7f6e9ed3594d21326a57e79e12d6db2f68ea28cf483d188",
+      "bytes": 9879
+    },
+    {
+      "path": "backend/backend_pipeline/pipeline.py",
+      "sha256": "705f468496148f46bbdf7f0154341920e60cb5576a337e7ec37c69f30fd9e38b",
+      "bytes": 38745
+    },
+    {
+      "path": "backend/backend_pipeline/models.py",
+      "sha256": "a60f4e771e4d2c477b4bad8b493e07a633243e1c9a15cfa76ae8ab71c65d5c22",
+      "bytes": 4775
+    },
+    {
+      "path": "backend/backend_pipeline/config.py",
+      "sha256": "00433c5891ba0732a7b841d1e7d19118716149c7e989b64130e17e26b7c31f84",
+      "bytes": 5969
+    },
+    {
+      "path": "backend/backend_pipeline/strategy_contracts.py",
+      "sha256": "63a47d93bcaad6d96a0f9d92ebbbbd7bcbd13780c22b672bb3ce0f552ffd07ff",
+      "bytes": 3946
+    },
+    {
+      "path": "backend/backend_pipeline/sql_pipeline.py",
+      "sha256": "0b0c09fac93ed5c636ff04000e737546a4e9946a4bf84e2cc8dcf15a2f3fa831",
+      "bytes": 28237
+    },
+    {
+      "path": "backend/backend_pipeline/comparison.py",
+      "sha256": "30d8e0ff3649c938b16d35d2eb88573cdd6fded2748628bf16e505b802839239",
+      "bytes": 8941
+    },
+    {
+      "path": "backend/backend_pipeline/repository.py",
+      "sha256": "83467bce279156ef8b28f575a0306cad5ce3390b6fe5daecccec76c8b02b13de",
+      "bytes": 32090
+    },
+    {
+      "path": "backend/backend_pipeline/model_experiment.py",
+      "sha256": "05ff51fe1cd419aff5db85f33f04b7e7cfbf0868739922aa76afbcf17c81f559",
+      "bytes": 27374
+    },
+    {
+      "path": "backend/backend_pipeline/reviewed_experiment.py",
+      "sha256": "46f4c77bf49da0510de695c16d86061102a6eab67fa7de109c11f582d5cdd1da",
+      "bytes": 19105
+    },
+    {
+      "path": "corpus/instagram/instagram_reels/instagram_reel.md",
+      "sha256": "b28460db913410b7181c9bfe9ce937db35cef1c6d48072921b105664b05beafb",
+      "bytes": 13138
+    },
+    {
+      "path": "research/2026-10-16-instagram-reel-copywriting-analysis.md",
+      "sha256": "922228ba0b924a18720db7930b32faad61cd946ea630b24380165136ad3f5a81",
+      "bytes": 49678
+    },
+    {
+      "path": "research/2026-10-16-reel-copywriting-angle-inventory.md",
+      "sha256": "1a8f41701d84756ae9e3b5a585dd911d0f1b51384935fb7b85623689b700e477",
+      "bytes": 22192
+    }
+  ],
+  "old_suite_verified": true,
+  "reviewed_week4_verified": true
+}

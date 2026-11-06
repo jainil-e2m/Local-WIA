@@ -1,0 +1,48 @@
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+
+# Dependencies, generated output and local caches
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+coverage/
+.cache/
+.pytest_cache/
+.pytest-tmp/
+.ruff_cache/
+.qa/
+testing/.calendar-*/
+*.tsbuildinfo
+*.log
+
+# Raw customer/source exports stay local; curated mock fixtures are committed.
+corpus/
+transcripts/
+*.vtt
+out/
+dump/
+.data/
+.storage-artifacts/
+.test-tmp/
+
+# Supplied backfilled Zoom transcripts are private test inputs.
+backend/zoom_backfill_meetings/
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.claude/
+*.bak
+*.bak-*

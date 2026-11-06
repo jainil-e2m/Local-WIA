@@ -1,0 +1,19 @@
+{"type":"object","additionalProperties":false,
+ "required":["approved_angle","strategic_purpose","audience_and_reason_to_care","wia_perspective","supporting_example","narrative_outline","format_plan","cta","before_publishing","evidence"],
+ "properties":{
+  "approved_angle":{"type":"string"},
+  "strategic_purpose":{"type":"string"},
+  "audience_and_reason_to_care":{"type":"string"},
+  "wia_perspective":{"type":"string"},
+  "supporting_example":{"type":"string"},
+  "narrative_outline":{"type":"object","additionalProperties":false,"required":["hook_options","problems_desires_symptoms","main_point","transformation","cta"],
+    "properties":{"hook_options":{"type":"array","items":{"type":"string"}},"problems_desires_symptoms":{"type":"string"},"main_point":{"type":"string"},"transformation":{"type":"string"},"cta":{"type":"string"}}},
+  "format_plan":{"type":"object","additionalProperties":false,"required":["reels","carousel","email"],
+    "properties":{
+      "reels":{"type":"array","items":{"type":"object","additionalProperties":false,"required":["job","opening","how_it_unfolds"],"properties":{"job":{"type":"string"},"opening":{"type":"string"},"how_it_unfolds":{"type":"string"}}}},
+      "carousel":{"type":"array","items":{"type":"object","additionalProperties":false,"required":["slide","job","copy_direction"],"properties":{"slide":{"type":"integer"},"job":{"type":"string"},"copy_direction":{"type":"string"}}}},
+      "email":{"type":"object","additionalProperties":false,"required":["angle","subject_options","how_it_earns_the_cta"],"properties":{"angle":{"type":"string"},"subject_options":{"type":"array","items":{"type":"string"}},"how_it_earns_the_cta":{"type":"string"}}}}},
+  "cta":{"type":"string"},
+  "before_publishing":{"type":"array","items":{"type":"string"}},
+  "evidence":{"type":"array","items":{"type":"string"}}
+ }}

@@ -1,0 +1,85 @@
+{
+  "report_run_id": "run_3f9bc68d2f424b26af5b16c3882e7fa8",
+  "currency": "USD",
+  "recorded_at_utc": "2026-10-14T14:22:17.762787+00:00",
+  "stages": [
+    {
+      "stage": "moment_extraction",
+      "status": "recorded",
+      "attempt_count": 1,
+      "dispatched_count": 0,
+      "reused_count": 0,
+      "known_reported_new_cost_usd": 0.0,
+      "new_cost_usd": 0.0,
+      "all_new_costs_known": true,
+      "calls": [
+        {
+          "report_run_id": "run_3f9bc68d2f424b26af5b16c3882e7fa8",
+          "mode": "fake",
+          "stage": "moment_extraction",
+          "requested_model_id": "openai/gpt-6-luna",
+          "request_fingerprint": "65cebb6cca2f698ad831766bcabfb8d456630d8e0900a70b3d96c102789b9d5c",
+          "artifact_id": "artifact_0b02444faea5438c",
+          "validation_status": "validated",
+          "request_path": "service_calls/65cebb6cca2f698ad831766bcabfb8d456630d8e0900a70b3d96c102789b9d5c/attempts/artifact_0b02444faea5438c/request.json",
+          "raw_response_path": null,
+          "currency": "USD",
+          "recorded_at_utc": "2026-10-14T14:22:17.498914+00:00",
+          "dispatched": false,
+          "reused": false,
+          "generation_id": null,
+          "returned_model_id": null,
+          "provider": null,
+          "usage": null,
+          "original_reported_cost_usd": null,
+          "new_cost_usd": 0.0,
+          "cost_status": "not_sent",
+          "cost_source": null,
+          "credit_purchase_fees_included": false
+        }
+      ]
+    },
+    {
+      "stage": "angle_generation",
+      "status": "recorded",
+      "attempt_count": 1,
+      "dispatched_count": 0,
+      "reused_count": 0,
+      "known_reported_new_cost_usd": 0.0,
+      "new_cost_usd": 0.0,
+      "all_new_costs_known": true,
+      "calls": [
+        {
+          "report_run_id": "run_3f9bc68d2f424b26af5b16c3882e7fa8",
+          "mode": "fake",
+          "stage": "angle_generation",
+          "requested_model_id": "openai/gpt-6-luna",
+          "request_fingerprint": "1336066b8df8aef9767e4c4556175381510f1e8de0f023a05e3b9d9cbfdc5dcc",
+          "artifact_id": "artifact_e2f4ddc47d37487e",
+          "validation_status": "validated",
+          "request_path": "service_calls/1336066b8df8aef9767e4c4556175381510f1e8de0f023a05e3b9d9cbfdc5dcc/attempts/artifact_e2f4ddc47d37487e/request.json",
+          "raw_response_path": null,
+          "currency": "USD",
+          "recorded_at_utc": "2026-10-14T14:22:17.745530+00:00",
+          "dispatched": false,
+          "reused": false,
+          "generation_id": null,
+          "returned_model_id": null,
+          "provider": null,
+          "usage": null,
+          "original_reported_cost_usd": null,
+          "new_cost_usd": 0.0,
+          "cost_status": "not_sent",
+          "cost_source": null,
+          "credit_purchase_fees_included": false
+        }
+      ]
+    }
+  ],
+  "known_reported_new_cost_usd": 0.0,
+  "total_new_cost_usd": 0.0,
+  "all_new_costs_known": true,
+  "reasoning_is_included_in_completion_tokens": true,
+  "original_reused_usage_is_not_new_billing": true,
+  "credit_purchase_fees_included": false
+}

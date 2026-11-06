@@ -1,0 +1,27 @@
+# Use with compose.storage.yml. Shares the intake artifact volume when overlaid together.
+x-editorial: &editorial
+  build: .
+  env_file: .env.storage.local
+  environment:
+    ATELIER_DATABASE_URL: postgresql://atelier:REDACTED_FOR_HANDOVER@postgres:5432/atelier
+    ATELIER_ARTIFACT_ROOT: /artifacts
+  volumes:
+    - intake_artifacts:/artifacts
+  restart: unless-stopped
+  init: true
+services:
+  editorial-api:
+    <<: *editorial
+    ports:
+      - "127.0.0.1:18081:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+  editorial-worker:
+    <<: *editorial
+    command: [python, -m, backend_pipeline.storage_cli, worker, --watch]
+    depends_on:
+      postgres:
+        condition: service_healthy
+volumes:
+  intake_artifacts:

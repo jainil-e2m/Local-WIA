@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J1-claude-sonnet-5.5-P18-HA",
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 16125,
+  "completion_tokens": 83,
+  "cached_tokens": 15842,
+  "cost": 0.0029802,
+  "seconds": 1.5,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "917a289dc9d7"
+ },
+ "output": {
+  "choice": "A",
+  "confidence": 3,
+  "reason": "A fits Whitney's principle-first, calm strategic voice (data, decisions, clarity) and avoids B's generic 'ads are frustrating' framing, though both are fairly bland."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: email\n\nVersion A:\nOne thing we've learned over the years is that good marketing decisions start with good data.\nIf you can't clearly measure what's working, it's incredibly difficult to know what to improve next.\n\nVersion B:\nOne of the biggest lessons we've learned over the years is that advertising isn't nearly as frustrating when you can clearly see what's working.",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

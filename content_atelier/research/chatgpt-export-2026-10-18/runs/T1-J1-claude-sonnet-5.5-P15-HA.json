@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J1-claude-sonnet-5.5-P15-HA",
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 16099,
+  "completion_tokens": 112,
+  "cached_tokens": 15842,
+  "cost": 0.0032182,
+  "seconds": 1.7,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "83c48eebf0f5"
+ },
+ "output": {
+  "choice": "A",
+  "confidence": 3,
+  "reason": "A accurately describes the Accelerator model (WIA builds the first campaigns, teaches the owner to manage them, and supports learning), while B's \"guide the strategy, support your decisions\" is vaguer and could read as an agency-style offer or hold-your-hand coaching."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: stories\n\nVersion A:\nWe teach you the strategy, launch your campaigns, and support you as you learn what’s working—and how to make it better.\n\nVersion B:\nWe build the foundation, guide the strategy, and support your decisions—\nbut you stay in the driver’s seat.",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

@@ -1,0 +1,278 @@
+{
+  "suite": "week3-week4-model-quality-20261015",
+  "status": "prepared_awaiting_user_approval",
+  "sources": [
+    {
+      "week": 3,
+      "origin": "C:/Users/Jainil Trivedi/Desktop/Wedding_Industry_Ads/content_atelier/backend/zoom_backfill_meetings/week3/Carmen Cruickshank's Personal Meeting Room's transcript (1).txt",
+      "snapshot": "inputs/week3/Carmen Cruickshank's Personal Meeting Room's transcript (1).txt",
+      "sha256": "072f05f26dfa61ef7105b725e772cd9e16365d39ce0f35f9c95c98209579e999",
+      "bytes": 59427
+    },
+    {
+      "week": 3,
+      "origin": "C:/Users/Jainil Trivedi/Desktop/Wedding_Industry_Ads/content_atelier/backend/zoom_backfill_meetings/week3/Carmen Cruickshank's Personal Meeting Room's transcript (2).txt",
+      "snapshot": "inputs/week3/Carmen Cruickshank's Personal Meeting Room's transcript (2).txt",
+      "sha256": "9cf90b922bce1df09c5d79ee6a7e651d7af64373cd2379e3c004518b250667ae",
+      "bytes": 16673
+    },
+    {
+      "week": 3,
+      "origin": "C:/Users/Jainil Trivedi/Desktop/Wedding_Industry_Ads/content_atelier/backend/zoom_backfill_meetings/week3/Carmen Cruickshank's Personal Meeting Room's transcript (3).txt",
+      "snapshot": "inputs/week3/Carmen Cruickshank's Personal Meeting Room's transcript (3).txt",
+      "sha256": "a5fa3e59747a3f9c2bc1deffef534c2a535f540b11cdc716cfa9cbd76044482f",
+      "bytes": 44026
+    },
+    {
+      "week": 3,
+      "origin": "C:/Users/Jainil Trivedi/Desktop/Wedding_Industry_Ads/content_atelier/backend/zoom_backfill_meetings/week3/Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+      "snapshot": "inputs/week3/Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+      "sha256": "54983f92a94b30250cc160180dee4fbd677947a44ca59b7a386d7403e8d6579d",
+      "bytes": 33525
+    },
+    {
+      "week": 3,
+      "origin": "C:/Users/Jainil Trivedi/Desktop/Wedding_Industry_Ads/content_atelier/backend/zoom_backfill_meetings/week3/Check-in with Gisselle's transcript.txt",
+      "snapshot": "inputs/week3/Check-in with Gisselle's transcript.txt",
+      "sha256": "b405d1bf1069e765e3ed3ac64cbbd5b90bb11ab0ca8671e2ff0ac284f36c0eb6",
+      "bytes": 59000
+    },
+    {
+      "week": 4,
+      "origin": "C:/Users/Jainil Trivedi/Desktop/Wedding_Industry_Ads/content_atelier/backend/zoom_backfill_meetings/week4/Check-in with Gisselle's transcript.txt",
+      "snapshot": "inputs/week4/Check-in with Gisselle's transcript.txt",
+      "sha256": "0396936b31afa1883634ee491687460cfbe5ced702112b919744f5998c1e4454",
+      "bytes": 50340
+    },
+    {
+      "week": 4,
+      "origin": "C:/Users/Jainil Trivedi/Desktop/Wedding_Industry_Ads/content_atelier/backend/zoom_backfill_meetings/week4/Whitney Hodges's Personal Meeting Room's transcript (1).txt",
+      "snapshot": "inputs/week4/Whitney Hodges's Personal Meeting Room's transcript (1).txt",
+      "sha256": "33def3c9cdd42332dbb1ba743d6e3672f2ab03f378bb7848e13e8b6497139577",
+      "bytes": 25557
+    },
+    {
+      "week": 4,
+      "origin": "C:/Users/Jainil Trivedi/Desktop/Wedding_Industry_Ads/content_atelier/backend/zoom_backfill_meetings/week4/Whitney Hodges's Personal Meeting Room's transcript (2).txt",
+      "snapshot": "inputs/week4/Whitney Hodges's Personal Meeting Room's transcript (2).txt",
+      "sha256": "1bbf901f3178f2d7066a59a72a9f53d3877a0c947218c5297843a62b69f34f1e",
+      "bytes": 10856
+    },
+    {
+      "week": 4,
+      "origin": "C:/Users/Jainil Trivedi/Desktop/Wedding_Industry_Ads/content_atelier/backend/zoom_backfill_meetings/week4/Whitney Hodges's Personal Meeting Room's transcript (3).txt",
+      "snapshot": "inputs/week4/Whitney Hodges's Personal Meeting Room's transcript (3).txt",
+      "sha256": "ca0456e0f2313d6a26d692745db3886338385c1e543e2a2304e49b4507c70006",
+      "bytes": 44688
+    },
+    {
+      "week": 4,
+      "origin": "C:/Users/Jainil Trivedi/Desktop/Wedding_Industry_Ads/content_atelier/backend/zoom_backfill_meetings/week4/Whitney Hodges's Personal Meeting Room's transcript.txt",
+      "snapshot": "inputs/week4/Whitney Hodges's Personal Meeting Room's transcript.txt",
+      "sha256": "ba9b57613b111e731ececd2e6c72d9a5658e19f0dceca0adb0780b0543a022f4",
+      "bytes": 40438
+    },
+    {
+      "week": 4,
+      "origin": "C:/Users/Jainil Trivedi/Desktop/Wedding_Industry_Ads/content_atelier/backend/zoom_backfill_meetings/week4/Workshop_ Building a Brand That Supports Premium Lead Generation's transcript.txt",
+      "snapshot": "inputs/week4/Workshop_ Building a Brand That Supports Premium Lead Generation's transcript.txt",
+      "sha256": "88dd2bb5c6f4f735c96436fbe02a60e93db34f821f922d2eb95dc483bb4c5090",
+      "bytes": 107974
+    }
+  ],
+  "cells": [
+    {
+      "week": 3,
+      "slug": "luna-pro",
+      "model": "openai/gpt-6-luna-pro",
+      "reasoning_effort": "high",
+      "run_id": "week3-week4-model-quality-20261015-w3-luna-pro",
+      "source_count": 5,
+      "source_turns": 1837,
+      "source_packet_sha256": "657e096b0ef2d6963760c0a856b7b098a1330776186aeb6d5bb4d820466513ad",
+      "extraction_request_hash": "03a163ee452d5544371be40e59855b5a387ef2ec9ae225ee405b54b58ba0401a",
+      "request_characters": 217835,
+      "catalog_hash": "c108a21c77f81e2728c50c83de45584746382391fddef0972042ab454f03abe5",
+      "capacity_check": {
+        "method": "conservative_utf8_byte_allowance_not_native_token_count",
+        "input_allowance": 216003,
+        "margin": 21601,
+        "advertised_eligible_endpoints": 6,
+        "output_reserve": 128000,
+        "request_has_explicit_output_cap": false,
+        "fits_conservative_allowance": true,
+        "provider_defaults_and_limits_still_apply": true
+      },
+      "timeout_seconds": 900.0,
+      "angle_request_status": "Built only after this model's whole extraction passes validation"
+    },
+    {
+      "week": 3,
+      "slug": "sol",
+      "model": "openai/gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "run_id": "week3-week4-model-quality-20261015-w3-sol",
+      "source_count": 5,
+      "source_turns": 1837,
+      "source_packet_sha256": "657e096b0ef2d6963760c0a856b7b098a1330776186aeb6d5bb4d820466513ad",
+      "extraction_request_hash": "0d435c81d127e0832fe8b7454773a5cd912075fbd70211f28c9ce9588bb5bd09",
+      "request_characters": 217832,
+      "catalog_hash": "e99c734a07b60eb35ff892e326863516f2158984611abbc2536c7778b5dd1a6b",
+      "capacity_check": {
+        "method": "conservative_utf8_byte_allowance_not_native_token_count",
+        "input_allowance": 216003,
+        "margin": 21601,
+        "advertised_eligible_endpoints": 7,
+        "output_reserve": 128000,
+        "request_has_explicit_output_cap": false,
+        "fits_conservative_allowance": true,
+        "provider_defaults_and_limits_still_apply": true
+      },
+      "timeout_seconds": 900.0,
+      "angle_request_status": "Built only after this model's whole extraction passes validation"
+    },
+    {
+      "week": 3,
+      "slug": "sonnet",
+      "model": "anthropic/claude-sonnet-5.5",
+      "reasoning_effort": "high",
+      "run_id": "week3-week4-model-quality-20261015-w3-sonnet",
+      "source_count": 5,
+      "source_turns": 1837,
+      "source_packet_sha256": "657e096b0ef2d6963760c0a856b7b098a1330776186aeb6d5bb4d820466513ad",
+      "extraction_request_hash": "e8988a323989a6d405c52af5575a3f116ba92eba5931e474b88e5f539bf4ae53",
+      "request_characters": 217841,
+      "catalog_hash": "acf62bfaeb870784d5548cf612040353173bd8f5ce49d9392111cf82715a970a",
+      "capacity_check": {
+        "method": "conservative_utf8_byte_allowance_not_native_token_count",
+        "input_allowance": 216003,
+        "margin": 21601,
+        "advertised_eligible_endpoints": 8,
+        "output_reserve": 128000,
+        "request_has_explicit_output_cap": false,
+        "fits_conservative_allowance": true,
+        "provider_defaults_and_limits_still_apply": true
+      },
+      "timeout_seconds": 900.0,
+      "angle_request_status": "Built only after this model's whole extraction passes validation"
+    },
+    {
+      "week": 4,
+      "slug": "luna-pro",
+      "model": "openai/gpt-6-luna-pro",
+      "reasoning_effort": "high",
+      "run_id": "week3-week4-model-quality-20261015-w4-luna-pro",
+      "source_count": 6,
+      "source_turns": 1803,
+      "source_packet_sha256": "494bdfedfdec6e58b3305c33b21d88b29b2efb6233b4b35d4d6918a796e55aeb",
+      "extraction_request_hash": "f0f3676a8014f668d14336c85f96f81b71788554232dac31120a779d82c4249e",
+      "request_characters": 286117,
+      "catalog_hash": "c108a21c77f81e2728c50c83de45584746382391fddef0972042ab454f03abe5",
+      "capacity_check": {
+        "method": "conservative_utf8_byte_allowance_not_native_token_count",
+        "input_allowance": 284114,
+        "margin": 28412,
+        "advertised_eligible_endpoints": 6,
+        "output_reserve": 128000,
+        "request_has_explicit_output_cap": false,
+        "fits_conservative_allowance": true,
+        "provider_defaults_and_limits_still_apply": true
+      },
+      "timeout_seconds": 900.0,
+      "angle_request_status": "Built only after this model's whole extraction passes validation"
+    },
+    {
+      "week": 4,
+      "slug": "sol",
+      "model": "openai/gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "run_id": "week3-week4-model-quality-20261015-w4-sol",
+      "source_count": 6,
+      "source_turns": 1803,
+      "source_packet_sha256": "494bdfedfdec6e58b3305c33b21d88b29b2efb6233b4b35d4d6918a796e55aeb",
+      "extraction_request_hash": "036486797229a3c1813a84e4ec3ec7aafc628875cdc296fdf27f5ae2d8cfcef6",
+      "request_characters": 286114,
+      "catalog_hash": "e99c734a07b60eb35ff892e326863516f2158984611abbc2536c7778b5dd1a6b",
+      "capacity_check": {
+        "method": "conservative_utf8_byte_allowance_not_native_token_count",
+        "input_allowance": 284114,
+        "margin": 28412,
+        "advertised_eligible_endpoints": 7,
+        "output_reserve": 128000,
+        "request_has_explicit_output_cap": false,
+        "fits_conservative_allowance": true,
+        "provider_defaults_and_limits_still_apply": true
+      },
+      "timeout_seconds": 900.0,
+      "angle_request_status": "Built only after this model's whole extraction passes validation"
+    },
+    {
+      "week": 4,
+      "slug": "sonnet",
+      "model": "anthropic/claude-sonnet-5.5",
+      "reasoning_effort": "high",
+      "run_id": "week3-week4-model-quality-20261015-w4-sonnet",
+      "source_count": 6,
+      "source_turns": 1803,
+      "source_packet_sha256": "494bdfedfdec6e58b3305c33b21d88b29b2efb6233b4b35d4d6918a796e55aeb",
+      "extraction_request_hash": "701964d9829e5ca4d1027b0001c33644b12d792538d16a0a75dfeda56095591a",
+      "request_characters": 286123,
+      "catalog_hash": "acf62bfaeb870784d5548cf612040353173bd8f5ce49d9392111cf82715a970a",
+      "capacity_check": {
+        "method": "conservative_utf8_byte_allowance_not_native_token_count",
+        "input_allowance": 284114,
+        "margin": 28412,
+        "advertised_eligible_endpoints": 8,
+        "output_reserve": 128000,
+        "request_has_explicit_output_cap": false,
+        "fits_conservative_allowance": true,
+        "provider_defaults_and_limits_still_apply": true
+      },
+      "timeout_seconds": 900.0,
+      "angle_request_status": "Built only after this model's whole extraction passes validation"
+    }
+  ],
+  "runtime_identity": {
+    "model_experiment.py": "e71d824c1539a88be7362e7fceb467c8fa71bb39ef4a13258f3e98db0b5d16ae",
+    "config.py": "00433c5891ba0732a7b841d1e7d19118716149c7e989b64130e17e26b7c31f84",
+    "pipeline.py": "705f468496148f46bbdf7f0154341920e60cb5576a337e7ec37c69f30fd9e38b",
+    "provider.py": "b8c4d1cd65a7303ce7f6e9ed3594d21326a57e79e12d6db2f68ea28cf483d188",
+    "prompts.py": "e1c4bb803ca8a5823cfe41d68d8883d0e067bc2b6f3800eaae71fda94a34d44f",
+    "weekly.py": "2d33cc8b5348094257cd6d937dcdba0cfd375a45debf439ad822ee75e612864c",
+    "prepare.py": "8de667e5aa53b35f3a692ec3d1e6ca510454ceee7af44c4d07c402c895072319",
+    "strategy_contracts.py": "63a47d93bcaad6d96a0f9d92ebbbbd7bcbd13780c22b672bb3ce0f552ffd07ff",
+    "contracts.py": "cebb891c8b934378c60b9c2d9dc2bb58107f1492b52a7f81f3a0b6ee5a54b18f",
+    "models.py": "a60f4e771e4d2c477b4bad8b493e07a633243e1c9a15cfa76ae8ab71c65d5c22",
+    "store.py": "184cf27b618b59b3a0e484c4ec933f3f2f01bb33bd2f116b22310d57681e429f",
+    "costs.py": "647b3d728da171e12f57885254b4df3e6fbfce7533abc28f36bb05626beade04",
+    "prompt_templates/moment_extraction.system.md": "89c0477fb4f01b8e81a6fc80a441cb8d33b9a86874ddd63dc5bd21fdce4f34af",
+    "prompt_templates/wia_strategy.md": "c0eb92ef3985e5b6cf837581aa9e737c5268935591759c0daaa1a977ba3ef7bc",
+    "prompt_templates/editorial_policy.md": "7296620c8c8f2af6aac7840b9f9d8d23627e0490f82dd0458e76ce4f66fdcfc9",
+    "prompt_templates/moment_extraction.weekly_v3.md": "9e1a742f6a0898f87cd4b196c34cd49fcfec3818c50da7d1341d15c8e8d1d296",
+    "prompt_templates/angle_generation.system.md": "a0f2e497a0113474469a1dc0336ad04fc4aa3711145c84b4dad53174ae24d867",
+    "prompt_templates/angle_generation.user.md": "dd7bb005807ee1fc654a2bfae524b5ad8b0b7409d37223767275bbc9df7de0ea"
+  },
+  "schema_hashes": {
+    "moment_extraction": "45a1bf9f8d5c2c18d11f3389ffcfb57b8839c7ac7ea91227addbe0e30771cc07",
+    "angle_generation": "5df83f8a0a25d9307be1f5c77547e2d577b23590624673b94efa9044cbbe7f02"
+  },
+  "endpoint": "https://openrouter.ai/api/v1",
+  "max_paid_calls": 12,
+  "calls_per_cell": 2,
+  "execution_order": [
+    "week3/luna-pro",
+    "week3/sol",
+    "week3/sonnet",
+    "week4/luna-pro",
+    "week4/sol",
+    "week4/sonnet"
+  ],
+  "history_supplied": false,
+  "embeddings": false,
+  "matching": false,
+  "refinement": false,
+  "auto_retries": false,
+  "partial_acceptance": false,
+  "forced_angle_count": null,
+  "paid_calls_during_preparation": 0
+}

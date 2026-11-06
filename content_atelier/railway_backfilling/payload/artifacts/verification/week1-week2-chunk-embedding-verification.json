@@ -1,0 +1,110 @@
+{
+  "verified_at_utc": "2026-10-12T11:36:34.704291+00:00",
+  "database_read_only": true,
+  "external_calls": 0,
+  "stored_vectors_equal_received_float32_vectors": true,
+  "verified_chunks": 329,
+  "counts": {
+    "week_2026-06-01": 136,
+    "week_2026-06-08": 193
+  },
+  "response_batches": 12,
+  "jobs": [
+    {
+      "run_id": "chunk_run_614460020956c4aad0d75014",
+      "job_id": "chunk_job_614460020956c4aad0d75014",
+      "status": "completed",
+      "completed_units": 136,
+      "total_units": 136,
+      "embedding_dispatches": "5"
+    },
+    {
+      "run_id": "chunk_run_490c5ce616a0d719303fa9e8",
+      "job_id": "chunk_job_490c5ce616a0d719303fa9e8",
+      "status": "completed",
+      "completed_units": 193,
+      "total_units": 193,
+      "embedding_dispatches": "7"
+    }
+  ],
+  "schema": {
+    "tables": 13,
+    "vectors": [
+      {
+        "table_name": "content_angles",
+        "attname": "embedding",
+        "type": "vector(1536)"
+      },
+      {
+        "table_name": "transcript_chunks",
+        "attname": "embedding",
+        "type": "vector(1536)"
+      }
+    ],
+    "schema_sha256": "1f89fa2894074cd6c54b51083e6c775a76ac1e1f59341d3b3f2fbefbb25fc6bb",
+    "foreign_keys": 30,
+    "checks": 18
+  },
+  "weeks": [
+    {
+      "week_id": "week_2026-06-01",
+      "status": "awaiting_matching"
+    },
+    {
+      "week_id": "week_2026-06-08",
+      "status": "comparison_review"
+    }
+  ],
+  "existing_angle_vectors": 12,
+  "downstream_counts": {
+    "content_briefs": 0,
+    "content_packs": 0,
+    "content_assets": 0,
+    "calendar_entries": 0
+  },
+  "sample_exact_cosine_queries": [
+    {
+      "week_id": "week_2026-06-01",
+      "query_chunk_id": "chunk_00deed10968ede5f9bc80f05",
+      "matches": [
+        {
+          "chunk_id": "chunk_00deed10968ede5f9bc80f05",
+          "cosine": 1.0
+        },
+        {
+          "chunk_id": "chunk_276c493ee802282a42e7ef08",
+          "cosine": 0.8147312104344765
+        },
+        {
+          "chunk_id": "chunk_457cd024e836ba3c41ac8368",
+          "cosine": 0.7908313341315188
+        }
+      ]
+    },
+    {
+      "week_id": "week_2026-06-08",
+      "query_chunk_id": "chunk_018505b30f5de57645dcaa82",
+      "matches": [
+        {
+          "chunk_id": "chunk_018505b30f5de57645dcaa82",
+          "cosine": 1.0
+        },
+        {
+          "chunk_id": "chunk_1b1acbd9317383df7595c822",
+          "cosine": 0.8686257572890804
+        },
+        {
+          "chunk_id": "chunk_d812026218b1e12151df40e3",
+          "cosine": 0.8261684701802835
+        }
+      ]
+    }
+  ],
+  "persistent_external_switches": {
+    "generation": false,
+    "encoding": false,
+    "refinement": false,
+    "legacy_live": false,
+    "legacy_embeddings": false
+  }
+}

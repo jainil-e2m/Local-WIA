@@ -1,0 +1,322 @@
+{
+  "about": "Lines of the three supplied documents (01 to 03) that WIA's rulings R-1 to R-16 supersede (backend/docs/WIA-Rulings-2026-10-18.md), decided by the engineer under D21 (E.B25 c). The compiler applies them to the carried-over documents from `effective` on: `remove` drops the line, `annotate` keeps it and appends the bracketed note, `replace` writes `replacement` and the note. A line is matched by its exact text (trailing spaces aside) and must occur exactly `occurrences` times, or the compile stops naming it. `lines` are the line numbers in the committed supplied documents, for the reader; the supplied originals are never edited.",
+  "effective": "2026-10-20",
+  "entries": [
+    {
+      "id": "S01",
+      "document": "content_strategy",
+      "line": "- Referrals and organic are a beautiful ceiling, and unfortunately you've already hit that.",
+      "occurrences": 1,
+      "lines": [
+        56
+      ],
+      "ruling": "R-6",
+      "action": "remove",
+      "note": "Never disparage referrals or organic marketing; ads add to them"
+    },
+    {
+      "id": "S02",
+      "document": "accelerator_strategy",
+      "line": "- Posting every day is not a strategy",
+      "occurrences": 2,
+      "lines": [
+        255,
+        340
+      ],
+      "ruling": "R-6",
+      "action": "remove",
+      "note": "Never disparage organic marketing or posting; ads add to it"
+    },
+    {
+      "id": "S03",
+      "document": "content_strategy",
+      "line": "- When people say you can’t DIY Ads…",
+      "occurrences": 1,
+      "lines": [
+        62
+      ],
+      "ruling": "R-7",
+      "action": "remove",
+      "note": "Never tell owners they cannot do it themselves"
+    },
+    {
+      "id": "S04",
+      "document": "content_strategy",
+      "line": "- “Anyone who tells you you can’t DIY ads just wants you to hire their agency - you absolutely can. It’s basically like learning a second language, but if you don’t want to hire an agency and you actually want to understand how to run ads, cut costs down, and then on top of that actually understands how it works and why so that when you do hire an ads agency they’re actually getting an ROI for you and you’re not sitting there flushing 5k down the toilet being like ‘why isn’t this working’ - that’s exactly what we teach you. It’s the why. It’s the how.",
+      "occurrences": 1,
+      "lines": [
+        63
+      ],
+      "ruling": "R-7",
+      "action": "remove",
+      "note": "Never tell owners they cannot do it themselves"
+    },
+    {
+      "id": "S05",
+      "document": "content_strategy",
+      "line": "- Anyone who tells you that you can't DIY ads just wants you to hire their agency.",
+      "occurrences": 1,
+      "lines": [
+        122
+      ],
+      "ruling": "R-7",
+      "action": "remove",
+      "note": "Never tell owners they cannot do it themselves"
+    },
+    {
+      "id": "S06",
+      "document": "accelerator_strategy",
+      "line": "- You shouldn’t DIY your ads",
+      "occurrences": 2,
+      "lines": [
+        262,
+        347
+      ],
+      "ruling": "R-7",
+      "action": "remove",
+      "note": "Never tell owners they cannot do it themselves; the Accelerators are a done-for-you launch plus guided support"
+    },
+    {
+      "id": "S07",
+      "document": "accelerator_strategy",
+      "line": "- You don’t need a DIY ads course",
+      "occurrences": 2,
+      "lines": [
+        263,
+        348
+      ],
+      "ruling": "R-7",
+      "action": "remove",
+      "note": "Never tell owners they cannot do it themselves; the Accelerators are a done-for-you launch plus guided support"
+    },
+    {
+      "id": "S08",
+      "document": "content_strategy",
+      "line": "- Elevate & Accelerators builds the funnel and foundations first, so your actual spend becomes bookings (and not just hard/costly lessons learned).",
+      "occurrences": 1,
+      "lines": [
+        169
+      ],
+      "ruling": "R-13",
+      "action": "remove",
+      "note": "No prerequisites: WIA does not require a funnel build first; the Accelerators teach the foundations and the owner builds them with guidance"
+    },
+    {
+      "id": "S09",
+      "document": "content_strategy",
+      "line": "- Feast or famine inquiries.",
+      "occurrences": 1,
+      "lines": [
+        170
+      ],
+      "ruling": "R-8",
+      "action": "remove",
+      "note": "Possibility, not pain: no desperation or struggle framing"
+    },
+    {
+      "id": "S10",
+      "document": "content_strategy",
+      "line": "- Feels like unpredictable leads, riding referrals… IG leads can be a great inquiry flow if you have the right system and strategy.",
+      "occurrences": 1,
+      "lines": [
+        174
+      ],
+      "ruling": "R-8",
+      "action": "remove",
+      "note": "Possibility, not pain: no desperation or struggle framing"
+    },
+    {
+      "id": "S11",
+      "document": "accelerator_strategy",
+      "line": "- Inconsistent inquiries",
+      "occurrences": 1,
+      "lines": [
+        163
+      ],
+      "ruling": "R-8",
+      "action": "remove",
+      "note": "Possibility, not pain: no desperation or struggle framing"
+    },
+    {
+      "id": "S12",
+      "document": "content_strategy",
+      "line": "- We are an all-female team in our 20s and 30s.",
+      "occurrences": 1,
+      "lines": [
+        101
+      ],
+      "ruling": "R-14",
+      "action": "replace",
+      "note": "Ruling R-14 (WIA rulings, 18 October 2026) gives this wording; it replaces the supplied description of the team's ages",
+      "replacement": "- We are an all-female, Millennial + Gen Z team."
+    },
+    {
+      "id": "S13",
+      "document": "content_strategy",
+      "line": "TikTok daily:",
+      "occurrences": 1,
+      "lines": [
+        194
+      ],
+      "ruling": "R-10",
+      "action": "annotate",
+      "note": "Superseded by ruling R-10: WIA's cadence is one list email a week (Tuesday) and three Instagram pieces (two without an offer CTA, one with); Threads optional; TikTok is not in the channel set until WIA restarts it"
+    },
+    {
+      "id": "S14",
+      "document": "content_strategy",
+      "line": "Instagram daily",
+      "occurrences": 1,
+      "lines": [
+        197
+      ],
+      "ruling": "R-10",
+      "action": "annotate",
+      "note": "Superseded by ruling R-10: WIA's cadence is one list email a week (Tuesday) and three Instagram pieces (two without an offer CTA, one with); Threads optional; TikTok is not in the channel set until WIA restarts it"
+    },
+    {
+      "id": "S15",
+      "document": "accelerator_strategy",
+      "line": "## DAILY CONTENT SCHEDULE",
+      "occurrences": 1,
+      "lines": [
+        382
+      ],
+      "ruling": "R-10",
+      "action": "annotate",
+      "note": "Superseded by ruling R-10: WIA's cadence is one list email a week (Tuesday) and three Instagram pieces (two without an offer CTA, one with); Threads optional; TikTok is not in the channel set until WIA restarts it; this schedule is not WIA's practice"
+    },
+    {
+      "id": "S16",
+      "document": "content_strategy",
+      "line": "- Engage",
+      "occurrences": 1,
+      "lines": [
+        39
+      ],
+      "ruling": "R-9",
+      "action": "annotate",
+      "note": "Ruling R-9: not every post sells; ATTRACT has no CTA, or follow and save; WARM a soft, low-barrier invitation (reply, a DM keyword, save) or none; CONVERT the offer's CTA from the CTA catalogue"
+    },
+    {
+      "id": "S17",
+      "document": "founder_voice_guide",
+      "line": "### Marketing isn't about getting attention.",
+      "occurrences": 1,
+      "lines": [
+        24
+      ],
+      "ruling": "R-12",
+      "action": "annotate",
+      "note": "Ruling R-12: this guide is derived guidance written by ChatGPT from Whitney's corpus, and her corpus contradicts this line; her corrections and approved finals win over it"
+    },
+    {
+      "id": "S18",
+      "document": "founder_voice_guide",
+      "line": "The goal isn't simply to teach marketing.",
+      "occurrences": 1,
+      "lines": [
+        15
+      ],
+      "ruling": "R-1",
+      "action": "annotate",
+      "note": "Ruling R-1: a flag, not a model; at most one \"The goal isn't...\" or \"It's not X, it's Y\" per piece, never as the hook; this line is not a model to imitate"
+    },
+    {
+      "id": "S19",
+      "document": "founder_voice_guide",
+      "line": "The goal isn't more work.",
+      "occurrences": 1,
+      "lines": [
+        47
+      ],
+      "ruling": "R-1",
+      "action": "annotate",
+      "note": "Ruling R-1: a flag, not a model; at most one \"The goal isn't...\" or \"It's not X, it's Y\" per piece, never as the hook; this line is not a model to imitate"
+    },
+    {
+      "id": "S20",
+      "document": "founder_voice_guide",
+      "line": "The goal isn't to use the same hook repeatedly.",
+      "occurrences": 1,
+      "lines": [
+        115
+      ],
+      "ruling": "R-1",
+      "action": "annotate",
+      "note": "Ruling R-1: a flag, not a model; at most one \"The goal isn't...\" or \"It's not X, it's Y\" per piece, never as the hook; this line is not a model to imitate"
+    },
+    {
+      "id": "S21",
+      "document": "founder_voice_guide",
+      "line": "- \"The goal isn't...\"",
+      "occurrences": 1,
+      "lines": [
+        195
+      ],
+      "ruling": "R-1",
+      "action": "annotate",
+      "note": "Ruling R-1: a flag, not a model; at most one \"The goal isn't...\" or \"It's not X, it's Y\" per piece, never as the hook; this line is not a model to imitate"
+    },
+    {
+      "id": "S22",
+      "document": "founder_voice_guide",
+      "line": "Magic",
+      "occurrences": 1,
+      "lines": [
+        160
+      ],
+      "ruling": "R-16",
+      "action": "annotate",
+      "note": "Ruling R-16: a flag, not a ban; Whitney's own copy uses it, so generated copy may use it sparingly"
+    },
+    {
+      "id": "S23",
+      "document": "founder_voice_guide",
+      "line": "Skyrocket (unless directly quoting a result)",
+      "occurrences": 1,
+      "lines": [
+        162
+      ],
+      "ruling": "R-16",
+      "action": "annotate",
+      "note": "Ruling R-16: a flag, not a ban; Whitney's own copy uses it, so generated copy may use it sparingly"
+    },
+    {
+      "id": "S24",
+      "document": "founder_voice_guide",
+      "line": "- \"You're leaving money on the table.\"",
+      "occurrences": 1,
+      "lines": [
+        201
+      ],
+      "ruling": "R-16",
+      "action": "annotate",
+      "note": "Ruling R-16: a flag, not a ban; Whitney's own copy uses it, so generated copy may use it sparingly"
+    },
+    {
+      "id": "S25",
+      "document": "accelerator_strategy",
+      "line": "They are USUALLY  not beginner, but we have had a successful wedding planner see a lot of success with establishing her brand new business using ads to get targeted traffic faster than organic.",
+      "occurrences": 1,
+      "lines": [
+        112
+      ],
+      "ruling": "R-15",
+      "action": "annotate",
+      "note": "Ruling R-15: the Google Search Accelerator also suits owners who have never run Google Ads; ELEVATE is for established businesses"
+    },
+    {
+      "id": "S26",
+      "document": "founder_voice_guide",
+      "line": "### Version 2.0",
+      "occurrences": 1,
+      "lines": [
+        3
+      ],
+      "ruling": "R-3, R-4",
+      "action": "annotate",
+      "note": "Rulings R-3 and R-4: this guide's own em dashes and staccato rhythm are not models; em dashes are banned in all new copy, and sentences flow, with no chains of one-liners"
+    }
+  ]
+}

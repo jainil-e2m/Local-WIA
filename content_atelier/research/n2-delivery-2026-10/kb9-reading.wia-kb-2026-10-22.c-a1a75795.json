@@ -1,0 +1,165 @@
+{
+ "version": "wia-kb-2026-10-22.c-a1a75795",
+ "base_version": "wia-kb-2026-10-20.c-6bf62f94",
+ "reading": "N2 minimal gate (D40), one sample, read by the implementing agent as WIA's delegated reviewer (R55, D12)",
+ "runs": {
+  "cycle": "run_2140fa0b66b64a7e9325705557cc29bd",
+  "brief": "brief_run_3dc7bce67c2a295fc22913c7",
+  "window": [
+   "2026-10-12",
+   "2026-10-20"
+  ],
+  "strategist": "2026-10-23.wia-strategist.v7",
+  "verifier": "card-verification.v4 on anthropic/claude-sonnet-5.5",
+  "brief_contract": "brief_document_v4",
+  "writer": "v5"
+ },
+ "cycle": {
+  "cards": 5,
+  "blocking_flags": 1,
+  "without_wia_contribution": 0,
+  "cards_detail": [
+   {
+    "angle_id": "angle_ecb46d8f70907f6d903e56e8",
+    "rank": 1,
+    "title": "How we decide whether to replace a client's existing page",
+    "readiness": "needs_check",
+    "flags": [
+     {
+      "severity": "check",
+      "kind": "generalised_practice",
+      "source": "deterministic"
+     },
+     {
+      "severity": "check",
+      "kind": "invented_reason",
+      "source": "model"
+     }
+    ],
+    "blocking": 0,
+    "bindings_bound": true
+   },
+   {
+    "angle_id": "angle_660cf0aa0adfb781791a073d",
+    "rank": 2,
+    "title": "How we handle a new ad a client doesn't love",
+    "readiness": "needs_check",
+    "flags": [
+     {
+      "severity": "check",
+      "kind": "invented_reason",
+      "source": "model"
+     },
+     {
+      "severity": "check",
+      "kind": "frequency",
+      "source": "model"
+     },
+     {
+      "severity": "check",
+      "kind": "other",
+      "source": "model"
+     }
+    ],
+    "blocking": 0,
+    "bindings_bound": true
+   },
+   {
+    "angle_id": "angle_09950b1fdec96ac533d677bd",
+    "rank": 3,
+    "title": "How we find booking opportunities in a venue's coming season",
+    "readiness": "needs_check",
+    "flags": [
+     {
+      "severity": "check",
+      "kind": "attributed_experience",
+      "source": "model"
+     }
+    ],
+    "blocking": 0,
+    "bindings_bound": true
+   },
+   {
+    "angle_id": "angle_36f6b25c9a0840b05725a515",
+    "rank": 4,
+    "title": "How we separate today's wedding experience from future plans",
+    "readiness": "research_required",
+    "flags": [
+     {
+      "severity": "block",
+      "kind": "invented_reason",
+      "source": "model"
+     },
+     {
+      "severity": "check",
+      "kind": "frequency",
+      "source": "model"
+     },
+     {
+      "severity": "check",
+      "kind": "consent",
+      "source": "model"
+     }
+    ],
+    "blocking": 1,
+    "bindings_bound": true
+   },
+   {
+    "angle_id": "angle_b8c656564c3f3b524b723ae7",
+    "rank": 5,
+    "title": "What goes into our decisions about competing venues",
+    "readiness": "needs_check",
+    "flags": [
+     {
+      "severity": "check",
+      "kind": "overclaim",
+      "source": "model"
+     },
+     {
+      "severity": "check",
+      "kind": "other",
+      "source": "model"
+     },
+     {
+      "severity": "check",
+      "kind": "other",
+      "source": "model"
+     }
+    ],
+    "blocking": 0,
+    "bindings_bound": true
+   }
+  ]
+ },
+ "brief": {
+  "brief_id": "brief_579f970d9210bc9be2cfbfde",
+  "findings": {
+   "blocking": 2,
+   "warning": 12
+  },
+  "blocking_on_content": 0,
+  "blocking_procedural": [
+   "the writer's CTA awaits a person at Gate 2",
+   "required before-publishing items unanswered"
+  ]
+ },
+ "baseline_v8": {
+  "result": "research/benchmark-v1/results/2026-10-20-strategist_v6.wia-kb-2026-10-20.c-6bf62f94.json",
+  "means_per_run": {
+   "week1": {
+    "public_cards": 4,
+    "blocking_flags": 0,
+    "without_wia_contribution": 0
+   },
+   "week2": {
+    "public_cards": 5.3333,
+    "blocking_flags": 0.3333,
+    "without_wia_contribution": 0
+   }
+  },
+  "worst_run_blocking_flags": 1
+ },
+ "verdict": "pass (narrow): 1 blocking accuracy flag in 5 cards, equal to the worst recorded version 8 run (0 to 1 a run; means 0 and 0.33) and above its mean; a different window and a stricter verifier (v4), one sample. No content-level blocking finding in the brief.",
+ "recorded_by": "kenil.shah@e2m.solutions (D12 delegation)",
+ "recorded_on": "2026-10-23"
+}

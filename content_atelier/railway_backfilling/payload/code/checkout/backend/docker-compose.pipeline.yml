@@ -1,0 +1,26 @@
+# Preserve the former project-directory namespace after moving this file.
+name: content_atelier
+
+services:
+  postgres:
+    image: pgvector/pgvector:pg17
+    environment:
+      POSTGRES_DB: content_atelier
+      POSTGRES_USER: atelier
+      POSTGRES_PASSWORD: REDACTED_FOR_HANDOVER
+    ports:
+      - "5432:5432"
+    volumes:
+      - atelier_postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U atelier -d content_atelier"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+
+volumes:
+  atelier_postgres:

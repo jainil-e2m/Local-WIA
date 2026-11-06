@@ -1,0 +1,36 @@
+# Secrets and local data — never commit
+.env
+.env.*
+!.env.example
+.data/
+*.pem
+*.key
+
+# Backend local runtime output (reports, discovery proposals hold real client data)
+backend/.local/
+# Real roster outside .local by mistake; only roster.example.yaml is committed
+backend/roster.yaml
+
+# Local data snapshots and exports built from real client data, anywhere in the repo
+*.local.json
+*.local.html
+frontend/exports/*.before-*.html
+
+# OAuth / provider credential files
+client_secret*.json
+credentials.json
+token.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build output
+dist/
+dist-*/
+node_modules/

@@ -1,0 +1,68 @@
+[
+  {
+    "local_key": "m5-pmax-free-credit-tradeoff",
+    "error": "Moment quote must match an existing anchor span",
+    "received_record": {
+      "local_key": "m5-pmax-free-credit-tradeoff",
+      "anchor_span_ids": [
+        "m5.t0421",
+        "m5.t0422",
+        "m5.t0425",
+        "m5.t0684",
+        "m5.t0688",
+        "m5.t0695",
+        "m5.t0700"
+      ],
+      "context_first_span_id": "m5.t0376",
+      "context_last_span_id": "m5.t0702",
+      "quote": "it's definitely not getting us any leads",
+      "context_summary": "In an office-hours review with a destination-wedding business, Carmen and Felipe discussed a Performance Max campaign using a free advertising credit. Carmen reported that it had spent about $100 and had not generated conversions, while Felipe worried it was producing irrelevant searches and asked whether another credit would be worth taking. Carmen said it was optional and suggested another week of observation; Felipe agreed to assess both leads and irrelevant search terms before deciding whether to stop. The exchange does not establish the campaign's eventual outcome or independently verify the reported account figures.",
+      "moment_type": "decision",
+      "proposition": "A no-cost advertising credit still merits review against the business's goals: the decision to continue can account for lead quality and irrelevant search traffic, not just whether the media spend is free.",
+      "audience_relevance": "Wedding businesses weighing promotional ad credits can define a short review period and assess whether the traffic is relevant before continuing or pausing a campaign.",
+      "qualifications": [
+        "The approximately $100 spend and absence of conversions are reported in the conversation; no dashboard evidence is supplied here.",
+        "The one-week continuation was a decision for further observation, not proof the campaign was beneficial or harmful.",
+        "The concern about wasted searches was the client's interpretation; the conversation did not establish that the campaign harmed other campaigns."
+      ],
+      "claim_status": "reported",
+      "sensitivity": "unknown",
+      "strength": 4,
+      "reasons": [
+        "The client raises a consequential trade-off between a free credit and attracting irrelevant traffic.",
+        "The parties settle on a bounded test and criteria to revisit, while leaving the result unresolved."
+      ]
+    }
+  },
+  {
+    "local_key": "m7-venue-follow-up-customization",
+    "error": "Moment quote must match an existing anchor span",
+    "received_record": {
+      "local_key": "m7-venue-follow-up-customization",
+      "anchor_span_ids": [
+        "m7.t0097",
+        "m7.t0098",
+        "m7.t0121",
+        "m7.t0124"
+      ],
+      "context_first_span_id": "m7.t0091",
+      "context_last_span_id": "m7.t0130",
+      "quote": "everyone's not consistently using them",
+      "context_summary": "In a team discussion about updating LeadLock follow-up for wedding venues, Danielle described optional post-tour surveys, review requests, and reactivation workflows that varied across clients; some clients were not using or did not know about features in inherited systems. Whitney concluded that one-off features should not automatically become standard for everyone, and proposed asking clients onboarding from those platforms which features they want. The exchange is an internal product and onboarding decision, not evidence that a particular workflow increases bookings.",
+      "moment_type": "decision",
+      "proposition": "A follow-up system for wedding venues can have a dependable core without imposing every optional workflow on every client: surface relevant features during onboarding, then tailor implementation to the client's needs and existing setup.",
+      "audience_relevance": "Venue owners and service providers can distinguish essential inquiry and tour follow-up from optional surveys, reviews, or reactivation features, reducing the risk of building automation that clients do not use.",
+      "qualifications": [
+        "The discussion concerns internal service design and examples from clients with differing setups; it does not establish adoption rates or business outcomes.",
+        "The proposed onboarding question was a direction for the process, not evidence that the revised process had already been implemented."
+      ],
+      "claim_status": "planned",
+      "sensitivity": "unknown",
+      "strength": 4,
+      "reasons": [
+        "The conversation ties inconsistent feature use to a specific decision about standardization versus customization.",
+        "It preserves the boundary that optional workflows may suit some clients but are not established as universal needs."
+      ]
+    }
+  }
+]

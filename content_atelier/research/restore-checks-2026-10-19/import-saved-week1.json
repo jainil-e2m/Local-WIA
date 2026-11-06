@@ -1,0 +1,103 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "artifact_fa24c3cf880e4596",
+      "request_fingerprint": "4deaf2e32a987abdb7ba881dbb86bcca647d41087e057b2ed6648e78167fc9ba",
+      "file": "artifact.json",
+      "prompt_version": "2026-10-08.apodex-weekly-generation.v3",
+      "meetings": [
+        {
+          "meeting": "m1",
+          "turns": 192,
+          "document_id": "transcript_536edfd0a7064563b96079c5",
+          "moments": 1,
+          "already_present": 1,
+          "repaired": 0,
+          "unverified": 0
+        },
+        {
+          "meeting": "m2",
+          "turns": 260,
+          "document_id": "transcript_2a92bfdd5ba2e5bd337f5856",
+          "moments": 0,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 0
+        },
+        {
+          "meeting": "m3",
+          "turns": 397,
+          "document_id": "transcript_9e1879c15e05bd2d327366bf",
+          "moments": 2,
+          "already_present": 2,
+          "repaired": 0,
+          "unverified": 0
+        },
+        {
+          "meeting": "m4",
+          "turns": 586,
+          "document_id": "transcript_83c83e9034a83f5d53345ef5",
+          "moments": 0,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 0
+        },
+        {
+          "meeting": "m5",
+          "turns": 709,
+          "document_id": "transcript_831835c2812a56b151938edd",
+          "moments": 0,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 1
+        },
+        {
+          "meeting": "m6",
+          "turns": 283,
+          "document_id": "transcript_53e18a03eafba31d746fbb7d",
+          "moments": 0,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 0
+        },
+        {
+          "meeting": "m7",
+          "turns": 247,
+          "document_id": "transcript_c1111065ac72b60cbe80df18",
+          "moments": 1,
+          "already_present": 1,
+          "repaired": 0,
+          "unverified": 1
+        },
+        {
+          "meeting": "m8",
+          "turns": 308,
+          "document_id": "transcript_d158c0b7ca826039fec4d731",
+          "moments": 2,
+          "already_present": 2,
+          "repaired": 0,
+          "unverified": 0
+        },
+        {
+          "meeting": "m9",
+          "turns": 256,
+          "document_id": "transcript_1f595f00a47fa1b61b2ae316",
+          "moments": 1,
+          "already_present": 1,
+          "repaired": 0,
+          "unverified": 0
+        }
+      ],
+      "problems": [],
+      "revalidated_from_attempt": "<local>/handover-2026-10-19/extra-legacy-datastore/service_calls/4deaf2e32a987abdb7ba881dbb86bcca647d41087e057b2ed6648e78167fc9ba/attempts/artifact_fa24c3cf880e4596",
+      "original_error": "Moment quote must match an existing anchor span"
+    }
+  ],
+  "moments": 0,
+  "already_present": 7,
+  "unverified": 2,
+  "repaired": 0,
+  "unmatched_meetings": 0,
+  "provider_calls": 0,
+  "applied": true
+}

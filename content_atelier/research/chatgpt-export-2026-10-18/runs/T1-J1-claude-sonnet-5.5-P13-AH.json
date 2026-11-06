@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J1-claude-sonnet-5.5-P13-AH",
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 16188,
+  "completion_tokens": 115,
+  "cached_tokens": 15842,
+  "cost": 0.0034262,
+  "seconds": 2.0,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "ef1f5cf5b758"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 3,
+  "reason": "Version B reasons calmly through why repeated visibility matters, which fits Whitney's thoughtful, principle-first voice, while Version A leans on punchy declarations and the cliché 'attention economy' framing, and its claim that this 'isn't a conversion problem' is more absolute."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: carousel\n\nVersion A:\nThis isn’t a conversion problem.\nIt’s a visibility problem.\n\nIf you’re only showing up once —\nyou’re relying on memory, not marketing.\n\nAnd in today’s attention economy?\nMemory isn’t a reliable strategy.\n\nVersion B:\nIf couples don’t see you again — they’re not likely to inquire.\n\nNot because you didn’t make a good impression in the moment.\nBut because you weren't visible enough times to be remembered.\n\nIn a world where attention is short and content is endless,\nconversion requires repetition.",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

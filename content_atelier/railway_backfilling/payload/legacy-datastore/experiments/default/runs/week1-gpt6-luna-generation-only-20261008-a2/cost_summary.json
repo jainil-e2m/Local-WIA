@@ -1,0 +1,82 @@
+{
+  "report_run_id": "week1-gpt6-luna-generation-only-20261008-a2",
+  "currency": "USD",
+  "recorded_at_utc": "2026-10-08T10:45:30.160321+00:00",
+  "stages": [
+    {
+      "stage": "moment_extraction",
+      "status": "recorded",
+      "attempt_count": 1,
+      "dispatched_count": 1,
+      "reused_count": 0,
+      "known_reported_new_cost_usd": 0.017861675,
+      "new_cost_usd": 0.017861675,
+      "all_new_costs_known": true,
+      "calls": [
+        {
+          "report_run_id": "week1-gpt6-luna-generation-only-20261008-a2",
+          "mode": "live",
+          "stage": "moment_extraction",
+          "requested_model_id": "openai/gpt-6-luna",
+          "request_fingerprint": "b1c7631780798d3b4e528184b91d41aa73e62d0635e866440260928073c186df",
+          "artifact_id": "artifact_d17e64eb31d64be3",
+          "validation_status": "failed",
+          "request_path": "service_calls/b1c7631780798d3b4e528184b91d41aa73e62d0635e866440260928073c186df/attempts/artifact_d17e64eb31d64be3/request.json",
+          "raw_response_path": "service_calls/b1c7631780798d3b4e528184b91d41aa73e62d0635e866440260928073c186df/attempts/artifact_d17e64eb31d64be3/response.raw.json",
+          "currency": "USD",
+          "recorded_at_utc": "2026-10-08T10:45:30.147624+00:00",
+          "dispatched": true,
+          "reused": false,
+          "generation_id": "gen-1791456263-m4yesPNOgTSEA76s8GDL",
+          "returned_model_id": "openai/gpt-6-luna",
+          "provider": "OpenAI",
+          "usage": {
+            "prompt_tokens": 116370,
+            "completion_tokens": 6631,
+            "total_tokens": 123001,
+            "cost": 0.017861675,
+            "is_byok": false,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 116367,
+              "audio_tokens": 0,
+              "video_tokens": 0
+            },
+            "cost_details": {
+              "upstream_inference_cost": 0.017861675,
+              "upstream_inference_prompt_cost": 0.014546175,
+              "upstream_inference_completions_cost": 0.0033155
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 259,
+              "image_tokens": 0,
+              "audio_tokens": 0
+            }
+          },
+          "original_reported_cost_usd": 0.017861675,
+          "new_cost_usd": 0.017861675,
+          "cost_status": "reported",
+          "cost_source": "provider_usage.cost",
+          "credit_purchase_fees_included": false
+        }
+      ]
+    },
+    {
+      "stage": "angle_generation",
+      "status": "not_attempted",
+      "attempt_count": 0,
+      "dispatched_count": 0,
+      "reused_count": 0,
+      "known_reported_new_cost_usd": 0.0,
+      "new_cost_usd": 0.0,
+      "all_new_costs_known": true,
+      "calls": []
+    }
+  ],
+  "known_reported_new_cost_usd": 0.017861675,
+  "total_new_cost_usd": 0.017861675,
+  "all_new_costs_known": true,
+  "reasoning_is_included_in_completion_tokens": true,
+  "original_reused_usage_is_not_new_billing": true,
+  "credit_purchase_fees_included": false
+}

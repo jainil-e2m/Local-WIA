@@ -1,0 +1,501 @@
+{
+  "databases": [
+    {
+      "database": "atelier",
+      "postgres": "17.10 (Debian 17.10-1.pgdg12+1)",
+      "pgvector": "0.8.2",
+      "tables": [
+        {
+          "schema": "public",
+          "name": "angle_moments",
+          "rows": 13
+        },
+        {
+          "schema": "public",
+          "name": "calendar_entries",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "content_angles",
+          "rows": 13
+        },
+        {
+          "schema": "public",
+          "name": "content_assets",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "content_briefs",
+          "rows": 2
+        },
+        {
+          "schema": "public",
+          "name": "content_packs",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "key_moments",
+          "rows": 14
+        },
+        {
+          "schema": "public",
+          "name": "pipeline_events",
+          "rows": 367
+        },
+        {
+          "schema": "public",
+          "name": "pipeline_jobs",
+          "rows": 92
+        },
+        {
+          "schema": "public",
+          "name": "pipeline_runs",
+          "rows": 49
+        },
+        {
+          "schema": "public",
+          "name": "transcript_chunks",
+          "rows": 2657
+        },
+        {
+          "schema": "public",
+          "name": "transcripts",
+          "rows": 170
+        },
+        {
+          "schema": "public",
+          "name": "weeks",
+          "rows": 20
+        }
+      ],
+      "source": "docker",
+      "role": "application_database",
+      "source_is_copy": true,
+      "transcript_chunks_embedded_rows": 2657,
+      "content_angles_embedded_rows": 13,
+      "schema_versions": []
+    },
+    {
+      "database": "atelier_intake_test",
+      "postgres": "17.10 (Debian 17.10-1.pgdg12+1)",
+      "pgvector": "0.8.2",
+      "tables": [
+        {
+          "schema": "public",
+          "name": "angle_moments",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "calendar_entries",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "content_angles",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "content_assets",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "content_briefs",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "content_packs",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "intake_assets",
+          "rows": 2
+        },
+        {
+          "schema": "public",
+          "name": "intake_batches",
+          "rows": 1
+        },
+        {
+          "schema": "public",
+          "name": "intake_buckets",
+          "rows": 1
+        },
+        {
+          "schema": "public",
+          "name": "intake_connections",
+          "rows": 1
+        },
+        {
+          "schema": "public",
+          "name": "intake_membership",
+          "rows": 1
+        },
+        {
+          "schema": "public",
+          "name": "intake_requests",
+          "rows": 1
+        },
+        {
+          "schema": "public",
+          "name": "intake_revisions",
+          "rows": 1
+        },
+        {
+          "schema": "public",
+          "name": "intake_schema_migrations",
+          "rows": 1
+        },
+        {
+          "schema": "public",
+          "name": "intake_sources",
+          "rows": 1
+        },
+        {
+          "schema": "public",
+          "name": "key_moments",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "pipeline_events",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "pipeline_jobs",
+          "rows": 1
+        },
+        {
+          "schema": "public",
+          "name": "pipeline_runs",
+          "rows": 1
+        },
+        {
+          "schema": "public",
+          "name": "transcript_chunks",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "transcripts",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "weeks",
+          "rows": 0
+        }
+      ],
+      "source": "docker",
+      "role": "test_database",
+      "source_is_copy": true
+    },
+    {
+      "database": "atelier_test",
+      "postgres": "17.10 (Debian 17.10-1.pgdg12+1)",
+      "pgvector": "0.8.2",
+      "tables": [
+        {
+          "schema": "public",
+          "name": "angle_moments",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "calendar_entries",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "content_angles",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "content_assets",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "content_briefs",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "content_packs",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "key_moments",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "pipeline_events",
+          "rows": 7
+        },
+        {
+          "schema": "public",
+          "name": "pipeline_jobs",
+          "rows": 7
+        },
+        {
+          "schema": "public",
+          "name": "pipeline_runs",
+          "rows": 4
+        },
+        {
+          "schema": "public",
+          "name": "transcript_chunks",
+          "rows": 4
+        },
+        {
+          "schema": "public",
+          "name": "transcripts",
+          "rows": 3
+        },
+        {
+          "schema": "public",
+          "name": "weeks",
+          "rows": 3
+        }
+      ],
+      "source": "docker",
+      "role": "test_database",
+      "source_is_copy": true
+    },
+    {
+      "database": "postgres",
+      "postgres": "17.10 (Debian 17.10-1.pgdg12+1)",
+      "pgvector": null,
+      "tables": null,
+      "source": "docker",
+      "role": "empty_maintenance_database",
+      "source_is_copy": true
+    },
+    {
+      "database": "atelier_calendar_migration_test",
+      "postgres": "17.11",
+      "pgvector": "0.8.2",
+      "tables": [
+        {
+          "schema": "public",
+          "name": "angle_moments",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "calendar_entries",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "content_angles",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "content_assets",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "content_briefs",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "content_packs",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "intake_assets",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "intake_batches",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "intake_buckets",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "intake_connections",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "intake_membership",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "intake_requests",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "intake_revisions",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "intake_schema_migrations",
+          "rows": 1
+        },
+        {
+          "schema": "public",
+          "name": "intake_sources",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "key_moments",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "mutation_receipts",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "pipeline_events",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "pipeline_jobs",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "pipeline_runs",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "transcript_chunks",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "transcripts",
+          "rows": 0
+        },
+        {
+          "schema": "public",
+          "name": "weeks",
+          "rows": 0
+        }
+      ],
+      "source": "native",
+      "role": "test_database",
+      "source_is_copy": true
+    },
+    {
+      "database": "atelier_test",
+      "postgres": "17.11",
+      "pgvector": "0.8.2",
+      "tables": [
+        {
+          "schema": "public",
+          "name": "angle_moments",
+          "rows": 3
+        },
+        {
+          "schema": "public",
+          "name": "calendar_entries",
+          "rows": 5
+        },
+        {
+          "schema": "public",
+          "name": "content_angles",
+          "rows": 3
+        },
+        {
+          "schema": "public",
+          "name": "content_assets",
+          "rows": 15
+        },
+        {
+          "schema": "public",
+          "name": "content_briefs",
+          "rows": 3
+        },
+        {
+          "schema": "public",
+          "name": "content_packs",
+          "rows": 3
+        },
+        {
+          "schema": "public",
+          "name": "key_moments",
+          "rows": 1
+        },
+        {
+          "schema": "public",
+          "name": "mutation_receipts",
+          "rows": 8
+        },
+        {
+          "schema": "public",
+          "name": "pipeline_events",
+          "rows": 130
+        },
+        {
+          "schema": "public",
+          "name": "pipeline_jobs",
+          "rows": 39
+        },
+        {
+          "schema": "public",
+          "name": "pipeline_runs",
+          "rows": 12
+        },
+        {
+          "schema": "public",
+          "name": "transcript_chunks",
+          "rows": 2
+        },
+        {
+          "schema": "public",
+          "name": "transcripts",
+          "rows": 2
+        },
+        {
+          "schema": "public",
+          "name": "weeks",
+          "rows": 2
+        }
+      ],
+      "source": "native",
+      "role": "test_database",
+      "source_is_copy": true
+    },
+    {
+      "database": "postgres",
+      "postgres": "17.11",
+      "pgvector": null,
+      "tables": null,
+      "source": "native",
+      "role": "empty_maintenance_database",
+      "source_is_copy": true
+    }
+  ],
+  "errors": []
+}

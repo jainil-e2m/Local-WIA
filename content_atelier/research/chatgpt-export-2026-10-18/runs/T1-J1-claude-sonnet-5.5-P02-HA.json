@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J1-claude-sonnet-5.5-P02-HA",
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 16238,
+  "completion_tokens": 539,
+  "cached_tokens": 0,
+  "cost": 0.045787,
+  "seconds": 6.4,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "46cbd3cd1d43"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 3,
+  "reason": "B names the Google + Meta strategy and the couple's planning moment, while A's 'gaining followers' misses WIA's conversions-over-attention message, though B's 'autopilot' and 'proven' lean slightly hypey."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: threads\n\nVersion A:\nOrganic reach drops. Panic sets in.\n\nWhile everyone else scrambles to post more and create trendy reels, our clients are gaining followers and leads from their ads on repeat.\n\nThat's the difference between relying on the organic algorithm and running a strategic paid strategy.\n\nVersion B:\nInstagram changes its algorithm. Panic sets in.  \nWhile everyone else scrambles for more posts, hashtags, and reels, my clients are already filling their calendars with high-quality leads—on autopilot.  \nThat’s the difference between crossing your fingers for organic reach and using a proven Google + Meta Ads strategy that puts you in front of couples the moment they start planning.",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

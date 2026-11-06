@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J1-claude-sonnet-5.5-P24-HA",
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 16281,
+  "completion_tokens": 490,
+  "cached_tokens": 15842,
+  "cost": 0.0073622,
+  "seconds": 5.5,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "c912c6e340b0"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 3,
+  "reason": "B is cleaner and centers the buyer's outcomes (fewer lost inquiries, faster response, less stress) without naming a third-party platform or promising 'autopilot', though its 'no more missed messages' line is a bit absolute."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: other\n\nVersion A:\nLeadLock gives venues and wedding professionals a powerful lead management system. Built on HighLevel and customized for the wedding industry, LeadLock helps you go from manually chasing every inquiry to nurturing leads on autopilot. With organized pipelines, automated text & email inquiry responses, smart follow-up workflows,  and easy online consultation schedule, you'll convert more clients with ease.\n\nVersion B:\n**LeadLock** is a lead management system built for wedding venues and pros who want to stop losing inquiries and start booking more clients—automatically. From instant responses to automated follow-up and appointment scheduling, LeadLock helps you convert more leads with less stress. No more missed messages, no more disorganized inboxes—just a streamlined system that turns inquiries into “yes.”",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

@@ -1,0 +1,37 @@
+{
+  "purpose": "WIA's public offers and their approved descriptors (section 4.3: offers named with their approved descriptors; E.B24: the offer descriptor on CONVERT assets). An asset that names an offer as the solution carries one of that offer's descriptors in its copy, and its `offer_descriptor` field holds that descriptor. A mention as a qualifier (\"one of our Accelerator members\", \"our Accelerators' office hours\") is not naming the offer. Read by briefs/asset_checks.py and given to writer v5; pinned on each v4 brief's provenance.",
+  "source": "Knowledge-base document 05 (offer sheet: the public definitions only, never its internal lines), and the descriptors WIA's own sent copy uses (\"ELEVATE, our full-service advertising management program\"; \"LeadLock, our follow-up platform\"; the Accelerators as launching campaigns and guiding owners who run them). Track G writes the descriptor prose in KB 05; descriptors it adds there are added here.",
+  "version": "offer-descriptors.2026-10-22.v1",
+  "offers": [
+    {
+      "offer": "ELEVATE",
+      "pattern": "(?-i:\\bELEVATE\\b)",
+      "who_does_what": "We do it for you",
+      "descriptors": [
+        "our full-service advertising management program",
+        "your dedicated, done-for-you advertising team"
+      ],
+      "key_phrases": ["full-service", "done-for-you", "manage your ads", "management program", "our team manage", "run your ads for you"]
+    },
+    {
+      "offer": "Ads Accelerators",
+      "pattern": "\\b(?:(?:Ads|Google Search|Google Ads|Meta Ads) )?Accelerators?\\b(?!['\u2019]|\\s+members?\\b)",
+      "who_does_what": "Done-for-you launch, then guided",
+      "descriptors": [
+        "we launch your campaigns, then guide you while you run them",
+        "we build and launch your campaigns, and you run them with our experts beside you"
+      ],
+      "key_phrases": ["launch your campaigns", "guide you while you run", "you run them", "run them with", "expert guidance", "launch them for you"]
+    },
+    {
+      "offer": "LeadLock",
+      "pattern": "\\bLeadLock\\b",
+      "who_does_what": "WIA sets it up; the owner runs the platform",
+      "descriptors": [
+        "our follow-up platform",
+        "the platform where we build your email and text follow-up"
+      ],
+      "key_phrases": ["follow-up platform", "follow-up system", "email and text follow-up"]
+    }
+  ]
+}

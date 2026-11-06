@@ -1,0 +1,226 @@
+{
+ "statements": [
+  {
+   "piece": "email",
+   "text": "On a call with a client recently, I walked them through a decision about a landing page our team had built for their ads.",
+   "verdict": "supported",
+   "source": "In one client conversation, I explained a decision involving a landing page we'd created.",
+   "why": "Same actor, event and tense."
+  },
+  {
+   "piece": "email",
+   "text": "We hadn't moved all their ad traffic to it.",
+   "verdict": "supported",
+   "source": "We built a landing page for a client, and we didn't move all their ad traffic to it.",
+   "why": "Matches the claim."
+  },
+  {
+   "piece": "email",
+   "text": "We'd been comparing our new page with the pages already in their advertising, because we wanted to see how our version would convert before making a complete change.",
+   "verdict": "supported",
+   "source": "We wanted to understand how our version would convert before making a complete change.",
+   "why": "Matches the claim and the reason given."
+  },
+  {
+   "piece": "email",
+   "text": "So the rest of that conversation was about our page.",
+   "verdict": "unsupported",
+   "source": "The next part of the conversation concerned our page.",
+   "why": "The sources say 'the next part', not that the whole rest of the call was about the page. This widens the scope."
+  },
+  {
+   "piece": "email",
+   "text": "I described the changes we planned to make to it",
+   "verdict": "supported",
+   "source": "ev_d083ce70b3d50945cdd597eb",
+   "why": "Planned changes, kept in planned tense."
+  },
+  {
+   "piece": "email",
+   "text": "\"Once we make those updates, I'll send that back over to you so you can take another look.\"",
+   "verdict": "supported",
+   "source": "ev_d083ce70b3d50945cdd597eb",
+   "why": "Matches Whitney's words with only filler dropped."
+  },
+  {
+   "piece": "email",
+   "text": "That's the standard we bring to ELEVATE, our full-service advertising management program.",
+   "verdict": "guardrail",
+   "source": "before_publishing: do not identify the client as an ELEVATE member; confirm the standard extends beyond this scene",
+   "why": "Placing the client story next to ELEVATE hints the client is an ELEVATE member. It also presents the scene as a program-wide standard, which is unconfirmed."
+  },
+  {
+   "piece": "reel_1 script",
+   "text": "We built a landing page for a client's ads, and we didn't move all their ad traffic to it.",
+   "verdict": "supported",
+   "source": "We built a landing page for a client, and we didn't move all their ad traffic to it.",
+   "why": "Matches the claim."
+  },
+  {
+   "piece": "reel_1 script",
+   "text": "They already had pages in their advertising, and our team built them a new one.",
+   "verdict": "supported",
+   "source": "They already had pages in their advertising, and we'd created another option.",
+   "why": "Same facts."
+  },
+  {
+   "piece": "reel_1 script",
+   "text": "On our call, I explained why we were comparing our page with the pages they were already using instead. Simply put, we wanted to know how our page would convert before we changed where couples were landing.",
+   "verdict": "supported",
+   "source": "On the call, I explained why we were comparing our page with the existing pages instead of switching everything over.",
+   "why": "Same reason and certainty."
+  },
+  {
+   "piece": "reel_1 script",
+   "text": "And then we talked about our page. I walked them through some changes we were planning to make, and I told them I'd send it back over for another look once those updates were done.",
+   "verdict": "supported",
+   "source": "ev_d083ce70b3d50945cdd597eb",
+   "why": "Planned changes and a promised return, kept in planned tense."
+  },
+  {
+   "piece": "reel_1 caption",
+   "text": "Hiring an ads team doesn't mean every existing page needs replacing.",
+   "verdict": "supported",
+   "source": "Hiring an ads team doesn't mean every existing page needs replacing.",
+   "why": "Verbatim claim."
+  },
+  {
+   "piece": "reel_1 caption",
+   "text": "That question came up on a call with one of our clients. Our team had built them a new landing page, and I explained why we were comparing it with the client's existing pages rather than sending every click to ours.",
+   "verdict": "supported",
+   "source": "We were comparing it with the pages already being used rather than directing every ad click to our version.",
+   "why": "Same event, actor and reasoning."
+  },
+  {
+   "piece": "reel_1 caption",
+   "text": "I also walked them through updates we planned to make to our page, with the revised version going back to them to review.",
+   "verdict": "supported",
+   "source": "I also outlined updates we planned to make before bringing the page back to the client for another review.",
+   "why": "Planned tense kept."
+  },
+  {
+   "piece": "reel_1 caption",
+   "text": "Building the page was our job.",
+   "verdict": "supported",
+   "source": "Creating the page was our contribution.",
+   "why": "Same meaning."
+  },
+  {
+   "piece": "reel_2 script",
+   "text": "We were in exactly this spot with a client recently. Our team had built them a new landing page, and instead of switching all their ads over to it, we compared it with their current pages.",
+   "verdict": "supported",
+   "source": "We had compared those options rather than moving every ad visitor to our page at once.",
+   "why": "Matches the claim."
+  },
+  {
+   "piece": "reel_2 script",
+   "text": "And we've got changes planned for our page before it goes back to them for another review.",
+   "verdict": "supported",
+   "source": "Keep revisions and the return for client review in planned tense.",
+   "why": "Planned tense kept."
+  },
+  {
+   "piece": "reel_2 caption",
+   "text": "Our team built the new page, and we compared it with their existing pages before deciding whether to move their ads over.",
+   "verdict": "supported",
+   "source": "WIA compared its new landing page with the client's existing pages rather than switching all ad traffic at once.",
+   "why": "Same facts."
+  },
+  {
+   "piece": "reel_2 caption",
+   "text": "There are changes planned for our page before it goes back to them for review.",
+   "verdict": "supported",
+   "source": "Outlined planned revisions and a return to the client for review.",
+   "why": "Planned tense kept."
+  },
+  {
+   "piece": "reel_3 screens",
+   "text": "Our team built a client a new landing page for their ads.",
+   "verdict": "supported",
+   "source": "Built the new ads landing page.",
+   "why": "Matches the credit."
+  },
+  {
+   "piece": "reel_3 screens",
+   "text": "Before switching their ads over, we put it side by side with their current pages.",
+   "verdict": "supported",
+   "source": "Compared the new page with the client's existing pages.",
+   "why": "Same comparison."
+  },
+  {
+   "piece": "reel_3 screens",
+   "text": "Next: changes to our page, then back to the client for another look.",
+   "verdict": "supported",
+   "source": "Final screen shows planned refinement, without suggesting completion or a winning page.",
+   "why": "Presented as planned, not done."
+  },
+  {
+   "piece": "reel_3 caption",
+   "text": "Our team built a new landing page for their ads, and before making a complete switch, we compared it with the pages already running in their advertising.",
+   "verdict": "supported",
+   "source": "Our team had built a landing page, but the decision was to compare it with the client's existing pages before making a complete switch.",
+   "why": "Matches the claim."
+  },
+  {
+   "piece": "reel_3 caption",
+   "text": "Whitney explained the reason on our call: we wanted to see how it converts before changing anything.",
+   "verdict": "unsupported",
+   "source": "We wanted to understand how our version would convert before making a complete change.",
+   "why": "The source says 'before a complete change'. 'Changing anything' implies no change at all, which is a different claim."
+  },
+  {
+   "piece": "reel_3 caption",
+   "text": "She also outlined changes we planned to make, and our page will go back to the client for another look.",
+   "verdict": "supported",
+   "source": "Whitney outlined planned revisions to WIA's page, followed by another client review.",
+   "why": "Planned tense kept."
+  },
+  {
+   "piece": "carousel slide 2",
+   "text": "We recently built a new landing page for a client's ads. They already had pages in their advertising. Ours gave them one more option to consider.",
+   "verdict": "supported",
+   "source": "They already had pages in their advertising, and we'd created another option.",
+   "why": "Same facts."
+  },
+  {
+   "piece": "carousel slide 3",
+   "text": "Instead of sending all their ad traffic to the new page, we compared it with the pages they already had. Their existing pages stayed part of the decision.",
+   "verdict": "supported",
+   "source": "The existing pages remained part of the decision instead of being treated as something to remove.",
+   "why": "Same facts."
+  },
+  {
+   "piece": "carousel slide 4",
+   "text": "On the call, Whitney explained why. We wanted to know how our page would convert before we changed where couples go after they click.",
+   "verdict": "supported",
+   "source": "10:35: Whitney explains why WIA did not want to switch all traffic to its page without knowing how it would convert.",
+   "why": "Matches the credit and reason."
+  },
+  {
+   "piece": "carousel slide 5",
+   "text": "Then the conversation turned to our page. Whitney walked through changes we planned to make, and the revised page was set to go back to the client for another review.",
+   "verdict": "supported",
+   "source": "The conversation then turned to revisions we planned for our version and returning it for another review.",
+   "why": "Planned, not completed."
+  },
+  {
+   "piece": "carousel slide 9",
+   "text": "Whether you want us to manage your ads or launch your campaigns and guide you while you run them, you can expect the same approach: our work earns its place in your advertising, just like yours.",
+   "verdict": "unsupported",
+   "source": "before_publishing: confirm the perspective extends beyond this single scene",
+   "why": "The offer descriptions match, but promising the same approach across all offers turns one scene into an unconfirmed universal standard."
+  },
+  {
+   "piece": "carousel caption",
+   "text": "On a recent client call, Whitney explained why we hadn't sent all of that client's ads to the page our team built. We'd compared it with their existing pages first, and we had changes planned for our version before returning it for another review.",
+   "verdict": "supported",
+   "source": "On a client call, we explained why our landing page had been compared with the client's current pages before a full traffic switch.",
+   "why": "Same facts, planned tense kept."
+  }
+ ],
+ "summary": {
+  "supported": 27,
+  "unsupported": 3,
+  "guardrail": 1
+ }
+}

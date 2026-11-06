@@ -1,0 +1,96 @@
+{
+  "about": "Knowledge-base entries the engineer reviewed under D12 and D21 for knowledge-base version 9 (E.B25 (i), (j)), entered through the approver path (L.F2) by `storage_cli context-entries-apply`, once each (knowledge/entries.py). `entries` are format-guide items for document 09: the first-touch rules of plan section 4.3 (R59) stated in general terms, Whitney's own published subject lines, covers and on-screen hooks as their exemplars, and the carousel length reconciled with section 4.3 (an edit of the confirmed length line). Document 05's approved descriptors and insider-term glossary are derived from `offer-descriptors.json` and `insider-terms.json` (the files the checks read), so the prose and the checks never disagree. Week 2 text and WIA's 20 October corrections are tests, never exemplars here (D28).",
+  "valid_from": "2026-10-22",
+  "author": "Implementing engineer under WIA's delegation (D12, 22 October 2026)",
+  "entries": [
+    {
+      "id": "F01",
+      "kind": "format_rule",
+      "edit": "format:format-guide.carousel.bullet01",
+      "body_update": {
+        "rule": "Length. 7 to 12 slides, usually 9 or 10 for a story (plan section 4.3, reconciled 22 October 2026). She held one to 10 (B-strategy-3, 2026-06-10); approved carousels ran 9, 11 and 12 slides (A-social-2, A-social-3). Slide 1 carries the title's promise; the story takes two to four slides; then the reader's situation and the reframe, a belief slide, and a CTA slide for both DIY and done-for-you readers."
+      },
+      "reason": "Section 4.3 sets 7 to 12 slides (usually 9 or 10 for a story); the line said 7 to 10 with 11 and 12 as exceptions, which her approved carousels contradict"
+    },
+    {
+      "id": "F02",
+      "kind": "format_rule",
+      "name": "first-touch-1-what-it-is",
+      "body": {
+        "format": "First-touch text",
+        "rule": "What it is. First-touch text is what a cold reader sees before deciding to keep going: the email subject and preview, every Reel cover and on-screen hook, the first b-roll screen and carousel slide 1. The five rules below apply to every one of them (R59)."
+      },
+      "reason": "Plan section 4.3, first-touch rules (R59), stated in general terms"
+    },
+    {
+      "id": "F03",
+      "kind": "format_rule",
+      "name": "first-touch-2-specific",
+      "body": {
+        "format": "First-touch text",
+        "rule": "Specific. It names the concrete subject (ads, Google, Meta, the budget, inquiries, bookings, the landing page), so a cold reader knows what it is about without the rest of the piece. A line lifted from a client or a call keeps its subject: a question about \"this\" or \"it\" says what \"this\" is."
+      },
+      "reason": "Plan section 4.3, first-touch rule 1"
+    },
+    {
+      "id": "F04",
+      "kind": "format_rule",
+      "name": "first-touch-3-slide-one",
+      "body": {
+        "format": "First-touch text",
+        "rule": "Slide 1 carries the promise. The carousel's title, or its promise as an insight about the reader, is on slide 1. A bare quote, a teaser or a slide that only makes sense after slide 2 is not a slide 1."
+      },
+      "reason": "Plan section 4.3, first-touch rule 2"
+    },
+    {
+      "id": "F05",
+      "kind": "format_rule",
+      "name": "first-touch-4-subject-lines",
+      "body": {
+        "format": "First-touch text",
+        "rule": "Subject lines state WIA's counter-expected point or decision, or the reader's own question or problem, in plain first-person or observational words. Never a narration of what a third party did (a client, a platform, an AI tool). Two to four options, best first; the preview text finishes the thought, it does not repeat it."
+      },
+      "reason": "Plan section 4.3, first-touch rule 3"
+    },
+    {
+      "id": "F06",
+      "kind": "format_rule",
+      "name": "first-touch-5-no-insider-terms",
+      "body": {
+        "format": "First-touch text",
+        "rule": "No insider terms. WIA's program internals (the insider terms in document 05: office hours, the VAULT, VIP Day, the kickoff call and the rest) never appear in first-touch text; in a script, an email or a caption each appears at most once, explained in plain words (\"we met with one of our Accelerator members recently\"). Offer names are not insider terms: they carry their approved descriptors (document 05)."
+      },
+      "reason": "Plan section 4.3, first-touch rule 4"
+    },
+    {
+      "id": "F07",
+      "kind": "format_rule",
+      "name": "first-touch-6-who-did-what",
+      "body": {
+        "format": "First-touch text",
+        "rule": "Who did what. A story beat keeps the actor the record names (the client, her own tool or assistant, WIA's strategist), or the fact Whitney attested at a gate. Specificity outranks sibling distinctness: when two openings in a pack or a week would collide, the later one changes its angle and keeps its subject."
+      },
+      "reason": "Plan section 4.3, first-touch rule 5 and the closing rule on specificity"
+    },
+    {
+      "id": "F08",
+      "kind": "format_rule",
+      "name": "first-touch-7-her-subject-lines",
+      "body": {
+        "format": "First-touch text",
+        "rule": "Her own subject lines, sent 2026 (patterns, not formulas; never reuse one): \"More leads won't fix this...\"; \"The goal isn't going viral\"; \"Visibility isn't something you earn.\" (preview: \"You engineer it.\"); \"The question we ask every new client\" (preview: \"I'm always surprised by the answer\"); \"It feels like our sales are on autopilot.\"; \"She didn't post on Instagram for 10 weeks\"; \"What I taught my clients this week\"; \"If your ads aren't performing like they should, read this\". A quote, an observation or a plain first-person statement, mostly without emoji, never a \"What happens next?\" tease."
+      },
+      "reason": "Whitney's sent subject lines (research/week2-packs-rebuild-2026-10-21/notes/chatgpt_export_week2_findings.md, section C; KB 09's email line); none is Week 2 call text"
+    },
+    {
+      "id": "F09",
+      "kind": "format_rule",
+      "name": "first-touch-8-her-covers-and-hooks",
+      "body": {
+        "format": "First-touch text",
+        "rule": "Covers and on-screen hooks she wrote or chose (patterns, not formulas): covers \"For a wedding business, every touchpoint matters more.\" (her line, July 2026), \"The best ad strategies start BEFORE the ads.\" (October 2026), \"Google Reps Aren't Your Marketing Strategist\" and \"Are Your Google Ads Actually Working?\" (October 2026); b-roll text hooks \"You can't book clients who never find you.\" (May 2026) and \"If you're seeing this, this is your sign to create a more predictable inquiry pipeline for your wedding business.\" (May 2026); carousel slide 1 \"You don't need another reminder to 'show up consistently.'\" (August 2026). Each names its subject (ads, Google, couples finding you, the inquiry pipeline) in the first words."
+      },
+      "reason": "Covers and hooks Whitney wrote or chose (the export's corrections log and exemplar bank, EX41, EX42); none is Week 2 call text or a 20 October correction"
+    }
+  ]
+}

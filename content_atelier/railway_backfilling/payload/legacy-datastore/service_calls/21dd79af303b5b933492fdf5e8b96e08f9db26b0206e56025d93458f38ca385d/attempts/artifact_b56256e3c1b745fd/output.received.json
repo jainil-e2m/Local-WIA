@@ -1,0 +1,374 @@
+{
+  "moments": [
+    {
+      "local_key": "google_ads_expectations_timeline",
+      "anchor_span_ids": [
+        "m1.t0151",
+        "m1.t0153"
+      ],
+      "context_span_ids": [
+        "m1.t0135",
+        "m1.t0151",
+        "m1.t0153",
+        "m1.t0156"
+      ],
+      "quote": "the first two weeks, I just see it as, like, a don't touch the ads. Just let the data run in.",
+      "context_summary": "Carmen reviews the launch plan with Shannon (Love Like Wild, Orlando wedding photographer). She sets out a monitoring cadence: 72 hours of active monitoring, then a handoff video, then weekly office hours. She then lays out the data-accumulation timeline before judging whether the campaign is working.",
+      "moment_type": "mechanism",
+      "proposition": "Setting explicit wait periods for Google Ads data reduces premature optimization and client anxiety.",
+      "audience_relevance": "Owners launching Google Ads often feel pressure to see immediate results and may over-adjust campaigns before the system has enough data to judge.",
+      "qualifications": [
+        "Practitioner guidance from a Google Ads specialist, not measured results",
+        "Timeline is an estimate, not a guarantee",
+        "Applies to search campaigns with conversion tracking set up"
+      ],
+      "claim_status": "reported",
+      "sensitivity": "internal_only",
+      "strength": 4,
+      "reasons": [
+        "Establishes a concrete, defensible expectation framework for clients",
+        "Explains the mechanism (data accumulation) behind the wait period",
+        "Includes monitoring cadence (3 days) and review points (2 weeks, 1 month, 3 months)"
+      ]
+    },
+    {
+      "local_key": "ad_copy_style_misalignment",
+      "anchor_span_ids": [
+        "m1.t0024",
+        "m1.t0052"
+      ],
+      "context_span_ids": [
+        "m1.t0022",
+        "m1.t0024",
+        "m1.t0052",
+        "m1.t0068"
+      ],
+      "quote": "I do pose people, I just don't pose them awkwardly or stiff",
+      "context_summary": "Carmen presents ad copy for Shannon's Google Ads, including 'No posing, just real moments.' Shannon pushes back: her branding is 90% candids, but she does help couples with posing on consult calls, and she doesn't want to promise she'll never guide them.",
+      "moment_type": "tension",
+      "proposition": "Ad copy that overstates a style can misrepresent the service and create mismatched expectations.",
+      "audience_relevance": "Wedding photographers and other visual vendors often simplify their style in ads, risking a promise they can't keep.",
+      "qualifications": [
+        "Client-reported preference, not measured ad performance",
+        "Specific to one photographer's style",
+        "Copy was revised after the objection (moved to 'authentic, not staged')"
+      ],
+      "claim_status": "reported",
+      "sensitivity": "public_candidate",
+      "strength": 4,
+      "reasons": [
+        "Shows a real-time correction where the owner caught a misrepresentation",
+        "Reveals the nuance (90% candids but does help with posing) that generic copy misses",
+        "Connects copy to downstream client expectations on consult calls"
+      ]
+    },
+    {
+      "local_key": "budget_as_emotional_lever",
+      "anchor_span_ids": [
+        "m1.t0158",
+        "m1.t0160"
+      ],
+      "context_span_ids": [
+        "m1.t0158",
+        "m1.t0160",
+        "m1.t0162"
+      ],
+      "quote": "Starting with a lower budget is less also, like, emotional investment",
+      "context_summary": "Shannon asks whether the $500/month Google Ads budget is adequate. Carmen says $500-$750 is ideal for starting, and explains that a lower starting budget reduces the owner's own pressure to see immediate results.",
+      "moment_type": "decision",
+      "proposition": "Starting at a lower ad budget can reduce pressure for immediate results.",
+      "audience_relevance": "Owners deciding how much to spend on ads may not realize budget size affects their own tolerance for slow starts.",
+      "qualifications": [
+        "Practitioner opinion, not measured",
+        "Specific to Google Ads starting budgets ($500-$750)",
+        "Does not guarantee lower costs or faster results"
+      ],
+      "claim_status": "reported",
+      "sensitivity": "internal_only",
+      "strength": 3,
+      "reasons": [
+        "Reframes budget as a psychological lever, not just a spend decision",
+        "Explains the mechanism (higher spend → higher expectation of immediate results)",
+        "Gives a concrete starting range"
+      ]
+    },
+    {
+      "local_key": "landing_page_hero_clarity",
+      "anchor_span_ids": [
+        "m4.t0096",
+        "m4.t0104"
+      ],
+      "context_span_ids": [
+        "m4.t0096",
+        "m4.t0104",
+        "m4.t0107"
+      ],
+      "quote": "20% of people go from the page to the… uh… inquiry form, but they're not actually inquiring",
+      "context_summary": "Carmen and Fallon review a destination-wedding-planner landing page. They note that a fifth of visitors reach the inquiry form but don't submit, and conclude the hero section doesn't clearly summarize what the service does, so visitors keep looking for information.",
+      "moment_type": "observation",
+      "proposition": "Visitors who reach a form but don't submit are often still seeking information, not ready to convert.",
+      "audience_relevance": "Venue and service-business owners may blame the form when the real issue is unclear value above the fold.",
+      "qualifications": [
+        "Internal observation from one destination-wedding-planner account",
+        "20% is a practitioner estimate, not audited",
+        "Specific to that landing page"
+      ],
+      "claim_status": "reported",
+      "sensitivity": "internal_only",
+      "strength": 4,
+      "reasons": [
+        "Quantifies a specific drop-off point",
+        "Identifies the likely cause (unclear hero messaging) rather than the symptom",
+        "Suggests a concrete fix (summarize what the service does)"
+      ]
+    },
+    {
+      "local_key": "meta_vs_google_funnel_stages",
+      "anchor_span_ids": [
+        "m5.t0116",
+        "m5.t0120"
+      ],
+      "context_span_ids": [
+        "m5.t0116",
+        "m5.t0120",
+        "m5.t0134"
+      ],
+      "quote": "But I really think if you want, like, those, like, newer leads, it would really come from Meta",
+      "context_summary": "Carmen reviews a non-wedding (waxing) account where cost per booked appointment rose from $40 to $80. She explains Google Ads may be crediting repeat bookings and organic retargeting, while Meta would be the better source for genuinely new clients.",
+      "moment_type": "mechanism",
+      "proposition": "Different ad platforms serve different funnel stages - Meta for new awareness, Google for intent-based retargeting.",
+      "audience_relevance": "Owners choosing between platforms may not realize each serves a different stage of the buyer journey.",
+      "qualifications": [
+        "Practitioner hypothesis from a non-wedding account (waxing)",
+        "Not a measured comparison",
+        "Mechanism is transferable; results are not a wedding case study"
+      ],
+      "claim_status": "reported",
+      "sensitivity": "internal_only",
+      "strength": 3,
+      "reasons": [
+        "Explains why Google may show repeat bookings while Meta brings new clients",
+        "Suggests a complementary rather than competing use of both platforms",
+        "Clear boundary that this is a hypothesis, not measured lift"
+      ]
+    },
+    {
+      "local_key": "conversion_attribution_ambiguity",
+      "anchor_span_ids": [
+        "m5.t0044",
+        "m5.t0081"
+      ],
+      "context_span_ids": [
+        "m5.t0044",
+        "m5.t0081",
+        "m5.t0097"
+      ],
+      "quote": "So I am glad we got 6 booked appointments. Now, $80 cost per booked appointment, I remember last time, I think it was, like. $40.",
+      "context_summary": "Carmen reports 6 booked appointments at $80 each for the waxing account, up from $40. The client then notes she hasn't had 6 new clients in the last month, suggesting some conversions are repeat bookings or indirect credit from seeing the ad twice.",
+      "moment_type": "result",
+      "proposition": "Reported conversion metrics can include repeat clients, not just new business.",
+      "audience_relevance": "Owners reviewing ad dashboards may mistake repeat bookings for new lead generation.",
+      "qualifications": [
+        "Non-wedding business (waxing)",
+        "Client-reported that 6 booked appointments did not equal 6 new clients",
+        "Attribution boundary unclear - Google may credit indirect visits",
+        "Metric is cost per booked appointment, not cost per new client"
+      ],
+      "claim_status": "reported",
+      "sensitivity": "internal_only",
+      "strength": 3,
+      "reasons": [
+        "Shows a real metric change ($40 → $80) with honest context",
+        "Reveals the attribution ambiguity (repeat vs new)",
+        "Demonstrates the need to define what a 'conversion' means"
+      ]
+    },
+    {
+      "local_key": "negative_keywords_price_mismatch",
+      "anchor_span_ids": [
+        "m3.t0341",
+        "m3.t0345"
+      ],
+      "context_span_ids": [
+        "m3.t0341",
+        "m3.t0345",
+        "m3.t0355"
+      ],
+      "quote": "Well, I start at 4,000. This is not… we're just wasting both of our time.",
+      "context_summary": "Shannon explains that Meta leads sometimes call wanting to spend $1,000 when her photography starts at $4,000, wasting both parties' time. Carmen adds negative keywords (cheap, affordable, free, DIY, how-to) to the Google campaign to filter price-sensitive searchers.",
+      "moment_type": "objection",
+      "proposition": "Excluding price-sensitive search terms can reduce unqualified inquiries.",
+      "audience_relevance": "Wedding vendors with clear pricing floors can use negative keywords to avoid budget-mismatched leads.",
+      "qualifications": [
+        "Client-reported experience, not measured keyword performance",
+        "Specific to one photographer's pricing ($4,000 starting)",
+        "Negative keywords were added after the discussion"
+      ],
+      "claim_status": "reported",
+      "sensitivity": "public_candidate",
+      "strength": 4,
+      "reasons": [
+        "Connects a specific search behavior to a concrete business cost (wasted consult time)",
+        "Gives a clear example of the price gap ($1,000 vs $4,000)",
+        "Shows the decision to exclude terms like cheap/affordable/free"
+      ]
+    },
+    {
+      "local_key": "text_vs_email_venue_followup",
+      "anchor_span_ids": [
+        "m7.t0176",
+        "m7.t0181"
+      ],
+      "context_span_ids": [
+        "m7.t0176",
+        "m7.t0181",
+        "m7.t0188"
+      ],
+      "quote": "there was a good amount of conversation happening in the text messages from their text follow-ups about going to the tour and like reminding them of the tour where that's where they were getting responses",
+      "context_summary": "Fallon reviews the venue demo account (Views at Sunset Ridge) and notes that tour-reminder conversations and responses came through text follow-ups, not email. The team agrees text is underutilized for pre-tour confirmation.",
+      "moment_type": "observation",
+      "proposition": "Text follow-ups may generate more responses than email for venue tour reminders.",
+      "audience_relevance": "Venues and planners using email follow-ups may be underutilizing text for higher engagement.",
+      "qualifications": [
+        "Internal observation from one venue account",
+        "Not a measured A/B test",
+        "Specific to tour-reminder context"
+      ],
+      "claim_status": "reported",
+      "sensitivity": "internal_only",
+      "strength": 3,
+      "reasons": [
+        "Identifies a specific channel where responses actually occurred",
+        "Suggests text is better for quick, time-sensitive reminders",
+        "Points to a concrete underutilized tactic"
+      ]
+    },
+    {
+      "local_key": "all_inclusive_pricing_comparison",
+      "anchor_span_ids": [
+        "m8.t0147",
+        "m8.t0156"
+      ],
+      "context_span_ids": [
+        "m8.t0147",
+        "m8.t0156",
+        "m8.t0251"
+      ],
+      "quote": "they might see a venue rental cost of $10,000, and then they're looking at our cost, which is $30, and they clearly know there's more in there, but they don't really know the value of those things",
+      "context_summary": "Lauren (The Penny, Central Coast venue) explains that couples compare her all-inclusive price against bare venue-rental competitors and can't see the value of bundled services. A comparison chart exists on her site but is buried under the FAQ dropdown and not prominent.",
+      "moment_type": "objection",
+      "proposition": "All-inclusive pricing is hard to compare against venue-only rentals because couples don't see the value of bundled services.",
+      "audience_relevance": "All-inclusive venues and planners struggle to justify higher upfront prices against bare-rental competitors.",
+      "qualifications": [
+        "Client-reported comparison confusion",
+        "Specific to one Central Coast California venue",
+        "A comparison chart exists on the site but is not prominent"
+      ],
+      "claim_status": "reported",
+      "sensitivity": "public_candidate",
+      "strength": 4,
+      "reasons": [
+        "Quantifies the comparison problem ($10k vs $30k)",
+        "Explains why the objection arises (invisible bundled value)",
+        "Notes the existing but underused comparison chart as a fix"
+      ]
+    },
+    {
+      "local_key": "small_business_software_cost",
+      "anchor_span_ids": [
+        "m9.t0219",
+        "m9.t0223"
+      ],
+      "context_span_ids": [
+        "m9.t0219",
+        "m9.t0223",
+        "m9.t0234"
+      ],
+      "quote": "I only take, sort of, like, 20 weddings a year maximum, so I just don't think I'm ever gonna get that much money that that's gonna be viable",
+      "context_summary": "Zadie, a UK-based wedding photographer taking up to 20 weddings/year, hears the LeadLock pricing ($12.97 setup, $147/month). She says the tool is excellent and she'd recommend it, but the fixed monthly cost is out of reach for her scale.",
+      "moment_type": "objection",
+      "proposition": "Fixed monthly software costs can be prohibitive for smaller wedding businesses.",
+      "audience_relevance": "Small wedding vendors may see fixed SaaS costs as unviable even when the tool is high quality.",
+      "qualifications": [
+        "Prospect objection in a sales demo",
+        "Specific to one UK-based photographer",
+        "Business takes 20 weddings/year maximum",
+        "Tool praised as excellent despite the objection"
+      ],
+      "claim_status": "reported",
+      "sensitivity": "internal_only",
+      "strength": 3,
+      "reasons": [
+        "Shows a genuine objection to fixed monthly pricing",
+        "Reveals the tension between tool quality and business scale",
+        "Demonstrates the prospect still recommends the tool to others"
+      ]
+    }
+  ],
+  "processed_meetings": [
+    {
+      "meeting_ref": "m1",
+      "first_span_id": "m1.t0001",
+      "last_span_id": "m1.t0192",
+      "span_count": 192
+    },
+    {
+      "meeting_ref": "m2",
+      "first_span_id": "m2.t0001",
+      "last_span_id": "m2.t0260",
+      "span_count": 260
+    },
+    {
+      "meeting_ref": "m3",
+      "first_span_id": "m3.t0001",
+      "last_span_id": "m3.t0397",
+      "span_count": 397
+    },
+    {
+      "meeting_ref": "m4",
+      "first_span_id": "m4.t0001",
+      "last_span_id": "m4.t0586",
+      "span_count": 586
+    },
+    {
+      "meeting_ref": "m5",
+      "first_span_id": "m5.t0001",
+      "last_span_id": "m5.t0709",
+      "span_count": 709
+    },
+    {
+      "meeting_ref": "m6",
+      "first_span_id": "m6.t0001",
+      "last_span_id": "m6.t0283",
+      "span_count": 283
+    },
+    {
+      "meeting_ref": "m7",
+      "first_span_id": "m7.t0001",
+      "last_span_id": "m7.t0247",
+      "span_count": 247
+    },
+    {
+      "meeting_ref": "m8",
+      "first_span_id": "m8.t0001",
+      "last_span_id": "m8.t0308",
+      "span_count": 308
+    },
+    {
+      "meeting_ref": "m9",
+      "first_span_id": "m9.t0001",
+      "last_span_id": "m9.t0256",
+      "span_count": 256
+    }
+  ],
+  "coverage_notes": [
+    "m6 (Whitney/Gisselle ops check-in) excluded: invoice/payment process, Zoom storage cleanup, pricing-guide workflow are internal operations without reader-level decision significance.",
+    "m2 (Carmen/Fallon training) excluded: the Google Tag Manager conversion-tracking walkthrough is routine technical setup; the thank-you-page dependency for tracking is noted but not selected as a moment.",
+    "m4 client-handover logistics (Fallon/Carmen account transitions) excluded: internal ownership scheduling is not reader-relevant.",
+    "m7 pricing-guide creation workflow (Giselle/Tina/Danielle) excluded: internal design process, not a buyer-facing decision.",
+    "m8 booking-name story (wishing well/pennies) excluded: colorful but not decision-level.",
+    "m5 is a non-wedding (waxing) account; its cost-per-appointment and Meta-vs-Google discussion are included only as transferable mechanism observations, not as wedding case-study results.",
+    "Unresolved: whether the destination-planner landing page's 20% form drop-off is caused by hero messaging or ad-copy mismatch is not settled in the packet.",
+    "Unresolved: the waxing account's $40→$80 cost-per-booking change is not attributed to a specific cause (bidding change, seasonality, or attribution shift)."
+  ]
+}

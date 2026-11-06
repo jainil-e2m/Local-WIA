@@ -1,0 +1,28 @@
+{
+ "meta": {
+  "run_id": "T2J-claude-sonnet-5.5-T30-G1vA0-YX",
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 1441,
+  "completion_tokens": 445,
+  "cached_tokens": 0,
+  "cost": 0.007332,
+  "seconds": 5.6,
+  "finish": "stop",
+  "system_sha": "5374112cdde3",
+  "user_sha": "db87c186db2c"
+ },
+ "output": {
+  "winner": "A",
+  "edits_needed_A": "few",
+  "edits_needed_B": "many",
+  "reason": "Candidate A nearly mirrors Whitney's approved description of WIA and only needs small fixes, such as softening the 'wasting time on SEO and organic social' jab and swapping 'florists' for her wording. Candidate B is a full pitch email with invented claims (Whitney's 12 years in sales, the 'colder leads' angles) and a different positioning, so it would need heavy rewriting."
+ },
+ "content": null,
+ "request": {
+  "system": "You compare two draft pieces of marketing copy for Wedding Industry Ads (WIA), a wedding-industry advertising agency. You are given the request, the version WIA's co-founder Whitney actually approved or wrote (the reference), and two candidate drafts. Decide which candidate would need fewer and smaller edits to become something Whitney would approve. Judge substance first (what is claimed, for whom, how WIA is positioned, accuracy, whether her own wording was kept where she supplied it), then voice. Do not reward length, and do not require the candidate to copy the reference wording.\n\nReturn only JSON: {\"winner\": \"A\" or \"B\" or \"tie\", \"edits_needed_A\": \"few\", \"edits_needed_B\": \"many\", \"reason\": \"one or two sentences\"} where edits_needed values are none, few, some or many.",
+  "user": "Request:\nCan you help me craft some compelling pitches? For me and Daniela to get guest spots on some popular podcasts for the wedding industry. Here are some tips I found: \n\nPersonalize the pitch: Reference specific episodes, topics, or even comments from listeners to show genuine interest. \n\n\n\nFocus on value: Explain how your expertise will benefit the podcast's audience. \n\n\n\nOffer unique talking points: Suggest specific, relevant topics that haven't been covered extensively or offer a new perspective. \n\n\n\nKeep it concise: Use clear, concise language and avoid lengthy introductions. \n\n\n\nInclude a one-sheet: Consider including a one-page document with your bio, experience, and links to previous interviews. \n\n\n\nOffer to promote the episode: Let the host know you'll share the episode with your network. \n\nTo clarify, it should be one email from me and Daniela collectively\n\nReference (what Whitney approved):\nWe’re Whitney and Daniela, co-founders of Wedding Industry Ads. We help venues and wedding professionals run profitable Google and Meta ad campaigns. From venues to planners to photographers, we work with pros who are ready to grow their businesses beyond organic marketing and referrals. They want to amplify their marketing strategically to create a lead generation system that consistently brings in high-quality leads.\n\nCandidate A:\nWe’re Whitney and Daniela, co-founders of Wedding Industry Ads. We help venues and wedding professionals run strategic, profitable Google and Meta ad campaigns. From florists to planners to venue owners, we’ve worked with pros who were done wasting time on SEO and organic social — and ready for a system that consistently brings in quality leads and books their calendar.\n\nCandidate B:\n**Subject: Guest idea for [Podcast Name]: Why good wedding businesses still struggle with inconsistent inquiries**\n\nHi [Host Name],\n\nYour episode on [specific topic] caught our attention—especially [specific takeaway]. It raised a question we’d love to explore with your audience: What happens when a wedding business has a strong reputation and beautiful work, but still can’t count on where its next inquiry is coming from?\n\nWe’re Whitney and Daniela, co-founders of Wedding Industry Ads. We help wedding venues and professionals connect their advertising to what actually matters: meaningful inquiries, sales conversations, and bookings. Whitney also spent 12 years in wedding and event sales before moving into advertising, so we bring both sides of the inquiry-to-booking experience.\n\nA few conversations we’d love to bring to [Podcast Name]:\n\n- **Your ad leads aren’t worse than your referrals. They’re just colder.** Why couples who discover you through an ad need a different trust-building experience—and what that means for your follow-up.\n- **Ads amplify businesses. They don’t fix them.** How to tell whether you have a visibility problem or whether something between the first click and the booking needs attention.\n- **Being fully booked isn’t the same as having predictable demand.** How established wedding pros can think about marketing before a quiet calendar forces them to react.\n\nOur goal would be to help listeners make clearer marketing decisions—not walk them through an ads dashboard or give them another list of things to post.\n\nWe’d be happy to send a one-sheet with our bios and background, and we’d love to share the episode with our network.\n\nWould one of these angles be a good fit for an upcoming conversation?\n\nWhitney & Daniela  \nCo-founders, Wedding Industry Ads  \n[Website] | [Instagram]",
+  "cache_prefix_sha": "5374112cdde3"
+ }
+}

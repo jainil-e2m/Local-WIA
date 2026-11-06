@@ -1,0 +1,28 @@
+{
+  "name": "C-source-w4-luna-pro",
+  "arm": "C-source",
+  "week": 4,
+  "slug": "luna-pro",
+  "role": "source_understanding_and_moment_discovery",
+  "stage": "moment_extraction",
+  "request_hash": "e2ee35684a1771a5288168eb3bd6d968b413c9fa107e8047975c649221b256a5",
+  "pool_hash": "4bb18412180615d9e5cb60f3f33dedb34271e4636240bb2b96c09dfe510bb9e0",
+  "schema_hash": "45a1bf9f8d5c2c18d11f3389ffcfb57b8839c7ac7ea91227addbe0e30771cc07",
+  "capacity": {
+    "method": "conservative_utf8_byte_allowance_not_native_token_count",
+    "input_allowance": 285567,
+    "margin": 28557,
+    "advertised_eligible_endpoints": 6,
+    "output_reserve": 128000,
+    "request_has_explicit_output_cap": false,
+    "fits_conservative_allowance": true,
+    "provider_defaults_and_limits_still_apply": true
+  },
+  "endpoint": "https://openrouter.ai/api/v1",
+  "reasoning": "high",
+  "embeddings": false,
+  "history": [],
+  "auto_retries": false,
+  "answer_key_supplied": false,
+  "source_week": 4
+}

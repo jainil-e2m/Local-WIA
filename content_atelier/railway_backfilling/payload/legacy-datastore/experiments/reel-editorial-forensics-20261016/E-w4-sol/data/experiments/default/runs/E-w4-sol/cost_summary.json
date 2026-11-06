@@ -1,0 +1,71 @@
+{
+  "report_run_id": "E-w4-sol",
+  "currency": "USD",
+  "recorded_at_utc": "2026-10-16T07:40:58.503934+00:00",
+  "stages": [
+    {
+      "stage": "angle_generation",
+      "status": "recorded",
+      "attempt_count": 1,
+      "dispatched_count": 1,
+      "reused_count": 0,
+      "known_reported_new_cost_usd": 0.3489621,
+      "new_cost_usd": 0.3489621,
+      "all_new_costs_known": true,
+      "calls": [
+        {
+          "report_run_id": "E-w4-sol",
+          "mode": "live",
+          "stage": "angle_generation",
+          "requested_model_id": "openai/gpt-6.1-sol",
+          "request_fingerprint": "7bbf6fbaf0040d6fb90b0489bdea9ebd7eddf065980e4211956d49c3c8bb4702",
+          "artifact_id": "artifact_b094cf27b6da49d7",
+          "validation_status": "validated",
+          "request_path": "service_calls/7bbf6fbaf0040d6fb90b0489bdea9ebd7eddf065980e4211956d49c3c8bb4702/attempts/artifact_b094cf27b6da49d7/request.json",
+          "raw_response_path": "service_calls/7bbf6fbaf0040d6fb90b0489bdea9ebd7eddf065980e4211956d49c3c8bb4702/attempts/artifact_b094cf27b6da49d7/response.raw.json",
+          "currency": "USD",
+          "recorded_at_utc": "2026-10-16T07:40:58.426289+00:00",
+          "dispatched": true,
+          "reused": false,
+          "generation_id": "gen-1792136210-3XYAIbb4bTjLAp5UJWE2",
+          "returned_model_id": "openai/gpt-6.1-sol",
+          "provider": "OpenAI",
+          "usage": {
+            "prompt_tokens": 100152,
+            "completion_tokens": 11211,
+            "total_tokens": 111363,
+            "cost": 0.3489621,
+            "is_byok": false,
+            "prompt_tokens_details": {
+              "cached_tokens": 5636,
+              "cache_write_tokens": 94513,
+              "audio_tokens": 0,
+              "video_tokens": 0
+            },
+            "cost_details": {
+              "upstream_inference_cost": 0.3489621,
+              "upstream_inference_prompt_cost": 0.2368521,
+              "upstream_inference_completions_cost": 0.11211
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 2004,
+              "image_tokens": 0,
+              "audio_tokens": 0
+            }
+          },
+          "original_reported_cost_usd": 0.3489621,
+          "new_cost_usd": 0.3489621,
+          "cost_status": "reported",
+          "cost_source": "provider_usage.cost",
+          "credit_purchase_fees_included": false
+        }
+      ]
+    }
+  ],
+  "known_reported_new_cost_usd": 0.3489621,
+  "total_new_cost_usd": 0.3489621,
+  "all_new_costs_known": true,
+  "reasoning_is_included_in_completion_tokens": true,
+  "original_reused_usage_is_not_new_billing": true,
+  "credit_purchase_fees_included": false
+}

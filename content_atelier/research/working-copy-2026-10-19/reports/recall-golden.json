@@ -1,0 +1,515 @@
+{
+  "golden": "benchmark-v1-scenes",
+  "scenes": 15,
+  "versions": [
+    "2026-10-13.weekly.v3",
+    "2026-10-18.scenes.v1",
+    "imported:2026-10-08.apodex-weekly-generation.v3"
+  ],
+  "recall": {
+    "2026-10-13.weekly.v3": 0.5333,
+    "2026-10-18.scenes.v1": 0.7333,
+    "imported:2026-10-08.apodex-weekly-generation.v3": 0.5333
+  },
+  "by_version": {
+    "2026-10-13.weekly.v3": {
+      "extractor_version": "2026-10-13.weekly.v3",
+      "scenes": 15,
+      "found": 8,
+      "recall": 0.5333,
+      "lost_to_quote_mismatch": [],
+      "missed": [
+        "g09",
+        "g10",
+        "g11",
+        "g12",
+        "g13",
+        "g14",
+        "g15"
+      ],
+      "results": [
+        {
+          "id": "g01",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_b6124b0d757caa01f992b313",
+          "match": "quote",
+          "document_id": "transcript_9e1879c15e05bd2d327366bf"
+        },
+        {
+          "id": "g02",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_785018422b4139ca4026de0a",
+          "match": "anchor_passage",
+          "document_id": "transcript_536edfd0a7064563b96079c5"
+        },
+        {
+          "id": "g03",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_b7b07bed96246fbb1a9d122f",
+          "match": "anchor_passage",
+          "document_id": "transcript_9e1879c15e05bd2d327366bf"
+        },
+        {
+          "id": "g04",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_1af5cbd5b9123bd11a87aa81",
+          "match": "anchor_passage",
+          "document_id": "transcript_d158c0b7ca826039fec4d731"
+        },
+        {
+          "id": "g05",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_879f76eea08eb4ff18b3c947",
+          "match": "quote",
+          "document_id": "transcript_d158c0b7ca826039fec4d731"
+        },
+        {
+          "id": "g06",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_ec72e945440dc4b558b8c064",
+          "match": "anchor_passage",
+          "document_id": "transcript_1f595f00a47fa1b61b2ae316"
+        },
+        {
+          "id": "g07",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_320404b2bc5d92895b225dda",
+          "match": "quote",
+          "document_id": "transcript_1b534a0e94efca5c47e5b732"
+        },
+        {
+          "id": "g08",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_c43b5b36bc5de1e0f33db424",
+          "match": "anchor_passage",
+          "document_id": "transcript_edfcc5280e26f7c496a2d6db"
+        },
+        {
+          "id": "g09",
+          "found": false,
+          "lost_to_quote_mismatch": false,
+          "moment_id": null,
+          "match": null,
+          "document_id": "transcript_e55fb5bf35dc6e9b7292b0fa"
+        },
+        {
+          "id": "g10",
+          "found": false,
+          "lost_to_quote_mismatch": false,
+          "moment_id": null,
+          "match": null,
+          "document_id": "transcript_15884913ba40b1e26079f1e5"
+        },
+        {
+          "id": "g11",
+          "found": false,
+          "lost_to_quote_mismatch": false,
+          "moment_id": null,
+          "match": null,
+          "document_id": "transcript_5d467dca06f78064adf23cf5"
+        },
+        {
+          "id": "g12",
+          "found": false,
+          "lost_to_quote_mismatch": false,
+          "moment_id": null,
+          "match": null,
+          "document_id": "transcript_5d467dca06f78064adf23cf5"
+        },
+        {
+          "id": "g13",
+          "found": false,
+          "lost_to_quote_mismatch": false,
+          "moment_id": null,
+          "match": null,
+          "document_id": "transcript_54276ed4d19c1d124039c631"
+        },
+        {
+          "id": "g14",
+          "found": false,
+          "lost_to_quote_mismatch": false,
+          "moment_id": null,
+          "match": null,
+          "document_id": "transcript_9143cef8d30d0b34d5458ed1"
+        },
+        {
+          "id": "g15",
+          "found": false,
+          "lost_to_quote_mismatch": false,
+          "moment_id": null,
+          "match": null,
+          "document_id": "transcript_54276ed4d19c1d124039c631"
+        }
+      ]
+    },
+    "2026-10-18.scenes.v1": {
+      "extractor_version": "2026-10-18.scenes.v1",
+      "scenes": 15,
+      "found": 11,
+      "recall": 0.7333,
+      "lost_to_quote_mismatch": [],
+      "missed": [
+        "g01",
+        "g07",
+        "g09",
+        "g14"
+      ],
+      "results": [
+        {
+          "id": "g01",
+          "found": false,
+          "lost_to_quote_mismatch": false,
+          "moment_id": null,
+          "match": null,
+          "document_id": "transcript_9e1879c15e05bd2d327366bf"
+        },
+        {
+          "id": "g02",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_a6bdaf651a9f3a11196f0c33",
+          "match": "quote",
+          "document_id": "transcript_536edfd0a7064563b96079c5"
+        },
+        {
+          "id": "g03",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_810f33daa8f2c1715b3dcb04",
+          "match": "anchor_passage",
+          "document_id": "transcript_9e1879c15e05bd2d327366bf"
+        },
+        {
+          "id": "g04",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_abd5de6759bd777ec774913c",
+          "match": "quote",
+          "document_id": "transcript_d158c0b7ca826039fec4d731"
+        },
+        {
+          "id": "g05",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_0977cbf515cad68bfb36410e",
+          "match": "anchor_passage",
+          "document_id": "transcript_d158c0b7ca826039fec4d731"
+        },
+        {
+          "id": "g06",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_0a8b892c7ab5e3744eb0527a",
+          "match": "quote",
+          "document_id": "transcript_1f595f00a47fa1b61b2ae316"
+        },
+        {
+          "id": "g07",
+          "found": false,
+          "lost_to_quote_mismatch": false,
+          "moment_id": null,
+          "match": null,
+          "document_id": "transcript_1b534a0e94efca5c47e5b732"
+        },
+        {
+          "id": "g08",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_bf8c5848b92331ac16b5542d",
+          "match": "anchor_passage",
+          "document_id": "transcript_edfcc5280e26f7c496a2d6db"
+        },
+        {
+          "id": "g09",
+          "found": false,
+          "lost_to_quote_mismatch": false,
+          "moment_id": null,
+          "match": null,
+          "document_id": "transcript_e55fb5bf35dc6e9b7292b0fa"
+        },
+        {
+          "id": "g10",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_76e55cca91d32d57e054173b",
+          "match": "quote",
+          "document_id": "transcript_15884913ba40b1e26079f1e5"
+        },
+        {
+          "id": "g11",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_d776c9b26a93acb7302435e6",
+          "match": "anchor_passage",
+          "document_id": "transcript_5d467dca06f78064adf23cf5"
+        },
+        {
+          "id": "g12",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_0f62dc13261e68642477b84a",
+          "match": "anchor_passage",
+          "document_id": "transcript_5d467dca06f78064adf23cf5"
+        },
+        {
+          "id": "g13",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_b3236d1c00324bb7a575665a",
+          "match": "anchor_passage",
+          "document_id": "transcript_54276ed4d19c1d124039c631"
+        },
+        {
+          "id": "g14",
+          "found": false,
+          "lost_to_quote_mismatch": false,
+          "moment_id": null,
+          "match": null,
+          "document_id": "transcript_9143cef8d30d0b34d5458ed1"
+        },
+        {
+          "id": "g15",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_45f49312f154ba31cb07dd49",
+          "match": "anchor_passage",
+          "document_id": "transcript_54276ed4d19c1d124039c631"
+        }
+      ]
+    },
+    "imported:2026-10-08.apodex-weekly-generation.v3": {
+      "extractor_version": "imported:2026-10-08.apodex-weekly-generation.v3",
+      "scenes": 15,
+      "found": 8,
+      "recall": 0.5333,
+      "lost_to_quote_mismatch": [],
+      "missed": [
+        "g09",
+        "g10",
+        "g11",
+        "g12",
+        "g13",
+        "g14",
+        "g15"
+      ],
+      "results": [
+        {
+          "id": "g01",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_b6124b0d757caa01f992b313",
+          "match": "quote",
+          "document_id": "transcript_9e1879c15e05bd2d327366bf"
+        },
+        {
+          "id": "g02",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_785018422b4139ca4026de0a",
+          "match": "anchor_passage",
+          "document_id": "transcript_536edfd0a7064563b96079c5"
+        },
+        {
+          "id": "g03",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_b7b07bed96246fbb1a9d122f",
+          "match": "anchor_passage",
+          "document_id": "transcript_9e1879c15e05bd2d327366bf"
+        },
+        {
+          "id": "g04",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_1af5cbd5b9123bd11a87aa81",
+          "match": "anchor_passage",
+          "document_id": "transcript_d158c0b7ca826039fec4d731"
+        },
+        {
+          "id": "g05",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_879f76eea08eb4ff18b3c947",
+          "match": "quote",
+          "document_id": "transcript_d158c0b7ca826039fec4d731"
+        },
+        {
+          "id": "g06",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_ec72e945440dc4b558b8c064",
+          "match": "anchor_passage",
+          "document_id": "transcript_1f595f00a47fa1b61b2ae316"
+        },
+        {
+          "id": "g07",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_781675b63c6aea8b7d459594",
+          "match": "quote",
+          "document_id": "transcript_1b534a0e94efca5c47e5b732"
+        },
+        {
+          "id": "g08",
+          "found": true,
+          "lost_to_quote_mismatch": false,
+          "moment_id": "moment_c43b5b36bc5de1e0f33db424",
+          "match": "anchor_passage",
+          "document_id": "transcript_edfcc5280e26f7c496a2d6db"
+        },
+        {
+          "id": "g09",
+          "found": false,
+          "lost_to_quote_mismatch": false,
+          "moment_id": null,
+          "match": null,
+          "document_id": "transcript_e55fb5bf35dc6e9b7292b0fa"
+        },
+        {
+          "id": "g10",
+          "found": false,
+          "lost_to_quote_mismatch": false,
+          "moment_id": null,
+          "match": null,
+          "document_id": "transcript_15884913ba40b1e26079f1e5"
+        },
+        {
+          "id": "g11",
+          "found": false,
+          "lost_to_quote_mismatch": false,
+          "moment_id": null,
+          "match": null,
+          "document_id": "transcript_5d467dca06f78064adf23cf5"
+        },
+        {
+          "id": "g12",
+          "found": false,
+          "lost_to_quote_mismatch": false,
+          "moment_id": null,
+          "match": null,
+          "document_id": "transcript_5d467dca06f78064adf23cf5"
+        },
+        {
+          "id": "g13",
+          "found": false,
+          "lost_to_quote_mismatch": false,
+          "moment_id": null,
+          "match": null,
+          "document_id": "transcript_54276ed4d19c1d124039c631"
+        },
+        {
+          "id": "g14",
+          "found": false,
+          "lost_to_quote_mismatch": false,
+          "moment_id": null,
+          "match": null,
+          "document_id": "transcript_9143cef8d30d0b34d5458ed1"
+        },
+        {
+          "id": "g15",
+          "found": false,
+          "lost_to_quote_mismatch": false,
+          "moment_id": null,
+          "match": null,
+          "document_id": "transcript_54276ed4d19c1d124039c631"
+        }
+      ]
+    }
+  },
+  "found_by": {
+    "g01": {
+      "2026-10-13.weekly.v3": true,
+      "2026-10-18.scenes.v1": false,
+      "imported:2026-10-08.apodex-weekly-generation.v3": true
+    },
+    "g02": {
+      "2026-10-13.weekly.v3": true,
+      "2026-10-18.scenes.v1": true,
+      "imported:2026-10-08.apodex-weekly-generation.v3": true
+    },
+    "g03": {
+      "2026-10-13.weekly.v3": true,
+      "2026-10-18.scenes.v1": true,
+      "imported:2026-10-08.apodex-weekly-generation.v3": true
+    },
+    "g04": {
+      "2026-10-13.weekly.v3": true,
+      "2026-10-18.scenes.v1": true,
+      "imported:2026-10-08.apodex-weekly-generation.v3": true
+    },
+    "g05": {
+      "2026-10-13.weekly.v3": true,
+      "2026-10-18.scenes.v1": true,
+      "imported:2026-10-08.apodex-weekly-generation.v3": true
+    },
+    "g06": {
+      "2026-10-13.weekly.v3": true,
+      "2026-10-18.scenes.v1": true,
+      "imported:2026-10-08.apodex-weekly-generation.v3": true
+    },
+    "g07": {
+      "2026-10-13.weekly.v3": true,
+      "2026-10-18.scenes.v1": false,
+      "imported:2026-10-08.apodex-weekly-generation.v3": true
+    },
+    "g08": {
+      "2026-10-13.weekly.v3": true,
+      "2026-10-18.scenes.v1": true,
+      "imported:2026-10-08.apodex-weekly-generation.v3": true
+    },
+    "g09": {
+      "2026-10-13.weekly.v3": false,
+      "2026-10-18.scenes.v1": false,
+      "imported:2026-10-08.apodex-weekly-generation.v3": false
+    },
+    "g10": {
+      "2026-10-13.weekly.v3": false,
+      "2026-10-18.scenes.v1": true,
+      "imported:2026-10-08.apodex-weekly-generation.v3": false
+    },
+    "g11": {
+      "2026-10-13.weekly.v3": false,
+      "2026-10-18.scenes.v1": true,
+      "imported:2026-10-08.apodex-weekly-generation.v3": false
+    },
+    "g12": {
+      "2026-10-13.weekly.v3": false,
+      "2026-10-18.scenes.v1": true,
+      "imported:2026-10-08.apodex-weekly-generation.v3": false
+    },
+    "g13": {
+      "2026-10-13.weekly.v3": false,
+      "2026-10-18.scenes.v1": true,
+      "imported:2026-10-08.apodex-weekly-generation.v3": false
+    },
+    "g14": {
+      "2026-10-13.weekly.v3": false,
+      "2026-10-18.scenes.v1": false,
+      "imported:2026-10-08.apodex-weekly-generation.v3": false
+    },
+    "g15": {
+      "2026-10-13.weekly.v3": false,
+      "2026-10-18.scenes.v1": true,
+      "imported:2026-10-08.apodex-weekly-generation.v3": false
+    }
+  },
+  "only_found_by": {
+    "2026-10-13.weekly.v3": [],
+    "2026-10-18.scenes.v1": [
+      "g10",
+      "g11",
+      "g12",
+      "g13",
+      "g15"
+    ],
+    "imported:2026-10-08.apodex-weekly-generation.v3": []
+  }
+}

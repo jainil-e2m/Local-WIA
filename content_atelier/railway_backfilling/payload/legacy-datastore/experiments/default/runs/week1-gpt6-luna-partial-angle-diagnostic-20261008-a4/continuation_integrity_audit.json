@@ -1,0 +1,71 @@
+{
+  "source_run_id": "week1-gpt6-luna-generation-only-20261008-a3",
+  "angle_run_id": "week1-gpt6-luna-partial-angle-diagnostic-20261008-a4",
+  "new_service_request_count": 1,
+  "new_service_stages": [
+    "angle_generation"
+  ],
+  "original_received_output_unchanged": true,
+  "original_failed_manifest_unchanged": true,
+  "original_status": "failed",
+  "diagnostic_status": "partial",
+  "replay_candidates_and_lineage_identical": true,
+  "replay_new_cost_usd": 0.0,
+  "new_extraction_requests": 0,
+  "embedding_enabled": false,
+  "embedding_requests": 0,
+  "all_candidate_vectors_null": true,
+  "source_integrity": [
+    {
+      "meeting_ref": "m1",
+      "source_hash_matches": true,
+      "archive_bytes_match": true
+    },
+    {
+      "meeting_ref": "m2",
+      "source_hash_matches": true,
+      "archive_bytes_match": true
+    },
+    {
+      "meeting_ref": "m3",
+      "source_hash_matches": true,
+      "archive_bytes_match": true
+    },
+    {
+      "meeting_ref": "m4",
+      "source_hash_matches": true,
+      "archive_bytes_match": true
+    },
+    {
+      "meeting_ref": "m5",
+      "source_hash_matches": true,
+      "archive_bytes_match": true
+    },
+    {
+      "meeting_ref": "m6",
+      "source_hash_matches": true,
+      "archive_bytes_match": true
+    },
+    {
+      "meeting_ref": "m7",
+      "source_hash_matches": true,
+      "archive_bytes_match": true
+    },
+    {
+      "meeting_ref": "m8",
+      "source_hash_matches": true,
+      "archive_bytes_match": true
+    },
+    {
+      "meeting_ref": "m9",
+      "source_hash_matches": true,
+      "archive_bytes_match": true
+    }
+  ],
+  "request_max_tokens_present": false,
+  "request_max_completion_tokens_present": false,
+  "local_input_limits_enabled": false,
+  "credential_scan_file_count": 26,
+  "supplied_key_value_hits": 0,
+  "new_provider_requests_in_audit": 0
+}

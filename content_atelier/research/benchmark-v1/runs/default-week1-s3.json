@@ -1,0 +1,219 @@
+{
+ "config": "default",
+ "week": "week1",
+ "sample": 3,
+ "model": "openai/gpt-6-luna",
+ "benchmark": "benchmark-v1.2026-10-18",
+ "cost": 0.00245141,
+ "usage": {
+  "prompt_tokens": 12214,
+  "completion_tokens": 4658,
+  "total_tokens": 16872,
+  "cost": 0.00245141,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 12211,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00245141,
+   "upstream_inference_prompt_cost": 0.00012241,
+   "upstream_inference_completions_cost": 0.002329
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1517,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "seconds": 36.3,
+ "finish": "stop",
+ "request_fingerprint": "bbdce7eadf66c6b31ee907b5876c6c17e1289e976c6f5c084bad42e0df195bf7",
+ "output": {
+  "angles": [
+   {
+    "local_key": "w1_kw_intent",
+    "title": "When a search term sounds mismatched, check what happens after the inquiry",
+    "content_opportunity": "Explore why a phrase that appears misaligned with a wedding business is not automatically a negative keyword. In this exchange, the photographer questioned whether to exclude “light and airy,” then shared that one of roughly four or five people who had mentioned it in the last year became a client. Carmen asked about that inquiry-to-client experience and recommended leaving the term in for now, with the option to revisit if search activity proves irrelevant.",
+    "strategic_purpose": "WARM",
+    "content_type": "process",
+    "strategic_rationale": "This gives wedding-business owners a specific example of WIA using client knowledge to inform a technical advertising decision, rather than treating a seeming mismatch as sufficient evidence for exclusion.",
+    "audience": "Wedding-business owners making advertising decisions about search terms that appear inconsistent with their positioning, especially those who can add firsthand context about the inquiries they receive.",
+    "core_perspective": "A search term that seems mismatched on paper may still be worth keeping when the owner’s experience shows that some of those inquiries become clients.",
+    "tension": "A phrase can signal a possible mismatch, but excluding it could also remove a path that has led to a client.",
+    "wia_expertise_in_action": "Carmen asked whether people mentioning “light and airy” became clients. After Shannon reported that one of roughly four or five such inquiries in the last year became a client, Carmen said they could leave the term in and revisit it if searches were becoming irrelevant.",
+    "service_relevance": "The exchange concerns a search-term decision in advertising work; it does not establish broader service scope or an outcome from the decision.",
+    "reader_decision": null,
+    "evidence_readiness": "supported",
+    "research_questions": [],
+    "selection_reason": "The useful distinction is not simply whether to keep a keyword: the exchange shows the practitioner asking for client-side evidence before acting on an apparent mismatch, with a clear condition for reviewing the decision later.",
+    "moment_ids": [
+     "w1_m3"
+    ],
+    "source_assertions": [
+     "[w1_m3] Shannon said some people who inquired had described wanting a “light and airy” style, although she said that was not her style, and questioned whether to exclude the term.",
+     "[w1_m3] Carmen asked whether people who mentioned “light and airy” became clients; Shannon reported that one out of roughly four or five people who had mentioned it in the last year became a client.",
+     "[w1_m3] Carmen said they could leave the term in and revisit it if search activity became irrelevant."
+    ],
+    "inference": "The exchange supports exploring inquiry outcomes as one input to a search-term decision, rather than deciding from wording alone.",
+    "qualifiers": [
+     "The approximate count is Shannon’s report about a couple of inquiries in the last year, not a measured campaign result or evidence of a general conversion rate.",
+     "The passage records a decision to leave the term in for now and a possible future review; it does not establish what was ultimately implemented or what happened afterward."
+    ],
+    "risks": [
+     "Speaker labels are unverified, and the source does not establish client consent or publication permission.",
+     "Keep the reported inquiry count approximate and specific to this exchange; do not present it as a general buyer pattern."
+    ],
+    "quality": {
+     "grounding": 4,
+     "strategic_fit": 4,
+     "distinctiveness": 4,
+     "audience_resonance": 4,
+     "source_strength": 4,
+     "reasons": [
+      "The question, reported client context and provisional recommendation are directly present in the source.",
+      "The decision process is useful to owners while remaining bounded by a small, approximate report and an unknown later outcome."
+     ]
+    }
+   },
+   {
+    "local_key": "w1_venue_value",
+    "title": "Help couples compare what an all-inclusive venue price covers",
+    "content_opportunity": "Explore the challenge of comparing a venue-rental price with an all-inclusive offering when couples may not yet understand what is included. Lauren described a local comparison with rental-only venues and said she already used a comparison chart and estimated outside costs in follow-up. Whitney saw potential in including that explanation on the landing page.",
+    "strategic_purpose": "WARM",
+    "content_type": "campaign_breakdown",
+    "strategic_rationale": "The exchange makes a positioning and landing-page question concrete: when offers are structured differently, explaining the components of value can help a business communicate what couples are comparing, without claiming that a particular presentation improves conversion.",
+    "audience": "Wedding venues and other wedding businesses with bundled or all-inclusive offerings that couples compare against lower-priced options with different inclusions.",
+    "core_perspective": "When couples compare different kinds of offers by their headline prices, the business may need to make the included value easier to see.",
+    "tension": "A couple may recognize that an all-inclusive price covers more, yet still lack a clear way to compare it with a venue-rental price.",
+    "wia_expertise_in_action": "Lauren described her existing comparison chart and use of estimated outside costs in follow-up. Whitney suggested that including the comparison on the landing page could be powerful.",
+    "service_relevance": "The exchange connects advertising-page thinking with how the venue explains its value; it does not establish that WIA created the existing chart or implemented the suggested page change.",
+    "reader_decision": null,
+    "evidence_readiness": "supported",
+    "research_questions": [],
+    "selection_reason": "This is more than a general reminder to communicate value: the scene identifies a specific comparison problem and a possible move from follow-up explanation to a landing page, while keeping ownership of the existing chart with the client.",
+    "moment_ids": [
+     "w1_m4"
+    ],
+    "source_assertions": [
+     "[w1_m4] Lauren said the venue was compared with local rental-only venues and that couples did not always understand the value of what her all-inclusive price covered.",
+     "[w1_m4] Lauren said the venue already had a comparison chart on its website and that she used it, along with estimated outside costs, in follow-up after tours or when answering questions.",
+     "[w1_m4] Whitney said that including the comparison on the landing page could be powerful."
+    ],
+    "inference": "The exchange supports exploring how an existing sales explanation might also inform the advertising landing-page experience.",
+    "qualifiers": [
+     "The transcript’s spoken price reference after “$10,000” is unclear, so this treatment does not repeat it.",
+     "The chart was described as existing client material. The source does not establish who created it, whether the landing-page suggestion was implemented, or whether either presentation changed buyer behavior.",
+     "The outside costs Lauren described were estimates, not verified totals."
+    ],
+    "risks": [
+     "Speaker labels are unverified; avoid identifying the venue or disclosing its comparison materials without appropriate permission.",
+     "Any public numerical comparison would require verification of its scope, assumptions and current accuracy."
+    ],
+    "quality": {
+     "grounding": 4,
+     "strategic_fit": 4,
+     "distinctiveness": 4,
+     "audience_resonance": 4,
+     "source_strength": 4,
+     "reasons": [
+      "The comparison problem, client’s current explanation and Whitney’s landing-page suggestion are all present in the supplied passage.",
+      "The central idea concerns a consequential buyer comparison, while the source does not support a performance claim."
+     ]
+    }
+   },
+   {
+    "local_key": "w1_funnel_creative",
+    "title": "Creative should reflect what the audience needs at each stage",
+    "content_opportunity": "Explore Whitney’s explanation that creative has different jobs for people at different stages of familiarity with a business. She distinguished introductory creative for cold audiences, direct-response creative intended to prompt an inquiry or tour, and retargeting creative that can go deeper on why someone should choose the business or address objections.",
+    "strategic_purpose": "WARM",
+    "content_type": "education",
+    "strategic_rationale": "This makes WIA’s campaign reasoning understandable to owners who may be deciding whether to use one creative approach throughout a campaign. The value is in explaining the differing audience objectives, not promising that a particular funnel structure produces results.",
+    "audience": "Wedding-business owners planning or reviewing paid campaigns who want to understand why audiences with different levels of familiarity may need different messages.",
+    "core_perspective": "Campaign creative is not one interchangeable introduction: its purpose can change from helping an unfamiliar audience meet the brand to giving a warmer audience reasons to inquire or choose it.",
+    "tension": "A single campaign may reach people who have never encountered the business and people already considering it, but those audiences are not being asked to do the same thing.",
+    "wia_expertise_in_action": "In response to Lauren’s question about whether each funnel layer had separate creative, Whitney explained the different objectives she associated with cold-audience, conversion and retargeting campaigns, including introduction, inquiry or tour, and deeper choice-related messaging.",
+    "service_relevance": "The exchange is an explanation of advertising campaign objectives; it does not establish which campaign structure or creative was implemented for this client.",
+    "reader_decision": null,
+    "evidence_readiness": "supported",
+    "research_questions": [],
+    "selection_reason": "Whitney answers a practical client question with a distinct explanation of how the intended audience action and message depth can vary by stage, rather than reducing campaign strategy to targeting different people with the same creative.",
+    "moment_ids": [
+     "w1_m5"
+    ],
+    "source_assertions": [
+     "[w1_m5] Lauren asked whether each funnel layer had separate creative or whether one creative was used with different targeting.",
+     "[w1_m5] Whitney described cold-audience client-attraction creative as an introduction to the brand, and conversion creative as aiming to prompt an inquiry or tour.",
+     "[w1_m5] Whitney described retargeting as addressing warmer audiences, potentially including people who had inquired or scheduled a tour, with deeper messaging about why to choose the business and addressing objections."
+    ],
+    "inference": "The explanation supports a perspective that campaign messages can be planned around audience familiarity and the next intended decision, rather than treated as interchangeable.",
+    "qualifiers": [
+     "Whitney described a general approach in response to a question; the passage does not establish that these specific campaign layers or creatives were implemented for Lauren’s business.",
+     "The passage provides no campaign performance, measured effect or evidence that every account uses identical audience stages."
+    ],
+    "risks": [
+     "Speaker labels are unverified. Confirm permission and context before identifying the client or presenting this as a client-specific campaign breakdown."
+    ],
+    "quality": {
+     "grounding": 4,
+     "strategic_fit": 4,
+     "distinctiveness": 3,
+     "audience_resonance": 4,
+     "source_strength": 4,
+     "reasons": [
+      "The question and Whitney’s stage-by-stage explanation are explicitly represented in the source.",
+      "The perspective gives owners a useful reason for differentiated creative, though the passage does not show an implemented campaign or result."
+     ]
+    }
+   }
+  ],
+  "internal_insights": [
+   {
+    "moment_ids": [
+     "w1_m1"
+    ],
+    "insight": "Shannon said her Colorado and Florida wedding markets call for different visual cues on a landing page, and that she planned to focus on Orlando for now while leaving Colorado as a possible later market.",
+    "strategic_use": "Retain this as client insight about geographic focus and landing-page relevance. If revisiting the account, clarify whether market-specific imagery or separate pages were tested before making broader recommendations.",
+    "research_questions": [
+     "Did Shannon later target Colorado, and did she use a different landing-page experience or imagery for that market?"
+    ]
+   },
+   {
+    "moment_ids": [
+     "w1_m2"
+    ],
+    "insight": "Shannon described her photography as mostly candid while also helping couples pose when needed, especially for portraits. She said she did not want wording such as “no posing at all” to make prospective clients think she would not guide them, and offered “authentic, not staged?” as a possible phrasing.",
+    "strategic_use": "Preserve the distinction for messaging discussions: the client’s desired positioning includes candid moments without promising a hands-off experience. Confirm the wording the client chose and whether it was used before treating it as a WIA recommendation or public case example.",
+    "research_questions": [
+     "Which wording, if any, did the client ultimately approve and use in the campaign or landing page?"
+    ]
+   },
+   {
+    "moment_ids": [
+     "w1_m6"
+    ],
+    "insight": "Zadie said the ongoing cost, rather than the setup fee, might be difficult to sustain for a small business with limited current volume; she also said she was using a free version because she did not yet have enough people on the system. She praised the system, but the passage does not specify which capabilities drove that assessment.",
+    "strategic_use": "Use the affordability concern as sales intelligence about fit and ongoing cost sensitivity. Keep it separate from the product praise, and investigate the prospect’s expected value, budget and relevant capabilities before adapting either point into public messaging.",
+    "research_questions": [
+     "What ongoing price and scope was discussed, and what value or financial threshold would make it viable for a business of this size?"
+    ]
+   }
+  ],
+  "processed_moment_ids": [
+   "w1_m1",
+   "w1_m2",
+   "w1_m3",
+   "w1_m4",
+   "w1_m5",
+   "w1_m6"
+  ],
+  "coverage_notes": [
+   "No historical signatures were supplied, so no claim is made about whether any treatment is new or previously used.",
+   "Moments w1_m1 and w1_m2 are retained as internal client and messaging intelligence rather than public angles: the supplied passages establish the client’s market and positioning concerns but do not establish a substantive WIA contribution or an outcome worth presenting as a case.",
+   "Moment w1_m6 remains internal. The source supports both an ongoing-cost objection and general product praise, but does not identify the praised capabilities or establish a purchase, adoption or commercial outcome.",
+   "The three public angles address distinct concerns: evidence-informed search-term decisions, explaining unlike venue offers, and matching campaign creative to audience stage."
+  ]
+ }
+}

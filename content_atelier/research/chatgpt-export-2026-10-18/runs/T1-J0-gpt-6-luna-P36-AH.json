@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J0-gpt-6-luna-P36-AH",
+  "model": "openai/gpt-6-luna",
+  "provider": "OpenAI",
+  "effort": null,
+  "prompt_tokens": 191,
+  "completion_tokens": 110,
+  "cached_tokens": 0,
+  "cost": 7.41e-05,
+  "seconds": 3.0,
+  "finish": "stop",
+  "system_sha": "ea72523eb9c9",
+  "user_sha": "1683c7e2a59b"
+ },
+ "output": {
+  "choice": "A",
+  "confidence": 4,
+  "reason": "A is clear and polished, while B has awkward grammar and overstates the goal with “pre-sell every appointment.”"
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: caption\n\nVersion A:\n- inquiry -> consultation booking\n- pre-consultation nurturing\n- post-consultation follow-up\n\nVersion B:\n-email and text sequence to guide every leads towards booking a tour or consultation\n-pre-consultation reminders and nurturing to pre-sell every appointment\n-post-consultation reminder sequence because not every lead will be ready to make a decision on the spot",
+  "cache_prefix_sha": "ea72523eb9c9"
+ }
+}

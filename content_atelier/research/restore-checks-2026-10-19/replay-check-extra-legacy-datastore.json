@@ -1,0 +1,104 @@
+{
+  "root": "<local>/handover-2026-10-19/extra-legacy-datastore",
+  "artifacts": [
+    {
+      "fingerprint": "055ecd1046e9bac71940449005f28c5481594cf177694e733294227022b9bcd7",
+      "stage": "angle_generation",
+      "model": "openai/gpt-6-luna",
+      "prompt_version": "2026-10-08.apodex-weekly-generation.v3",
+      "run_id": "week1-gpt6-luna-partial-angle-diagnostic-20261008-a4",
+      "key_recomputed": true,
+      "recipe": "stage",
+      "namespace": "live",
+      "validation_version": 3,
+      "output_hash_identical": true,
+      "revalidation_needed": "saved under validator version 3; today's is 4, so it is served only after a re-check (E.B12a)"
+    },
+    {
+      "fingerprint": "859510a66c664e384384a6d08bb1fd3b30f49fd0eca3371866ee2fa11ad5df33",
+      "stage": "angle_generation",
+      "model": "apodex/apodex-1.1-mini:free",
+      "prompt_version": "2026-10-08.apodex-weekly-generation.v3",
+      "run_id": "week1-apodex-partial-angle-diagnostic-20261008-a5",
+      "key_recomputed": true,
+      "recipe": "stage",
+      "namespace": "live",
+      "validation_version": 3,
+      "output_hash_identical": true,
+      "revalidation_needed": "saved under validator version 3; today's is 4, so it is served only after a re-check (E.B12a)"
+    },
+    {
+      "fingerprint": "8f52d9749bc8114a097a6186ae4a8da3a2986a6400106e878d7b00e290d1a960",
+      "stage": "angle_generation",
+      "model": "openai/gpt-6-luna-pro",
+      "prompt_version": "2026-10-13.wia-strategic-discovery.v1",
+      "run_id": "week2-luna-pro-strategic-angles-20261013-a2",
+      "key_recomputed": true,
+      "recipe": "stage",
+      "namespace": "live",
+      "validation_version": 4,
+      "output_hash_identical": true
+    }
+  ],
+  "replayable": 3,
+  "not_replayable": 0,
+  "failed_attempts": [
+    {
+      "fingerprint": "21dd79af303b5b933492fdf5e8b96e08f9db26b0206e56025d93458f38ca385d",
+      "stage": "moment_extraction",
+      "run_id": "week1-apodex-generation-only-20261008-a3",
+      "error": "Moment context must be contiguous and chronological",
+      "received_response_saved": true
+    },
+    {
+      "fingerprint": "371c97f79a7fdaf44643954335e6f3934bcaf8cfe590046a4ae37a559c807675",
+      "stage": "moment_extraction",
+      "run_id": "week1-apodex-generation-only-20261008-a2",
+      "error": "Moment response references an unknown compact source ID",
+      "received_response_saved": true
+    },
+    {
+      "fingerprint": "4deaf2e32a987abdb7ba881dbb86bcca647d41087e057b2ed6648e78167fc9ba",
+      "stage": "moment_extraction",
+      "run_id": "week1-gpt6-luna-generation-only-20261008-a3",
+      "error": "Moment quote must match an existing anchor span",
+      "received_response_saved": true
+    },
+    {
+      "fingerprint": "b1c7631780798d3b4e528184b91d41aa73e62d0635e866440260928073c186df",
+      "stage": "moment_extraction",
+      "run_id": "week1-gpt6-luna-generation-only-20261008-a2",
+      "error": "1 validation error for CompactMomentResponse\nmoments.10.moment_type\n  Input should be 'result', 'objection', 'decision', 'tension', 'mechanism', 'observation' or 'story' [type=literal_error, input_val",
+      "received_response_saved": true
+    },
+    {
+      "fingerprint": "b59bfbffdbc5714faebb4d764145463edd563e1fc6f1a8884a2b17b62e517b37",
+      "stage": "moment_extraction",
+      "run_id": "week1-apodex-generation-only-20261008-a4",
+      "error": "Context boundaries must be chronological within the same meeting",
+      "received_response_saved": true
+    },
+    {
+      "fingerprint": "c608c9de30ca68b4e29b92113787d588ae5163309ebff6dc8f2fdbfcce45c49d",
+      "stage": "moment_extraction",
+      "run_id": "week1-gpt6-luna-generation-only-20261008-a1",
+      "error": "Client error '402 Payment Required' for url 'https://openrouter.ai/api/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402",
+      "received_response_saved": false
+    },
+    {
+      "fingerprint": "d2c8f779ea31394a471e836fd6941bfa23354edbfaf33124a130b7c52fe45ac2",
+      "stage": "moment_extraction",
+      "run_id": "week1-apodex-generation-only-20261008-a1",
+      "error": "Client error '400 Bad Request' for url 'https://openrouter.ai/api/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "received_response_saved": false
+    },
+    {
+      "fingerprint": "ec84d6cded388a45e6f60d5c83f36cfc6b2efb278736654be681e094c2c2ca41",
+      "stage": "moment_extraction",
+      "run_id": "week2-luna-pro-strategic-20261013-a1",
+      "error": "Moment quote must match an existing anchor span",
+      "received_response_saved": true
+    }
+  ],
+  "provider_calls": 0
+}

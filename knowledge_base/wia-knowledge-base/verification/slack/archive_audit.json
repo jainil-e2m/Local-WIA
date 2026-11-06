@@ -1,0 +1,1047 @@
+{
+  "review_date": "2026-10-19",
+  "mode": "offline_archive_audit",
+  "note": "Observed raw payloads; pattern matches are candidates, not extracted facts.",
+  "excluded": [
+    "wia-ai-team-testing"
+  ],
+  "channels": [
+    {
+      "name": "c_dogwoodreserve",
+      "channel_id": "C0B245ATY03",
+      "parents": 103,
+      "replies": 208,
+      "declared_replies": 208,
+      "unique_messages": 311,
+      "duplicate_message_occurrences": 0,
+      "first_utc": "2026-05-07T16:22:53.074789+00:00",
+      "last_utc": "2026-09-24T22:26:22.825819+00:00",
+      "field_presence": {
+        "user": 311,
+        "text": 310,
+        "blocks": 309,
+        "files": 22,
+        "reactions": 109,
+        "edited": 14,
+        "bot_id": 51,
+        "attachments": 20
+      },
+      "unique_authors": 8,
+      "files_local_occurrences": 21,
+      "files_over_cap_occurrences": 0,
+      "external_files_occurrences": 3,
+      "sha256": "2d12d59c4c9de168cf9139fe2fbb85f2aca20216b39e96ee1e3ccf3a96294272"
+    },
+    {
+      "name": "c_funktasticproductions_djhybrid",
+      "channel_id": "C08QND0MU5T",
+      "parents": 248,
+      "replies": 371,
+      "declared_replies": 371,
+      "unique_messages": 619,
+      "duplicate_message_occurrences": 0,
+      "first_utc": "2025-05-05T14:04:09.394769+00:00",
+      "last_utc": "2026-09-24T18:11:38.217549+00:00",
+      "field_presence": {
+        "user": 619,
+        "text": 618,
+        "blocks": 617,
+        "files": 37,
+        "reactions": 216,
+        "edited": 31,
+        "bot_id": 11,
+        "attachments": 39
+      },
+      "unique_authors": 13,
+      "files_local_occurrences": 43,
+      "files_over_cap_occurrences": 0,
+      "external_files_occurrences": 0,
+      "sha256": "2d558b95e1c4f30f6a6d747f6817976c8b34809e5b9c76cabb52b1689ea1cd0d"
+    },
+    {
+      "name": "cfpfu_luxurytravelboutique",
+      "channel_id": "C08QU9K31KN",
+      "parents": 188,
+      "replies": 245,
+      "declared_replies": 245,
+      "unique_messages": 433,
+      "duplicate_message_occurrences": 0,
+      "first_utc": "2025-05-14T16:16:38.686589+00:00",
+      "last_utc": "2026-09-04T16:56:30.668769+00:00",
+      "field_presence": {
+        "user": 433,
+        "text": 433,
+        "blocks": 432,
+        "files": 27,
+        "reactions": 147,
+        "edited": 22,
+        "bot_id": 0,
+        "attachments": 20
+      },
+      "unique_authors": 12,
+      "files_local_occurrences": 32,
+      "files_over_cap_occurrences": 0,
+      "external_files_occurrences": 0,
+      "sha256": "983a8e29cc2eed27daa6faf19fcf1cd31a34947260eed216b78c629b05d0dddc"
+    },
+    {
+      "name": "googlesearchaccelerator",
+      "channel_id": "C09LQ656BPU",
+      "parents": 152,
+      "replies": 221,
+      "declared_replies": 221,
+      "unique_messages": 373,
+      "duplicate_message_occurrences": 0,
+      "first_utc": "2025-10-24T02:24:11.170699+00:00",
+      "last_utc": "2026-09-24T17:19:44.110629+00:00",
+      "field_presence": {
+        "user": 366,
+        "text": 369,
+        "blocks": 369,
+        "files": 44,
+        "reactions": 203,
+        "edited": 20,
+        "bot_id": 16,
+        "attachments": 11
+      },
+      "unique_authors": 8,
+      "files_local_occurrences": 21,
+      "files_over_cap_occurrences": 26,
+      "external_files_occurrences": 0,
+      "sha256": "edde3283593b11558ccf55b7e71a1a4ba73c2ae309e51227a680351ec9cc64f0"
+    },
+    {
+      "name": "metaadsaccelerator",
+      "channel_id": "C082DURRJ2U",
+      "parents": 347,
+      "replies": 514,
+      "declared_replies": 514,
+      "unique_messages": 861,
+      "duplicate_message_occurrences": 0,
+      "first_utc": "2024-11-22T15:42:02.396579+00:00",
+      "last_utc": "2026-09-24T22:22:15.167929+00:00",
+      "field_presence": {
+        "user": 858,
+        "text": 850,
+        "blocks": 847,
+        "files": 81,
+        "reactions": 412,
+        "edited": 28,
+        "bot_id": 45,
+        "attachments": 32
+      },
+      "unique_authors": 11,
+      "files_local_occurrences": 60,
+      "files_over_cap_occurrences": 37,
+      "external_files_occurrences": 0,
+      "sha256": "4563ddb3ccd2b6a834cfde735a49b8a1af140bd204502839b6d4fc029572bb80"
+    },
+    {
+      "name": "social-proof-and-results",
+      "channel_id": "C091CPQD8L9",
+      "parents": 32,
+      "replies": 35,
+      "declared_replies": 35,
+      "unique_messages": 67,
+      "duplicate_message_occurrences": 0,
+      "first_utc": "2025-06-11T15:47:23.312629+00:00",
+      "last_utc": "2026-08-14T14:18:06.143459+00:00",
+      "field_presence": {
+        "user": 67,
+        "text": 61,
+        "blocks": 63,
+        "files": 23,
+        "reactions": 38,
+        "edited": 0,
+        "bot_id": 0,
+        "attachments": 4
+      },
+      "unique_authors": 6,
+      "files_local_occurrences": 32,
+      "files_over_cap_occurrences": 0,
+      "external_files_occurrences": 0,
+      "sha256": "8a6945baac7efce2cc58bf95f28b9a721cc4e769db7105cb86ae89241524c075"
+    }
+  ],
+  "candidates": {
+    "commitment": [
+      {
+        "channel": "c_dogwoodreserve",
+        "ts": "1778170973.074789",
+        "thread_ts": "1778170973.074789",
+        "user": "U096WQC91AR",
+        "bot_id": null,
+        "excerpt": "Hi <@U0AFN0NUZ9C> and <@U07J56D53RD>! Tirzah Caffee at Meriwether Manor has signed on for the Foolproof Follow-Up Advantage, and her kickoff call is scheduled for May 27th :partying_face:\n\nHere's everything you need to get familiar with the account:\n• <https://drive.google.com/drive/folders/1pJwadFky3EF-ISvUEKsyFX5xQp3pBdhc?usp=drive_link|Google Drive folder> and <https://app.clickup.com/9011165651/v/li/901113739151|Onboarding Checklist> are in the Bookmarks folder of this channel\n• <https://docs.google.com/document/d/1cCXMhwykMo-apq3d-bfg0zs0bFtbLskoxjO0u8QoPDY/edit?usp=drive_link|LeadLock Kickoff Call Worksheet> is also included in the Google Drive folder\nThings to note:\n• Alina Stevens is Tirzah's client. Tirzah will handle the Kickoff call solo and is currently the main point of contact. \n• Tirzah has been referring almost all of our LeadLock clients, so it's very important for her o",
+        "permalink": "https://weddingindustryads.slack.com/archives/C0B245ATY03/p1778170973074789",
+        "archive": "frontend/corpus/slack/raw/c_dogwoodreserve.json"
+      },
+      {
+        "channel": "c_dogwoodreserve",
+        "ts": "1779898361.901749",
+        "thread_ts": "1779898361.901749",
+        "user": "U04LHK2MJVC",
+        "bot_id": null,
+        "excerpt": "<@U096WQC91AR> Hi! I just hopped off the call with Tirzah and Danielle. Danielle mentioned that their LeadLock subaccount didn't exist yet. Can you please create that ASAP?",
+        "permalink": "https://weddingindustryads.slack.com/archives/C0B245ATY03/p1779898361901749",
+        "archive": "frontend/corpus/slack/raw/c_dogwoodreserve.json"
+      },
+      {
+        "channel": "c_dogwoodreserve",
+        "ts": "1782406197.345709",
+        "thread_ts": "1779907677.684179",
+        "user": "U07J56D53RD",
+        "bot_id": null,
+        "excerpt": "Hi <@U0AFN0NUZ9C>! Could you share it with me as well?",
+        "permalink": "https://weddingindustryads.slack.com/archives/C0B245ATY03/p1782406197345709",
+        "archive": "frontend/corpus/slack/raw/c_dogwoodreserve.json"
+      },
+      {
+        "channel": "c_funktasticproductions_djhybrid",
+        "ts": "1746466377.786289",
+        "thread_ts": "1746466377.786289",
+        "user": "U05F1R2R66N",
+        "bot_id": null,
+        "excerpt": "Hi <@U07QR3N7M0B> and <@U04LHK2MJVC>, please include the following LeadLock instructions for Mike in your email :slightly_smiling_face: . (feel free to reword it if needed) Thanks!\n\nIn preparation for our next call on Wednesday, we would like to add all of your users to LeadLock. Here are two ways to do this. Please send me the first name, last name, and email address of additional LeadLock users for both Funktastic and DJ Hybrid. Or, since you have admin access, you can add users using <https://www.loom.com/share/dc647de2d8d14d1b8ac7494fa104767a?sid=2c762f9b-0897-4fe6-8822-748c638dd617|this quick tutorial video>. Thanks!",
+        "permalink": "https://weddingindustryads.slack.com/archives/C08QND0MU5T/p1746466377786289",
+        "archive": "frontend/corpus/slack/raw/c_funktasticproductions_djhybrid.json"
+      },
+      {
+        "channel": "c_funktasticproductions_djhybrid",
+        "ts": "1746467326.907629",
+        "thread_ts": "1746466377.786289",
+        "user": "U07QR3N7M0B",
+        "bot_id": null,
+        "excerpt": "<@U05F1R2R66N> <@U04LHK2MJVC>, here’s the email draft. Let me know if this looks good. Thanks!\n\n_Hi Mike,_\n\n_We loved meeting with you today! The call recording has been added to your client folder and you can<https://drive.google.com/drive/folders/1uqrFUIroQ5WttezplHOvjQFLgHsDq3NA?usp=sharing| check it out here.>_\n\n_In preparation for our next call on Wednesday, we would like to add all of your users to LeadLock. Here are two ways to do this. Please send me the first name, last name, and email address of additional LeadLock users for both Funktastic and DJ Hybrid. Or, since you have admin access, you can add users using <https://www.loom.com/share/dc647de2d8d14d1b8ac7494fa104767a?sid=2c762f9b-0897-4fe6-8822-748c638dd617|this quick tutorial video>._ \n\n_We also need the <https://docs.google.com/document/d/1IUTVkfK-v-H1XnuuGtscLF5w3pg265gBORcu84_e-4Q/edit?usp=sharing|messaging and position",
+        "permalink": "https://weddingindustryads.slack.com/archives/C08QND0MU5T/p1746467326907629",
+        "archive": "frontend/corpus/slack/raw/c_funktasticproductions_djhybrid.json"
+      },
+      {
+        "channel": "c_funktasticproductions_djhybrid",
+        "ts": "1746468380.385529",
+        "thread_ts": "1746466377.786289",
+        "user": "U07QR3N7M0B",
+        "bot_id": null,
+        "excerpt": "<@U04LHK2MJVC>, my apologies—please find the email draft below.\n\n_Hi Mike,_\n\n_We want to again extend a heartfelt welcome from the whole team at Wedding Industry Ads! It was a pleasure meeting with you yesterday, and we are so excited to get started!_\n\n_For your reference, I wanted to share the Messaging & Positioning Questionnaire, Google Folder, recording of the call and the presentation we reviewed. You can access them through the links below:_\n\n• _<https://drive.google.com/file/d/15R_9rb_6WCUylh6Mdz1ukjWotRwOsJ9Q/view?usp=drive_linkhttps://drive.google.com/file/d/15R_9rb_6WCUylh6Mdz1ukjWotRwOsJ9Q/view?usp=drive_link|Onboarding Guide Presentation>_\n• _<https://drive.google.com/drive/folders/1uqrFUIroQ5WttezplHOvjQFLgHsDq3NA?usp=sharing|Call Recording>_\n• _<https://drive.google.com/drive/folders/17VGO8q-RBUpC0s-ZL2l19UX32eiP4cLV?usp=sharing|Google drive Folder>_\n• _<https://docs.google",
+        "permalink": "https://weddingindustryads.slack.com/archives/C08QND0MU5T/p1746468380385529",
+        "archive": "frontend/corpus/slack/raw/c_funktasticproductions_djhybrid.json"
+      },
+      {
+        "channel": "cfpfu_luxurytravelboutique",
+        "ts": "1747685606.585839",
+        "thread_ts": "1747685606.585839",
+        "user": "U08MNKVJB1D",
+        "bot_id": null,
+        "excerpt": "Sounds good! Thank <@U04LHK2MJVC>  I will check to make sure I have access tomorrow",
+        "permalink": "https://weddingindustryads.slack.com/archives/C08QU9K31KN/p1747685606585839",
+        "archive": "frontend/corpus/slack/raw/cfpfu_luxurytravelboutique.json"
+      },
+      {
+        "channel": "cfpfu_luxurytravelboutique",
+        "ts": "1747837278.972839",
+        "thread_ts": "1747837229.887329",
+        "user": "U04LHK2MJVC",
+        "bot_id": null,
+        "excerpt": "<@U08MNKVJB1D> Yes, please send an email requesting Admin permission. I'm sure they can get it taken care of ASAP. Thank you!",
+        "permalink": "https://weddingindustryads.slack.com/archives/C08QU9K31KN/p1747837278972839",
+        "archive": "frontend/corpus/slack/raw/cfpfu_luxurytravelboutique.json"
+      },
+      {
+        "channel": "cfpfu_luxurytravelboutique",
+        "ts": "1748047322.333539",
+        "thread_ts": "1748047322.333539",
+        "user": "U04LHK2MJVC",
+        "bot_id": null,
+        "excerpt": "<@U08MNKVJB1D> I just saw Beth's email with feedback on the Google Ads. After you've implemented the changes she has requested, I think it will be best for you to get on a call with her to present everything, so that if she wants changes they can be made in real time. We'll work on getting a scheduler for client calls created for you, so she can easily book a time on  your calendar. Also, <@U05F1R2R66N> may have some good insights to share with you during your next Google Ads meeting on how she uses the existing copy on a client's website to craft the copy for their Google Ads. Thank you!!",
+        "permalink": "https://weddingindustryads.slack.com/archives/C08QU9K31KN/p1748047322333539",
+        "archive": "frontend/corpus/slack/raw/cfpfu_luxurytravelboutique.json"
+      },
+      {
+        "channel": "googlesearchaccelerator",
+        "ts": "1761272651.170699",
+        "thread_ts": "1761272651.170699",
+        "user": "U04LHK2MJVC",
+        "bot_id": null,
+        "excerpt": "<!channel> We are getting so close to launching our Google Search Accelerator! I'm pumped because I know the momentum we've been building leading up to this is all going to pay off! Thank you all in advance for the final push to get this offer off the ground!!!\n\nHere are our remaining action items:\n\n<@U096WQC91AR> can you please turn this into a doc and help us keep track of progress?\n\n*Marketing*\n• <@U03NTKHUE15> \n    ◦ Finalize landing page design including adding VSL and mobile optimization\n    ◦ Live Q&amp;A Funnel\n        ▪︎ landing page\n        ▪︎ form\n        ▪︎ thank you page\n        ▪︎ simple email sequence - confirmation, 24 hr reminder, 1 hr reminder\n• <@U096WQC91AR> \n    ◦ Discovery call confirmation page design including adding thank you video\n    ◦ Discovery call confirmation workflow (I think this may currently be linked to the Google Ads VIP Day application workflow, so l",
+        "permalink": "https://weddingindustryads.slack.com/archives/C09LQ656BPU/p1761272651170699",
+        "archive": "frontend/corpus/slack/raw/googlesearchaccelerator.json"
+      },
+      {
+        "channel": "googlesearchaccelerator",
+        "ts": "1761314550.967679",
+        "thread_ts": "1761272651.170699",
+        "user": "U096WQC91AR",
+        "bot_id": null,
+        "excerpt": "<@U04LHK2MJVC> Exciting! :partying_face: I'll share the document once it's ready.",
+        "permalink": "https://weddingindustryads.slack.com/archives/C09LQ656BPU/p1761314550967679",
+        "archive": "frontend/corpus/slack/raw/googlesearchaccelerator.json"
+      },
+      {
+        "channel": "googlesearchaccelerator",
+        "ts": "1761326791.397549",
+        "thread_ts": "1761326791.397549",
+        "user": "U03NTKHUE15",
+        "bot_id": null,
+        "excerpt": "Hi team! Would love feedback on the GSA sales page if you have any!  URL: <https://weddingindustryads.com/google-search-accelerator>\nIf someone could please review my mobile edits, I'd appreciate that - there were a few graphics I had to split up so they wouldn't stretch. Thanks!",
+        "permalink": "https://weddingindustryads.slack.com/archives/C09LQ656BPU/p1761326791397549",
+        "archive": "frontend/corpus/slack/raw/googlesearchaccelerator.json"
+      },
+      {
+        "channel": "metaadsaccelerator",
+        "ts": "1732290122.396579",
+        "thread_ts": "1732290122.396579",
+        "user": "U04LHK2MJVC",
+        "bot_id": null,
+        "excerpt": "<@U07U7DF550R> <@U071LL8AL3G> I'd love it if you could please use the link below to join our FB group for the Meta program. I'll handle responding to all clients in the group  (for now), but I think it would be great for y'all to be inside, so you can see what questions are being asked. Thank you!!\n\n<https://www.facebook.com/share/g/1GJSUrPzRJ/>",
+        "permalink": "https://weddingindustryads.slack.com/archives/C082DURRJ2U/p1732290122396579",
+        "archive": "frontend/corpus/slack/raw/metaadsaccelerator.json"
+      },
+      {
+        "channel": "metaadsaccelerator",
+        "ts": "1732720659.827069",
+        "thread_ts": "1732720659.827069",
+        "user": "U04LHK2MJVC",
+        "bot_id": null,
+        "excerpt": "<@U07QR3N7M0B> Hi! The office hours post didn't publish today. It looks like it's scheduled for 7:30am PST. I think your VPN is in San Francisco, so that's probably why. Can you try again with this? It needs to be 7:30am CST or 5:30am PST. Thanks!",
+        "permalink": "https://weddingindustryads.slack.com/archives/C082DURRJ2U/p1732720659827069",
+        "archive": "frontend/corpus/slack/raw/metaadsaccelerator.json"
+      },
+      {
+        "channel": "metaadsaccelerator",
+        "ts": "1733334134.507799",
+        "thread_ts": "1733334134.507799",
+        "user": "U07QR3N7M0B",
+        "bot_id": null,
+        "excerpt": "Hi <@U071LL8AL3G>  <@U04LHK2MJVC>, I’ve created the <https://docs.google.com/document/d/1dqvbMqz6Zlsfi1pYncrhTbioDueQLjpjC08duOFBIPs/edit?usp=sharing|graphic post and caption> for tomorrow’s office hours. Please take a look and let me know if there’s anything you'd like to change.\n\nAlso, <@U071LL8AL3G>, could you confirm what time your office hour will be tomorrow?",
+        "permalink": "https://weddingindustryads.slack.com/archives/C082DURRJ2U/p1733334134507799",
+        "archive": "frontend/corpus/slack/raw/metaadsaccelerator.json"
+      },
+      {
+        "channel": "social-proof-and-results",
+        "ts": "1753990518.026609",
+        "thread_ts": "1753990518.026609",
+        "user": "U04LHK2MJVC",
+        "bot_id": null,
+        "excerpt": "<@U08UT1V2KSQ> Hi! We just got off a call with one of our venue clients The Views at Sunset Ridge. They had been receiving about one lead a day through their Google Ads. We switched them to Google Performance Max, and it's more than doubled their Google lead volume (70 leads in July) without compromising quality (tour volume is up too) and while simultaneously reducing their cost per lead by more than half.\n\nI think I'll probably use this story for my weekly marketing email next week.\n\n<@U05F1R2R66N> Are there any screenshots you can send me for support?",
+        "permalink": "https://weddingindustryads.slack.com/archives/C091CPQD8L9/p1753990518026609",
+        "archive": "frontend/corpus/slack/raw/social-proof-and-results.json"
+      },
+      {
+        "channel": "social-proof-and-results",
+        "ts": "1754408256.219639",
+        "thread_ts": "1753990518.026609",
+        "user": "U05F1R2R66N",
+        "bot_id": null,
+        "excerpt": "<@U04LHK2MJVC> yes. I will pull some screenshots for you now.",
+        "permalink": "https://weddingindustryads.slack.com/archives/C091CPQD8L9/p1754408256219639",
+        "archive": "frontend/corpus/slack/raw/social-proof-and-results.json"
+      },
+      {
+        "channel": "social-proof-and-results",
+        "ts": "1755716977.341229",
+        "thread_ts": "1755716977.341229",
+        "user": "U04LHK2MJVC",
+        "bot_id": null,
+        "excerpt": "<@U05F1R2R66N> <@U08MNKVJB1D> Thank you for sharing those stats! I ended up pulling lead totals for the full duration these clients have worked with us.\n\n<@U03NTKHUE15> I decided to turn it into a more <https://www.canva.com/design/DAGwoVzCmqY/eVqPy8xuCyH6r2D17UUYhA/edit?utm_content=DAGwoVzCmqY&amp;utm_campaign=designshare&amp;utm_medium=link2&amp;utm_source=sharebutton|formal case study> because I think this has a lot of potential to be shared beyond just this one potential client and we have really great social proof from Alyssa and Adriana. I'll definitely still record a video walkthrough before I send it to Kaley.\n\nWhat do you think of using this as the jumping off point for next week's marketing email? We can share a couple of screenshots but then make people opt-in for the full video resource. Do you have the bandwidth to create a simple landing page, opt-in form, thank you page, a",
+        "permalink": "https://weddingindustryads.slack.com/archives/C091CPQD8L9/p1755716977341229",
+        "archive": "frontend/corpus/slack/raw/social-proof-and-results.json"
+      }
+    ],
+    "completion_or_approval": [
+      {
+        "channel": "c_dogwoodreserve",
+        "ts": "1778684282.727509",
+        "thread_ts": "1778684282.727509",
+        "user": "U096WQC91AR",
+        "bot_id": null,
+        "excerpt": "<@U0AFN0NUZ9C> <@U07J56D53RD> Here is Tirzah's completed questionnaire! <@U04LHK2MJVC>, did we provide this document?\nIt says that assets were uploaded to a shared drive, but I don't see anything in her client folder. Let me know if we need to follow up\n\n<https://docs.google.com/document/d/1Y1tNoznNzWZql8fx0uTlb4pl6semhFAPgn8MAVMxfzA/edit?tab=t.0>",
+        "permalink": "https://weddingindustryads.slack.com/archives/C0B245ATY03/p1778684282727509",
+        "archive": "frontend/corpus/slack/raw/c_dogwoodreserve.json"
+      },
+      {
+        "channel": "c_dogwoodreserve",
+        "ts": "1779907677.684179",
+        "thread_ts": "1779907677.684179",
+        "user": "U0AFN0NUZ9C",
+        "bot_id": null,
+        "excerpt": "Hey <@U07J56D53RD> :wave::skin-tone-4: Merriwether Manor has completed their LeadLock kickoff call. Here's what I'm tracking that we need for them:\n\nHere's the info I have from our call so far:\n\n• <https://drive.google.com/drive/folders/1H4PPrL1NnlicuJyJwoOdzKQy3Wez0FXo?usp=drive_link|Brand Assets> - Heads up! They are likely changing the venue name to Dogwood Reserve. Tirzah will let us know by the end of the week. Colors will remain the same, but there will be a new logo provided.\n• <https://meriwethermanor.com/|Website> - Heads up! They currently have new photos that will be taken (photoshoot scheduled for June 24th). They anticipate their new website not being live until the second week of July. \nHere's what I know that they'll need (so far):\nForms:\n• Pricing Guide (Gisselle/Whitney creating this)\n• <https://meriwethermanor.com/contact|Website Inquiry Form> \nWedding Inquiry Emails:\n•",
+        "permalink": "https://weddingindustryads.slack.com/archives/C0B245ATY03/p1779907677684179",
+        "archive": "frontend/corpus/slack/raw/c_dogwoodreserve.json"
+      },
+      {
+        "channel": "c_dogwoodreserve",
+        "ts": "1782932423.290329",
+        "thread_ts": "1782932423.290329",
+        "user": "U0AFN0NUZ9C",
+        "bot_id": null,
+        "excerpt": "<@U04LHK2MJVC> Dogwood has been approved for A2P compliance!:raised_hands::skin-tone-4:",
+        "permalink": "https://weddingindustryads.slack.com/archives/C0B245ATY03/p1782932423290329",
+        "archive": "frontend/corpus/slack/raw/c_dogwoodreserve.json"
+      },
+      {
+        "channel": "c_funktasticproductions_djhybrid",
+        "ts": "1746458181.826089",
+        "thread_ts": "1746458181.826089",
+        "user": "U07QR3N7M0B",
+        "bot_id": null,
+        "excerpt": "<@U05F1R2R66N> <@U08MNKVJB1D> Hi! Here's Mike <https://portal.dubsado.com/public/form/view/6813dc47127b10003a32ccd8?|completed onboarding questionnaire>. His <https://drive.google.com/drive/folders/16zxmxLr05khFOKPbAcLSs_e6QgBDXsKu?usp=sharing|client folder> and <https://docs.google.com/document/d/1FRilUXJ94LpWWJLBnC9NgJDW0HYJ3DoLcpZiwCW8q9k/edit?usp=sharing|onboarding checklist> are also pinned at the top of this channel.",
+        "permalink": "https://weddingindustryads.slack.com/archives/C08QND0MU5T/p1746458181826089",
+        "archive": "frontend/corpus/slack/raw/c_funktasticproductions_djhybrid.json"
+      },
+      {
+        "channel": "c_funktasticproductions_djhybrid",
+        "ts": "1746466836.492839",
+        "thread_ts": "1746466377.786289",
+        "user": "U04LHK2MJVC",
+        "bot_id": null,
+        "excerpt": "<@U07QR3N7M0B> we also need to send them their messaging and positioning questions, so they have a chance to review before the call. Template needs to be updated to reflect that. We need to send that before call 2 every time",
+        "permalink": "https://weddingindustryads.slack.com/archives/C08QND0MU5T/p1746466836492839",
+        "archive": "frontend/corpus/slack/raw/c_funktasticproductions_djhybrid.json"
+      },
+      {
+        "channel": "c_funktasticproductions_djhybrid",
+        "ts": "1746467326.907629",
+        "thread_ts": "1746466377.786289",
+        "user": "U07QR3N7M0B",
+        "bot_id": null,
+        "excerpt": "<@U05F1R2R66N> <@U04LHK2MJVC>, here’s the email draft. Let me know if this looks good. Thanks!\n\n_Hi Mike,_\n\n_We loved meeting with you today! The call recording has been added to your client folder and you can<https://drive.google.com/drive/folders/1uqrFUIroQ5WttezplHOvjQFLgHsDq3NA?usp=sharing| check it out here.>_\n\n_In preparation for our next call on Wednesday, we would like to add all of your users to LeadLock. Here are two ways to do this. Please send me the first name, last name, and email address of additional LeadLock users for both Funktastic and DJ Hybrid. Or, since you have admin access, you can add users using <https://www.loom.com/share/dc647de2d8d14d1b8ac7494fa104767a?sid=2c762f9b-0897-4fe6-8822-748c638dd617|this quick tutorial video>._ \n\n_We also need the <https://docs.google.com/document/d/1IUTVkfK-v-H1XnuuGtscLF5w3pg265gBORcu84_e-4Q/edit?usp=sharing|messaging and position",
+        "permalink": "https://weddingindustryads.slack.com/archives/C08QND0MU5T/p1746467326907629",
+        "archive": "frontend/corpus/slack/raw/c_funktasticproductions_djhybrid.json"
+      },
+      {
+        "channel": "cfpfu_luxurytravelboutique",
+        "ts": "1749834082.263499",
+        "thread_ts": "1749834082.263499",
+        "user": "U08MNKVJB1D",
+        "bot_id": null,
+        "excerpt": "<@U07THPEDYCQ> here is the updated creatives breif: <https://docs.google.com/document/d/1R4vu8eBhRGavWOeylHjBVI13E5ZCbvju8ZnQ40ZmK2w/edit?tab=t.0> Whitney made some edits to the copy to make it better but other than that its great",
+        "permalink": "https://weddingindustryads.slack.com/archives/C08QU9K31KN/p1749834082263499",
+        "archive": "frontend/corpus/slack/raw/cfpfu_luxurytravelboutique.json"
+      },
+      {
+        "channel": "cfpfu_luxurytravelboutique",
+        "ts": "1749841594.677899",
+        "thread_ts": "1749841594.677899",
+        "user": "U08MNKVJB1D",
+        "bot_id": null,
+        "excerpt": "updated client attraction ads headline &amp; primary text copy: <https://docs.google.com/document/d/1KhQ_hZ80xXW7oRhgvFLT_v-twzmJ-FhcghlsiktTvsE/edit?tab=t.0> <@U04LHK2MJVC> <@U071LL8AL3G> if you want to check it out before I make the client attraction ads early next week, thank you for the initial comments Jacqueline, very helpful!",
+        "permalink": "https://weddingindustryads.slack.com/archives/C08QU9K31KN/p1749841594677899",
+        "archive": "frontend/corpus/slack/raw/cfpfu_luxurytravelboutique.json"
+      },
+      {
+        "channel": "cfpfu_luxurytravelboutique",
+        "ts": "1750279659.571089",
+        "thread_ts": "1750193749.378529",
+        "user": "U08TU6GLFAP",
+        "bot_id": null,
+        "excerpt": "<@U04LHK2MJVC> I've updated this to start on November 27 and every 27th of the month thereafter.",
+        "permalink": "https://weddingindustryads.slack.com/archives/C08QU9K31KN/p1750279659571089",
+        "archive": "frontend/corpus/slack/raw/cfpfu_luxurytravelboutique.json"
+      },
+      {
+        "channel": "googlesearchaccelerator",
+        "ts": "1761592951.441819",
+        "thread_ts": "1761592951.441819",
+        "user": "U096WQC91AR",
+        "bot_id": null,
+        "excerpt": "<@U04LHK2MJVC><https://app.leadlockpro.com/location/Xi40zxmRvW8Pbyk5DYHp/workflow/d4b12619-240c-4e30-b890-6947aa1b4c30| GSA Application workflow> is almost done! Some of the email language was adapted from the MAIE emails since the VIP Day versions didn’t always fit.\n\nI haven’t updated the “Create Opportunity” actions yet — will we be creating separate pipelines for this, and will there be a waiting opt-in?\n\nFinally, I checked and there’s no availability in your calendar for the 29th–30th, so we’ll need to open up Friday.",
+        "permalink": "https://weddingindustryads.slack.com/archives/C09LQ656BPU/p1761592951441819",
+        "archive": "frontend/corpus/slack/raw/googlesearchaccelerator.json"
+      },
+      {
+        "channel": "googlesearchaccelerator",
+        "ts": "1761606735.710269",
+        "thread_ts": "1761592951.441819",
+        "user": "U04LHK2MJVC",
+        "bot_id": null,
+        "excerpt": "<@U096WQC91AR> Email copy within the application workflow has been updated and is now good to go",
+        "permalink": "https://weddingindustryads.slack.com/archives/C09LQ656BPU/p1761606735710269",
+        "archive": "frontend/corpus/slack/raw/googlesearchaccelerator.json"
+      },
+      {
+        "channel": "googlesearchaccelerator",
+        "ts": "1761608787.481489",
+        "thread_ts": "1761608787.481489",
+        "user": "U04LHK2MJVC",
+        "bot_id": null,
+        "excerpt": "<@U03NTKHUE15> Hi! I noticed that the Get Started button wasn't working on the <https://weddingindustryads.com/google-search-accelerator|GSA landing page>. I moved it below the video and made it so that it scrolls to the value stack section the way the other buttons do.\n\nDo we like this functionality? It's the same as the Google Ads VIP Day page which didn't convert well, but maybe those folks self-disqualified when they saw pricing. Also, I think the video + copy on this page is better than the VIP Day.\n\nI updated the language on the <https://weddingindustryads.com/google-search-accelerator-calendar|calendar/application page>. Do you see any additional areas of opportunity (including application questions)?\n\nWe have an announcement email scheduled for tomorrow at noon that includes a link to the sales page, but if we need to push that later, we can. (FYI <@U08UT1V2KSQ>)\n\nThank you!",
+        "permalink": "https://weddingindustryads.slack.com/archives/C09LQ656BPU/p1761608787481489",
+        "archive": "frontend/corpus/slack/raw/googlesearchaccelerator.json"
+      },
+      {
+        "channel": "metaadsaccelerator",
+        "ts": "1733337216.657559",
+        "thread_ts": "1733336926.898079",
+        "user": "U04LHK2MJVC",
+        "bot_id": null,
+        "excerpt": "<@U07QR3N7M0B> Ok, simplified it. It's now approved and you can use this same template every week, just change the date at the beginning. Thank you!",
+        "permalink": "https://weddingindustryads.slack.com/archives/C082DURRJ2U/p1733337216657559",
+        "archive": "frontend/corpus/slack/raw/metaadsaccelerator.json"
+      },
+      {
+        "channel": "metaadsaccelerator",
+        "ts": "1733764091.414809",
+        "thread_ts": "1733763953.988549",
+        "user": "U04LHK2MJVC",
+        "bot_id": null,
+        "excerpt": "<@U07QR3N7M0B> If you can update to the new pretty Zoom room link, all of this is approved",
+        "permalink": "https://weddingindustryads.slack.com/archives/C082DURRJ2U/p1733764091414809",
+        "archive": "frontend/corpus/slack/raw/metaadsaccelerator.json"
+      },
+      {
+        "channel": "metaadsaccelerator",
+        "ts": "1733764313.748839",
+        "thread_ts": "1733763953.988549",
+        "user": "U07QR3N7M0B",
+        "bot_id": null,
+        "excerpt": "<@U04LHK2MJVC> I’ve already updated the Zoom link and will post the first reminder now. Are you the one who will schedule the post for Wednesday?",
+        "permalink": "https://weddingindustryads.slack.com/archives/C082DURRJ2U/p1733764313748839",
+        "archive": "frontend/corpus/slack/raw/metaadsaccelerator.json"
+      },
+      {
+        "channel": "social-proof-and-results",
+        "ts": "1778692274.622239",
+        "thread_ts": "1778511002.334979",
+        "user": "U096WQC91AR",
+        "bot_id": null,
+        "excerpt": "<@U04LHK2MJVC> Recording, summary and transcript has been updated! I included feedback extracts on the <https://docs.google.com/document/d/1mX7nGFm7NVSOm_9fapOefY6gJv0njYi0pozEZGTMYWw/edit?tab=t.0|verbal testimonial document:>\n\n&gt; *On results:*\n&gt; \"We booked a wedding, we booked an elopement... Since one of the ads we're running features a City Hall wedding, I've noticed a big influx of City Hall wedding leads.\" — 00:01:43\n&gt; \n&gt; *On overall experience:*\n&gt; \"I don't think so. This has been really great. Like, I feel like I learned a lot. I'm still learning, and I am really glad that I did this. Thank you so much.\" — 00:10:32\n&gt; \n&gt; *On the education:*\n&gt; \"The education itself is really helpful and you get really detailed with it. I so appreciate that because I do not want to invest in something that is just going to be a bunch of fluff. I need very hard, specific evidence",
+        "permalink": "https://weddingindustryads.slack.com/archives/C091CPQD8L9/p1778692274622239",
+        "archive": "frontend/corpus/slack/raw/social-proof-and-results.json"
+      },
+      {
+        "channel": "social-proof-and-results",
+        "ts": "1783450646.039979",
+        "thread_ts": "1783442041.637779",
+        "user": "U096WQC91AR",
+        "bot_id": null,
+        "excerpt": "<@U04LHK2MJVC> Transcript has been uploaded to the folder and here is the case study for your review!\n<https://docs.google.com/document/d/13t349vSZ7xwXZuTq4l4BfuJILSIBq8B4mJ0qMsh6VjA/edit?tab=t.0|docs.google.com/document/d/13t349vSZ7xw…/edit?tab=t.0>\n\nI'll start working it into the GSA sales page and keep you updated!",
+        "permalink": "https://weddingindustryads.slack.com/archives/C091CPQD8L9/p1783450646039979",
+        "archive": "frontend/corpus/slack/raw/social-proof-and-results.json"
+      }
+    ],
+    "deadline": [
+      {
+        "channel": "c_dogwoodreserve",
+        "ts": "1785845700.358089",
+        "thread_ts": "1785845700.358089",
+        "user": "U0AFN0NUZ9C",
+        "bot_id": null,
+        "excerpt": "<@U07J56D53RD> good morning! Just a quick note that Tirzah made edits to the <https://docs.google.com/document/d/1g5QHl0xWT4SpwCP0PCrptP4UmvxV36sEvdH60VbZIik/edit?tab=t.0|copy doc>. Given the turnaround time needed to make these updates, I went ahead and made them, but Tirzah would like 3 emails added to the events sequence for 45, 90, and 90 days from inquiry. Can you get those templates created sometime today so I can add them to the workflows? :pray::skin-tone-4: Tirzah is planning to launch tomorrow, so please let me know if you're unable to get to these to get them back to Tirzah by end of day. Thank so much!",
+        "permalink": "https://weddingindustryads.slack.com/archives/C0B245ATY03/p1785845700358089",
+        "archive": "frontend/corpus/slack/raw/c_dogwoodreserve.json"
+      },
+      {
+        "channel": "c_dogwoodreserve",
+        "ts": "1785882264.132239",
+        "thread_ts": "1785882264.132239",
+        "user": "U0AFN0NUZ9C",
+        "bot_id": null,
+        "excerpt": "<@U096WQC91AR> <@U04LHK2MJVC> Tirzah just notified me that Alina just paid her past due invoice. ",
+        "permalink": "https://weddingindustryads.slack.com/archives/C0B245ATY03/p1785882264132239",
+        "archive": "frontend/corpus/slack/raw/c_dogwoodreserve.json"
+      },
+      {
+        "channel": "c_dogwoodreserve",
+        "ts": "1786561133.778729",
+        "thread_ts": "1786561133.778729",
+        "user": "U0AFN0NUZ9C",
+        "bot_id": null,
+        "excerpt": "<@U04LHK2MJVC> sure! It been tons of tweaks needing to be made and I do feel its due to the quick kickoff with Dogwood. \n\nSome were tech glitches I could fix, some I had to hop on GHL for, sone were her nit understanding the way GHL works, and then additional requests continue to come through after they onboarded. \n\nShe's been texting me daily. Ive been doing my best to keep up with the messages. \n\nHappy to hop on a call with you if that's better to give you a run through of everything. ",
+        "permalink": "https://weddingindustryads.slack.com/archives/C0B245ATY03/p1786561133778729",
+        "archive": "frontend/corpus/slack/raw/c_dogwoodreserve.json"
+      },
+      {
+        "channel": "c_funktasticproductions_djhybrid",
+        "ts": "1748538367.105699",
+        "thread_ts": "1748538367.105699",
+        "user": "U04LHK2MJVC",
+        "bot_id": null,
+        "excerpt": "<@U08TU6GLFAP> Recurring invoice needs to be created for this client with a monthly due date of the 7th",
+        "permalink": "https://weddingindustryads.slack.com/archives/C08QND0MU5T/p1748538367105699",
+        "archive": "frontend/corpus/slack/raw/c_funktasticproductions_djhybrid.json"
+      },
+      {
+        "channel": "c_funktasticproductions_djhybrid",
+        "ts": "1753885760.765229",
+        "thread_ts": "1753885760.765229",
+        "user": "U04LHK2MJVC",
+        "bot_id": null,
+        "excerpt": "<@U096WQC91AR> I'm also seeing an overdue invoice for Mike. It was due back at the beginning of the month. :woman-facepalming: I want to get payment for this ASAP. Can you please draft an email to him that includes a link to the invoice? My guess would be that the email that was originally sent to him from LeadLock went to his junk mail.\n\nLet's look at the Payments section of LeadLock together when we meet. I want to make sure we're staying on top of overdue payments moving forward. Thank you!!",
+        "permalink": "https://weddingindustryads.slack.com/archives/C08QND0MU5T/p1753885760765229",
+        "archive": "frontend/corpus/slack/raw/c_funktasticproductions_djhybrid.json"
+      },
+      {
+        "channel": "c_funktasticproductions_djhybrid",
+        "ts": "1758825574.723119",
+        "thread_ts": "1758825574.723119",
+        "user": "U05F1R2R66N",
+        "bot_id": null,
+        "excerpt": "Hi <@U07THPEDYCQ>! Do you have some availability to help me with a LeadLock project for DJ Hybrid? I am setting up an email sequence for them. Design elements can be added later, but setting up the emails is the first step. <https://www.loom.com/share/11f507f322814f6c8d7399d448a209b7?sid=5dc63478-039e-4e13-9e52-6bf24329f774|Here is a video walkthrough on how I set up email templates>. And <https://docs.google.com/document/d/13rlceTpu5j9brHsFmwb5RBgHRcr29RVPdjZHaz1jymw/edit?usp=sharing|here is the link to the approved email copy that we will be using>. Please let me know if this is something you can do. I would love to have this completed by Tuesday, September 30th. If you have any questions for me, please let me know. We can also work on this together sometime on Friday or Monday, if needed. Thanks!\n\ncc: <@U096WQC91AR> <@U04LHK2MJVC>",
+        "permalink": "https://weddingindustryads.slack.com/archives/C08QND0MU5T/p1758825574723119",
+        "archive": "frontend/corpus/slack/raw/c_funktasticproductions_djhybrid.json"
+      },
+      {
+        "channel": "cfpfu_luxurytravelboutique",
+        "ts": "1748538398.855019",
+        "thread_ts": "1748538398.855019",
+        "user": "U04LHK2MJVC",
+        "bot_id": null,
+        "excerpt": "<@U08TU6GLFAP> Recurring invoice needs to be created for this client with a monthly due date of the 14th",
+        "permalink": "https://weddingindustryads.slack.com/archives/C08QU9K31KN/p1748538398855019",
+        "archive": "frontend/corpus/slack/raw/cfpfu_luxurytravelboutique.json"
+      },
+      {
+        "channel": "cfpfu_luxurytravelboutique",
+        "ts": "1748612466.655429",
+        "thread_ts": "1748538398.855019",
+        "user": "U08TU6GLFAP",
+        "bot_id": null,
+        "excerpt": "<@U04LHK2MJVC> This has been created with the first payment due on June 14.",
+        "permalink": "https://weddingindustryads.slack.com/archives/C08QU9K31KN/p1748612466655429",
+        "archive": "frontend/corpus/slack/raw/cfpfu_luxurytravelboutique.json"
+      },
+      {
+        "channel": "cfpfu_luxurytravelboutique",
+        "ts": "1756316632.776109",
+        "thread_ts": "1756316632.776109",
+        "user": "U08MNKVJB1D",
+        "bot_id": null,
+        "excerpt": "<@U04LHK2MJVC> Here is the performance summary, let me know if there any other info you want me to look into: *Performance Summary*\n*Google Ads (Past 30 Days)*\n• Strong Click-Through Rate: *5.78% CTR* (well above industry averages).\n• Quality Traffic: *510 clicks* to the website.\n• Strong Engagement: *8.24%* of visitors (42 people) reached the destination form.\n• Conversion Block: *0 form submissions* despite consistent form views.\n• This indicates that the form itself is the barrier. Visitors are relevant and engaged but are not completing the step due to friction in the form.\n*Meta Ads (Conversions Campaign)*\n• Healthy Click-Through Rate: *2.01% CTR* (benchmark is 1–2%).\n• Traffic Quality: *53 link clicks*, with *47 landing page views* (*88.86% view rate* per click).\n• High Intent: Out of those landing page views, *12 visitors* went to the form.\n• Conversion Block: *0 submissions*, mir",
+        "permalink": "https://weddingindustryads.slack.com/archives/C08QU9K31KN/p1756316632776109",
+        "archive": "frontend/corpus/slack/raw/cfpfu_luxurytravelboutique.json"
+      },
+      {
+        "channel": "googlesearchaccelerator",
+        "ts": "1761658548.717769",
+        "thread_ts": "1761608787.481489",
+        "user": "U03NTKHUE15",
+        "bot_id": null,
+        "excerpt": "Thanks for helping with the back end elements <@U096WQC91AR>!\n\nI guess people can book a sales call with <@U04LHK2MJVC> from this page, but then they also have the option to join us for the information session next week (when will we start promoting that session?)\n\nI'm working on the pitch deck for that, and it's becoming like a mini-webby ( common mistakes / why this program is the solution / how it works / client results / strong CTA to join with urgency deadline )\n\nAnd then from the info session, we will send them the proposal directly (so no additional sales call after that)",
+        "permalink": "https://weddingindustryads.slack.com/archives/C09LQ656BPU/p1761658548717769",
+        "archive": "frontend/corpus/slack/raw/googlesearchaccelerator.json"
+      },
+      {
+        "channel": "googlesearchaccelerator",
+        "ts": "1763051659.563259",
+        "thread_ts": "1763037215.258889",
+        "user": "U03NTKHUE15",
+        "bot_id": null,
+        "excerpt": "I think the optics of closing doors for now are better than the impression it might give for us to extend the deadline that long ",
+        "permalink": "https://weddingindustryads.slack.com/archives/C09LQ656BPU/p1763051659563259",
+        "archive": "frontend/corpus/slack/raw/googlesearchaccelerator.json"
+      },
+      {
+        "channel": "googlesearchaccelerator",
+        "ts": "1780328927.727329",
+        "thread_ts": "1780328927.727329",
+        "user": "U08MNKVJB1D",
+        "bot_id": null,
+        "excerpt": "Google Ads Weekly Meeting - June 01\n\n*<https://fathom.video/share/hXto5Dt274z2maKtvjXN3myiKDXPAq9y|VIEW RECORDING - 42 mins (No highlights)>*\nMeeting Purpose\n<https://fathom.video/share/hXto5Dt274z2maKtvjXN3myiKDXPAq9y?tab=summary&amp;timestamp=28.0|Review Google Ads performance and align on client transitions.>\nKey Takeaways\n• *<https://fathom.video/share/hXto5Dt274z2maKtvjXN3myiKDXPAq9y?tab=summary&amp;timestamp=782.0|Destination Wedding Planner:>*<https://fathom.video/share/hXto5Dt274z2maKtvjXN3myiKDXPAq9y?tab=summary&amp;timestamp=782.0| Google Ads underperform due to a vague landing page headline (\"Find the perfect venue\"). The fix is to use clear, direct messaging from high-performing Meta ads to set user expectations.>\n• *<https://fathom.video/share/hXto5Dt274z2maKtvjXN3myiKDXPAq9y?tab=summary&amp;timestamp=933.0|Davis and Gray Farms:>*<https://fathom.video/share/hXto5Dt274z2maKtv",
+        "permalink": "https://weddingindustryads.slack.com/archives/C09LQ656BPU/p1780328927727329",
+        "archive": "frontend/corpus/slack/raw/googlesearchaccelerator.json"
+      },
+      {
+        "channel": "metaadsaccelerator",
+        "ts": "1749053612.668679",
+        "thread_ts": "1749052778.588219",
+        "user": "U08UT1V2KSQ",
+        "bot_id": null,
+        "excerpt": "<@U071LL8AL3G> <@U04LHK2MJVC> :+1: ok, lmk if I should create this and what the due date is) ",
+        "permalink": "https://weddingindustryads.slack.com/archives/C082DURRJ2U/p1749053612668679",
+        "archive": "frontend/corpus/slack/raw/metaadsaccelerator.json"
+      },
+      {
+        "channel": "metaadsaccelerator",
+        "ts": "1749491319.081999",
+        "thread_ts": "1749490630.226809",
+        "user": "U08UT1V2KSQ",
+        "bot_id": null,
+        "excerpt": "<@U04LHK2MJVC>  ok, got it. Will do it, what is a deadline? Will start to do today, if will have some questions (i am sure will have), will tag you here:) ",
+        "permalink": "https://weddingindustryads.slack.com/archives/C082DURRJ2U/p1749491319081999",
+        "archive": "frontend/corpus/slack/raw/metaadsaccelerator.json"
+      },
+      {
+        "channel": "metaadsaccelerator",
+        "ts": "1749492970.202579",
+        "thread_ts": "1749490630.226809",
+        "user": "U04LHK2MJVC",
+        "bot_id": null,
+        "excerpt": "<@U08UT1V2KSQ> I think we'd love to have the checklist published in the portal by tomorrow, if possible. And the client attraction workbook live by Friday. Thank you!!",
+        "permalink": "https://weddingindustryads.slack.com/archives/C082DURRJ2U/p1749492970202579",
+        "archive": "frontend/corpus/slack/raw/metaadsaccelerator.json"
+      }
+    ],
+    "client_signal": [
+      {
+        "channel": "c_dogwoodreserve",
+        "ts": "1779896129.503099",
+        "thread_ts": "1779896129.503099",
+        "user": "U04LHK2MJVC",
+        "bot_id": null,
+        "excerpt": "<@U0AFN0NUZ9C> Good morning! I'm planning to join just for the first few minutes of the kickoff call with Tirzah to welcome her and officially introduce the two of you. Thank you!",
+        "permalink": "https://weddingindustryads.slack.com/archives/C0B245ATY03/p1779896129503099",
+        "archive": "frontend/corpus/slack/raw/c_dogwoodreserve.json"
+      },
+      {
+        "channel": "c_dogwoodreserve",
+        "ts": "1779907677.684179",
+        "thread_ts": "1779907677.684179",
+        "user": "U0AFN0NUZ9C",
+        "bot_id": null,
+        "excerpt": "Hey <@U07J56D53RD> :wave::skin-tone-4: Merriwether Manor has completed their LeadLock kickoff call. Here's what I'm tracking that we need for them:\n\nHere's the info I have from our call so far:\n\n• <https://drive.google.com/drive/folders/1H4PPrL1NnlicuJyJwoOdzKQy3Wez0FXo?usp=drive_link|Brand Assets> - Heads up! They are likely changing the venue name to Dogwood Reserve. Tirzah will let us know by the end of the week. Colors will remain the same, but there will be a new logo provided.\n• <https://meriwethermanor.com/|Website> - Heads up! They currently have new photos that will be taken (photoshoot scheduled for June 24th). They anticipate their new website not being live until the second week of July. \nHere's what I know that they'll need (so far):\nForms:\n• Pricing Guide (Gisselle/Whitney creating this)\n• <https://meriwethermanor.com/contact|Website Inquiry Form> \nWedding Inquiry Emails:\n•",
+        "permalink": "https://weddingindustryads.slack.com/archives/C0B245ATY03/p1779907677684179",
+        "archive": "frontend/corpus/slack/raw/c_dogwoodreserve.json"
+      },
+      {
+        "channel": "c_dogwoodreserve",
+        "ts": "1782406847.027289",
+        "thread_ts": "1779907677.684179",
+        "user": "U07J56D53RD",
+        "bot_id": null,
+        "excerpt": "<@U0AFN0NUZ9C> thank you!",
+        "permalink": "https://weddingindustryads.slack.com/archives/C0B245ATY03/p1782406847027289",
+        "archive": "frontend/corpus/slack/raw/c_dogwoodreserve.json"
+      },
+      {
+        "channel": "c_funktasticproductions_djhybrid",
+        "ts": "1746453849.394769",
+        "thread_ts": "1746453849.394769",
+        "user": "U04LHK2MJVC",
+        "bot_id": null,
+        "excerpt": "<@U05F1R2R66N> <@U08MNKVJB1D> Can y'all hop on the Funktastic call with me about 10 minutes early? I want to touch base about the tech connections process for the call and also make sure Carmen is set up for success with access to the hello WIA Google account moving forward. Thank you!!",
+        "permalink": "https://weddingindustryads.slack.com/archives/C08QND0MU5T/p1746453849394769",
+        "archive": "frontend/corpus/slack/raw/c_funktasticproductions_djhybrid.json"
+      },
+      {
+        "channel": "c_funktasticproductions_djhybrid",
+        "ts": "1746468380.385529",
+        "thread_ts": "1746466377.786289",
+        "user": "U07QR3N7M0B",
+        "bot_id": null,
+        "excerpt": "<@U04LHK2MJVC>, my apologies—please find the email draft below.\n\n_Hi Mike,_\n\n_We want to again extend a heartfelt welcome from the whole team at Wedding Industry Ads! It was a pleasure meeting with you yesterday, and we are so excited to get started!_\n\n_For your reference, I wanted to share the Messaging & Positioning Questionnaire, Google Folder, recording of the call and the presentation we reviewed. You can access them through the links below:_\n\n• _<https://drive.google.com/file/d/15R_9rb_6WCUylh6Mdz1ukjWotRwOsJ9Q/view?usp=drive_linkhttps://drive.google.com/file/d/15R_9rb_6WCUylh6Mdz1ukjWotRwOsJ9Q/view?usp=drive_link|Onboarding Guide Presentation>_\n• _<https://drive.google.com/drive/folders/1uqrFUIroQ5WttezplHOvjQFLgHsDq3NA?usp=sharing|Call Recording>_\n• _<https://drive.google.com/drive/folders/17VGO8q-RBUpC0s-ZL2l19UX32eiP4cLV?usp=sharing|Google drive Folder>_\n• _<https://docs.google",
+        "permalink": "https://weddingindustryads.slack.com/archives/C08QND0MU5T/p1746468380385529",
+        "archive": "frontend/corpus/slack/raw/c_funktasticproductions_djhybrid.json"
+      },
+      {
+        "channel": "c_funktasticproductions_djhybrid",
+        "ts": "1746536601.919529",
+        "thread_ts": "1746466377.786289",
+        "user": "U07QR3N7M0B",
+        "bot_id": null,
+        "excerpt": "<@U04LHK2MJVC> Just checking in to see if the email draft is all set. If it looks good to you, I’ll go ahead and send it out today. Thank you!",
+        "permalink": "https://weddingindustryads.slack.com/archives/C08QND0MU5T/p1746536601919529",
+        "archive": "frontend/corpus/slack/raw/c_funktasticproductions_djhybrid.json"
+      },
+      {
+        "channel": "cfpfu_luxurytravelboutique",
+        "ts": "1747241731.731039",
+        "thread_ts": "1747241731.731039",
+        "user": "U08MNKVJB1D",
+        "bot_id": null,
+        "excerpt": "thank you <@U07QR3N7M0B>!",
+        "permalink": "https://weddingindustryads.slack.com/archives/C08QU9K31KN/p1747241731731039",
+        "archive": "frontend/corpus/slack/raw/cfpfu_luxurytravelboutique.json"
+      },
+      {
+        "channel": "cfpfu_luxurytravelboutique",
+        "ts": "1747330652.061599",
+        "thread_ts": "1747330652.061599",
+        "user": "U07QR3N7M0B",
+        "bot_id": null,
+        "excerpt": "<@U08MNKVJB1D> <@U04LHK2MJVC>, Here’s the draft email for Beth. Let me know if there are any action items you'd like to include.\n\n_Hi Beth,_ \n\n_We want to again extend a heartfelt welcome to Wedding Industry Ads! It was a pleasure meeting with you on the call, and we are so excited to get started!_\n\n_For your reference, I wanted to share the recording of the call and the presentation we reviewed. You can access them through the links below:_\n\n• _<https://drive.google.com/file/d/1L2oVDtBLGwEeedOmVzMhKIZr645F1GWR/view?usp=drive_link|Onboarding Guide Presentation>_\n• _<https://drive.google.com/drive/folders/1T0pqcZ_4LNZv2Zfg20Cu9u1CW4diFVcp?usp=sharing|Call Recording>_\n_Please reach out if you have any questions or concerns!_\n\n_Thank you,_\n_Whitney_",
+        "permalink": "https://weddingindustryads.slack.com/archives/C08QU9K31KN/p1747330652061599",
+        "archive": "frontend/corpus/slack/raw/cfpfu_luxurytravelboutique.json"
+      },
+      {
+        "channel": "cfpfu_luxurytravelboutique",
+        "ts": "1747331860.401219",
+        "thread_ts": "1747330652.061599",
+        "user": "U04LHK2MJVC",
+        "bot_id": null,
+        "excerpt": "<@U07QR3N7M0B> We had another call with her today, too, and there is even more info I owe her, so no need to send this email. I plan to email her tomorrow. Thank you!!",
+        "permalink": "https://weddingindustryads.slack.com/archives/C08QU9K31KN/p1747331860401219",
+        "archive": "frontend/corpus/slack/raw/cfpfu_luxurytravelboutique.json"
+      },
+      {
+        "channel": "googlesearchaccelerator",
+        "ts": "1761272651.170699",
+        "thread_ts": "1761272651.170699",
+        "user": "U04LHK2MJVC",
+        "bot_id": null,
+        "excerpt": "<!channel> We are getting so close to launching our Google Search Accelerator! I'm pumped because I know the momentum we've been building leading up to this is all going to pay off! Thank you all in advance for the final push to get this offer off the ground!!!\n\nHere are our remaining action items:\n\n<@U096WQC91AR> can you please turn this into a doc and help us keep track of progress?\n\n*Marketing*\n• <@U03NTKHUE15> \n    ◦ Finalize landing page design including adding VSL and mobile optimization\n    ◦ Live Q&amp;A Funnel\n        ▪︎ landing page\n        ▪︎ form\n        ▪︎ thank you page\n        ▪︎ simple email sequence - confirmation, 24 hr reminder, 1 hr reminder\n• <@U096WQC91AR> \n    ◦ Discovery call confirmation page design including adding thank you video\n    ◦ Discovery call confirmation workflow (I think this may currently be linked to the Google Ads VIP Day application workflow, so l",
+        "permalink": "https://weddingindustryads.slack.com/archives/C09LQ656BPU/p1761272651170699",
+        "archive": "frontend/corpus/slack/raw/googlesearchaccelerator.json"
+      },
+      {
+        "channel": "googlesearchaccelerator",
+        "ts": "1761321263.028549",
+        "thread_ts": "1761272651.170699",
+        "user": "U04LHK2MJVC",
+        "bot_id": null,
+        "excerpt": "<@U096WQC91AR> I think that works: thank you!",
+        "permalink": "https://weddingindustryads.slack.com/archives/C09LQ656BPU/p1761321263028549",
+        "archive": "frontend/corpus/slack/raw/googlesearchaccelerator.json"
+      },
+      {
+        "channel": "googlesearchaccelerator",
+        "ts": "1761327575.246209",
+        "thread_ts": "1761326791.397549",
+        "user": "U04LHK2MJVC",
+        "bot_id": null,
+        "excerpt": "<@U03NTKHUE15> thank you! I just reviewed on mobile. Attached are screenshots of what stood out to me. One graphic was kind of stretched and the spacing of the value stack feels kind of overwhelming as is.\n\nAlso, if you have a chance can you please update the SEO description and thumbnails?\n\nI'm so excited about this page!!! The video is great",
+        "permalink": "https://weddingindustryads.slack.com/archives/C09LQ656BPU/p1761327575246209",
+        "archive": "frontend/corpus/slack/raw/googlesearchaccelerator.json"
+      },
+      {
+        "channel": "metaadsaccelerator",
+        "ts": "1732290122.396579",
+        "thread_ts": "1732290122.396579",
+        "user": "U04LHK2MJVC",
+        "bot_id": null,
+        "excerpt": "<@U07U7DF550R> <@U071LL8AL3G> I'd love it if you could please use the link below to join our FB group for the Meta program. I'll handle responding to all clients in the group  (for now), but I think it would be great for y'all to be inside, so you can see what questions are being asked. Thank you!!\n\n<https://www.facebook.com/share/g/1GJSUrPzRJ/>",
+        "permalink": "https://weddingindustryads.slack.com/archives/C082DURRJ2U/p1732290122396579",
+        "archive": "frontend/corpus/slack/raw/metaadsaccelerator.json"
+      },
+      {
+        "channel": "metaadsaccelerator",
+        "ts": "1733337216.657559",
+        "thread_ts": "1733336926.898079",
+        "user": "U04LHK2MJVC",
+        "bot_id": null,
+        "excerpt": "<@U07QR3N7M0B> Ok, simplified it. It's now approved and you can use this same template every week, just change the date at the beginning. Thank you!",
+        "permalink": "https://weddingindustryads.slack.com/archives/C082DURRJ2U/p1733337216657559",
+        "archive": "frontend/corpus/slack/raw/metaadsaccelerator.json"
+      },
+      {
+        "channel": "metaadsaccelerator",
+        "ts": "1742397158.361069",
+        "thread_ts": "1742396881.175529",
+        "user": "U07QR3N7M0B",
+        "bot_id": null,
+        "excerpt": "<@U04LHK2MJVC> Okay, Thank you!",
+        "permalink": "https://weddingindustryads.slack.com/archives/C082DURRJ2U/p1742397158361069",
+        "archive": "frontend/corpus/slack/raw/metaadsaccelerator.json"
+      },
+      {
+        "channel": "social-proof-and-results",
+        "ts": "1749656843.312629",
+        "thread_ts": "1749656843.312629",
+        "user": "U04LHK2MJVC",
+        "bot_id": null,
+        "excerpt": "<!channel> Hi! Moving forward, if you have great results, feedback, screenshots, etc. pertaining to our clients or members, please drop it here. The goal is to work more social proof and results into our IG and email marketing content. Thank you!!",
+        "permalink": "https://weddingindustryads.slack.com/archives/C091CPQD8L9/p1749656843312629",
+        "archive": "frontend/corpus/slack/raw/social-proof-and-results.json"
+      },
+      {
+        "channel": "social-proof-and-results",
+        "ts": "1754337850.377329",
+        "thread_ts": "1753990518.026609",
+        "user": "U04LHK2MJVC",
+        "bot_id": null,
+        "excerpt": "<@U05F1R2R66N> circling back on this. I'd like to be able to write this email tomorrow, so it can go live Wednesday. Let me know if there are any screenshots that would be good to incorporate. Thank you!!",
+        "permalink": "https://weddingindustryads.slack.com/archives/C091CPQD8L9/p1754337850377329",
+        "archive": "frontend/corpus/slack/raw/social-proof-and-results.json"
+      },
+      {
+        "channel": "social-proof-and-results",
+        "ts": "1754409011.530319",
+        "thread_ts": "1753990518.026609",
+        "user": "U04LHK2MJVC",
+        "bot_id": null,
+        "excerpt": "<@U05F1R2R66N> Thank you! Is there any way to exclude CTR since that went down?\n\nAlso, anything from LeadLock that we could pull that shows an increase in tour volume?",
+        "permalink": "https://weddingindustryads.slack.com/archives/C091CPQD8L9/p1754409011530319",
+        "archive": "frontend/corpus/slack/raw/social-proof-and-results.json"
+      }
+    ],
+    "external_reference": [
+      {
+        "channel": "c_dogwoodreserve",
+        "ts": "1778170973.074789",
+        "thread_ts": "1778170973.074789",
+        "user": "U096WQC91AR",
+        "bot_id": null,
+        "excerpt": "Hi <@U0AFN0NUZ9C> and <@U07J56D53RD>! Tirzah Caffee at Meriwether Manor has signed on for the Foolproof Follow-Up Advantage, and her kickoff call is scheduled for May 27th :partying_face:\n\nHere's everything you need to get familiar with the account:\n• <https://drive.google.com/drive/folders/1pJwadFky3EF-ISvUEKsyFX5xQp3pBdhc?usp=drive_link|Google Drive folder> and <https://app.clickup.com/9011165651/v/li/901113739151|Onboarding Checklist> are in the Bookmarks folder of this channel\n• <https://docs.google.com/document/d/1cCXMhwykMo-apq3d-bfg0zs0bFtbLskoxjO0u8QoPDY/edit?usp=drive_link|LeadLock Kickoff Call Worksheet> is also included in the Google Drive folder\nThings to note:\n• Alina Stevens is Tirzah's client. Tirzah will handle the Kickoff call solo and is currently the main point of contact. \n• Tirzah has been referring almost all of our LeadLock clients, so it's very important for her o",
+        "permalink": "https://weddingindustryads.slack.com/archives/C0B245ATY03/p1778170973074789",
+        "archive": "frontend/corpus/slack/raw/c_dogwoodreserve.json"
+      },
+      {
+        "channel": "c_dogwoodreserve",
+        "ts": "1778684282.727509",
+        "thread_ts": "1778684282.727509",
+        "user": "U096WQC91AR",
+        "bot_id": null,
+        "excerpt": "<@U0AFN0NUZ9C> <@U07J56D53RD> Here is Tirzah's completed questionnaire! <@U04LHK2MJVC>, did we provide this document?\nIt says that assets were uploaded to a shared drive, but I don't see anything in her client folder. Let me know if we need to follow up\n\n<https://docs.google.com/document/d/1Y1tNoznNzWZql8fx0uTlb4pl6semhFAPgn8MAVMxfzA/edit?tab=t.0>",
+        "permalink": "https://weddingindustryads.slack.com/archives/C0B245ATY03/p1778684282727509",
+        "archive": "frontend/corpus/slack/raw/c_dogwoodreserve.json"
+      },
+      {
+        "channel": "c_dogwoodreserve",
+        "ts": "1778774572.298729",
+        "thread_ts": "1778774572.298729",
+        "user": "U096WQC91AR",
+        "bot_id": null,
+        "excerpt": "<@U0AFN0NUZ9C> <@U07J56D53RD> EIN and brand assets have been uploaded to folder! I believe we're just missing brand photos and fonts which they will review tomorrow.\n\n<https://drive.google.com/file/d/1Lw2o9LY4RMvVhlUE4ujU9eHh6OqfB3Y_/view?usp=drive_link|EIN>, <https://docs.google.com/document/d/1vlRrfcSDSlFdMFvyXPIIOWjbXJQHqXpqblCbaW_TFlU/edit?usp=drive_link|Pricing, ><https://drive.google.com/drive/folders/1H4PPrL1NnlicuJyJwoOdzKQy3Wez0FXo?usp=drive_link|Logos and photos>\n\nLet me know if you need anything else!",
+        "permalink": "https://weddingindustryads.slack.com/archives/C0B245ATY03/p1778774572298729",
+        "archive": "frontend/corpus/slack/raw/c_dogwoodreserve.json"
+      },
+      {
+        "channel": "c_funktasticproductions_djhybrid",
+        "ts": "1746458181.826089",
+        "thread_ts": "1746458181.826089",
+        "user": "U07QR3N7M0B",
+        "bot_id": null,
+        "excerpt": "<@U05F1R2R66N> <@U08MNKVJB1D> Hi! Here's Mike <https://portal.dubsado.com/public/form/view/6813dc47127b10003a32ccd8?|completed onboarding questionnaire>. His <https://drive.google.com/drive/folders/16zxmxLr05khFOKPbAcLSs_e6QgBDXsKu?usp=sharing|client folder> and <https://docs.google.com/document/d/1FRilUXJ94LpWWJLBnC9NgJDW0HYJ3DoLcpZiwCW8q9k/edit?usp=sharing|onboarding checklist> are also pinned at the top of this channel.",
+        "permalink": "https://weddingindustryads.slack.com/archives/C08QND0MU5T/p1746458181826089",
+        "archive": "frontend/corpus/slack/raw/c_funktasticproductions_djhybrid.json"
+      },
+      {
+        "channel": "c_funktasticproductions_djhybrid",
+        "ts": "1746467326.907629",
+        "thread_ts": "1746466377.786289",
+        "user": "U07QR3N7M0B",
+        "bot_id": null,
+        "excerpt": "<@U05F1R2R66N> <@U04LHK2MJVC>, here’s the email draft. Let me know if this looks good. Thanks!\n\n_Hi Mike,_\n\n_We loved meeting with you today! The call recording has been added to your client folder and you can<https://drive.google.com/drive/folders/1uqrFUIroQ5WttezplHOvjQFLgHsDq3NA?usp=sharing| check it out here.>_\n\n_In preparation for our next call on Wednesday, we would like to add all of your users to LeadLock. Here are two ways to do this. Please send me the first name, last name, and email address of additional LeadLock users for both Funktastic and DJ Hybrid. Or, since you have admin access, you can add users using <https://www.loom.com/share/dc647de2d8d14d1b8ac7494fa104767a?sid=2c762f9b-0897-4fe6-8822-748c638dd617|this quick tutorial video>._ \n\n_We also need the <https://docs.google.com/document/d/1IUTVkfK-v-H1XnuuGtscLF5w3pg265gBORcu84_e-4Q/edit?usp=sharing|messaging and position",
+        "permalink": "https://weddingindustryads.slack.com/archives/C08QND0MU5T/p1746467326907629",
+        "archive": "frontend/corpus/slack/raw/c_funktasticproductions_djhybrid.json"
+      },
+      {
+        "channel": "c_funktasticproductions_djhybrid",
+        "ts": "1746468380.385529",
+        "thread_ts": "1746466377.786289",
+        "user": "U07QR3N7M0B",
+        "bot_id": null,
+        "excerpt": "<@U04LHK2MJVC>, my apologies—please find the email draft below.\n\n_Hi Mike,_\n\n_We want to again extend a heartfelt welcome from the whole team at Wedding Industry Ads! It was a pleasure meeting with you yesterday, and we are so excited to get started!_\n\n_For your reference, I wanted to share the Messaging & Positioning Questionnaire, Google Folder, recording of the call and the presentation we reviewed. You can access them through the links below:_\n\n• _<https://drive.google.com/file/d/15R_9rb_6WCUylh6Mdz1ukjWotRwOsJ9Q/view?usp=drive_linkhttps://drive.google.com/file/d/15R_9rb_6WCUylh6Mdz1ukjWotRwOsJ9Q/view?usp=drive_link|Onboarding Guide Presentation>_\n• _<https://drive.google.com/drive/folders/1uqrFUIroQ5WttezplHOvjQFLgHsDq3NA?usp=sharing|Call Recording>_\n• _<https://drive.google.com/drive/folders/17VGO8q-RBUpC0s-ZL2l19UX32eiP4cLV?usp=sharing|Google drive Folder>_\n• _<https://docs.google",
+        "permalink": "https://weddingindustryads.slack.com/archives/C08QND0MU5T/p1746468380385529",
+        "archive": "frontend/corpus/slack/raw/c_funktasticproductions_djhybrid.json"
+      },
+      {
+        "channel": "cfpfu_luxurytravelboutique",
+        "ts": "1747239398.686589",
+        "thread_ts": "1747239398.686589",
+        "user": "U07QR3N7M0B",
+        "bot_id": null,
+        "excerpt": "<@U04LHK2MJVC> <@U08MNKVJB1D> Hi! Here is Beth’s <https://portal.dubsado.com/public/form/view/6813c321e03a2f003ac2d906|onboarding questionnaire>. Her <https://drive.google.com/drive/folders/1ZRsLGPhS8wyHRVXizGiwlSiAIzQz1m-b?usp=sharing|Google Drive Folder> and <https://docs.google.com/document/d/16Fe9DMyBhawQpHlPP_yoF9-1SwlM-FQurV_ocSwOStw/edit?usp=drive_link|Onboarding Checklist> are also pinned as bookmarks at the top of this channel.",
+        "permalink": "https://weddingindustryads.slack.com/archives/C08QU9K31KN/p1747239398686589",
+        "archive": "frontend/corpus/slack/raw/cfpfu_luxurytravelboutique.json"
+      },
+      {
+        "channel": "cfpfu_luxurytravelboutique",
+        "ts": "1747330652.061599",
+        "thread_ts": "1747330652.061599",
+        "user": "U07QR3N7M0B",
+        "bot_id": null,
+        "excerpt": "<@U08MNKVJB1D> <@U04LHK2MJVC>, Here’s the draft email for Beth. Let me know if there are any action items you'd like to include.\n\n_Hi Beth,_ \n\n_We want to again extend a heartfelt welcome to Wedding Industry Ads! It was a pleasure meeting with you on the call, and we are so excited to get started!_\n\n_For your reference, I wanted to share the recording of the call and the presentation we reviewed. You can access them through the links below:_\n\n• _<https://drive.google.com/file/d/1L2oVDtBLGwEeedOmVzMhKIZr645F1GWR/view?usp=drive_link|Onboarding Guide Presentation>_\n• _<https://drive.google.com/drive/folders/1T0pqcZ_4LNZv2Zfg20Cu9u1CW4diFVcp?usp=sharing|Call Recording>_\n_Please reach out if you have any questions or concerns!_\n\n_Thank you,_\n_Whitney_",
+        "permalink": "https://weddingindustryads.slack.com/archives/C08QU9K31KN/p1747330652061599",
+        "archive": "frontend/corpus/slack/raw/cfpfu_luxurytravelboutique.json"
+      },
+      {
+        "channel": "cfpfu_luxurytravelboutique",
+        "ts": "1748026004.019359",
+        "thread_ts": "1748026004.019359",
+        "user": "U08MNKVJB1D",
+        "bot_id": null,
+        "excerpt": "Creatives Doc: <https://docs.google.com/document/d/1R4vu8eBhRGavWOeylHjBVI13E5ZCbvju8ZnQ40ZmK2w/edit?usp=sharing> <@U04LHK2MJVC>",
+        "permalink": "https://weddingindustryads.slack.com/archives/C08QU9K31KN/p1748026004019359",
+        "archive": "frontend/corpus/slack/raw/cfpfu_luxurytravelboutique.json"
+      },
+      {
+        "channel": "googlesearchaccelerator",
+        "ts": "1761321098.166569",
+        "thread_ts": "1761272651.170699",
+        "user": "U096WQC91AR",
+        "bot_id": null,
+        "excerpt": "<@U04LHK2MJVC> <@U03NTKHUE15> <@U08UT1V2KSQ>\n\nHere is the tracker! Let me know if this works. :raised_hands:\n\n<https://docs.google.com/document/d/1FRp5uehiuSQGXzJ8IqWtnuKCy5M2EHyP_oEBfczeINI/edit?tab=t.0>",
+        "permalink": "https://weddingindustryads.slack.com/archives/C09LQ656BPU/p1761321098166569",
+        "archive": "frontend/corpus/slack/raw/googlesearchaccelerator.json"
+      },
+      {
+        "channel": "googlesearchaccelerator",
+        "ts": "1761583477.025399",
+        "thread_ts": "1761341996.532519",
+        "user": "U03NTKHUE15",
+        "bot_id": null,
+        "excerpt": "Email drafts are <https://docs.google.com/document/d/1dZxRhDW7lW7I-aNgukZKEVufebKENONKffGki-H6llo/edit?usp=sharing|here> - including confirmation/reminder emails, as well as a follow-up sequence. Feel free to edit directly in the doc <@U04LHK2MJVC>",
+        "permalink": "https://weddingindustryads.slack.com/archives/C09LQ656BPU/p1761583477025399",
+        "archive": "frontend/corpus/slack/raw/googlesearchaccelerator.json"
+      },
+      {
+        "channel": "googlesearchaccelerator",
+        "ts": "1761585392.578749",
+        "thread_ts": "1761585392.578749",
+        "user": "U096WQC91AR",
+        "bot_id": null,
+        "excerpt": "<@U04LHK2MJVC> <@U03NTKHUE15> Google Search Accelerator booking confirmation page for your review!\n\n<https://app.leadlockpro.com/v2/preview/Yqveajx5ANBXmpUxnUYG?notrack=true>",
+        "permalink": "https://weddingindustryads.slack.com/archives/C09LQ656BPU/p1761585392578749",
+        "archive": "frontend/corpus/slack/raw/googlesearchaccelerator.json"
+      },
+      {
+        "channel": "metaadsaccelerator",
+        "ts": "1733334134.507799",
+        "thread_ts": "1733334134.507799",
+        "user": "U07QR3N7M0B",
+        "bot_id": null,
+        "excerpt": "Hi <@U071LL8AL3G>  <@U04LHK2MJVC>, I’ve created the <https://docs.google.com/document/d/1dqvbMqz6Zlsfi1pYncrhTbioDueQLjpjC08duOFBIPs/edit?usp=sharing|graphic post and caption> for tomorrow’s office hours. Please take a look and let me know if there’s anything you'd like to change.\n\nAlso, <@U071LL8AL3G>, could you confirm what time your office hour will be tomorrow?",
+        "permalink": "https://weddingindustryads.slack.com/archives/C082DURRJ2U/p1733334134507799",
+        "archive": "frontend/corpus/slack/raw/metaadsaccelerator.json"
+      },
+      {
+        "channel": "metaadsaccelerator",
+        "ts": "1733336926.898079",
+        "thread_ts": "1733336926.898079",
+        "user": "U07QR3N7M0B",
+        "bot_id": null,
+        "excerpt": "<@U04LHK2MJVC> Hi! Here's the draft for the<https://docs.google.com/document/d/1TdP-KBtrBUWhPHp6Rr9maY6Nt2LNStMv4il5MMS0SJE/edit?usp=sharing| Office hours recording.>",
+        "permalink": "https://weddingindustryads.slack.com/archives/C082DURRJ2U/p1733336926898079",
+        "archive": "frontend/corpus/slack/raw/metaadsaccelerator.json"
+      },
+      {
+        "channel": "metaadsaccelerator",
+        "ts": "1733513420.479769",
+        "thread_ts": "1733336926.898079",
+        "user": "U07QR3N7M0B",
+        "bot_id": null,
+        "excerpt": "<@U04LHK2MJVC> Hi! <https://docs.google.com/document/d/1dqvbMqz6Zlsfi1pYncrhTbioDueQLjpjC08duOFBIPs/edit?usp=sharing|Here's the post announcement copy>.",
+        "permalink": "https://weddingindustryads.slack.com/archives/C082DURRJ2U/p1733513420479769",
+        "archive": "frontend/corpus/slack/raw/metaadsaccelerator.json"
+      },
+      {
+        "channel": "social-proof-and-results",
+        "ts": "1756486850.736979",
+        "thread_ts": "1756485419.192119",
+        "user": "U096WQC91AR",
+        "bot_id": null,
+        "excerpt": "That's awesome!:partying_face: *<https://drive.google.com/file/d/16WngW5ncfVBlAKVLK2CrgxwkUnMOtXa5/view?usp=drive_link|Here>* is the recording of the meeting. I uploaded it to the WIA Results/Social Proof folder in the WIA | Marketing folder.",
+        "permalink": "https://weddingindustryads.slack.com/archives/C091CPQD8L9/p1756486850736979",
+        "archive": "frontend/corpus/slack/raw/social-proof-and-results.json"
+      },
+      {
+        "channel": "social-proof-and-results",
+        "ts": "1778692274.622239",
+        "thread_ts": "1778511002.334979",
+        "user": "U096WQC91AR",
+        "bot_id": null,
+        "excerpt": "<@U04LHK2MJVC> Recording, summary and transcript has been updated! I included feedback extracts on the <https://docs.google.com/document/d/1mX7nGFm7NVSOm_9fapOefY6gJv0njYi0pozEZGTMYWw/edit?tab=t.0|verbal testimonial document:>\n\n&gt; *On results:*\n&gt; \"We booked a wedding, we booked an elopement... Since one of the ads we're running features a City Hall wedding, I've noticed a big influx of City Hall wedding leads.\" — 00:01:43\n&gt; \n&gt; *On overall experience:*\n&gt; \"I don't think so. This has been really great. Like, I feel like I learned a lot. I'm still learning, and I am really glad that I did this. Thank you so much.\" — 00:10:32\n&gt; \n&gt; *On the education:*\n&gt; \"The education itself is really helpful and you get really detailed with it. I so appreciate that because I do not want to invest in something that is just going to be a bunch of fluff. I need very hard, specific evidence",
+        "permalink": "https://weddingindustryads.slack.com/archives/C091CPQD8L9/p1778692274622239",
+        "archive": "frontend/corpus/slack/raw/social-proof-and-results.json"
+      },
+      {
+        "channel": "social-proof-and-results",
+        "ts": "1778787985.977969",
+        "thread_ts": "1778511002.334979",
+        "user": "U096WQC91AR",
+        "bot_id": null,
+        "excerpt": "<@U04LHK2MJVC> Should we add them or replace some of the ones we already have?\n<https://app.leadlockpro.com/v2/preview/vOMDrfmJfQSGcg2obX82?notrack=true>",
+        "permalink": "https://weddingindustryads.slack.com/archives/C091CPQD8L9/p1778787985977969",
+        "archive": "frontend/corpus/slack/raw/social-proof-and-results.json"
+      }
+    ]
+  },
+  "totals": {
+    "parents": 1070,
+    "replies": 1594,
+    "declared_replies": 1594,
+    "unique_messages": 2664,
+    "duplicate_message_occurrences": 0,
+    "files_local_occurrences": 209,
+    "files_over_cap_occurrences": 63
+  }
+}

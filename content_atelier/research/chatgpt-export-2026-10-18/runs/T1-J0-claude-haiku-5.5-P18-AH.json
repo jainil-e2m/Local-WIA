@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J0-claude-haiku-5.5-P18-AH",
+  "model": "anthropic/claude-haiku-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 286,
+  "completion_tokens": 268,
+  "cached_tokens": 0,
+  "cost": 0.0001626,
+  "seconds": 1.9,
+  "finish": "stop",
+  "system_sha": "ea72523eb9c9",
+  "user_sha": "b655e2aba33c"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 4,
+  "reason": "Version B makes a clearer, more actionable point about measurement driving improvement, while Version A is vaguer and its phrasing ('isn't nearly as frustrating') is weaker."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: email\n\nVersion A:\nOne of the biggest lessons we've learned over the years is that advertising isn't nearly as frustrating when you can clearly see what's working.\n\nVersion B:\nOne thing we've learned over the years is that good marketing decisions start with good data.\nIf you can't clearly measure what's working, it's incredibly difficult to know what to improve next.",
+  "cache_prefix_sha": "ea72523eb9c9"
+ }
+}

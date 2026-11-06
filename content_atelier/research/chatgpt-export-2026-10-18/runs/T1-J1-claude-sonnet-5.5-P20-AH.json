@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J1-claude-sonnet-5.5-P20-AH",
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 16586,
+  "completion_tokens": 199,
+  "cached_tokens": 15842,
+  "cost": 0.0050622,
+  "seconds": 4.2,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "e82567e40768"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 4,
+  "reason": "Version A has a leftover \"...\" gap in the Google Ads paragraph and adds an unverified claim about results at $500/month on Google or $300/month on Meta, while Version B is complete and makes no unsupported claims."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: other\n\nVersion A:\nOne of the biggest misconceptions is thinking that boosting a post on Instagram or Facebook counts as true advertising. Boosting gives you a little more visibility on a single post, but it lacks the strategy, targeting, and tracking you get when you run campaigns through Meta Ads Manager. Real results come from building intentional, full-funnel campaigns—not from hitting the boost button.\n\nAnother common myth: that Google Ads are just “paying to show up” and don’t require much thought. In reality, Google Ads are highly strategic. ... When done right, Google Ads put your venue in front of people actively searching for exactly what you offer—and that’s marketing gold.\n\nAnd of course, many still believe that ads are only effective if you have a massive budget. That’s simply not true. We’ve helped venues see powerful results with $500/month on Google or $300/month on Meta. It’s not about how much you spend—it’s how you spend it.\n\nVersion B:\nOne of the biggest misconceptions is thinking that boosting a post on Instagram or Facebook counts as true advertising. Boosting gives you a little more visibility on a single post, but it lacks the strategy, targeting, and tracking you get when you run campaigns through Meta Ads Manager. Real results come from building intentional, full-funnel campaigns—not from hitting the boost button.\n\nAnother common myth: that Google Ads are just “paying to show up” and don’t require much thought. In reality, Google Ads are highly strategic. It’s not just about bidding on keywords—it’s about choosing the right ones, writing ad copy that converts, and optimizing your campaigns over time. When done right, Google Ads put your venue in front of people actively searching for exactly what you offer—and that’s marketing gold.",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

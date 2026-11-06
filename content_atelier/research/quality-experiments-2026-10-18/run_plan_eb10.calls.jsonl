@@ -1,0 +1,12 @@
+{"call_id": "llm_26ff9f0d1c1d43d086542409", "event": "sent", "stage": "evaluation", "model": "openai/gpt-6.1-sol", "fingerprint": "VER-gpt-6.1-sol-P1-week1-claude-sonnet-5", "routing_policy": "2026-10-18.deny-collection-zdr.v1", "at": "2026-10-18T07:09:41.683570+00:00"}
+{"call_id": "llm_26ff9f0d1c1d43d086542409", "event": "succeeded", "cost_usd": 0.0613585, "error": null, "at": "2026-10-18T07:10:53.825952+00:00"}
+{"call_id": "llm_d508d927ed9f4ae8a5ce4ad2", "event": "sent", "stage": "evaluation", "model": "openai/gpt-6.1-sol", "fingerprint": "VER-gpt-6.1-sol-P1-week2-claude-sonnet-5", "routing_policy": "2026-10-18.deny-collection-zdr.v1", "at": "2026-10-18T07:10:53.881225+00:00"}
+{"call_id": "llm_d508d927ed9f4ae8a5ce4ad2", "event": "succeeded", "cost_usd": 0.0446423, "error": null, "at": "2026-10-18T07:11:57.132400+00:00"}
+{"call_id": "llm_efd46898157045ff8e9ec1bf", "event": "sent", "stage": "evaluation", "model": "anthropic/claude-sonnet-5.5", "fingerprint": "VER-claude-sonnet-5.5-P1-week1-gpt-6.1-sol", "routing_policy": "2026-10-18.deny-collection-zdr.v1", "at": "2026-10-18T07:11:57.177453+00:00"}
+{"call_id": "llm_efd46898157045ff8e9ec1bf", "event": "succeeded", "cost_usd": 0.060944, "error": null, "at": "2026-10-18T07:12:20.928975+00:00"}
+{"call_id": "llm_1f83d76009374009854bdd53", "event": "sent", "stage": "evaluation", "model": "anthropic/claude-sonnet-5.5", "fingerprint": "VER-claude-sonnet-5.5-P1-week2-gpt-6.1-sol", "routing_policy": "2026-10-18.deny-collection-zdr.v1", "at": "2026-10-18T07:12:20.987942+00:00"}
+{"call_id": "llm_1f83d76009374009854bdd53", "event": "succeeded", "cost_usd": 0.072912, "error": null, "at": "2026-10-18T07:12:44.555792+00:00"}
+{"call_id": "llm_f58be6ca31324651826f726f", "event": "sent", "stage": "evaluation", "model": "anthropic/claude-sonnet-5.5", "fingerprint": "VER-claude-sonnet-5.5-B0-week1-gpt-6.1-sol", "routing_policy": "2026-10-18.deny-collection-zdr.v1", "at": "2026-10-18T07:12:44.605007+00:00"}
+{"call_id": "llm_f58be6ca31324651826f726f", "event": "succeeded", "cost_usd": 0.05863, "error": null, "at": "2026-10-18T07:13:05.420998+00:00"}
+{"call_id": "llm_173b409b74164fa49ebb369d", "event": "sent", "stage": "evaluation", "model": "anthropic/claude-sonnet-5.5", "fingerprint": "VER-claude-sonnet-5.5-B0-week2-gpt-6.1-sol", "routing_policy": "2026-10-18.deny-collection-zdr.v1", "at": "2026-10-18T07:13:05.478325+00:00"}
+{"call_id": "llm_173b409b74164fa49ebb369d", "event": "succeeded", "cost_usd": 0.079422, "error": null, "at": "2026-10-18T07:13:30.813391+00:00"}

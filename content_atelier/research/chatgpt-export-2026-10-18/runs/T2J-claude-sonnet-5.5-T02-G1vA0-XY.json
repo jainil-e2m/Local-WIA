@@ -1,0 +1,23 @@
+{
+ "meta": {
+  "run_id": "T2J-claude-sonnet-5.5-T02-G1vA0-XY",
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 813,
+  "completion_tokens": 410,
+  "cached_tokens": 0,
+  "cost": 0.005726,
+  "seconds": 4.4,
+  "finish": "stop",
+  "system_sha": "5374112cdde3",
+  "user_sha": "11a24f5f484c"
+ },
+ "output": null,
+ "content": "Candidate B tracks the reference much more closely. Its trigger is the algorithm change, it names the scramble for posts and reels, and it contrasts organic reach with a paid strategy. It also keeps the template's structure. Its weaknesses are the \"my clients\" wording (WIA would say \"our\"), \"on autopilot\" and \"filling their calendars\" (which are overpromising), and \"proven Google + Meta Ads,\" which may be inaccurate if WIA's offering differs. Those are small edits.\n\nCandidate A changes the trigger to \"Inquiries slow down,\" which is a different premise. It never mentions organic reach and doesn't contrast organic with paid. It also adds a \"missing next step\" idea and a system-level framing that are far from the reference. It would need a substantial rewrite.\n\n```json\n{\"winner\":\"B\",\"edits_needed_A\":\"many\",\"edits_needed_B\":\"some\",\"reason\":\"B keeps the organic-reach-versus-paid-ads contrast and the post-more/reels scramble that Whitney's version uses, needing only tweaks to 'my' and the autopilot and platform claims. A shifts the premise to slow inquiries and a vague 'system' pitch, never contrasting organic with paid, so it would need a rewrite.\"}\n```",
+ "request": {
+  "system": "You compare two draft pieces of marketing copy for Wedding Industry Ads (WIA), a wedding-industry advertising agency. You are given the request, the version WIA's co-founder Whitney actually approved or wrote (the reference), and two candidate drafts. Decide which candidate would need fewer and smaller edits to become something Whitney would approve. Judge substance first (what is claimed, for whom, how WIA is positioned, accuracy, whether her own wording was kept where she supplied it), then voice. Do not reward length, and do not require the candidate to copy the reference wording.\n\nReturn only JSON: {\"winner\": \"A\" or \"B\" or \"tie\", \"edits_needed_A\": \"few\", \"edits_needed_B\": \"many\", \"reason\": \"one or two sentences\"} where edits_needed values are none, few, some or many.",
+  "user": "Request:\nCan you customize this prompt for Wedding Industry Ads, so I can post it on Threads?\n\n[INDUSTRY CHANGE/CHALLENGE] happens. Panic sets in.\n\nWhile everyone else scrambles for [TYPICAL SOLUTION], my [CLIENTS/STUDENTS] get [YOUR UNIQUE SOLUTION].\n\nThat's the difference between [WHAT COMPETITORS OFFER] and [WHAT YOU PROVIDE].\n\nReference (what Whitney approved):\nOrganic reach drops. Panic sets in.\n\nWhile everyone else scrambles to post more and create trendy reels, our clients are gaining followers and leads from their ads on repeat.\n\nThat's the difference between relying on the organic algorithm and running a strategic paid strategy.\n\nCandidate A:\nInquiries slow down. Panic sets in.\n\nThe instinct is to post more. Boost something. Get more eyes on the business.\n\nOur clients get a closer look at the whole system: who their ads reach, where those couples land, and what happens after they inquire.\n\nBecause more visibility won’t fix a missing next step.\n\nThat’s the difference between simply running ads and building a strategy around how couples actually decide to book.\n\nCandidate B:\nInstagram changes its algorithm. Panic sets in.  \nWhile everyone else scrambles for more posts, hashtags, and reels, my clients are already filling their calendars with high-quality leads—on autopilot.  \nThat’s the difference between crossing your fingers for organic reach and using a proven Google + Meta Ads strategy that puts you in front of couples the moment they start planning.",
+  "cache_prefix_sha": "5374112cdde3"
+ }
+}

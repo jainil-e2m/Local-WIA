@@ -1,0 +1,958 @@
+{
+ "pack_id": "pack_2795c2aa99c740bc86e40ed310531e91",
+ "contract_version": "content_pack_v2",
+ "title": "How we handle a new ad a client doesn't love",
+ "week_id": "week_2026-10-12",
+ "source_brief_id": "brief_3eae6bc167cb4ad491d1542255ac9cc2",
+ "source_brief_hash": "5a278a0ba8b204ea012ced4194022f24873f18de424acc693ee73da7d206c9ee",
+ "angle_id": "angle_30e931d7f393474c8c0259803183498c",
+ "pillar": "WARM",
+ "rank": 2,
+ "state": "in_review",
+ "state_reason": null,
+ "approval_status": "pending",
+ "manifest_hash": "fcccb2a8a4a30394aae6f1bbe8fc88e52ae8a75dfd7385c7ae22f055f0a03ca9",
+ "approved_by": null,
+ "approved_at": null,
+ "created_at": "2026-10-24 17:52:44.614957+00:00",
+ "supersedes_id": "pack_663b63b298bec4ca50465b5d",
+ "run_id": "pack_run_663b63b298bec4ca50465b5d",
+ "run_active": false,
+ "pieces": [
+  {
+   "key": "email",
+   "channel": "email",
+   "label": "Email",
+   "kind": null,
+   "ordinal": 1,
+   "origin": "finished",
+   "not_written_reason": null,
+   "brief_key": "email",
+   "content": {
+    "cta": "none",
+    "job": "Standalone written email telling the full exchange and its meaning. No offer or reply prompt; proposed send details require WIA confirmation and publication clearance.",
+    "body": "I invited specific changes.\n\nI also told them that if they decided they didn't want to use the ads at all, there'd be no hard feelings.\n\nA revision was available. So was choosing not to use those particular ads.\n\n**Our work on an ad shouldn't create an obligation for you to approve it.**\n\nWhen you hire an advertising team, you're bringing in people with expertise and the capacity to do work you'd otherwise be handling. But you're still the person whose wedding business is being represented to couples.\n\nYou can appreciate what the team has contributed and have reservations about the proposed creative. Both can be true in the same conversation.\n\nThe owner's reaction gives us something real to respond to, and there should be room for an answer to remain undecided.\n\nCreative review should give the owner a meaningful role in choosing what represents the business. That means being able to request a change, but also being able to decide that a draft isn't the direction they want.\n\nThe fact that someone has already made it shouldn't make that answer harder to give.",
+    "ending": "You know your brand better than anyone. Expert help with your ads should make it easier to say what you really think about a draft, long before anyone decides whether it goes live.\n\nTalk soon,\nWhitney",
+    "opening": "Hi {{contact.first_name}},\n\nWe'd sent a client some new ads for review. When we talked, they told me they didn't think they loved them, and that they hadn't finalized anything yet. Their answer should be a genuine choice.",
+    "preview": "The work behind a new ad shouldn't decide your answer for you.",
+    "register": "written",
+    "send_header": {
+     "date": "Next available Tuesday after approval and clearance, proposed for WIA to confirm.",
+     "send_time": "10:00 a.m. Central Time, proposed for WIA to confirm.",
+     "recipients": "WIA prospect email list, proposed for WIA to confirm."
+    },
+    "subject_options": [
+     "Can I say no to an ad my agency made?",
+     "You don't owe your ad team a yes",
+     "Your ad feedback can include a no"
+    ],
+    "offer_descriptor": null
+   },
+   "brief_copy": {
+    "cta": "none",
+    "job": "Standalone written email telling the full exchange and its meaning. No offer or reply prompt; proposed send details require WIA confirmation and publication clearance.",
+    "body": "I invited specific changes.\n\nI also told them that if they decided they didn't want to use the ads at all, there'd be no hard feelings.\n\nA revision was available. So was choosing not to use those particular ads.\n\n**Our work on an ad shouldn't create an obligation for you to approve it.**\n\nWhen you hire an advertising team, you're bringing in people with expertise and the capacity to do work you'd otherwise be handling. But you're still the person whose wedding business is being represented to couples.\n\nYou can appreciate what the team has contributed and have reservations about the proposed creative. Both can be true in the same conversation.\n\nThe owner's reaction gives us something real to respond to, and there should be room for an answer to remain undecided.\n\nCreative review should give the owner a meaningful role in choosing what represents the business. That means being able to request a change, but also being able to decide that a draft isn't the direction they want.\n\nThe fact that someone has already made it shouldn't make that answer harder to give.",
+    "ending": "For a wedding business owner who knows their brand well, I'd want expert advertising help to leave space for that judgment. Being able to speak honestly about a proposed ad matters to the working relationship, even before a decision is made about using it.\n\nTalk soon,\nWhitney",
+    "opening": "Hi {{contact.first_name}},\n\nWe'd sent a client some new ads for review. When we talked, they told me they didn't think they loved them, and that they hadn't finalized anything yet. Their answer should be a genuine choice.",
+    "preview": "Hiring an advertising team should leave room for your judgment about what represents your business.",
+    "register": "written",
+    "send_header": {
+     "date": "Next available Tuesday after approval and clearance, proposed for WIA to confirm.",
+     "send_time": "10:00 a.m. Central Time, proposed for WIA to confirm.",
+     "recipients": "WIA prospect email list, proposed for WIA to confirm."
+    },
+    "subject_options": [
+     "Can I say no to an ad my agency made?",
+     "Your ad feedback can include a no"
+    ],
+    "offer_descriptor": null
+   },
+   "locks": [
+    {
+     "at": "2026-10-24T16:08:55.168916+00:00",
+     "path": "body",
+     "author": "ai@weddingindustryads.com",
+     "origin": "gate_two",
+     "delegated": true
+    },
+    {
+     "at": "2026-10-24T16:08:55.168916+00:00",
+     "path": "opening",
+     "author": "ai@weddingindustryads.com",
+     "origin": "gate_two",
+     "delegated": true
+    }
+   ],
+   "findings": [],
+   "changes": [
+    {
+     "kind": "finished",
+     "path": "subject_options[1]",
+     "after": "You don't owe your ad team a yes",
+     "before": "Your ad feedback can include a no"
+    },
+    {
+     "kind": "finished",
+     "path": "subject_options[2]",
+     "after": "Your ad feedback can include a no",
+     "before": null
+    },
+    {
+     "kind": "finished",
+     "path": "preview",
+     "after": "The work behind a new ad shouldn't decide your answer for you.",
+     "before": "Hiring an advertising team should leave room for your judgment about what represents your business."
+    },
+    {
+     "kind": "finished",
+     "path": "ending",
+     "after": "You know your brand better than anyone. Expert help with your ads should make it easier to say what you really think about a draft, long before anyone decides whether it goes live.\n\nTalk soon,\nWhitney",
+     "before": "For a wedding business owner who knows their brand well, I'd want expert advertising help to leave space for that judgment. Being able to speak honestly about a proposed ad matters to the working relationship, even before a decision is made about using it.\n\nTalk soon,\nWhitney"
+    }
+   ],
+   "published": [],
+   "content_hash": "1dffe5a9669b2fae8f07773df0ac56f44839b605a11b04096a670880f0e7f66f",
+   "editable": [
+    "send_header",
+    "subject_options",
+    "preview",
+    "opening",
+    "body",
+    "ending"
+   ]
+  },
+  {
+   "key": "carousel",
+   "channel": "carousel",
+   "label": "Carousel",
+   "kind": null,
+   "ordinal": 2,
+   "origin": "finished",
+   "not_written_reason": null,
+   "brief_key": "carousel",
+   "content": {
+    "cta": "none",
+    "job": "Seven-slide written carousel. Go deeper into what makes approval meaningful, using the exchange across slides 2 to 4. Close inclusively for management and guided-support readers without an offer CTA.",
+    "title": "Your say in a new ad should include the option to decline it.",
+    "slides": [
+     {
+      "job": "State the promise as an insight about the owner's role in creative approval.",
+      "text": "Your say in a new ad should include the option to decline it.\n\nWhen your ad team sends creative for review,\n**a no should be as easy to give as a yes.**\nEven when the team has already made it.",
+      "number": 1
+     },
+     {
+      "job": "Begin the story with the team's contribution, without inventing production details.",
+      "text": "We'd sent new ads for review.\n\nOur team had made the proposed creative for a client's Meta campaigns.\nWe sent it over and checked in on our call to hear what they thought.",
+      "number": 2
+     },
+     {
+      "job": "Preserve the tentative nature of the client's response.",
+      "text": "Their first reaction was honest.\n\n\"I don't think that I love them.\"\nThey also said they hadn't finished reviewing them yet.\nSo this was a starting point, not a final answer.",
+      "number": 3
+     },
+     {
+      "job": "Show Whitney's response, keeping both available options and their actor intact.",
+      "text": "Whitney gave them room for either answer.\n\nShe invited specific edits.\nShe also said that if they'd rather not use those ads, that was fine, with no hard feelings either way.",
+      "number": 4
+     },
+     {
+      "job": "Connect the exchange to the established owner's situation.",
+      "text": "You might recognize the pull here.\n\nSomeone put time into the ad.\nSaying you don't love it can feel unkind.\nSo you approve it and move on, even when it's not how you want couples to see you.",
+      "number": 5
+     },
+     {
+      "job": "State the belief without claiming a documented across-client policy.",
+      "text": "The effort behind an ad doesn't decide whether it runs.\n\nYou know your venue, your style and your couples.\nThat judgment belongs in the review, alongside our expertise.\nA draft is an offer, and you choose what to do with it.",
+      "number": 6
+     },
+     {
+      "job": "Close on the relationship both management and guided-support readers would want, with no explicit ask.",
+      "text": "**We believe your approval is yours to give, never something we're owed.**\n\nWe can respect the work our team puts in and still want your candid answer.\nApproval only counts when declining was possible.",
+      "number": 7
+     },
+     {
+      "job": "",
+      "text": "Whether we manage your ads for you, or we launch your campaigns, then guide you while you run them, the same honesty applies.\n\nThe business is yours.\nThe final say on what couples see should be too.",
+      "number": 8
+     }
+    ],
+    "caption": {
+     "body": "When you've built a wedding business you're proud of, you notice everything. The photo that doesn't capture your space. The headline that sounds a little generic. The tone that's close to you, but off. And when that shows up in a new ad your team made, it's easy to talk yourself out of saying anything.\n\nA client recently told us they weren't sure they loved some new ads we'd made, and that they hadn't finished their review. I welcomed specific edits and made it clear that not using those ads was a fine answer too.\n\nOur effort on a draft doesn't turn your approval into an obligation. That holds whether we're managing your campaigns or guiding you while you handle your own.\n\nWhen you can be candid, reviews stop feeling like a test of politeness. You end up with creative you genuinely want in front of couples, and we get feedback we can actually work with.",
+     "hook": "How easy is it to tell your ad team the truth about a draft?",
+     "ending": "-Whitney"
+    },
+    "register": "written",
+    "no_offer_ending": null,
+    "offer_descriptor": null
+   },
+   "brief_copy": {
+    "cta": "none",
+    "job": "Seven-slide written carousel. Go deeper into what makes approval meaningful, using the exchange across slides 2 to 4. Close inclusively for management and guided-support readers without an offer CTA.",
+    "title": "Your say in a new ad should include the option to decline it.",
+    "slides": [
+     {
+      "job": "State the promise as an insight about the owner's role in creative approval.",
+      "text": "Your say in a new ad should include the option to decline it.\n\nWhen an advertising team asks you to review its work, your answer should be a genuine choice. Knowing the team has already spent time making the ad shouldn't settle that choice for you.",
+      "number": 1
+     },
+     {
+      "job": "Begin the story with the team's contribution, without inventing production details.",
+      "text": "We'd sent new ads for review.\n\nOur team had made the proposed creative. When we've made a draft, the work we've contributed meets the owner's judgment about what they want representing their business.",
+      "number": 2
+     },
+     {
+      "job": "Preserve the tentative nature of the client's response.",
+      "text": "An answer can remain undecided.\n\nAn owner can have an initial reaction without having finished reviewing an ad. That gives us an honest starting point for the conversation, rather than a settled decision about whether that ad will be used.",
+      "number": 3
+     },
+     {
+      "job": "Show Whitney's response, keeping both available options and their actor intact.",
+      "text": "Whitney gave room for either response.\n\nShe invited specific edits. She also said the ads could go unused, without making that a personal issue. Revising the work was available, but it wasn't the only answer she offered.",
+      "number": 4
+     },
+     {
+      "job": "Connect the exchange to the established owner's situation.",
+      "text": "You can value an agency's expertise and still have a different reaction to a draft.\n\nFor a wedding business, that draft is something couples may see as a representation of you. It makes sense for your perspective to remain part of the decision, even when someone else is doing the advertising work.",
+      "number": 5
+     },
+     {
+      "job": "State the belief without claiming a documented across-client policy.",
+      "text": "We believe approval should mean the owner is comfortable choosing the ad.\n\nThe effort behind a draft deserves respect, but it doesn't decide whether that draft should be used. A useful creative conversation can hold both things: the team's contribution and the client's freedom to give a candid answer.",
+      "number": 6
+     },
+     {
+      "job": "Close on the relationship both management and guided-support readers would want, with no explicit ask.",
+      "text": "Different levels of advertising support can leave room for the same honesty.\n\nThat matters whether you want a team managing your campaigns or expert guidance while you run them. The business is still yours. We'd want the conversation to make space for your judgment, including when a particular ad isn't one you want to put forward.",
+      "number": 7
+     }
+    ],
+    "caption": {
+     "body": "You may want to hand over campaign management, or stay involved in running your ads with expert support. Either way, it matters that you can give a direct answer when something is ready for review.\n\nAn owner who knows their wedding business well brings context about how they want couples to see it. That perspective can sit alongside the advertising team's expertise without every draft receiving an automatic yes.\n\nWhen we share proposed creative, we can leave open both the possibility of adjustments and the possibility of not using it.\n\nWork has been contributed, but the conversation can still allow a choice about what happens next.\n\nFor us, that is a useful way to think about creative approval: the owner's reaction belongs in the decision, rather than being something to smooth over so the draft can move forward.",
+     "hook": "Choosing an advertising partner also means choosing how feedback will feel.",
+     "ending": "A working relationship should have enough room for a client to be honest without turning that honesty into a disagreement about the team's effort."
+    },
+    "register": "written",
+    "no_offer_ending": null,
+    "offer_descriptor": null
+   },
+   "locks": [
+    {
+     "at": "2026-10-24T17:52:49.348541+00:00",
+     "path": "caption.body",
+     "author": "ai@weddingindustryads.com",
+     "origin": "pack",
+     "delegated": true
+    }
+   ],
+   "findings": [],
+   "changes": [
+    {
+     "kind": "finished",
+     "path": "slides[0].text",
+     "after": "Your say in a new ad should include the option to decline it.\n\nWhen your ad team sends creative for review,\n**a no should be as easy to give as a yes.**\nEven when the team has already made it.",
+     "before": "Your say in a new ad should include the option to decline it.\n\nWhen an advertising team asks you to review its work, your answer should be a genuine choice. Knowing the team has already spent time making the ad shouldn't settle that choice for you."
+    },
+    {
+     "kind": "finished",
+     "path": "slides[1].text",
+     "after": "We'd sent new ads for review.\n\nOur team had made the proposed creative for a client's Meta campaigns.\nWe sent it over and checked in on our call to hear what they thought.",
+     "before": "We'd sent new ads for review.\n\nOur team had made the proposed creative. When we've made a draft, the work we've contributed meets the owner's judgment about what they want representing their business."
+    },
+    {
+     "kind": "finished",
+     "path": "slides[2].text",
+     "after": "Their first reaction was honest.\n\n\"I don't think that I love them.\"\nThey also said they hadn't finished reviewing them yet.\nSo this was a starting point, not a final answer.",
+     "before": "An answer can remain undecided.\n\nAn owner can have an initial reaction without having finished reviewing an ad. That gives us an honest starting point for the conversation, rather than a settled decision about whether that ad will be used."
+    },
+    {
+     "kind": "finished",
+     "path": "slides[3].text",
+     "after": "Whitney gave them room for either answer.\n\nShe invited specific edits.\nShe also said that if they'd rather not use those ads, that was fine, with no hard feelings either way.",
+     "before": "Whitney gave room for either response.\n\nShe invited specific edits. She also said the ads could go unused, without making that a personal issue. Revising the work was available, but it wasn't the only answer she offered."
+    },
+    {
+     "kind": "finished",
+     "path": "slides[4].text",
+     "after": "You might recognize the pull here.\n\nSomeone put time into the ad.\nSaying you don't love it can feel unkind.\nSo you approve it and move on, even when it's not how you want couples to see you.",
+     "before": "You can value an agency's expertise and still have a different reaction to a draft.\n\nFor a wedding business, that draft is something couples may see as a representation of you. It makes sense for your perspective to remain part of the decision, even when someone else is doing the advertising work."
+    },
+    {
+     "kind": "finished",
+     "path": "slides[5].text",
+     "after": "The effort behind an ad doesn't decide whether it runs.\n\nYou know your venue, your style and your couples.\nThat judgment belongs in the review, alongside our expertise.\nA draft is an offer, and you choose what to do with it.",
+     "before": "We believe approval should mean the owner is comfortable choosing the ad.\n\nThe effort behind a draft deserves respect, but it doesn't decide whether that draft should be used. A useful creative conversation can hold both things: the team's contribution and the client's freedom to give a candid answer."
+    },
+    {
+     "kind": "finished",
+     "path": "slides[6].text",
+     "after": "**We believe your approval is yours to give, never something we're owed.**\n\nWe can respect the work our team puts in and still want your candid answer.\nApproval only counts when declining was possible.",
+     "before": "Different levels of advertising support can leave room for the same honesty.\n\nThat matters whether you want a team managing your campaigns or expert guidance while you run them. The business is still yours. We'd want the conversation to make space for your judgment, including when a particular ad isn't one you want to put forward."
+    },
+    {
+     "kind": "finished",
+     "path": "slides[7].text",
+     "after": "Whether we manage your ads for you, or we launch your campaigns, then guide you while you run them, the same honesty applies.\n\nThe business is yours.\nThe final say on what couples see should be too.",
+     "before": null
+    },
+    {
+     "kind": "finished",
+     "path": "caption.hook",
+     "after": "How easy is it to tell your ad team the truth about a draft?",
+     "before": "Choosing an advertising partner also means choosing how feedback will feel."
+    },
+    {
+     "kind": "finished",
+     "path": "caption.body",
+     "after": "When you've built a wedding business you're proud of, you notice everything. The photo that doesn't capture your space. The headline that sounds a little generic. The tone that's close to you, but off. And when that shows up in a new ad your team made, it's easy to talk yourself out of saying anything.\n\nA client recently had that kind of reaction to some new ads from us. They weren't sure they loved them, and they hadn't finished their review. I welcomed specific edits and made it clear that not using those ads was a fine answer too.\n\nOur effort on a draft doesn't turn your approval into an obligation. That holds whether we're managing your campaigns or guiding you while you handle your own.\n\nWhen you can be candid, reviews stop feeling like a test of politeness. You end up with creative you genuinely want in front of couples, and we get feedback we can actually work with.",
+     "before": "You may want to hand over campaign management, or stay involved in running your ads with expert support. Either way, it matters that you can give a direct answer when something is ready for review.\n\nAn owner who knows their wedding business well brings context about how they want couples to see it. That perspective can sit alongside the advertising team's expertise without every draft receiving an automatic yes.\n\nWhen we share proposed creative, we can leave open both the possibility of adjustments and the possibility of not using it.\n\nWork has been contributed, but the conversation can still allow a choice about what happens next.\n\nFor us, that is a useful way to think about creative approval: the owner's reaction belongs in the decision, rather than being something to smooth over so the draft can move forward."
+    },
+    {
+     "kind": "finished",
+     "path": "caption.ending",
+     "after": "-Whitney",
+     "before": "A working relationship should have enough room for a client to be honest without turning that honesty into a disagreement about the team's effort."
+    },
+    {
+     "kind": "edited",
+     "note": null,
+     "path": "caption.body",
+     "after": "When you've built a wedding business you're proud of, you notice everything. The photo that doesn't capture your space. The headline that sounds a little generic. The tone that's close to you, but off. And when that shows up in a new ad your team made, it's easy to talk yourself out of saying anything.\n\nA client recently told us they weren't sure they loved some new ads we'd made, and that they hadn't finished their review. I welcomed specific edits and made it clear that not using those ads was a fine answer too.\n\nOur effort on a draft doesn't turn your approval into an obligation. That holds whether we're managing your campaigns or guiding you while you handle your own.\n\nWhen you can be candid, reviews stop feeling like a test of politeness. You end up with creative you genuinely want in front of couples, and we get feedback we can actually work with.",
+     "before": "When you've built a wedding business you're proud of, you notice everything. The photo that doesn't capture your space. The headline that sounds a little generic. The tone that's close to you, but off. And when that shows up in a new ad your team made, it's easy to talk yourself out of saying anything.\n\nA client recently had that kind of reaction to some new ads from us. They weren't sure they loved them, and they hadn't finished their review. I welcomed specific edits and made it clear that not using those ads was a fine answer too.\n\nOur effort on a draft doesn't turn your approval into an obligation. That holds whether we're managing your campaigns or guiding you while you handle your own.\n\nWhen you can be candid, reviews stop feeling like a test of politeness. You end up with creative you genuinely want in front of couples, and we get feedback we can actually work with."
+    }
+   ],
+   "published": [],
+   "content_hash": "dbf4b6fe405b59f1506e7ae6e1a21b4b0b17f13a16071a6d9f8be9b0d93f2e7f",
+   "editable": [
+    "title",
+    "slides",
+    "caption",
+    "no_offer_ending"
+   ]
+  },
+  {
+   "key": "reel_1",
+   "channel": "reel",
+   "label": "Reel 1",
+   "kind": "story",
+   "ordinal": 3,
+   "origin": "finished",
+   "not_written_reason": null,
+   "brief_key": "reel_1",
+   "content": {
+    "cta": "none",
+    "job": "Shows an owner, through one real exchange, that they can be honest about a new ad their team made without owing it an approval.",
+    "kind": "story",
+    "beats": [
+     "Open on the owner's experience of giving candid feedback after the team has done the work.",
+     "Tell the single exchange and keep the client's tentative reaction tentative.",
+     "Credit Whitney with offering edits or non-use.",
+     "Close on honest creative review as part of the partnership, without an ask."
+    ],
+    "title": "The new ads a client didn't love",
+    "script": "How would you feel telling your advertising team you didn't love an ad they'd already made?\n\nWe recently sent a client some new ads, and they told me they didn't think they loved them. When we send new ads for review, there are a couple of options. If there are specific changes you want, you can tell us. But you can also decide we don't use those ads at all.\n\nWe've done the work. That doesn't mean you owe us an approval.\n\nWhen you know your wedding business well, you have a perspective on how you want it shown to couples. Bringing in an advertising team should leave room for that perspective.\n\nBeing able to have that conversation matters. You can appreciate the effort someone has put into an ad and still decide it isn't one you want to use. There should be room to say that without feeling like you're letting the team down.",
+    "source": "new_script",
+    "caption": {
+     "body": "You know your wedding business better than anyone. You know how you want couples to feel when they come across it, whether that's in a Google search, on your website or scrolling Instagram late at night.\n\nSo when your ad team sends over new creative and something feels off, it can be awkward to say so. They've put time into it. You don't want to seem difficult. You might just sign off to keep things moving.\n\nNot long ago, our team sent a client new Meta ads to review. On our call, they said they weren't sure they loved them and hadn't finished looking yet.\n\nI told them specific edits were welcome, and that leaving those ads unused was an option too, with no hard feelings.\n\nIt was a small moment, but it says a lot about how a partnership should work. The effort we put into a draft is ours to give. Your approval is yours to decide.\n\nWhen you can be that honest with the people helping with your ads, reviews get lighter. You stop approving things out of politeness, and what reaches couples is something you actually want representing your business.",
+     "hook": "Honest feedback on a finished ad is harder to give than it should be.",
+     "ending": "-Whitney"
+    },
+    "screens": null,
+    "register": "spoken",
+    "cover_text": "Telling your ad team you don't love an ad",
+    "on_screen_hook": "Your ad team made new ads. Do you have to approve them?",
+    "personal_lines": [],
+    "spoken_opening": "How would you feel telling your advertising team you didn't love an ad they'd already made?",
+    "no_offer_ending": null,
+    "cover_alternates": [
+     "Saying no to an ad we made",
+     "Your ad review can end in a no"
+    ],
+    "offer_descriptor": null,
+    "read_time_seconds": 62
+   },
+   "brief_copy": {
+    "cta": "none",
+    "job": "New face-to-camera story. Tell the exchange without implying a final rejection. Use two Reels for this narrow moment; a third would repeat the same response without adding a distinct door.",
+    "kind": "story",
+    "beats": [
+     "Open on the owner's experience of giving candid feedback after the team has done the work.",
+     "Tell the single exchange and preserve the client's tentative wording.",
+     "Credit Whitney with offering edits or non-use.",
+     "Close on honest creative review as part of the partnership, without an ask."
+    ],
+    "title": "Telling your ad team you don't love an ad",
+    "script": "How would you feel telling your advertising team you didn't love an ad they'd already made?\n\nWe recently sent a client some new ads, and they told me they didn't think they loved them. When we send new ads for review, there are a couple of options. If there are specific changes you want, you can tell us. But you can also decide we don't use those ads at all.\n\nWe've done the work. That doesn't mean you owe us an approval.\n\nWhen you know your wedding business well, you have a perspective on how you want it shown to couples. Bringing in an advertising team should leave room for that perspective.\n\nBeing able to have that conversation matters. You can appreciate the effort someone has put into an ad and still decide it isn't one you want to use. There should be room to say that without feeling like you're letting the team down.",
+    "source": "new_script",
+    "caption": {
+     "body": "You know how you want your wedding business represented to couples. Hiring an advertising team gives you expertise and help with the work, while your perspective on the business still deserves a place in the conversation.\n\nThat can feel especially important when you're reviewing something the team has already made. You can appreciate their effort without being ready to put your name behind the ad.\n\nI welcome feedback on changes an owner would like to see, and also make clear that leaving those particular ads unused is an option.\n\nI see that choice as an important part of working together. A review has more meaning when the person reviewing can give an answer other than approval.\n\nFor an owner who knows their brand well, expert support should make it easier to have that conversation. The relationship can hold both appreciation for the work and an honest decision about whether a proposed ad belongs in it.",
+     "hook": "There's room for respect and disagreement in a creative review.",
+     "ending": "-Whitney"
+    },
+    "screens": null,
+    "register": "spoken",
+    "cover_text": "Telling your ad team you don't love an ad",
+    "on_screen_hook": "Can you be candid about a new ad?",
+    "personal_lines": [],
+    "spoken_opening": "How would you feel telling your advertising team you didn't love an ad they'd already made?",
+    "no_offer_ending": null,
+    "cover_alternates": [],
+    "offer_descriptor": null,
+    "read_time_seconds": 78
+   },
+   "locks": [
+    {
+     "at": "2026-10-24T17:18:01.777162+00:00",
+     "path": "script",
+     "author": "ai@weddingindustryads.com",
+     "origin": "gate_two",
+     "delegated": true
+    }
+   ],
+   "findings": [
+    {
+     "finding_id": "check_6ca5ccc207f1baa8",
+     "source": "check",
+     "check": "copy.kicker",
+     "piece": "reel_1",
+     "path": "caption.body",
+     "sentence": null,
+     "severity": "warning",
+     "message": "Reel 1's caption body closes on an aphoristic kicker (\"You don't want to seem difficult. You might just sign off to keep things moving.\"): end on the story or the plain principle",
+     "status": "open",
+     "resolution": null,
+     "can_attest": false
+    },
+    {
+     "finding_id": "check_114ccbf8300c9580",
+     "source": "check",
+     "check": "copy.sibling_overlap",
+     "piece": "reel_1",
+     "path": "caption.body",
+     "sentence": null,
+     "severity": "warning",
+     "message": "Reel 1's caption body and Reel 3's caption body repeat the same words (\"edits were welcome and that leaving those ads...\"): siblings repeat the idea, never the language",
+     "status": "open",
+     "resolution": null,
+     "can_attest": false
+    }
+   ],
+   "changes": [
+    {
+     "kind": "finished",
+     "path": "cover_alternates[0]",
+     "after": "Saying no to an ad we made",
+     "before": null
+    },
+    {
+     "kind": "finished",
+     "path": "cover_alternates[1]",
+     "after": "Your ad review can end in a no",
+     "before": null
+    },
+    {
+     "kind": "finished",
+     "path": "on_screen_hook",
+     "after": "Your ad team made new ads. Do you have to approve them?",
+     "before": "Can you be candid about a new ad?"
+    },
+    {
+     "kind": "finished",
+     "path": "caption.hook",
+     "after": "Honest feedback on a finished ad is harder to give than it should be.",
+     "before": "There's room for respect and disagreement in a creative review."
+    },
+    {
+     "kind": "finished",
+     "path": "caption.body",
+     "after": "You know your wedding business better than anyone. You know how you want couples to feel when they come across it, whether that's in a Google search, on your website or scrolling Instagram late at night.\n\nSo when your ad team sends over new creative and something feels off, it can be awkward to say so. They've put time into it. You don't want to seem difficult. You might just sign off to keep things moving.\n\nNot long ago, our team sent a client new Meta ads to review. On our call, they said they weren't sure they loved them and hadn't finished looking yet.\n\nI told them specific edits were welcome, and that leaving those ads unused was an option too, with no hard feelings.\n\nIt was a small moment, but it says a lot about how a partnership should work. The effort we put into a draft is ours to give. Your approval is yours to decide.\n\nWhen you can be that honest with the people helping with your ads, reviews get lighter. You stop approving things out of politeness, and what reaches couples is something you actually want representing your business.",
+     "before": "You know how you want your wedding business represented to couples. Hiring an advertising team gives you expertise and help with the work, while your perspective on the business still deserves a place in the conversation.\n\nThat can feel especially important when you're reviewing something the team has already made. You can appreciate their effort without being ready to put your name behind the ad.\n\nI welcome feedback on changes an owner would like to see, and also make clear that leaving those particular ads unused is an option.\n\nI see that choice as an important part of working together. A review has more meaning when the person reviewing can give an answer other than approval.\n\nFor an owner who knows their brand well, expert support should make it easier to have that conversation. The relationship can hold both appreciation for the work and an honest decision about whether a proposed ad belongs in it."
+    }
+   ],
+   "published": [],
+   "content_hash": "e59719d1420cf226aa0351645aac49166ff676ee737084df2ec06f9f7f1c1d6c",
+   "editable": [
+    "title",
+    "cover_text",
+    "cover_alternates",
+    "on_screen_hook",
+    "spoken_opening",
+    "script",
+    "screens",
+    "caption",
+    "personal_lines",
+    "no_offer_ending"
+   ]
+  },
+  {
+   "key": "reel_2",
+   "channel": "reel",
+   "label": "Reel 2",
+   "kind": "stance",
+   "ordinal": 4,
+   "origin": "written",
+   "not_written_reason": null,
+   "brief_key": null,
+   "content": {
+    "cta": "none",
+    "job": "Says Whitney's stance face to camera: the work behind a new ad never turns a client's approval into something WIA is owed.",
+    "kind": "stance",
+    "beats": [
+     "State the stance: effort on an ad never buys a client's yes.",
+     "Name the pull an owner feels when the team has already made the creative.",
+     "Hand the judgment back to the owner who knows how the business should look to couples.",
+     "The moment as proof in two lines: a tentative reaction, Whitney offering edits or non-use.",
+     "Close on the honest working relationship, without an ask."
+    ],
+    "title": "Your yes isn't owed",
+    "script": "I don't think the work we put into an ad should ever buy us a yes from a client.\n\nHere's what I mean. When you hire a team to run your ads, part of what you're hiring us for is making the creative and sending it over for review. And I get why that can make a no feel rude. Someone sat down and made this thing for you, right?\n\nBut you're the one who knows how your venue, your photography or your planning business should look to couples. That call belongs to you.\n\nThis came up with a client recently. They weren't sure they loved a few new ads we'd sent, and they hadn't finished reviewing them. I told them edits were welcome, and if they'd rather not use them, that's completely fine. No hard feelings.\n\nHonestly, I'd rather hear that than get a polite approval on an ad you don't love. Your yes only means something when a no was a real option.\n\nThat's the kind of working relationship I think every owner deserves with their ad team: one where you can simply tell us what you think.",
+    "source": "new_script",
+    "caption": {
+     "body": "You open the email, look at the new ad your team created, and something isn't quite right. Maybe the photo isn't the moment you'd choose to show couples. Maybe the words don't sound like the way you talk on a tour or a consultation call. But the team has already done the work, and you'd rather not make things awkward, so you think about approving it anyway.\n\nI believe the effort behind an ad should never turn approval into an obligation.\n\nWhen a client recently told me they weren't sure they loved some new ads we'd sent, and that they hadn't finished reviewing them, I said two things. Send any specific edits you'd like. And if you'd rather not use those ads, that's fine too.\n\nThat's how I want every creative review to feel for the owner on the other side of it. Your perspective on your brand is the reason the review exists in the first place.\n\nWhen declining is genuinely on the table, saying yes means something. You approve the ads you actually want couples to see, and the conversation about your business gets more honest.",
+     "hook": "There's a quiet pressure that comes with reviewing work someone made for you.",
+     "ending": "-Whitney"
+    },
+    "screens": null,
+    "register": "spoken",
+    "cover_text": "Making your ad doesn't earn us your yes",
+    "on_screen_hook": "Should the work behind an ad earn your agency a yes?",
+    "personal_lines": [
+     "And I get why that can make a no feel rude.",
+     "Honestly, I'd rather hear that than get a polite approval on an ad you don't love."
+    ],
+    "spoken_opening": "I don't think the work we put into an ad should ever buy us a yes from a client.",
+    "no_offer_ending": null,
+    "cover_alternates": [
+     "Your ad team's effort isn't your approval",
+     "A no on a new ad should be easy to say"
+    ],
+    "offer_descriptor": null,
+    "read_time_seconds": 72
+   },
+   "brief_copy": null,
+   "locks": [],
+   "findings": [
+    {
+     "finding_id": "check_7b34f8f3a8137dc7",
+     "source": "check",
+     "check": "copy.sibling_overlap",
+     "piece": "reel_2",
+     "path": "caption.body",
+     "sentence": null,
+     "severity": "warning",
+     "message": "Reel 2's caption body and the carousel's caption body repeat the same words (\"they weren't sure they loved some new ads...\"): siblings repeat the idea, never the language",
+     "status": "open",
+     "resolution": null,
+     "can_attest": false
+    }
+   ],
+   "changes": [
+    {
+     "kind": "written",
+     "note": "Written by the finisher: the brief had no face to camera (stance) Reel",
+     "path": "*"
+    }
+   ],
+   "published": [],
+   "content_hash": "f012d5322a2b3e6bbaf1c8ef9968ea9dcfa7e0d4c9d52cd66ce12eec390e1f0b",
+   "editable": [
+    "title",
+    "cover_text",
+    "cover_alternates",
+    "on_screen_hook",
+    "spoken_opening",
+    "script",
+    "screens",
+    "caption",
+    "personal_lines",
+    "no_offer_ending"
+   ]
+  },
+  {
+   "key": "reel_3",
+   "channel": "reel",
+   "label": "Reel 3",
+   "kind": "broll_text",
+   "ordinal": 5,
+   "origin": "finished",
+   "not_written_reason": null,
+   "brief_key": "reel_2",
+   "content": {
+    "cta": "none",
+    "job": "Lets a cold viewer follow the turn in three screens: a client unsure about new ads, Whitney offering edits or non-use, and what that means about approval.",
+    "kind": "broll_text",
+    "beats": [
+     "Screen 1: Establish the proposed ads and the client's tentative reaction.",
+     "Screen 2: Keep Whitney credited for the response.",
+     "Screen 3: State the meaning of that response, without implying an eventual decision."
+    ],
+    "title": "The option to pass",
+    "script": null,
+    "source": "new_script",
+    "caption": {
+     "body": "You've spent years shaping how couples see your wedding business: the photos you choose, the words on your website, the way you reply to a new inquiry. So when fresh ads arrive for your review and one misses the mark, there's a real tension. The team has contributed its work, and you bring your judgment about how your business should appear to couples.\n\nOn a recent call, a client hadn't finished reviewing some new ads from us, and their first reaction was that they didn't think they loved them.\n\nI told them specific edits were welcome, and that leaving those ads unused was a perfectly good answer too.\n\nWe believe the work behind a draft is something we bring to the partnership, never a debt you settle with a yes. Your judgment about how your business shows up deserves the final word.\n\nWhen declining is genuinely possible, feedback gets easier to give. You can say what you'd change, or simply say a direction isn't for you, and the ads that run are ones you're glad to have out there.",
+     "hook": "It's surprisingly hard to tell someone their ad doesn't feel like you.",
+     "ending": "-Whitney"
+    },
+    "screens": [
+     "Our client wasn't sure they loved the new ads we'd made.",
+     "Whitney offered edits, or the option to not use them at all.",
+     "Making the ads didn't make approval something we were owed."
+    ],
+    "register": "on_screen",
+    "cover_text": "The option to pass on a new ad",
+    "on_screen_hook": "Our client wasn't sure they loved the new ads we'd made.",
+    "personal_lines": [],
+    "spoken_opening": null,
+    "no_offer_ending": null,
+    "cover_alternates": [
+     "When a client isn't sold on our new ads",
+     "A new ad you can still turn down"
+    ],
+    "offer_descriptor": null,
+    "read_time_seconds": 12
+   },
+   "brief_copy": {
+    "cta": "none",
+    "job": "Three-screen b-roll Reel showing the turn from a tentative client reaction to Whitney's response. Film neutral workday footage; do not use client ads, messages, accounts or identifying material.",
+    "kind": "broll_text",
+    "beats": [
+     "Establish the proposed ads.",
+     "Screen 2: Keep Whitney credited for the response.",
+     "Screen 3: State the meaning of that response, without implying an eventual decision."
+    ],
+    "title": "The option to pass on a new ad",
+    "script": null,
+    "source": "new_script",
+    "caption": {
+     "body": "When you bring in people to help advertise your wedding business, you're choosing their expertise. You're also entering a working relationship where you need to be able to speak plainly about what feels right for your brand.\n\nA proposed ad can be the place where those two things meet. The team has contributed its work, and you bring your judgment about how your business should appear to couples.\n\nWhitney made room for revisions without making revisions the only acceptable route. Choosing not to move ahead with those particular drafts was also an option.\n\nThat response matters because feedback becomes more useful when agreement isn't the assumed destination. An owner can explain what they'd prefer, or simply be honest that a proposed direction isn't one they want to use.\n\nWe believe a partnership should be able to accommodate that answer while keeping respect for both the owner's perspective and the team's contribution.",
+     "hook": "An ad review should leave space for an answer the agency didn't expect.",
+     "ending": "The relationship we'd want is one where candor belongs in the review, even when the team has already invested effort."
+    },
+    "screens": [
+     "New ads we'd made were still a choice.",
+     "Whitney welcomed changes, or the choice to leave those ads unused.",
+     "The work was already done. Approval still wasn't an obligation."
+    ],
+    "register": "on_screen",
+    "cover_text": "The option to pass on a new ad",
+    "on_screen_hook": "New ads we'd made were still a choice.",
+    "personal_lines": [],
+    "spoken_opening": null,
+    "no_offer_ending": null,
+    "cover_alternates": [],
+    "offer_descriptor": null,
+    "read_time_seconds": 18
+   },
+   "locks": [],
+   "findings": [],
+   "changes": [
+    {
+     "kind": "finished",
+     "path": "cover_alternates[0]",
+     "after": "When a client isn't sold on our new ads",
+     "before": null
+    },
+    {
+     "kind": "finished",
+     "path": "cover_alternates[1]",
+     "after": "A new ad you can still turn down",
+     "before": null
+    },
+    {
+     "kind": "finished",
+     "path": "on_screen_hook",
+     "after": "Our client wasn't sure they loved the new ads we'd made.",
+     "before": "New ads we'd made were still a choice."
+    },
+    {
+     "kind": "finished",
+     "path": "screens[0]",
+     "after": "Our client wasn't sure they loved the new ads we'd made.",
+     "before": "New ads we'd made were still a choice."
+    },
+    {
+     "kind": "finished",
+     "path": "screens[1]",
+     "after": "Whitney offered edits, or the option to not use them at all.",
+     "before": "Whitney welcomed changes, or the choice to leave those ads unused."
+    },
+    {
+     "kind": "finished",
+     "path": "screens[2]",
+     "after": "Making the ads didn't make approval something we were owed.",
+     "before": "The work was already done. Approval still wasn't an obligation."
+    },
+    {
+     "kind": "finished",
+     "path": "caption.hook",
+     "after": "It's surprisingly hard to tell someone their ad doesn't feel like you.",
+     "before": "An ad review should leave space for an answer the agency didn't expect."
+    },
+    {
+     "kind": "finished",
+     "path": "caption.body",
+     "after": "You've spent years shaping how couples see your wedding business: the photos you choose, the words on your website, the way you reply to a new inquiry. So when fresh ads arrive for your review and one misses the mark, there's a real tension. The team has put effort in, and you want to be easy to work with.\n\nThat tension came up on a recent call. A client hadn't finished reviewing some new ads from us, and their first reaction was that they didn't think they loved them.\n\nI told them specific edits were welcome, and that leaving those ads unused was a perfectly good answer too.\n\nWe believe the work behind a draft is something we bring to the partnership, never a debt you settle with a yes. Your judgment about how your business shows up deserves the final word.\n\nWhen declining is genuinely possible, feedback gets easier to give. You can say what you'd change, or simply say a direction isn't for you, and the ads that run are ones you're glad to have out there.",
+     "before": "When you bring in people to help advertise your wedding business, you're choosing their expertise. You're also entering a working relationship where you need to be able to speak plainly about what feels right for your brand.\n\nA proposed ad can be the place where those two things meet. The team has contributed its work, and you bring your judgment about how your business should appear to couples.\n\nWhitney made room for revisions without making revisions the only acceptable route. Choosing not to move ahead with those particular drafts was also an option.\n\nThat response matters because feedback becomes more useful when agreement isn't the assumed destination. An owner can explain what they'd prefer, or simply be honest that a proposed direction isn't one they want to use.\n\nWe believe a partnership should be able to accommodate that answer while keeping respect for both the owner's perspective and the team's contribution."
+    },
+    {
+     "kind": "finished",
+     "path": "caption.ending",
+     "after": "-Whitney",
+     "before": "The relationship we'd want is one where candor belongs in the review, even when the team has already invested effort."
+    },
+    {
+     "kind": "repaired",
+     "path": "caption.body",
+     "after": "You've spent years shaping how couples see your wedding business: the photos you choose, the words on your website, the way you reply to a new inquiry. So when fresh ads arrive for your review and one misses the mark, there's a real tension. The team has put effort in, and you want to be easy to work with.\n\nOn a recent call, a client hadn't finished reviewing some new ads from us, and their first reaction was that they didn't think they loved them.\n\nI told them specific edits were welcome, and that leaving those ads unused was a perfectly good answer too.\n\nWe believe the work behind a draft is something we bring to the partnership, never a debt you settle with a yes. Your judgment about how your business shows up deserves the final word.\n\nWhen declining is genuinely possible, feedback gets easier to give. You can say what you'd change, or simply say a direction isn't for you, and the ads that run are ones you're glad to have out there.",
+     "before": "You've spent years shaping how couples see your wedding business: the photos you choose, the words on your website, the way you reply to a new inquiry. So when fresh ads arrive for your review and one misses the mark, there's a real tension. The team has put effort in, and you want to be easy to work with.\n\nThat tension came up on a recent call. A client hadn't finished reviewing some new ads from us, and their first reaction was that they didn't think they loved them.\n\nI told them specific edits were welcome, and that leaving those ads unused was a perfectly good answer too.\n\nWe believe the work behind a draft is something we bring to the partnership, never a debt you settle with a yes. Your judgment about how your business shows up deserves the final word.\n\nWhen declining is genuinely possible, feedback gets easier to give. You can say what you'd change, or simply say a direction isn't for you, and the ads that run are ones you're glad to have out there."
+    },
+    {
+     "kind": "put_back",
+     "note": "The fidelity check's flag survived the repair; the brief's sentence is put back",
+     "path": "caption.body",
+     "after": "The team has contributed its work, and you bring your judgment about how your business should appear to couples.",
+     "before": "The team has put effort in, and you want to be easy to work with."
+    }
+   ],
+   "published": [],
+   "content_hash": "ae39b742ed2d7f0ee9a35cf2502f71ed64b070511a551d59cf39dae95dbc174e",
+   "editable": [
+    "title",
+    "cover_text",
+    "cover_alternates",
+    "on_screen_hook",
+    "spoken_opening",
+    "script",
+    "screens",
+    "caption",
+    "personal_lines",
+    "no_offer_ending"
+   ]
+  }
+ ],
+ "findings": [],
+ "ready_blockers": [],
+ "before_publishing": [
+  {
+   "id": "P1",
+   "done": null,
+   "kind": "permission",
+   "text": "Obtain the client's permission to publish their anonymous creative-review situation and exact words. Confirm source-use and attribution clearance for both call quotations, including Whitney's quotation retained in the email. Keep the client's situation and quotation out of public copy until clearance is recorded.",
+   "answer": "Before posting: WIA confirms the client's okay",
+   "required": true,
+   "client_permission": true
+  },
+  {
+   "id": "P2",
+   "done": null,
+   "kind": "fact",
+   "text": "Check whether the matching creative-approval argument in prior_coverage was published within the last 90 days. If it was, hold this pack rather than replacing the approved point.",
+   "answer": "Checked under D12 by the WIA team: the matching prior-coverage entries are unpublished cards from this cycle; no published piece links to them.",
+   "required": true,
+   "client_permission": false
+  },
+  {
+   "id": "P3",
+   "done": null,
+   "kind": "fact",
+   "text": "Whitney to confirm the belief-level wording about creative approval, including the carousel's relevance to both management and guided support. The exchange is not presented as proof of an across-client policy.",
+   "answer": "Confirmed under D12 by the WIA team: the copy states WIA's belief about creative approval and does not present this exchange as an across-client policy.",
+   "required": true,
+   "client_permission": false
+  },
+  {
+   "id": "P4",
+   "done": null,
+   "kind": "cta",
+   "text": "Confirm no explicit ask for the Instagram assets and email at Gate 2.",
+   "answer": "Confirmed under D12: no explicit ask on the Instagram pieces or the email.",
+   "required": true,
+   "client_permission": false
+  },
+  {
+   "id": "P5",
+   "done": null,
+   "kind": "do_not_claim",
+   "text": "Keep the business unnamed. Do not add performance claims, imply the ads were poor, state that the client ultimately declined them, or use the ambiguously attributed quick-review line.",
+   "answer": "Kept out under D12: the business stays unnamed; no performance claim, no suggestion the ads were poor, no claim the client declined them, and the quick-review line is not used.",
+   "required": true,
+   "client_permission": false
+  }
+ ],
+ "client_quotes": [
+  {
+   "piece": "carousel",
+   "quote": "I don't think that I love them.",
+   "cleared": null,
+   "speaker": "The client (call participant shown as Steve's iPhone, 15 October 2026, 1:33)",
+   "quote_id": "Q1",
+   "evidence_id": "ev_a4d08605e8691f0838a00c45"
+  }
+ ],
+ "stronger_with_permission": [
+  "Saying that the client's other ads were already running in the account, so there was no urgency to approve the new ones, would show why the choice was real, but it is kept out as a performance claim."
+ ],
+ "pack_notes": [
+  "The locked email opening and the locked Reel 1 script share the span \"they told me they didn't think they loved them\"; both are locked, so WIA may want to vary one at the gate.",
+  "The call record refers to the client as \"he\"; the copy uses \"they\" throughout to keep the client anonymous.",
+  "The carousel slide 2 and the Reel 1 caption say the ads were for Meta, taken from Whitney's own words on the call (1:14); cut \"Meta\" if WIA prefers the platform unnamed.",
+  "The carousel quotes the client word for word on slide 3; confirm the client's okay under P1 or switch slide 3 to reported speech.",
+  "Reel 2's line about wanting this working relationship for \"every owner\" is stated as Whitney's belief, not as an across-client policy; confirm it sits within P3."
+ ],
+ "change_notes": [
+  "Email: kept the locked opening and body exactly; replaced the subject options with three reader-question lines that name the ad; rewrote the preview so it finishes the thought without sharing wording with Reel 1; tightened the ending into one warm closing paragraph with no ask.",
+  "Reel 1: kept the locked script exactly; replaced the vague on-screen hook with one that names the ads and the approval question; added cover alternates; rewrote the caption into hook, the reader's world, the story as proof, and transformation, with a -Whitney sign-off; corrected the read time to the script's length.",
+  "Reel 2 (missing): wrote a stance Reel on the same central point, with the moment as proof in two lines, spoken register, no ask, and the two reaction lines listed in personal_lines.",
+  "Reel 3: rewrote the three screens so a cold viewer follows the client's reaction, Whitney's response and the meaning; made the on-screen hook specific; rewrote the caption in first person with the wedding-specific reader's world and a -Whitney sign-off.",
+  "Carousel: rewrote denser slides into stacked short lines; added the client's quotable words on slide 3, the reader's pull on slide 5 and a separate reframe slide; turned the belief slide into a bold \"We believe\" line; closed for both management and guided readers using approved descriptor wording, with no offer named or asked for; rewrote the caption to follow the framework.",
+  "Across the pack: removed shared six-word spans between pieces, kept every CTA as none, kept the business unnamed, and left out the performance and urgency details under P5."
+ ],
+ "fidelity": {
+  "open": 0,
+  "flags": [
+   {
+    "why": "The sources give no sign the client felt tension about the team's effort or about being easy to work with, so this adds a motive.",
+    "path": "caption.body",
+    "text": "That tension came up on a recent call.",
+    "piece": "reel_3",
+    "source": "",
+    "verdict": "unsupported"
+   }
+  ],
+  "checked": 25,
+  "repairs": [
+   {
+    "new": "On a recent call, a client hadn't finished reviewing some new ads from us,",
+    "old": "That tension came up on a recent call. A client hadn't finished reviewing some new ads from us,",
+    "path": "caption.body",
+    "piece": "reel_3"
+   }
+  ],
+  "settled": [
+   {
+    "why": "Attributes a feeling or motive (wanting to be easy to work with) to owners; this is general framing but asserts the client's motive not in sources.",
+    "path": "caption.body",
+    "text": "The team has put effort in, and you want to be easy to work with.",
+    "piece": "reel_3",
+    "source": "",
+    "outcome": "put_back",
+    "verdict": "unsupported"
+   }
+  ],
+  "put_back": 1,
+  "rechecked": 5,
+  "survivors": [
+   {
+    "why": "Attributes a feeling or motive (wanting to be easy to work with) to owners; this is general framing but asserts the client's motive not in sources.",
+    "path": "caption.body",
+    "text": "The team has put effort in, and you want to be easy to work with.",
+    "piece": "reel_3",
+    "source": "",
+    "verdict": "unsupported"
+   }
+  ],
+  "check_called": true,
+  "recheck_flags": [
+   {
+    "why": "Attributes a feeling or motive (wanting to be easy to work with) to owners; this is general framing but asserts the client's motive not in sources.",
+    "path": "caption.body",
+    "text": "The team has put effort in, and you want to be easy to work with.",
+    "piece": "reel_3",
+    "source": "",
+    "verdict": "unsupported"
+   }
+  ],
+  "repair_called": true,
+  "missed_patches": [],
+  "recheck_called": true,
+  "finisher_called": true
+ },
+ "provenance": {
+  "mode": "replay",
+  "models": {
+   "writer": "anthropic/claude-opus-5.5",
+   "reviewer": "anthropic/claude-sonnet-5.5"
+  },
+  "run_id": "pack_run_663b63b298bec4ca50465b5d",
+  "brief_id": "brief_3eae6bc167cb4ad491d1542255ac9cc2",
+  "profiles": {
+   "pack_check": "2026-10-25.pack-check.v1",
+   "pack_finish": "2026-10-25.pack-finish.v1",
+   "pack_repair": "2026-10-25.pack-repair.v1",
+   "pack_recheck": "2026-10-25.pack-check.v1"
+  },
+  "approved_by": "ai@weddingindustryads.com",
+  "finish_mode": "finish",
+  "brief_schema": "brief_document_v4",
+  "approved_hash": "5a278a0ba8b204ea012ced4194022f24873f18de424acc693ee73da7d206c9ee",
+  "handoff_version": "brief_handoff_v2",
+  "approval_delegated": true,
+  "knowledge_base_version": "wia-kb-2026-10-22.c-a1a75795"
+ },
+ "change": {
+  "at": "2026-10-24T17:52:55.036018+00:00",
+  "by": "ai@weddingindustryads.com",
+  "kind": "edit",
+  "note": null,
+  "paths": [
+   "caption.body"
+  ],
+  "pieces": [
+   "carousel"
+  ],
+  "delegated": true
+ },
+ "versions": [
+  {
+   "pack_id": "pack_116f4ac998084ef5b30abe4f",
+   "supersedes_id": null,
+   "manifest_hash": null,
+   "approval_status": "pending",
+   "created_at": "2026-10-24 16:50:34.029947+00:00",
+   "run_id": "pack_run_116f4ac998084ef5b30abe4f",
+   "kind": "finishing",
+   "by": "ai@weddingindustryads.com",
+   "delegated": false,
+   "pieces": [],
+   "paths": [],
+   "note": null
+  },
+  {
+   "pack_id": "pack_663b63b298bec4ca50465b5d",
+   "supersedes_id": "pack_116f4ac998084ef5b30abe4f",
+   "manifest_hash": "1931278b93830da20413e002e0d735d3abf1eaa79ed121d64826f9adc8085f83",
+   "approval_status": "pending",
+   "created_at": "2026-10-24 17:29:18.668025+00:00",
+   "run_id": "pack_run_663b63b298bec4ca50465b5d",
+   "kind": "finish_again",
+   "by": "content-pack step",
+   "delegated": false,
+   "pieces": [],
+   "paths": [],
+   "note": null
+  },
+  {
+   "pack_id": "pack_2795c2aa99c740bc86e40ed310531e91",
+   "supersedes_id": "pack_663b63b298bec4ca50465b5d",
+   "manifest_hash": "fcccb2a8a4a30394aae6f1bbe8fc88e52ae8a75dfd7385c7ae22f055f0a03ca9",
+   "approval_status": "pending",
+   "created_at": "2026-10-24 17:52:44.614957+00:00",
+   "run_id": "pack_run_663b63b298bec4ca50465b5d",
+   "kind": "edit",
+   "by": "ai@weddingindustryads.com",
+   "delegated": true,
+   "pieces": [
+    "carousel"
+   ],
+   "paths": [
+    "caption.body"
+   ],
+   "note": null
+  }
+ ],
+ "approval_delegated": true,
+ "can_edit": true,
+ "can_decide": true,
+ "can_finish_again": true,
+ "can_mark_published": true
+}

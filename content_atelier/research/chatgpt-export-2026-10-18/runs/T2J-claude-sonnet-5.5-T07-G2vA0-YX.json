@@ -1,0 +1,23 @@
+{
+ "meta": {
+  "run_id": "T2J-claude-sonnet-5.5-T07-G2vA0-YX",
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 904,
+  "completion_tokens": 479,
+  "cached_tokens": 0,
+  "cost": 0.006598,
+  "seconds": 4.5,
+  "finish": "stop",
+  "system_sha": "5374112cdde3",
+  "user_sha": "acc99054c0d4"
+ },
+ "output": null,
+ "content": "The reference keeps the user's first three lines verbatim, changes the \"falling short\" line to \"missing out on ready-to-book, high-intent leads,\" and keeps the \"hard truth\" structure with the point that couples are searching and finding competitors first, including less qualified ones.\n\nCandidate A keeps the three lines verbatim and the \"hard truth\" framing. It drops \"ideal\" and says \"none of that matters,\" which is harsher than the reference. Its core claim, that lesser vendors win bookings because they show up first, closely matches the reference's \"less qualified ones are winning bookings.\" It is short and punchy, and it needs few edits, mainly to add the high-intent leads language.\n\nCandidate B changes the user's third line (\"creative who makes wedding day magic\"), which is Whitney's own wording. It drops the \"hard truth\" section entirely and adds a softer, more pitchy Google Ads paragraph that wasn't requested. That is a bigger departure in both substance and voice, and it ignores the \"don't inflate my ego\" push for blunt feedback. It would need many edits.\n\nA is clearly closer.\n\n{\"winner\": \"A\", \"edits_needed_A\": \"few\", \"edits_needed_B\": \"many\", \"reason\": \"A keeps Whitney's lines and the blunt 'hard truth' point that lesser competitors win bookings by being found first, matching the reference. B rewrites her third line, drops the hard-truth section, and adds an unrequested soft Google Ads pitch.\"}",
+ "request": {
+  "system": "You compare two draft pieces of marketing copy for Wedding Industry Ads (WIA), a wedding-industry advertising agency. You are given the request, the version WIA's co-founder Whitney actually approved or wrote (the reference), and two candidate drafts. Decide which candidate would need fewer and smaller edits to become something Whitney would approve. Judge substance first (what is claimed, for whom, how WIA is positioned, accuracy, whether her own wording was kept where she supplied it), then voice. Do not reward length, and do not require the candidate to copy the reference wording.\n\nReturn only JSON: {\"winner\": \"A\" or \"B\" or \"tie\", \"edits_needed_A\": \"few\", \"edits_needed_B\": \"many\", \"reason\": \"one or two sentences\"} where edits_needed values are none, few, some or many.",
+  "user": "Request:\nThoughts on the following? And don't just inflate my ego. You need to help me reach my ultimate potential\n\nYou’re the venue couples dream about.\nYou’re the planner who overdelivers.\nYou’re the creative who makes wedding day magic.\n\nBut if ideal couples can't find you on Google, you're falling short of your true potential.\n\nHere’s the hard truth you may not want to hear:\n\nYour strongest competitors are booking couples who would have been perfect for you because the clients found them on Google first.\n\nReference (what Whitney approved):\nYou’re the venue couples dream about.\nYou’re the planner who overdelivers.\nYou’re the creative who makes wedding day magic.\n\nBut if ideal couples can’t find you on Google, you’re missing out on ready-to-book, high-intent leads.\n\nHere’s the hard truth you may not want to hear:\nCouples are searching. And they’re finding your competitors first.\nEven the less qualified ones are winning bookings...simply because they’re easier to find.\n\nCandidate A:\nYou’re the venue couples dream about.  \nYou’re the planner who overdelivers.  \nYou’re the creative who makes wedding day magic.\n\nBut if couples can’t find you on Google, none of that matters.\n\nHere’s the hard truth:\n\nVendors who aren’t as good as you are getting booked — simply because they showed up first in the search.\n\nCandidate B:\nYou’re the venue couples dream about.\nYou’re the planner who overdelivers.\nYou’re the creative whose work gets remembered long after the wedding.\n\nBut if ideal couples can’t find you on Google, they may never know you’re an option.\n\nWhen a couple searches for a venue or wedding pro, the businesses they find have an opportunity to earn their inquiry. Yours deserves to be part of that decision.\n\nThat’s where we focus with Google Ads: building on your existing marketing to put your business in front of couples actively searching for what you offer, with a clear reason to inquire.",
+  "cache_prefix_sha": "5374112cdde3"
+ }
+}

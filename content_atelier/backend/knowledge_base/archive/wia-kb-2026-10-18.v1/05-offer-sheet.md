@@ -1,0 +1,7 @@
+- ELEVATE: full-service Google and Meta ads management, including funnels, landing pages, automations and LeadLock. For established owners, ideally those unhappy with a current agency. Waitlist only.
+- Ads Accelerators (Google Search Accelerator, Meta Ads Accelerator): WIA builds the first campaigns with the owner, then teaches them to manage the ads themselves. Not a course. Includes access to the VAULT.
+- The VAULT: trainings, live workshops and weekly Google and Meta office hours for Accelerator members.
+- LeadLock: WIA's inquiry management and follow-up system; one component of ELEVATE, also sold separately.
+- Google Ads audit: a one-time diagnostic call with Carmen.
+- Visibility Blueprint: a free masterclass.
+- WIA is an ads agency. It does not handle all of a client's marketing.

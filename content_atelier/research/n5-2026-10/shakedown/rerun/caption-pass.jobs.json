@@ -1,0 +1,32 @@
+[
+ {
+  "stage": "pack_repair",
+  "status": "completed",
+  "message": "6 repairs applied, 2 not found"
+ },
+ {
+  "stage": "pack_recheck",
+  "status": "completed",
+  "message": "15 flags remain for finalize"
+ },
+ {
+  "stage": "pack_finalize",
+  "status": "failed",
+  "message": "Failed"
+ },
+ {
+  "stage": "pack_assemble",
+  "status": "completed",
+  "message": "Assembled 5 of 5 pieces from the approved brief"
+ },
+ {
+  "stage": "pack_check",
+  "status": "completed",
+  "message": "33 of 44 statements flagged"
+ },
+ {
+  "stage": "pack_caption",
+  "status": "completed",
+  "message": "Finished the copy"
+ }
+]

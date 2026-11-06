@@ -1,0 +1,186 @@
+{
+  "verified_at_utc": "2026-10-15T05:27:29.392143+00:00",
+  "status": "independent_verification_passed",
+  "transcripts": 170,
+  "chunks": 2657,
+  "verified_embeddings": 2657,
+  "week_count": 20,
+  "weekly_counts": [
+    {
+      "week_id": "week_2026-06-01",
+      "transcripts": 9,
+      "chunks": 136,
+      "embedded": 136
+    },
+    {
+      "week_id": "week_2026-06-08",
+      "transcripts": 11,
+      "chunks": 193,
+      "embedded": 193
+    },
+    {
+      "week_id": "week_2026-06-15",
+      "transcripts": 5,
+      "chunks": 67,
+      "embedded": 67
+    },
+    {
+      "week_id": "week_2026-06-22",
+      "transcripts": 6,
+      "chunks": 97,
+      "embedded": 97
+    },
+    {
+      "week_id": "week_2026-06-29",
+      "transcripts": 6,
+      "chunks": 74,
+      "embedded": 74
+    },
+    {
+      "week_id": "week_2026-07-06",
+      "transcripts": 6,
+      "chunks": 80,
+      "embedded": 80
+    },
+    {
+      "week_id": "week_2026-07-13",
+      "transcripts": 11,
+      "chunks": 158,
+      "embedded": 158
+    },
+    {
+      "week_id": "week_2026-07-20",
+      "transcripts": 10,
+      "chunks": 210,
+      "embedded": 210
+    },
+    {
+      "week_id": "week_2026-07-27",
+      "transcripts": 5,
+      "chunks": 86,
+      "embedded": 86
+    },
+    {
+      "week_id": "week_2026-08-03",
+      "transcripts": 6,
+      "chunks": 86,
+      "embedded": 86
+    },
+    {
+      "week_id": "week_2026-08-10",
+      "transcripts": 1,
+      "chunks": 9,
+      "embedded": 9
+    },
+    {
+      "week_id": "week_2026-08-17",
+      "transcripts": 8,
+      "chunks": 132,
+      "embedded": 132
+    },
+    {
+      "week_id": "week_2026-08-24",
+      "transcripts": 12,
+      "chunks": 192,
+      "embedded": 192
+    },
+    {
+      "week_id": "week_2026-08-31",
+      "transcripts": 13,
+      "chunks": 288,
+      "embedded": 288
+    },
+    {
+      "week_id": "week_2026-09-07",
+      "transcripts": 10,
+      "chunks": 134,
+      "embedded": 134
+    },
+    {
+      "week_id": "week_2026-09-14",
+      "transcripts": 14,
+      "chunks": 220,
+      "embedded": 220
+    },
+    {
+      "week_id": "week_2026-09-21",
+      "transcripts": 11,
+      "chunks": 123,
+      "embedded": 123
+    },
+    {
+      "week_id": "week_2026-09-28",
+      "transcripts": 8,
+      "chunks": 91,
+      "embedded": 91
+    },
+    {
+      "week_id": "week_2026-10-05",
+      "transcripts": 13,
+      "chunks": 201,
+      "embedded": 201
+    },
+    {
+      "week_id": "week_2026-10-12",
+      "transcripts": 5,
+      "chunks": 80,
+      "embedded": 80
+    }
+  ],
+  "original_disk_files_unchanged": 170,
+  "source_archive_hashes_verified": 170,
+  "native_fathom_sources": 6,
+  "provider_receipts_verified": 93,
+  "new_receipts": 81,
+  "new_embedding_prompt_tokens": 1489486,
+  "new_embedding_provider_reported_cost_usd": 0.02978972,
+  "protected_counts": {
+    "key_moments": 14,
+    "content_angles": 13,
+    "content_briefs": 2
+  },
+  "protected_baseline_unchanged": true,
+  "persistent_external_switches_disabled": true,
+  "active_jobs": 0,
+  "new_job_stages": [
+    {
+      "stage": "source_admission",
+      "count": 18
+    },
+    {
+      "stage": "transcript_chunk_preparation",
+      "count": 18
+    },
+    {
+      "stage": "transcript_chunk_embedding",
+      "count": 18
+    }
+  ],
+  "encoding_jobs": [
+    {
+      "stage": "transcript_chunk_embedding",
+      "status": "completed",
+      "count": 20
+    }
+  ],
+  "schema": {
+    "tables": 13,
+    "vectors": [
+      {
+        "table_name": "content_angles",
+        "attname": "embedding",
+        "type": "vector(1536)"
+      },
+      {
+        "table_name": "transcript_chunks",
+        "attname": "embedding",
+        "type": "vector(1536)"
+      }
+    ],
+    "schema_sha256": "1f89fa2894074cd6c54b51083e6c775a76ac1e1f59341d3b3f2fbefbb25fc6bb",
+    "foreign_keys": 30,
+    "checks": 18
+  },
+  "generation_calls": 0,
+  "operation_artifacts": "verification/transcript-backfill/86ee6c99550f3dd7cf9081340535525ac696a30edfe49a8d78728ebaa3a9dbf7"
+}

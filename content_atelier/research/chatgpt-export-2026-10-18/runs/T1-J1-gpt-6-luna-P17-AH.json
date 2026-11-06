@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J1-gpt-6-luna-P17-AH",
+  "model": "openai/gpt-6-luna",
+  "provider": "OpenAI",
+  "effort": null,
+  "prompt_tokens": 9928,
+  "completion_tokens": 151,
+  "cached_tokens": 9834,
+  "cost": 0.000185515,
+  "seconds": 2.8,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "64a422a3c268"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 5,
+  "reason": "It makes the distinction between ad performance and the ability to measure it with Whitney’s measured, strategic clarity."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: carousel\n\nVersion A:\nThe problem wasn't that the ads weren't working.\nThe problem was...\nNo conversion tracking.\nNo reliable attribution.\nNo way to measure what her investment was producing.\n\nVersion B:\nThe problem wasn't necessarily that the ads weren't working.\nThe problem was that there wasn't the right tracking in place to show whether they were generating inquiries or bookings.\nBeyond clicks, there was no way to measure the return on her investment.",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

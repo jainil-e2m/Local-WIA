@@ -1,0 +1,3 @@
+## Published pieces WIA confirmed (newest first; do not repeat a central point published in the last 90 days)
+- 2026-08-18 Instagram Reel, carousel, captions; email: 10-week case study: Reel "What would happen if your wedding business didn't post on Instagram for the next 10 weeks?"; carousel "You don't need another reminder to 'show up consistently.'"; captions "There's a difference between wanting to do less marketing…" and "'I couldn't do it all.'"; email "She didn't post on Instagram for 10 weeks"
+- 2026-08-03 Instagram DMs: New welcome DM: "This is Whitney. (Real human, not a bot 😂)… What brought you to our page?" (outcome: Multi-message replies within 48 hours)

@@ -1,0 +1,448 @@
+{
+  "$defs": {
+    "Claim": {
+      "additionalProperties": false,
+      "properties": {
+        "claim": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Claim",
+          "type": "string"
+        },
+        "state": {
+          "enum": [
+            "spoken_view",
+            "proposed_action",
+            "reported_action",
+            "reported_result",
+            "expressed_understanding",
+            "brand_perspective",
+            "editorial_inference"
+          ],
+          "title": "State",
+          "type": "string"
+        },
+        "source_refs": {
+          "items": {
+            "minLength": 1,
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "title": "Source Refs",
+          "type": "array"
+        },
+        "knowledge_refs": {
+          "items": {
+            "minLength": 1,
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "title": "Knowledge Refs",
+          "type": "array"
+        }
+      },
+      "required": [
+        "claim",
+        "state",
+        "source_refs",
+        "knowledge_refs"
+      ],
+      "title": "Claim",
+      "type": "object"
+    },
+    "Contribution": {
+      "additionalProperties": false,
+      "properties": {
+        "speaker_label": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Speaker Label",
+          "type": "string"
+        },
+        "contribution": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Contribution",
+          "type": "string"
+        },
+        "source_refs": {
+          "items": {
+            "minLength": 1,
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Source Refs",
+          "type": "array"
+        }
+      },
+      "required": [
+        "speaker_label",
+        "contribution",
+        "source_refs"
+      ],
+      "title": "Contribution",
+      "type": "object"
+    },
+    "HandbookMoment": {
+      "additionalProperties": false,
+      "properties": {
+        "local_key": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Local Key",
+          "type": "string"
+        },
+        "meeting_ref": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Meeting Ref",
+          "type": "string"
+        },
+        "anchor_refs": {
+          "items": {
+            "minLength": 1,
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Anchor Refs",
+          "type": "array"
+        },
+        "context_regions": {
+          "items": {
+            "$ref": "#/$defs/Region"
+          },
+          "minItems": 1,
+          "title": "Context Regions",
+          "type": "array"
+        },
+        "situation": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Situation",
+          "type": "string"
+        },
+        "source_proposition": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Source Proposition",
+          "type": "string"
+        },
+        "assertions": {
+          "items": {
+            "$ref": "#/$defs/Claim"
+          },
+          "minItems": 1,
+          "title": "Assertions",
+          "type": "array"
+        },
+        "contributions": {
+          "items": {
+            "$ref": "#/$defs/Contribution"
+          },
+          "title": "Contributions",
+          "type": "array"
+        },
+        "lenses": {
+          "items": {
+            "enum": [
+              "wia_expertise",
+              "process_collaboration",
+              "offer_value",
+              "audience_insight",
+              "proof_transformation"
+            ],
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Lenses",
+          "type": "array"
+        },
+        "strategic_significance": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Strategic Significance",
+          "type": "string"
+        },
+        "audience_relevance": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Audience Relevance",
+          "type": "string"
+        },
+        "possible_uses": {
+          "items": {
+            "enum": [
+              "public_candidate",
+              "internal_intelligence",
+              "evidence_needed"
+            ],
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Possible Uses",
+          "type": "array"
+        },
+        "retrieval_needs": {
+          "items": {
+            "$ref": "#/$defs/RetrievalNeed"
+          },
+          "title": "Retrieval Needs",
+          "type": "array"
+        },
+        "claim_boundaries": {
+          "items": {
+            "minLength": 1,
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "title": "Claim Boundaries",
+          "type": "array"
+        },
+        "shortlist_reason": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Shortlist Reason",
+          "type": "string"
+        }
+      },
+      "required": [
+        "local_key",
+        "meeting_ref",
+        "anchor_refs",
+        "context_regions",
+        "situation",
+        "source_proposition",
+        "assertions",
+        "contributions",
+        "lenses",
+        "strategic_significance",
+        "audience_relevance",
+        "possible_uses",
+        "retrieval_needs",
+        "claim_boundaries",
+        "shortlist_reason"
+      ],
+      "title": "HandbookMoment",
+      "type": "object"
+    },
+    "Recording": {
+      "additionalProperties": false,
+      "properties": {
+        "meeting_ref": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Meeting Ref",
+          "type": "string"
+        },
+        "source_id": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Source Id",
+          "type": "string"
+        },
+        "first_ref": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "First Ref",
+          "type": "string"
+        },
+        "last_ref": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Last Ref",
+          "type": "string"
+        },
+        "turn_count": {
+          "exclusiveMinimum": 0,
+          "title": "Turn Count",
+          "type": "integer"
+        },
+        "reviewed_extent": {
+          "enum": [
+            "all_supplied",
+            "partial_supplied",
+            "not_assessed"
+          ],
+          "title": "Reviewed Extent",
+          "type": "string"
+        },
+        "context": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Context",
+          "type": "string"
+        },
+        "speaker_ambiguities": {
+          "items": {
+            "minLength": 1,
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "title": "Speaker Ambiguities",
+          "type": "array"
+        },
+        "coverage_limitations": {
+          "items": {
+            "minLength": 1,
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "title": "Coverage Limitations",
+          "type": "array"
+        }
+      },
+      "required": [
+        "meeting_ref",
+        "source_id",
+        "first_ref",
+        "last_ref",
+        "turn_count",
+        "reviewed_extent",
+        "context",
+        "speaker_ambiguities",
+        "coverage_limitations"
+      ],
+      "title": "Recording",
+      "type": "object"
+    },
+    "Region": {
+      "additionalProperties": false,
+      "properties": {
+        "first_ref": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "First Ref",
+          "type": "string"
+        },
+        "last_ref": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Last Ref",
+          "type": "string"
+        }
+      },
+      "required": [
+        "first_ref",
+        "last_ref"
+      ],
+      "title": "Region",
+      "type": "object"
+    },
+    "RetrievalNeed": {
+      "additionalProperties": false,
+      "properties": {
+        "question": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Question",
+          "type": "string"
+        },
+        "known_refs": {
+          "items": {
+            "minLength": 1,
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "title": "Known Refs",
+          "type": "array"
+        },
+        "needed_segment_or_record": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Needed Segment Or Record",
+          "type": "string"
+        },
+        "resolution_condition": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Resolution Condition",
+          "type": "string"
+        }
+      },
+      "required": [
+        "question",
+        "known_refs",
+        "needed_segment_or_record",
+        "resolution_condition"
+      ],
+      "title": "RetrievalNeed",
+      "type": "object"
+    },
+    "SkippedMaterial": {
+      "additionalProperties": false,
+      "properties": {
+        "meeting_ref": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Meeting Ref",
+          "type": "string"
+        },
+        "source_refs": {
+          "items": {
+            "minLength": 1,
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "title": "Source Refs",
+          "type": "array"
+        },
+        "reason": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Reason",
+          "type": "string"
+        }
+      },
+      "required": [
+        "meeting_ref",
+        "source_refs",
+        "reason"
+      ],
+      "title": "SkippedMaterial",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "recordings": {
+      "items": {
+        "$ref": "#/$defs/Recording"
+      },
+      "title": "Recordings",
+      "type": "array"
+    },
+    "moments": {
+      "items": {
+        "$ref": "#/$defs/HandbookMoment"
+      },
+      "title": "Moments",
+      "type": "array"
+    },
+    "skipped_material": {
+      "items": {
+        "$ref": "#/$defs/SkippedMaterial"
+      },
+      "title": "Skipped Material",
+      "type": "array"
+    },
+    "input_limitations": {
+      "items": {
+        "minLength": 1,
+        "pattern": "\\S",
+        "type": "string"
+      },
+      "title": "Input Limitations",
+      "type": "array"
+    }
+  },
+  "required": [
+    "recordings",
+    "moments",
+    "skipped_material",
+    "input_limitations"
+  ],
+  "title": "HandbookMomentResponse",
+  "type": "object"
+}

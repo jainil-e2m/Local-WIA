@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J1-claude-haiku-5.5-P14-AH",
+  "model": "anthropic/claude-haiku-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 16358,
+  "completion_tokens": 468,
+  "cached_tokens": 15842,
+  "cost": 0.00044402,
+  "seconds": 3.1,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "f6dbf94a4b48"
+ },
+ "output": {
+  "choice": "A",
+  "confidence": 3,
+  "reason": "Version A reframes the gap with calmer, more strategic language and avoids B's hype ('biggest giveaway ever', 'very special') and its unfinished '[...]' placeholder, though both drafts are truncated."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: caption\n\nVersion A:\nAnd yet—this is where so many wedding pros get stuck.\n\nYou know ads could help you grow beyond referrals.\nYou’re not ready (or willing) to hand everything off blindly.\nDIY has gotten you *somewhere*… but not *forward*.\n\nThat gap—between guessing and scaling—is exactly why we built the **Ads Accelerator Giveaway**.\n\nWe’re gifting **one established wedding professional** our Ads Accelerator Bundle, including:\n\nVersion B:\nAnd yet—this is where so many wedding pros get stuck.\n\nYou know ads could help you grow beyond referrals.\nYou’re not ready (or willing) to hand everything off blindly.\nDIY isn't getting you where you want to go.\n\nThat gap (between guessing and scaling) is exactly why we built the Ads Accelerator Bundle.\n\nThis Valentine's Day, we’re gifting one established wedding professional a very special giveaway including:\n[...]\nPS - This is our biggest giveaway ever, and it would mean the world to us if you help us spread the word",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

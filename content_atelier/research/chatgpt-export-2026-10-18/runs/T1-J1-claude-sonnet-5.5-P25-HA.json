@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J1-claude-sonnet-5.5-P25-HA",
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 16252,
+  "completion_tokens": 117,
+  "cached_tokens": 15842,
+  "cost": 0.0035742,
+  "seconds": 1.7,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "394d0e7d4125"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 4,
+  "reason": "Version B is a complete, ready-to-send email in Whitney's voice (a reframe, calm confidence, systems and predictability, an invitation). Version A is a rough fragment labeled 'Email 1' that needs more work and also says running ads 'is doing more', which cuts against her message."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: email\n\nVersion A:\nEmail 1 - The reality is running ads is doing more. Being a client in the Accelerators does require work. It's just that that work is building an evergreen system, not the constant churn of new content\n\nVersion B:\nYou’re in.\n\nHere’s your access to *The Visibility Blueprint*:\n→ [Watch the training]\n\nBefore you press play, I want to offer a different lens:\n\nMost wedding pros don’t need more marketing.\n\nThey need **more control over how they’re seen**.\n\nThe ones who are growing right now aren’t doing more —  \nthey’re building systems that make their visibility *predictable*.\n\nThat’s what this training will show you.\n\nWatch it with this in mind:\n*Where could my current visibility become more intentional?*\n\n– Whitney",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

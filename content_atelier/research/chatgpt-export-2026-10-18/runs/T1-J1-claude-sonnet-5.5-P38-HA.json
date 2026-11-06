@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J1-claude-sonnet-5.5-P38-HA",
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 16107,
+  "completion_tokens": 550,
+  "cached_tokens": 15842,
+  "cost": 0.0076142,
+  "seconds": 5.8,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "e6f1a2b96569"
+ },
+ "output": {
+  "choice": "A",
+  "confidence": 3,
+  "reason": "A says concretely what the system does (instant reply, automated nurture sequence) and names the outcome (more consultations), while B's 'continues the conversation' is vaguer and implies a two-way exchange an automation doesn't have."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: landing\n\nVersion A:\n...instantly responds to every new inquiry through email and text, then continues an automated nurture sequence so more couples book consultations...\n\nVersion B:\n...automatically responds to every new inquiry through email and text, then continues the conversation... (AI floated 'continues the conversation')",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

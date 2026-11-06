@@ -1,0 +1,135 @@
+{
+  "purpose": "NP.X3 and NP-6 (D43g, revised by the owner on 24 October): N2's three briefs taken through Gate 2 by the WIA team under delegation (R55, D12). The team's Gate 2 points from research/n2-delivery-2026-10/readings.md are applied as edits by a named team actor; client-permission items are answered as before-publishing notes, never gates; brief 2's quotation of Whitney's own words cannot be cleared: its call carries the collector's public_use=false restriction, which no brief may override, so the team turned the quotation into reported speech in her voice at Gate 2. No client permission is ever invented. The same file is applied on scratch copy B (the paid proof) and on production, so the approved copy, and therefore the pack requests, are identical.",
+  "actor": "ai@weddingindustryads.com",
+  "author": "WIA team under delegation (D12)",
+  "client_okay": "Before posting: WIA confirms the client's okay",
+  "briefs": [
+    {
+      "label": "brief 1",
+      "brief_id": "brief_579f970d9210bc9be2cfbfde",
+      "edits": [],
+      "cta": "keep",
+      "answers": {
+        "P1": "client_okay",
+        "P2": "Confirmed under D12 by the WIA team: the copy states WIA's standard for a page we built, not a universal testing protocol.",
+        "P3": "Checked under D12 by the WIA team: the matching prior-coverage entries are unpublished cards from this cycle and earlier ones; no published piece links to them.",
+        "P4": "Kept out under D12: no conversion comparison, winner, test duration, traffic split, client reaction, completed revision or membership claim.",
+        "P5": "Confirmed under D12: the email reply CTA, with the proposed send date, time and list for WIA to confirm when scheduling; Instagram without an offer CTA."
+      },
+      "clearances": [],
+      "review_reason": "The WIA team checked every claim against the call under delegation (D12); no claim is changed."
+    },
+    {
+      "label": "brief 2",
+      "brief_id": "brief_b2ad696069930da13b4e2c4d",
+      "edits": [
+        {
+          "path": "supporting_example.scene",
+          "old": "We'd sent new ads for review. I welcomed specific edits and the choice not to use them.",
+          "new": "We'd sent new ads for review. The client told me they didn't think they loved them and hadn't finalized their review. I welcomed specific edits and the choice not to use them."
+        },
+        {
+          "path": "format_plan.email.opening",
+          "old": "We'd sent some new ads for review. The answer should be a genuine choice.",
+          "new": "We'd sent a client some new ads for review. When we talked, they told me they didn't think they loved them, and that they hadn't finalized anything yet. Their answer should be a genuine choice."
+        },
+        {
+          "path": "format_plan.reels[0].script",
+          "old": "When we send new ads for review, there are a couple of options.",
+          "new": "We recently sent a client some new ads, and they told me they didn't think they loved them. When we send new ads for review, there are a couple of options."
+        },
+        {
+          "path": "format_plan.email.body",
+          "old": "\"If you decide you don't want to use them at all, like no hard feelings there as well.\"",
+          "new": "I also told them that if they decided they didn't want to use the ads at all, there'd be no hard feelings."
+        }
+      ],
+      "cta": "keep",
+      "answers": {
+        "P1": "client_okay",
+        "P2": "Checked under D12 by the WIA team: the matching prior-coverage entries are unpublished cards from this cycle; no published piece links to them.",
+        "P3": "Confirmed under D12 by the WIA team: the copy states WIA's belief about creative approval and does not present this exchange as an across-client policy.",
+        "P4": "Confirmed under D12: no explicit ask on the Instagram pieces or the email.",
+        "P5": "Kept out under D12: the business stays unnamed; no performance claim, no suggestion the ads were poor, no claim the client declined them, and the quick-review line is not used."
+      },
+      "clearances": [],
+      "review_reason": "The WIA team checked every claim against the call under delegation (D12), including the client's reaction now told in reported speech."
+    },
+    {
+      "label": "brief 3",
+      "brief_id": "brief_57502d2280064c9564925d56",
+      "edits": [
+        {
+          "path": "supporting_example.scene",
+          "old": "The team member explained that couples had considered a nearby venue as well as theirs,",
+          "new": "The team member explained that some couples who had looked at a bigger venue had come to them instead,"
+        },
+        {
+          "path": "supporting_example.details[0]",
+          "old": "The client's team reported that couples had considered a nearby venue as well as theirs.",
+          "new": "The client's team reported that some couples who had looked at a bigger venue had come to them instead."
+        },
+        {
+          "path": "supporting_example.credits[1].did",
+          "old": "Reported the nearby venue comparison couples had described.",
+          "new": "Reported that some couples who had looked at a bigger venue had come to them instead."
+        },
+        {
+          "path": "supporting_example.timestamps[0]",
+          "old": "Erin reports that some couples had considered a nearby venue before considering theirs.",
+          "new": "a member of the client's team reports that some couples who looked at a bigger venue came to them instead."
+        },
+        {
+          "path": "format_plan.email.opening",
+          "old": "couples had considered a nearby venue before considering theirs.",
+          "new": "some couples who had looked at a bigger venue had come to them instead."
+        },
+        {
+          "path": "format_plan.reels[0].script",
+          "old": "And when a nearby venue came up, that team member explained that some couples had considered that place before considering theirs.",
+          "new": "And when a bigger venue came up, that team member explained that some couples who had looked at that venue had come to them instead."
+        },
+        {
+          "path": "format_plan.reels[0].caption.body",
+          "old": "A member of the client's team described a nearby venue that had also been on some couples' radar.",
+          "new": "A member of the client's team explained that some couples who had looked at a bigger venue had come to them instead."
+        },
+        {
+          "path": "format_plan.reels[1].caption.body",
+          "old": "heard from the client's team that couples had looked at a nearby venue before considering their own.",
+          "new": "heard from the client's team that some couples who had looked at a bigger venue had come to them instead."
+        },
+        {
+          "path": "format_plan.reels[1].screens[1]",
+          "old": "The client's team knew couples had considered one nearby venue as well as theirs.",
+          "new": "The client's team knew some couples had looked at a bigger venue, then came to them."
+        },
+        {
+          "path": "format_plan.carousel.slides[2].text",
+          "old": "For a nearby venue, the team member described couples who had considered that place before considering theirs.",
+          "new": "For one bigger venue, the team member said some couples who had looked at it had come to them instead."
+        },
+        {
+          "path": "format_plan.reels[0].cover_text",
+          "old": "A competing venue's search needed context",
+          "new": "Competitor searches in your Google Ads need your local knowledge"
+        },
+        {
+          "path": "format_plan.reels[1].cover_text",
+          "old": "Competing venues need local context",
+          "new": "Which competitor searches belong in your Google Ads"
+        }
+      ],
+      "cta": "keep",
+      "answers": {
+        "P1": "client_okay",
+        "P2": "Confirmed under D12 by the WIA team: she is described only as a member of the client's team, never by name or role.",
+        "P3": "Kept out under D12: Carmen's agreement stays a recommendation; no competitor names, locations, price comparisons, booking claims or Accelerator membership.",
+        "P4": "Confirmed under D12: the ADS and email-reply invitations, with the proposed timing, segment and send time for WIA to confirm when scheduling.",
+        "P5": "Checked under D12 by the WIA team: the prior angle is an unpublished card from this cycle; nothing with this central point was published."
+      },
+      "clearances": [],
+      "review_reason": "The WIA team checked every claim against the call under delegation (D12), with the comparison now told as the call states it."
+    }
+  ]
+}

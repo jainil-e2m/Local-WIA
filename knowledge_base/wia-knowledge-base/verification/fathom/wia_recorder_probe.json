@@ -1,0 +1,413 @@
+{
+  "review_date": "2026-10-19",
+  "started_at_utc": "2026-10-19T11:54:51.254Z",
+  "credential_present": true,
+  "credential_source": "frontend/.env:FATHOM_API_KEY",
+  "mode": "GET_only_no_callbacks_no_webhooks",
+  "limits": {
+    "meeting_pages": 20,
+    "content_samples": 3,
+    "sample_excerpt_characters": 420,
+    "summary_excerpt_characters": 1600
+  },
+  "calls": [
+    {
+      "label": "recorder_filter_hello@weddingindustryads.com",
+      "method": "GET",
+      "path": "/meetings",
+      "query": {
+        "recorded_by[]": "hello@weddingindustryads.com"
+      },
+      "http_status": 200,
+      "ok": true,
+      "top_level_keys": [
+        "items",
+        "limit",
+        "next_cursor"
+      ]
+    },
+    {
+      "label": "recorder_filter_gisselle@dotandcompany.co",
+      "method": "GET",
+      "path": "/meetings",
+      "query": {
+        "recorded_by[]": "gisselle@dotandcompany.co"
+      },
+      "http_status": 200,
+      "ok": true,
+      "top_level_keys": [
+        "items",
+        "limit",
+        "next_cursor"
+      ]
+    }
+  ],
+  "meetings": [],
+  "samples": [],
+  "observations": {},
+  "full_content_backfill": false,
+  "filter_checks": [
+    {
+      "recorded_by": "hello@weddingindustryads.com",
+      "returned_count": 4,
+      "next_cursor_present": false,
+      "meetings": [
+        {
+          "recording_id": 192191254,
+          "title": "Wedding Industry Ads X E2M AI Weekly Sync Calls",
+          "meeting_title": "Wedding Industry Ads X E2M AI Weekly Sync Calls",
+          "created_at": "2026-10-13T15:25:45Z",
+          "scheduled_start_time": "2026-10-13T14:45:00Z",
+          "scheduled_end_time": "2026-10-13T15:30:00Z",
+          "recording_start_time": "2026-10-13T14:49:20Z",
+          "recording_end_time": "2026-10-13T15:25:37Z",
+          "meeting_type": null,
+          "shared_with": "no_teams",
+          "transcript_language": "en",
+          "calendar_invitees_domains_type": "one_or_more_external",
+          "url": "https://fathom.video/calls/857377954",
+          "share_url": "https://fathom.video/share/v9E6zC1iAtRDz5Jd5Maz-UpuKHzqgVbJ",
+          "recorded_by": {
+            "name": "Jainil Trivedi",
+            "email": "jainil.trivedi@e2m.solutions",
+            "email_domain": "e2m.solutions",
+            "team": null
+          },
+          "calendar_invitees": [
+            {
+              "name": "Whitney Hodges",
+              "email": "hello@weddingindustryads.com",
+              "email_domain": "weddingindustryads.com",
+              "is_external": true,
+              "matched_speaker_display_name": null
+            },
+            {
+              "name": "gisselle@dotandcompany.co",
+              "email": "gisselle@dotandcompany.co",
+              "email_domain": "dotandcompany.co",
+              "is_external": true,
+              "matched_speaker_display_name": null
+            },
+            {
+              "name": "Asha Kumar",
+              "email": "asha.kumar@e2msolutions.com",
+              "email_domain": "e2msolutions.com",
+              "is_external": true,
+              "matched_speaker_display_name": null
+            },
+            {
+              "name": "Minu Bhatt",
+              "email": "minu.bhatt@e2msolutions.com",
+              "email_domain": "e2msolutions.com",
+              "is_external": true,
+              "matched_speaker_display_name": null
+            },
+            {
+              "name": "Kenil Shah",
+              "email": "kenil.shah@e2m.solutions",
+              "email_domain": "e2m.solutions",
+              "is_external": false,
+              "matched_speaker_display_name": null
+            },
+            {
+              "name": "Nandini Vithlani",
+              "email": "nandini.vithlani@e2m.solutions",
+              "email_domain": "e2m.solutions",
+              "is_external": false,
+              "matched_speaker_display_name": null
+            },
+            {
+              "name": "Jainil Trivedi",
+              "email": "jainil.trivedi@e2m.solutions",
+              "email_domain": "e2m.solutions",
+              "is_external": false,
+              "matched_speaker_display_name": null
+            }
+          ]
+        },
+        {
+          "recording_id": 186236649,
+          "title": "Impromptu Google Meet Meeting",
+          "meeting_title": "Impromptu Google Meet Meeting",
+          "created_at": "2026-09-24T09:21:31Z",
+          "scheduled_start_time": "2026-09-24T09:18:39Z",
+          "scheduled_end_time": "2026-09-24T09:33:39Z",
+          "recording_start_time": "2026-09-24T09:19:34Z",
+          "recording_end_time": "2026-09-24T09:21:22Z",
+          "meeting_type": null,
+          "shared_with": "no_teams",
+          "transcript_language": "unknown",
+          "calendar_invitees_domains_type": "one_or_more_external",
+          "url": "https://fathom.video/calls/836125863",
+          "share_url": "https://fathom.video/share/yD6sc8--vqUV1xMbN-R-vuo8hq5LRhit",
+          "recorded_by": {
+            "name": "Jainil Trivedi",
+            "email": "jainil.trivedi@e2m.solutions",
+            "email_domain": "e2m.solutions",
+            "team": null
+          },
+          "calendar_invitees": [
+            {
+              "name": "Jainil Trivedi",
+              "email": "jainil.trivedi@e2m.solutions",
+              "email_domain": "e2m.solutions",
+              "is_external": false,
+              "matched_speaker_display_name": null
+            }
+          ]
+        },
+        {
+          "recording_id": 186218372,
+          "title": "Impromptu Google Meet Meeting",
+          "meeting_title": "Impromptu Google Meet Meeting",
+          "created_at": "2026-09-24T08:13:21Z",
+          "scheduled_start_time": "2026-09-24T08:09:49Z",
+          "scheduled_end_time": "2026-09-24T08:24:49Z",
+          "recording_start_time": "2026-09-24T08:11:39Z",
+          "recording_end_time": "2026-09-24T08:13:12Z",
+          "meeting_type": null,
+          "shared_with": "no_teams",
+          "transcript_language": "unknown",
+          "calendar_invitees_domains_type": "one_or_more_external",
+          "url": "https://fathom.video/calls/836045614",
+          "share_url": "https://fathom.video/share/Y7xEKFc8n6_kv3RjTTEcvTr8dSw9Uh9z",
+          "recorded_by": {
+            "name": "Jainil Trivedi",
+            "email": "jainil.trivedi@e2m.solutions",
+            "email_domain": "e2m.solutions",
+            "team": null
+          },
+          "calendar_invitees": [
+            {
+              "name": "Jainil Trivedi",
+              "email": "jainil.trivedi@e2m.solutions",
+              "email_domain": "e2m.solutions",
+              "is_external": false,
+              "matched_speaker_display_name": null
+            }
+          ]
+        },
+        {
+          "recording_id": 186193499,
+          "title": "Fathom Demo",
+          "meeting_title": "Fathom Demo",
+          "created_at": "2026-09-24T06:23:25Z",
+          "scheduled_start_time": "2021-09-16T20:40:00Z",
+          "scheduled_end_time": "2021-09-16T21:00:00Z",
+          "recording_start_time": "2021-09-16T20:42:47Z",
+          "recording_end_time": "2026-09-24T06:23:25Z",
+          "meeting_type": null,
+          "shared_with": "no_teams",
+          "transcript_language": "unknown",
+          "calendar_invitees_domains_type": "only_internal",
+          "url": "https://fathom.video/calls/835900129",
+          "share_url": "https://fathom.video/share/S2UACRjiB6G1qs7a9zXDYzjahuQvsygX",
+          "recorded_by": {
+            "name": "Jainil Trivedi",
+            "email": "jainil.trivedi@e2m.solutions",
+            "email_domain": "e2m.solutions",
+            "team": null
+          },
+          "calendar_invitees": [
+            {
+              "name": "Susannah DuRant",
+              "email": "susannah.durant@fathom.video",
+              "email_domain": "fathom.video",
+              "is_external": false,
+              "matched_speaker_display_name": null
+            },
+            {
+              "name": "Jainil Trivedi",
+              "email": "jainil.trivedi@e2m.solutions",
+              "email_domain": "e2m.solutions",
+              "is_external": false,
+              "matched_speaker_display_name": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recorded_by": "gisselle@dotandcompany.co",
+      "returned_count": 4,
+      "next_cursor_present": false,
+      "meetings": [
+        {
+          "recording_id": 192191254,
+          "title": "Wedding Industry Ads X E2M AI Weekly Sync Calls",
+          "meeting_title": "Wedding Industry Ads X E2M AI Weekly Sync Calls",
+          "created_at": "2026-10-13T15:25:45Z",
+          "scheduled_start_time": "2026-10-13T14:45:00Z",
+          "scheduled_end_time": "2026-10-13T15:30:00Z",
+          "recording_start_time": "2026-10-13T14:49:20Z",
+          "recording_end_time": "2026-10-13T15:25:37Z",
+          "meeting_type": null,
+          "shared_with": "no_teams",
+          "transcript_language": "en",
+          "calendar_invitees_domains_type": "one_or_more_external",
+          "url": "https://fathom.video/calls/857377954",
+          "share_url": "https://fathom.video/share/v9E6zC1iAtRDz5Jd5Maz-UpuKHzqgVbJ",
+          "recorded_by": {
+            "name": "Jainil Trivedi",
+            "email": "jainil.trivedi@e2m.solutions",
+            "email_domain": "e2m.solutions",
+            "team": null
+          },
+          "calendar_invitees": [
+            {
+              "name": "Whitney Hodges",
+              "email": "hello@weddingindustryads.com",
+              "email_domain": "weddingindustryads.com",
+              "is_external": true,
+              "matched_speaker_display_name": null
+            },
+            {
+              "name": "gisselle@dotandcompany.co",
+              "email": "gisselle@dotandcompany.co",
+              "email_domain": "dotandcompany.co",
+              "is_external": true,
+              "matched_speaker_display_name": null
+            },
+            {
+              "name": "Asha Kumar",
+              "email": "asha.kumar@e2msolutions.com",
+              "email_domain": "e2msolutions.com",
+              "is_external": true,
+              "matched_speaker_display_name": null
+            },
+            {
+              "name": "Minu Bhatt",
+              "email": "minu.bhatt@e2msolutions.com",
+              "email_domain": "e2msolutions.com",
+              "is_external": true,
+              "matched_speaker_display_name": null
+            },
+            {
+              "name": "Kenil Shah",
+              "email": "kenil.shah@e2m.solutions",
+              "email_domain": "e2m.solutions",
+              "is_external": false,
+              "matched_speaker_display_name": null
+            },
+            {
+              "name": "Nandini Vithlani",
+              "email": "nandini.vithlani@e2m.solutions",
+              "email_domain": "e2m.solutions",
+              "is_external": false,
+              "matched_speaker_display_name": null
+            },
+            {
+              "name": "Jainil Trivedi",
+              "email": "jainil.trivedi@e2m.solutions",
+              "email_domain": "e2m.solutions",
+              "is_external": false,
+              "matched_speaker_display_name": null
+            }
+          ]
+        },
+        {
+          "recording_id": 186236649,
+          "title": "Impromptu Google Meet Meeting",
+          "meeting_title": "Impromptu Google Meet Meeting",
+          "created_at": "2026-09-24T09:21:31Z",
+          "scheduled_start_time": "2026-09-24T09:18:39Z",
+          "scheduled_end_time": "2026-09-24T09:33:39Z",
+          "recording_start_time": "2026-09-24T09:19:34Z",
+          "recording_end_time": "2026-09-24T09:21:22Z",
+          "meeting_type": null,
+          "shared_with": "no_teams",
+          "transcript_language": "unknown",
+          "calendar_invitees_domains_type": "one_or_more_external",
+          "url": "https://fathom.video/calls/836125863",
+          "share_url": "https://fathom.video/share/yD6sc8--vqUV1xMbN-R-vuo8hq5LRhit",
+          "recorded_by": {
+            "name": "Jainil Trivedi",
+            "email": "jainil.trivedi@e2m.solutions",
+            "email_domain": "e2m.solutions",
+            "team": null
+          },
+          "calendar_invitees": [
+            {
+              "name": "Jainil Trivedi",
+              "email": "jainil.trivedi@e2m.solutions",
+              "email_domain": "e2m.solutions",
+              "is_external": false,
+              "matched_speaker_display_name": null
+            }
+          ]
+        },
+        {
+          "recording_id": 186218372,
+          "title": "Impromptu Google Meet Meeting",
+          "meeting_title": "Impromptu Google Meet Meeting",
+          "created_at": "2026-09-24T08:13:21Z",
+          "scheduled_start_time": "2026-09-24T08:09:49Z",
+          "scheduled_end_time": "2026-09-24T08:24:49Z",
+          "recording_start_time": "2026-09-24T08:11:39Z",
+          "recording_end_time": "2026-09-24T08:13:12Z",
+          "meeting_type": null,
+          "shared_with": "no_teams",
+          "transcript_language": "unknown",
+          "calendar_invitees_domains_type": "one_or_more_external",
+          "url": "https://fathom.video/calls/836045614",
+          "share_url": "https://fathom.video/share/Y7xEKFc8n6_kv3RjTTEcvTr8dSw9Uh9z",
+          "recorded_by": {
+            "name": "Jainil Trivedi",
+            "email": "jainil.trivedi@e2m.solutions",
+            "email_domain": "e2m.solutions",
+            "team": null
+          },
+          "calendar_invitees": [
+            {
+              "name": "Jainil Trivedi",
+              "email": "jainil.trivedi@e2m.solutions",
+              "email_domain": "e2m.solutions",
+              "is_external": false,
+              "matched_speaker_display_name": null
+            }
+          ]
+        },
+        {
+          "recording_id": 186193499,
+          "title": "Fathom Demo",
+          "meeting_title": "Fathom Demo",
+          "created_at": "2026-09-24T06:23:25Z",
+          "scheduled_start_time": "2021-09-16T20:40:00Z",
+          "scheduled_end_time": "2021-09-16T21:00:00Z",
+          "recording_start_time": "2021-09-16T20:42:47Z",
+          "recording_end_time": "2026-09-24T06:23:25Z",
+          "meeting_type": null,
+          "shared_with": "no_teams",
+          "transcript_language": "unknown",
+          "calendar_invitees_domains_type": "only_internal",
+          "url": "https://fathom.video/calls/835900129",
+          "share_url": "https://fathom.video/share/S2UACRjiB6G1qs7a9zXDYzjahuQvsygX",
+          "recorded_by": {
+            "name": "Jainil Trivedi",
+            "email": "jainil.trivedi@e2m.solutions",
+            "email_domain": "e2m.solutions",
+            "team": null
+          },
+          "calendar_invitees": [
+            {
+              "name": "Susannah DuRant",
+              "email": "susannah.durant@fathom.video",
+              "email_domain": "fathom.video",
+              "is_external": false,
+              "matched_speaker_display_name": null
+            },
+            {
+              "name": "Jainil Trivedi",
+              "email": "jainil.trivedi@e2m.solutions",
+              "email_domain": "e2m.solutions",
+              "is_external": false,
+              "matched_speaker_display_name": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "result": "wia_recorder_filters_completed",
+  "finished_at_utc": "2026-10-19T11:54:53.488Z"
+}

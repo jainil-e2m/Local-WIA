@@ -1,0 +1,94 @@
+{
+  "scenes": [
+    {
+      "local_key": "s1",
+      "anchor_span_ids": [
+        "m1.t0002"
+      ],
+      "context_first_span_id": "m1.t0001",
+      "context_last_span_id": "m1.t0003",
+      "quote": "We had 45 bookings in March.",
+      "setup": "The client reports March bookings.",
+      "wia_moves": [
+        {
+          "speaker": "Carmen Cruickshank",
+          "move": "asked",
+          "what": "How March went"
+        }
+      ],
+      "client_contribution": "Reported 45 bookings in March",
+      "left_open": [],
+      "process_step": null,
+      "moment_type": "result",
+      "qualifications": [
+        "Reported, not measured by WIA"
+      ],
+      "claim_status": "reported",
+      "sensitivity": "public_candidate",
+      "departure": null
+    },
+    {
+      "local_key": "s2",
+      "anchor_span_ids": [
+        "m1.t0004"
+      ],
+      "context_first_span_id": "m1.t0003",
+      "context_last_span_id": "m1.t0004",
+      "quote": "Lead Lock has helped a lot with the follow up",
+      "setup": "A near-miss quote (a hyphen differs).",
+      "wia_moves": [
+        {
+          "speaker": "Carmen Cruickshank",
+          "move": "asked",
+          "what": "How March went"
+        }
+      ],
+      "client_contribution": "Said the follow-up tool helped",
+      "left_open": [],
+      "process_step": null,
+      "moment_type": "observation",
+      "qualifications": [
+        "Reported, not measured by WIA"
+      ],
+      "claim_status": "reported",
+      "sensitivity": "unknown",
+      "departure": null
+    },
+    {
+      "local_key": "s3",
+      "anchor_span_ids": [
+        "m1.t0003"
+      ],
+      "context_first_span_id": "m1.t0003",
+      "context_last_span_id": "m1.t0003",
+      "quote": "Nobody said this at all, ever.",
+      "setup": "No binding quote.",
+      "wia_moves": [
+        {
+          "speaker": "Carmen Cruickshank",
+          "move": "asked",
+          "what": "How March went"
+        }
+      ],
+      "client_contribution": "Reported 45 bookings in March",
+      "left_open": [],
+      "process_step": null,
+      "moment_type": "observation",
+      "qualifications": [
+        "Reported, not measured by WIA"
+      ],
+      "claim_status": "reported",
+      "sensitivity": "public_candidate",
+      "departure": null
+    }
+  ],
+  "processed_meetings": [
+    {
+      "meeting_ref": "m1",
+      "first_span_id": "m1.t0001",
+      "last_span_id": "m1.t0004",
+      "span_count": 4
+    }
+  ],
+  "coverage_notes": []
+}

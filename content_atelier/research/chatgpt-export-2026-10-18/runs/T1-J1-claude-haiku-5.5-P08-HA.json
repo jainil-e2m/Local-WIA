@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J1-claude-haiku-5.5-P08-HA",
+  "model": "anthropic/claude-haiku-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 16180,
+  "completion_tokens": 502,
+  "cached_tokens": 15842,
+  "cost": 0.00044322,
+  "seconds": 3.2,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "531f710d743d"
+ },
+ "output": {
+  "choice": "A",
+  "confidence": 3,
+  "reason": "Version A uses calm, plain language that fits Whitney's grounded voice, while Version B's 'here's the part no one talks about' and 'next level' lean toward the hype patterns her guide tells writers to avoid."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: stories\n\nVersion A:\nYou're showing up on social media\nYou've invested in professional branding\nYour website is designed to call in ideal clients\n\nBut if it doesn't show up at the top of the Google search results, booking dream couples on repeat is a whole lot harder than it needs to be\n\nVersion B:\nYou’re showing up consistently.  \nYou’ve built a strong brand.  \nYour client experience is next level.\n\nBut here’s the part no one talks about:  \nYou can do all of that right — and still stay invisible to the couples actively searching for you.",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "meta": {
+  "run_id": "T2J-claude-sonnet-5.5-T26-G2vA0-YX",
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 1451,
+  "completion_tokens": 184,
+  "cached_tokens": 0,
+  "cost": 0.004742,
+  "seconds": 2.3,
+  "finish": "stop",
+  "system_sha": "5374112cdde3",
+  "user_sha": "21f900fdb5a0"
+ },
+ "output": {
+  "winner": "B",
+  "edits_needed_A": "many",
+  "edits_needed_B": "some",
+  "reason": "Candidate A stops after the 'gamble' line and never introduces ads, WIA's Accelerator programs, or the requested CTA link, so it would need major additions. Candidate B includes the CTA and the organic-plus-paid positioning, but it adds unverified specifics about the Accelerator and lacks Whitney's punchy 'gap' framing, so it still needs some edits."
+ },
+ "content": null,
+ "request": {
+  "system": "You compare two draft pieces of marketing copy for Wedding Industry Ads (WIA), a wedding-industry advertising agency. You are given the request, the version WIA's co-founder Whitney actually approved or wrote (the reference), and two candidate drafts. Decide which candidate would need fewer and smaller edits to become something Whitney would approve. Judge substance first (what is claimed, for whom, how WIA is positioned, accuracy, whether her own wording was kept where she supplied it), then voice. Do not reward length, and do not require the candidate to copy the reference wording.\n\nReturn only JSON: {\"winner\": \"A\" or \"B\" or \"tie\", \"edits_needed_A\": \"few\", \"edits_needed_B\": \"many\", \"reason\": \"one or two sentences\"} where edits_needed values are none, few, some or many.",
+  "user": "Request:\nBelow is a transcript for a reel. I need a caption to go along with it. CTA should be for them to learn more about our Accelerator programs https://weddingindustryads.com/accelerate\n\nDaniela: I heard somebody say recently that posting organically on social media is like leaving a glass of milk on the counter. \n\n\n\nWhitney: That's really gross, but it's not inaccurate, right? We have so little control over the organic algorithm and things move so quickly. I mean, even we are posting reels or posting carousels and we see really limited reach or visibility on those posts. \n\n\n\nDaniela: Totally. And that's where ads can really help create some stability, right?. Because you can guarantee that they're not only going to be given placements just to your organic following. And we all know that only a small percentage of business account followers actually see the content that you're posting organically before it just gets buried in the news feed forever. But if you're putting a little bit of budget behind that piece of content, you can ensure that the right people are going to see it at the right time and give it a lot longer shelf life.\n\nReference (what Whitney approved):\nThe issue isn’t that organic doesn’t work.\nIt’s that it’s not always working for the right people.\n\nMost of the visibility you’re getting?\nIt’s coming from other vendors, past clients, friends, family—\n\nPeople who already know you… or were never going to book you in the first place.\n\nMeanwhile, the couples who are actively planning and ready to invest?\nThere’s no guarantee they’re seeing your content at all.\n\nThat’s the gap.\n\nBecause organic relies on timing, behavior, and an algorithm you don’t control.\n\nThat’s not a growth strategy. That’s a gamble.\n\nThe shift we see the most successful wedding pros make?\n\nThey stop relying on organic to carry their marketing…\nAnd start amplifying it with digital ads.\n\nBecause when you introduce paid strategy:\n— Your visibility becomes predictable\n— Your audience becomes intentional\n— Your content actually gets the lifespan it deserves\n\nYou’re no longer hoping the right people find you.\nYou’re making sure they do.\n\nThat’s where real momentum starts.\n\nIf you’re ready to stop guessing and start scaling with a strategy that actually holds up…\n\nLearn more about our Accelerator programs here:\nhttps://weddingindustryads.com/accelerate\n\nCandidate A:\nOrganic social right now?\n\nIt’s unpredictable at best… invisible at worst.\n\nOne day your content lands.  \nThe next day—it disappears without a trace.\n\nAnd it’s not because your work isn’t good enough.  \nIt’s because you’re building on borrowed ground.\n\nThe algorithm decides:\nWho sees your content  \nWhen they see it  \nAnd whether it lives or dies in a matter of hours  \n\nThat’s not a growth strategy. That’s a gamble.\n\nCandidate B:\nYou’ve put real thought into your content. It deserves a longer life than a few hours in the feed.\n\nThe venue tour that helps couples picture their wedding day. The post explaining what’s included in your planning experience. The video that makes someone feel comfortable reaching out.\n\nThat content has value beyond the day you publish it.\n\nOrganic social helps you build trust and stay connected with your audience. Paid ads can extend that work, bringing your business in front of more couples who haven’t found you yet.\n\nAt WIA, we look at what already communicates your value, then build an ad strategy around reaching the right couples and giving them a clear next step toward inquiring.\n\nOur Accelerator programs pair a done-for-you campaign launch with guided support as you learn to manage your ads yourself.\n\nExplore our Google and Meta Ads Accelerators at weddingindustryads.com/accelerate.",
+  "cache_prefix_sha": "5374112cdde3"
+ }
+}

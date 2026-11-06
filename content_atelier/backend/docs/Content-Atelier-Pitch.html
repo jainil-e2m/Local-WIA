@@ -1,0 +1,570 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Content Atelier</title>
+<meta name="description" content="How the Content Atelier turns Wedding Industry Ads' client conversations into ready-to-approve content.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..600;1,6..96,400..500&family=Jost:wght@400;500;600&display=swap">
+<style>
+  :root {
+    --bg: #F6F0EB;
+    --surface: #FFFFFF;
+    --ink: #1E1826;
+    --text: #3A3242;
+    --line: #D9CBC1;
+    --line-soft: #E9DFD8;
+    --gold: #8A6630;
+    --gold-bright: #B98E4E;
+    --gold-pale: #FFF6E9;
+    --blush: #F2E2DA;
+    --plum: #2A2132;
+    --on-plum: #FBF7F4;
+    --on-plum-2: #DCD2DF;
+    --accent-on-plum: #E7C891;
+    --display: "Bodoni Moda", "Didot", "Bodoni 72", Georgia, serif;
+    --body: "Jost", "Futura", "Avenir Next", "Century Gothic", system-ui, sans-serif;
+    --g: clamp(16px, 2.4vw, 36px);
+    color-scheme: light;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0; color: var(--ink);
+    background:
+      radial-gradient(1100px 520px at 8% -12%, #F9E4DB 0%, transparent 62%),
+      radial-gradient(900px 480px at 102% 112%, #F2E5D2 0%, transparent 60%),
+      var(--bg);
+    font-family: var(--body); font-size: 16px; line-height: 1.5;
+    display: grid; grid-template-rows: auto auto 1fr auto; overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+  :focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; border-radius: 6px; }
+
+  /* Header */
+  header { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 16px var(--g) 0; }
+  .brand { display: flex; align-items: center; gap: 14px; }
+  .brand svg { width: 30px; height: 30px; flex: none; }
+  .brand h1 { margin: 0; font-family: var(--display); font-weight: 500; font-size: 1.6rem; line-height: 1.1; letter-spacing: -0.01em; }
+  .brand p { margin: 2px 0 0; font-size: 0.93rem; color: var(--text); }
+  .legend { display: flex; align-items: center; gap: 24px; font-size: 0.93rem; color: var(--text); font-weight: 500; }
+  .legend span { display: inline-flex; align-items: center; gap: 10px; }
+  .lg-step { width: 17px; height: 17px; border-radius: 50%; border: 2px solid var(--ink); background: var(--surface); }
+  .lg-gate { width: 13px; height: 13px; border: 2px solid var(--gold); background: var(--gold-pale); border-radius: 3px; transform: rotate(45deg); }
+
+  /* Narration band */
+  .narr {
+    display: grid; grid-template-columns: 76px minmax(0, 1fr) minmax(300px, 420px); gap: 30px; align-items: center;
+    padding: 18px var(--g) 8px; min-height: 164px;
+  }
+  .num { font: 500 3rem/1 var(--display); color: var(--gold); font-variant-numeric: tabular-nums; align-self: start; padding-top: 4px; }
+  .num small { display: block; font: 600 0.7rem var(--body); letter-spacing: .14em; color: var(--text); margin-top: 8px; text-transform: uppercase; }
+  .cap-text { display: grid; gap: 6px; align-content: center; }
+  .cap-text .who { font: 600 0.76rem var(--body); letter-spacing: .14em; text-transform: uppercase; color: var(--gold); }
+  .cap-text h2 { margin: 0; font: 500 1.9rem/1.15 var(--display); color: var(--ink); letter-spacing: -0.01em; text-wrap: balance; }
+  .cap-text p { margin: 0; font-size: 1.06rem; color: var(--text); max-width: 78ch; }
+  .anim > * { animation: rise .45s cubic-bezier(.2, .8, .2, 1) both; }
+  .anim > *:nth-child(2) { animation-delay: .05s; }
+  .anim > *:nth-child(3) { animation-delay: .1s; }
+  @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
+  .pv {
+    background: var(--plum); color: var(--on-plum); border-radius: 16px; padding: 16px 20px 17px;
+    font: 400 15px/1.45 var(--body); box-shadow: 0 22px 40px -24px rgba(30, 24, 38, .6);
+    min-height: 118px; display: grid; align-content: center;
+  }
+  .pv-k { font: 600 11.5px var(--body); letter-spacing: .16em; text-transform: uppercase; color: var(--accent-on-plum); margin-bottom: 8px; }
+  .pv q { display: block; font: italic 500 18px/1.35 var(--display); quotes: "\201C" "\201D"; }
+  .pv .meta { margin-top: 7px; color: var(--on-plum-2); font-size: 13px; }
+  .pv .chips { display: flex; flex-wrap: wrap; gap: 7px; }
+  .pv .chip { padding: 4px 11px; border-radius: 999px; background: rgba(255, 255, 255, .1); border: 1px solid rgba(255, 255, 255, .2); font-size: 13px; }
+  .pv .chip.ok::before { content: "✓ "; color: var(--accent-on-plum); }
+  .pv ol { margin: 0; padding: 0; list-style: none; display: grid; gap: 6px; }
+  .pv li { display: grid; grid-template-columns: 1fr 90px; gap: 12px; align-items: center; }
+  .pv li i { display: block; height: 6px; border-radius: 3px; background: var(--accent-on-plum); transform-origin: left; animation: barIn .8s cubic-bezier(.2, .8, .2, 1) both; }
+  @keyframes barIn { from { transform: scaleX(0); } }
+  .pv .btns { display: flex; gap: 7px; margin-top: 10px; }
+  .pv .btn { padding: 4px 12px; border-radius: 7px; font-size: 13px; font-weight: 500; border: 1px solid rgba(255, 255, 255, .3); }
+  .pv .btn.primary { background: var(--accent-on-plum); color: var(--plum); border-color: var(--accent-on-plum); }
+  .pv .rows { display: grid; gap: 4px; }
+  .pv .rows b { color: var(--accent-on-plum); font-weight: 500; margin-right: 8px; }
+  .pv .bar { margin-top: 10px; height: 6px; border-radius: 3px; background: rgba(255, 255, 255, .15); overflow: hidden; }
+  .pv .bar i { display: block; height: 100%; width: 80%; background: var(--accent-on-plum); animation: grow 3.5s ease-out both; }
+  @keyframes grow { from { width: 8%; } }
+
+  /* Diagram */
+  .stage { min-height: 0; padding: 4px var(--g) 0; overflow-x: auto; overflow-y: hidden; display: flex; }
+  #diagram { flex: 1; width: 100%; height: 100%; display: block; min-width: 960px; }
+
+  #diagram .lbl { font: 500 17px var(--body); fill: var(--ink); }
+  #diagram .sub { font: 400 14.5px var(--body); fill: var(--text); }
+  #diagram .detail { font: 400 13px var(--body); fill: var(--text); }
+  #diagram .glbl { font: 600 16px var(--body); fill: var(--gold); }
+  #diagram .gsub { font: 400 14px var(--body); fill: var(--text); }
+  #diagram .cap { font: 600 12.5px var(--body); letter-spacing: .2em; fill: var(--gold); }
+  #diagram .tag-t { font: 500 12px var(--body); fill: var(--gold); letter-spacing: .04em; }
+  #diagram .tag-bg { fill: var(--gold-pale); stroke: #E8D2AE; stroke-width: 1; }
+  #diagram .wire { fill: none; stroke: var(--line); stroke-width: 2.2; transition: stroke .5s; }
+  #diagram .wire.lit { stroke: var(--gold-bright); }
+  #diagram .tie { fill: none; stroke: var(--line); stroke-width: 1.6; stroke-dasharray: 3 5; transition: stroke .5s; }
+  #diagram .tie.lit { stroke: var(--gold-bright); animation: dash 1s linear infinite; }
+  #diagram .loop { fill: none; stroke: var(--line); stroke-width: 1.8; stroke-dasharray: 6 7; transition: stroke .5s; }
+  #diagram .loop.lit { stroke: var(--gold-bright); animation: dash 1.2s linear infinite; }
+  #diagram .arrow { fill: var(--line); transition: fill .5s; }
+  #diagram .arrow.lit { fill: var(--gold-bright); }
+  @keyframes dash { to { stroke-dashoffset: -26; } }
+
+  .zone { fill: rgba(255, 255, 255, .8); stroke: #E4D6CC; stroke-width: 1.4; }
+
+  .card rect.bg { fill: var(--surface); stroke: var(--line); stroke-width: 1.4; transition: stroke .5s, fill .5s; }
+  .card.lit rect.bg { stroke: var(--gold-bright); fill: #FFFBF5; }
+  .card .ico-bg { fill: var(--blush); }
+  .card .ico { fill: none; stroke: var(--ink); stroke-width: 1.9; stroke-linecap: round; stroke-linejoin: round; }
+  .card .ico-t { font: 600 19px var(--body); fill: var(--ink); }
+  .card .mini { fill: #EFE5DE; }
+  .card .mini-dark { fill: var(--plum); }
+  .card .mini-gold { fill: #E3C995; }
+  .card .grow { transform-box: fill-box; transform-origin: left center; }
+  .card.lit .grow { animation: growX 1.4s cubic-bezier(.2, .8, .2, 1) both; }
+  @keyframes growX { from { transform: scaleX(0); } }
+  .card .pop { transform-box: fill-box; transform-origin: center; }
+  .card.lit .pop { animation: pop .6s cubic-bezier(.2, .8, .2, 1.3) both; }
+  @keyframes pop { from { transform: scale(.4); opacity: 0; } }
+
+  .node { cursor: pointer; color: var(--ink); }
+  .node .disc { fill: var(--surface); stroke: #BCAB9F; stroke-width: 2; transition: fill .45s, stroke .45s; }
+  .node .glyph { fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  .node .glyph-t { fill: currentColor; stroke: none; font: 500 40px var(--display); }
+  .node.gate { color: var(--gold); }
+  .node.gate .disc { fill: var(--gold-pale); stroke: var(--gold-bright); }
+  .node.done .disc { stroke: var(--gold-bright); }
+  .node.active { color: var(--on-plum); }
+  .node.active .disc { fill: var(--plum); stroke: var(--plum); }
+  .node.gate.active .disc { fill: var(--gold); stroke: var(--gold); }
+  .node .ring { fill: none; stroke: var(--gold-bright); stroke-width: 2; opacity: 0; transform-box: fill-box; transform-origin: center; }
+  .node.active .ring { animation: ring 1.8s ease-out infinite; }
+  @keyframes ring { 0% { opacity: .85; transform: scale(1); } 100% { opacity: 0; transform: scale(1.6); } }
+  .node:hover .disc { stroke: var(--gold); }
+  .particle { fill: var(--gold-bright); }
+
+  .chip-bg { fill: var(--surface); stroke: var(--line); stroke-width: 1.2; }
+  .chip-k { font: 600 11px var(--body); letter-spacing: .14em; fill: var(--gold); }
+  .chip-t { font: 400 14px var(--body); fill: var(--ink); }
+  #ledger-belt { animation: belt 40s linear infinite; }
+  @keyframes belt { to { transform: translateX(var(--belt, -900px)); } }
+
+  /* Bottom bar */
+  .bottom { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 28px; align-items: center; padding: 10px var(--g) 16px; }
+  .credit { font-size: 0.82rem; color: var(--text); white-space: nowrap; }
+  .progress { display: grid; grid-template-columns: repeat(10, 1fr); gap: 6px; }
+  .seg { all: unset; cursor: pointer; height: 5px; border-radius: 3px; background: var(--line-soft); position: relative; overflow: hidden; }
+  .seg::after { content: ""; position: absolute; inset: 0; background: var(--gold-bright); transform: scaleX(0); transform-origin: left; }
+  .seg.done::after, .seg.active::after { transform: scaleX(1); }
+  .playing .seg.active::after { transform: scaleX(0); animation: fillSeg var(--dur, 5s) linear forwards; }
+  @keyframes fillSeg { to { transform: scaleX(1); } }
+  .controls { display: flex; gap: 8px; }
+  .ctrl {
+    all: unset; cursor: pointer; width: 42px; height: 42px; border-radius: 50%; display: grid; place-items: center;
+    border: 1.5px solid var(--line); color: var(--ink); background: var(--surface); transition: border-color .2s, background .2s;
+  }
+  .ctrl:hover { border-color: var(--gold); background: var(--gold-pale); }
+  .ctrl.play { background: var(--plum); border-color: var(--plum); color: var(--on-plum); }
+  .ctrl svg { width: 15px; height: 15px; }
+
+  @media (max-width: 980px) {
+    body { overflow: auto; height: auto; display: block; }
+    .legend { display: none; }
+    .narr { grid-template-columns: 1fr; gap: 14px; }
+    .stage { height: 460px; }
+    .bottom { grid-template-columns: 1fr auto; }
+    .credit { grid-column: 1 / -1; order: 2; white-space: normal; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <svg viewBox="0 0 30 30" fill="none" aria-hidden="true"><path d="M15 2.5 27.5 15 15 27.5 2.5 15Z" stroke="#8A6630" stroke-width="1.6"/><circle cx="15" cy="15" r="4.2" fill="#8A6630"/></svg>
+    <div>
+      <h1>The Content Atelier</h1>
+      <p>How Wedding Industry Ads’ client conversations become ready-to-approve content</p>
+    </div>
+  </div>
+  <div class="legend" aria-label="Legend">
+    <span><i class="lg-step" aria-hidden="true"></i>The Atelier prepares</span>
+    <span><i class="lg-gate" aria-hidden="true"></i>You decide</span>
+  </div>
+</header>
+
+<section class="narr" aria-live="polite">
+  <div class="num" id="cap-num">01<small>of 10</small></div>
+  <div class="cap-text anim" id="cap-text"></div>
+  <div class="pv anim" id="preview"></div>
+</section>
+
+<div class="stage">
+  <svg id="diagram" viewBox="0 0 1440 610" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="dg-title">
+    <title id="dg-title">Workflow: call sources flow through the Content Atelier's steps and three approval points, ending in an email, a carousel and three reel scripts.</title>
+  </svg>
+</div>
+
+<div class="bottom" id="bottom">
+  <span class="credit">Prepared by E2M Solutions for Wedding Industry Ads · Examples are illustrative</span>
+  <div class="progress" id="progress" aria-label="Steps"></div>
+  <div class="controls">
+    <button class="ctrl" id="btn-prev" type="button" aria-label="Previous step"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M10.5 3 5.5 8l5 5" stroke="currentColor" stroke-width="1.9" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    <button class="ctrl play" id="btn-play" type="button" aria-label="Pause walkthrough"></button>
+    <button class="ctrl" id="btn-next" type="button" aria-label="Next step"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5.5 3l5 5-5 5" stroke="currentColor" stroke-width="1.9" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+  </div>
+</div>
+
+<script>
+function initAtelier() {
+  var NS = "http://www.w3.org/2000/svg";
+  var svg = document.getElementById("diagram");
+  var SPINE_Y = 215, R = 34;
+
+  /* ---------- Layout (viewBox 1440 × 610) ---------- */
+  var SRC_X = 14, SRC_W = 250, SRC_H = 128;
+  var SOURCES = [
+    { id: "src0", y: 140, title: "Zoom", sub: "Past 3 months of calls", detail: "Strategy calls and workshops", tag: "One-time backfill", icon: "cam" },
+    { id: "src1", y: 330, title: "Fathom", sub: "Every new client call", detail: "Client calls and office hours", tag: "Ongoing", icon: "wave" },
+    { id: "src2", y: 520, title: "Slack", sub: "Wins the team shares", detail: "Social Proof & Results + 2 more", tag: "3 channels", icon: "hash" }
+  ];
+  var NODES = [
+    { id: "n1", x: 360, title: "Notice", sub: "Key moments", glyph: "quote" },
+    { id: "n2", x: 470, title: "Shortlist", sub: "Weekly, 3–5", glyph: "list" },
+    { id: "n3", x: 580, gate: true, title: "You pick the angle", sub: "~2 min, in Slack" },
+    { id: "n4", x: 690, title: "Research", sub: "Proof + search", glyph: "search" },
+    { id: "n5", x: 800, title: "Brief", sub: "One page", glyph: "doc" },
+    { id: "n6", x: 910, gate: true, title: "You approve the brief", sub: "~5 min" },
+    { id: "n7", x: 1020, title: "Create", sub: "The full pack", glyph: "pen" },
+    { id: "n8", x: 1130, gate: true, title: "You sign off", sub: "Final read" }
+  ];
+  var OUT_X = 1200, OUT_W = 228, OUT_H = 88;
+  var OUTPUTS = [
+    { id: "out0", y: 114, title: "Email", sub: "The weekly note", icon: "mail", mini: "email" },
+    { id: "out1", y: 223, title: "Carousel", sub: "7–10 slides", icon: "slides", mini: "carousel" },
+    { id: "out2", y: 332, title: "Reel script 1", sub: "Script + caption", icon: "phone", mini: "reel" },
+    { id: "out3", y: 441, title: "Reel script 2", sub: "Script + caption", icon: "phone", mini: "reel" },
+    { id: "out4", y: 550, title: "Reel script 3", sub: "Script + caption", icon: "phone", mini: "reel" }
+  ];
+  var MOMENTS = [
+    ["RESULT", "“Best month we’ve ever had”"],
+    ["QUESTION", "How much should I spend on Meta?"],
+    ["SOUNDBITE", "“10 weeks, and leads didn’t stop”"],
+    ["WORKSHOP", "Defining your unique value"],
+    ["PRAISE", "“You made this so easy”"],
+    ["STORY", "From slow season to fully booked"],
+    ["QUESTION", "Google or Meta first?"]
+  ];
+  var LEDGER_Y = 384, LOOP_Y = 522;
+
+  function el(tag, attrs, parent, text) {
+    var e = document.createElementNS(NS, tag);
+    for (var k in attrs) e.setAttribute(k, attrs[k]);
+    if (text != null) e.textContent = text;
+    if (parent) parent.appendChild(e);
+    return e;
+  }
+  function textWidth(str, cls) {
+    var t = el("text", { class: cls, x: -9999, y: -9999 }, svg, str);
+    var w = t.getComputedTextLength(); t.remove(); return w;
+  }
+
+  var defs = el("defs", {}, svg);
+  var clip = el("clipPath", { id: "belt-clip" }, defs);
+  el("rect", { x: 330, y: LEDGER_Y - 6, width: 820, height: 62 }, clip);
+  var fadeGrad = el("linearGradient", { id: "belt-fade", x1: 0, x2: 1 }, defs);
+  [["0", 1], [".06", 0], [".94", 0], ["1", 1]].forEach(function (s) { el("stop", { offset: s[0], "stop-color": "#fff", "stop-opacity": s[1] }, fadeGrad); });
+
+  var gZone = el("g", {}, svg), gWires = el("g", {}, svg), gLedger = el("g", {}, svg),
+      gParticles = el("g", {}, svg), gCards = el("g", {}, svg), gNodes = el("g", {}, svg);
+
+  // Column headings
+  el("text", { x: SRC_X + 2, y: 44, class: "cap" }, gZone, "WHAT IT LISTENS TO");
+  el("text", { x: OUT_X + 2, y: 44, class: "cap" }, gZone, "ONE CONTENT PACK");
+  // Atelier zone
+  el("rect", { class: "zone", x: 300, y: 14, width: 880, height: 584, rx: 28 }, gZone);
+  el("text", { x: 330, y: 50, class: "cap" }, gZone, "THE CONTENT ATELIER");
+
+  // Wires
+  var srcPaths = SOURCES.map(function (s, i) {
+    var x0 = SRC_X + SRC_W, x1 = NODES[0].x - R;
+    return el("path", { id: "pa" + i, class: "wire", d: "M" + x0 + " " + s.y + " C " + (x0 + 50) + " " + s.y + ", " + (x1 - 50) + " " + SPINE_Y + ", " + x1 + " " + SPINE_Y }, gWires);
+  });
+  el("path", { class: "wire", d: "M" + (NODES[0].x - R) + " " + SPINE_Y + " L " + (NODES[7].x + 30) + " " + SPINE_Y }, gWires);
+  var outPaths = OUTPUTS.map(function (o, i) {
+    var x0 = NODES[7].x + 30;
+    return el("path", { id: "po" + i, class: "wire", d: "M" + x0 + " " + SPINE_Y + " C " + (x0 + 34) + " " + SPINE_Y + ", " + (OUT_X - 34) + " " + o.y + ", " + OUT_X + " " + o.y }, gWires);
+  });
+  el("path", { class: "tie", id: "tie-down", d: "M" + NODES[0].x + " " + (SPINE_Y + 98) + " L " + NODES[0].x + " " + (LEDGER_Y - 6) }, gWires);
+  el("path", { class: "tie", id: "tie-up", d: "M" + NODES[1].x + " " + (LEDGER_Y - 6) + " L " + NODES[1].x + " " + (SPINE_Y + 98) }, gWires);
+
+  // Learning loop: sign-off back to the shortlist
+  var gx = NODES[7].x, sx = NODES[1].x;
+  el("path", { class: "loop", id: "loop", d: "M" + gx + " " + (SPINE_Y + 50) + " L " + gx + " " + (LOOP_Y - 26) + " C " + gx + " " + LOOP_Y + ", " + (gx - 6) + " " + LOOP_Y + ", " + (gx - 32) + " " + LOOP_Y + " L " + (sx + 32) + " " + LOOP_Y + " C " + (sx + 6) + " " + LOOP_Y + ", " + sx + " " + LOOP_Y + ", " + sx + " " + (LOOP_Y - 26) + " L " + sx + " " + (LEDGER_Y + 66) }, gWires);
+  el("path", { class: "arrow", id: "loop-arrow", d: "M" + (sx - 6) + " " + (LEDGER_Y + 70) + " L " + sx + " " + (LEDGER_Y + 60) + " L " + (sx + 6) + " " + (LEDGER_Y + 70) + " Z" }, gWires);
+  el("text", { x: (sx + gx) / 2, y: LOOP_Y + 34, "text-anchor": "middle", class: "sub" }, gWires, "Your choices and edits sharpen next week’s shortlist");
+
+  // Moments ledger
+  el("text", { x: 500, y: LEDGER_Y - 16, class: "cap" }, gLedger, "MOMENTS LEDGER");
+  el("text", { x: 652, y: LEDGER_Y - 16, class: "detail" }, gLedger, "Every moment keeps the exact words and a link to the recording");
+  var belt = el("g", { id: "ledger-belt" }, el("g", { "clip-path": "url(#belt-clip)" }, gLedger));
+  var bx = 340;
+  for (var rep = 0; rep < 2; rep++) {
+    MOMENTS.forEach(function (m) {
+      var tw = Math.max(textWidth(m[1], "chip-t"), textWidth(m[0], "chip-k")) + 32;
+      el("rect", { class: "chip-bg", x: bx, y: LEDGER_Y, width: tw, height: 50, rx: 12 }, belt);
+      el("text", { class: "chip-k", x: bx + 16, y: LEDGER_Y + 20 }, belt, m[0]);
+      el("text", { class: "chip-t", x: bx + 16, y: LEDGER_Y + 39 }, belt, m[1]);
+      bx += tw + 12;
+    });
+    if (rep === 0) belt.style.setProperty("--belt", -(bx - 340) + "px");
+  }
+  el("rect", { x: 330, y: LEDGER_Y - 6, width: 820, height: 62, fill: "url(#belt-fade)", "pointer-events": "none" }, gLedger);
+
+  function icon(kind, cx, cy, parent) {
+    var g = el("g", { class: "ico" }, parent);
+    if (kind === "cam") { el("rect", { x: cx - 10, y: cy - 7, width: 14, height: 14, rx: 3 }, g); el("path", { d: "M" + (cx + 4) + " " + (cy - 2.5) + " l7 -4 v13 l-7 -4" }, g); }
+    if (kind === "wave") { [-9, -4.5, 0, 4.5, 9].forEach(function (d, i) { var h = [5, 10, 15, 9, 5][i]; el("path", { d: "M" + (cx + d) + " " + (cy - h / 2) + " v" + h }, g); }); }
+    if (kind === "hash") el("text", { x: cx, y: cy + 7, "text-anchor": "middle", class: "ico-t" }, parent, "#");
+    if (kind === "mail") { el("rect", { x: cx - 10, y: cy - 7, width: 20, height: 14, rx: 2 }, g); el("path", { d: "M" + (cx - 10) + " " + (cy - 5.5) + " l10 7 l10 -7" }, g); }
+    if (kind === "slides") { el("rect", { x: cx - 4, y: cy - 9, width: 13, height: 16, rx: 2 }, g); el("path", { d: "M" + (cx - 8) + " " + (cy - 5) + " v14 a2 2 0 0 0 2 2 h10" }, g); }
+    if (kind === "phone") { el("rect", { x: cx - 6, y: cy - 10, width: 12, height: 20, rx: 3 }, g); el("path", { d: "M" + (cx - 1.5) + " " + (cy + 6) + " h3" }, g); }
+  }
+
+  // Source cards
+  SOURCES.forEach(function (s) {
+    var g = el("g", { class: "card", id: s.id }, gCards), top = s.y - SRC_H / 2;
+    el("rect", { class: "bg", x: SRC_X, y: top, width: SRC_W, height: SRC_H, rx: 16 }, g);
+    el("circle", { class: "ico-bg", cx: SRC_X + 40, cy: top + 40, r: 22 }, g);
+    icon(s.icon, SRC_X + 40, top + 40, g);
+    el("text", { class: "lbl", x: SRC_X + 74, y: top + 35 }, g, s.title);
+    el("text", { class: "sub", x: SRC_X + 74, y: top + 56 }, g, s.sub);
+    el("text", { class: "detail", x: SRC_X + 20, y: top + 88 }, g, s.detail);
+    var tw = textWidth(s.tag, "tag-t") + 22;
+    el("rect", { class: "tag-bg", x: SRC_X + 20, y: top + 98, width: tw, height: 22, rx: 11 }, g);
+    el("text", { class: "tag-t", x: SRC_X + 31, y: top + 113 }, g, s.tag);
+  });
+
+  // Output cards
+  OUTPUTS.forEach(function (o) {
+    var g = el("g", { class: "card", id: o.id }, gCards), cy = o.y;
+    el("rect", { class: "bg", x: OUT_X, y: cy - OUT_H / 2, width: OUT_W, height: OUT_H, rx: 14 }, g);
+    el("circle", { class: "ico-bg", cx: OUT_X + 30, cy: cy, r: 18 }, g);
+    icon(o.icon, OUT_X + 30, cy, g);
+    el("text", { class: "lbl", x: OUT_X + 58, y: cy - 3, style: "font-size:15.5px" }, g, o.title);
+    el("text", { class: "sub", x: OUT_X + 58, y: cy + 17, style: "font-size:13px" }, g, o.sub);
+    var mx = OUT_X + OUT_W - 60;
+    if (o.mini === "email") {
+      el("rect", { class: "mini", x: mx - 2, y: cy - 26, width: 50, height: 52, rx: 6 }, g);
+      el("rect", { class: "mini-gold grow", x: mx + 6, y: cy - 17, width: 26, height: 5, rx: 2.5 }, g);
+      el("rect", { class: "mini-dark grow", x: mx + 6, y: cy - 6, width: 34, height: 4, rx: 2 }, g);
+      el("rect", { class: "mini-dark grow", x: mx + 6, y: cy + 3, width: 28, height: 4, rx: 2 }, g);
+      el("rect", { class: "mini-dark grow", x: mx + 6, y: cy + 12, width: 20, height: 4, rx: 2 }, g);
+    }
+    if (o.mini === "carousel") {
+      [0, 1, 2].forEach(function (k) {
+        el("rect", { class: (k === 0 ? "mini-dark" : k === 2 ? "mini-gold" : "mini") + " pop", x: mx - 8 + k * 19, y: cy - 24, width: 17, height: 48, rx: 3, style: "animation-delay:" + (k * .12) + "s" }, g);
+      });
+    }
+    if (o.mini === "reel") {
+      el("rect", { class: "mini-dark", x: mx + 10, y: cy - 32, width: 32, height: 64, rx: 6 }, g);
+      el("rect", { class: "mini-gold grow", x: mx + 15, y: cy + 8, width: 18, height: 3.5, rx: 1.75 }, g);
+      el("rect", { class: "mini grow", x: mx + 15, y: cy + 15, width: 22, height: 3.5, rx: 1.75 }, g);
+      el("rect", { class: "mini grow", x: mx + 15, y: cy + 22, width: 14, height: 3.5, rx: 1.75 }, g);
+    }
+  });
+
+  // Spine nodes
+  var nodeEls = NODES.map(function (n, i) {
+    var g = el("g", { class: "node" + (n.gate ? " gate" : ""), id: n.id, tabindex: 0, role: "button", "aria-label": n.title }, gNodes);
+    var x = n.x, y = SPINE_Y;
+    if (n.gate) {
+      var s = 48, rot = "rotate(45 " + x + " " + y + ")";
+      el("rect", { class: "ring", x: x - s / 2, y: y - s / 2, width: s, height: s, rx: 10, transform: rot }, g);
+      el("rect", { class: "disc", x: x - s / 2, y: y - s / 2, width: s, height: s, rx: 10, transform: rot }, g);
+      el("path", { class: "glyph", d: "M" + (x - 9) + " " + (y + 0.5) + " l6 6 l12 -12.5" }, g);
+      el("text", { class: "glbl", x: x, y: y - 70, "text-anchor": "middle" }, g, n.title);
+      el("text", { class: "gsub", x: x, y: y - 50, "text-anchor": "middle" }, g, n.sub);
+    } else {
+      el("circle", { class: "ring", cx: x, cy: y, r: R }, g);
+      el("circle", { class: "disc", cx: x, cy: y, r: R }, g);
+      if (n.glyph === "quote") el("path", { class: "glyph", d: "M" + x + " " + (y - 13) + " C " + (x + 1.5) + " " + (y - 3) + ", " + (x + 3) + " " + (y - 1.5) + ", " + (x + 13) + " " + y + " C " + (x + 3) + " " + (y + 1.5) + ", " + (x + 1.5) + " " + (y + 3) + ", " + x + " " + (y + 13) + " C " + (x - 1.5) + " " + (y + 3) + ", " + (x - 3) + " " + (y + 1.5) + ", " + (x - 13) + " " + y + " C " + (x - 3) + " " + (y - 1.5) + ", " + (x - 1.5) + " " + (y - 3) + ", " + x + " " + (y - 13) + " Z" }, g);
+      if (n.glyph === "list") el("path", { class: "glyph", d: "M" + (x - 11) + " " + (y - 9) + " h22 M" + (x - 11) + " " + y + " h15 M" + (x - 11) + " " + (y + 9) + " h8" }, g);
+      if (n.glyph === "search") { el("circle", { class: "glyph", cx: x - 3, cy: y - 3, r: 8.5 }, g); el("path", { class: "glyph", d: "M" + (x + 3.5) + " " + (y + 3.5) + " l7.5 7.5" }, g); }
+      if (n.glyph === "doc") { el("rect", { class: "glyph", x: x - 9, y: y - 12, width: 18, height: 24, rx: 3 }, g); el("path", { class: "glyph", d: "M" + (x - 4.5) + " " + (y - 4.5) + " h9 M" + (x - 4.5) + " " + (y + 1.5) + " h9 M" + (x - 4.5) + " " + (y + 7.5) + " h5" }, g); }
+      if (n.glyph === "pen") el("path", { class: "glyph", d: "M" + (x - 10) + " " + (y + 10) + " l3 -10 l12 -12 l7 7 l-12 12 z M" + (x + 2) + " " + (y - 17) + " l7 7" }, g);
+      el("text", { class: "lbl", x: x, y: y + 64, "text-anchor": "middle" }, g, n.title);
+      el("text", { class: "sub", x: x, y: y + 85, "text-anchor": "middle" }, g, n.sub);
+    }
+    g.addEventListener("click", function () { pause(); go(i + 1); });
+    g.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); pause(); go(i + 1); } });
+    return g;
+  });
+
+  /* ---------- Story ---------- */
+  var STEPS = [
+    { who: "The Atelier", title: "Every client conversation, in one place",
+      body: "Three months of past Zoom calls to start, every new Fathom call from here on, and the wins the team shares in Slack. Internal calls are left out.",
+      lit: ["src0", "src1", "src2", "pa0", "pa1", "pa2"],
+      pv: '<div class="pv-k">Coming in this week</div><div class="chips"><span class="chip">Strategy call · 43 min</span><span class="chip">Meta Ads office hours</span><span class="chip">Google Ads office hours</span><span class="chip">#social-proof-and-results</span></div>' },
+    { who: "The Atelier", title: "The moments worth keeping",
+      body: "Each call is read for client results, praise, recurring questions and stories. Every moment goes into the ledger with the exact words and a link back to the recording.",
+      node: 0, lit: ["tie-down"], pv: '<div class="pv-k">Moment saved</div><q>Ten weeks without posting, and the leads didn’t stop.</q><div class="meta">Soundbite · Result · 07:12 in the recording</div>' },
+    { who: "The Atelier", title: "A short list, once a week",
+      body: "Moments are weighed against WIA’s voice guide and content strategy, and checked against what’s already been made. Only the strongest three to five reach you.",
+      node: 1, lit: ["tie-up"], pv: '<div class="pv-k">This week’s shortlist</div><ol><li>Leads without posting<i style="width:100%"></i></li><li>Defining your unique value<i style="width:78%"></i></li><li>Google or Meta first?<i style="width:61%"></i></li></ol>' },
+    { who: "You decide · about 2 min", title: "You pick the angle",
+      body: "Approve, pass, or add a line of direction, right in Slack. Confirm the call to action, Accelerators or Elevate. You can also drop in an idea of your own at any time.",
+      node: 2, pv: '<div class="pv-k">Slack · Content Atelier</div><div>Leads without posting: a planner went 10 weeks without posting, and leads held.</div><div class="btns"><span class="btn primary">Approve</span><span class="btn">Pass</span><span class="btn">Steer</span></div>' },
+    { who: "The Atelier", title: "Build the case",
+      body: "Supporting proof from your own calls and Slack: similar client wins, how members describe the problem, how Whitney has explained it before. Then what wedding pros are searching for.",
+      node: 3, pv: '<div class="pv-k">Evidence gathered</div><div class="rows"><div><b>3</b>similar client wins</div><div><b>2</b>member questions on the topic</div><div><b>Search</b>“are meta ads worth it for wedding planners”</div></div>' },
+    { who: "The Atelier", title: "One page before any writing",
+      body: "The core insight, the proof, the message every piece shares, what each format does differently, the call to action, and any questions for you.",
+      node: 4, pv: '<div class="pv-k">Content brief</div><div class="rows"><div><b>Insight</b>Consistency comes from a system</div><div><b>Proof</b>10 weeks, no drop in leads</div><div><b>CTA</b>Elevate waitlist</div></div>' },
+    { who: "You decide · about 5 min", title: "You approve the brief",
+      body: "Approve it, edit it, or send it back. It’s quicker to adjust one page than five drafts, and Giselle can cover this step.",
+      node: 5, pv: '<div class="pv-k">Slack · Content Atelier</div><div>Brief ready: “Ads that keep working while you step away”</div><div class="btns"><span class="btn primary">Approve</span><span class="btn">Edit</span><span class="btn">Send back</span></div>' },
+    { who: "The Atelier", title: "The full pack, drafted in Whitney’s voice",
+      body: "One email, one carousel and three reel scripts, each with captions, written from the approved brief. Every draft is checked against the framework and voice guide before anyone sees it.",
+      node: 6, pv: '<div class="pv-k">Drafting</div><div class="chips"><span class="chip ok">Email</span><span class="chip ok">Carousel</span><span class="chip ok">Reel 1</span><span class="chip ok">Reel 2</span><span class="chip">Reel 3</span></div><div class="bar"><i></i></div>' },
+    { who: "You decide", title: "You sign off, and Giselle takes it from there",
+      body: "Edit, approve, and the copy is ready for Canva, Descript and the email tool. Nothing is ever posted or sent automatically.",
+      node: 7, lit: ["out0", "out1", "out2", "out3", "out4", "po0", "po1", "po2", "po3", "po4"],
+      pv: '<div class="pv-k">Pack approved</div><div>Five pieces sent to Giselle, ready to design and schedule.</div><div class="meta">Nothing is posted automatically.</div>' },
+    { who: "Every week", title: "It gets sharper over time",
+      body: "When you pass on an idea or edit a draft, the Atelier notes why. Those notes become updates to how it picks and how it writes, and you approve every update.",
+      lit: ["loop", "loop-arrow"], allDone: true,
+      pv: '<div class="pv-k">Learning from you</div><div>Passed: “done this before”</div><div class="meta">Next week: fewer repeats of recent topics</div>' }
+  ];
+
+  var capNum = document.getElementById("cap-num"), capText = document.getElementById("cap-text"),
+      preview = document.getElementById("preview"), progress = document.getElementById("progress"),
+      bottom = document.getElementById("bottom"), playBtn = document.getElementById("btn-play");
+  var DUR = 5800, current = -1, timer = null;
+  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var playing = !reduce;
+  bottom.style.setProperty("--dur", DUR + "ms");
+
+  var segs = STEPS.map(function (s, i) {
+    var b = document.createElement("button");
+    b.type = "button"; b.className = "seg"; b.id = "seg-" + i;
+    b.setAttribute("aria-label", "Step " + (i + 1) + ": " + s.title);
+    b.addEventListener("click", function () { pause(); go(i); });
+    progress.appendChild(b);
+    return b;
+  });
+
+  var PLAY = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg>';
+  var PAUSE = '<svg viewBox="0 0 16 16" aria-hidden="true"><rect x="3.5" y="2.5" width="3" height="11" rx="1" fill="currentColor"/><rect x="9.5" y="2.5" width="3" height="11" rx="1" fill="currentColor"/></svg>';
+
+  function restartAnim(node) { node.classList.remove("anim"); void node.offsetWidth; node.classList.add("anim"); }
+
+  function go(i) {
+    current = (i + STEPS.length) % STEPS.length;
+    var s = STEPS[current];
+    nodeEls.forEach(function (g, k) {
+      g.classList.toggle("active", s.node === k);
+      g.classList.toggle("done", !!s.allDone || (s.node != null && k < s.node));
+    });
+    svg.querySelectorAll(".lit").forEach(function (e) { e.classList.remove("lit"); });
+    (s.lit || []).forEach(function (id) { var e = document.getElementById(id); if (e) e.classList.add("lit"); });
+
+    capNum.innerHTML = String(current + 1).padStart(2, "0") + "<small>of " + STEPS.length + "</small>";
+    capText.innerHTML = '<div class="who">' + s.who + '</div><h2>' + s.title + '</h2><p>' + s.body + '</p>';
+    preview.innerHTML = s.pv;
+    restartAnim(capText); restartAnim(preview);
+
+    segs.forEach(function (b, k) {
+      b.classList.toggle("done", k < current);
+      b.classList.remove("active");
+      b.setAttribute("aria-current", k === current ? "step" : "false");
+    });
+    void segs[current].offsetWidth;
+    segs[current].classList.add("active");
+    if (playing) { clearTimeout(timer); timer = setTimeout(function () { go(current + 1); }, DUR); }
+  }
+  function renderPlay() {
+    playBtn.innerHTML = playing ? PAUSE : PLAY;
+    playBtn.setAttribute("aria-label", playing ? "Pause walkthrough" : "Play walkthrough");
+    bottom.classList.toggle("playing", playing);
+  }
+  function pause() { playing = false; clearTimeout(timer); renderPlay(); }
+  function play() { playing = true; renderPlay(); go(current); }
+
+  document.getElementById("btn-prev").addEventListener("click", function () { pause(); go(current - 1); });
+  document.getElementById("btn-next").addEventListener("click", function () { pause(); go(current + 1); });
+  playBtn.addEventListener("click", function () { playing ? pause() : play(); });
+  document.addEventListener("keydown", function (e) {
+    if (e.target.closest && e.target.closest("button, [role=button]") && (e.key === " " || e.key === "Enter")) return;
+    if (e.key === "ArrowRight") { pause(); go(current + 1); }
+    if (e.key === "ArrowLeft") { pause(); go(current - 1); }
+    if (e.key === " ") { e.preventDefault(); playing ? pause() : play(); }
+  });
+
+  renderPlay();
+  go(0);
+
+  /* ---------- Flowing ideas ---------- */
+  if (reduce) return;
+  var particles = [], X = NODES.map(function (n) { return n.x; });
+  function seq() {
+    return [
+      { t: "path", el: srcPaths[Math.floor(Math.random() * 3)], dur: 1700 },
+      { t: "line", x0: X[0] - R, x1: X[1], dur: 900 },
+      { t: "filter", p: 0.3 },
+      { t: "line", x0: X[1], x1: X[2], dur: 700 },
+      { t: "hold", dur: 700 },
+      { t: "line", x0: X[2], x1: X[5], dur: 1800 },
+      { t: "hold", dur: 700 },
+      { t: "line", x0: X[5], x1: X[7], dur: 1200 },
+      { t: "hold", dur: 600 },
+      { t: "split" }
+    ];
+  }
+  function spawn(list, x, y) {
+    var px = x || SRC_X + SRC_W, py = y || SPINE_Y;
+    var c = el("circle", { class: "particle", r: 4.6, cx: px, cy: py }, gParticles);
+    particles.push({ c: c, s: list, i: 0, t: 0, x: px, y: py });
+  }
+  var last = performance.now(), acc = 0;
+  function tick(now) {
+    var dt = Math.min(64, now - last); last = now; acc += dt;
+    if (acc > 440 && particles.length < 80) { acc = 0; spawn(seq()); }
+    for (var k = particles.length - 1; k >= 0; k--) {
+      var p = particles[k], seg = p.s[p.i];
+      if (!seg) { p.c.remove(); particles.splice(k, 1); continue; }
+      if (seg.t === "filter") { if (Math.random() > seg.p) p.s = p.s.slice(0, p.i + 1).concat([{ t: "fade", dur: 450 }]); p.i++; continue; }
+      if (seg.t === "split") {
+        outPaths.forEach(function (op) { spawn([{ t: "path", el: op, dur: 1000 }, { t: "fade", dur: 500 }], p.x, p.y); });
+        p.c.remove(); particles.splice(k, 1); continue;
+      }
+      p.t += dt;
+      var f = Math.min(1, p.t / seg.dur), e = f < .5 ? 2 * f * f : 1 - Math.pow(-2 * f + 2, 2) / 2;
+      if (seg.t === "path") { var L = seg.el.getTotalLength(), pt = seg.el.getPointAtLength(e * L); p.x = pt.x; p.y = pt.y; }
+      if (seg.t === "line") { p.x = seg.x0 + (seg.x1 - seg.x0) * e; p.y = SPINE_Y; }
+      if (seg.t === "fade") p.c.setAttribute("opacity", 1 - f);
+      p.c.setAttribute("cx", p.x.toFixed(1)); p.c.setAttribute("cy", p.y.toFixed(1));
+      if (f >= 1) { p.i++; p.t = 0; }
+    }
+    requestAnimationFrame(tick);
+  }
+  requestAnimationFrame(tick);
+}
+(function () {
+  var done = false;
+  function run() { if (!done) { done = true; initAtelier(); } }
+  if (document.fonts && document.fonts.ready) { document.fonts.ready.then(run); setTimeout(run, 2500); } else { run(); }
+})();
+</script>
+</body>
+</html>

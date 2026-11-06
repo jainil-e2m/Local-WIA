@@ -1,0 +1,25 @@
+{
+  "week": 3,
+  "slug": "sonnet",
+  "model": "anthropic/claude-sonnet-5.5",
+  "reasoning_effort": "high",
+  "run_id": "week3-week4-model-quality-20261015-w3-sonnet",
+  "source_count": 5,
+  "source_turns": 1837,
+  "source_packet_sha256": "657e096b0ef2d6963760c0a856b7b098a1330776186aeb6d5bb4d820466513ad",
+  "extraction_request_hash": "e8988a323989a6d405c52af5575a3f116ba92eba5931e474b88e5f539bf4ae53",
+  "request_characters": 217841,
+  "catalog_hash": "acf62bfaeb870784d5548cf612040353173bd8f5ce49d9392111cf82715a970a",
+  "capacity_check": {
+    "method": "conservative_utf8_byte_allowance_not_native_token_count",
+    "input_allowance": 216003,
+    "margin": 21601,
+    "advertised_eligible_endpoints": 8,
+    "output_reserve": 128000,
+    "request_has_explicit_output_cap": false,
+    "fits_conservative_allowance": true,
+    "provider_defaults_and_limits_still_apply": true
+  },
+  "timeout_seconds": 900.0,
+  "angle_request_status": "Built only after this model's whole extraction passes validation"
+}

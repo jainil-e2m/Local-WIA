@@ -1,0 +1,1640 @@
+{
+ "pack_id": "pack_86676107663f5a8e70c990ec",
+ "contract_version": "content_pack_v2",
+ "title": "What goes into our post-tour follow-up",
+ "week_id": "week_2026-06-10",
+ "source_brief_id": "brief_8412a1852eaf482dbf4217a6983d5c96",
+ "source_brief_hash": "30b5592e76cfba9bc7ac0eacdb99088ca99b332c9bdf17e23890bc450532a888",
+ "angle_id": "angle_12a3131518bd475997b0d47f548fa2f5",
+ "pillar": "CONVERT",
+ "rank": 2,
+ "state": "in_review",
+ "state_reason": null,
+ "approval_status": "pending",
+ "manifest_hash": "cca7722832b836a14758a52a13f0ec5a263bced6e3856ae5e1631457c102ae73",
+ "approved_by": null,
+ "approved_at": null,
+ "created_at": "2026-10-27T03:05:42.455922+00:00",
+ "supersedes_id": "pack_bb7e06f1539a45c9925bacfabb7fa1fb",
+ "run_id": "pack_run_86676107663f5a8e70c990ec",
+ "run_active": false,
+ "pieces": [
+  {
+   "key": "email",
+   "channel": "email",
+   "label": "Email",
+   "kind": null,
+   "ordinal": 1,
+   "origin": "finished",
+   "not_written_reason": null,
+   "brief_key": "email",
+   "content": {
+    "cta": "reply",
+    "job": "Standalone list email. Tell the full exchange from more tours and unanswered follow-up to the client's within-a-week practice and prospective texts. Connect the point to the complete LeadLock system with one reply invitation.",
+    "body": "She told me she pays attention to whether her venue is the first stop on a couple's tour list or the last one.\n\nWhen she knows it's the last, she gets in touch within a week. She asks, directly and politely, whether they've picked their venue or haven't decided yet. It's a question that fits a couple who has finished looking.\n\nA couple fresh off their first tour is in a different place. They're still comparing, and they may not be ready to answer that.\n\n**Before we shape follow-up for a venue, we want to know how far along each couple is in choosing.**\n\nShe already had automated follow-up emails in place, and she was reaching out personally on top of them. She raised the idea of adding texts after the tour, and I told her we could work those in.\n\nHere's why her distinction matters to us. You're already generating inquiries, hosting tours and talking with couples yourself. The support around that work should build on what you learn during the visit, so a couple who's still comparing and a couple who's close to deciding each hear something that fits where they are.\n\nLeadLock is the platform where we build your email and text follow-up. Inside it, we set up The Foolproof Follow-Up Advantage, our email-and-text follow-up system, around your own conversations. You run the platform, and the personal contact couples get from you stays yours.",
+    "ending": "If you'd like follow-up support shaped around what you learn on your tours, simply reply to this email and let's talk about your business.\n\nTalk soon,\nWhitney",
+    "opening": "Hi {{contact.first_name}},\n\nOne of our venue clients had more tours on her calendar than before, and more couples who stopped replying once the tour was over.\n\nSo I asked her what couples were ready to do when they walked out. Did they still have other venues to see, or were they ready to move forward?",
+    "preview": "A couple still comparing venues needs a different next message than one who's done touring.",
+    "register": "written",
+    "send_header": {
+     "date": "Next available Tuesday, exact date for WIA to confirm",
+     "send_time": "10:00 a.m. Central, proposed for WIA to confirm",
+     "recipients": "Proposed segment: venue-owner leads on the WIA list who have not purchased LeadLock; confirm segment availability and exclusions"
+    },
+    "subject_options": [
+     "What is a couple ready to do after your venue tour?",
+     "First tour or last tour changes your follow-up",
+     "Your post-tour follow-up should know where the couple is"
+    ],
+    "offer_descriptor": "the platform where we build your email and text follow-up"
+   },
+   "brief_copy": {
+    "cta": "reply",
+    "job": "Standalone list email. Tell the full exchange from more tours and unanswered follow-up to the client's within-a-week practice and prospective texts. Connect the point to the complete LeadLock system with one reply invitation.",
+    "body": "She explained that she gauges whether her venue is the couple's first tour or their last.\n\nWhen she knows it's their last, she asks directly and politely, within a week, whether they've chosen a venue or are still undecided. That helps her know how to proceed.\n\nA couple on their first tour is still comparing venues. They may have enjoyed the visit without being ready to answer that same question.\n\n**A completed venue tour doesn't tell us which conversation the couple is ready to have next.**\n\nShe already had automated follow-up emails in place and was also reaching out personally. She raised adding texts after the tour, and I agreed that we could incorporate them.\n\nIf you're generating inquiries and hosting tours, follow-up support should build on that work. What you learn during a visit can tell us more than the fact that the couple came through your doors.\n\nLeadLock, the platform where we build your email and text follow-up, supports your contact with couples. The Foolproof Follow-Up Advantage is the system we build in it, from inquiry nurture and consultation scheduling to reminders and follow-up before and after the consultation.\n\nYou run the platform and continue your own conversations. We want the email-and-text support around those conversations to reflect where the couple is in their venue search, rather than treat every tour as a sign that they're ready to book.",
+    "ending": "If you'd like support with the follow-up around your venue's inquiries and tours, simply reply to this email and let's talk about your business.\n\nTalk soon,\nWhitney",
+    "opening": "Hi {{contact.first_name}},\n\nA venue client was booking more tours, and more couples were also going quiet afterwards.\n\nI asked what couples were ready to do when they left. Did they have other venues to visit, or were they ready to move forward?",
+    "preview": "Some couples have finished touring. Others still have venues to see, and the next conversation can differ.",
+    "register": "written",
+    "send_header": {
+     "date": "Next available Tuesday, exact date for WIA to confirm",
+     "send_time": "10:00 a.m. Central, proposed for WIA to confirm",
+     "recipients": "Proposed segment: venue-owner leads on the WIA list who have not purchased LeadLock; confirm segment availability and exclusions"
+    },
+    "subject_options": [
+     "A venue tour doesn't mean a couple is ready to book",
+     "How close are your toured couples to choosing?",
+     "Post-tour follow-up needs more than a completed visit"
+    ],
+    "offer_descriptor": "the platform where we build your email and text follow-up"
+   },
+   "locks": [],
+   "findings": [],
+   "changes": [
+    {
+     "kind": "finished",
+     "path": "body",
+     "after": "She told me she pays attention to whether her venue is the first stop on a couple's tour list or the last one.\n\nWhen she knows it's the last, she gets in touch within a week. She asks, directly and politely, whether they've picked their venue or haven't decided yet. It's a question that fits a couple who has finished looking.\n\nA couple fresh off their first tour is in a different place. They're still comparing, and they may not be ready to answer that.\n\n**Before we shape follow-up for a venue, we want to know how far along each couple is in choosing.**\n\nShe already had automated follow-up emails in place, and she was reaching out personally on top of them. She raised the idea of adding texts after the tour, and I told her we could work those in.\n\nThat conversation is a good picture of how we think about follow-up. You're already generating inquiries, hosting tours and talking with couples yourself. The support around that work should build on what you learn during the visit, so a couple who's still comparing and a couple who's close to deciding each hear something that fits where they are.\n\nLeadLock is the platform where we build your email and text follow-up. Inside it, we set up The Foolproof Follow-Up Advantage, our email-and-text follow-up system, around your own conversations. You run the platform, and the personal contact couples get from you stays yours.",
+     "before": "She explained that she gauges whether her venue is the couple's first tour or their last.\n\nWhen she knows it's their last, she asks directly and politely, within a week, whether they've chosen a venue or are still undecided. That helps her know how to proceed.\n\nA couple on their first tour is still comparing venues. They may have enjoyed the visit without being ready to answer that same question.\n\n**A completed venue tour doesn't tell us which conversation the couple is ready to have next.**\n\nShe already had automated follow-up emails in place and was also reaching out personally. She raised adding texts after the tour, and I agreed that we could incorporate them.\n\nIf you're generating inquiries and hosting tours, follow-up support should build on that work. What you learn during a visit can tell us more than the fact that the couple came through your doors.\n\nLeadLock, the platform where we build your email and text follow-up, supports your contact with couples. The Foolproof Follow-Up Advantage is the system we build in it, from inquiry nurture and consultation scheduling to reminders and follow-up before and after the consultation.\n\nYou run the platform and continue your own conversations. We want the email-and-text support around those conversations to reflect where the couple is in their venue search, rather than treat every tour as a sign that they're ready to book."
+    },
+    {
+     "kind": "finished",
+     "path": "ending",
+     "after": "If you'd like follow-up support shaped around what you learn on your tours, simply reply to this email and let's talk about your business.\n\nTalk soon,\nWhitney",
+     "before": "If you'd like support with the follow-up around your venue's inquiries and tours, simply reply to this email and let's talk about your business.\n\nTalk soon,\nWhitney"
+    },
+    {
+     "kind": "finished",
+     "path": "opening",
+     "after": "Hi {{contact.first_name}},\n\nOne of our venue clients had more tours on her calendar than before, and more couples who stopped replying once the tour was over.\n\nSo I asked her what couples were ready to do when they walked out. Did they still have other venues to see, or were they ready to move forward?",
+     "before": "Hi {{contact.first_name}},\n\nA venue client was booking more tours, and more couples were also going quiet afterwards.\n\nI asked what couples were ready to do when they left. Did they have other venues to visit, or were they ready to move forward?"
+    },
+    {
+     "kind": "finished",
+     "path": "preview",
+     "after": "A couple still comparing venues needs a different next message than one who's done touring.",
+     "before": "Some couples have finished touring. Others still have venues to see, and the next conversation can differ."
+    },
+    {
+     "kind": "finished",
+     "path": "subject_options[0]",
+     "after": "What is a couple ready to do after your venue tour?",
+     "before": "A venue tour doesn't mean a couple is ready to book"
+    },
+    {
+     "kind": "finished",
+     "path": "subject_options[1]",
+     "after": "First tour or last tour changes your follow-up",
+     "before": "How close are your toured couples to choosing?"
+    },
+    {
+     "kind": "finished",
+     "path": "subject_options[2]",
+     "after": "Your post-tour follow-up should know where the couple is",
+     "before": "Post-tour follow-up needs more than a completed visit"
+    },
+    {
+     "kind": "repaired",
+     "path": "body",
+     "after": "She told me she pays attention to whether her venue is the first stop on a couple's tour list or the last one.\n\nWhen she knows it's the last, she gets in touch within a week. She asks, directly and politely, whether they've picked their venue or haven't decided yet. It's a question that fits a couple who has finished looking.\n\nA couple fresh off their first tour is in a different place. They're still comparing, and they may not be ready to answer that.\n\n**Before we shape follow-up for a venue, we want to know how far along each couple is in choosing.**\n\nShe already had automated follow-up emails in place, and she was reaching out personally on top of them. She raised the idea of adding texts after the tour, and I told her we could work those in.\n\nHere's why her distinction matters to us. You're already generating inquiries, hosting tours and talking with couples yourself. The support around that work should build on what you learn during the visit, so a couple who's still comparing and a couple who's close to deciding each hear something that fits where they are.\n\nLeadLock is the platform where we build your email and text follow-up. Inside it, we set up The Foolproof Follow-Up Advantage, our email-and-text follow-up system, around your own conversations. You run the platform, and the personal contact couples get from you stays yours.",
+     "before": "She told me she pays attention to whether her venue is the first stop on a couple's tour list or the last one.\n\nWhen she knows it's the last, she gets in touch within a week. She asks, directly and politely, whether they've picked their venue or haven't decided yet. It's a question that fits a couple who has finished looking.\n\nA couple fresh off their first tour is in a different place. They're still comparing, and they may not be ready to answer that.\n\n**Before we shape follow-up for a venue, we want to know how far along each couple is in choosing.**\n\nShe already had automated follow-up emails in place, and she was reaching out personally on top of them. She raised the idea of adding texts after the tour, and I told her we could work those in.\n\nThat conversation is a good picture of how we think about follow-up. You're already generating inquiries, hosting tours and talking with couples yourself. The support around that work should build on what you learn during the visit, so a couple who's still comparing and a couple who's close to deciding each hear something that fits where they are.\n\nLeadLock is the platform where we build your email and text follow-up. Inside it, we set up The Foolproof Follow-Up Advantage, our email-and-text follow-up system, around your own conversations. You run the platform, and the personal contact couples get from you stays yours."
+    }
+   ],
+   "published": [],
+   "content_hash": "3587533330b369d19f435ed441d20f01895d1c6fc0df95da19c4a9fff257f0e1",
+   "editable": [
+    "send_header",
+    "subject_options",
+    "preview",
+    "opening",
+    "body",
+    "ending"
+   ]
+  },
+  {
+   "key": "carousel",
+   "channel": "carousel",
+   "label": "Carousel",
+   "kind": null,
+   "ordinal": 2,
+   "origin": "finished",
+   "not_written_reason": null,
+   "brief_key": "carousel",
+   "content": {
+    "cta": "offer",
+    "job": "Seven-slide written story. Move from more tours and unanswered follow-up through Whitney's question, the client's concrete practice and the proposed texts. Connect the same point to the full LeadLock system. The caption carries the only Instagram offer CTA.",
+    "title": "What a completed venue tour doesn't tell you",
+    "slides": [
+     {
+      "job": "Lead with the stake and carry the promise that follow-up should reflect the couple's place in the venue search.",
+      "text": "A completed venue tour doesn't tell you how close a couple is to choosing.\n\nIt only tells you they came to see your space.\n\n**Your follow-up after the tour should reflect where they are in their venue search.**",
+      "number": 1
+     },
+     {
+      "job": "Begin the exchange with Whitney's question and the client's explanation.",
+      "text": "A venue client described more tour bookings and more couples going quiet afterwards.\n\nWe asked whether couples left with other venues to visit or were ready to move forward.\n\nThe client explained that she gauges whether her venue is the couple's first tour or their last.",
+      "number": 2
+     },
+     {
+      "job": "Show the concrete practice that makes the tour-order distinction useful.",
+      "text": "When she knows her venue was the last tour, she reaches out within a week.\n\nShe asks, directly and politely, whether they've made their choice yet.\n\nA couple on their first visit is still comparing, and that question can wait.",
+      "number": 3
+     },
+     {
+      "job": "Complete the exchange with the existing support and prospective text addition.",
+      "text": "She already had automated email follow-up and continued to reach out personally.\n\nShe raised adding texts after the tour. We agreed that those could be incorporated.",
+      "number": 4
+     },
+     {
+      "job": "State the WIA belief once and connect it to the reader's tour conversations.",
+      "text": "**We believe follow-up should start with what a couple is ready to do next.**\n\nOn a tour, you may learn that more visits are planned, or that yours was the last stop.\n\nThat's what we want the emails and texts around your conversations to reflect.",
+      "number": 5
+     },
+     {
+      "job": "Name the complete offer and preserve the distinction between platform, system and personal follow-up.",
+      "text": "LeadLock is our follow-up platform.\n\nInside it, we build The Foolproof Follow-Up Advantage, the email-and-text follow-up system that supports the conversations you have with couples.\n\nYou run the platform. The personal contact stays with you.",
+      "number": 6
+     },
+     {
+      "job": "Include both advertising delivery preferences and bridge to the caption's invitation without adding a second offer ask.",
+      "text": "There are two ways to work with us on your ads.\n\nWe manage them for you, or we launch your campaigns, then guide you while you run them.\n\nEither way, we can build email-and-text support around your follow-up, shaped by what you learn on every tour.",
+      "number": 7
+     }
+    ],
+    "caption": {
+     "body": "You put real care into every tour. You walk couples through the space and help them picture their wedding there. With more tours on the calendar, though, more follow-up can go unanswered, and it's hard to tell which couples are still deciding and which have moved on.\n\nA venue client was seeing exactly that. We asked her what couples were ready to do when they left. She explained that she pays attention to whether her venue falls early in their search or at the end of it.\n\nWhen it's the last tour, she follows up within a week and politely asks whether they've settled on a venue yet. Someone who's only started touring may not be ready for that question.\n\nShe already had automated emails working alongside her personal follow-up, and she raised adding texts after the tour. We agreed they could be added.\n\nThat's the thinking behind our follow-up support. LeadLock, our follow-up platform, is where we build The Foolproof Follow-Up Advantage, the email-and-text system around your own conversations with couples. You run it, you stay the voice couples hear from, and we shape the messages around what you learn on the tour.",
+     "hook": "Before we shape post-tour emails and texts for a venue, we want to know one thing about the couple.",
+     "ending": "If you'd like your ads backed by post-tour emails and texts shaped around what you learn on your tours, DM us \"ADS\" and let's talk about LeadLock and The Foolproof Follow-Up Advantage."
+    },
+    "register": "written",
+    "no_offer_ending": "If what you learn on your tours already shapes how you follow up, save this for the next time you plan your post-tour emails and texts.",
+    "offer_descriptor": "our follow-up platform"
+   },
+   "brief_copy": {
+    "cta": "offer",
+    "job": "Seven-slide written story. Move from more tours and unanswered follow-up through Whitney's question, the client's concrete practice and the proposed texts. Connect the same point to the full LeadLock system. The caption carries the only Instagram offer CTA.",
+    "title": "More venue tours can come with more unanswered follow-up.",
+    "slides": [
+     {
+      "job": "Lead with the stake and carry the promise that follow-up should reflect the couple's place in the venue search.",
+      "text": "More venue tours can come with more unanswered follow-up.\n\nA couple who has just started comparing venues may need a different conversation from one who has finished touring.\n\nWe want your follow-up to reflect where they are in that search.",
+      "number": 1
+     },
+     {
+      "job": "Begin the exchange with Whitney's question and the client's explanation.",
+      "text": "A venue client described more tour bookings and more couples going quiet afterwards.\n\nWe asked whether couples left with other venues to visit or were ready to move forward.\n\nThe client explained that she gauges whether her venue is the couple's first tour or their last.",
+      "number": 2
+     },
+     {
+      "job": "Show the concrete practice that makes the tour-order distinction useful.",
+      "text": "When she knows her venue was the last tour, she follows up directly and politely within a week.\n\nShe asks whether the couple has chosen a venue or is still undecided, so she knows how to proceed.\n\nA couple on their first tour is still comparing venues. They aren't necessarily ready to answer that same question.",
+      "number": 3
+     },
+     {
+      "job": "Complete the exchange with the existing support and prospective text addition.",
+      "text": "She already had automated email follow-up and continued to reach out personally.\n\nShe raised adding texts after the tour. We agreed that those could be incorporated.",
+      "number": 4
+     },
+     {
+      "job": "State the WIA belief once and connect it to the reader's tour conversations.",
+      "text": "**We want to know what a couple is ready to do before we shape the follow-up.**\n\nYou may learn during the tour that they have other venues booked or that they've finished visiting their options.\n\nThat matters to the next conversation. Email and text can support your contact with the couple without assuming that every visit ends at the same point.",
+      "number": 5
+     },
+     {
+      "job": "Name the complete offer and preserve the distinction between platform, system and personal follow-up.",
+      "text": "LeadLock is our follow-up platform.\n\nThe Foolproof Follow-Up Advantage is the email-and-text system we build in it. It supports inquiry nurture, consultation scheduling and reminders, and follow-up before and after consultations.\n\nYou run the platform and continue speaking with couples. The support around a tour belongs within that broader system.",
+      "number": 6
+     },
+     {
+      "job": "Include both advertising delivery preferences and bridge to the caption's invitation without adding a second offer ask.",
+      "text": "Whether you want our team to manage your ads or launch them and guide you while you run them, we can also build the email-and-text support around your own follow-up.\n\nYou bring what you've learned from hosting the tour. We bring the support around the conversations still ahead.\n\nThat gives us more to work with than the fact that a couple visited your venue.",
+      "number": 7
+     }
+    ],
+    "caption": {
+     "body": "You already help couples experience your venue and picture their wedding there. When more tours also bring more unanswered messages, you want follow-up that builds on what happened during the visit.\n\nWe asked a venue client what couples were ready to do when they left. She explained that she distinguishes an early visit in their search from the final tour on their list.\n\nAfter a last tour, she politely asks within a week whether they've chosen a venue or are still undecided. A couple who has just started touring is still comparing options.\n\nShe had automated emails alongside personal follow-up and raised including post-tour texts. Whitney agreed that those could be incorporated.\n\nLeadLock, our follow-up platform, is where we build The Foolproof Follow-Up Advantage: the email-and-text system supporting inquiries, consultation scheduling, reminders and follow-up around those conversations.\n\nYou run the platform and continue speaking with couples. We want that support to reflect what you learn on the tour, rather than assume that visiting means they're ready to book.",
+     "hook": "The next conversation after a venue tour depends on what the couple still has to do.",
+     "ending": "DM us \"ADS\" and let's talk about follow-up support for your venue."
+    },
+    "register": "written",
+    "no_offer_ending": null,
+    "offer_descriptor": "our follow-up platform"
+   },
+   "locks": [
+    {
+     "at": "2026-10-25T16:59:34.150974+00:00",
+     "path": "slides[1].text",
+     "author": "kenil.shah@e2m.solutions",
+     "origin": "gate_two",
+     "delegated": true
+    },
+    {
+     "at": "2026-10-25T16:59:34.150974+00:00",
+     "path": "slides[3].text",
+     "author": "kenil.shah@e2m.solutions",
+     "origin": "gate_two",
+     "delegated": true
+    },
+    {
+     "at": "2026-10-25T17:07:51.335747+00:00",
+     "path": "slides[0].text",
+     "author": "ai@weddingindustryads.com",
+     "origin": "pack",
+     "delegated": true
+    },
+    {
+     "at": "2026-10-25T17:07:52.438852+00:00",
+     "path": "slides[2].text",
+     "author": "ai@weddingindustryads.com",
+     "origin": "pack",
+     "delegated": true
+    },
+    {
+     "at": "2026-10-25T17:07:53.646260+00:00",
+     "path": "slides[4].text",
+     "author": "ai@weddingindustryads.com",
+     "origin": "pack",
+     "delegated": true
+    }
+   ],
+   "findings": [
+    {
+     "finding_id": "check_6e68377cdefbcab7",
+     "source": "check",
+     "check": "copy.sibling_overlap",
+     "piece": "carousel",
+     "path": "slides[2].text",
+     "sentence": null,
+     "severity": "warning",
+     "message": "Carousel slide 3 and the email's body repeat the same words (\"a week she asks directly and politely whether...\"): siblings repeat the idea, never the language",
+     "status": "open",
+     "resolution": null,
+     "can_attest": false
+    }
+   ],
+   "changes": [
+    {
+     "kind": "finished",
+     "path": "title",
+     "after": "What a completed venue tour doesn't tell you",
+     "before": "More venue tours can come with more unanswered follow-up."
+    },
+    {
+     "kind": "finished",
+     "path": "slides[0].text",
+     "after": "A completed venue tour doesn't tell you how close a couple is to choosing.\n\nIt only tells you they came to see your space.\n\n**Your follow-up after the tour should reflect where they are in their venue search.**",
+     "before": "More venue tours can come with more unanswered follow-up.\n\nA couple who has just started comparing venues may need a different conversation from one who has finished touring.\n\nWe want your follow-up to reflect where they are in that search."
+    },
+    {
+     "kind": "finished",
+     "path": "slides[2].text",
+     "after": "When she knows her venue was the last tour, she reaches out within a week.\n\nShe asks, directly and politely, whether they've made their choice yet.\n\nA couple on their first visit is still comparing, and that question can wait.",
+     "before": "When she knows her venue was the last tour, she follows up directly and politely within a week.\n\nShe asks whether the couple has chosen a venue or is still undecided, so she knows how to proceed.\n\nA couple on their first tour is still comparing venues. They aren't necessarily ready to answer that same question."
+    },
+    {
+     "kind": "finished",
+     "path": "slides[4].text",
+     "after": "**We believe follow-up should start with what a couple is ready to do next.**\n\nOn a tour, you may learn that more visits are planned, or that yours was the last stop.\n\nThat's what we want the emails and texts around your conversations to reflect.",
+     "before": "**We want to know what a couple is ready to do before we shape the follow-up.**\n\nYou may learn during the tour that they have other venues booked or that they've finished visiting their options.\n\nThat matters to the next conversation. Email and text can support your contact with the couple without assuming that every visit ends at the same point."
+    },
+    {
+     "kind": "finished",
+     "path": "slides[5].text",
+     "after": "LeadLock is our follow-up platform.\n\nInside it, we build The Foolproof Follow-Up Advantage, the email-and-text follow-up system that supports the conversations you have with couples.\n\nYou run the platform. The personal contact stays with you.",
+     "before": "LeadLock is our follow-up platform.\n\nThe Foolproof Follow-Up Advantage is the email-and-text system we build in it. It supports inquiry nurture, consultation scheduling and reminders, and follow-up before and after consultations.\n\nYou run the platform and continue speaking with couples. The support around a tour belongs within that broader system."
+    },
+    {
+     "kind": "finished",
+     "path": "slides[6].text",
+     "after": "There are two ways to work with us on your ads.\n\nWe manage them for you, or we launch your campaigns, then guide you while you run them.\n\nEither way, we can build email-and-text support around your follow-up, shaped by what you learn on every tour.",
+     "before": "Whether you want our team to manage your ads or launch them and guide you while you run them, we can also build the email-and-text support around your own follow-up.\n\nYou bring what you've learned from hosting the tour. We bring the support around the conversations still ahead.\n\nThat gives us more to work with than the fact that a couple visited your venue."
+    },
+    {
+     "kind": "finished",
+     "path": "caption.hook",
+     "after": "Before we shape post-tour emails and texts for a venue, we want to know one thing about the couple.",
+     "before": "The next conversation after a venue tour depends on what the couple still has to do."
+    },
+    {
+     "kind": "finished",
+     "path": "caption.body",
+     "after": "You put real care into every tour. You walk couples through the space and help them picture their wedding there. With more tours on the calendar, though, more follow-up can go unanswered, and it's hard to tell which couples are still deciding and which have moved on.\n\nA venue client was seeing exactly that. We asked her what couples were ready to do when they left. She explained that she pays attention to whether her venue falls early in their search or at the end of it.\n\nWhen it's the last tour, she follows up within a week and politely asks whether they've settled on a venue yet. Someone who's only started touring may not be ready for that question.\n\nShe already had automated emails working alongside her personal follow-up, and she raised adding texts after the tour. We agreed they could be added.\n\nThat's the thinking behind our follow-up support. LeadLock, our follow-up platform, is where we build The Foolproof Follow-Up Advantage, the email-and-text system around your own conversations with couples. You run it, you stay the voice couples hear from, and we shape the messages around what you learn on the tour.",
+     "before": "You already help couples experience your venue and picture their wedding there. When more tours also bring more unanswered messages, you want follow-up that builds on what happened during the visit.\n\nWe asked a venue client what couples were ready to do when they left. She explained that she distinguishes an early visit in their search from the final tour on their list.\n\nAfter a last tour, she politely asks within a week whether they've chosen a venue or are still undecided. A couple who has just started touring is still comparing options.\n\nShe had automated emails alongside personal follow-up and raised including post-tour texts. Whitney agreed that those could be incorporated.\n\nLeadLock, our follow-up platform, is where we build The Foolproof Follow-Up Advantage: the email-and-text system supporting inquiries, consultation scheduling, reminders and follow-up around those conversations.\n\nYou run the platform and continue speaking with couples. We want that support to reflect what you learn on the tour, rather than assume that visiting means they're ready to book."
+    },
+    {
+     "kind": "finished",
+     "path": "caption.ending",
+     "after": "If you'd like follow-up support built around what you learn on your tours, DM us \"ADS\" and let's talk about LeadLock and The Foolproof Follow-Up Advantage.",
+     "before": "DM us \"ADS\" and let's talk about follow-up support for your venue."
+    },
+    {
+     "kind": "finished",
+     "path": "no_offer_ending",
+     "after": "If what you learn on your tours already shapes how you follow up, save this for the next time you plan your post-tour emails and texts.",
+     "before": null
+    },
+    {
+     "kind": "repaired",
+     "path": "caption.ending",
+     "after": "If you'd like your ads backed by post-tour emails and texts shaped around what you learn on your tours, DM us \"ADS\" and let's talk about LeadLock and The Foolproof Follow-Up Advantage.",
+     "before": "If you'd like follow-up support built around what you learn on your tours, DM us \"ADS\" and let's talk about LeadLock and The Foolproof Follow-Up Advantage."
+    }
+   ],
+   "published": [],
+   "content_hash": "e0a2bd8a63581aac5757961c185d22a9be2c55645925b18ead8d5e9f673efc84",
+   "editable": [
+    "title",
+    "slides",
+    "caption",
+    "no_offer_ending"
+   ]
+  },
+  {
+   "key": "reel_1",
+   "channel": "reel",
+   "label": "Reel 1",
+   "kind": "central",
+   "ordinal": 3,
+   "origin": "finished",
+   "not_written_reason": null,
+   "brief_key": "reel_1",
+   "content": {
+    "cta": "none",
+    "job": "Shows a venue owner, through one client conversation, why follow-up after a tour should start with where the couple is in their decision.",
+    "kind": "central",
+    "beats": [
+     "A venue client is booking more tours, and more couples are going quiet afterwards.",
+     "Whitney asks whether couples leave with other venues to see or ready to move forward.",
+     "The client explains she gauges first versus last tour, and after a last tour politely asks within a week whether they've chosen.",
+     "Whitney's one-line reaction; a first-tour couple is still comparing.",
+     "The client already has automated emails plus personal follow-up and raises post-tour texts; Whitney agrees they could be worked in.",
+     "Close on shaping follow-up around what the couple is ready to do next."
+    ],
+    "title": "First tour or last tour",
+    "script": "I had a call with one of our venue clients recently, and she was booking more tours, but more of those couples were going quiet afterwards.\n\nSo I asked her a question. When couples leave a tour, do they still have other venues to see, or are they ready to move forward?\n\nAnd she explained that she gauges one thing: is her venue their first tour, or their last?\n\nWhen she knows it's their last, she reaches out within a week and asks, really politely, if they've made their choice or they're still undecided.\n\nI thought that was such a smart distinction.\n\nBecause a couple who's just started touring is still comparing, right? They're not necessarily ready for that question yet.\n\nNow, she already had automated emails going out, and she was following up personally on top of that. She'd been thinking about texting couples after the tour, too, and I told her we could add that.\n\nSo when we shape follow-up after a tour, the fact that a couple visited is only part of the picture. We want to know what they're ready to do next, so every email and text supports the conversation you're already having with them.",
+    "source": "new_script",
+    "caption": {
+     "body": "Couples found you, inquired and came out to see the venue in person. You walked them through it and helped them picture the day. Then some of them stop answering, and you're left wondering whether they're still deciding or have moved on.\n\nI talked about this with one of our venue clients recently. Her tours were up, and so was the number of couples going quiet. I asked whether those couples walked out with more visits planned or ready to take the next step.\n\nShe explained that she gauges where her venue falls in a couple's search. If it's their final visit, she follows up within a week and asks, kindly and plainly, whether they've made a decision. Someone at the start of their search isn't necessarily ready for that.\n\nShe already had automated emails working next to her own personal outreach, and when she raised adding post-tour texts, I said we could add those.\n\nWhat you learn on a tour tells us what the next message should make room for. The emails and texts support the contact you're already having with couples, at the point in the search they've actually reached.",
+     "hook": "When more couples tour your venue and more of them go quiet, it's worth asking where they were in their search.",
+     "ending": "-Whitney"
+    },
+    "premise": "A completed venue tour doesn't tell you how close a couple is to choosing, so we ask where they are in their search before shaping follow-up, shown through one venue client's first-versus-last-tour distinction.",
+    "screens": null,
+    "register": "spoken",
+    "takeaway": "A couple who toured my venue isn't automatically ready to decide, and my follow-up should fit where they are in their search.",
+    "cover_text": "The question I asked about couples who go quiet after venue tours",
+    "production": "face_to_camera",
+    "timestamps": [
+     "4:43 to 5:25: the client describes more tour bookings and more couples not responding; Whitney notes it's great to see more tours.",
+     "35:23 to 35:47: Whitney asks whether couples leave tours still exploring or ready to move forward.",
+     "35:57 to 36:42: the client explains she gauges whether her venue is the couple's first tour or their last, and after a last tour politely asks within a week whether they've chosen or are still undecided.",
+     "36:09 to 36:29: the client describes automated emails plus personal follow-up and raises post-tour texts; Whitney agrees they could be incorporated."
+    ],
+    "on_screen_hook": "More venue tours, and more couples going quiet after them.",
+    "personal_lines": [
+     "I thought that was such a smart distinction."
+    ],
+    "spoken_opening": "I had a call with one of our venue clients recently, and she was booking more tours, but more of those couples were going quiet afterwards.",
+    "no_offer_ending": null,
+    "cover_alternates": [
+     "Is your venue a couple's first tour or their last?",
+     "Before post-tour follow-up, we ask where the couple is"
+    ],
+    "distinct_because": "It answers 'what should follow-up depend on after a tour?' through the whole client exchange: Whitney's question, the client's first-versus-last distinction and the prospective texts. The other Reels each take one separate decision from the same call (when to ask, and what to build around).",
+    "offer_descriptor": null,
+    "read_time_seconds": 80
+   },
+   "brief_copy": {
+    "cta": "none",
+    "job": "Face-to-camera story. Open on more tours and more unanswered follow-up, then tell Whitney's question, the client's tour-order distinction and her concrete practice. Keep the text addition prospective. No offer CTA.",
+    "kind": "central",
+    "beats": [
+     "The venue client describes more tours and more couples going quiet.",
+     "Whitney asks what couples are ready to do when they leave.",
+     "The client explains how she gauges first versus last tours and politely follows up within a week after a last tour.",
+     "The client raises post-tour texts alongside existing emails and personal follow-up; Whitney agrees they could be incorporated.",
+     "Close on shaping support around the conversation the couple is ready to have."
+    ],
+    "title": "More venue tours, more couples going quiet",
+    "script": "A venue client was booking more tours, and she was also hearing back from fewer of the couples she'd followed up with.\n\nSo I asked what couples were ready to do when they left. Did they still have other venues to see, or were they ready to move forward?\n\nShe explained that she gauges whether her venue is their first tour or their last.\n\nAnd when she knows it's their last, she follows up directly, within a week. Very politely, she asks whether they've chosen a venue or they're still undecided.\n\nA couple who's just started touring is still comparing venues. They're not necessarily ready for that same question.\n\nShe already had automated emails, and she was following up personally, too. She brought up adding texts after the tour, and I agreed that we could incorporate them.\n\nWhen we're thinking about the follow-up, we need more than the fact that a couple visited. We want to know what they're ready to do, so the messages can support the conversation you're having with them.",
+    "source": "new_script",
+    "caption": {
+     "body": "You already put care into helping couples picture their wedding at your venue. After the visit, you want to keep that conversation moving without assuming everyone has finished looking.\n\nA venue client described more tour bookings alongside more couples who weren't responding. I asked whether they left with other venues to visit or were ready to move forward.\n\nShe explained that she gauges where her venue falls in their tour list. If it's their final visit, she politely asks within a week whether they've chosen a venue or are still undecided. Someone at the beginning of that list is still comparing options.\n\nShe had automated emails and was also reaching out personally. When she raised including post-tour texts, I agreed that we could incorporate them.\n\nYour conversations on the tour can tell us what the next message needs to make room for, while email and text support the contact you continue to have with the couple.",
+     "hook": "More couples touring your venue doesn't tell you which ones are ready to choose.",
+     "ending": "-Whitney"
+    },
+    "screens": null,
+    "register": "spoken",
+    "cover_text": "More venue tours, more couples going quiet.",
+    "production": "face_to_camera",
+    "on_screen_hook": "This venue was booking more tours. More couples were going quiet afterwards.",
+    "personal_lines": [],
+    "spoken_opening": "A venue client was booking more tours, and she was also hearing back from fewer of the couples she'd followed up with.",
+    "no_offer_ending": null,
+    "cover_alternates": [],
+    "offer_descriptor": null,
+    "read_time_seconds": 83
+   },
+   "locks": [
+    {
+     "at": "2026-10-25T17:07:54.839834+00:00",
+     "path": "script",
+     "author": "ai@weddingindustryads.com",
+     "origin": "pack",
+     "delegated": true
+    }
+   ],
+   "findings": [],
+   "changes": [
+    {
+     "kind": "finished",
+     "path": "script",
+     "after": "I had a call with one of our venue clients recently, and she was booking more tours, but more of those couples were going quiet afterwards.\n\nSo I asked her a question. When couples leave a tour, do they still have other venues to see, or are they ready to move forward?\n\nAnd she explained that she gauges one thing: is her venue their first tour, or their last?\n\nWhen she knows it's their last, she reaches out within a week and asks, really politely, if they've made their choice or they're still undecided.\n\nI thought that was such a smart distinction.\n\nBecause a couple who's just started touring is still comparing, right? They're not necessarily ready for that question yet.\n\nNow, she already had automated emails going out, and she was following up personally on top of that. She'd been thinking about texting couples after the tour, too, and I told her we could add that.\n\nSo when we shape follow-up after a tour, the fact that a couple visited is only part of the picture. We want to know what they're ready to do next, so every email and text supports the conversation you're already having with them.",
+     "before": "A venue client was booking more tours, and she was also hearing back from fewer of the couples she'd followed up with.\n\nSo I asked what couples were ready to do when they left. Did they still have other venues to see, or were they ready to move forward?\n\nShe explained that she gauges whether her venue is their first tour or their last.\n\nAnd when she knows it's their last, she follows up directly, within a week. Very politely, she asks whether they've chosen a venue or they're still undecided.\n\nA couple who's just started touring is still comparing venues. They're not necessarily ready for that same question.\n\nShe already had automated emails, and she was following up personally, too. She brought up adding texts after the tour, and I agreed that we could incorporate them.\n\nWhen we're thinking about the follow-up, we need more than the fact that a couple visited. We want to know what they're ready to do, so the messages can support the conversation you're having with them."
+    },
+    {
+     "kind": "finished",
+     "path": "caption.hook",
+     "after": "When more couples tour your venue and more of them go quiet, it's worth asking where they were in their search.",
+     "before": "More couples touring your venue doesn't tell you which ones are ready to choose."
+    },
+    {
+     "kind": "finished",
+     "path": "caption.body",
+     "after": "Couples found you, inquired and came out to see the venue in person. You walked them through it and helped them picture the day. Then some of them stop answering, and you're left wondering whether they're still deciding or have moved on.\n\nI talked about this with one of our venue clients recently. Her tours were up, and so was the number of couples going quiet. I asked whether those couples walked out with more visits planned or ready to take the next step.\n\nShe explained that she gauges where her venue falls in a couple's search. If it's their final visit, she follows up within a week and asks, kindly and plainly, whether they've made a decision. Someone at the start of their search isn't necessarily ready for that.\n\nShe already had automated emails working next to her own personal outreach, and when she raised adding post-tour texts, I said we could add those.\n\nWhat you learn on a tour tells us what the next message should make room for. The emails and texts support the contact you're already having with couples, at the point in the search they've actually reached.",
+     "before": "You already put care into helping couples picture their wedding at your venue. After the visit, you want to keep that conversation moving without assuming everyone has finished looking.\n\nA venue client described more tour bookings alongside more couples who weren't responding. I asked whether they left with other venues to visit or were ready to move forward.\n\nShe explained that she gauges where her venue falls in their tour list. If it's their final visit, she politely asks within a week whether they've chosen a venue or are still undecided. Someone at the beginning of that list is still comparing options.\n\nShe had automated emails and was also reaching out personally. When she raised including post-tour texts, I agreed that we could incorporate them.\n\nYour conversations on the tour can tell us what the next message needs to make room for, while email and text support the contact you continue to have with the couple."
+    },
+    {
+     "kind": "finished",
+     "path": "cover_text",
+     "after": "The question I asked about couples who go quiet after venue tours",
+     "before": "More venue tours, more couples going quiet."
+    },
+    {
+     "kind": "finished",
+     "path": "on_screen_hook",
+     "after": "More venue tours, and more couples going quiet after them.",
+     "before": "This venue was booking more tours. More couples were going quiet afterwards."
+    },
+    {
+     "kind": "finished",
+     "path": "spoken_opening",
+     "after": "I had a call with one of our venue clients recently, and she was booking more tours, but more of those couples were going quiet afterwards.",
+     "before": "A venue client was booking more tours, and she was also hearing back from fewer of the couples she'd followed up with."
+    },
+    {
+     "kind": "finished",
+     "path": "cover_alternates[0]",
+     "after": "Is your venue a couple's first tour or their last?",
+     "before": null
+    },
+    {
+     "kind": "finished",
+     "path": "cover_alternates[1]",
+     "after": "Before post-tour follow-up, we ask where the couple is",
+     "before": null
+    }
+   ],
+   "published": [],
+   "content_hash": "87af503a0f514a7b7656749827665576727e3683ce4b7c2cc15496174144f328",
+   "editable": [
+    "title",
+    "cover_text",
+    "cover_alternates",
+    "on_screen_hook",
+    "spoken_opening",
+    "script",
+    "screens",
+    "caption",
+    "personal_lines",
+    "no_offer_ending"
+   ]
+  },
+  {
+   "key": "reel_2",
+   "channel": "reel",
+   "label": "Reel 2",
+   "kind": "second",
+   "ordinal": 4,
+   "origin": "written",
+   "not_written_reason": null,
+   "brief_key": null,
+   "content": {
+    "cta": "none",
+    "job": "Shows a venue owner how one client times her check-in after a couple's last tour, based on how quickly her couples usually decide.",
+    "kind": "second",
+    "beats": [
+     "Open on the owner's own question: how soon to follow up after a couple's last tour.",
+     "The venue client checks in within a week after a final tour and politely asks whether they've chosen or are still undecided.",
+     "Her reasoning: in her experience, last-tour couples usually know within a few days, more often than not.",
+     "She notes follow-up for last-tour couples might need some customizing.",
+     "Close on why the owner's own knowledge of how her couples decide guides timing."
+    ],
+    "title": "The week after a final tour",
+    "script": "How soon should you follow up after a couple's last venue tour?\n\nOne of our venue clients walked me through how she handles this, and I really liked her reasoning.\n\nWhen she knows her venue was the final stop on a couple's list, she checks in within a week. She asks them, nicely and properly, whether they've gone with a different venue or they're still undecided.\n\nShe also told me that at her venue, when hers is the last tour, couples usually know within the next few days, more often than not.\n\nShe also mentioned that follow-up for those last-tour couples might need to be customized a little, because they're in a different spot than a couple who's just starting to look.\n\nThat's the kind of thing we listen for when we help shape a venue's follow-up. How quickly her couples decide is something she learned from her own tours, and it tells us a lot about when a message should go out and what it should ask.",
+    "source": "new_script",
+    "caption": {
+     "body": "After a great final tour, the next message still has to go out, and it's hard to know when it should arrive or what it should ask. Wait too long and you're guessing. Ask too soon and it can feel like pressure on a couple who isn't done looking.\n\nOne of our venue clients has a clear habit here. When she knows her venue closed out a couple's search, she gets in touch inside of a week with one direct, courteous question about whether they've decided.\n\nShe also shared something from her own tours: at her venue, when hers is a couple's last stop, they usually know within the next few days, more often than not.\n\nShe also pointed out that couples on their last tour may need follow-up that's a little more customized than couples who are just starting out.\n\nThat's the kind of detail we want guiding follow-up for a venue: the pace her couples actually decide at, learned firsthand, rather than one schedule for every couple who walks through the door.",
+     "hook": "Your venue was the last one a couple toured. How long do you wait before asking where they've landed?",
+     "ending": "-Whitney"
+    },
+    "premise": "Timing is its own decision: the venue client checks in within a week after a couple's last tour because, in her experience, couples who've finished touring usually know within a few days, so the question arrives while the decision is being made.",
+    "screens": null,
+    "register": "spoken",
+    "takeaway": "When a couple has seen my venue last, a polite, direct check-in within the week fits when they're actually deciding, rather than a long drip that waits.",
+    "cover_text": "The week after a couple's final venue tour",
+    "production": "face_to_camera",
+    "timestamps": [
+     "36:30 to 36:40: the client says the follow-up may need to be customised when she knows her venue was the last tour.",
+     "36:40: within a week she asks, nicely and properly, whether they've gone with a different venue or are still undecided.",
+     "36:58: she explains that when her venue is the last tour, couples usually know within the next few days, more often than not."
+    ],
+    "on_screen_hook": "Your venue was their last tour. How soon do you ask if they've decided?",
+    "personal_lines": [
+     "I really liked her reasoning."
+    ],
+    "spoken_opening": "How soon should you follow up after a couple's last venue tour?",
+    "no_offer_ending": null,
+    "cover_alternates": [
+     "When to ask a couple if they've chosen your venue",
+     "Timing your check-in after the last tour on their list"
+    ],
+    "distinct_because": "It answers 'when should I ask?' rather than 'what does follow-up depend on?': the insight is the client's reasoning about decision timing after a final tour, which Reel 1 only mentions in passing and never explains.",
+    "offer_descriptor": null,
+    "read_time_seconds": 70
+   },
+   "brief_copy": null,
+   "locks": [],
+   "findings": [
+    {
+     "finding_id": "fid_cc1edfbb275010ec5caf",
+     "source": "fidelity",
+     "piece": "reel_2",
+     "path": "caption.body",
+     "sentence": "She also pointed out that couples on their last tour may need follow-up that's a little more customized than couples who are just starting out.",
+     "severity": "blocking",
+     "message": "Reel 2: \"She also pointed out that couples on their last tour may need follow-up that's a little more customized than couples...\" goes beyond what the call supports (She said it may need to be customized if they are the last tour; the comparison with couples just starting out is added.)",
+     "status": "open",
+     "resolution": null,
+     "can_attest": true,
+     "verdict": "unsupported",
+     "issue": null
+    },
+    {
+     "finding_id": "fid_d85cbcf69cd17985e9bf",
+     "source": "fidelity",
+     "piece": "reel_2",
+     "path": "caption.body",
+     "sentence": "the pace her couples actually decide at, learned firsthand, rather than one schedule for every couple who walks through the door.",
+     "severity": "blocking",
+     "message": "Reel 2: \"the pace her couples actually decide at, learned firsthand, rather than one schedule for every couple who walks throu...\" goes beyond what the call supports (Implies WIA builds follow-up around her couples' decision pace and rejects one schedule, which the sources do not show.)",
+     "status": "open",
+     "resolution": null,
+     "can_attest": true,
+     "verdict": "unsupported",
+     "issue": null
+    },
+    {
+     "finding_id": "fid_461946664ceed68fd489",
+     "source": "fidelity",
+     "piece": "reel_2",
+     "path": "script",
+     "sentence": "That's the kind of thing we listen for when we help shape a venue's follow-up.",
+     "severity": "blocking",
+     "message": "Reel 2: \"That's the kind of thing we listen for when we help shape a venue's follow-up.\" goes beyond what the call supports (Turns a single moment into a practice the beliefs and perspective do not state.)",
+     "status": "open",
+     "resolution": null,
+     "can_attest": true,
+     "verdict": "unsupported",
+     "issue": null
+    },
+    {
+     "finding_id": "edi_164597e288208e9e1d20",
+     "source": "editorial",
+     "piece": "reel_2",
+     "path": "on_screen_hook",
+     "sentence": "Your venue was their last tour. How soon do you ask if they've decided?",
+     "severity": "warning",
+     "message": "Reel 2: \"Your venue was their last tour. How soon do you ask if they've decided?\" repeats another Reel's premise (The within-a-week practice and the question are the same material as Reel 1's central story and the email, so the premise barely separates.)",
+     "status": "open",
+     "resolution": null,
+     "can_attest": true,
+     "verdict": "editorial",
+     "issue": "premise_overlap"
+    },
+    {
+     "finding_id": "edi_7f571ef118162bcc464d",
+     "source": "editorial",
+     "piece": "reel_2",
+     "path": "caption.body",
+     "sentence": "the pace her couples actually decide at, learned firsthand, rather than one schedule for every couple who walks through the door.",
+     "severity": "warning",
+     "message": "Reel 2: \"the pace her couples actually decide at, learned firsthand, rather than one schedule for every couple who walks throu...\" reads like a slogan rather than a real explanation (A contrast line written for effect that adds a position the call never took.)",
+     "status": "open",
+     "resolution": null,
+     "can_attest": true,
+     "verdict": "editorial",
+     "issue": "slogan"
+    },
+    {
+     "finding_id": "edi_827b70baee0f1e46c41a",
+     "source": "editorial",
+     "piece": "reel_2",
+     "path": "script",
+     "sentence": "That's the kind of thing we listen for when we help shape a venue's follow-up.",
+     "severity": "warning",
+     "message": "Reel 2: \"That's the kind of thing we listen for when we help shape a venue's follow-up.\" states a general lesson instead of WIA's specific decision (A generic claim about WIA's practice instead of the specific decision.)",
+     "status": "open",
+     "resolution": null,
+     "can_attest": true,
+     "verdict": "editorial",
+     "issue": "broad_lesson"
+    },
+    {
+     "finding_id": "edi_6b7f342c96f6cf79ff90",
+     "source": "editorial",
+     "piece": "reel_2",
+     "path": "spoken_opening",
+     "sentence": "How soon should you follow up after a couple's last venue tour?",
+     "severity": "blocking",
+     "message": "Reel 2: \"How soon should you follow up after a couple's last venue tour?\" needs context to be read correctly (The hook implies the client's within-a-week practice is a recommended timing, but it is only her own habit and not tested.)",
+     "status": "open",
+     "resolution": null,
+     "can_attest": true,
+     "verdict": "editorial",
+     "issue": "missing_context"
+    }
+   ],
+   "changes": [
+    {
+     "kind": "written",
+     "note": "Written by the finisher: the earlier Reel 2 retold the central story, so it has a premise of its own",
+     "path": "*"
+    },
+    {
+     "kind": "repaired",
+     "path": "caption.body",
+     "after": "After a great final tour, the next message still has to go out, and it's hard to know when it should arrive or what it should ask. Wait too long and you're guessing. Ask too soon and it can feel like pressure on a couple who isn't done looking.\n\nOne of our venue clients has a clear habit here. When she knows her venue closed out a couple's search, she gets in touch inside of a week with one direct, courteous question about whether they've decided.\n\nShe also shared something from her own tours: at her venue, when hers is a couple's last stop, they usually know within the next few days, more often than not.\n\nShe also pointed out that couples on their last tour may need follow-up that's a little more customized than couples who are just starting out.\n\nThat's the kind of detail we want guiding follow-up for a venue: the pace her couples actually decide at, learned firsthand, rather than one schedule for every couple who walks through the door.",
+     "before": "After a great final tour, the next message still has to go out, and it's hard to know when it should arrive or what it should ask. Wait too long and you're guessing. Ask too soon and it can feel like pressure on a couple who isn't done looking.\n\nOne of our venue clients has a clear habit here. When she knows her venue closed out a couple's search, she gets in touch inside of a week with one direct, courteous question about whether they've decided.\n\nThe timing comes from her own tours. She's noticed that couples who see her venue last usually know within a few days, more often than not. So she keeps that question close to when they're making up their minds.\n\nShe also pointed out that couples on their last tour may need follow-up that's a little more customized than couples who are just starting out.\n\nThat's the kind of detail we want guiding follow-up for a venue: the pace her couples actually decide at, learned firsthand, rather than one schedule for every couple who walks through the door."
+    },
+    {
+     "kind": "repaired",
+     "path": "script",
+     "after": "How soon should you follow up after a couple's last venue tour?\n\nOne of our venue clients walked me through how she handles this, and I really liked her reasoning.\n\nWhen she knows her venue was the final stop on a couple's list, she checks in within a week. She asks them, nicely and properly, whether they've gone with a different venue or they're still undecided.\n\nShe also told me that at her venue, when hers is the last tour, couples usually know within the next few days, more often than not.\n\nShe also mentioned that follow-up for those last-tour couples might need to be customized a little, because they're in a different spot than a couple who's just starting to look.\n\nThat's the kind of thing we listen for when we help shape a venue's follow-up. How quickly her couples decide is something she learned from her own tours, and it tells us a lot about when a message should go out and what it should ask.",
+     "before": "How soon should you follow up after a couple's last venue tour?\n\nOne of our venue clients walked me through how she handles this, and I really liked her reasoning.\n\nWhen she knows her venue was the final stop on a couple's list, she checks in within a week. She asks them, nicely and properly, whether they've gone with a different venue or they're still undecided.\n\nAnd the timing isn't random. In her experience, when her venue is the last tour, couples usually know within the next few days, more often than not. So she doesn't let that question sit for weeks. Her check-in comes around the time a couple has usually made up their minds.\n\nShe also mentioned that follow-up for those last-tour couples might need to be customized a little, because they're in a different spot than a couple who's just starting to look.\n\nThat's the kind of thing we listen for when we help shape a venue's follow-up. How quickly her couples decide is something she learned from her own tours, and it tells us a lot about when a message should go out and what it should ask."
+    },
+    {
+     "kind": "repaired",
+     "path": "on_screen_hook",
+     "after": "Your venue was their last tour. How soon do you ask if they've decided?",
+     "before": "Why one venue client checks in within a week after a couple's final tour"
+    }
+   ],
+   "published": [],
+   "content_hash": "7f016da2f5e10d2a1136484d02b26a4869beb26a731b125a9365d0ff47a8d943",
+   "editable": [
+    "title",
+    "cover_text",
+    "cover_alternates",
+    "on_screen_hook",
+    "spoken_opening",
+    "script",
+    "screens",
+    "caption",
+    "personal_lines",
+    "no_offer_ending"
+   ]
+  },
+  {
+   "key": "reel_3",
+   "channel": "reel",
+   "label": "Reel 3",
+   "kind": "third",
+   "ordinal": 5,
+   "origin": "written",
+   "not_written_reason": null,
+   "brief_key": null,
+   "content": {
+    "cta": "none",
+    "job": "Shows a venue owner that when a client raised post-tour texts, the starting point was the follow-up she already does, so any addition supports her conversations.",
+    "kind": "third",
+    "beats": [
+     "Use ordinary, non-client-specific workday b-roll; do not suggest footage of the actual call or venue.",
+     "Screen 1: the client raises post-tour texts; the starting point is her existing follow-up.",
+     "Screen 2: automated emails plus her own personal follow-up.",
+     "Screen 3: no post-tour texts yet; agreed in principle that they could be added to support her conversations."
+    ],
+    "title": "Texts after tours, starting from what's there",
+    "script": null,
+    "source": "new_script",
+    "caption": {
+     "body": "Maybe you've built your own rhythm after tours. Automated emails go out, and you follow up yourself with the couples you connected with. Then you notice a gap and wonder whether you need something more.\n\nThat's where one of our venue clients was. She had an automatic follow-up sequence running, and she was reaching out personally on top of it, partly because she didn't have texts set up for after the tour. She wondered whether she should do something about that, and I told her we could incorporate it.\n\nThe texts are still an idea we agreed on. What matters to us is what was already in place: automated emails and her own personal follow-up, with the texts as something she raised herself.\n\nFor her, any texts we add would sit beside the emails and the personal follow-up she's already doing, not in place of them.",
+     "hook": "Before adding anything to a venue's follow-up, we want to hear what the owner is already doing after every tour.",
+     "ending": "-Whitney"
+    },
+    "premise": "When a venue client asked about adding texts after tours, we started with what she already does (automated emails plus her own personal follow-up) so any addition supports her conversations instead of replacing them.",
+    "screens": [
+     "A venue client asked about texting couples after tours. We started with what she already does.",
+     "Automated follow-up emails were already running. She was following up with couples personally, too.",
+     "She had no texts set up after the tour yet. We agreed we could add them, to support her own conversations."
+    ],
+    "register": "on_screen",
+    "takeaway": "Good follow-up support starts from the personal contact I already have with couples and fills the gap I've noticed, rather than handing my conversations to a system.",
+    "cover_text": "Post-tour texts for a venue: where we started",
+    "production": "on_screen_text",
+    "timestamps": [
+     "36:09: the client describes the automatic follow-up sequence plus her own personalised follow-up, noting there's no SMS set up for a post-tour sequence.",
+     "36:24: she wonders if she needs to do something about that.",
+     "36:29: Whitney says they can incorporate that for sure (agreed in principle; nothing built or launched)."
+    ],
+    "on_screen_hook": "A venue client raised texting couples after tours. Here's what she already had running.",
+    "personal_lines": [],
+    "spoken_opening": null,
+    "no_offer_ending": null,
+    "cover_alternates": [
+     "What was already in place before we talked texts",
+     "Adding texts after venue tours, around the owner's own follow-up"
+    ],
+    "distinct_because": "It shows WIA's process for deciding what to add to a venue's follow-up (the owner's existing practice first, the texts as a prospective addition she raised), not the tour-stage distinction of Reel 1 or the timing reasoning of Reel 2.",
+    "offer_descriptor": null,
+    "read_time_seconds": 10
+   },
+   "brief_copy": null,
+   "locks": [],
+   "findings": [
+    {
+     "finding_id": "edi_328480cb894fb079dc9c",
+     "source": "editorial",
+     "piece": "reel_3",
+     "path": "caption.body",
+     "sentence": "The texts are still an idea we agreed on.",
+     "severity": "warning",
+     "message": "Reel 3: \"The texts are still an idea we agreed on.\" repeats wording from another piece (Restates in three ways that the texts are only prospective and the emails and personal follow-up are already in place.)",
+     "status": "open",
+     "resolution": null,
+     "can_attest": true,
+     "verdict": "editorial",
+     "issue": "repetition"
+    },
+    {
+     "finding_id": "edi_cc88ea0657c329397d6f",
+     "source": "editorial",
+     "piece": "reel_3",
+     "path": "on_screen_hook",
+     "sentence": "A venue client raised texting couples after tours. Here's what she already had running.",
+     "severity": "warning",
+     "message": "Reel 3: \"A venue client raised texting couples after tours. Here's what she already had running.\" leaves the reader little to take away (The piece leaves an owner little beyond 'what she already had', and the premise of building around her contact is hardly shown.)",
+     "status": "open",
+     "resolution": null,
+     "can_attest": true,
+     "verdict": "editorial",
+     "issue": "weak_takeaway"
+    },
+    {
+     "finding_id": "check_4245f925e2992cdf",
+     "source": "check",
+     "check": "first_touch.who_did_what",
+     "piece": "reel_3",
+     "path": "on_screen_hook",
+     "sentence": null,
+     "severity": "blocking",
+     "message": "Reel 3's on-screen hook credits the client with \"Here's what she already had running\" (run), but the call has our team doing it: keep the actor the record names, or the fact an approver attested",
+     "status": "open",
+     "resolution": null,
+     "can_attest": false
+    },
+    {
+     "finding_id": "check_3796fe20f72ef82c",
+     "source": "check",
+     "check": "first_touch.who_did_what",
+     "piece": "reel_3",
+     "path": "caption.body",
+     "sentence": null,
+     "severity": "blocking",
+     "message": "Reel 3's caption body credits the client with \"She had an automatic follow-up sequence running\" (run), but the call has our team doing it: keep the actor the record names, or the fact an approver attested",
+     "status": "open",
+     "resolution": null,
+     "can_attest": false
+    },
+    {
+     "finding_id": "check_7a80bce8945f70f9",
+     "source": "check",
+     "check": "copy.sibling_overlap",
+     "piece": "reel_3",
+     "path": "caption.body",
+     "sentence": null,
+     "severity": "warning",
+     "message": "Reel 3's caption body and the email's body repeat the same words (\"and she was reaching out personally on top...\"): siblings repeat the idea, never the language",
+     "status": "open",
+     "resolution": null,
+     "can_attest": false
+    }
+   ],
+   "changes": [
+    {
+     "kind": "written",
+     "note": "Written by the finisher: the earlier Reel 3 retold the central story, so it has a premise of its own",
+     "path": "*"
+    },
+    {
+     "kind": "repaired",
+     "path": "caption.body",
+     "after": "Maybe you've built your own rhythm after tours. Automated emails go out, and you follow up yourself with the couples you connected with. Then you notice a gap and wonder whether you need something more.\n\nThat's where one of our venue clients was. She had an automatic follow-up sequence running, and she was reaching out personally on top of it, partly because she didn't have texts set up for after the tour. She wondered whether she should do something about that, and I told her we could incorporate it.\n\nThe texts are still an idea we agreed on. What matters to us is what was already in place: automated emails and her own personal follow-up, with the texts as something she raised herself.\n\nWhen follow-up support starts from the contact you already have with couples, a new text can carry your conversations further instead of standing in for them.",
+     "before": "Maybe you've built your own rhythm after tours. Automated emails go out, and you follow up yourself with the couples you connected with. Then you notice a gap and wonder whether you need something more.\n\nThat's where one of our venue clients was. She had an automatic follow-up sequence running, and she was reaching out personally on top of it, partly because she didn't have texts set up for after the tour. She wondered whether she should do something about that, and I told her we could incorporate it.\n\nThe texts are still an idea we agreed on. What matters to us is the order of that conversation: her personal follow-up and the emails already running came first, and the texts were her idea for a gap she'd noticed herself.\n\nWhen follow-up support starts from the contact you already have with couples, a new text can carry your conversations further instead of standing in for them."
+    },
+    {
+     "kind": "repaired",
+     "path": "on_screen_hook",
+     "after": "A venue client raised texting couples after tours. Here's what she already had running.",
+     "before": "A venue client asked about texting couples after tours. We started with what she already does."
+    },
+    {
+     "kind": "repaired",
+     "path": "caption.body",
+     "after": "Maybe you've built your own rhythm after tours. Automated emails go out, and you follow up yourself with the couples you connected with. Then you notice a gap and wonder whether you need something more.\n\nThat's where one of our venue clients was. She had an automatic follow-up sequence running, and she was reaching out personally on top of it, partly because she didn't have texts set up for after the tour. She wondered whether she should do something about that, and I told her we could incorporate it.\n\nThe texts are still an idea we agreed on. What matters to us is what was already in place: automated emails and her own personal follow-up, with the texts as something she raised herself.\n\nFor her, any texts we add would sit beside the emails and the personal follow-up she's already doing, not in place of them.",
+     "before": "Maybe you've built your own rhythm after tours. Automated emails go out, and you follow up yourself with the couples you connected with. Then you notice a gap and wonder whether you need something more.\n\nThat's where one of our venue clients was. She had an automatic follow-up sequence running, and she was reaching out personally on top of it, partly because she didn't have texts set up for after the tour. She wondered whether she should do something about that, and I told her we could incorporate it.\n\nThe texts are still an idea we agreed on. What matters to us is what was already in place: automated emails and her own personal follow-up, with the texts as something she raised herself.\n\nWhen follow-up support starts from the contact you already have with couples, a new text can carry your conversations further instead of standing in for them."
+    }
+   ],
+   "published": [],
+   "content_hash": "a0654b3dd90eaca101760c1a9ba0037414872718f2b9126f481a4797a20995d7",
+   "editable": [
+    "title",
+    "cover_text",
+    "cover_alternates",
+    "on_screen_hook",
+    "spoken_opening",
+    "script",
+    "screens",
+    "caption",
+    "personal_lines",
+    "no_offer_ending"
+   ]
+  }
+ ],
+ "findings": [],
+ "ready_blockers": [
+  "Reel 2: \"She also pointed out that couples on their last tour may need follow-up that's a little more customized than couples...\" is not supported by the call. Edit that sentence, or attest it is true",
+  "Reel 2: \"the pace her couples actually decide at, learned firsthand, rather than one schedule for every couple who walks throu...\" is not supported by the call. Edit that sentence, or attest it is true",
+  "Reel 2: \"That's the kind of thing we listen for when we help shape a venue's follow-up.\" is not supported by the call. Edit that sentence, or attest it is true",
+  "Reel 2: \"How soon should you follow up after a couple's last venue tour?\" needs context to be read correctly. Edit that line, or keep it with a reason",
+  "Reel 3's on-screen hook credits the client with \"Here's what she already had running\" (run), but the call has our team doing it: keep the actor the record names, or the fact an approver attested",
+  "Reel 3's caption body credits the client with \"She had an automatic follow-up sequence running\" (run), but the call has our team doing it: keep the actor the record names, or the fact an approver attested"
+ ],
+ "before_publishing": [
+  {
+   "id": "P1",
+   "done": null,
+   "kind": "permission",
+   "text": "Obtain the client's permission to share the anonymised exchange, including the increase in tours and unanswered follow-up, her first-versus-last-tour distinction, her within-a-week practice and her existing follow-up arrangement. Hold publication until permission is recorded. No direct client quotation is included.",
+   "answer": "Before posting: WIA confirms the client's okay",
+   "required": true,
+   "client_permission": true
+  },
+  {
+   "id": "P2",
+   "done": null,
+   "kind": "fact",
+   "text": "Confirm the speaker attribution for the selected passages. Copy uses \"venue client\" rather than an unverified owner title and keeps the distinction and proposed texts attributed to her.",
+   "answer": "Checked under D12 by the WIA team: the speakers are Whitney and the venue's contact on the account; her title is not recorded, so the copy says venue client and keeps the distinction, the within-a-week practice and the texts with her.",
+   "required": true,
+   "client_permission": false
+  },
+  {
+   "id": "P3",
+   "done": null,
+   "kind": "do_not_claim",
+   "text": "Keep post-tour texts prospective: raised on the call and agreed in principle, with no build, launch or booking result established. Do not frame unanswered follow-up as poor-quality advertising or failed automation. Keep LeadLock as the full email-and-text follow-up support for the client's own conversations, not a replacement for them. Do not add later account results or internal-meeting client details.",
+   "answer": "Kept under D12: the texts stay prospective (raised and agreed in principle; nothing built, launched or booked); quiet couples are not blamed on the ads or the automation; LeadLock supports her own conversations.",
+   "required": true,
+   "client_permission": false
+  },
+  {
+   "id": "P4",
+   "done": null,
+   "kind": "cta",
+   "text": "At Gate 2, confirm ADS on the carousel as this brief's only Instagram offer CTA, the email reply invitation, and the proposed email date, time and recipient segment.",
+   "answer": "Confirmed under D12: ADS on the carousel (the default DM keyword) is this brief's only Instagram offer ask; the email invites a reply; the proposed send date, time and list are for WIA to confirm when scheduling.",
+   "required": true,
+   "client_permission": false
+  },
+  {
+   "id": "P5",
+   "done": null,
+   "kind": "other",
+   "text": "Check publication history against the supplied prior-coverage entry with the same decision-readiness argument. Confirm this approved development is not repeating a point published in the last 90 days.",
+   "answer": "Checked under D12: the matching entry is an unpublished card from an earlier cycle (no publication); nothing with this argument was published in the last 90 days.",
+   "required": true,
+   "client_permission": false
+  },
+  {
+   "id": "N6",
+   "done": null,
+   "kind": "pack",
+   "text": "A line a person wrote for the earlier Reel 3 was not carried into its new premise: More tours are a good sign. But a tour on your calendar doesn't tell you whether the couple is on their first visit or their last, and unanswered follow-up looks the same either way.\n\nThis came up with one of our venue clients. I asked whether couples left planning other visits or ready to move forward. Her answer was that she watches whether her venue opened their search or closed it.\n\nWhen she knows they've finished touring, she reaches out within a week and politely asks if they've landed on a venue or are still undecided. A couple who has only begun visiting is still comparing what they've seen.\n\nShe already paired automated emails with her personal contact, and she asked about texting couples after the tour as well. I said we could add that.\n\nThat's the kind of detail we want shaping the emails and texts around your conversations, so each couple hears from you in a way that suits how far their search has come.",
+   "answer": null,
+   "required": false,
+   "client_permission": false
+  }
+ ],
+ "client_quotes": [],
+ "stronger_with_permission": [
+  "Quoting the venue client's own words that last-tour couples \"usually know within the next few days\" would make Reel 2's timing reasoning more vivid, but P1 records the exchange as anonymised with no direct client quotation.",
+  "Her observation that couples either already love the venue or are still on what she called the tour wave could anchor a further piece on reading couples during a tour, if the client clears it."
+ ],
+ "granted": [],
+ "pack_notes": [
+  "The Foolproof Follow-Up Advantage has no entry in the offer descriptors; it is used only as the brief names it (the email-and-text follow-up system WIA builds in LeadLock). Confirm the name and wording.",
+  "Carousel slide 7 says follow-up support can be built with either way of working (ELEVATE or the Ads Accelerators), as the brief wrote it; confirm this is accurate for both offers before posting.",
+  "Reel 2's timing reasoning (last-tour couples usually decide within a few days) is the client's own experience, kept as hers with its hedge; it is covered by the P1 permission request.",
+  "Reel 3 states publicly that post-tour texts are still an agreed idea, keeping them prospective under P3.",
+  "Carousel locked slide 3 and Reel 1's locked script share the phrase \"she reaches out within a week\"; both are locked, so other pieces were reworded around it."
+ ],
+ "creative_choices": [
+  {
+   "why": "It's the reader's own question in plain words, specific to venue tours, stands alone for list leads who never see Instagram, and avoids colliding with Reel 1's situation hook and the carousel's locked first slide; the preview then finishes the thought about comparing versus done touring.",
+   "piece": "email",
+   "chosen": "What is a couple ready to do after your venue tour?",
+   "considered": [
+    "What is a couple ready to do after your venue tour?",
+    "First tour or last tour changes your follow-up",
+    "Your post-tour follow-up should know where the couple is"
+   ]
+  },
+  {
+   "why": "Slide 1 is locked and already carries the promise as an insight about the reader, naming the venue tour concretely and differing from the Reel and email openings, so it stays as written.",
+   "piece": "carousel",
+   "chosen": "A completed venue tour doesn't tell you how close a couple is to choosing.",
+   "considered": [
+    "A completed venue tour doesn't tell you how close a couple is to choosing.",
+    "Some couples leave your venue tour with their search almost over. Others are just starting.",
+    "Before we shape post-tour follow-up for a venue, we ask one question about the couple."
+   ]
+  },
+  {
+   "why": "It names the venue owner's real situation in plain words, matches the locked spoken opening without repeating it word for word, and leaves the first-or-last question for the payoff instead of spending it on the cover.",
+   "piece": "reel_1",
+   "chosen": "More venue tours, and more couples going quiet after them.",
+   "considered": [
+    "More venue tours, and more couples going quiet after them.",
+    "What I asked a venue client about couples going quiet after tours",
+    "Is your venue a couple's first tour or their last?"
+   ]
+  },
+  {
+   "why": "It names the concrete decision (a week, a final tour) that the Reel goes on to explain with her own reasoning, and opens differently from Reel 1's situation hook and the email's question.",
+   "piece": "reel_2",
+   "chosen": "Why one venue client checks in within a week after a couple's final tour",
+   "considered": [
+    "Why one venue client checks in within a week after a couple's final tour",
+    "How soon should you follow up after a couple's last venue tour?",
+    "She asks couples one direct question a few days after their last venue tour."
+   ]
+  },
+  {
+   "why": "It names the subject (post-tour texts for a venue) and the decision in one readable screen, keeps the texts prospective and credits the idea to the client, and gives a different reason to watch than the other two Reels.",
+   "piece": "reel_3",
+   "chosen": "When a venue client asked about adding texts after tours, we started with what she already does.",
+   "considered": [
+    "When a venue client asked about adding texts after tours, we started with what she already does.",
+    "A venue client already sent automated emails and followed up personally after every tour.",
+    "Post-tour texts came up on a venue client's call. Here's what we looked at first."
+   ]
+  }
+ ],
+ "change_notes": [
+  "Email: kept the brief's story, offer paragraph and CTA; ordered subjects with the plan's chosen opening first; replaced the bold \"isn't the same as\" line with a concrete statement of what WIA wants to know; reworded two spans that duplicated the locked carousel and Reel 1 lines.",
+  "Reel 1: script locked and kept; on-screen hook set to the plan's chosen opening; cover changed so it no longer repeats the on-screen hook; added two cover alternates; lightly reworded caption lines that echoed the carousel and email.",
+  "Reel 2: written fresh as face to camera from the plan's timing premise (36:30 to 36:58), in reported speech, with the client's hedge kept; replaced the stance Reel that retold the central story.",
+  "Reel 3: written fresh as three on-screen text screens from the plan's premise (36:09 to 36:29), keeping the texts prospective and credited to the client; replaced the b-roll Reel that retold the central story; the earlier caption line in N6 was not carried because the premise changed.",
+  "Carousel: slides 1 to 5 locked and kept; slide 7 now uses the approved Accelerators descriptor wording; caption reworded where it echoed the email; added a no-offer ending for weeks it is not the offer post."
+ ],
+ "fidelity": {
+  "open": 9,
+  "flags": [
+   {
+    "why": "Sources do not say the week timing is based on the few-days observation; the causal link is invented.",
+    "path": "caption.body",
+    "text": "So she keeps that question close to when they're making up their minds.",
+    "piece": "reel_2",
+    "source": "ev_62cffc0459f26fcb5b205842",
+    "verdict": "unsupported"
+   },
+   {
+    "why": "Adds her motive and a reasoning the call does not give; she says within a week, not a reason.",
+    "path": "script",
+    "text": "So she doesn't let that question sit for weeks. Her check-in comes around the time a couple has usually made up their minds.",
+    "piece": "reel_2",
+    "source": "ev_62cffc0459f26fcb5b205842",
+    "verdict": "unsupported"
+   },
+   {
+    "why": "Adds an order (came first) and a gap she noticed; she only wondered whether she needed to do something.",
+    "path": "caption.body",
+    "text": "her personal follow-up and the emails already running came first, and the texts were her idea for a gap she'd noticed herself.",
+    "piece": "reel_3",
+    "source": "ev_8dee504799ec566a9ce629cc",
+    "verdict": "unsupported"
+   },
+   {
+    "why": "Presents an order or process on the call that sources do not state.",
+    "path": "on_screen_hook",
+    "text": "We started with what she already does.",
+    "piece": "reel_3",
+    "source": "ev_d72fa3e1489198899f8ca9a7",
+    "verdict": "unsupported"
+   },
+   {
+    "why": "The hook claims a process order the call does not show.",
+    "path": "on_screen_hook",
+    "text": "A venue client asked about texting couples after tours. We started with what she already does.",
+    "issue": "weak_hook",
+    "piece": "reel_3",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "Reel 3 largely restates Reel 1's closing point that support should fit the conversation already happening.",
+    "path": null,
+    "text": "Good follow-up support starts from the personal contact I already have with couples",
+    "issue": "premise_overlap",
+    "piece": "reel_3",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "The within-a-week practice is already the core of Reel 1 and the carousel, so the premise is thin as a separate piece.",
+    "path": "on_screen_hook",
+    "text": "Why one venue client checks in within a week after a couple's final tour",
+    "issue": "premise_overlap",
+    "piece": "reel_2",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "The email repeats the same story and the closing line about shaping follow-up around the owner's conversations across all pieces.",
+    "path": "body",
+    "text": "That conversation is a good picture of how we think about follow-up.",
+    "issue": "repetition",
+    "piece": "email",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "The DM keyword ADS sits oddly beside a follow-up piece, though it was approved.",
+    "path": "caption.ending",
+    "text": "If you'd like follow-up support built around what you learn on your tours, DM us \"ADS\" and let's talk about LeadLock and The Foolproof Follow-Up Advantage.",
+    "issue": "cta_fit",
+    "piece": "carousel",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "One venue's experience risks reading as a rule about all couples and venues.",
+    "path": "caption.body",
+    "text": "couples who see her venue last usually know within a few days, more often than not",
+    "issue": "generalization",
+    "piece": "reel_2",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "blocking"
+   }
+  ],
+  "checked": 25,
+  "repairs": [
+   {
+    "new": "She also shared something from her own tours: at her venue, when hers is a couple's last stop, they usually know within the next few days, more often than not.",
+    "old": "The timing comes from her own tours. She's noticed that couples who see her venue last usually know within a few days, more often than not. So she keeps that question close to when they're making up their minds.",
+    "path": "caption.body",
+    "piece": "reel_2"
+   },
+   {
+    "new": "She also told me that at her venue, when hers is the last tour, couples usually know within the next few days, more often than not.",
+    "old": "And the timing isn't random. In her experience, when her venue is the last tour, couples usually know within the next few days, more often than not. So she doesn't let that question sit for weeks. Her check-in comes around the time a couple has usually made up their minds.",
+    "path": "script",
+    "piece": "reel_2"
+   },
+   {
+    "new": "Your venue was their last tour. How soon do you ask if they've decided?",
+    "old": "Why one venue client checks in within a week after a couple's final tour",
+    "path": "on_screen_hook",
+    "piece": "reel_2"
+   },
+   {
+    "new": "What matters to us is what was already in place: automated emails and her own personal follow-up, with the texts as something she raised herself.",
+    "old": "What matters to us is the order of that conversation: her personal follow-up and the emails already running came first, and the texts were her idea for a gap she'd noticed herself.",
+    "path": "caption.body",
+    "piece": "reel_3"
+   },
+   {
+    "new": "A venue client raised texting couples after tours. Here's what she already had running.",
+    "old": "A venue client asked about texting couples after tours. We started with what she already does.",
+    "path": "on_screen_hook",
+    "piece": "reel_3"
+   },
+   {
+    "new": "For her, any texts we add would sit beside the emails and the personal follow-up she's already doing, not in place of them.",
+    "old": "When follow-up support starts from the contact you already have with couples, a new text can carry your conversations further instead of standing in for them.",
+    "path": "caption.body",
+    "piece": "reel_3"
+   },
+   {
+    "new": "Here's why her distinction matters to us.",
+    "old": "That conversation is a good picture of how we think about follow-up.",
+    "path": "body",
+    "piece": "email"
+   },
+   {
+    "new": "If you'd like your ads backed by post-tour emails and texts shaped around what you learn on your tours, DM us \"ADS\" and let's talk about LeadLock and The Foolproof Follow-Up Advantage.",
+    "old": "If you'd like follow-up support built around what you learn on your tours, DM us \"ADS\" and let's talk about LeadLock and The Foolproof Follow-Up Advantage.",
+    "path": "caption.ending",
+    "piece": "carousel"
+   }
+  ],
+  "settled": [
+   {
+    "why": "She said it may need to be customized if they are the last tour; the comparison with couples just starting out is added.",
+    "path": "caption.body",
+    "text": "She also pointed out that couples on their last tour may need follow-up that's a little more customized than couples who are just starting out.",
+    "piece": "reel_2",
+    "source": "ev_fb6bafdedd9274829b4dad73",
+    "outcome": "open_finding",
+    "verdict": "unsupported"
+   },
+   {
+    "why": "Implies WIA builds follow-up around her couples' decision pace and rejects one schedule, which the sources do not show.",
+    "path": "caption.body",
+    "text": "the pace her couples actually decide at, learned firsthand, rather than one schedule for every couple who walks through the door.",
+    "piece": "reel_2",
+    "source": "",
+    "outcome": "open_finding",
+    "verdict": "unsupported"
+   },
+   {
+    "why": "Turns a single moment into a practice the beliefs and perspective do not state.",
+    "path": "script",
+    "text": "That's the kind of thing we listen for when we help shape a venue's follow-up.",
+    "piece": "reel_2",
+    "source": "",
+    "outcome": "open_finding",
+    "verdict": "unsupported"
+   },
+   {
+    "why": "The within-a-week practice and the question are the same material as Reel 1's central story and the email, so the premise barely separates.",
+    "path": "on_screen_hook",
+    "text": "Your venue was their last tour. How soon do you ask if they've decided?",
+    "issue": "premise_overlap",
+    "piece": "reel_2",
+    "source": "",
+    "outcome": "open_finding",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "A contrast line written for effect that adds a position the call never took.",
+    "path": "caption.body",
+    "text": "the pace her couples actually decide at, learned firsthand, rather than one schedule for every couple who walks through the door.",
+    "issue": "slogan",
+    "piece": "reel_2",
+    "source": "",
+    "outcome": "open_finding",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "A generic claim about WIA's practice instead of the specific decision.",
+    "path": "script",
+    "text": "That's the kind of thing we listen for when we help shape a venue's follow-up.",
+    "issue": "broad_lesson",
+    "piece": "reel_2",
+    "source": "",
+    "outcome": "open_finding",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "Restates in three ways that the texts are only prospective and the emails and personal follow-up are already in place.",
+    "path": "caption.body",
+    "text": "The texts are still an idea we agreed on.",
+    "issue": "repetition",
+    "piece": "reel_3",
+    "source": "",
+    "outcome": "open_finding",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "The piece leaves an owner little beyond 'what she already had', and the premise of building around her contact is hardly shown.",
+    "path": "on_screen_hook",
+    "text": "A venue client raised texting couples after tours. Here's what she already had running.",
+    "issue": "weak_takeaway",
+    "piece": "reel_3",
+    "source": "",
+    "outcome": "open_finding",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "The hook implies the client's within-a-week practice is a recommended timing, but it is only her own habit and not tested.",
+    "path": "spoken_opening",
+    "text": "How soon should you follow up after a couple's last venue tour?",
+    "issue": "missing_context",
+    "piece": "reel_2",
+    "source": "",
+    "outcome": "open_finding",
+    "verdict": "editorial",
+    "severity": "blocking"
+   }
+  ],
+  "put_back": 0,
+  "readings": [
+   {
+    "why": "Clear and faithful, but plain and repeats the same story.",
+    "piece": "email",
+    "strength": "acceptable"
+   },
+   {
+    "why": "Faithful and clear, but follows the same narrative as the other pieces.",
+    "piece": "carousel",
+    "strength": "acceptable"
+   },
+   {
+    "why": "It is the central story told specifically and faithfully.",
+    "piece": "reel_1",
+    "strength": "strong"
+   },
+   {
+    "why": "Adds unsupported reasoning for the timing and overlaps Reel 1.",
+    "piece": "reel_2",
+    "strength": "weak"
+   },
+   {
+    "why": "Rests on an invented order of events and overlaps Reel 1's point.",
+    "piece": "reel_3",
+    "strength": "weak"
+   }
+  ],
+  "rechecked": 22,
+  "survivors": [
+   {
+    "why": "She said it may need to be customized if they are the last tour; the comparison with couples just starting out is added.",
+    "path": "caption.body",
+    "text": "She also pointed out that couples on their last tour may need follow-up that's a little more customized than couples who are just starting out.",
+    "piece": "reel_2",
+    "source": "ev_fb6bafdedd9274829b4dad73",
+    "verdict": "unsupported"
+   },
+   {
+    "why": "Implies WIA builds follow-up around her couples' decision pace and rejects one schedule, which the sources do not show.",
+    "path": "caption.body",
+    "text": "the pace her couples actually decide at, learned firsthand, rather than one schedule for every couple who walks through the door.",
+    "piece": "reel_2",
+    "source": "",
+    "verdict": "unsupported"
+   },
+   {
+    "why": "Turns a single moment into a practice the beliefs and perspective do not state.",
+    "path": "script",
+    "text": "That's the kind of thing we listen for when we help shape a venue's follow-up.",
+    "piece": "reel_2",
+    "source": "",
+    "verdict": "unsupported"
+   },
+   {
+    "why": "The within-a-week practice and the question are the same material as Reel 1's central story and the email, so the premise barely separates.",
+    "path": "on_screen_hook",
+    "text": "Your venue was their last tour. How soon do you ask if they've decided?",
+    "issue": "premise_overlap",
+    "piece": "reel_2",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "A contrast line written for effect that adds a position the call never took.",
+    "path": "caption.body",
+    "text": "the pace her couples actually decide at, learned firsthand, rather than one schedule for every couple who walks through the door.",
+    "issue": "slogan",
+    "piece": "reel_2",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "A generic claim about WIA's practice instead of the specific decision.",
+    "path": "script",
+    "text": "That's the kind of thing we listen for when we help shape a venue's follow-up.",
+    "issue": "broad_lesson",
+    "piece": "reel_2",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "Restates in three ways that the texts are only prospective and the emails and personal follow-up are already in place.",
+    "path": "caption.body",
+    "text": "The texts are still an idea we agreed on.",
+    "issue": "repetition",
+    "piece": "reel_3",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "The piece leaves an owner little beyond 'what she already had', and the premise of building around her contact is hardly shown.",
+    "path": "on_screen_hook",
+    "text": "A venue client raised texting couples after tours. Here's what she already had running.",
+    "issue": "weak_takeaway",
+    "piece": "reel_3",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "The hook implies the client's within-a-week practice is a recommended timing, but it is only her own habit and not tested.",
+    "path": "spoken_opening",
+    "text": "How soon should you follow up after a couple's last venue tour?",
+    "issue": "missing_context",
+    "piece": "reel_2",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "blocking"
+   }
+  ],
+  "check_called": true,
+  "recheck_flags": [
+   {
+    "why": "She said it may need to be customized if they are the last tour; the comparison with couples just starting out is added.",
+    "path": "caption.body",
+    "text": "She also pointed out that couples on their last tour may need follow-up that's a little more customized than couples who are just starting out.",
+    "piece": "reel_2",
+    "source": "ev_fb6bafdedd9274829b4dad73",
+    "verdict": "unsupported"
+   },
+   {
+    "why": "Implies WIA builds follow-up around her couples' decision pace and rejects one schedule, which the sources do not show.",
+    "path": "caption.body",
+    "text": "the pace her couples actually decide at, learned firsthand, rather than one schedule for every couple who walks through the door.",
+    "piece": "reel_2",
+    "source": "",
+    "verdict": "unsupported"
+   },
+   {
+    "why": "Turns a single moment into a practice the beliefs and perspective do not state.",
+    "path": "script",
+    "text": "That's the kind of thing we listen for when we help shape a venue's follow-up.",
+    "piece": "reel_2",
+    "source": "",
+    "verdict": "unsupported"
+   },
+   {
+    "why": "The within-a-week practice and the question are the same material as Reel 1's central story and the email, so the premise barely separates.",
+    "path": "on_screen_hook",
+    "text": "Your venue was their last tour. How soon do you ask if they've decided?",
+    "issue": "premise_overlap",
+    "piece": "reel_2",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "A contrast line written for effect that adds a position the call never took.",
+    "path": "caption.body",
+    "text": "the pace her couples actually decide at, learned firsthand, rather than one schedule for every couple who walks through the door.",
+    "issue": "slogan",
+    "piece": "reel_2",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "A generic claim about WIA's practice instead of the specific decision.",
+    "path": "script",
+    "text": "That's the kind of thing we listen for when we help shape a venue's follow-up.",
+    "issue": "broad_lesson",
+    "piece": "reel_2",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "Restates in three ways that the texts are only prospective and the emails and personal follow-up are already in place.",
+    "path": "caption.body",
+    "text": "The texts are still an idea we agreed on.",
+    "issue": "repetition",
+    "piece": "reel_3",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "The piece leaves an owner little beyond 'what she already had', and the premise of building around her contact is hardly shown.",
+    "path": "on_screen_hook",
+    "text": "A venue client raised texting couples after tours. Here's what she already had running.",
+    "issue": "weak_takeaway",
+    "piece": "reel_3",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "The hook implies the client's within-a-week practice is a recommended timing, but it is only her own habit and not tested.",
+    "path": "spoken_opening",
+    "text": "How soon should you follow up after a couple's last venue tour?",
+    "issue": "missing_context",
+    "piece": "reel_2",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "blocking"
+   }
+  ],
+  "repair_called": true,
+  "missed_patches": [],
+  "recheck_called": true,
+  "finisher_called": true
+ },
+ "provenance": {
+  "mode": "live",
+  "models": {
+   "writer": "anthropic/claude-opus-5.5",
+   "reviewer": "anthropic/claude-sonnet-5.5"
+  },
+  "run_id": "pack_run_86676107663f5a8e70c990ec",
+  "brief_id": "brief_8412a1852eaf482dbf4217a6983d5c96",
+  "profiles": {
+   "pack_plan": "2026-10-27.pack-plan.v1",
+   "pack_check": "2026-10-27.pack-check.v4",
+   "pack_finish": "2026-10-27.pack-finish.v3",
+   "pack_repair": "2026-10-27.pack-repair.v2",
+   "pack_caption": "2026-10-26.pack-caption.v1",
+   "pack_recheck": "2026-10-27.pack-check.v4",
+   "pack_refinish": "2026-10-27.pack-refinish.v2"
+  },
+  "approved_by": "kenil.shah@e2m.solutions",
+  "finish_mode": "finish",
+  "brief_schema": "brief_document_v4",
+  "approved_hash": "30b5592e76cfba9bc7ac0eacdb99088ca99b332c9bdf17e23890bc450532a888",
+  "handoff_version": "brief_handoff_v2",
+  "approval_delegated": true,
+  "knowledge_base_version": "wia-kb-2026-10-22.c-a1a75795"
+ },
+ "change": {
+  "at": "2026-10-27T03:05:42.455922+00:00",
+  "by": "content-pack step",
+  "kind": "finish_again",
+  "note": null,
+  "paths": [],
+  "pieces": [],
+  "delegated": false
+ },
+ "versions": [
+  {
+   "pack_id": "pack_da2ebc56e84190afa8b79583",
+   "supersedes_id": null,
+   "manifest_hash": "79825479089d1a571fa011fbc5c64370bd03c43e1bd06b9380b69c38483bd609",
+   "approval_status": "pending",
+   "created_at": "2026-10-25T16:59:44.699145+00:00",
+   "run_id": "pack_run_da2ebc56e84190afa8b79583",
+   "kind": "generated",
+   "by": "content-pack step",
+   "delegated": false,
+   "pieces": [],
+   "paths": [],
+   "note": null
+  },
+  {
+   "pack_id": "pack_625242484cac46bab61742676870bd93",
+   "supersedes_id": "pack_da2ebc56e84190afa8b79583",
+   "manifest_hash": "0f61681258d6e8482aabfdd5a3feff82105badc4a49d144847b31ed26c395acd",
+   "approval_status": "pending",
+   "created_at": "2026-10-25T17:07:51.331392+00:00",
+   "run_id": "pack_run_da2ebc56e84190afa8b79583",
+   "kind": "edit",
+   "by": "ai@weddingindustryads.com",
+   "delegated": true,
+   "pieces": [
+    "carousel"
+   ],
+   "paths": [
+    "slides[0].text"
+   ],
+   "note": null
+  },
+  {
+   "pack_id": "pack_7cb0b5dac0dc47ca97371f09c9a4ff90",
+   "supersedes_id": "pack_625242484cac46bab61742676870bd93",
+   "manifest_hash": "0cdf02429602655952851109bdeb316ccc488f6c14252a32323fdd4035e9ff6a",
+   "approval_status": "pending",
+   "created_at": "2026-10-25T17:07:52.434692+00:00",
+   "run_id": "pack_run_da2ebc56e84190afa8b79583",
+   "kind": "edit",
+   "by": "ai@weddingindustryads.com",
+   "delegated": true,
+   "pieces": [
+    "carousel"
+   ],
+   "paths": [
+    "slides[2].text"
+   ],
+   "note": null
+  },
+  {
+   "pack_id": "pack_1810a7fc6bc54df296a5749d58d6928f",
+   "supersedes_id": "pack_7cb0b5dac0dc47ca97371f09c9a4ff90",
+   "manifest_hash": "9ee802b704a63caeda46b5e74f0ba5f799f41e37f431b83cafa852320f12796f",
+   "approval_status": "pending",
+   "created_at": "2026-10-25T17:07:53.642271+00:00",
+   "run_id": "pack_run_da2ebc56e84190afa8b79583",
+   "kind": "edit",
+   "by": "ai@weddingindustryads.com",
+   "delegated": true,
+   "pieces": [
+    "carousel"
+   ],
+   "paths": [
+    "slides[4].text"
+   ],
+   "note": null
+  },
+  {
+   "pack_id": "pack_68ba881421284c37a3b9e92df8c9b16f",
+   "supersedes_id": "pack_1810a7fc6bc54df296a5749d58d6928f",
+   "manifest_hash": "7c464aac22016a0dbcbde6b98feb8d681686ffa2f4a6b5534eb4aff96f0bbd26",
+   "approval_status": "pending",
+   "created_at": "2026-10-25T17:07:54.835779+00:00",
+   "run_id": "pack_run_da2ebc56e84190afa8b79583",
+   "kind": "edit",
+   "by": "ai@weddingindustryads.com",
+   "delegated": true,
+   "pieces": [
+    "reel_1"
+   ],
+   "paths": [
+    "script"
+   ],
+   "note": null
+  },
+  {
+   "pack_id": "pack_bb7e06f1539a45c9925bacfabb7fa1fb",
+   "supersedes_id": "pack_68ba881421284c37a3b9e92df8c9b16f",
+   "manifest_hash": "e0ce7b75b22719cb7784afd7742191107a5e67ceb73457257870b045cbd9c928",
+   "approval_status": "approved",
+   "created_at": "2026-10-25T17:07:56.039900+00:00",
+   "run_id": "pack_run_da2ebc56e84190afa8b79583",
+   "kind": "edit",
+   "by": "ai@weddingindustryads.com",
+   "delegated": true,
+   "pieces": [
+    "reel_3"
+   ],
+   "paths": [
+    "caption.body"
+   ],
+   "note": null
+  },
+  {
+   "pack_id": "pack_86676107663f5a8e70c990ec",
+   "supersedes_id": "pack_bb7e06f1539a45c9925bacfabb7fa1fb",
+   "manifest_hash": "cca7722832b836a14758a52a13f0ec5a263bced6e3856ae5e1631457c102ae73",
+   "approval_status": "pending",
+   "created_at": "2026-10-27T03:05:42.455922+00:00",
+   "run_id": "pack_run_86676107663f5a8e70c990ec",
+   "kind": "finish_again",
+   "by": "content-pack step",
+   "delegated": false,
+   "pieces": [],
+   "paths": [],
+   "note": null
+  }
+ ],
+ "approval_delegated": true,
+ "can_edit": true,
+ "can_decide": true,
+ "can_finish_again": true,
+ "can_mark_published": true,
+ "removed_material": null
+}

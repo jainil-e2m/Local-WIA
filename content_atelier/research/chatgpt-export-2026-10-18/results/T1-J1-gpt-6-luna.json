@@ -1,0 +1,686 @@
+[
+ {
+  "id": "P02",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "It uses a more measured tone and avoids A’s unsupported promise of high-quality leads filling calendars on autopilot.",
+  "cost": 0.00017439
+ },
+ {
+  "id": "P03",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "It uses a wedding-specific image and avoids A’s harsher “expensive hobby” framing and autopilot promise.",
+  "cost": 0.000174515
+ },
+ {
+  "id": "P02",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "A is less hype-driven and avoids B’s unsupported promise of high-quality leads and full calendars on autopilot.",
+  "cost": 0.0013293
+ },
+ {
+  "id": "P01",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 5,
+  "reason": "A uses Whitney’s founder experience to make a grounded point, while B relies on hype and overpromises that ads bring dream clients straight to you.",
+  "cost": 0.00029039
+ },
+ {
+  "id": "P01",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 5,
+  "reason": "It uses a grounded founder story to reveal a broader point about marketing systems, which fits Whitney’s thoughtful, personal voice.",
+  "cost": 0.000266265
+ },
+ {
+  "id": "P03",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "A uses a wedding-relevant image without B’s dismissive “expensive hobby” jab or overpromising autopilot claim.",
+  "cost": 0.000164515
+ },
+ {
+  "id": "P04",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 4,
+  "reason": "It better reflects WIA’s focus on strategic lead generation, while A’s “tire kickers” and “pre-sells” language feels more aggressive than Whitney’s voice.",
+  "cost": 0.000230765
+ },
+ {
+  "id": "P05",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 4,
+  "reason": "It offers a clearer visibility reframe, though “invisible” is a little sharper than Whitney’s usual tone.",
+  "cost": 0.000218515
+ },
+ {
+  "id": "P04",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 4,
+  "reason": "It reflects WIA’s focus on Google and Meta ads, while B’s dismissive “tire kickers” framing feels less like Whitney’s grounded voice.",
+  "cost": 0.000171765
+ },
+ {
+  "id": "P05",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 5,
+  "reason": "A is clear and concise; B has a grammatical error and an awkwardly broad diagnosis.",
+  "cost": 0.000154015
+ },
+ {
+  "id": "P06",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "A is clearer and more grounded, while B’s Halloween puns and playful phrasing feel performative rather than like Whitney’s thoughtful voice.",
+  "cost": 0.00019639
+ },
+ {
+  "id": "P06",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "B communicates the strategy clearly without the forced Halloween metaphors in A, though its opening could be less hype-driven.",
+  "cost": 0.00019139
+ },
+ {
+  "id": "P07",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "It frames the visibility problem clearly without the dismissive, overly confrontational tone of A.",
+  "cost": 0.00018739
+ },
+ {
+  "id": "P08",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 4,
+  "reason": "It frames the visibility gap thoughtfully without implying that ranking first on Google is the only path to bookings.",
+  "cost": 0.000199765
+ },
+ {
+  "id": "P08",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 4,
+  "reason": "It offers a calm, clear reframe about visibility without overpromising results or reducing the problem to Google rankings.",
+  "cost": 0.00019864
+ },
+ {
+  "id": "P09",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 4,
+  "reason": "It keeps a calm, strategic tone and avoids A’s overstated claims about control and doubled visibility.",
+  "cost": 0.00018914
+ },
+ {
+  "id": "P07",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "It connects Google visibility to high-intent inquiries more clearly, while B’s “none of that matters” feels overly absolute.",
+  "cost": 0.00024239
+ },
+ {
+  "id": "P09",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 4,
+  "reason": "It’s more measured and grounded, while Version B leans on hype and overstates how much control Google Ads provide.",
+  "cost": 0.00020164
+ },
+ {
+  "id": "P11",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 5,
+  "reason": "The personal, warm invitation and first-person sign-off feel more aligned with Whitney’s founder voice.",
+  "cost": 0.000158265
+ },
+ {
+  "id": "P11",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "The personal “reply to this email” invitation and Whitney-only sign-off feel more aligned with her warm, founder-led voice.",
+  "cost": 0.000186265
+ },
+ {
+  "id": "P10",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "It names a recognizable visibility gap in a measured way, while A’s “objectively” and “less compelling” sound overly judgmental.",
+  "cost": 0.00018864
+ },
+ {
+  "id": "P12",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 4,
+  "reason": "It offers a clear, thoughtful reframe without the extra, vague qualification in B.",
+  "cost": 0.000170515
+ },
+ {
+  "id": "P12",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 4,
+  "reason": "It offers a grounded, concise reframe that fits Whitney’s strategic, insight-led voice.",
+  "cost": 0.000161515
+ },
+ {
+  "id": "P10",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "A makes a clear, relevant observation about visibility in Google search without relying on vague or judgmental comparisons.",
+  "cost": 0.00016964
+ },
+ {
+  "id": "P13",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 5,
+  "reason": "It offers a thoughtful, grounded reframe about visibility and repetition without overstating the problem.",
+  "cost": 0.000161265
+ },
+ {
+  "id": "P13",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "A explains the role of repeated visibility in a grounded, thoughtful way, while B makes a more categorical claim than Whitney’s voice typically uses.",
+  "cost": 0.000164265
+ },
+ {
+  "id": "P14",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 5,
+  "reason": "It offers a clearer, more thoughtful reframe and names the giveaway directly without the extra promotional aside.",
+  "cost": 0.000186515
+ },
+ {
+  "id": "P15",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "It clearly communicates WIA’s collaborative, strategy-first approach and helps clients understand what they’ll learn.",
+  "cost": 0.000153515
+ },
+ {
+  "id": "P15",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "It clearly reflects the Accelerator’s hands-on launch and teaching model while keeping the focus on learning and improvement.",
+  "cost": 0.000192515
+ },
+ {
+  "id": "P14",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 4,
+  "reason": "It keeps the invitation clear and grounded without B’s extra hype or emotionally pressuring share request.",
+  "cost": 0.00019289
+ },
+ {
+  "id": "P17",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 5,
+  "reason": "Its careful wording and clear explanation fit Whitney’s thoughtful, grounded voice better than B’s punchy absolutes.",
+  "cost": 0.000151515
+ },
+ {
+  "id": "P18",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 5,
+  "reason": "It leads with a strategic principle and explains why measurement matters, which fits Whitney’s thoughtful, clarity-first voice.",
+  "cost": 0.00014239
+ },
+ {
+  "id": "P16",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 5,
+  "reason": "B uses a thoughtful, specific explanation and avoids claiming the ads were working when the tracking couldn’t show that.",
+  "cost": 0.000315015
+ },
+ {
+  "id": "P17",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 5,
+  "reason": "It makes the distinction between ad performance and the ability to measure it with Whitney’s measured, strategic clarity.",
+  "cost": 0.000185515
+ },
+ {
+  "id": "P18",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "It expresses a clear strategic principle about data and better decisions, which aligns closely with Whitney’s voice.",
+  "cost": 0.00016839
+ },
+ {
+  "id": "P19",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "It connects the principle that ads need strong foundations to the wedding-specific question of why couples should choose you.",
+  "cost": 0.00017014
+ },
+ {
+  "id": "P19",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "It makes the strategic point concrete for wedding businesses while keeping the tone thoughtful with “at least not yet.”",
+  "cost": 0.00017714
+ },
+ {
+  "id": "P21",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 5,
+  "reason": "It’s concise and grounded, without the generic hype of “incredible business” and “next level of success.”",
+  "cost": 0.000149015
+ },
+ {
+  "id": "P20",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 5,
+  "reason": "B explains the strategy behind Google Ads without adding unverified performance claims about specific budgets.",
+  "cost": 0.00019314
+ },
+ {
+  "id": "P16",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "It preserves the uncertainty around whether the ads were working and avoids presenting bookings-to-spend as a definitive 10x return.",
+  "cost": 0.000415015
+ },
+ {
+  "id": "P22",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 4,
+  "reason": "It connects paid ads to the desire for more control without relying on the vague, hype-driven promise of “new heights.”",
+  "cost": 0.00015939
+ },
+ {
+  "id": "P21",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 4,
+  "reason": "It’s more concise and grounded, while B relies on generic, hype-adjacent phrases like “incredible” and “next level of success.”",
+  "cost": 0.000157015
+ },
+ {
+  "id": "P22",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 5,
+  "reason": "A connects paid ads to the audience’s desire for more control, while B relies on a vague, hype-leaning promise.",
+  "cost": 0.000152765
+ },
+ {
+  "id": "P23",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "It offers a more strategic, nuanced explanation of how ads work, while B relies on a sharper ‘lies’ framing and makes overly absolute claims.",
+  "cost": 0.000231515
+ },
+ {
+  "id": "P20",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 5,
+  "reason": "B adds specific budget-and-results claims that aren’t verified, while A keeps the focus on strategy without introducing unsupported proof.",
+  "cost": 0.00021614
+ },
+ {
+  "id": "P24",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "A gives more specific, grounded details about LeadLock, while B leans on broad promises that inquiries will turn into bookings.",
+  "cost": 0.00019764
+ },
+ {
+  "id": "P23",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 4,
+  "reason": "B’s claim that DIY ads won’t work conflicts with WIA’s belief that business owners can learn to run ads themselves.",
+  "cost": 0.000312015
+ },
+ {
+  "id": "P24",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "B explains LeadLock’s specific follow-up features without promising that automation will turn every inquiry into a booking.",
+  "cost": 0.00022814
+ },
+ {
+  "id": "P25",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 5,
+  "reason": "It’s a complete, thoughtful email that reframes visibility through systems in Whitney’s strategic, grounded voice.",
+  "cost": 0.000227015
+ },
+ {
+  "id": "P25",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 5,
+  "reason": "It’s a complete, thoughtful email that offers a clear strategic reframe in Whitney’s calm, grounded voice.",
+  "cost": 0.000197015
+ },
+ {
+  "id": "P26",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "It offers a strategic reframe and a relevant next step, while B relies on dramatic phrasing and stops before explaining the solution.",
+  "cost": 0.00021664
+ },
+ {
+  "id": "P26",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "B offers a more nuanced strategic reframe, while A leans on dramatic, all-or-nothing language that feels less like Whitney.",
+  "cost": 0.000210515
+ },
+ {
+  "id": "P27",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 5,
+  "reason": "A is a complete, thoughtful caption that acknowledges client concerns and reinforces WIA’s strategic, brand-aligned approach.",
+  "cost": 0.00017614
+ },
+ {
+  "id": "P27",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 5,
+  "reason": "B is a complete, thoughtful caption that reflects Whitney’s focus on buyer confidence, positioning, and strategy without sounding aggressive.",
+  "cost": 0.00021614
+ },
+ {
+  "id": "P28",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 4,
+  "reason": "A uses Whitney’s calm, strategic framing, while B has a capitalization error and a more comparative, sales-forward tone.",
+  "cost": 0.000220265
+ },
+ {
+  "id": "P28",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 4,
+  "reason": "It leads with a clear strategic reframe and explains why foundations matter in Whitney’s thoughtful, grounded voice.",
+  "cost": 0.000206765
+ },
+ {
+  "id": "P30",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 5,
+  "reason": "A reflects WIA’s strategic positioning without dismissing SEO or implying guaranteed bookings.",
+  "cost": 0.00018189
+ },
+ {
+  "id": "P29",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "B connects a client result to WIA’s strategic approach and includes a clear CTA, though it has a grammatical error.",
+  "cost": 0.000282765
+ },
+ {
+  "id": "P30",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 5,
+  "reason": "It frames ads as a strategic extension of existing marketing without dismissing SEO or promising booked calendars.",
+  "cost": 0.00017639
+ },
+ {
+  "id": "P31",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 5,
+  "reason": "It describes the Accelerator as campaign setup and launch, while calling it a done-for-you service misrepresents the collaborative offer.",
+  "cost": 0.00016639
+ },
+ {
+  "id": "P31",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 5,
+  "reason": "It accurately describes the Accelerator as a campaign setup and launch, rather than calling it a done-for-you service.",
+  "cost": 0.00016239
+ },
+ {
+  "id": "P32",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 5,
+  "reason": "It reflects Whitney’s thoughtful, observation-led voice and focuses on positioning and clarity rather than generic ad language.",
+  "cost": 0.000168515
+ },
+ {
+  "id": "P29",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 4,
+  "reason": "Its hook and objection-focused framing feel more curious and grounded in Whitney’s voice, while Version A has a distracting grammar error and a more judgmental tone.",
+  "cost": 0.000368265
+ },
+ {
+  "id": "P33",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 5,
+  "reason": "It expresses WIA’s strategic, outcomes-focused positioning clearly without making unsupported claims about its programs.",
+  "cost": 0.000160765
+ },
+ {
+  "id": "P34",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 4,
+  "reason": "It reads naturally and reflects Whitney’s strategic, grounded voice without the awkward parenthetical in B.",
+  "cost": 0.000174265
+ },
+ {
+  "id": "P32",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "It reflects Whitney’s belief that ads amplify a strong foundation and frames their role strategically, rather than focusing only on a communication problem.",
+  "cost": 0.000252015
+ },
+ {
+  "id": "P33",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 4,
+  "reason": "It communicates WIA’s strategic focus clearly without making broader or potentially unverified claims about its programs.",
+  "cost": 0.000197265
+ },
+ {
+  "id": "P34",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 5,
+  "reason": "It reflects the audience’s uncertainty and uneven results without assuming they already have leads or are ready to scale.",
+  "cost": 0.000217265
+ },
+ {
+  "id": "P37",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 5,
+  "reason": "A speaks directly to the reader and clearly explains the strategic foundation needed before running ads.",
+  "cost": 0.00018489
+ },
+ {
+  "id": "P35",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "It explains the workflow’s role clearly without implying LeadLock guarantees support all the way through booking.",
+  "cost": 0.000259515
+ },
+ {
+  "id": "P36",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 4,
+  "reason": "B has awkward wording and overpromises by saying the sequence will pre-sell every appointment.",
+  "cost": 0.00019464
+ },
+ {
+  "id": "P36",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 5,
+  "reason": "It clearly summarizes the follow-up system without the awkward wording and absolute promise in A.",
+  "cost": 0.00015264
+ },
+ {
+  "id": "P35",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "It describes the inquiry journey clearly without implying LeadLock can guarantee a booking.",
+  "cost": 0.00027739
+ },
+ {
+  "id": "P37",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 4,
+  "reason": "It shows WIA’s strategic process in concrete terms and explains why positioning matters without sounding like a directive.",
+  "cost": 0.00022539
+ },
+ {
+  "id": "P38",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "It explains the actual follow-up sequence and its intended benefit more clearly than the vague phrase “continues the conversation.”",
+  "cost": 0.00024639
+ },
+ {
+  "id": "P38",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "It clearly describes the automated follow-up and its intended benefit without implying AI carries on a conversation.",
+  "cost": 0.00025989
+ }
+]

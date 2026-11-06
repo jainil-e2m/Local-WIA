@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J0-claude-haiku-5.5-P34-HA",
+  "model": "anthropic/claude-haiku-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 299,
+  "completion_tokens": 343,
+  "cached_tokens": 0,
+  "cost": 0.0002014,
+  "seconds": 2.5,
+  "finish": "stop",
+  "system_sha": "ea72523eb9c9",
+  "user_sha": "30b67754e2e0"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 3,
+  "reason": "Version A includes a leftover \"(Locked replacement)\" annotation that would publish as-is, while Version B is clean, email-ready copy that can be sent without edits."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: email\n\nVersion A:\n(Locked replacement) They believe ads should work for their business — but they haven’t seen consistent results yet. They may have tried one platform and felt unsure whether it was doing what it was supposed to do.\n\nVersion B:\nThis is where many businesses find themselves.\nThey know ads work.\nThey’re seeing leads.\nNow they’re thinking more strategically about how to scale.",
+  "cache_prefix_sha": "ea72523eb9c9"
+ }
+}

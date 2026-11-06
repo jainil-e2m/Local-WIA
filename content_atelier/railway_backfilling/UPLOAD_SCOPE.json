@@ -1,0 +1,14 @@
+{
+  "operation": "local preparation only; future Railway upload requires reviewed destination and tools",
+  "payload_directory": "payload",
+  "file_allowlist": "reports/payload-manifest.csv",
+  "supporting_metadata": [
+    "README.md",
+    "HANDOVER_STATUS.json",
+    "reports/",
+    "tools/verify_package.py"
+  ],
+  "exclude_from_future_discovery": "railway_backfilling/ within original checkout",
+  "original_sources_may_be_deleted": false,
+  "upload_performed": false
+}

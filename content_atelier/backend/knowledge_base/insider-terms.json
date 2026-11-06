@@ -1,0 +1,49 @@
+{
+  "purpose": "WIA's program internals that a cold reader may not know (first-touch rule 4, R59; E.B34 (d)). None appears in first-touch text (subjects, previews, covers, on-screen hooks, the first b-roll screen, carousel slide 1); in a script, an email or a caption each appears at most once, explained in plain words. The offer names themselves (ELEVATE, the Ads Accelerators, LeadLock) are not insider terms: they carry their approved descriptors (offer-descriptors.json). Read by briefs/first_touch.py; pinned on each v4 brief's provenance.",
+  "source": "Plan section 4.3 rule 4 and WIA's 20 October review (W6: \"office hours\" could be \"a bit of a turnoff\" for an audience not in the program; \"we met with one of our Accelerator members recently\"); the internal program facts in knowledge-base document 05 (the VAULT, office hours, VIP Day, the kickoff call, the Learn and Launch phases, the approved pool). Track G writes the glossary prose in KB 05; terms it adds there are added here.",
+  "version": "insider-terms.2026-10-22.v1",
+  "terms": [
+    {
+      "term": "office hours",
+      "pattern": "\\boffice[- ]hours?\\b",
+      "plain": "a weekly call where our Google and Meta experts look at your own account with you",
+      "explained_by": ["your account", "your actual account", "your real account", "your own account", "with you", "expert", "look at", "go through", "going through", "walk through", "live call", "weekly call"]
+    },
+    {
+      "term": "the VAULT",
+      "pattern": "(?-i:\\bVAULT\\b)|\\bthe vault\\b",
+      "plain": "the members' library of trainings and workshops",
+      "explained_by": ["training", "library", "lesson", "workshop", "curriculum"]
+    },
+    {
+      "term": "VIP Day",
+      "pattern": "\\bVIP[- ]days?\\b",
+      "plain": "the day we build and launch your campaign with you",
+      "explained_by": ["build", "launch", "with you", "one day", "a day"]
+    },
+    {
+      "term": "kickoff call",
+      "pattern": "\\bkick[- ]?off call\\b",
+      "plain": "the first planning call after someone joins",
+      "explained_by": ["first call", "planning", "when you join", "after you join", "start"]
+    },
+    {
+      "term": "Audit & Adapt",
+      "pattern": "\\baudit (?:&|and) adapt\\b",
+      "plain": "the lesson where you review what your current ads are doing",
+      "explained_by": ["lesson", "review", "what your", "current ads"]
+    },
+    {
+      "term": "approved pool",
+      "pattern": "\\bapproved pool\\b",
+      "plain": "the set of new ads a client has signed off on",
+      "explained_by": ["signed off", "approved", "new ads", "creative"]
+    },
+    {
+      "term": "Learn and Launch phases",
+      "pattern": "\\b(?:the )?(?:learn|launch) phase\\b",
+      "plain": "the first weeks, when you learn the framework and we launch your campaigns",
+      "explained_by": ["first weeks", "framework", "we launch", "learn"]
+    }
+  ]
+}

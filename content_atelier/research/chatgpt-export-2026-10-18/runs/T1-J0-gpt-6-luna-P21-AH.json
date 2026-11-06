@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J0-gpt-6-luna-P21-AH",
+  "model": "openai/gpt-6-luna",
+  "provider": "OpenAI",
+  "effort": null,
+  "prompt_tokens": 170,
+  "completion_tokens": 72,
+  "cached_tokens": 0,
+  "cost": 5.3e-05,
+  "seconds": 2.3,
+  "finish": "stop",
+  "system_sha": "ea72523eb9c9",
+  "user_sha": "bf1423a8759c"
+ },
+ "output": {
+  "choice": "A",
+  "confidence": 4,
+  "reason": "It’s concise and confident without the generic hype of “next level of success.”"
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: landing\n\nVersion A:\nIf you’re holding this guide, chances are your business is already thriving—and now you’re ready to grow.\n\nVersion B:\nIf you're holding this guide, chances are you've already built an incredible business, and now you're ready to reach your next level of success.",
+  "cache_prefix_sha": "ea72523eb9c9"
+ }
+}

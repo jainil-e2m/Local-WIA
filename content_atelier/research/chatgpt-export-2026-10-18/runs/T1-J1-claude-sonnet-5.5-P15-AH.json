@@ -1,0 +1,23 @@
+{
+ "meta": {
+  "run_id": "T1-J1-claude-sonnet-5.5-P15-AH",
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 16099,
+  "completion_tokens": 248,
+  "cached_tokens": 15842,
+  "cost": 0.0045782,
+  "seconds": 2.8,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "001b3c159deb"
+ },
+ "output": null,
+ "content": "Version B fits the Accelerator offer: WIA builds the first campaigns with the owner, then teaches them to manage the ads themselves. It also echoes the \"understand what's working and why\" language in the strategy doc and sounds like Whitney, who teaches principles and the why before the how.\n\nVersion A is vaguer and uses the generic \"driver's seat\" cliché. It could also be read as describing the Elevate full-service offer, where the client hands over control, which is the opposite of what A suggests.\n\n```json\n{\"choice\":\"B\",\"confidence\":4,\"reason\":\"B accurately reflects the Accelerator offer (WIA launches campaigns and teaches owners to understand what works and why), while A is a vague cliché that blurs the full-service and teaching offers.\"}\n```",
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: stories\n\nVersion A:\nWe build the foundation, guide the strategy, and support your decisions—\nbut you stay in the driver’s seat.\n\nVersion B:\nWe teach you the strategy, launch your campaigns, and support you as you learn what’s working—and how to make it better.",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

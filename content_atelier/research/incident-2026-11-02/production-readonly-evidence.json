@@ -1,0 +1,617 @@
+{
+  "inspected_at": "2026-11-02T06:50:28.616432+00:00",
+  "project": "3409333b-1844-456c-93f9-f572ba92eb92",
+  "window": {
+    "start": "2026-10-25T10:00:00+00:00",
+    "end": "2026-11-01T10:00:00+00:00"
+  },
+  "container_backend_root": "/app",
+  "container_inferred_repository": "/",
+  "container_guard_result": "Write the Fathom folders outside the repository (R48), not under /",
+  "database": {
+    "name": "atelier",
+    "read_only": "on",
+    "at": "2026-11-02 06:50:28.909962+00:00"
+  },
+  "settings": [
+    {
+      "key": "cycle.hour",
+      "value": 4,
+      "updated_at": "2026-10-25 18:27:24.210641+00:00"
+    },
+    {
+      "key": "cycle.schedule.actor",
+      "value": "ai@weddingindustryads.com",
+      "updated_at": "2026-10-25 18:27:24.210641+00:00"
+    },
+    {
+      "key": "cycle.schedule.enabled",
+      "value": true,
+      "updated_at": "2026-10-25 18:27:24.210641+00:00"
+    },
+    {
+      "key": "cycle.schedule.first_day",
+      "value": "2026-11-01",
+      "updated_at": "2026-10-25 18:27:24.210641+00:00"
+    },
+    {
+      "key": "cycle.timezone",
+      "value": "America/Chicago",
+      "updated_at": "2026-10-25 18:27:24.210641+00:00"
+    },
+    {
+      "key": "cycle.weekday",
+      "value": 6,
+      "updated_at": "2026-10-25 18:27:24.210641+00:00"
+    },
+    {
+      "key": "jobs.scheduler.heartbeat",
+      "value": {
+        "at": "2026-11-02T06:50:16.115559+00:00"
+      },
+      "updated_at": "2026-11-02 06:50:16.370087+00:00"
+    },
+    {
+      "key": "schedule.weekly_cycle.2026-11-01",
+      "value": {
+        "error": "ValueError: Write the Fathom folders outside the repository (R48), not under /",
+        "state": "failed",
+        "attempts": 3
+      },
+      "updated_at": "2026-11-01 10:01:24.229266+00:00"
+    }
+  ],
+  "weekly_schedule_history": [
+    {
+      "key": "schedule.weekly_cycle.2026-11-01",
+      "value": {
+        "error": "ValueError: Write the Fathom folders outside the repository (R48), not under /",
+        "state": "failed",
+        "attempts": 3
+      },
+      "updated_at": "2026-11-01 10:01:24.229266+00:00"
+    }
+  ],
+  "alerts": [
+    {
+      "alert_id": "alert_5a27a17e87e4d56077955c19",
+      "kind": "schedule_missed",
+      "subject": "schedule.upkeep.2026-10-25T18",
+      "message": "The scheduled upkeep did not run: BudgetExhausted: Run plan plan_standing_extraction_20261019 is exhausted; no further paid calls",
+      "occurrences": 67,
+      "first_seen_at": "2026-10-25 18:28:07.036281+00:00",
+      "last_seen_at": "2026-10-25 18:59:57.508377+00:00",
+      "resolved_at": "2026-10-25 19:00:27.719628+00:00",
+      "resolution": "cleared"
+    },
+    {
+      "alert_id": "alert_184f2a6b55affcbddac5a506",
+      "kind": "schedule_missed",
+      "subject": "schedule.weekly_cycle.2026-11-01",
+      "message": "The scheduled weekly cycle did not run: ValueError: Write the Fathom folders outside the repository (R48), not under /",
+      "occurrences": 2472,
+      "first_seen_at": "2026-11-01 10:01:23.874781+00:00",
+      "last_seen_at": "2026-11-02 06:50:16.115559+00:00",
+      "resolved_at": null,
+      "resolution": null
+    }
+  ],
+  "connections": [
+    {
+      "connection_id": "fathom",
+      "provider": "fathom",
+      "activated_at": "2026-10-27 11:12:59.251833+00:00",
+      "checkpoint": "2026-11-02 06:03:18.390071+00:00",
+      "health": "pending",
+      "error_summary": "Fathom HTTP 429",
+      "updated_at": "2026-11-02 06:43:46.741693+00:00"
+    }
+  ],
+  "intake_requests": [
+    {
+      "connection_id": "fathom",
+      "status": "pending_transcript",
+      "count": 87,
+      "first_start": "2026-10-29 15:20:11.377174+00:00",
+      "last_end": "2026-11-02 06:03:18.390071+00:00"
+    },
+    {
+      "connection_id": "fathom",
+      "status": "completed",
+      "count": 53,
+      "first_start": "2026-10-27 11:12:59.251833+00:00",
+      "last_end": "2026-10-29 15:20:11.377174+00:00"
+    }
+  ],
+  "intake_buckets": [
+    {
+      "bucket_id": "bucket_0a998c85ad674750ae74c152910271df",
+      "starts_at": "2026-11-01 10:00:00+00:00",
+      "cutoff": null,
+      "status": "open",
+      "completed_at": null
+    },
+    {
+      "bucket_id": "bucket_4c99461868104d7499e0ee96d4ce518e",
+      "starts_at": "2026-10-27 11:12:59.251833+00:00",
+      "cutoff": "2026-11-01 10:00:00+00:00",
+      "status": "collecting",
+      "completed_at": null
+    }
+  ],
+  "recent_weekly_runs": [
+    {
+      "run_id": "run_c33de7caf2cd43da8c91c9ab07895e20",
+      "week_id": "week_2026-10-18",
+      "status": "waiting_for_review",
+      "trigger_type": "manual",
+      "created_at": "2026-10-25 18:49:48.992969+00:00",
+      "finished_at": "2026-10-25 19:01:07.100179+00:00",
+      "window": {
+        "end": "2026-10-25T09:00:00+00:00",
+        "start": "2026-10-18T09:00:00+00:00"
+      },
+      "started_from": "app",
+      "scheduled_for": null,
+      "selected_by": "window"
+    },
+    {
+      "run_id": "run_3e43294978af47aab1b4d55438dcd81f",
+      "week_id": "week_2026-10-20",
+      "status": "waiting_for_review",
+      "trigger_type": "manual",
+      "created_at": "2026-10-25 01:17:14.609316+00:00",
+      "finished_at": "2026-10-25 01:22:48.306518+00:00",
+      "window": {
+        "end": "2026-10-26T00:00:00+00:00",
+        "start": "2026-10-20T00:00:00+00:00"
+      },
+      "started_from": "app",
+      "scheduled_for": null,
+      "selected_by": "window"
+    },
+    {
+      "run_id": "run_2140fa0b66b64a7e9325705557cc29bd",
+      "week_id": "week_2026-10-12",
+      "status": "waiting_for_review",
+      "trigger_type": "manual",
+      "created_at": "2026-10-23 08:05:16.569197+00:00",
+      "finished_at": "2026-10-23 08:12:32.222316+00:00",
+      "window": {
+        "end": "2026-10-20T00:00:00+00:00",
+        "start": "2026-10-12T00:00:00+00:00"
+      },
+      "started_from": "app",
+      "scheduled_for": null,
+      "selected_by": "window"
+    },
+    {
+      "run_id": "run_f92042c802f84d8a9a1401a460cb0f55",
+      "week_id": "week_2026-06-08",
+      "status": "completed",
+      "trigger_type": "manual",
+      "created_at": "2026-10-12 09:54:14.856861+00:00",
+      "finished_at": "2026-10-12 10:18:49.879137+00:00",
+      "window": null,
+      "started_from": null,
+      "scheduled_for": null,
+      "selected_by": null
+    }
+  ],
+  "document_history": [
+    {
+      "source_type": "zoom",
+      "count": 164,
+      "latest_occurrence": "2026-10-13 19:02:13+00:00",
+      "latest_ingested": "2026-10-14 14:27:49.650429+00:00"
+    },
+    {
+      "source_type": "fathom",
+      "count": 43,
+      "latest_occurrence": "2026-10-29 16:06:39+00:00",
+      "latest_ingested": "2026-10-29 17:21:04.991887+00:00"
+    },
+    {
+      "source_type": "file",
+      "count": 1,
+      "latest_occurrence": "2026-01-05 12:00:00+00:00",
+      "latest_ingested": "2026-10-23 22:45:52.606799+00:00"
+    }
+  ],
+  "documents_in_missed_window": [
+    {
+      "transcript_id": "transcript_65c6ca8c760247270819e8a8",
+      "source_type": "fathom",
+      "upstream_id": "fathom:196735396",
+      "title": "Google Ads Vip Day Call 1 With Tony",
+      "occurred_at": "2026-10-27 14:01:52+00:00",
+      "ingested_at": "2026-10-27 16:15:21.975445+00:00",
+      "included": true,
+      "call_type": "client_1to1",
+      "normalised_at": "2026-10-27 16:15:50.542303+00:00",
+      "canonical_document_id": null,
+      "extraction_status": "completed"
+    },
+    {
+      "transcript_id": "transcript_6ec3be680bd6282145af9bbf",
+      "source_type": "fathom",
+      "upstream_id": "fathom:196874950",
+      "title": "Google Ads VIP Call 2 with Tony",
+      "occurred_at": "2026-10-27 17:02:45+00:00",
+      "ingested_at": "2026-10-27 18:16:08.285549+00:00",
+      "included": true,
+      "call_type": "client_1to1",
+      "normalised_at": "2026-10-27 18:16:36.601775+00:00",
+      "canonical_document_id": null,
+      "extraction_status": "completed"
+    },
+    {
+      "transcript_id": "transcript_ad130e1a6bc99019fc0abbc2",
+      "source_type": "fathom",
+      "upstream_id": "fathom:197261618",
+      "title": "Matlai Photography | Messaging & Positioning Call",
+      "occurred_at": "2026-10-28 15:01:36+00:00",
+      "ingested_at": "2026-10-28 16:18:32.757743+00:00",
+      "included": true,
+      "call_type": "client_1to1",
+      "normalised_at": "2026-10-28 16:19:03.892286+00:00",
+      "canonical_document_id": null,
+      "extraction_status": "completed"
+    },
+    {
+      "transcript_id": "transcript_d37f8fe14bf7539998310e04",
+      "source_type": "fathom",
+      "upstream_id": "fathom:197260974",
+      "title": "Impromptu Zoom Meeting",
+      "occurred_at": "2026-10-28 15:02:06+00:00",
+      "ingested_at": "2026-10-28 16:18:31.277958+00:00",
+      "included": true,
+      "call_type": "client_1to1",
+      "normalised_at": "2026-10-28 16:19:02.937779+00:00",
+      "canonical_document_id": null,
+      "extraction_status": "completed"
+    },
+    {
+      "transcript_id": "transcript_72d274f159e7e65246a11971",
+      "source_type": "fathom",
+      "upstream_id": "fathom:197316699",
+      "title": "Google Ads Audit with Full Spectrum Ice",
+      "occurred_at": "2026-10-28 16:02:18+00:00",
+      "ingested_at": "2026-10-28 17:18:36.727400+00:00",
+      "included": true,
+      "call_type": "client_1to1",
+      "normalised_at": "2026-10-28 17:19:04.542251+00:00",
+      "canonical_document_id": null,
+      "extraction_status": "completed"
+    },
+    {
+      "transcript_id": "transcript_e00882a3add6e30757cbdc8a",
+      "source_type": "fathom",
+      "upstream_id": "fathom:197317762",
+      "title": "Impromptu Zoom Meeting",
+      "occurred_at": "2026-10-28 16:02:59+00:00",
+      "ingested_at": "2026-10-28 16:18:30.356895+00:00",
+      "included": true,
+      "call_type": "client_1to1",
+      "normalised_at": "2026-10-28 16:18:59.115088+00:00",
+      "canonical_document_id": null,
+      "extraction_status": "completed"
+    },
+    {
+      "transcript_id": "transcript_b020070ed99841afcdcc5ab6",
+      "source_type": "fathom",
+      "upstream_id": "fathom:197367818",
+      "title": "Impromptu Zoom Meeting",
+      "occurred_at": "2026-10-28 17:17:09+00:00",
+      "ingested_at": "2026-10-28 18:18:45.716070+00:00",
+      "included": false,
+      "call_type": "client_1to1",
+      "normalised_at": "2026-10-28 18:19:17.218176+00:00",
+      "canonical_document_id": "transcript_6fa9a002d2662aafbba10b08",
+      "extraction_status": "not_applicable"
+    },
+    {
+      "transcript_id": "transcript_6fa9a002d2662aafbba10b08",
+      "source_type": "fathom",
+      "upstream_id": "fathom:197367161",
+      "title": "Impromptu Zoom Meeting",
+      "occurred_at": "2026-10-28 17:17:15+00:00",
+      "ingested_at": "2026-10-28 18:18:45.321572+00:00",
+      "included": true,
+      "call_type": "client_1to1",
+      "normalised_at": "2026-10-28 18:19:14.706771+00:00",
+      "canonical_document_id": null,
+      "extraction_status": "completed"
+    },
+    {
+      "transcript_id": "transcript_e2acc1f557a58632bb2a012f",
+      "source_type": "fathom",
+      "upstream_id": "fathom:197397123",
+      "title": "Impromptu Zoom Meeting",
+      "occurred_at": "2026-10-28 18:02:03+00:00",
+      "ingested_at": "2026-10-28 19:18:54.087847+00:00",
+      "included": false,
+      "call_type": "client_1to1",
+      "normalised_at": "2026-10-28 19:19:27.444080+00:00",
+      "canonical_document_id": "transcript_b6e909851d7fc0a5fa145ed6",
+      "extraction_status": "not_applicable"
+    },
+    {
+      "transcript_id": "transcript_b6e909851d7fc0a5fa145ed6",
+      "source_type": "fathom",
+      "upstream_id": "fathom:197399273",
+      "title": "Impromptu Zoom Meeting",
+      "occurred_at": "2026-10-28 18:02:08+00:00",
+      "ingested_at": "2026-10-28 19:18:53.351717+00:00",
+      "included": true,
+      "call_type": "client_1to1",
+      "normalised_at": "2026-10-28 19:19:24.242437+00:00",
+      "canonical_document_id": null,
+      "extraction_status": "completed"
+    },
+    {
+      "transcript_id": "transcript_a2a772244a5bccfb318e8428",
+      "source_type": "fathom",
+      "upstream_id": "fathom:197435435",
+      "title": "Impromptu Zoom Meeting",
+      "occurred_at": "2026-10-28 19:02:12+00:00",
+      "ingested_at": "2026-10-28 20:19:03.370041+00:00",
+      "included": true,
+      "call_type": "prospect",
+      "normalised_at": "2026-10-28 20:19:36.964049+00:00",
+      "canonical_document_id": null,
+      "extraction_status": "completed"
+    },
+    {
+      "transcript_id": "transcript_af470e7b7c4b60c811763d7b",
+      "source_type": "fathom",
+      "upstream_id": "fathom:197428413",
+      "title": "Impromptu Zoom Meeting",
+      "occurred_at": "2026-10-28 19:03:54+00:00",
+      "ingested_at": "2026-10-28 20:19:02.966564+00:00",
+      "included": true,
+      "call_type": "client_1to1",
+      "normalised_at": "2026-10-28 20:19:33.193368+00:00",
+      "canonical_document_id": null,
+      "extraction_status": "completed"
+    },
+    {
+      "transcript_id": "transcript_93faf2803249bcf6e4bc53b6",
+      "source_type": "fathom",
+      "upstream_id": "fathom:197729088",
+      "title": "Matlai Photography | Ads Strategy Call",
+      "occurred_at": "2026-10-29 15:01:27+00:00",
+      "ingested_at": "2026-10-29 16:20:57.398568+00:00",
+      "included": true,
+      "call_type": "client_1to1",
+      "normalised_at": "2026-10-29 16:21:25.657405+00:00",
+      "canonical_document_id": null,
+      "extraction_status": "completed"
+    },
+    {
+      "transcript_id": "transcript_9815dc0d8bd3e0c1cbc18998",
+      "source_type": "fathom",
+      "upstream_id": "fathom:197794155",
+      "title": "Impromptu Zoom Meeting",
+      "occurred_at": "2026-10-29 16:06:39+00:00",
+      "ingested_at": "2026-10-29 17:21:04.991887+00:00",
+      "included": true,
+      "call_type": "client_1to1",
+      "normalised_at": "2026-10-29 17:21:35.988234+00:00",
+      "canonical_document_id": null,
+      "extraction_status": "completed"
+    }
+  ],
+  "recent_imports": [
+    {
+      "source_type": "fathom",
+      "count": 14,
+      "first_ingested": "2026-10-27 16:15:21.975445+00:00",
+      "last_ingested": "2026-10-29 17:21:04.991887+00:00"
+    }
+  ],
+  "new_outputs_since_scheduled_run": {
+    "content_angles": {
+      "count": 0,
+      "latest": null
+    },
+    "content_briefs": {
+      "count": 0,
+      "latest": null
+    },
+    "content_packs": {
+      "count": 0,
+      "latest": null
+    }
+  },
+  "model_activity_since_scheduled_run": [
+    {
+      "stage": "context_mining",
+      "status": "succeeded",
+      "calls": 1,
+      "usd": "0.075260"
+    }
+  ],
+  "fathom_listing_complete": true,
+  "fathom_recordings_in_missed_window": [
+    {
+      "recording_id": 196273263,
+      "title": "Check-in with Gisselle",
+      "occurred_at": "2026-10-26T14:37:26+00:00",
+      "already_imported": [],
+      "nearby_documents_not_verified_duplicates": []
+    },
+    {
+      "recording_id": 196306102,
+      "title": "Google Ads Weekly Team Meeting",
+      "occurred_at": "2026-10-26T15:22:50+00:00",
+      "already_imported": [],
+      "nearby_documents_not_verified_duplicates": []
+    },
+    {
+      "recording_id": 196305821,
+      "title": "Google Ads Weekly Meeting",
+      "occurred_at": "2026-10-26T15:23:54+00:00",
+      "already_imported": [],
+      "nearby_documents_not_verified_duplicates": []
+    },
+    {
+      "recording_id": 196331219,
+      "title": "Meta Ads Weekly Team Meeting",
+      "occurred_at": "2026-10-26T16:01:09+00:00",
+      "already_imported": [],
+      "nearby_documents_not_verified_duplicates": []
+    },
+    {
+      "recording_id": 196389453,
+      "title": "WIA Weekly Meeting",
+      "occurred_at": "2026-10-26T17:07:38+00:00",
+      "already_imported": [],
+      "nearby_documents_not_verified_duplicates": []
+    },
+    {
+      "recording_id": 196735396,
+      "title": "Google Ads Vip Day Call 1 With Tony",
+      "occurred_at": "2026-10-27T14:01:52+00:00",
+      "already_imported": [
+        "transcript_65c6ca8c760247270819e8a8"
+      ],
+      "nearby_documents_not_verified_duplicates": [
+        "transcript_65c6ca8c760247270819e8a8"
+      ]
+    },
+    {
+      "recording_id": 196874950,
+      "title": "Google Ads VIP Call 2 with Tony",
+      "occurred_at": "2026-10-27T17:02:45+00:00",
+      "already_imported": [
+        "transcript_6ec3be680bd6282145af9bbf"
+      ],
+      "nearby_documents_not_verified_duplicates": [
+        "transcript_6ec3be680bd6282145af9bbf"
+      ]
+    },
+    {
+      "recording_id": 197261618,
+      "title": "Matlai Photography | Messaging & Positioning Call",
+      "occurred_at": "2026-10-28T15:01:36+00:00",
+      "already_imported": [
+        "transcript_ad130e1a6bc99019fc0abbc2"
+      ],
+      "nearby_documents_not_verified_duplicates": [
+        "transcript_d37f8fe14bf7539998310e04",
+        "transcript_ad130e1a6bc99019fc0abbc2"
+      ]
+    },
+    {
+      "recording_id": 197316699,
+      "title": "Google Ads Audit with Full Spectrum Ice",
+      "occurred_at": "2026-10-28T16:02:18+00:00",
+      "already_imported": [
+        "transcript_72d274f159e7e65246a11971"
+      ],
+      "nearby_documents_not_verified_duplicates": [
+        "transcript_e00882a3add6e30757cbdc8a",
+        "transcript_72d274f159e7e65246a11971"
+      ]
+    },
+    {
+      "recording_id": 197317762,
+      "title": "LeadLock Kickoff Call Introductions | The Brightside",
+      "occurred_at": "2026-10-28T16:02:59+00:00",
+      "already_imported": [
+        "transcript_e00882a3add6e30757cbdc8a"
+      ],
+      "nearby_documents_not_verified_duplicates": [
+        "transcript_e00882a3add6e30757cbdc8a",
+        "transcript_72d274f159e7e65246a11971"
+      ]
+    },
+    {
+      "recording_id": 197367818,
+      "title": "Bri Photography Monthly Strategy Call",
+      "occurred_at": "2026-10-28T17:17:09+00:00",
+      "already_imported": [],
+      "nearby_documents_not_verified_duplicates": [
+        "transcript_6fa9a002d2662aafbba10b08"
+      ]
+    },
+    {
+      "recording_id": 197367161,
+      "title": "Bri Photography Monthly Strategy Call",
+      "occurred_at": "2026-10-28T17:17:15+00:00",
+      "already_imported": [
+        "transcript_6fa9a002d2662aafbba10b08"
+      ],
+      "nearby_documents_not_verified_duplicates": [
+        "transcript_6fa9a002d2662aafbba10b08"
+      ]
+    },
+    {
+      "recording_id": 197397123,
+      "title": "Impromptu Zoom Meeting",
+      "occurred_at": "2026-10-28T18:02:03+00:00",
+      "already_imported": [],
+      "nearby_documents_not_verified_duplicates": [
+        "transcript_b6e909851d7fc0a5fa145ed6"
+      ]
+    },
+    {
+      "recording_id": 197399273,
+      "title": "Funktastic Monthly Strategy Call",
+      "occurred_at": "2026-10-28T18:02:08+00:00",
+      "already_imported": [
+        "transcript_b6e909851d7fc0a5fa145ed6"
+      ],
+      "nearby_documents_not_verified_duplicates": [
+        "transcript_b6e909851d7fc0a5fa145ed6"
+      ]
+    },
+    {
+      "recording_id": 197435435,
+      "title": "Complimentary Google Ads Audit with Jennifer Torez",
+      "occurred_at": "2026-10-28T19:02:12+00:00",
+      "already_imported": [
+        "transcript_a2a772244a5bccfb318e8428"
+      ],
+      "nearby_documents_not_verified_duplicates": [
+        "transcript_af470e7b7c4b60c811763d7b",
+        "transcript_a2a772244a5bccfb318e8428"
+      ]
+    },
+    {
+      "recording_id": 197428413,
+      "title": "Impromptu Zoom Meeting",
+      "occurred_at": "2026-10-28T19:03:54+00:00",
+      "already_imported": [
+        "transcript_af470e7b7c4b60c811763d7b"
+      ],
+      "nearby_documents_not_verified_duplicates": [
+        "transcript_af470e7b7c4b60c811763d7b",
+        "transcript_a2a772244a5bccfb318e8428"
+      ]
+    },
+    {
+      "recording_id": 197729088,
+      "title": "Matlai Photography | Ads Strategy Call",
+      "occurred_at": "2026-10-29T15:01:27+00:00",
+      "already_imported": [
+        "transcript_93faf2803249bcf6e4bc53b6"
+      ],
+      "nearby_documents_not_verified_duplicates": [
+        "transcript_93faf2803249bcf6e4bc53b6"
+      ]
+    },
+    {
+      "recording_id": 197794155,
+      "title": "Google Ads Office Hours",
+      "occurred_at": "2026-10-29T16:06:39+00:00",
+      "already_imported": [
+        "transcript_9815dc0d8bd3e0c1cbc18998"
+      ],
+      "nearby_documents_not_verified_duplicates": [
+        "transcript_9815dc0d8bd3e0c1cbc18998"
+      ]
+    }
+  ]
+}

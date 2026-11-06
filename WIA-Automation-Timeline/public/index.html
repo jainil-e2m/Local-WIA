@@ -1,0 +1,1156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="wia_favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Automation Engagement Timeline — Wedding Industry Ads</title>
+    <meta
+      name="description"
+      content="Wedding Industry Ads automation engagement — the three automations on the build plan and the breakdown behind each one."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* ------------------------------------------------------------------
+         Wedding Industry Ads palette. Every value below comes from the brand
+         extraction the Command Center already runs on (tailwind.config.js →
+         brand.*) — nothing here is invented.
+         ------------------------------------------------------------------ */
+      :root {
+        --ink: #221e17;          /* strongest ink */
+        --ink-2: #4b4137;        /* sub-headings, muted body copy */
+        --gray: #6d6e6d;         /* tertiary text — 5.05:1 on white */
+        --mist: #e0dfe2;         /* hairlines and soft dividers */
+        --stone: #c7beb2;        /* warm light grey */
+        --primary: #5070ff;      /* CTAs, links, emphasis */
+        --sky: #8da1fd;          /* light periwinkle */
+        --lavender: #c5c9de;
+        --camel: #c39878;
+        --mocha: #87725f;
+        --red: #a83323;          /* semantic red, picked to read on near-white */
+        --radius: 17px;
+        --label-w: 320px;
+        --plot-min: 1060px;
+        --row-h: 66px;
+        --axis-h: 52px;
+      }
+
+      * { box-sizing: border-box; }
+      html { -webkit-text-size-adjust: 100%; }
+
+      body {
+        margin: 0;
+        font-family: Inter, system-ui, -apple-system, sans-serif;
+        color: var(--ink);
+        /* The landing page's hero ground, unchanged. */
+        background:
+          radial-gradient(1100px 620px at 78% -10%, rgba(141, 161, 253, 0.26), transparent 62%),
+          radial-gradient(760px 520px at 6% 106%, rgba(195, 152, 120, 0.18), transparent 66%),
+          linear-gradient(160deg, #ffffff 0%, #fefefe 56%, #e0dfe2 100%);
+        background-attachment: fixed;
+        -webkit-font-smoothing: antialiased;
+        min-height: 100vh;
+      }
+
+      .shell {
+        width: 100%;
+        max-width: 1600px;
+        margin: 0 auto;
+        padding: clamp(1rem, 3vw, 3rem);
+      }
+
+      /* ---------------- hero ---------------- */
+      /* Text on the left, the wordmark large and right-aligned beside it —
+         the logo's new home now that the small masthead lockup is gone. */
+      .hero {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: clamp(24px, 5vw, 64px);
+      }
+      .hero-text {
+        flex: 1;
+        min-width: 0;
+      }
+      /* The two marks as one lockup: e2m × Wedding Industry Ads.
+         ONE size token drives both, so the two can never drift apart — the
+         circle's diameter is always exactly the e2m square's side. Change
+         --mark here and both move together. */
+      .hero-lockup {
+        --mark: clamp(78px, 7.7vw, 104px);
+        flex: none;
+        display: flex;
+        align-items: center;
+        gap: clamp(10px, 1.4vw, 18px);
+        margin-top: 4px;
+      }
+      .e2m-mark {
+        flex: none;
+        width: var(--mark);
+        height: auto;
+        display: block;
+      }
+      .lockup-x {
+        flex: none;
+        font-size: clamp(13px, 1.4vw, 19px);
+        font-weight: 500;
+        line-height: 1;
+        color: var(--ink);
+      }
+      .hero-mark {
+        flex: none;
+        width: var(--mark);
+        height: var(--mark);
+        border-radius: 999px;
+        border: 2px solid var(--primary);
+        background: rgba(255, 255, 255, 0.5);
+        display: grid;
+        place-items: center;
+        /* Derived from the mark rather than clamped on its own, so the
+           wordmark keeps its proportion to the ring at every size. */
+        font-size: calc(var(--mark) * 0.102);
+        font-weight: 800;
+        letter-spacing: 0.1em;
+        line-height: 1.5;
+        text-align: center;
+        color: var(--primary);
+      }
+      h1 {
+        margin: 0;
+        font-size: clamp(2.1rem, 4.6vw, 3.4rem);
+        font-weight: 900;
+        letter-spacing: -0.035em;
+        line-height: 1.03;
+      }
+      h1 em {
+        font-style: normal;
+        background: linear-gradient(90deg, var(--primary), var(--ink) 52%, var(--primary));
+        background-size: 220% auto;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        /* The blue↔black sweep is live, not a fixed gradient — the same
+           background-position drift the Command Center uses for its own
+           gradient headings (tailwind.config.js → animation.shimmer). */
+        animation: shimmer 6s ease-in-out infinite;
+      }
+      @keyframes shimmer {
+        0%, 100% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+      }
+      .lede {
+        margin: 16px 0 0;
+        max-width: 58ch;
+        font-size: 1rem;
+        line-height: 1.7;
+        color: var(--ink-2);
+      }
+
+      /* ---------------- stat strip ---------------- */
+      .stats {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px 67px;
+        margin: 30px 0 26px;
+        padding-top: 24px;
+        border-top: 1px solid var(--mist);
+      }
+      .stat .k {
+        font-size: 10.5px;
+        font-weight: 700;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--gray);
+      }
+      .stat .v {
+        margin-top: 5px;
+        font-size: 1.85rem;
+        font-weight: 800;
+        letter-spacing: -0.03em;
+        line-height: 1;
+      }
+      .stat .v small {
+        font-size: 0.92rem;
+        font-weight: 600;
+        color: var(--ink-2);
+        letter-spacing: 0;
+      }
+
+      /* ---------------- board ---------------- */
+      .board {
+        background: rgba(255, 255, 255, 0.92);
+        border: 1px solid var(--mist);
+        border-radius: var(--radius);
+        box-shadow: 0 18px 50px rgba(34, 30, 23, 0.07);
+        backdrop-filter: blur(9px);
+        -webkit-backdrop-filter: blur(9px);
+        overflow: hidden;
+      }
+      .board-head {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: wrap;
+        padding: 18px 22px;
+        border-bottom: 1px solid var(--mist);
+      }
+      .chip {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 7px 14px;
+        border-radius: 999px;
+        border: 1px solid rgba(80, 112, 255, 0.28);
+        background: rgba(80, 112, 255, 0.08);
+        color: var(--primary);
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+      }
+      .board-head .spacer { flex: 1; }
+      .toggle {
+        display: inline-flex;
+        padding: 3px;
+        border-radius: 999px;
+        background: rgba(34, 30, 23, 0.06);
+      }
+      .toggle button {
+        appearance: none;
+        border: 0;
+        background: transparent;
+        font: inherit;
+        cursor: pointer;
+        padding: 7px 18px;
+        border-radius: 999px;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--ink-2);
+        transition: background 160ms ease, color 160ms ease;
+      }
+      .toggle button[aria-pressed="true"] {
+        background: var(--ink);
+        color: #fff;
+      }
+      .toggle button:focus-visible {
+        outline: 2px solid var(--primary);
+        outline-offset: 2px;
+      }
+
+      /* ---------------- scroller + grid ---------------- */
+      .scroller {
+        overflow-x: auto;
+        scrollbar-width: thin;
+        scrollbar-color: rgba(34, 30, 23, 0.22) transparent;
+      }
+      .scroller::-webkit-scrollbar { height: 9px; }
+      .scroller::-webkit-scrollbar-track { background: transparent; }
+      .scroller::-webkit-scrollbar-thumb {
+        background: rgba(34, 30, 23, 0.2);
+        border-radius: 999px;
+      }
+
+      .inner {
+        position: relative;
+        min-width: calc(var(--label-w) + var(--plot-min));
+      }
+
+      /* ONE grid layer for the whole board rather than gridlines per row: the
+         rows sit over it, and the sticky label column sits over both. */
+      .gridlayer {
+        position: absolute;
+        left: var(--label-w);
+        right: 0;
+        top: 0;
+        bottom: 0;
+        pointer-events: none;
+        /* Deliberately no z-index. It would form a stacking context and trap
+           .today behind the bars — the bands and gridlines already sit under
+           the rows by DOM order alone, so it bought nothing. */
+      }
+      .band {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        background: rgba(34, 30, 23, 0.018);
+      }
+      .gl {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 1px;
+        background: var(--mist);
+      }
+      .today {
+        position: absolute;
+        /* Starts under the date header rather than cutting through it — the
+           axis row is exactly --axis-h tall, so the rule begins where the
+           plot does. */
+        top: var(--axis-h);
+        bottom: 0;
+        width: 3px;
+        /* Pulled back by half its width so the rule stays centred on the
+           exact date rather than starting at it and leaning right. */
+        transform: translateX(-50%);
+        background: var(--primary);
+        z-index: 2;
+      }
+      /* A vertical pill riding the middle of the line, text running with it.
+         `left: 50%` is half the rule's width, so the translate centres the
+         pill on the rule itself rather than beside it. */
+      .today::before {
+        content: "TODAY";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* `upright` keeps each glyph the right way up and stacks them —
+           T over O over D over A over Y — rather than laying the word on
+           its side the way vertical-rl does on its own. */
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        line-height: 1;
+        font-size: 8.5px;
+        font-weight: 800;
+        letter-spacing: 0.06em;
+        color: #fff;
+        background: var(--ink);
+        padding: 9px 4px;
+        border-radius: 999px;
+        white-space: nowrap;
+      }
+
+      .row {
+        position: relative;
+        display: flex;
+        align-items: stretch;
+        min-height: var(--row-h);
+        border-bottom: 1px solid rgba(224, 223, 226, 0.7);
+      }
+      .row:last-child { border-bottom: 0; }
+
+      .labelcol {
+        position: sticky;
+        left: 0;
+        z-index: 3;
+        width: var(--label-w);
+        flex: none;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        /* Right padding is a variable because .soon-tag reaches back through
+           it to sit near the column edge — the two have to agree. */
+        --pr: 18px;
+        padding: 12px var(--pr) 12px 22px;
+        background: rgba(255, 255, 255, 0.97);
+        border-right: 1px solid var(--mist);
+      }
+      .plot {
+        position: relative;
+        flex: 1;
+        min-width: var(--plot-min);
+      }
+
+      /* ---------------- axis ---------------- */
+      .axisrow {
+        position: relative;
+        z-index: 1;
+        height: var(--axis-h);
+        min-height: 0;
+        border-bottom: 1px solid var(--mist);
+        background: rgba(255, 255, 255, 0.6);
+      }
+      .axisrow .labelcol {
+        font-size: 10.5px;
+        font-weight: 700;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--gray);
+      }
+      .tick {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        padding-left: 8px;
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--gray);
+        white-space: nowrap;
+      }
+      .tick.month { color: var(--ink-2); }
+
+      /* ---------------- phase rows ---------------- */
+      .row.phase {
+        background: rgba(255, 255, 255, 0.5);
+        border-top: 1px solid var(--mist);
+        border-bottom: 1px solid var(--mist);
+      }
+      .row.phase .labelcol { cursor: pointer; }
+      /* An automation that is not open yet: the row stays on the board so the
+         shape of the engagement is visible, but it does not expand, so it
+         carries no caret and no pointer cursor to suggest it would. */
+      .row.phase.soon .labelcol { cursor: default; }
+      .row.phase + .row.task { border-top: 0; }
+      .pid {
+        width: 30px;
+        height: 30px;
+        flex: none;
+        border-radius: 9px;
+        display: grid;
+        place-items: center;
+        font-size: 12px;
+        font-weight: 800;
+        color: #fff;
+        background: var(--c1);
+      }
+      .pname {
+        font-size: 13.5px;
+        font-weight: 800;
+        letter-spacing: -0.01em;
+        line-height: 1.25;
+      }
+      .caret {
+        margin-left: auto;
+        flex: none;
+        color: var(--gray);
+        transition: transform 180ms ease;
+      }
+      .row.phase.collapsed .caret { transform: rotate(-90deg); }
+      /* Sits where the caret would, pinned to the top of the row. */
+      .soon-tag {
+        margin-left: auto;
+        /* Pulled back out through the column's right padding so it lands 6px
+           short of the edge, whatever that padding is at this breakpoint. */
+        margin-right: calc(6px - var(--pr));
+        align-self: flex-start;
+        flex: none;
+        font-size: 9px;
+        font-weight: 800;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--red);
+        white-space: nowrap;
+      }
+
+      /* ---------------- task rows ---------------- */
+      .tid {
+        width: 46px;
+        flex: none;
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        color: var(--gray);
+        font-variant-numeric: tabular-nums;
+      }
+      .tname {
+        font-size: 12.5px;
+        font-weight: 600;
+        line-height: 1.35;
+      }
+      /* ---------------- bars ---------------- */
+      .bar {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 22px;
+        border-radius: 999px;
+        background: linear-gradient(90deg, var(--c1), var(--c2));
+        box-shadow: 0 2px 8px rgba(34, 30, 23, 0.1);
+        display: flex;
+        align-items: center;
+        transition: filter 140ms ease;
+      }
+      .bar:hover { filter: brightness(1.05); }
+      .row.phase .bar {
+        height: 28px;
+        padding: 0 14px;
+        box-shadow: 0 4px 14px rgba(34, 30, 23, 0.14);
+      }
+      .barlabel {
+        font-size: 10px;
+        font-weight: 800;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: #fff;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+      /* The optimistic → pessimistic tail. The sheet quotes ranges
+         ("3 – 5 Days"), so the solid bar is the fast case and this hatched
+         extension carries it out to the slow one. */
+      .tail {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 22px;
+        border-radius: 999px;
+        border: 1px dashed var(--c1);
+        background: repeating-linear-gradient(
+          -45deg,
+          rgba(34, 30, 23, 0.05) 0 5px,
+          transparent 5px 10px
+        );
+        opacity: 0.9;
+      }
+      .row.phase .tail { height: 28px; }
+      /* Un-run remainder of a bar that today falls inside. */
+      .fill {
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.4);
+        pointer-events: none;
+      }
+      .aside {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        padding-left: 10px;
+        font-size: 10.5px;
+        font-weight: 600;
+        color: var(--gray);
+        white-space: nowrap;
+        font-variant-numeric: tabular-nums;
+      }
+      .aside b { color: var(--ink-2); font-weight: 700; }
+
+      /* ---------------- legend ---------------- */
+      .legend {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 12px 26px;
+        padding: 16px 22px;
+        border-top: 1px solid var(--mist);
+        font-size: 11px;
+        font-weight: 600;
+        color: var(--ink-2);
+      }
+      .legend .li { display: inline-flex; align-items: center; gap: 8px; }
+      .swatch { width: 26px; height: 10px; border-radius: 999px; flex: none; }
+      .swatch.hatch {
+        background: repeating-linear-gradient(
+          -45deg,
+          rgba(34, 30, 23, 0.1) 0 4px,
+          transparent 4px 8px
+        );
+        border: 1px dashed var(--stone);
+      }
+
+      /* ---------------- tooltip ---------------- */
+      #tip {
+        position: fixed;
+        z-index: 50;
+        pointer-events: none;
+        opacity: 0;
+        transform: translate(-50%, -100%);
+        transition: opacity 120ms ease;
+        background: var(--ink);
+        color: #fff;
+        border-radius: 10px;
+        padding: 9px 12px;
+        font-size: 11.5px;
+        line-height: 1.55;
+        box-shadow: 0 10px 30px rgba(34, 30, 23, 0.28);
+        max-width: 290px;
+      }
+      #tip .t { font-weight: 700; }
+      #tip .s { color: var(--lavender); font-weight: 500; }
+
+      @media (max-width: 720px) {
+        :root { --label-w: 216px; --row-h: 62px; }
+        .labelcol { --pr: 12px; padding: 10px var(--pr) 10px 14px; }
+        .tid { display: none; }
+        .stats { gap: 16px 30px; }
+        .soon-tag { font-size: 8px; letter-spacing: 0.06em; }
+        .hero { flex-direction: column-reverse; align-items: flex-start; gap: 18px; }
+        /* No per-mark sizing here: --mark governs both, and splitting them
+           at a breakpoint is exactly how the two would fall out of step. */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="shell">
+      <div class="hero">
+        <div class="hero-text">
+          <h1><em>Automation Timeline</em></h1>
+          <p class="lede">
+            Everything on the engagement in the order we build it.
+          </p>
+        </div>
+        <div class="hero-lockup">
+          <img class="e2m-mark" src="e2m_logo.svg" alt="E2M Solutions" />
+          <span class="lockup-x" aria-hidden="true">&times;</span>
+          <div class="hero-mark">WEDDING<br />INDUSTRY<br />ADS</div>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div class="stat">
+          <div class="k">Automations</div>
+          <div class="v">3</div>
+        </div>
+        <div class="stat">
+          <div class="k">Total duration</div>
+          <div class="v">12 – 14 <small>weeks</small></div>
+        </div>
+        <div class="stat">
+          <div class="k">Kickoff</div>
+          <div class="v" id="stat-kickoff">—</div>
+        </div>
+      </div>
+
+      <div class="board">
+        <div class="board-head">
+          <span class="chip" id="chip-progress">—</span>
+          <div class="spacer"></div>
+          <div class="toggle" role="group" aria-label="Axis scale">
+            <button type="button" data-scale="weekly" aria-pressed="true">Weekly</button>
+            <button type="button" data-scale="monthly" aria-pressed="false">Monthly</button>
+          </div>
+        </div>
+
+        <div class="scroller">
+          <div class="inner">
+            <div class="gridlayer" id="gridlayer"></div>
+            <div class="row axisrow">
+              <div class="labelcol">Automation</div>
+              <div class="plot" id="axis"></div>
+            </div>
+            <div id="rows"></div>
+          </div>
+        </div>
+
+        <!-- Automation entries are generated from PHASES in renderLegend();
+             only the static Buffer key lives here. -->
+        <div class="legend" id="legend">
+          <span class="li"><span class="swatch hatch"></span> Buffer</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="tip" role="tooltip"></div>
+
+    <script>
+      /* ==================================================================
+         THE PLAN
+         Durations are lifted straight from the engagement sheet and held here
+         in BUSINESS DAYS (5-day weeks), which is what the sheet's "3 – 5 Days"
+         means in practice. `min` is the fast case, `max` the slow one: the bar
+         is drawn on `min` and the hatched tail carries it out to `max`.
+
+         EVERY STEP RUNS END TO END. Three pairs used to be marked to run
+         side by side, on the reasoning that summing the steps overran each
+         automation's stated build length. That was wrong at the level that
+         matters: it compressed the whole engagement to 10.4 weeks against a
+         sheet that states 12 – 14. Sequential comes to 13.0 weeks, and the
+         per-automation mins land on their stated ranges (A 2.4 vs "2 – 3",
+         B 5.6 vs "5 – 6", C 5.0 vs "5 – 6"). Do not re-introduce the overlap
+         to make a phase fit its lower bound — the grand total is the check
+         that catches it.
+
+         The scheduler still supports `parallel: true` ("starts the same day
+         as the step above"); no step uses it.
+         ================================================================== */
+
+      // The one value to change when the real start date lands.
+      const KICKOFF = "2026-09-15";
+
+      /* Build order: Marketing & Content Engine, then the Client Knowledge
+         Base, then Paid Media Reporting. The A/B/C letters are this array's
+         own order, not the engagement sheet's original numbering — the row
+         badge, each automation's "-00" setup-task ID and the legend are all
+         derived from position below, so reordering this array is the only
+         edit a reorder ever needs. Each automation's own duration is
+         untouched either way; only its scheduled dates move. */
+      const PHASES = [
+        {
+          name: "Marketing & Content Engine",
+          build: "5 – 6 weeks build",
+          c1: "#c39878",
+          c2: "#e3c6ab",
+          tasks: [
+            { id: "-00", name: "Zoom / Google Drive / ClickUp / Canva connections", label: "2 – 3 days", min: 2, max: 3, cx: "Medium" },
+            { id: "MC-01", name: "Transcript → Content Idea Queue", label: "1.5 – 2 weeks", min: 8, max: 10, cx: "High" },
+            { id: "MC-02", name: "Reel Scripts with Voice-Note Steering", label: "1.5 – 2 weeks", min: 8, max: 10, cx: "High" },
+            { id: "MC-03", name: "Multi-Format Repurposing", label: "1 – 1.5 weeks", min: 5, max: 8, cx: "Medium" },
+            { id: "MC-04", name: "Case-Study Extraction", label: "1 – 1.5 weeks", min: 5, max: 8, cx: "Medium" }
+          ]
+        },
+        {
+          name: "Maintained Client Knowledge Base",
+          legendName: "Client Knowledge Base",
+          build: "5 – 6 weeks build",
+          // Starts one working week (5 days) before Marketing & Content
+          // Engine finishes, rather than the day after it.
+          overlapStart: 5,
+          c1: "#87725f",
+          c2: "#b7a794",
+          tasks: [
+            { id: "-00", name: "Google Drive + Zoom + Slack + Gmail + GHL connections", label: "1 week", min: 5, max: 5, cx: "Low" },
+            // 2.5 weeks is 12.5 working days, rounded up to 13 like every other half week.
+            { id: "FF-01a", name: "Client Portfolio", label: "2 – 2.5 weeks", min: 10, max: 13, cx: "High" },
+            { id: "FF-01b", name: "Client Meeting Engine - Meeting Prep + Meeting Action Items + Client Requirements", label: "1 – 1.5 weeks", min: 5, max: 8, cx: "High" },
+            { id: "FF-01c", name: "Client Health Tracking + Sentiments", label: "1 – 1.5 weeks", min: 5, max: 8, cx: "High" },
+            { id: "FF-01d", name: "Client Invoice + Contract Management", label: "1 week", min: 5, max: 5, cx: "Medium" }
+          ]
+        },
+        {
+          name: "Paid Media Reporting",
+          build: "4 weeks build",
+          /* Not open yet: the row shows on the board, but its breakdown,
+             its dates and its tooltip detail stay closed. Its bar reads
+             "Requirements Being Gathered" rather than the default "Queued"
+             — see queuedLabel, read in renderRows(). */
+          comingSoon: true,
+          queuedLabel: "Requirements Being Gathered",
+          /* Starts 4 business days into the tail of whichever automation
+             runs before it (now the Client Knowledge Base). overlapEnd would
+             pull the next automation's start into this one's tail, but as
+             the last phase there is nothing after it, so it is omitted.
+             See schedule() below. */
+          overlapStart: 4,
+          c1: "#5070ff",
+          c2: "#8da1fd",
+          tasks: [
+            // Single placeholder task: this phase isn't open yet, so no
+            // step breakdown is published — only its total length, fixed
+            // at exactly 4 weeks (20 business days), no fast/slow range.
+            { id: "-00", name: "Paid Media Reporting", label: "4 weeks", min: 20, max: 20, cx: "Medium" }
+          ]
+        }
+      ];
+
+      // Letters come from array position, never written on a phase: the
+      // badge, and the "-00" setup task, which carries its automation's
+      // letter ("A-00", "B-00", …).
+      PHASES.forEach((ph, i) => {
+        ph.id = String.fromCharCode(65 + i);
+        for (const t of ph.tasks) if (t.id === "-00") t.id = ph.id + "-00";
+      });
+
+      /* ---------------- date helpers ---------------- */
+      const DAY = 86400000;
+      const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+      const MONTHS_LONG = [
+        "January","February","March","April","May","June",
+        "July","August","September","October","November","December"
+      ];
+
+      function parseISO(s) {
+        const p = s.split("-").map(Number);
+        return new Date(p[0], p[1] - 1, p[2]);
+      }
+      function addDays(d, n) {
+        return new Date(d.getFullYear(), d.getMonth(), d.getDate() + n);
+      }
+      function isWeekend(d) {
+        const w = d.getDay();
+        return w === 0 || w === 6;
+      }
+      function nextBusinessDay(d) {
+        let c = new Date(d);
+        while (isWeekend(c)) c = addDays(c, 1);
+        return c;
+      }
+      /** End date of a run of `n` business days starting on `start`, inclusive. */
+      function addBusinessDays(start, n) {
+        let c = nextBusinessDay(start);
+        let left = n - 1;
+        while (left > 0) {
+          c = addDays(c, 1);
+          if (!isWeekend(c)) left--;
+        }
+        return c;
+      }
+      /** `start` moved `n` business days earlier — the mirror of addBusinessDays,
+          used to pull a phase's start back into the one ahead of it. */
+      function subBusinessDays(d, n) {
+        let c = new Date(d);
+        let left = n;
+        while (left > 0) {
+          c = addDays(c, -1);
+          if (!isWeekend(c)) left--;
+        }
+        return c;
+      }
+      function startOfDay(d) {
+        return new Date(d.getFullYear(), d.getMonth(), d.getDate());
+      }
+      function fmt(d) {
+        return MONTHS[d.getMonth()] + " " + d.getDate();
+      }
+
+      /* ---------------- schedule ---------------- */
+      const today = startOfDay(new Date());
+
+      (function schedule() {
+        let cursor = nextBusinessDay(parseISO(KICKOFF));
+        for (const ph of PHASES) {
+          // `overlapStart`: pull this phase's own start back into the tail
+          // of whichever phase runs before it, by N business days.
+          let phaseStart = cursor;
+          if (ph.overlapStart) phaseStart = subBusinessDays(cursor, ph.overlapStart);
+
+          let stepStart = phaseStart;
+          let prevStart = phaseStart;
+          let endMin = null;
+          let endMax = null;
+
+          for (const t of ph.tasks) {
+            const start = nextBusinessDay(t.parallel ? prevStart : stepStart);
+            t.start = start;
+            t.endMin = addBusinessDays(start, t.min);
+            t.endMax = addBusinessDays(start, t.max);
+            prevStart = start;
+
+            const next = nextBusinessDay(addDays(t.endMin, 1));
+            if (next > stepStart) stepStart = next;
+            if (!endMin || t.endMin > endMin) endMin = t.endMin;
+            if (!endMax || t.endMax > endMax) endMax = t.endMax;
+          }
+
+          ph.start = ph.tasks[0].start;
+          ph.endMin = endMin;
+          ph.endMax = endMax;
+          cursor = stepStart;
+
+          // `overlapEnd`: pull the NEXT phase's start back into this one's
+          // tail, by N business days — the overlap at this phase's end.
+          if (ph.overlapEnd) cursor = subBusinessDays(cursor, ph.overlapEnd);
+        }
+      })();
+
+      /* Axis window. The week grid is anchored on the earlier of kickoff and
+         today itself — deliberately NOT snapped back to a Monday — so the
+         first column reads the kickoff date (a Tuesday kickoff gives Tuesday
+         columns: Sep 15, Sep 22, …). LEAD_DAYS of empty axis sit before it
+         so the first bar doesn't start flush against the label column. The
+         far end is a week past the last pessimistic finish. Derived from the
+         plan, so the axis can never disagree with the bars drawn on it. */
+      const LEAD_DAYS = 2;
+      const TICK_START = startOfDay(
+        new Date(Math.min(PHASES[0].start.getTime(), today.getTime()))
+      );
+      const AXIS_START = addDays(TICK_START, -LEAD_DAYS);
+      const AXIS_END = (function () {
+        const last = PHASES.reduce((a, p) => (p.endMax > a ? p.endMax : a), PHASES[0].endMax);
+        const span = Math.round((startOfDay(last) - TICK_START) / DAY);
+        return addDays(TICK_START, (Math.ceil(span / 7) + 1) * 7);
+      })();
+      const AXIS_MS = AXIS_END - AXIS_START;
+
+      /** A date's position on the axis, 0–100. Ends are end-of-day, so a
+          one-day step draws as a one-day-wide bar rather than a sliver. */
+      function pct(date, inclusiveEnd) {
+        const t = startOfDay(date).getTime() + (inclusiveEnd ? DAY : 0);
+        return ((t - AXIS_START) / AXIS_MS) * 100;
+      }
+
+      function statusOf(start, end) {
+        if (today > startOfDay(end)) return "delivered";
+        if (today >= startOfDay(start)) return "in-progress";
+        return "queued";
+      }
+      function progressOf(start, end) {
+        const a = startOfDay(start).getTime();
+        const b = startOfDay(end).getTime() + DAY;
+        return Math.max(0, Math.min(1, (today.getTime() - a) / (b - a)));
+      }
+
+      /* ---------------- render ---------------- */
+      const gridlayer = document.getElementById("gridlayer");
+      const axisEl = document.getElementById("axis");
+      const rowsEl = document.getElementById("rows");
+      let scale = "weekly";
+
+      function renderAxis() {
+        gridlayer.innerHTML = "";
+        axisEl.innerHTML = "";
+
+        // Alternating month bands, so a long bar can still be read against
+        // calendar months when the axis is on weekly ticks.
+        let m = new Date(AXIS_START.getFullYear(), AXIS_START.getMonth(), 1);
+        let i = 0;
+        while (m < AXIS_END) {
+          const next = new Date(m.getFullYear(), m.getMonth() + 1, 1);
+          if (i % 2 === 1) {
+            const band = document.createElement("div");
+            band.className = "band";
+            const l = Math.max(0, pct(m));
+            const r = Math.min(100, pct(next));
+            band.style.left = l + "%";
+            band.style.width = r - l + "%";
+            gridlayer.appendChild(band);
+          }
+          m = next;
+          i++;
+        }
+
+        // Ticks. Only density and labelling change with the scale — bar
+        // geometry is identical in both views.
+        const ticks = [];
+        if (scale === "weekly") {
+          // From the kickoff date, not the padded axis edge, so the lead-in
+          // stays blank and the first label is the kickoff itself.
+          for (let d = new Date(TICK_START); d < AXIS_END; d = addDays(d, 7)) {
+            ticks.push({ date: new Date(d), label: fmt(d), month: false });
+          }
+        } else {
+          /* The axis rarely opens on the 1st, so the first month gets a tick
+             at the kickoff — without it the opening weeks sit under no label
+             at all. Names are spelled out here: "OCT 26" on a date axis reads
+             as the 26th of October, not the year. */
+          ticks.push({
+            date: new Date(TICK_START),
+            label: MONTHS_LONG[TICK_START.getMonth()] + " " + TICK_START.getFullYear(),
+            month: true
+          });
+          let mm = new Date(TICK_START.getFullYear(), TICK_START.getMonth() + 1, 1);
+          for (let d = mm; d < AXIS_END; d = new Date(d.getFullYear(), d.getMonth() + 1, 1)) {
+            ticks.push({
+              date: new Date(d),
+              label: MONTHS_LONG[d.getMonth()] + " " + d.getFullYear(),
+              month: true
+            });
+          }
+        }
+
+        for (const t of ticks) {
+          const x = pct(t.date);
+          if (x < -0.01 || x > 99.9) continue;
+          const gl = document.createElement("div");
+          gl.className = "gl";
+          gl.style.left = x + "%";
+          gridlayer.appendChild(gl);
+
+          const lab = document.createElement("div");
+          lab.className = "tick" + (t.month ? " month" : "");
+          lab.style.left = x + "%";
+          lab.textContent = t.label;
+          axisEl.appendChild(lab);
+        }
+
+        const tx = pct(today);
+        if (tx >= 0 && tx <= 100) {
+          const line = document.createElement("div");
+          line.className = "today";
+          line.style.left = tx + "%";
+          gridlayer.appendChild(line);
+        }
+      }
+
+      function drawBar(plot, item, opts) {
+        const l = pct(item.start);
+        const wMin = pct(item.endMin, true) - l;
+        const wMax = pct(item.endMax, true) - l;
+        const hasTail = wMax > wMin + 0.01;
+        const status = statusOf(item.start, item.endMin);
+
+        if (hasTail) {
+          const tail = document.createElement("div");
+          tail.className = "tail";
+          tail.style.left = l + "%";
+          tail.style.width = wMax + "%";
+          tail.style.setProperty("--c1", opts.c1);
+          plot.appendChild(tail);
+        }
+
+        const b = document.createElement("div");
+        b.className = "bar";
+        b.style.left = l + "%";
+        b.style.width = wMin + "%";
+        b.style.setProperty("--c1", opts.c1);
+        b.style.setProperty("--c2", opts.c2);
+        if (status === "queued") b.style.opacity = "0.55";
+
+        if (status === "in-progress") {
+          const fill = document.createElement("div");
+          fill.className = "fill";
+          fill.style.width = (1 - progressOf(item.start, item.endMin)) * 100 + "%";
+          b.appendChild(fill);
+        }
+        if (opts.barLabel) {
+          const s = document.createElement("span");
+          s.className = "barlabel";
+          s.textContent = opts.barLabel;
+          b.appendChild(s);
+        }
+
+        /* Name and dates only — the duration and complexity that used to sit
+           on a third line are already implicit in the bar's own length. */
+        b.dataset.tip =
+          opts.tip ||
+          "<span class='t'>" + item.tipTitle + "</span><br>" +
+          "<span class='s'>" + fmt(item.start) + " &rarr; " + fmt(item.endMin) +
+          (hasTail ? ", or " + fmt(item.endMax) + " if it runs long" : "") + "</span>";
+        plot.appendChild(b);
+
+        // Omitted for bars whose dates are not being published yet.
+        if (opts.aside) {
+          const aside = document.createElement("div");
+          aside.className = "aside";
+          aside.style.left = (hasTail ? l + wMax : l + wMin) + "%";
+          aside.innerHTML = opts.aside;
+          plot.appendChild(aside);
+        }
+      }
+
+      function renderRows() {
+        rowsEl.innerHTML = "";
+        PHASES.forEach((ph) => {
+          const status = statusOf(ph.start, ph.endMin);
+
+          const soon = ph.comingSoon === true;
+
+          const prow = document.createElement("div");
+          prow.className = "row phase" + (soon ? " soon" : "");
+          prow.innerHTML =
+            '<div class="labelcol">' +
+            '<span class="pid" style="--c1:' + ph.c1 + '">' + ph.id + "</span>" +
+            '<div><div class="pname">' + ph.name + "</div></div>" +
+            (soon
+              ? '<span class="soon-tag">Coming soon</span>'
+              : '<svg class="caret" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>') +
+            "</div>";
+          const pplot = document.createElement("div");
+          pplot.className = "plot";
+          prow.appendChild(pplot);
+          drawBar(
+            pplot,
+            {
+              start: ph.start,
+              endMin: ph.endMin,
+              endMax: ph.endMax,
+              tipTitle: "Automation " + ph.id + " — " + ph.name
+            },
+            {
+              c1: ph.c1,
+              c2: ph.c2,
+              barLabel:
+                status === "delivered" ? "Delivered" :
+                status === "in-progress" ? "In progress" :
+                ph.queuedLabel || "Queued",
+              tip: soon ? "<span class='t'>Coming soon</span>" : null,
+              aside: soon ? null : "<b>" + fmt(ph.start) + "</b> &rarr; " + fmt(ph.endMax)
+            }
+          );
+          rowsEl.appendChild(prow);
+
+          /* A coming-soon automation renders as its summary row alone — no
+             step rows, so there is nothing for a click to reveal. */
+          if (soon) return;
+
+          const group = [];
+          ph.tasks.forEach((t) => {
+            const trow = document.createElement("div");
+            trow.className = "row task";
+            trow.innerHTML =
+              '<div class="labelcol">' +
+              '<span class="tid">' + t.id + "</span>" +
+              '<div><div class="tname">' + t.name + "</div></div></div>";
+            const plot = document.createElement("div");
+            plot.className = "plot";
+            trow.appendChild(plot);
+            drawBar(
+              plot,
+              {
+                start: t.start,
+                endMin: t.endMin,
+                endMax: t.endMax,
+                tipTitle: t.id + " &middot; " + t.name
+              },
+              {
+                c1: ph.c1,
+                c2: ph.c2,
+                aside: fmt(t.start) + " &rarr; " + fmt(t.endMin)
+              }
+            );
+            rowsEl.appendChild(trow);
+            group.push(trow);
+          });
+
+          prow.querySelector(".labelcol").addEventListener("click", () => {
+            const hide = !prow.classList.contains("collapsed");
+            prow.classList.toggle("collapsed", hide);
+            group.forEach((r) => (r.style.display = hide ? "none" : ""));
+          });
+        });
+      }
+
+      function renderMeta() {
+        document.getElementById("stat-kickoff").innerHTML =
+          fmt(PHASES[0].start) + " <small>" + PHASES[0].start.getFullYear() + "</small>";
+
+        const live = PHASES.filter((p) => statusOf(p.start, p.endMin) === "in-progress");
+        const done = PHASES.filter((p) => statusOf(p.start, p.endMin) === "delivered");
+
+        document.getElementById("chip-progress").textContent = live.length
+          ? "In progress · " + live.map((p) => p.name).join(", ")
+          : done.length === PHASES.length
+            ? "All three delivered"
+            : "Starts " + fmt(PHASES[0].start);
+      }
+
+      // One key per automation, in board order, ahead of the static Buffer
+      // key — same letters and colours as the rows, from the same source.
+      function renderLegend() {
+        const legend = document.getElementById("legend");
+        const buffer = legend.firstElementChild;
+        for (const ph of PHASES) {
+          const li = document.createElement("span");
+          li.className = "li";
+          const sw = document.createElement("span");
+          sw.className = "swatch";
+          sw.style.background = "linear-gradient(90deg," + ph.c1 + "," + ph.c2 + ")";
+          li.append(sw, " " + ph.id + " · " + (ph.legendName || ph.name));
+          legend.insertBefore(li, buffer);
+        }
+      }
+
+      /* ---------------- tooltip ---------------- */
+      const tip = document.getElementById("tip");
+      document.addEventListener("mouseover", (e) => {
+        const el = e.target.closest("[data-tip]");
+        if (!el) return;
+        tip.innerHTML = el.dataset.tip;
+        tip.style.opacity = "1";
+      });
+      document.addEventListener("mousemove", (e) => {
+        if (tip.style.opacity !== "1") return;
+        tip.style.left = e.clientX + "px";
+        tip.style.top = e.clientY - 14 + "px";
+      });
+      document.addEventListener("mouseout", (e) => {
+        if (e.target.closest("[data-tip]")) tip.style.opacity = "0";
+      });
+
+      /* ---------------- scale toggle ---------------- */
+      document.querySelectorAll(".toggle button").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          scale = btn.dataset.scale;
+          document.querySelectorAll(".toggle button").forEach((b) =>
+            b.setAttribute("aria-pressed", String(b === btn))
+          );
+          renderAxis();
+        });
+      });
+
+      renderAxis();
+      renderRows();
+      renderMeta();
+      renderLegend();
+    </script>
+  </body>
+</html>

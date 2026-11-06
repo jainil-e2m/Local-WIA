@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J1-claude-haiku-5.5-P21-HA",
+  "model": "anthropic/claude-haiku-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 16097,
+  "completion_tokens": 242,
+  "cached_tokens": 15842,
+  "cost": 0.00030492,
+  "seconds": 1.9,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "5d6d1411869a"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 4,
+  "reason": "Version B's calm, grounded wording ('already thriving... ready to grow') fits Whitney's voice better than Version A's hype-leaning 'incredible business' and 'next level of success'."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: landing\n\nVersion A:\nIf you're holding this guide, chances are you've already built an incredible business, and now you're ready to reach your next level of success.\n\nVersion B:\nIf you’re holding this guide, chances are your business is already thriving—and now you’re ready to grow.",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

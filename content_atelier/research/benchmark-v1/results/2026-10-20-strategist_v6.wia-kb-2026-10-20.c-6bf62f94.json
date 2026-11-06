@@ -1,0 +1,1571 @@
+{
+ "benchmark": "benchmark-v1.2026-10-18",
+ "knowledge_base": {
+  "version": "wia-kb-2026-10-20.c-6bf62f94",
+  "sha256": "578bcb7a349271d14734f8dd54f0e07194265bc1ce468e8352b9c52cf7bb3fb8",
+  "manifest_sha256": "ecf7a5e38b37595d08df8ec7cbb080df52392d0018668362d14df29c1f865355",
+  "documents": [
+   {
+    "key": "content_strategy",
+    "file": "01-content-strategy.md",
+    "version": "wia-kb-2026-10-20.c-b953624b",
+    "owner": "Savannah Jordan for WIA",
+    "status": "supplied",
+    "sha256": "acd0bf09ae43b19eee75f857fd3e1532f696f68174eb3c9e15b3ce5a63f9d601",
+    "characters": 10426
+   },
+   {
+    "key": "founder_voice_guide",
+    "file": "02-founder-voice-guide.md",
+    "version": "wia-kb-2026-10-20.c-b953624b",
+    "owner": "Whitney Hodges (co-founder)",
+    "status": "supplied",
+    "sha256": "365b3a09653d1e5ac836a1f73a422e3f057352ac10732758c2a744b1cc791ff3",
+    "characters": 8928
+   },
+   {
+    "key": "team_roster",
+    "file": "04-team-roster.md",
+    "version": "wia-kb-2026-10-19.c-0b931261",
+    "owner": "WIA",
+    "status": "confirmed",
+    "sha256": "0230b4a0ce5ba49e80395bbdef24815691da8b5365543792656db5f4595fd747",
+    "characters": 2483
+   },
+   {
+    "key": "offer_sheet",
+    "file": "05-offer-sheet.md",
+    "version": "wia-kb-2026-10-18.c-3ccde8c5",
+    "owner": "WIA",
+    "status": "confirmed",
+    "sha256": "6302ca2138071562ce275dfdc573c60bf1a3c13086e196aaa4d7323ae9aefed0",
+    "characters": 8532
+   },
+   {
+    "key": "rejection_rules",
+    "file": "06-rejection-rules.md",
+    "version": "wia-kb-2026-10-20.c-b953624b",
+    "owner": "WIA",
+    "status": "confirmed",
+    "sha256": "4023f5ae2ee2db5ea861db6bd824ac15d792216cde6b5f92e4af44b473998122",
+    "characters": 22223
+   },
+   {
+    "key": "process_catalogue",
+    "file": "07-process-catalogue.md",
+    "version": "wia-kb-2026-10-18.c-3ccde8c5",
+    "owner": "WIA",
+    "status": "confirmed",
+    "sha256": "a05853ed2b31882748d45e7ac86f454c13d3c8188a1ffb2c62272525c5f0a470",
+    "characters": 19543
+   },
+   {
+    "key": "audience_language",
+    "file": "11-audience-language.md",
+    "version": "wia-kb-2026-10-19.c-0b931261",
+    "owner": "WIA",
+    "status": "confirmed",
+    "sha256": "a1fe84fff6fe92f9a30c3aa248e9e0d6d2431d241c52ab70fce7034327900778",
+    "characters": 13470
+   },
+   {
+    "key": "recent_published",
+    "file": "13-recent-published.md",
+    "version": "wia-kb-2026-10-18.c-0cb353e4",
+    "owner": "WIA",
+    "status": "confirmed",
+    "sha256": "786b0a8f1852997709d1361a75e6888887af4f376a694021ec1f257ef1e4e091",
+    "characters": 675
+   },
+   {
+    "key": "content_plan",
+    "file": "14-content-plan.md",
+    "version": "wia-kb-2026-10-19.c-0b931261",
+    "owner": "WIA",
+    "status": "confirmed",
+    "sha256": "008756fd60597664c1888a6f8909aea96eb3ab54a45bb57475af74d4d2c41150",
+    "characters": 1352
+   },
+   {
+    "key": "exemplars",
+    "file": "15-exemplars.md",
+    "version": "wia-kb-2026-10-19.c-0b931261",
+    "owner": "WIA",
+    "status": "confirmed",
+    "sha256": "5675c089a6ae18b02dd9b43676ec0a553d2e8d11e375f7bd514f6df8bb7720d9",
+    "characters": 10194
+   },
+   {
+    "key": "belief_statements",
+    "file": "16-belief-statements.md",
+    "version": "wia-kb-2026-10-19.c-0b931261",
+    "owner": "Whitney Hodges",
+    "status": "confirmed",
+    "sha256": "0e9797c4f372e416cc6781cf3e8692a7d325680df0955596515720ddc0f5357e",
+    "characters": 9632
+   },
+   {
+    "key": "editing_guide",
+    "file": "17-editing-guide.md",
+    "version": "wia-kb-2026-10-20.c-6bf62f94",
+    "owner": "Whitney Hodges (her corrections, derived from the ChatGPT export, E.B25 (e))",
+    "status": "confirmed",
+    "sha256": "1b2e2313ebb02c831584abecceca23bc935c697cae1ff48e9f921fa730e6f9ed",
+    "characters": 5057
+   }
+  ],
+  "stage": "strategist",
+  "drafts_used": [],
+  "rule_patterns_sha256": "9e3696571e60057057bc082e4e18166dd9763267a5e402fdcf60968f55225dd3",
+  "context": {
+   "source": "database",
+   "on": "2026-10-20",
+   "version": "wia-kb-2026-10-20.c-6bf62f94",
+   "documents": [
+    {
+     "key": "content_strategy",
+     "sha256": "acd0bf09ae43b19eee75f857fd3e1532f696f68174eb3c9e15b3ce5a63f9d601"
+    },
+    {
+     "key": "founder_voice_guide",
+     "sha256": "365b3a09653d1e5ac836a1f73a422e3f057352ac10732758c2a744b1cc791ff3"
+    },
+    {
+     "key": "team_roster",
+     "sha256": "0230b4a0ce5ba49e80395bbdef24815691da8b5365543792656db5f4595fd747"
+    },
+    {
+     "key": "offer_sheet",
+     "sha256": "6302ca2138071562ce275dfdc573c60bf1a3c13086e196aaa4d7323ae9aefed0"
+    },
+    {
+     "key": "rejection_rules",
+     "sha256": "4023f5ae2ee2db5ea861db6bd824ac15d792216cde6b5f92e4af44b473998122"
+    },
+    {
+     "key": "process_catalogue",
+     "sha256": "a05853ed2b31882748d45e7ac86f454c13d3c8188a1ffb2c62272525c5f0a470"
+    },
+    {
+     "key": "audience_language",
+     "sha256": "a1fe84fff6fe92f9a30c3aa248e9e0d6d2431d241c52ab70fce7034327900778"
+    },
+    {
+     "key": "recent_published",
+     "sha256": "786b0a8f1852997709d1361a75e6888887af4f376a694021ec1f257ef1e4e091"
+    },
+    {
+     "key": "content_plan",
+     "sha256": "008756fd60597664c1888a6f8909aea96eb3ab54a45bb57475af74d4d2c41150"
+    },
+    {
+     "key": "exemplars",
+     "sha256": "5675c089a6ae18b02dd9b43676ec0a553d2e8d11e375f7bd514f6df8bb7720d9"
+    },
+    {
+     "key": "belief_statements",
+     "sha256": "0e9797c4f372e416cc6781cf3e8692a7d325680df0955596515720ddc0f5357e"
+    },
+    {
+     "key": "editing_guide",
+     "sha256": "1b2e2313ebb02c831584abecceca23bc935c697cae1ff48e9f921fa730e6f9ed"
+    }
+   ],
+   "items": {
+    "team_roster": [
+     {
+      "id": "item_cb8b30f2476f4088ba3ff1f6f3aeca8d",
+      "hash": "a62a7641d6f5af949adbd8df342690f2971e5df05ff7d037015c68c11031cd7a"
+     },
+     {
+      "id": "item_ae8e79d91d9e4ac189e4852f15a09faa",
+      "hash": "fb27ed576600e7127179705750997f79f9b6ecab06f4280bd5934e9691003c47"
+     },
+     {
+      "id": "item_2b3edca5184446aaa56e74b0643bf58b",
+      "hash": "8ed13b22f4225a02c39ff5c3f5e21d5de61f142d3e1cbe97330df2aced9802c6"
+     },
+     {
+      "id": "item_718471fa6ac4450bbe966c0d94d77b7d",
+      "hash": "396565e77ff95af1d108fa127e702c945d75036bbde67f3cc57b661a86ed3339"
+     },
+     {
+      "id": "item_13c5ad2219364c6388c46c2f580fd119",
+      "hash": "087782dc8a9bf94811ee708cfa7f7d7ab86569021d144ccb05ab929bfbd9ba94"
+     },
+     {
+      "id": "item_3ff1f62b6ac64ae28b36b630f98a2339",
+      "hash": "45afe6bede6a9f137198f21939b108d667764ec50c92b6c396fb446a55f7f59a"
+     },
+     {
+      "id": "item_0880f4463881480fb4433abf27f4dac2",
+      "hash": "c254b725ba3e360c08fb8a9e8ba02de733996f3712beb5ed7972dcaf56737394"
+     },
+     {
+      "id": "item_6fab5766c46c46d0828b0ced0733ad97",
+      "hash": "9555dcb5fcd098f6b5a269f912ed118739ea7917dbe844fad1197bc287bf6555"
+     },
+     {
+      "id": "item_a8ade0c05bab4986a1de718fbd5f0c22",
+      "hash": "1651b066180ced1c1a753f07bb3e04e9aa4e05aacae9bc5324bb68444266ee3b"
+     },
+     {
+      "id": "item_602a2be80b3f478fb3483ef9d1390b64",
+      "hash": "b4111c5996465fee1171cef9437e74ae9bb60d8f3cf37ba0f5f63e4ad627dc83"
+     },
+     {
+      "id": "item_b0dada742b97476fa18e69041a3570b4",
+      "hash": "ebb82468d001f8fe4735f514cfc02e85640dc6b2ba3b58594966f9101fdddec2"
+     },
+     {
+      "id": "item_9a8b1e4fd2754128b6f70dfa00acfb74",
+      "hash": "29b3f6b7560622d0d8c9eba8a28d496daab023408e5764f0ca4c8f44a330b5da"
+     },
+     {
+      "id": "item_e49366b1a68d419c8594192ee538440a",
+      "hash": "46397e743102a9116b7e5eb1940aa0d7b64fadc32fbeebf53bba1395e633de7a"
+     },
+     {
+      "id": "item_760a82dd42ad40cf9a4f69bb08e39e1b",
+      "hash": "56208cf15c3dd0702b2683d7ef7d930b07e4df61a45241c31ae73f14a69fc23b"
+     },
+     {
+      "id": "item_5896e943f812434db28bf55807347fef",
+      "hash": "ab01d448ef3eaeac29c37e6f3a0e7492895c65f36e2598accf915ccf051a1b72"
+     },
+     {
+      "id": "item_3bfd734026f6437694c03a9fcd74d008",
+      "hash": "c318b225bd31f766e49a94042c0fd3702cf29c8c8d69b41c14c64a7ddbe7273e"
+     },
+     {
+      "id": "item_07f235387eb54815a0e57919352962bb",
+      "hash": "38c01ce829f11579387462af4e20c13e307253c1d84b06d69b2d500558e35d7d"
+     },
+     {
+      "id": "item_14e67bbae32c4b75bf925309bbc4b0d4",
+      "hash": "0e4b3db5fdc21b000647825e2d6d485deceb7c309d9f6d19caa549a449b9d6ca"
+     },
+     {
+      "id": "item_80cd999d69ad472bac5c1d84119b8404",
+      "hash": "f81aca2d3584fbf8db9f0fdfecbd7420a68df7db348deda20bc6caf3e5974f7a"
+     }
+    ],
+    "offer_sheet": [
+     {
+      "id": "item_20643c9bf52a4c2b9562350c5f540d10",
+      "hash": "c3e047038f135e7fa98b34cbdec66257bf39656b9addb977fcb2a35e9244cdb4"
+     },
+     {
+      "id": "item_b7980dc9e2314558a960e491918fc417",
+      "hash": "42214c8248a5f84308d33f0e44a0201ae508b2600c79b2fe328decc66bca3eef"
+     },
+     {
+      "id": "item_2531c44134af4f4bafe075926a510738",
+      "hash": "31a44932c1082d02273527cd73f29293a247781db5dcdc591e3618724c8432ea"
+     },
+     {
+      "id": "item_cb8d7c8240014628ad921fb6cf208105",
+      "hash": "ebdbf9a21987e8e365dc9ffc9c965a9f1a4bf9147a722b2c11ff7c521249c1c7"
+     },
+     {
+      "id": "item_27f0dc9ba1f548e987beba878b60b734",
+      "hash": "8f2a4eb97a7a1e5db3d814d99f79f636cbf0a9850a9d6d764a2480a513bd7b31"
+     },
+     {
+      "id": "item_7c859025add14f76bf905ee98fbae6a6",
+      "hash": "e825cdbade11c0884faa58461681b7a6f0de3f2d062ff1991cedb6550570f162"
+     },
+     {
+      "id": "item_f42d1ae01fcb4d85948c3d7776c0ec57",
+      "hash": "ef2c06fc206b1e167c004c14744ecba64cada27584e1aebb2ff66d7769190956"
+     },
+     {
+      "id": "item_7a11e334eddc482983f815b4e54c1e16",
+      "hash": "f53dc6850d1d67446c77a4d4a603f7536a4fdc984e86ee06ddeef522010a58de"
+     },
+     {
+      "id": "item_03c5d3567f174f6db64fef21ce3a905c",
+      "hash": "6112cc23019a0ade563e01834e9a68a2979df747cd8a57fc9cb7a2cf5999f2ad"
+     },
+     {
+      "id": "item_3208725fe0d64316a3d3122acce8bfc5",
+      "hash": "b881ae27a0d95a3608b37325b7d71d53bedee9a54a7cf3ad636da8fef97325f9"
+     },
+     {
+      "id": "item_c46edacd70e34a768ffffb5468a1dfd9",
+      "hash": "29125f2eb4d5ac9c26d37b971cc6e6b0a0cbe1c005480b69b0ff95b5c292aa45"
+     },
+     {
+      "id": "item_cdf97c352693432da0069387a57b9628",
+      "hash": "a53f90d0397bbc416ca22eb2582515ef0b97aab95008e4054d5719a451bf6a6c"
+     },
+     {
+      "id": "item_0dd15a5cb1734acd94c044c713152886",
+      "hash": "175d0daf61f597fde59f8ee0ef6bbe4ab1193393cf54b205453235831a12f244"
+     },
+     {
+      "id": "item_94cfc135748f4698ae66b521d0def9c8",
+      "hash": "1d5ac9d52a8337f271c68159ce048572b411db4df9a3ca1f0b057ece96586447"
+     },
+     {
+      "id": "item_70d1fd1c79264b929329af1a40074d8d",
+      "hash": "ac5bebbdfa23a1d8fa48b61a23a591951ecf865100272e779dc9292409040402"
+     },
+     {
+      "id": "item_0cda3c1c528c4c44b7115e4694738320",
+      "hash": "e6987359b5e90f830b3bb0227e0ac4eb0ac28bdbc177f1e3b21e3ed5c87b9b44"
+     },
+     {
+      "id": "item_3a02b3f3782341348f9eae1a584d0835",
+      "hash": "2762de90b7dd682e58b2673e23892094d3f2a2c78bc3ae63fc6b47c8006c0f54"
+     },
+     {
+      "id": "item_07b630c7d31540deb4342eb9f7d5732f",
+      "hash": "a231535b9c0da5ccdf1f502c9963c59056c3b3ead615f808e64475d5f716265e"
+     },
+     {
+      "id": "item_f54d735360684a2faa667e6a8a3b376c",
+      "hash": "e2da2494a363836215314bd9bfc28e228070c0371ad00465e9ce6be02c064f15"
+     },
+     {
+      "id": "item_3ff61949f4594638833b526094e3f62d",
+      "hash": "0bbedebc29e0992d25b15de6f77293ac81b82d8456490047c6f2eed215e6c92c"
+     },
+     {
+      "id": "item_11a3c60fc0be40268bef6c0a40fb16fc",
+      "hash": "ab35fa60d5873b1a9aa086627d76469f00820d281ddfd30c34384e9d8f43d30e"
+     },
+     {
+      "id": "item_f330b39d197844bb8d3824056a6965d6",
+      "hash": "78d8701d0adac6494c29b0f62afbbf9b094a5dff25582461036eb16e8daca487"
+     },
+     {
+      "id": "item_1bff9f6d1c684d0eb18c78f7bfd96ac8",
+      "hash": "43f7132e58b1ac39467371e802d65d47372cd82230776acbe60a168fc2f4b66d"
+     },
+     {
+      "id": "item_b21d2775333842f696a15d796431b5a3",
+      "hash": "d97ab888b6e54814e152724349e18788e577e4d99ee761f6967f494538bb1bad"
+     },
+     {
+      "id": "item_c91d454c0482463eab29973f7e2f61af",
+      "hash": "478c8c233e55d9fbf01d5ca78dc67b0abdee3ab3c40486221809e337c51a685e"
+     },
+     {
+      "id": "item_9d9d87ff8e574130af292b400b2f428d",
+      "hash": "5c857bdb4634defff9ce752a4bc873889457db12162fb2060fba69a50f728c91"
+     },
+     {
+      "id": "item_9a72b3a2d2d242d68245648272affca8",
+      "hash": "a9f15046a4a3595e1cb2d7957123ab0dcf79d0a4d9fa26b2419a9004a3be5662"
+     },
+     {
+      "id": "item_2cc09da58f6649b396201b3781ed4ff9",
+      "hash": "99dc71606b01f65be949df9a7d2a789d53e7d1edf43adfb6f498b7e7becaa4be"
+     },
+     {
+      "id": "item_e03af1049db84cbfad5b03994a9129c3",
+      "hash": "762637e4753a39299897226eef8bbe6be62ce506d737c54813add867d3176c0c"
+     },
+     {
+      "id": "item_7ba3d02d8b9c4cfb9e09255634c22ed5",
+      "hash": "0bdd370fb7e894808963914eb6b15d756b2c7d1c5bf928a76b752858c9748a9c"
+     },
+     {
+      "id": "item_eb52974a0de8466ebb1509599722dc46",
+      "hash": "e43966143536cbb01fbf55e06ad8e84487ff09d843e3981cf886a84cad9341de"
+     },
+     {
+      "id": "item_8c1c2123ed9849dcbef8a3148eba4c43",
+      "hash": "b484bbdfc6f726981289608d184b9f2a79e58f3b240d4bb21b5b12b68dbf437b"
+     },
+     {
+      "id": "item_5582d51414624a02a76e997847ac1b49",
+      "hash": "87f50a2c495659624e30e7952d674e2eb7bda4164df8df4bc07bb6d733f70391"
+     },
+     {
+      "id": "item_521f02bf3bd44299a00b8e8e55ffdd63",
+      "hash": "80d9f600ff6f062dc5c7254660f8d4e0048a2d6da918d90ad85e639e56ef11ab"
+     },
+     {
+      "id": "item_7c70b2ce8a0944ac84451b7a396d3dd0",
+      "hash": "5e8100686b1aa34fd7d7cab3d5dba1b3e2b46dd3a82146ccaf50c7beeae40be0"
+     },
+     {
+      "id": "item_3e0adaa48e94466f85f84adf70f3c5c7",
+      "hash": "917d50b696139a4d5a4d29ece91cd75adb4ba2ef63f9fb4e932ef70d608ddc50"
+     },
+     {
+      "id": "item_6479f75c8fff4381ad98d96f22630909",
+      "hash": "25b7642d44a71789e315dda60e65855476d9fa0915ce44cf82e55866e9fc5c55"
+     },
+     {
+      "id": "item_fd2af72a1f9e44dda4b8a11e9eaf113c",
+      "hash": "568fb955c098a61a21081f21f717f97be3f8ba2b421faa6d4573a461b2a416d8"
+     },
+     {
+      "id": "item_2d6e343331bc4489b71223f2336cf8b6",
+      "hash": "3a8e43e15ad2324db4adeb25fac7bd96b09ce49fb0a3b6d2750b098aee1f6d34"
+     },
+     {
+      "id": "item_8a7bc085816748148673471c4ec32be6",
+      "hash": "1c63099fa8015324a8866f16197f33c0f97a4a76c32be95a534be94c110632cc"
+     },
+     {
+      "id": "item_55caf8bb84e94895aec795cec864f70a",
+      "hash": "04ace64d94e85f2cadfe16317d106327bff44ce8e42c6d2451f932be81cb1a77"
+     }
+    ],
+    "process_catalogue": [
+     {
+      "id": "item_fc97869c9eaf4c07b0f379eff3d05e29",
+      "hash": "011b843cdd01b5a3fced7aebaae7b667740eef716dc82730b79f98cb15155b38"
+     },
+     {
+      "id": "item_6cd3995cca3e4e6b9890f0487756ca85",
+      "hash": "a76a5db9712312ff24cae08823a8f21747ab0169acd7f1af41abdf21a1a363e9"
+     },
+     {
+      "id": "item_d6a5c8d396c04a5da1434f79385837ab",
+      "hash": "8f0796ee66b28e587099d86bfce328bcd11b220740ad70ba4d97cd190035b05f"
+     },
+     {
+      "id": "item_3ad6e44f9e0e43bdbc04c4e169b97796",
+      "hash": "ac5c55392c41bf31680aeb7f31dbda5dcb14d45210ef6f35df41ee1c87373b64"
+     },
+     {
+      "id": "item_cff8cac0180548388ecc541c0d253ae9",
+      "hash": "e2d2328245ea48e192a5ffefd791a3e3b41add2f6c731b519ceb86a160df4774"
+     },
+     {
+      "id": "item_52316891363c4980a098d56fbed8dd59",
+      "hash": "3db705e37060b4f34895a25c5a50b1e2db80f61765e112cd71b1f3456bcf90a8"
+     },
+     {
+      "id": "item_7e28bd2dfa2a455e8c7551ab7738d58e",
+      "hash": "39270a18f8616c94f1454e1c97e7cdc187f38311dcab2233e28a581971f292db"
+     },
+     {
+      "id": "item_a42df59348714de8a879b6bf74626751",
+      "hash": "396f64d3cd095cdbf3f0063475e76bb7a5e6c0f3fffcab4cf661018e06a56e4d"
+     },
+     {
+      "id": "item_63f4b03952c445a69eb7f55f95aa0dfe",
+      "hash": "c9cd3ab1dc6a8e3dd9797546854c1493a8fa99a35d468eac07183c86848c7872"
+     },
+     {
+      "id": "item_dea4a897c6a04500972201358d4f0467",
+      "hash": "c5b989d4742fb2c521ed6483d7d14336cbe0ee90f9c43a0ea3b96d4797a60794"
+     },
+     {
+      "id": "item_efa7d59b876e4cd4aecd34cf25780801",
+      "hash": "4f80d33cd14d5dae3e0055b7603f650ca9a71008cd03b8b436447e3ecb7592b8"
+     },
+     {
+      "id": "item_cc011c8989a24ceeb00503290ba97dc8",
+      "hash": "35d829f340e64687f1865a9c9712a0f3342bd8bf90baf68de5269b58632f4b46"
+     },
+     {
+      "id": "item_d2ccd11bc95743d982ed0b8aa7d940fc",
+      "hash": "6a0a7a521a7aaccdcfdc33334b6b3e56fb8b0e3700087177769956ef6412ea79"
+     },
+     {
+      "id": "item_cd3c3c22c13a40b1b5827ef00d7a3374",
+      "hash": "ca39143b34b023b4033ee35b56d90752b2c97148b5f17f48fc776eea767fba2d"
+     },
+     {
+      "id": "item_9fdd834fc44f4726b0370f33df9594ef",
+      "hash": "50d36bf4c1980ccb011443448240c03938dbb8783b7d4c5e82636b37e1e40d0d"
+     },
+     {
+      "id": "item_71ec137d1d8a4e3098b6bae96f89f70c",
+      "hash": "8990a8aa64612197f46c212b79a1e7c4d3d1446285277a0913a57ababb3984f2"
+     },
+     {
+      "id": "item_a57a4956d8544f3d8300c4cbbe7d97f8",
+      "hash": "ae0abfabfb90416f9cb45ed81963a220a74482945531731f3341dd0d83d0de10"
+     },
+     {
+      "id": "item_2968721fb27a48b8a1dc201dc3cb010a",
+      "hash": "7fefd862d0f53570fa4ae0f9d514c26afc347de48fb48f8611eed59378a8e314"
+     },
+     {
+      "id": "item_3df66e92b53a44228238fd8dd54eaaad",
+      "hash": "2d9e908d4033fba0aa207a7e24904543cb72433aaa1ca97bca272715b7562c8e"
+     },
+     {
+      "id": "item_d9545a4a9e3e4847bbb4b41ff9cf97c5",
+      "hash": "83c19fc1e67a24165d62e10dfef38e5861019901ed8f1296749471fbf6d54928"
+     },
+     {
+      "id": "item_b152a0e669f74386acba9785f68f97db",
+      "hash": "9b102b6a553eacc6fa49eb90e3a2571a310da4bbe947bb45a7bc7d8ed371934e"
+     },
+     {
+      "id": "item_d680eae4faba4856a0e6ec38a26de91f",
+      "hash": "57bc94a8297a38e20f2dc9f4442bb6816708b684ed9abcddc771a5a74158807e"
+     },
+     {
+      "id": "item_badc7b71e6454455ae40d1086c747999",
+      "hash": "f5a1abd887e24bfaa969e7fb1583b099f982f90c10c48aa004f0c64306c1f525"
+     },
+     {
+      "id": "item_07faa147bca2473eb0e664fa85095487",
+      "hash": "ef69fac16e57e5463b09026a311ffa6b3f2828605fba049fc6219fb999210da7"
+     },
+     {
+      "id": "item_06c1524a247f48ae8cb4316f20b2b85f",
+      "hash": "44a6f85cc94bce6019230d2064964f15dc927dd63ad0f7aeff60233a00f00e41"
+     },
+     {
+      "id": "item_cd4fc3f786bb43eab5fdb1924ab003fb",
+      "hash": "fb1cc0c46646b85902686089b07f4ab037ad139acf965019d3d7130c5232c7dd"
+     },
+     {
+      "id": "item_1448ff4398da4deb8d0f82e1c81eaa13",
+      "hash": "ac66f3e489a12d0a9d9bb85e9b72f80eed0668b1b85c50ede3794b30c0549645"
+     },
+     {
+      "id": "item_cb982cc046b24c38bc1cdde7820a5780",
+      "hash": "9b1ad2ab5afaa1c8b653a6a4cb5b5ec59d1ea87220497fbd0fcd80af687b577b"
+     },
+     {
+      "id": "item_e875e0e09bf04048989e2930f2673c6c",
+      "hash": "c2e38709a39bd497deb406d9e5bb28183b25ec411677a9b56e298e3e2a49e1cb"
+     },
+     {
+      "id": "item_e2374aae485948db89c9515fac251825",
+      "hash": "9b4f04b1a3d0c957b985cb31786996d0af4965fc9d575e0fc03cd7709f9cb6e2"
+     },
+     {
+      "id": "item_64334d377efb40c7986a00827d8f962b",
+      "hash": "e663aa04996434351f3b1832b3022362a298d5f55e996cbb9c8b036854e58c20"
+     },
+     {
+      "id": "item_32c8b3264808486f8c6676ca8f39ea94",
+      "hash": "5434c7cd39d7a4c5c90d21fcf26043e51181f9c3380ed3d5f9349bcbebe19816"
+     },
+     {
+      "id": "item_455466c50e684b9a9ca8d60e891c82fd",
+      "hash": "d7a52bbf2c31fff2c8d28705264e892aa7694bd140e2a070ec00f0d8ddfd850d"
+     },
+     {
+      "id": "item_8468a8d9200e4510b572f3f6c8465adc",
+      "hash": "ae9ae16848e2709e260724ec9c88832b348b1f4c6a9480e0b6f06bc387d16b89"
+     },
+     {
+      "id": "item_292f92922023472c99c91a7cb7219187",
+      "hash": "60337308388534c2d877737105c712ae762309da13a31e7c5cf4539ebc652d4c"
+     },
+     {
+      "id": "item_476be2e93de14d15b3481f32f4a899e7",
+      "hash": "18948e1be1a13d2481127283bb4258cba253df807b5000d6d0f3f0b0a04652e9"
+     },
+     {
+      "id": "item_aa226da519ff4c519c3ff7c582f2f196",
+      "hash": "fb4dd13c765d208dd52f5d8c529a86648af0476c7b16028f6e9298140035c640"
+     },
+     {
+      "id": "item_0d57327c9173447ebe98e71ab585ccb3",
+      "hash": "3032e715d2e3e53da56c99581c17df41004d4339339e7a1c6e342fcbbdf52b1a"
+     },
+     {
+      "id": "item_3b39b4afc703499f9c6f20a44fa427ee",
+      "hash": "6495d16cebe0ad5e55bfb073a5c21bd4062c2b7860a2e02ac3f54c215ecfe57e"
+     },
+     {
+      "id": "item_c707230b77c1492888089e94a16df831",
+      "hash": "50fb6caa71881740dcb0d9103d02edac313e7737635ea574c37f703612f94bf5"
+     },
+     {
+      "id": "item_71192e08ae7b47d086b24a4ddc920213",
+      "hash": "d8fa83839d0206ee4886d25d5d164e04a4e34773664fbf7d3f28836236b8edaf"
+     },
+     {
+      "id": "item_97f0cf1e18eb4e44bfe7ab099bdad6ea",
+      "hash": "3980b0a687c675f7bc06c354640d23fc99c2991e425e0ea70fbcdbb563519511"
+     },
+     {
+      "id": "item_10661bc993e641088ae187a11c322d6c",
+      "hash": "dd9a5904f17316efcf89835506928e0dd60bbdd9874907d31c15d5642a6f0225"
+     },
+     {
+      "id": "item_77045b359bb44caea2dd01d71c0e9460",
+      "hash": "61cadf96be6a7b9d199a1a638c624e3fccf5572be8741e35d3734b9785e4a4a6"
+     },
+     {
+      "id": "item_a1ce0ef1054d4bcca6b1e918a9888326",
+      "hash": "1b5c1cbf43171c1ee9cf79863b86465f76ff1f8483002953781c14fa958d92e0"
+     },
+     {
+      "id": "item_3fcf90d130af46a394004004a1eaa373",
+      "hash": "d892a394dba397780ed1851e783f9ef93b9d3e2aa67c2c6e29be269055952694"
+     },
+     {
+      "id": "item_98259b7e5c42448eb3b1fa2eaaebd082",
+      "hash": "0f2189a957718b94dbfa4a03f65f4d36bab0ee4ec4f65cb6273df4a1ab69dc1d"
+     },
+     {
+      "id": "item_bb2c723c573a46f3b243a333b670991b",
+      "hash": "0e37bcdf72def021df5318583945412a0d3be964aebada5c6ea05cbf560daacc"
+     },
+     {
+      "id": "item_4db749c633e549f192eb34b286694d47",
+      "hash": "d9248cba4cc1559a2dc5cc73640cdb1a43c32d922a79433d28310b68563d751d"
+     },
+     {
+      "id": "item_c30a73f2478b4aa2ac527b962ce8b7e1",
+      "hash": "5eb86d6ecf474773726ca6fbd17cbd9fabeedcad416d6412df9998e3fe79b2c9"
+     },
+     {
+      "id": "item_70d6d5f362364bbfa0629bf386c4d930",
+      "hash": "5e48f38dd24fa3fd3b1ab20e316073d80c3ebfd848064d7d9d249ddc0f4e73ce"
+     },
+     {
+      "id": "item_81ea0e9a49c443918fa7a989452cf0cd",
+      "hash": "1ffacba19489eb2d664f6691fa334258275331ed343e2c17c1ea13652beb40d2"
+     },
+     {
+      "id": "item_1c4497f9371f4fdcb4f1b0750b6a1254",
+      "hash": "c0fd540673beb8bf69a1dd42f65bfd4cda9264072c6fdfc26d0a3a64a8743e4f"
+     },
+     {
+      "id": "item_f83c65457ec94f8699e3e7cf51db035a",
+      "hash": "a993483dd600328a10f93e2f61bb5b1d9cee1be3fca37b5f07a2b3e012d2a877"
+     },
+     {
+      "id": "item_4995df287ace480bbc48db9aed26145b",
+      "hash": "f3b5f69e8631535742f0dfd17a24f79b884785653b1cd620090e9a8263bbec88"
+     },
+     {
+      "id": "item_72a032ae43ea4eddb8ff79bf06bed789",
+      "hash": "f8dd45251b31d71b912df01dfda69882aaaa52011a3bc92d879dd475f4a1ba75"
+     },
+     {
+      "id": "item_3e89a06547f0499aafa88e986bd31bcf",
+      "hash": "bfdb8abd461d6f07d8e475742ea11ae7bbbcdb6a8d00ccc43c7b75cd9a10adb6"
+     },
+     {
+      "id": "item_0272ca0557df469d99a954276a8bceb6",
+      "hash": "df3fd4d6241fda0e98b1ed48a15673cfe562feca8e8da6639fb80e3a56cffb07"
+     },
+     {
+      "id": "item_a2e7fc0f99994115b1c16dc56c96bd9b",
+      "hash": "3f84a9370144f75f68a87a54ee34cbd7017820f37d5c7ac7f28e722c239fa125"
+     },
+     {
+      "id": "item_347bbcff1d75489d9879bfaaf8d8dedd",
+      "hash": "4712853d6f941ead55c7165f45b16c4db1e63dbea9b2cea3ee06a856996ed0be"
+     },
+     {
+      "id": "item_1c9cb918c6ef45b5a7ef5ffe057894bd",
+      "hash": "7004c8fecc6f681e1c46ba31a443e1c8eb2bcf2926f1a58004311e579aa1dfdc"
+     },
+     {
+      "id": "item_cf0a07539c80485aacd67a883bb27a7b",
+      "hash": "6ff4c8bf5574f191e8cfbbf80a2f695fb9eac288acb039e633efd9bb021073f6"
+     },
+     {
+      "id": "item_9cbcc656d5764697bff5b2b7cea49021",
+      "hash": "9c23f20ab90e7f07f7c6a6c22a84d8a1420d5ad78721f263603cca449fe6c1c5"
+     },
+     {
+      "id": "item_4a42756d1933465ba7aae21191a84dbf",
+      "hash": "4c001c59d6a250e13d14f6a2a56dfbf68fa38505f0ec39ca37dd06d6387d7a4b"
+     },
+     {
+      "id": "item_9e4628a1c3ac43c58e785fac4b639a66",
+      "hash": "cf21ce7efdbaf243d819499ced307ae9fa84b8e04502e9d860340ba93768ab71"
+     },
+     {
+      "id": "item_3d96076ae8dd4892a8026bf999324f80",
+      "hash": "a0361d8f664a883837ec4d84203ade0a8979ca70ed089a527684e35205dee4c3"
+     },
+     {
+      "id": "item_4f0b56f916cb454cb103fa24af542b6c",
+      "hash": "b7ec44a372f671b9924797fec375865225f7624bd142ebc04cb6cb135986643e"
+     },
+     {
+      "id": "item_ef50fbdd728a4f55afb18337c81e4f57",
+      "hash": "5945bec392acffc7d291a04e85f763a970efab325907961263b96f1d85c9e13e"
+     },
+     {
+      "id": "item_4b8a33f8138b4125bc938ffc06966a47",
+      "hash": "11ccfc44d39dce6ec9b610fe77f95368d2345fef83af18fad9569822d019014c"
+     },
+     {
+      "id": "item_379b9e1a996a46ab9392804b39c398a4",
+      "hash": "6adc209ecf5683dbf3b2ee854b8b25bc96b8a727f78e77bbeb270d0bf6a0c88f"
+     },
+     {
+      "id": "item_e9a3803a56584edbb381113bdf504fbe",
+      "hash": "867b18f10be85f7c4733171e162bf83ee078609bca8b82ef7f6c1c13f98e125c"
+     },
+     {
+      "id": "item_7c47b1bf1ad84830a32de1b037431e40",
+      "hash": "c050f11b335e20351a6bb609f9bb42b2bdbc7f545de5a7bdd806e97acd98702c"
+     },
+     {
+      "id": "item_ae48a82c7d3644e4adc9b64caa8a4eeb",
+      "hash": "53de45c023be1aecf50b939ac0992ce72816efe85c18e0d2f4f7b3f2cf82e5a3"
+     },
+     {
+      "id": "item_dac878dd62f14b1a964fe1838ecf38b8",
+      "hash": "cbdbc7aa8caffdfa79e5076e9aa46db49587c193565dfafcdd019bc248fc7f33"
+     },
+     {
+      "id": "item_0bb800d9ca1d4425bfbc35139d5d4203",
+      "hash": "f2aea7d6a336dee327259ff797e6af10cc4e0208509f0c5e87818f66df271db2"
+     },
+     {
+      "id": "item_f7b6f00dc37f45eda1010d6f564baa77",
+      "hash": "38083fa2d9606aed4cb953b8ca54fd0cb03f254e8f6ace40ff37e9b3bd5684a1"
+     },
+     {
+      "id": "item_9eab0ade4e5f48bd885b06b3e335edf9",
+      "hash": "e029c31f0b8c0de78226b260238ed173627219c6328673a9019823fc47509acf"
+     },
+     {
+      "id": "item_45c56e1e82844e1b9f09fddfe82cf628",
+      "hash": "8c944a769780043aac86499ce3ee4ebbca4ba62bb45e316c62ad67ff5fba19c5"
+     },
+     {
+      "id": "item_54c87b5bbc71476da0bbd240887549af",
+      "hash": "5bc6981f49e2760027f4d8d8de7a261801416623e0c9f1c4db414c4c965a72eb"
+     }
+    ],
+    "content_workflow": [
+     {
+      "id": "item_c5f40f21aff2438a878b117b1f592486",
+      "hash": "728dd7f77de45b3cef547756d0b162c4b6396a3744172556e727e9d9c2cc29d1"
+     },
+     {
+      "id": "item_25943eeb65734c39b54d5f0fc1b5dd30",
+      "hash": "00864603080954670e5cd877fbd9769a6dd725a77504a1ccc94169cdf328769a"
+     },
+     {
+      "id": "item_0200ee0dae4d4ab8a3bdf579ca8e1153",
+      "hash": "c23c0c367064c7f5a244fabcc35d17015fcbcdd94c559965cc0b11ea430716f5"
+     },
+     {
+      "id": "item_194a840de1444e169e93802018049305",
+      "hash": "2c4966cb5d7981e1022636a2a1ae7c08598ac8624d040b6e2c0d6b648c2855fd"
+     },
+     {
+      "id": "item_beb39abb6d1e46b4a3bcef98ace4253c",
+      "hash": "8811e9b2fa7c2dfb9d4b3d654c5aace457a29f118a777ea1689793ff9ff0e320"
+     },
+     {
+      "id": "item_4d8a51e1e1d549c0943d81029c53670e",
+      "hash": "9db065d0ebe37b07780325bd08019e925a6c5a59d09442ab739252db8fc2240b"
+     },
+     {
+      "id": "item_3cb25e16d2474dc7ba3e3497f14bf28d",
+      "hash": "f754191f739e505be9a23b7139d3dd4d6cb770e66931c6bf26ba2d375e0e7c78"
+     },
+     {
+      "id": "item_b82ac797e1244632bc1ca22c01d4f2de",
+      "hash": "5b02f165e27a1fee62deca3ad3dd0a7a66e81afacd21b5c8016d2e0557725f81"
+     },
+     {
+      "id": "item_775ff8eb2cf941679467300fe758d8df",
+      "hash": "a9c116d9d97d3afbbffe80370e8d2f6e0aae894be9edc73aa437ce8f6d2adfee"
+     },
+     {
+      "id": "item_646583abc3d949129bc647f3b5936cc4",
+      "hash": "c4f1436f2e4d6945c30844efb666c98205a9e41d5348b2ac60327ab9fd2ad797"
+     },
+     {
+      "id": "item_9b26cc102cc64e45ab7f8c45df319acc",
+      "hash": "088dfcffe0a2123a1c3ef2add06928bd0dfc8a456037765260faf13ba2a44016"
+     },
+     {
+      "id": "item_04116896a13e407a91f0456dc3db062f",
+      "hash": "066a3744405e1d058e6a423ec4e5ad7670165dc0ac5591f51e24c84ce3661ed5"
+     },
+     {
+      "id": "item_fda7949cb3a3467283de9693cc09d0dd",
+      "hash": "7a0baec6a97d4475d48cf2cf623886d891e50eddbe3fc4a5dac374510b5b2ee0"
+     },
+     {
+      "id": "item_8eb8c6a8ec1845c681cbafb2533d534f",
+      "hash": "e301da882aca0456dd39b64f2af5d02762c29cd6f92dd8b0ce268e1e88cef481"
+     },
+     {
+      "id": "item_aa23d9b2f90b401a92177c5b664a1261",
+      "hash": "4a8a83d332151203b5dccd3a9217046ad89eaf0a1123bae2deb1fab1a778ba46"
+     },
+     {
+      "id": "item_ab2e37c512e646bd92d5e74577d836b6",
+      "hash": "0042cc1883c3639ebf03d099bd34c2ae398147ed7d0d30cca8e4fda25cca724d"
+     },
+     {
+      "id": "item_0a35a8882d1b426d8a917a5dacce5ce5",
+      "hash": "ab423cb5ec0ffc16db96b814650cf0753f35b6a34bdc7e74fe0c88e74e0c87ec"
+     },
+     {
+      "id": "item_d6c516b0037246fdb6c8b7a0eaad9f29",
+      "hash": "d55b048ad70e1bc0ff75bb49c38ead85765dea20f5ef11d0d9a3b012add30f66"
+     },
+     {
+      "id": "item_1130627b352f49e49890859bd6b4cb87",
+      "hash": "993cf1c8e6328eb5f8ad4488ea61bb784585e52ab2aca2b6775c31d9809289d0"
+     },
+     {
+      "id": "item_e9b7afec84a8419795d8cc56a6036208",
+      "hash": "9c8340dff0e674ded3bf230d16f7c072cb3e02b4cf9f084dbeb2841ba3e4d819"
+     },
+     {
+      "id": "item_442d46b06ea24df9aba363c4e323696e",
+      "hash": "0893ea794ab7bd58cdf6ba2f30928699cc66c69d151875534883fafb6a08bf23"
+     },
+     {
+      "id": "item_370c7dbb3b7045d38aae432d4a29e9b3",
+      "hash": "7d9cebf91840bd2fb15865f122561a68ea1157078eee42988cf6a382a35e0901"
+     },
+     {
+      "id": "item_4071366d07b64789b10347b3c2f442ba",
+      "hash": "657cfb6fd230e8fdf2e81da8d8e03b1f60a51e903fb74e1b6f5c7284bf600357"
+     },
+     {
+      "id": "item_8c60b30b2b564207b5cc545add1ed99f",
+      "hash": "04be6941f572fb912b8279107d02c14fb5e568bde744e3828625e2f2bca6e464"
+     },
+     {
+      "id": "item_9a234b81df45418fa7106a96360074a8",
+      "hash": "c35182f48d4c75b106922c62dd6420c36499f2f7f48aef37918fa8bd14595948"
+     },
+     {
+      "id": "item_2103903522af44ecb6e3e26e2bb2f71d",
+      "hash": "5a939ad952c20bf68cf1e3932c676e05e4da2d70f502b25b996606ff8d41bcd6"
+     },
+     {
+      "id": "item_4bc734019d254f038a939b1fe8a2d58d",
+      "hash": "ddcf5cf387d83ca34ff3744041f0e371bce4bcc5eb3d7d939cb9159100d4a685"
+     },
+     {
+      "id": "item_85302e021f12468d84d835714c4cb16a",
+      "hash": "3da429f633db9b5c913ee178a0d9073b9c8f5df68a7af927333616ee1a54090b"
+     },
+     {
+      "id": "item_0bdad79214c14962a160883c839602af",
+      "hash": "3caf7afd354c2163c6956b65f1620251459e7e7e95041c05f6bc5b1400d1340b"
+     }
+    ],
+    "results_register": [
+     {
+      "id": "item_708be2b3d3cf4c07a707248470a056ee",
+      "hash": "4a51171d631fba2faa6703531571f860b3f9846b4324dde45002984d3b134fc3"
+     },
+     {
+      "id": "item_db7a8a4e692646469a21f58aa931fbd8",
+      "hash": "319ab8b271ce34fcae9e2695597983970f4a8f05e063bb61b06520f408215382"
+     },
+     {
+      "id": "item_f6ff4c8ca0714e8489e8e9a0462d1279",
+      "hash": "c9c622c3459f7681dec33509836efaeb0628af03efbaf945fb31df467c534951"
+     },
+     {
+      "id": "item_804cce2a5ed04d2fbcf7c26928a22336",
+      "hash": "60b811151704de53c9f2d94d723008e4787721f8ff6b44efc9778876e9e142ae"
+     },
+     {
+      "id": "item_7cc2018b9c454424ab0d37162663f4e6",
+      "hash": "b7fb345478a747100e123adcdd8da80863723df1994bfc3b45ecedc72223c655"
+     },
+     {
+      "id": "item_5915f56e429e4f5ea152f718d9e2c9d3",
+      "hash": "fdbd0db4c38aa4608498406c73e5c30f7dfbe3cbd186e51fdfa614628f1050e7"
+     },
+     {
+      "id": "item_9fabb21acf544abebaa832d9267d7289",
+      "hash": "709a2b085a621210fafe6dbecf589bfa83b98e1d6814a695498be925e0f2d148"
+     },
+     {
+      "id": "item_52e48d7045f34a45a8eb93a77366654c",
+      "hash": "2ae5087f705eca5ad8e980b7d13208c11bacec3f4d93ef1750f9d3bd901571d4"
+     },
+     {
+      "id": "item_20ffa102bc724e7aa94afc99eeee9d96",
+      "hash": "23eaa1dd540e812391d83f00ef3e3caf934a937563403516f57a9c688aa2e0c2"
+     },
+     {
+      "id": "item_eb6a1197807c4d098c65b6f6a2358ecb",
+      "hash": "bd49fe80955873f60031ebb8c9ba8b3156d66813872dd7b82787ba388876c7f8"
+     },
+     {
+      "id": "item_95d0ed5299504baba88a2a94809e647a",
+      "hash": "02d0e990172a656ffb697d9b74a2a5a4689de73323ff5660cee0729b1c0dc79a"
+     },
+     {
+      "id": "item_9b63af5c47004514a953f181125c2de9",
+      "hash": "83a45bd0175ca0be0cc02513ed1b00d87aaa3bfee978c2fed84c8de424ec9506"
+     },
+     {
+      "id": "item_78b6bef2074f4775844f6318d996260a",
+      "hash": "e3fb56a6127c9995bf2aa645635918caf03c4ed7cf6520cb409e2692873a9bc0"
+     },
+     {
+      "id": "item_c1cc1e44d0d545958c6d4e46e5e35759",
+      "hash": "2013a42cb76f3f28b461c2950ee21f56f28b2efb5a47fd35f05b97f80440aab5"
+     },
+     {
+      "id": "item_dc360fe0dd354a579fc716d337f7afde",
+      "hash": "c116cf2ff95333618254f69395bb589b596b900f8f8cd6e5e0440300b4964864"
+     },
+     {
+      "id": "item_7356da2a4d5245b68dd70c068add09d4",
+      "hash": "d8378a5f3c0c33a66d42b0d464ad34ec9fecb1d3b04f49a6e3f113ee6285146b"
+     },
+     {
+      "id": "item_24f7b70b750640b58db2e112b9af6f85",
+      "hash": "ad57071cc06165e135f0759e6680ab8a11da487c651b7c07a2861d5233a40025"
+     },
+     {
+      "id": "item_df95da771d3648eebefef4b70c8bf1ec",
+      "hash": "220eeabfb06922eed13e99c783250d91dd81f7d50c985c36c1548e8b3e116746"
+     },
+     {
+      "id": "item_12591b0779d9453999c86f0fd089d54c",
+      "hash": "150f46a9e2854a0c3b591340db96457d05a081d3ad2cea139900d451c25c70c4"
+     },
+     {
+      "id": "item_c79c117914b54ecaa018e69934683479",
+      "hash": "0f1b77c3e97df498bc595dce0e255687bff216d5b1b23564cdadc325e8fe2b81"
+     },
+     {
+      "id": "item_e6951d2eb45d452ba76022650ecf3311",
+      "hash": "bbd06214a23cff64e37c02d66d6e139fd35b477da07450f0627f682b372191a5"
+     },
+     {
+      "id": "item_33c4f4914f4b4a43a91e9475df26d705",
+      "hash": "098eae089f8ce7c4ea86457b427349a9fbca4817cae94414782ca0c65a841991"
+     },
+     {
+      "id": "item_794dce0467d1407597bec3b4e8235e36",
+      "hash": "b2b92574a81af8ff15eeca9294776063fd6620be04d417c9d136699ce31e28a5"
+     },
+     {
+      "id": "item_271dcb8afeb54951b25b921d3a204559",
+      "hash": "a510b10d338e08bcb54d8bb04b70dd3acc2c24a2fc1eef47acd110fa5e755d9f"
+     },
+     {
+      "id": "item_e711b17db7444dd68ce9143a3b360102",
+      "hash": "693d8f47e213fb0d9ccd17bded04ae4456ba02869cf3b20089e6c6ffe612c886"
+     },
+     {
+      "id": "item_ab32de0666224e14aec40871eda6d209",
+      "hash": "29697bc661b47f46b2838fba5204334588c8a0ba1a025d4632f43ed18052c6b1"
+     },
+     {
+      "id": "item_4854656b205c4b64833cf1b41fdaccf1",
+      "hash": "5bc060f576e3e3e898fd383c6ead3d6494962a7eeffac9f550a26ed1022e04c9"
+     },
+     {
+      "id": "item_6f63b343a0d746d496aab7d87c4f0f64",
+      "hash": "ddb90baf3ac6c19120cb5ae3685986c82fa4c64edfd1838bdc1a5c00c98ed9fd"
+     },
+     {
+      "id": "item_1f7fa882e3f64f84b9641ee10dc52e7b",
+      "hash": "dce39335651c70016bbf3c90ba3045e18bc980039d9375162cf9f2d72ca297ff"
+     },
+     {
+      "id": "item_8d649552415a47f7b4308d7c716b9a75",
+      "hash": "49d2a5df7a2eecf6a44ae9073dcfa705f77cda3dca25f0ebd82727bc82547c49"
+     }
+    ],
+    "content_plan": [
+     {
+      "id": "item_64e570c37e2746d198fca76ccda97349",
+      "hash": "35cf87f4874a5b2c42dbbcad79d61da386a4480dc1e52a794121f1f2510c0775"
+     },
+     {
+      "id": "item_0f82384459974c74b626ce5e479a0a1e",
+      "hash": "f4b42fe287adf498076529b42ed26400484d9b75246197a7f6d9785dae3da12e"
+     },
+     {
+      "id": "item_d258a3640c2945dfa1ccd2f89897e49f",
+      "hash": "452b371a9b856684d25b5a5ed059776779d4834f537bd472878aac3ca61587a5"
+     },
+     {
+      "id": "item_9c83d77e3cc54f868ab833450e7c4699",
+      "hash": "7b9fea5d7cd1e0bf381b23101e5a9e9eaf44123c9fabc6feb1b448cfb6d1f03d"
+     },
+     {
+      "id": "item_e7366c053bda4e55827e5bf81ff90438",
+      "hash": "8b9cfea076244a077c7bf2da22d8f40c528cec892381dd634221a62f84666ad8"
+     },
+     {
+      "id": "item_0d47ca4f230c4195b785a17e726c7f1e",
+      "hash": "2811cfa34d7e300e9089c00e05e3cecf4a087a73ecae14545a4a89f4a27a4fd4"
+     },
+     {
+      "id": "item_90ecabdb4d6d4fe8a4e06d96af47dce4",
+      "hash": "c96b051fdf6c49bb5c465673953688984ae4fef16262ec408dc076a74d6015fe"
+     },
+     {
+      "id": "item_67c250d68c8b44d39409a76513cb2c6d",
+      "hash": "f252e6048588828ee603ec1f1feb68db04013471ba214514e589e41a1f9e52c7"
+     },
+     {
+      "id": "item_81a34f7b92614b7dbdb5a24d746bd000",
+      "hash": "33b6e907f16b86939f0493f5fe20593b6d1bcc8c7594faf32646ec3a68fbef2c"
+     }
+    ]
+   },
+   "expired_excluded": [
+    "item_0def91680cd24c5fbe6a3576bee54f06",
+    "item_1b265d7bc18c4b29a81cb46499a1a980",
+    "item_1dcc3e3c213c4103ac30c78318cc3435",
+    "item_4402c9485180453098403d2077dee389",
+    "item_49a7056294dd4fc19bca179c04d078f7",
+    "item_573483d2e9fa4cddbb9bbb7fc30c4e98",
+    "item_641dbf61af184b71b8d04d2b54f8924a",
+    "item_714af00db80645abb6e1573449c03921",
+    "item_75f4c05366ec4bef946f86c9ad663f50",
+    "item_91e21c761f744c0f87bad3edd6cf620b",
+    "item_9d24fb8afa4a402e89b1c02621653b0d",
+    "item_b1e7ed197d1a4ca48fd4d551fc71af7f",
+    "item_dc91b5cb7d104ebba6f254d1741a0ff7",
+    "item_eeb71a88f43644d3a45ede950a8f7666",
+    "item_f9d325a77e2544919a62db090becf9e7",
+    "item_fb2dcaa08e7346ceb09f82b4f3eada84",
+    "item_ff34a0e842354cfeb523f8d7dc052dda"
+   ],
+   "exemplars": [],
+   "situational": [
+    {
+     "id": "item_64e570c37e2746d198fca76ccda97349",
+     "hash": "35cf87f4874a5b2c42dbbcad79d61da386a4480dc1e52a794121f1f2510c0775"
+    },
+    {
+     "id": "item_0f82384459974c74b626ce5e479a0a1e",
+     "hash": "f4b42fe287adf498076529b42ed26400484d9b75246197a7f6d9785dae3da12e"
+    },
+    {
+     "id": "item_d258a3640c2945dfa1ccd2f89897e49f",
+     "hash": "452b371a9b856684d25b5a5ed059776779d4834f537bd472878aac3ca61587a5"
+    },
+    {
+     "id": "item_9c83d77e3cc54f868ab833450e7c4699",
+     "hash": "7b9fea5d7cd1e0bf381b23101e5a9e9eaf44123c9fabc6feb1b448cfb6d1f03d"
+    },
+    {
+     "id": "item_e7366c053bda4e55827e5bf81ff90438",
+     "hash": "8b9cfea076244a077c7bf2da22d8f40c528cec892381dd634221a62f84666ad8"
+    },
+    {
+     "id": "item_0d47ca4f230c4195b785a17e726c7f1e",
+     "hash": "2811cfa34d7e300e9089c00e05e3cecf4a087a73ecae14545a4a89f4a27a4fd4"
+    },
+    {
+     "id": "item_90ecabdb4d6d4fe8a4e06d96af47dce4",
+     "hash": "c96b051fdf6c49bb5c465673953688984ae4fef16262ec408dc076a74d6015fe"
+    },
+    {
+     "id": "item_67c250d68c8b44d39409a76513cb2c6d",
+     "hash": "f252e6048588828ee603ec1f1feb68db04013471ba214514e589e41a1f9e52c7"
+    },
+    {
+     "id": "item_81a34f7b92614b7dbdb5a24d746bd000",
+     "hash": "33b6e907f16b86939f0493f5fe20593b6d1bcc8c7594faf32646ec3a68fbef2c"
+    },
+    {
+     "published": "published_3526e80ff8c5ebf605dec39b"
+    },
+    {
+     "published": "published_4925ba3f3b2b595313d88c02"
+    }
+   ],
+   "internal_terms": [],
+   "tokens": {
+    "prefix": 28863,
+    "situational": 565
+   },
+   "warnings": [
+    "The knowledge base compiled on 2026-10-20 changes identity documents and waits for an identity approver: open its changes under What the system knows, Versions, and approve it"
+   ],
+   "prefix_budget": {
+    "priority": "prefix-priority.v2",
+    "budget": 30000,
+    "tokens_before": 38525,
+    "tokens_after": 28863,
+    "dropped": [
+     "content_workflow",
+     "accelerator_strategy",
+     "results_register"
+    ],
+    "over_budget": false
+   },
+   "over_budget": false
+  }
+ },
+ "configs": {
+  "strategist_v6": {
+   "model": "openai/gpt-6.1-sol",
+   "profile": "2026-10-20.wia-strategist.v6",
+   "weeks": {
+    "week1": {
+     "samples": [
+      {
+       "public_cards": 4,
+       "internal_insights": 3,
+       "pillars": {
+        "ATTRACT": 1,
+        "WARM": 2,
+        "CONVERT": 1
+       },
+       "blocking_flags": 0,
+       "check_flags": 0,
+       "style_warnings": 0,
+       "without_wia_contribution": 0,
+       "near_duplicate_title_pairs": 0,
+       "template_titles": 0,
+       "cost": 0.160246,
+       "titles": [
+        "Your ads still have a job after a couple books a tour",
+        "Your package deserves a fair comparison before the tour",
+        "Couples don't need perfect photography vocabulary to be a good fit",
+        "Your venue's introduction ad and tour-booking ad have different jobs"
+       ],
+       "regressions": {
+        "team_quote_as_whitney_anecdote": 0,
+        "planned_capability_as_current": 0,
+        "one_recommendation_as_wia_practice": 0,
+        "price_objection_public": 0,
+        "unknown_result_as_zero": 0
+       },
+       "reframe_alignment": 0.095
+      },
+      {
+       "public_cards": 4,
+       "internal_insights": 2,
+       "pillars": {
+        "ATTRACT": 1,
+        "WARM": 2,
+        "CONVERT": 1
+       },
+       "blocking_flags": 0,
+       "check_flags": 1,
+       "style_warnings": 0,
+       "without_wia_contribution": 0,
+       "near_duplicate_title_pairs": 0,
+       "template_titles": 0,
+       "cost": 0.075718,
+       "titles": [
+        "Your venue's ads have a job after a tour is scheduled.",
+        "Your venue's value belongs before the tour.",
+        "A couple's photography vocabulary doesn't decide whether they're a good fit.",
+        "A wedding market is more than a location setting."
+       ],
+       "regressions": {
+        "team_quote_as_whitney_anecdote": 0,
+        "planned_capability_as_current": 0,
+        "one_recommendation_as_wia_practice": 0,
+        "price_objection_public": 0,
+        "unknown_result_as_zero": 0
+       },
+       "reframe_alignment": 0.067
+      },
+      {
+       "public_cards": 4,
+       "internal_insights": 2,
+       "pillars": {
+        "ATTRACT": 1,
+        "WARM": 2,
+        "CONVERT": 1
+       },
+       "blocking_flags": 0,
+       "check_flags": 3,
+       "style_warnings": 0,
+       "without_wia_contribution": 0,
+       "near_duplicate_title_pairs": 0,
+       "template_titles": 0,
+       "cost": 0.083768,
+       "titles": [
+        "Each venue ad needs a job of its own",
+        "The right couple can search with words you wouldn't use",
+        "The full venue comparison belongs before the tour",
+        "A second market can change what couples need to see"
+       ],
+       "regressions": {
+        "team_quote_as_whitney_anecdote": 0,
+        "planned_capability_as_current": 0,
+        "one_recommendation_as_wia_practice": 0,
+        "price_objection_public": 0,
+        "unknown_result_as_zero": 0
+       },
+       "reframe_alignment": 0.119
+      }
+     ],
+     "summary": {
+      "public_cards": {
+       "mean": 4,
+       "stdev": 0.0,
+       "values": [
+        4,
+        4,
+        4
+       ]
+      },
+      "internal_insights": {
+       "mean": 2.3333,
+       "stdev": 0.4714,
+       "values": [
+        3,
+        2,
+        2
+       ]
+      },
+      "blocking_flags": {
+       "mean": 0,
+       "stdev": 0.0,
+       "values": [
+        0,
+        0,
+        0
+       ]
+      },
+      "check_flags": {
+       "mean": 1.3333,
+       "stdev": 1.2472,
+       "values": [
+        0,
+        1,
+        3
+       ]
+      },
+      "style_warnings": {
+       "mean": 0,
+       "stdev": 0.0,
+       "values": [
+        0,
+        0,
+        0
+       ]
+      },
+      "without_wia_contribution": {
+       "mean": 0,
+       "stdev": 0.0,
+       "values": [
+        0,
+        0,
+        0
+       ]
+      },
+      "near_duplicate_title_pairs": {
+       "mean": 0,
+       "stdev": 0.0,
+       "values": [
+        0,
+        0,
+        0
+       ]
+      },
+      "template_titles": {
+       "mean": 0,
+       "stdev": 0.0,
+       "values": [
+        0,
+        0,
+        0
+       ]
+      },
+      "cost": {
+       "mean": 0.1066,
+       "stdev": 0.0381,
+       "values": [
+        0.160246,
+        0.075718,
+        0.083768
+       ]
+      },
+      "reframe_alignment": {
+       "mean": 0.0937,
+       "stdev": 0.0212,
+       "values": [
+        0.095,
+        0.067,
+        0.119
+       ]
+      },
+      "regressions": {
+       "team_quote_as_whitney_anecdote": {
+        "mean": 0,
+        "values": [
+         0,
+         0,
+         0
+        ]
+       },
+       "planned_capability_as_current": {
+        "mean": 0,
+        "values": [
+         0,
+         0,
+         0
+        ]
+       },
+       "one_recommendation_as_wia_practice": {
+        "mean": 0,
+        "values": [
+         0,
+         0,
+         0
+        ]
+       },
+       "price_objection_public": {
+        "mean": 0,
+        "values": [
+         0,
+         0,
+         0
+        ]
+       },
+       "unknown_result_as_zero": {
+        "mean": 0,
+        "values": [
+         0,
+         0,
+         0
+        ]
+       }
+      },
+      "title_stability": 0.166,
+      "identical_titles_across_samples": 0
+     }
+    },
+    "week2": {
+     "samples": [
+      {
+       "public_cards": 5,
+       "internal_insights": 5,
+       "pillars": {
+        "ATTRACT": 1,
+        "WARM": 3,
+        "CONVERT": 1
+       },
+       "blocking_flags": 1,
+       "check_flags": 1,
+       "style_warnings": 0,
+       "without_wia_contribution": 0,
+       "near_duplicate_title_pairs": 0,
+       "template_titles": 0,
+       "cost": 0.0928635,
+       "titles": [
+        "Reviews aren't market research",
+        "The weeks before a venue tour deserve their own follow-up",
+        "A good click-through rate still leaves us questions",
+        "The couples who just booked can help shape your next ads",
+        "Your existing campaigns deserve a look before a rebuild"
+       ],
+       "regressions": {
+        "team_quote_as_whitney_anecdote": 0,
+        "planned_capability_as_current": 1,
+        "one_recommendation_as_wia_practice": 0,
+        "price_objection_public": 0,
+        "unknown_result_as_zero": 0
+       }
+      },
+      {
+       "public_cards": 5,
+       "internal_insights": 4,
+       "pillars": {
+        "ATTRACT": 1,
+        "WARM": 3,
+        "CONVERT": 1
+       },
+       "blocking_flags": 0,
+       "check_flags": 0,
+       "style_warnings": 0,
+       "without_wia_contribution": 0,
+       "near_duplicate_title_pairs": 0,
+       "template_titles": 0,
+       "cost": 0.0886143,
+       "titles": [
+        "Reviews are not market research",
+        "The landing page belongs in the campaign review",
+        "A later tour date deserves its own follow-up",
+        "Your next booked couple can help shape your next ad",
+        "Carmen's 100-click checkpoint"
+       ],
+       "regressions": {
+        "team_quote_as_whitney_anecdote": 0,
+        "planned_capability_as_current": 0,
+        "one_recommendation_as_wia_practice": 0,
+        "price_objection_public": 0,
+        "unknown_result_as_zero": 0
+       }
+      },
+      {
+       "public_cards": 6,
+       "internal_insights": 4,
+       "pillars": {
+        "ATTRACT": 1,
+        "WARM": 4,
+        "CONVERT": 1
+       },
+       "blocking_flags": 0,
+       "check_flags": 0,
+       "style_warnings": 0,
+       "without_wia_contribution": 0,
+       "near_duplicate_title_pairs": 0,
+       "template_titles": 0,
+       "cost": 0.0967943,
+       "titles": [
+        "Reviews are not market research",
+        "The wait before a venue tour belongs in your ad strategy",
+        "A tour booked farther out deserves different follow-up",
+        "A promising click-through rate deserves a closer look",
+        "Your current campaigns are part of the brief",
+        "Newly booked couples can shape your next round of ads"
+       ],
+       "regressions": {
+        "team_quote_as_whitney_anecdote": 0,
+        "planned_capability_as_current": 0,
+        "one_recommendation_as_wia_practice": 0,
+        "price_objection_public": 0,
+        "unknown_result_as_zero": 0
+       }
+      }
+     ],
+     "summary": {
+      "public_cards": {
+       "mean": 5.3333,
+       "stdev": 0.4714,
+       "values": [
+        5,
+        5,
+        6
+       ]
+      },
+      "internal_insights": {
+       "mean": 4.3333,
+       "stdev": 0.4714,
+       "values": [
+        5,
+        4,
+        4
+       ]
+      },
+      "blocking_flags": {
+       "mean": 0.3333,
+       "stdev": 0.4714,
+       "values": [
+        1,
+        0,
+        0
+       ]
+      },
+      "check_flags": {
+       "mean": 0.3333,
+       "stdev": 0.4714,
+       "values": [
+        1,
+        0,
+        0
+       ]
+      },
+      "style_warnings": {
+       "mean": 0,
+       "stdev": 0.0,
+       "values": [
+        0,
+        0,
+        0
+       ]
+      },
+      "without_wia_contribution": {
+       "mean": 0,
+       "stdev": 0.0,
+       "values": [
+        0,
+        0,
+        0
+       ]
+      },
+      "near_duplicate_title_pairs": {
+       "mean": 0,
+       "stdev": 0.0,
+       "values": [
+        0,
+        0,
+        0
+       ]
+      },
+      "template_titles": {
+       "mean": 0,
+       "stdev": 0.0,
+       "values": [
+        0,
+        0,
+        0
+       ]
+      },
+      "cost": {
+       "mean": 0.0928,
+       "stdev": 0.0033,
+       "values": [
+        0.0928635,
+        0.0886143,
+        0.0967943
+       ]
+      },
+      "regressions": {
+       "team_quote_as_whitney_anecdote": {
+        "mean": 0,
+        "values": [
+         0,
+         0,
+         0
+        ]
+       },
+       "planned_capability_as_current": {
+        "mean": 0.3333,
+        "values": [
+         1,
+         0,
+         0
+        ]
+       },
+       "one_recommendation_as_wia_practice": {
+        "mean": 0,
+        "values": [
+         0,
+         0,
+         0
+        ]
+       },
+       "price_objection_public": {
+        "mean": 0,
+        "values": [
+         0,
+         0,
+         0
+        ]
+       },
+       "unknown_result_as_zero": {
+        "mean": 0,
+        "values": [
+         0,
+         0,
+         0
+        ]
+       }
+      },
+      "title_stability": 0.315,
+      "identical_titles_across_samples": 0
+     }
+    }
+   }
+  }
+ },
+ "notes": [
+  "Development weeks only (Weeks 1 and 2, excerpt-only moment packets, the same for every configuration); the held-out result is E.B13's.",
+  "Ledger flags are E.B10's deterministic pass; a blocking flag is an unsupported fact, misattribution or consent problem.",
+  "reframe_alignment is word overlap with Whitney's Week 1 alternatives: a proxy for her accepted share, not her verdict.",
+  "regressions counts the public cards failing each of E.B3's card regression cases (evaluation/regressions.py); the brief cases (a local edit keeps untouched text, an approved line survives a revision) apply to brief revisions, which this command does not generate (they run on the product's Gate 2 path, test_regressions_db.py).",
+  "Compare two configurations with the pairwise judge: python -m evaluation judge-compare --configs a,b (a smoke test, never the gate)."
+ ],
+ "total_cost_usd": 0.598
+}

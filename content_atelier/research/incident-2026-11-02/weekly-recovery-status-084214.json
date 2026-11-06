@@ -1,0 +1,162 @@
+{
+  "at": "2026-11-02T08:42:06.957801+00:00",
+  "deployment": {
+    "RAILWAY_PROJECT_ID": "3409333b-1844-456c-93f9-f572ba92eb92",
+    "RAILWAY_ENVIRONMENT_ID": "28239d73-fe52-4d23-bf80-94a8064c5eb5",
+    "RAILWAY_SERVICE_NAME": "scheduler",
+    "RAILWAY_GIT_COMMIT_SHA": "9b50c9d047a2d1005b19fbd80fea5f9e2476a32b"
+  },
+  "schedule": {
+    "key": "schedule.weekly_cycle.2026-11-01",
+    "value": {
+      "state": "done",
+      "result": {
+        "cycle": {
+          "run_id": "run_113a8c5a0b384cfba61e6fc7b59367ee",
+          "status": "queued",
+          "week_id": "week_2026-10-25",
+          "documents": [
+            "transcript_9a8e3c7300fcef8942f72a18",
+            "transcript_ec0f0b826aec16071934a114",
+            "transcript_c25ca7db333d2b19661d67fe",
+            "transcript_c6302061156783e4c16e7088",
+            "transcript_65c6ca8c760247270819e8a8",
+            "transcript_6ec3be680bd6282145af9bbf",
+            "transcript_ad130e1a6bc99019fc0abbc2",
+            "transcript_d37f8fe14bf7539998310e04",
+            "transcript_72d274f159e7e65246a11971",
+            "transcript_e00882a3add6e30757cbdc8a",
+            "transcript_6fa9a002d2662aafbba10b08",
+            "transcript_b6e909851d7fc0a5fa145ed6",
+            "transcript_a2a772244a5bccfb318e8428",
+            "transcript_af470e7b7c4b60c811763d7b",
+            "transcript_93faf2803249bcf6e4bc53b6",
+            "transcript_9815dc0d8bd3e0c1cbc18998"
+          ],
+          "late_arrivals": []
+        },
+        "window": {
+          "end": "2026-11-01T10:00:00+00:00",
+          "start": "2026-10-25T10:00:00+00:00"
+        },
+        "collected": {
+          "failed": [],
+          "fetched": 5,
+          "by_state": {
+            "fetched": 4,
+            "already_a_document": 13,
+            "same_call_as_recording": 1
+          },
+          "imported": 4,
+          "normalised": 17,
+          "meetings_listed": 18
+        },
+        "collector": {
+          "checkpoint": "2026-11-02T08:03:31.380555+00:00",
+          "activated_at": "2026-10-27T11:12:59.251833+00:00"
+        },
+        "estimate_usd": 0.9929
+      }
+    },
+    "updated_at": "2026-11-02 08:18:02.040069+00:00",
+    "updated_by": "ai@weddingindustryads.com: authorized November 1 recovery"
+  },
+  "heartbeat": {
+    "updated_at": "2026-11-02 08:41:47.431621+00:00",
+    "age_seconds": "19.531229"
+  },
+  "runs": [
+    {
+      "run_id": "run_113a8c5a0b384cfba61e6fc7b59367ee",
+      "week_id": "week_2026-10-25",
+      "status": "failed",
+      "trigger_type": "scheduled",
+      "created_at": "2026-11-02 08:18:00.401519+00:00",
+      "started_at": "2026-11-02 08:18:32.738203+00:00",
+      "finished_at": null,
+      "current_message": "angle_generation",
+      "error_summary": "Whole-week token budget exceeded; no request sent. No batching or truncation permitted.",
+      "window": {
+        "end": "2026-11-01T10:00:00+00:00",
+        "start": "2026-10-25T10:00:00+00:00"
+      },
+      "scheduled_for": "2026-11-01T10:00:00+00:00",
+      "has_review_document": false,
+      "documents": 16
+    }
+  ],
+  "jobs": [
+    {
+      "job_id": "job_2efd56be4d964bbea74e0d95d8a37063",
+      "run_id": "run_113a8c5a0b384cfba61e6fc7b59367ee",
+      "stage": "angle_matching",
+      "status": "queued",
+      "current_message": null,
+      "error_summary": null,
+      "attempt_count": 0,
+      "started_at": null,
+      "finished_at": null,
+      "updated_at": "2026-11-02 08:18:00.401519+00:00",
+      "waiting_for": null,
+      "budget_reason": null
+    },
+    {
+      "job_id": "job_6f34d2bb0a994017bb711a1e752194ca",
+      "run_id": "run_113a8c5a0b384cfba61e6fc7b59367ee",
+      "stage": "angle_generation",
+      "status": "failed",
+      "current_message": "Failed",
+      "error_summary": "Whole-week token budget exceeded; no request sent. No batching or truncation permitted.",
+      "attempt_count": 1,
+      "started_at": "2026-11-02 08:28:03.579488+00:00",
+      "finished_at": "2026-11-02 08:28:06.399891+00:00",
+      "updated_at": "2026-11-02 08:28:06.399891+00:00",
+      "waiting_for": null,
+      "budget_reason": null
+    },
+    {
+      "job_id": "job_a5e66b8c652945d2a856deafc65d17c5",
+      "run_id": "run_113a8c5a0b384cfba61e6fc7b59367ee",
+      "stage": "moment_extraction",
+      "status": "completed",
+      "current_message": "291 verified scenes from 16 documents (12 already in the ledger); 6 unverified, not used as proof",
+      "error_summary": null,
+      "attempt_count": 1,
+      "started_at": "2026-11-02 08:18:32.738203+00:00",
+      "finished_at": "2026-11-02 08:28:03.100824+00:00",
+      "updated_at": "2026-11-02 08:28:03.100824+00:00",
+      "waiting_for": null,
+      "budget_reason": null
+    },
+    {
+      "job_id": "job_b70f478a79e3479aa5a6e06339d395e9",
+      "run_id": "run_113a8c5a0b384cfba61e6fc7b59367ee",
+      "stage": "angle_embedding",
+      "status": "queued",
+      "current_message": null,
+      "error_summary": null,
+      "attempt_count": 0,
+      "started_at": null,
+      "finished_at": null,
+      "updated_at": "2026-11-02 08:18:00.401519+00:00",
+      "waiting_for": null,
+      "budget_reason": null
+    }
+  ],
+  "cards": [],
+  "documents": {
+    "total": 18,
+    "included": 16,
+    "extracted": 16
+  },
+  "alerts": [
+    {
+      "kind": "schedule_missed",
+      "subject": "schedule.weekly_cycle.2026-11-01",
+      "message": "The scheduled weekly cycle did not run: ValueError: Write the Fathom folders outside the repository (R48), not under /",
+      "resolved_at": "2026-11-02 08:17:54.155896+00:00",
+      "resolution": "cleared",
+      "occurrences": 2645
+    }
+  ]
+}

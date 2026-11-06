@@ -1,0 +1,54 @@
+{
+  "status": "implemented_offline",
+  "workflow": "approved_angle_brief_v1",
+  "full_backend_tests": 190,
+  "final_focused_tests": 41,
+  "affected_frontend_auth_proxy_tests": 19,
+  "typescript": "passed",
+  "production_build": "passed",
+  "broader_frontend_suite": {
+    "passed": 113,
+    "failed": 1,
+    "skipped": 1,
+    "known_unchanged_failure": "ScheduledContent.test.tsx: ten scheduling controls versus two expected"
+  },
+  "real_external_requests": 0,
+  "real_content_and_run_rows_unchanged": true,
+  "real_approvals_created": 0,
+  "real_briefs_created": 0,
+  "schema": {
+    "tables": 13,
+    "foreign_keys": 30,
+    "checks": 18,
+    "vector_columns": 2,
+    "added_index": "transcript_chunks_text_search_idx"
+  },
+  "real_remaining_inputs": [
+    "authoritative comparison cutoff",
+    "reviewed brand bundle",
+    "trusted approver/editor IDs",
+    "separately authorized pilot activation"
+  ],
+  "external_adapter": "bounded interface tested with fixtures; production web adapter unconfigured; web disabled",
+  "proofs": [
+    "brief-backend-final.xml",
+    "brief-focused-final.xml",
+    "brief-synthetic-report.json",
+    "brief-implementation-real-before.json",
+    "brief-implementation-real-after.json",
+    "brief-real-retrieval-smoke.json"
+  ],
+  "real_retrieval_smoke": {
+    "status": "passed",
+    "content_writes": 0,
+    "read_locks_only": true,
+    "sources": 20,
+    "chunks": 329,
+    "fused_hits": 10,
+    "expanded_original_passages": 112,
+    "all_expanded_references_valid": true,
+    "vector": "existing stored chunk; no query encoding performed",
+    "semantic_relevance_evaluated": false,
+    "external_calls": 0
+  }
+}

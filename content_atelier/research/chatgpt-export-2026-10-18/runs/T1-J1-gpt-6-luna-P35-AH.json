@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J1-gpt-6-luna-P35-AH",
+  "model": "openai/gpt-6-luna",
+  "provider": "OpenAI",
+  "effort": null,
+  "prompt_tokens": 9947,
+  "completion_tokens": 330,
+  "cached_tokens": 9834,
+  "cost": 0.00027739,
+  "seconds": 4.5,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "130c7ae33424"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 4,
+  "reason": "It describes the inquiry journey clearly without implying LeadLock can guarantee a booking."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: email\n\nVersion A:\nIt's a done-for-you implementation of the exact email and text workflows, customized for your business, aligned with your brand, and built inside LeadLock so your inquiry process is fully supported from first inquiry through to booking without you having to build it yourself.\n\nVersion B:\nIt's a done-for-you implementation of the exact email and text workflows, customized for your business, aligned with your brand, and built inside LeadLock to support your inquiry process from \"We're interested...\" to \"We're ready to book!\".",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

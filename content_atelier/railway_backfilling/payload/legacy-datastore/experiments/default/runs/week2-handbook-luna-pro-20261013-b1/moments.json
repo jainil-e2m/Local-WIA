@@ -1,0 +1,248 @@
+[
+  {
+    "local_key": "m1-geography-and-buyer-knowledge",
+    "meeting_ref": "m1",
+    "anchor_refs": [
+      "m1.t0285",
+      "m1.t0291",
+      "m1.t0296",
+      "m1.t0299",
+      "m1.t0302",
+      "m1.t0312",
+      "m1.t0313",
+      "m1.t0318",
+      "m1.t0326"
+    ],
+    "context_regions": [
+      {
+        "first_ref": "m1.t0283",
+        "last_ref": "m1.t0335"
+      }
+    ],
+    "situation": "While reviewing Meta targeting locations, Lauren explains that some valley cities are a short drive from the venue and produce some clients, but a previous campaign there brought many inquiries she judged not very qualified. She contrasts those locations with areas she more often regards as ideal.",
+    "source_proposition": "Whitney uses Lauren's market knowledge and the visible structure of the existing campaigns to recommend opening targeting toward the Bay Area, Los Angeles, and San Diego while leaving off the four valley cities. Whitney separately recommends pausing a current lead campaign that appears to have spent over $500 without tracked leads, explaining that its recent-website-visitor audience is very small.",
+    "assertions": [
+      {
+        "claim": "Lauren says she has seen price sensitivity and many inquiries she considered low quality from a previous campaign targeting valley cities, while also noting those areas send some clients.",
+        "state": "spoken_view",
+        "source_refs": [
+          "m1.t0285",
+          "m1.t0291",
+          "m1.t0296",
+          "m1.t0299"
+        ],
+        "knowledge_refs": []
+      },
+      {
+        "claim": "Lauren identifies the Bay Area, San Francisco, San Jose, Los Angeles, and Santa Barbara as areas more typical of her ideal client, while asking whether to test broadly or focus.",
+        "state": "spoken_view",
+        "source_refs": [
+          "m1.t0302",
+          "m1.t0309"
+        ],
+        "knowledge_refs": []
+      },
+      {
+        "claim": "Whitney recommends adding the Bay Area, Los Angeles, and San Diego while leaving out the four valley cities, based on the client's description of where ideal clients come from.",
+        "state": "proposed_action",
+        "source_refs": [
+          "m1.t0312",
+          "m1.t0313",
+          "m1.t0316"
+        ],
+        "knowledge_refs": []
+      },
+      {
+        "claim": "Whitney reports that the existing Meta lead campaign appeared to have spent over $500 without generating leads in the visible tracking, and recommends turning it off while new campaigns are developed.",
+        "state": "proposed_action",
+        "source_refs": [
+          "m1.t0318",
+          "m1.t0320",
+          "m1.t0326",
+          "m1.t0328"
+        ],
+        "knowledge_refs": []
+      },
+      {
+        "claim": "Whitney attributes the apparent lack of results in that campaign, as a working explanation, to targeting only people who visited the website within the prior 45 days, which she describes as a small audience.",
+        "state": "spoken_view",
+        "source_refs": [
+          "m1.t0320",
+          "m1.t0322"
+        ],
+        "knowledge_refs": []
+      }
+    ],
+    "contributions": [
+      {
+        "speaker_label": "Lauren Christensen",
+        "contribution": "Provides local-market context, past inquiry-quality observations, and her own view of the venue's stronger source regions.",
+        "source_refs": [
+          "m1.t0285",
+          "m1.t0291",
+          "m1.t0296",
+          "m1.t0302"
+        ]
+      },
+      {
+        "speaker_label": "Whitney Hodges",
+        "contribution": "Connects the owner's market knowledge to a location recommendation and separately identifies a narrow retargeting audience as a possible campaign issue.",
+        "source_refs": [
+          "m1.t0312",
+          "m1.t0313",
+          "m1.t0320",
+          "m1.t0326"
+        ]
+      }
+    ],
+    "lenses": [
+      "wia_expertise",
+      "process_collaboration",
+      "audience_insight"
+    ],
+    "strategic_significance": "The discussion illustrates that geographic reach should be informed by the venue owner's experience with actual inquiry quality, not reach alone. It also separates a targeting judgment from the diagnosis of an existing campaign's apparent delivery and tracking.",
+    "audience_relevance": "Relevant to wedding businesses deciding whether to broaden service-area targeting or preserve a market focus, especially when a region produces inquiries but uncertain fit.",
+    "possible_uses": [
+      "public_candidate",
+      "internal_intelligence"
+    ],
+    "retrieval_needs": [],
+    "claim_boundaries": [
+      "Lauren's account of prior inquiry quality is her reported experience, not a quantified comparison or proof that the locations caused low-quality inquiries.",
+      "The more-than-$500 spend and no-lead observation are based on the visible account/tracking described in the call; the transcript does not independently verify attribution or final campaign disposition.",
+      "The recommendation is specific to this venue and market; do not present the locations or audience-size judgment as universal."
+    ],
+    "shortlist_reason": "The owner's local knowledge changes a concrete targeting decision, and the team articulates a separate, inspectable campaign concern."
+  },
+  {
+    "local_key": "m1-market-research-survey-proposal",
+    "meeting_ref": "m1",
+    "anchor_refs": [
+      "m1.t0546",
+      "m1.t0549",
+      "m1.t0558",
+      "m1.t0565",
+      "m1.t0569",
+      "m1.t0573",
+      "m1.t0577",
+      "m1.t0582",
+      "m1.t0595",
+      "m1.t0598",
+      "m1.t0603"
+    ],
+    "context_regions": [
+      {
+        "first_ref": "m1.t0546",
+        "last_ref": "m1.t0606"
+      }
+    ],
+    "situation": "After the client-facing strategy meeting, Whitney discusses WIA's own onboarding research and a possible way to make LeadLock more useful to full-service clients. She says new clients often respond to requests for market research by pointing to reviews instead.",
+    "source_proposition": "Whitney distinguishes reviews from research into why a couple bought, proposes building client surveys in LeadLock and saving responses to a shared spreadsheet for use in ad copy and landing pages, and says clients would still need to tag or send the survey. Fallon agrees the concept is promising. The conversation presents an idea and possible workflow, not a launched service or validated differentiator.",
+    "assertions": [
+      {
+        "claim": "Whitney says WIA has begun asking new Elevate clients about market research and that clients commonly offer reviews rather than research data.",
+        "state": "spoken_view",
+        "source_refs": [
+          "m1.t0546",
+          "m1.t0549",
+          "m1.t0553",
+          "m1.t0558"
+        ],
+        "knowledge_refs": []
+      },
+      {
+        "claim": "Whitney proposes developing market-research surveys in LeadLock, with clients responsible for tagging or sending them, and responses routed into a spreadsheet visible to client and WIA.",
+        "state": "proposed_action",
+        "source_refs": [
+          "m1.t0565",
+          "m1.t0569",
+          "m1.t0573",
+          "m1.t0577"
+        ],
+        "knowledge_refs": []
+      },
+      {
+        "claim": "Whitney proposes using the resulting information in ad copy and landing pages.",
+        "state": "proposed_action",
+        "source_refs": [
+          "m1.t0573",
+          "m1.t0577"
+        ],
+        "knowledge_refs": []
+      },
+      {
+        "claim": "Fallon says she thinks the idea is good; Whitney proposes contacting existing full-service LeadLock clients and offering help developing a survey.",
+        "state": "proposed_action",
+        "source_refs": [
+          "m1.t0582",
+          "m1.t0592",
+          "m1.t0595",
+          "m1.t0598"
+        ],
+        "knowledge_refs": []
+      },
+      {
+        "claim": "Whitney describes the idea as a potential differentiator, while Fallon agrees; the exchange does not establish that it was implemented or that competitors do not offer it.",
+        "state": "spoken_view",
+        "source_refs": [
+          "m1.t0603",
+          "m1.t0606"
+        ],
+        "knowledge_refs": []
+      }
+    ],
+    "contributions": [
+      {
+        "speaker_label": "Whitney Hodges",
+        "contribution": "Identifies a recurring research gap and proposes a survey-and-spreadsheet workflow that could inform marketing decisions.",
+        "source_refs": [
+          "m1.t0549",
+          "m1.t0558",
+          "m1.t0565",
+          "m1.t0573"
+        ]
+      },
+      {
+        "speaker_label": "Fallon Looney",
+        "contribution": "Supports exploring the proposed workflow and its possible client value.",
+        "source_refs": [
+          "m1.t0582",
+          "m1.t0583",
+          "m1.t0606"
+        ]
+      }
+    ],
+    "lenses": [
+      "wia_expertise",
+      "process_collaboration",
+      "offer_value",
+      "audience_insight"
+    ],
+    "strategic_significance": "This is a distinct internal product-development idea: capture decision evidence after a booking, then make it available to inform future positioning and messaging. It makes the connection between buyer understanding and advertising strategy explicit.",
+    "audience_relevance": "Wedding owners who rely on reviews but want to understand why couples chose them may recognize the difference between post-event praise and decision-making evidence. Internally, the exchange flags a possible LeadLock workflow and client-support opportunity.",
+    "possible_uses": [
+      "public_candidate",
+      "internal_intelligence",
+      "evidence_needed"
+    ],
+    "retrieval_needs": [
+      {
+        "question": "Was the proposed survey workflow built, offered, and adopted by clients, and what records show the actual implementation?",
+        "known_refs": [
+          "m1.t0565",
+          "m1.t0573",
+          "m1.t0595",
+          "m1.t0598"
+        ],
+        "needed_segment_or_record": "Later implementation notes, current LeadLock workflow documentation, or client records establishing whether surveys were created and used.",
+        "resolution_condition": "Use only as a proposed idea unless a dated record confirms implementation; any adoption or impact claim requires separate evidence."
+      }
+    ],
+    "claim_boundaries": [
+      "The survey and spreadsheet workflow is proposed, not demonstrated as complete.",
+      "The claim that it could be a differentiator is Whitney's view, not substantiated competitor research.",
+      "No resulting improvement to ads, landing pages, client retention, or business outcomes is reported."
+    ],
+    "shortlist_reason": "A concrete client-knowledge gap leads to a specific, collaborative workflow proposal with plausible strategic value, while remaining clearly unimplemented in this exchange."
+  }
+]

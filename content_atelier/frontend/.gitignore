@@ -1,0 +1,12 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+**/.cache/
+# The browser end-to-end test's output (6.X1).
+test-results/
+playwright-report/

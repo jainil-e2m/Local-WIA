@@ -1,0 +1,61 @@
+{
+  "fingerprint": "8f75782e0d020fc7e1e3ddd046a5cfe7e4a6420288d570652a6745c795271e73",
+  "output": {
+    "reviewed_claim_ids": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "preserves_approved_direction": true,
+    "distinct_treatment": false,
+    "findings": [
+      {
+        "claim_id": "C1",
+        "severity": "blocking",
+        "message": "The reported observation is accurately bounded as a transcript-labelled report, but its evidence is marked public_use=false and sensitivity is unknown. The proposed anonymous paraphrase still requires the unanswered public-reuse/confidentiality clearance (Q1) before public use; transcript attribution is also unverified.",
+        "evidence_ids": [
+          "ev_3476592e997f9c7081a2947f",
+          "ev_90c2235d079789a7cb7c5240"
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "severity": "blocking",
+        "message": "The workflow is consistently described as proposed, not implemented, and no results are claimed. However, public paraphrase of this internal discussion is not cleared (Q1); hold the source-grounded treatment until permission is confirmed. Do not convert the proposal into a current feature or service.",
+        "evidence_ids": [
+          "ev_9185f6bf7790302604c100b2",
+          "ev_429599bb6358fc421993c3c1",
+          "ev_c611a1a7603324c6c599ddcb"
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "severity": "blocking",
+        "message": "The transcript supports agreement with the idea, not validation or implementation. Its public use is not cleared and the speaker label is unverified; do not include even an anonymous paraphrase of this internal response unless Q1 is resolved.",
+        "evidence_ids": [
+          "ev_9b07f1e5250eb7275b49a6aa"
+        ]
+      },
+      {
+        "claim_id": "C6",
+        "severity": "warning",
+        "message": "The brief appropriately acknowledges substantial overlap with angle_7105aba8e326f02e56211c3f and the historical buying-research email, and does not claim comprehensive novelty. Consolidation/archive review remains unresolved; prior records distinguish pending/generated, approved, scheduled and published states, and the legacy publication catalogue is incomplete. Treat this as a selected development, not a novel or never-published topic.",
+        "evidence_ids": [
+          "angle_7105aba8e326f02e56211c3f"
+        ]
+      },
+      {
+        "claim_id": "C7",
+        "severity": "blocking",
+        "message": "The exact approved CTA is retained, so do not silently rewrite it. Its wording may imply current messaging support or service scope, and the verified DM destination is unknown; Q2 explicitly remains unanswered. Resolve the commercial implication and destination before publication.",
+        "evidence_ids": []
+      }
+    ]
+  },
+  "output_hash": "e7017e441d8f570cba4cf71e400848f42815a2ab7a541837b6cabd6cb8fb1b21",
+  "artifact": "brief-attempts/brief_job_830dc7641de5475fbd78b92e199117d3/1/8f75782e0d020fc7e1e3ddd046a5cfe7e4a6420288d570652a6745c795271e73/validated.json"
+}

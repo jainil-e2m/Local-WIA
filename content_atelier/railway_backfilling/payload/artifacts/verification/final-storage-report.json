@@ -1,0 +1,54 @@
+{
+  "counts": {
+    "weeks": 2,
+    "transcripts": 20,
+    "transcript_chunks": 329,
+    "key_moments": 7,
+    "content_angles": 6,
+    "angle_moments": 6,
+    "pipeline_runs": 4,
+    "pipeline_jobs": 8,
+    "pipeline_events": 3,
+    "content_briefs": 0,
+    "content_packs": 0,
+    "content_assets": 0,
+    "calendar_entries": 0
+  },
+  "corpus": [
+    {
+      "week_index": 1,
+      "transcripts": 9,
+      "passages": 3238,
+      "packet_utf8_bytes": 358002,
+      "exact_packet_round_trip": true
+    },
+    {
+      "week_index": 2,
+      "transcripts": 11,
+      "passages": 5218,
+      "packet_utf8_bytes": 516999,
+      "exact_packet_round_trip": true
+    }
+  ],
+  "real_api_reads_verified": true,
+  "all_real_vectors_null": true,
+  "generation_enabled": false,
+  "encoding_enabled": false,
+  "openrouter_calls": 0,
+  "external_encoding_calls": 0,
+  "verification_date": "2026-10-12",
+  "tests": {
+    "backend_passed": 129,
+    "sql_integration_cases": 17,
+    "auth_proxy_passed": 11,
+    "storage_ui_passed": 2,
+    "typescript": "passed",
+    "frontend_build": "passed",
+    "broader_frontend": {
+      "passed": 109,
+      "failed": 1,
+      "skipped": 1,
+      "existing_failure": "ScheduledContent.test.tsx: expected 2 scheduling controls, rendered 10"
+    }
+  }
+}

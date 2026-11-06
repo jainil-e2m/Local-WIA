@@ -1,0 +1,9 @@
+{
+  "judge": "second blind review of the v2 packs (a Claude subagent that first read eight of Whitney's finished pieces), 20 October 2026",
+  "source": "research/v2-reassessment-2026-10-20/Diagnosis-Why-The-WIA-Packs-Keep-Missing.md, section 9 (predicted decisions: Pack 1 light edits; Pack 2 light edits to the body, rewrite the hooks; Pack 3 light edits); research/week2-packs-rebuild-2026-10-21/Content-Atelier-Findings-and-System-Improvements.md, finding 5 (Pack 3 \"publish after light edits\")",
+  "granularity": "pack: the review gave one decision per pack, so each asset of Packs 1 and 3 takes its pack's \"light edits\" (publishable after light edits: pass). It judged no 13 October pack, so those labels are not judged",
+  "verdicts": {
+    "W2": "pass", "W3": "pass", "W4": "pass", "W4-title": "pass", "W5": "pass", "W5-hook": "pass", "W6": "pass",
+    "W7": "pass", "W8-cover": "pass", "W8-screen1": "pass", "W8-screen2": "pass"
+  }
+}

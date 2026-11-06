@@ -1,0 +1,66 @@
+# Local parity with the Railway production container — build and serve the
+# same image you'd deploy, instead of relying on `vite dev`/`vite preview`.
+# A backend/database service belongs here once that project starts (see the
+# Backend SOP) — kept frontend-only for now since nothing else exists yet.
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      # Build-time (VITE_) values only. Every audit service is reached through
+      # the server-side BFF, so its URL and token are runtime variables below —
+      # public destinations and per-tool enable flags are compiled into the bundle.
+      args:
+        VITE_CONTENT_ATELIER_URL: ${VITE_CONTENT_ATELIER_URL:-}
+        VITE_TOOL_TECHNICAL_SEO_ENABLED: ${VITE_TOOL_TECHNICAL_SEO_ENABLED:-}
+        VITE_TOOL_AI_SEO_ENABLED: ${VITE_TOOL_AI_SEO_ENABLED:-}
+        VITE_TOOL_AI_PRESENCE_CHECKER_ENABLED: ${VITE_TOOL_AI_PRESENCE_CHECKER_ENABLED:-}
+        VITE_TOOL_ON_PAGE_SEO_ENABLED: ${VITE_TOOL_ON_PAGE_SEO_ENABLED:-}
+        VITE_TOOL_LEAD_MAGNET_ENABLED: ${VITE_TOOL_LEAD_MAGNET_ENABLED:-}
+        # Client half of the auth bypass. Build-time, so flipping it needs a
+        # rebuild (`docker compose up --build`), not just a restart. Pair it
+        # with AUTH_DISABLED in `environment:` below — one without the other
+        # is a broken half-state.
+        VITE_AUTH_DISABLED: ${VITE_AUTH_DISABLED:-}
+    ports:
+      - "8080:8080"
+    environment:
+      - PORT=8080
+      # Server half of the auth bypass. Runtime, so a restart is enough — but
+      # it must match the VITE_AUTH_DISABLED build arg above.
+      - AUTH_DISABLED=${AUTH_DISABLED:-}
+      # Auth overrides (all optional — the image ships working defaults; see
+      # .env.example). Empty values are treated as unset by the server.
+      - SESSION_SECRET=${SESSION_SECRET:-}
+      - AUTH_EMAIL=${AUTH_EMAIL:-}
+      - AUTH_PASSWORD_HASH=${AUTH_PASSWORD_HASH:-}
+      - AUTH_NAME=${AUTH_NAME:-}
+      # Optional second (client) account — enabled only when both the email and
+      # hash are provided; otherwise the server stays single-account.
+      - CLIENT_EMAIL=${CLIENT_EMAIL:-}
+      - CLIENT_PASSWORD_HASH=${CLIENT_PASSWORD_HASH:-}
+      - CLIENT_NAME=${CLIENT_NAME:-}
+      # Bookmarks JSON store. Mapped to a named volume below so bookmarks
+      # survive `docker compose down` the same way a Railway volume works.
+      - BOOKMARKS_FILE=/data/bookmarks.json
+      # Server-only audit BFF configuration. Never use VITE_ for a bearer token:
+      # Vite would expose it to every browser.
+      - TECHNICAL_SEO_AUDIT_URL=${TECHNICAL_SEO_AUDIT_URL:-}
+      - TECHNICAL_SEO_API_AUTH_TOKEN=${TECHNICAL_SEO_API_AUTH_TOKEN:-}
+      - AI_SEO_AUDIT_URL=${AI_SEO_AUDIT_URL:-}
+      - AI_SEO_API_AUTH_TOKEN=${AI_SEO_API_AUTH_TOKEN:-}
+      - AI_PRESENCE_AUDIT_URL=${AI_PRESENCE_AUDIT_URL:-}
+      - AI_PRESENCE_API_AUTH_TOKEN=${AI_PRESENCE_API_AUTH_TOKEN:-}
+      # Path prefixes each service serves the shared audit contract under. Blank
+      # is meaningful ("served at the root") and overrides the default, so leave
+      # them unset unless the upstream deployment actually differs.
+      - AI_PRESENCE_AUDIT_BASE_PATH=${AI_PRESENCE_AUDIT_BASE_PATH-/api/v1}
+      - ON_PAGE_SEO_AUDIT_URL=${ON_PAGE_SEO_AUDIT_URL:-}
+      - ON_PAGE_SEO_API_AUTH_TOKEN=${ON_PAGE_SEO_API_AUTH_TOKEN:-}
+      - ON_PAGE_SEO_AUDIT_BASE_PATH=${ON_PAGE_SEO_AUDIT_BASE_PATH-/v1}
+    volumes:
+      - bookmarks:/data
+    restart: unless-stopped
+
+volumes:
+  bookmarks:

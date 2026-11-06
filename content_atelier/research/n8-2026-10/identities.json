@@ -1,0 +1,1609 @@
+{
+ "version": 1,
+ "reviewed": {
+  "by": "kenil.shah@e2m.solutions",
+  "at": "2026-10-25",
+  "note": "Delegated review under D21 (Phase N8, 1.B12's extension): drafted from the transcripts, the Week 2 research notes and the Slack-derived notes, every identity with its evidence; shared device labels name the account only; aliases that collide or are other people's names left out."
+ },
+ "clients": [
+  {
+   "name": "Carroll Hall",
+   "aliases": [
+    "Carol Hall",
+    "carolhall.com",
+    "Carroll Hall Brooklyn"
+   ],
+   "business": "wedding and event venue with a garden, Brooklyn NY",
+   "status": "active",
+   "do_not_name": true,
+   "do_not_link": [
+    {
+     "what": "the anonymised $22K-to-$70K Accelerator case study (Reel, caption, carousel, two emails, 31 Jul - 6 Aug 2026)",
+     "markers": [
+      "$22K",
+      "22K",
+      "$70K",
+      "70K",
+      "22,000",
+      "70,000",
+      "$22,000",
+      "$70,000",
+      "$6K",
+      "6K",
+      "hand-hold her agency",
+      "saturated urban market"
+     ],
+     "reason": "Erin Smith of Carroll Hall is the case-study client; Whitney: \"we can't actually use Erin's name in our marketing\" (notes D.4). Never name her or the venue, and never let content tie Carroll Hall, Brooklyn, a corporate-events campaign or micro-wedding work to the case-study figures."
+    }
+   ],
+   "evidence": [
+    "chatgpt_export_week2_findings.md D.4 (lines 636-648): Erin Smith - Carroll Hall (Brooklyn, NY); she is the $22K-to-$70K Accelerator client; name banned",
+    "transcript_f70733889f858b197175941b (Whitney's Monthly Q&A, wk 2026-07-06): Erin: \"$22,000 on ads and agency, and we couldn't track any weddings\"; \"expected revenue of, like, 70K\". This transcript is the case-study source and carries the markers",
+    "transcript_9be468178a64c35b9191df97: Erin: \"It's carolhall.com slash summer\"",
+    "transcript_778a26e578c174f7e3bf93f3: Carmen: \"How have things been on the Carroll Hall side?\"",
+    "googlesearchaccelerator.md line 1287 (16 Jul 2026): \"helping Erin at Carroll Hall with budget allocation\""
+   ]
+  },
+  {
+   "name": "Diamond A Ranch",
+   "aliases": [
+    "Diamond A Ranch Events",
+    "Diamond A",
+    "Diamond Day Ranch"
+   ],
+   "business": "wedding venue, Texas (DFW-area market)",
+   "status": "active",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "chatgpt_export_week2_findings.md D.1 (lines 602-604): Ali Epler signs \"Owner, Diamond A Ranch Events\"; \"Normally she should not be named\"",
+    "transcript_edfcc5280e26f7c496a2d6db: aliepler: \"this is Allie and Danny at the Diamond A Ranch, thank you for booking your tour\"",
+    "transcript_d739c625037848e63529bc22: aliepler on Abilene/Lubbock couples: \"those markets just don't have quite the options of venues like closer DFW area does\"",
+    "WIA Weekly Meeting transcript_8223a163373716323e0b44f7 (19 Oct, excluded): Whitney: \"I think Diamond A was one that came up on the list\""
+   ]
+  },
+  {
+   "name": "The Penny",
+   "aliases": [
+    "Penny"
+   ],
+   "business": "wedding venue with restaurant, San Luis Obispo area (Central Coast) CA",
+   "status": "active",
+   "do_not_name": false,
+   "do_not_link": [],
+   "notes": "Private: the 0-to-105 tracked leads and the $8 cost per lead need the client's okay; never the lower 2027 sales or the price drops.",
+   "evidence": [
+    "transcript_d158c0b7ca826039fec4d731 (Messaging & Positioning _ The Penny): Lauren: \"We're basically in the middle of California\"; San Luis Obispo, Cal Poly mentioned",
+    "transcript_fd3a6d31b3b378e4a92246a8: title \"The Penny + WIA _ Monthly Strategy Call\"",
+    "chatgpt_export_week2_findings.md D.2 (line 617): The Penny, Lauren Christensen, Director of Sales & Operations"
+   ]
+  },
+  {
+   "name": "Experience Lux Travel",
+   "aliases": [
+    "ExperienceLuxTravel.com",
+    "luxury travel boutique",
+    "Luxury Travel Boutique"
+   ],
+   "business": "luxury destination-wedding travel and planning (Mexico and the Caribbean); team member Felipe lives in Playa del Carmen",
+   "status": "active",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_a040ed5d11c51988bf5ee4d5: Whitney to bethr: \"your login ... as Beth at ExperienceLuxTravel.com\"; \"You and Felipe can go in and make whatever tweaks\"",
+    "googlesearchaccelerator.md line 1042: \"Carmen also reviewed Beth's ads for her luxury travel boutique\"; line 1100: \"Felipe at Luxury Travel Boutique\"",
+    "transcript_831835c2812a56b151938edd: Felipe: \"someone that is really intentionally focused on getting a destination wedding in Mexico or the Caribbean\"",
+    "transcript_74b70a5141d793a46fd2dcdb (27 Jul): Felipe: \"this is going to be the last meeting we have for BID because we're going to be changing our subscription with you\" ('BID' is unexplained, possibly an account or program abbreviation)",
+    "status uncertain: Gisselle in transcript_..8c79671e (wk 2026-08-03, excluded): office hours \"last week it was just Felipe, which, they're no longer there\"; Danielle in transcript_..1b881e53 (wk 2026-10-05, excluded): \"I've heard nothing from Beth\" (LeadLock follow-up, if the same Beth)"
+   ]
+  },
+  {
+   "name": "Esthetics by Jillian",
+   "aliases": [
+    "Aesthetics by Jillian"
+   ],
+   "business": "esthetics studio (facials, waxing), Reno NV - not a wedding business",
+   "status": "former",
+   "do_not_name": false,
+   "do_not_link": [],
+   "notes": "Not a wedding business: Carmen's own ad work for an esthetics studio, not evidence of WIA's work for wedding pros.",
+   "evidence": [
+    "googlesearchaccelerator.md line 1079: \"GSA Check-in Survey - Esthetics by Jillian.pdf\"; line 824: \"Jillian Dalu-Ford has joined on for the Google Search Accelerator\"",
+    "transcript_831835c2812a56b151938edd: Carmen: \"Aesthetics by Jillian, and then they are showing your ad\"; \"How's the weather in Reno?\"",
+    "googlesearchaccelerator.md line 1229 (18 Jun 2026): \"only Jill came on for her last office hours\"",
+    "later work looks private to Carmen: 12 excluded 'other' calls between Carmen and Jillian (wk 2026-06-15 to 10-05) on Carmen's own Zoom. In transcript_0320ab8f24d264e7425eb016 Carmen explains she is not using her WIA account and says \"if we're working together spring, summer next year\""
+   ]
+  },
+  {
+   "name": "Love Like Wild Photography",
+   "aliases": [
+    "Love Like Wild"
+   ],
+   "business": "wedding and elopement photographer, Orlando FL",
+   "status": "active",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_536edfd0a7064563b96079c5: Carmen: \"for business name, I put Love Like Wild\"; headlines \"Orlando wedding photographer\"",
+    "metaadsaccelerator.md line 2900: \"Shannon with Love Like Wild Photography\"",
+    "chatgpt_export_week2_findings.md D.7: on 1 Oct Shannon turned off Google ads; \"very happy with my Meta ads\""
+   ]
+  },
+  {
+   "name": "Bri Photography",
+   "aliases": [
+    "Bri Photography x WIA"
+   ],
+   "business": "family, senior and boudoir photographer, 30A area, Florida",
+   "status": "active",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_85e5d10cbfd86810ee8c6f45: title \"WIA + Bri Photography Check-In Call\"; Carmen: \"you do photography in that specific area in Florida\"",
+    "transcript_8828f6effabddf3e1fdfcde1: Carmen: \"about 10 searches a month on average in that 30A area\"",
+    "transcript_..ebe21a9e (wk 2026-10-05, excluded): Whitney: \"Bri, her CPL the past 30 days was 81\""
+   ]
+  },
+  {
+   "name": "Dogwood Reserve",
+   "aliases": [
+    "Dogwood",
+    "Meriwether Manor",
+    "Merriweather Manor",
+    "Dogwood Reserves"
+   ],
+   "business": "wedding venue, rural Georgia (Atlanta market; Luthersville area mentioned)",
+   "status": "active",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_863ac0ca282ea9e0f5c4bfb4 (Dogwood Reserve _ Messaging & Positioning Interview): Alina Stevens: \"nobody can spell Merryweather. So, we changed the name again, and that's how Dogwood Reserve came to be\"",
+    "transcript_863ac0ca282ea9e0f5c4bfb4: Tirzah: \"I do want to market to Atlanta brides\"",
+    "WIA Weekly Meeting transcript_8223a163373716323e0b44f7 (19 Oct, excluded): Whitney lists \"Dogwood Reserve\" among current accounts",
+    "legacy-zoom-index/index.md: named chain \"Dogwood Reserve\" (14)"
+   ]
+  },
+  {
+   "name": "Myla Li Photos",
+   "aliases": [
+    "Myla Li Photos"
+   ],
+   "business": "wedding photographer marketing to Los Angeles; Arizona and Seattle also mentioned",
+   "status": "active",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_692b5151ad6e6fc9e0afa977 (prospect, wk 2026-09-07): Myla: \"I just started, like, marketing towards LA a couple years ago\"",
+    "metaadsaccelerator.md line 3042 (10 Sep 2026): \"Myla Garlitz has joined on for the Meta Ads Immersive Experience\"; line 3082: kickoff with Whitney on 29 Sep",
+    "transcript_028e250949cfeb43d8f1971e (wk 2026-10-05): Whitney: \"Hi, Myla\" (client call)"
+   ]
+  },
+  {
+   "name": "Dos Palomas Ranch",
+   "aliases": [
+    "Dos Palomas"
+   ],
+   "business": "wedding venue, Texas Hill Country (inferred from its ad keywords)",
+   "status": "active",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_cbd7ff087dc1cfa0b8b81e3c: title \"WIA + Dos Palomas _ Monthly Strategy Call\"",
+    "transcript_b4d6f94df0d63a68a126bc63: Carmen: \"the main one I see is the Hill Country Wedding Venue ... 8 conversions\"",
+    "chatgpt_export_week2_findings.md D.1 (26 Jun note): \"Dos Palomas feels much more premium\"",
+    "googlesearchaccelerator.md line 1189: \"Verify Dos Palomas lead tracking (pricing page)\""
+   ]
+  },
+  {
+   "name": "The Weinberg at Wixon Valley",
+   "aliases": [
+    "The Weinberg At Wixon Valley",
+    "The Weinberg",
+    "Weinberg"
+   ],
+   "business": "wedding venue (450 capacity), Bryan / College Station TX area",
+   "status": "active",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_34ab0b00c4f27baf1b88cb69: Weinberg device: \"we advertise for our 450 capacity\"; Whitney: \"still pretty common for them to be Texas A&M alum\"; Skyler: \"College Station, like, Bryan\"",
+    "WIA Weekly Meeting transcript_8223a163373716323e0b44f7 (19 Oct, excluded): \"And then the Weinberg, I know Carmen, you're going to kind of send them some feedback on their landing page\""
+   ]
+  },
+  {
+   "name": "Pecan Springs Ranch",
+   "aliases": [
+    "Pecan Springs",
+    "judy",
+    "judysmith"
+   ],
+   "business": "wedding venue, just west of Oak Hill, Austin TX",
+   "status": "active",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_bc920d2ee0a76953c9d4162e: Whitney: \"So you're the owner of Pecan Springs Ranch, is that right?\"; judy: \"we're just west of Oak Hill\"",
+    "transcript_51a4ef5cd98ef57bb5c3d91d: title \"Pecan Springs Ranch - Messaging & Positioning Call\"",
+    "WIA Weekly Meeting transcript_8223a163373716323e0b44f7 (19 Oct): \"Pecan Springs Ranch, we're still trying to push through with Judy\""
+   ]
+  },
+  {
+   "name": "The Brightside",
+   "aliases": [
+    "Brightside",
+    "Bright Side",
+    "The Brightside Dayton",
+    "TheBrightsideDayton",
+    "BrightSideWeddings.com",
+    "Brightside Venue"
+   ],
+   "business": "wedding venue and concert bar / public-events space, Dayton OH",
+   "status": "active",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_eecb671e9a1569c2138587e0: title \"WIA ELEVATE Demo for The Brightside\" (prospect, wk 2026-08-31)",
+    "transcript_6435749f634cd89aa0aaaab0: Carli: \"BrightSideDayton really applies to our ... overarching brand, but our wedding website is the BrightSideWeddings.com\"; \"my husband and I are co-owners of the building and the business\"",
+    "transcript_5b0389844e4a927240f1ec39: title \"The Brightside | Messaging & Positioning Call\" (client onboarding)"
+   ]
+  },
+  {
+   "name": "Ridgefield",
+   "aliases": [
+    "Ridgefield x WIA",
+    "ridgefieldweddings.com",
+    "richfieldweddings.com",
+    "Scott & Krista"
+   ],
+   "business": "wedding venue in the redwoods, Arcata (Humboldt County) CA",
+   "status": "active",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_dd546eb36ff1f3de35539724: title \"Ridgefield x WIA | Monthly Strategy Call\"",
+    "transcript_9143cef8d30d0b34d5458ed1: Scott: \"I am in Arcata in Humboldt County in far north California\"",
+    "transcript_20f71cb5fd25b45632339987: Ami Price: \"nobody's going out to Arcata to start\"; \"collateral ... from Ridgefield\"",
+    "transcript_15f13abb0f05c3db59690ce8: Ami Price: \"a no-indexed page on richfieldweddings.com slash ad landing\" (transcription of the Ridgefield domain)"
+   ]
+  },
+  {
+   "name": "Press Record Co.",
+   "aliases": [
+    "Press Record",
+    "pressrecordco.com"
+   ],
+   "business": "wedding service sold as packages through Shopify, Philadelphia area (competitors named: Toast and Tape, Handheld Studios, Wedding Weekender); the exact product is not stated in the calls",
+   "status": "active",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_5e3c953b77811fc242588615: title \"Press Record Co. x WIA Monthly Strategy Call\"; Steve: \"at least in, like, the Philadelphia area\"",
+    "transcript_56fa74d2f060647519580467: Whitney names competitors toastandtape.com and handheldstudios.com",
+    "googlesearchaccelerator.md line 1187: \"Rename Google Ads account to Press Record Co.\"",
+    "legacy-zoom-index/index.md: named chain \"Press Record\" (22 transcripts)"
+   ]
+  },
+  {
+   "name": "Funktastic",
+   "aliases": [
+    "Functastic",
+    "Funtastic",
+    "DJ Hybrid",
+    "DJ Hybrid Chicago",
+    "CJ Hybrid",
+    "DJ Hyde"
+   ],
+   "business": "live wedding band (Funktastic) with a DJ sub-brand (DJ Hybrid), Chicago",
+   "status": "active",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_5d467dca06f78064adf23cf5: Marisa: \"how did you find DJ Hybrid Chicago?\"; Carmen: \"relaunched Funktastic's conversion campaign\"",
+    "transcript_d9b0457ac5eb6c6e3f0d6e61: Marisa: \"you're losing to, like, Gold Coast\" (other live bands in Chicago)",
+    "googlesearchaccelerator.md line 480: \"LL attributions from her ads for Funktastic and DJ Hybrid\"; legacy-zoom-index: named chain \"Funktastic\" (13)"
+   ]
+  },
+  {
+   "name": "The Elia",
+   "aliases": [
+    "Elia",
+    "Alia",
+    "Illia",
+    "Ellia"
+   ],
+   "business": "art-deco wedding venue, downtown Wilmington NC, owned by wedding planner Brittanie Pate",
+   "status": "active",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_cf5c01db7bb0b43a5aed3c07: title \"The Elia Ads Strategy Call\"; Brittanie: \"No venue, like, honestly, in downtown Wilmington is, like, budget-friendly\"",
+    "transcript_781014df70c63ba0ccea7f68: Catherine: \"something unique is that we're owned by a wedding planner\"",
+    "transcript_40946578ac5d4188ac7fd78e: Catherine: \"we have, like, original art, deco ceilings, and bricks\""
+   ]
+  },
+  {
+   "name": "Hazelwood Weddings",
+   "aliases": [
+    "Hazelwood"
+   ],
+   "business": "wedding venue (location not stated in the evidence)",
+   "status": "active",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_56bb8852ee05697d17a16b1f: label \"Kate Walton - Hazelwood Weddings\"; Kate: \"We have a venue manager that we hired in December\"",
+    "status after June 2026 is not shown; the 22 Jun call teaches Kate to monitor the ads herself and Whitney mentions the accelerators"
+   ]
+  },
+  {
+   "name": "Davis & Grey Farms",
+   "aliases": [
+    "Davis & Grey",
+    "Davis and Gray Farms",
+    "Davis and Grey"
+   ],
+   "business": "wedding venue (farm); location not stated",
+   "status": "active",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_164674be6720513124becc49: label \"Jill - Davis & Grey\"",
+    "googlesearchaccelerator.md line 1149: \"Davis and Gray Farms (Jill): High tour cancellation rate (55%)\"; \"Leads are canceling because the venue is too far\"",
+    "metaadsaccelerator.md line 368 (2025): \"Davis & Grey Farms (... haven't had the best results from Google Ads ...)\""
+   ]
+  },
+  {
+   "name": "Exquisite Moments",
+   "aliases": [],
+   "business": "wedding business (kind not stated); kept LeadLock after ads management ended in June 2026",
+   "status": "active",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_1b534a0e94efca5c47e5b732 (wk 2026-06-08): Whitney: \"that email from Kelly from Exquisite Moments, like, saying that she, you know, wants to cancel\"",
+    "googlesearchaccelerator.md line 1161: \"Exquisite Moments (Kelly): Fallon to take over this week\"",
+    "transcript_4b60525b4876eb50bfb1d746 (wk 2026-06-22): Whitney to Kelly Scaramella: \"you did say that you wanted to continue with LeadLock, right?\" - Kelly: \"Right\""
+   ]
+  },
+  {
+   "name": "Barnwood Events",
+   "aliases": [
+    "Barnwood",
+    "Barnwood Events WI"
+   ],
+   "business": "wedding venue, Wisconsin",
+   "status": "active",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "googlesearchaccelerator.md line 810: \"Julie & Taylor (Barnwood Events WI)\" at office hours",
+    "transcript_9d4de828a6149ee525054482: Whitney: \"so that you can always get Barnwood in front of new people\"; \"when you signed on for ... us launching your Google Ads\""
+   ]
+  },
+  {
+   "name": "Miss Lyss",
+   "aliases": [
+    "Miss Liz",
+    "Miss Lyss Planning",
+    "miss list planning"
+   ],
+   "business": "wedding planning company (Maryland, Pennsylvania, Delaware, Virginia)",
+   "status": "active",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "legacy-zoom-index/index.md: named chain \"Miss Lyss (Alyssa)\"",
+    "transcript_921449138aff3efde9bbefdf: Carmen: \"Miss Liz, actually, her account, she's gotten like $60 cost per leads\"; Alyssa: \"a miss list planning GPT\"",
+    "googlesearchaccelerator.md line 692: \"the Quarterly Strategy Meeting for Miss Lyss\"",
+    "transcript_921449138aff3efde9bbefdf: Alyssa: \"this is a Pennsylvania wedding planner, or this is a Maryland wedding planner\""
+   ]
+  },
+  {
+   "name": "Hartlot Happening",
+   "aliases": [
+    "Hartlot"
+   ],
+   "business": "wedding venue, New York State (town not stated)",
+   "status": "former",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "googlesearchaccelerator.md lines 1100-1103: \"Carmen helped Lora at Hartlot Happening\"; \"it's Hartlot Happening with a T\"",
+    "transcript_..f96f4de9 (wk 2026-09-21, excluded): Whitney: \"Laura's the one that, um, that venue in New York, she was in the Google Search Accelerator, and she's not in it anymore\""
+   ]
+  },
+  {
+   "name": "Evergreen Venue",
+   "aliases": [],
+   "business": "wedding venue, Alabama",
+   "status": "active",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "metaadsaccelerator.md lines 2393-2539 (Feb-Apr 2026): Teresa Moody's Meta Ads Accelerator onboarding and kickoff; line 2900: \"Teresa with Evergreen Venue\"",
+    "transcript_03c85fdf038930dc6988bac9 (LeadLock demo, wk 2026-07-20): Whitney: \"customize our templates to really match, uh, Evergreen Venue\"; teresa: \"Alabama's just as bad\""
+   ]
+  },
+  {
+   "name": "Neu Events",
+   "aliases": [
+    "neu events"
+   ],
+   "business": "event planning (weddings, corporate, nonprofit, government), Hawaii",
+   "status": "active",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_9143cef8d30d0b34d5458ed1 (workshop for accelerator members): Whitney: \"Hey, Mona! I'm always jealous that you're in Hawai\"; \"She says, we plan weddings as well as corporate, nonprofit, government\""
+   ]
+  },
+  {
+   "name": "The Organic Moment Photo + Video",
+   "aliases": [
+    "The Organic Moment"
+   ],
+   "business": "elopement photo and video team, Ontario-based, shooting mostly in Banff, Canada",
+   "status": "active",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_5badc72a8fb85d82778ae1d9: \"It's me and my husband, Jason, run the business\"; \"Banff is my most popular location\"",
+    "transcript_192e800ce1e1b1031362d00e: Whitney: \"glad that Inkpot Creative sent you guys our way\"",
+    "WIA Weekly Meeting transcript_8223a163373716323e0b44f7 (19 Oct, excluded): \"the week of November 1st, we'll start onboarding Liz. And Jason, with the organic moment\". Signed but not yet onboarded; all three included calls are pre-sale"
+   ]
+  },
+  {
+   "name": "Sunny Entertainment",
+   "aliases": [
+    "Sunny Band",
+    "Sunny Jazz Band",
+    "the Sunny Band"
+   ],
+   "business": "live band and talent agency for weddings and corporate events (US; New York and Chicago events mentioned)",
+   "status": "prospect",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_6b9fded6bedfd091281eecf3: Noam: \"since I'm expanding the Sunny Band into a talent agency\"",
+    "googlesearchaccelerator.md line 1343: \"Noam - Sunny Entertainment Google Ads Audit - Aug 7 2026\" (a one-off paid audit with Carmen; no ongoing service recorded)",
+    "transcript_15884913ba40b1e26079f1e5: \"Sunny Jazz Band\" mentioned"
+   ]
+  },
+  {
+   "name": "Promises 2919",
+   "aliases": [
+    "The Promise of 2912"
+   ],
+   "business": "luxury wedding venue with a chapel, about an hour north of Indianapolis IN (Kokomo area)",
+   "status": "prospect",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "googlesearchaccelerator.md line 1351: \"Promises 2919 with Tony Google Ads Audit - Jul 20 2026\" (a paid one-off audit)",
+    "transcript_b85224be5919b3b6d2213b92: tony k: \"We're in Indiana. We're about an hour north of Indianapolis\"; \"a luxury venue with a wedding chapel\"; ChatGPT told couples to \"check out The Promise of 2912\" (transcription)"
+   ]
+  },
+  {
+   "name": "Fabled Memories",
+   "aliases": [
+    "FabledMemories.com"
+   ],
+   "business": "wedding videography, Denver CO and Florida",
+   "status": "prospect",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_7466265325071aa252da12b6: label \"Gabe | FabledMemories.com\"; Gabe: \"we're in two markets. We're in Denver, and we're in Florida\"; \"that knew that we were video, they booked us\""
+   ]
+  },
+  {
+   "name": "Monarch",
+   "aliases": [],
+   "business": "wedding business in operation for 14 years, referral-based (kind not stated; consultative design process)",
+   "status": "prospect",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_efade0f2b83236421f66a3f6: Whitney: \"people, you know, who have never heard of Monarch\"; Jennifer Torrez: \"We've been in business now for 14 years, and most of it is just all referral\"; Whitney: \"I'm so glad that Emily connected us\""
+   ]
+  }
+ ],
+ "people": [
+  {
+   "name": "Erin Smith",
+   "role": "client",
+   "client": "Carroll Hall",
+   "aliases": [
+    "Erin Smith",
+    "Erin",
+    "Aaron"
+   ],
+   "pronouns": "she/her",
+   "do_not_name": true,
+   "do_not_link": [
+    {
+     "what": "the anonymised $22K-to-$70K Accelerator case study (Reel, caption, carousel, two emails, 31 Jul - 6 Aug 2026)",
+     "markers": [
+      "$22K",
+      "22K",
+      "$70K",
+      "70K",
+      "22,000",
+      "70,000",
+      "$22,000",
+      "$70,000",
+      "$6K",
+      "6K",
+      "hand-hold her agency",
+      "saturated urban market"
+     ],
+     "reason": "Erin Smith of Carroll Hall is the case-study client; Whitney: \"we can't actually use Erin's name in our marketing\" (notes D.4). Never name her or the venue, and never let content tie Carroll Hall, Brooklyn, a corporate-events campaign or micro-wedding work to the case-study figures."
+    }
+   ],
+   "evidence": [
+    "All 11 of her included transcripts name Carroll Hall (or 'Carol Hall'). The nine Carmen calls, Whitney's Q&A and the office hours are the same Erin",
+    "transcript_..32c5519d (wk 2026-09-14, excluded): Carmen: \"with Carol Hall, we tried it with Erin when she was trying to promote some summer garden thing\"",
+    "transcript_f70733889f858b197175941b: \"this month, I'm here 5 years at my company\". She is the marketing lead, not the owner (\"when my boss gets back\")",
+    "transcript_1cbcaced8ff1c21f7ed2913a duplicates transcript_bbac5e367f46867606486705 (same October office hours, two transcriptions)",
+    "chatgpt_export_week2_findings.md D.4: never name her; she is the case-study client"
+   ],
+   "notes": "Personal details (husband from Mexico, son aged 7) appear in transcript_e55fb5bf35dc6e9b7292b0fa; keep them out of content."
+  },
+  {
+   "name": "Felipe Cortes",
+   "role": "client",
+   "client": "Experience Lux Travel",
+   "aliases": [
+    "Felipe Cortes",
+    "Felipe"
+   ],
+   "pronouns": "he/him",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_e55fb5bf35dc6e9b7292b0fa: Erin: \"I was gonna tell Felipe I like his shirt\"",
+    "transcript_83c83e9034a83f5d53345ef5 (wk 2026-06-01, excluded): Carmen: \"the woman that started with us ... so Felipe is, like, her assistant\"",
+    "transcript_831835c2812a56b151938edd: Felipe: \"Beth is doing a review, but she has so many things going on\"; \"Where I live in Playa del Carmen\"",
+    "transcript_74b70a5141d793a46fd2dcdb (27 Jul): his last office hours before changing the subscription"
+   ],
+   "notes": "Notes D.3 say Felipe Cortes is NOT 'Felipe Luna' (June 2025, 'Felipe and his boss Beth'). But Felipe Cortes also works for a boss named Beth (Experience Lux Travel), so they may be the same man under a different surname. Kept separate as D.3 says; check against the 2025 export."
+  },
+  {
+   "name": "Beth",
+   "role": "client",
+   "client": "Experience Lux Travel",
+   "aliases": [
+    "bethr",
+    "Beth"
+   ],
+   "pronouns": "she/her",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_a040ed5d11c51988bf5ee4d5: Whitney: \"as Beth at ExperienceLuxTravel.com\"; \"Okay. Well, thanks so much, as always, Beth\"",
+    "transcript_..67535188 (wk 2026-07-06, excluded): Whitney: \"when Beth followed up on Friday ... I had a call with her on Monday\"",
+    "transcript_..447868de (wk 2026-08-24, excluded): Danielle on LeadLock email sequences: \"it happened with Beth\"; Whitney: \"somebody like Beth, who's, like, crazy about, like, all the formatting\""
+   ],
+   "notes": "Surname unknown; the label suggests an initial R. It is assumed that the Beth in the internal LeadLock talk is this Beth."
+  },
+  {
+   "name": "Jillian Dalu-Ford",
+   "role": "client",
+   "client": "Esthetics by Jillian",
+   "aliases": [
+    "Jillian"
+   ],
+   "pronouns": "she/her",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "googlesearchaccelerator.md line 824: \"Jillian Dalu-Ford has joined on for the Google Search Accelerator\"; line 1004: \"VIP Day went very well with Jillian ... She's rly excited\"",
+    "transcript_831835c2812a56b151938edd: Carmen: \"Aesthetics by Jillian\"; \"hey, I'm Jill, and I do this\"; Carmen greets her \"Hey, Joe\" (transcription)",
+    "transcript_669399dea7769240079387fd: waxing and facial ad tests; Reno mentioned 29 times"
+   ],
+   "notes": "transcript_669399dea7769240079387fd (14 Oct, included) belongs to a series of Carmen-Jillian calls that are otherwise excluded as 'other'. In it Carmen does her own ad work for Jillian, apparently outside WIA (in transcript_0320ab8f24d264e7425eb016 Carmen says she is not using her WIA account). It may not be WIA material and should probably be excluded. She is not Jillian Anderson. The legacy zoom index treated 'Jillian' as staff (12 meetings) for the same reason."
+  },
+  {
+   "name": "Jillian Anderson",
+   "role": "prospect",
+   "client": null,
+   "aliases": [
+    "Jillian Anderson"
+   ],
+   "pronouns": null,
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_34db269fc40b782ab5b1814d: \"my business isn't super old, it's only, like, two and a half years old\"; \"a third of those are planning ... the other 2 thirds usually are like coordination\"; \"I'm also a travel agent\"; Disney and fandom weddings; \"As an employee, it's a little weird in California\""
+   ],
+   "notes": "Business name not in evidence. Not the same person as Jillian Dalu-Ford (Reno esthetics)."
+  },
+  {
+   "name": "Jill",
+   "role": "client",
+   "client": "Davis & Grey Farms",
+   "aliases": [
+    "Jill - Davis & Grey"
+   ],
+   "pronouns": "she/her",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_164674be6720513124becc49: Whitney before she joins: \"maybe she's on like a really wonderful tour that wants to book with her\", then \"Oh, there's Jill!\" and \"Hi, Joel!\" (transcription)",
+    "transcript_1b534a0e94efca5c47e5b732: Fallon: \"with Jill, I can already tell she's kind of someone who doesn't really respond very much\"",
+    "googlesearchaccelerator.md line 1149: \"Davis and Gray Farms (Jill)\""
+   ],
+   "notes": "Surname unknown. Jillian Dalu-Ford also goes by 'Jill', so match 'Jill' only together with Davis & Grey or venue context."
+  },
+  {
+   "name": "Lauren Christensen",
+   "role": "client",
+   "client": "The Penny",
+   "aliases": [
+    "Lauren Christensen",
+    "Lauren"
+   ],
+   "pronouns": "she/her",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_1b534a0e94efca5c47e5b732: Whitney: \"Okay, she is in the waiting room\", then \"Lauren: Hi there!\"; later \"Lauren Christensen: Alright, I'm back ... I think I'm on the different platform now\". 'Lauren' and 'Lauren Christensen' are one person on two devices",
+    "chatgpt_export_week2_findings.md D.2: Director of Sales & Operations, The Penny"
+   ]
+  },
+  {
+   "name": "Ali Epler",
+   "role": "client",
+   "client": "Diamond A Ranch",
+   "aliases": [
+    "aliepler",
+    "Ali",
+    "Allie",
+    "Ali Epler"
+   ],
+   "pronouns": "she/her",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "chatgpt_export_week2_findings.md D.1: \"She signs 'Ali Epler, Owner, Diamond A Ranch Events'\"; team notes misspell \"Allie\"",
+    "client_calls_notes.md T02 (Whitney's pre-call huddle): \"we have things that we're seeing on our end that we want to... share with her\"",
+    "transcript_edfcc5280e26f7c496a2d6db: aliepler: \"me as the owner, like, I try to do tours on Sunday\""
+   ],
+   "notes": "Notes D.1: normally she should not be named; if she is named, spell it 'Ali'."
+  },
+  {
+   "name": "Shannon Lee",
+   "role": "client",
+   "client": "Love Like Wild Photography",
+   "aliases": [
+    "Shannon Lee",
+    "Shannon"
+   ],
+   "pronouns": "she/her",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_4d21ee64c0f57b78e0a7b1a1: Shannon: \"I'm a wedding photographer\"",
+    "transcript_..90ad42fc (wk 2026-07-20, excluded): Gisselle: \"I was checking Shannon's and it says that she's\"",
+    "transcript_9e1879c15e05bd2d327366bf: \"let me send you my Orlando wedding photographer one\"",
+    "chatgpt_export_week2_findings.md D.7"
+   ]
+  },
+  {
+   "name": "Alexis Gaston",
+   "role": "client",
+   "client": null,
+   "aliases": [
+    "Alexis",
+    "Alexis Gaston"
+   ],
+   "pronouns": "she/her",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_5b00d29596145e054a127239: title \"Accelerator Progression Call with Alexis Gaston\"",
+    "googlesearchaccelerator.md line 827: \"Alexis Gaston has joined on for the Google Search Accelerator\" (Feb 2026); line 1212 (16 Jun): \"She definitely wants to move forward with staying month-to-month in the VAULT\"",
+    "transcript_4d21ee64c0f57b78e0a7b1a1: Alexis: \"There's even, like, a couple of other planners in here. I'm like, that's funny that I'm, like, popping up when searched for them\""
+   ],
+   "notes": "Wedding planner; business name not in evidence. Carmen reads out \"Karis Concepts\" in transcript_4d21ee64c0f57b78e0a7b1a1, but it is unclear whether that is her business or a search term."
+  },
+  {
+   "name": "Lora Taub",
+   "role": "client",
+   "client": "Hartlot Happening",
+   "aliases": [
+    "Lora Taub",
+    "Laura Taub"
+   ],
+   "pronouns": "she/her",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "googlesearchaccelerator.md line 883: \"Lora Taub has joined on for the Google Search Accelerator\"; line 1100: \"Lora at Hartlot Happening\"",
+    "transcript_..f96f4de9 (excluded): Whitney: \"Laura's the one that, um, that venue in New York, she was in the Google Search Accelerator, and she's not in it anymore\"",
+    "transcript_9be468178a64c35b9191df97: Carmen: \"Hi, Laura\"; Lora: \"lots of New York City couples are looking for venues, like, in the Catskills\""
+   ],
+   "notes": "Former client: her Google Search Accelerator time ended around July 2026."
+  },
+  {
+   "name": "Bri Garofalo",
+   "role": "client",
+   "client": "Bri Photography",
+   "aliases": [
+    "Bri Garofalo",
+    "bri",
+    "Bri",
+    "Bree",
+    "Brie"
+   ],
+   "pronouns": "she/her",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_8828f6effabddf3e1fdfcde1: Whitney: \"for Bree, we're just kind of letting her know that, like, the family stuff is, like, continuing to go well\"",
+    "transcript_132d4ec9ca7b2367ed35fb5f: title \"Bri Photography Check-In Call\" (label 'bri')"
+   ]
+  },
+  {
+   "name": "Alina Stevens",
+   "role": "client",
+   "client": "Dogwood Reserve",
+   "aliases": [
+    "Alina",
+    "Alina Stevens"
+   ],
+   "pronouns": "she/her",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_863ac0ca282ea9e0f5c4bfb4: Tirzah: \"As much as I know Alina is luxury herself, the Venue isn't ... She wants to build a million-dollar glass house\"; Whitney: \"under your ownership\"",
+    "transcript_70d7c26e85a11cd75510968e (Whitney + Alina): \"share it with Savannah at Dogwood Reserve\" (Savannah is her daughter, per transcript_c84f05e44b255083ceb19ab7)"
+   ]
+  },
+  {
+   "name": "Tirzah Caffee",
+   "role": "outside",
+   "client": null,
+   "aliases": [
+    "Tirzah's iPhone (2)",
+    "Tirzah",
+    "Tirza",
+    "Tirzo"
+   ],
+   "pronouns": "she/her",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_c84f05e44b255083ceb19ab7: Whitney: \"Hi, Tirzah\"; Tirzah: \"this is ... a new ecosystem in my coaching business\"; \"Scott is one of my oldest clients out in California\"; Alina: \"Tirzah is my, uh, chief head honcho, boss, leader\"",
+    "transcript_86506e9ab925e6e720b2e616: jenny: \"I met with Tirza, so then she, um, recommended\"",
+    "legacy-zoom-index: \"Whitney + Tirzah | The Grand Google Ads\" with \"Tirzah, Venue Success Coach\"",
+    "Referred: teresa (transcript_03c85fdf038930dc6988bac9), Victoria and Blair Propert (transcript_54276ed4d19c1d124039c631), The Elia (transcript_cb14faf0af04be533c92aa1b), The Brightside (transcript_d4b98119727bd29437c8e71a), jenny, Dogwood Reserve; introduced Lauren to LeadLock (notes D.2)"
+   ],
+   "notes": "Labelled 'client' in all three Dogwood transcripts, but she is Alina's venue coach and WIA's referrer, not a client. In the Dogwood calls she speaks for the venue (on pricing: \"I don't really feel super comfortable going lower\"), so her lines are close to the account but must not be quoted as client testimony."
+  },
+  {
+   "name": "Myla",
+   "role": "client",
+   "client": "Myla Li Photos",
+   "aliases": [
+    "Myla Li Photos",
+    "Myla"
+   ],
+   "pronouns": "she/her",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_b81db89eab150e0d7cf890f8 (Check-in with Gisselle, wk 2026-09-14, excluded): Whitney: \"The email's from Myla, but she's\"; \"now it would be appropriate to send her a link specifically to the M[eta Ads Accelerator]\"",
+    "transcript_692b5151ad6e6fc9e0afa977: Whitney: \"Hi, I'm Whitney Hodges\" (prospect call, labelled prospect); transcript_028e250949cfeb43d8f1971e: \"Hi, Myla\" (client call)",
+    "transcript_bae6720da48a1316702a27ce duplicates transcript_028e250949cfeb43d8f1971e"
+   ],
+   "notes": "Full name is probably Myla Garlitz: Slack records 'Myla Garlitz' joining the Meta Ads Immersive Experience on 10 Sep 2026, three days after the prospect call. But 'Li' could be her surname. Not settled."
+  },
+  {
+   "name": "Rose",
+   "role": "client",
+   "client": null,
+   "aliases": [
+    "rose",
+    "Rose"
+   ],
+   "pronouns": "she/her",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_9babd48e18d9ec5bb74beb09: rose: \"I've been a photographer for 6 years\"; \"my Colorado wedding photographer landing page\"; \"I am also a one-woman show\"",
+    "WIA Weekly Meeting transcript_8223a163373716323e0b44f7 (19 Oct, excluded): Whitney: \"So Rose, I believe I'm meeting with this week on Thursday, and she is going to be doing Elevate just for ads, no LeadLock\"",
+    "transcript_ff0be23ad9afe6b5b003ed56 duplicates transcript_9babd48e18d9ec5bb74beb09 (the same discovery call, labelled 'client' in one copy and 'prospect' in the other)"
+   ],
+   "notes": "Surname and business name not in evidence. Her move to client was still pending on 19 Oct; all her included calls are pre-sale."
+  },
+  {
+   "name": "Alexa",
+   "role": "client",
+   "client": "Dos Palomas Ranch",
+   "aliases": [
+    "Alexa"
+   ],
+   "pronouns": "she/her",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_2c12a3eaaa83f2472f955349: Whitney: \"Hey, Alexa, how are you doing?\"; device 'Dos Palomas Ranch': \"I'm good. Blake was supposed to take off today\"",
+    "transcript_cbd7ff087dc1cfa0b8b81e3c: Whitney: \"how's Alexa doing? I know she's had a lot going on\"; maddie: \"She has a lot going on with the kiddos ... her husband didn't block off his work calendar\""
+   ],
+   "notes": "Surname and title unknown. She acts as a decision-maker (\"let's just do the ads while on the call so that Carmen can do her job\"), but being an owner is not stated. The 'Dos Palomas Ranch' device label is hers in all three calls."
+  },
+  {
+   "name": "Maddie",
+   "role": "client",
+   "client": "Dos Palomas Ranch",
+   "aliases": [
+    "maddie",
+    "Maddie",
+    "Madeline"
+   ],
+   "pronouns": "she/her",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_b4d6f94df0d63a68a126bc63: Alexa: \"once Maddie gets on, she'll be just a couple minutes late\"; \"I'll let Maddie speak to the exacts, because she takes more tours than I do\"",
+    "transcript_cbd7ff087dc1cfa0b8b81e3c: Whitney: \"Okay. Madeline is here\""
+   ],
+   "notes": "Surname unknown."
+  },
+  {
+   "name": "Skyler",
+   "role": "client",
+   "client": "The Weinberg at Wixon Valley",
+   "aliases": [
+    "Skyler",
+    "Skylar"
+   ],
+   "pronouns": "she/her",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_34ab0b00c4f27baf1b88cb69: Whitney: \"Is Skylar going to be joining as well?\" ... \"should we give her a few minutes or okay, there she is\" ... \"Hey, Skylar\""
+   ],
+   "notes": "Surname and title unknown."
+  },
+  {
+   "name": "Hailey Horne",
+   "role": "client",
+   "client": "The Weinberg at Wixon Valley",
+   "aliases": [
+    "Hailey Horne",
+    "Hailey",
+    "Haley"
+   ],
+   "pronouns": null,
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_34ab0b00c4f27baf1b88cb69: Hailey: \"I had my first twenty twenty nine one yesterday\" (she gives tours)"
+   ]
+  },
+  {
+   "name": "Amanda Castorena",
+   "role": "client",
+   "client": "The Weinberg at Wixon Valley",
+   "aliases": [
+    "Amanda Castorena"
+   ],
+   "pronouns": null,
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_34ab0b00c4f27baf1b88cb69: Amanda: \"they have family that lives in Dallas, have family that lives in Houston, and so they want a central location\""
+   ]
+  },
+  {
+   "name": "Judy",
+   "role": "client",
+   "client": "Pecan Springs Ranch",
+   "aliases": [
+    "Judy"
+   ],
+   "pronouns": null,
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_bc920d2ee0a76953c9d4162e: Whitney: \"So you're the owner of Pecan Springs Ranch\"; judy: \"I'm Judy\"",
+    "transcript_63f40e3cd449725188bb3826 (Judy + Whitney, label 'judysmith'): Whitney: \"Hi Judy\"; same Pecan Springs context (Brittany, Emily)"
+   ],
+   "notes": "The surname 'Smith' comes only from the Zoom label 'judysmith'; do not confuse her with Erin Smith. 'judy' is a shared device: Brittany speaks on it in transcript_15f13abb0f05c3db59690ce8 (\"Oh, and this is Brittany\"), and transcript_51a4ef5cd98ef57bb5c3d91d has \"judy: Yes, my name's Saha\" from an unidentified third person. Also, transcript_15f13abb0f05c3db59690ce8 is one recording of two meetings: Ami Price (Ridgefield) until 00:29:47, then Judy and Brittany from 00:34:53."
+  },
+  {
+   "name": "Brittany",
+   "role": "client",
+   "client": "Pecan Springs Ranch",
+   "aliases": [
+    "Brittany"
+   ],
+   "pronouns": "she/her",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_bc920d2ee0a76953c9d4162e: judy: \"we have one person, Brittany, and she is a partner with us ... one of my daughter's best friends\"",
+    "transcript_15f13abb0f05c3db59690ce8: on the judy label: \"Oh, and this is Brittany. I'm sorry.\"",
+    "transcript_db017bdb235e39fc705b1c17: Whitney: \"Brittany tends to head up most of the tours\""
+   ],
+   "notes": "She has no label of her own and speaks through the 'judy' device, so per-line attribution is unreliable. She probably also speaks in transcript_51a4ef5cd98ef57bb5c3d91d. Surname unknown. Not Brittanie Pate of The Elia, although Whitney calls both 'Brittany'."
+  },
+  {
+   "name": "Ami Price",
+   "role": "outside",
+   "client": null,
+   "aliases": [
+    "Ami Price",
+    "Ami"
+   ],
+   "pronouns": "she/her",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_15f13abb0f05c3db59690ce8: Ami: \"we actually did this for ourselves when we were able to acquire the CelebrateCreative.com domain\"; \"we can dive right in on Ridgefield\"",
+    "transcript_20f71cb5fd25b45632339987: Ami: \"Scott and I met last week ... I'm just going to send you the staging website\"",
+    "transcript_fd3a6d31b3b378e4a92246a8: Whitney: \"other clients of Amy's that we are working with ... she's just done an awesome job with their websites\""
+   ],
+   "notes": "Mislabelled as 'client'. She is a web designer at Celebrate Creative, an outside partner in Tirzah's network who builds websites and landing pages for Ridgefield, The Penny and Dogwood Reserve. She is not a WIA client."
+  },
+  {
+   "name": "Carli Dixon",
+   "role": "client",
+   "client": "The Brightside",
+   "aliases": [
+    "Carli Dixon",
+    "Carli",
+    "Carly"
+   ],
+   "pronouns": "she/her",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_d4b98119727bd29437c8e71a: Jennifer: \"It's not Carly in a bubble, and there's something wrong with her brand\"",
+    "transcript_6435749f634cd89aa0aaaab0: \"my husband and I are co-owners of the building and the business\"",
+    "transcript_..38e8b47b (wk 2026-10-05, excluded): Whitney: \"if I reflect back to Carly, too, like, she wanted to book further out also\""
+   ],
+   "notes": "Labelled 'prospect' in transcript_eecb671e9a1569c2138587e0 and transcript_d4b98119727bd29437c8e71a (pre-sale demos) and 'client' afterwards. Both labels are right for the date of each call."
+  },
+  {
+   "name": "Libby Ballengee",
+   "role": "client",
+   "client": "The Brightside",
+   "aliases": [
+    "Libby Ballengee",
+    "Libby"
+   ],
+   "pronouns": "she/her",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_6435749f634cd89aa0aaaab0: Carli: \"we partnered with Libby Ballengee, who she's the one ... constantly running ads relating to our public events\"; Libby: \"an outside promoter, um, through my company, Venus Child\""
+   ]
+  },
+  {
+   "name": "Jennifer Gilman",
+   "role": "client",
+   "client": "The Brightside",
+   "aliases": [
+    "Jennifer",
+    "Jennifer Gilman"
+   ],
+   "pronouns": "she/her",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_6435749f634cd89aa0aaaab0: Carli: \"we have Jen, Jennifer Gilman, who ... for the last six years, she's been the primary person\"",
+    "transcript_d4b98119727bd29437c8e71a: Carli: \"Jennifer is our social media guru, uh, and also our website, uh, master\"; Whitney: \"Hi, Jennifer, I'm Whitney\""
+   ],
+   "notes": "The label is only 'Jennifer'; the surname comes from Carli's description of the same Jen in another call. Not Jennifer Torrez of Monarch."
+  },
+  {
+   "name": "Scott",
+   "role": "client",
+   "client": "Ridgefield",
+   "aliases": [
+    "Scott"
+   ],
+   "pronouns": "he/him",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_da21c98c066e0f806348aba9: Whitney: \"Hi, Scott\"; Scott (on the 'Scott & Krista' label): \"she's been working for Krista and I\"",
+    "transcript_9143cef8d30d0b34d5458ed1: Whitney: \"Hey, Scott\"; Scott: \"I am in Arcata in Humboldt County\" (Ridgefield's town, per Ami Price in transcript_20f71cb5fd25b45632339987)",
+    "transcript_c84f05e44b255083ceb19ab7: Tirzah: \"Scott is one of my oldest clients out in California ... He\"; transcript_20f71cb5fd25b45632339987: Ami: \"I'll loop back with Scott and just let him know\""
+   ],
+   "notes": "Surname unknown. The workshop's 'Scott' is matched to Ridgefield's Scott through Arcata."
+  },
+  {
+   "name": "Krista",
+   "role": "client",
+   "client": "Ridgefield",
+   "aliases": [],
+   "pronouns": null,
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_da21c98c066e0f806348aba9: Scott: \"she's been working for Krista and I\" (co-owner or partner)"
+   ],
+   "notes": "The shared label 'Scott & Krista' carries mostly Scott's voice, and Whitney greets only Scott; it is not shown that Krista speaks at all. Not Krista Lax, a separate Google Search Accelerator member (Slack, Feb 2026) whom Whitney describes as having \"started on such a rocky start, and then ghosted us\"."
+  },
+  {
+   "name": "Steve",
+   "role": "client",
+   "client": "Press Record Co.",
+   "aliases": [
+    "Steve’s iPhone",
+    "Steve"
+   ],
+   "pronouns": "he/him",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_5e3c953b77811fc242588615: Whitney: \"Hey, Steve, can you hear me?\"",
+    "transcript_..1b881e53 (wk 2026-10-05, excluded): Whitney: \"When I chatted with Steve recently, he said he wants to kind of just keep the budget steady\"",
+    "transcript_..03f96006 (excluded): Whitney: \"a call with Steve from Press Record last week and he was asking me\""
+   ],
+   "notes": "Surname unknown. 'Steve’s iPhone' is a device label and is always Steve in these two calls."
+  },
+  {
+   "name": "Mike Zabrin",
+   "role": "client",
+   "client": "Funktastic",
+   "aliases": [
+    "Mike Zabrin"
+   ],
+   "pronouns": "he/him",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_d9b0457ac5eb6c6e3f0d6e61: Whitney: \"we'll keep an eye on the waiting room or on him joining\"; \"How are things on the Functastic side, Mike?\"",
+    "transcript_bd6170a62d86a284fb13e622: Mike: \"My wife needs to be a little\"; \"I'm really good at the Funkta[stic]\""
+   ]
+  },
+  {
+   "name": "Marisa White",
+   "role": "client",
+   "client": "Funktastic",
+   "aliases": [
+    "Marisa White",
+    "Marisa’s iPhone",
+    "Marisa",
+    "Marissa"
+   ],
+   "pronouns": "she/her",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_d9b0457ac5eb6c6e3f0d6e61: Mike: \"I didn't know how Marissa did it, but she was able to go back in those initial text messages\"",
+    "transcript_bd6170a62d86a284fb13e622: Whitney: \"And how's Marissa doing?\"; Mike: \"she's on her way\"; then 'Marisa’s iPhone' speaks about the DJ Hybrid workflow",
+    "transcript_5d467dca06f78064adf23cf5: Marisa runs the DJ Hybrid side (\"how did you find DJ Hybrid Chicago?\")"
+   ],
+   "notes": "Married to Mike Zabrin; their baby was born around August 2026. That is personal and should stay out of content."
+  },
+  {
+   "name": "Catherine Sugden",
+   "role": "client",
+   "client": "The Elia",
+   "aliases": [
+    "Catherine Sugden",
+    "Catherine",
+    "Katherine"
+   ],
+   "pronouns": "she/her",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_cf5c01db7bb0b43a5aed3c07: Whitney: \"Catherine is here, so I'm going to admit her\"",
+    "transcript_a91cfabde3a5249dac554a3d: Whitney: \"Catherine's getting an internal email to notify her that the tour was scheduled\" (she runs tours and sales at The Elia)"
+   ],
+   "notes": "Exact job title not stated."
+  },
+  {
+   "name": "Brittanie Pate",
+   "role": "client",
+   "client": "The Elia",
+   "aliases": [
+    "Brittanie Pate",
+    "Brittanie"
+   ],
+   "pronouns": "she/her",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_781014df70c63ba0ccea7f68: Catherine: \"Brittany's been a wedding planner, I think it's been, like, 18 years ... she has had her own wedding planning\"; \"we're owned by a wedding planner\"",
+    "transcript_ea21114527e1241357706aaf: Brittanie: \"I have 3 other planners besides me\"; \"I don't do anything for the planning company\" (no ads yet)",
+    "transcript_a91cfabde3a5249dac554a3d (labelled prospect): LeadLock for her planning company, \"the same thing Catherine's doing on the Alia side\""
+   ],
+   "notes": "Her planning company's name is not in evidence. She is a client through The Elia and a prospect for her planning company, which explains the 'prospect' label on transcript_a91cfabde3a5249dac554a3d. Not Brittany of Pecan Springs Ranch."
+  },
+  {
+   "name": "Brooke Jenkins",
+   "role": "outside",
+   "client": null,
+   "aliases": [
+    "Brooke Jenkins | Sage Haus Hiring Specialist",
+    "Brooke"
+   ],
+   "pronouns": "she/her",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_98e81bdd2f35916eec2bca32: label \"Brooke Jenkins | Sage Haus Hiring Specialist\"; she helps grant Meta business-portfolio access for The Elia (\"Catherine had some questions ... admin access\")",
+    "transcript_cf5c01db7bb0b43a5aed3c07: Whitney: \"I did reach out to Brooke via email, and so hopefully she and I can either just connect\""
+   ],
+   "notes": "Mislabelled as 'client'. She works for Sage Haus (an outside firm) and handled The Elia's Meta assets. Her exact relationship to The Elia is not stated. Works with The Elia's account; not one of its people."
+  },
+  {
+   "name": "Kate Walton",
+   "role": "client",
+   "client": "Hazelwood Weddings",
+   "aliases": [
+    "Kate Walton - Hazelwood Weddings",
+    "Kate"
+   ],
+   "pronouns": "she/her",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_56bb8852ee05697d17a16b1f: Whitney: \"Hey, Kate, can you hear me?\"; Kate: \"We have a venue manager that we hired in December\"",
+    "transcript_..67535188 (wk 2026-07-06, excluded): Whitney: \"Kate, like, I had a call with her after she had already responded to that\""
+   ],
+   "notes": "The pronoun comes from an internal remark that probably, but not certainly, refers to this Kate."
+  },
+  {
+   "name": "Alyssa Kurtz",
+   "role": "client",
+   "client": "Miss Lyss",
+   "aliases": [
+    "Alyssa Kurtz",
+    "Alyssa",
+    "Miss Lyss",
+    "Miss Liz"
+   ],
+   "pronouns": "she/her",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_921449138aff3efde9bbefdf: Carmen: \"Miss Liz, actually, her account, she's gotten like $60 cost per leads\"; Alyssa: \"a miss list planning GPT\"",
+    "transcript_921449138aff3efde9bbefdf: \"I have one girl who I was able to assign 4 weddings to in October\""
+   ],
+   "notes": "Exact company spelling not confirmed ('Miss Lyss' per the legacy index and Slack)."
+  },
+  {
+   "name": "Kelly Scaramella",
+   "role": "client",
+   "client": "Exquisite Moments",
+   "aliases": [
+    "Kelly Scaramella",
+    "Kelly"
+   ],
+   "pronouns": "she/her",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_1b534a0e94efca5c47e5b732: Whitney: \"that email from Kelly from Exquisite Moments, like, saying that she, you know, wants to cancel\"",
+    "transcript_4b60525b4876eb50bfb1d746: she is leaving ads management but keeping LeadLock; Whitney offers paid consultations"
+   ],
+   "notes": "Her link to Exquisite Moments rests on the first name plus timing (cancellation email in the week of 8 Jun, follow-up call on 22 Jun). Probable, but not stated in her own call."
+  },
+  {
+   "name": "Julie",
+   "role": "client",
+   "client": "Barnwood Events",
+   "aliases": [
+    "Julie"
+   ],
+   "pronouns": "she/her",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "googlesearchaccelerator.md line 810: \"Julie & Taylor (Barnwood Events WI)\"",
+    "transcript_9d4de828a6149ee525054482: Whitney: \"get Barnwood in front of new people\"",
+    "transcript_..eec7b6b5 (wk 2026-07-13, excluded): Gisselle: \"Oh, Julie, she has a\""
+   ],
+   "notes": "Surname unknown."
+  },
+  {
+   "name": "Jenny",
+   "role": "client",
+   "client": null,
+   "aliases": [
+    "jenny",
+    "Jenny"
+   ],
+   "pronouns": null,
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_86506e9ab925e6e720b2e616: \"we bought the venue back in October\"; \"It's a house as well as the venue\"; \"Leadlock was the first piece of it ... I met with Tirza\"; \"I have 3 other businesses with my husband. We're in the auto industry\""
+   ],
+   "notes": "Venue name and location not in evidence. She is an existing LeadLock client; this call pitches ads and the accelerators."
+  },
+  {
+   "name": "Jana",
+   "role": "client",
+   "client": null,
+   "aliases": [
+    "jana",
+    "Jenna"
+   ],
+   "pronouns": null,
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_82fe6778115c46fe52936f94: Carmen: \"Hi, Jenna\"; Carmen: \"Manhattan, Kansas, Salina, Kansas\"; jana: \"Blue Vista ... That's one of our competitors\"; \"we are not a planner\"; \"I am a Lone Ranger\""
+   ],
+   "notes": "Wedding venue near Manhattan and Salina, Kansas; venue name not in evidence. Spelling: the label says 'jana', Carmen says 'Jenna'."
+  },
+  {
+   "name": "Teresa Moody",
+   "role": "client",
+   "client": "Evergreen Venue",
+   "aliases": [
+    "teresa",
+    "Teresa",
+    "Theresa"
+   ],
+   "pronouns": "she/her",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "metaadsaccelerator.md line 2443: \"Teresa emailed to say she wasn't feeling well\"; line 2900: \"Teresa with Evergreen Venue\"",
+    "transcript_03c85fdf038930dc6988bac9: Whitney: \"Evergreen Venue\"; teresa: \"you had been recommended by Tirza\"; she uses Nurture Pro"
+   ],
+   "notes": "Labelled 'prospect' because the call is a LeadLock demo, but she has been a Meta Ads Accelerator client since February 2026."
+  },
+  {
+   "name": "Noam Wolf",
+   "role": "prospect",
+   "client": "Sunny Entertainment",
+   "aliases": [
+    "Noam Wolf",
+    "Noam"
+   ],
+   "pronouns": "she/her",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_15884913ba40b1e26079f1e5: \"I'm also a mom for one month and 10 months old\"; \"I'll talk to my husband\"",
+    "transcript_6b9fded6bedfd091281eecf3: \"my husband and I are both immigrants. We moved to the U.S. from Israel. We started the business together, the band\". Same person as Noam Wolf",
+    "googlesearchaccelerator.md line 1343: \"Noam - Sunny Entertainment Google Ads Audit - Aug 7 2026\""
+   ],
+   "notes": "Notes D.5 say there is no record of an audit. That is out of date: according to Slack, transcript_6b9fded6bedfd091281eecf3 (with Carmen) is the paid audit."
+  },
+  {
+   "name": "Ivor",
+   "role": "prospect",
+   "client": null,
+   "aliases": [
+    "iver",
+    "Ivor"
+   ],
+   "pronouns": null,
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_eb8ad3ff88e7802d765c3d5f: Whitney: \"Hi, Ivor, I'm Whitney\"; iver: \"Colorado elopement, for sure, is a good target\"; \"I just have a video of me saying, come to Colorado and elope\"",
+    "chatgpt_export_week2_findings.md D.6: prospect only; never imply he hired WIA"
+   ],
+   "notes": "Business name not in evidence. Pronoun left null: the notes use 'he', but no transcript states it."
+  },
+  {
+   "name": "Tony",
+   "role": "prospect",
+   "client": "Promises 2919",
+   "aliases": [
+    "tony k",
+    "Tony"
+   ],
+   "pronouns": null,
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_b85224be5919b3b6d2213b92: Carmen: \"Hi, Tony\"; tony k: \"We're in Indiana ... about an hour north of Indianapolis\"",
+    "googlesearchaccelerator.md line 1351: \"Promises 2919 with Tony Google Ads Audit - Jul 20 2026\""
+   ],
+   "notes": "Surname begins with K (from the label only)."
+  },
+  {
+   "name": "Liz",
+   "role": "client",
+   "client": "The Organic Moment Photo + Video",
+   "aliases": [
+    "Liz"
+   ],
+   "pronouns": null,
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_192e800ce1e1b1031362d00e: Whitney: \"Hi, Liz. Can you hear me?\"",
+    "transcript_5badc72a8fb85d82778ae1d9: \"It's me and my husband, Jason, run the business. I started it\"",
+    "WIA Weekly Meeting transcript_8223a163373716323e0b44f7 (19 Oct): \"the week of November 1st, we'll start onboarding Liz\""
+   ],
+   "notes": "Surname unknown; no one else uses a pronoun for her. The label is a shared business device, and Jason may also speak on it in transcript_192e800ce1e1b1031362d00e (\"So nice to meet you guys!\"). She counts as a client only from 19 Oct; all three included calls are pre-sale."
+  },
+  {
+   "name": "Jason",
+   "role": "client",
+   "client": "The Organic Moment Photo + Video",
+   "aliases": [
+    "Jason"
+   ],
+   "pronouns": "he/him",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_5badc72a8fb85d82778ae1d9: Liz: \"my husband, Jason ... he joined me a couple of years ago\"",
+    "transcript_60e0fb1b62bfae6195c93623: Whitney: \"Is Jason going to be here for today too?\""
+   ],
+   "notes": "Not confirmed that he speaks in any included call; he is listed for transcript_192e800ce1e1b1031362d00e only on the strength of \"nice to meet you guys\"."
+  },
+  {
+   "name": "Gabe",
+   "role": "prospect",
+   "client": "Fabled Memories",
+   "aliases": [
+    "Gabe | FabledMemories.com",
+    "Gabe",
+    "Gabriel"
+   ],
+   "pronouns": null,
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_7466265325071aa252da12b6: Whitney: \"Hey, Gabe!\"; Gabe: \"we're on, like, our second year\"; \"my wife is on the side\"",
+    "transcript_b81db89eab150e0d7cf890f8 (excluded): Whitney: \"for Gabriel, kind of start another chat like this\""
+   ],
+   "notes": "Surname unknown. 'Gabriel' is probably the same person (same week, prospect follow-up)."
+  },
+  {
+   "name": "Zach",
+   "role": "prospect",
+   "client": null,
+   "aliases": [
+    "zack9",
+    "Zach"
+   ],
+   "pronouns": null,
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_9e349117a71fff3f559634cb: Whitney: \"Hi, Zach\"; zack9: \"My wife's really the one ... I just do the marketing\"; \"the old owner of the flower shop\"; \"I'm in Northern California\""
+   ],
+   "notes": "Florist business name not in evidence."
+  },
+  {
+   "name": "Jennifer Torrez",
+   "role": "prospect",
+   "client": "Monarch",
+   "aliases": [
+    "Jennifer Torrez"
+   ],
+   "pronouns": null,
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_efade0f2b83236421f66a3f6: Whitney: \"I'm so glad that Emily connected us\"; \"never heard of Monarch\""
+   ]
+  },
+  {
+   "name": "Rafeal Henderson",
+   "role": "prospect",
+   "client": null,
+   "aliases": [
+    "Rafeal Henderson"
+   ],
+   "pronouns": null,
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_f37cec6e384dc204624fb79b: \"I offer wedding management, and I offer wedding design\"; \"been in business for 10 plus years\"; Texas"
+   ],
+   "notes": "Business name not in evidence."
+  },
+  {
+   "name": "Victoria Melvin-Propert",
+   "role": "prospect",
+   "client": null,
+   "aliases": [
+    "victoriamelvin-propert",
+    "Victoria"
+   ],
+   "pronouns": null,
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_54276ed4d19c1d124039c631: Whitney: \"Hi, Victoria\"; \"glad that Tirzah was able to connect us\"; \"we've been open for 4 years\" (a venue that booked 25 weddings in a year)"
+   ],
+   "notes": "Venue name and location not in evidence."
+  },
+  {
+   "name": "Blair Propert",
+   "role": "prospect",
+   "client": null,
+   "aliases": [
+    "Blair Propert",
+    "Blair"
+   ],
+   "pronouns": "he/him",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_54276ed4d19c1d124039c631: Victoria: \"Blair's going on his own computer\""
+   ]
+  },
+  {
+   "name": "Ava Hopkins",
+   "role": "prospect",
+   "client": null,
+   "aliases": [
+    "Ava Hopkins",
+    "Ava"
+   ],
+   "pronouns": null,
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_cd7d2add20a12a234b883e14: \"I'm Ava\"; joint discovery call with Nicholas Sanders (photography studio, Dallas area)"
+   ],
+   "notes": "Her role in the studio is not stated."
+  },
+  {
+   "name": "Nicholas Sanders",
+   "role": "prospect",
+   "client": null,
+   "aliases": [
+    "Nicholas Sanders",
+    "Nick"
+   ],
+   "pronouns": null,
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_cd7d2add20a12a234b883e14: \"I've been a full-time photographer now for 10 years\"; \"We have four or five associate photographers\"; North Dallas and Plano mentioned"
+   ],
+   "notes": "Studio name not in evidence."
+  },
+  {
+   "name": "Sarah Varley",
+   "role": "prospect",
+   "client": null,
+   "aliases": [
+    "Sarah Varley"
+   ],
+   "pronouns": null,
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_c729ba6f26804a8ab27a6183: wedding planner in Billings, Montana (\"it's average for Billings\")"
+   ]
+  },
+  {
+   "name": "Zadie Ward",
+   "role": "prospect",
+   "client": null,
+   "aliases": [
+    "Zadie Ward"
+   ],
+   "pronouns": null,
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_1f595f00a47fa1b61b2ae316: Whitney: \"I know you're based in the UK\"; she uses Studio Ninja; LeadLock is \"probably out of reach\""
+   ],
+   "notes": "Business kind not stated (Studio Ninja suggests a photographer, but this is not stated)."
+  },
+  {
+   "name": "Nadine",
+   "role": "prospect",
+   "client": null,
+   "aliases": [
+    "Nadine"
+   ],
+   "pronouns": null,
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_51a2caa258290d8bb05249ad: \"twice a year we have, um, retreats for our membership\"; \"only for ... SBS members\"; \"I'll be talking about it on my podcast\"; Asheville event"
+   ],
+   "notes": "Not a wedding vendor: she runs a membership brand ('SBS', not expanded). Surname unknown."
+  },
+  {
+   "name": "Stephanie Molina",
+   "role": "outside",
+   "client": null,
+   "aliases": [
+    "Stephanie Molina"
+   ],
+   "pronouns": null,
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_e49b74a8d0ed9e77b5c6a8e1: a freelance media buyer showing Carmen her own e-commerce client's account (\"it's a supplement coffee\"); talks about Upwork and X outreach; Carmen: \"I started as a media buyer wanting to get into an agency\""
+   ],
+   "notes": "Mislabelled as 'client'. This is Carmen's own peer call outside WIA (her personal Zoom; it opens with an 'Email Dojo Mastermind' video), not a WIA client. The transcript should probably not be included."
+  },
+  {
+   "name": "Sean",
+   "role": "client",
+   "client": null,
+   "aliases": [
+    "stlic",
+    "Sean"
+   ],
+   "pronouns": null,
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_9143cef8d30d0b34d5458ed1: Whitney: \"Sean has an ice sculpture business here in Austin\"; stlic: \"Austin, San Antonio are the primary market ... we just opened a shop in St. Louis\""
+   ],
+   "notes": "Business name not in evidence (the label 'stlic' hints at a St. Louis ice company; unconfirmed). He attended the workshop for accelerator members, so he is assumed to be a client."
+  },
+  {
+   "name": "Mona",
+   "role": "client",
+   "client": "Neu Events",
+   "aliases": [
+    "neu events",
+    "Mona"
+   ],
+   "pronouns": "she/her",
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_9143cef8d30d0b34d5458ed1: Whitney: \"Hey, Mona! I'm always jealous that you're in Hawai\"; \"So Mona had a really good question. She said\""
+   ],
+   "notes": "Surname unknown."
+  },
+  {
+   "name": "Katie Logan",
+   "role": "client",
+   "client": null,
+   "aliases": [
+    "Katie Logan",
+    "Katie"
+   ],
+   "pronouns": null,
+   "do_not_name": false,
+   "do_not_link": [],
+   "evidence": [
+    "transcript_9143cef8d30d0b34d5458ed1: Whitney: \"Katie was in our Meta Ads Accelerator\"; Emily Foster: \"Katie and I are actually working together\"",
+    "metaadsaccelerator.md lines 1837-1859 (Oct 2025): Meta Ads Immersive Experience kickoff and onboarding questionnaire"
+   ],
+   "notes": "Business not in evidence. The past tense suggests a former accelerator member."
+  }
+ ],
+ "staff": [
+  {
+   "name": "Fallon Looney",
+   "left_on": "2026-08-14",
+   "pronouns": "she/her",
+   "evidence": [
+    "research/week2-packs-rebuild-2026-10-21/notes/client_calls_notes.md: Fallon left WIA on 14 Aug 2026 (\"We're restructuring a bit\")"
+   ]
+  },
+  {
+   "name": "Whitney Hodges",
+   "pronouns": "she/her",
+   "evidence": [
+    "Co-founder; referred to as she in the team's notes and recaps"
+   ]
+  },
+  {
+   "name": "Carmen Cruickshank",
+   "pronouns": "she/her",
+   "evidence": [
+    "Whitney, prospect call of 8-14 Jun: \"she can really understand ... she'll come to that Google Ads VIP day\""
+   ]
+  },
+  {
+   "name": "Jacqueline Hood",
+   "pronouns": "she/her",
+   "evidence": [
+    "Whitney, prospect call of 8-14 Jun: \"Jacqueline ... she's an amazing messaging expert on our team\""
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1376 @@
+WEBVTT
+
+00:03:28.000 --> 00:03:30.000
+Carmen Cruickshank: Hi, Erin.
+
+00:03:29.000 --> 00:03:32.000
+Erin Smith: Hey, Carmen, how are you?
+
+00:03:31.000 --> 00:03:33.000
+Carmen Cruickshank: I'm good, how are you?
+
+00:03:32.000 --> 00:03:34.000
+Erin Smith: Good.
+
+00:03:33.000 --> 00:03:35.000
+Carmen Cruickshank: That's good.
+
+00:03:35.000 --> 00:03:41.000
+Erin Smith: Thank you for your notes. And I've been working on it all morning.
+
+00:03:37.000 --> 00:03:38.000
+Carmen Cruickshank: Of course.
+
+00:03:40.000 --> 00:03:42.000
+Carmen Cruickshank: Mmhm.
+
+00:03:41.000 --> 00:03:57.000
+Erin Smith: Sorry. I was just bringing it up. But yeah, the speed thing is something I've been aware of for a really long time, and I'm like embarrassed, and how slow some of the pages are so.
+
+00:03:51.000 --> 00:03:53.000
+Carmen Cruickshank: Mm-hmm.
+
+00:03:56.000 --> 00:03:57.000
+Carmen Cruickshank: Mm-hmm.
+
+00:03:57.000 --> 00:04:14.000
+Erin Smith: one thing I was looking at just now, actually, is, like, we have a lot of really old JavaScript that we don't even use anymore, so… I can do that, but I like your suggestion of, like, hiring someone on Fiverr, because I do think some of it's more than what I can do, but…
+
+00:04:06.000 --> 00:04:07.000
+Carmen Cruickshank: Mm-hmm.
+
+00:04:14.000 --> 00:04:34.000
+Erin Smith: Um, it's not just the landing pages, it's our whole site. So, um, I mean, the way the website was built was, like, before I started, and there's just, like, so much JavaScript that I know we're not using, but I'm afraid to take too much out, because I don't want to break anything, so I'm doing it.
+
+00:04:18.000 --> 00:04:21.000
+Carmen Cruickshank: Uh, yes.
+
+00:04:33.000 --> 00:04:34.000
+Carmen Cruickshank: Okay.
+
+00:04:34.000 --> 00:04:40.000
+Erin Smith: doing it like in little chunks. But one question I did have is that.
+
+00:04:36.000 --> 00:04:37.000
+Carmen Cruickshank: Mm-hmm.
+
+00:04:40.000 --> 00:04:43.000
+Erin Smith: Um, we…
+
+00:04:43.000 --> 00:04:56.000
+Erin Smith: seem to have two Google tag managers in our code, um, and I suspect one of it is because we used an agency before I started working with you guys, so I'm just wondering, um.
+
+00:04:54.000 --> 00:04:55.000
+Carmen Cruickshank: Good.
+
+00:04:57.000 --> 00:05:07.000
+Erin Smith: Is there a way we can check which Google tag we're using to track our events, so I'm not deleting the wrong…
+
+00:05:07.000 --> 00:05:10.000
+Erin Smith: code, if that makes sense.
+
+00:05:09.000 --> 00:05:18.000
+Carmen Cruickshank: No, yeah, that makes sense. Uh, where did you find that you had, like, two… is it double tracking on Google Ads, or did you just check it in the Google Tag Manager?
+
+00:05:17.000 --> 00:05:27.000
+Erin Smith: No, it's in our it's in our code itself. And I have it tagged as legacy Google Tag Manager. Let me just find it.
+
+00:05:26.000 --> 00:05:28.000
+Carmen Cruickshank: Okay.
+
+00:05:27.000 --> 00:05:28.000
+Erin Smith: Okay.
+
+00:05:28.000 --> 00:05:34.000
+Carmen Cruickshank: Oh, so it's like the server.carolhall, and then just regular carol? I'll show you what I see.
+
+00:05:28.000 --> 00:05:30.000
+Erin Smith: Thank you.
+
+00:05:34.000 --> 00:05:35.000
+Erin Smith: Okay.
+
+00:05:36.000 --> 00:05:37.000
+Carmen Cruickshank: One second.
+
+00:05:41.000 --> 00:05:45.000
+Carmen Cruickshank: Do you mean there's just, like, two Google tag managers that you see?
+
+00:05:45.000 --> 00:05:51.000
+Erin Smith: Oh, yeah. So I'm pretty sure it's the WFF one.
+
+00:05:50.000 --> 00:05:53.000
+Carmen Cruickshank: Yeah, this one's the correct one.
+
+00:05:52.000 --> 00:05:58.000
+Erin Smith: Okay, so then, the server one, like, I'm not even sure…
+
+00:05:58.000 --> 00:06:02.000
+Erin Smith: Let me find if I can find it in the code here.
+
+00:06:02.000 --> 00:06:07.000
+Carmen Cruickshank: Yeah, honestly, I don't think it'd be an issue if you deleted it, because there's nothing connected, like, as long as there'.
+
+00:06:07.000 --> 00:06:09.000
+Carmen Cruickshank: You should be fine.
+
+00:06:09.000 --> 00:06:13.000
+Erin Smith: Okay, um…
+
+00:06:13.000 --> 00:06:18.000
+Erin Smith: Alright, I'm just looking, though, because I see another thing in our code here that says…
+
+00:06:19.000 --> 00:06:24.000
+Erin Smith: Legacy tracker, but it's that specific.
+
+00:06:24.000 --> 00:06:30.000
+Erin Smith: Well, I'll look at that. Um, that's one thing I saw when I ran it in, um…
+
+00:06:30.000 --> 00:06:35.000
+Erin Smith: Do you know Lighthouse? Like, for page speed insights?
+
+00:06:35.000 --> 00:06:42.000
+Carmen Cruickshank: No, I haven't. I've only heard of like some little connecting things only on WordPress. Yeah, I've attempted that.
+
+00:06:35.000 --> 00:06:37.000
+Erin Smith: I don't know.
+
+00:06:40.000 --> 00:06:57.000
+Erin Smith: Okay, yeah, this is actually like through Google Chrome. And I could run the speed like the diagnostic speed. And it's like abysmal. So but it that's where it shows me like all of this legacy Javascript and and.
+
+00:06:49.000 --> 00:06:50.000
+Carmen Cruickshank: Mmhm.
+
+00:06:56.000 --> 00:06:58.000
+Carmen Cruickshank: Mm-hmm.
+
+00:06:57.000 --> 00:07:02.000
+Erin Smith: you know, jQuery, I don't even know what half of these things mean, but…
+
+00:07:00.000 --> 00:07:16.000
+Carmen Cruickshank: Yeah, no, I know what you mean. Like, when I started learning this stuff, I was like, I mean, I don't need to know it, but it's helpful to hear about it. Yeah, I've always just found the easiest thing is, like, on Fiverr, like, for 10 bucks, same day, you could get, like, a faster site. That's what I would recommend. I.
+
+00:07:06.000 --> 00:07:08.000
+Erin Smith: Yeah.
+
+00:07:13.000 --> 00:07:14.000
+Erin Smith: Yeah.
+
+00:07:16.000 --> 00:07:19.000
+Carmen Cruickshank: I don't know, they're not from America, but yeah, so…
+
+00:07:16.000 --> 00:07:18.000
+Erin Smith: Okay.
+
+00:07:18.000 --> 00:07:30.000
+Erin Smith: Yeah, no, that's fine. Yeah, and I figured that, um, which is totally fine. So, okay, so that… the speed thing is something I'm gonna work on, for sure. Um, and then…
+
+00:07:22.000 --> 00:07:24.000
+Carmen Cruickshank: Here.
+
+00:07:27.000 --> 00:07:29.000
+Carmen Cruickshank: Okay.
+
+00:07:30.000 --> 00:07:31.000
+Erin Smith: um…
+
+00:07:31.000 --> 00:07:39.000
+Erin Smith: Starting with the negative keywords. So I did go through, let's see.
+
+00:07:40.000 --> 00:07:44.000
+Erin Smith: Oh yeah, I did add…
+
+00:07:44.000 --> 00:07:49.000
+Erin Smith: negative keywords. They're in, specifically in, um…
+
+00:07:49.000 --> 00:07:53.000
+Erin Smith: I have, like, a list, uh…
+
+00:07:52.000 --> 00:07:55.000
+Carmen Cruickshank: Let me do just the…
+
+00:07:55.000 --> 00:07:58.000
+Carmen Cruickshank: Search leads. Yeah.
+
+00:08:00.000 --> 00:08:05.000
+Erin Smith: Okay, so I did have a question there. My notes.
+
+00:08:03.000 --> 00:08:04.000
+Carmen Cruickshank: Mm-hmm.
+
+00:08:05.000 --> 00:08:07.000
+Erin Smith: Uh…
+
+00:08:08.000 --> 00:08:12.000
+Erin Smith: Okay, yeah, so you see Erin updated NEG keywords, like…
+
+00:08:12.000 --> 00:08:13.000
+Carmen Cruickshank: Mm-hmm.
+
+00:08:13.000 --> 00:08:16.000
+Erin Smith: Does that, um…
+
+00:08:16.000 --> 00:08:23.000
+Erin Smith: like, should I have the words in the list itself, or is this, like, list within the list okay?
+
+00:08:22.000 --> 00:08:29.000
+Carmen Cruickshank: Yeah, this list within the list is fine, like, it just is putting it there anyway, so it's not like…
+
+00:08:29.000 --> 00:08:31.000
+Carmen Cruickshank: Like, it all counts, which is good.
+
+00:08:29.000 --> 00:08:30.000
+Erin Smith: Okay.
+
+00:08:31.000 --> 00:08:41.000
+Erin Smith: So, I did have a question here before you go down, like, where Airbnb is, for example. Like, I have it there twice, and I'm just not sure if that's… that is right. I don't…
+
+00:08:31.000 --> 00:08:32.000
+Carmen Cruickshank: Uh, I…
+
+00:08:35.000 --> 00:08:37.000
+Carmen Cruickshank: Yep.
+
+00:08:40.000 --> 00:08:47.000
+Carmen Cruickshank: That's a good question. I think I personally would just switch this to phrase match, and then delete this one.
+
+00:08:41.000 --> 00:08:42.000
+Erin Smith: Thank you.
+
+00:08:46.000 --> 00:08:51.000
+Erin Smith: Okay, so phrase match, and then…
+
+00:08:50.000 --> 00:09:11.000
+Carmen Cruickshank: Yeah, like, always my sweet spot is phrase match, unless it's like, if let's say Airbnb, like, that exact thing is searched so much, I'm like, okay, I can just do phrase match. I don't see the issue in keeping both of these, I'll just keep it just in case. But yeah, normally I do avoid broad match keywords, unless just that whole category is just like, crap, we don't want anything like that.
+
+00:08:59.000 --> 00:09:00.000
+Erin Smith: Okay.
+
+00:09:03.000 --> 00:09:04.000
+Erin Smith: Okay.
+
+00:09:11.000 --> 00:09:27.000
+Carmen Cruickshank: But yeah, no, it looks good with like you added some exact match, which is good. And people probably search it word for word. So I don't see any issue in adding it as an exact. The only issue is if we see the same things like next month or the month after, you know what I mean? So we can kind of see how Google reacts.
+
+00:09:25.000 --> 00:09:26.000
+Erin Smith: Okay.
+
+00:09:27.000 --> 00:09:29.000
+Carmen Cruickshank: For the sixth time.
+
+00:09:27.000 --> 00:09:29.000
+Erin Smith: Okay.
+
+00:09:29.000 --> 00:09:44.000
+Erin Smith: So some of the words like the Brooklyn Botanic Gardens aren't in this list. I think they're in the previous list. I just put them into this list because I was trying to keep track of like what I was updating. Okay, this one.
+
+00:09:36.000 --> 00:09:38.000
+Carmen Cruickshank: Oh, okay.
+
+00:09:42.000 --> 00:09:44.000
+Carmen Cruickshank: Yeah, sure.
+
+00:09:44.000 --> 00:09:45.000
+Carmen Cruickshank: Mm-hmm.
+
+00:09:44.000 --> 00:09:49.000
+Erin Smith: That's exact match? Should it be more phrase match, or should it just be…
+
+00:09:49.000 --> 00:09:51.000
+Erin Smith: Um…
+
+00:09:50.000 --> 00:09:52.000
+Carmen Cruickshank: I think I'd put…
+
+00:09:52.000 --> 00:10:03.000
+Carmen Cruickshank: botanic in phrase match. I think it's good to have it exact match, because if people are searching that exact term, I'd put it exact versus phrase, because then people could see Brooklyn or garden wedding, and then, like.
+
+00:09:59.000 --> 00:10:00.000
+Erin Smith: Mm-hmm.
+
+00:10:03.000 --> 00:10:08.000
+Carmen Cruickshank: exclude that search, which would be bad. So I think this was a good call you did here to do it exact. Uh…
+
+00:10:07.000 --> 00:10:08.000
+Erin Smith: Okay.
+
+00:10:08.000 --> 00:10:20.000
+Carmen Cruickshank: we could just add Botanic with, like, the quotes, just as, like, a double-checking thing, but I'm almost curious, like, has anyone ever searched Botanic and then booked with you guys? I'm guessing not, but what do you think?
+
+00:10:20.000 --> 00:10:37.000
+Erin Smith: Well, yes and no. I think what happens is like, there's a, there is a Brooklyn Botanical Gardens. So when people are searching specifically for that, or people will call it Brooklyn Botanic Gardens, like it is a place, it exists, and they book a lot of weddings.
+
+00:10:27.000 --> 00:10:28.000
+Carmen Cruickshank: Mm-hmm.
+
+00:10:37.000 --> 00:10:55.000
+Erin Smith: what our hope with that was that it was somebody looking for a Brooklyn garden wedding that couldn't afford the botanical gardens, and so they book with us instead. Um, so I wouldn't want to get rid of it entirely, but I know you said that, um, that there were, you know, that we were… there were some words that.
+
+00:10:46.000 --> 00:10:47.000
+Carmen Cruickshank: Yeah. Okay.
+
+00:10:55.000 --> 00:11:00.000
+Erin Smith: Maybe we're impacting our conversions or not.
+
+00:11:00.000 --> 00:11:03.000
+Carmen Cruickshank: Mm-hmm. I think this is good now, though.
+
+00:11:00.000 --> 00:11:03.000
+Erin Smith: I don't know… oh, sorry, go ahead.
+
+00:11:03.000 --> 00:11:13.000
+Carmen Cruickshank: Oh, no, you're good. I think this is good for now. And then if we just keep seeing botanic pop up, then we can add it as a phrase negative. But no, yeah, this looks really good.
+
+00:11:05.000 --> 00:11:06.000
+Erin Smith: Okay.
+
+00:11:12.000 --> 00:11:22.000
+Erin Smith: Okay, do you, are there any other, so you were getting these from CERT, right? Is that, is that where you were finding these?
+
+00:11:13.000 --> 00:11:14.000
+Carmen Cruickshank: Yeah.
+
+00:11:19.000 --> 00:11:20.000
+Carmen Cruickshank: Yeah.
+
+00:11:21.000 --> 00:11:25.000
+Carmen Cruickshank: Yes, yeah, like in the search terms.
+
+00:11:22.000 --> 00:11:24.000
+Erin Smith: Okay.
+
+00:11:25.000 --> 00:11:27.000
+Carmen Cruickshank: Up here.
+
+00:11:26.000 --> 00:11:35.000
+Erin Smith: Oh yeah, I did have a question, if you can go there. So you see this first one? It says added and excluded. I couldn't figure out why.
+
+00:11:30.000 --> 00:11:32.000
+Carmen Cruickshank: Mm-hmm.
+
+00:11:35.000 --> 00:11:41.000
+Carmen Cruickshank: No, that's a good question because maybe it might actually be a keyword I added. I'm not sure. Let me see.
+
+00:11:49.000 --> 00:11:54.000
+Carmen Cruickshank: Okay, so there's only 10 keywords we have active right now.
+
+00:11:54.000 --> 00:12:01.000
+Erin Smith: Yeah, I… well, not for this one, but for the other one, I did do what you suggested, and I paused all the keywords.
+
+00:12:01.000 --> 00:12:02.000
+Carmen Cruickshank: Mm-hmm.
+
+00:12:01.000 --> 00:12:03.000
+Erin Smith: Um…
+
+00:12:03.000 --> 00:12:08.000
+Erin Smith: that were competing, like, against each other, so…
+
+00:12:07.000 --> 00:12:20.000
+Carmen Cruickshank: Yeah, and it's funny, because normally I would catch that, but, like, and this is probably not the only time, I think I was like, oh, okay, yeah, ceremony's fine, but then, like, with the… I'm really glad, like, we made this change, because this will definitely improve performance.
+
+00:12:20.000 --> 00:12:22.000
+Carmen Cruickshank: Ah.
+
+00:12:22.000 --> 00:12:28.000
+Carmen Cruickshank: Let me see, I'm gonna go back to this, and then I wanna see if we ever even put it at all.
+
+00:12:29.000 --> 00:12:31.000
+Carmen Cruickshank: I'm gonna put…
+
+00:12:31.000 --> 00:12:34.000
+Carmen Cruickshank: Enabled and paused.
+
+00:12:34.000 --> 00:12:43.000
+Carmen Cruickshank: Okay, yeah, so, like, we did have Brooklyn Botanical Garden wedding as one, and so I think that's why it says it's added, even though it's not active right.
+
+00:12:35.000 --> 00:12:36.000
+Erin Smith: Yeah.
+
+00:12:38.000 --> 00:12:39.000
+Erin Smith: Okay.
+
+00:12:41.000 --> 00:12:43.000
+Erin Smith: Okay.
+
+00:12:43.000 --> 00:12:44.000
+Carmen Cruickshank: Mmhm.
+
+00:12:43.000 --> 00:12:44.000
+Erin Smith: Okay.
+
+00:12:44.000 --> 00:12:50.000
+Erin Smith: So then back to the search terms. There were a few other.
+
+00:12:48.000 --> 00:12:49.000
+Carmen Cruickshank: Mm-hmm.
+
+00:12:51.000 --> 00:12:53.000
+Erin Smith: Um, like…
+
+00:12:53.000 --> 00:13:06.000
+Erin Smith: for example, I see Jersey City Weddings here. I mean, it's small impressions, but Jersey City Weddings, like, we wouldn't want Jersey City, we wouldn't want Forest Park, like, stuff like that. So we would just… I would just…
+
+00:12:58.000 --> 00:13:00.000
+Carmen Cruickshank: Mmhm.
+
+00:13:06.000 --> 00:13:12.000
+Erin Smith: create that into phrase match, or move it into phrase match negative, or something. Sorry, I'm like…
+
+00:13:11.000 --> 00:13:15.000
+Carmen Cruickshank: Yeah, no, that's a good question. Yeah, phrase match negative would be good.
+
+00:13:15.000 --> 00:13:18.000
+Erin Smith: Okay, so phrase match negative.
+
+00:13:18.000 --> 00:13:19.000
+Carmen Cruickshank: Mm-hmm.
+
+00:13:19.000 --> 00:13:24.000
+Erin Smith: Okay, so I'll just, like, I'll go through those then, like Jersey City, then there's…
+
+00:13:24.000 --> 00:13:29.000
+Erin Smith: Um, some of them I kind of want to keep, like…
+
+00:13:28.000 --> 00:13:30.000
+Carmen Cruickshank: Mm-hmm.
+
+00:13:29.000 --> 00:13:33.000
+Erin Smith: We're not Red Hook, but, um…
+
+00:13:34.000 --> 00:13:38.000
+Erin Smith: Red Hook, there are some competitors there, so…
+
+00:13:38.000 --> 00:13:47.000
+Erin Smith: But really, am I looking… so, just so I know, for the search terms, when I check the search terms, am I looking at the impressions?
+
+00:13:42.000 --> 00:13:44.000
+Carmen Cruickshank: Mm-hmm.
+
+00:13:47.000 --> 00:13:48.000
+Carmen Cruickshank: I…
+
+00:13:47.000 --> 00:13:49.000
+Erin Smith: Or am I looking at the clicks?
+
+00:13:49.000 --> 00:13:51.000
+Carmen Cruickshank: That's a good question. I think…
+
+00:13:51.000 --> 00:14:06.000
+Carmen Cruickshank: When I see it on average, like, impressions, it'll say, like, 1, 3, sometimes maybe 19, which is bigger. I just want to see what Google's showing regardless of clicks or impressions, because if it's, like, let's say the top 100, I don't normally check 100, I don't know how many I check at a time.
+
+00:14:06.000 --> 00:14:20.000
+Carmen Cruickshank: uh, it matters more to me if it's getting clicks. So, like, this Brooklyn Botanic Garden, I see it's getting clicks and not getting any conversions, like, that's urgent to add as a negative keyword. But with other stuff, I don't really see, like, negatives…
+
+00:14:16.000 --> 00:14:18.000
+Erin Smith: I see.
+
+00:14:21.000 --> 00:14:32.000
+Carmen Cruickshank: as, like… and I hope I'm saying this right, I don't see it as, like, a urgent thing, if maybe it has… it doesn't look urgent if it has 8 impressions, right? But I'm just telling Google in the future, because we don'.
+
+00:14:32.000 --> 00:14:37.000
+Carmen Cruickshank: You know, thousands of dollars on things that don't matter, even though right now it looks small and minuscule.
+
+00:14:37.000 --> 00:14:38.000
+Erin Smith: Okay.
+
+00:14:37.000 --> 00:14:40.000
+Carmen Cruickshank: I don't know if that makes sense for that. You know what I mean.
+
+00:14:40.000 --> 00:14:47.000
+Erin Smith: Yeah, that makes sense. So, basically, I want to check the search terms for clicks on words that are not.
+
+00:14:40.000 --> 00:14:41.000
+Carmen Cruickshank: Oh.
+
+00:14:41.000 --> 00:14:43.000
+Carmen Cruickshank: Yeah.
+
+00:14:47.000 --> 00:14:49.000
+Erin Smith: actually relevant.
+
+00:14:48.000 --> 00:14:58.000
+Carmen Cruickshank: Exactly, like, in my opinion, even if it has just one impression, like, that's still worth adding as a negative, because you're just kind of guiding Google, like, hey, make sure you're going this way, and not wasting spend.
+
+00:14:58.000 --> 00:15:02.000
+Erin Smith: Okay, no, that makes sense. All right.
+
+00:15:00.000 --> 00:15:01.000
+Carmen Cruickshank: Uh-huh.
+
+00:15:02.000 --> 00:15:12.000
+Erin Smith: Okay, so then I'll just go through… I did make a few changes, and I… on the ceremony only the other day, I did change what you suggested, so the ads are not…
+
+00:15:12.000 --> 00:15:19.000
+Erin Smith: competing against each other. So. Okay. And then.
+
+00:15:15.000 --> 00:15:17.000
+Carmen Cruickshank: Yes. Perfect.
+
+00:15:19.000 --> 00:15:31.000
+Erin Smith: Okay, so then your other suggestion was that I try a shorter form. So I actually made a new page altogether, um, to make a page…
+
+00:15:28.000 --> 00:15:30.000
+Carmen Cruickshank: Oh, okay.
+
+00:15:31.000 --> 00:15:33.000
+Erin Smith: Let me find it.
+
+00:15:33.000 --> 00:15:34.000
+Carmen Cruickshank: Mm-hmm.
+
+00:15:34.000 --> 00:15:35.000
+Erin Smith: Okay.
+
+00:15:34.000 --> 00:15:48.000
+Carmen Cruickshank: Yeah, and that's the thing, like, looking at the actual page, I was like, I don't think the form is shorter, but we were just using some, uh, extra third-party, like, analysis thing, and so I was like, oh, try a shorter form, so I'm like, okay, that wouldn't be… I don't think that would hur.
+
+00:15:47.000 --> 00:15:58.000
+Erin Smith: Well, so it was… so the ceremony form is shorter. The other thing that I realized is that the first ad, the search ad, was using an older form.
+
+00:15:55.000 --> 00:15:57.000
+Carmen Cruickshank: Hmm. Okay.
+
+00:15:58.000 --> 00:15:59.000
+Carmen Cruickshank: Mm-hmm.
+
+00:15:58.000 --> 00:16:13.000
+Erin Smith: Um, so, uh, Triple C updated since we launched the first ad, it updated to have these dynamic forms. So, what I did was I created a new landing page with a shorter form. I also just deleted.
+
+00:16:13.000 --> 00:16:25.000
+Erin Smith: a couple of things on the landing page to make the page a little shorter. It doesn't, like, take out any keywords or anything. Um, so my two questions there were…
+
+00:16:21.000 --> 00:16:22.000
+Carmen Cruickshank: Oh, okay.
+
+00:16:22.000 --> 00:16:24.000
+Carmen Cruickshank: Mmhm.
+
+00:16:25.000 --> 00:16:31.000
+Erin Smith: One, do we need a new thank you page, or can we track the…
+
+00:16:31.000 --> 00:16:38.000
+Erin Smith: event from this new landing page to the existing thank you page.
+
+00:16:40.000 --> 00:16:45.000
+Carmen Cruickshank: From this landing page. I think it can just be the existing landing page. And, uh…
+
+00:16:43.000 --> 00:16:45.000
+Erin Smith: Okay.
+
+00:16:45.000 --> 00:16:47.000
+Erin Smith: Or sorry, the existing thank you page.
+
+00:16:47.000 --> 00:16:50.000
+Carmen Cruickshank: Yeah, we can just keep it with the same.
+
+00:16:48.000 --> 00:16:56.000
+Erin Smith: Like, there's two separate landing pages, but they're going to the same thank you, but they're two different forms, so we should be able to see.
+
+00:16:56.000 --> 00:17:02.000
+Erin Smith: I mean, from the experiment, I'll know who's filling out which form.
+
+00:17:00.000 --> 00:17:04.000
+Carmen Cruickshank: Did you already… you said you already fully created the new landing page?
+
+00:17:04.000 --> 00:17:06.000
+Erin Smith: Mm-hmm. Yeah.
+
+00:17:05.000 --> 00:17:09.000
+Carmen Cruickshank: Oh, that's good. You're so proactive, which I love.
+
+00:17:08.000 --> 00:17:15.000
+Erin Smith: Well, you know, I was, like, trying to catch up from vacation. I was like, okay, this is something I can do. Like, this is something tangible.
+
+00:17:10.000 --> 00:17:13.000
+Carmen Cruickshank: Yeah, you're just, like, vanishing.
+
+00:17:13.000 --> 00:17:14.000
+Carmen Cruickshank: Yeah, okay.
+
+00:17:14.000 --> 00:17:28.000
+Carmen Cruickshank: I know what you mean. I think, honestly, how about we save the extra landing page with the new form just in case, because looking at the data now, like, the past week, it's updated back to $36 cost per lead, which was what it was, like, 5 months ago, when it was, like, at its peak.
+
+00:17:28.000 --> 00:17:42.000
+Carmen Cruickshank: So I think those simple changes made a lot of things. And I think, what if we just keep that for now? And then let's say if performance, maybe this was just this week, it went well and God forbid it like gets worse.
+
+00:17:42.000 --> 00:17:45.000
+Carmen Cruickshank: Then we can test that new page, and then maybe…
+
+00:17:45.000 --> 00:17:50.000
+Carmen Cruickshank: Actually, I don't even think we need to do a new thank you page, only because…
+
+00:17:50.000 --> 00:17:56.000
+Carmen Cruickshank: Google would know what, uh, ad it clicks on. So if we do maybe, like, a different ad group.
+
+00:17:56.000 --> 00:17:58.000
+Erin Smith: Okay.
+
+00:17:56.000 --> 00:18:00.000
+Carmen Cruickshank: It would know that it came from that landing page and that it tracked there, if that makes sense.
+
+00:18:00.000 --> 00:18:15.000
+Erin Smith: Yeah, and I can also tell on our end which form they filled out, because it's two separate forms. So, um, okay, so you think we should hold off then on experimenting with the new page, or…
+
+00:18:08.000 --> 00:18:09.000
+Carmen Cruickshank: Mm-hmm.
+
+00:18:14.000 --> 00:18:29.000
+Carmen Cruickshank: Yes. I think just because we made all these, like, amazing changes, I know you're also gonna improve the site speed, so maybe those three major things was just, like, the needle mover, and then this slightly shorter form might not impact as much. Again, it might, but I think we'll just hold off right now.
+
+00:18:15.000 --> 00:18:17.000
+Erin Smith: Okay.
+
+00:18:23.000 --> 00:18:24.000
+Erin Smith: Okay.
+
+00:18:29.000 --> 00:18:31.000
+Carmen Cruickshank: Yeah. Okay.
+
+00:18:29.000 --> 00:18:34.000
+Erin Smith: Okay, so we're not going to do the shorter form right now then.
+
+00:18:33.000 --> 00:18:34.000
+Carmen Cruickshank: Yes.
+
+00:18:34.000 --> 00:18:36.000
+Erin Smith: Okay. All right.
+
+00:18:36.000 --> 00:18:37.000
+Carmen Cruickshank: Mmhm.
+
+00:18:36.000 --> 00:18:41.000
+Erin Smith: All right, so I will hold that page then.
+
+00:18:39.000 --> 00:18:40.000
+Carmen Cruickshank: Mm-hmm.
+
+00:18:42.000 --> 00:18:48.000
+Erin Smith: Yeah, I wanted to ask about the the cost, because it seemed like it went.
+
+00:18:48.000 --> 00:18:53.000
+Erin Smith: pretty high compared to what it was. And so.
+
+00:18:49.000 --> 00:18:50.000
+Carmen Cruickshank: Oh, yeah.
+
+00:18:54.000 --> 00:19:00.000
+Erin Smith: That I was, let me just find, I didn't look for this week yet. I usually do it on Fridays.
+
+00:19:00.000 --> 00:19:03.000
+Erin Smith: like the.
+
+00:19:02.000 --> 00:19:10.000
+Carmen Cruickshank: Yeah, no, July got up to like 60. I think I remember at one point it was maybe like 80 or something really high like that.
+
+00:19:10.000 --> 00:19:12.000
+Carmen Cruickshank: I want to see week by week.
+
+00:19:14.000 --> 00:19:17.000
+Erin Smith: Are you looking at the search leads?
+
+00:19:14.000 --> 00:19:15.000
+Carmen Cruickshank: Yep.
+
+00:19:16.000 --> 00:19:18.000
+Carmen Cruickshank: It's like 1:45.
+
+00:19:18.000 --> 00:19:20.000
+Carmen Cruickshank: I was like…
+
+00:19:18.000 --> 00:19:23.000
+Erin Smith: Yeah, like last week or two weeks ago, we were…
+
+00:19:23.000 --> 00:19:29.000
+Erin Smith: No, last week we were at 153, which was high, and our cost per click was…
+
+00:19:29.000 --> 00:19:31.000
+Erin Smith: the highest it's ever been.
+
+00:19:31.000 --> 00:19:32.000
+Carmen Cruickshank: Mm-hmm.
+
+00:19:32.000 --> 00:19:34.000
+Erin Smith: So…
+
+00:19:32.000 --> 00:19:36.000
+Carmen Cruickshank: And that's the thing with those, like, competing keywords, like, I didn'.
+
+00:19:36.000 --> 00:19:43.000
+Carmen Cruickshank: Think about that, even though that's like a basic principle. And so that will cause a higher cost per click, which is like unnecessary competition and clashing.
+
+00:19:38.000 --> 00:19:40.000
+Erin Smith: Okay.
+
+00:19:43.000 --> 00:19:44.000
+Erin Smith: Okay.
+
+00:19:43.000 --> 00:19:44.000
+Carmen Cruickshank: uh…
+
+00:19:44.000 --> 00:19:51.000
+Carmen Cruickshank: But yeah, no, this simple change, like, definitely impacted a lot. I'm kind of curious, 16th to 22nd. Did he make a change?
+
+00:19:50.000 --> 00:19:56.000
+Erin Smith: And also, our ceremony only was very high last week also, the cost per click.
+
+00:19:55.000 --> 00:19:58.000
+Carmen Cruickshank: Yeah, because it was probably completed earlier.
+
+00:19:56.000 --> 00:20:03.000
+Erin Smith: I mean, very high comparison, but, like, when we launched, we were at 149, and now we're up to 251.
+
+00:20:03.000 --> 00:20:05.000
+Carmen Cruickshank: Yeah.
+
+00:20:05.000 --> 00:20:17.000
+Carmen Cruickshank: I mean, the Leeds one is looking good. I think that other ceremony one will also go down, just because, like, they're now in separate domains versus, like, clashing with one another, because I think both would just get more expensive as they're competing.
+
+00:20:17.000 --> 00:20:18.000
+Erin Smith: Okay.
+
+00:20:18.000 --> 00:20:19.000
+Carmen Cruickshank: Yeah.
+
+00:20:18.000 --> 00:20:21.000
+Erin Smith: So the updated keywords should help.
+
+00:20:21.000 --> 00:20:26.000
+Carmen Cruickshank: Mm-hmm. Did you update this on, like, Monday? Or I'm kind of curious when you made these changes.
+
+00:20:22.000 --> 00:20:24.000
+Erin Smith: Okay.
+
+00:20:27.000 --> 00:20:31.000
+Erin Smith: Yeah. Um, Monday or Tuesday. Yeah.
+
+00:20:30.000 --> 00:20:38.000
+Carmen Cruickshank: Yeah, now, right now, like, even just looking Sunday to today, it's, like, $23 cost per lead, which is looking amazing. So…
+
+00:20:37.000 --> 00:20:41.000
+Erin Smith: Okay, I didn't even notice if we got…
+
+00:20:38.000 --> 00:20:40.000
+Carmen Cruickshank: I'm just curious how it goes over.
+
+00:20:40.000 --> 00:20:42.000
+Carmen Cruickshank: Mm-hmm.
+
+00:20:41.000 --> 00:20:43.000
+Erin Smith: Sorry, let me just bring this week.
+
+00:20:43.000 --> 00:20:45.000
+Carmen Cruickshank: Mm-hmm.
+
+00:20:48.000 --> 00:20:52.000
+Erin Smith: I didn't even see if we got any conversions this week.
+
+00:20:53.000 --> 00:20:54.000
+Carmen Cruickshank: Mm-hmm.
+
+00:20:56.000 --> 00:20:59.000
+Erin Smith: Oh, that's weird. It's still, oh no, this isn't.
+
+00:21:04.000 --> 00:21:07.000
+Erin Smith: Sorry, it's not updating my dates here.
+
+00:21:17.000 --> 00:21:22.000
+Erin Smith: I don't know why it won't update my dates here. Last seven days. Okay, here.
+
+00:21:21.000 --> 00:21:30.000
+Carmen Cruickshank: Mm-hmm. That is what I noticed, though. Sometimes people will get conversions, and then it'll show up later in dates, so I know it is kind of soon to assume.
+
+00:21:22.000 --> 00:21:24.000
+Erin Smith: Oh.
+
+00:21:30.000 --> 00:21:35.000
+Carmen Cruickshank: But I am curious how it is over this upcoming week.
+
+00:21:34.000 --> 00:21:49.000
+Erin Smith: Yeah, okay, I'll keep an eye on it then. I mean, in general, it's pretty slow. Like, our website has been slow, too, just in terms of people submitting. I mean, it's the end of summer in New York, so everybody's, like, traveling, you know?
+
+00:21:48.000 --> 00:21:50.000
+Carmen Cruickshank: Yeah, not sure.
+
+00:21:49.000 --> 00:21:58.000
+Erin Smith: So, okay, okay. But I, you know what, in the past 7 days, we got 6 leads, so that's good. That's 6 conversions into our form. Okay, um…
+
+00:21:54.000 --> 00:21:56.000
+Carmen Cruickshank: Edit.
+
+00:21:57.000 --> 00:22:04.000
+Carmen Cruickshank: Definitely. Yeah, we'll definitely keep these things in mind for the future just in case.
+
+00:21:58.000 --> 00:22:00.000
+Erin Smith: Okay, so then…
+
+00:22:02.000 --> 00:22:17.000
+Erin Smith: Yeah, no, I really appreciated all that feedback. It was good to come back to that. So, okay, so then I'm gonna keep everything as is right now, and then, um, I'll check again next week and see if our, like, cost per click and our spend comes down.
+
+00:22:17.000 --> 00:22:28.000
+Erin Smith: Um, we might need to reduce our spend a little bit just based on budgeting, but, um, I'm gonna talk to my manager. Um, and then…
+
+00:22:28.000 --> 00:22:32.000
+Erin Smith: Okay, let me just check my notes here.
+
+00:22:34.000 --> 00:22:36.000
+Erin Smith: Okay, yeah.
+
+00:22:36.000 --> 00:22:42.000
+Erin Smith: everything else. The other thing, um… and this is, like, totally random, but…
+
+00:22:41.000 --> 00:22:43.000
+Carmen Cruickshank: Mm-hmm.
+
+00:22:42.000 --> 00:22:46.000
+Erin Smith: I mean, I don't think it's gonna hurt us, but, uh…
+
+00:22:46.000 --> 00:22:56.000
+Erin Smith: The ad landing page is coming up as a resource in ChatGPT, which is…
+
+00:22:54.000 --> 00:22:56.000
+Carmen Cruickshank: Oh. Mm-hmm.
+
+00:22:56.000 --> 00:23:12.000
+Erin Smith: Okay, I mean, it's crawling, and it's like, I think it's because I wrote that page very specific to, like, SEO and answering questions. I've been doing, like, a ton of research on, like, ChatGPT and learning language models and all that stuff, so I'm like, this is great, because now.
+
+00:22:57.000 --> 00:22:58.000
+Carmen Cruickshank: Yeah.
+
+00:23:09.000 --> 00:23:11.000
+Carmen Cruickshank: Wow.
+
+00:23:12.000 --> 00:23:23.000
+Erin Smith: when you type in, like, where can I have an outdoor garden wedding in Brooklyn, we're at the top in Gemini, ChatGPT, like, all those. Um, but I'm just wondering…
+
+00:23:20.000 --> 00:23:22.000
+Carmen Cruickshank: Mm-hmm.
+
+00:23:23.000 --> 00:23:28.000
+Erin Smith: Like, technically, somebody couldn't get to that page and then fill out the form.
+
+00:23:28.000 --> 00:23:29.000
+Carmen Cruickshank: Mmhm.
+
+00:23:29.000 --> 00:23:34.000
+Erin Smith: That wouldn't be like, we wouldn't be paying Google for that, right? Or would we?
+
+00:23:34.000 --> 00:23:47.000
+Carmen Cruickshank: No, you wouldn't be, because, like, ChatGPT and Google, if it was, like, a Gemini thing, like, then I'd be questioning, but I don't even think then it would be counting, because it's when people click that ad's landing page from searching you on Google, because it's a search.
+
+00:23:46.000 --> 00:23:52.000
+Erin Smith: Okay, okay. I'm wondering, though, and I don't know enough about this, is it if you click…
+
+00:23:47.000 --> 00:23:48.000
+Carmen Cruickshank: Yeah. Okay.
+
+00:23:52.000 --> 00:23:57.000
+Erin Smith: the URL from the ChatGPT results.
+
+00:23:57.000 --> 00:23:58.000
+Erin Smith: Because…
+
+00:23:57.000 --> 00:24:00.000
+Carmen Cruickshank: Good question. I think…
+
+00:23:58.000 --> 00:24:16.000
+Erin Smith: it's not an ad, but it's going to that landing page. So I just wasn't sure, and I've been trying to do a little bit more research on it. I'm trying to learn the AI stuff in general, but um… but I noticed, because I, you know, like, when you type it and it gives you a source, it was going to.
+
+00:24:00.000 --> 00:24:01.000
+Carmen Cruickshank: Mm-hmm.
+
+00:24:08.000 --> 00:24:10.000
+Carmen Cruickshank: No, that's good, yeah, me too.
+
+00:24:16.000 --> 00:24:33.000
+Erin Smith: like the book, the ceremony page. And I was like, Oh, that's interesting. And I know it's because I didn't. It's still being like it can be crawled by Google. But it's not. I guess if you went to that URL directly without clicking on a ad, we wouldn't get charged for that right?
+
+00:24:25.000 --> 00:24:26.000
+Carmen Cruickshank: Mmhm.
+
+00:24:33.000 --> 00:24:48.000
+Carmen Cruickshank: Yeah, no, we wouldn't. I know for a fact, like, I feel very confident with ChatGPT, if someone clicks on it, it's not counting, because, like, ChatGPT and Google are separate. But, like, if it was, like, Gemini, then I'd be… I'd be, like, 50-50. Like.
+
+00:24:40.000 --> 00:24:42.000
+Erin Smith: Okay.
+
+00:24:46.000 --> 00:25:06.000
+Erin Smith: Yeah, I need to look. There's a setting in our web… on our web, um, page on Squarespace that tells you… I think it's Gemini and ChatGPT, so I can look there and see where it's actually coming from, but I don't know. I mean, that to me felt good, that, like, we're coming up, but I just wasn't sure if it was impacting our spend in any way, so…
+
+00:24:54.000 --> 00:24:56.000
+Carmen Cruickshank: Mmhm.
+
+00:24:59.000 --> 00:25:00.000
+Carmen Cruickshank: Okay.
+
+00:25:01.000 --> 00:25:02.000
+Carmen Cruickshank: Cool.
+
+00:25:02.000 --> 00:25:04.000
+Carmen Cruickshank: Yeah. Okay.
+
+00:25:05.000 --> 00:25:22.000
+Carmen Cruickshank: No, yeah, no, that makes sense. I think there are other types of campaigns where it can show up for AI, like you can put it in Google, but as I know for now, like you can't really have that for AI. But that's exciting 'cause especially for SEO, it's like slower to get results. So when you see it's on AI, that's like rewarding, you know?
+
+00:25:13.000 --> 00:25:14.000
+Erin Smith: Okay.
+
+00:25:21.000 --> 00:25:35.000
+Erin Smith: Yeah, yeah, yeah, no, it's really interesting, too. So, um, anyway, okay, well, this is great. I feel better now that I see that we got 6 leads this week, so that's kind of bringing us back up to where we were, so…
+
+00:25:22.000 --> 00:25:23.000
+Carmen Cruickshank: But yeah.
+
+00:25:25.000 --> 00:25:26.000
+Carmen Cruickshank: Mm-hmm.
+
+00:25:32.000 --> 00:25:33.000
+Carmen Cruickshank: Mm-hmm.
+
+00:25:35.000 --> 00:25:43.000
+Carmen Cruickshank: No, definitely. Yeah, I was concerned too, 'cause I was like, "What the heck is going on? Like, everything looks fine." But it's always those little things. Yeah. Yeah.
+
+00:25:39.000 --> 00:25:41.000
+Erin Smith: Yeah, okay, good.
+
+00:25:41.000 --> 00:25:56.000
+Erin Smith: Okay. Alright, good. So then I'll probably check in in, like, 2 weeks. I'm moving next week, so… after that, and then… I'm just moving 5 blocks away, but I'm buried in boxes, and I don't know if I'll have internet by next Thursday, so…
+
+00:25:47.000 --> 00:25:49.000
+Carmen Cruickshank: Okay, that's exciting.
+
+00:25:50.000 --> 00:25:52.000
+Carmen Cruickshank: Okay.
+
+00:25:54.000 --> 00:25:58.000
+Carmen Cruickshank: No, no, I know what you mean, and that's good, because we get more data.
+
+00:25:57.000 --> 00:26:01.000
+Erin Smith: Yeah, yeah, perfect. Okay, well, thank you so much, Carmen. I appreciate your help.
+
+00:25:58.000 --> 00:25:59.000
+Carmen Cruickshank: Yep.
+
+00:25:59.000 --> 00:26:04.000
+Carmen Cruickshank: Of course. Of course. See you later. Bye.
+
+00:26:02.000 --> 00:26:03.000
+Erin Smith: Hi.
+
+00:26:05.000 --> 00:26:06.000
+Carmen Cruickshank: All right.
+
+00:26:06.000 --> 00:26:08.000
+Carmen Cruickshank: How are you, Shannon?
+
+00:26:11.000 --> 00:26:13.000
+Shannon Lee: Good, how are you?
+
+00:26:13.000 --> 00:26:19.000
+Carmen Cruickshank: That's good. I'm good. Uh, okay. Honestly, I feel like my page…
+
+00:26:19.000 --> 00:26:21.000
+Carmen Cruickshank: One second.
+
+00:26:20.000 --> 00:26:36.000
+Shannon Lee: So I hope that this is set up right. I like reset it up for the elopement specific ads and I know it's working because I literally got a lead like a few hours after setting it up from Google.
+
+00:26:30.000 --> 00:26:31.000
+Carmen Cruickshank: Mm-hmm.
+
+00:26:36.000 --> 00:26:38.000
+Carmen Cruickshank: Okay, that's good.
+
+00:26:36.000 --> 00:26:52.000
+Shannon Lee: which is really nice. But I I mean, I just set it up 2 days ago. There is kind of a problem in my setup. I'm like locked out of Google on my desktop like I can log in, see metrics, but I can't do anything because it says.
+
+00:26:39.000 --> 00:26:40.000
+Carmen Cruickshank: Mm-hmm.
+
+00:26:52.000 --> 00:27:02.000
+Shannon Lee: I need to create a passkey. But I've gone through that process multiple times, and, like, reached out to support and everything, and it, like…
+
+00:27:02.000 --> 00:27:15.000
+Shannon Lee: it'll create the passkey, but then it won't associate it with my Google Ads account. But it will on my phone, so I had to set all this up in mobile, which was not ideal.
+
+00:27:07.000 --> 00:27:09.000
+Carmen Cruickshank: That's…
+
+00:27:14.000 --> 00:27:18.000
+Carmen Cruickshank: That's actually crazy! That…
+
+00:27:18.000 --> 00:27:26.000
+Carmen Cruickshank: I commend you for that. And I never say I commend, I don't know the other words, but like, I couldn't do, I don't know if I could do that genuinely. So good job.
+
+00:27:24.000 --> 00:27:33.000
+Shannon Lee: I was able to do, like, everything. I, like, rage quit on it so many times, because it would make me do… create the whole ad, and then tell me it wouldn't work.
+
+00:27:30.000 --> 00:27:31.000
+Carmen Cruickshank: Yep.
+
+00:27:33.000 --> 00:27:36.000
+Carmen Cruickshank: Yeah, no, that would annoy me, like, a lot.
+
+00:27:36.000 --> 00:27:41.000
+Shannon Lee: I just couldn't change the ad creatives, the images, but I could change everything else.
+
+00:27:36.000 --> 00:27:37.000
+Carmen Cruickshank: Oh.
+
+00:27:41.000 --> 00:27:45.000
+Carmen Cruickshank: No, that's… that's good that you, like, figured that out, because, like.
+
+00:27:45.000 --> 00:27:51.000
+Carmen Cruickshank: That's like, I've tried to do the whole Google Ads thing on my phone. No, not for me.
+
+00:27:51.000 --> 00:28:01.000
+Carmen Cruickshank: But, uh, hopefully you get that whole passcode thing fixed. Yeah, they just kind of added that, and I had to, like, double check it's fixed for me, because sometimes they'll just do that to me even before that update. Uh…
+
+00:28:01.000 --> 00:28:05.000
+Carmen Cruickshank: But yeah, so it was the elopements one.
+
+00:28:05.000 --> 00:28:10.000
+Shannon Lee: It's only been going for less than 48 hours.
+
+00:28:10.000 --> 00:28:19.000
+Carmen Cruickshank: Oh, okay. No, you're okay. Yes, we don't have, like, a ton of data. But let me just… I'm actually just curious, like, the search terms popping up. The keywords look great.
+
+00:28:13.000 --> 00:28:14.000
+Shannon Lee: Oh.
+
+00:28:19.000 --> 00:28:22.000
+Carmen Cruickshank: Uh, a little minute, Florida.
+
+00:28:22.000 --> 00:28:27.000
+Carmen Cruickshank: Yeah, no, this looks really relevant. Jacksonville, Key West.
+
+00:28:28.000 --> 00:28:30.000
+Carmen Cruickshank: Is waterfall relevant?
+
+00:28:30.000 --> 00:28:38.000
+Shannon Lee: No, but if they came across me and wanted to hire me for it, I would, but Florida doesn't really have waterfalls.
+
+00:28:34.000 --> 00:28:36.000
+Carmen Cruickshank: Very good.
+
+00:28:37.000 --> 00:28:42.000
+Carmen Cruickshank: Oh, okay. We could maybe just leave it in case, just…
+
+00:28:38.000 --> 00:28:40.000
+Shannon Lee: uh…
+
+00:28:40.000 --> 00:28:50.000
+Shannon Lee: Mm-hmm. But, like, sometimes people are in Georgia, and they hire Florida photographers, and there are waterfalls in Georgia that people elope in front of, so…
+
+00:28:42.000 --> 00:28:43.000
+Carmen Cruickshank: Okay.
+
+00:28:49.000 --> 00:28:51.000
+Carmen Cruickshank: Mm-hmm.
+
+00:28:50.000 --> 00:28:52.000
+Shannon Lee: It's not the wildest thing.
+
+00:28:51.000 --> 00:29:01.000
+Carmen Cruickshank: Yeah, now I know what you mean. Okay, I know this all looks great. What was it? There was one like, yeah, beautiful courthouse to get married. Okay, wait, that's technically not.
+
+00:29:02.000 --> 00:29:05.000
+Carmen Cruickshank: It's, like, nothing in here I would exclude, but it doesn't have…
+
+00:29:05.000 --> 00:29:08.000
+Carmen Cruickshank: You know, photographer in it.
+
+00:29:07.000 --> 00:29:08.000
+Shannon Lee: Yes.
+
+00:29:08.000 --> 00:29:13.000
+Shannon Lee: Like no phrases I would exclude, but yeah, I think it's an outlier.
+
+00:29:11.000 --> 00:29:13.000
+Carmen Cruickshank: Yeah.
+
+00:29:13.000 --> 00:29:15.000
+Carmen Cruickshank: Yeah.
+
+00:29:15.000 --> 00:29:23.000
+Carmen Cruickshank: But so far, though, it looks pretty good. I'm going to go back to the keywords just to make sure everything has some photography in it.
+
+00:29:23.000 --> 00:29:33.000
+Carmen Cruickshank: Courthouse elopement, Orlando elopement, courthouse wedding, elopement photographer, elopement planning, Florida elopement. Okay, I think I would add maybe, like, one or two more elopement photographers, just so that we.
+
+00:29:33.000 --> 00:29:35.000
+Carmen Cruickshank: getting people.
+
+00:29:35.000 --> 00:29:38.000
+Carmen Cruickshank: Uh, let's see…
+
+00:29:40.000 --> 00:29:44.000
+Carmen Cruickshank: I was thinking we could just add photographer to this one.
+
+00:29:45.000 --> 00:29:47.000
+Carmen Cruickshank: And…
+
+00:29:46.000 --> 00:29:50.000
+Shannon Lee: Would it still work if they just typed in Florida elopement?
+
+00:29:50.000 --> 00:29:52.000
+Shannon Lee: In general.
+
+00:29:50.000 --> 00:29:52.000
+Carmen Cruickshank: I…
+
+00:29:52.000 --> 00:30:00.000
+Carmen Cruickshank: I think they would, I just want to avoid just getting, like, people searching for places to elope, and then we're just getting clicks from people not looking for a photographer at the moment.
+
+00:30:00.000 --> 00:30:19.000
+Shannon Lee: Yeah, sometimes I'm okay with them being earlier in the process, because with elopements, I plan and I photograph them, so even if I… and, like, it talks all about that on the landing page, like, it's a service that I offer combined, so sometimes it's okay to get them earlier in the lead funnel, because.
+
+00:30:07.000 --> 00:30:08.000
+Carmen Cruickshank: Sorry.
+
+00:30:09.000 --> 00:30:11.000
+Carmen Cruickshank: Oh, wow.
+
+00:30:16.000 --> 00:30:17.000
+Carmen Cruickshank: Okay.
+
+00:30:19.000 --> 00:30:21.000
+Carmen Cruickshank: Hmm. Okay.
+
+00:30:19.000 --> 00:30:27.000
+Shannon Lee: they might not be looking for a photographer, but they're looking for someone to take it off their plate, and I do both, so…
+
+00:30:26.000 --> 00:30:40.000
+Carmen Cruickshank: Oh, okay, okay, that's perfect. Yeah, that changes my whole strategy. I think that this is great with that context in mind. Yeah, no, that was perfect. Uh, let's see, and then you got locations in Florida. Yeah, I think every, like, all the settings are perfect.
+
+00:30:30.000 --> 00:30:31.000
+Shannon Lee: Okay.
+
+00:30:40.000 --> 00:30:43.000
+Carmen Cruickshank: I just kind of want to get a gauge.
+
+00:30:43.000 --> 00:30:48.000
+Carmen Cruickshank: Yeah, so it does have 40 clicks, it's, like, pretty early, but it does say you got…
+
+00:30:50.000 --> 00:30:54.000
+Carmen Cruickshank: Almost kind of like, I think on the campaign level.
+
+00:30:56.000 --> 00:31:02.000
+Carmen Cruickshank: Okay, yeah, I know campaign level, it got one lead so far, like you said, in the first 48 hours, so, like, this is looking good so.
+
+00:31:02.000 --> 00:31:11.000
+Carmen Cruickshank: And yeah, I wish I had more data to speak on, but so far it's looking good. So great job completing all that, especially on your phone.
+
+00:31:10.000 --> 00:31:22.000
+Shannon Lee: Yeah, I rage quit. It took me five days to set up. Well, I tried for even before that because it's like create a passkey and wait 48 hours. I did that twice.
+
+00:31:14.000 --> 00:31:15.000
+Carmen Cruickshank: Yep.
+
+00:31:22.000 --> 00:31:23.000
+Carmen Cruickshank: Oh my gosh.
+
+00:31:22.000 --> 00:31:31.000
+Shannon Lee: And nothing happened. And I've reached out to support, and it just keeps sending me to an AI chatbot that's like, sorry, I can't help with passkeys, that's private information. And I'm like…
+
+00:31:31.000 --> 00:31:33.000
+Carmen Cruickshank: No, that actually is crazy.
+
+00:31:33.000 --> 00:31:43.000
+Shannon Lee: I'm losing my mind. I will fix it at some point, but I figured, you know, I can do all the main things, the images are close enough that they'll work, like…
+
+00:31:43.000 --> 00:31:46.000
+Carmen Cruickshank: Mm-hmm. No, definitely. We can check the images if you want.
+
+00:31:43.000 --> 00:31:45.000
+Shannon Lee: Oh.
+
+00:31:46.000 --> 00:31:50.000
+Shannon Lee: Yeah, there's some that are just like clearly wedding related.
+
+00:31:46.000 --> 00:31:47.000
+Carmen Cruickshank: Right.
+
+00:31:50.000 --> 00:31:51.000
+Carmen Cruickshank: Mmhm.
+
+00:31:50.000 --> 00:31:59.000
+Shannon Lee: And not elopement related like the it's like a purple image of them partying or whatever.
+
+00:31:58.000 --> 00:32:00.000
+Carmen Cruickshank: Mm-hmm.
+
+00:32:06.000 --> 00:32:12.000
+Shannon Lee: Yeah, that… if we could take that out, I just can't change it, because I can't adjust it on mobile.
+
+00:32:06.000 --> 00:32:08.000
+Carmen Cruickshank: Oh, okay, yeah.
+
+00:32:12.000 --> 00:32:16.000
+Carmen Cruickshank: no I know what you mean yeah those photos look great though.
+
+00:32:15.000 --> 00:32:17.000
+Shannon Lee: Thanks, there.
+
+00:32:16.000 --> 00:32:17.000
+Carmen Cruickshank: Okay.
+
+00:32:17.000 --> 00:32:20.000
+Shannon Lee: They're generic Florida enough.
+
+00:32:19.000 --> 00:32:23.000
+Carmen Cruickshank: Yes, no, exactly, so you can see, like…
+
+00:32:20.000 --> 00:32:25.000
+Shannon Lee: Except for one's actually California, but it's a beach, so it's fine.
+
+00:32:23.000 --> 00:32:28.000
+Carmen Cruickshank: Okay. It's like, yeah, like it looks similar. Okay, perfect.
+
+00:32:28.000 --> 00:32:33.000
+Carmen Cruickshank: Do you have any other questions or anything else like you'd want to check in the account?
+
+00:32:33.000 --> 00:32:35.000
+Shannon Lee: No, I…
+
+00:32:35.000 --> 00:32:53.000
+Shannon Lee: I just wanted to make sure that it looked good from a setup perspective because I basically just copied the campaign that was already there and then made adjustments as necessary. I intend to continue doing that in the future because I do think I might try running Google Ads.
+
+00:32:45.000 --> 00:32:46.000
+Carmen Cruickshank: Mm-hmm.
+
+00:32:53.000 --> 00:33:10.000
+Shannon Lee: for Colorado. Um, I'm just currently… my focus is booking more Florida stuff right now, which is why I'm focusing on that with my ads. Um, but at some point, I'm gonna copy it for Colorado and change the Landon page to a Colorado-specific one. Is there any issue in just copying that ad?
+
+00:33:10.000 --> 00:33:17.000
+Carmen Cruickshank: Yeah, I think you could definitely copy it, it's just making sure that on the settings down here, uh, in locations…
+
+00:33:17.000 --> 00:33:22.000
+Carmen Cruickshank: It'll say locations of interest, and it'll look confusing at first, and then I just refresh.
+
+00:33:25.000 --> 00:33:28.000
+Carmen Cruickshank: Okay, what was it?
+
+00:33:29.000 --> 00:33:33.000
+Carmen Cruickshank: I'll just click, like, the campaign, like, let's say, because you duplicated it.
+
+00:33:38.000 --> 00:33:51.000
+Carmen Cruickshank: Okay. Sometimes you just have to click around, then it'll actually show it. Just, like, I just click the edit, you know, and you can click out, exit anything, and then add either, like, a radius or just Colorado in general, but yeah.
+
+00:33:51.000 --> 00:33:53.000
+Shannon Lee: Okay.
+
+00:33:53.000 --> 00:33:54.000
+Carmen Cruickshank: Mmhm.
+
+00:33:53.000 --> 00:33:57.000
+Shannon Lee: Well, I just lost my other question.
+
+00:33:57.000 --> 00:33:58.000
+Carmen Cruickshank: Adding.
+
+00:33:57.000 --> 00:34:00.000
+Shannon Lee: I might be back in a second.
+
+00:33:58.000 --> 00:34:03.000
+Carmen Cruickshank: Uh, was it about, like, landing pages, or… No.
+
+00:34:03.000 --> 00:34:05.000
+Shannon Lee: I think it was about…
+
+00:34:05.000 --> 00:34:20.000
+Shannon Lee: Um, oh, it was on… it was about budget. Um, the budget is applied to the entire campaign, at the campaign level right now, right? So if I wanted to…
+
+00:34:09.000 --> 00:34:10.000
+Carmen Cruickshank: Bye.
+
+00:34:17.000 --> 00:34:18.000
+Carmen Cruickshank: Yes.
+
+00:34:20.000 --> 00:34:32.000
+Shannon Lee: be successful in running two ads, I would need to… and I ran them both under the same campaign, because I just copied the ad and changed the locations or whatever. Um, I would need to raise that budget accordingly.
+
+00:34:32.000 --> 00:34:34.000
+Shannon Lee: Correct.
+
+00:34:34.000 --> 00:34:49.000
+Carmen Cruickshank: Yes. Now I'd say like at like $16 a day, I think the max you could have is like three ad groups. If you had to change location, you would have to do like a separate campaign, but you can do different topics within a campaign. So let's say you had like elopement.
+
+00:34:49.000 --> 00:35:10.000
+Carmen Cruickshank: And then you wanted to do just like the regular campaign we had before. We could technically have both of those running at the same time, but of course we paused the other one 'cause it just wasn't getting conversions. But it's 'cause they're like under a similar category. But if let's say you did like planning and you wanted to do ads for planning, we couldn't really add planning under that campaign 'cause it's just like.
+
+00:34:58.000 --> 00:35:00.000
+Shannon Lee: Right.
+
+00:35:10.000 --> 00:35:23.000
+Carmen Cruickshank: not really the same topic, so we'd do a different planning campaign. And of course, like, you'd have to raise your budget for that. Uh, but for things like location, where you can't really have two different ad groups under a campaign with different locations, then you would have to make a new campaign.
+
+00:35:23.000 --> 00:35:34.000
+Shannon Lee: Okay, so then it's best for me to just duplicate the whole campaign and make it a Colorado-based campaign for those. Okay.
+
+00:35:23.000 --> 00:35:25.000
+Carmen Cruickshank: So I hope that…
+
+00:35:31.000 --> 00:35:32.000
+Carmen Cruickshank: Thank you.
+
+00:35:33.000 --> 00:35:34.000
+Carmen Cruickshank: Yes.
+
+00:35:34.000 --> 00:35:36.000
+Shannon Lee: That makes sense.
+
+00:35:34.000 --> 00:35:35.000
+Carmen Cruickshank: Mmhm.
+
+00:35:35.000 --> 00:35:40.000
+Carmen Cruickshank: Okay, I'm glad. Yeah, it's like a lot of little, like, nuances, but once you know it.
+
+00:35:40.000 --> 00:35:41.000
+Carmen Cruickshank: Easy.
+
+00:35:41.000 --> 00:35:47.000
+Shannon Lee: Yeah, well, I want to have at least enough knowledge that I can continue fiddling with it in the future.
+
+00:35:47.000 --> 00:35:49.000
+Carmen Cruickshank: Yes, no, I know what you mean.
+
+00:35:49.000 --> 00:35:51.000
+Shannon Lee: So, awesome!
+
+00:35:49.000 --> 00:35:51.000
+Carmen Cruickshank: Yeah, I know those are great questions.
+
+00:35:51.000 --> 00:35:54.000
+Shannon Lee: I think that that is everything.
+
+00:35:51.000 --> 00:35:53.000
+Carmen Cruickshank: Perfect.
+
+00:35:54.000 --> 00:36:01.000
+Carmen Cruickshank: Okay, awesome. Yeah, we'll definitely keep an eye on this and how it's going, but I'm glad, like, Meta's performing really well, so.
+
+00:35:59.000 --> 00:36:08.000
+Shannon Lee: Yeah, I'm happy. I'm very happy with my meta. And I'm happy that I changed this and I got a lead the same day. That was like, okay, that gives me the little boost I needed.
+
+00:36:02.000 --> 00:36:03.000
+Carmen Cruickshank: Yes.
+
+00:36:05.000 --> 00:36:06.000
+Carmen Cruickshank: Mm-hmm.
+
+00:36:07.000 --> 00:36:11.000
+Carmen Cruickshank: Exactly. It was worth it to some degree. So that's awesome.
+
+00:36:10.000 --> 00:36:13.000
+Shannon Lee: Yeah. All right. Well, have a good day.
+
+00:36:11.000 --> 00:36:15.000
+Carmen Cruickshank: Yeah. You too. Bye.
+
+00:36:14.000 --> 00:36:15.000
+Shannon Lee: Bye.
+
+00:36:17.000 --> 00:36:19.000
+Carmen Cruickshank: Thank you.
+

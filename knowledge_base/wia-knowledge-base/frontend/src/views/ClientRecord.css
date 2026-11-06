@@ -1,0 +1,165 @@
+/* Client-record shell. Scope all overrides so the portfolio and other workspaces retain their layout. */
+.client-record-open .workspace { container: client-workspace / inline-size; background: #fcfdff; }
+.client-record-open .utility-header { height: 72px; max-width: none; border-bottom: 1px solid #e8edf6; background: linear-gradient(110deg, #ffffff, #f5f8ff); }
+.client-record-open .header-search { width: 218px; padding: 8px 12px; border: 1px solid #dce6fb; border-radius: 999px; background: #ffffffd9; color: #6a7da5; }
+.client-record-open .header-search kbd { margin-left: auto; background: transparent; border: 0; }
+.client-record-open .header-client { color: #304e7c; font-weight: 500; }
+.client-record-open main { max-width: none; padding: 0 0 36px; }
+.client-record-open .client-detail { animation: none; }
+.client-cover { position: relative; isolation: isolate; background: #eeece6; overflow: hidden; }
+.client-cover-image { position: absolute; inset: 0; z-index: -2; width: 100%; height: 100%; object-fit: cover; }
+.client-cover::before { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, rgba(250,249,247,.97), rgba(250,249,247,.94) 30%, rgba(250,249,247,.65) 45%, rgba(250,249,247,.03) 65%, rgba(250,249,247,.22)); }
+.client-cover-content { min-height: 294px; display: grid; grid-template-columns: 112px minmax(0, 1fr) 272px; align-items: center; gap: 32px; padding: 42px 38px 34px; }
+.client-cover-content > .client-avatar { width: 112px; height: 112px; border-radius: 50%; font-size: 39px; font-family: var(--serif); font-weight: 400; background: linear-gradient(145deg, #f4f6fa, #e9edf4); color: #5675a2; border: 2px solid #ffffffcf; box-shadow: 0 2px 20px #ffffff22; }
+.cover-identity { min-width: 0; max-width: 660px; }
+.cover-identity .eyebrow { font-size: 9px; font-weight: 500; color: #667fa6; letter-spacing: 1.05px; margin: 0 0 5px; }
+.cover-identity h1 { font-size: clamp(30px, 3.1vw, 44px); line-height: 1.2; letter-spacing: -.8px; overflow-wrap: anywhere; margin-bottom: 7px; }
+.cover-location { color: #62799d; font-size: 11px; }
+.cover-aliases { color: #78849a; font-size: 9px; margin-top: 3px; }
+.cover-identity .portfolio-chips { gap: 9px; margin: 12px 0 0; }
+.cover-identity .lifecycle-chip { padding: 4px 16px; font-size: 9px; }
+.cover-identity .lifecycle-active { background: #e3f1e8; color: #27744f; }
+.cover-identity .portfolio-chips .service-label { padding: 4px 15px; border: 0; background: #eef1ff; color: #4b64d4; font-size: 9px; border-radius: 999px; }
+.cover-client-facts { display: flex; flex-wrap: wrap; gap: 18px 28px; margin: 24px 0 0; }
+.cover-client-facts > div { display: flex; gap: 10px; align-items: flex-start; color: #7188ad; min-width: 0; }
+.cover-client-facts > div + div { border-left: 1px solid #dee3ed; padding-left: 24px; }
+.cover-client-facts svg { margin-top: 2px; }
+.cover-client-facts dt { color: #657c9f; font-size: 9px; line-height: 1.6; }
+.cover-client-facts dd { margin: 0; color: #365680; font-size: 11px; overflow-wrap: anywhere; }
+/* Record card: the record dates and account shortcuts, frosted porcelain over the cover image. */
+.cover-record-card { min-width: 0; padding: 12px 14px 11px; border: 1px solid #ffffffb8; border-radius: 18px; background: linear-gradient(160deg, #fffefbf5, #fbf9f4e6); box-shadow: 0 10px 30px #3a4a6612, inset 0 1px 0 #ffffff; backdrop-filter: blur(14px) saturate(1.05); }
+.cover-record-card .record-dates { display: flex; flex-direction: column; margin: 0; }
+/* Compact single-line rows: icon, label, then the date right-aligned. */
+.cover-record-card .record-dates > div { display: flex; align-items: center; gap: 9px; padding: 3px 0; min-width: 0; }
+.cover-record-card .record-dates > div:first-child { padding-top: 0; }
+.cover-record-card .record-dates > div + div { border-top: 1px solid #ece8df; }
+.cover-record-card .record-dates > div > div { display: flex; flex: 1; min-width: 0; justify-content: space-between; align-items: baseline; gap: 10px; }
+.cover-record-card .record-dates dt { font-size: 8px; letter-spacing: .7px; text-transform: uppercase; color: #6c7f9d; white-space: nowrap; }
+.cover-record-card .record-dates dd { margin: 0; font-size: 11.5px; font-weight: 500; color: #304e7c; white-space: nowrap; }
+.edit-client-cover { position: absolute; right: 21px; top: 13px; display: flex; align-items: center; gap: 6px; min-height: 32px; padding: 6px 10px; border: 1px solid #ffffffa6; border-radius: 8px; background: #ffffffe0; color: #4f6381; font-size: 10px; backdrop-filter: blur(10px); }
+.edit-client-cover:hover { background: #fff; box-shadow: 0 2px 10px #263c5012; }
+.client-record-body { padding: 22px 28px 0; }
+.client-record-body > .panel { margin-bottom: 22px; }
+.record-date-icon { display: grid; place-items: center; width: 24px; height: 24px; border-radius: 50%; border: 1px solid #e3e9fb; background: #fff; color: #516cff; flex-shrink: 0; }
+.cover-record-card .client-service-links { display: flex; flex-wrap: nowrap; align-items: center; justify-content: space-between; gap: 4px; margin: 0; padding-top: 6px; border-top: 1px solid #ece8df; }
+/* Shortcut artwork scaled to 28px inside the card; LeadLock keeps its pill proportions. */
+.cover-record-card .service-logo-frame { width: 28px; height: 28px; }
+.cover-record-card .service-logo-leadlock { width: 83px; }
+.cover-record-card .service-logo-button { position: relative; width: 83px; height: 28px; padding: 0; border: 0; border-radius: 999px; justify-content: center; gap: 0; background: transparent; box-shadow: none; overflow: visible; transition: transform .15s; }
+.cover-record-card .service-logo-button:hover { background: transparent; box-shadow: none; transform: translateY(-1px); }
+/* Display the supplied glass artwork intact, including its transparency and shadow.
+   Circular marks share a 33px frame; the LeadLock pill keeps its wide proportions. */
+.service-logo-frame { display: flex; align-items: center; justify-content: center; width: 33px; height: 33px; flex-shrink: 0; }
+.service-logo-frame img { display: block; width: 100%; height: 100%; object-fit: contain; flex-shrink: 0; }
+.service-logo-leadlock { width: 97.5px; }
+.cover-record-card .service-logo-button:is(.service-button-slack, .service-button-drive, .service-button-clickup) { width: 28px; flex-shrink: 0; border-radius: 50%; }
+.service-logo-tooltip { position: absolute; bottom: calc(100% + 7px); left: 50%; transform: translateX(-50%); z-index: 5; padding: 5px 9px; border-radius: 6px; background: #253d60; color: #fff; font-size: 10px; font-weight: 400; line-height: 1.5; white-space: nowrap; pointer-events: none; visibility: hidden; opacity: 0; transition: opacity .14s; box-shadow: 0 3px 10px #17335415; }
+.service-logo-button:hover .service-logo-tooltip, .service-logo-button:focus-visible .service-logo-tooltip { visibility: visible; opacity: 1; }
+.client-record-body .client-tabs { gap: 21px; margin-bottom: 26px; scrollbar-width: thin; scrollbar-color: #d6e1f6 transparent; }
+.client-record-body .client-tabs button { padding: 14px 3px 16px; font-size: 10px; color: #697c9d; gap: 7px; min-height: 48px; }
+.client-record-body .client-tabs button > svg { color: #8ca2cd; }
+.client-record-body .client-tabs button.active { color: #526bff; border-bottom-color: #526bff; }
+.client-record-body .client-tabs button.active > svg { color: #526bff; }
+.client-record-body .client-tabs button:hover { color: #355caa; background: #f4f7ff; }
+.client-record-body .client-tabs button span { background: #edf1ff; color: #536bcb; border-radius: 999px; }
+.client-record-body .admin-tag { color: #6374bb; background: #edf1ff; border-radius: 999px; padding: 2px 7px; }
+
+/* The modal uses native dialog focus trapping and restores focus to the pencil. */
+.cover-picker.modal { width: min(820px, calc(100vw - 32px)); border: 1px solid #e2e8f6; border-radius: 22px; }
+.cover-picker .dialog-heading { padding: 23px 27px 19px; }
+.cover-picker .dialog-heading h2 { font-size: 29px; }
+.cover-picker .dialog-body { padding: 0 27px 24px; }
+.cover-picker-intro { font-size: 11px; color: #6b7b94; margin-bottom: 16px; }
+.cover-picker-intro strong { color: #365680; font-weight: 500; }
+.cover-preview { position: relative; isolation: isolate; height: 152px; background: #eeeae2; border-radius: 14px; overflow: hidden; }
+.cover-preview > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
+.cover-preview::before { content: ''; position: absolute; inset: 0; background: linear-gradient(90deg, #fbfaf8fa, #fbfaf8ed 34%, #fbfaf80d 72%); z-index: -1; }
+.cover-preview-copy { height: 100%; display: flex; align-items: center; gap: 19px; padding: 22px; }
+.cover-preview-copy > span { display: grid; place-items: center; width: 62px; height: 62px; border: 1px solid white; border-radius: 50%; background: #edf0f5; color: #5675a2; font-family: var(--serif); font-size: 24px; flex-shrink: 0; }
+.cover-preview-copy > div { min-width: 0; }
+.cover-preview-copy small { display: block; font-size: 7px; letter-spacing: 1px; color: #617a9b; }
+.cover-preview-copy strong { display: block; font-family: var(--serif); font-size: 26px; font-weight: 500; color: #173354; overflow-wrap: anywhere; line-height: 1.3; }
+.cover-preview-copy p { font-size: 9px; color: #637a9a; margin-top: 4px; }
+.cover-preview-label { position: absolute; top: 10px; right: 10px; display: flex; align-items: center; gap: 5px; font-size: 8px; color: #556a87; border-radius: 6px; background: #ffffffe0; padding: 4px 7px; }
+.cover-picker-tools { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin: 20px 0 13px; }
+.cover-picker-tools > span { font-size: 9px; color: #718099; white-space: nowrap; }
+.cover-filters { display: flex; flex-wrap: wrap; gap: 5px; }
+.cover-filters button { border-radius: 999px; padding: 6px 12px; font-size: 10px; color: #687b99; }
+.cover-filters button[aria-pressed='true'] { background: #edf2ff; color: #4162b5; }
+.cover-options { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 13px; }
+.cover-option { min-width: 0; padding: 4px; border: 1.5px solid transparent; border-radius: 11px; text-align: left; }
+.cover-option:hover { background: #f3f6fc; }
+.cover-option.is-selected { border-color: #667df3; background: #f4f6ff; }
+.cover-option > div { position: relative; height: 71px; border-radius: 7px; overflow: hidden; background: #ebe8e1; }
+.cover-option img { width: 100%; height: 100%; object-fit: cover; }
+.cover-option > span { display: block; color: #425b80; font-size: 9px; padding: 6px 3px 2px; }
+.cover-check { position: absolute; display: grid; place-items: center; top: 6px; right: 6px; width: 22px; height: 22px; background: #536de5; color: #fff; border-radius: 50%; box-shadow: 0 0 0 2px #ffffffcc; }
+.cover-credit { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 6px; margin-top: 14px; color: #75829a; font-size: 9px; }
+.cover-credit a { color: #4d6da5; text-decoration: none; }
+.cover-picker-footer { display: flex; justify-content: space-between; gap: 16px; align-items: center; margin-top: 20px; padding-top: 17px; border-top: 1px solid #e7edf7; }
+.cover-picker-footer > div:last-child { display: flex; gap: 8px; }
+.cover-picker-footer .button { padding: 9px 15px; font-size: 10px; }
+.cover-picker-footer .text-button { font-size: 10px; }
+.cover-picker-footer p { font-size: 8px; color: #79869a; margin-top: 4px; }
+
+@container client-workspace (max-width: 1130px) {
+  .client-cover-content { grid-template-columns: 94px minmax(0, 1fr) 252px; gap: 24px; padding: 43px 28px 30px; }
+  .client-cover-content > .client-avatar { width: 94px; height: 94px; font-size: 35px; }
+  .cover-identity h1 { font-size: 36px; }
+  .cover-client-facts { gap: 14px; }
+  .cover-client-facts > div + div { padding-left: 14px; }
+  .cover-record-card { padding: 11px 13px 10px; }
+}
+@container client-workspace (max-width: 800px) {
+  .client-cover-content { grid-template-columns: 80px minmax(0, 1fr); gap: 20px; padding: 48px 24px 25px; }
+  .client-cover-content > .client-avatar { width: 80px; height: 80px; font-size: 31px; align-self: start; margin-top: 18px; }
+  .client-cover::before { background: linear-gradient(90deg, #faf9f7fa, #faf9f7e8 45%, #faf9f755); }
+  .cover-client-facts { margin-top: 18px; }
+  /* Narrow workspace: the card spans the cover; dates in one row, shortcuts right-aligned beneath a hairline. */
+  .cover-record-card { grid-column: 1 / -1; padding: 11px 16px 10px; }
+  .cover-record-card .record-dates { flex-direction: row; padding-bottom: 9px; }
+  .cover-record-card .record-dates > div { flex: 1; padding: 0; }
+  .cover-record-card .record-dates > div + div { border-top: 0; border-left: 1px solid #ece8df; padding-left: 14px; }
+  .cover-record-card .client-service-links { justify-content: flex-end; gap: 14px; padding-top: 9px; }
+  .client-record-body { padding: 4px 22px 0; }
+}
+@media (max-width: 700px) {
+  .client-record-open .utility-header { height: 64px; padding: 0 15px; }
+  .client-record-open .header-search { width: 33px; height: 33px; padding: 7px; justify-content: center; }
+  .client-record-open .header-client { display: block; max-width: 140px; text-overflow: ellipsis; overflow: hidden; }
+  .client-record-open .header-breadcrumbs { gap: 3px; }
+  .client-record-open .header-breadcrumbs a { font-size: 9px; }
+  .client-record-open .header-tools { gap: 2px; }
+  .client-cover-content { grid-template-columns: 66px minmax(0, 1fr); gap: 14px; padding: 52px 18px 22px; }
+  .client-cover-content > .client-avatar { width: 66px; height: 66px; font-size: 26px; margin-top: 14px; }
+  .cover-identity h1 { font-size: 30px; letter-spacing: -.5px; }
+  .cover-location { font-size: 10px; }
+  .cover-client-facts > div + div { border: 0; padding-left: 0; }
+  .cover-client-facts { flex-direction: column; gap: 10px; }
+  .edit-client-cover { right: 15px; top: 12px; }
+  /* Phone: stacked date rows (label left, date right), shortcuts spread along the bottom. */
+  .cover-record-card { margin-top: 4px; padding: 13px 15px; }
+  .cover-record-card .record-dates { flex-direction: column; padding-bottom: 0; }
+  .cover-record-card .record-dates > div { padding: 8px 0; }
+  .cover-record-card .record-dates > div + div { border-left: 0; padding-left: 0; border-top: 1px solid #ece8df; }
+  .cover-record-card .client-service-links { justify-content: space-between; margin: 0; padding-top: 10px; border-top: 1px solid #ece8df; }
+  .client-record-body { padding: 4px 16px 0; }
+  .client-record-body .client-tabs { gap: 17px; margin-bottom: 20px; }
+  .cover-picker .dialog-heading { padding: 20px 18px 16px; }
+  .cover-picker .dialog-heading h2 { font-size: 25px; }
+  .cover-picker .dialog-body { padding: 0 18px 20px; }
+  .cover-options { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 9px; }
+  .cover-preview-copy { padding: 15px; gap: 12px; }
+  .cover-preview-copy > span { width: 47px; height: 47px; font-size: 20px; }
+  .cover-preview-copy strong { font-size: 22px; }
+  .cover-picker-tools > span { display: none; }
+  .cover-filters { gap: 2px; }
+  .cover-filters button { padding: 7px 9px; font-size: 9px; }
+  .cover-picker-footer { flex-wrap: wrap; }
+  .cover-picker-footer > div:last-child { width: 100%; justify-content: flex-end; }
+}
+@media print {
+  .edit-client-cover { display: none; }
+  .client-cover-content { min-height: 240px; }
+  .client-cover { print-color-adjust: exact; }
+}

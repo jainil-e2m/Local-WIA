@@ -1,0 +1,59 @@
+[
+  {
+    "local_key": "m1-market-research-internal",
+    "disposition": "INTERNAL",
+    "moment_keys": [
+      "m1-market-research-survey-proposal"
+    ],
+    "evidence_refs": [
+      "m1.t0549",
+      "m1.t0553",
+      "m1.t0565",
+      "m1.t0569",
+      "m1.t0573",
+      "m1.t0577",
+      "m1.t0582",
+      "m1.t0595",
+      "m1.t0598"
+    ],
+    "summary": "Whitney reports that clients asked about market research often point WIA to reviews instead. She discusses a possible survey workflow for LeadLock clients, with clients tagging or sending surveys and responses made visible in a shared spreadsheet for possible use in marketing.",
+    "disposition_reason": "This is useful product and delivery intelligence, but the exchange presents an idea, not an implemented workflow. The broader public point about asking why couples booked rather than relying on reviews also overlaps with the supplied archived market-research email.",
+    "proposed_reframe": null,
+    "retrieval_needs": [],
+    "internal_use": "Use for product and delivery planning: verify the proposed workflow’s status, clarify the client’s role in sending or tagging surveys, and assess how responses would be shared and used. Treat Whitney’s report about client responses as her experience, not a prevalence claim about all wedding businesses."
+  },
+  {
+    "local_key": "m1-market-research-workflow-demo",
+    "disposition": "HOLD",
+    "moment_keys": [
+      "m1-market-research-survey-proposal"
+    ],
+    "evidence_refs": [
+      "m1.t0565",
+      "m1.t0569",
+      "m1.t0573",
+      "m1.t0577",
+      "m1.t0595",
+      "m1.t0598"
+    ],
+    "summary": "A possible public demonstration of a client survey and shared-response workflow intended to collect information about why couples booked and inform ad copy or landing pages.",
+    "disposition_reason": "The exchange supports a proposal, not a completed LeadLock configuration or current client workflow. The supplied market-research email already covers the broader survey, booking-decision, and marketing connection, so a new public treatment would need verified, genuinely additional substance.",
+    "proposed_reframe": "If later evidence confirms a distinct workflow, focus on the specific steps WIA built and the client’s role in using it, rather than repeating the general point that reviews and buying-decision research serve different purposes.",
+    "retrieval_needs": [
+      {
+        "question": "Was this survey-and-spreadsheet workflow built or offered, and what exactly did clients and WIA do with it?",
+        "known_refs": [
+          "m1.t0565",
+          "m1.t0569",
+          "m1.t0573",
+          "m1.t0577",
+          "m1.t0595",
+          "m1.t0598"
+        ],
+        "needed_segment_or_record": "Dated implementation notes, current LeadLock workflow documentation, or client records establishing whether the survey was configured, who sent or tagged it, where responses went, and how WIA used them.",
+        "resolution_condition": "Only describe implementation or availability if a dated record verifies it. Any claim about adoption or business impact requires separate evidence."
+      }
+    ],
+    "internal_use": null
+  }
+]

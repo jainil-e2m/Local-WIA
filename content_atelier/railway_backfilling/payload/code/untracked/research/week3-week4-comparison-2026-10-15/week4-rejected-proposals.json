@@ -1,0 +1,846 @@
+{
+  "moments": [
+    {
+      "local_key": "m1_email_safeguards",
+      "anchor_span_ids": [
+        "m1.t0085",
+        "m1.t0088",
+        "m1.t0093",
+        "m1.t0095",
+        "m1.t0102",
+        "m1.t0109",
+        "m1.t0129",
+        "m1.t0133"
+      ],
+      "context_first_span_id": "m1.t0079",
+      "context_last_span_id": "m1.t0135",
+      "quote": "really what it tells me is that we just need to be putting more safeguards in place.",
+      "context_summary": "Whitney described concern that email-domain records at a client account were no longer verified and that emails may have gone to spam, leaving people unable to open links. She said the cause was unknown and guessed it may have happened during a staff transition. She proposed recurring checks of domain records and lead performance, and asked Gisselle to follow up with the client contact and investigate image compression while other staff were unavailable. Gisselle agreed to those tasks; no resolution is reported in this exchange.",
+      "moment_type": "tension",
+      "proposition": "A suspected email-delivery failure prompted Whitney to acknowledge a monitoring gap and propose recurring safeguards, while keeping the cause unresolved and assigning immediate follow-up.",
+      "audience_relevance": "For WIA's internal service delivery, the exchange surfaces how ownership transitions and technical checks can affect the path from an ad lead to a usable inquiry response.",
+      "qualifications": [
+        "Whitney did not know how or when the records became unverified; the staff-transition explanation was a guess.",
+        "The proposed recurring checks and the attempted fixes are not shown as completed, and no client outcome is reported.",
+        "The client incident and internal response are sensitive operational information."
+      ],
+      "claim_status": "reported",
+      "sensitivity": "internal_only",
+      "strength": 4.5,
+      "reasons": [
+        "The team connects a technical issue to a possible break in lead follow-up and identifies specific proposed safeguards.",
+        "The exchange preserves both accountability and uncertainty instead of attributing the incident to an unverified cause."
+      ],
+      "discovery": {
+        "lenses": [
+          "wia_expertise",
+          "service_value",
+          "broader_principle"
+        ],
+        "destination": "internal_intelligence",
+        "wia_contribution": "Whitney identified the need for recurring DNS and lead-performance checks, assigned follow-up, and separated known symptoms from her guess about the cause.",
+        "attention_reason": "This is a consequential service-reliability concern, but the client-specific incident and unresolved cause make it internal intelligence rather than a public example.",
+        "research_questions": [
+          "Were the email records restored, what caused them to become unverified, and were the proposed recurring checks adopted?"
+        ]
+      }
+    },
+    {
+      "local_key": "m1_vault_prompt_accountability",
+      "anchor_span_ids": [
+        "m1.t0412",
+        "m1.t0413",
+        "m1.t0417",
+        "m1.t0425",
+        "m1.t0429",
+        "m1.t0430",
+        "m1.t0444",
+        "m1.t0447",
+        "m1.t0450",
+        "m1.t0453"
+      ],
+      "context_first_span_id": "m1.t0412",
+      "context_last_span_id": "m1.t0453",
+      "quote": "I want to make sure that I'm not just, like, saying it, and then there's not ever any actual, like, follow-up or, like, accountability to actually, like, get it done.",
+      "context_summary": "Whitney proposed a recurring weekly prompt in the Vault channels inviting current Accelerator members to share what they were working on and questions for office hours. She weighed having someone post on colleagues' behalf against making the staff responsible for the task, and suggested Monday or Tuesday could work given wedding professionals' schedules. Gisselle asked where the procedure belonged; Whitney preferred adding it to an existing Vault SOP. Gisselle said she would add it, but the team had not yet discussed it with the staff who would own the task.",
+      "moment_type": "tension",
+      "proposition": "The proposed member-engagement routine exposed a choice between ensuring the prompt gets posted and maintaining clear staff ownership through a recurring task and existing SOP.",
+      "audience_relevance": "Internally, this may inform how WIA sustains member touchpoints without obscuring who is responsible; the exchange does not establish a member response or service effect.",
+      "qualifications": [
+        "The task and SOP were proposed for later team discussion; implementation and staff awareness are not established.",
+        "No evidence is given about member participation or the effect of the prompt."
+      ],
+      "claim_status": "planned",
+      "sensitivity": "internal_only",
+      "strength": 3.5,
+      "reasons": [
+        "Whitney articulates a real trade-off between doing work on a colleague's behalf and building accountability.",
+        "The conversation specifies a proposed cadence, timing constraint, and place for the SOP rather than a completed process."
+      ],
+      "discovery": {
+        "lenses": [
+          "wia_expertise",
+          "service_value",
+          "broader_principle"
+        ],
+        "destination": "internal_intelligence",
+        "wia_contribution": "Whitney proposed the member prompt, reasoned through ownership and timing, and directed that the instruction be added to an existing Vault SOP rather than standing alone.",
+        "attention_reason": "This is a concrete service-operations decision, but it remains an internal plan with no evidence of execution or member impact.",
+        "research_questions": [
+          "Was the recurring task added to the SOP and ClickUp, and did the team settle on Monday or Tuesday for the prompt?"
+        ]
+      }
+    },
+    {
+      "local_key": "m2_investment_hesitation",
+      "anchor_span_ids": [
+        "m2.t0004",
+        "m2.t0006",
+        "m2.t0010",
+        "m2.t0014",
+        "m2.t0017"
+      ],
+      "context_first_span_id": "m2.t0003",
+      "context_last_span_id": "m2.t0017",
+      "quote": "I feel like I get so many of those kinds of leads that do the same thing.",
+      "context_summary": "Whitney clarified that Sean was not a WIA client and described his long sales-call process and subsequent delay in deciding whether to work together. Emily said she encounters similar inquiries in her own work: prospects ask detailed questions, then may be frightened by the investment or face a choice between doing the work themselves and hiring a provider. She mentioned blogging services as another possible fit, but no decision or purchase is reported.",
+      "moment_type": "observation",
+      "proposition": "Emily described investment hesitation after extended sales conversations as a pattern she encounters in her own inquiries, while distinguishing self-directed work from hiring help.",
+      "audience_relevance": "This may inform internal understanding of prospects who invest time in evaluation but remain uncertain about paying for marketing support; Emily's observation is not evidence of a WIA-wide lead pattern.",
+      "qualifications": [
+        "Emily is describing her own inquiries, not a measured WIA trend.",
+        "Sean was explicitly identified as not being a WIA client, and no eventual purchase outcome is supplied.",
+        "The conversation concerns a third party and another provider's potential prospect."
+      ],
+      "claim_status": "reported",
+      "sensitivity": "internal_only",
+      "strength": 3.5,
+      "reasons": [
+        "The exchange captures a specific decision barrier and the practical choice prospects face after asking detailed questions.",
+        "It is useful audience intelligence while remaining clearly attributed to Emily's experience."
+      ],
+      "discovery": {
+        "lenses": [
+          "audience_insight"
+        ],
+        "destination": "internal_intelligence",
+        "wia_contribution": null,
+        "attention_reason": "The prospect's hesitation may be commercially relevant, but it is not a WIA client outcome or a verified pattern across WIA leads.",
+        "research_questions": []
+      }
+    },
+    {
+      "local_key": "m2_ads_and_downstream_funnel",
+      "anchor_span_ids": [
+        "m2.t0072",
+        "m2.t0077",
+        "m2.t0079",
+        "m2.t0085",
+        "m2.t0091",
+        "m2.t0093",
+        "m2.t0096",
+        "m2.t0099",
+        "m2.t0104",
+        "m2.t0108",
+        "m2.t0115"
+      ],
+      "context_first_span_id": "m2.t0072",
+      "context_last_span_id": "m2.t0115",
+      "quote": "If they're not turning into sales for you regardless, like why are you spending the money to run the ads? Why are you paying us to run the ads?",
+      "context_summary": "Whitney reported that ads for a coach's challenge had good lead costs, but WIA did not have evidence that challenge participants later became paying clients. The client also questioned discrepancies among landing-page, email-platform, and Meta counts. Whitney redirected the discussion from reconciling every number to whether the funnel produced sales, recommended validating a funnel before continuing ad spend, and suggested an evergreen webinar. She also noted that the client's coach/course-creator funnel differed from WIA's wedding-focused work. Whitney said the client seemed appreciative by the end; no implementation or downstream sales outcome is reported.",
+      "moment_type": "decision",
+      "proposition": "Whitney reported challenging an ad-only success measure when downstream sales from challenge signups were unproven, and recommended resolving the funnel question before treating low lead costs as sufficient value.",
+      "audience_relevance": "Wedding businesses investing in ads may need to distinguish lead acquisition from whether inquiries progress toward bookings; this particular case concerns a non-wedding coaching funnel.",
+      "qualifications": [
+        "The account and client reaction are described by Whitney, not independently corroborated.",
+        "The client reportedly lacked data about whether challenge participants became paid clients; that is not proof that none did.",
+        "The webinar recommendation was not shown as implemented, and no sale or ROI result is established.",
+        "The funnel belonged to a coach/course creator rather than WIA's core wedding-business audience."
+      ],
+      "claim_status": "reported",
+      "sensitivity": "internal_only",
+      "strength": 4.5,
+      "reasons": [
+        "The conversation reveals the reasoning behind moving evaluation from ad metrics to downstream business evidence.",
+        "It includes client confusion, WIA's recommendation, a specialization boundary, and an unresolved outcome."
+      ],
+      "discovery": {
+        "lenses": [
+          "wia_expertise",
+          "broader_principle",
+          "audience_insight"
+        ],
+        "destination": "internal_intelligence",
+        "wia_contribution": "Whitney reports challenging the focus on discrepant platform counts, asking whether challenge participants became buyers, recommending a funnel with demonstrated conversion, and distinguishing the client's funnel from WIA's wedding focus.",
+        "attention_reason": "The reasoning is strategically meaningful, but the account is a third-party, non-wedding client situation and the recommended changes are not confirmed.",
+        "research_questions": [
+          "Was an evergreen webinar or other funnel later built, and is there evidence about whether challenge participants became paying clients?"
+        ]
+      }
+    },
+    {
+      "local_key": "m3_support_options_after_management",
+      "anchor_span_ids": [
+        "m3.t0008",
+        "m3.t0009",
+        "m3.t0011",
+        "m3.t0014",
+        "m3.t0018",
+        "m3.t0021",
+        "m3.t0022",
+        "m3.t0023",
+        "m3.t0026",
+        "m3.t0027",
+        "m3.t0028",
+        "m3.t0032"
+      ],
+      "context_first_span_id": "m3.t0008",
+      "context_last_span_id": "m3.t0032",
+      "quote": "Yeah, that probably would make more sense for me.",
+      "context_summary": "Kelly wanted to keep ads running while stepping away from proactive management because agency fees no longer fit the numbers she described. Whitney asked what support would help, outlined a monthly Accelerator option and separate paid consultations, and offered resources for checking ad data. Kelly said a one-off consultation probably made more sense. Whitney agreed to send links and resources, but no booking is reported.",
+      "moment_type": "decision",
+      "proposition": "When Kelly wanted to keep running ads but not continue proactive management, she preferred the offered pay-as-needed consultation option to a recurring support program.",
+      "audience_relevance": "Established wedding businesses may want to retain advertising while reducing ongoing support costs, and may prefer occasional expert input over a recurring commitment.",
+      "qualifications": [
+        "The fees and program details are historical as described in this call and do not establish current pricing or availability.",
+        "Kelly's stated preference is not evidence that she booked a consultation or achieved an outcome.",
+        "The exchange includes an individual client's financial decision."
+      ],
+      "claim_status": "reported",
+      "sensitivity": "internal_only",
+      "strength": 4,
+      "reasons": [
+        "The client's cost constraint leads to a specific support-format preference rather than a simple stop-or-continue decision.",
+        "Whitney asks what level of help is useful and presents alternatives, but the next step remains unconfirmed."
+      ],
+      "discovery": {
+        "lenses": [
+          "audience_insight",
+          "service_value"
+        ],
+        "destination": "internal_intelligence",
+        "wia_contribution": "Whitney asked what support Kelly needed and described recurring and one-off options, with the prices stated at the time of the call.",
+        "attention_reason": "This is useful offer-fit and price-objection intelligence, but the prices are historical and the client's financial choice is not cleared for public use.",
+        "research_questions": [
+          "Did Kelly subsequently book either consultation, and what support did she use after this call?"
+        ]
+      }
+    },
+    {
+      "local_key": "m3_leadlock_pricing_guide_help",
+      "anchor_span_ids": [
+        "m3.t0033",
+        "m3.t0035",
+        "m3.t0038",
+        "m3.t0039",
+        "m3.t0043",
+        "m3.t0045",
+        "m3.t0046",
+        "m3.t0047",
+        "m3.t0051",
+        "m3.t0052",
+        "m3.t0053",
+        "m3.t0054",
+        "m3.t0061"
+      ],
+      "context_first_span_id": "m3.t0033",
+      "context_last_span_id": "m3.t0061",
+      "quote": "I don't really know how to use LeadLock",
+      "context_summary": "Kelly asked how to replace a pricing guide in LeadLock. Whitney shared the screen, located the inquiry workflow and welcome email, explained how to update the linked pricing document or add an attachment, and emphasized saving both the action and workflow. She also pointed Kelly to the support form and LeadLock office hours. Kelly said that answered her main question; she did not say she made the edit.",
+      "moment_type": "mechanism",
+      "proposition": "A client asked for help with a specific LeadLock update, and Whitney demonstrated the relevant workflow while identifying additional routes for real-time support.",
+      "audience_relevance": "Wedding professionals maintaining inquiry materials may need both a clear self-service path and help when a small workflow change feels uncertain.",
+      "qualifications": [
+        "The workflow and support options are described as they appeared in this account at the time of the call; current product details are not verified.",
+        "The exchange does not confirm that Kelly completed the pricing-guide update.",
+        "No publication permission is supplied."
+      ],
+      "claim_status": "reported",
+      "sensitivity": "unknown",
+      "strength": 4,
+      "reasons": [
+        "The exchange shows a concrete support interaction, including the client's question, a screen-level demonstration, and alternative help routes.",
+        "It avoids treating a demonstration as proof that the client completed the task."
+      ],
+      "discovery": {
+        "lenses": [
+          "wia_expertise",
+          "service_value",
+          "audience_insight"
+        ],
+        "destination": "public_opportunity",
+        "wia_contribution": "Whitney located the pricing link within the inquiry workflow, showed how to update and save it, and pointed Kelly to the support form and office hours.",
+        "attention_reason": "This may reveal how hands-on guidance helps a business owner maintain inquiry materials, without claiming that a single demonstration resolved all future support needs.",
+        "research_questions": [
+          "Did Kelly complete the update after the call, and are the demonstrated LeadLock workflow and support routes still current?"
+        ]
+      }
+    },
+    {
+      "local_key": "m4_realistic_ad_monitoring",
+      "anchor_span_ids": [
+        "m4.t0088",
+        "m4.t0093",
+        "m4.t0100",
+        "m4.t0111",
+        "m4.t0114",
+        "m4.t0122",
+        "m4.t0129",
+        "m4.t0141",
+        "m4.t0144",
+        "m4.t0154",
+        "m4.t0158",
+        "m4.t0164",
+        "m4.t0168",
+        "m4.t0169",
+        "m4.t0171",
+        "m4.t0175",
+        "m4.t0178"
+      ],
+      "context_first_span_id": "m4.t0088",
+      "context_last_span_id": "m4.t0179",
+      "quote": "So I can at least see the amount, but I look at it, but I don't really know what it means.",
+      "context_summary": "Kate, a venue owner with limited time for ads, asked what a high-spend episode could mean and how to monitor without checking accounts daily. Whitney distinguished a budget cap from whether spend was producing worthwhile results, described possible account interruptions, and suggested a brief weekly check or recurring support if that was not realistic. In a live account review she explained differences between Google Search and Meta, identified basic lead and cost signals to watch, and cautioned that Meta alerts alone do not always warrant a change. Kate said receipts showed the amount spent but not what the account data meant.",
+      "moment_type": "mechanism",
+      "proposition": "Whitney tailored a proposed monitoring routine to a time-constrained venue owner by separating spend limits from performance risk and explaining which account signals might justify closer investigation.",
+      "audience_relevance": "Owners already running ads may want a realistic way to notice meaningful changes without constant account monitoring or reacting to every platform alert.",
+      "qualifications": [
+        "Account performance and examples were discussed during one live review and are not independently corroborated.",
+        "The suggested check-in routine and support options were recommendations; Kate did not report adopting them in this interval.",
+        "No subsequent performance or monitoring outcome is given."
+      ],
+      "claim_status": "reported",
+      "sensitivity": "unknown",
+      "strength": 4.5,
+      "reasons": [
+        "The client raises a real capacity constraint and uncertainty about interpreting spend, not a lack of interest in the ads.",
+        "Whitney connects that constraint to a practical review process and distinguishes platform alerts from signs that warrant investigation."
+      ],
+      "discovery": {
+        "lenses": [
+          "audience_insight",
+          "wia_expertise",
+          "service_value"
+        ],
+        "destination": "public_opportunity",
+        "wia_contribution": "Whitney clarified the difference between budget limits and inefficient spend, compared platform behavior, demonstrated account signals, and offered a recurring review as an accountability option.",
+        "attention_reason": "The exchange shows how monitoring advice can be scaled to an owner's time and risk concerns rather than assuming daily review is feasible.",
+        "research_questions": []
+      }
+    },
+    {
+      "local_key": "m4_google_conversion_correction",
+      "anchor_span_ids": [
+        "m4.t0248",
+        "m4.t0253",
+        "m4.t0256",
+        "m4.t0259",
+        "m4.t0263",
+        "m4.t0266"
+      ],
+      "context_first_span_id": "m4.t0248",
+      "context_last_span_id": "m4.t0266",
+      "quote": "Um, or I guess this wouldn't be if they've actually booked the tour, this is them looking at the book a tour page.",
+      "context_summary": "While inspecting Google Ads conversion actions, Whitney described contact-page views, lead-form submissions, and visits to the book-a-tour page. She corrected her phrasing to clarify that the last action meant someone viewed that page, not that they had booked a tour. She then guided Kate toward looking at the recent date range and distinguishing those actions.",
+      "moment_type": "observation",
+      "proposition": "During an account walkthrough, Whitney corrected a potentially misleading description of a tracked conversion: a book-a-tour page view was not a completed tour booking.",
+      "audience_relevance": "Owners interpreting advertising reports need to distinguish page visits and other tracked actions from actual inquiries or bookings.",
+      "qualifications": [
+        "The correction concerns conversion actions shown in this account; it does not establish how other accounts are configured.",
+        "The exchange does not verify that every reported conversion was an actual inquiry or booking."
+      ],
+      "claim_status": "reported",
+      "sensitivity": "unknown",
+      "strength": 4,
+      "reasons": [
+        "A live correction prevents a platform label from being mistaken for a business outcome.",
+        "The client is shown the distinction in the same account review, rather than receiving a generic metric definition."
+      ],
+      "discovery": {
+        "lenses": [
+          "wia_expertise",
+          "broader_principle"
+        ],
+        "destination": "public_opportunity",
+        "wia_contribution": "Whitney reviewed the account's conversion actions and explicitly corrected the interpretation of a book-a-tour page view.",
+        "attention_reason": "The correction is a compact example of why measurement labels should be checked against the action they actually represent.",
+        "research_questions": []
+      }
+    },
+    {
+      "local_key": "m5_accelerator_fit",
+      "anchor_span_ids": [
+        "m5.t0011",
+        "m5.t0015",
+        "m5.t0019",
+        "m5.t0023",
+        "m5.t0028",
+        "m5.t0032",
+        "m5.t0034",
+        "m5.t0037",
+        "m5.t0041",
+        "m5.t0043",
+        "m5.t0045",
+        "m5.t0047",
+        "m5.t0049",
+        "m5.t0065"
+      ],
+      "context_first_span_id": "m5.t0011",
+      "context_last_span_id": "m5.t0065",
+      "quote": "but, like, where to put it to be most proactive is where I think we struggle.",
+      "context_summary": "Victoria and Blair said they had built a funnel, started Meta ads, and recently begun Google Ads. They reported 25 weddings booked in the prior year and 16 good Meta leads in six weeks, while saying they could create content but were unsure how to set up and place campaigns effectively. Whitney reflected that they wanted to learn and recommended Accelerator support rather than assuming they wanted full-service management. She described curriculum, expert office hours, and optional campaign setup; Victoria said that sounded good. No enrollment decision is recorded in this interval.",
+      "moment_type": "decision",
+      "proposition": "Whitney matched a self-directed venue couple who wanted to learn campaign setup with the described Accelerator support, rather than defaulting to full-service management.",
+      "audience_relevance": "Wedding businesses that already create content and have begun advertising may need help translating their marketing strengths into campaign structure, tracking, and decisions.",
+      "qualifications": [
+        "The booking and lead figures are the prospects' reported claims, not independently verified outcomes.",
+        "Their positive response does not establish purchase or enrollment.",
+        "The program scope described is specific to this call and is not verification of current offer details."
+      ],
+      "claim_status": "reported",
+      "sensitivity": "unknown",
+      "strength": 4.5,
+      "reasons": [
+        "The recommendation follows the prospects' stated skill, uncertainty, and preference to learn rather than a generic sales script.",
+        "It shows the client and WIA expertise working together, while leaving the sale outcome open."
+      ],
+      "discovery": {
+        "lenses": [
+          "audience_insight",
+          "wia_expertise",
+          "service_value"
+        ],
+        "destination": "public_opportunity",
+        "wia_contribution": "Whitney clarified the prospects' desired level of ownership, distinguished managed service from education and support, and explained the Accelerator option and optional setup assistance.",
+        "attention_reason": "The exchange may help explain how support can fit capable owners who want guidance before deciding whether to delegate more.",
+        "research_questions": []
+      }
+    },
+    {
+      "local_key": "m5_campaign_attribution_diagnosis",
+      "anchor_span_ids": [
+        "m5.t0096",
+        "m5.t0098",
+        "m5.t0101",
+        "m5.t0108",
+        "m5.t0111",
+        "m5.t0113",
+        "m5.t0119",
+        "m5.t0124",
+        "m5.t0126",
+        "m5.t0127",
+        "m5.t0128",
+        "m5.t0129",
+        "m5.t0131",
+        "m5.t0133"
+      ],
+      "context_first_span_id": "m5.t0096",
+      "context_last_span_id": "m5.t0133",
+      "quote": "truthfully, we got leads, which was amazing. And they came in, but honestly, I don't know where they came from.",
+      "context_summary": "Blair said overlapping Meta tests produced leads but he could not tell which campaign drove them. Whitney initially checked whether the landing page was also receiving organic traffic. Victoria clarified that it was only for ads and used a different form. Whitney then explained that this form could identify ad leads and proposed UTM parameters plus hidden form fields to distinguish campaigns. The prospects said the explanation made sense; implementation is not reported.",
+      "moment_type": "mechanism",
+      "proposition": "A client clarification changed the attribution diagnosis: a separate ads-only form could identify paid leads, while UTMs and hidden fields were proposed for campaign-level detail.",
+      "audience_relevance": "Businesses testing campaigns need a way to distinguish which activity produced an inquiry before using the results to shape what comes next.",
+      "qualifications": [
+        "The UTM and hidden-field setup was proposed, not confirmed as implemented.",
+        "No campaign-level results or subsequent attribution accuracy are reported.",
+        "The lead counts and uncertainty are reported by the prospects."
+      ],
+      "claim_status": "reported",
+      "sensitivity": "unknown",
+      "strength": 4.5,
+      "reasons": [
+        "The exchange preserves the client's correction to WIA's initial understanding and the resulting adjustment to the recommendation.",
+        "It connects a specific form distinction to a more granular tracking option without claiming that tracking was completed."
+      ],
+      "discovery": {
+        "lenses": [
+          "wia_expertise",
+          "audience_insight",
+          "broader_principle"
+        ],
+        "destination": "public_opportunity",
+        "wia_contribution": "Whitney asked about form and landing-page differences, revised her diagnosis after Victoria's clarification, and described UTM parameters and hidden fields as a possible campaign-level tracking layer.",
+        "attention_reason": "This is a clear demonstration of client knowledge changing a technical recommendation, with the implementation outcome still open.",
+        "research_questions": [
+          "Were UTMs and hidden form fields later added, and did the resulting data distinguish the campaigns in HoneyBook?"
+        ]
+      }
+    },
+    {
+      "local_key": "m5_specialization_and_proposal_stage",
+      "anchor_span_ids": [
+        "m5.t0229",
+        "m5.t0230",
+        "m5.t0231",
+        "m5.t0232",
+        "m5.t0233"
+      ],
+      "context_first_span_id": "m5.t0229",
+      "context_last_span_id": "m5.t0233",
+      "quote": "I think with you guys and being specialized in venues, it makes way more sense, um, just with the background and the community, too, if everybody's kind of in the same boat, for sure.",
+      "context_summary": "After Whitney asked whether Victoria and Blair were considering other ad-support options, Victoria said WIA's venue specialization and community made more sense to them than local alternatives. Whitney said she would send a proposal and explained that acceptance would open a contract and invoice. Victoria said it sounded good; no acceptance, payment, or enrollment is recorded.",
+      "moment_type": "observation",
+      "proposition": "The prospects directly identified venue specialization and a peer community as reasons WIA seemed more relevant than local alternatives, while the conversation remained at proposal stage.",
+      "audience_relevance": "Specialist knowledge and access to peers may be perceived value for wedding businesses choosing between generalist and industry-specific support.",
+      "qualifications": [
+        "This is a prospective buyer's stated perception, not an outcome or verified comparison of providers.",
+        "A proposal was to be sent; acceptance and payment are not reported.",
+        "No permission to use the prospect's statement publicly is supplied."
+      ],
+      "claim_status": "reported",
+      "sensitivity": "unknown",
+      "strength": 4,
+      "reasons": [
+        "The value statement is directly attributed to the prospect rather than inferred from WIA's pitch.",
+        "The proposal status is preserved and is not converted into a sale or testimonial."
+      ],
+      "discovery": {
+        "lenses": [
+          "audience_insight",
+          "service_value"
+        ],
+        "destination": "internal_intelligence",
+        "wia_contribution": "Whitney asked whether they were considering alternatives and explained the proposal, contract, and invoice steps; the prospects supplied the specialization and community rationale.",
+        "attention_reason": "The exchange is useful buyer-value intelligence, but there is no confirmed purchase or permission for public use.",
+        "research_questions": [
+          "Did Victoria and Blair accept the proposal or proceed to contract and payment?"
+        ]
+      }
+    },
+    {
+      "local_key": "m6_brand_foundations_and_landing_pages",
+      "anchor_span_ids": [
+        "m6.t0337",
+        "m6.t0338",
+        "m6.t0339",
+        "m6.t0342",
+        "m6.t0343",
+        "m6.t0344",
+        "m6.t0345",
+        "m6.t0347"
+      ],
+      "context_first_span_id": "m6.t0337",
+      "context_last_span_id": "m6.t0347",
+      "quote": "And she did it in a day, right? Because, like, all of that, like, already existed.",
+      "context_summary": "After Emily's workshop on brand and website foundations, Whitney connected that work to WIA's usual practice of sending ads to landing pages. Whitney said clear brand guidelines and existing website assets can make a tailored ad landing page easier to assemble, contrasting some Accelerator clients who take months to build one with an unnamed past client who made one in a day. She added that couples may research the wider website even when an ad goes to a landing page. Emily agreed that a polished ad page can feel disconnected if the rest of the site has not been addressed.",
+      "moment_type": "observation",
+      "proposition": "Whitney and Emily connected foundational brand and website work to the effort of building an ad landing page and to the consistency a couple may encounter across the broader site.",
+      "audience_relevance": "Wedding businesses preparing ad traffic may need to consider both the campaign destination and the wider online experience couples use to assess fit.",
+      "qualifications": [
+        "The one-day and multi-month comparisons are Whitney's reported examples, not a controlled comparison or measured performance result.",
+        "No conversion lift or causal effect is established.",
+        "The past client is unnamed, and no publication permission is supplied."
+      ],
+      "claim_status": "reported",
+      "sensitivity": "unknown",
+      "strength": 4.5,
+      "reasons": [
+        "The exchange shows two specialists connecting brand foundations to practical ad-page work rather than treating campaigns and websites as unrelated.",
+        "It includes a process contrast while preserving the anecdotal and unmeasured status of the timing examples."
+      ],
+      "discovery": {
+        "lenses": [
+          "wia_expertise",
+          "service_value",
+          "broader_principle"
+        ],
+        "destination": "public_opportunity",
+        "wia_contribution": "Whitney connected existing brand guidelines and website assets to WIA's landing-page work and added the couple's broader research journey; Emily reinforced the risk of a visual and messaging disconnect.",
+        "attention_reason": "This makes otherwise invisible preparation for ad traffic tangible without claiming that faster page creation caused better results.",
+        "research_questions": []
+      }
+    },
+    {
+      "local_key": "m6_multiple_audiences_site_structure",
+      "anchor_span_ids": [
+        "m6.t0351",
+        "m6.t0354",
+        "m6.t0355",
+        "m6.t0356",
+        "m6.t0357",
+        "m6.t0358",
+        "m6.t0359",
+        "m6.t0360",
+        "m6.t0362",
+        "m6.t0366",
+        "m6.t0367",
+        "m6.t0368"
+      ],
+      "context_first_span_id": "m6.t0351",
+      "context_last_span_id": "m6.t0369",
+      "quote": "I wouldn't necessarily say that you need, like, a separate page for, like, South Asian weddings.",
+      "context_summary": "Whitney relayed an attendee's question about one business serving weddings, corporate and other events, and Indian and South Asian weddings. Emily said dedicated pages are often preferable for distinct audiences, but did not recommend a separate South Asian weddings page by default; she pointed instead to clear messaging and imagery that speak to those couples. She also described thinking through sitemap and keyword choices by audience. Whitney added that separate landing pages and campaigns can support distinct event sectors, then asked about blogging; Emily described a blog organized so different audiences can find relevant content.",
+      "moment_type": "decision",
+      "proposition": "Emily distinguished between audiences that may need their own service pages and cultural or stylistic distinctions that may be better conveyed through relevant messaging and imagery; Whitney connected that distinction to ad landing pages and campaigns.",
+      "audience_relevance": "Wedding professionals serving multiple client types may need to make each audience's services and next steps clear without assuming every distinction requires a separate brand or navigation category.",
+      "qualifications": [
+        "The advice is a response to one attendee's scenario and does not establish a universal page structure.",
+        "No implementation or resulting inquiry behavior is reported."
+      ],
+      "claim_status": "reported",
+      "sensitivity": "unknown",
+      "strength": 4.5,
+      "reasons": [
+        "The exchange preserves an important distinction between genuinely separate service audiences and a wedding subcategory that may not require its own page.",
+        "Emily's website reasoning and Whitney's advertising application are separately attributable."
+      ],
+      "discovery": {
+        "lenses": [
+          "audience_insight",
+          "wia_expertise",
+          "broader_principle"
+        ],
+        "destination": "public_opportunity",
+        "wia_contribution": "Whitney posed the attendee's multi-audience problem, connected distinct sectors to landing pages and campaign structure, and asked how blog strategy fits; Emily supplied the website and audience-journey reasoning.",
+        "attention_reason": "The conversation avoids a one-size-fits-all rule and shows how buyer clarity can shape both site organization and advertising.",
+        "research_questions": []
+      }
+    },
+    {
+      "local_key": "m6_brand_design_collaboration_process",
+      "anchor_span_ids": [
+        "m6.t0372",
+        "m6.t0373",
+        "m6.t0376",
+        "m6.t0378",
+        "m6.t0379",
+        "m6.t0380",
+        "m6.t0381",
+        "m6.t0382",
+        "m6.t0383",
+        "m6.t0384",
+        "m6.t0385"
+      ],
+      "context_first_span_id": "m6.t0372",
+      "context_last_span_id": "m6.t0385",
+      "quote": "do you like this? But then also do you think it works for your ideal clients?",
+      "context_summary": "Whitney asked Emily to explain how a brand strategy becomes visual design, noting that WIA typically receives brand guidelines already completed. Emily described a strategy call followed by an extensive mood board covering messaging, design choices, and website style, with structured client feedback asking both whether the client likes the direction and whether it fits the intended audience. After agreement, the studio presents logos and other brand elements, accepts revisions, and moves on to guidelines and website design. Emily said revisions are a normal part of the process and estimated that about 25 to 30 percent of clients give semi-extensive revisions.",
+      "moment_type": "mechanism",
+      "proposition": "Emily described a staged brand-design process in which client preference and strategic fit are both checked before visual work proceeds, with revisions treated as normal collaboration.",
+      "audience_relevance": "Wedding-business owners commissioning brand work may want to understand how their own preferences and intended clients can both inform design decisions.",
+      "qualifications": [
+        "The process is Emily's description of her studio's work, not a WIA-delivered branding service.",
+        "The 25 to 30 percent revision estimate is Emily's reported figure; no underlying data is supplied.",
+        "No client-specific outcome or publication permission is supplied."
+      ],
+      "claim_status": "estimated",
+      "sensitivity": "unknown",
+      "strength": 4.5,
+      "reasons": [
+        "Whitney's question elicits otherwise invisible collaboration stages and the rationale for structured feedback.",
+        "The answer preserves the distinction between Emily's brand-design work and WIA's ad-strategy role."
+      ],
+      "discovery": {
+        "lenses": [
+          "service_value",
+          "broader_principle",
+          "wia_expertise"
+        ],
+        "destination": "public_opportunity",
+        "wia_contribution": "Whitney asked about the strategy-to-design bridge from the perspective of an ad strategist who receives existing guidelines; Emily explained her studio's process and client feedback checks.",
+        "attention_reason": "This demonstrates how client input can be structured around both personal fit and audience strategy, without implying that revision is a process failure.",
+        "research_questions": []
+      }
+    },
+    {
+      "local_key": "m6_rebrand_lifespan_conditions",
+      "anchor_span_ids": [
+        "m6.t0386",
+        "m6.t0388",
+        "m6.t0391",
+        "m6.t0392",
+        "m6.t0394",
+        "m6.t0397",
+        "m6.t0399"
+      ],
+      "context_first_span_id": "m6.t0386",
+      "context_last_span_id": "m6.t0399",
+      "quote": "your brand should work for you for, like, 10 to 20 plus years.",
+      "context_summary": "Whitney asked about wedding professionals who rebrand every few years and whether strong foundational branding should last. Emily estimated 10 to 20 or more years if the business name, audience, and market tier remain suitable. She identified a substantial niche or positioning change as a reason to consider a refresh, while noting that established brands may modernize without abandoning their underlying identity.",
+      "moment_type": "observation",
+      "proposition": "Emily's estimate of brand longevity was conditional on continuity in the business name, target clients, and market tier; a meaningful repositioning could justify a refresh.",
+      "audience_relevance": "Wedding-business owners considering repeated redesigns may need to distinguish a change in market position from changes made mainly to follow trends.",
+      "qualifications": [
+        "The 10-to-20-plus-year figure is Emily's professional estimate, not a measured industry lifespan or guarantee.",
+        "The exchange does not assess any particular business's brand or establish whether a refresh is needed."
+      ],
+      "claim_status": "estimated",
+      "sensitivity": "unknown",
+      "strength": 4,
+      "reasons": [
+        "The answer supplies conditions and exceptions rather than a blanket rule against refreshing a brand.",
+        "Whitney's question makes the issue consequential for owners who repeatedly reconsider their branding."
+      ],
+      "discovery": {
+        "lenses": [
+          "broader_principle",
+          "audience_insight"
+        ],
+        "destination": "public_opportunity",
+        "wia_contribution": "Whitney raised the recurring-rebrand question and asked what conditions affect brand longevity; the estimate and repositioning distinctions are Emily's.",
+        "attention_reason": "The exchange may help examine when a visual refresh responds to a real positioning change, while keeping the lifespan estimate attributed and bounded.",
+        "research_questions": []
+      }
+    },
+    {
+      "local_key": "m6_adjacent_search_intent",
+      "anchor_span_ids": [
+        "m6.t0403",
+        "m6.t0404",
+        "m6.t0408",
+        "m6.t0413",
+        "m6.t0417",
+        "m6.t0420",
+        "m6.t0426",
+        "m6.t0427",
+        "m6.t0429",
+        "m6.t0430",
+        "m6.t0431",
+        "m6.t0432",
+        "m6.t0434",
+        "m6.t0440",
+        "m6.t0442",
+        "m6.t0447",
+        "m6.t0450",
+        "m6.t0455",
+        "m6.t0458",
+        "m6.t0460",
+        "m6.t0461",
+        "m6.t0464",
+        "m6.t0474",
+        "m6.t0475",
+        "m6.t0476",
+        "m6.t0480",
+        "m6.t0482"
+      ],
+      "context_first_span_id": "m6.t0403",
+      "context_last_span_id": "m6.t0482",
+      "quote": "Um, so we wouldn't want you ranking to say, like, marquee lights available, and then people click on an ad and get there, and then they're not there",
+      "context_summary": "A workshop attendee who said his business already ranked well for ice sculptures asked how to reach people searching for adjacent wedding trends such as marquee lights or champagne towers, which his business did not offer. Emily cautioned against implying those services were available, and suggested relevant blog or FAQ content, keyword research, and possible partnerships. As the attendee clarified that he wanted to connect adjacent interests to ice sculptures rather than sell those services, Emily also discussed complementary imagery and content, and Whitney added that awareness-stage prospects may need nurturing before they are ready for a detailed inquiry form.",
+      "moment_type": "decision",
+      "proposition": "The exchange distinguished truthful promotion of an existing service in the context of adjacent wedding interests from implying that the business sells services it does not offer.",
+      "audience_relevance": "Wedding businesses already visible for a core service may want to reach couples exploring related needs without confusing them about what the business actually provides.",
+      "qualifications": [
+        "The examples and recommendations respond to one attendee's ice-sculpture business and market; they are not validated as effective in other markets.",
+        "Blogging, keyword research, partnerships, complementary imagery, and nurturing were suggestions, not reported implementations or results.",
+        "The conversation distinguishes an ad that falsely claims an adjacent service is available from imagery that presents it as a complement to the offered service; it does not establish legal advice."
+      ],
+      "claim_status": "reported",
+      "sensitivity": "unknown",
+      "strength": 5,
+      "reasons": [
+        "The attendee's constraint changes the recommendation, and Emily clarifies the difference between misleading service claims and complementary positioning.",
+        "Whitney adds the separate issue of audience readiness and nurture, preserving a distinct WIA contribution to the discussion."
+      ],
+      "discovery": {
+        "lenses": [
+          "audience_insight",
+          "wia_expertise",
+          "broader_principle"
+        ],
+        "destination": "public_opportunity",
+        "wia_contribution": "Whitney connected the attendee's question to awareness-stage advertising and the need to nurture less-qualified prospects; Emily supplied the content and positioning recommendations and refined them after the attendee clarified the offer.",
+        "attention_reason": "The exchange contains a meaningful truthfulness trade-off, a revision based on client knowledge, and a distinction between cold interest and inquiry-ready demand.",
+        "research_questions": []
+      }
+    },
+    {
+      "local_key": "m6_followup_capacity_and_nurture",
+      "anchor_span_ids": [
+        "m6.t0485",
+        "m6.t0486",
+        "m6.t0492",
+        "m6.t0493",
+        "m6.t0494",
+        "m6.t0495",
+        "m6.t0497",
+        "m6.t0499",
+        "m6.t0500",
+        "m6.t0502",
+        "m6.t0504",
+        "m6.t0505",
+        "m6.t0506",
+        "m6.t0507",
+        "m6.t0508"
+      ],
+      "context_first_span_id": "m6.t0485",
+      "context_last_span_id": "m6.t0508",
+      "quote": "Automating felt kind of spammy, and was hard to track responses to",
+      "context_summary": "The workshop attendee described getting many early-stage leads without an event date, spending substantial admin time following up, and finding automation spammy and difficult to track. He asked how long to keep nurturing people. Whitney said an initial nurture sequence might run around 30 days, with continued follow-up potentially extending for several months depending on the event timeline and purchase. She contrasted repeated generic check-ins with useful marketing that educates, shares images, or links to relevant content, and mentioned a general monthly email. She did not specify a fixed touch frequency or report an implementation.",
+      "moment_type": "objection",
+      "proposition": "In response to concerns about low-readiness leads, labor, and spammy automation, Whitney recommended useful, sustained nurture rather than repeated generic check-ins, while making duration dependent on the event and buying timeline.",
+      "audience_relevance": "Wedding businesses may need to balance timely follow-up with staff capacity when inquiries arrive before a couple has a date or is ready to buy.",
+      "qualifications": [
+        "The approximately 30-day initial sequence and possible six-month follow-up were recommendations in a workshop, not a universal cadence or tested outcome.",
+        "The attendee's lead volume, lead quality, and admin burden are his reported experience.",
+        "The exact message frequency, stopping rule, and any resulting booking outcome are not provided."
+      ],
+      "claim_status": "reported",
+      "sensitivity": "unknown",
+      "strength": 4.5,
+      "reasons": [
+        "The attendee names a specific objection to automation and a meaningful labor burden, then asks for a decision rule.",
+        "Whitney responds with a value-based alternative and time-bounded guidance while leaving frequency unresolved."
+      ],
+      "discovery": {
+        "lenses": [
+          "audience_insight",
+          "wia_expertise",
+          "broader_principle"
+        ],
+        "destination": "public_opportunity",
+        "wia_contribution": "Whitney tied nurture duration to event timing and the likely buying window, and recommended useful marketing content rather than repeated generic check-ins.",
+        "attention_reason": "This exchange could illuminate the tension between human follow-up capacity and keeping early-stage prospects engaged without presenting automation as a substitute for judgment.",
+        "research_questions": [
+          "What cadence and stopping criteria did Whitney have in mind for the proposed initial sequence and longer follow-up period?"
+        ]
+      }
+    }
+  ],
+  "processed_meetings": [
+    {
+      "meeting_ref": "m1",
+      "first_span_id": "m1.t0001",
+      "last_span_id": "m1.t0457",
+      "span_count": 457
+    },
+    {
+      "meeting_ref": "m2",
+      "first_span_id": "m2.t0001",
+      "last_span_id": "m2.t0212",
+      "span_count": 212
+    },
+    {
+      "meeting_ref": "m3",
+      "first_span_id": "m3.t0001",
+      "last_span_id": "m3.t0067",
+      "span_count": 67
+    },
+    {
+      "meeting_ref": "m4",
+      "first_span_id": "m4.t0001",
+      "last_span_id": "m4.t0309",
+      "span_count": 309
+    },
+    {
+      "meeting_ref": "m5",
+      "first_span_id": "m5.t0001",
+      "last_span_id": "m5.t0243",
+      "span_count": 243
+    },
+    {
+      "meeting_ref": "m6",
+      "first_span_id": "m6.t0001",
+      "last_span_id": "m6.t0515",
+      "span_count": 515
+    }
+  ],
+  "coverage_notes": [
+    "The inventory confirms six delivered transcript records; the meeting metadata states zoom_metadata_not_supplied. Speaker labels and names are therefore treated as transcript attribution, not independently verified identity, and no publication permissions are supplied.",
+    "In m1, the market-research email, task assignment, and spreadsheet are discussed at m1.t0140-m1.t0215, but the actual research questions, client responses, and findings are not in the supplied exchange. The offboarding SOP is still being recalled and drafted at m1.t0338-m1.t0352, so no completed process or outcome is established.",
+    "In m2, Emily's scope-creep and niche-expansion discussion at m2.t0118-m2.t0196 was not elevated as a WIA service claim: it concerns another provider's client situation and contains no WIA resolution or verified outcome.",
+    "The m4 and m5 account and lead figures are participant-reported or discussed in live account reviews, not independently corroborated. The proposal stage in m5.t0231-m5.t0233 is not treated as an accepted sale.",
+    "The m6 workshop contains many additional teaching points. The 0.05-second website-impression figure at m6.t0223 is not treated as measured evidence because no supporting source or study is supplied. Selected workshop moments retain the speaker's attribution and do not imply implementation, results, or publication clearance."
+  ]
+}

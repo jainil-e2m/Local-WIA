@@ -1,0 +1,2053 @@
+{
+  "source_path": "C:/Users/Jainil Trivedi/Downloads/WIA_Content_System_Handbook.docx",
+  "archived_path": "C:/Users/Jainil Trivedi/Desktop/Wedding_Industry_Ads/content_atelier/research/sources/wia-handbook-2026-10-13/WIA_Content_System_Handbook.docx",
+  "sha256": "a01abe8df5f363586479bb3df4e0d999c35c07258c4d8f524a1fbe61ae90fcff",
+  "extraction": "Ordered OOXML body blocks and table rows; block IDs are logical locators, not page numbers.",
+  "audit": {
+    "body_blocks": 211,
+    "nonempty_paragraphs": 188,
+    "tables": 11,
+    "table_rows": 71,
+    "tracked_insertions": 0,
+    "tracked_deletions": 0,
+    "embedded_media": [],
+    "text_boxes": 0,
+    "supplemental_parts": [
+      {
+        "part": "word/header1.xml",
+        "text": "Wedding Industry Ads"
+      },
+      {
+        "part": "word/footer1.xml",
+        "text": "WIA Content System  |  "
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "B001",
+      "kind": "p",
+      "style": "Title",
+      "text": "WIA Content System Handoff",
+      "links": []
+    },
+    {
+      "id": "B002",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Version 1.0 | Prepared for Whitney Hodges | 13 October 2026",
+      "links": []
+    },
+    {
+      "id": "B003",
+      "kind": "p",
+      "style": "Normal",
+      "text": "We want this system to find content opportunities that help wedding business owners understand our perspective, our process, and the value of working with Wedding Industry Ads. Our recordings contain useful client details, but the strongest angle often comes from understanding what we were helping the business figure out and why our approach matters.",
+      "links": []
+    },
+    {
+      "id": "B004",
+      "kind": "p",
+      "style": "Normal",
+      "text": "This package turns Whitney's feedback, established content strategy, and existing voice guidance into explicit editorial rules. It is a working specification for the application team. New example framings, scoring thresholds, and implementation choices are recommendations for calibration, rather than additional claims of Whitney's approval.",
+      "links": []
+    },
+    {
+      "id": "B005",
+      "kind": "p",
+      "style": "Heading2",
+      "text": "What to use",
+      "links": []
+    },
+    {
+      "id": "B006",
+      "kind": "tbl",
+      "rows": [
+        {
+          "id": "B006.R01",
+          "cells": [
+            "File",
+            "Purpose",
+            "How the application should use it"
+          ]
+        },
+        {
+          "id": "B006.R02",
+          "cells": [
+            "Brand and content knowledge",
+            "WIA positioning, audience, offers, content pillars, and voice",
+            "Persistent reference for selecting and developing ideas"
+          ]
+        },
+        {
+          "id": "B006.R03",
+          "cells": [
+            "Content angle decisions",
+            "Extraction, selection, ranking, brief fields, and evidence rules",
+            "Instructions for processing each weekly batch"
+          ]
+        },
+        {
+          "id": "B006.R04",
+          "cells": [
+            "Calibration examples",
+            "Six source-matched examples and recurring editorial corrections",
+            "Examples of preferable framing and known failure modes"
+          ]
+        },
+        {
+          "id": "B006.R05",
+          "cells": [
+            "Application handoff",
+            "Inputs, workflow, feedback, freshness, and evaluation",
+            "Specification for the application team"
+          ]
+        },
+        {
+          "id": "B006.R06",
+          "cells": [
+            "Angle selection prompt",
+            "Reusable instructions for the model",
+            "Pair with the knowledge, examples, and actual source inputs"
+          ]
+        },
+        {
+          "id": "B006.R07",
+          "cells": [
+            "Output schema",
+            "Structured response contract",
+            "Validate outputs before presenting them in the UI"
+          ]
+        },
+        {
+          "id": "B006.R08",
+          "cells": [
+            "Calibration tests",
+            "Test cases based on the six referenced angles",
+            "Test editorial behavior and evidence handling"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B007",
+      "kind": "p",
+      "style": "Normal",
+      "text": "",
+      "links": []
+    },
+    {
+      "id": "B008",
+      "kind": "p",
+      "style": "Normal",
+      "text": "The editable handbook brings the reference documents together for human review. The source files are separate so the team can update knowledge without rewriting the prompt or replacing the examples.",
+      "links": []
+    },
+    {
+      "id": "B009",
+      "kind": "p",
+      "style": "Heading2",
+      "text": "The standard we are transferring",
+      "links": []
+    },
+    {
+      "id": "B010",
+      "kind": "p",
+      "style": "Normal",
+      "text": "The system should be able to explain why a specific conversation deserves to become content for WIA. It should preserve the concrete example while finding the larger, relevant point. A stronger hook cannot repair an idea selected for the wrong strategic reason.",
+      "links": []
+    },
+    {
+      "id": "B011",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Useful content can teach a principle, reveal our process, express a supported opinion, show offer value, or surface a meaningful audience insight. Every piece needs a clear purpose. Every piece does not need to describe a service or ask for a sale.",
+      "links": []
+    },
+    {
+      "id": "B012",
+      "kind": "p",
+      "style": "Heading1",
+      "text": "WIA Brand and Content Knowledge",
+      "links": []
+    },
+    {
+      "id": "B013",
+      "kind": "p",
+      "style": "Heading2",
+      "text": "Our position",
+      "links": []
+    },
+    {
+      "id": "B014",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Wedding Industry Ads helps wedding venues and wedding professionals advertise through Google and Meta, with the foundations needed to support effective campaigns. We bring advertising expertise together with an understanding of wedding businesses, their couples, and their markets.",
+      "links": []
+    },
+    {
+      "id": "B015",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Whitney is a strategic marketing thinker with a 12-year background in the wedding and events industry. Her founder content helps wedding business owners see familiar marketing and growth decisions more clearly. Advertising is the area where much of that thinking becomes practical.",
+      "links": []
+    },
+    {
+      "id": "B016",
+      "kind": "p",
+      "style": "Normal",
+      "text": "The desired reaction is often, “I hadn't looked at it that way before.” Achieve that through useful reasoning and recognizable examples. Surprise, controversy, and a sales invitation are not required in every piece.",
+      "links": []
+    },
+    {
+      "id": "B017",
+      "kind": "p",
+      "style": "Heading2",
+      "text": "The people we want to reach",
+      "links": []
+    },
+    {
+      "id": "B018",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Our audience includes venue owners, photographers, planners, videographers, and other wedding professionals. Many understand marketing, know their differentiators, and have already invested in growth. Write at a level that respects that experience.",
+      "links": []
+    },
+    {
+      "id": "B019",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Common situations include inconsistent inquiries, uncertainty about which marketing produces bookings, campaigns that lack a clear strategy, messaging that does not reflect the business's strengths, and limited capacity to respond and follow up while serving clients. These are possible audience situations, not assumptions about every reader.",
+      "links": []
+    },
+    {
+      "id": "B020",
+      "kind": "p",
+      "style": "Normal",
+      "text": "The person on a recording is the source participant. The intended content audience is the prospective WIA client who would care about the insight. They may differ. A photographer's copy review can illustrate a process relevant to venues and planners, while a venue-specific campaign breakdown may properly stay focused on venues.",
+      "links": []
+    },
+    {
+      "id": "B021",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Wedding buying has distinctive constraints. Couples are usually making a one-time, meaningful decision about this service for a particular wedding. They compare options, picture an experience, and need confidence in their choice. Their decision window varies by service and situation. Do not assume every couple spends months researching or follows a fixed funnel sequence.",
+      "links": []
+    },
+    {
+      "id": "B022",
+      "kind": "p",
+      "style": "Heading2",
+      "text": "What we want content to accomplish",
+      "links": []
+    },
+    {
+      "id": "B023",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Content should reach relevant new people, build trust in our judgment, and help qualified prospects understand our offers. The selected mix should create demand for our expertise over time. Useful education belongs in that mix, alongside opinions, process, founder perspective, solution selling, and supported social proof.",
+      "links": []
+    },
+    {
+      "id": "B024",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Show what working with WIA involves when the source supports it. Our client collaboration, questions, decisions, and reasoning can be the content. The specific client issue can serve as evidence for that larger idea.",
+      "links": []
+    },
+    {
+      "id": "B025",
+      "kind": "p",
+      "style": "Heading2",
+      "text": "Offer knowledge and scope",
+      "links": []
+    },
+    {
+      "id": "B026",
+      "kind": "tbl",
+      "rows": [
+        {
+          "id": "B026.R01",
+          "cells": [
+            "Offer",
+            "Role and useful content connection",
+            "Scope boundary"
+          ]
+        },
+        {
+          "id": "B026.R02",
+          "cells": [
+            "ELEVATE",
+            "Ongoing, done-for-you advertising partnership. Relevant examples can show strategic planning, Google and Meta campaign management, creative, advertising landing pages, tracking, and inquiry follow-up through LeadLock.",
+            "Do not imply WIA runs every part of a client's business or guarantees bookings. Verify a client's actual contracted scope before describing delivery."
+          ]
+        },
+        {
+          "id": "B026.R03",
+          "cells": [
+            "Ads Accelerators",
+            "Three-month guided implementation paths for Google Search, Meta, or both. Content can show messaging and positioning work, initial campaign development, support, and learning to interpret data and make decisions.",
+            "Do not frame this as a self-serve video course or require prospects to solve their UVP before receiving help. Verify the current program details before publishing specifics."
+          ]
+        },
+        {
+          "id": "B026.R04",
+          "cells": [
+            "LeadLock",
+            "Inquiry management and follow-up platform. Relevant content can demonstrate connected forms, tracking, pipelines, automated email or SMS follow-up, and supported scheduling use cases.",
+            "Describe verified capabilities and workflows. A platform feature, an individual configuration, and a client outcome are different claims."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B027",
+      "kind": "p",
+      "style": "Normal",
+      "text": "",
+      "links": []
+    },
+    {
+      "id": "B028",
+      "kind": "p",
+      "style": "Normal",
+      "text": "LeadLock is generally required for ELEVATE because of the forms, tracking, landing-page, and follow-up setup WIA uses. Rare exceptions exist. Do not promise an exception or present a historical exception as the standard offer.",
+      "links": []
+    },
+    {
+      "id": "B029",
+      "kind": "p",
+      "style": "Normal",
+      "text": "WIA's messaging and positioning work can inform a designer's decisions. It does not make WIA a visual branding agency directing logos, fonts, or color systems. Do not expand our advertising work into full-service sales management or guaranteed click-to-booking delivery.",
+      "links": []
+    },
+    {
+      "id": "B030",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Keep prices, availability, policies, team details, and campaign or program specifications in a dated offer record. This reference intentionally omits pricing. Use the latest verified record when a draft requires it.",
+      "links": []
+    },
+    {
+      "id": "B031",
+      "kind": "p",
+      "style": "Heading2",
+      "text": "The beliefs that guide selection",
+      "links": []
+    },
+    {
+      "id": "B032",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Advertising does not start inside Google Ads or Meta Ads Manager. We need to understand the intended couples, what they value, and why the business is a meaningful choice. Our work helps clients develop that clarity.",
+      "links": []
+    },
+    {
+      "id": "B033",
+      "kind": "p",
+      "style": "Normal",
+      "text": "A technically sound campaign still needs the right message and destination. Messaging, imagery, landing pages, tracking, and follow-up can influence what happens after someone sees or clicks an ad. Explain the specific relationship relevant to the story rather than inserting this entire list into every post.",
+      "links": []
+    },
+    {
+      "id": "B034",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Business owners often can articulate their differentiators in a conversation. Their marketing may fail to communicate those strengths. Do not turn a gap in the marketing into a claim that the owner does not understand or cannot describe their business.",
+      "links": []
+    },
+    {
+      "id": "B035",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Technical knowledge and client knowledge should inform the same decisions. Our team understands advertising; the client understands their service, their buyers, and their market. Show the questions that bring those forms of expertise together.",
+      "links": []
+    },
+    {
+      "id": "B036",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Measurement should inform decisions. Distinguish clicks, inquiries, booked consultations, bookings, revenue, and attributable revenue. A change in total business revenue is not automatically a measured advertising result.",
+      "links": []
+    },
+    {
+      "id": "B037",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Systems can support growth while owners serve their clients. Demonstrate the relevant steps and reduced manual work when supported. Do not turn automation into a promise that a business can stop participating in sales or client service.",
+      "links": []
+    },
+    {
+      "id": "B038",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Strategy should reflect the business's goals, budget, stage, offer, and audience. A useful example of our approach does not establish that every business needs the identical campaign structure, platform, or landing page.",
+      "links": []
+    },
+    {
+      "id": "B039",
+      "kind": "p",
+      "style": "Heading2",
+      "text": "Savannah strategy and content types",
+      "links": []
+    },
+    {
+      "id": "B040",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Savannah's content strategy governs purpose, packaging, distribution, and CTAs. Whitney's founder voice shapes expression. Keep those functions distinct. Do not quietly replace the strategy with a new framework or turn the founder guide's recurring themes into extra content pillars.",
+      "links": []
+    },
+    {
+      "id": "B041",
+      "kind": "tbl",
+      "rows": [
+        {
+          "id": "B041.R01",
+          "cells": [
+            "Pillar",
+            "Primary purpose",
+            "Established content types",
+            "Selection question"
+          ]
+        },
+        {
+          "id": "B041.R02",
+          "cells": [
+            "ATTRACT",
+            "Reach relevant new audiences and create interest",
+            "Polarizing opinions, founder-forward perspectives, campaign breakdowns, trends",
+            "Why would a wedding business owner unfamiliar with WIA pay attention?"
+          ]
+        },
+        {
+          "id": "B041.R03",
+          "cells": [
+            "WARM",
+            "Build trust and deepen understanding",
+            "UVP, thought shifts, processes, behind the scenes, education, founder story",
+            "What would help someone understand or trust our judgment?"
+          ]
+        },
+        {
+          "id": "B041.R04",
+          "cells": [
+            "CONVERT",
+            "Clarify the value and fit of an offer",
+            "Solution selling, social proof",
+            "What makes working with WIA or using this offer more tangible?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B042",
+      "kind": "p",
+      "style": "Normal",
+      "text": "",
+      "links": []
+    },
+    {
+      "id": "B043",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Choose one primary pillar based on the intended audience effect. A process example may be WARM when it builds trust or CONVERT when it makes ELEVATE's delivery concrete. State that purpose instead of listing all three pillars to avoid a choice.",
+      "links": []
+    },
+    {
+      "id": "B044",
+      "kind": "p",
+      "style": "Normal",
+      "text": "One valuable recording may support several directions. Select genuinely different points, rather than three near-identical versions with different pillar labels. Follow the current content plan; do not invent fixed pillar percentages or manufacture an unsupported trend to fill a gap.",
+      "links": []
+    },
+    {
+      "id": "B045",
+      "kind": "p",
+      "style": "Normal",
+      "text": "For finished content, use Savannah's sequence: Hook → Problems, Desires, or Symptoms → Main Point → Transformation → CTA. Adapt the substance to the purpose and format. Transformation can mean a clearer understanding or changed belief when no outcome evidence exists.",
+      "links": []
+    },
+    {
+      "id": "B046",
+      "kind": "p",
+      "style": "Heading2",
+      "text": "Voice in practice",
+      "links": []
+    },
+    {
+      "id": "B047",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Write with calm confidence, warmth, and curiosity. Give the reader enough reasoning to understand the conclusion. Use familiar language and concrete wedding-industry situations. Be direct without talking down to experienced business owners.",
+      "links": []
+    },
+    {
+      "id": "B048",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Use “we” and “our” for WIA's work. Use “I” for Whitney's personal experience or perspective when she is the actual speaker. Team expertise can become WIA content without being presented as an experience Whitney personally had.",
+      "links": []
+    },
+    {
+      "id": "B049",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Vary openings. An observation, question, supported opinion, verified result, or relevant industry moment can all work. Do not make every piece begin with “I had a conversation with a client,” and do not mimic transcript fillers to sound human.",
+      "links": []
+    },
+    {
+      "id": "B050",
+      "kind": "tbl",
+      "rows": [
+        {
+          "id": "B050.R01",
+          "cells": [
+            "Avoid",
+            "Preferred editorial move"
+          ]
+        },
+        {
+          "id": "B050.R02",
+          "cells": [
+            "“You don't have an X problem, you have a Y problem” and formulaic “It's not X, it's Y” hooks",
+            "State the actual observation and explain its significance."
+          ]
+        },
+        {
+          "id": "B050.R03",
+          "cells": [
+            "“Here's the secret,” “game-changing,” “growth hack,” “dominate,” or “skyrocket”",
+            "Name the decision, process, or supported result."
+          ]
+        },
+        {
+          "id": "B050.R04",
+          "cells": [
+            "“Struggling to get leads?” as a default opening",
+            "Use a specific, recognizable situation when the source supports it."
+          ]
+        },
+        {
+          "id": "B050.R05",
+          "cells": [
+            "“Nobody is talking about this” or sweeping claims about bad agencies",
+            "Express our perspective and substantiate it without inventing consensus or motives."
+          ]
+        },
+        {
+          "id": "B050.R06",
+          "cells": [
+            "Academic titles such as “Check buyer meaning before excluding a style keyword”",
+            "Frame the human or business significance, such as why client conversations matter to keyword decisions."
+          ]
+        },
+        {
+          "id": "B050.R07",
+          "cells": [
+            "Em dashes, repeated dramatic fragments, or forced punchiness",
+            "Use clear punctuation and natural variation in sentence length."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B051",
+      "kind": "p",
+      "style": "Normal",
+      "text": "",
+      "links": []
+    },
+    {
+      "id": "B052",
+      "kind": "p",
+      "style": "Normal",
+      "text": "The founder guide contains illustrative phrases and historical copy with constructions Whitney later rejected. Current explicit corrections take precedence. Its vocabulary and examples are references, not a set of required catchphrases or permission to reuse stale claims.",
+      "links": []
+    },
+    {
+      "id": "B053",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Earn the CTA. It should follow naturally from the idea and the current campaign objective. Do not attach ELEVATE, LeadLock, or “DM ADS” to every piece by default. A caption accompanying a reel should add useful context or a fresh implication while staying aligned with the reel's point.",
+      "links": []
+    },
+    {
+      "id": "B054",
+      "kind": "p",
+      "style": "Heading1",
+      "text": "WIA Content Angle Decisions",
+      "links": []
+    },
+    {
+      "id": "B055",
+      "kind": "p",
+      "style": "Heading2",
+      "text": "Start with the editorial question",
+      "links": []
+    },
+    {
+      "id": "B056",
+      "kind": "p",
+      "style": "Normal",
+      "text": "What does this conversation reveal that would help a relevant wedding business owner understand our perspective, value our expertise, or see how our work could help them?",
+      "links": []
+    },
+    {
+      "id": "B057",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Keep three levels in view: the specific exchange, the decision or reasoning it reveals, and the broader significance for the intended audience. The final angle should retain enough of the exchange to be concrete. “Messaging matters” is too broad; “never say no posing” is too narrow for the strongest process story in the sample.",
+      "links": []
+    },
+    {
+      "id": "B058",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Do not assume every useful topic needs to become public content. Call recordings can also yield internal audience research, objections, delivery improvements, and product feedback.",
+      "links": []
+    },
+    {
+      "id": "B059",
+      "kind": "p",
+      "style": "Heading2",
+      "text": "Read the recording in context",
+      "links": []
+    },
+    {
+      "id": "B060",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Identify the call's purpose, the business involved, its goal, the decisions being discussed, who contributed each idea, and whether the discussion is a proposal, completed action, or reported result. Use surrounding turns so a selected sentence does not lose its meaning.",
+      "links": []
+    },
+    {
+      "id": "B061",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Record the actual call identifier or URL if supplied, source filename, speaker labels, and elapsed timestamps. “Zoom Meeting - 1st June - 7th June” is a batch label in the reviewed sample. It cannot uniquely identify a call or establish a recording date or year.",
+      "links": []
+    },
+    {
+      "id": "B062",
+      "kind": "p",
+      "style": "Normal",
+      "text": "When only excerpts are available, assess what they support and request the precise missing segment through the application's retrieval workflow. Do not claim to have reviewed the full recording. Missing material can make a promising direction a hold rather than a selected angle.",
+      "links": []
+    },
+    {
+      "id": "B063",
+      "kind": "p",
+      "style": "Heading2",
+      "text": "Look through several lenses",
+      "links": []
+    },
+    {
+      "id": "B064",
+      "kind": "tbl",
+      "rows": [
+        {
+          "id": "B064.R01",
+          "cells": [
+            "Lens",
+            "What to look for",
+            "Possible public use"
+          ]
+        },
+        {
+          "id": "B064.R02",
+          "cells": [
+            "WIA expertise",
+            "A recommendation, diagnostic question, strategic tradeoff, or explanation",
+            "Opinion, thought shift, or campaign breakdown"
+          ]
+        },
+        {
+          "id": "B064.R03",
+          "cells": [
+            "Process and collaboration",
+            "How the team and client refine a decision",
+            "Process or behind-the-scenes content"
+          ]
+        },
+        {
+          "id": "B064.R04",
+          "cells": [
+            "Offer value",
+            "A concrete service step, workflow, feature demonstration, or fit explanation",
+            "Solution selling"
+          ]
+        },
+        {
+          "id": "B064.R05",
+          "cells": [
+            "Audience insight",
+            "A question, misconception, desire, buying motivation, or hesitation",
+            "An audience-relevant perspective or internal research"
+          ]
+        },
+        {
+          "id": "B064.R06",
+          "cells": [
+            "Proof and transformation",
+            "A verified result, change in workload, or meaningful change in understanding",
+            "Social proof or a story with precise attribution"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B065",
+      "kind": "p",
+      "style": "Normal",
+      "text": "",
+      "links": []
+    },
+    {
+      "id": "B066",
+      "kind": "p",
+      "style": "Normal",
+      "text": "These lenses are prompts to inspect the source, not quotas. A single recording can support more than one lens; some recordings may not support any strong public direction.",
+      "links": []
+    },
+    {
+      "id": "B067",
+      "kind": "p",
+      "style": "Heading2",
+      "text": "Turn a moment into a candidate",
+      "links": []
+    },
+    {
+      "id": "B068",
+      "kind": "p",
+      "style": "Normal",
+      "text": "For each promising moment, state what the client was trying to figure out, what WIA actually contributed, and why that matters to a prospective client. If the excerpt shows only the client speaking, identify the useful insight and retrieve WIA's contribution before claiming a process demonstration.",
+      "links": []
+    },
+    {
+      "id": "B069",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Write one central point. Decide who would care about it and what they should understand, believe, or do afterward. Select a primary pillar and content type. Include an offer connection only when it is a natural consequence of the point.",
+      "links": []
+    },
+    {
+      "id": "B070",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Choose the broadest defensible audience. Broaden a photographer's copy review to other wedding pros if the decision process applies. Keep technical or service-specific points narrow when expanding them would lose the insight.",
+      "links": []
+    },
+    {
+      "id": "B071",
+      "kind": "p",
+      "style": "Normal",
+      "text": "For a strong source, consider alternative directions with different audience effects. For example, a campaign explanation could support a founder perspective about decision stages or a solution-selling breakdown of ELEVATE. The alternatives should change the central point or intended shift, not merely the title.",
+      "links": []
+    },
+    {
+      "id": "B072",
+      "kind": "p",
+      "style": "Heading2",
+      "text": "Make an explicit disposition",
+      "links": []
+    },
+    {
+      "id": "B073",
+      "kind": "tbl",
+      "rows": [
+        {
+          "id": "B073.R01",
+          "cells": [
+            "Disposition",
+            "Use when",
+            "What to return"
+          ]
+        },
+        {
+          "id": "B073.R02",
+          "cells": [
+            "SELECT",
+            "A worthwhile point is sufficiently supported for editorial development",
+            "A concise brief and selection reason"
+          ]
+        },
+        {
+          "id": "B073.R03",
+          "cells": [
+            "REFRAME",
+            "The source is useful but the proposed angle is too narrow, generic, or strategically misdirected",
+            "A stronger direction and the change needed"
+          ]
+        },
+        {
+          "id": "B073.R04",
+          "cells": [
+            "HOLD",
+            "The direction is promising but lacks a material source segment or verification",
+            "The exact missing evidence and how to resolve it"
+          ]
+        },
+        {
+          "id": "B073.R05",
+          "cells": [
+            "INTERNAL",
+            "The insight is useful for sales, audience research, delivery, or product work",
+            "The internal insight and its intended use"
+          ]
+        },
+        {
+          "id": "B073.R06",
+          "cells": [
+            "SKIP",
+            "There is no strong, distinct, relevant opportunity in the available material",
+            "A short reason without forcing a replacement"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B074",
+      "kind": "p",
+      "style": "Normal",
+      "text": "",
+      "links": []
+    },
+    {
+      "id": "B075",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Different insights from one call can have different dispositions. Zadie's affordability concern can be INTERNAL while a possible LeadLock demonstration is HOLD. Do not hide inconvenient feedback to protect an offer; give it the appropriate use and context.",
+      "links": []
+    },
+    {
+      "id": "B076",
+      "kind": "p",
+      "style": "Heading2",
+      "text": "Rank after checking eligibility",
+      "links": []
+    },
+    {
+      "id": "B077",
+      "kind": "p",
+      "style": "Normal",
+      "text": "An invented result, material misattribution, unsupported product claim, or contradiction of a current instruction makes a candidate ineligible until corrected. A high score for relevance cannot compensate for that defect.",
+      "links": []
+    },
+    {
+      "id": "B078",
+      "kind": "p",
+      "style": "Normal",
+      "text": "The following rubric is a proposed starting point for calibration. It adds strategic purpose and evidence to the vendor's original categories. Scores are ordinal editorial judgments, not measured probabilities of approval or marketing performance. Apply the 1, 3, and 5 anchors; use 2 and 4 for intermediate cases.",
+      "links": []
+    },
+    {
+      "id": "B079",
+      "kind": "tbl",
+      "rows": [
+        {
+          "id": "B079.R01",
+          "cells": [
+            "Criterion",
+            "1",
+            "3",
+            "5"
+          ]
+        },
+        {
+          "id": "B079.R02",
+          "cells": [
+            "Audience relevance",
+            "Matters mainly to the source participant",
+            "Recognizable issue for a relevant segment",
+            "Clear reason the intended WIA prospect would care"
+          ]
+        },
+        {
+          "id": "B079.R03",
+          "cells": [
+            "Strategic value and brand fit",
+            "Generic lesson or misdirected message",
+            "Supports a pillar but WIA value is weak",
+            "Clearly advances the intended audience effect and our positioning"
+          ]
+        },
+        {
+          "id": "B079.R04",
+          "cells": [
+            "Distinctiveness",
+            "Repeats a familiar broad lesson",
+            "Some specific detail or perspective",
+            "Concrete, fresh significance with a real selection reason"
+          ]
+        },
+        {
+          "id": "B079.R05",
+          "cells": [
+            "Appropriate depth",
+            "Too technical, shallow, or overloaded",
+            "Usable point needing adjustment",
+            "Clear central point with enough reasoning for an experienced audience"
+          ]
+        },
+        {
+          "id": "B079.R06",
+          "cells": [
+            "Voice and framing",
+            "Academic, hype-driven, insulting, or formulaic",
+            "Clear but generic",
+            "Thoughtful, specific, confident, and natural"
+          ]
+        },
+        {
+          "id": "B079.R07",
+          "cells": [
+            "Source support",
+            "Central claim missing or contradicted",
+            "Partial support with a precise retrieval need",
+            "Evidence supports the proposed claim at its stated scope"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B080",
+      "kind": "p",
+      "style": "Normal",
+      "text": "",
+      "links": []
+    },
+    {
+      "id": "B081",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Initial selection rule: prioritize candidates scoring at least 4 on audience relevance, strategic value, and distinctiveness, with sufficient source support for the central claim. Require revision for a 1 or 2 on any criterion. Use HOLD when a material claim remains unsupported. Compare candidates against each other and the current plan; do not select on an average score alone.",
+      "links": []
+    },
+    {
+      "id": "B082",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Record the reason for the ranking and one nearest rejected alternative. This lets Whitney evaluate the selection judgment without reviewing a long internal analysis. A strong angle may still be deferred because a near-identical point was recently published.",
+      "links": []
+    },
+    {
+      "id": "B083",
+      "kind": "p",
+      "style": "Heading2",
+      "text": "Use a brief that earns its fields",
+      "links": []
+    },
+    {
+      "id": "B084",
+      "kind": "p",
+      "style": "Normal",
+      "text": "The UI should present the useful editorial information first and allow source detail to expand beneath it. Do not make the model fill seven fields before it has established that the idea is worth developing.",
+      "links": []
+    },
+    {
+      "id": "B085",
+      "kind": "tbl",
+      "rows": [
+        {
+          "id": "B085.R01",
+          "cells": [
+            "Required field for selected angles",
+            "What it should contain"
+          ]
+        },
+        {
+          "id": "B085.R02",
+          "cells": [
+            "Working title and central point",
+            "One understandable direction, not finished hook copy"
+          ]
+        },
+        {
+          "id": "B085.R03",
+          "cells": [
+            "Why this is worth content",
+            "Its significance to the intended prospect and reason for selection"
+          ]
+        },
+        {
+          "id": "B085.R04",
+          "cells": [
+            "Audience and intended shift",
+            "Who would care and what should change in understanding, belief, or action"
+          ]
+        },
+        {
+          "id": "B085.R05",
+          "cells": [
+            "Primary pillar and content type",
+            "Strategic purpose and the form of insight"
+          ]
+        },
+        {
+          "id": "B085.R06",
+          "cells": [
+            "What the source demonstrates",
+            "The observed WIA action, reasoning, offer value, or audience insight"
+          ]
+        },
+        {
+          "id": "B085.R07",
+          "cells": [
+            "Source and claim boundaries",
+            "Actual identifiers, speakers, timestamps, supported claims, and missing context"
+          ]
+        },
+        {
+          "id": "B085.R08",
+          "cells": [
+            "Development direction",
+            "How to make the point tangible using the example"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B086",
+      "kind": "p",
+      "style": "Normal",
+      "text": "",
+      "links": []
+    },
+    {
+      "id": "B087",
+      "kind": "p",
+      "style": "Normal",
+      "text": "An offer connection, real tension, possible format, and secondary direction are optional. A process story can work without conflict. A WARM piece can be complete without an immediate buying decision.",
+      "links": []
+    },
+    {
+      "id": "B088",
+      "kind": "p",
+      "style": "Heading2",
+      "text": "Revise the original categories",
+      "links": []
+    },
+    {
+      "id": "B089",
+      "kind": "tbl",
+      "rows": [
+        {
+          "id": "B089.R01",
+          "cells": [
+            "Original field",
+            "Recommendation"
+          ]
+        },
+        {
+          "id": "B089.R02",
+          "cells": [
+            "Argument",
+            "Keep as the central point."
+          ]
+        },
+        {
+          "id": "B089.R03",
+          "cells": [
+            "Audience",
+            "Keep, with the intended WIA prospect distinguished from the source participant."
+          ]
+        },
+        {
+          "id": "B089.R04",
+          "cells": [
+            "Tension",
+            "Optional. Use an actual hesitation, tradeoff, misconception, or desire when present."
+          ]
+        },
+        {
+          "id": "B089.R05",
+          "cells": [
+            "Take",
+            "Merge with argument; put the audience effect in intended shift."
+          ]
+        },
+        {
+          "id": "B089.R06",
+          "cells": [
+            "Mechanism",
+            "Use source demonstration and development direction. Explain the causal or decision logic when the evidence supports it."
+          ]
+        },
+        {
+          "id": "B089.R07",
+          "cells": [
+            "Reader decision",
+            "Broaden to what the audience should understand, believe, or do."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B090",
+      "kind": "p",
+      "style": "Normal",
+      "text": "",
+      "links": []
+    },
+    {
+      "id": "B091",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Add strategic purpose, selection reason, source evidence, and disposition. This preserves the useful editorial thinking while allowing process, founder perspective, and solution selling to emerge.",
+      "links": []
+    },
+    {
+      "id": "B092",
+      "kind": "p",
+      "style": "Heading2",
+      "text": "Protect the meaning of the evidence",
+      "links": []
+    },
+    {
+      "id": "B093",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Distinguish what was said, what happened, and what we interpret from it. A recommendation demonstrates reasoning; it does not demonstrate implementation or results. A client reaction is audience insight; it is not proof of product outcomes.",
+      "links": []
+    },
+    {
+      "id": "B094",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Credit client contributions. Do not attribute a client's phrase, existing comparison chart, or insight to WIA. Team recommendations belong to the speaker and can be described as the team's work without inventing Whitney's participation.",
+      "links": []
+    },
+    {
+      "id": "B095",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Preserve units, timeframe, baseline, approximate language, and attribution for results. Do not compute an ad conversion rate from an untracked anecdote. Do not turn total bookings into ad-generated bookings or a coinciding change into proof of causation.",
+      "links": []
+    },
+    {
+      "id": "B096",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Flag transcription ambiguity locally. Retrieve the original audio or verified record if a number or phrase materially affects the angle. Keep uncertainty in source notes rather than making every public sentence hesitant.",
+      "links": []
+    },
+    {
+      "id": "B097",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Confidence in our strategic perspective can coexist with bounded claims. Explain our recommendation clearly and specify what the source demonstrates. Do not fabricate outcomes to make process content more persuasive.",
+      "links": []
+    },
+    {
+      "id": "B098",
+      "kind": "p",
+      "style": "Heading1",
+      "text": "WIA Content Calibration Examples",
+      "links": []
+    },
+    {
+      "id": "B099",
+      "kind": "p",
+      "style": "Heading2",
+      "text": "How to interpret these examples",
+      "links": []
+    },
+    {
+      "id": "B100",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Whitney rejected the original six angles and identified broader directions she would prefer: collaborative landing-page refinement, keyword research and review, venue positioning, and the LeadLock capabilities that impressed Zadie. The revised framings below illustrate those preferences. Their exact wording remains proposed, and incomplete evidence remains incomplete.",
+      "links": []
+    },
+    {
+      "id": "B101",
+      "kind": "p",
+      "style": "Normal",
+      "text": "All six entries use the vendor's source label “Zoom Meeting - 1st June - 7th June.” Speaker labels and timestamps are reproduced as locators. They do not establish a unique recording identity, a recording year, or permission for public naming. Use anonymized public examples unless naming is authorized.",
+      "links": []
+    },
+    {
+      "id": "B102",
+      "kind": "p",
+      "style": "Heading2",
+      "text": "Example 1 Landing page imagery",
+      "links": []
+    },
+    {
+      "id": "B103",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Original direction: Give distinct wedding markets distinct landing page context.",
+      "links": []
+    },
+    {
+      "id": "B104",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Preferred direction: How we help wedding pros choose landing-page imagery for the couples they want to book.",
+      "links": []
+    },
+    {
+      "id": "B105",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Source: Carmen Cruickshank and Shannon Lee, 00:18:25–00:18:46.",
+      "links": []
+    },
+    {
+      "id": "B106",
+      "kind": "p",
+      "style": "Normal",
+      "text": "What is supported: Carmen confirms the intended market. Shannon explains that her Colorado clients often want mountain imagery, while her Florida clients often do not, and says she plans to prioritize Orlando for now.",
+      "links": []
+    },
+    {
+      "id": "B107",
+      "kind": "p",
+      "style": "Normal",
+      "text": "The larger point: Campaign geography and the experience represented on the page need to make sense together. This can reveal how client knowledge informs our landing-page decisions, rather than producing a general instruction that every region needs a separate page.",
+      "links": []
+    },
+    {
+      "id": "B108",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Purpose: WARM, process or behind the scenes. Audience: wedding pros who want their advertising team to understand their market. Intended shift: recognize the strategic questions behind choosing images for a landing page.",
+      "links": []
+    },
+    {
+      "id": "B109",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Development: Show the actual questions about target couples, market priorities, and relevant imagery. Use the photographer's example to make the conversation concrete.",
+      "links": []
+    },
+    {
+      "id": "B110",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Disposition: HOLD for a detailed WIA process breakdown until the surrounding page review is retrieved. The selected excerpt supports market alignment, but does not show the completed image-selection work or a performance comparison.",
+      "links": []
+    },
+    {
+      "id": "B111",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Reject a stronger-sounding claim such as “Your portfolio is costing you inquiries” unless additional evidence supports it. The preferred framing should come from better judgment, rather than a new unsupported loss claim.",
+      "links": []
+    },
+    {
+      "id": "B112",
+      "kind": "p",
+      "style": "Heading2",
+      "text": "Example 2 Landing page messaging",
+      "links": []
+    },
+    {
+      "id": "B113",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Original direction: Position candid work without promising no guidance.",
+      "links": []
+    },
+    {
+      "id": "B114",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Preferred direction: How client conversations help us refine landing-page messaging so couples understand the experience they are choosing.",
+      "links": []
+    },
+    {
+      "id": "B115",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Source: Shannon Lee, 00:02:00, 00:02:16, 00:03:45, and 00:04:42.",
+      "links": []
+    },
+    {
+      "id": "B116",
+      "kind": "p",
+      "style": "Normal",
+      "text": "What is supported: Shannon says “no posing” would misrepresent her service. Her clients want candid moments and guidance during portraits. She suggests “authentic, not staged.”",
+      "links": []
+    },
+    {
+      "id": "B117",
+      "kind": "p",
+      "style": "Normal",
+      "text": "The larger point: A label can describe the style while leaving couples uncertain about the experience. Collaborative review helps uncover that nuance. The compelling process question is what the copy promises and how couples may interpret it.",
+      "links": []
+    },
+    {
+      "id": "B118",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Purpose: WARM, process or thought shift. Audience: wedding pros whose marketing simplifies their strengths too far. Intended shift: see why discussing the client experience helps develop stronger messaging.",
+      "links": []
+    },
+    {
+      "id": "B119",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Development: Walk through the buyer's possible interpretation, the owner's clarification, and the team's actual response from the surrounding exchange. Explain how the review improves accuracy and relevance without claiming a measured conversion gain.",
+      "links": []
+    },
+    {
+      "id": "B120",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Disposition: HOLD for a complete WIA contribution until that response is available. The client supplied the phrase. Do not credit WIA with inventing it or treat it as final approved copy.",
+      "links": []
+    },
+    {
+      "id": "B121",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Examples 1 and 2 may become one stronger process story if they come from the same review and illustrate the same central point. Keep both only when imagery alignment and messaging interpretation produce meaningfully different audience shifts.",
+      "links": []
+    },
+    {
+      "id": "B122",
+      "kind": "p",
+      "style": "Heading2",
+      "text": "Example 3 Keyword research and client review",
+      "links": []
+    },
+    {
+      "id": "B123",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Original direction: Check buyer meaning before excluding a style keyword.",
+      "links": []
+    },
+    {
+      "id": "B124",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Preferred direction: Why conversations with our clients are part of making good Google Ads keyword decisions.",
+      "links": []
+    },
+    {
+      "id": "B125",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Source: Shannon Lee and Carmen Cruickshank, 00:29:33–00:30:19.",
+      "links": []
+    },
+    {
+      "id": "B126",
+      "kind": "p",
+      "style": "Normal",
+      "text": "What is supported: Shannon raises “light and airy” as a possible mismatch. Carmen asks whether people using that phrase become clients. Shannon recalls approximately one booking among four or five inquiries mentioning it. Carmen recommends leaving it for now and reviewing it if searches prove irrelevant.",
+      "links": []
+    },
+    {
+      "id": "B127",
+      "kind": "p",
+      "style": "Normal",
+      "text": "The larger point: We combine our advertising knowledge with the client's knowledge of their inquiries. The content demonstrates a specific decision and the question that informed it.",
+      "links": []
+    },
+    {
+      "id": "B128",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Purpose: WARM, process. Audience: wedding businesses considering Google Ads and wondering how an advertising team will understand business fit. Intended shift: value a team that asks useful questions and revisits decisions using evidence.",
+      "links": []
+    },
+    {
+      "id": "B129",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Development: Show the sequence of possible mismatch, inquiry-context question, client feedback, and provisional decision. Explain how keyword and negative-keyword discussions contribute to alignment.",
+      "links": []
+    },
+    {
+      "id": "B130",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Disposition: SELECT for this bounded process angle. Retrieve more of the call before presenting a complete keyword-research workflow.",
+      "links": []
+    },
+    {
+      "id": "B131",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Do not call the anecdote a 20–25 percent ad conversion rate. Do not claim the term performed well, was actually purchased as a keyword, or should always be retained. The excerpt supports a discussion and recommendation.",
+      "links": []
+    },
+    {
+      "id": "B132",
+      "kind": "p",
+      "style": "Heading2",
+      "text": "Example 4 Venue positioning",
+      "links": []
+    },
+    {
+      "id": "B133",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Original direction: Make an all inclusive venue comparison about scope not just fees.",
+      "links": []
+    },
+    {
+      "id": "B134",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Preferred direction: How we help a wedding venue communicate its value when its offer differs from the alternatives couples are comparing.",
+      "links": []
+    },
+    {
+      "id": "B135",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Source: Lauren Christensen, 00:19:44, 00:32:49, and 00:33:10; Whitney Hodges, 00:33:31.",
+      "links": []
+    },
+    {
+      "id": "B136",
+      "kind": "p",
+      "style": "Normal",
+      "text": "What is supported: Lauren describes an all-inclusive venue being compared with venue-only rentals. She already uses a comparison chart. Whitney suggests including it on the landing page.",
+      "links": []
+    },
+    {
+      "id": "B137",
+      "kind": "p",
+      "style": "Normal",
+      "text": "The larger point: WIA identifies the comparison couples are making and considers where the missing explanation belongs in the marketing. The chart is one expression of the positioning work.",
+      "links": []
+    },
+    {
+      "id": "B138",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Purpose: WARM, positioning and process. Audience: venues and wedding pros whose packages or service models differ from competitors. Intended shift: understand that meaningful differences need to be made clear when couples evaluate the offer.",
+      "links": []
+    },
+    {
+      "id": "B139",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Development: Explain the comparison problem, the value the existing chart clarifies, and the reasoning for bringing it onto the landing page. A later CONVERT version could show how this type of judgment is part of working with WIA, if the delivery scope is verified.",
+      "links": []
+    },
+    {
+      "id": "B140",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Disposition: SELECT for the recommendation and reasoning. The excerpt does not establish implementation or booking gains.",
+      "links": []
+    },
+    {
+      "id": "B141",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Credit the client with the existing chart. The transcript's “$30” is ambiguous. Verify prices and inclusions before using them, and do not calculate savings or claim the all-inclusive option is always cheaper.",
+      "links": []
+    },
+    {
+      "id": "B142",
+      "kind": "p",
+      "style": "Heading2",
+      "text": "Example 5 Venue campaign strategy",
+      "links": []
+    },
+    {
+      "id": "B143",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Original direction: Match wedding venue ad creative to the buyers next question.",
+      "links": []
+    },
+    {
+      "id": "B144",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Preferred direction: What we are planning when we build a venue's Meta campaigns.",
+      "links": []
+    },
+    {
+      "id": "B145",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Source: Lauren Christensen and Whitney Hodges, 00:35:14–00:37:01.",
+      "links": []
+    },
+    {
+      "id": "B146",
+      "kind": "p",
+      "style": "Normal",
+      "text": "What is supported: Lauren asks whether the campaign layers use the same creative. Whitney explains the different roles of client attraction, conversion, and retargeting, with messaging suited to the purpose of each.",
+      "links": []
+    },
+    {
+      "id": "B147",
+      "kind": "p",
+      "style": "Normal",
+      "text": "The larger point: Campaign planning involves deciding what each message needs to accomplish for couples with different levels of familiarity. That makes the strategic work behind the ads visible.",
+      "links": []
+    },
+    {
+      "id": "B148",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Purpose: CONVERT, solution selling. Audience: venue owners evaluating ongoing advertising management. Intended shift: understand what the planning work includes and why distinct creative briefs can matter.",
+      "links": []
+    },
+    {
+      "id": "B149",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Development: Show three illustrative briefs for one venue: introduction, invitation to inquire or tour, and a deeper reason to choose it. Label newly created examples as illustrations. Connect to ELEVATE only using verified current scope.",
+      "links": []
+    },
+    {
+      "id": "B150",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Disposition: SELECT. This source includes Whitney directly explaining the approach.",
+      "links": []
+    },
+    {
+      "id": "B151",
+      "kind": "p",
+      "style": "Normal",
+      "text": "A distinct ATTRACT alternative could explore why a couple seeing a venue for the first time and a couple deciding after a tour need different information. Choose it only if it offers a new audience effect. Do not simply relabel the same service explanation.",
+      "links": []
+    },
+    {
+      "id": "B152",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Describe a proposed approach. Do not claim tested results, three campaigns as a universal requirement, or a fixed sequence every couple follows.",
+      "links": []
+    },
+    {
+      "id": "B153",
+      "kind": "p",
+      "style": "Heading2",
+      "text": "Example 6 LeadLock value and prospect feedback",
+      "links": []
+    },
+    {
+      "id": "B154",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Original direction: Separate setup value from the recurring software commitment.",
+      "links": []
+    },
+    {
+      "id": "B155",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Preferred direction: Show what LeadLock brings together in a wedding business's inquiry process, using the specific demo moments that made its value click.",
+      "links": []
+    },
+    {
+      "id": "B156",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Source: Zadie Ward, 00:28:44–00:29:11 and 00:29:44.",
+      "links": []
+    },
+    {
+      "id": "B157",
+      "kind": "p",
+      "style": "Normal",
+      "text": "What is supported: Zadie praises the breadth of the system and explains that ongoing cost is difficult for her business to justify. The selected turns do not name the capabilities that prompted her enthusiasm.",
+      "links": []
+    },
+    {
+      "id": "B158",
+      "kind": "p",
+      "style": "Normal",
+      "text": "The larger point: A prospect's reaction can reveal which parts of a demonstration communicate value. Her budget concern is also useful, with a separate internal purpose.",
+      "links": []
+    },
+    {
+      "id": "B159",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Purpose: Potential CONVERT, solution selling or product demonstration. Audience: wedding pros evaluating a connected inquiry process. Intended shift: picture the verified workflow and the problems it could address.",
+      "links": []
+    },
+    {
+      "id": "B160",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Development: Retrieve the earlier demo. Identify the exact feature, workflow step, prospect reaction, and problem being discussed. Build the content around those supported moments rather than supplying a generic feature list from product knowledge.",
+      "links": []
+    },
+    {
+      "id": "B161",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Disposition: HOLD for the product-value direction; INTERNAL for the affordability insight. The excerpt does not prove which features she admired, a purchase outcome, or results.",
+      "links": []
+    },
+    {
+      "id": "B162",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Do not invent a feature endorsement, turn her reaction into a customer success story, or assume a universal affordability threshold. Product knowledge can support a general LeadLock demo; it cannot establish what this prospect reacted to.",
+      "links": []
+    },
+    {
+      "id": "B163",
+      "kind": "p",
+      "style": "Heading2",
+      "text": "Additional editorial decisions to preserve",
+      "links": []
+    },
+    {
+      "id": "B164",
+      "kind": "p",
+      "style": "Normal",
+      "text": "These are established corrections from Whitney's prior content work, rather than new facts from the six reviewed excerpts.",
+      "links": []
+    },
+    {
+      "id": "B165",
+      "kind": "tbl",
+      "rows": [
+        {
+          "id": "B165.R01",
+          "cells": [
+            "Situation",
+            "Preserve this judgment",
+            "Common failure"
+          ]
+        },
+        {
+          "id": "B165.R02",
+          "cells": [
+            "A business's differentiators are missing from its marketing",
+            "The owner may know and articulate those strengths; help show why the marketing needs to communicate them.",
+            "Claiming the owner does not know what makes the business different"
+          ]
+        },
+        {
+          "id": "B165.R03",
+          "cells": [
+            "Content says positioning needs to precede ads",
+            "Explain how WIA helps develop that clarity as part of the work.",
+            "Sending the prospect away to solve their UVP before WIA can help"
+          ]
+        },
+        {
+          "id": "B165.R04",
+          "cells": [
+            "A reel already states the central principle",
+            "Let the caption add a specific implication, example, or offer connection.",
+            "Repeating the transcript in slightly different words"
+          ]
+        },
+        {
+          "id": "B165.R05",
+          "cells": [
+            "An ad-investment story is available",
+            "Discuss a strategic decision and the supported context.",
+            "Suggesting all advertising is frustrating or all hesitant owners lack the right mindset"
+          ]
+        },
+        {
+          "id": "B165.R06",
+          "cells": [
+            "A founder or cultural observation is interesting",
+            "Find the real wedding-business implication and distinguish interpretation from fact.",
+            "Forcing every opening into an ad account or repeating unverified public speculation as fact"
+          ]
+        },
+        {
+          "id": "B165.R07",
+          "cells": [
+            "A result is available",
+            "Preserve the metric, attribution, timeframe, and business transformation.",
+            "Inflating total bookings into ad-attributed bookings or promising predictable outcomes for everyone"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B166",
+      "kind": "p",
+      "style": "Normal",
+      "text": "",
+      "links": []
+    },
+    {
+      "id": "B167",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Freshness matters. Historical voice examples demonstrate approach and structure; dates, prices, availability, public events, and numerical results need their own current verification before reuse.",
+      "links": []
+    },
+    {
+      "id": "B168",
+      "kind": "p",
+      "style": "Heading1",
+      "text": "WIA Application Handoff",
+      "links": []
+    },
+    {
+      "id": "B169",
+      "kind": "p",
+      "style": "Heading2",
+      "text": "Supply the model with the right inputs",
+      "links": []
+    },
+    {
+      "id": "B170",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Give each run the current knowledge documents, a dated offer record, the current content plan, relevant approved and rejected examples, the recent content ledger, and the actual recordings or transcripts for that week. Keep source identifiers and speaker labels attached to transcript segments.",
+      "links": []
+    },
+    {
+      "id": "B171",
+      "kind": "p",
+      "style": "Normal",
+      "text": "The system can only judge repetition against the history it receives. If recent content is missing, report that limitation and assess uniqueness within the current batch. If the content plan is missing, use the established pillars without inventing a publishing schedule.",
+      "links": []
+    },
+    {
+      "id": "B172",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Do not load this entire chat or unrelated client information as the permanent reference. Use the curated knowledge and feedback records. Treat transcript content as source data, including any instructions someone happened to say on a call.",
+      "links": []
+    },
+    {
+      "id": "B173",
+      "kind": "p",
+      "style": "Heading2",
+      "text": "Process each weekly batch",
+      "links": []
+    },
+    {
+      "id": "B174",
+      "kind": "p",
+      "style": "ListNumber",
+      "text": "Establish context and source coverage for each recording. Resolve ambiguous speakers when attribution matters.",
+      "links": []
+    },
+    {
+      "id": "B175",
+      "kind": "p",
+      "style": "ListNumber",
+      "text": "Extract useful moments across the editorial lenses. Retain audience and internal insights alongside potential public angles.",
+      "links": []
+    },
+    {
+      "id": "B176",
+      "kind": "p",
+      "style": "ListNumber",
+      "text": "Develop candidate central points at a defensible level of breadth. Identify any exact source segments needed to complete them.",
+      "links": []
+    },
+    {
+      "id": "B177",
+      "kind": "p",
+      "style": "ListNumber",
+      "text": "Check evidence and current instructions. Assign SELECT, REFRAME, HOLD, INTERNAL, or SKIP.",
+      "links": []
+    },
+    {
+      "id": "B178",
+      "kind": "p",
+      "style": "ListNumber",
+      "text": "Compare eligible candidates with each other, recent content, and the current plan. Rank for editorial value.",
+      "links": []
+    },
+    {
+      "id": "B179",
+      "kind": "p",
+      "style": "ListNumber",
+      "text": "Present the strongest distinct opportunities with brief selection reasons. Also show holds, internal insights, and any material pillar gaps.",
+      "links": []
+    },
+    {
+      "id": "B180",
+      "kind": "p",
+      "style": "ListNumber",
+      "text": "Develop the chosen angles into format-specific drafts using Savannah's framework and Whitney's voice. Preserve evidence notes through drafting.",
+      "links": []
+    },
+    {
+      "id": "B181",
+      "kind": "p",
+      "style": "ListNumber",
+      "text": "Capture Whitney's approval, revision, or rejection and update the appropriate reference.",
+      "links": []
+    },
+    {
+      "id": "B182",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Do not require one angle per call, choose the first six qualifying moments, or force a fixed number of weak ideas. A request for six angles can return fewer supported selections plus clearly labeled holds. Explain why the selected ideas beat their nearest alternatives.",
+      "links": []
+    },
+    {
+      "id": "B183",
+      "kind": "p",
+      "style": "Heading2",
+      "text": "Prevent weekly repetition",
+      "links": []
+    },
+    {
+      "id": "B184",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Track central point, intended audience shift, WIA process shown, supporting example, pillar, content type, offer, hook approach, and publication date. Topic names alone are insufficient: three different clients can still produce the same “messaging matters” lesson.",
+      "links": []
+    },
+    {
+      "id": "B185",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Compare the candidate's point and shift with recent work. Reuse a theme when the new example reveals a distinct decision, a different process step, meaningful evidence, or a fresh buyer implication. Changing the hook or client name does not create a new angle.",
+      "links": []
+    },
+    {
+      "id": "B186",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Offer a recommendation for the batch mix based on the actual plan and available evidence. Do not manufacture social proof or broad opinions to balance pillars. Flag the gap and identify what kind of source moment would help fill it.",
+      "links": []
+    },
+    {
+      "id": "B187",
+      "kind": "p",
+      "style": "Heading2",
+      "text": "Maintain knowledge without mixing facts and preferences",
+      "links": []
+    },
+    {
+      "id": "B188",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Use this precedence for conflicts: latest explicit Whitney instruction; current verified strategy and offer records; established editorial guidance; historical approved examples; model suggestions. A call excerpt is authoritative about what was said in that exchange, but cannot override current pricing or editorial instructions.",
+      "links": []
+    },
+    {
+      "id": "B189",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Store changes with a date, source, scope, and status. Separate permanent preferences, temporary campaign decisions, offer facts, and source-specific boundaries. A single rejection of one technical angle does not mean all technical education is prohibited.",
+      "links": []
+    },
+    {
+      "id": "B190",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Some founder-guide beliefs use broad shorthand. Apply their intent with the qualifications in this package. “Ads amplify businesses” must not become a reason to imply prospects need to complete all foundational work independently. Buyer psychology observations must not become universal scientific or behavioral claims.",
+      "links": []
+    },
+    {
+      "id": "B191",
+      "kind": "p",
+      "style": "Heading2",
+      "text": "Learn from editorial feedback",
+      "links": []
+    },
+    {
+      "id": "B192",
+      "kind": "p",
+      "style": "Normal",
+      "text": "For each reviewed candidate, store the original central point, source references, Whitney's disposition, her exact feedback when available, the revised point, and the category of correction. Useful categories include strategic selection, breadth, audience, voice, evidence, attribution, repetition, and offer scope.",
+      "links": []
+    },
+    {
+      "id": "B193",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Ask for a reason when feedback is ambiguous; do not silently invent one. Keep a distinction between “approved wording,” “approved direction,” and “proposed revision.” Acceptance of a document does not automatically make every example publication-ready.",
+      "links": []
+    },
+    {
+      "id": "B194",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Update a reusable rule when feedback establishes one. Link it back to the decision so the team can inspect why it exists. Keep case-specific corrections with the case rather than treating them as global prohibitions.",
+      "links": []
+    },
+    {
+      "id": "B195",
+      "kind": "p",
+      "style": "Heading2",
+      "text": "Evaluate the judgment before polished copy",
+      "links": []
+    },
+    {
+      "id": "B196",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Start with the six calibration cases. Test whether the system chooses a relevant broader direction, preserves contributions, and holds unsupported claims. The test is not whether it copies the sample title exactly.",
+      "links": []
+    },
+    {
+      "id": "B197",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Next, run unseen complete recordings. Have Whitney review central points before hooks and captions. Compare the system's strongest selections with her choices and the opportunities it missed. Use a later unseen batch to check whether improvements transfer beyond the examples.",
+      "links": []
+    },
+    {
+      "id": "B198",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Track approval without strategic rewriting, time Whitney spends editing, missed high-value moments, unsupported claims, misattributions, duplicated points, and correct handling of holds or internal insights. Compare against the initial vendor batch as a baseline.",
+      "links": []
+    },
+    {
+      "id": "B199",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Suggested initial acceptance checks: every selected claim has retrievable support; no invented results or product endorsements; all six cases preserve their listed evidence boundaries; each selected angle has a clear strategic reason and audience shift. Establish an approval-rate target after measuring the first real review cycle, rather than inventing one now.",
+      "links": []
+    },
+    {
+      "id": "B200",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Test low-information inputs as well as full recordings. The model should hold a feature claim with a missing demo, flag an ambiguous number, avoid fake call links, and explain an inability to check repetition when the ledger is absent.",
+      "links": []
+    },
+    {
+      "id": "B201",
+      "kind": "p",
+      "style": "Heading2",
+      "text": "What the application should show",
+      "links": []
+    },
+    {
+      "id": "B202",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Show the angle's central point, reason for selection, audience, pillar, intended shift, and disposition at a glance. Put speaker and timestamp evidence, claim boundaries, alternative directions, and development needs in an expandable section. Avoid making every user complete an academic form before understanding the opportunity.",
+      "links": []
+    },
+    {
+      "id": "B203",
+      "kind": "p",
+      "style": "Normal",
+      "text": "The accompanying schema provides a response contract. The reusable prompt describes the editorial task. Neither guarantees quality by itself. The application needs relevant retrieval, source traceability, current knowledge, and feedback that distinguishes selection problems from writing problems.",
+      "links": []
+    },
+    {
+      "id": "B204",
+      "kind": "p",
+      "style": "Heading2",
+      "text": "Source register",
+      "links": []
+    },
+    {
+      "id": "B205",
+      "kind": "tbl",
+      "rows": [
+        {
+          "id": "B205.R01",
+          "cells": [
+            "Reference",
+            "Role in this package",
+            "Limit"
+          ]
+        },
+        {
+          "id": "B205.R02",
+          "cells": [
+            "Whitney's supplied conversation and latest feedback",
+            "Controlling direction for process content and broader framing",
+            "This package's new framings remain proposals"
+          ]
+        },
+        {
+          "id": "B205.R03",
+          "cells": [
+            "WIA Content Angle Review read 13 October 2026",
+            "Six original directions, source speakers, elapsed timestamps, and appended alternatives",
+            "Selected turns; shared batch filename; no unique call links"
+          ]
+        },
+        {
+          "id": "B205.R04",
+          "cells": [
+            "WIA_Content_Angles.docx created 13 October 2026",
+            "Earlier source-matched alternatives and field assessment",
+            "Proposed editorial work, not publication approval"
+          ]
+        },
+        {
+          "id": "B205.R05",
+          "cells": [
+            "Whitney _ Founder Voice Guide.pdf Version 2.0",
+            "Founder positioning, reasoning style, tone, and hook flexibility",
+            "Later corrections override conflicting illustrative language"
+          ]
+        },
+        {
+          "id": "B205.R06",
+          "cells": [
+            "Whitney Founder Voice _ Knowledge Base(1).pdf",
+            "Historical content examples showing principles, process, offer connections, and transformation",
+            "Historical claims and campaign details need separate verification"
+          ]
+        },
+        {
+          "id": "B205.R07",
+          "cells": [
+            "Relevant prior editorial corrections",
+            "Additional preferences on positioning, captions, scope, and formulaic language",
+            "Preserve the distinction between explicit preferences and suggested examples"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B206",
+      "kind": "p",
+      "style": "Normal",
+      "text": "",
+      "links": []
+    },
+    {
+      "id": "B207",
+      "kind": "p",
+      "style": "Heading2",
+      "text": "Recommended next review",
+      "links": []
+    },
+    {
+      "id": "B208",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Ask the application team to return one new weekly batch with ranked angles, selection reasons, source evidence, dispositions, and a short note on what was not selected. Review that batch against this reference before expanding automated drafting. The objective is to reduce how often Whitney has to supply the missing strategic idea herself.",
+      "links": []
+    },
+    {
+      "id": "B209",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Original content angle review",
+      "links": []
+    },
+    {
+      "id": "B210",
+      "kind": "p",
+      "style": "Normal",
+      "text": "Open the referenced review",
+      "links": [
+        {
+          "text": "Open the referenced review",
+          "target": "https://docs.google.com/document/d/1_LRWdO-rQ2ez9J0IWffrx9gt0L6j2nNlmH01iHxYuag/edit"
+        }
+      ]
+    },
+    {
+      "id": "B211",
+      "kind": "sectPr"
+    }
+  ]
+}

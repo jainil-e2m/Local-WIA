@@ -1,0 +1,1716 @@
+{
+  "source": "Google Drive",
+  "review_date": "2026-10-19",
+  "started_at_utc": "2026-10-19T13:11:25.395Z",
+  "mode": "bounded_GET_only_source_reads",
+  "calls": [
+    {
+      "label": "drive_identity",
+      "method": "GET",
+      "endpoint": "https://www.googleapis.com/drive/v3/about",
+      "query": {
+        "fields": "user(displayName,emailAddress,permissionId)"
+      },
+      "http_status": 200,
+      "ok": true,
+      "response_keys": [
+        "user"
+      ]
+    },
+    {
+      "label": "known_client_names",
+      "method": "GET",
+      "endpoint": "https://www.googleapis.com/drive/v3/files",
+      "query": {
+        "q": "trashed=false and (name contains 'Dogwood' or name contains 'Ridgefield' or name contains 'Funktastic')",
+        "pageSize": 30,
+        "fields": "nextPageToken,incompleteSearch,files(id,name,mimeType,parents,modifiedTime,createdTime,webViewLink,driveId,size,shortcutDetails)",
+        "supportsAllDrives": true,
+        "includeItemsFromAllDrives": true
+      },
+      "http_status": 200,
+      "ok": true,
+      "response_keys": [
+        "files",
+        "incompleteSearch",
+        "nextPageToken"
+      ]
+    },
+    {
+      "label": "wia_root_folder_candidates",
+      "method": "GET",
+      "endpoint": "https://www.googleapis.com/drive/v3/files",
+      "query": {
+        "q": "trashed=false and mimeType='application/vnd.google-apps.folder' and (name contains 'Wedding Industry' or name contains 'WIA')",
+        "pageSize": 30,
+        "fields": "nextPageToken,incompleteSearch,files(id,name,mimeType,parents,modifiedTime,createdTime,webViewLink,driveId,size,shortcutDetails)",
+        "supportsAllDrives": true,
+        "includeItemsFromAllDrives": true
+      },
+      "http_status": 200,
+      "ok": true,
+      "response_keys": [
+        "files",
+        "incompleteSearch",
+        "nextPageToken"
+      ]
+    },
+    {
+      "label": "folder_children_1y7kLUyf_sHBLY0YzNmeio3aSiynKGt9v",
+      "method": "GET",
+      "endpoint": "https://www.googleapis.com/drive/v3/files",
+      "query": {
+        "q": "trashed=false and '1y7kLUyf_sHBLY0YzNmeio3aSiynKGt9v' in parents",
+        "pageSize": 30,
+        "fields": "nextPageToken,incompleteSearch,files(id,name,mimeType,parents,modifiedTime,createdTime,webViewLink,driveId,size,shortcutDetails)",
+        "supportsAllDrives": true,
+        "includeItemsFromAllDrives": true
+      },
+      "http_status": 200,
+      "ok": true,
+      "response_keys": [
+        "files",
+        "incompleteSearch"
+      ]
+    },
+    {
+      "label": "folder_children_17VGO8q-RBUpC0s-ZL2l19UX32eiP4cLV",
+      "method": "GET",
+      "endpoint": "https://www.googleapis.com/drive/v3/files",
+      "query": {
+        "q": "trashed=false and '17VGO8q-RBUpC0s-ZL2l19UX32eiP4cLV' in parents",
+        "pageSize": 30,
+        "fields": "nextPageToken,incompleteSearch,files(id,name,mimeType,parents,modifiedTime,createdTime,webViewLink,driveId,size,shortcutDetails)",
+        "supportsAllDrives": true,
+        "includeItemsFromAllDrives": true
+      },
+      "http_status": 200,
+      "ok": true,
+      "response_keys": [
+        "files",
+        "incompleteSearch"
+      ]
+    },
+    {
+      "label": "attendance_file_1M6CU8SnDbz-Tw0ZDft31KHujYT_0VwaiIpAQNXAEKbU",
+      "method": "GET",
+      "endpoint": "https://www.googleapis.com/drive/v3/files/1M6CU8SnDbz-Tw0ZDft31KHujYT_0VwaiIpAQNXAEKbU",
+      "query": {
+        "fields": "id,name,mimeType,parents,modifiedTime,createdTime,webViewLink,driveId,size,shortcutDetails",
+        "supportsAllDrives": true
+      },
+      "http_status": 200,
+      "ok": true,
+      "response_keys": [
+        "createdTime",
+        "driveId",
+        "id",
+        "mimeType",
+        "modifiedTime",
+        "name",
+        "parents",
+        "size",
+        "webViewLink"
+      ]
+    },
+    {
+      "label": "spreadsheet_metadata_1M6CU8SnDbz-Tw0ZDft31KHujYT_0VwaiIpAQNXAEKbU",
+      "method": "GET",
+      "endpoint": "https://sheets.googleapis.com/v4/spreadsheets/1M6CU8SnDbz-Tw0ZDft31KHujYT_0VwaiIpAQNXAEKbU",
+      "query": {
+        "fields": "spreadsheetId,spreadsheetUrl,properties(title,timeZone),sheets(properties(sheetId,title,gridProperties))"
+      },
+      "http_status": 200,
+      "ok": true,
+      "response_keys": [
+        "properties",
+        "sheets",
+        "spreadsheetId",
+        "spreadsheetUrl"
+      ]
+    },
+    {
+      "label": "attendance_cells_1M6CU8SnDbz-Tw0ZDft31KHujYT_0VwaiIpAQNXAEKbU",
+      "method": "GET",
+      "endpoint": "https://sheets.googleapis.com/v4/spreadsheets/1M6CU8SnDbz-Tw0ZDft31KHujYT_0VwaiIpAQNXAEKbU/values/'Members'!A1%3AL12",
+      "query": {},
+      "http_status": 200,
+      "ok": true,
+      "response_keys": [
+        "majorDimension",
+        "range",
+        "values"
+      ]
+    },
+    {
+      "label": "attendance_file_16XQJvz1GIgpJwjAagBaNXKAoJhtn1Bv1YoI1YjRepkE",
+      "method": "GET",
+      "endpoint": "https://www.googleapis.com/drive/v3/files/16XQJvz1GIgpJwjAagBaNXKAoJhtn1Bv1YoI1YjRepkE",
+      "query": {
+        "fields": "id,name,mimeType,parents,modifiedTime,createdTime,webViewLink,driveId,size,shortcutDetails",
+        "supportsAllDrives": true
+      },
+      "http_status": 200,
+      "ok": true,
+      "response_keys": [
+        "createdTime",
+        "driveId",
+        "id",
+        "mimeType",
+        "modifiedTime",
+        "name",
+        "parents",
+        "size",
+        "webViewLink"
+      ]
+    },
+    {
+      "label": "spreadsheet_metadata_16XQJvz1GIgpJwjAagBaNXKAoJhtn1Bv1YoI1YjRepkE",
+      "method": "GET",
+      "endpoint": "https://sheets.googleapis.com/v4/spreadsheets/16XQJvz1GIgpJwjAagBaNXKAoJhtn1Bv1YoI1YjRepkE",
+      "query": {
+        "fields": "spreadsheetId,spreadsheetUrl,properties(title,timeZone),sheets(properties(sheetId,title,gridProperties))"
+      },
+      "http_status": 200,
+      "ok": true,
+      "response_keys": [
+        "properties",
+        "sheets",
+        "spreadsheetId",
+        "spreadsheetUrl"
+      ]
+    },
+    {
+      "label": "attendance_cells_16XQJvz1GIgpJwjAagBaNXKAoJhtn1Bv1YoI1YjRepkE",
+      "method": "GET",
+      "endpoint": "https://sheets.googleapis.com/v4/spreadsheets/16XQJvz1GIgpJwjAagBaNXKAoJhtn1Bv1YoI1YjRepkE/values/'Members'!A1%3AL12",
+      "query": {},
+      "http_status": 200,
+      "ok": true,
+      "response_keys": [
+        "majorDimension",
+        "range",
+        "values"
+      ]
+    },
+    {
+      "label": "document_content_1mX0v3g6UD9sJJCf4l3ZjwjtJj-EQ1QY3iup0luQdv-4",
+      "method": "GET",
+      "endpoint": "https://docs.googleapis.com/v1/documents/1mX0v3g6UD9sJJCf4l3ZjwjtJj-EQ1QY3iup0luQdv-4",
+      "query": {
+        "includeTabsContent": true
+      },
+      "http_status": 200,
+      "ok": true,
+      "response_keys": [
+        "commentsViewMode",
+        "documentId",
+        "revisionId",
+        "suggestionsViewMode",
+        "tabs",
+        "title"
+      ]
+    },
+    {
+      "label": "document_export_1mX0v3g6UD9sJJCf4l3ZjwjtJj-EQ1QY3iup0luQdv-4",
+      "method": "GET",
+      "endpoint": "https://www.googleapis.com/drive/v3/files/1mX0v3g6UD9sJJCf4l3ZjwjtJj-EQ1QY3iup0luQdv-4/export",
+      "query": {
+        "mimeType": "text/plain"
+      },
+      "http_status": 200,
+      "ok": true,
+      "characters": 2989
+    },
+    {
+      "label": "changes_start_cursor",
+      "method": "GET",
+      "endpoint": "https://www.googleapis.com/drive/v3/changes/startPageToken",
+      "query": {
+        "supportsAllDrives": true
+      },
+      "http_status": 200,
+      "ok": true,
+      "response_keys": [
+        "kind",
+        "startPageToken"
+      ]
+    },
+    {
+      "label": "current_changes",
+      "method": "GET",
+      "endpoint": "https://www.googleapis.com/drive/v3/changes",
+      "query": {
+        "pageToken": "[cursor]",
+        "pageSize": 10,
+        "supportsAllDrives": true,
+        "includeItemsFromAllDrives": true,
+        "fields": "nextPageToken,newStartPageToken,changes(fileId,removed,time)"
+      },
+      "http_status": 200,
+      "ok": true,
+      "response_keys": [
+        "changes",
+        "newStartPageToken"
+      ]
+    }
+  ],
+  "full_backfill": false,
+  "notifications_registered": false,
+  "content_modifications": false,
+  "files": [
+    {
+      "id": "1xYl0VBviqjoepy5GttrTibi7wv5JSmyJ",
+      "name": "2026-09 - Funktastic Productions & DJ Hybrid - Monthly Report",
+      "mimeType": "application/pdf",
+      "parents": [
+        "1dXo5b_NQNQEoJnhHZX0pryQa3AyBbgNn"
+      ],
+      "modifiedTime": "2026-10-13T18:01:47.103Z",
+      "createdTime": "2026-10-13T18:01:37.431Z",
+      "webViewLink": "https://drive.google.com/file/d/1xYl0VBviqjoepy5GttrTibi7wv5JSmyJ/view?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": "5465409",
+      "shortcutDetails": null
+    },
+    {
+      "id": "1mX0v3g6UD9sJJCf4l3ZjwjtJj-EQ1QY3iup0luQdv-4",
+      "name": "Dogwood Reserve | Creative Asset Approval Form: Retargeting Ads",
+      "mimeType": "application/vnd.google-apps.document",
+      "parents": [
+        "1_lrPmdLMmVMOjkw61fsDcBz5PWcjpBDX"
+      ],
+      "modifiedTime": "2026-10-07T15:13:48.479Z",
+      "createdTime": "2026-10-07T14:59:49.024Z",
+      "webViewLink": "https://docs.google.com/document/d/1mX0v3g6UD9sJJCf4l3ZjwjtJj-EQ1QY3iup0luQdv-4/edit?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": "197359",
+      "shortcutDetails": null
+    },
+    {
+      "id": "1VH1toF8368Yg7nw7CNXJAqXilIfQYD4WuvjJroeGqLA",
+      "name": "Dogwood Reserve | Creative Asset Approval Form: Client Attraction Ads",
+      "mimeType": "application/vnd.google-apps.document",
+      "parents": [
+        "1iEMR-ngqx91eAPDuMiHaKpgkJhBN4A3V"
+      ],
+      "modifiedTime": "2026-10-07T15:04:42.320Z",
+      "createdTime": "2026-09-17T19:57:38.362Z",
+      "webViewLink": "https://docs.google.com/document/d/1VH1toF8368Yg7nw7CNXJAqXilIfQYD4WuvjJroeGqLA/edit?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": "197551",
+      "shortcutDetails": null
+    },
+    {
+      "id": "1DeDHq0G64pfZwLFnK71vYoRJwUplTTuu",
+      "name": "2026-10-02 - Dogwood Reserve Ads Setup & Verification Troubleshooting - Recording",
+      "mimeType": "video/mp4",
+      "parents": [
+        "1gFso-CEHX1WquxqCcIea1OFi8XxWgGRp"
+      ],
+      "modifiedTime": "2026-10-05T14:30:36.771Z",
+      "createdTime": "2026-10-05T14:30:08.491Z",
+      "webViewLink": "https://drive.google.com/file/d/1DeDHq0G64pfZwLFnK71vYoRJwUplTTuu/view?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": "267886918",
+      "shortcutDetails": null
+    },
+    {
+      "id": "1y7kLUyf_sHBLY0YzNmeio3aSiynKGt9v",
+      "name": "WIA + Dogwood Reserve",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "1pJwadFky3EF-ISvUEKsyFX5xQp3pBdhc"
+      ],
+      "modifiedTime": "2026-10-02T21:59:46.720Z",
+      "createdTime": "2026-05-07T15:39:25.012Z",
+      "webViewLink": "https://drive.google.com/drive/folders/1y7kLUyf_sHBLY0YzNmeio3aSiynKGt9v",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "1mfcSUTMsv3ZbRSLbogtf4JKXB2dPFBxKRNyqhTxZLJE",
+      "name": "Ridgefield Wedding Galleries",
+      "mimeType": "application/vnd.google-apps.spreadsheet",
+      "parents": null,
+      "modifiedTime": "2026-09-30T01:11:19.867Z",
+      "createdTime": "2024-12-10T16:48:22.904Z",
+      "webViewLink": "https://docs.google.com/spreadsheets/d/1mfcSUTMsv3ZbRSLbogtf4JKXB2dPFBxKRNyqhTxZLJE/edit?usp=drivesdk",
+      "driveId": null,
+      "size": "6816",
+      "shortcutDetails": null
+    },
+    {
+      "id": "1e84xk-BEXNNzeaQrUvmq6ektczFYQUT4Ba3L6iHb0-0",
+      "name": "Dogwood Reserve — Retargeting Creative Brief",
+      "mimeType": "application/vnd.google-apps.document",
+      "parents": [
+        "1_lrPmdLMmVMOjkw61fsDcBz5PWcjpBDX"
+      ],
+      "modifiedTime": "2026-09-29T20:46:57.904Z",
+      "createdTime": "2026-09-29T20:44:35.127Z",
+      "webViewLink": "https://docs.google.com/document/d/1e84xk-BEXNNzeaQrUvmq6ektczFYQUT4Ba3L6iHb0-0/edit?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": "3312",
+      "shortcutDetails": null
+    },
+    {
+      "id": "1Hnltpffq0OGiJeK639k-tdgtZNPwVrhA",
+      "name": "Lead Attribution — LeadLock Setup (Ridgefield).pdf",
+      "mimeType": "application/pdf",
+      "parents": [
+        "1gS4dzHrJVWzV0dULAsvaDtndF5SezVXH"
+      ],
+      "modifiedTime": "2026-09-29T17:24:58.619Z",
+      "createdTime": "2026-09-29T17:26:14.336Z",
+      "webViewLink": "https://drive.google.com/file/d/1Hnltpffq0OGiJeK639k-tdgtZNPwVrhA/view?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": "64441",
+      "shortcutDetails": null
+    },
+    {
+      "id": "1o8R8JCRy02Oycs714HpwgChuet773SKeE5RL9Q8dU7I",
+      "name": "Dogwood Reserve | Creative Asset Approval Form: Conversion Ads",
+      "mimeType": "application/vnd.google-apps.document",
+      "parents": [
+        "1I4xuDcCyjy0fFgiUTXZXQXg4rou_Rt0n"
+      ],
+      "modifiedTime": "2026-09-25T14:08:38.328Z",
+      "createdTime": "2026-09-22T18:00:57.869Z",
+      "webViewLink": "https://docs.google.com/document/d/1o8R8JCRy02Oycs714HpwgChuet773SKeE5RL9Q8dU7I/edit?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": "197190",
+      "shortcutDetails": null
+    },
+    {
+      "id": "1z9ozScHq4gCIulaaXOG_OiKwBOw5Y4DzIXUjF_rQ7G0",
+      "name": "Funktastic | Market Research Survey Submissions",
+      "mimeType": "application/vnd.google-apps.spreadsheet",
+      "parents": [
+        "17VGO8q-RBUpC0s-ZL2l19UX32eiP4cLV"
+      ],
+      "modifiedTime": "2026-09-23T23:07:23.679Z",
+      "createdTime": "2026-09-23T17:28:52.681Z",
+      "webViewLink": "https://docs.google.com/spreadsheets/d/1z9ozScHq4gCIulaaXOG_OiKwBOw5Y4DzIXUjF_rQ7G0/edit?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": "2083",
+      "shortcutDetails": null
+    },
+    {
+      "id": "17VGO8q-RBUpC0s-ZL2l19UX32eiP4cLV",
+      "name": "WIA + Funktastic Productions",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "16zxmxLr05khFOKPbAcLSs_e6QgBDXsKu"
+      ],
+      "modifiedTime": "2026-09-23T17:47:33.121Z",
+      "createdTime": "2025-04-30T21:54:41.516Z",
+      "webViewLink": "https://drive.google.com/drive/folders/17VGO8q-RBUpC0s-ZL2l19UX32eiP4cLV",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "1l9lJYHUDAE5PKWkHFXCBqMx1Uvg3uL3a",
+      "name": "WIA + Ridgefield Weddings and Events",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "1cACRhRq7VSaT1syH9D282PiI4bOocLFq"
+      ],
+      "modifiedTime": "2026-09-23T15:31:03.514Z",
+      "createdTime": "2026-03-24T17:27:58.238Z",
+      "webViewLink": "https://drive.google.com/drive/folders/1l9lJYHUDAE5PKWkHFXCBqMx1Uvg3uL3a",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "1BLr2aA6JW2US15k71L9bNwtvacCAWMCbRUT1RoDEiH8",
+      "name": "Ridgefield | Market Research Survey Submissions",
+      "mimeType": "application/vnd.google-apps.spreadsheet",
+      "parents": [
+        "1l9lJYHUDAE5PKWkHFXCBqMx1Uvg3uL3a"
+      ],
+      "modifiedTime": "2026-09-23T15:25:22.706Z",
+      "createdTime": "2026-09-23T14:33:18.022Z",
+      "webViewLink": "https://docs.google.com/spreadsheets/d/1BLr2aA6JW2US15k71L9bNwtvacCAWMCbRUT1RoDEiH8/edit?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": "2278",
+      "shortcutDetails": null
+    },
+    {
+      "id": "17NZYDkWgc3m9wOC0N6_FqJ-YQX4qWZ1h",
+      "name": "2026-08-26 - Funktastic Productions and Dj Hybrid Check In Call - Recording",
+      "mimeType": "video/mp4",
+      "parents": [
+        "1uqrFUIroQ5WttezplHOvjQFLgHsDq3NA"
+      ],
+      "modifiedTime": "2026-09-17T18:09:33.941Z",
+      "createdTime": "2026-08-26T17:30:17.462Z",
+      "webViewLink": "https://drive.google.com/file/d/17NZYDkWgc3m9wOC0N6_FqJ-YQX4qWZ1h/view?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": "131919842",
+      "shortcutDetails": null
+    },
+    {
+      "id": "1qYLbV9tWQmUOMthliWuzOTjpBIM-fip_",
+      "name": "Ridgefield Landing Pages",
+      "mimeType": "application/vnd.google-apps.shortcut",
+      "parents": [
+        "1l9lJYHUDAE5PKWkHFXCBqMx1Uvg3uL3a"
+      ],
+      "modifiedTime": "2026-09-14T18:42:38.077Z",
+      "createdTime": "2026-09-14T18:42:38.077Z",
+      "webViewLink": "https://drive.google.com/file/d/1qYLbV9tWQmUOMthliWuzOTjpBIM-fip_/view?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": null,
+      "shortcutDetails": {
+        "targetId": "124HfFo5MdyMXdUpcbuw86uMqz8CTHg8eB9l92wX28xY",
+        "targetMimeType": "application/vnd.google-apps.document"
+      }
+    },
+    {
+      "id": "1vVqTSbBE21aMvHFmw-rn_RmOgLE-5HN7",
+      "name": "2026-08 - Ridgefield - Monthly Report",
+      "mimeType": "application/pdf",
+      "parents": [
+        "1Uem_l2ku6-NxlqH6MYrwCkRV06CqrDxK"
+      ],
+      "modifiedTime": "2026-09-11T20:23:33.645Z",
+      "createdTime": "2026-09-11T20:23:19.961Z",
+      "webViewLink": "https://drive.google.com/file/d/1vVqTSbBE21aMvHFmw-rn_RmOgLE-5HN7/view?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": "6443794",
+      "shortcutDetails": null
+    },
+    {
+      "id": "1WYPynmvUoSsA3PIV47vgeSTZVe8QedcllE5CL5Ory5k",
+      "name": "Dogwood Reserve | Google + Meta Ads Strategy and Budget ",
+      "mimeType": "application/vnd.google-apps.document",
+      "parents": [
+        "1J4sMkQTBPXtDj9_SEZe-gEl32OGBVkAn"
+      ],
+      "modifiedTime": "2026-09-11T17:59:22.749Z",
+      "createdTime": "2026-09-08T14:48:53.284Z",
+      "webViewLink": "https://docs.google.com/document/d/1WYPynmvUoSsA3PIV47vgeSTZVe8QedcllE5CL5Ory5k/edit?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": "172221",
+      "shortcutDetails": null
+    },
+    {
+      "id": "124HfFo5MdyMXdUpcbuw86uMqz8CTHg8eB9l92wX28xY",
+      "name": "Ridgefield Landing Pages",
+      "mimeType": "application/vnd.google-apps.document",
+      "parents": null,
+      "modifiedTime": "2026-09-11T13:38:17.694Z",
+      "createdTime": "2026-09-08T16:39:59.086Z",
+      "webViewLink": "https://docs.google.com/document/d/124HfFo5MdyMXdUpcbuw86uMqz8CTHg8eB9l92wX28xY/edit?usp=drivesdk",
+      "driveId": null,
+      "size": "9689",
+      "shortcutDetails": null
+    },
+    {
+      "id": "1Gzljjl89p9Hy5kfsO2Ll6Tc1mC3soX63L_iCW1whxR8",
+      "name": "2026-09-09 - Strategy Call - Ridgefield - Summary",
+      "mimeType": "application/vnd.google-apps.document",
+      "parents": [
+        "1Iz7V4ETg9wQtZsHvnE09i7B1bdgouVKG"
+      ],
+      "modifiedTime": "2026-09-09T16:22:22.158Z",
+      "createdTime": "2026-09-09T16:21:10.722Z",
+      "webViewLink": "https://docs.google.com/document/d/1Gzljjl89p9Hy5kfsO2Ll6Tc1mC3soX63L_iCW1whxR8/edit?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": "3651",
+      "shortcutDetails": null
+    },
+    {
+      "id": "1Vft3Or06Jz4AZTifZyeJYG1zsczyTpSh",
+      "name": "2026-09-09 - Strategy Call - Ridgefield - Recording",
+      "mimeType": "video/mp4",
+      "parents": [
+        "1Iz7V4ETg9wQtZsHvnE09i7B1bdgouVKG"
+      ],
+      "modifiedTime": "2026-09-09T16:21:07.431Z",
+      "createdTime": "2026-09-09T16:19:47.493Z",
+      "webViewLink": "https://drive.google.com/file/d/1Vft3Or06Jz4AZTifZyeJYG1zsczyTpSh/view?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": "205769747",
+      "shortcutDetails": null
+    },
+    {
+      "id": "1VG_WT9Fn844IWcalyT_XDiTiTPJUY3cWJSP-dEgVkm8",
+      "name": "2026-09-09 - Ads Strategy Call - Dogwood Reserve - Summary",
+      "mimeType": "application/vnd.google-apps.document",
+      "parents": [
+        "1gFso-CEHX1WquxqCcIea1OFi8XxWgGRp"
+      ],
+      "modifiedTime": "2026-09-09T15:23:39.463Z",
+      "createdTime": "2026-09-09T15:23:20.655Z",
+      "webViewLink": "https://docs.google.com/document/d/1VG_WT9Fn844IWcalyT_XDiTiTPJUY3cWJSP-dEgVkm8/edit?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": "4144",
+      "shortcutDetails": null
+    },
+    {
+      "id": "1UpNAD6-Xe2wXLMzcO5_HGWwM71DmVVIK",
+      "name": "2026-09-09 - Ads Strategy Call - Dogwood Reserve - Recording",
+      "mimeType": "video/mp4",
+      "parents": [
+        "1gFso-CEHX1WquxqCcIea1OFi8XxWgGRp"
+      ],
+      "modifiedTime": "2026-09-09T15:22:10.409Z",
+      "createdTime": "2026-09-09T15:21:13.994Z",
+      "webViewLink": "https://drive.google.com/file/d/1UpNAD6-Xe2wXLMzcO5_HGWwM71DmVVIK/view?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": "163232225",
+      "shortcutDetails": null
+    },
+    {
+      "id": "1oQCYYScb99ELvAcnt5VTgynd_8nWtFqd",
+      "name": "2026-08 - Funktastic Productions & DJ Hybrid - Monthly Report",
+      "mimeType": "application/pdf",
+      "parents": [
+        "1dXo5b_NQNQEoJnhHZX0pryQa3AyBbgNn"
+      ],
+      "modifiedTime": "2026-09-08T20:56:51.204Z",
+      "createdTime": "2026-09-08T20:56:37.448Z",
+      "webViewLink": "https://drive.google.com/file/d/1oQCYYScb99ELvAcnt5VTgynd_8nWtFqd/view?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": "5726026",
+      "shortcutDetails": null
+    },
+    {
+      "id": "1cACRhRq7VSaT1syH9D282PiI4bOocLFq",
+      "name": "Ridgefield Weddings and Events",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "1Be9Tq6457TqO8sTfqWyd2Ch-nmbWINvB"
+      ],
+      "modifiedTime": "2026-09-04T22:04:18.893Z",
+      "createdTime": "2026-03-24T17:27:50.122Z",
+      "webViewLink": "https://drive.google.com/drive/folders/1cACRhRq7VSaT1syH9D282PiI4bOocLFq",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "1yvreO5aF_9GxjMaqK3lV7I7Zzn_qAE8EuDpVK_euk_Y",
+      "name": "Dogwood Reserve | Messaging & Positioning Questionnaire",
+      "mimeType": "application/vnd.google-apps.document",
+      "parents": [
+        "1y7kLUyf_sHBLY0YzNmeio3aSiynKGt9v"
+      ],
+      "modifiedTime": "2026-09-02T19:16:56.662Z",
+      "createdTime": "2026-09-02T13:12:29.666Z",
+      "webViewLink": "https://docs.google.com/document/d/1yvreO5aF_9GxjMaqK3lV7I7Zzn_qAE8EuDpVK_euk_Y/edit?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": "105102",
+      "shortcutDetails": null
+    },
+    {
+      "id": "1tEYIKrNfg6qxYyBDYA4HRZPcVfma60WhZaRODGuDzUE",
+      "name": "Case Study Data Pack — Idalia, Carroll Hall, Funktastic, DJ Hybrid (Aug 2026)",
+      "mimeType": "application/vnd.google-apps.document",
+      "parents": [
+        "0AIal50lkFjn3Uk9PVA"
+      ],
+      "modifiedTime": "2026-08-27T16:00:13.325Z",
+      "createdTime": "2026-08-27T16:00:12.335Z",
+      "webViewLink": "https://docs.google.com/document/d/1tEYIKrNfg6qxYyBDYA4HRZPcVfma60WhZaRODGuDzUE/edit?usp=drivesdk",
+      "driveId": null,
+      "size": "5772",
+      "shortcutDetails": null
+    },
+    {
+      "id": "14uBqLvnKLIgB3IDwIV7p1tYS_KglqNAMfNBEilFjxc8",
+      "name": "Ridgefield Market Research Survey Questions",
+      "mimeType": "application/vnd.google-apps.document",
+      "parents": [
+        "1l9lJYHUDAE5PKWkHFXCBqMx1Uvg3uL3a"
+      ],
+      "modifiedTime": "2026-08-26T15:59:09.447Z",
+      "createdTime": "2026-08-24T20:36:58.508Z",
+      "webViewLink": "https://docs.google.com/document/d/14uBqLvnKLIgB3IDwIV7p1tYS_KglqNAMfNBEilFjxc8/edit?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": "2159",
+      "shortcutDetails": null
+    },
+    {
+      "id": "1XabR7j4QlPNjshtthX2rS872oEIFLNmL",
+      "name": "Dogwood Reserve_Primary Logo_White.svg",
+      "mimeType": "image/svg+xml",
+      "parents": [
+        "1_1oHv8AHImq7DaoH2O7fPDayCn6qc8lZ"
+      ],
+      "modifiedTime": "2026-08-14T16:47:59.000Z",
+      "createdTime": "2026-08-14T16:48:52.523Z",
+      "webViewLink": "https://drive.google.com/file/d/1XabR7j4QlPNjshtthX2rS872oEIFLNmL/view?usp=drivesdk",
+      "driveId": "0APOA5XhvXzCYUk9PVA",
+      "size": "10644",
+      "shortcutDetails": null
+    },
+    {
+      "id": "1Eh58XGrx5aWCEKKLAFb7DOL6uqLrV_nk",
+      "name": "Dogwood Reserve_Logotype_Portrait_White.svg",
+      "mimeType": "image/svg+xml",
+      "parents": [
+        "1_1oHv8AHImq7DaoH2O7fPDayCn6qc8lZ"
+      ],
+      "modifiedTime": "2026-08-14T16:47:58.000Z",
+      "createdTime": "2026-08-14T16:48:50.405Z",
+      "webViewLink": "https://drive.google.com/file/d/1Eh58XGrx5aWCEKKLAFb7DOL6uqLrV_nk/view?usp=drivesdk",
+      "driveId": "0APOA5XhvXzCYUk9PVA",
+      "size": "6623",
+      "shortcutDetails": null
+    },
+    {
+      "id": "18RWpNE5hvknQEiDLxzlFAJegrAgGHXNZ",
+      "name": "Dogwood Reserve_Logotype_Landscape_White_Alternate.svg",
+      "mimeType": "image/svg+xml",
+      "parents": [
+        "1_1oHv8AHImq7DaoH2O7fPDayCn6qc8lZ"
+      ],
+      "modifiedTime": "2026-08-14T16:47:55.000Z",
+      "createdTime": "2026-08-14T16:48:52.177Z",
+      "webViewLink": "https://drive.google.com/file/d/18RWpNE5hvknQEiDLxzlFAJegrAgGHXNZ/view?usp=drivesdk",
+      "driveId": "0APOA5XhvXzCYUk9PVA",
+      "size": "6606",
+      "shortcutDetails": null
+    },
+    {
+      "id": "1S7Cb032VKqhK89ZlGJtRsBrZUyaiqLNo",
+      "name": "WIA + The Brightside ",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "1chPDRql8KCXjoqsoN0xdKU4DDKBxlJXS"
+      ],
+      "modifiedTime": "2026-10-14T21:07:55.480Z",
+      "createdTime": "2026-09-14T21:41:14.232Z",
+      "webViewLink": "https://drive.google.com/drive/folders/1S7Cb032VKqhK89ZlGJtRsBrZUyaiqLNo",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "14GRlGDWhkNUHoIcMir9AnB3QLniqAeGf",
+      "name": "WIA + Matlai Photography",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "1YyD-QKlV1L0HeLm2uvHxuzB1UEc_74O_"
+      ],
+      "modifiedTime": "2026-10-09T16:03:44.436Z",
+      "createdTime": "2026-10-09T16:03:44.436Z",
+      "webViewLink": "https://drive.google.com/drive/folders/14GRlGDWhkNUHoIcMir9AnB3QLniqAeGf",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "1kHiIzLAu9bhmcJdrofdUuyP1ML7RKJUu",
+      "name": "WIA + The Elia",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "1vchu2gZywd-FWKi3__QnKp5wPXY8ghFH"
+      ],
+      "modifiedTime": "2026-09-24T21:56:05.857Z",
+      "createdTime": "2026-03-25T16:26:58.185Z",
+      "webViewLink": "https://drive.google.com/drive/folders/1kHiIzLAu9bhmcJdrofdUuyP1ML7RKJUu",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "1iHBMe_zABTk3rPC5VEiKlc_3ekmyEzIa",
+      "name": "WIA + Pecan Springs Ranch",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "107NXzT-qFU45IkmZAXRyro_954U6hYo7"
+      ],
+      "modifiedTime": "2026-09-14T23:29:55.376Z",
+      "createdTime": "2026-08-06T16:53:35.890Z",
+      "webViewLink": "https://drive.google.com/drive/folders/1iHBMe_zABTk3rPC5VEiKlc_3ekmyEzIa",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "1KoXnRsaZJE5EN8s4ZuJYb3yKmnE7LBsX",
+      "name": "WIA Folder",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": null,
+      "modifiedTime": "2026-06-06T23:04:32.579Z",
+      "createdTime": "2026-06-06T21:58:42.084Z",
+      "webViewLink": "https://drive.google.com/drive/folders/1KoXnRsaZJE5EN8s4ZuJYb3yKmnE7LBsX",
+      "driveId": null,
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "1fXQUwGmIIu-br4RvxUqWuIQLxiHbYBKi",
+      "name": "WIA Info",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "1KoXnRsaZJE5EN8s4ZuJYb3yKmnE7LBsX"
+      ],
+      "modifiedTime": "2026-05-26T03:31:47.812Z",
+      "createdTime": "2026-05-26T03:31:47.812Z",
+      "webViewLink": "https://drive.google.com/drive/folders/1fXQUwGmIIu-br4RvxUqWuIQLxiHbYBKi",
+      "driveId": null,
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "1NTEzZPyv4N1kDpjzMxrz1y2jtWoxHD6l",
+      "name": "WIA + The Penny",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "122l7p60t3m_sDZ5AC0_XbzVMjUAbsyll"
+      ],
+      "modifiedTime": "2026-05-22T15:41:19.332Z",
+      "createdTime": "2026-05-20T18:32:21.500Z",
+      "webViewLink": "https://drive.google.com/drive/folders/1NTEzZPyv4N1kDpjzMxrz1y2jtWoxHD6l",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "1rbGXmyGZyotprwVCkQ6176J5aR3PvMPU",
+      "name": "WIA + Press Record Co.",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "1bNBuxrwJE0eE7NoiPBfWeNHt7KXFmp3K"
+      ],
+      "modifiedTime": "2026-05-22T14:22:52.217Z",
+      "createdTime": "2026-05-14T19:16:13.426Z",
+      "webViewLink": "https://drive.google.com/drive/folders/1rbGXmyGZyotprwVCkQ6176J5aR3PvMPU",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "1lOge0mX8jZ6s0IHvPMCTxjAxgwPOsdHj",
+      "name": "WIA | The VAULT",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "0ANl86qCTDnF0Uk9PVA"
+      ],
+      "modifiedTime": "2026-04-01T18:05:59.374Z",
+      "createdTime": "2026-04-01T18:05:59.374Z",
+      "webViewLink": "https://drive.google.com/drive/folders/1lOge0mX8jZ6s0IHvPMCTxjAxgwPOsdHj",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "1sfy2EaC9ZCmHmGE2HzImWDLsHWjXqCJShB4Jn8U_NkSZ361BMDunx-2wgnRLwHE-nUbZEM1f",
+      "name": "WIA | Paid Media Account Manager Application (File responses)",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "1hjtfiUTfLfpml0pz173Oq2V_WNm3Zneh"
+      ],
+      "modifiedTime": "2026-03-20T22:29:00.208Z",
+      "createdTime": "2026-03-20T22:29:00.208Z",
+      "webViewLink": "https://drive.google.com/drive/folders/1sfy2EaC9ZCmHmGE2HzImWDLsHWjXqCJShB4Jn8U_NkSZ361BMDunx-2wgnRLwHE-nUbZEM1f",
+      "driveId": null,
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "1UI1KgVFCs3esLWlztRGCxKISsv2NuNrA",
+      "name": "WIA + Dos Palomas Ranch",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "1-oImoVjAuzpthhYGxZNOFy_yusKY_I8L"
+      ],
+      "modifiedTime": "2026-03-02T14:11:33.601Z",
+      "createdTime": "2026-02-02T15:54:15.414Z",
+      "webViewLink": "https://drive.google.com/drive/folders/1UI1KgVFCs3esLWlztRGCxKISsv2NuNrA",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "1hjtfiUTfLfpml0pz173Oq2V_WNm3Zneh",
+      "name": "WIA/LeadLock Hiring",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": null,
+      "modifiedTime": "2026-02-20T21:25:27.032Z",
+      "createdTime": "2026-02-20T21:24:27.329Z",
+      "webViewLink": "https://drive.google.com/drive/folders/1hjtfiUTfLfpml0pz173Oq2V_WNm3Zneh",
+      "driveId": null,
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "11WrAIAr60LqpQdlZwz4MHeBs1Gj3vnGB",
+      "name": "WIA + Diamond A Ranch",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "1zo-Wv_iqMZrPFKQ1puRStCwFbnfAmfGg"
+      ],
+      "modifiedTime": "2026-02-18T20:25:29.610Z",
+      "createdTime": "2026-02-18T20:23:53.324Z",
+      "webViewLink": "https://drive.google.com/drive/folders/11WrAIAr60LqpQdlZwz4MHeBs1Gj3vnGB",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "1kQwHhQwZBa3wz8hrA47NclG0XenBSbZb",
+      "name": "WIA Phase 2 Creative ideas ",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": null,
+      "modifiedTime": "2025-12-01T19:53:50.604Z",
+      "createdTime": "2025-12-01T16:21:25.062Z",
+      "webViewLink": "https://drive.google.com/drive/folders/1kQwHhQwZBa3wz8hrA47NclG0XenBSbZb",
+      "driveId": null,
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "1BnQcpFXMyIuL8jGqdb7ATyvd6xNB7QUi",
+      "name": "WIA + MLP BTS Videos",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": null,
+      "modifiedTime": "2025-10-31T15:18:41.328Z",
+      "createdTime": "2025-10-31T15:04:22.812Z",
+      "webViewLink": "https://drive.google.com/drive/folders/1BnQcpFXMyIuL8jGqdb7ATyvd6xNB7QUi",
+      "driveId": null,
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "18_VRt_lMJW-_38Jco6Z6pnriEVY25SKN",
+      "name": "WEB WIA ",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "1XVbbH4Cd4v0fQqP08B6ZZ9osjrH2K558"
+      ],
+      "modifiedTime": "2025-10-21T17:53:12.927Z",
+      "createdTime": "2025-10-21T17:53:12.927Z",
+      "webViewLink": "https://drive.google.com/drive/folders/18_VRt_lMJW-_38Jco6Z6pnriEVY25SKN",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "1Nj8mGIyCSK-5OwpmlDi6-E2JYNnuMBad",
+      "name": "WIA Social Media",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "1fV22FWrDHxKC1dIvKSeJELTyFFR0pSub"
+      ],
+      "modifiedTime": "2025-10-10T19:21:58.930Z",
+      "createdTime": "2025-10-10T19:21:58.930Z",
+      "webViewLink": "https://drive.google.com/drive/folders/1Nj8mGIyCSK-5OwpmlDi6-E2JYNnuMBad",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "1gK0mzRO3poF7oa7Ew8bcD46t7CHMl-Cp",
+      "name": "WIA Socials | B-Roll",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "1Nj8mGIyCSK-5OwpmlDi6-E2JYNnuMBad"
+      ],
+      "modifiedTime": "2025-10-10T19:18:31.200Z",
+      "createdTime": "2025-10-10T19:18:31.200Z",
+      "webViewLink": "https://drive.google.com/drive/folders/1gK0mzRO3poF7oa7Ew8bcD46t7CHMl-Cp",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "1nYEUrVDku_VFWbIcPa40F40CoVsx7zpv",
+      "name": "WIA Website",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "1fV22FWrDHxKC1dIvKSeJELTyFFR0pSub"
+      ],
+      "modifiedTime": "2025-10-10T19:11:00.765Z",
+      "createdTime": "2025-10-10T19:11:00.765Z",
+      "webViewLink": "https://drive.google.com/drive/folders/1nYEUrVDku_VFWbIcPa40F40CoVsx7zpv",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "19_MbwvU7QwJIWxPJklJmCLEeg8Q1mRHd",
+      "name": "WIA | Ideal Client Avatar Dataset - Google Ads VIP Day",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "1MuI1ChHaCaEdifW-1vKV8v4pLhoa-vXV"
+      ],
+      "modifiedTime": "2025-09-30T14:10:30.107Z",
+      "createdTime": "2025-09-30T14:10:30.107Z",
+      "webViewLink": "https://drive.google.com/drive/folders/19_MbwvU7QwJIWxPJklJmCLEeg8Q1mRHd",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "1yMqHhCzVCCh5sTORkB0JKd4hsA5sRy_j",
+      "name": "WIA ",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": null,
+      "modifiedTime": "2025-09-16T23:22:41.266Z",
+      "createdTime": "2025-09-16T23:18:49.234Z",
+      "webViewLink": "https://drive.google.com/drive/folders/1yMqHhCzVCCh5sTORkB0JKd4hsA5sRy_j",
+      "driveId": null,
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "1YZGldMSPN8wp5-e3E0YzRthaIqNUioCq",
+      "name": "WIA + I Wed All (Original)",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "1tEj_vqibzkBhkETfneDJ7S4BQ3ZxwvT9"
+      ],
+      "modifiedTime": "2025-09-16T19:18:42.038Z",
+      "createdTime": "2024-02-09T23:25:40.736Z",
+      "webViewLink": "https://drive.google.com/drive/folders/1YZGldMSPN8wp5-e3E0YzRthaIqNUioCq",
+      "driveId": null,
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "1bVVa2uQnwvTjn8GBzTYqQfm0AVN64Cvg",
+      "name": "WIA + Roam Rental Co. (Original)",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "1rSY0DsR1PenOfXvU9IVz4NardCzRPwyy"
+      ],
+      "modifiedTime": "2025-09-16T19:18:34.348Z",
+      "createdTime": "2024-05-13T16:13:12.677Z",
+      "webViewLink": "https://drive.google.com/drive/folders/1bVVa2uQnwvTjn8GBzTYqQfm0AVN64Cvg",
+      "driveId": null,
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "1AA8LQdeI03ROdNgqi6BWZxyU-9G2_S47",
+      "name": "WIA + One Eleven East (Original)",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "1MH4K_mYcQ0ccUrpbqpS0js1qKYc20UJl"
+      ],
+      "modifiedTime": "2025-09-16T19:09:39.771Z",
+      "createdTime": "2022-12-27T01:45:07.714Z",
+      "webViewLink": "https://drive.google.com/drive/folders/1AA8LQdeI03ROdNgqi6BWZxyU-9G2_S47",
+      "driveId": null,
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "1hNgm5xfG-TxdHK37Rb-0DcyQ_2tnlRwI",
+      "name": "WIA | Clients ",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "0ANl86qCTDnF0Uk9PVA"
+      ],
+      "modifiedTime": "2025-09-16T19:07:34.183Z",
+      "createdTime": "2025-08-13T22:14:23.006Z",
+      "webViewLink": "https://drive.google.com/drive/folders/1hNgm5xfG-TxdHK37Rb-0DcyQ_2tnlRwI",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "10IPrMtpAgvLyeoekf0rJpPGESWtW8Rd-",
+      "name": "WIA | Clients (Original)",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "1Xju7BYESAp16RHLAHh7ZAhQB-0yhoNDb"
+      ],
+      "modifiedTime": "2025-09-16T19:07:04.760Z",
+      "createdTime": "2022-12-22T19:43:15.726Z",
+      "webViewLink": "https://drive.google.com/drive/folders/10IPrMtpAgvLyeoekf0rJpPGESWtW8Rd-",
+      "driveId": null,
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "1fV22FWrDHxKC1dIvKSeJELTyFFR0pSub",
+      "name": "WIA | Marketing ",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "0ANl86qCTDnF0Uk9PVA"
+      ],
+      "modifiedTime": "2025-09-16T19:05:38.102Z",
+      "createdTime": "2022-12-23T19:36:52.275Z",
+      "webViewLink": "https://drive.google.com/drive/folders/1fV22FWrDHxKC1dIvKSeJELTyFFR0pSub",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "17ddyKbQFmtieG0RF_xJH7DDUdktnFWbA",
+      "name": "Media",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "1y7kLUyf_sHBLY0YzNmeio3aSiynKGt9v"
+      ],
+      "modifiedTime": "2026-09-17T20:02:55.309Z",
+      "createdTime": "2026-09-17T20:02:55.309Z",
+      "webViewLink": "https://drive.google.com/drive/folders/17ddyKbQFmtieG0RF_xJH7DDUdktnFWbA",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "1J4sMkQTBPXtDj9_SEZe-gEl32OGBVkAn",
+      "name": "Resources",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "1y7kLUyf_sHBLY0YzNmeio3aSiynKGt9v"
+      ],
+      "modifiedTime": "2026-09-09T15:54:06.397Z",
+      "createdTime": "2026-09-09T15:54:06.397Z",
+      "webViewLink": "https://drive.google.com/drive/folders/1J4sMkQTBPXtDj9_SEZe-gEl32OGBVkAn",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "1PPVnT8Wnm_eWrxWkl3Z-7vOEayPj7aRU",
+      "name": "Meta Ads",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "1y7kLUyf_sHBLY0YzNmeio3aSiynKGt9v"
+      ],
+      "modifiedTime": "2026-09-06T00:42:56.240Z",
+      "createdTime": "2026-09-06T00:42:56.240Z",
+      "webViewLink": "https://drive.google.com/drive/folders/1PPVnT8Wnm_eWrxWkl3Z-7vOEayPj7aRU",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "1m-uD6fWNOK1xl9e2MV4W1qc7o2pXA-1R",
+      "name": "Dogwood Reserve Onboarding Guide",
+      "mimeType": "application/pdf",
+      "parents": [
+        "1y7kLUyf_sHBLY0YzNmeio3aSiynKGt9v"
+      ],
+      "modifiedTime": "2026-08-31T22:05:58.640Z",
+      "createdTime": "2026-08-31T22:05:48.454Z",
+      "webViewLink": "https://drive.google.com/file/d/1m-uD6fWNOK1xl9e2MV4W1qc7o2pXA-1R/view?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": "14355009",
+      "shortcutDetails": null
+    },
+    {
+      "id": "1li1ir9ZEVWYgUggOkBVTi0JNGX8p-VwI",
+      "name": "ELEVATE Ads Management Onboarding Questionnaire - Dogwood",
+      "mimeType": "application/pdf",
+      "parents": [
+        "1y7kLUyf_sHBLY0YzNmeio3aSiynKGt9v"
+      ],
+      "modifiedTime": "2026-08-31T15:52:00.074Z",
+      "createdTime": "2026-08-31T15:51:48.168Z",
+      "webViewLink": "https://drive.google.com/file/d/1li1ir9ZEVWYgUggOkBVTi0JNGX8p-VwI/view?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": "1266781",
+      "shortcutDetails": null
+    },
+    {
+      "id": "1pGqFemNyGUdvEoShGCGpznuRZd39K54R",
+      "name": "ELEVATE Ads Management Countersigned Contract",
+      "mimeType": "application/pdf",
+      "parents": [
+        "1y7kLUyf_sHBLY0YzNmeio3aSiynKGt9v"
+      ],
+      "modifiedTime": "2026-08-25T14:43:14.824Z",
+      "createdTime": "2026-08-25T14:42:48.996Z",
+      "webViewLink": "https://drive.google.com/file/d/1pGqFemNyGUdvEoShGCGpznuRZd39K54R/view?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": "213816",
+      "shortcutDetails": null
+    },
+    {
+      "id": "1GMC5OY6GUjsTKOztPCfA4JSAexOdCk7RYxFkzqJRf0I",
+      "name": "Dogwood DNS Records",
+      "mimeType": "application/vnd.google-apps.spreadsheet",
+      "parents": [
+        "1y7kLUyf_sHBLY0YzNmeio3aSiynKGt9v"
+      ],
+      "modifiedTime": "2026-06-29T20:01:37.737Z",
+      "createdTime": "2026-06-24T01:53:03.706Z",
+      "webViewLink": "https://docs.google.com/spreadsheets/d/1GMC5OY6GUjsTKOztPCfA4JSAexOdCk7RYxFkzqJRf0I/edit?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": "1024",
+      "shortcutDetails": null
+    },
+    {
+      "id": "1mL1dTyt5MDBQ_YryXgr4JqMT242v5E_v",
+      "name": "PRICING",
+      "mimeType": "application/vnd.google-apps.shortcut",
+      "parents": [
+        "1y7kLUyf_sHBLY0YzNmeio3aSiynKGt9v"
+      ],
+      "modifiedTime": "2026-05-14T15:29:27.090Z",
+      "createdTime": "2026-05-14T15:29:27.090Z",
+      "webViewLink": "https://drive.google.com/file/d/1mL1dTyt5MDBQ_YryXgr4JqMT242v5E_v/view?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": null,
+      "shortcutDetails": {
+        "targetId": "1vlRrfcSDSlFdMFvyXPIIOWjbXJQHqXpqblCbaW_TFlU",
+        "targetMimeType": "application/vnd.google-apps.document"
+      }
+    },
+    {
+      "id": "1Lw2o9LY4RMvVhlUE4ujU9eHh6OqfB3Y_",
+      "name": "Sanity FEIN.pdf",
+      "mimeType": "application/pdf",
+      "parents": [
+        "1y7kLUyf_sHBLY0YzNmeio3aSiynKGt9v"
+      ],
+      "modifiedTime": "2026-05-14T15:27:01.000Z",
+      "createdTime": "2026-05-14T15:27:18.752Z",
+      "webViewLink": "https://drive.google.com/file/d/1Lw2o9LY4RMvVhlUE4ujU9eHh6OqfB3Y_/view?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": "27395",
+      "shortcutDetails": null
+    },
+    {
+      "id": "14d13ad0bcSJG3A3dLQZyNFjbkO5S9x9z",
+      "name": "Business Info",
+      "mimeType": "application/vnd.google-apps.shortcut",
+      "parents": [
+        "1y7kLUyf_sHBLY0YzNmeio3aSiynKGt9v"
+      ],
+      "modifiedTime": "2026-05-13T14:56:37.805Z",
+      "createdTime": "2026-05-13T14:56:37.805Z",
+      "webViewLink": "https://drive.google.com/file/d/14d13ad0bcSJG3A3dLQZyNFjbkO5S9x9z/view?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": null,
+      "shortcutDetails": {
+        "targetId": "1Y1tNoznNzWZql8fx0uTlb4pl6semhFAPgn8MAVMxfzA",
+        "targetMimeType": "application/vnd.google-apps.document"
+      }
+    },
+    {
+      "id": "1H4PPrL1NnlicuJyJwoOdzKQy3Wez0FXo",
+      "name": "Brand Assets",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "1y7kLUyf_sHBLY0YzNmeio3aSiynKGt9v"
+      ],
+      "modifiedTime": "2026-05-07T16:25:22.832Z",
+      "createdTime": "2026-05-07T16:25:22.832Z",
+      "webViewLink": "https://drive.google.com/drive/folders/1H4PPrL1NnlicuJyJwoOdzKQy3Wez0FXo",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "1gFso-CEHX1WquxqCcIea1OFi8XxWgGRp",
+      "name": "Call Recordings",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "1y7kLUyf_sHBLY0YzNmeio3aSiynKGt9v"
+      ],
+      "modifiedTime": "2026-05-07T16:25:18.230Z",
+      "createdTime": "2026-05-07T16:25:18.230Z",
+      "webViewLink": "https://drive.google.com/drive/folders/1gFso-CEHX1WquxqCcIea1OFi8XxWgGRp",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "1xNESfJqZfzg9B6HGg-e9gneU2jHHjy3t",
+      "name": "LeadLock Countersigned Contract | Meriwether Manor",
+      "mimeType": "application/pdf",
+      "parents": [
+        "1y7kLUyf_sHBLY0YzNmeio3aSiynKGt9v"
+      ],
+      "modifiedTime": "2026-05-07T15:41:21.688Z",
+      "createdTime": "2026-05-07T15:41:02.029Z",
+      "webViewLink": "https://drive.google.com/file/d/1xNESfJqZfzg9B6HGg-e9gneU2jHHjy3t/view?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": "153793",
+      "shortcutDetails": null
+    },
+    {
+      "id": "13ZK3A7Yh6KltzLxuFlzGz8PsTEKNmIQH",
+      "name": "DJ Hybrid",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "17VGO8q-RBUpC0s-ZL2l19UX32eiP4cLV"
+      ],
+      "modifiedTime": "2026-09-01T17:15:46.377Z",
+      "createdTime": "2026-09-01T17:15:46.377Z",
+      "webViewLink": "https://drive.google.com/drive/folders/13ZK3A7Yh6KltzLxuFlzGz8PsTEKNmIQH",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "1lJXfDghMjwy1Ech7AqpOJJulvYN3lLb1",
+      "name": "Ad creatives",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "17VGO8q-RBUpC0s-ZL2l19UX32eiP4cLV"
+      ],
+      "modifiedTime": "2026-07-21T17:42:55.513Z",
+      "createdTime": "2026-07-21T17:42:55.513Z",
+      "webViewLink": "https://drive.google.com/drive/folders/1lJXfDghMjwy1Ech7AqpOJJulvYN3lLb1",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "1Nw6DF4sD1SA3qWXVYP-TMfpIHigxN1fn",
+      "name": "For Review: Funktastic Productions: Copywriting",
+      "mimeType": "application/vnd.google-apps.shortcut",
+      "parents": [
+        "17VGO8q-RBUpC0s-ZL2l19UX32eiP4cLV"
+      ],
+      "modifiedTime": "2026-06-25T15:40:35.813Z",
+      "createdTime": "2026-06-25T15:40:35.813Z",
+      "webViewLink": "https://drive.google.com/file/d/1Nw6DF4sD1SA3qWXVYP-TMfpIHigxN1fn/view?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": null,
+      "shortcutDetails": {
+        "targetId": "1wytIF4hoGzPCMxvYbDaqWZ8Xx9dQMjP5OpiZwHiGh-0",
+        "targetMimeType": "application/vnd.google-apps.document"
+      }
+    },
+    {
+      "id": "1mTNaU3VIbvTjA_tbKIO1QEF-kpNozWy-",
+      "name": "Brand Assets",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "17VGO8q-RBUpC0s-ZL2l19UX32eiP4cLV"
+      ],
+      "modifiedTime": "2025-10-21T15:00:50.266Z",
+      "createdTime": "2025-05-08T16:00:52.741Z",
+      "webViewLink": "https://drive.google.com/drive/folders/1mTNaU3VIbvTjA_tbKIO1QEF-kpNozWy-",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "1uqrFUIroQ5WttezplHOvjQFLgHsDq3NA",
+      "name": "Call Recordings & Summaries",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "17VGO8q-RBUpC0s-ZL2l19UX32eiP4cLV"
+      ],
+      "modifiedTime": "2025-09-16T18:48:29.899Z",
+      "createdTime": "2025-04-30T21:54:54.372Z",
+      "webViewLink": "https://drive.google.com/drive/folders/1uqrFUIroQ5WttezplHOvjQFLgHsDq3NA",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "1IUTVkfK-v-H1XnuuGtscLF5w3pg265gBORcu84_e-4Q",
+      "name": "Funktastic Productions  | Messaging & Positioning Questionnaire",
+      "mimeType": "application/vnd.google-apps.document",
+      "parents": [
+        "17VGO8q-RBUpC0s-ZL2l19UX32eiP4cLV"
+      ],
+      "modifiedTime": "2025-07-10T14:47:33.224Z",
+      "createdTime": "2025-05-02T18:37:26.733Z",
+      "webViewLink": "https://docs.google.com/document/d/1IUTVkfK-v-H1XnuuGtscLF5w3pg265gBORcu84_e-4Q/edit?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": "174184",
+      "shortcutDetails": null
+    },
+    {
+      "id": "1dXo5b_NQNQEoJnhHZX0pryQa3AyBbgNn",
+      "name": "Monthly Reports",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "17VGO8q-RBUpC0s-ZL2l19UX32eiP4cLV"
+      ],
+      "modifiedTime": "2025-07-09T17:40:54.999Z",
+      "createdTime": "2025-07-09T17:40:54.999Z",
+      "webViewLink": "https://drive.google.com/drive/folders/1dXo5b_NQNQEoJnhHZX0pryQa3AyBbgNn",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "12yGstbooLD-DLJeVVdDrjcd3ZbGjV-JiWjlH204Q8-c",
+      "name": "Funktastic Productions – Inquiry Form Submitted Workflow",
+      "mimeType": "application/vnd.google-apps.document",
+      "parents": [
+        "17VGO8q-RBUpC0s-ZL2l19UX32eiP4cLV"
+      ],
+      "modifiedTime": "2025-05-28T21:47:16.554Z",
+      "createdTime": "2025-05-26T16:15:15.472Z",
+      "webViewLink": "https://docs.google.com/document/d/12yGstbooLD-DLJeVVdDrjcd3ZbGjV-JiWjlH204Q8-c/edit?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": "10940",
+      "shortcutDetails": null
+    },
+    {
+      "id": "15AEPtpmLCnEKF9js_FfzDwBUESXB2n_mlIoiM9JXxcQ",
+      "name": "Funktastic Productions Onboarding Questionnaire",
+      "mimeType": "application/vnd.google-apps.document",
+      "parents": [
+        "17VGO8q-RBUpC0s-ZL2l19UX32eiP4cLV"
+      ],
+      "modifiedTime": "2025-05-16T19:44:56.765Z",
+      "createdTime": "2025-05-16T19:44:52.235Z",
+      "webViewLink": "https://docs.google.com/document/d/15AEPtpmLCnEKF9js_FfzDwBUESXB2n_mlIoiM9JXxcQ/edit?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": "248509",
+      "shortcutDetails": null
+    },
+    {
+      "id": "1KSHEsH8IbG49LP3SsawMPs1T_CV3ORgY",
+      "name": "Resources",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": [
+        "17VGO8q-RBUpC0s-ZL2l19UX32eiP4cLV"
+      ],
+      "modifiedTime": "2025-05-13T18:29:26.327Z",
+      "createdTime": "2025-05-13T18:27:14.494Z",
+      "webViewLink": "https://drive.google.com/drive/folders/1KSHEsH8IbG49LP3SsawMPs1T_CV3ORgY",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": null,
+      "shortcutDetails": null
+    },
+    {
+      "id": "1Pth2dAQfiqyZKjuVYjYRbAT7rl1mFxTH",
+      "name": "Funktastic Productions Onboarding Questionnaire.pdf",
+      "mimeType": "application/pdf",
+      "parents": [
+        "17VGO8q-RBUpC0s-ZL2l19UX32eiP4cLV"
+      ],
+      "modifiedTime": "2025-05-08T15:21:53.416Z",
+      "createdTime": "2025-05-08T15:21:12.032Z",
+      "webViewLink": "https://drive.google.com/file/d/1Pth2dAQfiqyZKjuVYjYRbAT7rl1mFxTH/view?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": "2165848",
+      "shortcutDetails": null
+    },
+    {
+      "id": "1VIqLkgT0V3hQemLtFIcy1RDFERmVRHxR",
+      "name": "Funktastic Productions Onboarding Guide.pdf",
+      "mimeType": "application/pdf",
+      "parents": [
+        "17VGO8q-RBUpC0s-ZL2l19UX32eiP4cLV"
+      ],
+      "modifiedTime": "2025-05-06T13:40:34.000Z",
+      "createdTime": "2025-05-06T13:40:42.095Z",
+      "webViewLink": "https://drive.google.com/file/d/1VIqLkgT0V3hQemLtFIcy1RDFERmVRHxR/view?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": "13582236",
+      "shortcutDetails": null
+    },
+    {
+      "id": "1Kbn06NU0Yf9CwNTMEl-N37yrSkb52Huf",
+      "name": "Funktastic Productions WIA Inquiry Form.pdf",
+      "mimeType": "application/pdf",
+      "parents": [
+        "17VGO8q-RBUpC0s-ZL2l19UX32eiP4cLV"
+      ],
+      "modifiedTime": "2025-05-02T18:27:27.320Z",
+      "createdTime": "2025-05-02T18:26:08.047Z",
+      "webViewLink": "https://drive.google.com/file/d/1Kbn06NU0Yf9CwNTMEl-N37yrSkb52Huf/view?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": "172817",
+      "shortcutDetails": null
+    },
+    {
+      "id": "1YBEQgfgfPlk5Q_BH3KrxVTCGMlxceJKf",
+      "name": "Funktastic Productions LLC Countersigned Contract.pdf",
+      "mimeType": "application/pdf",
+      "parents": [
+        "17VGO8q-RBUpC0s-ZL2l19UX32eiP4cLV"
+      ],
+      "modifiedTime": "2025-05-02T18:20:16.474Z",
+      "createdTime": "2025-05-02T18:19:56.784Z",
+      "webViewLink": "https://drive.google.com/file/d/1YBEQgfgfPlk5Q_BH3KrxVTCGMlxceJKf/view?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": "330880",
+      "shortcutDetails": null
+    },
+    {
+      "id": "1M6CU8SnDbz-Tw0ZDft31KHujYT_0VwaiIpAQNXAEKbU",
+      "name": "Google Ads Accelerator Roll Call",
+      "mimeType": "application/vnd.google-apps.spreadsheet",
+      "parents": [
+        "10f4XKXdNeX8CFvNrVqTxC2Zxij7qU4T3"
+      ],
+      "modifiedTime": "2026-10-15T17:08:19.736Z",
+      "createdTime": "2026-07-31T16:19:58.097Z",
+      "webViewLink": "https://docs.google.com/spreadsheets/d/1M6CU8SnDbz-Tw0ZDft31KHujYT_0VwaiIpAQNXAEKbU/edit?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": "3406",
+      "shortcutDetails": null
+    },
+    {
+      "id": "16XQJvz1GIgpJwjAagBaNXKAoJhtn1Bv1YoI1YjRepkE",
+      "name": "Meta Ads Accelerator Roll Call",
+      "mimeType": "application/vnd.google-apps.spreadsheet",
+      "parents": [
+        "10f4XKXdNeX8CFvNrVqTxC2Zxij7qU4T3"
+      ],
+      "modifiedTime": "2026-10-15T01:11:21.684Z",
+      "createdTime": "2026-07-22T19:50:06.278Z",
+      "webViewLink": "https://docs.google.com/spreadsheets/d/16XQJvz1GIgpJwjAagBaNXKAoJhtn1Bv1YoI1YjRepkE/edit?usp=drivesdk",
+      "driveId": "0ANl86qCTDnF0Uk9PVA",
+      "size": "3189",
+      "shortcutDetails": null
+    }
+  ],
+  "searches": [
+    {
+      "label": "known_client_names",
+      "q": "trashed=false and (name contains 'Dogwood' or name contains 'Ridgefield' or name contains 'Funktastic')",
+      "returned_count": 30,
+      "additional_page_present": true,
+      "incomplete_search": false
+    },
+    {
+      "label": "wia_root_folder_candidates",
+      "q": "trashed=false and mimeType='application/vnd.google-apps.folder' and (name contains 'Wedding Industry' or name contains 'WIA')",
+      "returned_count": 30,
+      "additional_page_present": true,
+      "incomplete_search": false
+    }
+  ],
+  "documents": [
+    {
+      "id": "1mX0v3g6UD9sJJCf4l3ZjwjtJj-EQ1QY3iup0luQdv-4",
+      "title": "Dogwood Reserve | Creative Asset Approval Form: Retargeting Ads",
+      "structured_read": true,
+      "text_characters": 2756,
+      "text_excerpt": "\nDogwood Reserve\nRetargeting Ads | Creative + Copy Approval\n\u000bPlease review\nWe’re excited to share the first round of creative assets for your retargeting campaign! Please open each linked item below, then use this document to approve the copy and creatives or leave consolidated feedback. \nCampaign Context\nThese ads are designed to re-engage people who have already shown interest in your business but haven’t reached out yet. By staying visible to warm audiences, such as website visitors and people who have engaged with your Facebook or Instagram content, retargeting ads reinforce familiarity and bring qualified prospects back to your website or landing page when they’re ready to take the next step.\u000b\nOverview\u000b\nRetargeting Ad Copy\n\nCreative #1\n\nCreative #2\n\nCreative #3\n\n\n\nApproval + Feedback\u000bReview each linked deliverable below. If you'd like to request changes, you can leave comments directly in this document or send your feedback by email. Please keep feedback consolidated whenever possible so our creative team can make updates efficiently.\nRetargeting Ad Copy\nPlease review all copy versions in the linked Google Doc. You may leave detailed line edits directly in that document and no",
+      "text_export_read": true,
+      "export_characters": 2989,
+      "export_sha256": "d1628fd98e19d6b2a444fa91cc58206720b9a7271089feadb59efc398036e2bd"
+    }
+  ],
+  "sheets": [
+    {
+      "source_space": "Google Search Accelerator",
+      "spreadsheet_id": "1M6CU8SnDbz-Tw0ZDft31KHujYT_0VwaiIpAQNXAEKbU",
+      "metadata_read": true,
+      "title": "Google Ads Accelerator Roll Call",
+      "timezone": "America/Chicago",
+      "tabs": [
+        {
+          "sheetId": 0,
+          "title": "Members",
+          "gridProperties": {
+            "rowCount": 999,
+            "columnCount": 25,
+            "frozenRowCount": 1
+          }
+        },
+        {
+          "sheetId": 13791412,
+          "title": "July",
+          "gridProperties": {
+            "rowCount": 991,
+            "columnCount": 26,
+            "frozenRowCount": 1
+          }
+        },
+        {
+          "sheetId": 945669542,
+          "title": "August",
+          "gridProperties": {
+            "rowCount": 1000,
+            "columnCount": 26,
+            "frozenRowCount": 1
+          }
+        },
+        {
+          "sheetId": 1379274043,
+          "title": "September",
+          "gridProperties": {
+            "rowCount": 1000,
+            "columnCount": 26,
+            "frozenRowCount": 1
+          }
+        },
+        {
+          "sheetId": 251646479,
+          "title": "October",
+          "gridProperties": {
+            "rowCount": 1000,
+            "columnCount": 26,
+            "frozenRowCount": 1
+          }
+        }
+      ],
+      "sample_range": "Members!A1:L12",
+      "sample_values": [
+        [
+          "Member",
+          "Email",
+          "Consecutive Misses",
+          "Last Attended",
+          "2-week flag",
+          "4-week flag",
+          "Notes"
+        ],
+        [
+          "Shannon Lee",
+          "shannon@lovelikewild.com",
+          "7",
+          "8/27/2026",
+          "FALSE",
+          "FALSE",
+          "4-week email sent by Whitney (cc Carmen + Jacqueline) - confirmed 10/1/2026"
+        ],
+        [
+          "Samantha Been",
+          "hello@whereaboutsweddingco.com",
+          "16",
+          "",
+          "FALSE",
+          "TRUE",
+          "4-week email drafted 9/11, not confirmed sent"
+        ],
+        [
+          "Krista Lax",
+          "krista@dearjanestudios.com",
+          "14",
+          "",
+          "FALSE",
+          "FALSE",
+          "ON HOLD - unresponsive (Gisselle 10/1/2026). No further rows logged, no outreach. NOTE: attended 10/15/2026 per Carmen recap (account relaunched) - not logged pending Gisselle decision."
+        ],
+        [
+          "Erin Smith",
+          "erin@carrollhall.com",
+          "0",
+          "10/15/2026",
+          "FALSE",
+          "FALSE"
+        ],
+        [
+          "Morgan Kelley",
+          "boxedeventsforrent@gmail.com",
+          "0",
+          "10/15/2026",
+          "FALSE",
+          "FALSE",
+          "Tracking starts with the 10/9/2026 session (moved from Thu 10/8)"
+        ]
+      ]
+    },
+    {
+      "source_space": "Meta Ads Accelerator",
+      "spreadsheet_id": "16XQJvz1GIgpJwjAagBaNXKAoJhtn1Bv1YoI1YjRepkE",
+      "metadata_read": true,
+      "title": "Meta Ads Accelerator Roll Call",
+      "timezone": "America/Chicago",
+      "tabs": [
+        {
+          "sheetId": 0,
+          "title": "Members",
+          "gridProperties": {
+            "rowCount": 1000,
+            "columnCount": 25,
+            "frozenRowCount": 1
+          }
+        },
+        {
+          "sheetId": 13791412,
+          "title": "July",
+          "gridProperties": {
+            "rowCount": 995,
+            "columnCount": 26,
+            "frozenRowCount": 1
+          }
+        },
+        {
+          "sheetId": 571147121,
+          "title": "August",
+          "gridProperties": {
+            "rowCount": 1000,
+            "columnCount": 26,
+            "frozenRowCount": 1
+          }
+        },
+        {
+          "sheetId": 340074754,
+          "title": "September",
+          "gridProperties": {
+            "rowCount": 1000,
+            "columnCount": 26,
+            "frozenRowCount": 1
+          }
+        },
+        {
+          "sheetId": 1315959329,
+          "title": "October",
+          "gridProperties": {
+            "rowCount": 1000,
+            "columnCount": 26,
+            "frozenRowCount": 1
+          }
+        }
+      ],
+      "sample_range": "Members!A1:L12",
+      "sample_values": [
+        [
+          "Member",
+          "Email",
+          "Consecutive Misses",
+          "Last Attended",
+          "2-week flag",
+          "4-week flag",
+          "Notes"
+        ],
+        [
+          "Shannon Lee",
+          "shannon@lovelikewild.com",
+          "2",
+          "9/30/2026",
+          "TRUE",
+          "FALSE",
+          "Missed 10/7 and 10/14/2026 (no attendees). Last attended 9/30/2026. 2-week check-in DM due (newly due 10/14). Prior streak DM sent 9/8/2026."
+        ],
+        [
+          "Myla Garlitz",
+          "hello@mylaliphotos.com",
+          "2",
+          "",
+          "TRUE",
+          "FALSE",
+          "Joined MAA 9/10/2026; kickoff with Whitney Hodges held 10/6/2026. Misses counted from 10/7/2026 (missed 10/7, 10/14). 2-week check-in DM due (newly due 10/14). 9/16-9/30 rows are history only."
+        ]
+      ]
+    }
+  ],
+  "user": {
+    "displayName": "Whitney Hodges",
+    "permissionId": "07908552957245892499",
+    "emailAddress": "hello@weddingindustryads.com"
+  },
+  "folder_reads": [
+    {
+      "folder_id": "1y7kLUyf_sHBLY0YzNmeio3aSiynKGt9v",
+      "folder_name": "WIA + Dogwood Reserve",
+      "returned_count": 14,
+      "additional_page_present": false
+    },
+    {
+      "folder_id": "17VGO8q-RBUpC0s-ZL2l19UX32eiP4cLV",
+      "folder_name": "WIA + Funktastic Productions",
+      "returned_count": 15,
+      "additional_page_present": false
+    }
+  ],
+  "changes_read": {
+    "start_cursor_obtained": true,
+    "returned_count": 0,
+    "new_start_cursor_present": true,
+    "notification_delivery_verified": false
+  },
+  "result": "bounded_source_probe_completed",
+  "finished_at_utc": "2026-10-19T13:11:37.942Z"
+}

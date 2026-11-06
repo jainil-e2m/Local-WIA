@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J1-claude-sonnet-5.5-P22-HA",
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 16082,
+  "completion_tokens": 89,
+  "cached_tokens": 15842,
+  "cost": 0.0029542,
+  "seconds": 1.6,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "a3f19a63cee3"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 3,
+  "reason": "B is grounded and plain, and it speaks to the control the audience wants over lead flow, while A's 'reach new heights' is a vague, hype-style cliché that sounds generic and not like Whitney."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: landing\n\nVersion A:\nReady to take control of your lead generation? Paid ads will help you reach new heights\n\nVersion B:\nReady to take control of your lead generation? Paid ads put you in the driver's seat.",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

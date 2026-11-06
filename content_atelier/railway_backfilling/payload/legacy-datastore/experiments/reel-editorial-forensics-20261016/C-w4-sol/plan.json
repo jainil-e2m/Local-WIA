@@ -1,0 +1,28 @@
+{
+  "name": "C-w4-sol",
+  "arm": "C",
+  "week": 4,
+  "slug": "sol",
+  "role": "candidate_generation",
+  "stage": "angle_generation",
+  "request_hash": "ba09f2640f7fee759c8ffba00b7fb889fb7fecacfa1f1668d29c6aba421b2a03",
+  "pool_hash": "fde40d2a5db2e911336513992d04152a6cebc67768021d9dddf7e049af805697",
+  "schema_hash": "5df83f8a0a25d9307be1f5c77547e2d577b23590624673b94efa9044cbbe7f02",
+  "capacity": {
+    "method": "conservative_utf8_byte_allowance_not_native_token_count",
+    "input_allowance": 376462,
+    "margin": 37647,
+    "advertised_eligible_endpoints": 7,
+    "output_reserve": 128000,
+    "request_has_explicit_output_cap": false,
+    "fits_conservative_allowance": true,
+    "provider_defaults_and_limits_still_apply": true
+  },
+  "endpoint": "https://openrouter.ai/api/v1",
+  "reasoning": "high",
+  "embeddings": false,
+  "history": [],
+  "auto_retries": false,
+  "answer_key_supplied": false,
+  "source_week": 4
+}

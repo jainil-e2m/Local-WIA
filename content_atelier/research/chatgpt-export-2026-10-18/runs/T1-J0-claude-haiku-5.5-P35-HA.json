@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J0-claude-haiku-5.5-P35-HA",
+  "model": "anthropic/claude-haiku-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 336,
+  "completion_tokens": 223,
+  "cached_tokens": 0,
+  "cost": 0.0001451,
+  "seconds": 1.8,
+  "finish": "stop",
+  "system_sha": "ea72523eb9c9",
+  "user_sha": "3ce5c8af1139"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 4,
+  "reason": "Version B states the benefit plainly (no need to build it yourself) and reads more clearly than Version A's quoted fragments, which are vaguer and less polished for email."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: email\n\nVersion A:\nIt's a done-for-you implementation of the exact email and text workflows, customized for your business, aligned with your brand, and built inside LeadLock to support your inquiry process from \"We're interested...\" to \"We're ready to book!\".\n\nVersion B:\nIt's a done-for-you implementation of the exact email and text workflows, customized for your business, aligned with your brand, and built inside LeadLock so your inquiry process is fully supported from first inquiry through to booking without you having to build it yourself.",
+  "cache_prefix_sha": "ea72523eb9c9"
+ }
+}

@@ -1,0 +1,686 @@
+[
+ {
+  "id": "P03",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "A uses a wedding-native metaphor and a calm, grounded tone, while B leans on harsh 'expensive hobby' framing, 'autopilot' hype, and 'algorithm' language that the voice guide avoids.",
+  "cost": 0.041235
+ },
+ {
+  "id": "P03",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "Version B is less aggressive and uses a wedding-specific metaphor, with no 'autopilot' or 'algorithm changes' hype, while A's 'expensive hobby' jab and autopilot claim clash with Whitney's calm, reframing voice and her stance that ads amplify businesses rather than run themselves.",
+  "cost": 0.041545
+ },
+ {
+  "id": "P02",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 3,
+  "reason": "B is calmer and more accurate, with no 'autopilot' or 'proven' hype, and it uses 'our clients' (team voice); A overpromises 'filling calendars on autopilot' and stacks hype claims, which clashes with Whitney's grounded, non-hype voice and WIA's view that ads are a system rather than a faucet.",
+  "cost": 0.041747
+ },
+ {
+  "id": "P01",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "A tells a personal, honest story (going dark, feeling the impact) that reveals a bigger principle, uses a calm, warm first-person voice signed by Whitney, and invites rather than hard-sells, whereas B opens with a forced Team Conrad/Jeremiah analogy, uses hypey phrasing ('blew us away', 'BIG announcements'), and gives thinner results.",
+  "cost": 0.043191
+ },
+ {
+  "id": "P01",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "B is in Whitney's first-person, candid, story-driven voice and uses the experience to show that ads amplify a business, while A is a generic, hypey caption with a forced pop-culture hook, emoji-heavy 'results blew us away' framing and a vague teaser CTA.",
+  "cost": 0.042801
+ },
+ {
+  "id": "P06",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 3,
+  "reason": "Version A opens with \"killing it\" and \"you can, too!\", which is hype language that clashes with Whitney's calm, strategic voice, while Version B shares the same content with a playful, culturally connected tone and ends on \"momentum\", though its emojis and horror puns are slightly flashy.",
+  "cost": 0.0040862
+ },
+ {
+  "id": "P05",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 4,
+  "reason": "Version A is grammatically clean and uses the visibility framing from WIA's strategy, while Version B has a broken sentence (\"you don't lead volume problem\") and a vaguer \"marketing strategy problem\" claim; both open with a slightly blunt \"reality check\" that is less Whitney-like, but A is the publishable one.",
+  "cost": 0.0036242
+ },
+ {
+  "id": "P05",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 3,
+  "reason": "Both open with the same \"reality check\" hook, but B is cleaner and its \"visibility problem\" framing matches Whitney's vocabulary and the strategy's referral-ceiling idea, while A has a typo (\"you don't lead volume problem\") and vague \"marketing strategy problem\" framing.",
+  "cost": 0.0035642
+ },
+ {
+  "id": "P02",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 3,
+  "reason": "B names the Google + Meta strategy and the couple's planning moment, while A's 'gaining followers' misses WIA's conversions-over-attention message, though B's 'autopilot' and 'proven' lean slightly hypey.",
+  "cost": 0.045787
+ },
+ {
+  "id": "P04",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "A focuses on lead quality and a system that builds buyer confidence before the call, which fits Whitney's voice and WIA's 'quality over quantity' message, while B's 'leads on autopilot' and 'chasing the algorithm' are hype-leaning and contradict WIA's view that ads are a data system, not a faucet.",
+  "cost": 0.0067682
+ },
+ {
+  "id": "P04",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 3,
+  "reason": "B reflects WIA's system-and-quality-leads thinking (a funnel that pre-sells), while A's \"leads on autopilot\" contradicts the belief that ads aren't a faucet you turn on and is the kind of hype Whitney avoids.",
+  "cost": 0.0078482
+ },
+ {
+  "id": "P07",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 2,
+  "reason": "A is calmer and more strategic, naming ideal couples, high-intent search behavior and competitors, while B's \"none of that matters\" and \"aren't as good as you\" read as harsher and more dismissive than Whitney's reframing voice.",
+  "cost": 0.0066962
+ },
+ {
+  "id": "P08",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "Version B uses the 'here's the part no one talks about' phrasing that Whitney's voice guide explicitly rules out, while Version A is calmer and more concrete about Google search despite being a bit salesy.",
+  "cost": 0.0059002
+ },
+ {
+  "id": "P06",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 3,
+  "reason": "A connects a cultural moment (horror tropes) to principles in a playful but calm way, while B opens with hype ('killing it right now') and reads as generic, which doesn't sound like Whitney.",
+  "cost": 0.0066162
+ },
+ {
+  "id": "P07",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 2,
+  "reason": "A is calmer and tighter, while B's \"missing out on high-intent leads\" and \"hard truth you may not want to hear\" lean toward the hype and fear tone Whitney avoids, though both keep the flagged word \"magic.\"",
+  "cost": 0.0062862
+ },
+ {
+  "id": "P10",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 3,
+  "reason": "Version B is calmer and more observational, which fits Whitney's voice, and it avoids Version A's disparaging 'less qualified vendors' framing and its clumsy ellipsis.",
+  "cost": 0.0029662
+ },
+ {
+  "id": "P08",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 3,
+  "reason": "Version A uses \"here's the part no one talks about,\" which the voice guide lists as not sounding like Whitney, while Version B stays calm and grounded and points to Google visibility, which is what WIA sells.",
+  "cost": 0.0060302
+ },
+ {
+  "id": "P09",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 3,
+  "reason": "A is calm and principle-driven, ending on 'That's authority' with no hype, while B's 'killer', 'algorithmic luck' and all-caps 'TWICE' drift toward the loud, performative tone the voice guide rules out, even though both make the same point.",
+  "cost": 0.0035822
+ },
+ {
+  "id": "P09",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 3,
+  "reason": "B keeps the calm, grounded tone of Whitney's voice, while A uses loud wording like \"killer SEO foundation\", all-caps \"TWICE\" and \"algorithmic luck\", which her guide steers away from.",
+  "cost": 0.0060522
+ },
+ {
+  "id": "P13",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "Version A reads as calm, principle-led reasoning that explains why repetition matters, in line with Whitney's voice, while Version B relies on punchy 'This isn't X, it's Y' framing, an 'attention economy' cliché, and a flat claim that this isn't a conversion problem, which conflicts with WIA's 'conversions, not clicks' positioning.",
+  "cost": 0.0036862
+ },
+ {
+  "id": "P10",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 3,
+  "reason": "A is a calm, observational line that sets up a principle (Google doesn't sort by quality), while B reads as a complaint about less qualified vendors and uses a clunky ellipsis.",
+  "cost": 0.0059962
+ },
+ {
+  "id": "P11",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 3,
+  "reason": "B keeps its pronouns consistent and doesn't promise Whitney will personally handle replies, while A mixes \"me\" with \"we'll\" and ends on a generic \"Excited to hear from you.\"",
+  "cost": 0.0076882
+ },
+ {
+  "id": "P12",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 4,
+  "reason": "A reframes the problem with a curiosity-driven 'isn't X… it's control' reveal that matches Whitney's voice and rhythm, while B is flatter and vaguer.",
+  "cost": 0.0045442
+ },
+ {
+  "id": "P11",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 3,
+  "reason": "A keeps its pronouns consistent (\"tell us\" and \"we'll\") and ends with a calm, low-pressure invitation, while B switches from \"me\" to \"we\" and closes with a generic \"Excited to hear from you.\"",
+  "cost": 0.0058282
+ },
+ {
+  "id": "P13",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 3,
+  "reason": "Version B reasons calmly through why repeated visibility matters, which fits Whitney's thoughtful, principle-first voice, while Version A leans on punchy declarations and the cliché 'attention economy' framing, and its claim that this 'isn't a conversion problem' is more absolute.",
+  "cost": 0.0034262
+ },
+ {
+  "id": "P12",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 3,
+  "reason": "B uses Whitney's calm reframe rhythm (\"isn't effort or quality… it's control\") and credits the owner's quality, while A is flatter and vaguer.",
+  "cost": 0.0051142
+ },
+ {
+  "id": "P15",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "A accurately describes the Accelerator model (WIA builds the first campaigns, teaches the owner to manage them, and supports learning), while B's \"guide the strategy, support your decisions\" is vaguer and could read as an agency-style offer or hold-your-hand coaching.",
+  "cost": 0.0032182
+ },
+ {
+  "id": "P15",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "B accurately reflects the Accelerator offer (WIA launches campaigns and teaches owners to understand what works and why), while A is a vague cliché that blurs the full-service and teaching offers.",
+  "cost": 0.0045782
+ },
+ {
+  "id": "P17",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "Version A uses Whitney's calm, reasoned voice with hedged language ('necessarily') and flowing sentences. Version B's staccato fragment list reads as more performative and absolute, and it states flatly that the ads weren't the problem.",
+  "cost": 0.0032222
+ },
+ {
+  "id": "P17",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 3,
+  "reason": "Version B's hedged, full-sentence phrasing ('necessarily') fits Whitney's calm, reasoned voice and ties the point to inquiries and bookings, whereas Version A's staccato list of absolutes reads more punchy and declarative than her style.",
+  "cost": 0.0033122
+ },
+ {
+  "id": "P18",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "A fits Whitney's principle-first, calm strategic voice (data, decisions, clarity) and avoids B's generic 'ads are frustrating' framing, though both are fairly bland.",
+  "cost": 0.0029802
+ },
+ {
+  "id": "P14",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 2,
+  "reason": "B is plain text and closes with a warm, low-pressure ask. A's markdown asterisks won't render in a caption and it breaks off at \"including:\", though B's \"biggest giveaway ever\" and Valentine's Day claims would need verifying.",
+  "cost": 0.0089562
+ },
+ {
+  "id": "P18",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 3,
+  "reason": "Version B states a principle (good decisions start with good data) and explains why, with Whitney's long-then-short rhythm and focus on decision-making, while A is a single vague line about frustration.",
+  "cost": 0.0029802
+ },
+ {
+  "id": "P19",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "A fits Whitney's voice better: it's measured, names the specific signals (website, Instagram) and couples, and softens the claim with 'at least not yet', in line with her positioning-first, reframe-not-attack approach, while B is blunter and more generic.",
+  "cost": 0.0031662
+ },
+ {
+  "id": "P19",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 3,
+  "reason": "Version B is more specific (website/Instagram, couples) and softer with 'at least not yet', which fits Whitney's calm, reasoned voice and positioning themes, while A is blunter and more abstract.",
+  "cost": 0.0030062
+ },
+ {
+  "id": "P16",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 3,
+  "reason": "Version A is tighter and better paced for a carousel, states a clear principle (a system that can measure ads comes before optimizing them), and ends on a calm, reflective note that fits Whitney's voice, whereas Version B is wordier, with a text-heavy slide 4.",
+  "cost": 0.0093362
+ },
+ {
+  "id": "P16",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 3,
+  "reason": "B tells the story in a calm, principle-led way (measurement before optimization, 'data instead of hope') and ends with a reflective, invitation-style close, which fits Whitney's voice better than A's longer, more agency-bashing setup.",
+  "cost": 0.0101362
+ },
+ {
+  "id": "P21",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "Version A is warmer and more specific ('built an incredible business', 'next level of success') and avoids the generic, em-dash-heavy 'thriving... ready to grow' phrasing of B, which reads more like AI copy.",
+  "cost": 0.0030342
+ },
+ {
+  "id": "P14",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 2,
+  "reason": "A reads as the more natural, human caption and correctly says the Accelerator Bundle is what was built, whereas B says they 'built the Ads Accelerator Giveaway' and uses markdown asterisks that won't render in a caption.",
+  "cost": 0.0103362
+ },
+ {
+  "id": "P21",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 3,
+  "reason": "A is plainer and more grounded, and 'ready to grow' fits Whitney's calm voice, while B's 'incredible business' and 'next level of success' read as generic hype.",
+  "cost": 0.0028842
+ },
+ {
+  "id": "P20",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "Version B has a leftover \"...\" elision where text was cut, and it adds an unverified claim about results at $500/month on Google or $300/month on Meta, while Version A is complete and makes no unsupported claims.",
+  "cost": 0.0051922
+ },
+ {
+  "id": "P22",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 3,
+  "reason": "B is grounded and plain, and it speaks to the control the audience wants over lead flow, while A's 'reach new heights' is a vague, hype-style cliché that sounds generic and not like Whitney.",
+  "cost": 0.0029542
+ },
+ {
+  "id": "P23",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 3,
+  "reason": "B is tighter and reframes the objections as 'lies we tell ourselves' without attacking, whereas A repeats generic claims ('Here's the truth', 'key most people miss'), says 'Sure, boosting posts isn't it. And DIYing isn't going to cut it either,' which contradicts WIA's stance that you can DIY ads, and makes the shaky claim that ads 'don't create demand'.",
+  "cost": 0.0045982
+ },
+ {
+  "id": "P20",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "Version A has a leftover \"...\" gap in the Google Ads paragraph and adds an unverified claim about results at $500/month on Google or $300/month on Meta, while Version B is complete and makes no unsupported claims.",
+  "cost": 0.0050622
+ },
+ {
+  "id": "P22",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 4,
+  "reason": "A follows through on the 'control' idea from the opening question, which matches what clients say they want (control over lead flow), while B's 'reach new heights' is a vague cliché that drops the thread and lacks closing punctuation.",
+  "cost": 0.0042542
+ },
+ {
+  "id": "P25",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 4,
+  "reason": "Version B is a complete, ready-to-send email in Whitney's voice (a reframe, calm confidence, systems and predictability, an invitation). Version A is a rough fragment labeled 'Email 1' that needs more work and also says running ads 'is doing more', which cuts against her message.",
+  "cost": 0.0035742
+ },
+ {
+  "id": "P25",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 5,
+  "reason": "Version A is a finished, publishable email in Whitney's reflective, principle-first voice with an invitation CTA, while Version B is an unfinished internal draft note, not sendable copy.",
+  "cost": 0.0032442
+ },
+ {
+  "id": "P26",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "A is a complete piece that reframes the problem calmly, explains why before how, ends with an invitation, and keeps to Whitney's strategic tone, while B is a shorter, more dramatic fragment with no resolution or CTA.",
+  "cost": 0.0039902
+ },
+ {
+  "id": "P27",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "Version A is a complete, publishable caption in Whitney's calm, strategic voice (buyer psychology, intentional, confidence), while Version B is an unfinished draft with arrows and notes, and WIA's own notes say prospects who ask to see examples usually don't move forward.",
+  "cost": 0.0036662
+ },
+ {
+  "id": "P24",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 3,
+  "reason": "A is cleaner and speaks to the outcome (fewer lost inquiries, less stress) without B's unverified 'Built on HighLevel' claim, 'autopilot' framing, or its grammar slips.",
+  "cost": 0.0068022
+ },
+ {
+  "id": "P24",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 3,
+  "reason": "B is cleaner and centers the buyer's outcomes (fewer lost inquiries, faster response, less stress) without naming a third-party platform or promising 'autopilot', though its 'no more missed messages' line is a bit absolute.",
+  "cost": 0.0073622
+ },
+ {
+  "id": "P27",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "B reads as a finished caption in Whitney's voice (buyer psychology, intentional strategy, confidence, calm tone) and matches the documented objections, while A is a fragmentary draft with arrows and 'later:' notes, and the knowledge base notes that prospects who ask for examples often don't move forward.",
+  "cost": 0.0037862
+ },
+ {
+  "id": "P28",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 3,
+  "reason": "B reframes where advertising starts in Whitney's calm, curiosity-led voice and ends on the insight without a hard sell, while A has a typo and an unverified, sales-heavy two-offer pitch with a DM CTA that isn't earned.",
+  "cost": 0.0039322
+ },
+ {
+  "id": "P23",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 3,
+  "reason": "B reads as a complete, principle-led piece (ads capture or amplify demand, not fix a business) that fits Whitney's reframing voice and the 'stop boosting posts' and always-on themes, while A starts with an awkward 'But first' and stays generic, though B's 'DIYing isn't going to cut it' line sits uneasily with the Accelerators.",
+  "cost": 0.0120082
+ },
+ {
+  "id": "P30",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "Version A matches WIA's positioning of growing beyond organic and referrals with a strategic lead system, while B wrongly says clients were 'done wasting time on SEO and organic social', which contradicts Whitney's calm, non-attacking voice and the fact that clients have invested in and benefit from organic.",
+  "cost": 0.0036622
+ },
+ {
+  "id": "P26",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "B reframes organic instead of attacking it, ties to Whitney's belief that ads amplify, explains why before the fix, and ends with a natural invitation, while A is a short, algorithm-blaming fragment with no resolution or CTA.",
+  "cost": 0.0071602
+ },
+ {
+  "id": "P30",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "Version A says clients were 'done wasting time on SEO and organic social' and promises to 'book their calendar', which is dismissive and overpromising. Version B's 'grow beyond organic marketing and referrals' and 'amplify strategically' match Whitney's calm, strategic voice and her belief that ads amplify businesses.",
+  "cost": 0.0037622
+ },
+ {
+  "id": "P31",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "Version A describes the Accelerator accurately as a Google Ads setup and campaign launch, while Version B calls it 'done-for-you', which misrepresents an offer where WIA builds the first campaigns with the owner and then teaches them to manage the ads themselves.",
+  "cost": 0.0032622
+ },
+ {
+  "id": "P32",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 3,
+  "reason": "Version B opens with an observation about what Whitney keeps seeing and leads with the buyer's problem, which matches her curiosity-first voice. Version A reads as generic marketing copy ('dialed in', 'at scale', 'amplify') that sounds polished and performative.",
+  "cost": 0.0033202
+ },
+ {
+  "id": "P28",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 3,
+  "reason": "A opens with a calm reframe in Whitney's voice and makes no unverified claims, while B has a visible error (a lowercase \"we're\" with a broken transition), generalizes about other agencies, and pushes a DM CTA that includes ELEVATE, which is waitlist-only.",
+  "cost": 0.0083222
+ },
+ {
+  "id": "P29",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 3,
+  "reason": "Version B has a cleaner, on-voice reframe hook and names the reader's real fears, while Version A has grammar errors and leans on the \"spend money to make money\" line, which contradicts WIA's stance that spending more isn't the answer.",
+  "cost": 0.0089762
+ },
+ {
+  "id": "P33",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 3,
+  "reason": "B is concise and calm, with a strategic tone that fits Whitney's voice and avoids unverified claims, whereas A makes unconfirmed claims about 'building a new way over the past year' and reads like corporate boilerplate.",
+  "cost": 0.0032422
+ },
+ {
+  "id": "P34",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "Version A matches WIA's ideal client (believes in ads, hasn't seen consistent results, unsure what's working), while Version B describes someone already seeing leads and ready to scale, which is a different audience and less grounded in the client avatar.",
+  "cost": 0.0031662
+ },
+ {
+  "id": "P31",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "The Google Search Accelerator is a build-with-you-then-teach program, not a done-for-you service (that's Elevate), so A mislabels the offer, while B's 'setup + campaign launch' is closer to what it includes.",
+  "cost": 0.0049822
+ },
+ {
+  "id": "P34",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 3,
+  "reason": "Version B matches WIA's ideal client (has tried ads, felt unsure, lacks consistent results) and is grounded in the strategy doc, whereas Version A describes a client who already sees leads and is scaling, which is off-target and generic.",
+  "cost": 0.0031762
+ },
+ {
+  "id": "P35",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "A is tighter and carries a warm, human sense of the couple's journey ('We're interested...' to 'We're ready to book!'), while B's longer 'without you having to build it yourself' tail feels more generic and padded.",
+  "cost": 0.0031902
+ },
+ {
+  "id": "P32",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 3,
+  "reason": "B ties the session to ads and echoes Whitney's beliefs that ads amplify what's already working and that foundations and positioning come first, while A drifts into a messaging-and-value topic that isn't clearly about WIA's ads work.",
+  "cost": 0.0066502
+ },
+ {
+  "id": "P33",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 3,
+  "reason": "B echoes WIA's real mission (accessible, profitable ads) and names the Accelerators with hands-on support for established pros, while A is generic and vague about what WIA does.",
+  "cost": 0.0062822
+ },
+ {
+  "id": "P35",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 3,
+  "reason": "Version B grounds the benefit in the couple's own words, a more emotional and buyer-psychology framing that fits Whitney's voice. Version A's 'fully supported... without you having to build it yourself' is longer, more generic, and leans toward an overpromise.",
+  "cost": 0.0033302
+ },
+ {
+  "id": "P36",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "Version A is written as full, readable caption copy and gives the reasoning behind the post-consultation follow-up ('not every lead will be ready to make a decision on the spot'), which fits Whitney's why-before-how style, while Version B is a terse outline that isn't ready to publish as it is.",
+  "cost": 0.0033382
+ },
+ {
+  "id": "P29",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 3,
+  "reason": "B tells the full client story, draws a broader principle from it ('strategic decisions before they feel ready'), and ends with a natural invitation, while A is thinner, repeats 'doubled' and has no CTA, though B's typos are a flaw.",
+  "cost": 0.0115962
+ },
+ {
+  "id": "P36",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 3,
+  "reason": "Version B is more specific and explains the why (not every lead is ready to decide on the spot), which fits Whitney's principle of why before how, though it has a grammar slip ('every leads') that needs a fix.",
+  "cost": 0.0030582
+ },
+ {
+  "id": "P37",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 3,
+  "reason": "A speaks as WIA describing its own process (messaging interviews, foundations first), which fits the 'we build the system' positioning and Whitney's reframing voice, whereas B lectures the reader with 'you need to' and leans toward DIY prerequisites.",
+  "cost": 0.0035542
+ },
+ {
+  "id": "P37",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "Version A speaks directly to the wedding pro with clear, principle-first reasoning in Whitney's calm voice, while Version B mixes 'we' with third-person 'their ideal client' and 'this business', which reads like an internal process note.",
+  "cost": 0.0072242
+ },
+ {
+  "id": "P38",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 3,
+  "reason": "B describes an automated nurture sequence, which is what the product plausibly does and is clear about it, while A's AI-invented 'continues the conversation' implies a real two-way exchange that hasn't been verified.",
+  "cost": 0.0066042
+ },
+ {
+  "id": "P38",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "A says concretely what the system does (instant reply, automated nurture sequence) and names the outcome (more consultations), while B's 'continues the conversation' is vaguer and implies a two-way exchange an automation doesn't have.",
+  "cost": 0.0076142
+ }
+]

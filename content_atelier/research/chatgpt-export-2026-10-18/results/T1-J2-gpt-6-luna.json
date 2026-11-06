@@ -1,0 +1,686 @@
+[
+ {
+  "id": "P03",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "A avoids B’s dismissive “expensive hobby” framing and unrealistic autopilot promise, though its absolute claim about referrals drying up still feels too harsh.",
+  "cost": 0.000216925
+ },
+ {
+  "id": "P02",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "A is more restrained and avoids B’s unsupported autopilot and calendar-filling claims, though “strategic paid strategy” is redundant.",
+  "cost": 0.0002408
+ },
+ {
+  "id": "P02",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "It’s tighter and less hype-heavy, though the claims about followers and leads would still need verification.",
+  "cost": 0.0002568
+ },
+ {
+  "id": "P03",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "The wedding-specific RSVP image is more grounded and less aggressive than calling a business an expensive hobby, though the claim about referrals drying up still feels off-brand.",
+  "cost": 0.000256425
+ },
+ {
+  "id": "P01",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "A gives a more specific founder story and measurable outcome, while B overpromises that ads bring dream clients straight to you and leans on hype-driven announcements.",
+  "cost": 0.001801675
+ },
+ {
+  "id": "P04",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 2,
+  "reason": "It connects a funnel to a real sales experience, while A overpromises that ads bring leads “on autopilot.”",
+  "cost": 0.000261525
+ },
+ {
+  "id": "P04",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "It connects to WIA’s funnel work, while B overpromises that ads bring leads on autopilot.",
+  "cost": 0.001726175
+ },
+ {
+  "id": "P06",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "A is more aligned with Whitney’s grounded, professional voice, while B’s Halloween wordplay and “meh into momentum” feel gimmicky.",
+  "cost": 0.00028165
+ },
+ {
+  "id": "P01",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "B uses a specific founder experience to make the point about ads, while A leans on hype and promises that ads bring dream clients straight to you.",
+  "cost": 0.000458175
+ },
+ {
+  "id": "P05",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 3,
+  "reason": "It’s clearer and more coherent than A, though the “reality check” framing and problem-swap still feel harsher than Whitney’s preferred voice.",
+  "cost": 0.000323275
+ },
+ {
+  "id": "P05",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 3,
+  "reason": "A is grammatically clear, while B has a conspicuous missing-word error; both use a problem-swap framing Whitney would likely revise.",
+  "cost": 0.000289775
+ },
+ {
+  "id": "P06",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 3,
+  "reason": "A avoids B’s hype and unsupported promise that this approach will dramatically increase bookings, though its Halloween wordplay is less grounded than Whitney’s usual voice.",
+  "cost": 0.001763425
+ },
+ {
+  "id": "P07",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 3,
+  "reason": "B is tighter and avoids A’s fear-driven phrasing, though “none of that matters” and the comparison to less capable vendors feel more absolute than Whitney’s usual voice.",
+  "cost": 0.0003085
+ },
+ {
+  "id": "P09",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "A presents Google Ads alongside SEO, while B incorrectly suggests paid search accelerates organic rankings.",
+  "cost": 0.00025625
+ },
+ {
+  "id": "P07",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "It makes the consequence of being hard to find on Google more specific, without claiming that a strong business is irrelevant unless it ranks first.",
+  "cost": 0.000314
+ },
+ {
+  "id": "P08",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 4,
+  "reason": "A makes a grounded point about visibility without implying that ranking at the top of Google is necessary to book couples.",
+  "cost": 0.00027575
+ },
+ {
+  "id": "P10",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "A is more specific to wedding businesses and frames a familiar visibility gap without the broad, judgmental claim in B.",
+  "cost": 0.001614675
+ },
+ {
+  "id": "P09",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 4,
+  "reason": "It respects SEO as a valuable foundation and frames Google Ads as complementary, while B overstates how much advertisers control and uses hype like “killer.”",
+  "cost": 0.00025925
+ },
+ {
+  "id": "P08",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 3,
+  "reason": "It avoids implying WIA can guarantee a top Google ranking or repeat bookings, though “the part no one talks about” feels less like Whitney’s voice.",
+  "cost": 0.000467875
+ },
+ {
+  "id": "P11",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 5,
+  "reason": "A keeps Whitney’s personal invitation and avoids the banned em dash in B’s sign-off.",
+  "cost": 0.000259375
+ },
+ {
+  "id": "P10",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "It makes the visibility point more concretely, while A uses an em dash, which Whitney has explicitly banned.",
+  "cost": 0.00025575
+ },
+ {
+  "id": "P11",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "The invitation and Whitney’s sign-off align, and “continue the conversation” feels more personal and natural than “we’ll take it from there.”",
+  "cost": 0.000229875
+ },
+ {
+  "id": "P12",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 5,
+  "reason": "A states the idea directly and avoids B’s problem-swap contrast and overused ellipses.",
+  "cost": 0.000204625
+ },
+ {
+  "id": "P13",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 5,
+  "reason": "B makes a clear point about repeated visibility without using the banned problem-swap hook in A.",
+  "cost": 0.000200375
+ },
+ {
+  "id": "P12",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "It makes the point more calmly and avoids the contrast-heavy, fragmentary hook in A.",
+  "cost": 0.000214625
+ },
+ {
+  "id": "P13",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "A offers a more measured explanation, while B uses the explicitly discouraged problem-swap hook.",
+  "cost": 0.000214375
+ },
+ {
+  "id": "P15",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 5,
+  "reason": "It clearly describes the Accelerator’s campaign launch and ongoing guided learning without implying full-service management.",
+  "cost": 0.0016073
+ },
+ {
+  "id": "P14",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 4,
+  "reason": "It’s tighter and avoids the extra promotional push in A, though “Ads Accelerator Giveaway” is less clear than “Ads Accelerator Bundle.”",
+  "cost": 0.000352125
+ },
+ {
+  "id": "P15",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "It clearly describes the Accelerator’s campaign launch and guided learning without the em dash in A.",
+  "cost": 0.000219105
+ },
+ {
+  "id": "P14",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "A uses an em dash, which Whitney’s style guide explicitly bans, while B’s giveaway claims and share request could use tightening.",
+  "cost": 0.000321
+ },
+ {
+  "id": "P17",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "It explains the tracking issue clearly and avoids the emphatic fragment chain and categorical claim in B.",
+  "cost": 0.000208105
+ },
+ {
+  "id": "P18",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 5,
+  "reason": "It makes a clear, strategic point about using data to guide improvement without framing advertising as frustrating.",
+  "cost": 0.00018298
+ },
+ {
+  "id": "P17",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "It explains the tracking gap more precisely and avoids A’s absolute claims and fragment-heavy phrasing.",
+  "cost": 0.000226605
+ },
+ {
+  "id": "P18",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "It leads with a clear strategic principle and explains why measurement matters, while A frames advertising as frustrating.",
+  "cost": 0.00018398
+ },
+ {
+  "id": "P16",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "B gives the client’s situation more context and explains the tracking gap without claiming the ads definitely were or weren’t working.",
+  "cost": 0.000422105
+ },
+ {
+  "id": "P16",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "A gives more context and avoids B’s unverified direct quote and overconfident claims about attribution and decision-making.",
+  "cost": 0.000499105
+ },
+ {
+  "id": "P20",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 5,
+  "reason": "B is complete and avoids A’s unverified budget claims, while clearly explaining what makes Google Ads strategic.",
+  "cost": 0.00023123
+ },
+ {
+  "id": "P20",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 5,
+  "reason": "B adds unverified budget and results claims, while A is complete and avoids unsupported proof.",
+  "cost": 0.00025023
+ },
+ {
+  "id": "P21",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 4,
+  "reason": "It’s concise and speaks to an established business without the vague “next level of success” phrasing.",
+  "cost": 0.000201105
+ },
+ {
+  "id": "P19",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "It makes the point specific to couples and the places they evaluate a wedding business, while clarifying that the foundations come before ads.",
+  "cost": 0.00028773
+ },
+ {
+  "id": "P19",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "It makes the strategic point concrete for wedding businesses by naming the website, Instagram, and couple’s decision, while “at least not yet” leaves room for building the foundation first.",
+  "cost": 0.00033773
+ },
+ {
+  "id": "P21",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 5,
+  "reason": "A is concise and grounded, while B leans on generic, inflated phrasing like “incredible” and “next level of success.”",
+  "cost": 0.000181605
+ },
+ {
+  "id": "P22",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 4,
+  "reason": "“Put you in the driver’s seat” connects paid ads to the promise of more control, while “reach new heights” is vague and inflated.",
+  "cost": 0.00020698
+ },
+ {
+  "id": "P22",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 4,
+  "reason": "“In the driver’s seat” connects paid ads to the audience’s desire for more control, while “reach new heights” is vague.",
+  "cost": 0.000187855
+ },
+ {
+  "id": "P24",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "A gives more concrete product detail and avoids B’s stronger promise that the system automatically turns inquiries into bookings, though its feature and results claims should be verified.",
+  "cost": 0.00028473
+ },
+ {
+  "id": "P24",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "B describes LeadLock’s follow-up and organization features more concretely, while A overpromises that automation will turn inquiries into bookings.",
+  "cost": 0.00031523
+ },
+ {
+  "id": "P23",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 4,
+  "reason": "It avoids dismissing DIY ads, which WIA teaches, though “organic marketing can’t” overstates the contrast with organic.",
+  "cost": 0.000419105
+ },
+ {
+  "id": "P25",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 4,
+  "reason": "A is a complete, clear email inviting readers to the training, while B is only a topic note rather than publish-ready copy.",
+  "cost": 0.000287105
+ },
+ {
+  "id": "P23",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 4,
+  "reason": "A avoids dismissing DIY ads, which conflicts with WIA’s belief that wedding pros can learn to run ads themselves, though its claim that ads offer what organic marketing can’t should be softened.",
+  "cost": 0.000457105
+ },
+ {
+  "id": "P25",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "B uses a banned problem-swap hook and em dash, while A more directly reflects that the Accelerators require ongoing work, though it needs editing before publication.",
+  "cost": 0.000399605
+ },
+ {
+  "id": "P26",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 3,
+  "reason": "B preserves a role for organic marketing and explains how paid ads can complement it, though its problem-swap hook and promises of predictable visibility need revision.",
+  "cost": 0.000306605
+ },
+ {
+  "id": "P27",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "A is a complete caption that speaks to real buyer concerns, while B reads like an unfinished note rather than publish-ready copy.",
+  "cost": 0.00023473
+ },
+ {
+  "id": "P28",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 5,
+  "reason": "It makes WIA’s foundation-first approach clear without broad claims about other agencies or the grammar and offer-accuracy issues in A.",
+  "cost": 0.000276855
+ },
+ {
+  "id": "P26",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "A connects the point to wedding couples and WIA’s paid-ad strategy, while B relies on more dramatic, unsupported claims about organic social.",
+  "cost": 0.00041173
+ },
+ {
+  "id": "P28",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 5,
+  "reason": "A is clear, specific to ELEVATE, and explains WIA’s strategic process without broad claims about other agencies or awkward phrasing.",
+  "cost": 0.000272355
+ },
+ {
+  "id": "P27",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "B is a complete, audience-specific caption, while A reads like an unfinished content note; B’s swipe at other agencies is less aligned with Whitney’s voice.",
+  "cost": 0.00036373
+ },
+ {
+  "id": "P30",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 5,
+  "reason": "It positions paid ads as a strategic addition to organic marketing and referrals, while A dismisses channels WIA treats as valuable foundations.",
+  "cost": 0.00022148
+ },
+ {
+  "id": "P30",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 5,
+  "reason": "A presents paid ads as a strategic extension of organic marketing and referrals, while B disparages those channels and overpromises booked calendars.",
+  "cost": 0.00024398
+ },
+ {
+  "id": "P31",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 5,
+  "reason": "A describes the Accelerator more accurately as a campaign setup and launch, while B incorrectly calls it a done-for-you service.",
+  "cost": 0.00021198
+ },
+ {
+  "id": "P29",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 4,
+  "reason": "A avoids B’s grammatical error, unsupported client details, and premature ELEVATE sales pitch, though its problem-swap hook still needs revision.",
+  "cost": 0.000354355
+ },
+ {
+  "id": "P31",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 5,
+  "reason": "It describes the Accelerator more accurately as a campaign setup and launch, rather than calling it a done-for-you service.",
+  "cost": 0.00022798
+ },
+ {
+  "id": "P29",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 3,
+  "reason": "B avoids A’s extra unverified claims about doubled inquiries, doubled revenue, and being personally booked out, though its hook and remaining results still need verification.",
+  "cost": 0.000440855
+ },
+ {
+  "id": "P32",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "It reflects WIA’s belief that ads amplify strong foundations and speaks to established planners without implying WIA solves their positioning for them.",
+  "cost": 0.000251105
+ },
+ {
+  "id": "P32",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 5,
+  "reason": "It’s more specific to planners and reflects Whitney’s strategic, grounded voice without relying on generic claims about scaling.",
+  "cost": 0.000264605
+ },
+ {
+  "id": "P33",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "B reflects WIA’s mission and names its Accelerator support, while A uses an em dash, which Whitney has banned.",
+  "cost": 0.000257855
+ },
+ {
+  "id": "P33",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 4,
+  "reason": "It states WIA’s paid-advertising role clearly and concisely, while A adds vague, time-specific claims and risks describing the Accelerator inaccurately.",
+  "cost": 0.000283855
+ },
+ {
+  "id": "P34",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 4,
+  "reason": "It speaks to established businesses building on early traction, while A centers inconsistent results and uncertainty.",
+  "cost": 0.000267355
+ },
+ {
+  "id": "P35",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 4,
+  "reason": "It explains the practical benefit of the done-for-you implementation clearly, without the awkward quoted stages in A.",
+  "cost": 0.000280605
+ },
+ {
+  "id": "P36",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 4,
+  "reason": "It’s concise and clear, while A has a grammatical error and the overly salesy claim “pre-sell every appointment.”",
+  "cost": 0.00022223
+ },
+ {
+  "id": "P34",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "It names a specific, familiar ads experience instead of making the broad assumption that readers are already getting leads and ready to scale.",
+  "cost": 0.000297355
+ },
+ {
+  "id": "P36",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 4,
+  "reason": "A is concise and clear, while B has awkward phrasing and overpromises by saying it will guide every lead and pre-sell every appointment.",
+  "cost": 0.00023773
+ },
+ {
+  "id": "P35",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "It describes LeadLock as supporting the inquiry process without implying it manages the booking or sales process end to end.",
+  "cost": 0.00038448
+ },
+ {
+  "id": "P37",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 4,
+  "reason": "It shows WIA’s strategic process and role more clearly, while B makes the work sound like the reader’s responsibility.",
+  "cost": 0.00029098
+ },
+ {
+  "id": "P37",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "A is clearer and speaks directly to the wedding business owner, while B’s shift to “we” and “their” makes the audience less clear.",
+  "cost": 0.00030048
+ },
+ {
+  "id": "P38",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 4,
+  "reason": "It describes the follow-up without promising an unverified increase in consultations or relying on the potentially absolute claim “instantly.”",
+  "cost": 0.00033198
+ },
+ {
+  "id": "P38",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 3,
+  "reason": "It describes the follow-up as an automated sequence rather than implying AI carries on a live conversation, though the booking benefit may need substantiation.",
+  "cost": 0.00041248
+ }
+]

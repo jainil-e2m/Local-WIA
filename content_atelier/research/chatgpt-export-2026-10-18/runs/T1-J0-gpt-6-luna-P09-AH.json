@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J0-gpt-6-luna-P09-AH",
+  "model": "openai/gpt-6-luna",
+  "provider": "OpenAI",
+  "effort": null,
+  "prompt_tokens": 291,
+  "completion_tokens": 450,
+  "cached_tokens": 0,
+  "cost": 0.0002541,
+  "seconds": 6.0,
+  "finish": "stop",
+  "system_sha": "ea72523eb9c9",
+  "user_sha": "afd48c2a49d3"
+ },
+ "output": {
+  "choice": "A",
+  "confidence": 4,
+  "reason": "It’s concise and punchy for Stories, while B overstates how much control Google Ads gives you."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: stories\n\nVersion A:\nSEO matters. You should invest in it.  \nBut it’s slow. Competitive. And doesn’t guarantee results.\n\nGoogle Ads don’t replace SEO — they accelerate it.  \nBecause when couples search and see you *twice* on the first page?\n\nThat’s not an accident.  \nThat’s authority.\n\nVersion B:\nYou’ve been told SEO is the key to showing up on Google.\nAnd that isn’t wrong.\n\nBut SEO takes months, consistency, and algorithmic luck.\nYou don’t control when (or if) you’ll show up.\n\nWith Google Ads, you do.\n\nYou choose the keywords.\nYou write the headlines.\nYou control the message...when it appears and for who.\n\nAnd when you pair a killer SEO foundation with a smart Google Ads strategy?\nCouples see you TWICE in the search results.\n\nDoubling your visibility builds authority.",
+  "cache_prefix_sha": "ea72523eb9c9"
+ }
+}

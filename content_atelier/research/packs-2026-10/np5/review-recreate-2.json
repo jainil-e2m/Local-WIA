@@ -1,0 +1,25 @@
+{
+  "purpose": "NP-6: after the docstring fix (PR #18), production's pack runs frozen under the edited wire schema are retried (pass 1), then replaced by new runs under the restored schema once the retry fails as 'changed' (pass 2); replay mode only, so a miss waits and spends nothing.",
+  "name": "recreate-2",
+  "actor": "ai@weddingindustryads.com",
+  "steps": [
+    {
+      "label": "brief 1: replace the run stuck on the changed contract (replay)",
+      "brief_id": "brief_579f970d9210bc9be2cfbfde",
+      "action": "create",
+      "mode": "replay"
+    },
+    {
+      "label": "brief 2: replace the run stuck on the changed contract (replay)",
+      "brief_id": "brief_b2ad696069930da13b4e2c4d",
+      "action": "create",
+      "mode": "replay"
+    },
+    {
+      "label": "brief 3: replace the run stuck on the changed contract (replay)",
+      "brief_id": "brief_57502d2280064c9564925d56",
+      "action": "create",
+      "mode": "replay"
+    }
+  ]
+}

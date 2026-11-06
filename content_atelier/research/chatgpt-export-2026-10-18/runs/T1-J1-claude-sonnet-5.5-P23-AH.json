@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J1-claude-sonnet-5.5-P23-AH",
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 16574,
+  "completion_tokens": 896,
+  "cached_tokens": 15842,
+  "cost": 0.0120082,
+  "seconds": 8.5,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "ccdf58332b93"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 3,
+  "reason": "B reads as a complete, principle-led piece (ads capture or amplify demand, not fix a business) that fits Whitney's reframing voice and the 'stop boosting posts' and always-on themes, while A starts with an awkward 'But first' and stays generic, though B's 'DIYing isn't going to cut it' line sits uneasily with the Accelerators."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: landing\n\nVersion A:\nBut first, let’s talk about the lies we tell ourselves about ads:\n“Ads are just for big companies with big budgets.”\n“I tried them once—they didn’t work.”\n“I wouldn’t even know where to start.”\nHere’s the truth: ads do work. But only when they’re built on strategy, not guesswork.\nWhen you show up in the right place, say the right thing, and speak to the right couples—ads become a growth engine, not a gamble.\nStrategic ads give you what organic marketing can’t: Control… Consistency… Visibility beyond your followers and referrals\nYou don’t need a massive budget. You don’t need to be everywhere.\nYou just need a plan that meets your dream clients where they already are—and moves them to take action.\n\nVersion B:\nAds aren't just for big companies with big budgets.\n\nAnd just because you've tried ads before without success, it doesn't mean ads don't work.\n\nSure, boosting posts isn't it. And DIYing isn't going to cut it either.\n\nHere's the truth: ads do work. But only when they're built on strategy, not guesswork.\n\nWhen you show up in the right place, say the right thing, and speak to the right couples—ads become a growth engine, not a gamble.\n\nWhen done well, they give you what organic marketing rarely can:\n\nControl over who sees your business and when\n\nConsistency in lead flow, even in slower seasons\n\nVisibility in front of couples who would’ve never found you otherwise\n\nBut here’s the key most people miss: Ads don’t create demand. They capture it—or amplify it.\n\nThat’s why your message, your timing, and your platform choice matter.\n\nYou don’t need to do everything. You don’t need a massive budget. You just need to start in the right place—and show up with clarity.",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

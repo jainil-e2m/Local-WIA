@@ -1,0 +1,2245 @@
+{
+  "checked_at_utc": "2026-10-14T13:17:25.262Z",
+  "timezone": "Asia/Kolkata",
+  "transcript_downloads": 0,
+  "transcript_availability_verified": false,
+  "confirmed_zoom_matches": 0,
+  "confirmed_additional_calls": 0,
+  "groups": [
+    {
+      "week": 11,
+      "recording_ids": [
+        172747117
+      ],
+      "proposed_first_comparison_recording_id": 172747117,
+      "title": "WIA + Bri Photography Check-In Call",
+      "occurrence_ist": "2026-08-13T00:31:14+05:30",
+      "category": "candidate_additional",
+      "evidence": [
+        "Bri Photography does not appear in the Week 11 title or speaker roster. Earlier Bri calls exist in Weeks 3 and 7; their existence does not identify this August call.",
+        "No apparent corresponding Zoom file in the assigned week; this is a candidate addition, not proof of absence from every source."
+      ],
+      "duplicate_capture_evidence": [],
+      "recordings": [
+        {
+          "recording_id": 172747117,
+          "recorded_by": {
+            "name": "Carmen Cruickshank",
+            "email": "carmen@weddingindustryads.com",
+            "email_domain": "weddingindustryads.com",
+            "team": "WIA"
+          },
+          "duration_seconds": 1179.0,
+          "url": "https://fathom.video/calls/780198074"
+        }
+      ],
+      "zoom_candidates": [],
+      "proposed_folder": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week11",
+      "proposed_raw_filename": "fathom_172747117_2026-08-13_003114_WIA _ Bri Photography Check-In Call.json",
+      "action": "after explicit transcript-download authorization, compare in staging; add to week folder only when additional or materially different content is established; do not change existing Zoom originals"
+    },
+    {
+      "week": 18,
+      "recording_ids": [
+        188221768
+      ],
+      "proposed_first_comparison_recording_id": 188221768,
+      "title": "Impromptu Zoom Meeting",
+      "occurrence_ist": "2026-09-30T20:01:49+05:30",
+      "category": "uncertain",
+      "evidence": [
+        "Generic Impromptu Zoom Meeting title. Calendar invitees list only the recorder, so actual client/team speakers are unavailable.",
+        "Local files have no Zoom calendar timestamp or Zoom meeting ID; duration-only candidates are not accepted as matches."
+      ],
+      "duplicate_capture_evidence": [],
+      "recordings": [
+        {
+          "recording_id": 188221768,
+          "recorded_by": {
+            "name": "Carmen Cruickshank",
+            "email": "carmen@weddingindustryads.com",
+            "email_domain": "weddingindustryads.com",
+            "team": "WIA"
+          },
+          "duration_seconds": 970.0,
+          "url": "https://fathom.video/calls/843976693"
+        }
+      ],
+      "zoom_candidates": [
+        {
+          "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week18\\Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+          "filename": "Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+          "sha256": "e514a2cb911fd7f78f4ac6ccfa290112af7b1577267c8339245ce1daa92e7f00",
+          "last_cue_end_seconds": 980.0,
+          "difference_from_fathom_duration_seconds": 10.0,
+          "speakers": [
+            "Carmen Cruickshank",
+            "Alyssa Kurtz",
+            "Whitney Hodges"
+          ],
+          "calendar_date": null,
+          "zoom_meeting_id": null
+        },
+        {
+          "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week18\\Whitney Hodges's Personal Meeting Room's transcript.txt",
+          "filename": "Whitney Hodges's Personal Meeting Room's transcript.txt",
+          "sha256": "81edfd1cb7ced7a8596d1ec657c690c4db85842de76795698e8aa1f6b5da41e5",
+          "last_cue_end_seconds": 1292.0,
+          "difference_from_fathom_duration_seconds": 322.0,
+          "speakers": [
+            "Nadine",
+            "Whitney Hodges"
+          ],
+          "calendar_date": null,
+          "zoom_meeting_id": null
+        },
+        {
+          "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week18\\Carmen Cruickshank's Zoom Meeting's transcript (2).txt",
+          "filename": "Carmen Cruickshank's Zoom Meeting's transcript (2).txt",
+          "sha256": "686dd9ea39d34610d32c6cd4a0a181049f9169181f62c7f027d09473bf35137d",
+          "last_cue_end_seconds": 629.0,
+          "difference_from_fathom_duration_seconds": -341.0,
+          "speakers": [
+            "Carmen Cruickshank"
+          ],
+          "calendar_date": null,
+          "zoom_meeting_id": null
+        }
+      ],
+      "proposed_folder": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week18",
+      "proposed_raw_filename": "fathom_188221768_2026-09-30_200149_Impromptu Zoom Meeting.json",
+      "action": "after explicit transcript-download authorization, compare in staging; add to week folder only when additional or materially different content is established; do not change existing Zoom originals"
+    },
+    {
+      "week": 18,
+      "recording_ids": [
+        189088443
+      ],
+      "proposed_first_comparison_recording_id": 189088443,
+      "title": "Whitney + Alina",
+      "occurrence_ist": "2026-10-02T20:01:19+05:30",
+      "category": "candidate_additional",
+      "evidence": [
+        "No Alina speaker or Alina/Dogwood meeting title in Week 18. Alina is present in earlier Weeks 14/15; those are not evidence for the October 2 call.",
+        "No apparent corresponding Zoom file in the assigned week; this is a candidate addition, not proof of absence from every source."
+      ],
+      "duplicate_capture_evidence": [],
+      "recordings": [
+        {
+          "recording_id": 189088443,
+          "recorded_by": {
+            "name": "Whitney Hodges",
+            "email": "hello@weddingindustryads.com",
+            "email_domain": "weddingindustryads.com",
+            "team": "Executive"
+          },
+          "duration_seconds": 2798.0,
+          "url": "https://fathom.video/calls/845873735"
+        }
+      ],
+      "zoom_candidates": [],
+      "proposed_folder": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week18",
+      "proposed_raw_filename": "fathom_189088443_2026-10-02_200119_Whitney _ Alina.json",
+      "action": "after explicit transcript-download authorization, compare in staging; add to week folder only when additional or materially different content is established; do not change existing Zoom originals"
+    },
+    {
+      "week": 19,
+      "recording_ids": [
+        189606894,
+        189608787
+      ],
+      "proposed_first_comparison_recording_id": 189606894,
+      "title": "Impromptu Zoom Meeting",
+      "occurrence_ist": "2026-10-05T20:32:45+05:30",
+      "category": "uncertain",
+      "evidence": [
+        "Generic Impromptu Zoom Meeting title. Calendar invitees list only the recorder, so actual client/team speakers are unavailable.",
+        "Local files have no Zoom calendar timestamp or Zoom meeting ID; duration-only candidates are not accepted as matches.",
+        "Two recorders captured the same Zoom room with nearly identical ending times (0–1 seconds apart). Keep both metadata records; no transcript is discarded on metadata alone."
+      ],
+      "duplicate_capture_evidence": [
+        {
+          "recording_ids": [
+            189606894,
+            189608787
+          ],
+          "basis": "same normalized Zoom meeting number; overlapping recording intervals",
+          "start_difference_seconds": 7.0,
+          "end_difference_seconds": 0.0,
+          "status": "strong metadata evidence for duplicate capture; dialogue equality unverified"
+        }
+      ],
+      "recordings": [
+        {
+          "recording_id": 189606894,
+          "recorded_by": {
+            "name": "Carmen Cruickshank",
+            "email": "carmen@weddingindustryads.com",
+            "email_domain": "weddingindustryads.com",
+            "team": "WIA"
+          },
+          "duration_seconds": 718.0,
+          "url": "https://fathom.video/calls/849503794"
+        },
+        {
+          "recording_id": 189608787,
+          "recorded_by": {
+            "name": "Whitney Hodges",
+            "email": "hello@weddingindustryads.com",
+            "email_domain": "weddingindustryads.com",
+            "team": "Executive"
+          },
+          "duration_seconds": 711.0,
+          "url": "https://fathom.video/calls/849506078"
+        }
+      ],
+      "zoom_candidates": [
+        {
+          "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19\\Carmen Cruickshank's Personal Meeting Room's transcript (2).txt",
+          "filename": "Carmen Cruickshank's Personal Meeting Room's transcript (2).txt",
+          "sha256": "a5f6eaf75f8c8628815d0a1e36bd2230ff32a3f562b4af40dcd55b62e947b2ad",
+          "last_cue_end_seconds": 772.0,
+          "difference_from_fathom_duration_seconds": 54.0,
+          "speakers": [
+            "Whitney Hodges",
+            "Carmen Cruickshank"
+          ],
+          "calendar_date": null,
+          "zoom_meeting_id": null
+        },
+        {
+          "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19\\Judy + Whitney's transcript.txt",
+          "filename": "Judy + Whitney's transcript.txt",
+          "sha256": "e976fc627fb0cbb0b6fc7a9e3385626d66ef12ff8759bfa1a424b636e8f9edaf",
+          "last_cue_end_seconds": 1622.0,
+          "difference_from_fathom_duration_seconds": 904.0,
+          "speakers": [
+            "judysmith",
+            "Whitney Hodges"
+          ],
+          "calendar_date": null,
+          "zoom_meeting_id": null
+        },
+        {
+          "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19\\Carmen Cruickshank's Personal Meeting Room's transcript (1).txt",
+          "filename": "Carmen Cruickshank's Personal Meeting Room's transcript (1).txt",
+          "sha256": "1f065cf8abcb5441155a7785d2c411fcf0c76efd45f2b7c24cc9dc02d54ef1f5",
+          "last_cue_end_seconds": 1934.0,
+          "difference_from_fathom_duration_seconds": 1216.0,
+          "speakers": [
+            "Whitney Hodges",
+            "The Weinberg At Wixon Valley",
+            "Amanda Castorena",
+            "Skyler",
+            "Hailey Horne"
+          ],
+          "calendar_date": null,
+          "zoom_meeting_id": null
+        }
+      ],
+      "proposed_folder": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19",
+      "proposed_raw_filename": "fathom_189606894_2026-10-05_203245_Impromptu Zoom Meeting.json",
+      "action": "after explicit transcript-download authorization, compare in staging; add to week folder only when additional or materially different content is established; do not change existing Zoom originals"
+    },
+    {
+      "week": 19,
+      "recording_ids": [
+        189649334,
+        189649885
+      ],
+      "proposed_first_comparison_recording_id": 189649334,
+      "title": "Impromptu Zoom Meeting",
+      "occurrence_ist": "2026-10-05T21:32:30+05:30",
+      "category": "uncertain",
+      "evidence": [
+        "Generic Impromptu Zoom Meeting title. Calendar invitees list only the recorder, so actual client/team speakers are unavailable.",
+        "Local files have no Zoom calendar timestamp or Zoom meeting ID; duration-only candidates are not accepted as matches.",
+        "Two recorders captured the same Zoom room with nearly identical ending times (0–1 seconds apart). Keep both metadata records; no transcript is discarded on metadata alone."
+      ],
+      "duplicate_capture_evidence": [
+        {
+          "recording_ids": [
+            189649334,
+            189649885
+          ],
+          "basis": "same normalized Zoom meeting number; overlapping recording intervals",
+          "start_difference_seconds": 17.0,
+          "end_difference_seconds": 1.0,
+          "status": "strong metadata evidence for duplicate capture; dialogue equality unverified"
+        }
+      ],
+      "recordings": [
+        {
+          "recording_id": 189649334,
+          "recorded_by": {
+            "name": "Whitney Hodges",
+            "email": "hello@weddingindustryads.com",
+            "email_domain": "weddingindustryads.com",
+            "team": "Executive"
+          },
+          "duration_seconds": 1774.0,
+          "url": "https://fathom.video/calls/849595108"
+        },
+        {
+          "recording_id": 189649885,
+          "recorded_by": {
+            "name": "Carmen Cruickshank",
+            "email": "carmen@weddingindustryads.com",
+            "email_domain": "weddingindustryads.com",
+            "team": "WIA"
+          },
+          "duration_seconds": 1756.0,
+          "url": "https://fathom.video/calls/849595393"
+        }
+      ],
+      "zoom_candidates": [
+        {
+          "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19\\Judy + Whitney's transcript.txt",
+          "filename": "Judy + Whitney's transcript.txt",
+          "sha256": "e976fc627fb0cbb0b6fc7a9e3385626d66ef12ff8759bfa1a424b636e8f9edaf",
+          "last_cue_end_seconds": 1622.0,
+          "difference_from_fathom_duration_seconds": -152.0,
+          "speakers": [
+            "judysmith",
+            "Whitney Hodges"
+          ],
+          "calendar_date": null,
+          "zoom_meeting_id": null
+        },
+        {
+          "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19\\Carmen Cruickshank's Personal Meeting Room's transcript (1).txt",
+          "filename": "Carmen Cruickshank's Personal Meeting Room's transcript (1).txt",
+          "sha256": "1f065cf8abcb5441155a7785d2c411fcf0c76efd45f2b7c24cc9dc02d54ef1f5",
+          "last_cue_end_seconds": 1934.0,
+          "difference_from_fathom_duration_seconds": 160.0,
+          "speakers": [
+            "Whitney Hodges",
+            "The Weinberg At Wixon Valley",
+            "Amanda Castorena",
+            "Skyler",
+            "Hailey Horne"
+          ],
+          "calendar_date": null,
+          "zoom_meeting_id": null
+        },
+        {
+          "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19\\Whitney Hodges's Personal Meeting Room's transcript.txt",
+          "filename": "Whitney Hodges's Personal Meeting Room's transcript.txt",
+          "sha256": "65373a7e9e15a56c64fe80aee45e06cba662598fbd2cc1636987fc7eca1b03e9",
+          "last_cue_end_seconds": 2034.0,
+          "difference_from_fathom_duration_seconds": 260.0,
+          "speakers": [
+            "Whitney Hodges",
+            "rose"
+          ],
+          "calendar_date": null,
+          "zoom_meeting_id": null
+        }
+      ],
+      "proposed_folder": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19",
+      "proposed_raw_filename": "fathom_189649334_2026-10-05_213230_Impromptu Zoom Meeting.json",
+      "action": "after explicit transcript-download authorization, compare in staging; add to week folder only when additional or materially different content is established; do not change existing Zoom originals"
+    },
+    {
+      "week": 19,
+      "recording_ids": [
+        189685435
+      ],
+      "proposed_first_comparison_recording_id": 189685435,
+      "title": "WIA Weekly Meeting",
+      "occurrence_ist": "2026-10-05T22:31:42+05:30",
+      "category": "candidate_additional",
+      "evidence": [
+        "No WIA Weekly Meeting title or corresponding multi-person staff roster in Week 19. The Monthly Q&A file has only Whitney in its parsed speaker labels and is not an established match.",
+        "No apparent corresponding Zoom file in the assigned week; this is a candidate addition, not proof of absence from every source."
+      ],
+      "duplicate_capture_evidence": [],
+      "recordings": [
+        {
+          "recording_id": 189685435,
+          "recorded_by": {
+            "name": "Whitney Hodges",
+            "email": "hello@weddingindustryads.com",
+            "email_domain": "weddingindustryads.com",
+            "team": "Executive"
+          },
+          "duration_seconds": 1917.0,
+          "url": "https://fathom.video/calls/847484025"
+        }
+      ],
+      "zoom_candidates": [],
+      "proposed_folder": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19",
+      "proposed_raw_filename": "fathom_189685435_2026-10-05_223142_WIA Weekly Meeting.json",
+      "action": "after explicit transcript-download authorization, compare in staging; add to week folder only when additional or materially different content is established; do not change existing Zoom originals"
+    },
+    {
+      "week": 19,
+      "recording_ids": [
+        190172342
+      ],
+      "proposed_first_comparison_recording_id": 190172342,
+      "title": "Check-in with Gisselle",
+      "occurrence_ist": "2026-10-06T22:32:12+05:30",
+      "category": "probable_zoom_overlap",
+      "evidence": [
+        "Same meaningful meeting title in the assigned week; local speaker roster supports the named person/client.",
+        "Fathom recording duration 2071s; Zoom last cue ends at 2094s. The difference does not establish missing dialogue; capture start offsets and pauses are unknown.",
+        "No Zoom calendar timestamp or meeting ID is available; content equality and complete coverage are not confirmed."
+      ],
+      "duplicate_capture_evidence": [],
+      "recordings": [
+        {
+          "recording_id": 190172342,
+          "recorded_by": {
+            "name": "Whitney Hodges",
+            "email": "hello@weddingindustryads.com",
+            "email_domain": "weddingindustryads.com",
+            "team": "Executive"
+          },
+          "duration_seconds": 2071.0,
+          "url": "https://fathom.video/calls/847484020"
+        }
+      ],
+      "zoom_candidates": [
+        {
+          "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19\\Check-in with Gisselle's transcript.txt",
+          "filename": "Check-in with Gisselle's transcript.txt",
+          "sha256": "040225348e3d669bcae76188a2befc4d21775f6c71d422ac77cea34c6f3f9f3a",
+          "last_cue_end_seconds": 2094.0,
+          "difference_from_fathom_duration_seconds": 23.0,
+          "speakers": [
+            "Whitney Hodges",
+            "Gisselle Jiménez"
+          ],
+          "calendar_date": null,
+          "zoom_meeting_id": null
+        }
+      ],
+      "proposed_folder": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19",
+      "proposed_raw_filename": "fathom_190172342_2026-10-06_223212_Check-in with Gisselle.json",
+      "action": "after explicit transcript-download authorization, compare in staging; add to week folder only when additional or materially different content is established; do not change existing Zoom originals"
+    },
+    {
+      "week": 19,
+      "recording_ids": [
+        190330427
+      ],
+      "proposed_first_comparison_recording_id": 190330427,
+      "title": "Impromptu Zoom Meeting",
+      "occurrence_ist": "2026-10-07T05:30:40+05:30",
+      "category": "uncertain",
+      "evidence": [
+        "Generic Impromptu Zoom Meeting title. Calendar invitees list only the recorder, so actual client/team speakers are unavailable.",
+        "Local files have no Zoom calendar timestamp or Zoom meeting ID; duration-only candidates are not accepted as matches."
+      ],
+      "duplicate_capture_evidence": [],
+      "recordings": [
+        {
+          "recording_id": 190330427,
+          "recorded_by": {
+            "name": "Whitney Hodges",
+            "email": "hello@weddingindustryads.com",
+            "email_domain": "weddingindustryads.com",
+            "team": "Executive"
+          },
+          "duration_seconds": 2585.0,
+          "url": "https://fathom.video/calls/851939413"
+        }
+      ],
+      "zoom_candidates": [
+        {
+          "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19\\WIA + Dos Palomas _ Monthly Strategy Call's transcript.txt",
+          "filename": "WIA + Dos Palomas _ Monthly Strategy Call's transcript.txt",
+          "sha256": "529ad25dfbcfa296794557f62a3cf98d5eace663dc8ca0e8fee5649c4da5a2fc",
+          "last_cue_end_seconds": 2550.0,
+          "difference_from_fathom_duration_seconds": -35.0,
+          "speakers": [
+            "Carmen Cruickshank",
+            "Whitney Hodges",
+            "maddie",
+            "Dos Palomas Ranch"
+          ],
+          "calendar_date": null,
+          "zoom_meeting_id": null
+        },
+        {
+          "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19\\Whitney Hodges's Personal Meeting Room's transcript (1).txt",
+          "filename": "Whitney Hodges's Personal Meeting Room's transcript (1).txt",
+          "sha256": "42ffc27adaeeeb0862f1837d762756de9d9c5d2787c34d7767ff72a7b5331299",
+          "last_cue_end_seconds": 2627.0,
+          "difference_from_fathom_duration_seconds": 42.0,
+          "speakers": [
+            "Whitney Hodges",
+            "Myla Li Photos"
+          ],
+          "calendar_date": null,
+          "zoom_meeting_id": null
+        },
+        {
+          "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19\\Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+          "filename": "Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+          "sha256": "570f64d202101c42c39b763014d89226ae1f6261ca46ebdf2821a2d92d9ec603",
+          "last_cue_end_seconds": 2640.0,
+          "difference_from_fathom_duration_seconds": 55.0,
+          "speakers": [
+            "Carmen Cruickshank",
+            "Erin Smith"
+          ],
+          "calendar_date": null,
+          "zoom_meeting_id": null
+        }
+      ],
+      "proposed_folder": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19",
+      "proposed_raw_filename": "fathom_190330427_2026-10-07_053040_Impromptu Zoom Meeting.json",
+      "action": "after explicit transcript-download authorization, compare in staging; add to week folder only when additional or materially different content is established; do not change existing Zoom originals"
+    },
+    {
+      "week": 19,
+      "recording_ids": [
+        190540576
+      ],
+      "proposed_first_comparison_recording_id": 190540576,
+      "title": "Impromptu Zoom Meeting",
+      "occurrence_ist": "2026-10-07T20:00:49+05:30",
+      "category": "uncertain",
+      "evidence": [
+        "Generic Impromptu Zoom Meeting title. Calendar invitees list only the recorder, so actual client/team speakers are unavailable.",
+        "Local files have no Zoom calendar timestamp or Zoom meeting ID; duration-only candidates are not accepted as matches."
+      ],
+      "duplicate_capture_evidence": [],
+      "recordings": [
+        {
+          "recording_id": 190540576,
+          "recorded_by": {
+            "name": "Whitney Hodges",
+            "email": "hello@weddingindustryads.com",
+            "email_domain": "weddingindustryads.com",
+            "team": "Executive"
+          },
+          "duration_seconds": 1982.0,
+          "url": "https://fathom.video/calls/853055360"
+        }
+      ],
+      "zoom_candidates": [
+        {
+          "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19\\Carmen Cruickshank's Personal Meeting Room's transcript (1).txt",
+          "filename": "Carmen Cruickshank's Personal Meeting Room's transcript (1).txt",
+          "sha256": "1f065cf8abcb5441155a7785d2c411fcf0c76efd45f2b7c24cc9dc02d54ef1f5",
+          "last_cue_end_seconds": 1934.0,
+          "difference_from_fathom_duration_seconds": -48.0,
+          "speakers": [
+            "Whitney Hodges",
+            "The Weinberg At Wixon Valley",
+            "Amanda Castorena",
+            "Skyler",
+            "Hailey Horne"
+          ],
+          "calendar_date": null,
+          "zoom_meeting_id": null
+        },
+        {
+          "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19\\Whitney Hodges's Personal Meeting Room's transcript.txt",
+          "filename": "Whitney Hodges's Personal Meeting Room's transcript.txt",
+          "sha256": "65373a7e9e15a56c64fe80aee45e06cba662598fbd2cc1636987fc7eca1b03e9",
+          "last_cue_end_seconds": 2034.0,
+          "difference_from_fathom_duration_seconds": 52.0,
+          "speakers": [
+            "Whitney Hodges",
+            "rose"
+          ],
+          "calendar_date": null,
+          "zoom_meeting_id": null
+        },
+        {
+          "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19\\Check-in with Gisselle's transcript.txt",
+          "filename": "Check-in with Gisselle's transcript.txt",
+          "sha256": "040225348e3d669bcae76188a2befc4d21775f6c71d422ac77cea34c6f3f9f3a",
+          "last_cue_end_seconds": 2094.0,
+          "difference_from_fathom_duration_seconds": 112.0,
+          "speakers": [
+            "Whitney Hodges",
+            "Gisselle Jiménez"
+          ],
+          "calendar_date": null,
+          "zoom_meeting_id": null
+        }
+      ],
+      "proposed_folder": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19",
+      "proposed_raw_filename": "fathom_190540576_2026-10-07_200049_Impromptu Zoom Meeting.json",
+      "action": "after explicit transcript-download authorization, compare in staging; add to week folder only when additional or materially different content is established; do not change existing Zoom originals"
+    },
+    {
+      "week": 19,
+      "recording_ids": [
+        190597814
+      ],
+      "proposed_first_comparison_recording_id": 190597814,
+      "title": "WIA + Dos Palomas | Monthly Strategy Call",
+      "occurrence_ist": "2026-10-07T21:32:15+05:30",
+      "category": "probable_zoom_overlap",
+      "evidence": [
+        "Same meaningful meeting title in the assigned week; local speaker roster supports the named person/client.",
+        "Fathom recording duration 2293s; Zoom last cue ends at 2550s. The difference does not establish missing dialogue; capture start offsets and pauses are unknown.",
+        "No Zoom calendar timestamp or meeting ID is available; content equality and complete coverage are not confirmed."
+      ],
+      "duplicate_capture_evidence": [],
+      "recordings": [
+        {
+          "recording_id": 190597814,
+          "recorded_by": {
+            "name": "Whitney Hodges",
+            "email": "hello@weddingindustryads.com",
+            "email_domain": "weddingindustryads.com",
+            "team": "Executive"
+          },
+          "duration_seconds": 2293.0,
+          "url": "https://fathom.video/calls/850787144"
+        }
+      ],
+      "zoom_candidates": [
+        {
+          "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19\\WIA + Dos Palomas _ Monthly Strategy Call's transcript.txt",
+          "filename": "WIA + Dos Palomas _ Monthly Strategy Call's transcript.txt",
+          "sha256": "529ad25dfbcfa296794557f62a3cf98d5eace663dc8ca0e8fee5649c4da5a2fc",
+          "last_cue_end_seconds": 2550.0,
+          "difference_from_fathom_duration_seconds": 257.0,
+          "speakers": [
+            "Carmen Cruickshank",
+            "Whitney Hodges",
+            "maddie",
+            "Dos Palomas Ranch"
+          ],
+          "calendar_date": null,
+          "zoom_meeting_id": null
+        }
+      ],
+      "proposed_folder": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19",
+      "proposed_raw_filename": "fathom_190597814_2026-10-07_213215_WIA _ Dos Palomas _ Monthly Strategy Call.json",
+      "action": "after explicit transcript-download authorization, compare in staging; add to week folder only when additional or materially different content is established; do not change existing Zoom originals"
+    },
+    {
+      "week": 19,
+      "recording_ids": [
+        190975020,
+        190970468
+      ],
+      "proposed_first_comparison_recording_id": 190975020,
+      "title": "Impromptu Zoom Meeting",
+      "occurrence_ist": "2026-10-08T20:01:12+05:30",
+      "category": "uncertain",
+      "evidence": [
+        "Generic Impromptu Zoom Meeting title. Calendar invitees list only the recorder, so actual client/team speakers are unavailable.",
+        "Local files have no Zoom calendar timestamp or Zoom meeting ID; duration-only candidates are not accepted as matches.",
+        "Two recorders captured the same Zoom room with nearly identical ending times (0–1 seconds apart). Keep both metadata records; no transcript is discarded on metadata alone."
+      ],
+      "duplicate_capture_evidence": [
+        {
+          "recording_ids": [
+            190975020,
+            190970468
+          ],
+          "basis": "same normalized Zoom meeting number; overlapping recording intervals",
+          "start_difference_seconds": 59.0,
+          "end_difference_seconds": 1.0,
+          "status": "strong metadata evidence for duplicate capture; dialogue equality unverified"
+        }
+      ],
+      "recordings": [
+        {
+          "recording_id": 190975020,
+          "recorded_by": {
+            "name": "Carmen Cruickshank",
+            "email": "carmen@weddingindustryads.com",
+            "email_domain": "weddingindustryads.com",
+            "team": "WIA"
+          },
+          "duration_seconds": 1911.0,
+          "url": "https://fathom.video/calls/854616468"
+        },
+        {
+          "recording_id": 190970468,
+          "recorded_by": {
+            "name": "Whitney Hodges",
+            "email": "hello@weddingindustryads.com",
+            "email_domain": "weddingindustryads.com",
+            "team": "Executive"
+          },
+          "duration_seconds": 1851.0,
+          "url": "https://fathom.video/calls/854612150"
+        }
+      ],
+      "zoom_candidates": [
+        {
+          "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19\\Carmen Cruickshank's Personal Meeting Room's transcript (1).txt",
+          "filename": "Carmen Cruickshank's Personal Meeting Room's transcript (1).txt",
+          "sha256": "1f065cf8abcb5441155a7785d2c411fcf0c76efd45f2b7c24cc9dc02d54ef1f5",
+          "last_cue_end_seconds": 1934.0,
+          "difference_from_fathom_duration_seconds": 23.0,
+          "speakers": [
+            "Whitney Hodges",
+            "The Weinberg At Wixon Valley",
+            "Amanda Castorena",
+            "Skyler",
+            "Hailey Horne"
+          ],
+          "calendar_date": null,
+          "zoom_meeting_id": null
+        },
+        {
+          "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19\\Whitney Hodges's Personal Meeting Room's transcript.txt",
+          "filename": "Whitney Hodges's Personal Meeting Room's transcript.txt",
+          "sha256": "65373a7e9e15a56c64fe80aee45e06cba662598fbd2cc1636987fc7eca1b03e9",
+          "last_cue_end_seconds": 2034.0,
+          "difference_from_fathom_duration_seconds": 123.0,
+          "speakers": [
+            "Whitney Hodges",
+            "rose"
+          ],
+          "calendar_date": null,
+          "zoom_meeting_id": null
+        },
+        {
+          "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19\\Check-in with Gisselle's transcript.txt",
+          "filename": "Check-in with Gisselle's transcript.txt",
+          "sha256": "040225348e3d669bcae76188a2befc4d21775f6c71d422ac77cea34c6f3f9f3a",
+          "last_cue_end_seconds": 2094.0,
+          "difference_from_fathom_duration_seconds": 183.0,
+          "speakers": [
+            "Whitney Hodges",
+            "Gisselle Jiménez"
+          ],
+          "calendar_date": null,
+          "zoom_meeting_id": null
+        }
+      ],
+      "proposed_folder": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19",
+      "proposed_raw_filename": "fathom_190975020_2026-10-08_200112_Impromptu Zoom Meeting.json",
+      "action": "after explicit transcript-download authorization, compare in staging; add to week folder only when additional or materially different content is established; do not change existing Zoom originals"
+    },
+    {
+      "week": 19,
+      "recording_ids": [
+        191000877
+      ],
+      "proposed_first_comparison_recording_id": 191000877,
+      "title": "Rose | ELEVATE + LeadLock Demo",
+      "occurrence_ist": "2026-10-08T20:34:37+05:30",
+      "category": "probable_zoom_overlap",
+      "evidence": [
+        "Same meaningful meeting title in the assigned week; local speaker roster supports the named person/client.",
+        "Fathom recording duration 2855s; Zoom last cue ends at 2930s. The difference does not establish missing dialogue; capture start offsets and pauses are unknown.",
+        "No Zoom calendar timestamp or meeting ID is available; content equality and complete coverage are not confirmed."
+      ],
+      "duplicate_capture_evidence": [],
+      "recordings": [
+        {
+          "recording_id": 191000877,
+          "recorded_by": {
+            "name": "Whitney Hodges",
+            "email": "hello@weddingindustryads.com",
+            "email_domain": "weddingindustryads.com",
+            "team": "Executive"
+          },
+          "duration_seconds": 2855.0,
+          "url": "https://fathom.video/calls/853102081"
+        }
+      ],
+      "zoom_candidates": [
+        {
+          "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19\\Rose _ ELEVATE + LeadLock Demo's transcript.txt",
+          "filename": "Rose _ ELEVATE + LeadLock Demo's transcript.txt",
+          "sha256": "77a4584bf44f735a2d9e041245551c1b1403bfad9c2752b79789d73572443f75",
+          "last_cue_end_seconds": 2930.0,
+          "difference_from_fathom_duration_seconds": 75.0,
+          "speakers": [
+            "rose",
+            "Whitney Hodges"
+          ],
+          "calendar_date": null,
+          "zoom_meeting_id": null
+        }
+      ],
+      "proposed_folder": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19",
+      "proposed_raw_filename": "fathom_191000877_2026-10-08_203437_Rose _ ELEVATE _ LeadLock Demo.json",
+      "action": "after explicit transcript-download authorization, compare in staging; add to week folder only when additional or materially different content is established; do not change existing Zoom originals"
+    },
+    {
+      "week": 19,
+      "recording_ids": [
+        191349061
+      ],
+      "proposed_first_comparison_recording_id": 191349061,
+      "title": "Judy + Whitney",
+      "occurrence_ist": "2026-10-09T19:30:57+05:30",
+      "category": "probable_zoom_overlap",
+      "evidence": [
+        "Same meaningful meeting title in the assigned week; local speaker roster supports the named person/client.",
+        "Fathom recording duration 1605s; Zoom last cue ends at 1622s. The difference does not establish missing dialogue; capture start offsets and pauses are unknown.",
+        "No Zoom calendar timestamp or meeting ID is available; content equality and complete coverage are not confirmed."
+      ],
+      "duplicate_capture_evidence": [],
+      "recordings": [
+        {
+          "recording_id": 191349061,
+          "recorded_by": {
+            "name": "Whitney Hodges",
+            "email": "hello@weddingindustryads.com",
+            "email_domain": "weddingindustryads.com",
+            "team": "Executive"
+          },
+          "duration_seconds": 1605.0,
+          "url": "https://fathom.video/calls/853102161"
+        }
+      ],
+      "zoom_candidates": [
+        {
+          "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19\\Judy + Whitney's transcript.txt",
+          "filename": "Judy + Whitney's transcript.txt",
+          "sha256": "e976fc627fb0cbb0b6fc7a9e3385626d66ef12ff8759bfa1a424b636e8f9edaf",
+          "last_cue_end_seconds": 1622.0,
+          "difference_from_fathom_duration_seconds": 17.0,
+          "speakers": [
+            "judysmith",
+            "Whitney Hodges"
+          ],
+          "calendar_date": null,
+          "zoom_meeting_id": null
+        }
+      ],
+      "proposed_folder": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19",
+      "proposed_raw_filename": "fathom_191349061_2026-10-09_193057_Judy _ Whitney.json",
+      "action": "after explicit transcript-download authorization, compare in staging; add to week folder only when additional or materially different content is established; do not change existing Zoom originals"
+    },
+    {
+      "week": 19,
+      "recording_ids": [
+        191419910
+      ],
+      "proposed_first_comparison_recording_id": 191419910,
+      "title": "Impromptu Zoom Meeting",
+      "occurrence_ist": "2026-10-09T21:33:13+05:30",
+      "category": "uncertain",
+      "evidence": [
+        "Generic Impromptu Zoom Meeting title. Calendar invitees list only the recorder, so actual client/team speakers are unavailable.",
+        "Local files have no Zoom calendar timestamp or Zoom meeting ID; duration-only candidates are not accepted as matches."
+      ],
+      "duplicate_capture_evidence": [],
+      "recordings": [
+        {
+          "recording_id": 191419910,
+          "recorded_by": {
+            "name": "Carmen Cruickshank",
+            "email": "carmen@weddingindustryads.com",
+            "email_domain": "weddingindustryads.com",
+            "team": "WIA"
+          },
+          "duration_seconds": 2993.0,
+          "url": "https://fathom.video/calls/856326901"
+        }
+      ],
+      "zoom_candidates": [
+        {
+          "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19\\Rose _ ELEVATE + LeadLock Demo's transcript.txt",
+          "filename": "Rose _ ELEVATE + LeadLock Demo's transcript.txt",
+          "sha256": "77a4584bf44f735a2d9e041245551c1b1403bfad9c2752b79789d73572443f75",
+          "last_cue_end_seconds": 2930.0,
+          "difference_from_fathom_duration_seconds": -63.0,
+          "speakers": [
+            "rose",
+            "Whitney Hodges"
+          ],
+          "calendar_date": null,
+          "zoom_meeting_id": null
+        },
+        {
+          "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19\\Whitney's Monthly Q&A's transcript.txt",
+          "filename": "Whitney's Monthly Q&A's transcript.txt",
+          "sha256": "547f1080f24d30768489c16a3de88215b0760cbd33f729626e6248818cf52c9c",
+          "last_cue_end_seconds": 2888.0,
+          "difference_from_fathom_duration_seconds": -105.0,
+          "speakers": [
+            "Whitney Hodges"
+          ],
+          "calendar_date": null,
+          "zoom_meeting_id": null
+        },
+        {
+          "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19\\Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+          "filename": "Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+          "sha256": "570f64d202101c42c39b763014d89226ae1f6261ca46ebdf2821a2d92d9ec603",
+          "last_cue_end_seconds": 2640.0,
+          "difference_from_fathom_duration_seconds": -353.0,
+          "speakers": [
+            "Carmen Cruickshank",
+            "Erin Smith"
+          ],
+          "calendar_date": null,
+          "zoom_meeting_id": null
+        }
+      ],
+      "proposed_folder": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19",
+      "proposed_raw_filename": "fathom_191419910_2026-10-09_213313_Impromptu Zoom Meeting.json",
+      "action": "after explicit transcript-download authorization, compare in staging; add to week folder only when additional or materially different content is established; do not change existing Zoom originals"
+    },
+    {
+      "week": 20,
+      "recording_ids": [
+        191821545,
+        191819766
+      ],
+      "proposed_first_comparison_recording_id": 191821545,
+      "title": "Impromptu Zoom Meeting",
+      "occurrence_ist": "2026-10-12T20:33:26+05:30",
+      "category": "uncertain",
+      "evidence": [
+        "Generic Impromptu Zoom Meeting title. Calendar invitees list only the recorder, so actual client/team speakers are unavailable.",
+        "Local files have no Zoom calendar timestamp or Zoom meeting ID; duration-only candidates are not accepted as matches.",
+        "Two recorders captured the same Zoom room with nearly identical ending times (0–1 seconds apart). Keep both metadata records; no transcript is discarded on metadata alone."
+      ],
+      "duplicate_capture_evidence": [
+        {
+          "recording_ids": [
+            191821545,
+            191819766
+          ],
+          "basis": "same normalized Zoom meeting number; overlapping recording intervals",
+          "start_difference_seconds": 53.0,
+          "end_difference_seconds": 1.0,
+          "status": "strong metadata evidence for duplicate capture; dialogue equality unverified"
+        }
+      ],
+      "recordings": [
+        {
+          "recording_id": 191821545,
+          "recorded_by": {
+            "name": "Carmen Cruickshank",
+            "email": "carmen@weddingindustryads.com",
+            "email_domain": "weddingindustryads.com",
+            "team": "WIA"
+          },
+          "duration_seconds": 829.0,
+          "url": "https://fathom.video/calls/858313028"
+        },
+        {
+          "recording_id": 191819766,
+          "recorded_by": {
+            "name": "Whitney Hodges",
+            "email": "hello@weddingindustryads.com",
+            "email_domain": "weddingindustryads.com",
+            "team": "Executive"
+          },
+          "duration_seconds": 775.0,
+          "url": "https://fathom.video/calls/858310106"
+        }
+      ],
+      "zoom_candidates": [
+        {
+          "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week20\\Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+          "filename": "Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+          "sha256": "581dc57e9d8d48d5bb08f545db3c4d7b5dead68d14d71dec14f51367b7837815",
+          "last_cue_end_seconds": 845.0,
+          "difference_from_fathom_duration_seconds": 16.0,
+          "speakers": [
+            "Carmen Cruickshank",
+            "Whitney Hodges"
+          ],
+          "calendar_date": null,
+          "zoom_meeting_id": null
+        },
+        {
+          "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week20\\The Penny + WIA _ Monthly Strategy Call's transcript.txt",
+          "filename": "The Penny + WIA _ Monthly Strategy Call's transcript.txt",
+          "sha256": "dfc13552023ba5c436dad3ae15c373f07070fa95da9910abe1c9470ed82c287d",
+          "last_cue_end_seconds": 1066.0,
+          "difference_from_fathom_duration_seconds": 237.0,
+          "speakers": [
+            "Lauren Christensen",
+            "Whitney Hodges"
+          ],
+          "calendar_date": null,
+          "zoom_meeting_id": null
+        },
+        {
+          "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week20\\Check-in with Gisselle's transcript.txt",
+          "filename": "Check-in with Gisselle's transcript.txt",
+          "sha256": "252e35d399dfa4d0f882436dd33f0863eb452f9dc11f32cdae0789ce16760f84",
+          "last_cue_end_seconds": 3736.0,
+          "difference_from_fathom_duration_seconds": 2907.0,
+          "speakers": [
+            "Gisselle Jiménez",
+            "Whitney Hodges"
+          ],
+          "calendar_date": null,
+          "zoom_meeting_id": null
+        }
+      ],
+      "proposed_folder": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week20",
+      "proposed_raw_filename": "fathom_191821545_2026-10-12_203326_Impromptu Zoom Meeting.json",
+      "action": "after explicit transcript-download authorization, compare in staging; add to week folder only when additional or materially different content is established; do not change existing Zoom originals"
+    },
+    {
+      "week": 20,
+      "recording_ids": [
+        191846621,
+        191843056
+      ],
+      "proposed_first_comparison_recording_id": 191846621,
+      "title": "Impromptu Zoom Meeting",
+      "occurrence_ist": "2026-10-12T21:31:14+05:30",
+      "category": "uncertain",
+      "evidence": [
+        "Generic Impromptu Zoom Meeting title. Calendar invitees list only the recorder, so actual client/team speakers are unavailable.",
+        "Local files have no Zoom calendar timestamp or Zoom meeting ID; duration-only candidates are not accepted as matches.",
+        "No Week 20 Zoom file reaches the roughly 43-minute Fathom capture; could be additional, but cannot exclude a partial or differently grouped local copy.",
+        "Two recorders captured the same Zoom room with nearly identical ending times (0–1 seconds apart). Keep both metadata records; no transcript is discarded on metadata alone."
+      ],
+      "duplicate_capture_evidence": [
+        {
+          "recording_ids": [
+            191846621,
+            191843056
+          ],
+          "basis": "same normalized Zoom meeting number; overlapping recording intervals",
+          "start_difference_seconds": 53.0,
+          "end_difference_seconds": 1.0,
+          "status": "strong metadata evidence for duplicate capture; dialogue equality unverified"
+        }
+      ],
+      "recordings": [
+        {
+          "recording_id": 191846621,
+          "recorded_by": {
+            "name": "Whitney Hodges",
+            "email": "hello@weddingindustryads.com",
+            "email_domain": "weddingindustryads.com",
+            "team": "Executive"
+          },
+          "duration_seconds": 2615.0,
+          "url": "https://fathom.video/calls/858387333"
+        },
+        {
+          "recording_id": 191843056,
+          "recorded_by": {
+            "name": "Carmen Cruickshank",
+            "email": "carmen@weddingindustryads.com",
+            "email_domain": "weddingindustryads.com",
+            "team": "WIA"
+          },
+          "duration_seconds": 2561.0,
+          "url": "https://fathom.video/calls/858384633"
+        }
+      ],
+      "zoom_candidates": [
+        {
+          "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week20\\Check-in with Gisselle's transcript.txt",
+          "filename": "Check-in with Gisselle's transcript.txt",
+          "sha256": "252e35d399dfa4d0f882436dd33f0863eb452f9dc11f32cdae0789ce16760f84",
+          "last_cue_end_seconds": 3736.0,
+          "difference_from_fathom_duration_seconds": 1121.0,
+          "speakers": [
+            "Gisselle Jiménez",
+            "Whitney Hodges"
+          ],
+          "calendar_date": null,
+          "zoom_meeting_id": null
+        },
+        {
+          "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week20\\The Penny + WIA _ Monthly Strategy Call's transcript.txt",
+          "filename": "The Penny + WIA _ Monthly Strategy Call's transcript.txt",
+          "sha256": "dfc13552023ba5c436dad3ae15c373f07070fa95da9910abe1c9470ed82c287d",
+          "last_cue_end_seconds": 1066.0,
+          "difference_from_fathom_duration_seconds": -1549.0,
+          "speakers": [
+            "Lauren Christensen",
+            "Whitney Hodges"
+          ],
+          "calendar_date": null,
+          "zoom_meeting_id": null
+        },
+        {
+          "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week20\\Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+          "filename": "Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+          "sha256": "581dc57e9d8d48d5bb08f545db3c4d7b5dead68d14d71dec14f51367b7837815",
+          "last_cue_end_seconds": 845.0,
+          "difference_from_fathom_duration_seconds": -1770.0,
+          "speakers": [
+            "Carmen Cruickshank",
+            "Whitney Hodges"
+          ],
+          "calendar_date": null,
+          "zoom_meeting_id": null
+        }
+      ],
+      "proposed_folder": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week20",
+      "proposed_raw_filename": "fathom_191846621_2026-10-12_213114_Impromptu Zoom Meeting.json",
+      "action": "after explicit transcript-download authorization, compare in staging; add to week folder only when additional or materially different content is established; do not change existing Zoom originals"
+    },
+    {
+      "week": 20,
+      "recording_ids": [
+        191876816
+      ],
+      "proposed_first_comparison_recording_id": 191876816,
+      "title": "WIA Weekly Meeting",
+      "occurrence_ist": "2026-10-12T22:32:33+05:30",
+      "category": "candidate_additional",
+      "evidence": [
+        "No WIA Weekly Meeting title or corresponding multi-person staff roster in Week 20; the three existing files are a Carmen/Whitney check-in, Penny strategy call and Gisselle check-in.",
+        "No apparent corresponding Zoom file in the assigned week; this is a candidate addition, not proof of absence from every source."
+      ],
+      "duplicate_capture_evidence": [],
+      "recordings": [
+        {
+          "recording_id": 191876816,
+          "recorded_by": {
+            "name": "Whitney Hodges",
+            "email": "hello@weddingindustryads.com",
+            "email_domain": "weddingindustryads.com",
+            "team": "Executive"
+          },
+          "duration_seconds": 2722.0,
+          "url": "https://fathom.video/calls/856228183"
+        }
+      ],
+      "zoom_candidates": [],
+      "proposed_folder": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week20",
+      "proposed_raw_filename": "fathom_191876816_2026-10-12_223233_WIA Weekly Meeting.json",
+      "action": "after explicit transcript-download authorization, compare in staging; add to week folder only when additional or materially different content is established; do not change existing Zoom originals"
+    },
+    {
+      "week": 20,
+      "recording_ids": [
+        192285654
+      ],
+      "proposed_first_comparison_recording_id": 192285654,
+      "title": "The Penny + WIA | Monthly Strategy Call",
+      "occurrence_ist": "2026-10-13T22:32:48+05:30",
+      "category": "probable_zoom_overlap",
+      "evidence": [
+        "Same meaningful meeting title in the assigned week; local speaker roster supports the named person/client.",
+        "Fathom recording duration 944s; Zoom last cue ends at 1066s. The difference does not establish missing dialogue; capture start offsets and pauses are unknown.",
+        "No Zoom calendar timestamp or meeting ID is available; content equality and complete coverage are not confirmed."
+      ],
+      "duplicate_capture_evidence": [],
+      "recordings": [
+        {
+          "recording_id": 192285654,
+          "recorded_by": {
+            "name": "Whitney Hodges",
+            "email": "hello@weddingindustryads.com",
+            "email_domain": "weddingindustryads.com",
+            "team": "Executive"
+          },
+          "duration_seconds": 944.0,
+          "url": "https://fathom.video/calls/858278832"
+        }
+      ],
+      "zoom_candidates": [
+        {
+          "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week20\\The Penny + WIA _ Monthly Strategy Call's transcript.txt",
+          "filename": "The Penny + WIA _ Monthly Strategy Call's transcript.txt",
+          "sha256": "dfc13552023ba5c436dad3ae15c373f07070fa95da9910abe1c9470ed82c287d",
+          "last_cue_end_seconds": 1066.0,
+          "difference_from_fathom_duration_seconds": 122.0,
+          "speakers": [
+            "Lauren Christensen",
+            "Whitney Hodges"
+          ],
+          "calendar_date": null,
+          "zoom_meeting_id": null
+        }
+      ],
+      "proposed_folder": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week20",
+      "proposed_raw_filename": "fathom_192285654_2026-10-13_223248_The Penny _ WIA _ Monthly Strategy Call.json",
+      "action": "after explicit transcript-download authorization, compare in staging; add to week folder only when additional or materially different content is established; do not change existing Zoom originals"
+    },
+    {
+      "week": 20,
+      "recording_ids": [
+        192360549
+      ],
+      "proposed_first_comparison_recording_id": 192360549,
+      "title": "Check-in with Gisselle",
+      "occurrence_ist": "2026-10-14T00:32:13+05:30",
+      "category": "probable_zoom_overlap",
+      "evidence": [
+        "Same meaningful meeting title in the assigned week; local speaker roster supports the named person/client.",
+        "Fathom recording duration 3718s; Zoom last cue ends at 3736s. The difference does not establish missing dialogue; capture start offsets and pauses are unknown.",
+        "No Zoom calendar timestamp or meeting ID is available; content equality and complete coverage are not confirmed."
+      ],
+      "duplicate_capture_evidence": [],
+      "recordings": [
+        {
+          "recording_id": 192360549,
+          "recorded_by": {
+            "name": "Whitney Hodges",
+            "email": "hello@weddingindustryads.com",
+            "email_domain": "weddingindustryads.com",
+            "team": "Executive"
+          },
+          "duration_seconds": 3718.0,
+          "url": "https://fathom.video/calls/856228253"
+        }
+      ],
+      "zoom_candidates": [
+        {
+          "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week20\\Check-in with Gisselle's transcript.txt",
+          "filename": "Check-in with Gisselle's transcript.txt",
+          "sha256": "252e35d399dfa4d0f882436dd33f0863eb452f9dc11f32cdae0789ce16760f84",
+          "last_cue_end_seconds": 3736.0,
+          "difference_from_fathom_duration_seconds": 18.0,
+          "speakers": [
+            "Gisselle Jiménez",
+            "Whitney Hodges"
+          ],
+          "calendar_date": null,
+          "zoom_meeting_id": null
+        }
+      ],
+      "proposed_folder": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week20",
+      "proposed_raw_filename": "fathom_192360549_2026-10-14_003213_Check-in with Gisselle.json",
+      "action": "after explicit transcript-download authorization, compare in staging; add to week folder only when additional or materially different content is established; do not change existing Zoom originals"
+    }
+  ],
+  "weekly_summary": [
+    {
+      "week": 1,
+      "recordings": 0,
+      "provisional_call_groups": 0,
+      "probable_zoom_overlap": 0,
+      "candidate_additional": 0,
+      "uncertain": 0,
+      "extra_duplicate_captures": 0
+    },
+    {
+      "week": 2,
+      "recordings": 0,
+      "provisional_call_groups": 0,
+      "probable_zoom_overlap": 0,
+      "candidate_additional": 0,
+      "uncertain": 0,
+      "extra_duplicate_captures": 0
+    },
+    {
+      "week": 3,
+      "recordings": 0,
+      "provisional_call_groups": 0,
+      "probable_zoom_overlap": 0,
+      "candidate_additional": 0,
+      "uncertain": 0,
+      "extra_duplicate_captures": 0
+    },
+    {
+      "week": 4,
+      "recordings": 0,
+      "provisional_call_groups": 0,
+      "probable_zoom_overlap": 0,
+      "candidate_additional": 0,
+      "uncertain": 0,
+      "extra_duplicate_captures": 0
+    },
+    {
+      "week": 5,
+      "recordings": 0,
+      "provisional_call_groups": 0,
+      "probable_zoom_overlap": 0,
+      "candidate_additional": 0,
+      "uncertain": 0,
+      "extra_duplicate_captures": 0
+    },
+    {
+      "week": 6,
+      "recordings": 0,
+      "provisional_call_groups": 0,
+      "probable_zoom_overlap": 0,
+      "candidate_additional": 0,
+      "uncertain": 0,
+      "extra_duplicate_captures": 0
+    },
+    {
+      "week": 7,
+      "recordings": 0,
+      "provisional_call_groups": 0,
+      "probable_zoom_overlap": 0,
+      "candidate_additional": 0,
+      "uncertain": 0,
+      "extra_duplicate_captures": 0
+    },
+    {
+      "week": 8,
+      "recordings": 0,
+      "provisional_call_groups": 0,
+      "probable_zoom_overlap": 0,
+      "candidate_additional": 0,
+      "uncertain": 0,
+      "extra_duplicate_captures": 0
+    },
+    {
+      "week": 9,
+      "recordings": 0,
+      "provisional_call_groups": 0,
+      "probable_zoom_overlap": 0,
+      "candidate_additional": 0,
+      "uncertain": 0,
+      "extra_duplicate_captures": 0
+    },
+    {
+      "week": 10,
+      "recordings": 0,
+      "provisional_call_groups": 0,
+      "probable_zoom_overlap": 0,
+      "candidate_additional": 0,
+      "uncertain": 0,
+      "extra_duplicate_captures": 0
+    },
+    {
+      "week": 11,
+      "recordings": 1,
+      "provisional_call_groups": 1,
+      "probable_zoom_overlap": 0,
+      "candidate_additional": 1,
+      "uncertain": 0,
+      "extra_duplicate_captures": 0
+    },
+    {
+      "week": 12,
+      "recordings": 0,
+      "provisional_call_groups": 0,
+      "probable_zoom_overlap": 0,
+      "candidate_additional": 0,
+      "uncertain": 0,
+      "extra_duplicate_captures": 0
+    },
+    {
+      "week": 13,
+      "recordings": 0,
+      "provisional_call_groups": 0,
+      "probable_zoom_overlap": 0,
+      "candidate_additional": 0,
+      "uncertain": 0,
+      "extra_duplicate_captures": 0
+    },
+    {
+      "week": 14,
+      "recordings": 0,
+      "provisional_call_groups": 0,
+      "probable_zoom_overlap": 0,
+      "candidate_additional": 0,
+      "uncertain": 0,
+      "extra_duplicate_captures": 0
+    },
+    {
+      "week": 15,
+      "recordings": 0,
+      "provisional_call_groups": 0,
+      "probable_zoom_overlap": 0,
+      "candidate_additional": 0,
+      "uncertain": 0,
+      "extra_duplicate_captures": 0
+    },
+    {
+      "week": 16,
+      "recordings": 0,
+      "provisional_call_groups": 0,
+      "probable_zoom_overlap": 0,
+      "candidate_additional": 0,
+      "uncertain": 0,
+      "extra_duplicate_captures": 0
+    },
+    {
+      "week": 17,
+      "recordings": 0,
+      "provisional_call_groups": 0,
+      "probable_zoom_overlap": 0,
+      "candidate_additional": 0,
+      "uncertain": 0,
+      "extra_duplicate_captures": 0
+    },
+    {
+      "week": 18,
+      "recordings": 2,
+      "provisional_call_groups": 2,
+      "probable_zoom_overlap": 0,
+      "candidate_additional": 1,
+      "uncertain": 1,
+      "extra_duplicate_captures": 0
+    },
+    {
+      "week": 19,
+      "recordings": 14,
+      "provisional_call_groups": 11,
+      "probable_zoom_overlap": 4,
+      "candidate_additional": 1,
+      "uncertain": 6,
+      "extra_duplicate_captures": 3
+    },
+    {
+      "week": 20,
+      "recordings": 7,
+      "provisional_call_groups": 5,
+      "probable_zoom_overlap": 2,
+      "candidate_additional": 1,
+      "uncertain": 2,
+      "extra_duplicate_captures": 2
+    }
+  ],
+  "protected_zoom_source_integrity": [
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week1\\Carmen Cruickshank's Personal Meeting Room's transcript (1).txt",
+      "sha256": "7ef308fc2fd17d5b4c8e5e2f158d281dc4ee32769072ac8d22c55d6a77a6b525",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week1\\Carmen Cruickshank's Personal Meeting Room's transcript (2).txt",
+      "sha256": "3382737d3e54102858ebca801caaddb54eafd291e75eb028a71f77bd26060008",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week1\\Carmen Cruickshank's Personal Meeting Room's transcript (3).txt",
+      "sha256": "5c79276bf75415f1a4742b4dc1f7501a53bfe93cffd88d602fb07670554d36cf",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week1\\Carmen Cruickshank's Personal Meeting Room's transcript (4).txt",
+      "sha256": "ded203fa9cf3bc92841b8b451306c90dd1adacae0322f224021e6338705e3ea9",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week1\\Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+      "sha256": "055b13d6b99c50bb51ccb83d5b908cd2e562e40e391e5c1c45d1de27e93a416e",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week1\\Check-in with Gisselle's transcript.txt",
+      "sha256": "f5d88ee626756cd46f82c0fd41f956c5337991c37634a9e1b6d4d88e77162f78",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week1\\LeadLock Sequence Refresh's transcript.txt",
+      "sha256": "671bed19d2289f6f70fda05d415a2a2c6efebcb41bc5d47af1194d566f8e02d0",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week1\\Messaging & Positioning _ The Penny's transcript.txt",
+      "sha256": "e6e8b9d0063f7f2569d43bb6933bc8cd670ea9bd63950eefb8d6b63d9ad21f67",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week1\\Whitney Hodges's Personal Meeting Room's transcript.txt",
+      "sha256": "bc9f23d3f2ea29eb51352d416d60b4cbfea01da71039dfd86d019587d57323d8",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week10\\Carmen Cruickshank's Personal Meeting Room's transcript (1).txt",
+      "sha256": "0bb91a346f1d7004297590c01a98da8a67c15d8028afd35c1b8a6671459a12ee",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week10\\Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+      "sha256": "dfe313e100312439344a0d9823255c3cd6b26ae137bb7d66d7cd00a2f28fe352",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week10\\Carmen Cruickshank's Zoom Meeting's transcript.txt",
+      "sha256": "081b625d6484b69f81ff55c0ed885cb9f9cf4b08b03c2b50077dedf66c6c0e3e",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week10\\Check-in with Gisselle's transcript.txt",
+      "sha256": "5f5a84b168d0c48cf6d54648a3f665e8f992fbb2a809f87ab5f9c298a1dadaa2",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week10\\Whitney Hodges's Personal Meeting Room's transcript (1).txt",
+      "sha256": "4a2a9e3820d1744eb44e766ec315b755024e458d0f782e895efbf1f9e75e81e7",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week10\\Whitney's Monthly Q&A's transcript.txt",
+      "sha256": "1db96b4a3c052f6c04af5f54f6bd5abf8d70cbcf08156636fd714113bea37a14",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week11\\Carmen Cruickshank's Personal Meeting Room's transcript (1).txt",
+      "sha256": "0bb91a346f1d7004297590c01a98da8a67c15d8028afd35c1b8a6671459a12ee",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week11\\Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+      "sha256": "dfe313e100312439344a0d9823255c3cd6b26ae137bb7d66d7cd00a2f28fe352",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week11\\Carmen Cruickshank's Zoom Meeting's transcript.txt",
+      "sha256": "081b625d6484b69f81ff55c0ed885cb9f9cf4b08b03c2b50077dedf66c6c0e3e",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week11\\Check-in with Gisselle's transcript.txt",
+      "sha256": "5f5a84b168d0c48cf6d54648a3f665e8f992fbb2a809f87ab5f9c298a1dadaa2",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week11\\Whitney Hodges's Personal Meeting Room's transcript (1).txt",
+      "sha256": "4a2a9e3820d1744eb44e766ec315b755024e458d0f782e895efbf1f9e75e81e7",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week11\\Whitney's Monthly Q&A's transcript.txt",
+      "sha256": "1db96b4a3c052f6c04af5f54f6bd5abf8d70cbcf08156636fd714113bea37a14",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week12\\Carmen Cruickshank's Personal Meeting Room's transcript (1).txt",
+      "sha256": "59111ab3bfeece16a449a1db0273929941da5c9b73a439d50b73cdb8583979d4",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week12\\Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+      "sha256": "b48a39b0071b5c9362ff10ee670c46715d522716da550d6d3eb32b1aa2b556f0",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week12\\Carmen Cruickshank's Zoom Meeting's transcript.txt",
+      "sha256": "409a786c91dbea7dcf25ef6713da2fc3651a6375ee5ceebe9014a3388283110a",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week12\\Check-in with Gisselle's transcript.txt",
+      "sha256": "5b5dc2d5c925e7e590ab9973da85f48cc4ddb921c8dcd651cce8c06a9850dec4",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week12\\Pecan Springs Ranch • Messaging & Positioning Call's transcript.txt",
+      "sha256": "4803c3a5b27ccb745dc3f854339934823987ba7c250e2b6a03594629b05631e2",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week12\\Whitney Hodges's Personal Meeting Room's transcript (1).txt",
+      "sha256": "908a061cd9dbe477ac997ff501e97565e9604a43dd9d6ce9e19d3997d0d8ed88",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week12\\Whitney Hodges's Personal Meeting Room's transcript (2).txt",
+      "sha256": "5672996564402c796998d984a260787057b92565dc4b2a3f68dbd8f6bd3c52cc",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week12\\Whitney's Monthly Workshop's transcript.txt",
+      "sha256": "0af6c00588b616f5d9d808e18d3fc3e43390e364af5a17d837893d9799dd2ed4",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week13\\Carmen Cruickshank's Personal Meeting Room's transcript (1).txt",
+      "sha256": "6df0b0ba69953801da28dbd3e914bf224950d826564cbcfbc87a41164ffcdfa5",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week13\\Carmen Cruickshank's Personal Meeting Room's transcript (2).txt",
+      "sha256": "eb2022ce2d11b2f4b84d2c712074d186e85d9e69e6ad45b3c573df7e6b43bfbe",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week13\\Carmen Cruickshank's Personal Meeting Room's transcript (3).txt",
+      "sha256": "3e629f758aa970226cb910d0202b8c6fe775d51c940a0822bbf2a330fac35e11",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week13\\Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+      "sha256": "ad8bd876a871a14abadc8e1401a1b0daae1682a8b7fd514dde017e007bd2013c",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week13\\Carmen Cruickshank's Zoom Meeting's transcript.txt",
+      "sha256": "fd22ab18515f4156e86eed931cc362826be39d4fd4daeb1fd6b87556881f6862",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week13\\Check-in with Gisselle's transcript (1).txt",
+      "sha256": "7c51e4c1176982c18970e681eb5093904fd260d8f1550045af697f4f976ed143",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week13\\Check-in with Gisselle's transcript.txt",
+      "sha256": "1cdc7883fe6c7d08f8bdb2fc1678e5f6c4971a751b3ba964aab100cd9c7c3324",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week13\\Monthly LeadLock Sync's transcript.txt",
+      "sha256": "2966e80da3b883c3c8118cf870dd3a3c9e428ec564c31d4939ed40b1966067fd",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week13\\Pecan Springs Ranch _ Ads Strategy Call's transcript.txt",
+      "sha256": "a68c04c35911c4f0b385b580276ab007287ad99f4d14d12ccabc62ed412ea61f",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week13\\Whitney Hodges's Personal Meeting Room's transcript (1).txt",
+      "sha256": "0c80e5d0b59ce53716cb5664ec4381fb282d7865d11cefcb89d3f049d21c5416",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week13\\Whitney Hodges's Personal Meeting Room's transcript (2).txt",
+      "sha256": "839ab44ac1a9aef06247aa6b76cb1691dfbc6124ec64ca5cd84fbe5ef0778346",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week13\\Whitney Hodges's Personal Meeting Room's transcript (3).txt",
+      "sha256": "e3844c7695ac1c6faa3162a1e836e332bbc72c9f52792e38ea0e384e80e6bc13",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week14\\Carmen Cruickshank's Personal Meeting Room's transcript (1).txt",
+      "sha256": "0581997a54069f2d5ba33321fd48216d3d6b10f3fa77813b550b0a0ca289f42a",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week14\\Carmen Cruickshank's Personal Meeting Room's transcript (2).txt",
+      "sha256": "26038f1aa83dcacd7ae4c06af2ccd45378d16bd36ce935cd7b2fa32243e6234a",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week14\\Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+      "sha256": "d7a09a90e4aa24766e8a534f5db96649133453c4ceb844997c63c413906a874d",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week14\\Check-in with Gisselle's transcript.txt",
+      "sha256": "97eff96374c72cd159230446a5c574d581927d7565d27079be0288ed57b55319",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week14\\Dogwood Reserve _ Messaging & Positioning Interview's transcript.txt",
+      "sha256": "244ae1ecf17eb7727fce14181bc88664dd24864567a1d5c119113d9461f0c695",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week14\\LeadLock Demo's transcript.txt",
+      "sha256": "65fa8ae0c088dd16089fa710a2b427dbefc7acca7eda89f4690871d31b0a3109",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week14\\Whitney Hodges's Personal Meeting Room's transcript (1).txt",
+      "sha256": "44e8c9369f538438021be0bfabc373582c5fcb0f775a90cb1b405228a09d5812",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week14\\Whitney Hodges's Personal Meeting Room's transcript (2).txt",
+      "sha256": "2a202c91e28c8f413eea839b23db8e1fce7eaeb3401f9c3a8eccd3f5f1441cf0",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week14\\Whitney Hodges's Personal Meeting Room's transcript (3).txt",
+      "sha256": "4215108a1df17e4a7acb7dfb5add0ced032a54fb02abad34a7eb64f31da72f59",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week14\\Whitney Hodges's Personal Meeting Room's transcript (4).txt",
+      "sha256": "953e6aa7304deba5fec379aa0a553406fe8538594747b05e143b58a631123504",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week14\\Whitney Hodges's Personal Meeting Room's transcript (5).txt",
+      "sha256": "bb526722fcfb89f97636921d14f1713e4f1de3f4dcd07fb28c57e77dc05244ac",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week14\\Whitney Hodges's Personal Meeting Room's transcript.txt",
+      "sha256": "bbf578da470e774f012f3ed7ebdad868d9c8961ad5fb7796b3179e867775292c",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week14\\WIA ELEVATE Demo for The Brightside's transcript.txt",
+      "sha256": "a535a3e0356513c879d201d1a78ee233de25318505d113796aeffcb8b454a0d9",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week15\\Bri Photography x WIA _ Strategy Call's transcript.txt",
+      "sha256": "960166813ee9f6c8e4da5cd5085057cb82ab832b6eb38d0aec829a0819621868",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week15\\Carmen Cruickshank's Personal Meeting Room's transcript (1).txt",
+      "sha256": "57641f6f7edef98028d0f41352a992c7863359ba35d51fef9456fd06a284e03d",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week15\\Carmen Cruickshank's Personal Meeting Room's transcript (2).txt",
+      "sha256": "fbd3969c06bdb1eb5a714af08edf4ac21f58a83aacc90fde251211e0fa80fcc4",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week15\\Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+      "sha256": "b1ce1b41b56eba4c1aa88b6f6c5fca712d26195c04d4e5940ee72749d632caaf",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week15\\Dogwood Reserve _ Ads Strategy Call's transcript.txt",
+      "sha256": "45a9b62ae59c48cd40329c32f876fa3958b0aa76fa88d763127835d2a09c6312",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week15\\Ridgefield x WIA _ Monthly Strategy Call's transcript.txt",
+      "sha256": "f064aea046fd4cb31ba96c14e09687c69789081cb56d5ce217455279bcde3135",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week15\\The Elia Ads Strategy Call's transcript.txt",
+      "sha256": "3cf9c7a1225d43bba6adaa01f55fe34b367a69b2769808fb20ffc2c9df533346",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week15\\The Elia Messaging & Positioning Interview's transcript.txt",
+      "sha256": "c06e0cb26f6acc6e48785bd09495d6bd43937513398fd35e3d6d78dc6291aeda",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week15\\Whitney Hodges's Personal Meeting Room's transcript (1).txt",
+      "sha256": "221021278b63d0edbe48884b1e7db895b814c4a00756ff5374729559a161e616",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week15\\Whitney Hodges's Personal Meeting Room's transcript.txt",
+      "sha256": "aa6b58414a32e1c2be27e86bf69c822e378d3ff663388198eb3b859afab4b4c2",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week16\\Carmen Cruickshank's Personal Meeting Room's transcript (1).txt",
+      "sha256": "29758049c89c37506a49876597df94d4100c92df6bcb6ca1a0e96d1b0433caff",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week16\\Carmen Cruickshank's Personal Meeting Room's transcript (2).txt",
+      "sha256": "4845e3e17d9924072c33842bd9035275df602036cb1e62041d656393e8701a01",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week16\\Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+      "sha256": "9a14ac9de4a0a18caade703530872e6bc11ef330a6abde1630a4656f90911505",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week16\\Carmen Cruickshank's Zoom Meeting's transcript.txt",
+      "sha256": "4df06cc9cafb0807518ff7811e9d78aaed20d17a6d2de6b1a82acc677e35c8c0",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week16\\Check-in with Gisselle's transcript (1).txt",
+      "sha256": "c2bbeff6712568c7ce3dabacad2fb017e5093cbe4410a41d6b2b7113fc9db3f2",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week16\\Check-in with Gisselle's transcript.txt",
+      "sha256": "54ab4dae12e97472e6444ac708b5f4d6d6ba46e6d0d0820d0db9b9cc97fcca1c",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week16\\LeadLock Sync Meeting's transcript.txt",
+      "sha256": "5db5c4fd288ceaba41af6c227a52ee180cab4b75e7f4643fe117c2a343ebaa65",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week16\\Press Record Co. x WIA Monthly Strategy Call's transcript.txt",
+      "sha256": "7f3b658f9579d0be75fa83db57ba22b6889bef6ac27557144f217a9f9a04a236",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week16\\Whitney Hodges's Personal Meeting Room's transcript (1).txt",
+      "sha256": "61213c9f63e7591aba215d3c1d71a8927d170431e248805205d0cdfb4ff39c81",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week16\\Whitney Hodges's Personal Meeting Room's transcript (2).txt",
+      "sha256": "15ff29356bc89b29d72060854833b56635faae958df2331363fed0f08d1f3bd9",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week16\\Whitney Hodges's Personal Meeting Room's transcript (3).txt",
+      "sha256": "ad09b987023ac445dab15adb9259e20370029e8c336e376778ca0531a21f654a",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week16\\Whitney Hodges's Personal Meeting Room's transcript (4).txt",
+      "sha256": "aae723f65942e0ac45479b1c05ed6d23c72e36488a6545d7859a5bcc8aef0943",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week16\\Whitney Hodges's Personal Meeting Room's transcript.txt",
+      "sha256": "c9a1f237da56560b02b035945575a3de737f7720b247e6a0e1299b8a70c138a4",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week16\\Whitney's Monthly Workshop's transcript.txt",
+      "sha256": "dece90f48cf0c6acad60b879b2c8418e6439b4dd2ca682023d48b61a811169fc",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week17\\Carmen Cruickshank's Personal Meeting Room's transcript (1).txt",
+      "sha256": "7d13331a0f7f9b22b4824fcd53a87e27bb4ba106124c000c0189e056e1590897",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week17\\Carmen Cruickshank's Personal Meeting Room's transcript (2).txt",
+      "sha256": "ab570af5b6a29d587edf44e7e9e296e3dcdd936268a023aaab902ad334abe2e2",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week17\\Carmen Cruickshank's Personal Meeting Room's transcript (3).txt",
+      "sha256": "750d6458f8d7e17ef39bd6df6be583229ea39d549d163721a7a1309eb8d3bfef",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week17\\Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+      "sha256": "00afad2eb7574144667763857a271effdacd1abf0a089a6eee9064010467b513",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week17\\Carmen Cruickshank's Zoom Meeting's transcript (1).txt",
+      "sha256": "b092172d4242b96b0c939c8826bfdf9c3e31b70961d620e0190b6421bf30fe7b",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week17\\Carmen Cruickshank's Zoom Meeting's transcript (2).txt",
+      "sha256": "3db597f99aec18b3dc7de84002dc0febb24297edf1b12bb2c0e5477b31da0892",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week17\\Carmen Cruickshank's Zoom Meeting's transcript (3).txt",
+      "sha256": "fb72d4ac81bb6931f30550685c789b2e754dd9d2ab32e7d47eb8207f7bb1930b",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week17\\Carmen Cruickshank's Zoom Meeting's transcript.txt",
+      "sha256": "9ff672131d49d98a6c5e642f6568ecbec44bf3287a1e55231b7ec0883b6be058",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week17\\Catherine + Whitney's transcript.txt",
+      "sha256": "a0cd4816c79db937e2c158bb83909bf22e5da213442e3552c597cfe5335a80cd",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week17\\Check-in with Gisselle's transcript.txt",
+      "sha256": "6d7d20aa97eb9fb04c3551e2e0669a82ec9970163ca3fc46b57c2b392e2474da",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week17\\Whitney Hodges's Personal Meeting Room's transcript.txt",
+      "sha256": "71f5c69c587a75e703864ec8cc77be40cf5f73ea448e74c1bf233fc53dd0bd65",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week18\\Carmen Cruickshank's Personal Meeting Room's transcript (1).txt",
+      "sha256": "58af07efb57721c2f1fb6464b9337c5e44b78a2050ac5ab50fd1d5f25ad160f9",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week18\\Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+      "sha256": "e514a2cb911fd7f78f4ac6ccfa290112af7b1577267c8339245ce1daa92e7f00",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week18\\Carmen Cruickshank's Zoom Meeting's transcript (1).txt",
+      "sha256": "a03e7dbad39f9b4b0df2afac1ef14a2501dc8121ef1a44ad8c16df3f6fab7160",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week18\\Carmen Cruickshank's Zoom Meeting's transcript (2).txt",
+      "sha256": "686dd9ea39d34610d32c6cd4a0a181049f9169181f62c7f027d09473bf35137d",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week18\\Carmen Cruickshank's Zoom Meeting's transcript.txt",
+      "sha256": "0f39af78497de57a9475442ac5ee80f46fbd55a90fe50046c303555ce491c32d",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week18\\Check-in with Gisselle's transcript.txt",
+      "sha256": "a05fe846f053764ab6379f8c08301dc264f8cef852ce6bba166e569e1c3b8754",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week18\\Whitney Hodges's Personal Meeting Room's transcript.txt",
+      "sha256": "81edfd1cb7ced7a8596d1ec657c690c4db85842de76795698e8aa1f6b5da41e5",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19\\Carmen Cruickshank's Personal Meeting Room's transcript (1).txt",
+      "sha256": "1f065cf8abcb5441155a7785d2c411fcf0c76efd45f2b7c24cc9dc02d54ef1f5",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19\\Carmen Cruickshank's Personal Meeting Room's transcript (2).txt",
+      "sha256": "a5f6eaf75f8c8628815d0a1e36bd2230ff32a3f562b4af40dcd55b62e947b2ad",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19\\Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+      "sha256": "570f64d202101c42c39b763014d89226ae1f6261ca46ebdf2821a2d92d9ec603",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19\\Carmen Cruickshank's Zoom Meeting's transcript.txt",
+      "sha256": "41fc7490f47dbddb323c105022550c7c0b275230a7fe2353691a14c392862d2f",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19\\Check-in with Gisselle's transcript.txt",
+      "sha256": "040225348e3d669bcae76188a2befc4d21775f6c71d422ac77cea34c6f3f9f3a",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19\\Judy + Whitney's transcript.txt",
+      "sha256": "e976fc627fb0cbb0b6fc7a9e3385626d66ef12ff8759bfa1a424b636e8f9edaf",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19\\Rose _ ELEVATE + LeadLock Demo's transcript.txt",
+      "sha256": "77a4584bf44f735a2d9e041245551c1b1403bfad9c2752b79789d73572443f75",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19\\Whitney Hodges's Personal Meeting Room's transcript (1).txt",
+      "sha256": "42ffc27adaeeeb0862f1837d762756de9d9c5d2787c34d7767ff72a7b5331299",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19\\Whitney Hodges's Personal Meeting Room's transcript.txt",
+      "sha256": "65373a7e9e15a56c64fe80aee45e06cba662598fbd2cc1636987fc7eca1b03e9",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19\\Whitney's Monthly Q&A's transcript.txt",
+      "sha256": "547f1080f24d30768489c16a3de88215b0760cbd33f729626e6248818cf52c9c",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19\\WIA + Dos Palomas _ Monthly Strategy Call's transcript.txt",
+      "sha256": "529ad25dfbcfa296794557f62a3cf98d5eace663dc8ca0e8fee5649c4da5a2fc",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week2\\Ads Strategy Call _ The Penny's transcript.txt",
+      "sha256": "6049c241e0763bf1aa4f776ac071ce99c9031e98da554c5050f741034cacc925",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week2\\Carmen Cruickshank's Personal Meeting Room's transcript (1).txt",
+      "sha256": "1d33eadfc505b0c94ff694d47d941ab03902739a7b066fa24a264fbe20876a19",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week2\\Carmen Cruickshank's Personal Meeting Room's transcript (2).txt",
+      "sha256": "a5c3c64704f72feb8fc4facc2cb3f3a9b0ead186ea5cdbb6a223d06f2a8e3eeb",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week2\\Carmen Cruickshank's Personal Meeting Room's transcript (3).txt",
+      "sha256": "9e14a8b93690ac8e91076867accfe3d8352ed5e71d34da88fc3c22c8a8a38dc1",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week2\\Carmen Cruickshank's Personal Meeting Room's transcript (4).txt",
+      "sha256": "f7a7410b575c6ed5d211770e315217b1f6047c42874daa60be72ecab89bab61a",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week2\\Carmen Cruickshank's Personal Meeting Room's transcript (5).txt",
+      "sha256": "1a2c1f256c1c6f0fa889e8ac2ba18072c8af82258f18c2b4c8132358e5be057c",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week2\\Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+      "sha256": "01147e89c399ee160619d7758e19e3121c217607d82b5f305ae1c21e2b41ae8a",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week2\\Check-in with Gisselle's transcript.txt",
+      "sha256": "4c3990824ff1ec119d2b3753f4c3d63d9edbaeee7a42be13d26eef0daccd1d8f",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week2\\GHL AI chat widget Review's transcript.txt",
+      "sha256": "2fec187626f14ff411648f9e7e81712ef9af43bc4de8529f42d983c281263922",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week2\\Whitney Hodges's Personal Meeting Room's transcript (1).txt",
+      "sha256": "f850d8284e5d89dac60e132b56229fd8d28f4d0e931d7919cdb6427ae686e5fa",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week2\\Whitney Hodges's Personal Meeting Room's transcript.txt",
+      "sha256": "086e0a53f120ecf8e66f4a6c4238aac1bdfb8c1f9d8bbb1187aac044c2337ba4",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week20\\Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+      "sha256": "581dc57e9d8d48d5bb08f545db3c4d7b5dead68d14d71dec14f51367b7837815",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week20\\Check-in with Gisselle's transcript.txt",
+      "sha256": "252e35d399dfa4d0f882436dd33f0863eb452f9dc11f32cdae0789ce16760f84",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week20\\The Penny + WIA _ Monthly Strategy Call's transcript.txt",
+      "sha256": "dfc13552023ba5c436dad3ae15c373f07070fa95da9910abe1c9470ed82c287d",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week3\\Carmen Cruickshank's Personal Meeting Room's transcript (1).txt",
+      "sha256": "072f05f26dfa61ef7105b725e772cd9e16365d39ce0f35f9c95c98209579e999",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week3\\Carmen Cruickshank's Personal Meeting Room's transcript (2).txt",
+      "sha256": "9cf90b922bce1df09c5d79ee6a7e651d7af64373cd2379e3c004518b250667ae",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week3\\Carmen Cruickshank's Personal Meeting Room's transcript (3).txt",
+      "sha256": "a5fa3e59747a3f9c2bc1deffef534c2a535f540b11cdc716cfa9cbd76044482f",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week3\\Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+      "sha256": "54983f92a94b30250cc160180dee4fbd677947a44ca59b7a386d7403e8d6579d",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week3\\Check-in with Gisselle's transcript.txt",
+      "sha256": "b405d1bf1069e765e3ed3ac64cbbd5b90bb11ab0ca8671e2ff0ac284f36c0eb6",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week4\\Check-in with Gisselle's transcript.txt",
+      "sha256": "0396936b31afa1883634ee491687460cfbe5ced702112b919744f5998c1e4454",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week4\\Whitney Hodges's Personal Meeting Room's transcript (1).txt",
+      "sha256": "33def3c9cdd42332dbb1ba743d6e3672f2ab03f378bb7848e13e8b6497139577",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week4\\Whitney Hodges's Personal Meeting Room's transcript (2).txt",
+      "sha256": "1bbf901f3178f2d7066a59a72a9f53d3877a0c947218c5297843a62b69f34f1e",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week4\\Whitney Hodges's Personal Meeting Room's transcript (3).txt",
+      "sha256": "ca0456e0f2313d6a26d692745db3886338385c1e543e2a2304e49b4507c70006",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week4\\Whitney Hodges's Personal Meeting Room's transcript.txt",
+      "sha256": "ba9b57613b111e731ececd2e6c72d9a5658e19f0dceca0adb0780b0543a022f4",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week4\\Workshop_ Building a Brand That Supports Premium Lead Generation's transcript.txt",
+      "sha256": "88dd2bb5c6f4f735c96436fbe02a60e93db34f821f922d2eb95dc483bb4c5090",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week5\\Accelerator Progression Call with Alexis Gaston's transcript.txt",
+      "sha256": "a6c555f5a2e5c583156c8e43fab5d0294c7c9d629a6562e0ab8ec51952a8e264",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week5\\Check-in with Gisselle's transcript.txt",
+      "sha256": "9db970c4431cd10e86da1822019988db8a99aca7882469573f886fb0ccb807e1",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week5\\Whitney Hodges's Personal Meeting Room's transcript (1).txt",
+      "sha256": "a5691aab51ce608df52fb3808227de29d78040d2877284a9ac890e9a6843faf4",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week5\\Whitney Hodges's Personal Meeting Room's transcript (2).txt",
+      "sha256": "673d7333ec7b0490a593b0e59c489b15f4de2306be1b43de32100bf7769a5cc4",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week5\\Whitney Hodges's Personal Meeting Room's transcript (3).txt",
+      "sha256": "1af3bacf6dabb939de8ace1ed6cf885d0959ad91af53f301686b19bd527ec821",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week5\\Whitney Hodges's Personal Meeting Room's transcript.txt",
+      "sha256": "cf0c7b270eb28e96c218e31af8eecbb01c2e6288dbbeb270acee057d542724cb",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week6\\Carmen Cruickshank's Personal Meeting Room's transcript (1).txt",
+      "sha256": "2647ae0d91e7a1fce200f2d0c812e6e580fd72c8929f4836b0ae02ebff3b4f84",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week6\\Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+      "sha256": "4c117de81d72046ea1548322edee7726807a890cb07439915c563b522c6048f4",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week6\\Carmen Cruickshank's Zoom Meeting's transcript.txt",
+      "sha256": "8181bad0d5fad380bc0788ff019968f0ef5b7984044ffe11a9dd324618b0069f",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week6\\Check-in with Gisselle's transcript.txt",
+      "sha256": "4ca9e63c0e5d6b85fe1afa1885e7ca7059f90c2bfc69bdf42471d51a48189dad",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week6\\LeadLock Proposal Build Review's transcript.txt",
+      "sha256": "77f94dfe3be7fde2be12ab1c7ab1fbae252f731a9faba8fa896824f2de1f6f54",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week6\\Whitney's Monthly Q&A's transcript.txt",
+      "sha256": "ca29ac45158a3f100d0812ee45ae89963bfee71723ec3baf8041769ed250dab7",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week7\\AI Strategy Session's transcript.txt",
+      "sha256": "27e1692378bea1a419832e64c497abf556f314115a3ad4efab9ea861e29d4674",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week7\\Bri Photography Check-In Call's transcript.txt",
+      "sha256": "6341102dd67a3ddf682a01e11a9cf2f8e4f164f04195794df1d9e25e66c0b50c",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week7\\Carmen Cruickshank's Personal Meeting Room's transcript (1).txt",
+      "sha256": "063709b642fde18436c6986c4a00712a149d958363a28601471d9c8a85938e8c",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week7\\Carmen Cruickshank's Personal Meeting Room's transcript (2).txt",
+      "sha256": "12c903f25496616c36d1c8b1f34627451b839a48822ad1b7e1e3abcc4ed21bc0",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week7\\Carmen Cruickshank's Personal Meeting Room's transcript (3).txt",
+      "sha256": "d3d566e599fcc416419fe0212f02bcc8f49fa4a8fe1ee49e35e932fee8264c2e",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week7\\Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+      "sha256": "686b1fcb665603d6fdb0648486610d5c19d0a9eb0806a63cd1220e92a2ebe733",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week7\\Check-in with Gisselle's transcript.txt",
+      "sha256": "15ac69911fd4628aa2ccb5e77334a4740d45755c2241768ae4e6463ecc89d50a",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week7\\Planning's transcript.txt",
+      "sha256": "513891ab3394ce45ce52e6b00f4cb20cd612111dea077f89796c28a8b185e6cd",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week7\\Whitney Hodges's Personal Meeting Room's transcript (1).txt",
+      "sha256": "9b60c238319557a594eb2a234840f4d4e7cb4df62d88afafa48578a7520dfe44",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week7\\Whitney Hodges's Personal Meeting Room's transcript (2).txt",
+      "sha256": "e07a474e97c764478c0ac2613d56141a019cf345732048bf9250aa15671fd163",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week7\\Whitney Hodges's Personal Meeting Room's transcript.txt",
+      "sha256": "7cfcc9487eaeb09633ea510f4e71105c03d55f3072ceb137141aa94fb53162f6",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week8\\Carmen Cruickshank's Personal Meeting Room's transcript (1).txt",
+      "sha256": "d22ecd83a1d78420090b88cdf6fe106c7c83b6262b73d4a25478866092eb6cb5",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week8\\Carmen Cruickshank's Personal Meeting Room's transcript (2).txt",
+      "sha256": "b08dd8cdb56449582d881d13d3ba3a6d70a4c1ea1445f22b1e62aae1789a6eba",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week8\\Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+      "sha256": "6cda0c1e47f7eca914d19c49a40961fd7bacd33563f2f0eec980f8a0d4227b2b",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week8\\Carmen Cruickshank's Zoom Meeting's transcript (1).txt",
+      "sha256": "7a6aef94b874020f81aadeda929357f29975359cade83ac8910a6cf05d8284c2",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week8\\Carmen Cruickshank's Zoom Meeting's transcript.txt",
+      "sha256": "fe52330a5dba6a811d6cfd6980b105402e0c593038611146970ccd5cb5bb99d1",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week8\\Check-in with Gisselle's transcript.txt",
+      "sha256": "02baf723dd4d1b56c2522c9f9f23aa8f45e64dded2b549590d1c625250d9f2cf",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week8\\Whitney Hodges's Personal Meeting Room's transcript (1).txt",
+      "sha256": "40a06860aae611185e19eacc30f7e40fe436804d7bbb3687de152fd325914454",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week8\\Whitney Hodges's Personal Meeting Room's transcript (2).txt",
+      "sha256": "5c7cadd9976a55c0189a51567cb317d6f597e5b9784757ec07b707cb44f3e709",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week8\\Whitney Hodges's Personal Meeting Room's transcript.txt",
+      "sha256": "ea62b11a382c38fd89b1dd8bef137a3f9940b960dbb71c6b2cae669d946c444d",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week8\\Whitney's Monthly Workshop's transcript.txt",
+      "sha256": "136efcb798a57c103ae1084983cbf8fd21c754e555fb94b8f8375a5e654d17e4",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week9\\Carmen Cruickshank's Personal Meeting Room's transcript (1).txt",
+      "sha256": "1bd9b83c23ac40b9c2326b64162713bd22d7c3b3dc5afa70e012f4aed45d5f27",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week9\\Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+      "sha256": "b764894c6c6e96ca3a4e15aa90be6ec9ffceae574931a3b44cf44ea1d3638c46",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week9\\Carmen Cruickshank's Zoom Meeting's transcript.txt",
+      "sha256": "db6418b1bdbec94753e553d17de642015cb965a8a9d6a74d917b0d959398deab",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week9\\Check-in with Gisselle's transcript.txt",
+      "sha256": "2e00e85a77897341501028490e22c4ce417f6cd0dba27e8af599e7f6e8e8b9c7",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week9\\Whitney Hodges's Personal Meeting Room's transcript (1).txt",
+      "sha256": "f8fcc40009100ef62cad0d57d78207a4e4a953a186c8a2af8080e4196b3372d0",
+      "unchanged": true
+    }
+  ],
+  "limits": [
+    "Calendar invitees are invitees, not verified attendees; all matched_speaker_display_name values are null.",
+    "Zoom exports contain elapsed cue times but no calendar dates or meeting IDs. Weekly folder membership is user supplied, not independently validated.",
+    "Generic recordings cannot be resolved by duration or recorder identity alone.",
+    "Same-room simultaneous Fathom captures are provisional call groups; the fuller capture is a comparison preference, not verified transcript-quality selection."
+  ],
+  "next_step": "Await explicit transcript-download authorization. Then compare transcripts in staging before choosing which source copies enter processing. No chunks, embeddings, moments or angles in this gathering phase."
+}

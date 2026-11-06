@@ -1,0 +1,17 @@
+{
+  "endpoint": "https://api.openai.com/v1/embeddings",
+  "contract": "981558eb240c4680ea2a807f97a44da209c7cc99c70f5f44f725bd7127bc317f",
+  "body": {
+    "model": "text-embedding-3-small",
+    "input": [
+      "Source: Native call\nFull Speaker Name: Exact first line.\nSecond line remains intact.",
+      "Source: Native call\nAnother Speaker: Later turn after the conversational gap."
+    ],
+    "dimensions": 1536,
+    "encoding_format": "float"
+  },
+  "input_hashes": [
+    "fc002efbe9c2c01348f0040e242b34de96246c4cb2e5c93b82807ddf931ab822",
+    "e3ee2876e87b66e110ee7175e67aa66398bc92af4cf5aa19af4033be65cdb72f"
+  ]
+}

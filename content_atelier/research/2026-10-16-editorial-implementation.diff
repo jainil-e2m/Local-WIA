@@ -1,0 +1,194 @@
+--- before/backend/backend_pipeline/prompts.py
++++ after/backend/backend_pipeline/prompts.py
+@@ -8,6 +8,11 @@
+ 
+ PROMPT_VERSION = STRATEGY_VERSION
+ COMPACT_PREPARATION_VERSION = STRATEGY_VERSION + ".preparation"
++ANGLE_PROMPT_VERSION = "2026-10-16.reel-editorial.v1"
++# Literal, reviewed snapshot of corpus/instagram/instagram_reels/instagram_reel.md.
++# Bundle with backend templates so worker containers do not require a desktop path.
++REEL_CORPUS = Path(__file__).parent / "prompt_templates/reel_approved_examples.md"
++REEL_EXAMPLE_LABEL = "Existing approved Reel examples: taste and known-content context only; not current source evidence:"
+ 
+ KEY_MOMENTS_WEEKLY_PREFIX = (
+     "Identify meaningful, source-grounded key moments across the complete admitted weekly packet below. "
+@@ -34,7 +39,18 @@
+ 
+ 
+ def _system(stage: str) -> str:
+-    return "\n\n".join((_load(f"{stage}.system.md"), _load("wia_strategy.md"), _load("editorial_policy.md")))
++    components = [_load(f"{stage}.system.md"), _load("wia_strategy.md"), _load("editorial_policy.md")]
++    if stage == "angle_generation":
++        components.extend((_load("reel_editorial.md"), _load("reel_calibration.md")))
++    return "\n\n".join(components)
++
++
++def approved_reel_examples() -> str:
++    """Literal taste/overlap data, kept outside system authority and current-case evidence."""
++    examples = REEL_CORPUS.read_text(encoding="utf-8")
++    if not examples.strip():
++        raise ValueError("Approved Reel calibration corpus is empty")
++    return examples
+ 
+ 
+ def moment_prompt(source_packet: list[dict]) -> tuple[str, str]:
+@@ -59,6 +75,7 @@
+ 
+ def angle_prompt(moment_packet: list[dict], prior_signatures: list[str]) -> tuple[str, str]:
+     user = _render(_load("angle_generation.user.md"), {"MOMENT_PACKET": moment_packet, "PRIOR_SIGNATURES": prior_signatures})
++    user += "\n\n" + REEL_EXAMPLE_LABEL + "\n" + approved_reel_examples()
+     return _system("angle_generation"), user
+ 
+ 
+@@ -77,7 +94,8 @@
+ 
+ 
+ def sql_angle_prompt(moment_packet, historical_packet):
+-    packet = {**sql_evidence_packet(moment_packet), 'historical_archive':historical_packet}
++    packet = {**sql_evidence_packet(moment_packet), 'historical_archive':historical_packet,
++              'approved_reel_examples':approved_reel_examples()}
+     return (_system('angle_generation') + '\n\n' + _load('angle_generation.user.md').split('Moment pool:\n', 1)[0]
+             + '\n\n' + _load('angle_generation.sql_comparison_v1.md'),
+             json.dumps(packet, ensure_ascii=False))
+@@ -85,7 +103,8 @@
+ 
+ def sql_refinement_prompt(moment_packet, targets, proposals, historical_packet):
+     packet = {**sql_evidence_packet(moment_packet), 'targets':targets,
+-              'current_proposals':proposals, 'historical_archive':historical_packet}
++              'current_proposals':proposals, 'historical_archive':historical_packet,
++              'approved_reel_examples':approved_reel_examples()}
+     return (_system('angle_generation') + '\n\n' + _load('angle_generation.user.md').split('## Internal intelligence', 1)[0]
+             + '\n\n' + _load('angle_refinement.sql_comparison_v1.md'),
+             json.dumps(packet, ensure_ascii=False))
+--- before/backend/backend_pipeline/pipeline.py
++++ after/backend/backend_pipeline/pipeline.py
+@@ -10,16 +10,20 @@
+ from .costs import call_record, response_usage, write_run_summary
+ from .ingest import discover_week
+ from .models import Angle, Moment, Quality, RunManifest, StageArtifact
+-from .prompts import PROMPT_VERSION, angle_prompt, moment_prompt, weekly_moment_prompt
++from .prompts import ANGLE_PROMPT_VERSION, PROMPT_VERSION, angle_prompt, moment_prompt, weekly_moment_prompt
+ from .provider import FakeProvider, LiveProvider, ModelProvider, chat_body, embedding_body
+ from .scoring import rank
+ from .store import JsonStore, canonical_hash
++from .strategy_contracts import (
++    StrategicAngleResponse,
++    StrategicCompactMomentResponse,
++    StrategicMomentResponse,
++    StrategicRefinementResponse,
++    is_strategic_angle_response,
++    is_strategic_moment_response,
++)
+ from .token_budget import preflight
+ from .weekly import LIVE_COMPACT_VERSION, load_compact_week, meeting_inventory, resolve_moment_references
+-from .strategy_contracts import (
+-    StrategicAngleResponse, StrategicCompactMomentResponse, StrategicMomentResponse,
+-    StrategicRefinementResponse, is_strategic_angle_response, is_strategic_moment_response,
+-)
+ 
+ 
+ def uid(prefix: str) -> str:
+@@ -204,6 +208,7 @@
+             angle_input_hash,
+             StrategicAngleResponse.model_json_schema(),
+             validate=lambda output: self._parse_angles(output, run.run_id, moments),
++            prompt_version=ANGLE_PROMPT_VERSION,
+         )
+         angles = self._parse_angles(angle_artifact.output, run.run_id, moments, artifact=angle_artifact)
+         self.store.write_json(f"{run_dir}/candidates.json", [a.model_dump(mode="json") for a in angles])
+@@ -337,6 +342,7 @@
+         schema: dict,
+         *,
+         validate: Callable[[dict], object],
++        prompt_version: str | None = None,
+     ) -> StageArtifact:
+         model = self.settings.openrouter_moments_model if stage == "moment_extraction" else self.settings.openrouter_angles_model
+         request = chat_body(
+@@ -422,7 +428,7 @@
+                 run_id=run.run_id,
+                 stage=stage,
+                 request_fingerprint=fingerprint,
+-                prompt_version=run.prompt_profile,
++                prompt_version=prompt_version or run.prompt_profile,
+                 model_id=model,
+                 request=request,
+                 status="validated",
+@@ -441,7 +447,7 @@
+                 run_id=run.run_id,
+                 stage=stage,
+                 request_fingerprint=fingerprint,
+-                prompt_version=run.prompt_profile,
++                prompt_version=prompt_version or run.prompt_profile,
+                 model_id=model,
+                 request=request,
+                 status="failed",
+--- before/backend/backend_pipeline/sql_pipeline.py
++++ after/backend/backend_pipeline/sql_pipeline.py
+@@ -2,25 +2,28 @@
+ from __future__ import annotations
+ 
+ import threading
+-from datetime import datetime, UTC
++from datetime import UTC, datetime
++
+ from psycopg.types.json import Jsonb
++
++from .angle_workflow import WORKFLOW
++from .citation_adapter import VERSION as CITATION_VERSION
++from .citation_adapter import adapt_angle_response
++from .comparison import check_history, evaluate, freeze_assessment, history_context, validate_moments
+ from .config import Settings
+ from .contracts import signature_from_fields
+-from .strategy_contracts import StrategicAngleResponse, StrategicCompactMomentResponse, StrategicRefinementResponse
+-from .models import RunManifest, Moment
++from .matching import assess, freeze, match, vector_digest, vector_provenance, vector_valid
++from .models import Moment, RunManifest
+ from .pipeline import Pipeline
+-from .prompts import weekly_moment_prompt, angle_prompt, sql_angle_prompt, sql_refinement_prompt
++from .prompts import ANGLE_PROMPT_VERSION, angle_prompt, sql_angle_prompt, sql_refinement_prompt, weekly_moment_prompt
+ from .provider import LiveProvider
++from .refinement import parse_refinement
+ from .repository import ContentRepository, insert
+ from .storage_config import encoding_contract
+ from .storage_sources import reconstruct
+ from .store import JsonStore, canonical_hash
+-from .weekly import LIVE_COMPACT_VERSION, resolve_moment_references, meeting_inventory
+-from .matching import vector_valid, vector_digest, vector_provenance, freeze, match, assess
+-from .angle_workflow import WORKFLOW
+-from .comparison import history_context, check_history, validate_moments, freeze_assessment, evaluate
+-from .refinement import parse_refinement
+-from .citation_adapter import adapt_angle_response, VERSION as CITATION_VERSION
++from .strategy_contracts import StrategicAngleResponse, StrategicCompactMomentResponse, StrategicRefinementResponse
++from .weekly import LIVE_COMPACT_VERSION, meeting_inventory, resolve_moment_references
+ 
+ 
+ class CacheStore(JsonStore):
+@@ -205,7 +208,8 @@
+             input_hash = canonical_hash({'system':system,'user':user,'moment_ids':ids,
+                                          **({'workflow':WORKFLOW,'sources':run['input_refs']['transcripts']} if comparison else {})})
+             artifact = p._call_json('angle_generation',manifest,run_dir,system,user,input_hash,
+-                StrategicAngleResponse.model_json_schema(),validate=lambda out:p._parse_angles(adapt_angle_response(out,moments)[0] if comparison else out,run['run_id'],moments))
++                StrategicAngleResponse.model_json_schema(),validate=lambda out:p._parse_angles(adapt_angle_response(out,moments)[0] if comparison else out,run['run_id'],moments),
++                prompt_version=ANGLE_PROMPT_VERSION)
+             interpreted,citation_changes = adapt_angle_response(artifact.output,moments) if comparison else (artifact.output,[])
+             angles = p._parse_angles(interpreted,run['run_id'],moments,artifact=artifact)
+             p._write_discovery_outputs(run_dir, interpreted, angles)
+@@ -296,7 +300,7 @@
+                                      'target_ids':sorted(target_map)})
+         validate = lambda out:parse_refinement(p,out,run['run_id'],moments,target_map)
+         artifact = p._call_json('angle_refinement',manifest,run_dir,system,user,input_hash,
+-                               StrategicRefinementResponse.model_json_schema(),validate=validate)
++                               StrategicRefinementResponse.model_json_schema(),validate=validate,prompt_version=ANGLE_PROMPT_VERSION)
+         angles,parents,dispositions = parse_refinement(p,artifact.output,run['run_id'],moments,target_map,artifact=artifact)
+         with self.repo.connection() as conn:
+             self.repo.guard(conn,job)
+--- before/backend/backend_pipeline/model_experiment.py
++++ after/backend/backend_pipeline/model_experiment.py
+@@ -28,6 +28,7 @@
+     *[f"prompt_templates/{name}.md" for name in (
+         "moment_extraction.system", "wia_strategy", "editorial_policy", "moment_extraction.weekly_v3",
+         "angle_generation.system", "angle_generation.user",
++        "reel_editorial", "reel_calibration", "reel_approved_examples",
+     )],
+ ]
+ 

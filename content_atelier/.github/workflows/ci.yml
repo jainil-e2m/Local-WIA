@@ -1,0 +1,177 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  PYTHON_VERSION: "3.12"
+
+jobs:
+  backend:
+    name: Backend lint and offline tests
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: pip
+          cache-dependency-path: backend/requirements.txt
+      - name: Install dependencies
+        run: pip install -r requirements.txt "pytest>=8,<10" fakeredis==2.32.1 ruff==0.17.1
+      # Ruff's default rule set, configured in pyproject.toml (plan S.B2).
+      - name: Lint
+        run: ruff check backend_pipeline scripts experiments evaluation
+      # The OpenAPI document the frontend's types are generated from (plan 1.F1). After changing a route or a model:
+      # python -m backend_pipeline.openapi --write, then npm run api:types in frontend/.
+      - name: OpenAPI drift
+        run: python -m backend_pipeline.openapi --check
+      - name: Offline tests
+        # Without database URLs the PostgreSQL suites skip; the conftest forbids outbound HTTP.
+        # Tests that read uncommitted research inputs skip with the reason (plan S.B6).
+        run: python -m pytest -q -rs
+
+  backend-database:
+    name: Backend database suites (PostgreSQL + pgvector)
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        # Same image as backend/compose.yml.
+        image: pgvector/pgvector:0.8.2-pg17@sha256:feb68f4f15446397d8cac7f4fe48fe4586de83160d1fc48b46283312d1a33966
+        env:
+          POSTGRES_USER: atelier
+          POSTGRES_PASSWORD: atelier_ci_only
+          POSTGRES_DB: atelier_test
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U atelier -d atelier_test"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 20
+    env:
+      # Fixtures refuse any database except these two exact names.
+      ATELIER_TEST_DATABASE_URL: postgresql://atelier:atelier_ci_only@127.0.0.1:5432/atelier_test
+      INTAKE_TEST_DATABASE_URL: postgresql://atelier:atelier_ci_only@127.0.0.1:5432/atelier_intake_test
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: pip
+          cache-dependency-path: backend/requirements.txt
+      - name: Install dependencies
+        run: pip install -r requirements.txt "pytest>=8,<10" fakeredis==2.32.1
+      - name: Create the intake test database
+        run: |
+          python - <<'EOF'
+          import psycopg
+          with psycopg.connect("postgresql://atelier:atelier_ci_only@127.0.0.1:5432/atelier_test", autocommit=True) as conn:
+              conn.execute("CREATE DATABASE atelier_intake_test")
+          EOF
+      - name: Apply migrations (the runner, 0.B3)
+        run: |
+          ATELIER_DATABASE_URL="$ATELIER_TEST_DATABASE_URL" python -m backend_pipeline.storage_cli migrate
+          ATELIER_DATABASE_URL="$INTAKE_TEST_DATABASE_URL" python -m backend_pipeline.storage_cli migrate
+      - name: Schema drift (each version's catalogue equals a database migrated from nothing)
+        run: python -m backend_pipeline.schema_catalog --check
+      - name: Tests with both database suites
+        run: python -m pytest -q -rs
+
+  frontend:
+    name: Frontend type check, tests and build
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: frontend/.nvmrc
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - name: Install dependencies
+        run: npm ci
+      # The API types are generated from backend/openapi.json and committed; a change that was not regenerated fails here.
+      - name: API types drift
+        run: |
+          npm run api:types
+          git diff --exit-code -- src/api/schema.d.ts
+      - name: Type check
+        run: npm run lint
+      - name: Unit tests
+        run: npm run test:unit
+      - name: Server tests
+        run: npm run test:server
+      - name: Production build (the real app)
+        run: npm run build
+        env:
+          VITE_ATELIER_MODE: backend
+      - name: Demo build (the saved mock)
+        run: npm run build
+        env:
+          VITE_ATELIER_MODE: mock
+
+  frontend-e2e:
+    name: Frontend browser end-to-end test (6.X1)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: frontend/.nvmrc
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - name: Install dependencies
+        run: npm ci
+      # The browser that matches the pinned @playwright/test, with its system libraries.
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Production build (the real app the Node server serves)
+        run: npm run build
+        env:
+          VITE_ATELIER_MODE: backend
+      # The real Node server (server/index.mjs) against a stubbed backend and Command Center session endpoint, driven by Chromium:
+      # Home, Gate 1, Gate 2, the content pack and the week's documents, and the session checks a page and an idle tab make (6.X5).
+      - name: Browser end-to-end test
+        run: npm run test:e2e
+        env:
+          ATELIER_E2E_SKIP_BUILD: "1"
+      - name: Keep the traces of a failed run
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: frontend-e2e-traces
+          path: frontend/test-results/
+          retention-days: 7
+
+  docker:
+    name: Docker image builds
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        image: [backend, frontend]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build ${{ matrix.image }} image
+        run: docker build --pull -t content-atelier-${{ matrix.image }}:ci ${{ matrix.image }}

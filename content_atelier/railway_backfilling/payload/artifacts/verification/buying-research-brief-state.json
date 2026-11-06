@@ -1,0 +1,60 @@
+{
+  "angle_id": "angle_1d20dd133d5492c950608290",
+  "origin_run_id": "week2-luna-pro-strategic-angles-20261013-a2",
+  "cta": "Want your ads to speak to what actually makes couples choose you? DM us **ADS** to learn how we help wedding pros turn those insights into stronger ad copy and landing page messaging.",
+  "source_transfer_approved": true,
+  "approval_client_date": "2026-10-13",
+  "human_reply": "Approve this buying-research brief pipeline",
+  "writer_model": "openai/gpt-6.1-sol",
+  "research_review_model": "openai/gpt-6-luna",
+  "limits": {
+    "angle_embedding_requests": 1,
+    "query_embedding_batches": 3,
+    "queries": 12,
+    "chat_calls": 10
+  },
+  "protected_before": {
+    "transcripts": {
+      "count": 20,
+      "hash": "3618d187d5321c7b7410ed66f13234b94b613360ade39940b3475355f47129a6"
+    },
+    "transcript_chunks": {
+      "count": 329,
+      "hash": "f057323354fbc67ea2b14d5b4570605154f1894da4a21bb18ae986983d7bbae8"
+    },
+    "content_angles": {
+      "count": 12,
+      "hash": "18e6d3f661682605876f4f910b38c4d63229fd71d2fdec4eeaaa5e1f2d680405"
+    },
+    "content_briefs": {
+      "count": 1,
+      "hash": "6ff8367e807da5de7501ee9641f7b98f72ceb54ef38590cb56804e6b8c855b00"
+    },
+    "content_packs": {
+      "count": 0,
+      "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "content_assets": {
+      "count": 0,
+      "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "calendar_entries": {
+      "count": 0,
+      "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  },
+  "source_valid_partial_candidate": true,
+  "permanent_external_switches": false,
+  "comparison_run_id": "run_7ed5d1af794f4637b1ce2d9357920414",
+  "approval_workflow": "historical_comparison_v1",
+  "authoritative_cutoff": 0.9,
+  "cutoff_scope": "This selected brief pilot only; persistent/global policy unchanged",
+  "cutoff_human_reply": "0.90 for this pilot",
+  "run_id": "brief_run_c9d93e21502a743f2ac7912b",
+  "review_reference_recovery": {
+    "failed_job_id": "brief_job_830dc7641de5475fbd78b92e199117d3",
+    "offline_tests_passed": 22,
+    "old_review_raw_preserved": true,
+    "fact_grounding_guard_unchanged": true
+  }
+}

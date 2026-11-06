@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Approved Content Atelier 13-table PostgreSQL and pgvector design: execution, supplied data, saved outputs and review gates.">
+  <title>Content Atelier — execution and data flow</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --page: #f7f8fa; --surface: #fff; --ink: #202b3a; --muted: #556273;
+      --line: #d5dce5; --sql: #235da4; --sql-bg: #edf4fc;
+      --vector: #724598; --vector-bg: #f4eef9; --gate: #80531f; --gate-bg: #fbf3e8;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--page); color: var(--ink); font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+    main { max-width: 1180px; margin: auto; padding: 40px 28px 30px; }
+    h1 { margin: 0; font-size: 29px; line-height: 1.2; font-weight: 650; letter-spacing: -.5px; }
+    h2 { font-size: 18px; font-weight: 650; margin: 0 0 10px; }
+    h3 { font-weight: 650; }
+    p { margin: 0; }
+    code { font-family: ui-monospace, "Cascadia Code", Consolas, monospace; font-size: .92em; overflow-wrap: anywhere; }
+    .eyebrow { color: var(--muted); font-size: 12px; margin-bottom: 8px; }
+    .subtitle { color: var(--muted); margin: 10px 0 22px; max-width: 830px; }
+    .panel { border: 1px solid var(--line); background: var(--surface); border-radius: 10px; padding: 20px; }
+    .stores { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+    .store { padding: 12px; background: var(--sql-bg); border-radius: 7px; min-width: 0; }
+    .store h3 { font-size: 13px; margin: 0 0 6px; color: var(--sql); }
+    .store p { font-size: 12px; overflow-wrap: anywhere; line-height: 1.7; }
+    .vectors { margin-top: 12px; padding: 12px 14px; background: var(--vector-bg); border-left: 3px solid var(--vector); border-radius: 4px; font-size: 13px; }
+    .vectors strong { color: var(--vector); }
+    .caption { font-size: 12px; color: var(--muted); margin-top: 12px; }
+    .flow { margin-top: 28px; }
+    .column-labels, .row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, .95fr) minmax(0, 1fr); gap: 36px; }
+    .column-labels { color: var(--muted); font-size: 11px; font-weight: 650; text-transform: uppercase; letter-spacing: .8px; margin: 14px 0 12px; }
+    .column-labels span:nth-child(2) { text-align: center; }
+    .steps { list-style: none; padding: 0; margin: 0; display: grid; gap: 36px; }
+    .row { position: relative; align-items: stretch; break-inside: avoid; }
+    .data { position: relative; align-self: center; padding: 10px 12px; border-left: 2px solid var(--line); min-width: 0; }
+    .data ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; }
+    .data li { font-size: 13px; overflow-wrap: anywhere; }
+    .mobile-label { display: none; }
+    .read::after, .write::before { position: absolute; top: 50%; transform: translateY(-50%); color: var(--muted); font-size: 22px; line-height: 1; }
+    .read::after { content: "→"; right: -28px; }
+    .write::before { content: "→"; left: -28px; }
+    .phase { position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 15px 13px; text-align: center; display: flex; flex-direction: column; justify-content: center; min-height: 112px; }
+    .phase::after { content: "↓"; position: absolute; left: 50%; transform: translateX(-50%); bottom: -32px; font-size: 24px; color: var(--muted); }
+    .row:last-child .phase::after { display: none; }
+    .step-number { color: var(--muted); font-size: 11px; letter-spacing: .7px; margin-bottom: 4px; }
+    .phase h3 { font-size: 16px; line-height: 1.35; margin: 0; }
+    .phase p { font-size: 12px; color: var(--muted); margin-top: 7px; }
+    .phase.gate { background: var(--gate-bg); border-color: var(--gate); }
+    .phase.gate .step-number { color: var(--gate); }
+    .tag { display: inline-block; font-size: 10px; font-weight: 650; border-radius: 3px; padding: 1px 5px; margin-right: 4px; color: var(--sql); background: var(--sql-bg); white-space: nowrap; vertical-align: 1px; }
+    .tag.vector { color: var(--vector); background: var(--vector-bg); }
+    .tracking { margin-top: 28px; }
+    .tracking-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    .tracking-grid h3 { font-size: 13px; margin: 0 0 5px; }
+    .tracking-grid p { font-size: 12px; color: var(--muted); }
+    .notes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; margin-top: 24px; }
+    .notes h2 { font-size: 15px; }
+    .notes p { font-size: 13px; color: var(--muted); }
+    footer { margin-top: 24px; padding-top: 14px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; display: flex; flex-wrap: wrap; gap: 10px 18px; }
+    a { color: var(--sql); text-underline-offset: 3px; overflow-wrap: anywhere; }
+    a:focus-visible { outline: 2px solid var(--sql); outline-offset: 4px; }
+    @media (prefers-color-scheme: dark) {
+      :root { --page: #151a22; --surface: #1d2530; --ink: #e6ebf2; --muted: #abb8c9; --line: #3a4656; --sql: #a2c8f7; --sql-bg: #22374e; --vector: #d4b5f0; --vector-bg: #392b49; --gate: #d8ae77; --gate-bg: #352c21; }
+    }
+    @media (max-width: 900px) { .stores { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (max-width: 760px) {
+      main { padding: 25px 16px; } h1 { font-size: 25px; }
+      .panel { padding: 16px; } .column-labels { display: none; }
+      .steps { gap: 44px; } .row { grid-template-columns: 1fr; gap: 11px; }
+      .phase { min-height: 86px; } .phase::after, .read::after, .write::before { display: none; }
+      .row:not(:last-child)::after { content: "↓"; position: absolute; bottom: -35px; left: 50%; transform: translateX(-50%); color: var(--muted); font-size: 24px; }
+      .mobile-label { display: block; font-size: 10px; color: var(--muted); margin-bottom: 5px; font-weight: 650; text-transform: uppercase; letter-spacing: .6px; }
+      .tracking-grid, .notes { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 420px) { .stores { grid-template-columns: 1fr; } }
+    @media print {
+      :root { color-scheme: light; --page: #fff; --surface: #fff; --ink: #202b3a; --muted: #556273; --line: #d5dce5; --sql: #235da4; --sql-bg: #edf4fc; --vector: #724598; --vector-bg: #f4eef9; --gate: #80531f; --gate-bg: #fbf3e8; }
+      @page { size: A4 landscape; margin: 12mm; }
+      main { max-width: none; padding: 0; } .row { break-inside: avoid; }
+      .phase, .store, .vectors { print-color-adjust: exact; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="eyebrow">Approved 13-table design · comparison workflow implemented 12 October 2026</p>
+    <h1>Content Atelier: execution and data flow</h1>
+    <p class="subtitle">Each phase reads saved evidence or approved content, then saves the output needed by the next phase and the UI. Review gates bind the exact saved content to an approval.</p>
+    <p class="caption">The first live Week 2 comparison is complete: six source-validated moments and six encoded angles, with six qualified families at each cutoff and no refinement targets. Call 3 was skipped. All 329 Week 1/2 transcript chunks were subsequently encoded in a separate approved operation; sources and earlier content are intact. No authoritative cutoff is selected; comparison approval remains disabled. Saved external switches remain false. Hybrid retrieval, researched briefing and Gate 2 are implemented and verified offline. The authoritative Gate 1 policy remains unset; no real approval or brief has been created. Production and calendar execution remain future work.</p>
+  </header>
+
+  <section class="panel" aria-labelledby="database-title">
+    <h2 id="database-title">One PostgreSQL database with pgvector</h2>
+    <div class="stores">
+      <div class="store"><h3>Sources &amp; evidence · 4 tables</h3><p><code>weeks</code><br><code>transcripts</code><br><code>transcript_chunks</code><br><code>key_moments</code></p></div>
+      <div class="store"><h3>Arguments &amp; briefs · 3 tables</h3><p><code>content_angles</code><br><code>angle_moments</code><br><code>content_briefs</code></p></div>
+      <div class="store"><h3>Production &amp; calendar · 3 tables</h3><p><code>content_packs</code><br><code>content_assets</code><br><code>calendar_entries</code></p></div>
+      <div class="store"><h3>Execution &amp; visibility · 3 tables</h3><p><code>pipeline_runs</code><br><code>pipeline_jobs</code><br><code>pipeline_events</code></p></div>
+    </div>
+    <p class="vectors"><strong>Two vector columns:</strong> <code>content_angles.embedding</code> for argument overlap and previous coverage; <code>transcript_chunks.embedding</code> for supplemental evidence. Both are <code>vector(1536)</code> on their SQL rows.</p>
+    <p class="caption">SQL foreign keys preserve content relationships. Validated JSON passage references resolve back to original transcripts. Model settings, credentials and display timezone remain in configuration.</p>
+  </section>
+
+  <section class="flow" aria-labelledby="flow-title">
+    <h2 id="flow-title">Execution and supplied data</h2>
+    <div class="column-labels" aria-hidden="true"><span>Read / supply</span><span>Execute / review</span><span>Save / update</span></div>
+    <ol class="steps">
+      <li class="row">
+        <div class="data read"><span class="mobile-label">Read / supply</span><ul>
+          <li><span class="tag">INPUT</span>Authorised source text, links, known date/speaker facts and restrictions</li>
+          <li><span class="tag">SQL</span>Existing source identities and seven-day week</li>
+        </ul></div>
+        <div class="phase"><span class="step-number">01</span><h3>Prepare week and run</h3><p>Preserve originals. Freeze admitted IDs/hashes. Chunk encoding can run alongside extraction.</p></div>
+        <div class="data write"><span class="mobile-label">Save / update</span><ul>
+          <li><span class="tag">SQL</span><code>weeks</code>, <code>transcripts</code> and stable <code>passage_map</code></li>
+          <li><span class="tag">SQL</span><code>pipeline_runs.input_refs</code></li>
+          <li><span class="tag vector">VECTOR</span><code>transcript_chunks</code> + original <code>passage_refs</code></li>
+        </ul></div>
+      </li>
+      <li class="row">
+        <div class="data read"><span class="mobile-label">Read / supply</span><ul>
+          <li><span class="tag">SQL</span>Complete admitted <code>transcripts.original_text</code></li>
+          <li><span class="tag">SQL</span>Passage locations, known attribution, restrictions and extraction rules</li>
+        </ul></div>
+        <div class="phase"><span class="step-number">02 · CALL 1</span><h3>Extract key moments</h3><p>Read the whole admitted input. Vector top-k does not filter weekly extraction.</p></div>
+        <div class="data write"><span class="mobile-label">Save / update</span><ul>
+          <li><span class="tag">SQL</span><code>key_moments.moment_body</code></li>
+          <li><span class="tag">SQL</span><code>evidence_refs</code>: exact anchors, context and qualifications</li>
+        </ul></div>
+      </li>
+      <li class="row">
+        <div class="data read"><span class="mobile-label">Read / supply</span><ul>
+          <li><span class="tag">SQL</span>Validated moments, evidence and limits</li>
+          <li><span class="tag">SQL</span>Frozen historical IDs, arguments, mechanisms, decisions and qualifications — overlap context only</li>
+        </ul></div>
+        <div class="phase"><span class="step-number">03 · HISTORY + CALL 2</span><h3>Generate historically aware angles</h3><p>Freeze the entire eligible archive first. Supply compact prior arguments and all current evidence. Save originals; freeze the clock after Call 2.</p></div>
+        <div class="data write"><span class="mobile-label">Save / update</span><ul>
+          <li><span class="tag">SQL</span><code>content_angles</code> body, quality and original generation time</li>
+          <li><span class="tag">SQL</span><code>angle_moments</code></li>
+          <li><span class="tag vector">VECTOR</span>Angle embedding + <code>embedding_input_hash</code> when ready</li>
+        </ul></div>
+      </li>
+      <li class="row">
+        <div class="data read"><span class="mobile-label">Read / supply</span><ul>
+          <li><span class="tag vector">VECTOR</span>Candidate and eligible historical angle signatures</li>
+          <li><span class="tag">SQL</span>Frozen history, original age, quality and current-batch pairs</li>
+        </ul></div>
+        <div class="phase"><span class="step-number">04 · INITIAL ASSESSMENT</span><h3>Diagnose recovery targets</h3><p>Resolve all vectors. Target baseline quality ≤ 70 or maximum historical cosine ≥ 0.78. Preserve originals without final suppression.</p></div>
+        <div class="data write"><span class="mobile-label">Save / update</span><ul>
+          <li><span class="tag">SQL</span><code>matching_result</code>: independent quality, overlap and ranking metrics</li>
+          <li><span class="tag">SQL</span>Targets/reasons and frozen assessment in job <code>result_refs</code></li>
+          <li><span class="tag">RULE</span>Full archive scan; missing vectors pause processing and produce no qualified counts</li>
+        </ul></div>
+      </li>
+      <li class="row">
+        <div class="data read"><span class="mobile-label">Read / supply</span><ul>
+          <li><span class="tag">SQL</span>Target originals, separate diagnoses and matching historical arguments/raw similarities</li>
+          <li><span class="tag">SQL</span>All validated current moments, unused moments, exact passages/context and other current proposals</li>
+        </ul></div>
+        <div class="phase"><span class="step-number">04A · OPTIONAL CALL 3</span><h3>One refinement pass</h3><p>Seek a different supported argument, mechanism or reader decision. Zero or one replacement per target. Skip the call if no targets.</p></div>
+        <div class="data write"><span class="mobile-label">Save / update</span><ul>
+          <li><span class="tag">SQL</span>Own replacement body/quality and <code>angle_moments</code>; parent linked by <code>supersedes_id</code></li>
+          <li><span class="tag">SQL</span>Dispositions and explanations in <code>result_refs</code>; preserve parent's first generation time</li>
+          <li><span class="tag vector">VECTOR</span>Resolve replacement signatures; use compatible cache</li>
+        </ul></div>
+      </li>
+      <li class="row">
+        <div class="data read"><span class="mobile-label">Read / supply</span><ul>
+          <li><span class="tag vector">VECTOR</span>Original/replacement vectors against the same complete archive and fixed clock</li>
+          <li><span class="tag">RULE</span>Grounded + complete matching + baseline &gt; 70 + historical cosine &lt; each cutoff</li>
+        </ul></div>
+        <div class="phase"><span class="step-number">04B · FINAL COMPARISON</span><h3>Compare 0.78 / 0.85 / 0.90</h3><p>Prefer a qualifying replacement; retain a qualifying original otherwise. One count per family. Freshness ranks only.</p></div>
+        <div class="data write"><span class="mobile-label">Save / update</span><ul>
+          <li><span class="tag">SQL</span>Per-cutoff IDs/counts, recovery/fallback reasons and assessment snapshots</li>
+          <li><span class="tag">UI</span>Scenario-specific current-batch flags at cosine ≥ 0.90, reported separately</li>
+          <li><span class="tag">UI</span>Provisional results; threshold pending; approval disabled. JSON/CSV exports.</li>
+        </ul></div>
+      </li>
+      <li class="row">
+        <div class="data read"><span class="mobile-label">Read / supply</span><ul>
+          <li><span class="tag">SQL</span>Visible arguments, matching explanations and linked moment evidence</li>
+          <li><span class="tag">INPUT</span>Human edits and chosen CTA</li>
+        </ul></div>
+        <div class="phase gate"><span class="step-number">05 · FUTURE GATE 1</span><h3>Review angles and CTA</h3><p>Comparison approval is disabled until later policy activation. Edits/rescoring retain comparison mode. Legacy runs keep their existing gate.</p></div>
+        <div class="data write"><span class="mobile-label">Save / update</span><ul>
+          <li><span class="tag">SQL</span>Actual edited <code>content_body</code>, <code>selected_cta</code></li>
+          <li><span class="tag">SQL</span><code>approved_hash</code>, actor and time</li>
+          <li><span class="tag">SQL</span>Preserved consumed records; replacements use <code>supersedes_id</code></li>
+        </ul></div>
+      </li>
+      <li class="row">
+        <div class="data read"><span class="mobile-label">Read / supply</span><ul>
+          <li><span class="tag">SQL</span>Exact chosen-angle moments and original passages</li>
+          <li><span class="tag vector">VECTOR</span>Chunk semantic search + SQL full-text search</li>
+          <li><span class="tag vector">VECTOR</span>Independent prior-angle search + SQL prior use/publication</li>
+        </ul></div>
+        <div class="phase"><span class="step-number">06</span><h3>Research the brief</h3><p>Freeze original grounding, permitted archive and prior use. Plan bounded queries, search semantic + full-text, restore qualifications and grade evidence.</p></div>
+        <div class="data write"><span class="mobile-label">Save / update</span><ul>
+          <li><span class="tag">OUTPUT</span>Prepared evidence/prior-context packet for the writer</li>
+          <li><span class="tag">SQL</span>Optional compact checkpoint on <code>pipeline_jobs.result_refs</code></li>
+          <li><span class="tag">SQL</span>Save the selected packet with the valid draft in step 07</li>
+        </ul></div>
+      </li>
+      <li class="row">
+        <div class="data read"><span class="mobile-label">Read / supply</span><ul>
+          <li><span class="tag">SQL</span>Approved angle/hash, CTA and prepared research context</li>
+          <li><span class="tag">INPUT</span>Questions/answers, brief edits and known gaps</li>
+        </ul></div>
+        <div class="phase gate"><span class="step-number">07 · DRAFT + GATE 2</span><h3>Generate and review brief</h3><p>Write a structured contract, check source support and differentiation, repair at most once. Edit superseding versions and approve the exact current hash.</p></div>
+        <div class="data write"><span class="mobile-label">Save / update</span><ul>
+          <li><span class="tag">SQL</span><code>content_briefs</code> body + <code>angle_input_hash</code></li>
+          <li><span class="tag">SQL</span><code>selected_evidence</code>, <code>prior_content_context</code>, <code>research_gaps</code></li>
+          <li><span class="tag">SQL</span>Hash-bound approval, actor and time</li>
+        </ul></div>
+      </li>
+      <li class="row">
+        <div class="data read"><span class="mobile-label">Read / supply</span><ul>
+          <li><span class="tag">SQL</span>Current approved brief/hash and selected asset assignments</li>
+          <li><span class="tag">SQL</span>Evidence/claim limits and format instructions</li>
+        </ul></div>
+        <div class="phase"><span class="step-number">08</span><h3>Produce selected assets</h3><p>Generate independent slots. New claims return to the brief; routine production uses its contract.</p></div>
+        <div class="data write"><span class="mobile-label">Save / update</span><ul>
+          <li><span class="tag">SQL</span><code>content_packs</code> grouping</li>
+          <li><span class="tag">SQL</span><code>content_assets</code>: slot, brief/hash, copy/hash and checks</li>
+          <li><span class="tag">SQL</span>One owning pack per asset; no fixed deliverable count</li>
+        </ul></div>
+      </li>
+      <li class="row">
+        <div class="data read"><span class="mobile-label">Read / supply</span><ul>
+          <li><span class="tag">SQL</span>All assigned assets and current governing brief hashes</li>
+          <li><span class="tag">SQL</span>Validation findings and required warning acknowledgements</li>
+        </ul></div>
+        <div class="phase gate"><span class="step-number">09 · GATE 3</span><h3>Check and approve pack</h3><p>Approve complete, current copy. Copy edits require renewed checks; contract changes return to briefing.</p></div>
+        <div class="data write"><span class="mobile-label">Save / update</span><ul>
+          <li><span class="tag">SQL</span>Asset and pack <code>validation_result</code></li>
+          <li><span class="tag">SQL</span>Ordered exact-asset <code>manifest_hash</code></li>
+          <li><span class="tag">SQL</span>Pack approval hash, actor and time</li>
+        </ul></div>
+      </li>
+      <li class="row">
+        <div class="data read"><span class="mobile-label">Read / supply</span><ul>
+          <li><span class="tag">SQL</span>Approved pack and exact asset/hash</li>
+          <li><span class="tag">INPUT</span>Channel, chosen time and actual publication confirmation</li>
+        </ul></div>
+        <div class="phase"><span class="step-number">10</span><h3>Schedule and publish</h3><p>Track exact saved copy. Actual publication enriches future prior-content context.</p></div>
+        <div class="data write"><span class="mobile-label">Save / update</span><ul>
+          <li><span class="tag">SQL</span><code>calendar_entries</code>: asset/hash, channel and scheduled time</li>
+          <li><span class="tag">SQL</span>Confirmed publication time/URL and status</li>
+          <li><span class="tag">UI</span>Scheduled and published remain distinct states</li>
+        </ul></div>
+      </li>
+    </ol>
+  </section>
+
+  <section class="panel tracking" aria-labelledby="tracking-title">
+    <h2 id="tracking-title">Process updates across every phase</h2>
+    <div class="tracking-grid">
+      <div><h3><code>pipeline_runs</code> · overall</h3><p>Requested scope, frozen inputs, active/waiting/complete state and partial failures. A week may have several runs.</p></div>
+      <div><h3><code>pipeline_jobs</code> · live work</h3><p>Stage and optional target, current step/message, measured units, attempt, heartbeat and lease. Parallel assets/briefs have independent jobs.</p></div>
+      <div><h3><code>pipeline_events</code> · history</h3><p>Meaningful milestones, warnings, retries and failures. Heartbeats stay on jobs; approval authority stays on the content record.</p></div>
+    </div>
+  </section>
+
+  <div class="notes">
+    <section><h2>Meaning discovers; references verify</h2><p>Briefing always receives the chosen angle's original grounding. Hybrid passage search expands it; prior-angle search and reverse passage lineage recover previous coverage. Fuzzy matching helps locate spellings or spans, while exact originals and hashes establish provenance.</p></section>
+    <section><h2>Brief implementation checkpoint</h2><p>Five leased jobs prepare, research, contextualize, write and validate each brief. Four ordinary chat stages and at most three query-encoding batches are bounded and cached; optional gap/repair work is explicit. Current source and approval checks prevent stale review. Real content and runs are untouched; only the full-text index was added. <a href="implementation-status-content-briefs.md">Read implementation and verification status</a>.</p></section>
+    <section><h2>Saved context carries the difference forward</h2><p>The brief keeps selected proof, qualifications, compact prior arguments/uses and known gaps. Assets consume that approved contract. Publication is confirmed separately; unavailable history or embeddings cannot imply “no similar content.”</p></section>
+  </div>
+
+  <footer>
+    <a href="data-storage-schema.md">Schema &amp; execution map</a>
+    <a href="content_atelier_vectordb.md">Storage &amp; retrieval reasoning</a>
+    <a href="content-atelier-compact.dbml">Complete DBML</a>
+    <a href="database-schema-compact.md">Column &amp; approval contracts</a>
+    <a href="backend/STORAGE.md">Implementation and verification</a>
+    <span>Local baseline applied · Real provider execution disabled</span>
+  </footer>
+</main>
+</body>
+</html>
+

@@ -1,0 +1,8 @@
+{
+  "contract": "7b68c0e1d6ae9ad427811874db2f6cdae7283040583f763dd926cb6d144b0afd",
+  "input_hash": "2695b6dffa1b7c7964aa6b0a441353f43cd590516a09874161f727a34650a125",
+  "endpoint": "https://openrouter.ai/api/v1",
+  "model": "openai/text-embedding-3-small",
+  "dimensions": 1536,
+  "input": "Audience: Wedding-business owners reviewing paid campaigns who are concerned about spend but have several ads serving different purposes. | Tension: A desire to avoid wasting money can lead to an all-or-nothing decision, even when the reported problem belongs to one campaign and tracking may not show every lead. | Argument: When one ad is spending without tracked leads, the useful decision may be to pause that specific campaign while preserving other campaigns with a different temporary purpose. An account-wide stop-or-continue judgment can obscure which activity is actually in question. | Take: Inspect the campaign's tracked outcome and audience restriction, then decide whether that campaign should continue while separately assessing other active campaigns. | Mechanism: The account review described one Meta lead campaign limited to people who had visited the website in the previous 45 days. It had spent over $500 without tracked leads in the view Whitney could see. The recommendation was to turn off that lead campaign while new campaigns were being built, but leave other landing-page-view campaigns running temporarily. | Reader decision: Identify which individual campaign is spending without tracked leads, check its audience and tracking limits, and make a separate decision about each other campaign's purpose."
+}

@@ -1,0 +1,31 @@
+{
+ "packs": [
+  {
+   "label": "brief-1",
+   "statements": 22,
+   "flagged": 2
+  },
+  {
+   "label": "brief-2",
+   "statements": 28,
+   "flagged": 1
+  },
+  {
+   "label": "brief-3",
+   "statements": 44,
+   "flagged": 0
+  },
+  {
+   "label": "held-out",
+   "statements": 25,
+   "flagged": 1
+  }
+ ],
+ "caught": [
+  "np5-pair-02",
+  "np5-pair-06"
+ ],
+ "missed": [],
+ "plan_cost_used_usd": 0.2903212,
+ "plan_calls_used": 4
+}

@@ -1,0 +1,15 @@
+{
+  "request_hash": "a42632802540630cc60b20f2285bcbdf73de3e79cfef0ba263e48fc00209a180",
+  "pool_hash": "4bb18412180615d9e5cb60f3f33dedb34271e4636240bb2b96c09dfe510bb9e0",
+  "evidence_origin": "User-approved quote-only derivative of a failed live extraction",
+  "capacity_check": {
+    "method": "conservative_utf8_byte_allowance_not_native_token_count",
+    "input_allowance": 300927,
+    "margin": 30093,
+    "advertised_eligible_endpoints": 6,
+    "output_reserve": 128000,
+    "request_has_explicit_output_cap": false,
+    "fits_conservative_allowance": true,
+    "provider_defaults_and_limits_still_apply": true
+  }
+}

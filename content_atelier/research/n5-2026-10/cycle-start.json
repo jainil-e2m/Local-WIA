@@ -1,0 +1,40 @@
+202
+{
+ "run_id": "run_3e43294978af47aab1b4d55438dcd81f",
+ "status": "queued",
+ "week_id": "week_2026-10-20",
+ "documents": [
+  "transcript_d111b35247207cf49175b01f",
+  "transcript_5ad29e5d3964da8ccfb9fba1",
+  "transcript_306378d7085e996e91159c2e"
+ ],
+ "late_arrivals": [],
+ "estimate": {
+  "total_usd": 0.6181,
+  "components": [
+   {
+    "stage": "strategist",
+    "model": "openai/gpt-6.1-sol",
+    "calls": 1,
+    "input_tokens": 73042,
+    "output_tokens": 16000,
+    "usd": 0.3061
+   },
+   {
+    "stage": "card verification",
+    "model": "anthropic/claude-sonnet-5.5",
+    "calls": 8,
+    "input_tokens": 96000,
+    "output_tokens": 12000,
+    "usd": 0.312
+   }
+  ],
+  "documents_to_extract": 0,
+  "scenes_in_ledger": 54,
+  "scenes_assumed_for_new_documents": 0,
+  "provider_calls_made": 0,
+  "notes": [],
+  "assumptions": "16000 strategist output tokens; 8 cards verified; 14 scenes for each document not yet extracted; about 4 characters a token",
+  "note": "An estimate, not a charge: hosted usage is authoritative, and reasoning tokens are part of the output."
+ }
+}

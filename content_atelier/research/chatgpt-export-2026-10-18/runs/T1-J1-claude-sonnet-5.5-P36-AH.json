@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J1-claude-sonnet-5.5-P36-AH",
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 16144,
+  "completion_tokens": 87,
+  "cached_tokens": 15842,
+  "cost": 0.0030582,
+  "seconds": 1.6,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "1683c7e2a59b"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 3,
+  "reason": "Version B is more specific and explains the why (not every lead is ready to decide on the spot), which fits Whitney's principle of why before how, though it has a grammar slip ('every leads') that needs a fix."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: caption\n\nVersion A:\n- inquiry -> consultation booking\n- pre-consultation nurturing\n- post-consultation follow-up\n\nVersion B:\n-email and text sequence to guide every leads towards booking a tour or consultation\n-pre-consultation reminders and nurturing to pre-sell every appointment\n-post-consultation reminder sequence because not every lead will be ready to make a decision on the spot",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

@@ -1,0 +1,31 @@
+{
+  "run_id": "run_55c52088a9e5453dae35cdd054402d70",
+  "jobs": [
+    {
+      "job_id": "job_0345db355bda4bd88b9cf75d6448dd7f",
+      "stage": "angle_matching",
+      "status": "completed",
+      "current_message": "Matching complete",
+      "error_summary": null
+    },
+    {
+      "job_id": "job_c99e441bdabb4af8ac43539ef888d9ed",
+      "stage": "angle_embedding",
+      "status": "completed",
+      "current_message": "Angle embeddings ready",
+      "error_summary": null
+    }
+  ],
+  "selected_angle": {
+    "angle_id": "angle_ab0db137df928ed4e835dfda",
+    "content_hash": "50a194a48dddb872f0ac736b6a6c4fc622e4f4ad9660e26556bf284c8e33a961",
+    "base_score": "80",
+    "adjusted_score": "80",
+    "selection_status": "visible",
+    "approval_status": "pending",
+    "matching_status": "complete",
+    "historical_count": 0,
+    "batch_flags": []
+  },
+  "external_calls": 0
+}

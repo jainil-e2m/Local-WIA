@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J1-gpt-6-luna-P28-HA",
+  "model": "openai/gpt-6-luna",
+  "provider": "OpenAI",
+  "effort": null,
+  "prompt_tokens": 10122,
+  "completion_tokens": 145,
+  "cached_tokens": 9834,
+  "cost": 0.000206765,
+  "seconds": 3.9,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "816f4b0f268a"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 4,
+  "reason": "It leads with a clear strategic reframe and explains why foundations matter in Whitney’s thoughtful, grounded voice."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: caption\n\nVersion A:\nOne of the biggest differences between our approach and most advertising agencies isn't how we build campaigns.\n\nIt's where we start.\n\nMost agencies start with targeting.\nCreatives.\nCampaign setup.\nOptimization.\n\nOf course, we do all of those things too.\n\nwe're focused on the foundations that make advertising successful in the first place.\n\nMessaging and positioning.\nLanding pages.\nNurture funnels.\nThe customer journey.\nInsights into what actually influences booking decisions.\n\nBecause when those foundations are weak, even great advertising struggles to perform.\n[...]\nFor wedding pros who want to learn how to think and execute like an advertising strategist, that's exactly why we created the Ads Accelerators. [...]\nFor businesses that would rather have an experienced team manage the entire process, that's where ELEVATE comes in. [...]\nDifferent levels of support.\nThe same philosophy.\n[...]\nIf that sounds like the kind of approach you've been looking for, send us a DM with the word ADS and let's talk.\n\nVersion B:\nMost people think advertising starts when a campaign launches.\n\nWe don't.\n\nBy the time we launch an ad campaign for an ELEVATE client, we've already spent considerable time evaluating the foundations that will determine whether those ads succeed or struggle.\n\nMessaging and positioning.\nLanding pages.\nLead follow-up.\nNurture funnels.\nOffer alignment.\nThe overall customer journey.\n\nBecause advertising doesn't exist in a vacuum. [...]",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

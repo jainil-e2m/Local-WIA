@@ -1,0 +1,1001 @@
+{
+ "pack_id": "pack_f3a51c77a7d319ce2d4d1f16",
+ "contract_version": "content_pack_v2",
+ "title": "How we decide whether to replace a client's existing page",
+ "week_id": "week_2026-10-12",
+ "source_brief_id": "brief_edda380b1d7143e78ab5a20fa98ebc4d",
+ "source_brief_hash": "714365a4052d76ddb7741cf263c1f0ee9fbbfdebce90f2a67dbe53bc4e8586f0",
+ "angle_id": "angle_835445840224445487b8ed1352f85dcd",
+ "pillar": "WARM",
+ "rank": 1,
+ "state": "in_review",
+ "state_reason": null,
+ "approval_status": "pending",
+ "manifest_hash": "22e882dfdde32dc9a54fdf1e5cc38154a88e253e388827602fddfc30834a38ff",
+ "approved_by": null,
+ "approved_at": null,
+ "created_at": "2026-10-25T00:19:30.104070+00:00",
+ "supersedes_id": "pack_bd173a2b06858957d4eb679d",
+ "run_id": "pack_run_f3a51c77a7d319ce2d4d1f16",
+ "run_active": false,
+ "pieces": [
+  {
+   "key": "email",
+   "channel": "email",
+   "label": "Email",
+   "kind": null,
+   "ordinal": 1,
+   "origin": "finished",
+   "not_written_reason": null,
+   "brief_key": "email",
+   "content": {
+    "cta": "reply",
+    "job": "Standalone Tuesday broadcast telling the full comparison story and connecting the decision standard to ELEVATE. Use one reply invitation, no audit CTA and no claim that this client belongs to ELEVATE.",
+    "body": "Creating that page didn't automatically settle where the ad traffic should go.\n\n**Our own page faced the same scrutiny as the pages already in use.**\n\nSome conversions did come from the new landing page, but not as strong as the existing pages.\n\nIn that conversation, I also described changes we planned to make to our page. I said I would send it back once we make those updates so the client could review it again.\n\nOur version was something we were prepared to keep working on, rather than something the client's advertising had to accommodate because we'd built it.",
+    "ending": "Reply to this email, and let's see what the right next step looks like.\n\nTalk soon,\nWhitney",
+    "opening": "Hi {{contact.first_name}},\n\nDuring a conversation with a client, I explained why we hadn't redirected all their ad traffic to a landing page our team had created.\n\nWe had compared that page with the pages already in their advertising. We wanted to understand how our version would convert before making a complete change.",
+    "preview": "The page your ads team built should be held to the same standard as the one you already use. Some conversions did come from the new landing page, but not as strong as the existing pages.",
+    "register": "written",
+    "send_header": {
+     "date": "Tuesday, 27 October 2026, proposed; confirm after permission and editorial clearance.",
+     "send_time": "11:00 a.m. Central, proposed for WIA to confirm.",
+     "recipients": "WIA main email list, proposed; WIA to confirm the recipient segment."
+    },
+    "subject_options": [
+     "A new landing page still has something to prove",
+     "Does your current ad page need replacing?",
+     "The page we built still had to earn its place"
+    ],
+    "offer_descriptor": "our full-service advertising management program"
+   },
+   "brief_copy": {
+    "cta": "reply",
+    "job": "Standalone Tuesday broadcast telling the full comparison story and connecting the decision standard to ELEVATE. Use one reply invitation, no audit CTA and no claim that this client belongs to ELEVATE.",
+    "body": "Building something new can make the next decision seem obvious. The page is ready, the team has done the work, and switching traffic over can look like the natural next step.\n\nBut the fact that we created an alternative doesn't settle whether it should replace what's already there.\n\n**We owe our own work the same scrutiny we give the work a client brings to us.**\n\nIn that conversation, I also described changes we planned to make to our page. Once those updates were made, I said I would send it back so the client could review it again.\n\nOur version was something we were prepared to keep working on, rather than something the client's advertising had to accommodate because we'd built it.\n\nIf you've invested in your wedding business's marketing, you want a team that understands the value of that investment. You're hiring us to contribute expertise, make recommendations and give you clear reasoning for the decisions we take with your ads.\n\nThat includes distinguishing between having a new page available and having a reason to change where couples go after clicking.\n\nWe can bring a strong recommendation and still be open to improving our contribution. Respect for your existing work belongs alongside confidence in what we create.\n\nIt's the kind of judgment we bring to ELEVATE, our full-service advertising management program. The value of having an advertising team includes how we evaluate our own work, not only what we deliver.",
+    "ending": "Reply to this email, and let's see what the right next step looks like.\n\nTalk soon,\nWhitney",
+    "opening": "Hi {{contact.first_name}},\n\nDuring a conversation with a client, I explained why we hadn't redirected all their ad traffic to a landing page our team had created.\n\nWe had compared that page with the pages already in their advertising. We wanted to understand how our version would convert before making a complete change.",
+    "preview": "The page your ads team built should be held to the same standard as the one you already use.",
+    "register": "written",
+    "send_header": {
+     "date": "Tuesday, 27 October 2026, proposed; confirm after permission and editorial clearance.",
+     "send_time": "11:00 a.m. Central, proposed for WIA to confirm.",
+     "recipients": "WIA main email list, proposed; WIA to confirm the recipient segment."
+    },
+    "subject_options": [
+     "A new landing page still has something to prove",
+     "Does your current ad page need replacing?"
+    ],
+    "offer_descriptor": "our full-service advertising management program"
+   },
+   "locks": [],
+   "findings": [
+    {
+     "finding_id": "check_0b301c9e4d47e14e",
+     "source": "check",
+     "check": "pack.format",
+     "piece": "email",
+     "path": "body",
+     "sentence": null,
+     "severity": "warning",
+     "message": "The email runs 170 words: it stands alone in 250 to 450",
+     "status": "open",
+     "resolution": null,
+     "can_attest": false
+    }
+   ],
+   "changes": [
+    {
+     "kind": "finished",
+     "path": "body",
+     "after": "Creating that page didn't automatically settle where the ad traffic should go.\n\n**Our own page faced the same scrutiny as the pages already in use.**\n\nSome conversions did come from the new landing page, but not as strong as the existing pages.\n\nIn that conversation, I also described changes we planned to make to our page. I said I would send it back once we make those updates so the client could review it again.\n\nOur version was something we were prepared to keep working on, rather than something the client's advertising had to accommodate because we'd built it.",
+     "before": "Building something new can make the next decision seem obvious. The page is ready, the team has done the work, and switching traffic over can look like the natural next step.\n\nBut the fact that we created an alternative doesn't settle whether it should replace what's already there.\n\n**We owe our own work the same scrutiny we give the work a client brings to us.**\n\nIn that conversation, I also described changes we planned to make to our page. Once those updates were made, I said I would send it back so the client could review it again.\n\nOur version was something we were prepared to keep working on, rather than something the client's advertising had to accommodate because we'd built it.\n\nIf you've invested in your wedding business's marketing, you want a team that understands the value of that investment. You're hiring us to contribute expertise, make recommendations and give you clear reasoning for the decisions we take with your ads.\n\nThat includes distinguishing between having a new page available and having a reason to change where couples go after clicking.\n\nWe can bring a strong recommendation and still be open to improving our contribution. Respect for your existing work belongs alongside confidence in what we create.\n\nIt's the kind of judgment we bring to ELEVATE, our full-service advertising management program. The value of having an advertising team includes how we evaluate our own work, not only what we deliver."
+    },
+    {
+     "kind": "finished",
+     "path": "preview",
+     "after": "The page your ads team built should be held to the same standard as the one you already use. Some conversions did come from the new landing page, but not as strong as the existing pages.",
+     "before": "The page your ads team built should be held to the same standard as the one you already use."
+    },
+    {
+     "kind": "finished",
+     "path": "subject_options[2]",
+     "after": "The page we built still had to earn its place",
+     "before": null
+    }
+   ],
+   "published": [],
+   "content_hash": "e8175dd4b4c0fe6c2d5b55c42a0ed2e316b9f0d510adeee43d312eb5f962fdca",
+   "editable": [
+    "send_header",
+    "subject_options",
+    "preview",
+    "opening",
+    "body",
+    "ending"
+   ]
+  },
+  {
+   "key": "carousel",
+   "channel": "carousel",
+   "label": "Carousel",
+   "kind": null,
+   "ordinal": 2,
+   "origin": "brief",
+   "not_written_reason": null,
+   "brief_key": "carousel",
+   "content": {
+    "cta": "none",
+    "job": "Seven-slide written treatment that goes deeper into the distinction between building a page and choosing to replace existing destinations. Three story slides, then the reader's situation, WIA's belief and a closing that includes both management and guided-support readers without an offer ask.",
+    "title": "A page we build should face the same scrutiny as the page you already use",
+    "slides": [
+     {
+      "job": "State the promise as an insight about the reader's advertising.",
+      "text": "A page we build should face the same scrutiny as the page you already use.\n\nWhen your advertising team creates a new landing page, that gives your business another option. It doesn't automatically settle where your ad traffic should go. The decision to replace an existing destination needs its own reasoning, even when we're the team behind the alternative.",
+      "number": 1
+     },
+     {
+      "job": "Introduce the single comparison scene without publishing performance information.",
+      "text": "In a client conversation, we discussed a landing page our team had created alongside the pages the client was already using.\n\nWe had compared those options rather than moving every ad visitor to our page at once. The existing pages remained part of the decision instead of being treated as something to remove simply because a new version was available.",
+      "number": 2
+     },
+     {
+      "job": "Explain Whitney's rationale, keeping the actor exact.",
+      "text": "Whitney explained why we had taken that approach: we wanted to know how the new page would convert before switching everything over.\n\nCreating the page was our contribution. Deciding whether it should replace the other destinations was a separate responsibility. Giving our own work proper consideration also meant giving the client's existing work a fair place in that evaluation.",
+      "number": 3
+     },
+     {
+      "job": "Show that WIA's work remained open to refinement; preserve planned tense.",
+      "text": "The next part of the conversation concerned our page.\n\nWhitney outlined revisions we planned to make, then said she would return it to the client for another look. That kept the responsibility with us to refine what we'd created, while leaving room for the client's review before the revised version moved forward.",
+      "number": 4
+     },
+     {
+      "job": "Connect the scene to an established owner's expectations of a partner.",
+      "text": "You may be bringing an ads team into a business with years of thought already invested in its marketing.\n\nYou want their expertise and a clear recommendation. You also want them to understand what they're being asked to build on. A thoughtful partner can introduce something new without treating the existing work as disposable or making replacement the measure of their contribution.",
+      "number": 5
+     },
+     {
+      "job": "State WIA's belief without claiming a universal testing protocol.",
+      "text": "**Our authorship shouldn't give a page an advantage in the decision.**\n\nWe can stand behind the work we create while remaining willing to compare it, revise it and reconsider the role it should play. That is part of serving the client's advertising well. The business deserves a recommendation based on the job the page needs to do for couples, rather than whose page it is.",
+      "number": 6
+     },
+     {
+      "job": "Close for both management and guided-support readers without an explicit ask.",
+      "text": "Whether you want us to manage your advertising or launch your campaigns and guide you while you run them, you deserve the same care in our recommendations.\n\nOur role is to bring expertise to your business while respecting what you've already built. New work should add a considered option to your advertising, with a clear reason for the place we recommend it takes.",
+      "number": 7
+     }
+    ],
+    "caption": {
+     "body": "When a new page is ready, it can feel natural to make it the next destination for your advertising. But an owner has more to consider than whether the team has finished building it. There's also the investment already made in the business's existing pages and the reason for changing their role.\n\nOn a client call, we explained why our landing page had been compared with the client's current pages before a full traffic switch. The conversation then turned to revisions we planned for our version and returning it for another review.\n\nThat sequence matters because it keeps our work inside the evaluation. We haven't earned a replacement decision solely by producing the replacement.\n\nAs your advertising partner, we want to bring a clear point of view without making the business conform to whatever we've most recently created. Sometimes the useful contribution is another option and a considered comparison, followed by more work on that option.\n\nYou can expect us to take our own recommendations seriously enough to examine the work behind them, while recognising the value of what's already in place.",
+     "hook": "A delivery milestone shouldn't decide where couples land after an ad.",
+     "ending": "That gives the partnership room for new ideas without making a change of ownership the reason to change your advertising."
+    },
+    "register": "written",
+    "no_offer_ending": null,
+    "offer_descriptor": null
+   },
+   "brief_copy": {
+    "cta": "none",
+    "job": "Seven-slide written treatment that goes deeper into the distinction between building a page and choosing to replace existing destinations. Three story slides, then the reader's situation, WIA's belief and a closing that includes both management and guided-support readers without an offer ask.",
+    "title": "A page we build should face the same scrutiny as the page you already use",
+    "slides": [
+     {
+      "job": "State the promise as an insight about the reader's advertising.",
+      "text": "A page we build should face the same scrutiny as the page you already use.\n\nWhen your advertising team creates a new landing page, that gives your business another option. It doesn't automatically settle where your ad traffic should go. The decision to replace an existing destination needs its own reasoning, even when we're the team behind the alternative.",
+      "number": 1
+     },
+     {
+      "job": "Introduce the single comparison scene without publishing performance information.",
+      "text": "In a client conversation, we discussed a landing page our team had created alongside the pages the client was already using.\n\nWe had compared those options rather than moving every ad visitor to our page at once. The existing pages remained part of the decision instead of being treated as something to remove simply because a new version was available.",
+      "number": 2
+     },
+     {
+      "job": "Explain Whitney's rationale, keeping the actor exact.",
+      "text": "Whitney explained why we had taken that approach: we wanted to know how the new page would convert before switching everything over.\n\nCreating the page was our contribution. Deciding whether it should replace the other destinations was a separate responsibility. Giving our own work proper consideration also meant giving the client's existing work a fair place in that evaluation.",
+      "number": 3
+     },
+     {
+      "job": "Show that WIA's work remained open to refinement; preserve planned tense.",
+      "text": "The next part of the conversation concerned our page.\n\nWhitney outlined revisions we planned to make, then said she would return it to the client for another look. That kept the responsibility with us to refine what we'd created, while leaving room for the client's review before the revised version moved forward.",
+      "number": 4
+     },
+     {
+      "job": "Connect the scene to an established owner's expectations of a partner.",
+      "text": "You may be bringing an ads team into a business with years of thought already invested in its marketing.\n\nYou want their expertise and a clear recommendation. You also want them to understand what they're being asked to build on. A thoughtful partner can introduce something new without treating the existing work as disposable or making replacement the measure of their contribution.",
+      "number": 5
+     },
+     {
+      "job": "State WIA's belief without claiming a universal testing protocol.",
+      "text": "**Our authorship shouldn't give a page an advantage in the decision.**\n\nWe can stand behind the work we create while remaining willing to compare it, revise it and reconsider the role it should play. That is part of serving the client's advertising well. The business deserves a recommendation based on the job the page needs to do for couples, rather than whose page it is.",
+      "number": 6
+     },
+     {
+      "job": "Close for both management and guided-support readers without an explicit ask.",
+      "text": "Whether you want us to manage your advertising or launch your campaigns and guide you while you run them, you deserve the same care in our recommendations.\n\nOur role is to bring expertise to your business while respecting what you've already built. New work should add a considered option to your advertising, with a clear reason for the place we recommend it takes.",
+      "number": 7
+     }
+    ],
+    "caption": {
+     "body": "When a new page is ready, it can feel natural to make it the next destination for your advertising. But an owner has more to consider than whether the team has finished building it. There's also the investment already made in the business's existing pages and the reason for changing their role.\n\nOn a client call, we explained why our landing page had been compared with the client's current pages before a full traffic switch. The conversation then turned to revisions we planned for our version and returning it for another review.\n\nThat sequence matters because it keeps our work inside the evaluation. We haven't earned a replacement decision solely by producing the replacement.\n\nAs your advertising partner, we want to bring a clear point of view without making the business conform to whatever we've most recently created. Sometimes the useful contribution is another option and a considered comparison, followed by more work on that option.\n\nYou can expect us to take our own recommendations seriously enough to examine the work behind them, while recognising the value of what's already in place.",
+     "hook": "A delivery milestone shouldn't decide where couples land after an ad.",
+     "ending": "That gives the partnership room for new ideas without making a change of ownership the reason to change your advertising."
+    },
+    "register": "written",
+    "no_offer_ending": null,
+    "offer_descriptor": null
+   },
+   "locks": [],
+   "findings": [
+    {
+     "finding_id": "check_02f16fe5cfdec54b",
+     "source": "check",
+     "check": "format.carousel_cta",
+     "piece": "carousel",
+     "path": "slides[6].text",
+     "sentence": null,
+     "severity": "warning",
+     "message": "The carousel's CTA slide speaks to only one reader: name both the owner who wants our team to run their ads and the one who wants us to launch them and guide them",
+     "status": "open",
+     "resolution": null,
+     "can_attest": false
+    },
+    {
+     "finding_id": "check_0c8cc8ba52506ba8",
+     "source": "check",
+     "check": "pack.format",
+     "piece": "carousel",
+     "path": "slides[4].text",
+     "sentence": null,
+     "severity": "warning",
+     "message": "Carousel slide 5 has 62 words: about 20 to 55",
+     "status": "open",
+     "resolution": null,
+     "can_attest": false
+    },
+    {
+     "finding_id": "check_84a0bfa57059c35c",
+     "source": "check",
+     "check": "pack.format",
+     "piece": "carousel",
+     "path": "slides[5].text",
+     "sentence": null,
+     "severity": "warning",
+     "message": "Carousel slide 6 has 65 words: about 20 to 55",
+     "status": "open",
+     "resolution": null,
+     "can_attest": false
+    },
+    {
+     "finding_id": "check_f36f57bea72df577",
+     "source": "check",
+     "check": "pack.format",
+     "piece": "carousel",
+     "path": "slides[6].text",
+     "sentence": null,
+     "severity": "warning",
+     "message": "Carousel slide 7 has 63 words: about 20 to 55",
+     "status": "open",
+     "resolution": null,
+     "can_attest": false
+    }
+   ],
+   "changes": [],
+   "published": [],
+   "content_hash": "5e467abfd47b2febcdc3f89d26f9d40e06853267d9a0a1330cf46113f3961827",
+   "editable": [
+    "title",
+    "slides",
+    "caption",
+    "no_offer_ending"
+   ]
+  },
+  {
+   "key": "reel_1",
+   "channel": "reel",
+   "label": "Reel 1",
+   "kind": "story",
+   "ordinal": 3,
+   "origin": "finished",
+   "not_written_reason": null,
+   "brief_key": "reel_1",
+   "content": {
+    "cta": "none",
+    "job": "Whitney tells the story of comparing WIA's new landing page with the client's existing pages before moving all ad traffic, explaining why our own work had to earn its place.",
+    "kind": "story",
+    "beats": [
+     "Open directly on WIA building a page without switching all traffic to it.",
+     "Establish the existing pages and the new option without discussing their results.",
+     "Explain Whitney's reason for comparing before replacing.",
+     "Keep revisions and the return for client review in planned tense.",
+     "Close on the client experience of WIA scrutinising its own contribution."
+    ],
+    "title": "How we decide whether to replace a client's existing page",
+    "script": "So the other thing we're working on right now: we built a new landing page for a client, and we ran it as a split test against the pages they already had. Some conversions did come from the new landing page, but not as strong as the existing pages. So we're making updates, and once we make those updates, I'll send it back over so they can take another look. And that doesn't mean the existing page is doing a bad job by any means. It is working. It's bringing in leads.",
+    "source": "new_script",
+    "caption": {
+     "body": "We built a new landing page for a client, and we ran it as a split test against the pages they already had.\n\nSome conversions did come from the new landing page, but not as strong as the existing pages.\n\nSo we're making updates, and once we make those updates, I'll send it back over so they can take another look.\n\nThat doesn't mean the existing page is doing a bad job by any means. It is working. It's bringing in leads.",
+     "hook": "Building a landing page doesn't mean it automatically gets all your ad traffic.",
+     "ending": "-Whitney"
+    },
+    "screens": null,
+    "register": "spoken",
+    "cover_text": "We built a page. We didn't switch all the ad traffic.",
+    "on_screen_hook": "We built a page. We didn't switch all the ad traffic.",
+    "personal_lines": [
+     "I think that matters when you're trusting someone with your advertising.",
+     "What I want you to feel is that we're looking after your advertising, including being willing to improve our contribution before asking it to take the place of yours."
+    ],
+    "spoken_opening": "So the other thing we're working on right now: we built a new landing page for a client, and we ran it as a split test against the pages they already had.",
+    "no_offer_ending": null,
+    "cover_alternates": [
+     "Our page had to earn its place",
+     "Building a page doesn't decide where traffic goes"
+    ],
+    "offer_descriptor": null,
+    "read_time_seconds": 86
+   },
+   "brief_copy": {
+    "cta": "none",
+    "job": "Face-to-camera account of the comparison decision. Keep the focus on WIA evaluating its own page; no account screenshots, performance claims or additional client examples.",
+    "kind": "story",
+    "beats": [
+     "Open directly on WIA building a page without switching all traffic to it.",
+     "Establish the existing pages and the new option without discussing their results.",
+     "Explain Whitney's reason for comparing before replacing.",
+     "Keep revisions and the return for client review in planned tense.",
+     "Close on the client experience of WIA scrutinising its own contribution."
+    ],
+    "title": "Our landing page wasn't an automatic replacement",
+    "script": "We built a landing page for a client, and we didn't move all their ad traffic to it.\n\nA little context. They already had pages in their advertising, and we'd created another option. But building that option didn't automatically answer the question of where we should send couples.\n\nOn the call, I explained why we were comparing our page with the existing pages instead of switching everything over. We wanted to understand how our version would convert before making that change.\n\nAnd I also told the client we were going to make updates to our page and send it back so they could take another look.\n\nI think that matters when you're trusting someone with your advertising. You're bringing us in to make thoughtful decisions for your business, and sometimes that means taking another look at something our own team created.\n\nWe can believe in the page we've built and still give the pages you already have a fair comparison. Those two things can exist together.\n\nWhat I want you to feel is that we're looking after your advertising, including being willing to improve our contribution before asking it to take the place of yours.",
+    "source": "new_script",
+    "caption": {
+     "body": "You've already put thought into how couples discover your business and where they go to learn more. When you bring in an advertising partner, you want that investment to be understood as the team considers what to add or change.\n\nIn one client conversation, I explained a decision involving a landing page we'd created. We were comparing it with the pages already being used rather than directing every ad click to our version simply because we'd built it.\n\nI also outlined updates we planned to make before bringing the page back to the client for another review. Our contribution was open to refinement, just like anything else in the advertising.\n\nThat's an important part of how I think about the responsibility we're taking on. A team can have a clear recommendation without assuming every new asset should immediately replace an existing one. The reasoning has to serve the wedding business, including the couples considering it.\n\nYou should be able to see that care in the decisions we make about our own work, as well as the work we inherit.",
+     "hook": "Hiring an ads team doesn't mean every existing page needs replacing.",
+     "ending": "-Whitney"
+    },
+    "screens": null,
+    "register": "spoken",
+    "cover_text": "Our landing page wasn't an automatic replacement",
+    "on_screen_hook": "We built a page. We didn't switch all the ad traffic.",
+    "personal_lines": [
+     "I think that matters when you're trusting someone with your advertising.",
+     "What I want you to feel is that we're looking after your advertising, including being willing to improve our contribution before asking it to take the place of yours."
+    ],
+    "spoken_opening": "We built a landing page for a client, and we didn't move all their ad traffic to it.",
+    "no_offer_ending": null,
+    "cover_alternates": [],
+    "offer_descriptor": null,
+    "read_time_seconds": 86
+   },
+   "locks": [
+    {
+     "at": "2026-10-25T00:16:15.402618+00:00",
+     "path": "script",
+     "author": "ai@weddingindustryads.com",
+     "origin": "pack",
+     "delegated": true
+    },
+    {
+     "at": "2026-10-25T00:16:15.402618+00:00",
+     "path": "spoken_opening",
+     "author": "ai@weddingindustryads.com",
+     "origin": "pack",
+     "delegated": true
+    }
+   ],
+   "findings": [
+    {
+     "finding_id": "check_9896ea3575fd665f",
+     "source": "check",
+     "check": "copy.kicker",
+     "piece": "reel_1",
+     "path": "script",
+     "sentence": null,
+     "severity": "warning",
+     "message": "Reel 1's script closes on an aphoristic kicker (\"It is working. It's bringing in leads.\"): end on the story or the plain principle",
+     "status": "open",
+     "resolution": null,
+     "can_attest": false
+    },
+    {
+     "finding_id": "check_2c93fda94e575b9c",
+     "source": "check",
+     "check": "copy.kicker",
+     "piece": "reel_1",
+     "path": "caption.body",
+     "sentence": null,
+     "severity": "warning",
+     "message": "Reel 1's caption body closes on an aphoristic kicker (\"It is working. It's bringing in leads.\"): end on the story or the plain principle",
+     "status": "open",
+     "resolution": null,
+     "can_attest": false
+    },
+    {
+     "finding_id": "check_eb9ca4fd92f72109",
+     "source": "check",
+     "check": "copy.sibling_overlap",
+     "piece": "reel_1",
+     "path": "script",
+     "sentence": null,
+     "severity": "warning",
+     "message": "Reel 1's script and the email's preview repeat the same words (\"but not as strong as the existing pages...\"): siblings repeat the idea, never the language",
+     "status": "open",
+     "resolution": null,
+     "can_attest": false
+    },
+    {
+     "finding_id": "check_fba5c0206ad4acd1",
+     "source": "check",
+     "check": "pack.format",
+     "piece": "reel_1",
+     "path": "caption",
+     "sentence": null,
+     "severity": "warning",
+     "message": "Reel 1's caption runs 96 words: 150 to 300",
+     "status": "open",
+     "resolution": null,
+     "can_attest": false
+    },
+    {
+     "finding_id": "check_643f68276fa2fea7",
+     "source": "check",
+     "check": "pack.format",
+     "piece": "reel_1",
+     "path": "script",
+     "sentence": null,
+     "severity": "warning",
+     "message": "Reel 1's script runs 92 words: 120 to 220 (45 to 90 seconds)",
+     "status": "open",
+     "resolution": null,
+     "can_attest": false
+    }
+   ],
+   "changes": [
+    {
+     "kind": "finished",
+     "path": "script",
+     "after": "So the other thing we're working on right now: we built a new landing page for a client, and we ran it as a split test against the pages they already had. Some conversions did come from the new landing page, but not as strong as the existing pages. So we're making updates, and once we make those updates, I'll send it back over so they can take another look. And that doesn't mean the existing page is doing a bad job by any means. It is working. It's bringing in leads.",
+     "before": "We built a landing page for a client, and we didn't move all their ad traffic to it.\n\nA little context. They already had pages in their advertising, and we'd created another option. But building that option didn't automatically answer the question of where we should send couples.\n\nOn the call, I explained why we were comparing our page with the existing pages instead of switching everything over. We wanted to understand how our version would convert before making that change.\n\nAnd I also told the client we were going to make updates to our page and send it back so they could take another look.\n\nI think that matters when you're trusting someone with your advertising. You're bringing us in to make thoughtful decisions for your business, and sometimes that means taking another look at something our own team created.\n\nWe can believe in the page we've built and still give the pages you already have a fair comparison. Those two things can exist together.\n\nWhat I want you to feel is that we're looking after your advertising, including being willing to improve our contribution before asking it to take the place of yours."
+    },
+    {
+     "kind": "finished",
+     "path": "caption.hook",
+     "after": "Building a landing page doesn't mean it automatically gets all your ad traffic.",
+     "before": "Hiring an ads team doesn't mean every existing page needs replacing."
+    },
+    {
+     "kind": "finished",
+     "path": "caption.body",
+     "after": "We built a new landing page for a client, and we ran it as a split test against the pages they already had.\n\nSome conversions did come from the new landing page, but not as strong as the existing pages.\n\nSo we're making updates, and once we make those updates, I'll send it back over so they can take another look.\n\nThat doesn't mean the existing page is doing a bad job by any means. It is working. It's bringing in leads.",
+     "before": "You've already put thought into how couples discover your business and where they go to learn more. When you bring in an advertising partner, you want that investment to be understood as the team considers what to add or change.\n\nIn one client conversation, I explained a decision involving a landing page we'd created. We were comparing it with the pages already being used rather than directing every ad click to our version simply because we'd built it.\n\nI also outlined updates we planned to make before bringing the page back to the client for another review. Our contribution was open to refinement, just like anything else in the advertising.\n\nThat's an important part of how I think about the responsibility we're taking on. A team can have a clear recommendation without assuming every new asset should immediately replace an existing one. The reasoning has to serve the wedding business, including the couples considering it.\n\nYou should be able to see that care in the decisions we make about our own work, as well as the work we inherit."
+    },
+    {
+     "kind": "finished",
+     "path": "cover_text",
+     "after": "We built a page. We didn't switch all the ad traffic.",
+     "before": "Our landing page wasn't an automatic replacement"
+    },
+    {
+     "kind": "finished",
+     "path": "spoken_opening",
+     "after": "So the other thing we're working on right now: we built a new landing page for a client, and we ran it as a split test against the pages they already had.",
+     "before": "We built a landing page for a client, and we didn't move all their ad traffic to it."
+    },
+    {
+     "kind": "finished",
+     "path": "cover_alternates[0]",
+     "after": "Our page had to earn its place",
+     "before": null
+    },
+    {
+     "kind": "finished",
+     "path": "cover_alternates[1]",
+     "after": "Building a page doesn't decide where traffic goes",
+     "before": null
+    }
+   ],
+   "published": [],
+   "content_hash": "9f58bcf346517868f13a2328b10d7b1c6e1a3ddaf2ad9e03ed7a361664c975eb",
+   "editable": [
+    "title",
+    "cover_text",
+    "cover_alternates",
+    "on_screen_hook",
+    "spoken_opening",
+    "script",
+    "screens",
+    "caption",
+    "personal_lines",
+    "no_offer_ending"
+   ]
+  },
+  {
+   "key": "reel_2",
+   "channel": "reel",
+   "label": "Reel 2",
+   "kind": "stance",
+   "ordinal": 4,
+   "origin": "finished",
+   "not_written_reason": null,
+   "brief_key": null,
+   "content": {
+    "cta": "none",
+    "job": "Whitney states her stance on the same central point: WIA's own page must be evaluated alongside the client's existing pages rather than preferred because WIA built it, using the client call as proof.",
+    "kind": "stance",
+    "beats": [
+     "Whitney states her stance on the central point.",
+     "The client call moment as proof in one or two lines.",
+     "Close on the client experience of WIA scrutinising its own contribution."
+    ],
+    "title": "Our work should earn its place in your advertising",
+    "script": "I had a call with a client recently about a landing page our team had built. They already had pages in their advertising, and we'd created another option. But building that option didn't automatically answer the question of where we should send couples.\n\nOn the call, I explained why we were comparing our page with the existing pages instead of switching everything over. We wanted to understand how our version would convert before making that change.\n\nI also told the client we were going to make updates to our page and send it back so they could take another look.\n\nOur work should earn its place in your advertising, with the same scrutiny we give the work already there.\n\nI think that matters when you're trusting someone with your advertising. You're bringing us in to make thoughtful decisions for your business, and sometimes that means taking another look at something our own team created.\n\nWe can believe in the page we've built and still give the pages you already have a fair comparison. Those two things can exist together.\n\nWhat I want you to feel is that we're looking after your advertising, including being willing to improve our contribution before asking it to take the place of yours.",
+    "source": "new_script",
+    "caption": {
+     "body": "I had a call with a client recently about a landing page our team had built. They already had pages in their advertising, and we'd created another option. But building that option didn't automatically answer the question of where we should send couples.\n\nOn the call, I explained why we were comparing our page with the existing pages instead of switching everything over. We wanted to understand how our version would convert before making that change.\n\nI also told the client we were going to make updates to our page and send it back so they could take another look.\n\nOur work should earn its place in your advertising, with the same scrutiny we give the work already there.",
+     "hook": "Just because we built it doesn't mean it should replace what you already use.",
+     "ending": "-Whitney"
+    },
+    "screens": null,
+    "register": "spoken",
+    "cover_text": "A new page shouldn't win just because we built it",
+    "on_screen_hook": "Our work should earn its place in your advertising.",
+    "personal_lines": [
+     "I think that matters when you're trusting someone with your advertising.",
+     "What I want you to feel is that we're looking after your advertising, including being willing to improve our contribution before asking it to take the place of yours."
+    ],
+    "spoken_opening": "I had a call with a client recently about a landing page our team had built.",
+    "no_offer_ending": null,
+    "cover_alternates": [
+     "Our page had to earn its place",
+     "Building a page doesn't decide where traffic goes"
+    ],
+    "offer_descriptor": null,
+    "read_time_seconds": 86
+   },
+   "brief_copy": null,
+   "locks": [],
+   "findings": [
+    {
+     "finding_id": "check_869651fe5ea6d706",
+     "source": "check",
+     "check": "first_touch.specific",
+     "piece": "reel_2",
+     "path": "cover_text",
+     "sentence": null,
+     "severity": "warning",
+     "message": "Reel 2's cover \"A new page shouldn't win just because we built it\" does not name its concrete subject (ads, budget, Google, Meta, inquiries, bookings): a cold reader cannot tell what it is about",
+     "status": "open",
+     "resolution": null,
+     "can_attest": false
+    },
+    {
+     "finding_id": "check_80e47a72634bc0b6",
+     "source": "check",
+     "check": "pack.format",
+     "piece": "reel_2",
+     "path": "caption",
+     "sentence": null,
+     "severity": "warning",
+     "message": "Reel 2's caption runs 134 words: 150 to 300",
+     "status": "open",
+     "resolution": null,
+     "can_attest": false
+    }
+   ],
+   "changes": [
+    {
+     "kind": "finished",
+     "path": "cover_alternates[0]",
+     "after": "Our page had to earn its place",
+     "before": "Our work should earn its place in your advertising"
+    },
+    {
+     "kind": "finished",
+     "path": "cover_alternates[1]",
+     "after": "Building a page doesn't decide where traffic goes",
+     "before": "A landing page has to earn the switch"
+    }
+   ],
+   "published": [],
+   "content_hash": "8cc8006ac2ffc8eebb98a0a64876a78faead39d60e8f0b1aec7a9685535c4d5c",
+   "editable": [
+    "title",
+    "cover_text",
+    "cover_alternates",
+    "on_screen_hook",
+    "spoken_opening",
+    "script",
+    "screens",
+    "caption",
+    "personal_lines",
+    "no_offer_ending"
+   ]
+  },
+  {
+   "key": "reel_3",
+   "channel": "reel",
+   "label": "Reel 3",
+   "kind": "broll_text",
+   "ordinal": 5,
+   "origin": "finished",
+   "not_written_reason": null,
+   "brief_key": "reel_2",
+   "content": {
+    "cta": "none",
+    "job": "Three-screen text Reel showing the same decision in a compact sequence so a cold viewer follows the turn from the screens alone.",
+    "kind": "broll_text",
+    "beats": [
+     "Opening screen establishes that creating a page does not determine traffic allocation.",
+     "Next screen names WIA as the builder and preserves the comparison decision.",
+     "Final screen shows planned refinement, without suggesting completion or a winning page."
+    ],
+    "title": "A landing page has to earn the switch",
+    "script": null,
+    "source": "new_script",
+    "caption": {
+     "body": "We discussed exactly that in a client call. Our team had built a landing page, but the decision was to compare it with the client's existing pages before making a complete switch. Whitney then described refinements we intended to make and a further opportunity for the client to review our version.",
+     "hook": "The responsibility for a new ad destination continues after we've built it.",
+     "ending": "The same judgment should apply to what we create and what you bring to the partnership."
+    },
+    "screens": [
+     "A new landing page doesn't get all the ad traffic by default.",
+     "We compared the page we built with the client's existing pages before replacing them.",
+     "We then outlined changes to our version, with another client review planned."
+    ],
+    "register": "on_screen",
+    "cover_text": "A landing page has to earn the switch",
+    "on_screen_hook": "A new landing page doesn't get all the ad traffic by default.",
+    "personal_lines": [],
+    "spoken_opening": null,
+    "no_offer_ending": null,
+    "cover_alternates": [
+     "Our page had to earn its place",
+     "Building a page doesn't decide where traffic goes"
+    ],
+    "offer_descriptor": null,
+    "read_time_seconds": 19
+   },
+   "brief_copy": {
+    "cta": "none",
+    "job": "Three-screen text Reel showing the same decision in a compact sequence. Use neutral working b-roll, not footage presented as this client's account. Omit a separate stance Reel because the narrow moment does not support another distinct treatment without repetition.",
+    "kind": "broll_text",
+    "beats": [
+     "Opening screen establishes that creating a page does not determine traffic allocation.",
+     "Next screen names WIA as the builder and preserves the comparison decision.",
+     "Final screen shows planned refinement, without suggesting completion or a winning page.",
+     "Allow enough screen time to read the full sequence; use no client-identifying material."
+    ],
+    "title": "A landing page has to earn the switch",
+    "script": null,
+    "source": "new_script",
+    "caption": {
+     "body": "For a wedding business, a page is part of the path a couple takes from discovering you to making an inquiry. Choosing where to send that couple deserves more consideration than who created the newest option.\n\nWe discussed exactly that in a client call. Our team had built a landing page, but the decision was to compare it with the client's existing pages before making a complete switch. Whitney then described refinements we intended to make and a further opportunity for the client to review our version.\n\nThat moment shows the distinction between delivering an asset and deciding the role it should play. The page can be finished enough to evaluate without becoming the automatic destination for every ad.\n\nWe want our recommendations to reflect the business we're advertising, rather than a preference for replacing what was there with something of our own. That includes being prepared to revisit our contribution when we're considering the next decision.\n\nAn owner should feel that new expertise is being applied with respect for their existing work and care for where their advertising goes next.",
+     "hook": "The responsibility for a new ad destination continues after we've built it.",
+     "ending": "The same judgment should apply to what we create and what you bring to the partnership."
+    },
+    "screens": [
+     "A new landing page doesn't get all the ad traffic by default.",
+     "We compared the page we built with the client's existing pages before replacing them.",
+     "We then outlined changes to our version, with another client review planned."
+    ],
+    "register": "on_screen",
+    "cover_text": "A landing page has to earn the switch",
+    "on_screen_hook": "A new landing page doesn't get all the ad traffic by default.",
+    "personal_lines": [],
+    "spoken_opening": null,
+    "no_offer_ending": null,
+    "cover_alternates": [],
+    "offer_descriptor": null,
+    "read_time_seconds": 19
+   },
+   "locks": [],
+   "findings": [
+    {
+     "finding_id": "check_d5cf653e68f8223e",
+     "source": "check",
+     "check": "pack.format",
+     "piece": "reel_3",
+     "path": "caption",
+     "sentence": null,
+     "severity": "warning",
+     "message": "Reel 3's caption runs 79 words: 150 to 300",
+     "status": "open",
+     "resolution": null,
+     "can_attest": false
+    }
+   ],
+   "changes": [
+    {
+     "kind": "finished",
+     "path": "caption.body",
+     "after": "We discussed exactly that in a client call. Our team had built a landing page, but the decision was to compare it with the client's existing pages before making a complete switch. Whitney then described refinements we intended to make and a further opportunity for the client to review our version.",
+     "before": "For a wedding business, a page is part of the path a couple takes from discovering you to making an inquiry. Choosing where to send that couple deserves more consideration than who created the newest option.\n\nWe discussed exactly that in a client call. Our team had built a landing page, but the decision was to compare it with the client's existing pages before making a complete switch. Whitney then described refinements we intended to make and a further opportunity for the client to review our version.\n\nThat moment shows the distinction between delivering an asset and deciding the role it should play. The page can be finished enough to evaluate without becoming the automatic destination for every ad.\n\nWe want our recommendations to reflect the business we're advertising, rather than a preference for replacing what was there with something of our own. That includes being prepared to revisit our contribution when we're considering the next decision.\n\nAn owner should feel that new expertise is being applied with respect for their existing work and care for where their advertising goes next."
+    },
+    {
+     "kind": "finished",
+     "path": "cover_alternates[0]",
+     "after": "Our page had to earn its place",
+     "before": null
+    },
+    {
+     "kind": "finished",
+     "path": "cover_alternates[1]",
+     "after": "Building a page doesn't decide where traffic goes",
+     "before": null
+    }
+   ],
+   "published": [],
+   "content_hash": "fb953d0b002caab20fa5968aa403ac8223d8ad2071056fff220688c5682029b9",
+   "editable": [
+    "title",
+    "cover_text",
+    "cover_alternates",
+    "on_screen_hook",
+    "spoken_opening",
+    "script",
+    "screens",
+    "caption",
+    "personal_lines",
+    "no_offer_ending"
+   ]
+  }
+ ],
+ "findings": [],
+ "ready_blockers": [],
+ "before_publishing": [
+  {
+   "id": "P1",
+   "done": null,
+   "kind": "permission",
+   "text": "Confirm Whitney's attribution for the 10:13 to 11:03 passage and obtain permission to publish this anonymous account of the page-comparison decision. Hold all story assets until cleared.",
+   "answer": "Before posting: WIA confirms the client's okay",
+   "required": true,
+   "client_permission": true
+  },
+  {
+   "id": "P2",
+   "done": null,
+   "kind": "fact",
+   "text": "Confirm that the approved perspective can be expressed as a WIA decision standard beyond this single scene. The copy does not claim a universal testing protocol.",
+   "answer": "Confirmed under D12 by the WIA team: the copy states WIA's standard for a page we built, not a universal testing protocol.",
+   "required": true,
+   "client_permission": false
+  },
+  {
+   "id": "P3",
+   "done": null,
+   "kind": "other",
+   "text": "Check whether the matching page-comparison entry in prior coverage is this same card or a separate published piece. If separately published within the last 90 days, hold this pack for editorial review.",
+   "answer": "Checked under D12 by the WIA team: the matching prior-coverage entries are unpublished cards from this cycle and earlier ones; no published piece links to them.",
+   "required": true,
+   "client_permission": false
+  },
+  {
+   "id": "P4",
+   "done": null,
+   "kind": "do_not_claim",
+   "text": "Keep out conversion comparisons, a winning page, test duration, traffic allocation, client reactions and claims that the planned revisions or subsequent review happened. Do not identify the client as an ELEVATE member without confirmation.",
+   "answer": "Kept out under D12: no conversion comparison, winner, test duration, traffic split, client reaction, completed revision or membership claim.",
+   "required": true,
+   "client_permission": false
+  },
+  {
+   "id": "P5",
+   "done": null,
+   "kind": "cta",
+   "text": "Whitney to confirm the proposed email reply CTA, send date, time and recipient segment. Keep Instagram without an offer CTA.",
+   "answer": "Confirmed under D12: the email reply CTA, with the proposed send date, time and list for WIA to confirm when scheduling; Instagram without an offer CTA.",
+   "required": true,
+   "client_permission": false
+  }
+ ],
+ "client_quotes": [],
+ "stronger_with_permission": [],
+ "granted": [
+  {
+   "at": "2026-10-25T00:13:04.849965+00:00",
+   "by": "ai@weddingindustryads.com",
+   "item": "The client's reaction to the comparison and the outcome of the planned revision would strengthen the story, but both are kept out until permission is confirmed.",
+   "item_id": "S1",
+   "delegated": true,
+   "statement": "A stand-in grant for the proof on a scratch copy (delegated, never production): the copy may say the new landing page brought some conversions, but fewer than the existing pages, as the call states."
+  },
+  {
+   "at": "2026-10-25T00:19:30.108242+00:00",
+   "by": "ai@weddingindustryads.com",
+   "item": null,
+   "item_id": null,
+   "delegated": true,
+   "statement": "A stand-in grant for the proof on a scratch copy (delegated, never production): the copy may say the new landing page brought some conversions, but fewer than the existing pages, as the call states."
+  }
+ ],
+ "pack_notes": [
+  "P1: Confirm Whitney's attribution for the 10:13 to 11:03 passage and obtain permission to publish this anonymous account of the page-comparison decision. Hold all story assets until cleared.",
+  "P3: Check whether the matching page-comparison entry in prior coverage is this same card or a separate published piece. If separately published within the last 90 days, hold this pack for editorial review.",
+  "P5: Whitney to confirm the proposed email reply CTA, send date, time and recipient segment."
+ ],
+ "change_notes": [
+  "email: kept the granted proof line exactly as granted; no other changes needed.",
+  "reel_1: kept both locked lines exactly; no other changes needed.",
+  "reel_2: no changes needed.",
+  "reel_3: no changes needed.",
+  "carousel: no changes needed."
+ ],
+ "fidelity": {
+  "open": 0,
+  "flags": [],
+  "checked": 43,
+  "repairs": [],
+  "settled": [],
+  "put_back": 0,
+  "rechecked": 0,
+  "survivors": [],
+  "check_called": true,
+  "recheck_flags": [],
+  "repair_called": false,
+  "missed_patches": [],
+  "recheck_called": false,
+  "finisher_called": true
+ },
+ "provenance": {
+  "mode": "live",
+  "models": {
+   "writer": "nvidia/nemotron-3.5-super-vl:free",
+   "reviewer": "dots-studio/dots-3-note-preview:free"
+  },
+  "run_id": "pack_run_f3a51c77a7d319ce2d4d1f16",
+  "brief_id": "brief_edda380b1d7143e78ab5a20fa98ebc4d",
+  "profiles": {
+   "pack_check": "2026-10-26.pack-check.v3",
+   "pack_finish": "2026-10-25.pack-finish.v1",
+   "pack_repair": "2026-10-25.pack-repair.v1",
+   "pack_caption": "2026-10-26.pack-caption.v1",
+   "pack_recheck": "2026-10-26.pack-check.v3",
+   "pack_refinish": "2026-10-26.pack-refinish.v1"
+  },
+  "approved_by": "ai@weddingindustryads.com",
+  "finish_mode": "finish",
+  "brief_schema": "brief_document_v4",
+  "approved_hash": "714365a4052d76ddb7741cf263c1f0ee9fbbfdebce90f2a67dbe53bc4e8586f0",
+  "handoff_version": "brief_handoff_v2",
+  "approval_delegated": true,
+  "knowledge_base_version": "wia-kb-2026-10-22.c-a1a75795"
+ },
+ "change": {
+  "at": "2026-10-25T00:19:30.108242+00:00",
+  "by": "ai@weddingindustryads.com",
+  "kind": "refinish",
+  "note": "Finished again with 1 granted item as evidence",
+  "paths": [],
+  "pieces": [],
+  "delegated": true
+ },
+ "versions": [
+  {
+   "pack_id": "pack_c86fd3fbb7b3ab0c4810097f",
+   "supersedes_id": null,
+   "manifest_hash": null,
+   "approval_status": "pending",
+   "created_at": "2026-10-24T13:14:10.449024+00:00",
+   "run_id": "pack_run_c86fd3fbb7b3ab0c4810097f",
+   "kind": "finishing",
+   "by": "ai@weddingindustryads.com",
+   "delegated": false,
+   "pieces": [],
+   "paths": [],
+   "note": null
+  },
+  {
+   "pack_id": "pack_3f05a53c2cb36380a551b4b9",
+   "supersedes_id": "pack_c86fd3fbb7b3ab0c4810097f",
+   "manifest_hash": "d93b108dd5fe51507a0829427966cdf88a2d4c83db5c7619e37ea7b3a964ed28",
+   "approval_status": "pending",
+   "created_at": "2026-10-24T13:21:46.605724+00:00",
+   "run_id": "pack_run_3f05a53c2cb36380a551b4b9",
+   "kind": "finish_again",
+   "by": "content-pack step",
+   "delegated": false,
+   "pieces": [],
+   "paths": [],
+   "note": null
+  },
+  {
+   "pack_id": "pack_43a470e760b4ca5898bbb3e6",
+   "supersedes_id": "pack_3f05a53c2cb36380a551b4b9",
+   "manifest_hash": "bb7d5e79d1894a16e971bac02aa878bb7415fe2ca2b25cd1af81684f6945672c",
+   "approval_status": "pending",
+   "created_at": "2026-10-24T13:33:19.990831+00:00",
+   "run_id": "pack_run_43a470e760b4ca5898bbb3e6",
+   "kind": "finish_again",
+   "by": "content-pack step",
+   "delegated": false,
+   "pieces": [],
+   "paths": [],
+   "note": null
+  },
+  {
+   "pack_id": "pack_3d1c62b49d857f321c06bb70",
+   "supersedes_id": "pack_43a470e760b4ca5898bbb3e6",
+   "manifest_hash": "a7c7d273cfaeb49941389e68072f41d346f52e09ca379f353f289effbab72efb",
+   "approval_status": "pending",
+   "created_at": "2026-10-25T00:12:08.395303+00:00",
+   "run_id": "pack_run_3d1c62b49d857f321c06bb70",
+   "kind": "recorded_take",
+   "by": "ai@weddingindustryads.com",
+   "delegated": true,
+   "pieces": [
+    "reel_1"
+   ],
+   "paths": [
+    "script",
+    "spoken_opening",
+    "cover_text",
+    "cover_alternates[0]",
+    "cover_alternates[1]",
+    "caption.hook",
+    "caption.body",
+    "caption.ending",
+    "no_offer_ending"
+   ],
+   "note": "Reel 1: the recorded take became the script; caption and covers written from it"
+  },
+  {
+   "pack_id": "pack_224f3b8b546ad8a02d36d640",
+   "supersedes_id": "pack_3d1c62b49d857f321c06bb70",
+   "manifest_hash": "947bda39be535395adc3aa1ea5ee3ee5aeee04e58a92400fa3c61d4b741fb0c2",
+   "approval_status": "pending",
+   "created_at": "2026-10-25T00:13:04.845851+00:00",
+   "run_id": "pack_run_224f3b8b546ad8a02d36d640",
+   "kind": "refinish",
+   "by": "ai@weddingindustryads.com",
+   "delegated": true,
+   "pieces": [],
+   "paths": [],
+   "note": "Finished again with 1 granted item as evidence"
+  },
+  {
+   "pack_id": "pack_bd173a2b06858957d4eb679d",
+   "supersedes_id": "pack_224f3b8b546ad8a02d36d640",
+   "manifest_hash": "8e8d295c54f563dd002fe28fcd1c64ce41092bb4fa6cca6fa5ea7eec88bc8f07",
+   "approval_status": "pending",
+   "created_at": "2026-10-25T00:16:15.392998+00:00",
+   "run_id": "pack_run_bd173a2b06858957d4eb679d",
+   "kind": "recorded_take",
+   "by": "ai@weddingindustryads.com",
+   "delegated": true,
+   "pieces": [
+    "reel_1"
+   ],
+   "paths": [
+    "script",
+    "spoken_opening",
+    "cover_text",
+    "cover_alternates[0]",
+    "cover_alternates[1]",
+    "caption.hook",
+    "caption.body",
+    "caption.ending",
+    "no_offer_ending"
+   ],
+   "note": "Reel 1: the recorded take became the script; caption and covers written from it"
+  },
+  {
+   "pack_id": "pack_f3a51c77a7d319ce2d4d1f16",
+   "supersedes_id": "pack_bd173a2b06858957d4eb679d",
+   "manifest_hash": "22e882dfdde32dc9a54fdf1e5cc38154a88e253e388827602fddfc30834a38ff",
+   "approval_status": "pending",
+   "created_at": "2026-10-25T00:19:30.104070+00:00",
+   "run_id": "pack_run_f3a51c77a7d319ce2d4d1f16",
+   "kind": "refinish",
+   "by": "ai@weddingindustryads.com",
+   "delegated": true,
+   "pieces": [],
+   "paths": [],
+   "note": "Finished again with 1 granted item as evidence"
+  }
+ ],
+ "approval_delegated": true,
+ "can_edit": true,
+ "can_decide": true,
+ "can_finish_again": true,
+ "can_mark_published": true
+}

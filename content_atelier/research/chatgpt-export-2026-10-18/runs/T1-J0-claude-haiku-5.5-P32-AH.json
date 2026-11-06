@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J0-claude-haiku-5.5-P32-AH",
+  "model": "anthropic/claude-haiku-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 311,
+  "completion_tokens": 483,
+  "cached_tokens": 0,
+  "cost": 0.0002726,
+  "seconds": 3.4,
+  "finish": "stop",
+  "system_sha": "ea72523eb9c9",
+  "user_sha": "27bcddfd3974"
+ },
+ "output": {
+  "choice": "A",
+  "confidence": 3,
+  "reason": "Version A uses a personal founder voice that suits email and names a specific problem without making performance promises, while Version B leans on vaguer, sales-style claims like attracting aligned clients 'at scale.'"
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: email\n\nVersion A:\nI created this session because I keep seeing incredibly talented planners struggle to clearly communicate their value — especially as their work becomes more complex and higher-level.\n\nVersion B:\nI created this session for planners who are ready to amplify what’s already working in their business.\n\nWhen your marketing foundations are dialed in, ads become a strategic way to expand reach, reinforce positioning, and attract more aligned clients at scale.",
+  "cache_prefix_sha": "ea72523eb9c9"
+ }
+}

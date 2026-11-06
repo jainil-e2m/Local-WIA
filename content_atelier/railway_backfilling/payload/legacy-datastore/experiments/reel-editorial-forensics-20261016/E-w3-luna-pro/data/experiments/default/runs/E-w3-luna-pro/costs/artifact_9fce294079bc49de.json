@@ -1,0 +1,46 @@
+{
+  "report_run_id": "E-w3-luna-pro",
+  "mode": "live",
+  "stage": "angle_generation",
+  "requested_model_id": "openai/gpt-6-luna-pro",
+  "request_fingerprint": "899e9b9a51c6c243515b6afcdbbc283b419fd75e8980f103fb97142e85004edd",
+  "artifact_id": "artifact_9fce294079bc49de",
+  "validation_status": "validated",
+  "request_path": "service_calls/899e9b9a51c6c243515b6afcdbbc283b419fd75e8980f103fb97142e85004edd/attempts/artifact_9fce294079bc49de/request.json",
+  "raw_response_path": "service_calls/899e9b9a51c6c243515b6afcdbbc283b419fd75e8980f103fb97142e85004edd/attempts/artifact_9fce294079bc49de/response.raw.json",
+  "currency": "USD",
+  "recorded_at_utc": "2026-10-16T07:44:08.428529+00:00",
+  "dispatched": true,
+  "reused": false,
+  "generation_id": "gen-1792136355-2Ogv9DCSnmX4m4mJCiRV",
+  "returned_model_id": "openai/gpt-6-luna-pro",
+  "provider": "OpenAI",
+  "usage": {
+    "prompt_tokens": 357383,
+    "completion_tokens": 41386,
+    "total_tokens": 398769,
+    "cost": 0.08340946,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 106148,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.08340946,
+      "upstream_inference_prompt_cost": 0.05236996,
+      "upstream_inference_completions_cost": 0.0310395
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 24766,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "original_reported_cost_usd": 0.08340946,
+  "new_cost_usd": 0.08340946,
+  "cost_status": "reported",
+  "cost_source": "provider_usage.cost",
+  "credit_purchase_fees_included": false
+}

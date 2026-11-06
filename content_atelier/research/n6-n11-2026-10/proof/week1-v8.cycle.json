@@ -1,0 +1,583 @@
+{
+ "run_id": "run_44d33a4834ec43cea8b014c97295976b",
+ "week_id": "week_2026-05-31",
+ "status": "waiting_for_review",
+ "message": "Angles ready for Gate 1",
+ "error_summary": null,
+ "created_at": "2026-10-25T15:33:07.245703+00:00",
+ "started_by": "ai@weddingindustryads.com",
+ "mode": "live",
+ "selected_by": "window",
+ "window": {
+  "start": "2026-05-31T05:00:00+00:00",
+  "end": "2026-06-07T05:00:00+00:00"
+ },
+ "document_count": 9,
+ "estimate_usd": 0.6722,
+ "coverage_state": "complete",
+ "scenes_sent": 154,
+ "scenes_verified": 154,
+ "strategy_brief_hash": "c1eb6eacaff707833397c5f394622c02f7cde5595acd5d52b556cd2f419b0874",
+ "estimate": {
+  "note": "An estimate, not a charge: hosted usage is authoritative, and reasoning tokens are part of the output.",
+  "notes": [],
+  "total_usd": 0.6722,
+  "components": [
+   {
+    "usd": 0.0198,
+    "calls": 4,
+    "model": "openai/gpt-6-luna",
+    "stage": "scene extraction",
+    "input_tokens": 77986,
+    "output_tokens": 24000
+   },
+   {
+    "usd": 0.3404,
+    "calls": 1,
+    "model": "openai/gpt-6.1-sol",
+    "stage": "strategist",
+    "input_tokens": 90200,
+    "output_tokens": 16000
+   },
+   {
+    "usd": 0.312,
+    "calls": 8,
+    "model": "anthropic/claude-sonnet-5.5",
+    "stage": "card verification",
+    "input_tokens": 96000,
+    "output_tokens": 12000
+   }
+  ],
+  "assumptions": "16000 strategist output tokens; 8 cards verified; 14 scenes for each document not yet extracted; about 4 characters a token",
+  "scenes_in_ledger": 0,
+  "provider_calls_made": 0,
+  "documents_to_extract": 4,
+  "scenes_assumed_for_new_documents": 56
+ },
+ "waiting_reason": null,
+ "strategy_brief": {
+  "on": "2026-10-25",
+  "mix": {
+   "WARM": 3,
+   "ATTRACT": 1,
+   "CONVERT": 1
+  },
+  "inputs": {
+   "documents": {
+    "offer_sheet": "83d9f5b153e3c6407157a91234af1a45cc4cddfbb31ac700ccbff6e0b30db78f",
+    "content_strategy": "acd0bf09ae43b19eee75f857fd3e1532f696f68174eb3c9e15b3ce5a63f9d601",
+    "belief_statements": "0e9797c4f372e416cc6781cf3e8692a7d325680df0955596515720ddc0f5357e"
+   },
+   "published_points": 46,
+   "belief_bank_sha256": "f4f125dca8f93bb175d0a7dedfbb5975c7849b4e8f0c42c6cf3cec028f04543b",
+   "offer_calendar_sha256": "df5a5a70037392aa1e31ae30fd910cd8667344034fcdf1ab1442090913eddb4a",
+   "knowledge_base_version": "wia-kb-2026-10-22.c-a1a75795"
+  },
+  "season": {
+   "name": "engagement_lead_up",
+   "label": "Engagement season starts in about 5 weeks (December to February): wedding pros are planning their ads and budgets for it now",
+   "weeks_to_engagement_season": 5
+  },
+  "made_by": "system: deterministic assembler from the knowledge base (no model call)",
+  "version": "strategy-brief.v1",
+  "warnings": [],
+  "brief_hash": "c1eb6eacaff707833397c5f394622c02f7cde5595acd5d52b556cd2f419b0874",
+  "live_offers": [
+   {
+    "ends": null,
+    "offer": "ELEVATE",
+    "terms": [],
+    "source": "KB 05: waitlist, then a discovery call",
+    "starts": null,
+    "status": "waitlist",
+    "sellable": true,
+    "do_not_undercut": [
+     "Hiring an ads agency is a waste of money for a wedding business",
+     "You do not need an agency to run your wedding ads"
+    ]
+   },
+   {
+    "ends": null,
+    "offer": "Google Search Accelerator",
+    "terms": [],
+    "source": "KB 05: application, then a qualifying email and a proposal",
+    "starts": null,
+    "status": "open",
+    "sellable": true,
+    "do_not_undercut": [
+     "Wedding pros cannot learn to run their own Google ads"
+    ]
+   },
+   {
+    "ends": null,
+    "offer": "Meta Ads Accelerator",
+    "terms": [],
+    "source": "KB 05: application, then a qualifying email and a proposal",
+    "starts": null,
+    "status": "open",
+    "sellable": true,
+    "do_not_undercut": [
+     "Wedding pros cannot learn to run their own Meta ads"
+    ]
+   },
+   {
+    "ends": null,
+    "offer": "Ads Accelerator Bundle",
+    "terms": [],
+    "source": "KB 05: application, then a proposal",
+    "starts": null,
+    "status": "open",
+    "sellable": true,
+    "do_not_undercut": []
+   },
+   {
+    "ends": null,
+    "offer": "LeadLock and The Foolproof Follow-Up Advantage",
+    "terms": [],
+    "source": "KB 05: sold alone, or included with ELEVATE",
+    "starts": null,
+    "status": "open",
+    "sellable": true,
+    "do_not_undercut": [
+     "Automated follow-up feels impersonal to couples and loses bookings"
+    ]
+   },
+   {
+    "ends": "2026-11-08",
+    "note": "The 2026 giveaway closed on 16 October; Carmen runs the five audits from late October to early November. No audit CTA in this window.",
+    "offer": "Google Ads Audit Giveaway",
+    "terms": [
+     "one-off audit",
+     "one-time audit",
+     "free audit",
+     "after your audit",
+     "after the audit",
+     "audit isn't enough",
+     "audits aren't enough",
+     "outgrow an audit",
+     "outgrowing one-off audits"
+    ],
+    "source": "KB 14 (19 Oct to 1 Nov entry); KB 05 (Google Ads Audit Giveaway)",
+    "starts": "2026-10-19",
+    "status": "delivering",
+    "sellable": false,
+    "do_not_undercut": [
+     "A one-off ads audit is not enough to fix your ads",
+     "After an audit you are left to do the work on your own",
+     "Free ads audits are only a sales tactic"
+    ]
+   }
+  ],
+  "content_plan": [],
+  "priority_series": [
+   {
+    "name": "Stop Boosting Posts",
+    "last_published": "2025-12-30"
+   },
+   {
+    "name": "Ad Leads Aren't Worse Than Referrals. They're Just Colder.",
+    "last_published": null
+   },
+   {
+    "name": "Watch Us Build an Ad Strategy",
+    "last_published": null
+   },
+   {
+    "name": "We Measure Conversions, Not Clicks",
+    "last_published": null
+   },
+   {
+    "name": "Wedding Ad Campaign Breakdowns",
+    "last_published": null
+   },
+   {
+    "name": "Why I Walked Away From 12 Years in Wedding Sales",
+    "last_published": null
+   }
+  ],
+  "beliefs_to_prove": [
+   {
+    "id": "stop-boosting",
+    "ref": "B1",
+    "offer": "Meta Ads Accelerator",
+    "stage": "ATTRACT",
+    "belief": "Boosting a post isn't an ad strategy.",
+    "offers": [
+     "Meta Ads Accelerator"
+    ],
+    "quotes": [
+     {
+      "text": "Stop boosting posts.",
+      "document": "content_strategy"
+     }
+    ],
+    "last_proved": "2025-12-30",
+    "do_not_repeat": [
+     {
+      "title": "\"Where most wedding pros get stuck with Meta ads\" / preview \"If you've felt overwhelmed, you're not alone\" (Meta Ads Accelerator by reply only)",
+      "channel": "Email",
+      "key_message": "Where most wedding pros get stuck with Meta ads: boosting posts is easy but rarely effective, and the Meta Ads Accelerator teaches the strategy.",
+      "published_on": "2025-12-30"
+     }
+    ],
+    "priority_series": "Stop Boosting Posts"
+   },
+   {
+    "id": "results-compound",
+    "ref": "B2",
+    "offer": "ELEVATE",
+    "stage": "WARM",
+    "belief": "Ad results compound: what an account learns this season pays off in the next.",
+    "offers": [
+     "ELEVATE"
+    ],
+    "quotes": [
+     {
+      "text": "with ads, results compound the longer you're in the game.",
+      "document": "belief_statements"
+     },
+     {
+      "text": "Ads aren't a faucet you turn on for leads.",
+      "document": "content_strategy"
+     }
+    ],
+    "last_proved": null,
+    "do_not_repeat": [],
+    "priority_series": null
+   },
+   {
+    "id": "system-not-vacuum",
+    "ref": "B3",
+    "offer": "ELEVATE",
+    "stage": "WARM",
+    "belief": "We build a sales system around the ads, not ads in a vacuum, so some of our most useful work isn't the ads themselves.",
+    "offers": [
+     "ELEVATE"
+    ],
+    "quotes": [
+     {
+      "text": "Most agencies run your ads in a vacuum and send you a report.",
+      "document": "content_strategy"
+     },
+     {
+      "text": "We build an entire system for sales around your ads.",
+      "document": "content_strategy"
+     },
+     {
+      "text": "There's a huge difference between running ads and building a client acquisition system.",
+      "document": "belief_statements"
+     }
+    ],
+    "last_proved": null,
+    "do_not_repeat": [],
+    "priority_series": "Watch Us Build an Ad Strategy"
+   },
+   {
+    "id": "colder-not-worse",
+    "ref": "B4",
+    "offer": "LeadLock and The Foolproof Follow-Up Advantage",
+    "stage": "WARM",
+    "belief": "Ad leads aren't worse than referrals; they're colder, and they need a different follow-up.",
+    "offers": [
+     "LeadLock and The Foolproof Follow-Up Advantage",
+     "ELEVATE"
+    ],
+    "quotes": [
+     {
+      "text": "Your ad leads aren't worse than your referrals. They're just colder.",
+      "document": "content_strategy"
+     },
+     {
+      "text": "Ads traffic requires a different level of follow-up than warm referrals.",
+      "document": "belief_statements"
+     }
+    ],
+    "last_proved": null,
+    "do_not_repeat": [],
+    "priority_series": "Ad Leads Aren't Worse Than Referrals. They're Just Colder."
+   },
+   {
+    "id": "no-dead-season",
+    "ref": "B5",
+    "offer": "ELEVATE",
+    "stage": "CONVERT",
+    "belief": "A quiet January isn't a dead season; an always-on ad system keeps couples booking.",
+    "offers": [
+     "ELEVATE"
+    ],
+    "quotes": [
+     {
+      "text": "If you were fully booked in October and crickets in January, it's not a dead season.",
+      "document": "content_strategy"
+     }
+    ],
+    "last_proved": null,
+    "do_not_repeat": [],
+    "priority_series": null
+   }
+  ],
+  "publishing_window": {
+   "to": "2026-11-07",
+   "from": "2026-10-25"
+  },
+  "recent_central_points": [
+   {
+    "title": "Reel cover \"Google Reps Aren't Your Marketing Strategist\"",
+    "channel": "Instagram Reel",
+    "key_message": "Google reps work for Google: they push you to spend more and try new features, but they don't know your business or your client journey.",
+    "published_on": "2026-10-08"
+   },
+   {
+    "title": "\"Google's recommendations aren't always what's best for your wedding business.\"",
+    "channel": "Instagram caption",
+    "key_message": "Google's own recommendations serve Google's goals and aren't always what's best for a wedding business.",
+    "published_on": "2026-10-08"
+   },
+   {
+    "title": "Reel cover \"Are Your Google Ads Actually Working?\"",
+    "channel": "Instagram Reel",
+    "key_message": "Many wedding pros can't tell whether their Google Ads are actually working; an outside audit gives a clear picture before engagement season.",
+    "published_on": "2026-10-08"
+   },
+   {
+    "title": "\"Engagement season is right around the corner.\"",
+    "channel": "Instagram caption",
+    "key_message": "Engagement season is when couples start searching, so make sure your Google Ads are working before it starts.",
+    "published_on": "2026-10-05"
+   },
+   {
+    "title": "\"Wedding Pros: Are you totally sure your Google Ads are doing what they're supposed to?\"",
+    "channel": "Instagram caption",
+    "key_message": "If your freelancer or agency isn't showing you what's actually working in your Google Ads, you can't be sure your ads are working.",
+    "published_on": "2026-10-05"
+   },
+   {
+    "title": "2026 Google Ads Audit Giveaway (apply by 16 Oct): announcement, engagement-season and deadline captions; three carousels; three Reels",
+    "channel": "Instagram captions, carousels, Reels",
+    "key_message": "Announcement: five wedding businesses can apply, by 16 October, for a free Google Ads audit.",
+    "published_on": "2026-10-05"
+   },
+   {
+    "title": "\"What I taught my clients this week\" (UVP training)",
+    "channel": "Email",
+    "key_message": "Advertising starts before the ads: define your unique value proposition before you write an ad or build a landing page.",
+    "published_on": "2026-09-15"
+   },
+   {
+    "title": "10-week case study: Reel \"What would happen if your wedding business didn't post on Instagram for the next 10 weeks?\"; carousel \"You don't need another reminder to 'show up consistently.'\"; captions \"There's a difference between wanting to do less marketing\u2026\" and \"'I couldn't do it all.'\"; email \"She didn't post on Instagram for 10 weeks\"",
+    "channel": "Instagram Reel, carousel, captions; email",
+    "key_message": "Ads kept a wedding planner in front of potential clients while she let Instagram go quiet for 10 weeks: a strategy has to allow for the times you can't show up.",
+    "published_on": "2026-08-18"
+   },
+   {
+    "title": "New welcome DM: \"This is Whitney. (Real human, not a bot \ud83d\ude02)\u2026 What brought you to our page?\"",
+    "channel": "Instagram DMs",
+    "key_message": "A real person, Whitney, welcomes each new follower and asks what brought them to the page.",
+    "published_on": "2026-08-03"
+   }
+  ]
+ },
+ "documents": [
+  {
+   "transcript_id": "transcript_53e18a03eafba31d746fbb7d",
+   "title": "Check-in with Gisselle's transcript.txt",
+   "occurred_at": "2026-06-01T14:25:00+00:00",
+   "call_type": "internal",
+   "source_type": "zoom",
+   "extraction_status": "completed",
+   "ingested_at": "2026-10-09T14:01:00.969919+00:00",
+   "selected_because": "window"
+  },
+  {
+   "transcript_id": "transcript_1f595f00a47fa1b61b2ae316",
+   "title": "Whitney Hodges's Personal Meeting Room's transcript.txt",
+   "occurred_at": "2026-06-02T16:29:00+00:00",
+   "call_type": "prospect",
+   "source_type": "zoom",
+   "extraction_status": "completed",
+   "ingested_at": "2026-10-09T14:01:00.969919+00:00",
+   "selected_because": "window"
+  },
+  {
+   "transcript_id": "transcript_d158c0b7ca826039fec4d731",
+   "title": "Messaging & Positioning _ The Penny's transcript.txt",
+   "occurred_at": "2026-06-02T17:39:00+00:00",
+   "call_type": "client_1to1",
+   "source_type": "zoom",
+   "extraction_status": "completed",
+   "ingested_at": "2026-10-09T14:01:00.969919+00:00",
+   "selected_because": "window"
+  },
+  {
+   "transcript_id": "transcript_c1111065ac72b60cbe80df18",
+   "title": "LeadLock Sequence Refresh's transcript.txt",
+   "occurred_at": "2026-06-02T18:34:00+00:00",
+   "call_type": "internal",
+   "source_type": "zoom",
+   "extraction_status": "completed",
+   "ingested_at": "2026-10-09T14:01:00.969919+00:00",
+   "selected_because": "window"
+  },
+  {
+   "transcript_id": "transcript_2a92bfdd5ba2e5bd337f5856",
+   "title": "Carmen Cruickshank's Personal Meeting Room's transcript (2).txt",
+   "occurred_at": null,
+   "call_type": "internal",
+   "source_type": "zoom",
+   "extraction_status": "completed",
+   "ingested_at": "2026-10-09T14:01:00.969919+00:00",
+   "selected_because": "added_by_person"
+  },
+  {
+   "transcript_id": "transcript_536edfd0a7064563b96079c5",
+   "title": "Carmen Cruickshank's Personal Meeting Room's transcript (1).txt",
+   "occurred_at": null,
+   "call_type": "client_1to1",
+   "source_type": "zoom",
+   "extraction_status": "completed",
+   "ingested_at": "2026-10-09T14:01:00.969919+00:00",
+   "selected_because": "added_by_person"
+  },
+  {
+   "transcript_id": "transcript_831835c2812a56b151938edd",
+   "title": "Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+   "occurred_at": null,
+   "call_type": "client_1to1",
+   "source_type": "zoom",
+   "extraction_status": "completed",
+   "ingested_at": "2026-10-09T14:01:00.969919+00:00",
+   "selected_because": "added_by_person"
+  },
+  {
+   "transcript_id": "transcript_83c83e9034a83f5d53345ef5",
+   "title": "Carmen Cruickshank's Personal Meeting Room's transcript (4).txt",
+   "occurred_at": null,
+   "call_type": "internal",
+   "source_type": "zoom",
+   "extraction_status": "completed",
+   "ingested_at": "2026-10-09T14:01:00.969919+00:00",
+   "selected_because": "added_by_person"
+  },
+  {
+   "transcript_id": "transcript_9e1879c15e05bd2d327366bf",
+   "title": "Carmen Cruickshank's Personal Meeting Room's transcript (3).txt",
+   "occurred_at": null,
+   "call_type": "client_1to1",
+   "source_type": "zoom",
+   "extraction_status": "completed",
+   "ingested_at": "2026-10-09T14:01:00.969919+00:00",
+   "selected_because": "added_by_person"
+  }
+ ],
+ "scene_coverage": {
+  "state": "complete",
+  "verified": 154,
+  "sent": 154,
+  "held_for_consent": 0,
+  "not_sent": [],
+  "documents": [
+   {
+    "transcript_id": "transcript_53e18a03eafba31d746fbb7d",
+    "verified": 14,
+    "unverified": 0,
+    "sent": 14,
+    "held_for_consent": 0,
+    "not_sent": []
+   },
+   {
+    "transcript_id": "transcript_1f595f00a47fa1b61b2ae316",
+    "verified": 23,
+    "unverified": 0,
+    "sent": 23,
+    "held_for_consent": 0,
+    "not_sent": []
+   },
+   {
+    "transcript_id": "transcript_d158c0b7ca826039fec4d731",
+    "verified": 23,
+    "unverified": 1,
+    "sent": 23,
+    "held_for_consent": 0,
+    "not_sent": []
+   },
+   {
+    "transcript_id": "transcript_c1111065ac72b60cbe80df18",
+    "verified": 23,
+    "unverified": 0,
+    "sent": 23,
+    "held_for_consent": 0,
+    "not_sent": []
+   },
+   {
+    "transcript_id": "transcript_2a92bfdd5ba2e5bd337f5856",
+    "verified": 14,
+    "unverified": 0,
+    "sent": 14,
+    "held_for_consent": 0,
+    "not_sent": []
+   },
+   {
+    "transcript_id": "transcript_536edfd0a7064563b96079c5",
+    "verified": 14,
+    "unverified": 1,
+    "sent": 14,
+    "held_for_consent": 0,
+    "not_sent": []
+   },
+   {
+    "transcript_id": "transcript_831835c2812a56b151938edd",
+    "verified": 15,
+    "unverified": 1,
+    "sent": 15,
+    "held_for_consent": 0,
+    "not_sent": []
+   },
+   {
+    "transcript_id": "transcript_83c83e9034a83f5d53345ef5",
+    "verified": 11,
+    "unverified": 1,
+    "sent": 11,
+    "held_for_consent": 0,
+    "not_sent": []
+   },
+   {
+    "transcript_id": "transcript_9e1879c15e05bd2d327366bf",
+    "verified": 17,
+    "unverified": 2,
+    "sent": 17,
+    "held_for_consent": 0,
+    "not_sent": []
+   }
+  ]
+ },
+ "stages": [
+  {
+   "job_id": "job_42e43376b25244b6a51355fabc03de62",
+   "stage": "angle_generation",
+   "status": "completed",
+   "current_message": "Saved 5 ranked angle cards",
+   "error_summary": null
+  },
+  {
+   "job_id": "job_663a5fcade07493e86fb86dddf0f98e7",
+   "stage": "moment_extraction",
+   "status": "completed",
+   "current_message": "154 verified scenes from 9 documents (0 already in the ledger); 6 unverified, not used as proof",
+   "error_summary": null
+  },
+  {
+   "job_id": "job_8cea72bb6b42486693e87be6f996d686",
+   "stage": "angle_embedding",
+   "status": "completed",
+   "current_message": "Angle embeddings ready",
+   "error_summary": null
+  },
+  {
+   "job_id": "job_ad27fc46f97a4593abb6ec30bb675f5e",
+   "stage": "angle_matching",
+   "status": "completed",
+   "current_message": "Matching complete",
+   "error_summary": null
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+  "stage": "brief_write",
+  "job_id": "brief_job_d9aacdaf3c914bb197a5ecde9a8e9688",
+  "attempt": 1,
+  "fingerprint": "a528a7c6d9714b8ea3b470f2a05ae40427d381a68c5d0f82ce6c13c4c7a95f14",
+  "synthetic": false,
+  "real_external_dispatch": true,
+  "currency": "USD",
+  "recorded_at_utc": "2026-10-13T10:31:11.612867+00:00",
+  "dispatched": true,
+  "reused": false,
+  "generation_id": "gen-1791887363-KXW2YaTda4sEeP2lVEsw",
+  "returned_model_id": "openai/gpt-6.1-sol",
+  "provider": "OpenAI",
+  "usage": {
+    "prompt_tokens": 51795,
+    "completion_tokens": 5816,
+    "total_tokens": 57611,
+    "cost": 0.187646,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 51792,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.187646,
+      "upstream_inference_prompt_cost": 0.129486,
+      "upstream_inference_completions_cost": 0.05816
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 43,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "original_reported_cost_usd": 0.187646,
+  "new_cost_usd": 0.187646,
+  "cost_status": "reported",
+  "cost_source": "provider_usage.cost",
+  "credit_purchase_fees_included": false
+}

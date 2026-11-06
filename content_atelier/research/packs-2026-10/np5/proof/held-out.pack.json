@@ -1,0 +1,923 @@
+{
+ "pack_id": "pack_0e0cd1e580f774d1f0113f06",
+ "contract_version": "content_pack_v2",
+ "title": "How we separate today's wedding experience from future plans",
+ "week_id": "week_2026-10-12",
+ "source_brief_id": "brief_90383dd6899a46fa9fcf296dbccd6870",
+ "source_brief_hash": "b5c86442bd693ee963f5b7e1ac8c90e602dfd0a1be62ac256598cce0ed34083f",
+ "angle_id": "angle_a3e9ed535b9e4158aa14aa8a3ed0a637",
+ "pillar": "WARM",
+ "rank": 4,
+ "state": "in_review",
+ "state_reason": null,
+ "approval_status": "pending",
+ "manifest_hash": "b0a14ff5c12a8ae715f7f695d28a33238df48b13fc266b6ea939b66f78f60686",
+ "approved_by": null,
+ "approved_at": null,
+ "created_at": "2026-10-24T15:02:06.957099+00:00",
+ "supersedes_id": "pack_4d90444c10dffed282d55f05",
+ "run_id": "pack_run_0e0cd1e580f774d1f0113f06",
+ "run_active": false,
+ "pieces": [
+  {
+   "key": "email",
+   "channel": "email",
+   "label": "Email",
+   "kind": null,
+   "ordinal": 1,
+   "origin": "finished",
+   "not_written_reason": null,
+   "brief_key": "email",
+   "content": {
+    "cta": "none",
+    "job": "Standalone written account of the whole exchange, including Whitney's ideal-couple prompt, the owner's clarification and Whitney's answer. Keep the interpretation limited to the distinction established in this conversation.",
+    "body": "I told her I meant something closer to what actually happens, like what a current couple is experiencing.\n\nI had used an ideal-couple prompt, so her clarification was reasonable. The invitation could have led to an envisioned wedding day or an account of current events. She asked which one I meant.\n\nFor that part of our conversation, I was requesting the present-day experience.\n\n**A venue's direction and a current couple's day can be understood without being merged into one story.**\n\nIf you're developing the next chapter of your venue, you may have a detailed picture of the weddings you want to host in the future. That picture can be meaningful alongside the experience of couples there now.\n\nOne account describes where you're taking the business. The other describes what a couple currently experiences. Both can have a place in the discussion, while remaining different accounts.\n\nIn this exchange, the owner named that distinction and I clarified the scope of the walkthrough. There was no need to make her vision part of the present-day description for it to matter in the conversation.",
+    "ending": "Whoever helps with your marketing should be curious about where your venue is going, and precise about which wedding day they're hoping to hear about when they ask.\n\nTalk soon,\nWhitney",
+    "opening": "Hi {{contact.first_name}},\n\nDuring a strategy conversation with a venue owner, I asked her to help me picture her ideal couple's wedding day, how they'd use the spaces and how the day would flow.\n\nShe asked whether I wanted her to describe what she would love to see or what actually happens.",
+    "preview": "Where you're taking the venue matters too. It just answers a different question.",
+    "register": "written",
+    "send_header": {
+     "date": "Proposed: Tuesday of the following content week, exact date for WIA to confirm.",
+     "send_time": "Proposed: 10:00 a.m. Central, for WIA to confirm.",
+     "recipients": "Proposed: Ads Investment Guide subscribers, excluding current clients, for WIA to confirm."
+    },
+    "subject_options": [
+     "Your venue's future and today's weddings are two different stories",
+     "Which wedding day should you describe when you talk about your marketing?",
+     "What do couples at your venue experience right now?"
+    ],
+    "offer_descriptor": null
+   },
+   "brief_copy": {
+    "cta": "none",
+    "job": "Standalone written account of the whole exchange, including Whitney's ideal-couple prompt, the owner's clarification and Whitney's answer. Keep the interpretation limited to the distinction established in this conversation.",
+    "body": "I told her I meant something closer to what actually happens, like what a current couple is experiencing.\n\nI had used an ideal-couple prompt, so her clarification was reasonable. The invitation could have led to an envisioned wedding day or an account of current events. She asked which one I meant.\n\nFor that part of our conversation, I was requesting the present-day experience.\n\n**A venue's direction and a current couple's day can be understood without being merged into one story.**\n\nIf you're developing the next chapter of your venue, you may have a detailed picture of the weddings you want to host in the future. That picture can be meaningful alongside the experience of couples there now.\n\nOne account describes where you're taking the business. The other describes what a couple currently experiences. Both can have a place in the discussion, while remaining different accounts.\n\nIn this exchange, the owner named that distinction and I clarified the scope of the walkthrough. There was no need to make her vision part of the present-day description for it to matter in the conversation.",
+    "ending": "That's a useful kind of clarity to make room for when discussing a growing venue: understanding the owner's direction while being specific about the wedding day we're asking her to describe.\n\nTalk soon,\nWhitney",
+    "opening": "Hi {{contact.first_name}},\n\nDuring a strategy conversation with a venue owner, I asked her to help me envision her ideal couple's wedding day.\n\nShe asked whether I wanted her to describe what she would love to see or what actually happens.",
+    "preview": "A current couple's experience and an owner's vision can be discussed as separate accounts.",
+    "register": "written",
+    "send_header": {
+     "date": "Proposed: Tuesday of the following content week, exact date for WIA to confirm.",
+     "send_time": "Proposed: 10:00 a.m. Central, for WIA to confirm.",
+     "recipients": "Proposed: Ads Investment Guide subscribers, excluding current clients, for WIA to confirm."
+    },
+    "subject_options": [
+     "Today's weddings deserve room beside your venue's future",
+     "A growing venue still has a present-day wedding story"
+    ],
+    "offer_descriptor": null
+   },
+   "locks": [
+    {
+     "at": "2026-10-24T15:00:19.930225+00:00",
+     "path": "body",
+     "author": "ai@weddingindustryads.com",
+     "origin": "gate_two",
+     "delegated": true
+    }
+   ],
+   "findings": [],
+   "changes": [
+    {
+     "kind": "finished",
+     "path": "subject_options[0]",
+     "after": "Your venue's future and today's weddings are two different stories",
+     "before": "Today's weddings deserve room beside your venue's future"
+    },
+    {
+     "kind": "finished",
+     "path": "subject_options[1]",
+     "after": "Which wedding day should you describe when you talk about your marketing?",
+     "before": "A growing venue still has a present-day wedding story"
+    },
+    {
+     "kind": "finished",
+     "path": "subject_options[2]",
+     "after": "What do couples at your venue experience right now?",
+     "before": null
+    },
+    {
+     "kind": "finished",
+     "path": "preview",
+     "after": "Where you're taking the venue matters too. It just answers a different question.",
+     "before": "A current couple's experience and an owner's vision can be discussed as separate accounts."
+    },
+    {
+     "kind": "finished",
+     "path": "opening",
+     "after": "Hi {{contact.first_name}},\n\nDuring a strategy conversation with a venue owner, I asked her to help me picture her ideal couple's wedding day, how they'd use the spaces and how the day would flow.\n\nShe asked whether I wanted her to describe what she would love to see or what actually happens.",
+     "before": "Hi {{contact.first_name}},\n\nDuring a strategy conversation with a venue owner, I asked her to help me envision her ideal couple's wedding day.\n\nShe asked whether I wanted her to describe what she would love to see or what actually happens."
+    },
+    {
+     "kind": "finished",
+     "path": "ending",
+     "after": "Whoever helps with your marketing should be curious about where your venue is going, and precise about which wedding day they're hoping to hear about when they ask.\n\nTalk soon,\nWhitney",
+     "before": "That's a useful kind of clarity to make room for when discussing a growing venue: understanding the owner's direction while being specific about the wedding day we're asking her to describe.\n\nTalk soon,\nWhitney"
+    }
+   ],
+   "published": [],
+   "content_hash": "3adf6d6fb95d044ea705c5fa977d5b6eca1568e40aec7f215739c15b173c7cfe",
+   "editable": [
+    "send_header",
+    "subject_options",
+    "preview",
+    "opening",
+    "body",
+    "ending"
+   ]
+  },
+  {
+   "key": "carousel",
+   "channel": "carousel",
+   "label": "Carousel",
+   "kind": null,
+   "ordinal": 2,
+   "origin": "finished",
+   "not_written_reason": null,
+   "brief_key": "carousel",
+   "content": {
+    "cta": "none",
+    "job": "Seven-slide written exploration of the same exchange. Spend two slides on the story, then distinguish the two accounts without adding a campaign outcome, a prerequisite or a recurring-process claim. Close on the reader's expectation of a team, with no explicit ask.",
+    "title": "Where your venue is headed and what couples experience there today are two different stories",
+    "slides": [
+     {
+      "job": "State the promise as an insight about the reader's venue.",
+      "text": "Where your venue is headed and what couples experience there today are two different stories.\n\nBoth deserve room when you talk about your marketing.\nNeither has to stand in for the other.",
+      "number": 1
+     },
+     {
+      "job": "Introduce the prompt and credit the owner with clarifying its scope.",
+      "text": "In a strategy conversation, we asked a venue owner to walk us through her ideal couple's wedding day.\n\nBefore going on, she asked which day we meant: the one she'd love to create, or the one that actually happens now.",
+      "number": 2
+     },
+     {
+      "job": "Describe Whitney's answer without attributing an unsupported purpose.",
+      "text": "**That distinction came from her.**\n\nWe answered it plainly.\nFor that walkthrough, we wanted what a current couple experiences at her venue.",
+      "number": 3
+     },
+     {
+      "job": "Connect the exchange to a growth-minded venue owner's situation.",
+      "text": "Her plans didn't get set aside.\n\nThey just weren't folded into the description of today's weddings.\nThe future she's building kept its own place in the conversation.",
+      "number": 4
+     },
+     {
+      "job": "Explain the distinction between the accounts, rather than give account-management steps.",
+      "text": "If you're growing a venue, you likely carry both pictures.\n\nHow couples arrive, use the spaces and move through the day right now.\nAnd the wedding you imagine when you think about what comes next.",
+      "number": 5
+     },
+     {
+      "job": "State the belief while keeping it separate from a claim about repeated practice.",
+      "text": "Both are worth talking about with the people behind your ads.\n\nThey answer different questions.\nOne tells us what couples experience when they book you today. The other tells us where the venue is going.",
+      "number": 6
+     },
+     {
+      "job": "Close on the same expectation for management and guided-launch readers, without an offer CTA.",
+      "text": "**We believe an owner's vision deserves to be heard in its own right.**\n\nIt doesn't have to pass as a description of current weddings to matter.\nIt can sit beside them, clearly labeled, in one conversation.",
+      "number": 7
+     },
+     {
+      "job": "",
+      "text": "Whether you want us to manage your ads for you, or to launch your campaigns and guide you while you run them, you should expect the same thing.\n\nReal interest in your venue's direction, and clear questions about which day we mean.",
+      "number": 8
+     }
+    ],
+    "caption": {
+     "body": "That's a lot to hold. You know how couples move through the day now. You also know what you want the venue to become, and you're probably excited to talk about it.\n\nIn a recent strategy conversation, we asked a venue owner for a walkthrough of her ideal couple's wedding day. She checked which day we wanted: the one she envisioned, or what takes place now. We asked for a current couple's experience.\n\nThat clarification started with her. Our part was answering it clearly, so the walkthrough had one subject and her vision kept its own place.\n\nFor a venue moving into what's next, neither version has to substitute for the other. You can be ambitious about the future and specific about today in the same conversation.",
+     "hook": "If you're growing a venue, you're hosting this year's weddings while picturing the next ones.",
+     "ending": "When you're shaping your venue's next chapter, both of those stories belong in the conversation about your ads."
+    },
+    "register": "written",
+    "no_offer_ending": null,
+    "offer_descriptor": null
+   },
+   "brief_copy": {
+    "cta": "none",
+    "job": "Seven-slide written exploration of the same exchange. Spend two slides on the story, then distinguish the two accounts without adding a campaign outcome, a prerequisite or a recurring-process claim. Close on the reader's expectation of a team, with no explicit ask.",
+    "title": "Your venue's next chapter can sit beside today's wedding experience",
+    "slides": [
+     {
+      "job": "State the promise as an insight about the reader's venue.",
+      "text": "Your venue's next chapter can sit beside today's wedding experience.\n\nA vision for future weddings can belong in the same conversation as the experience of couples there now. We can hear both without treating one as the other.",
+      "number": 1
+     },
+     {
+      "job": "Introduce the prompt and credit the owner with clarifying its scope.",
+      "text": "In a strategy discussion, we invited a venue owner to walk us through her ideal couple's wedding day.\n\nShe asked whether we wanted an account of the day she would love to create or a description of events as they happen. The distinction came from the owner.",
+      "number": 2
+     },
+     {
+      "job": "Describe Whitney's answer without attributing an unsupported purpose.",
+      "text": "We specified the experience of a current couple.\n\nThat was the account requested for this walkthrough. The answer narrowed the subject of the discussion; it didn't turn the owner's plans into current facts or suggest that those plans were unworthy of attention.",
+      "number": 3
+     },
+     {
+      "job": "Connect the exchange to a growth-minded venue owner's situation.",
+      "text": "As your venue develops, you may be thinking about future weddings while continuing to host couples now.\n\nBoth perspectives are part of how you understand the business. In a conversation with us, there can be room for that ambition alongside a description of the present experience.",
+      "number": 4
+     },
+     {
+      "job": "Explain the distinction between the accounts, rather than give account-management steps.",
+      "text": "A description of where the venue is headed carries different information from an account of a couple's day there now.\n\nWe can be interested in both. Being clear about which account we're discussing lets the owner's vision remain a vision, rather than folding it into the present-day story.",
+      "number": 5
+     },
+     {
+      "job": "State the belief while keeping it separate from a claim about repeated practice.",
+      "text": "**An owner's vision deserves to be understood in its own right.**\n\nIt doesn't need to become evidence of a current wedding to be meaningful. In the exchange we had, we requested the present-day account while leaving room for the venue the owner was imagining.",
+      "number": 6
+     },
+     {
+      "job": "Close on the same expectation for management and guided-launch readers, without an offer CTA.",
+      "text": "Whether you're looking for us to manage your ads or to launch your campaigns and support you while you run them, the expectation can be the same.\n\nA team can understand your ambitions and still be precise about which wedding experience it's discussing with you.",
+      "number": 7
+     }
+    ],
+    "caption": {
+     "body": "Developing a venue gives you more than one perspective to bring to an advertising conversation. You know the direction you want to take, and you know the experience of the couples there now. Those accounts can be discussed separately without making either one less meaningful.\n\nDuring a strategy conversation, we asked a venue owner for an ideal-couple wedding-day walkthrough. She checked whether we wanted her envisioned day or a description of what takes place. We clarified that the walkthrough should follow a current couple's experience.\n\nThe owner was the person who raised that distinction. Our contribution was to specify which account we were requesting, rather than leave the prompt open to either interpretation.\n\nFor a venue growing into its next chapter, that leaves space for both ambition and present experience. Neither has to stand in for the other just because they arise in the same discussion.",
+     "hook": "The wedding an owner imagines can have its own place beside the weddings her venue hosts.",
+     "ending": "In this conversation, we asked for the current wedding account without asking the owner to set aside her vision for the venue."
+    },
+    "register": "written",
+    "no_offer_ending": null,
+    "offer_descriptor": null
+   },
+   "locks": [],
+   "findings": [],
+   "changes": [
+    {
+     "kind": "finished",
+     "path": "title",
+     "after": "Where your venue is headed and what couples experience there today are two different stories",
+     "before": "Your venue's next chapter can sit beside today's wedding experience"
+    },
+    {
+     "kind": "finished",
+     "path": "slides[0].text",
+     "after": "Where your venue is headed and what couples experience there today are two different stories.\n\nBoth deserve room when you talk about your marketing.\nNeither has to stand in for the other.",
+     "before": "Your venue's next chapter can sit beside today's wedding experience.\n\nA vision for future weddings can belong in the same conversation as the experience of couples there now. We can hear both without treating one as the other."
+    },
+    {
+     "kind": "finished",
+     "path": "slides[1].text",
+     "after": "In a strategy conversation, we asked a venue owner to walk us through her ideal couple's wedding day.\n\nBefore going on, she asked which day we meant: the one she'd love to create, or the one that actually happens now.",
+     "before": "In a strategy discussion, we invited a venue owner to walk us through her ideal couple's wedding day.\n\nShe asked whether we wanted an account of the day she would love to create or a description of events as they happen. The distinction came from the owner."
+    },
+    {
+     "kind": "finished",
+     "path": "slides[2].text",
+     "after": "**That distinction came from her.**\n\nWe answered it plainly.\nFor that walkthrough, we wanted what a current couple experiences at her venue.",
+     "before": "We specified the experience of a current couple.\n\nThat was the account requested for this walkthrough. The answer narrowed the subject of the discussion; it didn't turn the owner's plans into current facts or suggest that those plans were unworthy of attention."
+    },
+    {
+     "kind": "finished",
+     "path": "slides[3].text",
+     "after": "Her plans didn't get set aside.\n\nThey just weren't folded into the description of today's weddings.\nThe future she's building kept its own place in the conversation.",
+     "before": "As your venue develops, you may be thinking about future weddings while continuing to host couples now.\n\nBoth perspectives are part of how you understand the business. In a conversation with us, there can be room for that ambition alongside a description of the present experience."
+    },
+    {
+     "kind": "finished",
+     "path": "slides[4].text",
+     "after": "If you're growing a venue, you likely carry both pictures.\n\nHow couples arrive, use the spaces and move through the day right now.\nAnd the wedding you imagine when you think about what comes next.",
+     "before": "A description of where the venue is headed carries different information from an account of a couple's day there now.\n\nWe can be interested in both. Being clear about which account we're discussing lets the owner's vision remain a vision, rather than folding it into the present-day story."
+    },
+    {
+     "kind": "finished",
+     "path": "slides[5].text",
+     "after": "Both are worth talking about with the people behind your ads.\n\nThey answer different questions.\nOne tells us what couples experience when they book you today. The other tells us where the venue is going.",
+     "before": "**An owner's vision deserves to be understood in its own right.**\n\nIt doesn't need to become evidence of a current wedding to be meaningful. In the exchange we had, we requested the present-day account while leaving room for the venue the owner was imagining."
+    },
+    {
+     "kind": "finished",
+     "path": "slides[6].text",
+     "after": "**We believe an owner's vision deserves to be heard in its own right.**\n\nIt doesn't have to pass as a description of current weddings to matter.\nIt can sit beside them, clearly labeled, in one conversation.",
+     "before": "Whether you're looking for us to manage your ads or to launch your campaigns and support you while you run them, the expectation can be the same.\n\nA team can understand your ambitions and still be precise about which wedding experience it's discussing with you."
+    },
+    {
+     "kind": "finished",
+     "path": "slides[7].text",
+     "after": "Whether you want us to manage your ads for you, or to launch your campaigns and guide you while you run them, you should expect the same thing.\n\nReal interest in your venue's direction, and clear questions about which day we mean.",
+     "before": null
+    },
+    {
+     "kind": "finished",
+     "path": "caption.hook",
+     "after": "If you're growing a venue, you're hosting this year's weddings while picturing the next ones.",
+     "before": "The wedding an owner imagines can have its own place beside the weddings her venue hosts."
+    },
+    {
+     "kind": "finished",
+     "path": "caption.body",
+     "after": "That's a lot to hold. You know how couples move through the day now. You also know what you want the venue to become, and you're probably excited to talk about it.\n\nIn a recent strategy conversation, we asked a venue owner for a walkthrough of her ideal couple's wedding day. She checked which day we wanted: the one she envisioned, or what takes place now. We asked for a current couple's experience.\n\nThat clarification started with her. Our part was answering it clearly, so the walkthrough had one subject and her vision kept its own place.\n\nFor a venue moving into what's next, neither version has to substitute for the other. You can be ambitious about the future and specific about today in the same conversation.",
+     "before": "Developing a venue gives you more than one perspective to bring to an advertising conversation. You know the direction you want to take, and you know the experience of the couples there now. Those accounts can be discussed separately without making either one less meaningful.\n\nDuring a strategy conversation, we asked a venue owner for an ideal-couple wedding-day walkthrough. She checked whether we wanted her envisioned day or a description of what takes place. We clarified that the walkthrough should follow a current couple's experience.\n\nThe owner was the person who raised that distinction. Our contribution was to specify which account we were requesting, rather than leave the prompt open to either interpretation.\n\nFor a venue growing into its next chapter, that leaves space for both ambition and present experience. Neither has to stand in for the other just because they arise in the same discussion."
+    },
+    {
+     "kind": "finished",
+     "path": "caption.ending",
+     "after": "When you're shaping your venue's next chapter, both of those stories belong in the conversation about your ads.",
+     "before": "In this conversation, we asked for the current wedding account without asking the owner to set aside her vision for the venue."
+    }
+   ],
+   "published": [],
+   "content_hash": "fb2802862a46e86d380dfa90133c2b59fe70645e6c5df69fabddb5408ac39783",
+   "editable": [
+    "title",
+    "slides",
+    "caption",
+    "no_offer_ending"
+   ]
+  },
+  {
+   "key": "reel_1",
+   "channel": "reel",
+   "label": "Reel 1",
+   "kind": "story",
+   "ordinal": 3,
+   "origin": "finished",
+   "not_written_reason": null,
+   "brief_key": "reel_1",
+   "content": {
+    "cta": "none",
+    "job": "Shows a venue owner that her plans and her current couples' day can both be heard in a strategy conversation without being blended into one account.",
+    "kind": "story",
+    "beats": [
+     "Open with the owner's question about which wedding day to describe.",
+     "Give the ideal-couple prompt as context, then retell the owner's question in reported speech.",
+     "Explain Whitney's clarification without adding a motive or claiming a standing process.",
+     "Close with room for the owner's plans alongside the current experience."
+    ],
+    "title": "Which wedding day she asked about",
+    "script": "A venue owner asked me which wedding day I wanted her to describe.\n\nI had asked her to help me picture her ideal couple's wedding day. And she asked whether that would be visualizing what she'd love to see, or what actually happens.\n\nThat's a fair question, right? An ideal-couple prompt could take that conversation in either direction.\n\nI clarified that I meant what a current couple was experiencing. So, for that walkthrough, I was asking her to describe the day as it happens.\n\nI think there's room for that distinction when you're growing a venue. You can have a clear picture of what you want future weddings to look like and still have an experience happening now that deserves its own description.\n\nBoth can be part of the discussion. They just give us different accounts of the venue.\n\nIn this exchange, the owner asked which one I wanted, and I specified the current experience. Her plans didn't need to become part of that description for them to have a place in the conversation.",
+    "source": "new_script",
+    "caption": {
+     "body": "There's the day your couples have now: when they arrive, how they use the spaces, how the afternoon flows. And there's the day you're building toward, the one you picture when you think about where the venue is going.\n\nBoth are real to you. Both matter when you talk about your marketing. They just answer different questions.\n\nIn a recent strategy conversation, I invited a venue owner to walk me through her ideal couple's wedding day. Before she went on, she asked which version I meant: the one she envisioned, or what currently happens.\n\nShe was the one who drew that line. I clarified that I wanted a current couple's experience for that walkthrough. Nothing about that answer set her plans aside. It simply made clear which account we were talking about in that moment.\n\nWhen you're developing what comes next for a venue, you deserve a team that makes room for where you're headed and still asks what your couples are experiencing right now.",
+     "hook": "Growing a venue means carrying two wedding days in your head at once.",
+     "ending": "-Whitney"
+    },
+    "screens": null,
+    "register": "spoken",
+    "cover_text": "Your venue's vision and its current weddings",
+    "on_screen_hook": "A venue owner asked which wedding day I wanted to hear about",
+    "personal_lines": [
+     "That's a fair question, right?"
+    ],
+    "spoken_opening": "A venue owner asked me which wedding day I wanted her to describe.",
+    "no_offer_ending": null,
+    "cover_alternates": [
+     "Two wedding days live inside every growing venue",
+     "Today's wedding day has its own story"
+    ],
+    "offer_descriptor": null,
+    "read_time_seconds": 65
+   },
+   "brief_copy": {
+    "cta": "none",
+    "job": "Face-to-camera retelling of the owner's question and Whitney's clarification. Record a new script; keep the owner's question as her contribution, with no implication that she was overstating the venue.",
+    "kind": "story",
+    "beats": [
+     "Open with the owner's question about which wedding day to describe.",
+     "Give the ideal-couple prompt as context, then read the owner's question exactly.",
+     "Explain Whitney's clarification without adding a motive or claiming a standing process.",
+     "Close with room for the owner's plans alongside the current experience."
+    ],
+    "title": "A venue's vision and its current weddings",
+    "script": "A venue owner asked me which wedding day I wanted her to describe.\n\nI had asked her to help me picture her ideal couple's wedding day. And she asked whether that would be visualizing what she'd love to see, or what actually happens.\n\nThat's a fair question, right? An ideal-couple prompt could take that conversation in either direction.\n\nI clarified that I meant what a current couple was experiencing. So, for that walkthrough, I was asking her to describe the day as it happens.\n\nI think there's room for that distinction when you're growing a venue. You can have a clear picture of what you want future weddings to look like and still have an experience happening now that deserves its own description.\n\nBoth can be part of the discussion. They just give us different accounts of the venue.\n\nIn this exchange, the owner asked which one I wanted, and I specified the current experience. Her plans didn't need to become part of that description for them to have a place in the conversation.",
+    "source": "new_script",
+    "caption": {
+     "body": "There's a lot to discuss when you're shaping the next chapter of your venue. The way you picture future weddings can be clear and compelling, alongside the experience your couples are having now.\n\nIn a conversation with a venue owner, I invited a wedding-day walkthrough. She asked about the scope: should her answer follow her vision, or reflect current events? I clarified that I was asking about a current couple.\n\nThe owner brought that distinction into the discussion herself. My answer kept this part of the conversation focused on the present experience, without making a judgment about her plans.\n\nFor an owner developing a venue, both perspectives can be worth hearing. The direction you're taking the business is meaningful, and the weddings taking place now have their own account. In this exchange, we stayed with the latter rather than blending the two into a single description.",
+     "hook": "A venue can be growing without every wedding conversation being about what's next.",
+     "ending": "-Whitney"
+    },
+    "screens": null,
+    "register": "spoken",
+    "cover_text": "A venue's vision and its current weddings",
+    "on_screen_hook": "Which wedding experience was I asking about?",
+    "personal_lines": [],
+    "spoken_opening": "A venue owner asked me which wedding day I wanted her to describe.",
+    "no_offer_ending": null,
+    "cover_alternates": [],
+    "offer_descriptor": null,
+    "read_time_seconds": 78
+   },
+   "locks": [
+    {
+     "at": "2026-10-24T15:00:19.930225+00:00",
+     "path": "script",
+     "author": "ai@weddingindustryads.com",
+     "origin": "gate_two",
+     "delegated": true
+    }
+   ],
+   "findings": [
+    {
+     "finding_id": "check_8d11995041781a86",
+     "source": "check",
+     "check": "first_touch.specific",
+     "piece": "reel_1",
+     "path": "cover_text",
+     "sentence": null,
+     "severity": "warning",
+     "message": "Reel 1's cover \"Your venue's vision and its current weddings\" does not name its concrete subject (ads, budget, Google, Meta, inquiries, bookings): a cold reader cannot tell what it is about",
+     "status": "open",
+     "resolution": null,
+     "can_attest": false
+    },
+    {
+     "finding_id": "check_200d546b74453bf0",
+     "source": "check",
+     "check": "first_touch.specific",
+     "piece": "reel_1",
+     "path": "on_screen_hook",
+     "sentence": null,
+     "severity": "warning",
+     "message": "Reel 1's on-screen hook \"A venue owner asked which wedding day I wanted to hear about\" does not name its concrete subject (ads, budget, Google, Meta, inquiries, bookings): a cold reader cannot tell what it is about",
+     "status": "open",
+     "resolution": null,
+     "can_attest": false
+    },
+    {
+     "finding_id": "check_cbf8f982c8f75a63",
+     "source": "check",
+     "check": "copy.sibling_overlap",
+     "piece": "reel_1",
+     "path": "caption.body",
+     "sentence": null,
+     "severity": "warning",
+     "message": "Reel 1's caption body and Reel 2's script repeat the same words (\"a venue owner to walk me through her...\"): siblings repeat the idea, never the language",
+     "status": "open",
+     "resolution": null,
+     "can_attest": false
+    },
+    {
+     "finding_id": "check_8c23ec6554e34cf2",
+     "source": "check",
+     "check": "copy.sibling_overlap",
+     "piece": "reel_1",
+     "path": "caption.body",
+     "sentence": null,
+     "severity": "warning",
+     "message": "Reel 1's caption body and Reel 3's caption body repeat the same words (\"a venue owner to walk me through her...\"): siblings repeat the idea, never the language",
+     "status": "open",
+     "resolution": null,
+     "can_attest": false
+    }
+   ],
+   "changes": [
+    {
+     "kind": "finished",
+     "path": "cover_text",
+     "after": "Your venue's vision and its current weddings",
+     "before": "A venue's vision and its current weddings"
+    },
+    {
+     "kind": "finished",
+     "path": "cover_alternates[0]",
+     "after": "Two wedding days live inside every growing venue",
+     "before": null
+    },
+    {
+     "kind": "finished",
+     "path": "cover_alternates[1]",
+     "after": "Today's wedding day has its own story",
+     "before": null
+    },
+    {
+     "kind": "finished",
+     "path": "on_screen_hook",
+     "after": "A venue owner asked which wedding day I wanted to hear about",
+     "before": "Which wedding experience was I asking about?"
+    },
+    {
+     "kind": "finished",
+     "path": "caption.hook",
+     "after": "Growing a venue means carrying two wedding days in your head at once.",
+     "before": "A venue can be growing without every wedding conversation being about what's next."
+    },
+    {
+     "kind": "finished",
+     "path": "caption.body",
+     "after": "There's the day your couples have now: when they arrive, how they use the spaces, how the afternoon flows. And there's the day you're building toward, the one you picture when you think about where the venue is going.\n\nBoth are real to you. Both matter when you talk about your marketing. They just answer different questions.\n\nIn a recent strategy conversation, I invited a venue owner to walk me through her ideal couple's wedding day. Before she went on, she asked which version I meant: the one she envisioned, or what currently happens.\n\nShe was the one who drew that line. I clarified that I wanted a current couple's experience for that walkthrough. Nothing about that answer set her plans aside. It simply made clear which account we were talking about in that moment.\n\nWhen you're developing what comes next for a venue, you deserve a team that makes room for where you're headed and still asks what your couples are experiencing right now.",
+     "before": "There's a lot to discuss when you're shaping the next chapter of your venue. The way you picture future weddings can be clear and compelling, alongside the experience your couples are having now.\n\nIn a conversation with a venue owner, I invited a wedding-day walkthrough. She asked about the scope: should her answer follow her vision, or reflect current events? I clarified that I was asking about a current couple.\n\nThe owner brought that distinction into the discussion herself. My answer kept this part of the conversation focused on the present experience, without making a judgment about her plans.\n\nFor an owner developing a venue, both perspectives can be worth hearing. The direction you're taking the business is meaningful, and the weddings taking place now have their own account. In this exchange, we stayed with the latter rather than blending the two into a single description."
+    }
+   ],
+   "published": [],
+   "content_hash": "8ba0f8944964f5807e6b97fb51a1699dd8cfd056a41faaa206f2cd6b39588e18",
+   "editable": [
+    "title",
+    "cover_text",
+    "cover_alternates",
+    "on_screen_hook",
+    "spoken_opening",
+    "script",
+    "screens",
+    "caption",
+    "personal_lines",
+    "no_offer_ending"
+   ]
+  },
+  {
+   "key": "reel_2",
+   "channel": "reel",
+   "label": "Reel 2",
+   "kind": "stance",
+   "ordinal": 4,
+   "origin": "written",
+   "not_written_reason": null,
+   "brief_key": null,
+   "content": {
+    "cta": "none",
+    "job": "Gives Whitney's stance that a venue owner's vision deserves a real place in a strategy conversation without being blended into the description of today's weddings, with the exchange as brief proof.",
+    "kind": "stance",
+    "beats": [
+     "Open on Whitney's stance: the owner's vision belongs in the conversation, separate from today's weddings.",
+     "Name the reader's two pictures: the current couple's day and the venue's direction.",
+     "Prove it with the exchange in two lines: the owner raised the distinction, Whitney asked for a current couple's experience.",
+     "Close softly on what a good team does with both, with no ask."
+    ],
+    "title": "Her plans belong in the conversation",
+    "script": "I think a venue owner's vision for the future deserves a real place in a strategy conversation. I just don't think it should get blended into the description of the weddings she's hosting today.\n\nHere's what I mean. If you're growing a venue, you're probably holding two pictures at once. There's what couples experience at your venue right now, and there's what you're building toward. Both of those matter when we're talking about your marketing. They're just different accounts.\n\nI saw this come up on a call recently. I asked a venue owner to walk me through her ideal couple's wedding day, and she asked whether I wanted the day she envisioned or the day as it currently happens. She made that distinction herself. I told her I meant what a current couple experiences.\n\nThat didn't take anything away from her plans. It just meant we both knew which day we were talking about.\n\nSo if you're working on your venue's next chapter, I think the right people around you will want to hear about both, and they'll be clear with you about which one they're asking for.",
+    "source": "new_script",
+    "caption": {
+     "body": "Maybe you're getting clearer on the weddings you want to be known for, or picturing how the venue will feel a few years from now. That thinking matters, and it shapes how you talk about your business.\n\nAt the same time, couples are booking and getting married there right now, and their day has its own shape.\n\nI asked a venue owner recently to walk me through her ideal couple's wedding day. She asked me whether I wanted the day she pictured or the day couples currently have. I told her I meant a current couple's experience. She was the one who named the difference.\n\nI don't see that as choosing one over the other. Her vision still had a place in our conversation. It just wasn't the same account as a couple's day at her venue today.\n\nWhen you're building something bigger, you should be able to share both with the people behind your marketing and trust that they know which one they're hearing.",
+     "hook": "Your plans for your venue belong in a conversation about your marketing.",
+     "ending": "-Whitney"
+    },
+    "screens": null,
+    "register": "spoken",
+    "cover_text": "Where your venue is going is its own story",
+    "on_screen_hook": "Your venue's vision matters. So does the wedding day couples have there now.",
+    "personal_lines": [],
+    "spoken_opening": "I think a venue owner's vision for the future deserves a real place in a strategy conversation.",
+    "no_offer_ending": null,
+    "cover_alternates": [
+     "Your venue's plans deserve their own place",
+     "Today's weddings and tomorrow's plans, heard separately"
+    ],
+    "offer_descriptor": null,
+    "read_time_seconds": 75
+   },
+   "brief_copy": null,
+   "locks": [],
+   "findings": [
+    {
+     "finding_id": "check_d0e8c7aee24c5511",
+     "source": "check",
+     "check": "first_touch.specific",
+     "piece": "reel_2",
+     "path": "cover_text",
+     "sentence": null,
+     "severity": "warning",
+     "message": "Reel 2's cover \"Where your venue is going is its own story\" does not name its concrete subject (ads, budget, Google, Meta, inquiries, bookings): a cold reader cannot tell what it is about",
+     "status": "open",
+     "resolution": null,
+     "can_attest": false
+    },
+    {
+     "finding_id": "check_18b7cd3cd145c359",
+     "source": "check",
+     "check": "copy.sibling_overlap",
+     "piece": "reel_2",
+     "path": "script",
+     "sentence": null,
+     "severity": "warning",
+     "message": "Reel 2's script and Reel 3's caption body repeat the same words (\"a venue owner to walk me through her...\"): siblings repeat the idea, never the language",
+     "status": "open",
+     "resolution": null,
+     "can_attest": false
+    }
+   ],
+   "changes": [
+    {
+     "kind": "written",
+     "note": "Written by the finisher: the brief had no face to camera (stance) Reel",
+     "path": "*"
+    }
+   ],
+   "published": [],
+   "content_hash": "1c7e756c282ca157eda6136c3ed445dac30726c930b9174b610b3f4cba1dbcc3",
+   "editable": [
+    "title",
+    "cover_text",
+    "cover_alternates",
+    "on_screen_hook",
+    "spoken_opening",
+    "script",
+    "screens",
+    "caption",
+    "personal_lines",
+    "no_offer_ending"
+   ]
+  },
+  {
+   "key": "reel_3",
+   "channel": "reel",
+   "label": "Reel 3",
+   "kind": "broll_text",
+   "ordinal": 5,
+   "origin": "finished",
+   "not_written_reason": null,
+   "brief_key": "reel_2",
+   "content": {
+    "cta": "none",
+    "job": "Lets a cold viewer follow the turn from the owner's question to Whitney's answer on screen, with the caption carrying the context.",
+    "kind": "broll_text",
+    "beats": [
+     "Credits the owner with raising the distinction.",
+     "Credits Whitney with specifying the present-day account.",
+     "Preserves a positive place for the owner's vision."
+    ],
+    "title": "Vision or today, three screens",
+    "script": null,
+    "source": "new_script",
+    "caption": {
+     "body": "If you're investing in a venue's growth, you probably know both versions well. There's the day couples have with you now. And there's the day you picture as the venue keeps evolving.\n\nIt's easy for those to run together when someone asks you to describe your weddings. You're proud of what's happening now, and you're excited about what's coming.\n\nOn a recent strategy call, I invited a venue owner to walk me through her ideal couple's day. She asked whether I meant the experience she hoped for or the one happening now. I specified a current couple's experience.\n\nShe raised that distinction on her own. My answer gave the walkthrough a clear subject, with her vision kept as its own story.\n\nThat's what I want for every owner building something bigger: room to talk about where you're going, and a team that's clear about which wedding day it's asking about.",
+     "hook": "The weddings your venue hosts now and the ones you're planning for both say something true about your business.",
+     "ending": "-Whitney"
+    },
+    "screens": [
+     "Her vision for weddings, or what couples experience at her venue today? A venue owner asked me which one I wanted to hear.",
+     "I asked for today's: what a current couple experiences.",
+     "Her vision still belonged in the conversation. It just told a different story than that couple's day."
+    ],
+    "register": "on_screen",
+    "cover_text": "Today's wedding day, or the one you're building?",
+    "on_screen_hook": "Her vision for weddings, or what couples experience at her venue today? A venue owner asked me which one I wanted to hear.",
+    "personal_lines": [],
+    "spoken_opening": null,
+    "no_offer_ending": null,
+    "cover_alternates": [
+     "Two versions of your venue's wedding day",
+     "The wedding day your couples have now"
+    ],
+    "offer_descriptor": null,
+    "read_time_seconds": 20
+   },
+   "brief_copy": {
+    "cta": "none",
+    "job": "Three-screen text Reel showing the turn from the owner's clarification to Whitney's answer. Use available neutral desk or planning b-roll, not footage presented as this venue or this call. The caption supplies the context.",
+    "kind": "broll_text",
+    "beats": [
+     "Credits the owner with raising the distinction.",
+     "Credits Whitney with specifying the present-day account.",
+     "Preserves a positive place for the owner's vision."
+    ],
+    "title": "Two versions of a venue's wedding day",
+    "script": null,
+    "source": "new_script",
+    "caption": {
+     "body": "When you're putting thought into how your venue will evolve, that vision is part of what you bring to a conversation about advertising. It can sit alongside your knowledge of the weddings you host, rather than taking the place of that knowledge.\n\nOne owner made the distinction herself during a strategy discussion. After I invited her to describe an ideal couple's day, she asked whether I meant the experience she hoped for or the events currently taking place. I specified the experience of a current couple.\n\nThat gave this particular walkthrough a defined subject. We were discussing the present-day wedding, while the owner's envisioned experience remained a separate account.\n\nI see room for both when talking about a growing venue. Hearing the direction an owner wants to take doesn't require treating that direction as a description of current events. Here, her clarification and my response established which account we were discussing.",
+     "hook": "Planning a venue's future and describing its present call for different answers.",
+     "ending": "-Whitney"
+    },
+    "screens": [
+     "A venue owner asked: describe her vision for weddings, or a current couple's experience?",
+     "I clarified that I meant the wedding day as it happens now.",
+     "Her vision could be discussed separately, without becoming the account of that couple's day."
+    ],
+    "register": "on_screen",
+    "cover_text": "Two versions of a venue's wedding day",
+    "on_screen_hook": "A venue owner asked: describe her vision for weddings, or a current couple's experience?",
+    "personal_lines": [],
+    "spoken_opening": null,
+    "no_offer_ending": null,
+    "cover_alternates": [],
+    "offer_descriptor": null,
+    "read_time_seconds": 22
+   },
+   "locks": [],
+   "findings": [
+    {
+     "finding_id": "check_25b1998ce51e5e49",
+     "source": "check",
+     "check": "first_touch.specific",
+     "piece": "reel_3",
+     "path": "cover_text",
+     "sentence": null,
+     "severity": "warning",
+     "message": "Reel 3's cover \"Today's wedding day, or the one you're building?\" does not name its concrete subject (ads, budget, Google, Meta, inquiries, bookings): a cold reader cannot tell what it is about",
+     "status": "open",
+     "resolution": null,
+     "can_attest": false
+    }
+   ],
+   "changes": [
+    {
+     "kind": "finished",
+     "path": "cover_text",
+     "after": "Today's wedding day, or the one you're building?",
+     "before": "Two versions of a venue's wedding day"
+    },
+    {
+     "kind": "finished",
+     "path": "cover_alternates[0]",
+     "after": "Two versions of your venue's wedding day",
+     "before": null
+    },
+    {
+     "kind": "finished",
+     "path": "cover_alternates[1]",
+     "after": "The wedding day your couples have now",
+     "before": null
+    },
+    {
+     "kind": "finished",
+     "path": "on_screen_hook",
+     "after": "Her vision for weddings, or what couples experience at her venue today? A venue owner asked me which one I wanted to hear.",
+     "before": "A venue owner asked: describe her vision for weddings, or a current couple's experience?"
+    },
+    {
+     "kind": "finished",
+     "path": "screens[0]",
+     "after": "Her vision for weddings, or what couples experience at her venue today? A venue owner asked me which one I wanted to hear.",
+     "before": "A venue owner asked: describe her vision for weddings, or a current couple's experience?"
+    },
+    {
+     "kind": "finished",
+     "path": "screens[1]",
+     "after": "I asked for today's: what a current couple experiences.",
+     "before": "I clarified that I meant the wedding day as it happens now."
+    },
+    {
+     "kind": "finished",
+     "path": "screens[2]",
+     "after": "Her vision still belonged in the conversation. It just told a different story than that couple's day.",
+     "before": "Her vision could be discussed separately, without becoming the account of that couple's day."
+    },
+    {
+     "kind": "finished",
+     "path": "caption.hook",
+     "after": "The weddings your venue hosts now and the ones you're planning for both say something true about your business.",
+     "before": "Planning a venue's future and describing its present call for different answers."
+    },
+    {
+     "kind": "finished",
+     "path": "caption.body",
+     "after": "If you're investing in a venue's growth, you probably know both versions well. There's the day couples have with you now. And there's the day you picture as the venue keeps evolving.\n\nIt's easy for those to run together when someone asks you to describe your weddings. You're proud of what's happening now, and you're excited about what's coming.\n\nOn a recent strategy call, I invited a venue owner to walk me through her ideal couple's day. She asked whether I meant the experience she hoped for or the one happening now. I specified a current couple's experience.\n\nShe raised that distinction on her own. My answer gave the walkthrough a clear subject, with her vision kept as its own story.\n\nThat's what I want for every owner building something bigger: room to talk about where you're going, and a team that's clear about which wedding day it's asking about.",
+     "before": "When you're putting thought into how your venue will evolve, that vision is part of what you bring to a conversation about advertising. It can sit alongside your knowledge of the weddings you host, rather than taking the place of that knowledge.\n\nOne owner made the distinction herself during a strategy discussion. After I invited her to describe an ideal couple's day, she asked whether I meant the experience she hoped for or the events currently taking place. I specified the experience of a current couple.\n\nThat gave this particular walkthrough a defined subject. We were discussing the present-day wedding, while the owner's envisioned experience remained a separate account.\n\nI see room for both when talking about a growing venue. Hearing the direction an owner wants to take doesn't require treating that direction as a description of current events. Here, her clarification and my response established which account we were discussing."
+    }
+   ],
+   "published": [],
+   "content_hash": "27ee86a1639de7a1f62d07d7567c7bcdc91125d5493e46499083e661108c95fe",
+   "editable": [
+    "title",
+    "cover_text",
+    "cover_alternates",
+    "on_screen_hook",
+    "spoken_opening",
+    "script",
+    "screens",
+    "caption",
+    "personal_lines",
+    "no_offer_ending"
+   ]
+  }
+ ],
+ "findings": [],
+ "ready_blockers": [],
+ "before_publishing": [
+  {
+   "id": "P1",
+   "done": null,
+   "kind": "permission",
+   "text": "Obtain recorded permission to use the anonymous exchange, including source-use and attribution clearance for the owner's question and Whitney's quoted reply. Hold all assets until that permission is recorded.",
+   "answer": "Before posting: WIA confirms the client's okay",
+   "required": true,
+   "client_permission": true
+  },
+  {
+   "id": "P2",
+   "done": null,
+   "kind": "fact",
+   "text": "Confirm the speaker labels and quoted wording against the audio at 69:05 to 69:16 before publishing the client's question or Whitney's reply.",
+   "answer": "Checked under D12 by the WIA team against the transcript (The Brightside | Messaging & Positioning Call, transcript_5b0389844e4a927240f1ec39, 69:05 to 69:16): the owner asks the question and Whitney answers it. Both are now told in reported speech, so no quotation is published; WIA confirms the audio before posting.",
+   "required": true,
+   "client_permission": false
+  },
+  {
+   "id": "P3",
+   "done": null,
+   "kind": "do_not_claim",
+   "text": "Keep the copy confined to this clarification. Do not add the unbound patio passage, installation timing, a claim that campaign content changed, or a claim about why Whitney asked or how frequently WIA does this.",
+   "answer": "Kept out under D12: no patio passage, installation timing, campaign change, motive for the question or claim about how often WIA does this.",
+   "required": true,
+   "client_permission": false
+  },
+  {
+   "id": "P4",
+   "done": null,
+   "kind": "other",
+   "text": "Check the publication date and status of prior angle angle_36f6b25c9a0840b05725a515. If it published this central point within the last 90 days, hold this piece rather than publish a duplicate.",
+   "answer": "Checked under D12 by the WIA team: angle_36f6b25c9a0840b05725a515 (\"How we separate today's wedding experience from future plans\") is an unapproved card from the 12 October week's cycle, never briefed or published (no published record), so there is no duplicate to hold for.",
+   "required": true,
+   "client_permission": false
+  },
+  {
+   "id": "P5",
+   "done": null,
+   "kind": "cta",
+   "text": "Confirm the proposed no-explicit-ask choice and the following week's email date, send time and recipient segment at Gate 2.",
+   "answer": "Confirmed under D12: no explicit ask on any piece; the email's send date, time and list are WIA's to confirm when scheduling.",
+   "required": true,
+   "client_permission": false
+  }
+ ],
+ "client_quotes": [],
+ "stronger_with_permission": [
+  "Concrete details from the owner's walkthrough of a current couple's day would make the present-day account vivid, but P3 confines the copy to the clarification itself.",
+  "Naming a specific planned change at the venue would make the owner's vision tangible, but the patio passage and installation timing are kept out under P3."
+ ],
+ "pack_notes": [
+  "Hold every asset until the client's permission is recorded (P1), even though no quotation is published.",
+  "No client words appear in quotation marks; the owner's question and Whitney's reply are told in reported speech per P2, so client_quotes is empty.",
+  "The brief planned two Reels and no separate stance; the pack format requires three, so reel_2 is newly written and needs Whitney's approval before she records it.",
+  "The email opening now mentions how couples would use the spaces and how the day would flow, which restates Whitney's own prompt at 68:45 in reported speech; confirm she is comfortable with that detail.",
+  "Personal line in reel_1 ('That's a fair question, right?') sits inside the locked script; Whitney may keep or cut it when recording."
+ ],
+ "change_notes": [
+  "Email: new subject options that name the reader's question about their venue's wedding day; preview finishes the thought; opening adds her prompt's own scope in reported speech; locked body kept exactly; ending rewritten from an abstract kicker into a plain line about what the reader should expect.",
+  "Reel 1: locked script kept exactly; cover made specific to the venue; on-screen hook changed so it names the venue owner's question; caption rebuilt in hook, reader's world, story, transformation order without repeating email spans.",
+  "Reel 2: written new as Whitney's stance on the same central point, face to camera, with the exchange as two lines of proof and no new facts or ask.",
+  "Reel 3: screens rewritten so a cold viewer follows the turn and the first screen names the subject; question cover varies the grid; caption adds the reader's world and drops abstract phrasing.",
+  "Carousel: expanded to 8 slides with stacked short lines, one bold line per slide at most, a real story beat, a belief slide starting 'We believe', and a closing slide naming both ways of working with no offer name, link or keyword; caption rewritten around the reader's two pictures."
+ ],
+ "fidelity": {
+  "open": 0,
+  "flags": [],
+  "checked": 40,
+  "repairs": [],
+  "settled": [],
+  "put_back": 0,
+  "rechecked": 0,
+  "survivors": [],
+  "check_called": true,
+  "recheck_flags": [],
+  "repair_called": false,
+  "missed_patches": [],
+  "recheck_called": false,
+  "finisher_called": true
+ },
+ "provenance": {
+  "mode": "live",
+  "models": {
+   "writer": "anthropic/claude-opus-5.5",
+   "reviewer": "anthropic/claude-sonnet-5.5"
+  },
+  "run_id": "pack_run_0e0cd1e580f774d1f0113f06",
+  "brief_id": "brief_90383dd6899a46fa9fcf296dbccd6870",
+  "profiles": {
+   "pack_check": "2026-10-25.pack-check.v2",
+   "pack_finish": "2026-10-25.pack-finish.v2",
+   "pack_repair": "2026-10-25.pack-repair.v1",
+   "pack_recheck": "2026-10-25.pack-check.v2"
+  },
+  "approved_by": "ai@weddingindustryads.com",
+  "finish_mode": "finish",
+  "brief_schema": "brief_document_v4",
+  "approved_hash": "b5c86442bd693ee963f5b7e1ac8c90e602dfd0a1be62ac256598cce0ed34083f",
+  "handoff_version": "brief_handoff_v2",
+  "approval_delegated": true,
+  "knowledge_base_version": "wia-kb-2026-10-22.c-a1a75795"
+ },
+ "change": {
+  "at": "2026-10-24T15:02:06.957099+00:00",
+  "by": "content-pack step",
+  "kind": "finish_again",
+  "note": null,
+  "paths": [],
+  "pieces": [],
+  "delegated": false
+ },
+ "versions": [
+  {
+   "pack_id": "pack_4d90444c10dffed282d55f05",
+   "supersedes_id": null,
+   "manifest_hash": null,
+   "approval_status": "pending",
+   "created_at": "2026-10-24T15:00:42.046340+00:00",
+   "run_id": "pack_run_4d90444c10dffed282d55f05",
+   "kind": "finishing",
+   "by": "ai@weddingindustryads.com",
+   "delegated": false,
+   "pieces": [],
+   "paths": [],
+   "note": null
+  },
+  {
+   "pack_id": "pack_0e0cd1e580f774d1f0113f06",
+   "supersedes_id": "pack_4d90444c10dffed282d55f05",
+   "manifest_hash": "b0a14ff5c12a8ae715f7f695d28a33238df48b13fc266b6ea939b66f78f60686",
+   "approval_status": "pending",
+   "created_at": "2026-10-24T15:02:06.957099+00:00",
+   "run_id": "pack_run_0e0cd1e580f774d1f0113f06",
+   "kind": "finish_again",
+   "by": "content-pack step",
+   "delegated": false,
+   "pieces": [],
+   "paths": [],
+   "note": null
+  }
+ ],
+ "approval_delegated": true,
+ "can_edit": true,
+ "can_decide": true,
+ "can_finish_again": true,
+ "can_mark_published": true
+}

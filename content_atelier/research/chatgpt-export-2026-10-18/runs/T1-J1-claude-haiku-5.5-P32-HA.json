@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J1-claude-haiku-5.5-P32-HA",
+  "model": "anthropic/claude-haiku-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 16150,
+  "completion_tokens": 283,
+  "cached_tokens": 15842,
+  "cost": 0.00033072,
+  "seconds": 2.6,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "0208f2775bd2"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 4,
+  "reason": "Version B opens with a personal observation and a clear insight about value communication, which matches Whitney's curiosity-driven, principle-first voice, while Version A is generic, polished sales copy with hype-adjacent phrasing like 'amplify' and 'at scale'."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: email\n\nVersion A:\nI created this session for planners who are ready to amplify what’s already working in their business.\n\nWhen your marketing foundations are dialed in, ads become a strategic way to expand reach, reinforce positioning, and attract more aligned clients at scale.\n\nVersion B:\nI created this session because I keep seeing incredibly talented planners struggle to clearly communicate their value — especially as their work becomes more complex and higher-level.",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

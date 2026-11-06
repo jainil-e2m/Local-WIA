@@ -1,0 +1,73 @@
+{
+  "source_type": "fathom",
+  "recording_id": 191821545,
+  "week": 20,
+  "timezone": "Asia/Kolkata",
+  "occurrence_ist": "2026-10-12T20:33:26+05:30",
+  "source_metadata": {
+    "recording_id": 191821545,
+    "meeting_title": "Impromptu Zoom Meeting",
+    "title": "Impromptu Zoom Meeting",
+    "recording_start_time": "2026-10-12T15:03:26Z",
+    "recording_end_time": "2026-10-12T15:17:15Z",
+    "scheduled_start_time": "2026-10-12T15:02:46Z",
+    "scheduled_end_time": "2026-10-12T15:17:46Z",
+    "recorded_by": {
+      "name": "Carmen Cruickshank",
+      "email": "carmen@weddingindustryads.com",
+      "email_domain": "weddingindustryads.com",
+      "team": "WIA"
+    },
+    "calendar_invitees": [
+      {
+        "name": "Carmen Cruickshank",
+        "email": "carmen@weddingindustryads.com",
+        "email_domain": "weddingindustryads.com",
+        "is_external": false,
+        "matched_speaker_display_name": null
+      }
+    ],
+    "meeting_url": "https://zoom.us/j/2085528765?pwd=",
+    "shared_with": "all_teams",
+    "url": "https://fathom.video/calls/858313028",
+    "share_url": "https://fathom.video/share/mWNCbY2_bRXUBxCSiNBNsb5HnZFwW9HM",
+    "created_at": "2026-10-12T15:17:29Z",
+    "transcript_language": "en"
+  },
+  "download_provenance": {
+    "recording_id": 191821545,
+    "week": 20,
+    "segments": 154,
+    "sha256": "05374114192d10350ec762a7be620a646f83291fa5116aef16876c998e4ed44f",
+    "reused": false,
+    "checked_at_utc": "2026-10-14T13:26:04.298Z"
+  },
+  "transcript_sha256": "05374114192d10350ec762a7be620a646f83291fa5116aef16876c998e4ed44f",
+  "classification": "zoom-overlap",
+  "selected_as_additional_source": false,
+  "zoom_counterpart": {
+    "week": 20,
+    "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week20\\Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+    "filename": "Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+    "shared_5grams": 1132,
+    "fathom_5gram_coverage": 0.7427821522309711,
+    "zoom_5gram_coverage": 0.6936274509803921,
+    "matched_tokens": 1480,
+    "fathom_token_coverage": 0.9660574412532638,
+    "zoom_token_coverage": 0.9035409035409036,
+    "zoom_token_count": 1638,
+    "zoom_last_cue_seconds": 845.0,
+    "speakers": [
+      "Carmen Cruickshank",
+      "Whitney Hodges"
+    ]
+  },
+  "paired_capture_recording_ids": [
+    191819766
+  ],
+  "processing_status": "gathered_only",
+  "chunking_status": "not_started",
+  "embedding_status": "not_started",
+  "source_speaker_labels_preserved": true,
+  "source_end_times": "not supplied; none invented"
+}

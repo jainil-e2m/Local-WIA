@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J1-claude-haiku-5.5-P04-HA",
+  "model": "anthropic/claude-haiku-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 16144,
+  "completion_tokens": 704,
+  "cached_tokens": 15842,
+  "cost": 0.00054062,
+  "seconds": 4.1,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "a817d5fda7fa"
+ },
+ "output": {
+  "choice": "A",
+  "confidence": 3,
+  "reason": "Version A frames the funnel as qualifying and pre-selling buyers, which fits Whitney's systems-and-decisions thinking, while Version B's 'leads on autopilot' contradicts WIA's position that ads need ongoing testing and ownership."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: threads\n\nVersion A:\n\"you look happier\"\nThanks, I stopped taking dead-end sales calls.\nNow my funnel weeds out tire kickers and pre-sells my services before I even get on Zoom.\n\nVersion B:\n“you look less stressed”  \nThanks, I stopped chasing the algorithm.  \nNow I run Google + Meta Ads that bring in leads on autopilot.",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

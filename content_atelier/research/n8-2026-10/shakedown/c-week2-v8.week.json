@@ -1,0 +1,1876 @@
+{
+ "week": {
+  "week_id": "week_2026-06-07",
+  "week_start": "2026-06-07",
+  "week_end": "2026-06-13",
+  "status": "queued",
+  "active_run_id": "run_97ed9c57872146f3beb53d3f15fdbf32",
+  "coverage_notes": null,
+  "created_at": "2026-10-25T08:06:31.973563+00:00"
+ },
+ "angles": [],
+ "selection": null,
+ "strategy_brief": {
+  "on": "2026-10-25",
+  "mix": {
+   "WARM": 3,
+   "ATTRACT": 1,
+   "CONVERT": 1
+  },
+  "inputs": {
+   "documents": {
+    "offer_sheet": "83d9f5b153e3c6407157a91234af1a45cc4cddfbb31ac700ccbff6e0b30db78f",
+    "content_strategy": "acd0bf09ae43b19eee75f857fd3e1532f696f68174eb3c9e15b3ce5a63f9d601",
+    "belief_statements": "0e9797c4f372e416cc6781cf3e8692a7d325680df0955596515720ddc0f5357e"
+   },
+   "published_points": 46,
+   "belief_bank_sha256": "f4f125dca8f93bb175d0a7dedfbb5975c7849b4e8f0c42c6cf3cec028f04543b",
+   "offer_calendar_sha256": "df5a5a70037392aa1e31ae30fd910cd8667344034fcdf1ab1442090913eddb4a",
+   "knowledge_base_version": "wia-kb-2026-10-22.c-a1a75795"
+  },
+  "season": {
+   "name": "engagement_lead_up",
+   "label": "Engagement season starts in about 5 weeks (December to February): wedding pros are planning their ads and budgets for it now",
+   "weeks_to_engagement_season": 5
+  },
+  "made_by": "system: deterministic assembler from the knowledge base (no model call)",
+  "version": "strategy-brief.v1",
+  "warnings": [],
+  "brief_hash": "c1eb6eacaff707833397c5f394622c02f7cde5595acd5d52b556cd2f419b0874",
+  "live_offers": [
+   {
+    "ends": null,
+    "offer": "ELEVATE",
+    "terms": [],
+    "source": "KB 05: waitlist, then a discovery call",
+    "starts": null,
+    "status": "waitlist",
+    "sellable": true,
+    "do_not_undercut": [
+     "Hiring an ads agency is a waste of money for a wedding business",
+     "You do not need an agency to run your wedding ads"
+    ]
+   },
+   {
+    "ends": null,
+    "offer": "Google Search Accelerator",
+    "terms": [],
+    "source": "KB 05: application, then a qualifying email and a proposal",
+    "starts": null,
+    "status": "open",
+    "sellable": true,
+    "do_not_undercut": [
+     "Wedding pros cannot learn to run their own Google ads"
+    ]
+   },
+   {
+    "ends": null,
+    "offer": "Meta Ads Accelerator",
+    "terms": [],
+    "source": "KB 05: application, then a qualifying email and a proposal",
+    "starts": null,
+    "status": "open",
+    "sellable": true,
+    "do_not_undercut": [
+     "Wedding pros cannot learn to run their own Meta ads"
+    ]
+   },
+   {
+    "ends": null,
+    "offer": "Ads Accelerator Bundle",
+    "terms": [],
+    "source": "KB 05: application, then a proposal",
+    "starts": null,
+    "status": "open",
+    "sellable": true,
+    "do_not_undercut": []
+   },
+   {
+    "ends": null,
+    "offer": "LeadLock and The Foolproof Follow-Up Advantage",
+    "terms": [],
+    "source": "KB 05: sold alone, or included with ELEVATE",
+    "starts": null,
+    "status": "open",
+    "sellable": true,
+    "do_not_undercut": [
+     "Automated follow-up feels impersonal to couples and loses bookings"
+    ]
+   },
+   {
+    "ends": "2026-11-08",
+    "note": "The 2026 giveaway closed on 16 October; Carmen runs the five audits from late October to early November. No audit CTA in this window.",
+    "offer": "Google Ads Audit Giveaway",
+    "terms": [
+     "one-off audit",
+     "one-time audit",
+     "free audit",
+     "after your audit",
+     "after the audit",
+     "audit isn't enough",
+     "audits aren't enough",
+     "outgrow an audit",
+     "outgrowing one-off audits"
+    ],
+    "source": "KB 14 (19 Oct to 1 Nov entry); KB 05 (Google Ads Audit Giveaway)",
+    "starts": "2026-10-19",
+    "status": "delivering",
+    "sellable": false,
+    "do_not_undercut": [
+     "A one-off ads audit is not enough to fix your ads",
+     "After an audit you are left to do the work on your own",
+     "Free ads audits are only a sales tactic"
+    ]
+   }
+  ],
+  "content_plan": [],
+  "priority_series": [
+   {
+    "name": "Stop Boosting Posts",
+    "last_published": "2025-12-30"
+   },
+   {
+    "name": "Ad Leads Aren't Worse Than Referrals. They're Just Colder.",
+    "last_published": null
+   },
+   {
+    "name": "Watch Us Build an Ad Strategy",
+    "last_published": null
+   },
+   {
+    "name": "We Measure Conversions, Not Clicks",
+    "last_published": null
+   },
+   {
+    "name": "Wedding Ad Campaign Breakdowns",
+    "last_published": null
+   },
+   {
+    "name": "Why I Walked Away From 12 Years in Wedding Sales",
+    "last_published": null
+   }
+  ],
+  "beliefs_to_prove": [
+   {
+    "id": "stop-boosting",
+    "ref": "B1",
+    "offer": "Meta Ads Accelerator",
+    "stage": "ATTRACT",
+    "belief": "Boosting a post isn't an ad strategy.",
+    "offers": [
+     "Meta Ads Accelerator"
+    ],
+    "quotes": [
+     {
+      "text": "Stop boosting posts.",
+      "document": "content_strategy"
+     }
+    ],
+    "last_proved": "2025-12-30",
+    "do_not_repeat": [
+     {
+      "title": "\"Where most wedding pros get stuck with Meta ads\" / preview \"If you've felt overwhelmed, you're not alone\" (Meta Ads Accelerator by reply only)",
+      "channel": "Email",
+      "key_message": "Where most wedding pros get stuck with Meta ads: boosting posts is easy but rarely effective, and the Meta Ads Accelerator teaches the strategy.",
+      "published_on": "2025-12-30"
+     }
+    ],
+    "priority_series": "Stop Boosting Posts"
+   },
+   {
+    "id": "results-compound",
+    "ref": "B2",
+    "offer": "ELEVATE",
+    "stage": "WARM",
+    "belief": "Ad results compound: what an account learns this season pays off in the next.",
+    "offers": [
+     "ELEVATE"
+    ],
+    "quotes": [
+     {
+      "text": "with ads, results compound the longer you're in the game.",
+      "document": "belief_statements"
+     },
+     {
+      "text": "Ads aren't a faucet you turn on for leads.",
+      "document": "content_strategy"
+     }
+    ],
+    "last_proved": null,
+    "do_not_repeat": [],
+    "priority_series": null
+   },
+   {
+    "id": "system-not-vacuum",
+    "ref": "B3",
+    "offer": "ELEVATE",
+    "stage": "WARM",
+    "belief": "We build a sales system around the ads, not ads in a vacuum, so some of our most useful work isn't the ads themselves.",
+    "offers": [
+     "ELEVATE"
+    ],
+    "quotes": [
+     {
+      "text": "Most agencies run your ads in a vacuum and send you a report.",
+      "document": "content_strategy"
+     },
+     {
+      "text": "We build an entire system for sales around your ads.",
+      "document": "content_strategy"
+     },
+     {
+      "text": "There's a huge difference between running ads and building a client acquisition system.",
+      "document": "belief_statements"
+     }
+    ],
+    "last_proved": null,
+    "do_not_repeat": [],
+    "priority_series": "Watch Us Build an Ad Strategy"
+   },
+   {
+    "id": "colder-not-worse",
+    "ref": "B4",
+    "offer": "LeadLock and The Foolproof Follow-Up Advantage",
+    "stage": "WARM",
+    "belief": "Ad leads aren't worse than referrals; they're colder, and they need a different follow-up.",
+    "offers": [
+     "LeadLock and The Foolproof Follow-Up Advantage",
+     "ELEVATE"
+    ],
+    "quotes": [
+     {
+      "text": "Your ad leads aren't worse than your referrals. They're just colder.",
+      "document": "content_strategy"
+     },
+     {
+      "text": "Ads traffic requires a different level of follow-up than warm referrals.",
+      "document": "belief_statements"
+     }
+    ],
+    "last_proved": null,
+    "do_not_repeat": [],
+    "priority_series": "Ad Leads Aren't Worse Than Referrals. They're Just Colder."
+   },
+   {
+    "id": "no-dead-season",
+    "ref": "B5",
+    "offer": "ELEVATE",
+    "stage": "CONVERT",
+    "belief": "A quiet January isn't a dead season; an always-on ad system keeps couples booking.",
+    "offers": [
+     "ELEVATE"
+    ],
+    "quotes": [
+     {
+      "text": "If you were fully booked in October and crickets in January, it's not a dead season.",
+      "document": "content_strategy"
+     }
+    ],
+    "last_proved": null,
+    "do_not_repeat": [],
+    "priority_series": null
+   }
+  ],
+  "publishing_window": {
+   "to": "2026-11-07",
+   "from": "2026-10-25"
+  },
+  "recent_central_points": [
+   {
+    "title": "Reel cover \"Google Reps Aren't Your Marketing Strategist\"",
+    "channel": "Instagram Reel",
+    "key_message": "Google reps work for Google: they push you to spend more and try new features, but they don't know your business or your client journey.",
+    "published_on": "2026-10-08"
+   },
+   {
+    "title": "\"Google's recommendations aren't always what's best for your wedding business.\"",
+    "channel": "Instagram caption",
+    "key_message": "Google's own recommendations serve Google's goals and aren't always what's best for a wedding business.",
+    "published_on": "2026-10-08"
+   },
+   {
+    "title": "Reel cover \"Are Your Google Ads Actually Working?\"",
+    "channel": "Instagram Reel",
+    "key_message": "Many wedding pros can't tell whether their Google Ads are actually working; an outside audit gives a clear picture before engagement season.",
+    "published_on": "2026-10-08"
+   },
+   {
+    "title": "\"Engagement season is right around the corner.\"",
+    "channel": "Instagram caption",
+    "key_message": "Engagement season is when couples start searching, so make sure your Google Ads are working before it starts.",
+    "published_on": "2026-10-05"
+   },
+   {
+    "title": "\"Wedding Pros: Are you totally sure your Google Ads are doing what they're supposed to?\"",
+    "channel": "Instagram caption",
+    "key_message": "If your freelancer or agency isn't showing you what's actually working in your Google Ads, you can't be sure your ads are working.",
+    "published_on": "2026-10-05"
+   },
+   {
+    "title": "2026 Google Ads Audit Giveaway (apply by 16 Oct): announcement, engagement-season and deadline captions; three carousels; three Reels",
+    "channel": "Instagram captions, carousels, Reels",
+    "key_message": "Announcement: five wedding businesses can apply, by 16 October, for a free Google Ads audit.",
+    "published_on": "2026-10-05"
+   },
+   {
+    "title": "\"What I taught my clients this week\" (UVP training)",
+    "channel": "Email",
+    "key_message": "Advertising starts before the ads: define your unique value proposition before you write an ad or build a landing page.",
+    "published_on": "2026-09-15"
+   },
+   {
+    "title": "10-week case study: Reel \"What would happen if your wedding business didn't post on Instagram for the next 10 weeks?\"; carousel \"You don't need another reminder to 'show up consistently.'\"; captions \"There's a difference between wanting to do less marketing\u2026\" and \"'I couldn't do it all.'\"; email \"She didn't post on Instagram for 10 weeks\"",
+    "channel": "Instagram Reel, carousel, captions; email",
+    "key_message": "Ads kept a wedding planner in front of potential clients while she let Instagram go quiet for 10 weeks: a strategy has to allow for the times you can't show up.",
+    "published_on": "2026-08-18"
+   },
+   {
+    "title": "New welcome DM: \"This is Whitney. (Real human, not a bot \ud83d\ude02)\u2026 What brought you to our page?\"",
+    "channel": "Instagram DMs",
+    "key_message": "A real person, Whitney, welcomes each new follower and asks what brought them to the page.",
+    "published_on": "2026-08-03"
+   }
+  ]
+ },
+ "runs": [
+  {
+   "run_id": "run_97ed9c57872146f3beb53d3f15fdbf32",
+   "week_id": "week_2026-06-07",
+   "run_scope": "weekly_angles",
+   "status": "failed",
+   "current_message": "moment_extraction",
+   "error_summary": "1 of 11 documents failed scene extraction; the others are in the moments ledger and a retry sends only these: Carmen Cruickshank's Personal Meeting Room's transcript.txt: Model call failed: the provider answered with an error (504): Upstream idle timeout exceeded",
+   "has_partial_failures": false,
+   "trigger_type": "manual",
+   "triggered_by": "kenil.shah@e2m.solutions",
+   "input_refs": {
+    "mode": "live",
+    "seeds": [],
+    "models": {
+     "angle_generation": "nvidia/nemotron-3.5-super-vl:free",
+     "card_verification": "dots-studio/dots-3-note-preview:free",
+     "moment_extraction": "nvidia/nemotron-3.5-super-vl:free"
+    },
+    "window": {
+     "end": "2026-06-14T18:30:00+00:00",
+     "start": "2026-06-07T18:30:00+00:00"
+    },
+    "coverage": "complete_request",
+    "workflow": "two_call_v1",
+    "synthetic": false,
+    "identities": [
+     {
+      "id": "person_05f565142482e8aeb7867fbb",
+      "kind": "person",
+      "name": "Beth",
+      "role": "client",
+      "naming": "anonymise",
+      "account": "Experience Lux Travel",
+      "left_on": null,
+      "heard_as": [
+       "Beth"
+      ],
+      "pronouns": "she/her",
+      "spellings": [
+       "Beth",
+       "bethr"
+      ],
+      "never_link": []
+     },
+     {
+      "id": "person_17b7bffe200a9bdc6f41f5e0",
+      "kind": "person",
+      "name": "Alexa",
+      "role": "client",
+      "naming": "anonymise",
+      "account": "Dos Palomas Ranch",
+      "left_on": null,
+      "heard_as": [
+       "Alexa"
+      ],
+      "pronouns": "she/her",
+      "spellings": [
+       "Alexa"
+      ],
+      "never_link": []
+     },
+     {
+      "id": "person_214848c8d78b5f283e0be95f",
+      "kind": "person",
+      "name": "Felipe Cortes",
+      "role": "client",
+      "naming": "anonymise",
+      "account": "Experience Lux Travel",
+      "left_on": null,
+      "heard_as": [
+       "Felipe",
+       "Felipe Cortes"
+      ],
+      "pronouns": "he/him",
+      "spellings": [
+       "Felipe Cortes",
+       "Felipe"
+      ],
+      "never_link": []
+     },
+     {
+      "id": "person_4969397cbbc918ed9b6b8802",
+      "kind": "person",
+      "name": "Alexis Gaston",
+      "role": "client",
+      "naming": "anonymise",
+      "account": null,
+      "left_on": null,
+      "heard_as": [
+       "Alexis"
+      ],
+      "pronouns": "she/her",
+      "spellings": [
+       "Alexis Gaston",
+       "Alexis"
+      ],
+      "never_link": []
+     },
+     {
+      "id": "person_4de100796abba9d9e74269dd",
+      "kind": "person",
+      "name": "Ivor",
+      "role": "prospect",
+      "naming": "anonymise",
+      "account": null,
+      "left_on": null,
+      "heard_as": [
+       "Ivor",
+       "iver"
+      ],
+      "pronouns": null,
+      "spellings": [
+       "Ivor",
+       "iver"
+      ],
+      "never_link": []
+     },
+     {
+      "id": "person_4e6e1f5513a09163eb883a5a",
+      "kind": "person",
+      "name": "Kelly Scaramella",
+      "role": "client",
+      "naming": "anonymise",
+      "account": "Exquisite Moments",
+      "left_on": null,
+      "heard_as": [
+       "Kelly"
+      ],
+      "pronouns": "she/her",
+      "spellings": [
+       "Kelly Scaramella",
+       "Kelly"
+      ],
+      "never_link": []
+     },
+     {
+      "id": "person_5dca4923edbefd15b6746098",
+      "kind": "person",
+      "name": "Jillian Dalu-Ford",
+      "role": "client",
+      "naming": "anonymise",
+      "account": "Esthetics by Jillian",
+      "left_on": null,
+      "heard_as": [
+       "Jillian"
+      ],
+      "pronouns": "she/her",
+      "spellings": [
+       "Jillian Dalu-Ford",
+       "Jillian"
+      ],
+      "never_link": []
+     },
+     {
+      "id": "person_69a6ca949cb21bb50dadaccb",
+      "kind": "person",
+      "name": "Lauren Christensen",
+      "role": "client",
+      "naming": "anonymise",
+      "account": "The Penny",
+      "left_on": null,
+      "heard_as": [
+       "Lauren",
+       "Lauren Christensen"
+      ],
+      "pronouns": "she/her",
+      "spellings": [
+       "Lauren Christensen",
+       "Lauren"
+      ],
+      "never_link": []
+     },
+     {
+      "id": "person_7eb3303b53bf6eab5b1c6b38",
+      "kind": "person",
+      "name": "Mona",
+      "role": "client",
+      "naming": "anonymise",
+      "account": "Neu Events",
+      "left_on": null,
+      "heard_as": [
+       "Mona"
+      ],
+      "pronouns": "she/her",
+      "spellings": [
+       "Mona",
+       "neu events"
+      ],
+      "never_link": []
+     },
+     {
+      "id": "person_843fbd327c900351ce3479f9",
+      "kind": "person",
+      "name": "Tirzah Caffee",
+      "role": "outside",
+      "naming": "anonymise",
+      "account": null,
+      "left_on": null,
+      "heard_as": [
+       "Tirza",
+       "Tirzah"
+      ],
+      "pronouns": "she/her",
+      "spellings": [
+       "Tirzah Caffee",
+       "Tirzah",
+       "Tirzah's iPhone (2)",
+       "Tirza",
+       "Tirzo"
+      ],
+      "never_link": []
+     },
+     {
+      "id": "person_94d569303eb7b863862bc538",
+      "kind": "person",
+      "name": "Steve",
+      "role": "client",
+      "naming": "anonymise",
+      "account": "Press Record Co.",
+      "left_on": null,
+      "heard_as": [
+       "Steve"
+      ],
+      "pronouns": "he/him",
+      "spellings": [
+       "Steve",
+       "Steve\u2019s iPhone"
+      ],
+      "never_link": []
+     },
+     {
+      "id": "person_adab6f5cf1ba311f402da99c",
+      "kind": "person",
+      "name": "Jill",
+      "role": "client",
+      "naming": "anonymise",
+      "account": "Davis & Grey Farms",
+      "left_on": null,
+      "heard_as": [
+       "Jill"
+      ],
+      "pronouns": "she/her",
+      "spellings": [
+       "Jill",
+       "Jill - Davis & Grey"
+      ],
+      "never_link": []
+     },
+     {
+      "id": "person_afdb1cfe2e9201ec6a047e94",
+      "kind": "person",
+      "name": "Bri Garofalo",
+      "role": "client",
+      "naming": "anonymise",
+      "account": "Bri Photography",
+      "left_on": null,
+      "heard_as": [
+       "Brie"
+      ],
+      "pronouns": "she/her",
+      "spellings": [
+       "Bri Garofalo",
+       "bri",
+       "Bri",
+       "Bree",
+       "Brie"
+      ],
+      "never_link": []
+     },
+     {
+      "id": "person_d1082e8e1c41abded1ca9ba8",
+      "kind": "person",
+      "name": "Christina Hill",
+      "role": "former staff",
+      "naming": "may_name",
+      "account": null,
+      "left_on": null,
+      "heard_as": [
+       "Christina"
+      ],
+      "pronouns": null,
+      "spellings": [
+       "Christina Hill",
+       "Christina"
+      ],
+      "never_link": []
+     },
+     {
+      "id": "person_d1df8799525bc1779336ea25",
+      "kind": "person",
+      "name": "Noam Wolf",
+      "role": "prospect",
+      "naming": "anonymise",
+      "account": "Sunny Entertainment",
+      "left_on": null,
+      "heard_as": [
+       "Noam",
+       "Noam Wolf"
+      ],
+      "pronouns": "she/her",
+      "spellings": [
+       "Noam Wolf",
+       "Noam"
+      ],
+      "never_link": []
+     },
+     {
+      "id": "person_dca8a94982de8060077d30cb",
+      "kind": "person",
+      "name": "Erin Smith",
+      "role": "client",
+      "naming": "never_name",
+      "account": "Carroll Hall",
+      "left_on": null,
+      "heard_as": [
+       "Erin",
+       "Erin Smith"
+      ],
+      "pronouns": "she/her",
+      "spellings": [
+       "Erin Smith",
+       "Erin",
+       "Aaron"
+      ],
+      "never_link": [
+       {
+        "what": "the anonymised $22K-to-$70K Accelerator case study (Reel, caption, carousel, two emails, 31 Jul - 6 Aug 2026)",
+        "reason": "Erin Smith of Carroll Hall is the case-study client; Whitney: \"we can't actually use Erin's name in our marketing\" (notes D.4). Never name her or the venue, and never let content tie Carroll Hall, Brooklyn, a corporate-events campaign or micro-wedding work to the case-study figures.",
+        "markers": [
+         "$22K",
+         "22K",
+         "$70K",
+         "70K",
+         "22,000",
+         "70,000",
+         "$22,000",
+         "$70,000",
+         "$6K",
+         "6K",
+         "hand-hold her agency",
+         "saturated urban market"
+        ]
+       }
+      ]
+     },
+     {
+      "id": "person_e60ce6a42c3a5d8455ce3d0a",
+      "kind": "person",
+      "name": "Fallon Looney",
+      "role": "former staff",
+      "naming": "may_name",
+      "account": null,
+      "left_on": "2026-08-14",
+      "heard_as": [
+       "Fallon",
+       "Fallon Looney"
+      ],
+      "pronouns": "she/her",
+      "spellings": [
+       "Fallon Looney",
+       "Fallon"
+      ],
+      "never_link": []
+     },
+     {
+      "id": "person_f4bbee25d711dc605b87f792",
+      "kind": "person",
+      "name": "Ali Epler",
+      "role": "client",
+      "naming": "anonymise",
+      "account": "Diamond A Ranch",
+      "left_on": null,
+      "heard_as": [
+       "Ali",
+       "Allie",
+       "aliepler"
+      ],
+      "pronouns": "she/her",
+      "spellings": [
+       "Ali Epler",
+       "aliepler",
+       "Ali",
+       "Allie"
+      ],
+      "never_link": []
+     },
+     {
+      "id": "person_f78eb40f622887b96e8173cb",
+      "kind": "person",
+      "name": "Krista",
+      "role": "client",
+      "naming": "anonymise",
+      "account": "Ridgefield",
+      "left_on": null,
+      "heard_as": [
+       "Krista"
+      ],
+      "pronouns": null,
+      "spellings": [
+       "Krista"
+      ],
+      "never_link": []
+     },
+     {
+      "id": "client_0711d1cebf1bc04a3126d46d",
+      "kind": "account",
+      "name": "Sunny Entertainment",
+      "role": "prospect",
+      "naming": "anonymise",
+      "business": "live band and talent agency for weddings and corporate events (US; New York and Chicago events mentioned)",
+      "heard_as": [
+       "Sunny Entertainment",
+       "Sunny Jazz Band"
+      ],
+      "spellings": [
+       "Sunny Entertainment",
+       "Sunny Band",
+       "Sunny Jazz Band",
+       "the Sunny Band"
+      ],
+      "never_link": []
+     },
+     {
+      "id": "client_158733a9f75ac4f3edbee05e",
+      "kind": "account",
+      "name": "Dos Palomas Ranch",
+      "role": "active",
+      "naming": "anonymise",
+      "business": "wedding venue, Texas Hill Country (inferred from its ad keywords)",
+      "heard_as": [
+       "Dos Palomas"
+      ],
+      "spellings": [
+       "Dos Palomas Ranch",
+       "Dos Palomas"
+      ],
+      "never_link": []
+     },
+     {
+      "id": "client_2b6ad60ab9f398c59b371877",
+      "kind": "account",
+      "name": "Press Record Co.",
+      "role": "active",
+      "naming": "anonymise",
+      "business": "wedding service sold as packages through Shopify, Philadelphia area (competitors named: Toast and Tape, Handheld Studios, Wedding Weekender); the exact product is not stated in the calls",
+      "heard_as": [
+       "Press Record",
+       "Press Record Co."
+      ],
+      "spellings": [
+       "Press Record Co.",
+       "Press Record",
+       "pressrecordco.com"
+      ],
+      "never_link": []
+     },
+     {
+      "id": "client_4d8dd021605a60d4962147fa",
+      "kind": "account",
+      "name": "Neu Events",
+      "role": "active",
+      "naming": "anonymise",
+      "business": "event planning (weddings, corporate, nonprofit, government), Hawaii",
+      "heard_as": [],
+      "spellings": [
+       "Neu Events"
+      ],
+      "never_link": []
+     },
+     {
+      "id": "client_5ded0a51531ec3ca56c100fd",
+      "kind": "account",
+      "name": "The Penny",
+      "role": "active",
+      "naming": "anonymise",
+      "business": "wedding venue with restaurant, San Luis Obispo area (Central Coast) CA",
+      "heard_as": [
+       "Penny",
+       "The Penny"
+      ],
+      "spellings": [
+       "The Penny",
+       "Penny"
+      ],
+      "never_link": []
+     },
+     {
+      "id": "client_5ec18eeef019d40ee9bb43a1",
+      "kind": "account",
+      "name": "Exquisite Moments",
+      "role": "active",
+      "naming": "anonymise",
+      "business": "wedding business (kind not stated); kept LeadLock after ads management ended in June 2026",
+      "heard_as": [
+       "Exquisite Moments"
+      ],
+      "spellings": [
+       "Exquisite Moments"
+      ],
+      "never_link": []
+     },
+     {
+      "id": "client_72f3d2075c42b9d141304920",
+      "kind": "account",
+      "name": "The Weinberg at Wixon Valley",
+      "role": "active",
+      "naming": "anonymise",
+      "business": "wedding venue (450 capacity), Bryan / College Station TX area",
+      "heard_as": [
+       "Weinberg"
+      ],
+      "spellings": [
+       "The Weinberg at Wixon Valley",
+       "The Weinberg",
+       "Weinberg"
+      ],
+      "never_link": []
+     },
+     {
+      "id": "client_7fdca6639e1f4106f87fcea1",
+      "kind": "account",
+      "name": "Bri Photography",
+      "role": "active",
+      "naming": "anonymise",
+      "business": "family, senior and boudoir photographer, 30A area, Florida",
+      "heard_as": [],
+      "spellings": [
+       "Bri Photography",
+       "Bri Photography x WIA"
+      ],
+      "never_link": []
+     },
+     {
+      "id": "client_80b1e2c1b740fd8a805032dc",
+      "kind": "account",
+      "name": "Diamond A Ranch",
+      "role": "active",
+      "naming": "anonymise",
+      "business": "wedding venue, Texas (DFW-area market)",
+      "heard_as": [
+       "Diamond A",
+       "Diamond A Ranch",
+       "Diamond Day Ranch"
+      ],
+      "spellings": [
+       "Diamond A Ranch",
+       "Diamond A Ranch Events",
+       "Diamond A",
+       "Diamond Day Ranch"
+      ],
+      "never_link": []
+     },
+     {
+      "id": "client_89676e960ea88b7b8a1b3db1",
+      "kind": "account",
+      "name": "Davis & Grey Farms",
+      "role": "active",
+      "naming": "anonymise",
+      "business": "wedding venue (farm); location not stated",
+      "heard_as": [
+       "Davis and Gray Farms"
+      ],
+      "spellings": [
+       "Davis & Grey Farms",
+       "Davis & Grey",
+       "Davis and Gray Farms",
+       "Davis and Grey"
+      ],
+      "never_link": []
+     },
+     {
+      "id": "client_89dce28c8a0e64df69124e02",
+      "kind": "account",
+      "name": "Ridgefield",
+      "role": "active",
+      "naming": "anonymise",
+      "business": "wedding venue in the redwoods, Arcata (Humboldt County) CA",
+      "heard_as": [
+       "Ridgefield"
+      ],
+      "spellings": [
+       "Ridgefield",
+       "Ridgefield x WIA",
+       "ridgefieldweddings.com",
+       "richfieldweddings.com",
+       "Scott & Krista"
+      ],
+      "never_link": []
+     },
+     {
+      "id": "client_9732929e14ca52f3a2b8d0d5",
+      "kind": "account",
+      "name": "Carroll Hall",
+      "role": "active",
+      "naming": "never_name",
+      "business": "wedding and event venue with a garden, Brooklyn NY",
+      "heard_as": [
+       "Carol Hall",
+       "Carroll Hall"
+      ],
+      "spellings": [
+       "Carroll Hall",
+       "Carol Hall",
+       "carolhall.com",
+       "Carroll Hall Brooklyn"
+      ],
+      "never_link": [
+       {
+        "what": "the anonymised $22K-to-$70K Accelerator case study (Reel, caption, carousel, two emails, 31 Jul - 6 Aug 2026)",
+        "reason": "Erin Smith of Carroll Hall is the case-study client; Whitney: \"we can't actually use Erin's name in our marketing\" (notes D.4). Never name her or the venue, and never let content tie Carroll Hall, Brooklyn, a corporate-events campaign or micro-wedding work to the case-study figures.",
+        "markers": [
+         "$22K",
+         "22K",
+         "$70K",
+         "70K",
+         "22,000",
+         "70,000",
+         "$22,000",
+         "$70,000",
+         "$6K",
+         "6K",
+         "hand-hold her agency",
+         "saturated urban market"
+        ]
+       }
+      ]
+     },
+     {
+      "id": "client_ba71e0dcb3b1ab08800415b2",
+      "kind": "account",
+      "name": "Experience Lux Travel",
+      "role": "active",
+      "naming": "anonymise",
+      "business": "luxury destination-wedding travel and planning (Mexico and the Caribbean); team member Felipe lives in Playa del Carmen",
+      "heard_as": [],
+      "spellings": [
+       "Experience Lux Travel",
+       "ExperienceLuxTravel.com",
+       "luxury travel boutique",
+       "Luxury Travel Boutique"
+      ],
+      "never_link": []
+     },
+     {
+      "id": "client_c92b22b46ed332ed419417c2",
+      "kind": "account",
+      "name": "Esthetics by Jillian",
+      "role": "former",
+      "naming": "anonymise",
+      "business": "esthetics studio (facials, waxing), Reno NV - not a wedding business",
+      "heard_as": [
+       "Aesthetics by Jillian"
+      ],
+      "spellings": [
+       "Esthetics by Jillian",
+       "Aesthetics by Jillian"
+      ],
+      "never_link": []
+     },
+     {
+      "id": "client_dc24164fdf38558d6aab2c4e",
+      "kind": "account",
+      "name": "Funktastic",
+      "role": "active",
+      "naming": "anonymise",
+      "business": "live wedding band (Funktastic) with a DJ sub-brand (DJ Hybrid), Chicago",
+      "heard_as": [
+       "DJ Hybrid",
+       "Functastic",
+       "Funktastic"
+      ],
+      "spellings": [
+       "Funktastic",
+       "Functastic",
+       "Funtastic",
+       "DJ Hybrid",
+       "DJ Hybrid Chicago",
+       "CJ Hybrid",
+       "DJ Hyde"
+      ],
+      "never_link": []
+     }
+    ],
+    "week_index": 2,
+    "selected_by": "window",
+    "transcripts": [
+     {
+      "id": "transcript_5a76b1b145664c30bf30d746",
+      "hash": "4c3990824ff1ec119d2b3753f4c3d63d9edbaeee7a42be13d26eef0daccd1d8f"
+     },
+     {
+      "id": "transcript_1b534a0e94efca5c47e5b732",
+      "hash": "6049c241e0763bf1aa4f776ac071ce99c9031e98da554c5050f741034cacc925"
+     },
+     {
+      "id": "transcript_c870b09e0ba19376a28df37b",
+      "hash": "2fec187626f14ff411648f9e7e81712ef9af43bc4de8529f42d983c281263922"
+     },
+     {
+      "id": "transcript_15884913ba40b1e26079f1e5",
+      "hash": "086e0a53f120ecf8e66f4a6c4238aac1bdfb8c1f9d8bbb1187aac044c2337ba4"
+     },
+     {
+      "id": "transcript_7e3336fe1b882cba5c0146a3",
+      "hash": "a5c3c64704f72feb8fc4facc2cb3f3a9b0ead186ea5cdbb6a223d06f2a8e3eeb"
+     },
+     {
+      "id": "transcript_91e0d99e2999481dae24bad6",
+      "hash": "f7a7410b575c6ed5d211770e315217b1f6047c42874daa60be72ecab89bab61a"
+     },
+     {
+      "id": "transcript_98db534b2e9d835ff687d160",
+      "hash": "1a2c1f256c1c6f0fa889e8ac2ba18072c8af82258f18c2b4c8132358e5be057c"
+     },
+     {
+      "id": "transcript_c936755ab348fd10488c75ba",
+      "hash": "9e14a8b93690ac8e91076867accfe3d8352ed5e71d34da88fc3c22c8a8a38dc1"
+     },
+     {
+      "id": "transcript_e55fb5bf35dc6e9b7292b0fa",
+      "hash": "01147e89c399ee160619d7758e19e3121c217607d82b5f305ae1c21e2b41ae8a"
+     },
+     {
+      "id": "transcript_eb8ad3ff88e7802d765c3d5f",
+      "hash": "f850d8284e5d89dac60e132b56229fd8d28f4d0e931d7919cdb6427ae686e5fa"
+     },
+     {
+      "id": "transcript_edfcc5280e26f7c496a2d6db",
+      "hash": "1d33eadfc505b0c94ff694d47d941ab03902739a7b066fa24a264fbe20876a19"
+     }
+    ],
+    "started_from": "app",
+    "cycle_estimate": {
+     "note": "An estimate, not a charge: hosted usage is authoritative, and reasoning tokens are part of the output.",
+     "notes": [
+      "No price is known for scene extraction, strategist, card verification (costs.py); the total leaves them out"
+     ],
+     "total_usd": 0,
+     "components": [
+      {
+       "usd": null,
+       "calls": 2,
+       "model": "nvidia/nemotron-3.5-super-vl:free",
+       "stage": "scene extraction",
+       "input_tokens": 44274,
+       "output_tokens": 12000
+      },
+      {
+       "usd": null,
+       "calls": 1,
+       "model": "nvidia/nemotron-3.5-super-vl:free",
+       "stage": "strategist",
+       "input_tokens": 55016,
+       "output_tokens": 16000
+      },
+      {
+       "usd": null,
+       "calls": 8,
+       "model": "dots-studio/dots-3-note-preview:free",
+       "stage": "card verification",
+       "input_tokens": 96000,
+       "output_tokens": 12000
+      }
+     ],
+     "assumptions": "16000 strategist output tokens; 8 cards verified; 14 scenes for each document not yet extracted; about 4 characters a token",
+     "scenes_in_ledger": 14,
+     "provider_calls_made": 0,
+     "documents_to_extract": 2,
+     "scenes_assumed_for_new_documents": 28
+    },
+    "selection_hash": "e6c0cca7210ac791cc085cb84f766377b0be3bf89972a9997f9adcc0b9035722",
+    "strategy_brief": {
+     "on": "2026-10-25",
+     "mix": {
+      "WARM": 3,
+      "ATTRACT": 1,
+      "CONVERT": 1
+     },
+     "inputs": {
+      "documents": {
+       "offer_sheet": "83d9f5b153e3c6407157a91234af1a45cc4cddfbb31ac700ccbff6e0b30db78f",
+       "content_strategy": "acd0bf09ae43b19eee75f857fd3e1532f696f68174eb3c9e15b3ce5a63f9d601",
+       "belief_statements": "0e9797c4f372e416cc6781cf3e8692a7d325680df0955596515720ddc0f5357e"
+      },
+      "published_points": 46,
+      "belief_bank_sha256": "f4f125dca8f93bb175d0a7dedfbb5975c7849b4e8f0c42c6cf3cec028f04543b",
+      "offer_calendar_sha256": "df5a5a70037392aa1e31ae30fd910cd8667344034fcdf1ab1442090913eddb4a",
+      "knowledge_base_version": "wia-kb-2026-10-22.c-a1a75795"
+     },
+     "season": {
+      "name": "engagement_lead_up",
+      "label": "Engagement season starts in about 5 weeks (December to February): wedding pros are planning their ads and budgets for it now",
+      "weeks_to_engagement_season": 5
+     },
+     "made_by": "system: deterministic assembler from the knowledge base (no model call)",
+     "version": "strategy-brief.v1",
+     "warnings": [],
+     "brief_hash": "c1eb6eacaff707833397c5f394622c02f7cde5595acd5d52b556cd2f419b0874",
+     "live_offers": [
+      {
+       "ends": null,
+       "offer": "ELEVATE",
+       "terms": [],
+       "source": "KB 05: waitlist, then a discovery call",
+       "starts": null,
+       "status": "waitlist",
+       "sellable": true,
+       "do_not_undercut": [
+        "Hiring an ads agency is a waste of money for a wedding business",
+        "You do not need an agency to run your wedding ads"
+       ]
+      },
+      {
+       "ends": null,
+       "offer": "Google Search Accelerator",
+       "terms": [],
+       "source": "KB 05: application, then a qualifying email and a proposal",
+       "starts": null,
+       "status": "open",
+       "sellable": true,
+       "do_not_undercut": [
+        "Wedding pros cannot learn to run their own Google ads"
+       ]
+      },
+      {
+       "ends": null,
+       "offer": "Meta Ads Accelerator",
+       "terms": [],
+       "source": "KB 05: application, then a qualifying email and a proposal",
+       "starts": null,
+       "status": "open",
+       "sellable": true,
+       "do_not_undercut": [
+        "Wedding pros cannot learn to run their own Meta ads"
+       ]
+      },
+      {
+       "ends": null,
+       "offer": "Ads Accelerator Bundle",
+       "terms": [],
+       "source": "KB 05: application, then a proposal",
+       "starts": null,
+       "status": "open",
+       "sellable": true,
+       "do_not_undercut": []
+      },
+      {
+       "ends": null,
+       "offer": "LeadLock and The Foolproof Follow-Up Advantage",
+       "terms": [],
+       "source": "KB 05: sold alone, or included with ELEVATE",
+       "starts": null,
+       "status": "open",
+       "sellable": true,
+       "do_not_undercut": [
+        "Automated follow-up feels impersonal to couples and loses bookings"
+       ]
+      },
+      {
+       "ends": "2026-11-08",
+       "note": "The 2026 giveaway closed on 16 October; Carmen runs the five audits from late October to early November. No audit CTA in this window.",
+       "offer": "Google Ads Audit Giveaway",
+       "terms": [
+        "one-off audit",
+        "one-time audit",
+        "free audit",
+        "after your audit",
+        "after the audit",
+        "audit isn't enough",
+        "audits aren't enough",
+        "outgrow an audit",
+        "outgrowing one-off audits"
+       ],
+       "source": "KB 14 (19 Oct to 1 Nov entry); KB 05 (Google Ads Audit Giveaway)",
+       "starts": "2026-10-19",
+       "status": "delivering",
+       "sellable": false,
+       "do_not_undercut": [
+        "A one-off ads audit is not enough to fix your ads",
+        "After an audit you are left to do the work on your own",
+        "Free ads audits are only a sales tactic"
+       ]
+      }
+     ],
+     "content_plan": [],
+     "priority_series": [
+      {
+       "name": "Stop Boosting Posts",
+       "last_published": "2025-12-30"
+      },
+      {
+       "name": "Ad Leads Aren't Worse Than Referrals. They're Just Colder.",
+       "last_published": null
+      },
+      {
+       "name": "Watch Us Build an Ad Strategy",
+       "last_published": null
+      },
+      {
+       "name": "We Measure Conversions, Not Clicks",
+       "last_published": null
+      },
+      {
+       "name": "Wedding Ad Campaign Breakdowns",
+       "last_published": null
+      },
+      {
+       "name": "Why I Walked Away From 12 Years in Wedding Sales",
+       "last_published": null
+      }
+     ],
+     "beliefs_to_prove": [
+      {
+       "id": "stop-boosting",
+       "ref": "B1",
+       "offer": "Meta Ads Accelerator",
+       "stage": "ATTRACT",
+       "belief": "Boosting a post isn't an ad strategy.",
+       "offers": [
+        "Meta Ads Accelerator"
+       ],
+       "quotes": [
+        {
+         "text": "Stop boosting posts.",
+         "document": "content_strategy"
+        }
+       ],
+       "last_proved": "2025-12-30",
+       "do_not_repeat": [
+        {
+         "title": "\"Where most wedding pros get stuck with Meta ads\" / preview \"If you've felt overwhelmed, you're not alone\" (Meta Ads Accelerator by reply only)",
+         "channel": "Email",
+         "key_message": "Where most wedding pros get stuck with Meta ads: boosting posts is easy but rarely effective, and the Meta Ads Accelerator teaches the strategy.",
+         "published_on": "2025-12-30"
+        }
+       ],
+       "priority_series": "Stop Boosting Posts"
+      },
+      {
+       "id": "results-compound",
+       "ref": "B2",
+       "offer": "ELEVATE",
+       "stage": "WARM",
+       "belief": "Ad results compound: what an account learns this season pays off in the next.",
+       "offers": [
+        "ELEVATE"
+       ],
+       "quotes": [
+        {
+         "text": "with ads, results compound the longer you're in the game.",
+         "document": "belief_statements"
+        },
+        {
+         "text": "Ads aren't a faucet you turn on for leads.",
+         "document": "content_strategy"
+        }
+       ],
+       "last_proved": null,
+       "do_not_repeat": [],
+       "priority_series": null
+      },
+      {
+       "id": "system-not-vacuum",
+       "ref": "B3",
+       "offer": "ELEVATE",
+       "stage": "WARM",
+       "belief": "We build a sales system around the ads, not ads in a vacuum, so some of our most useful work isn't the ads themselves.",
+       "offers": [
+        "ELEVATE"
+       ],
+       "quotes": [
+        {
+         "text": "Most agencies run your ads in a vacuum and send you a report.",
+         "document": "content_strategy"
+        },
+        {
+         "text": "We build an entire system for sales around your ads.",
+         "document": "content_strategy"
+        },
+        {
+         "text": "There's a huge difference between running ads and building a client acquisition system.",
+         "document": "belief_statements"
+        }
+       ],
+       "last_proved": null,
+       "do_not_repeat": [],
+       "priority_series": "Watch Us Build an Ad Strategy"
+      },
+      {
+       "id": "colder-not-worse",
+       "ref": "B4",
+       "offer": "LeadLock and The Foolproof Follow-Up Advantage",
+       "stage": "WARM",
+       "belief": "Ad leads aren't worse than referrals; they're colder, and they need a different follow-up.",
+       "offers": [
+        "LeadLock and The Foolproof Follow-Up Advantage",
+        "ELEVATE"
+       ],
+       "quotes": [
+        {
+         "text": "Your ad leads aren't worse than your referrals. They're just colder.",
+         "document": "content_strategy"
+        },
+        {
+         "text": "Ads traffic requires a different level of follow-up than warm referrals.",
+         "document": "belief_statements"
+        }
+       ],
+       "last_proved": null,
+       "do_not_repeat": [],
+       "priority_series": "Ad Leads Aren't Worse Than Referrals. They're Just Colder."
+      },
+      {
+       "id": "no-dead-season",
+       "ref": "B5",
+       "offer": "ELEVATE",
+       "stage": "CONVERT",
+       "belief": "A quiet January isn't a dead season; an always-on ad system keeps couples booking.",
+       "offers": [
+        "ELEVATE"
+       ],
+       "quotes": [
+        {
+         "text": "If you were fully booked in October and crickets in January, it's not a dead season.",
+         "document": "content_strategy"
+        }
+       ],
+       "last_proved": null,
+       "do_not_repeat": [],
+       "priority_series": null
+      }
+     ],
+     "publishing_window": {
+      "to": "2026-11-07",
+      "from": "2026-10-25"
+     },
+     "recent_central_points": [
+      {
+       "title": "Reel cover \"Google Reps Aren't Your Marketing Strategist\"",
+       "channel": "Instagram Reel",
+       "key_message": "Google reps work for Google: they push you to spend more and try new features, but they don't know your business or your client journey.",
+       "published_on": "2026-10-08"
+      },
+      {
+       "title": "\"Google's recommendations aren't always what's best for your wedding business.\"",
+       "channel": "Instagram caption",
+       "key_message": "Google's own recommendations serve Google's goals and aren't always what's best for a wedding business.",
+       "published_on": "2026-10-08"
+      },
+      {
+       "title": "Reel cover \"Are Your Google Ads Actually Working?\"",
+       "channel": "Instagram Reel",
+       "key_message": "Many wedding pros can't tell whether their Google Ads are actually working; an outside audit gives a clear picture before engagement season.",
+       "published_on": "2026-10-08"
+      },
+      {
+       "title": "\"Engagement season is right around the corner.\"",
+       "channel": "Instagram caption",
+       "key_message": "Engagement season is when couples start searching, so make sure your Google Ads are working before it starts.",
+       "published_on": "2026-10-05"
+      },
+      {
+       "title": "\"Wedding Pros: Are you totally sure your Google Ads are doing what they're supposed to?\"",
+       "channel": "Instagram caption",
+       "key_message": "If your freelancer or agency isn't showing you what's actually working in your Google Ads, you can't be sure your ads are working.",
+       "published_on": "2026-10-05"
+      },
+      {
+       "title": "2026 Google Ads Audit Giveaway (apply by 16 Oct): announcement, engagement-season and deadline captions; three carousels; three Reels",
+       "channel": "Instagram captions, carousels, Reels",
+       "key_message": "Announcement: five wedding businesses can apply, by 16 October, for a free Google Ads audit.",
+       "published_on": "2026-10-05"
+      },
+      {
+       "title": "\"What I taught my clients this week\" (UVP training)",
+       "channel": "Email",
+       "key_message": "Advertising starts before the ads: define your unique value proposition before you write an ad or build a landing page.",
+       "published_on": "2026-09-15"
+      },
+      {
+       "title": "10-week case study: Reel \"What would happen if your wedding business didn't post on Instagram for the next 10 weeks?\"; carousel \"You don't need another reminder to 'show up consistently.'\"; captions \"There's a difference between wanting to do less marketing\u2026\" and \"'I couldn't do it all.'\"; email \"She didn't post on Instagram for 10 weeks\"",
+       "channel": "Instagram Reel, carousel, captions; email",
+       "key_message": "Ads kept a wedding planner in front of potential clients while she let Instagram go quiet for 10 weeks: a strategy has to allow for the times you can't show up.",
+       "published_on": "2026-08-18"
+      },
+      {
+       "title": "New welcome DM: \"This is Whitney. (Real human, not a bot \ud83d\ude02)\u2026 What brought you to our page?\"",
+       "channel": "Instagram DMs",
+       "key_message": "A real person, Whitney, welcomes each new follower and asks what brought them to the page.",
+       "published_on": "2026-08-03"
+      }
+     ]
+    },
+    "selected_because": {
+     "transcript_15884913ba40b1e26079f1e5": "added_by_person",
+     "transcript_1b534a0e94efca5c47e5b732": "window",
+     "transcript_5a76b1b145664c30bf30d746": "window",
+     "transcript_7e3336fe1b882cba5c0146a3": "added_by_person",
+     "transcript_91e0d99e2999481dae24bad6": "added_by_person",
+     "transcript_98db534b2e9d835ff687d160": "added_by_person",
+     "transcript_c870b09e0ba19376a28df37b": "window",
+     "transcript_c936755ab348fd10488c75ba": "added_by_person",
+     "transcript_e55fb5bf35dc6e9b7292b0fa": "added_by_person",
+     "transcript_eb8ad3ff88e7802d765c3d5f": "added_by_person",
+     "transcript_edfcc5280e26f7c496a2d6db": "added_by_person"
+    },
+    "settings_snapshot": {
+     "scope": "weekly",
+     "values": {
+      "matching.close": {
+       "value": 0.9,
+       "source": "default"
+      },
+      "models.default": {
+       "value": "nvidia/nemotron-3.5-super-vl:free",
+       "source": "table"
+      },
+      "embedding.model": {
+       "value": "openai/text-embedding-3-small",
+       "source": "env"
+      },
+      "matching.related": {
+       "value": 0.78,
+       "source": "default"
+      },
+      "embedding.endpoint": {
+       "value": "https://openrouter.ai/api/v1",
+       "source": "default"
+      },
+      "matching.duplicate": {
+       "value": 0.86,
+       "source": "default"
+      },
+      "context.exemplars.k": {
+       "value": 3,
+       "source": "default"
+      },
+      "embedding.dimensions": {
+       "value": 1536,
+       "source": "env"
+      },
+      "models.payload_format": {
+       "value": "compact_weekly",
+       "source": "default"
+      },
+      "knowledge_base.version": {
+       "value": null,
+       "source": "table"
+      },
+      "models.response_format": {
+       "value": "json_schema",
+       "source": "default"
+      },
+      "matching.half_life_days": {
+       "value": 28.0,
+       "source": "default"
+      },
+      "models.angle_generation": {
+       "value": "nvidia/nemotron-3.5-super-vl:free",
+       "source": "table"
+      },
+      "knowledge_base.directory": {
+       "value": null,
+       "source": "default"
+      },
+      "matching.approval_cutoff": {
+       "value": null,
+       "source": "default"
+      },
+      "models.card_verification": {
+       "value": "dots-studio/dots-3-note-preview:free",
+       "source": "table"
+      },
+      "models.completion_tokens": {
+       "value": 16000,
+       "source": "table"
+      },
+      "models.moment_extraction": {
+       "value": "nvidia/nemotron-3.5-super-vl:free",
+       "source": "table"
+      },
+      "context.plan_max_age_days": {
+       "value": 30,
+       "source": "default"
+      },
+      "scoring.visible_threshold": {
+       "value": 70.0,
+       "source": "default"
+      },
+      "prompts.profile.extraction": {
+       "value": "2026-10-25.scenes.v4",
+       "source": "table"
+      },
+      "prompts.profile.strategist": {
+       "value": "2026-10-25.wia-strategist.v8",
+       "source": "table"
+      },
+      "models.input_limits_enabled": {
+       "value": true,
+       "source": "default"
+      },
+      "context.budget.prefix_tokens": {
+       "value": 30000,
+       "source": "default"
+      },
+      "matching.max_recency_penalty": {
+       "value": 0.5,
+       "source": "default"
+      },
+      "models.max_request_characters": {
+       "value": 120000,
+       "source": "default"
+      },
+      "context.budget.exemplar_tokens": {
+       "value": 4000,
+       "source": "default"
+      },
+      "context.same_point.window_days": {
+       "value": 60,
+       "source": "default"
+      },
+      "models.request_timeout_seconds": {
+       "value": 900.0,
+       "source": "default"
+      },
+      "models.reasoning_effort.default": {
+       "value": "high",
+       "source": "default"
+      },
+      "context.budget.situational_tokens": {
+       "value": 6000,
+       "source": "default"
+      },
+      "prompts.profile.card_verification": {
+       "value": "card-verification.v4",
+       "source": "table"
+      },
+      "context.same_point.fresh_angle_days": {
+       "value": 30,
+       "source": "default"
+      },
+      "models.reasoning_effort.angle_generation": {
+       "value": null,
+       "source": "default"
+      },
+      "models.reasoning_effort.card_verification": {
+       "value": null,
+       "source": "default"
+      },
+      "models.reasoning_effort.moment_extraction": {
+       "value": null,
+       "source": "default"
+      },
+      "models.completion_tokens.moment_extraction": {
+       "value": 32000,
+       "source": "table"
+      }
+     },
+     "version": 1,
+     "knowledge_base_version": "wia-kb-2026-10-22.c-a1a75795"
+    },
+    "extraction_profile": "2026-10-25.scenes.v4",
+    "strategy_brief_hash": "c1eb6eacaff707833397c5f394622c02f7cde5595acd5d52b556cd2f419b0874",
+    "angle_prompt_profile": "2026-10-25.wia-strategist.v8"
+   },
+   "created_at": "2026-10-25T08:06:32.154261+00:00",
+   "started_at": "2026-10-25T08:06:34.227473+00:00",
+   "finished_at": null,
+   "updated_at": "2026-10-25T08:34:31.190871+00:00"
+  }
+ ],
+ "jobs": [
+  {
+   "job_id": "job_37568acd66774e899ddc509f79910f14",
+   "run_id": "run_97ed9c57872146f3beb53d3f15fdbf32",
+   "stage": "angle_generation",
+   "status": "queued",
+   "current_message": null,
+   "completed_units": null,
+   "total_units": null,
+   "attempt_count": 0,
+   "result_refs": null,
+   "error_summary": null,
+   "heartbeat_at": null
+  },
+  {
+   "job_id": "job_740e9ab5c27248fd9cb0e5df176e0b7d",
+   "run_id": "run_97ed9c57872146f3beb53d3f15fdbf32",
+   "stage": "moment_extraction",
+   "status": "failed",
+   "current_message": "Failed",
+   "completed_units": null,
+   "total_units": null,
+   "attempt_count": 1,
+   "result_refs": null,
+   "error_summary": "1 of 11 documents failed scene extraction; the others are in the moments ledger and a retry sends only these: Carmen Cruickshank's Personal Meeting Room's transcript.txt: Model call failed: the provider answered with an error (504): Upstream idle timeout exceeded",
+   "heartbeat_at": "2026-10-25T08:33:54.436411+00:00"
+  },
+  {
+   "job_id": "job_7626a4e788754fd8bb95d37c7f6c0342",
+   "run_id": "run_97ed9c57872146f3beb53d3f15fdbf32",
+   "stage": "angle_embedding",
+   "status": "queued",
+   "current_message": null,
+   "completed_units": null,
+   "total_units": null,
+   "attempt_count": 0,
+   "result_refs": null,
+   "error_summary": null,
+   "heartbeat_at": null
+  },
+  {
+   "job_id": "job_bdf2866b43444806984ae1f951160d95",
+   "run_id": "run_97ed9c57872146f3beb53d3f15fdbf32",
+   "stage": "angle_matching",
+   "status": "queued",
+   "current_message": null,
+   "completed_units": null,
+   "total_units": null,
+   "attempt_count": 0,
+   "result_refs": null,
+   "error_summary": null,
+   "heartbeat_at": null
+  }
+ ],
+ "events": [
+  {
+   "event_id": "event_c339cf99f1b64a88bbb07854cad92ef8",
+   "run_id": "run_97ed9c57872146f3beb53d3f15fdbf32",
+   "job_id": null,
+   "event_type": "submitted",
+   "severity": "info",
+   "message": "Weekly angle pipeline queued; no provider was called",
+   "attempt_number": null,
+   "details": {},
+   "created_at": "2026-10-25T08:06:32.154261+00:00"
+  },
+  {
+   "event_id": "event_14726fa8f483468eb1aaa39c5d48eeb2",
+   "run_id": "run_97ed9c57872146f3beb53d3f15fdbf32",
+   "job_id": "job_740e9ab5c27248fd9cb0e5df176e0b7d",
+   "event_type": "stage_started",
+   "severity": "info",
+   "message": "moment_extraction",
+   "attempt_number": 1,
+   "details": {},
+   "created_at": "2026-10-25T08:06:34.227473+00:00"
+  },
+  {
+   "event_id": "event_52d3dad963614f87a892a6a64feb4678",
+   "run_id": "run_97ed9c57872146f3beb53d3f15fdbf32",
+   "job_id": "job_740e9ab5c27248fd9cb0e5df176e0b7d",
+   "event_type": "stage_failed",
+   "severity": "error",
+   "message": "1 of 11 documents failed scene extraction; the others are in the moments ledger and a retry sends only these: Carmen Cruickshank's Personal Meeting Room's transcript.txt: Model call failed: the provider answered with an error (504): Upstream idle timeout exceeded",
+   "attempt_number": 1,
+   "details": {},
+   "created_at": "2026-10-25T08:34:31.190871+00:00"
+  }
+ ],
+ "transcripts": [],
+ "rubric": null,
+ "roster": [
+  {
+   "name": "Carmen Cruickshank",
+   "role": "Google Ads lead: keyword research, audits, VIP Days, Google office hours; manages Meta for some clients",
+   "status": "current",
+   "aliases": [
+    "Carmen Cruickshank",
+    "Carmen",
+    "Cruikshank"
+   ]
+  },
+  {
+   "name": "Christina Hill",
+   "role": "Google Ads manager and tracking specialist",
+   "status": "former",
+   "aliases": [
+    "Christina Hill",
+    "Christina"
+   ]
+  },
+  {
+   "name": "Daniela Justus",
+   "role": "Co-founder; co-founder of LeadLock",
+   "status": "current",
+   "aliases": [
+    "Daniela Justus",
+    "Daniela",
+    "Daniella"
+   ]
+  },
+  {
+   "name": "Daniela Martinez",
+   "role": "invented by ChatGPT; never use",
+   "status": "invented",
+   "aliases": [
+    "Daniela Martinez",
+    "Daniela"
+   ]
+  },
+  {
+   "name": "Danielle McGinnis",
+   "role": "LeadLock onboarding, set-up and support",
+   "status": "current",
+   "aliases": [
+    "Danielle McGinnis",
+    "Danielle"
+   ]
+  },
+  {
+   "name": "Emily Foster",
+   "role": "Brand and website designer; WIA's preferred partner",
+   "status": "outside",
+   "aliases": [
+    "Emily Foster",
+    "Emily"
+   ]
+  },
+  {
+   "name": "Fallon Looney",
+   "role": "Google, Meta and funnel strategist",
+   "status": "former",
+   "aliases": [
+    "Fallon Looney",
+    "Fallon"
+   ]
+  },
+  {
+   "name": "Gisselle Jim\u00e9nez",
+   "role": "Operations and client communications; often types for Whitney and relays her decisions",
+   "status": "current",
+   "aliases": [
+    "Gisselle Jim\u00e9nez",
+    "Gisselle",
+    "Giselle",
+    "Jimenez"
+   ]
+  },
+  {
+   "name": "Ivy Ayala",
+   "role": "Ad creative",
+   "status": "current",
+   "aliases": [
+    "Ivy Ayala",
+    "Ivy"
+   ]
+  },
+  {
+   "name": "Jacqueline Hood",
+   "role": "Meta ads manager, WIA's most experienced",
+   "status": "current",
+   "aliases": [
+    "Jacqueline Hood",
+    "Jacqueline",
+    "Jaqueline",
+    "Jacquelyn"
+   ]
+  },
+  {
+   "name": "Margaux",
+   "role": "Host of the Wedding Summit Series WIA sponsored",
+   "status": "outside",
+   "aliases": [
+    "Margaux"
+   ]
+  },
+  {
+   "name": "Maria Bayer",
+   "role": "Ran a sales Q&A for VAULT members",
+   "status": "outside",
+   "aliases": [
+    "Maria Bayer",
+    "Maria"
+   ]
+  },
+  {
+   "name": "Matt",
+   "role": "invented by ChatGPT; never use",
+   "status": "invented",
+   "aliases": [
+    "Matt"
+   ]
+  },
+  {
+   "name": "Savannah Jordan",
+   "role": "External marketing consultant; author of WIA's content strategy",
+   "status": "outside",
+   "aliases": [
+    "Savannah Jordan",
+    "Savannah"
+   ]
+  },
+  {
+   "name": "Tina Henares",
+   "role": "LeadLock nurture sequences, design and ads landing pages (part-time)",
+   "status": "current",
+   "aliases": [
+    "Tina Henares",
+    "Tina"
+   ]
+  },
+  {
+   "name": "Tirzah Caffee",
+   "role": "Venue coach and podcast host; frequent referrer",
+   "status": "outside",
+   "aliases": [
+    "Tirzah Caffee",
+    "Tirzah"
+   ]
+  },
+  {
+   "name": "Viktor",
+   "role": "an AI agent the team uses; never credit it as a person",
+   "status": "outside",
+   "aliases": [
+    "Viktor"
+   ]
+  },
+  {
+   "name": "Whitney Hodges",
+   "role": "Co-founder. Sales, discovery calls, workshops; since mid-August 2026 runs every ELEVATE strategy call",
+   "status": "current",
+   "aliases": [
+    "Whitney Hodges",
+    "Whitney"
+   ]
+  },
+  {
+   "name": "Yulia",
+   "role": "Contract Meta strategist",
+   "status": "former",
+   "aliases": [
+    "Yulia"
+   ]
+  }
+ ],
+ "context_warnings": [],
+ "approval_cutoff": null,
+ "comparisons": []
+}

@@ -1,0 +1,2000 @@
+{
+ "angle_id": "angle_6272bda35f744111ad64d919d4f2db12",
+ "brief_id": "brief_2afef8cfe9822442a4bbf2d5",
+ "card": {
+  "rank": 3,
+  "title": "I want to know what made a couple book, as well as what they loved afterward",
+  "pillar": "ATTRACT",
+  "series": "Watch Us Build an Ad Strategy",
+  "audience": "Wedding pros with strong reviews who want their advertising to reflect why their best-fit couples chose them.",
+  "moment_ids": [
+   "moment_125018d28145a9aa35909f6f"
+  ],
+  "content_type": "founder_forward",
+  "why_selected": "This earns the reach piece through a clear founder perspective rather than a forced polarizing hook. It differs from the recent UVP training: the point is which customer evidence WIA wants and why, rather than the general importance of positioning before campaign setup.",
+  "wia_in_action": "In a conversation with the team about improving WIA's own marketing, Whitney explained that WIA asks new ELEVATE clients whether they have research on why couples book them. She floated asking newly booked couples about their decision and using what WIA learns in ad copy and landing pages. It is an idea WIA is exploring, not a process clients receive today.",
+  "why_it_matters": "An owner may think, 'Our reviews already tell you why couples love us.' Whitney's question makes room for another kind of evidence: what mattered to the couple before the wedding happened, while they were still deciding. It does not dismiss reviews or claim an industry-wide research gap.",
+  "evidence_points": [
+   "Whitney said WIA asks new ELEVATE clients whether they have market research to share.",
+   "She distinguished reviews from research into buying triggers.",
+   "She proposed asking newly signed clients about their decision and feeding that information back into ad copy and landing pages.",
+   "The call does not report survey responses or changes made from that research."
+  ],
+  "core_perspective": "I want to understand what a couple was weighing when they chose your business. Their review can tell us what they loved about the experience. Asking about the booking decision can give us different information to consider when we write your ads.",
+  "offer_connection": "This shows the thinking behind ELEVATE's messaging and advertising work. Keep the piece focused on the value of asking about the booking decision, with no offer CTA and no promise that a survey workflow is included or live.",
+  "verify_before_publishing": [
+   "Approve use of Whitney's historical call remarks; avoid her broad characterization of wedding pros as a measured finding.",
+   "Describe the client survey and shared-data workflow as proposed, not implemented or currently included."
+  ]
+ },
+ "first_brief": {
+  "review": {
+   "findings": [
+    {
+     "gate": true,
+     "message": "The CTA is the writer's proposal; a person confirms it (or no explicit ask) at Gate 2",
+     "section": "cta",
+     "claim_id": null,
+     "severity": "blocking"
+    },
+    {
+     "gate": false,
+     "message": "A number in the public narrative needs a source-bound claim",
+     "section": "narrative",
+     "claim_id": null,
+     "severity": "blocking"
+    },
+    {
+     "gate": true,
+     "message": "Required before-publishing items remain unanswered",
+     "section": "before_publishing",
+     "claim_id": null,
+     "severity": "blocking"
+    }
+   ],
+   "clearances": {},
+   "repair_used": true,
+   "review_kind": "deterministic_ledger_e_b10",
+   "locked_fields": [],
+   "history_acknowledged": false,
+   "support_reviewed_document_hash": "02cd68e4117b08b18e1ad160b26c966e0ea965a380cc9c5c7108b2333d341f8c"
+  },
+  "document": {
+   "body": {
+    "cta": {
+     "track": "none",
+     "action": null,
+     "choice": "no_explicit_ask",
+     "chosen_by": "writer",
+     "offer_connection": "Demonstrate the thinking behind ELEVATE's messaging and advertising work without an offer CTA or any promise of an included survey workflow."
+    },
+    "claims": [
+     {
+      "text": "In a historical internal team conversation about WIA's own marketing, Whitney discussed gathering information about buying decisions.",
+      "quote": null,
+      "claim_id": "c1",
+      "claim_class": "particular_interaction",
+      "evidence_ids": [
+       "ev_fd7910749f6b4ea23a88cb58",
+       "ev_63129cd508558d77a01ff68b"
+      ],
+      "public_quote": false,
+      "numeric_facts": [],
+      "knowledge_base_document": null
+     },
+     {
+      "text": "WIA asks new ELEVATE clients whether they have market research to share as part of understanding the business for its advertising work.",
+      "quote": null,
+      "claim_id": "c2",
+      "claim_class": "general_approach",
+      "evidence_ids": [
+       "ev_63129cd508558d77a01ff68b",
+       "ev_98fb46a1eff79bc1765f98e8"
+      ],
+      "public_quote": false,
+      "numeric_facts": [],
+      "knowledge_base_document": "WIA's process catalogue > The ELEVATE client journey, end to end > Customer research"
+     },
+     {
+      "text": "Whitney proposed asking newly booked clients about their buying decision.",
+      "quote": null,
+      "claim_id": "c3",
+      "claim_class": "particular_interaction",
+      "evidence_ids": [
+       "ev_cc67e45e49c59eb19d6fc178"
+      ],
+      "public_quote": false,
+      "numeric_facts": [],
+      "knowledge_base_document": null
+     },
+     {
+      "text": "Whitney proposed considering the information gathered in ad copy and landing pages. This is presented as her proposal, not an implemented process.",
+      "quote": null,
+      "claim_id": "c4",
+      "claim_class": "particular_interaction",
+      "evidence_ids": [
+       "ev_4cf6a239636595d938c9fc24",
+       "ev_da4c80edaa2541df2a5af54b"
+      ],
+      "public_quote": false,
+      "numeric_facts": [],
+      "knowledge_base_document": null
+     },
+     {
+      "text": "Consider both what a couple loved about their experience and what mattered while they were deciding to book. These questions look at different moments and can provide different information.",
+      "quote": null,
+      "claim_id": "c5",
+      "claim_class": "recommendation",
+      "evidence_ids": [
+       "ev_63129cd508558d77a01ff68b",
+       "ev_2a47c48f852edd53262d1327",
+       "ev_f0d6efdb4ef1e0d781c7a324"
+      ],
+      "public_quote": false,
+      "numeric_facts": [],
+      "knowledge_base_document": null
+     },
+     {
+      "text": "Answers about the booking decision could help WIA consider which parts of a business to emphasise in advertising. This is a rationale for research, not a demonstrated performance outcome.",
+      "quote": null,
+      "claim_id": "c6",
+      "claim_class": "recommendation",
+      "evidence_ids": [
+       "ev_f0d6efdb4ef1e0d781c7a324",
+       "ev_da4c80edaa2541df2a5af54b"
+      ],
+      "public_quote": false,
+      "numeric_facts": [],
+      "knowledge_base_document": null
+     },
+     {
+      "text": "WIA seeks to understand what matters to a client's couples when developing advertising messaging.",
+      "quote": null,
+      "claim_id": "c7",
+      "claim_class": "general_approach",
+      "evidence_ids": [
+       "ev_63129cd508558d77a01ff68b",
+       "ev_98fb46a1eff79bc1765f98e8"
+      ],
+      "public_quote": false,
+      "numeric_facts": [],
+      "knowledge_base_document": "WIA's process catalogue > Messaging & Positioning Questionnaire and the \"100 vendors\" test"
+     }
+    ],
+    "cta_why": "This ATTRACT piece earns attention through a useful founder perspective. Ending on the principle keeps it educational and preserves the week's offer CTA for another asset. Whitney confirms this choice at Gate 2.",
+    "audience": {
+     "who": "Wedding business owners with strong reviews and an established marketing presence who want to reach more best-fit couples through advertising.",
+     "reason_to_care": "Their reviews already describe a valuable experience. They may reasonably wonder what else an ads team needs to know. This piece explains why understanding the booking decision adds another useful perspective."
+    },
+    "evidence": [
+     {
+      "quote": "Whitney Hodges: Sounds good. Okay. The other thing that I was kind of, um, thinking, and just wanted to kind of, like, pick your brain on. So, as we're trying to kind of, like, up-level our own marketing, we've started doing, um, some more strategic, like, market research, like, in terms of, like.",
+      "speaker": "Whitney Hodges",
+      "start_ms": 3381000,
+      "evidence_id": "ev_fd7910749f6b4ea23a88cb58"
+     },
+     {
+      "quote": "Whitney Hodges: every time a new client signs on, like, sending them a survey to try to really, like, uncover their buying triggers, sort of thing. Um, and one thing that I've been noticing, like, every single time we onboard a new client for Elevate, like, we always ask the question.",
+      "speaker": "Whitney Hodges",
+      "start_ms": 3398000,
+      "evidence_id": "ev_63129cd508558d77a01ff68b"
+     },
+     {
+      "quote": "Whitney Hodges: if they have any market research, like, if they have any actual data to share with us, and they never do. They're always like, here, like, look at our reviews, sort of thing. So, I do… inside the vault for the accelerator people, um, I do, like, a training a couple of times a month, and it's…",
+      "speaker": "Whitney Hodges",
+      "start_ms": 3414000,
+      "evidence_id": "ev_98fb46a1eff79bc1765f98e8"
+     },
+     {
+      "quote": "Whitney Hodges: Something that I'll do live. Sometimes people show up. Sometimes nobody shows up like today. But regardless, I'll, like, turn it into a training that gets added into the curriculum. So today's was about, like, just the fact that wedding pros aren't actually doing any sort of market research, and reviews are not market research. And you can be doing market research. And if you were, like, your landing pages would be better. Your ads would be stronger because you would know.",
+      "speaker": "Whitney Hodges",
+      "start_ms": 3433000,
+      "evidence_id": "ev_2a47c48f852edd53262d1327"
+     },
+     {
+      "quote": "Whitney Hodges: the buyer types, you would know, like, these triggers to be able to, like, add, um, and, um, incorporate. So, I'm… I'm thinking, potentially, that one way for us to make LeadLock even more powerful, but also for our clients to see even more value in it.",
+      "speaker": "Whitney Hodges",
+      "start_ms": 3458000,
+      "evidence_id": "ev_f0d6efdb4ef1e0d781c7a324"
+     },
+     {
+      "quote": "Whitney Hodges: Is to, for Elevate clients, create market research surveys for them in LeadLock that they, that, I mean, they would have to be the ones to, like, tag people accordingly or, like, send it out when somebody new signs the, the contract, but we could set it up to where all that information is, like.",
+      "speaker": "Whitney Hodges",
+      "start_ms": 3477000,
+      "evidence_id": "ev_cc67e45e49c59eb19d6fc178"
+     },
+     {
+      "quote": "Whitney Hodges: zapped into a spreadsheet that obviously they can see, but we can see it too, right? And then be, like, weaving that back into…",
+      "speaker": "Whitney Hodges",
+      "start_ms": 3493000,
+      "evidence_id": "ev_4cf6a239636595d938c9fc24"
+     },
+     {
+      "quote": "Whitney Hodges: the ad copy landing page and stuff like that. So, I wanted to see if you liked that idea, and if so, we can kind of, like.",
+      "speaker": "Whitney Hodges",
+      "start_ms": 3502000,
+      "evidence_id": "ev_da4c80edaa2541df2a5af54b"
+     }
+    ],
+    "format_plan": {
+     "email": {
+      "ending": "Close without a reply or offer ask: I want to understand the experience your business delivers and the decision that brings a couple to it. Both give us something worth considering when we write your ads.\n\nTalk soon,\nWhitney",
+      "opening": "Hi {{contact.first_name}},\n\nIn a team conversation about our own marketing, I brought up something I want to understand about the wedding businesses we advertise: what helped their couples decide to book?",
+      "preview": "What couples loved afterward and what mattered when they chose you are both worth understanding.",
+      "argument": "Begin with the value of strong reviews and the owner's desire to represent that experience well in advertising. Explain that a question about the booking decision looks at an earlier moment, when the couple was still weighing their options. Describe WIA asking new ELEVATE clients whether they have market research to share. Then introduce Whitney's historical proposal to ask newly booked couples about their choice and consider what WIA learns in ad copy and landing pages. Keep it in flowing paragraphs, with no survey mechanics, invented responses or reported outcomes.",
+      "evidence_ids": [
+       "ev_fd7910749f6b4ea23a88cb58",
+       "ev_63129cd508558d77a01ff68b",
+       "ev_98fb46a1eff79bc1765f98e8",
+       "ev_cc67e45e49c59eb19d6fc178",
+       "ev_da4c80edaa2541df2a5af54b"
+      ],
+      "transformation": "Help the reader see two useful perspectives on their value: what couples appreciate after working with them and what matters before choosing them. Connect that distinction to how WIA decides what to communicate in advertising.",
+      "subject_options": [
+       "What made your couples decide to book?",
+       "A question I ask alongside reading reviews",
+       "Understanding the choice before the wedding"
+      ]
+     },
+     "reels": [
+      {
+       "job": "Introduce Whitney's curiosity about the booking decision and show the WIA contribution through her historical team discussion. One new talking-head script, not a cut assembled from the supplied excerpts.",
+       "beats": [
+        "A strong review gives us something useful: the couple's description of what they loved about working with you.",
+        "When we're getting to know a new ELEVATE client, we also ask whether they have research to share about why couples book.",
+        "In a team conversation about our own marketing, I proposed asking newly booked couples about that decision. What were they weighing, and what helped them feel ready to choose the business?",
+        "Those answers could give us different information to consider in ad copy and landing pages. This was a proposal, so we're sharing the thinking rather than reporting survey findings.",
+        "Close with the principle: I want our advertising to reflect what matters to a couple while they're deciding, as well as the experience they'll have afterward. No offer or engagement ask."
+       ],
+       "source": "new_script",
+       "cover_text": "The moment they chose you",
+       "evidence_ids": [
+        "ev_63129cd508558d77a01ff68b",
+        "ev_98fb46a1eff79bc1765f98e8",
+        "ev_cc67e45e49c59eb19d6fc178",
+        "ev_da4c80edaa2541df2a5af54b"
+       ],
+       "spoken_opening": "I'd like to know what your couples were considering before they ever had an experience to review.",
+       "read_time_seconds": 65
+      }
+     ],
+     "caption": {
+      "adds": "Develop a companion caption using Savannah's framework. Start with the owner's desire for ads that reflect their value. Respect reviews as evidence of the delivered experience, then explain the additional booking-decision question. Use Whitney's internal proposal to show how WIA connects that curiosity to ad copy and landing pages. Add depth to the Reel rather than repeating its opening, cover or sequence. No invented couple answers and no offer mechanics.",
+      "hook": "There's useful information in the choice a couple makes before their wedding day.",
+      "ending": "Finish on the distinction between understanding the choice and understanding the experience. No explicit ask. Sign off as Whitney."
+     },
+     "stories": null,
+     "carousel": {
+      "job": "Make the distinction between experience feedback and decision research tangible, then explain how Whitney proposed using the latter in WIA's advertising work.",
+      "slides": [
+       {
+        "job": "Open with two moments worth understanding.",
+        "text": "Your couples' reviews tell one part of the story. I'm also interested in what happened while they were deciding whether to book you. Those two moments give us different things to consider when we write your ads.",
+        "number": 1,
+        "evidence_ids": [
+         "ev_2a47c48f852edd53262d1327",
+         "ev_da4c80edaa2541df2a5af54b"
+        ]
+       },
+       {
+        "job": "Respect the value of reviews.",
+        "text": "A thoughtful review can tell us what a couple loved about their experience with your business. That's valuable language to understand and consider in advertising. I also want to make room for a question about how they chose you in the first place.",
+        "number": 2,
+        "evidence_ids": [
+         "ev_98fb46a1eff79bc1765f98e8",
+         "ev_2a47c48f852edd53262d1327"
+        ]
+       },
+       {
+        "job": "Define the additional question.",
+        "text": "While a couple is choosing a vendor, what are they weighing? What matters enough to influence their decision? Asking about that moment gives us a way to explore their choice directly, alongside what they loved afterward.",
+        "number": 3,
+        "evidence_ids": [
+         "ev_63129cd508558d77a01ff68b",
+         "ev_f0d6efdb4ef1e0d781c7a324"
+        ]
+       },
+       {
+        "job": "Show WIA's existing contribution.",
+        "text": "When we onboard a new ELEVATE client, we ask whether they have market research to share. We want to understand the business through its clients' decisions as well as its own description of what it offers. That question helps shape what we're curious about as we develop the advertising.",
+        "number": 4,
+        "evidence_ids": [
+         "ev_63129cd508558d77a01ff68b",
+         "ev_98fb46a1eff79bc1765f98e8"
+        ]
+       },
+       {
+        "job": "Introduce the historical proposal accurately.",
+        "text": "In an internal team conversation about our own marketing, I proposed asking newly booked couples about their decision. The idea was to learn from them soon after they'd chosen the business. It was a proposal, rather than a set of survey findings.",
+        "number": 5,
+        "evidence_ids": [
+         "ev_fd7910749f6b4ea23a88cb58",
+         "ev_cc67e45e49c59eb19d6fc178"
+        ]
+       },
+       {
+        "job": "Connect the information to WIA's advertising work.",
+        "text": "I wanted us to consider what we learned when writing ad copy and landing pages. A couple's answer could help us decide which parts of the business deserve emphasis. We'd be working from information about their choice, rather than assuming we already knew what mattered.",
+        "number": 6,
+        "evidence_ids": [
+         "ev_4cf6a239636595d938c9fc24",
+         "ev_da4c80edaa2541df2a5af54b"
+        ]
+       },
+       {
+        "job": "Close on the principle without an ask.",
+        "text": "For me, these questions belong together: what did the couple value in their experience, and what mattered when they chose you? Each looks at a different part of the relationship. Understanding both gives us more to consider when we communicate your value to the next couple.",
+        "number": 7,
+        "evidence_ids": [
+         "ev_2a47c48f852edd53262d1327",
+         "ev_f0d6efdb4ef1e0d781c7a324",
+         "ev_da4c80edaa2541df2a5af54b"
+        ]
+       }
+      ]
+     }
+    },
+    "point_of_view": "I",
+    "approved_angle": {
+     "title": "I want to know what made a couple book, as well as what they loved afterward",
+     "core_perspective": "I want to understand what a couple was weighing when they chose your business. Their review can tell us what they loved about the experience. Asking about the booking decision can give us different information to consider when we write your ads."
+    },
+    "intended_shift": {
+     "do": "Consider what they know about their couples' booking decisions and what they would like to ask a newly booked couple. No public engagement or offer ask.",
+     "believe": "WIA's advertising work involves understanding the reasons couples choose a business, as well as representing the experience it delivers.",
+     "understand": "What couples loved after their wedding and what mattered while they were choosing a vendor are different questions. Both can inform how a business communicates its value."
+    },
+    "sharpened_point": null,
+    "wia_perspective": "In an internal team conversation about our own marketing, I brought up a question we ask new ELEVATE clients: do they have any research about why couples chose them? Reviews are useful evidence of the experience a business delivers. I also want to understand the decision that came before that experience. What was the couple weighing, and what helped them feel ready to book? I proposed asking newly booked couples about that decision and considering their answers when we write ad copy and landing pages. That remains an idea to explore. The principle is the part worth sharing: understanding what matters to your couples gives us more to work with when we communicate why they should choose you.",
+    "before_publishing": [
+     {
+      "kind": "permission",
+      "text": "Confirm Whitney's attribution and approval for public reuse of these historical remarks.",
+      "answer": null,
+      "required": true
+     },
+     {
+      "kind": "do_not_claim",
+      "text": "Keep the survey idea a historical proposal. Do not describe a live or included LeadLock workflow.",
+      "answer": null,
+      "required": true
+     },
+     {
+      "kind": "do_not_claim",
+      "text": "Do not claim survey responses, changes to advertising or performance improvements. None are reported.",
+      "answer": null,
+      "required": true
+     },
+     {
+      "kind": "do_not_claim",
+      "text": "Omit the broad claim that wedding pros never have research. It is not a measured finding.",
+      "answer": null,
+      "required": true
+     },
+     {
+      "kind": "cta",
+      "text": "Confirm no explicit ask at Gate 2 and approve copy before developing visuals.",
+      "answer": null,
+      "required": true
+     }
+    ],
+    "narrative_outline": {
+     "cta": "No explicit ask. End on the value of understanding the decision, without naming an offer as the next step.",
+     "hooks": [
+      {
+       "text": "When we're getting to know a wedding business, I want to understand the moment a couple decided to book.",
+       "style": "observation"
+      },
+      {
+       "text": "What mattered to your couples while they were still choosing between you and their other options?",
+       "style": "question"
+      },
+      {
+       "text": "I think the booking decision deserves as much curiosity as the glowing review afterward.",
+       "style": "contrarian_belief"
+      }
+     ],
+     "main_point": "A review and a question about the booking decision look at different moments. Asking about both gives WIA different evidence to consider when communicating a wedding business's value.",
+     "transformation": "The owner starts considering both the experience their business delivers and the reasons a couple felt ready to choose it. WIA's messaging work becomes more concrete: understanding the couple before deciding what to emphasise in advertising.",
+     "problems_desires_symptoms": [
+      "You have thoughtful reviews that describe the experience you deliver, and you want your ads to reflect that value.",
+      "You also want to understand which parts of your business mattered to couples before they had experienced your work.",
+      "The useful question is what helped a best-fit couple choose you while they were still considering their options."
+     ]
+    },
+    "strategic_purpose": {
+     "pillar": "ATTRACT",
+     "why_now": "Show the thinking behind WIA's messaging work through a specific question owners can recognise. Within Watch Us Build an Ad Strategy, this introduces how WIA looks for evidence about a couple's decision, without repeating campaign diagnosis or pre-tour nurture content.",
+     "content_type": "founder_forward"
+    },
+    "supporting_example": {
+     "scene": "During a historical internal team conversation about improving WIA's own marketing, Whitney described asking new ELEVATE clients whether they had market research to share. She distinguished the reviews clients offered from information about buying decisions, then floated asking newly signed clients about their choice.",
+     "wia_move": "Whitney proposed gathering booking-decision information and bringing what WIA learns into ad copy and landing pages. The brief uses her reasoning, not the proposed survey mechanics, as the example of WIA's work.",
+     "client_contribution": "No client participated in this scene, and no couple's response is supplied. Whitney originated the proposal. The record does not establish that surveys were sent or that any advertising was changed."
+    }
+   },
+   "header": {
+    "cta": {
+     "track": "none",
+     "action": null,
+     "choice": "no_explicit_ask",
+     "chosen_by": "writer",
+     "offer_connection": "Demonstrate the thinking behind ELEVATE's messaging and advertising work without an offer CTA or any promise of an included survey workflow."
+    },
+    "purpose": "ATTRACT",
+    "angle_id": "angle_6272bda35f744111ad64d919d4f2db12",
+    "audience": "Wedding pros with strong reviews who want their advertising to reflect why their best-fit couples chose them.",
+    "channels": [
+     "reel",
+     "carousel",
+     "email",
+     "caption"
+    ],
+    "angle_hash": "552ef25758a94a4f46d4310a8a9280765ee13b58a888fc30163dfa2ecce446ba",
+    "content_type": "founder_forward",
+    "pinned_inputs": {
+     "offer_sheet": {
+      "key": "offer_sheet",
+      "sha256": "6302ca2138071562ce275dfdc573c60bf1a3c13086e196aaa4d7323ae9aefed0",
+      "version": "wia-kb-2026-10-18.c-3ccde8c5"
+     },
+     "content_plan": {
+      "key": "content_plan",
+      "sha256": "d431f54ae92d02c3fa358388550a2f39e1e1804f707e2fb4918283022392ee28",
+      "version": "wia-kb-2026-10-18.c-3ccde8c5"
+     },
+     "knowledge_base": {
+      "sha256": "9819c681606bed05696388de56191aef9a8c05ead0fa0ae27cf02f48e7ce1ddf",
+      "version": "wia-kb-2026-10-18.c-3ccde8c5"
+     },
+     "published_history": "incomplete_legacy_catalogue_missing"
+    },
+    "point_of_view": "I",
+    "intended_shift": {
+     "do": "Consider what they know about their couples' booking decisions and what they would like to ask a newly booked couple. No public engagement or offer ask.",
+     "believe": "WIA's advertising work involves understanding the reasons couples choose a business, as well as representing the experience it delivers.",
+     "understand": "What couples loved after their wedding and what mattered while they were choosing a vendor are different questions. Both can inform how a business communicates its value."
+    },
+    "schema_version": "brief_document_v2"
+   }
+  },
+  "provenance": {
+   "angle": {
+    "cta": {
+     "choice": "decide_in_development"
+    },
+    "body": {
+     "card": {
+      "rank": 3,
+      "title": "I want to know what made a couple book, as well as what they loved afterward",
+      "pillar": "ATTRACT",
+      "series": "Watch Us Build an Ad Strategy",
+      "audience": "Wedding pros with strong reviews who want their advertising to reflect why their best-fit couples chose them.",
+      "moment_ids": [
+       "moment_125018d28145a9aa35909f6f"
+      ],
+      "content_type": "founder_forward",
+      "why_selected": "This earns the reach piece through a clear founder perspective rather than a forced polarizing hook. It differs from the recent UVP training: the point is which customer evidence WIA wants and why, rather than the general importance of positioning before campaign setup.",
+      "wia_in_action": "In a conversation with the team about improving WIA's own marketing, Whitney explained that WIA asks new ELEVATE clients whether they have research on why couples book them. She floated asking newly booked couples about their decision and using what WIA learns in ad copy and landing pages. It is an idea WIA is exploring, not a process clients receive today.",
+      "why_it_matters": "An owner may think, 'Our reviews already tell you why couples love us.' Whitney's question makes room for another kind of evidence: what mattered to the couple before the wedding happened, while they were still deciding. It does not dismiss reviews or claim an industry-wide research gap.",
+      "evidence_points": [
+       "Whitney said WIA asks new ELEVATE clients whether they have market research to share.",
+       "She distinguished reviews from research into buying triggers.",
+       "She proposed asking newly signed clients about their decision and feeding that information back into ad copy and landing pages.",
+       "The call does not report survey responses or changes made from that research."
+      ],
+      "core_perspective": "I want to understand what a couple was weighing when they chose your business. Their review can tell us what they loved about the experience. Asking about the booking decision can give us different information to consider when we write your ads.",
+      "offer_connection": "This shows the thinking behind ELEVATE's messaging and advertising work. Keep the piece focused on the value of asking about the booking decision, with no offer CTA and no promise that a survey workflow is included or live.",
+      "verify_before_publishing": [
+       "Approve use of Whitney's historical call remarks; avoid her broad characterization of wedding pros as a measured finding.",
+       "Describe the client survey and shared-data workflow as proposed, not implemented or currently included."
+      ]
+     },
+     "take": "I want to understand what a couple was weighing when they chose your business. Their review can tell us what they loved about the experience. Asking about the booking decision can give us different information to consider when we write your ads.",
+     "risks": [
+      "handling: unknown; public reuse needs review"
+     ],
+     "title": "I want to know what made a couple book, as well as what they loved afterward",
+     "ledger": {
+      "flags": [],
+      "critic": null,
+      "version": "ledger-2026-10-18.v1",
+      "bindings": [
+       {
+        "point": "Whitney said WIA asks new ELEVATE clients whether they have market research to share.",
+        "spans": [],
+        "status": "unbound",
+        "point_index": 0
+       },
+       {
+        "point": "She distinguished reviews from research into buying triggers.",
+        "spans": [],
+        "status": "unbound",
+        "point_index": 1
+       },
+       {
+        "point": "She proposed asking newly signed clients about their decision and feeding that information back into ad copy and landing pages.",
+        "spans": [],
+        "status": "unbound",
+        "point_index": 2
+       },
+       {
+        "point": "The call does not report survey responses or changes made from that research.",
+        "spans": [],
+        "status": "unbound",
+        "point_index": 3
+       }
+      ],
+      "readiness": "needs_check",
+      "model_pass": "not_run",
+      "qualifiers": [],
+      "attribution": [
+       {
+        "name": "Whitney Hodges",
+        "field": "wia_in_action",
+        "speaks_in_scenes": true
+       },
+       {
+        "name": "Whitney Hodges",
+        "field": "evidence_points[0]",
+        "speaks_in_scenes": true
+       }
+      ],
+      "ledger_hash": "f629cbef60af840abf0a38c59163e493f78c02c12c1031ea0d4ba3debc8fb5d4"
+     },
+     "tension": "",
+     "argument": "I want to understand what a couple was weighing when they chose your business. Their review can tell us what they loved about the experience. Asking about the booking decision can give us different information to consider when we write your ads.",
+     "audience": "Wedding pros with strong reviews who want their advertising to reflect why their best-fit couples chose them.",
+     "inference": null,
+     "mechanism": "In a conversation with the team about improving WIA's own marketing, Whitney explained that WIA asks new ELEVATE clients whether they have research on why couples book them. She floated asking newly booked couples about their decision and using what WIA learns in ad copy and landing pages. It is an idea WIA is exploring, not a process clients receive today.",
+     "qualifiers": [
+      "The broad statement about wedding pros is Whitney's characterization, not a measured industry finding.",
+      "The LeadLock survey workflow is proposed, not confirmed as implemented or available.",
+      "No survey responses or resulting changes to ads or landing pages are reported."
+     ],
+     "reader_decision": null,
+     "source_family_id": "source_family_458b5b6e709f2722bde88ed6",
+     "source_assertions": []
+    },
+    "steer": "D12, develop after reframe: Whitney's point that the booking decision is different evidence from reviews is a real WIA perspective. Checked: the setting is now an internal team conversation, the survey stays a proposal, and no quote is attributed to her.",
+    "policy": null,
+    "week_id": "week_2026-10-05",
+    "angle_id": "angle_6272bda35f744111ad64d919d4f2db12",
+    "approved_at": "2026-10-18T12:05:08.906145+00:00",
+    "approved_by": "kenil.shah@e2m.solutions",
+    "approved_hash": "552ef25758a94a4f46d4310a8a9280765ee13b58a888fc30163dfa2ecce446ba",
+    "moment_hashes": {
+     "moment_125018d28145a9aa35909f6f": "7aad6ccc7298d484c90d70e3d952bb12609ed339a92149a78cafcece1470d904"
+    }
+   },
+   "roster": [
+    {
+     "name": "Carmen Cruickshank",
+     "role": "Google Ads lead: keyword research, audits, VIP Days, Google office hours; manages Meta for some clients",
+     "status": "current",
+     "aliases": [
+      "Carmen Cruickshank",
+      "Carmen",
+      "Cruikshank"
+     ]
+    },
+    {
+     "name": "Christina Hill",
+     "role": "Google Ads manager and tracking specialist",
+     "status": "former",
+     "aliases": [
+      "Christina Hill",
+      "Christina"
+     ]
+    },
+    {
+     "name": "Daniela Justus",
+     "role": "Co-founder; co-founder of LeadLock",
+     "status": "current",
+     "aliases": [
+      "Daniela Justus",
+      "Daniela",
+      "Daniella"
+     ]
+    },
+    {
+     "name": "Daniela Martinez",
+     "role": "invented by ChatGPT; never use",
+     "status": "invented",
+     "aliases": [
+      "Daniela Martinez",
+      "Daniela"
+     ]
+    },
+    {
+     "name": "Danielle McGinnis",
+     "role": "LeadLock onboarding, set-up and support",
+     "status": "current",
+     "aliases": [
+      "Danielle McGinnis",
+      "Danielle"
+     ]
+    },
+    {
+     "name": "Emily Foster",
+     "role": "Brand and website designer; WIA's preferred partner",
+     "status": "outside",
+     "aliases": [
+      "Emily Foster",
+      "Emily"
+     ]
+    },
+    {
+     "name": "Fallon Looney",
+     "role": "Google, Meta and funnel strategist",
+     "status": "former",
+     "aliases": [
+      "Fallon Looney",
+      "Fallon"
+     ]
+    },
+    {
+     "name": "Gisselle Jiménez",
+     "role": "Operations and client communications; often types for Whitney and relays her decisions",
+     "status": "current",
+     "aliases": [
+      "Gisselle Jiménez",
+      "Gisselle",
+      "Giselle",
+      "Jimenez"
+     ]
+    },
+    {
+     "name": "Ivy Ayala",
+     "role": "Ad creative",
+     "status": "current",
+     "aliases": [
+      "Ivy Ayala",
+      "Ivy"
+     ]
+    },
+    {
+     "name": "Jacqueline Hood",
+     "role": "Meta ads manager, WIA's most experienced",
+     "status": "current",
+     "aliases": [
+      "Jacqueline Hood",
+      "Jacqueline",
+      "Jaqueline",
+      "Jacquelyn"
+     ]
+    },
+    {
+     "name": "Margaux",
+     "role": "Host of the Wedding Summit Series WIA sponsored",
+     "status": "outside",
+     "aliases": [
+      "Margaux"
+     ]
+    },
+    {
+     "name": "Maria Bayer",
+     "role": "Ran a sales Q&A for VAULT members",
+     "status": "outside",
+     "aliases": [
+      "Maria Bayer",
+      "Maria"
+     ]
+    },
+    {
+     "name": "Matt",
+     "role": "invented by ChatGPT; never use",
+     "status": "invented",
+     "aliases": [
+      "Matt"
+     ]
+    },
+    {
+     "name": "Savannah Jordan",
+     "role": "External marketing consultant; author of WIA's content strategy",
+     "status": "outside",
+     "aliases": [
+      "Savannah Jordan",
+      "Savannah"
+     ]
+    },
+    {
+     "name": "Tina Henares",
+     "role": "LeadLock nurture sequences, design and ads landing pages (part-time)",
+     "status": "current",
+     "aliases": [
+      "Tina Henares",
+      "Tina"
+     ]
+    },
+    {
+     "name": "Tirzah Caffee",
+     "role": "Venue coach and podcast host; frequent referrer",
+     "status": "outside",
+     "aliases": [
+      "Tirzah Caffee",
+      "Tirzah"
+     ]
+    },
+    {
+     "name": "Viktor",
+     "role": "an AI agent the team uses; never credit it as a person",
+     "status": "outside",
+     "aliases": [
+      "Viktor"
+     ]
+    },
+    {
+     "name": "Whitney Hodges",
+     "role": "Co-founder. Sales, discovery calls, workshops; since mid-August 2026 runs every ELEVATE strategy call",
+     "status": "current",
+     "aliases": [
+      "Whitney Hodges",
+      "Whitney"
+     ]
+    },
+    {
+     "name": "Yulia",
+     "role": "Contract Meta strategist",
+     "status": "former",
+     "aliases": [
+      "Yulia"
+     ]
+    }
+   ],
+   "run_id": "brief_run_517e48228b94fd01d453d304",
+   "brand_hash": "7b23b6e6268a7030a3c787171374251bc8ce7f95efd24c5026f239ca7504b66d",
+   "dossier_hash": "91312a67f7088652d16755e455061baa0b3b82793f05285f823fe6f32c7ca33f",
+   "pinned_inputs": {
+    "offer_sheet": {
+     "key": "offer_sheet",
+     "sha256": "6302ca2138071562ce275dfdc573c60bf1a3c13086e196aaa4d7323ae9aefed0",
+     "version": "wia-kb-2026-10-18.c-3ccde8c5"
+    },
+    "content_plan": {
+     "key": "content_plan",
+     "sha256": "d431f54ae92d02c3fa358388550a2f39e1e1804f707e2fb4918283022392ee28",
+     "version": "wia-kb-2026-10-18.c-3ccde8c5"
+    },
+    "knowledge_base": {
+     "sha256": "9819c681606bed05696388de56191aef9a8c05ead0fa0ae27cf02f48e7ce1ddf",
+     "version": "wia-kb-2026-10-18.c-3ccde8c5"
+    },
+    "published_history": "incomplete_legacy_catalogue_missing"
+   },
+   "internal_terms": [
+    {
+     "term": "$1,997",
+     "item_id": "item_002ceb7a829e4b2fa09fe5908985345f"
+    },
+    {
+     "term": "$1,997",
+     "item_id": "item_15457b81e35d412ea83d3706918fcc7f"
+    },
+    {
+     "term": "$1,497",
+     "item_id": "item_15457b81e35d412ea83d3706918fcc7f"
+    },
+    {
+     "term": "$1,000",
+     "item_id": "item_15457b81e35d412ea83d3706918fcc7f"
+    },
+    {
+     "term": "$1,697",
+     "item_id": "item_1a84fb1023134fb1ac5a2c4271b80784"
+    },
+    {
+     "term": "$848.50",
+     "item_id": "item_1a84fb1023134fb1ac5a2c4271b80784"
+    },
+    {
+     "term": "$3,197,",
+     "item_id": "item_1dae7a10a66b49db9d490ba275c0446d"
+    },
+    {
+     "term": "$1,598.50",
+     "item_id": "item_501f9f5b778b40759e25af56479dda98"
+    },
+    {
+     "term": "$147",
+     "item_id": "item_8459d40c69a04582b655e2095f3db3c3"
+    }
+   ],
+   "knowledge_base_keys": [
+    "content_strategy",
+    "founder_voice_guide",
+    "accelerator_strategy",
+    "team_roster",
+    "offer_sheet",
+    "rejection_rules",
+    "process_catalogue",
+    "content_workflow",
+    "format_guide",
+    "cta_catalogue",
+    "audience_language",
+    "results_register",
+    "content_plan",
+    "exemplars",
+    "belief_statements"
+   ]
+  },
+  "schema_version": "brief_document_v2"
+ },
+ "selected_evidence": [
+  {
+   "end": 338,
+   "role": "qualification",
+   "start": 40,
+   "title": "penny-strategy-call.vtt",
+   "excerpt": "Whitney Hodges: Sounds good. Okay. The other thing that I was kind of, um, thinking, and just wanted to kind of, like, pick your brain on. So, as we're trying to kind of, like, up-level our own marketing, we've started doing, um, some more strategic, like, market research, like, in terms of, like.",
+   "speaker": "Whitney Hodges",
+   "start_ms": 3381000,
+   "chunk_ids": [],
+   "inherited": true,
+   "moment_ids": [
+    "moment_125018d28145a9aa35909f6f"
+   ],
+   "passage_id": "zoom:fb072729b35911d2:span:0",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_fd7910749f6b4ea23a88cb58",
+   "sensitivity": "unknown",
+   "source_hash": "5b081e66589c398f90e8449ec3680c4c3dc9a0fcb8a0d1e4b6f1a2e037d5f53b",
+   "claim_status": "planned",
+   "source_digest": "e2f021ef280a69582119da632195b7f41276ef38bf3dc07cd3115d7e5f52139f",
+   "transcript_id": "transcript_41f19ab9b76438954f4b2e1f",
+   "qualifications": [
+    "The broad statement about wedding pros is Whitney's characterization, not a measured industry finding.",
+    "The LeadLock survey workflow is proposed, not confirmed as implemented or available.",
+    "No survey responses or resulting changes to ads or landing pages are reported."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 657,
+   "role": "anchor",
+   "start": 372,
+   "title": "penny-strategy-call.vtt",
+   "excerpt": "Whitney Hodges: every time a new client signs on, like, sending them a survey to try to really, like, uncover their buying triggers, sort of thing. Um, and one thing that I've been noticing, like, every single time we onboard a new client for Elevate, like, we always ask the question.",
+   "speaker": "Whitney Hodges",
+   "start_ms": 3398000,
+   "chunk_ids": [],
+   "inherited": true,
+   "moment_ids": [
+    "moment_125018d28145a9aa35909f6f"
+   ],
+   "passage_id": "zoom:fb072729b35911d2:span:1",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_63129cd508558d77a01ff68b",
+   "sensitivity": "unknown",
+   "source_hash": "5b081e66589c398f90e8449ec3680c4c3dc9a0fcb8a0d1e4b6f1a2e037d5f53b",
+   "claim_status": "planned",
+   "source_digest": "e2f021ef280a69582119da632195b7f41276ef38bf3dc07cd3115d7e5f52139f",
+   "transcript_id": "transcript_41f19ab9b76438954f4b2e1f",
+   "qualifications": [
+    "The broad statement about wedding pros is Whitney's characterization, not a measured industry finding.",
+    "The LeadLock survey workflow is proposed, not confirmed as implemented or available.",
+    "No survey responses or resulting changes to ads or landing pages are reported."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 1000,
+   "role": "anchor",
+   "start": 691,
+   "title": "penny-strategy-call.vtt",
+   "excerpt": "Whitney Hodges: if they have any market research, like, if they have any actual data to share with us, and they never do. They're always like, here, like, look at our reviews, sort of thing. So, I do… inside the vault for the accelerator people, um, I do, like, a training a couple of times a month, and it's…",
+   "speaker": "Whitney Hodges",
+   "start_ms": 3414000,
+   "chunk_ids": [],
+   "inherited": true,
+   "moment_ids": [
+    "moment_125018d28145a9aa35909f6f"
+   ],
+   "passage_id": "zoom:fb072729b35911d2:span:2",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_98fb46a1eff79bc1765f98e8",
+   "sensitivity": "unknown",
+   "source_hash": "5b081e66589c398f90e8449ec3680c4c3dc9a0fcb8a0d1e4b6f1a2e037d5f53b",
+   "claim_status": "planned",
+   "source_digest": "e2f021ef280a69582119da632195b7f41276ef38bf3dc07cd3115d7e5f52139f",
+   "transcript_id": "transcript_41f19ab9b76438954f4b2e1f",
+   "qualifications": [
+    "The broad statement about wedding pros is Whitney's characterization, not a measured industry finding.",
+    "The LeadLock survey workflow is proposed, not confirmed as implemented or available.",
+    "No survey responses or resulting changes to ads or landing pages are reported."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 1527,
+   "role": "anchor",
+   "start": 1034,
+   "title": "penny-strategy-call.vtt",
+   "excerpt": "Whitney Hodges: Something that I'll do live. Sometimes people show up. Sometimes nobody shows up like today. But regardless, I'll, like, turn it into a training that gets added into the curriculum. So today's was about, like, just the fact that wedding pros aren't actually doing any sort of market research, and reviews are not market research. And you can be doing market research. And if you were, like, your landing pages would be better. Your ads would be stronger because you would know.",
+   "speaker": "Whitney Hodges",
+   "start_ms": 3433000,
+   "chunk_ids": [],
+   "inherited": true,
+   "moment_ids": [
+    "moment_125018d28145a9aa35909f6f"
+   ],
+   "passage_id": "zoom:fb072729b35911d2:span:3",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_2a47c48f852edd53262d1327",
+   "sensitivity": "unknown",
+   "source_hash": "5b081e66589c398f90e8449ec3680c4c3dc9a0fcb8a0d1e4b6f1a2e037d5f53b",
+   "claim_status": "planned",
+   "source_digest": "e2f021ef280a69582119da632195b7f41276ef38bf3dc07cd3115d7e5f52139f",
+   "transcript_id": "transcript_41f19ab9b76438954f4b2e1f",
+   "qualifications": [
+    "The broad statement about wedding pros is Whitney's characterization, not a measured industry finding.",
+    "The LeadLock survey workflow is proposed, not confirmed as implemented or available.",
+    "No survey responses or resulting changes to ads or landing pages are reported."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 1830,
+   "role": "anchor",
+   "start": 1561,
+   "title": "penny-strategy-call.vtt",
+   "excerpt": "Whitney Hodges: the buyer types, you would know, like, these triggers to be able to, like, add, um, and, um, incorporate. So, I'm… I'm thinking, potentially, that one way for us to make LeadLock even more powerful, but also for our clients to see even more value in it.",
+   "speaker": "Whitney Hodges",
+   "start_ms": 3458000,
+   "chunk_ids": [],
+   "inherited": true,
+   "moment_ids": [
+    "moment_125018d28145a9aa35909f6f"
+   ],
+   "passage_id": "zoom:fb072729b35911d2:span:4",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_f0d6efdb4ef1e0d781c7a324",
+   "sensitivity": "unknown",
+   "source_hash": "5b081e66589c398f90e8449ec3680c4c3dc9a0fcb8a0d1e4b6f1a2e037d5f53b",
+   "claim_status": "planned",
+   "source_digest": "e2f021ef280a69582119da632195b7f41276ef38bf3dc07cd3115d7e5f52139f",
+   "transcript_id": "transcript_41f19ab9b76438954f4b2e1f",
+   "qualifications": [
+    "The broad statement about wedding pros is Whitney's characterization, not a measured industry finding.",
+    "The LeadLock survey workflow is proposed, not confirmed as implemented or available.",
+    "No survey responses or resulting changes to ads or landing pages are reported."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 2176,
+   "role": "anchor",
+   "start": 1864,
+   "title": "penny-strategy-call.vtt",
+   "excerpt": "Whitney Hodges: Is to, for Elevate clients, create market research surveys for them in LeadLock that they, that, I mean, they would have to be the ones to, like, tag people accordingly or, like, send it out when somebody new signs the, the contract, but we could set it up to where all that information is, like.",
+   "speaker": "Whitney Hodges",
+   "start_ms": 3477000,
+   "chunk_ids": [],
+   "inherited": true,
+   "moment_ids": [
+    "moment_125018d28145a9aa35909f6f"
+   ],
+   "passage_id": "zoom:fb072729b35911d2:span:5",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_cc67e45e49c59eb19d6fc178",
+   "sensitivity": "unknown",
+   "source_hash": "5b081e66589c398f90e8449ec3680c4c3dc9a0fcb8a0d1e4b6f1a2e037d5f53b",
+   "claim_status": "planned",
+   "source_digest": "e2f021ef280a69582119da632195b7f41276ef38bf3dc07cd3115d7e5f52139f",
+   "transcript_id": "transcript_41f19ab9b76438954f4b2e1f",
+   "qualifications": [
+    "The broad statement about wedding pros is Whitney's characterization, not a measured industry finding.",
+    "The LeadLock survey workflow is proposed, not confirmed as implemented or available.",
+    "No survey responses or resulting changes to ads or landing pages are reported."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 2353,
+   "role": "anchor",
+   "start": 2210,
+   "title": "penny-strategy-call.vtt",
+   "excerpt": "Whitney Hodges: zapped into a spreadsheet that obviously they can see, but we can see it too, right? And then be, like, weaving that back into…",
+   "speaker": "Whitney Hodges",
+   "start_ms": 3493000,
+   "chunk_ids": [],
+   "inherited": true,
+   "moment_ids": [
+    "moment_125018d28145a9aa35909f6f"
+   ],
+   "passage_id": "zoom:fb072729b35911d2:span:6",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_4cf6a239636595d938c9fc24",
+   "sensitivity": "unknown",
+   "source_hash": "5b081e66589c398f90e8449ec3680c4c3dc9a0fcb8a0d1e4b6f1a2e037d5f53b",
+   "claim_status": "planned",
+   "source_digest": "e2f021ef280a69582119da632195b7f41276ef38bf3dc07cd3115d7e5f52139f",
+   "transcript_id": "transcript_41f19ab9b76438954f4b2e1f",
+   "qualifications": [
+    "The broad statement about wedding pros is Whitney's characterization, not a measured industry finding.",
+    "The LeadLock survey workflow is proposed, not confirmed as implemented or available.",
+    "No survey responses or resulting changes to ads or landing pages are reported."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 2525,
+   "role": "anchor",
+   "start": 2387,
+   "title": "penny-strategy-call.vtt",
+   "excerpt": "Whitney Hodges: the ad copy landing page and stuff like that. So, I wanted to see if you liked that idea, and if so, we can kind of, like.",
+   "speaker": "Whitney Hodges",
+   "start_ms": 3502000,
+   "chunk_ids": [],
+   "inherited": true,
+   "moment_ids": [
+    "moment_125018d28145a9aa35909f6f"
+   ],
+   "passage_id": "zoom:fb072729b35911d2:span:7",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_da4c80edaa2541df2a5af54b",
+   "sensitivity": "unknown",
+   "source_hash": "5b081e66589c398f90e8449ec3680c4c3dc9a0fcb8a0d1e4b6f1a2e037d5f53b",
+   "claim_status": "planned",
+   "source_digest": "e2f021ef280a69582119da632195b7f41276ef38bf3dc07cd3115d7e5f52139f",
+   "transcript_id": "transcript_41f19ab9b76438954f4b2e1f",
+   "qualifications": [
+    "The broad statement about wedding pros is Whitney's characterization, not a measured industry finding.",
+    "The LeadLock survey workflow is proposed, not confirmed as implemented or available.",
+    "No survey responses or resulting changes to ads or landing pages are reported."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 2613,
+   "role": "anchor",
+   "start": 2559,
+   "title": "penny-strategy-call.vtt",
+   "excerpt": "Fallon Looney: Yeah, I think that that's a great idea.",
+   "speaker": "Fallon Looney",
+   "start_ms": 3512000,
+   "chunk_ids": [],
+   "inherited": true,
+   "moment_ids": [
+    "moment_125018d28145a9aa35909f6f"
+   ],
+   "passage_id": "zoom:fb072729b35911d2:span:8",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_ad31d10fff108d2038e39a78",
+   "sensitivity": "unknown",
+   "source_hash": "5b081e66589c398f90e8449ec3680c4c3dc9a0fcb8a0d1e4b6f1a2e037d5f53b",
+   "claim_status": "planned",
+   "source_digest": "e2f021ef280a69582119da632195b7f41276ef38bf3dc07cd3115d7e5f52139f",
+   "transcript_id": "transcript_41f19ab9b76438954f4b2e1f",
+   "qualifications": [
+    "The broad statement about wedding pros is Whitney's characterization, not a measured industry finding.",
+    "The LeadLock survey workflow is proposed, not confirmed as implemented or available.",
+    "No survey responses or resulting changes to ads or landing pages are reported."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 5128,
+   "role": "qualification",
+   "start": 4817,
+   "title": "internal-ghl-ai-chat-widget-review.vtt",
+   "excerpt": "Whitney Hodges: our clients. And I think, honestly, just like for, like, I mean, for Elevate clients, right? Like, we are doing an in-depth messaging and positioning interview with them where it's like they're going to have answered a lot of questions about their USP and their competitors and things like that.",
+   "speaker": "Whitney Hodges",
+   "start_ms": 746000,
+   "chunk_ids": [
+    "chunk_ee53b8def6ee9b6e8969a2e1"
+   ],
+   "inherited": false,
+   "moment_ids": [
+    "moment_106a8a41e0f0f2c3d5318a9a"
+   ],
+   "passage_id": "zoom:9ba4e29595823e92:span:24",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_05583d054fb8bca313eb3387",
+   "sensitivity": "unknown",
+   "source_hash": "5a1981f4bf917163c5e6bb2f65b9cce39bba2ad035e24fe610e3d6d43726da1e",
+   "claim_status": "planned",
+   "source_digest": "7be0e315946d60bfed1af317f48b74d748fd010afa6cfbadd81b1433b55e4c52",
+   "transcript_id": "transcript_fb1d9ca0174114a971ef92aa",
+   "qualifications": [
+    "The pilot is proposed; the source does not establish that it was completed or that the widget worked as intended.",
+    "The discussion does not establish the final information requirements for WIA or client accounts."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 119,
+   "role": "context",
+   "start": 40,
+   "title": "internal-ghl-ai-chat-widget-review.vtt",
+   "excerpt": "Danielle McGinnis: I think the chat widget is only as good as what you feed in.",
+   "speaker": "Danielle McGinnis",
+   "start_ms": 160000,
+   "chunk_ids": [
+    "chunk_ee53b8def6ee9b6e8969a2e1"
+   ],
+   "inherited": false,
+   "moment_ids": [
+    "moment_106a8a41e0f0f2c3d5318a9a"
+   ],
+   "passage_id": "zoom:9ba4e29595823e92:span:0",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_d793328093873998d572eeb9",
+   "sensitivity": "unknown",
+   "source_hash": "5a1981f4bf917163c5e6bb2f65b9cce39bba2ad035e24fe610e3d6d43726da1e",
+   "claim_status": "planned",
+   "source_digest": "7be0e315946d60bfed1af317f48b74d748fd010afa6cfbadd81b1433b55e4c52",
+   "transcript_id": "transcript_fb1d9ca0174114a971ef92aa",
+   "qualifications": [
+    "The pilot is proposed; the source does not establish that it was completed or that the widget worked as intended.",
+    "The discussion does not establish the final information requirements for WIA or client accounts."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 277,
+   "role": "context",
+   "start": 153,
+   "title": "internal-ghl-ai-chat-widget-review.vtt",
+   "excerpt": "Danielle McGinnis: of what it is. Like, I know to start, we could do something really simple, like, you upload your website.",
+   "speaker": "Danielle McGinnis",
+   "start_ms": 176000,
+   "chunk_ids": [
+    "chunk_ee53b8def6ee9b6e8969a2e1"
+   ],
+   "inherited": false,
+   "moment_ids": [
+    "moment_106a8a41e0f0f2c3d5318a9a"
+   ],
+   "passage_id": "zoom:9ba4e29595823e92:span:1",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_1a06a42dedc041c3f02e5641",
+   "sensitivity": "unknown",
+   "source_hash": "5a1981f4bf917163c5e6bb2f65b9cce39bba2ad035e24fe610e3d6d43726da1e",
+   "claim_status": "planned",
+   "source_digest": "7be0e315946d60bfed1af317f48b74d748fd010afa6cfbadd81b1433b55e4c52",
+   "transcript_id": "transcript_fb1d9ca0174114a971ef92aa",
+   "qualifications": [
+    "The pilot is proposed; the source does not establish that it was completed or that the widget worked as intended.",
+    "The discussion does not establish the final information requirements for WIA or client accounts."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 418,
+   "role": "context",
+   "start": 311,
+   "title": "internal-ghl-ai-chat-widget-review.vtt",
+   "excerpt": "Danielle McGinnis: to the AI area, and then it'll pull what it can off your website, but then they ask you…",
+   "speaker": "Danielle McGinnis",
+   "start_ms": 183000,
+   "chunk_ids": [
+    "chunk_ee53b8def6ee9b6e8969a2e1"
+   ],
+   "inherited": false,
+   "moment_ids": [
+    "moment_106a8a41e0f0f2c3d5318a9a"
+   ],
+   "passage_id": "zoom:9ba4e29595823e92:span:2",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_20310af2b5c77f592d15c595",
+   "sensitivity": "unknown",
+   "source_hash": "5a1981f4bf917163c5e6bb2f65b9cce39bba2ad035e24fe610e3d6d43726da1e",
+   "claim_status": "planned",
+   "source_digest": "7be0e315946d60bfed1af317f48b74d748fd010afa6cfbadd81b1433b55e4c52",
+   "transcript_id": "transcript_fb1d9ca0174114a971ef92aa",
+   "qualifications": [
+    "The pilot is proposed; the source does not establish that it was completed or that the widget worked as intended.",
+    "The discussion does not establish the final information requirements for WIA or client accounts."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 613,
+   "role": "context",
+   "start": 452,
+   "title": "internal-ghl-ai-chat-widget-review.vtt",
+   "excerpt": "Danielle McGinnis: like, a bunch of other things to, like, feed the knowledge base. In essence, that's what we're gonna need, and so it's like, if we don't have…",
+   "speaker": "Danielle McGinnis",
+   "start_ms": 189000,
+   "chunk_ids": [
+    "chunk_ee53b8def6ee9b6e8969a2e1"
+   ],
+   "inherited": false,
+   "moment_ids": [
+    "moment_106a8a41e0f0f2c3d5318a9a"
+   ],
+   "passage_id": "zoom:9ba4e29595823e92:span:3",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_9eca1cca05d4fe54bd7d04d5",
+   "sensitivity": "unknown",
+   "source_hash": "5a1981f4bf917163c5e6bb2f65b9cce39bba2ad035e24fe610e3d6d43726da1e",
+   "claim_status": "planned",
+   "source_digest": "7be0e315946d60bfed1af317f48b74d748fd010afa6cfbadd81b1433b55e4c52",
+   "transcript_id": "transcript_fb1d9ca0174114a971ef92aa",
+   "qualifications": [
+    "The pilot is proposed; the source does not establish that it was completed or that the widget worked as intended.",
+    "The discussion does not establish the final information requirements for WIA or client accounts."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 807,
+   "role": "context",
+   "start": 647,
+   "title": "internal-ghl-ai-chat-widget-review.vtt",
+   "excerpt": "Danielle McGinnis: if we roll this out to our clients, and they don't… we don't have a means to build that knowledge base, then I think the widget is not gonna…",
+   "speaker": "Danielle McGinnis",
+   "start_ms": 197000,
+   "chunk_ids": [
+    "chunk_ee53b8def6ee9b6e8969a2e1"
+   ],
+   "inherited": false,
+   "moment_ids": [
+    "moment_106a8a41e0f0f2c3d5318a9a"
+   ],
+   "passage_id": "zoom:9ba4e29595823e92:span:4",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_c61e7c4bee75fcb8ae8ac003",
+   "sensitivity": "unknown",
+   "source_hash": "5a1981f4bf917163c5e6bb2f65b9cce39bba2ad035e24fe610e3d6d43726da1e",
+   "claim_status": "planned",
+   "source_digest": "7be0e315946d60bfed1af317f48b74d748fd010afa6cfbadd81b1433b55e4c52",
+   "transcript_id": "transcript_fb1d9ca0174114a971ef92aa",
+   "qualifications": [
+    "The pilot is proposed; the source does not establish that it was completed or that the widget worked as intended.",
+    "The discussion does not establish the final information requirements for WIA or client accounts."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 892,
+   "role": "context",
+   "start": 841,
+   "title": "internal-ghl-ai-chat-widget-review.vtt",
+   "excerpt": "Danielle McGinnis: really do what we need it to do.",
+   "speaker": "Danielle McGinnis",
+   "start_ms": 203000,
+   "chunk_ids": [
+    "chunk_ee53b8def6ee9b6e8969a2e1"
+   ],
+   "inherited": false,
+   "moment_ids": [
+    "moment_106a8a41e0f0f2c3d5318a9a"
+   ],
+   "passage_id": "zoom:9ba4e29595823e92:span:5",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_a2cc06a0048270d33b6b7dcf",
+   "sensitivity": "unknown",
+   "source_hash": "5a1981f4bf917163c5e6bb2f65b9cce39bba2ad035e24fe610e3d6d43726da1e",
+   "claim_status": "planned",
+   "source_digest": "7be0e315946d60bfed1af317f48b74d748fd010afa6cfbadd81b1433b55e4c52",
+   "transcript_id": "transcript_fb1d9ca0174114a971ef92aa",
+   "qualifications": [
+    "The pilot is proposed; the source does not establish that it was completed or that the widget worked as intended.",
+    "The discussion does not establish the final information requirements for WIA or client accounts."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 1332,
+   "role": "context",
+   "start": 926,
+   "title": "internal-ghl-ai-chat-widget-review.vtt",
+   "excerpt": "Danielle McGinnis: after you put the website in, it's like a box that pops up, and then these questions, so you start having to fill this stuff in, this drop-downs, and these questions kind of are loading in, so there was only… I could only get so far because I didn't have all the answers, and so I actually stopped. I didn't see a point in plugging in some and not all, and I don't think it would let me.",
+   "speaker": "Danielle McGinnis",
+   "start_ms": 285000,
+   "chunk_ids": [
+    "chunk_ee53b8def6ee9b6e8969a2e1"
+   ],
+   "inherited": false,
+   "moment_ids": [
+    "moment_106a8a41e0f0f2c3d5318a9a"
+   ],
+   "passage_id": "zoom:9ba4e29595823e92:span:6",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_d41ac98af636ab47faeac2f5",
+   "sensitivity": "unknown",
+   "source_hash": "5a1981f4bf917163c5e6bb2f65b9cce39bba2ad035e24fe610e3d6d43726da1e",
+   "claim_status": "planned",
+   "source_digest": "7be0e315946d60bfed1af317f48b74d748fd010afa6cfbadd81b1433b55e4c52",
+   "transcript_id": "transcript_fb1d9ca0174114a971ef92aa",
+   "qualifications": [
+    "The pilot is proposed; the source does not establish that it was completed or that the widget worked as intended.",
+    "The discussion does not establish the final information requirements for WIA or client accounts."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 1607,
+   "role": "context",
+   "start": 1366,
+   "title": "internal-ghl-ai-chat-widget-review.vtt",
+   "excerpt": "Danielle McGinnis: So, I put it all on this document, and I was waiting for him to give it back to me so I could feed it all in, and that's as far as we had gotten, because like I said, he never circled back with wanting to proceed. Um, but…",
+   "speaker": "Danielle McGinnis",
+   "start_ms": 305000,
+   "chunk_ids": [
+    "chunk_ee53b8def6ee9b6e8969a2e1"
+   ],
+   "inherited": false,
+   "moment_ids": [
+    "moment_106a8a41e0f0f2c3d5318a9a"
+   ],
+   "passage_id": "zoom:9ba4e29595823e92:span:7",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_6f489f961d0661086166d869",
+   "sensitivity": "unknown",
+   "source_hash": "5a1981f4bf917163c5e6bb2f65b9cce39bba2ad035e24fe610e3d6d43726da1e",
+   "claim_status": "planned",
+   "source_digest": "7be0e315946d60bfed1af317f48b74d748fd010afa6cfbadd81b1433b55e4c52",
+   "transcript_id": "transcript_fb1d9ca0174114a971ef92aa",
+   "qualifications": [
+    "The pilot is proposed; the source does not establish that it was completed or that the widget worked as intended.",
+    "The discussion does not establish the final information requirements for WIA or client accounts."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 1905,
+   "role": "context",
+   "start": 1641,
+   "title": "internal-ghl-ai-chat-widget-review.vtt",
+   "excerpt": "Danielle McGinnis: that's why I'd like to try it with your account, because we can see, okay, how much information… how much detailed information do we need to put in here? Maybe we can keep it simple, or, oh, it's not really good, and we need to really go deeper.",
+   "speaker": "Danielle McGinnis",
+   "start_ms": 318000,
+   "chunk_ids": [
+    "chunk_ee53b8def6ee9b6e8969a2e1"
+   ],
+   "inherited": false,
+   "moment_ids": [
+    "moment_106a8a41e0f0f2c3d5318a9a"
+   ],
+   "passage_id": "zoom:9ba4e29595823e92:span:8",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_9884724bfa392bef28d20728",
+   "sensitivity": "unknown",
+   "source_hash": "5a1981f4bf917163c5e6bb2f65b9cce39bba2ad035e24fe610e3d6d43726da1e",
+   "claim_status": "planned",
+   "source_digest": "7be0e315946d60bfed1af317f48b74d748fd010afa6cfbadd81b1433b55e4c52",
+   "transcript_id": "transcript_fb1d9ca0174114a971ef92aa",
+   "qualifications": [
+    "The pilot is proposed; the source does not establish that it was completed or that the widget worked as intended.",
+    "The discussion does not establish the final information requirements for WIA or client accounts."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 2116,
+   "role": "context",
+   "start": 1940,
+   "title": "internal-ghl-ai-chat-widget-review.vtt",
+   "excerpt": "Danielle McGinnis: that's my concern. Like, I don't want them to think that it's not working properly, because it's not being fed the right information. I think that's my main…",
+   "speaker": "Danielle McGinnis",
+   "start_ms": 333000,
+   "chunk_ids": [
+    "chunk_ee53b8def6ee9b6e8969a2e1"
+   ],
+   "inherited": false,
+   "moment_ids": [
+    "moment_106a8a41e0f0f2c3d5318a9a"
+   ],
+   "passage_id": "zoom:9ba4e29595823e92:span:9",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_1589f3b26c231a30378fb103",
+   "sensitivity": "unknown",
+   "source_hash": "5a1981f4bf917163c5e6bb2f65b9cce39bba2ad035e24fe610e3d6d43726da1e",
+   "claim_status": "planned",
+   "source_digest": "7be0e315946d60bfed1af317f48b74d748fd010afa6cfbadd81b1433b55e4c52",
+   "transcript_id": "transcript_fb1d9ca0174114a971ef92aa",
+   "qualifications": [
+    "The pilot is proposed; the source does not establish that it was completed or that the widget worked as intended.",
+    "The discussion does not establish the final information requirements for WIA or client accounts."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 2415,
+   "role": "context",
+   "start": 2151,
+   "title": "internal-ghl-ai-chat-widget-review.vtt",
+   "excerpt": "Whitney Hodges: Giselle, if you can get the knowledge base started for us within the Wedding Industry Ads subaccount, that would probably be the ideal, right? Like, you're going to want to feed into it weddingindustryads.com, you'll want to feed into it any other.",
+   "speaker": "Whitney Hodges",
+   "start_ms": 596000,
+   "chunk_ids": [
+    "chunk_ee53b8def6ee9b6e8969a2e1"
+   ],
+   "inherited": false,
+   "moment_ids": [
+    "moment_106a8a41e0f0f2c3d5318a9a"
+   ],
+   "passage_id": "zoom:9ba4e29595823e92:span:10",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_5d317242db6a90627ce0d9c9",
+   "sensitivity": "unknown",
+   "source_hash": "5a1981f4bf917163c5e6bb2f65b9cce39bba2ad035e24fe610e3d6d43726da1e",
+   "claim_status": "planned",
+   "source_digest": "7be0e315946d60bfed1af317f48b74d748fd010afa6cfbadd81b1433b55e4c52",
+   "transcript_id": "transcript_fb1d9ca0174114a971ef92aa",
+   "qualifications": [
+    "The pilot is proposed; the source does not establish that it was completed or that the widget worked as intended.",
+    "The discussion does not establish the final information requirements for WIA or client accounts."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 2588,
+   "role": "context",
+   "start": 2450,
+   "title": "internal-ghl-ai-chat-widget-review.vtt",
+   "excerpt": "Whitney Hodges: I think probably, like, existing funnels that we have, you know, like Accelerator sales pages, the Elevate sales page, um…",
+   "speaker": "Whitney Hodges",
+   "start_ms": 614000,
+   "chunk_ids": [
+    "chunk_ee53b8def6ee9b6e8969a2e1"
+   ],
+   "inherited": false,
+   "moment_ids": [
+    "moment_106a8a41e0f0f2c3d5318a9a"
+   ],
+   "passage_id": "zoom:9ba4e29595823e92:span:11",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_fa22c5687f7b453455b61471",
+   "sensitivity": "unknown",
+   "source_hash": "5a1981f4bf917163c5e6bb2f65b9cce39bba2ad035e24fe610e3d6d43726da1e",
+   "claim_status": "planned",
+   "source_digest": "7be0e315946d60bfed1af317f48b74d748fd010afa6cfbadd81b1433b55e4c52",
+   "transcript_id": "transcript_fb1d9ca0174114a971ef92aa",
+   "qualifications": [
+    "The pilot is proposed; the source does not establish that it was completed or that the widget worked as intended.",
+    "The discussion does not establish the final information requirements for WIA or client accounts."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 2961,
+   "role": "context",
+   "start": 2623,
+   "title": "internal-ghl-ai-chat-widget-review.vtt",
+   "excerpt": "Whitney Hodges: probably our investment guide, whatever it's asking, as far as, like, the frequently asked questions, if you just want to answer all of that, like, to the best of your ability, and then, like, get it to a spot where I can go back in and kind of, like, see what you've put there, and then make any tweaks or refinements or…",
+   "speaker": "Whitney Hodges",
+   "start_ms": 624000,
+   "chunk_ids": [
+    "chunk_ee53b8def6ee9b6e8969a2e1"
+   ],
+   "inherited": false,
+   "moment_ids": [
+    "moment_106a8a41e0f0f2c3d5318a9a"
+   ],
+   "passage_id": "zoom:9ba4e29595823e92:span:12",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_0d58cb34e9cf502b2d5ffdd9",
+   "sensitivity": "unknown",
+   "source_hash": "5a1981f4bf917163c5e6bb2f65b9cce39bba2ad035e24fe610e3d6d43726da1e",
+   "claim_status": "planned",
+   "source_digest": "7be0e315946d60bfed1af317f48b74d748fd010afa6cfbadd81b1433b55e4c52",
+   "transcript_id": "transcript_fb1d9ca0174114a971ef92aa",
+   "qualifications": [
+    "The pilot is proposed; the source does not establish that it was completed or that the widget worked as intended.",
+    "The discussion does not establish the final information requirements for WIA or client accounts."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 3022,
+   "role": "context",
+   "start": 2996,
+   "title": "internal-ghl-ai-chat-widget-review.vtt",
+   "excerpt": "Whitney Hodges: additions.",
+   "speaker": "Whitney Hodges",
+   "start_ms": 641000,
+   "chunk_ids": [
+    "chunk_ee53b8def6ee9b6e8969a2e1"
+   ],
+   "inherited": false,
+   "moment_ids": [
+    "moment_106a8a41e0f0f2c3d5318a9a"
+   ],
+   "passage_id": "zoom:9ba4e29595823e92:span:13",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_e0ba3669bc590280b08d5b4e",
+   "sensitivity": "unknown",
+   "source_hash": "5a1981f4bf917163c5e6bb2f65b9cce39bba2ad035e24fe610e3d6d43726da1e",
+   "claim_status": "planned",
+   "source_digest": "7be0e315946d60bfed1af317f48b74d748fd010afa6cfbadd81b1433b55e4c52",
+   "transcript_id": "transcript_fb1d9ca0174114a971ef92aa",
+   "qualifications": [
+    "The pilot is proposed; the source does not establish that it was completed or that the widget worked as intended.",
+    "The discussion does not establish the final information requirements for WIA or client accounts."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 3146,
+   "role": "context",
+   "start": 3057,
+   "title": "internal-ghl-ai-chat-widget-review.vtt",
+   "excerpt": "Whitney Hodges: But I would definitely just all be thinking it through the lens of, like.",
+   "speaker": "Whitney Hodges",
+   "start_ms": 662000,
+   "chunk_ids": [
+    "chunk_ee53b8def6ee9b6e8969a2e1"
+   ],
+   "inherited": false,
+   "moment_ids": [
+    "moment_106a8a41e0f0f2c3d5318a9a"
+   ],
+   "passage_id": "zoom:9ba4e29595823e92:span:14",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_fd98e5311d20c944e40aad74",
+   "sensitivity": "unknown",
+   "source_hash": "5a1981f4bf917163c5e6bb2f65b9cce39bba2ad035e24fe610e3d6d43726da1e",
+   "claim_status": "planned",
+   "source_digest": "7be0e315946d60bfed1af317f48b74d748fd010afa6cfbadd81b1433b55e4c52",
+   "transcript_id": "transcript_fb1d9ca0174114a971ef92aa",
+   "qualifications": [
+    "The pilot is proposed; the source does not establish that it was completed or that the widget worked as intended.",
+    "The discussion does not establish the final information requirements for WIA or client accounts."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 3335,
+   "role": "context",
+   "start": 3181,
+   "title": "internal-ghl-ai-chat-widget-review.vtt",
+   "excerpt": "Whitney Hodges: this is a sales tool, right? Like, so, like, what questions people would be having about working with us, or the ways to work with us, or…",
+   "speaker": "Whitney Hodges",
+   "start_ms": 666000,
+   "chunk_ids": [
+    "chunk_ee53b8def6ee9b6e8969a2e1"
+   ],
+   "inherited": false,
+   "moment_ids": [
+    "moment_106a8a41e0f0f2c3d5318a9a"
+   ],
+   "passage_id": "zoom:9ba4e29595823e92:span:15",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_15fd441cf9a20235fe52e25b",
+   "sensitivity": "unknown",
+   "source_hash": "5a1981f4bf917163c5e6bb2f65b9cce39bba2ad035e24fe610e3d6d43726da1e",
+   "claim_status": "planned",
+   "source_digest": "7be0e315946d60bfed1af317f48b74d748fd010afa6cfbadd81b1433b55e4c52",
+   "transcript_id": "transcript_fb1d9ca0174114a971ef92aa",
+   "qualifications": [
+    "The pilot is proposed; the source does not establish that it was completed or that the widget worked as intended.",
+    "The discussion does not establish the final information requirements for WIA or client accounts."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 3507,
+   "role": "context",
+   "start": 3370,
+   "title": "internal-ghl-ai-chat-widget-review.vtt",
+   "excerpt": "Whitney Hodges: scheduling an ads consultation, things like that. Honestly, I don't even know that I would want the widget to be able to.",
+   "speaker": "Whitney Hodges",
+   "start_ms": 677000,
+   "chunk_ids": [
+    "chunk_ee53b8def6ee9b6e8969a2e1"
+   ],
+   "inherited": false,
+   "moment_ids": [
+    "moment_106a8a41e0f0f2c3d5318a9a"
+   ],
+   "passage_id": "zoom:9ba4e29595823e92:span:16",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_7dc535a3510455357963b0ed",
+   "sensitivity": "unknown",
+   "source_hash": "5a1981f4bf917163c5e6bb2f65b9cce39bba2ad035e24fe610e3d6d43726da1e",
+   "claim_status": "planned",
+   "source_digest": "7be0e315946d60bfed1af317f48b74d748fd010afa6cfbadd81b1433b55e4c52",
+   "transcript_id": "transcript_fb1d9ca0174114a971ef92aa",
+   "qualifications": [
+    "The pilot is proposed; the source does not establish that it was completed or that the widget worked as intended.",
+    "The discussion does not establish the final information requirements for WIA or client accounts."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 3692,
+   "role": "context",
+   "start": 3542,
+   "title": "internal-ghl-ai-chat-widget-review.vtt",
+   "excerpt": "Whitney Hodges: Give them a link to be able to book a sales consultation without me, like, actually talking to them, sort of thing. Um, but obviously…",
+   "speaker": "Whitney Hodges",
+   "start_ms": 685000,
+   "chunk_ids": [
+    "chunk_ee53b8def6ee9b6e8969a2e1"
+   ],
+   "inherited": false,
+   "moment_ids": [
+    "moment_106a8a41e0f0f2c3d5318a9a"
+   ],
+   "passage_id": "zoom:9ba4e29595823e92:span:17",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_02f9d0eb4a5567136682afff",
+   "sensitivity": "unknown",
+   "source_hash": "5a1981f4bf917163c5e6bb2f65b9cce39bba2ad035e24fe610e3d6d43726da1e",
+   "claim_status": "planned",
+   "source_digest": "7be0e315946d60bfed1af317f48b74d748fd010afa6cfbadd81b1433b55e4c52",
+   "transcript_id": "transcript_fb1d9ca0174114a971ef92aa",
+   "qualifications": [
+    "The pilot is proposed; the source does not establish that it was completed or that the widget worked as intended.",
+    "The discussion does not establish the final information requirements for WIA or client accounts."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 3861,
+   "role": "context",
+   "start": 3727,
+   "title": "internal-ghl-ai-chat-widget-review.vtt",
+   "excerpt": "Danielle McGinnis: And I think that's in here somewhere where you can say, like, you can actually tell it how you want it to hand off.",
+   "speaker": "Danielle McGinnis",
+   "start_ms": 693000,
+   "chunk_ids": [
+    "chunk_ee53b8def6ee9b6e8969a2e1"
+   ],
+   "inherited": false,
+   "moment_ids": [
+    "moment_106a8a41e0f0f2c3d5318a9a"
+   ],
+   "passage_id": "zoom:9ba4e29595823e92:span:18",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_e5ab986328a780679d2876e6",
+   "sensitivity": "unknown",
+   "source_hash": "5a1981f4bf917163c5e6bb2f65b9cce39bba2ad035e24fe610e3d6d43726da1e",
+   "claim_status": "planned",
+   "source_digest": "7be0e315946d60bfed1af317f48b74d748fd010afa6cfbadd81b1433b55e4c52",
+   "transcript_id": "transcript_fb1d9ca0174114a971ef92aa",
+   "qualifications": [
+    "The pilot is proposed; the source does not establish that it was completed or that the widget worked as intended.",
+    "The discussion does not establish the final information requirements for WIA or client accounts."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 4110,
+   "role": "context",
+   "start": 3896,
+   "title": "internal-ghl-ai-chat-widget-review.vtt",
+   "excerpt": "Danielle McGinnis: Like, do you want it to actually book the call, or do you want it to hand off to you at the point that someone determines interest? Like, so, I recall reading about that, like, there's different…",
+   "speaker": "Danielle McGinnis",
+   "start_ms": 700000,
+   "chunk_ids": [
+    "chunk_ee53b8def6ee9b6e8969a2e1"
+   ],
+   "inherited": false,
+   "moment_ids": [
+    "moment_106a8a41e0f0f2c3d5318a9a"
+   ],
+   "passage_id": "zoom:9ba4e29595823e92:span:19",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_ea280533113ea4e75cd2206b",
+   "sensitivity": "unknown",
+   "source_hash": "5a1981f4bf917163c5e6bb2f65b9cce39bba2ad035e24fe610e3d6d43726da1e",
+   "claim_status": "planned",
+   "source_digest": "7be0e315946d60bfed1af317f48b74d748fd010afa6cfbadd81b1433b55e4c52",
+   "transcript_id": "transcript_fb1d9ca0174114a971ef92aa",
+   "qualifications": [
+    "The pilot is proposed; the source does not establish that it was completed or that the widget worked as intended.",
+    "The discussion does not establish the final information requirements for WIA or client accounts."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 4317,
+   "role": "context",
+   "start": 4145,
+   "title": "internal-ghl-ai-chat-widget-review.vtt",
+   "excerpt": "Danielle McGinnis: phases, you don't have to have it end with them booking the appointment. That could be, like, once they're interested, or they qualify according to what.",
+   "speaker": "Danielle McGinnis",
+   "start_ms": 711000,
+   "chunk_ids": [
+    "chunk_ee53b8def6ee9b6e8969a2e1"
+   ],
+   "inherited": false,
+   "moment_ids": [
+    "moment_106a8a41e0f0f2c3d5318a9a"
+   ],
+   "passage_id": "zoom:9ba4e29595823e92:span:20",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_d6ca14a73a08c05f0561dc1f",
+   "sensitivity": "unknown",
+   "source_hash": "5a1981f4bf917163c5e6bb2f65b9cce39bba2ad035e24fe610e3d6d43726da1e",
+   "claim_status": "planned",
+   "source_digest": "7be0e315946d60bfed1af317f48b74d748fd010afa6cfbadd81b1433b55e4c52",
+   "transcript_id": "transcript_fb1d9ca0174114a971ef92aa",
+   "qualifications": [
+    "The pilot is proposed; the source does not establish that it was completed or that the widget worked as intended.",
+    "The discussion does not establish the final information requirements for WIA or client accounts."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 4451,
+   "role": "context",
+   "start": 4352,
+   "title": "internal-ghl-ai-chat-widget-review.vtt",
+   "excerpt": "Danielle McGinnis: you know, Giselle feeds into it, it will know now is the time for it to tap you.",
+   "speaker": "Danielle McGinnis",
+   "start_ms": 720000,
+   "chunk_ids": [
+    "chunk_ee53b8def6ee9b6e8969a2e1"
+   ],
+   "inherited": false,
+   "moment_ids": [
+    "moment_106a8a41e0f0f2c3d5318a9a"
+   ],
+   "passage_id": "zoom:9ba4e29595823e92:span:21",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_b2583d27256567ed15ec3fee",
+   "sensitivity": "unknown",
+   "source_hash": "5a1981f4bf917163c5e6bb2f65b9cce39bba2ad035e24fe610e3d6d43726da1e",
+   "claim_status": "planned",
+   "source_digest": "7be0e315946d60bfed1af317f48b74d748fd010afa6cfbadd81b1433b55e4c52",
+   "transcript_id": "transcript_fb1d9ca0174114a971ef92aa",
+   "qualifications": [
+    "The pilot is proposed; the source does not establish that it was completed or that the widget worked as intended.",
+    "The discussion does not establish the final information requirements for WIA or client accounts."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 4681,
+   "role": "context",
+   "start": 4486,
+   "title": "internal-ghl-ai-chat-widget-review.vtt",
+   "excerpt": "Whitney Hodges: So yeah, I think if we can start there, Giselle, with you creating our knowledge base, and us getting a better feel for what all it entails, um, then we'll have a better feel for.",
+   "speaker": "Whitney Hodges",
+   "start_ms": 730000,
+   "chunk_ids": [
+    "chunk_ee53b8def6ee9b6e8969a2e1"
+   ],
+   "inherited": false,
+   "moment_ids": [
+    "moment_106a8a41e0f0f2c3d5318a9a"
+   ],
+   "passage_id": "zoom:9ba4e29595823e92:span:22",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_1e45bdef0bf8efdc55d25f0f",
+   "sensitivity": "unknown",
+   "source_hash": "5a1981f4bf917163c5e6bb2f65b9cce39bba2ad035e24fe610e3d6d43726da1e",
+   "claim_status": "planned",
+   "source_digest": "7be0e315946d60bfed1af317f48b74d748fd010afa6cfbadd81b1433b55e4c52",
+   "transcript_id": "transcript_fb1d9ca0174114a971ef92aa",
+   "qualifications": [
+    "The pilot is proposed; the source does not establish that it was completed or that the widget worked as intended.",
+    "The discussion does not establish the final information requirements for WIA or client accounts."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 4782,
+   "role": "context",
+   "start": 4716,
+   "title": "internal-ghl-ai-chat-widget-review.vtt",
+   "excerpt": "Whitney Hodges: What we need to either build out or, like, ask of…",
+   "speaker": "Whitney Hodges",
+   "start_ms": 742000,
+   "chunk_ids": [
+    "chunk_ee53b8def6ee9b6e8969a2e1"
+   ],
+   "inherited": false,
+   "moment_ids": [
+    "moment_106a8a41e0f0f2c3d5318a9a"
+   ],
+   "passage_id": "zoom:9ba4e29595823e92:span:23",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_b4edf1b3a1deb5a0ac9c078b",
+   "sensitivity": "unknown",
+   "source_hash": "5a1981f4bf917163c5e6bb2f65b9cce39bba2ad035e24fe610e3d6d43726da1e",
+   "claim_status": "planned",
+   "source_digest": "7be0e315946d60bfed1af317f48b74d748fd010afa6cfbadd81b1433b55e4c52",
+   "transcript_id": "transcript_fb1d9ca0174114a971ef92aa",
+   "qualifications": [
+    "The pilot is proposed; the source does not establish that it was completed or that the widget worked as intended.",
+    "The discussion does not establish the final information requirements for WIA or client accounts."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 5324,
+   "role": "context",
+   "start": 5163,
+   "title": "internal-ghl-ai-chat-widget-review.vtt",
+   "excerpt": "Whitney Hodges: we should have packaging and pricing guides for them, and FAQs, and their landing page, and their website, um, and all of that. I actually think.",
+   "speaker": "Whitney Hodges",
+   "start_ms": 764000,
+   "chunk_ids": [
+    "chunk_ee53b8def6ee9b6e8969a2e1"
+   ],
+   "inherited": false,
+   "moment_ids": [
+    "moment_106a8a41e0f0f2c3d5318a9a"
+   ],
+   "passage_id": "zoom:9ba4e29595823e92:span:25",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_11a35aa3c888aa8fa30d9281",
+   "sensitivity": "unknown",
+   "source_hash": "5a1981f4bf917163c5e6bb2f65b9cce39bba2ad035e24fe610e3d6d43726da1e",
+   "claim_status": "planned",
+   "source_digest": "7be0e315946d60bfed1af317f48b74d748fd010afa6cfbadd81b1433b55e4c52",
+   "transcript_id": "transcript_fb1d9ca0174114a971ef92aa",
+   "qualifications": [
+    "The pilot is proposed; the source does not establish that it was completed or that the widget worked as intended.",
+    "The discussion does not establish the final information requirements for WIA or client accounts."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 5379,
+   "role": "context",
+   "start": 5359,
+   "title": "internal-ghl-ai-chat-widget-review.vtt",
+   "excerpt": "Whitney Hodges: for…",
+   "speaker": "Whitney Hodges",
+   "start_ms": 773000,
+   "chunk_ids": [
+    "chunk_ee53b8def6ee9b6e8969a2e1"
+   ],
+   "inherited": false,
+   "moment_ids": [
+    "moment_106a8a41e0f0f2c3d5318a9a"
+   ],
+   "passage_id": "zoom:9ba4e29595823e92:span:26",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_4e88ff7d358f5e22af41e622",
+   "sensitivity": "unknown",
+   "source_hash": "5a1981f4bf917163c5e6bb2f65b9cce39bba2ad035e24fe610e3d6d43726da1e",
+   "claim_status": "planned",
+   "source_digest": "7be0e315946d60bfed1af317f48b74d748fd010afa6cfbadd81b1433b55e4c52",
+   "transcript_id": "transcript_fb1d9ca0174114a971ef92aa",
+   "qualifications": [
+    "The pilot is proposed; the source does not establish that it was completed or that the widget worked as intended.",
+    "The discussion does not establish the final information requirements for WIA or client accounts."
+   ],
+   "attribution_verified": false
+  },
+  {
+   "end": 5643,
+   "role": "context",
+   "start": 5414,
+   "title": "internal-ghl-ai-chat-widget-review.vtt",
+   "excerpt": "Whitney Hodges: like, our wedding venue clients, it'll probably be a little bit more straightforward than it is for us as an agency, but I agree with you, Danielle, that it's better to use us as guinea pigs than an actual client.",
+   "speaker": "Whitney Hodges",
+   "start_ms": 775000,
+   "chunk_ids": [
+    "chunk_ee53b8def6ee9b6e8969a2e1"
+   ],
+   "inherited": false,
+   "moment_ids": [
+    "moment_106a8a41e0f0f2c3d5318a9a"
+   ],
+   "passage_id": "zoom:9ba4e29595823e92:span:27",
+   "public_use": false,
+   "source_url": null,
+   "evidence_id": "ev_09acfe863b0beaf6c94d035c",
+   "sensitivity": "unknown",
+   "source_hash": "5a1981f4bf917163c5e6bb2f65b9cce39bba2ad035e24fe610e3d6d43726da1e",
+   "claim_status": "planned",
+   "source_digest": "7be0e315946d60bfed1af317f48b74d748fd010afa6cfbadd81b1433b55e4c52",
+   "transcript_id": "transcript_fb1d9ca0174114a971ef92aa",
+   "qualifications": [
+    "The pilot is proposed; the source does not establish that it was completed or that the widget worked as intended.",
+    "The discussion does not establish the final information requirements for WIA or client accounts."
+   ],
+   "attribution_verified": false
+  }
+ ],
+ "prior_content_context": [
+  {
+   "briefs": [],
+   "cosine": 0.9858722105561882,
+   "angle_id": "angle_b8a9244167b8f545588aef66",
+   "argument": "I want to understand what a couple was weighing when they chose your business. Their review can tell us what they loved about the experience. Asking about the booking decision can give us different information to consider when we write your ads.",
+   "audience": "Wedding pros with strong reviews who want their advertising to reflect why their best-fit couples chose them.",
+   "discovery": [
+    "semantic",
+    "passage_overlap",
+    "own_family"
+   ],
+   "mechanism": "During a strategy call, Whitney explained that WIA asks ELEVATE clients for existing buying research. She proposed collecting feedback from newly booked couples and using what WIA learns to inform ad copy and landing pages. The WIA move is customer research tied to a specific advertising decision.",
+   "content_hash": "fd8c59ca2dfe80e28cad18244fdf6ccbc08c294204616dae67258c4b6f931e92",
+   "publications": [],
+   "approval_status": "pending"
+  },
+  {
+   "briefs": [
+    {
+     "hash": "baa1c93fca03c5d6886e294c10aac6ec3fa866605b45536f9a309f18ae557993",
+     "brief_id": "brief_482c1f665c8f7d0dcbd1b714",
+     "message_spine": [],
+     "approval_status": "pending"
+    }
+   ],
+   "cosine": 0.7389882193263755,
+   "angle_id": "angle_6cda7af998500d981f79f6d4",
+   "argument": "We want enough evidence to make a useful recommendation. In office hours, Carmen considered how much traffic a venue campaign had received, looked at what visitors were doing after the click and recommended Jacqueline's feedback on the landing page. She kept the open questions open.",
+   "audience": "Wedding venue owners who want expert guidance on what to keep running, what to review and when to make a change.",
+   "discovery": [
+    "semantic"
+   ],
+   "mechanism": "Carmen used diagnosis beyond the dashboard. She considered the limited traffic, discussed different kinds of visitor behavior and avoided claiming a cause. When a visitor reached the inquiry form and then moved away, she recommended asking Jacqueline for landing-page feedback. The scene shows support that includes judgment and collaboration, even before there is a settled answer.",
+   "content_hash": "776a6b333ef339c99add4acd4191fabc4ef2baa2f555dce71c720803eff5441a",
+   "publications": [],
+   "approval_status": "approved"
+  },
+  {
+   "briefs": [],
+   "cosine": 0.715195333443164,
+   "angle_id": "angle_34d94366efc711d88549a9e8",
+   "argument": "When a couple schedules a tour a few weeks away, there's an opportunity to help them picture their wedding before they arrive. We look at what happens during that wait, including the emails they receive and where a personal conversation would help.",
+   "audience": "Venue owners investing in visibility who want to carry a couple's interest through to the in-person tour.",
+   "discovery": [
+    "semantic"
+   ],
+   "mechanism": "WIA reviewed the inquiry-to-tour journey and asked about the venue's existing virtual-tour option. Whitney proposed an earlier phone or virtual connection for couples whose in-person visit was further away. Fallon Looney, who was on the historical call and is no longer with WIA, suggested a supplemental email with wedding footage and an invitation to ask questions. The recommendations respected the owner's tour schedule rather than asking her to add more tour hours.",
+   "content_hash": "78b190a15300c8bab8b72a05a795b2fbc6b4f8dfc24395e077f06c33efd03180",
+   "publications": [],
+   "approval_status": "pending"
+  },
+  {
+   "briefs": [
+    {
+     "hash": "4db9296bef342920910ae582eeb9356cba823266ce565b1b5a91d6724e1ac7b5",
+     "brief_id": "brief_32ea9d5a7246c57341881052",
+     "message_spine": [],
+     "approval_status": "pending"
+    }
+   ],
+   "cosine": 0.7025258090163421,
+   "angle_id": "angle_bb74a6718f964153adbecd86d0e9fbc9",
+   "argument": "When a couple schedules a tour a few weeks away, there's an opportunity to help them picture their wedding before they arrive. We look at what happens during that wait, including the emails they receive and where a personal conversation would help.",
+   "audience": "Venue owners investing in visibility who want to carry a couple's interest through to the in-person tour.",
+   "discovery": [
+    "semantic"
+   ],
+   "mechanism": "WIA reviewed the inquiry-to-tour journey and asked about the venue's existing virtual-tour option. Whitney suggested an earlier phone or virtual connection for couples whose in-person visit was further away, and the team suggested a supplemental email with wedding footage and an invitation to ask questions. The ideas worked within the owner's tour schedule rather than asking her to add more tour hours. They were recommendations on the call, not changes already made.",
+   "content_hash": "0cde51ecaeff1049ea5b64bea50016b6943ed33f29d889eb237e9ac6645f2721",
+   "publications": [],
+   "approval_status": "approved"
+  }
+ ]
+}

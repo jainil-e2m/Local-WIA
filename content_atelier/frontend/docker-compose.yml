@@ -1,0 +1,20 @@
+services:
+  content-atelier:
+    build:
+      context: .
+      args:
+        # 7.F2: `backend` (the real app) unless a demo build asks for `mock`.
+        VITE_ATELIER_MODE: ${VITE_ATELIER_MODE:-backend}
+    ports:
+      - "8080:8080"
+    environment:
+      # Local HTTP verification. Railway uses the image's production default.
+      NODE_ENV: development
+      PORT: "8080"
+      COMMAND_CENTER_AUTH_ORIGIN: ${COMMAND_CENTER_AUTH_ORIGIN:?Set the Command Center server origin}
+      # Python backend for weekly storage, briefs, packs, calendar and intake.
+      # Left blank, the real app's weekly routes return 503; build with VITE_ATELIER_MODE=mock for the saved mock UI.
+      ATELIER_BACKEND_ORIGIN: ${ATELIER_BACKEND_ORIGIN:-}
+      ATELIER_API_SECRET: ${ATELIER_API_SECRET:-}
+    init: true
+    restart: unless-stopped

@@ -1,0 +1,330 @@
+// SUPERSEDED: use content-atelier-compact.dbml (13 tables).
+// Content Atelier: minimal content-pipeline schema, 9 October 2026.
+// Paste the COMPLETE file into dbdiagram.io. No migration has been executed.
+// Configuration and execution diagnostics stay outside this content schema.
+// Exactly two vector columns: angles.embedding and transcript_chunks.embedding.
+
+Project content_atelier_minimal {
+  database_type: 'PostgreSQL'
+  Note: '21 tables for source evidence, angles, briefing, generated assets and human decisions. One PostgreSQL database with pgvector. No configuration registries or separate revision tables.'
+}
+
+Table pipeline_runs {
+  run_id text [pk]
+  week_start date [not null]
+  status text [not null]
+  coverage_notes jsonb
+  started_at timestamptz [not null, default: `now()`]
+  completed_at timestamptz
+}
+
+Table sources {
+  source_id text [pk]
+  source_kind text [not null]
+  upstream_id text [note: 'Namespace by provider/account/source identity; null for manual inputs.']
+  canonical_source_id text [ref: > sources.source_id]
+  title text [not null]
+  source_url text
+  client_ref text
+  occurred_at timestamptz
+  raw_text text [not null]
+  content_hash text [not null]
+  source_metadata jsonb
+  use_restrictions jsonb
+  ingested_at timestamptz [not null, default: `now()`]
+  indexes {
+    (source_kind, upstream_id, content_hash) [unique]
+  }
+  Note: 'An actual captured input. Metadata contains known source facts only. Restrictions are actual use conditions, not editorial configuration. Changed input gets a new source row.'
+}
+
+Table run_sources {
+  run_id text [not null, ref: > pipeline_runs.run_id]
+  source_id text [not null, ref: > sources.source_id]
+  indexes {
+    (run_id, source_id) [pk]
+  }
+}
+
+Table source_spans {
+  span_id text [pk]
+  source_id text [not null, ref: > sources.source_id]
+  ordinal integer [not null]
+  text_original text [not null]
+  start_seconds numeric
+  end_seconds numeric
+  speaker_label text
+  speaker_role text
+  attribution_status text [not null, default: 'unverified']
+  indexes {
+    (source_id, ordinal) [unique]
+  }
+}
+
+Table transcript_chunks {
+  chunk_id text [pk]
+  source_id text [not null, ref: > sources.source_id]
+  ordinal integer [not null]
+  chunk_text text [not null]
+  text_hash text [not null]
+  embedding vector(1536)
+  indexes {
+    (source_id, text_hash) [unique]
+  }
+  Note: 'The exact contextualized passage encoded for search. A null embedding means not yet encoded. Original citations resolve through chunk_spans.'
+}
+
+Table chunk_spans {
+  chunk_id text [not null, ref: > transcript_chunks.chunk_id]
+  span_id text [not null, ref: > source_spans.span_id]
+  indexes {
+    (chunk_id, span_id) [pk]
+  }
+}
+
+Table moments {
+  moment_id text [pk]
+  run_id text [not null, ref: > pipeline_runs.run_id]
+  moment_type text [not null]
+  quote_selected text [not null]
+  proposition text [not null]
+  context_summary text [not null]
+  audience_relevance text [not null]
+  qualifications jsonb [not null]
+  claim_status text [not null]
+  sensitivity text [not null]
+  strength numeric [not null]
+  rationale jsonb [not null]
+  verification jsonb [not null]
+  created_at timestamptz [not null, default: `now()`]
+  Note: 'Actual extraction output and verification facts. A moment may cite multiple sources. Reported/measured/estimated/planned/inferred categories do not themselves verify a result.'
+}
+
+Table moment_spans {
+  moment_id text [not null, ref: > moments.moment_id]
+  span_id text [not null, ref: > source_spans.span_id]
+  role text [not null, note: 'anchor, context or qualification']
+  indexes {
+    (moment_id, span_id, role) [pk]
+  }
+}
+
+Table angles {
+  angle_id text [pk]
+  originating_run_id text [not null, ref: > pipeline_runs.run_id]
+  original_angle_id text [ref: > angles.angle_id]
+  title text [not null]
+  argument text [not null]
+  audience text [not null]
+  tension text [not null]
+  take text [not null]
+  mechanism text [not null]
+  reader_decision text [not null]
+  source_assertions jsonb [not null]
+  editorial_inference text
+  qualifiers jsonb [not null]
+  risks jsonb [not null]
+  quality_scores jsonb [not null]
+  content_hash text [not null]
+  embedding_input_hash text
+  embedding vector(1536)
+  first_generated_at timestamptz [not null]
+  saved_at timestamptz [not null, default: `now()`]
+  Note: 'All valid arguments, including suppressed candidates. original_angle_id points directly to the original record when changed copy is still the same logical angle. Preserve first_generated_at; revival uses run_angles without copying content. Distinct new arguments have new logical identities.'
+}
+
+Table angle_moments {
+  angle_id text [not null, ref: > angles.angle_id]
+  moment_id text [not null, ref: > moments.moment_id]
+  evidence_role text [not null]
+  indexes {
+    (angle_id, moment_id) [pk]
+  }
+}
+
+Table run_angles {
+  run_angle_id text [pk]
+  run_id text [not null, ref: > pipeline_runs.run_id]
+  angle_id text [not null, ref: > angles.angle_id]
+  participation text [not null, note: 'generated, manual or revived']
+  base_score numeric [not null]
+  overlap_risk numeric
+  adjusted_score numeric
+  selection_status text [not null]
+  score_explanation jsonb
+  scored_at timestamptz
+  added_at timestamptz [not null, default: `now()`]
+  indexes {
+    (run_id, angle_id) [unique]
+  }
+  Note: 'Actual participation and evaluation for this execution. Null overlap/adjusted score means unscored. Zero risk is only recorded after completed matching. Original angle age stays on angles.'
+}
+
+Table angle_matches {
+  run_angle_id text [not null, ref: > run_angles.run_angle_id]
+  matched_angle_id text [not null, ref: > angles.angle_id]
+  match_kind text [not null, note: 'historical or current']
+  cosine_similarity numeric [not null]
+  recency_weight numeric
+  pair_risk numeric
+  indexes {
+    (run_angle_id, matched_angle_id, match_kind) [pk]
+  }
+  Note: 'Qualifying actual comparison results. Historical rows retain evaluated recency/risk; current pairs leave those fields null. Retain all qualifying historical matches; reviewer top-k is a display query.'
+}
+
+Table brief_contexts {
+  context_id text [pk]
+  angle_approval_id text [not null, ref: > approvals.approval_id]
+  context_body jsonb [not null]
+  coverage_notes jsonb
+  prepared_at timestamptz [not null, default: `now()`]
+  Note: 'Compacted briefing input linked to the exact Gate 1 argument/CTA/steer. Evidence and previous coverage are referenced below; do not copy the full archive into the packet.'
+}
+
+Table context_evidence {
+  evidence_id text [pk]
+  context_id text [not null, ref: > brief_contexts.context_id]
+  span_id text [ref: > source_spans.span_id]
+  discovery_chunk_id text [ref: > transcript_chunks.chunk_id]
+  evidence_type text [not null]
+  summary text [not null]
+  use_conditions jsonb
+  external_url text
+  observed_at timestamptz
+  checks {
+    `num_nonnulls(span_id, external_url) = 1` [name: 'evidence_has_one_origin']
+  }
+  Note: 'Only evidence actually selected for this context. One original passage per internal row, including qualification/counterevidence rows; external framing has a URL. External framing is not client proof.'
+}
+
+Table context_prior_content {
+  prior_context_id text [pk]
+  context_id text [not null, ref: > brief_contexts.context_id]
+  angle_id text [ref: > angles.angle_id]
+  brief_id text [ref: > briefs.brief_id]
+  asset_id text [ref: > assets.asset_id]
+  source_id text [ref: > sources.source_id]
+  coverage_status text [not null]
+  coverage_summary text [not null]
+  checks {
+    `num_nonnulls(angle_id, brief_id, asset_id, source_id) >= 1` [name: 'prior_content_has_reference']
+  }
+  Note: 'Compact prior argument/contribution and its actual known state. Populated references must agree. source_id permits real published imports without invented angle/brief lineage; approval alone never establishes publication.'
+}
+
+Table briefs {
+  brief_id text [pk]
+  context_id text [not null, ref: > brief_contexts.context_id]
+  title text [not null]
+  brief_body jsonb [not null]
+  content_hash text [not null]
+  created_at timestamptz [not null, default: `now()`]
+  Note: 'Actual editorial contract: insight, audience, spine, voice, explicit CTA wording, allowed scoped claims/evidence IDs, exclusions, questions/answers and asset directions. No separate claim or revision registry.'
+}
+
+Table packs {
+  pack_id text [pk]
+  run_id text [not null, ref: > pipeline_runs.run_id]
+  title text [not null]
+  manifest_hash text
+  created_at timestamptz [not null, default: `now()`]
+  Note: 'A production grouping. The manifest hash describes the exact ordered assignments/assets in pack_items, not copied asset bodies.'
+}
+
+Table pack_items {
+  pack_item_id text [pk]
+  pack_id text [not null, ref: > packs.pack_id]
+  slot_key text [not null]
+  ordinal integer [not null]
+  asset_type text [not null]
+  brief_id text [not null, ref: > briefs.brief_id]
+  reader_contribution text [not null]
+  asset_id text [ref: > assets.asset_id]
+  indexes {
+    (pack_id, slot_key) [unique]
+    (pack_id, ordinal) [unique]
+  }
+  Note: 'One planned deliverable and governing approved brief. asset_id is null before generation and pins the actual saved copy afterward. Only selected slots are created; unused optional slots are omitted.'
+}
+
+Table assets {
+  asset_id text [pk]
+  brief_id text [not null, ref: > briefs.brief_id]
+  asset_type text [not null]
+  title text [not null]
+  asset_body jsonb [not null]
+  content_hash text [not null]
+  created_at timestamptz [not null, default: `now()`]
+  Note: 'Actual generated/edited email, carousel or reel. Ordered slides, captions, spoken script and shot directions live inside the appropriate asset body. Governing brief is explicit.'
+}
+
+Table check_results {
+  check_id text [pk]
+  asset_id text [ref: > assets.asset_id]
+  pack_id text [ref: > packs.pack_id]
+  input_hash text [not null]
+  check_type text [not null]
+  result text [not null]
+  blocking boolean [not null]
+  findings jsonb [not null]
+  checked_at timestamptz [not null, default: `now()`]
+  acknowledged_by text
+  acknowledged_at timestamptz
+  checks {
+    `num_nonnulls(asset_id, pack_id) = 1` [name: 'check_has_one_target']
+  }
+  Note: 'Actual validation result against the asset content hash or pack manifest hash. Changed content cannot inherit old checks. An unavailable check is not a pass.'
+}
+
+Table approvals {
+  approval_id text [pk]
+  gate integer [not null]
+  run_angle_id text [ref: > run_angles.run_angle_id]
+  brief_id text [ref: > briefs.brief_id]
+  pack_id text [ref: > packs.pack_id]
+  decision text [not null]
+  cta jsonb
+  steering_note text
+  notes text
+  actor_id text [not null]
+  decided_at timestamptz [not null, default: `now()`]
+  checks {
+    `num_nonnulls(run_angle_id, brief_id, pack_id) = 1` [name: 'approval_has_one_target']
+    `(gate = 1 AND run_angle_id IS NOT NULL) OR (gate = 2 AND brief_id IS NOT NULL) OR (gate = 3 AND pack_id IS NOT NULL)` [name: 'gate_matches_target']
+    `gate <> 1 OR decision <> 'approve' OR cta IS NOT NULL` [name: 'approved_angle_has_cta']
+  }
+  Note: 'Human approve/pass/defer/request-change decisions. Gate 1 stores the actual selected CTA label/destination and steer. Identity/authority comes from existing authentication. Approved content and its dependencies are preserved.'
+}
+
+TableGroup source_evidence {
+  sources
+  source_spans
+  transcript_chunks
+  chunk_spans
+  moments
+  moment_spans
+}
+TableGroup angles_and_batches {
+  pipeline_runs
+  run_sources
+  angles
+  angle_moments
+  run_angles
+  angle_matches
+}
+TableGroup briefing {
+  brief_contexts
+  context_evidence
+  context_prior_content
+  briefs
+}
+TableGroup production_and_review {
+  packs
+  pack_items
+  assets
+  check_results
+  approvals
+}
+
+// END OF SCHEMA — copy through this line.

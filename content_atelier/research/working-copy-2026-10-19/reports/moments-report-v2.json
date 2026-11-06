@@ -1,0 +1,202 @@
+{
+  "moments": {
+    "extractor_version": "2026-10-19.scenes.v2",
+    "current_only": true,
+    "moments_stored": 1669,
+    "verified": 1605,
+    "unverified": 64,
+    "verified_quote_share": 0.9617,
+    "quote_repairs": 118,
+    "number_check": {
+      "checked": 1605,
+      "failed": 31
+    },
+    "role_distribution": {
+      "client": 656,
+      "staff": 575,
+      "prospect": 370,
+      "outside": 4
+    },
+    "type_distribution": {
+      "observation": 271,
+      "decision": 246,
+      "question": 243,
+      "mechanism": 218,
+      "tension": 165,
+      "data_point": 149,
+      "teaching": 142,
+      "result": 77,
+      "story": 47,
+      "objection": 21,
+      "testimonial": 21,
+      "soundbite": 5
+    },
+    "evidence_kind_distribution": {
+      "direct_quote": 1585,
+      "team_report": 20
+    },
+    "consent_distribution": {
+      "anonymise": 901,
+      "internal_only": 704
+    },
+    "by_call_type": {
+      "client_1to1": {
+        "documents_with_moments": 60,
+        "stored": 1008,
+        "verified": 973,
+        "verified_quote_share": 0.9653,
+        "repaired": 74,
+        "role_distribution": {
+          "client": 614,
+          "staff": 359
+        }
+      },
+      "office_hours": {
+        "documents_with_moments": 2,
+        "stored": 36,
+        "verified": 36,
+        "verified_quote_share": 1.0,
+        "repaired": 0,
+        "role_distribution": {
+          "client": 23,
+          "staff": 13
+        }
+      },
+      "prospect": {
+        "documents_with_moments": 25,
+        "stored": 560,
+        "verified": 534,
+        "verified_quote_share": 0.9536,
+        "repaired": 42,
+        "role_distribution": {
+          "prospect": 370,
+          "staff": 164
+        }
+      },
+      "workshop": {
+        "documents_with_moments": 4,
+        "stored": 65,
+        "verified": 62,
+        "verified_quote_share": 0.9538,
+        "repaired": 2,
+        "role_distribution": {
+          "client": 19,
+          "outside": 4,
+          "staff": 39
+        }
+      }
+    }
+  },
+  "documents": {
+    "by_extraction_status": {
+      "completed": 91,
+      "not_applicable": 79
+    },
+    "included": 91,
+    "with_zero_scenes": {
+      "count": 0,
+      "by_call_type": {},
+      "documents": []
+    }
+  },
+  "invariants": {
+    "no_current_moment_for_an_excluded_document": {
+      "ok": true,
+      "documents": []
+    },
+    "no_open_extraction_job_for_an_excluded_document": {
+      "ok": true,
+      "jobs": []
+    },
+    "moments_kept_readable_for_documents_excluded_since": 2
+  },
+  "all_stored": {
+    "extractor_version": "2026-10-19.scenes.v2",
+    "current_only": false,
+    "moments_stored": 1705,
+    "verified": 1605,
+    "unverified": 100,
+    "verified_quote_share": 0.9413,
+    "quote_repairs": 118,
+    "number_check": {
+      "checked": 1605,
+      "failed": 31
+    },
+    "role_distribution": {
+      "client": 656,
+      "staff": 575,
+      "prospect": 370,
+      "outside": 4
+    },
+    "type_distribution": {
+      "observation": 271,
+      "decision": 246,
+      "question": 243,
+      "mechanism": 218,
+      "tension": 165,
+      "data_point": 149,
+      "teaching": 142,
+      "result": 77,
+      "story": 47,
+      "objection": 21,
+      "testimonial": 21,
+      "soundbite": 5
+    },
+    "evidence_kind_distribution": {
+      "direct_quote": 1585,
+      "team_report": 20
+    },
+    "consent_distribution": {
+      "anonymise": 901,
+      "internal_only": 704
+    },
+    "by_call_type": {
+      "client_1to1": {
+        "documents_with_moments": 60,
+        "stored": 1030,
+        "verified": 973,
+        "verified_quote_share": 0.9447,
+        "repaired": 74,
+        "role_distribution": {
+          "client": 614,
+          "staff": 359
+        }
+      },
+      "office_hours": {
+        "documents_with_moments": 2,
+        "stored": 36,
+        "verified": 36,
+        "verified_quote_share": 1.0,
+        "repaired": 0,
+        "role_distribution": {
+          "client": 23,
+          "staff": 13
+        }
+      },
+      "prospect": {
+        "documents_with_moments": 25,
+        "stored": 572,
+        "verified": 534,
+        "verified_quote_share": 0.9336,
+        "repaired": 42,
+        "role_distribution": {
+          "prospect": 370,
+          "staff": 164
+        }
+      },
+      "workshop": {
+        "documents_with_moments": 4,
+        "stored": 67,
+        "verified": 62,
+        "verified_quote_share": 0.9254,
+        "repaired": 2,
+        "role_distribution": {
+          "client": 19,
+          "outside": 4,
+          "staff": 39
+        }
+      }
+    }
+  },
+  "ok": true
+}

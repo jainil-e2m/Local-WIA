@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J1-claude-haiku-5.5-P09-AH",
+  "model": "anthropic/claude-haiku-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 16296,
+  "completion_tokens": 360,
+  "cached_tokens": 15842,
+  "cost": 0.00038382,
+  "seconds": 2.4,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "afd48c2a49d3"
+ },
+ "output": {
+  "choice": "A",
+  "confidence": 4,
+  "reason": "Version A reasons calmly and frames Google Ads as complementing SEO, while Version B uses hype ('killer', 'TWICE' in caps) and more dramatic, absolute claims that don't fit Whitney's measured voice."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: stories\n\nVersion A:\nSEO matters. You should invest in it.  \nBut it’s slow. Competitive. And doesn’t guarantee results.\n\nGoogle Ads don’t replace SEO — they accelerate it.  \nBecause when couples search and see you *twice* on the first page?\n\nThat’s not an accident.  \nThat’s authority.\n\nVersion B:\nYou’ve been told SEO is the key to showing up on Google.\nAnd that isn’t wrong.\n\nBut SEO takes months, consistency, and algorithmic luck.\nYou don’t control when (or if) you’ll show up.\n\nWith Google Ads, you do.\n\nYou choose the keywords.\nYou write the headlines.\nYou control the message...when it appears and for who.\n\nAnd when you pair a killer SEO foundation with a smart Google Ads strategy?\nCouples see you TWICE in the search results.\n\nDoubling your visibility builds authority.",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

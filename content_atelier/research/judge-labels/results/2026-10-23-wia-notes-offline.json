@@ -1,0 +1,199 @@
+{
+ "set": "wia-notes-labels.2026-10-23.v1",
+ "labels": 21,
+ "scored_labels": 13,
+ "her_failures": 9,
+ "pairs_for_the_judge": 6,
+ "recorded": [
+  {
+   "judge": "second blind review of the v2 packs (a Claude subagent that first read eight of Whitney's finished pieces), 20 October 2026",
+   "source": "research/v2-reassessment-2026-10-20/Diagnosis-Why-The-WIA-Packs-Keep-Missing.md, section 9 (predicted decisions: Pack 1 light edits; Pack 2 light edits to the body, rewrite the hooks; Pack 3 light edits); research/week2-packs-rebuild-2026-10-21/Content-Atelier-Findings-and-System-Improvements.md, finding 5 (Pack 3 \"publish after light edits\")",
+   "granularity": "pack: the review gave one decision per pack, so each asset of Packs 1 and 3 takes its pack's \"light edits\" (publishable after light edits: pass). It judged no 13 October pack, so those labels are not judged",
+   "labels_judged": 11,
+   "labels_not_judged": [
+    "O13-1",
+    "O13-2"
+   ],
+   "agreement": {
+    "agree": 4,
+    "of": 11,
+    "share": 0.3636,
+    "ci95": [
+     0.1517,
+     0.6462
+    ]
+   },
+   "her_failures_caught": {
+    "agree": 0,
+    "of": 7,
+    "share": 0.0,
+    "ci95": [
+     0.0,
+     0.3543
+    ]
+   },
+   "her_passes_kept": {
+    "agree": 4,
+    "of": 4,
+    "share": 1.0,
+    "ci95": [
+     0.5101,
+     1.0
+    ]
+   },
+   "missed": [
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W7",
+    "W8-cover",
+    "W8-screen2"
+   ],
+   "by_kind": {
+    "broll_screen": {
+     "agree": 1,
+     "of": 1,
+     "share": 1.0,
+     "ci95": [
+      0.2065,
+      1.0
+     ]
+    },
+    "carousel_title": {
+     "agree": 1,
+     "of": 1,
+     "share": 1.0,
+     "ci95": [
+      0.2065,
+      1.0
+     ]
+    },
+    "insider_term": {
+     "agree": 0,
+     "of": 1,
+     "share": 0.0,
+     "ci95": [
+      0.0,
+      0.7935
+     ]
+    },
+    "slide_one": {
+     "agree": 0,
+     "of": 1,
+     "share": 0.0,
+     "ci95": [
+      0.0,
+      0.7935
+     ]
+    },
+    "specific": {
+     "agree": 1,
+     "of": 4,
+     "share": 0.25,
+     "ci95": [
+      0.0456,
+      0.6994
+     ]
+    },
+    "subject_line": {
+     "agree": 1,
+     "of": 2,
+     "share": 0.5,
+     "ci95": [
+      0.0945,
+      0.9055
+     ]
+    },
+    "who_did_what": {
+     "agree": 0,
+     "of": 1,
+     "share": 0.0,
+     "ci95": [
+      0.0,
+      0.7935
+     ]
+    }
+   },
+   "rows": [
+    {
+     "id": "W2",
+     "kind": "subject_line",
+     "hers": "pass",
+     "judge": "pass",
+     "agrees": true
+    },
+    {
+     "id": "W3",
+     "kind": "subject_line",
+     "hers": "fail",
+     "judge": "pass",
+     "agrees": false
+    },
+    {
+     "id": "W4",
+     "kind": "slide_one",
+     "hers": "fail",
+     "judge": "pass",
+     "agrees": false
+    },
+    {
+     "id": "W4-title",
+     "kind": "carousel_title",
+     "hers": "pass",
+     "judge": "pass",
+     "agrees": true
+    },
+    {
+     "id": "W5",
+     "kind": "specific",
+     "hers": "fail",
+     "judge": "pass",
+     "agrees": false
+    },
+    {
+     "id": "W5-hook",
+     "kind": "specific",
+     "hers": "pass",
+     "judge": "pass",
+     "agrees": true
+    },
+    {
+     "id": "W6",
+     "kind": "insider_term",
+     "hers": "fail",
+     "judge": "pass",
+     "agrees": false
+    },
+    {
+     "id": "W7",
+     "kind": "specific",
+     "hers": "fail",
+     "judge": "pass",
+     "agrees": false
+    },
+    {
+     "id": "W8-cover",
+     "kind": "specific",
+     "hers": "fail",
+     "judge": "pass",
+     "agrees": false
+    },
+    {
+     "id": "W8-screen1",
+     "kind": "broll_screen",
+     "hers": "pass",
+     "judge": "pass",
+     "agrees": true
+    },
+    {
+     "id": "W8-screen2",
+     "kind": "who_did_what",
+     "hers": "fail",
+     "judge": "pass",
+     "agrees": false
+    }
+   ]
+  }
+ ]
+}

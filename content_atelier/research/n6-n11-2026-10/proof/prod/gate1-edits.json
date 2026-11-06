@@ -1,0 +1,48 @@
+[
+ {
+  "angle_id": "angle_5885669aab1078f0d515420b",
+  "request": {
+   "expected_hash": "927278a5862bdaf300702d44df33500f65f616ff1c1f6e2c15f66ab047114b0d",
+   "changes": {
+    "point": "We check a routine keyword exclusion against how the owner describes her couples, because 'affordable' can be part of her positioning without meaning 'cheap'."
+   },
+   "note": "Delegated Gate 1 reframe (D12): the call shows Carmen pausing a routine exclusion list over the venue's own 'affordable' language and the owner drawing the line, not a standing practice of asking what words mean (the verifier's overclaim flag)."
+  },
+  "status": 200,
+  "response": {
+   "angle_id": "angle_bc8b5497d40d48df9bc9fc04ecd4df75",
+   "content_hash": "9078913499e9b64f6280d4b81ce9a8f09679f66bbb99bd7c4e60479aacd9f7ff",
+   "check": {
+    "status": "queued",
+    "run_id": "run_6f93457f88cb4d08b91bb9d204e6bfcf"
+   }
+  }
+ },
+ {
+  "angle_id": "angle_0199fea84d7c432c4aa88357",
+  "request": {
+   "expected_hash": "61adb968ca2535e27271803887bf162c96a91eda6591bb320a3cfd2f6a3a2918",
+   "changes": {
+    "point": "When a venue plans to run its own ads, we ask who will run them and bring those people into the support from the start.",
+    "why_it_matters": "A venue that wants to keep its advertising in-house needs the people who will run it to understand the campaigns. Specialist support can build them and guide the team that takes them over.",
+    "wia_in_action": "Whitney asked how much the venue wanted to handle in-house. When a team member who helps with the venue's marketing described handing the work to the venue manager, Whitney said both could join the support calls and have access.",
+    "evidence_points": [
+     "A team member who helps with the venue's marketing part-time described the existing Google and Facebook campaigns, a pipeline dashboard and a goal of equipping the venue manager to refresh creative; Whitney asked about the role the venue wanted in-house. (01:28\u201303:43)",
+     "Whitney explained that Carmen would research and build the Google campaign, and that WIA would build and launch the Meta campaigns, audiences and tracking from the team's submitted creative. (14:57\u201316:47)",
+     "He proposed attending the first support calls before the venue manager took over; Whitney said both could take part and have access. (20:13\u201320:40)"
+    ],
+    "guardrail": "Describe a team member who helps with the venue's marketing part-time and the venue manager, with no business or personal names. This was a prospect's proposed handoff, not an enrolment or a completed transfer; the writer may state that the venue already ran campaigns and wanted the manager involved. No seasonal framing and no claim that the strategy stays with the business. Keep the offer exact: WIA builds and launches the campaigns, then guides the team while the team runs them."
+   },
+   "note": "Delegated Gate 1 reframe (D12): answers the verifier's three flags (his part-time role, not a marketing lead; no engagement-season framing; no 'strategy stays with the business' reason) with what the consult shows."
+  },
+  "status": 200,
+  "response": {
+   "angle_id": "angle_045b2397015146b2ba51cb40a0a7f7de",
+   "content_hash": "4e213945b513ca85174e70ec88b569254a25f94f62dde086d63dc012764cdcf0",
+   "check": {
+    "status": "queued",
+    "run_id": "run_1a47e70d227c4df0a8f85327b063d551"
+   }
+  }
+ }
+]

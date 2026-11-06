@@ -1,0 +1,373 @@
+{
+  "plan_hash": "86ee6c99550f3dd7cf9081340535525ac696a30edfe49a8d78728ebaa3a9dbf7",
+  "selected_transcripts": 170,
+  "selected_chunks": 2657,
+  "excluded_duplicate_zoom_files": 6,
+  "maximum_chunk_utf8_bytes": 2557,
+  "weeks": [
+    {
+      "week": 1,
+      "transcripts": 9,
+      "chunks": 136
+    },
+    {
+      "week": 2,
+      "transcripts": 11,
+      "chunks": 193
+    },
+    {
+      "week": 3,
+      "transcripts": 5,
+      "chunks": 67
+    },
+    {
+      "week": 4,
+      "transcripts": 6,
+      "chunks": 97
+    },
+    {
+      "week": 5,
+      "transcripts": 6,
+      "chunks": 74
+    },
+    {
+      "week": 6,
+      "transcripts": 6,
+      "chunks": 80
+    },
+    {
+      "week": 7,
+      "transcripts": 11,
+      "chunks": 158
+    },
+    {
+      "week": 8,
+      "transcripts": 10,
+      "chunks": 210
+    },
+    {
+      "week": 9,
+      "transcripts": 5,
+      "chunks": 86
+    },
+    {
+      "week": 10,
+      "transcripts": 6,
+      "chunks": 86
+    },
+    {
+      "week": 11,
+      "transcripts": 1,
+      "chunks": 9
+    },
+    {
+      "week": 12,
+      "transcripts": 8,
+      "chunks": 132
+    },
+    {
+      "week": 13,
+      "transcripts": 12,
+      "chunks": 192
+    },
+    {
+      "week": 14,
+      "transcripts": 13,
+      "chunks": 288
+    },
+    {
+      "week": 15,
+      "transcripts": 10,
+      "chunks": 134
+    },
+    {
+      "week": 16,
+      "transcripts": 14,
+      "chunks": 220
+    },
+    {
+      "week": 17,
+      "transcripts": 11,
+      "chunks": 123
+    },
+    {
+      "week": 18,
+      "transcripts": 8,
+      "chunks": 91
+    },
+    {
+      "week": 19,
+      "transcripts": 13,
+      "chunks": 201
+    },
+    {
+      "week": 20,
+      "transcripts": 5,
+      "chunks": 80
+    }
+  ],
+  "status": "prepared_awaiting_embeddings",
+  "verified_weeks": [
+    {
+      "week": 1,
+      "week_id": "week_2026-06-01",
+      "transcripts": 9,
+      "passages": 3238,
+      "chunks": 136,
+      "verified_vectors": 136,
+      "response_artifacts": [
+        "chunk-encoding-attempts/chunk_job_614460020956c4aad0d75014/1/6dfb084b58d38f25e2a64195086c48aaff5ba6326543789c8d346b2534897d78/response.raw.json",
+        "chunk-encoding-attempts/chunk_job_614460020956c4aad0d75014/1/82f2a7052050ce28675b30772c1cf58debcb64779c99cf9f17b2bf31e6f250f2/response.raw.json",
+        "chunk-encoding-attempts/chunk_job_614460020956c4aad0d75014/1/8c72f6fe338998a76ff58098efe74382927f1f95ed043d7cbee81e5fd193d852/response.raw.json",
+        "chunk-encoding-attempts/chunk_job_614460020956c4aad0d75014/1/b26241ac6aa2f3e0ab7a357e9a140539f687713da2c83328b1df4e110b80a1ca/response.raw.json",
+        "chunk-encoding-attempts/chunk_job_614460020956c4aad0d75014/1/deba0f5fd800f25620a89c0ee4ead0047ee8fa00a3327b8558b04a4bc3021ee1/response.raw.json"
+      ]
+    },
+    {
+      "week": 2,
+      "week_id": "week_2026-06-08",
+      "transcripts": 11,
+      "passages": 5218,
+      "chunks": 193,
+      "verified_vectors": 193,
+      "response_artifacts": [
+        "chunk-encoding-attempts/chunk_job_490c5ce616a0d719303fa9e8/1/25990a2245ee8836acb1bc4d0988021ebf33c60bdd3c5dadb797651d201fa2b4/response.raw.json",
+        "chunk-encoding-attempts/chunk_job_490c5ce616a0d719303fa9e8/1/5f3d1ccf9efe360f1d68573dd7b7d123953697c3b5bd023ee0e7bc83a4fc7d4c/response.raw.json",
+        "chunk-encoding-attempts/chunk_job_490c5ce616a0d719303fa9e8/1/64350d16ca6c850a5e00833f05879f6614c2e9bf97671fc850d546ae2bd810eb/response.raw.json",
+        "chunk-encoding-attempts/chunk_job_490c5ce616a0d719303fa9e8/1/927aa25d4a62296ba00283ba019ee166e50ee0935ee2eab0c687857b55584c10/response.raw.json",
+        "chunk-encoding-attempts/chunk_job_490c5ce616a0d719303fa9e8/1/9f760bf9dd4d15ba969a234f39bd779435fa800a1e82c950a96851c56ea369ea/response.raw.json",
+        "chunk-encoding-attempts/chunk_job_490c5ce616a0d719303fa9e8/1/b0ecd68efbf78c93434177fcc173bf467561b4bbfb35d3c226fc09f35dc27482/response.raw.json",
+        "chunk-encoding-attempts/chunk_job_490c5ce616a0d719303fa9e8/1/ce2d61f803abf6604827fe3f4685279dcfb8ffbb60b85bc2d4424663170f1980/response.raw.json"
+      ]
+    },
+    {
+      "week": 3,
+      "week_id": "week_2026-06-15",
+      "transcripts": 5,
+      "passages": 1837,
+      "chunks": 67,
+      "verified_vectors": 0,
+      "response_artifacts": []
+    },
+    {
+      "week": 4,
+      "week_id": "week_2026-06-22",
+      "transcripts": 6,
+      "passages": 1803,
+      "chunks": 97,
+      "verified_vectors": 0,
+      "response_artifacts": []
+    },
+    {
+      "week": 5,
+      "week_id": "week_2026-06-29",
+      "transcripts": 6,
+      "passages": 2255,
+      "chunks": 74,
+      "verified_vectors": 0,
+      "response_artifacts": []
+    },
+    {
+      "week": 6,
+      "week_id": "week_2026-07-06",
+      "transcripts": 6,
+      "passages": 2726,
+      "chunks": 80,
+      "verified_vectors": 0,
+      "response_artifacts": []
+    },
+    {
+      "week": 7,
+      "week_id": "week_2026-07-13",
+      "transcripts": 11,
+      "passages": 4476,
+      "chunks": 158,
+      "verified_vectors": 0,
+      "response_artifacts": []
+    },
+    {
+      "week": 8,
+      "week_id": "week_2026-07-20",
+      "transcripts": 10,
+      "passages": 5831,
+      "chunks": 210,
+      "verified_vectors": 0,
+      "response_artifacts": []
+    },
+    {
+      "week": 9,
+      "week_id": "week_2026-07-27",
+      "transcripts": 5,
+      "passages": 2608,
+      "chunks": 86,
+      "verified_vectors": 0,
+      "response_artifacts": []
+    },
+    {
+      "week": 10,
+      "week_id": "week_2026-08-03",
+      "transcripts": 6,
+      "passages": 2262,
+      "chunks": 86,
+      "verified_vectors": 0,
+      "response_artifacts": []
+    },
+    {
+      "week": 11,
+      "week_id": "week_2026-08-10",
+      "transcripts": 1,
+      "passages": 300,
+      "chunks": 9,
+      "verified_vectors": 0,
+      "response_artifacts": []
+    },
+    {
+      "week": 12,
+      "week_id": "week_2026-08-17",
+      "transcripts": 8,
+      "passages": 4106,
+      "chunks": 132,
+      "verified_vectors": 0,
+      "response_artifacts": []
+    },
+    {
+      "week": 13,
+      "week_id": "week_2026-08-24",
+      "transcripts": 12,
+      "passages": 5502,
+      "chunks": 192,
+      "verified_vectors": 0,
+      "response_artifacts": []
+    },
+    {
+      "week": 14,
+      "week_id": "week_2026-08-31",
+      "transcripts": 13,
+      "passages": 7581,
+      "chunks": 288,
+      "verified_vectors": 0,
+      "response_artifacts": []
+    },
+    {
+      "week": 15,
+      "week_id": "week_2026-09-07",
+      "transcripts": 10,
+      "passages": 2999,
+      "chunks": 134,
+      "verified_vectors": 0,
+      "response_artifacts": []
+    },
+    {
+      "week": 16,
+      "week_id": "week_2026-09-14",
+      "transcripts": 14,
+      "passages": 5257,
+      "chunks": 220,
+      "verified_vectors": 0,
+      "response_artifacts": []
+    },
+    {
+      "week": 17,
+      "week_id": "week_2026-09-21",
+      "transcripts": 11,
+      "passages": 3129,
+      "chunks": 123,
+      "verified_vectors": 0,
+      "response_artifacts": []
+    },
+    {
+      "week": 18,
+      "week_id": "week_2026-09-28",
+      "transcripts": 8,
+      "passages": 2818,
+      "chunks": 91,
+      "verified_vectors": 0,
+      "response_artifacts": []
+    },
+    {
+      "week": 19,
+      "week_id": "week_2026-10-05",
+      "transcripts": 13,
+      "passages": 5980,
+      "chunks": 201,
+      "verified_vectors": 0,
+      "response_artifacts": []
+    },
+    {
+      "week": 20,
+      "week_id": "week_2026-10-12",
+      "transcripts": 5,
+      "passages": 2262,
+      "chunks": 80,
+      "verified_vectors": 0,
+      "response_artifacts": []
+    }
+  ],
+  "model": "openai/text-embedding-3-small",
+  "dimensions": 1536,
+  "embedding_dispatches_this_attempt": 0,
+  "generation_calls": 0,
+  "protected_records_unchanged": true,
+  "persistent_external_switches_unchanged": true,
+  "reported_cost_usd_all_selected_cache_responses": 0.00417466,
+  "embedding_response_artifacts": [
+    "chunk-encoding-attempts/chunk_job_490c5ce616a0d719303fa9e8/1/25990a2245ee8836acb1bc4d0988021ebf33c60bdd3c5dadb797651d201fa2b4/response.raw.json",
+    "chunk-encoding-attempts/chunk_job_490c5ce616a0d719303fa9e8/1/5f3d1ccf9efe360f1d68573dd7b7d123953697c3b5bd023ee0e7bc83a4fc7d4c/response.raw.json",
+    "chunk-encoding-attempts/chunk_job_490c5ce616a0d719303fa9e8/1/64350d16ca6c850a5e00833f05879f6614c2e9bf97671fc850d546ae2bd810eb/response.raw.json",
+    "chunk-encoding-attempts/chunk_job_490c5ce616a0d719303fa9e8/1/927aa25d4a62296ba00283ba019ee166e50ee0935ee2eab0c687857b55584c10/response.raw.json",
+    "chunk-encoding-attempts/chunk_job_490c5ce616a0d719303fa9e8/1/9f760bf9dd4d15ba969a234f39bd779435fa800a1e82c950a96851c56ea369ea/response.raw.json",
+    "chunk-encoding-attempts/chunk_job_490c5ce616a0d719303fa9e8/1/b0ecd68efbf78c93434177fcc173bf467561b4bbfb35d3c226fc09f35dc27482/response.raw.json",
+    "chunk-encoding-attempts/chunk_job_490c5ce616a0d719303fa9e8/1/ce2d61f803abf6604827fe3f4685279dcfb8ffbb60b85bc2d4424663170f1980/response.raw.json",
+    "chunk-encoding-attempts/chunk_job_614460020956c4aad0d75014/1/6dfb084b58d38f25e2a64195086c48aaff5ba6326543789c8d346b2534897d78/response.raw.json",
+    "chunk-encoding-attempts/chunk_job_614460020956c4aad0d75014/1/82f2a7052050ce28675b30772c1cf58debcb64779c99cf9f17b2bf31e6f250f2/response.raw.json",
+    "chunk-encoding-attempts/chunk_job_614460020956c4aad0d75014/1/8c72f6fe338998a76ff58098efe74382927f1f95ed043d7cbee81e5fd193d852/response.raw.json",
+    "chunk-encoding-attempts/chunk_job_614460020956c4aad0d75014/1/b26241ac6aa2f3e0ab7a357e9a140539f687713da2c83328b1df4e110b80a1ca/response.raw.json",
+    "chunk-encoding-attempts/chunk_job_614460020956c4aad0d75014/1/deba0f5fd800f25620a89c0ee4ead0047ee8fa00a3327b8558b04a4bc3021ee1/response.raw.json"
+  ],
+  "operation_artifacts": "verification/transcript-backfill/86ee6c99550f3dd7cf9081340535525ac696a30edfe49a8d78728ebaa3a9dbf7",
+  "completed_at_utc": "2026-10-14T14:27:50.801590+00:00",
+  "excluded_duplicate_aliases": [
+    {
+      "week": 11,
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week11\\Carmen Cruickshank's Personal Meeting Room's transcript (1).txt",
+      "sha256": "0bb91a346f1d7004297590c01a98da8a67c15d8028afd35c1b8a6671459a12ee",
+      "selected_week": 10,
+      "selected_path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week10\\Carmen Cruickshank's Personal Meeting Room's transcript (1).txt"
+    },
+    {
+      "week": 11,
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week11\\Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+      "sha256": "dfe313e100312439344a0d9823255c3cd6b26ae137bb7d66d7cd00a2f28fe352",
+      "selected_week": 10,
+      "selected_path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week10\\Carmen Cruickshank's Personal Meeting Room's transcript.txt"
+    },
+    {
+      "week": 11,
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week11\\Carmen Cruickshank's Zoom Meeting's transcript.txt",
+      "sha256": "081b625d6484b69f81ff55c0ed885cb9f9cf4b08b03c2b50077dedf66c6c0e3e",
+      "selected_week": 10,
+      "selected_path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week10\\Carmen Cruickshank's Zoom Meeting's transcript.txt"
+    },
+    {
+      "week": 11,
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week11\\Check-in with Gisselle's transcript.txt",
+      "sha256": "5f5a84b168d0c48cf6d54648a3f665e8f992fbb2a809f87ab5f9c298a1dadaa2",
+      "selected_week": 10,
+      "selected_path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week10\\Check-in with Gisselle's transcript.txt"
+    },
+    {
+      "week": 11,
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week11\\Whitney Hodges's Personal Meeting Room's transcript (1).txt",
+      "sha256": "4a2a9e3820d1744eb44e766ec315b755024e458d0f782e895efbf1f9e75e81e7",
+      "selected_week": 10,
+      "selected_path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week10\\Whitney Hodges's Personal Meeting Room's transcript (1).txt"
+    },
+    {
+      "week": 11,
+      "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week11\\Whitney's Monthly Q&A's transcript.txt",
+      "sha256": "1db96b4a3c052f6c04af5f54f6bd5abf8d70cbcf08156636fd714113bea37a14",
+      "selected_week": 10,
+      "selected_path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week10\\Whitney's Monthly Q&A's transcript.txt"
+    }
+  ]
+}

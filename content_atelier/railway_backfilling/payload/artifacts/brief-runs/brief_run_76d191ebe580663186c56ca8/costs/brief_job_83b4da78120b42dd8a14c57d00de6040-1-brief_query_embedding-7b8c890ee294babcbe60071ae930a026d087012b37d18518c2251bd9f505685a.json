@@ -1,0 +1,31 @@
+{
+  "stage": "brief_query_embedding",
+  "job_id": "brief_job_83b4da78120b42dd8a14c57d00de6040",
+  "attempt": 1,
+  "fingerprint": "7b8c890ee294babcbe60071ae930a026d087012b37d18518c2251bd9f505685a",
+  "synthetic": false,
+  "real_external_dispatch": true,
+  "currency": "USD",
+  "recorded_at_utc": "2026-10-12T15:02:49.268458+00:00",
+  "dispatched": true,
+  "reused": false,
+  "generation_id": "gen-emb-1791817367-xY5d0lvZczkXHVYbXfSP",
+  "returned_model_id": "text-embedding-3-small",
+  "provider": "OpenAI",
+  "usage": {
+    "prompt_tokens": 131,
+    "total_tokens": 131,
+    "cost": 2.62e-06,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 2.62e-06,
+      "upstream_inference_prompt_cost": 2.62e-06,
+      "upstream_inference_completions_cost": 0
+    }
+  },
+  "original_reported_cost_usd": 2.62e-06,
+  "new_cost_usd": 2.62e-06,
+  "cost_status": "reported",
+  "cost_source": "provider_usage.cost",
+  "credit_purchase_fees_included": false
+}

@@ -1,0 +1,20 @@
+{
+  "plan_id": "plan_059d65d7e32f4fee8a8a",
+  "purpose": "E.B26: smoke run of strategist profile v6 against v5 on benchmark v1, knowledge base version 7 (wia-kb-2026-10-20.c-b953624b), three samples a week",
+  "stages": [
+    "evaluation"
+  ],
+  "models": [
+    "openai/gpt-6.1-sol"
+  ],
+  "input_set_hash": "*",
+  "max_calls": 8,
+  "max_cost_usd": 0.8,
+  "approver": "kenil.shah@e2m.solutions",
+  "approved_at": "2026-10-19T19:48:21.285350+00:00",
+  "expires_at": "2026-10-20T01:48:21.285350+00:00",
+  "status": "active",
+  "calls_used": 6,
+  "cost_used_usd": 0.6077001,
+  "details": {}
+}

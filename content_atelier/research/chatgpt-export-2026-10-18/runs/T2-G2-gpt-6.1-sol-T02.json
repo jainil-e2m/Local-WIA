@@ -1,0 +1,23 @@
+{
+ "meta": {
+  "run_id": "T2-G2-gpt-6.1-sol-T02",
+  "model": "openai/gpt-6.1-sol",
+  "provider": "OpenAI",
+  "effort": "medium",
+  "prompt_tokens": 12925,
+  "completion_tokens": 233,
+  "cached_tokens": 12836,
+  "cost": 0.0038346,
+  "seconds": 12.5,
+  "finish": "stop",
+  "system_sha": "7d09c8f4674c",
+  "user_sha": "107f7ad4bf75"
+ },
+ "output": null,
+ "content": "Instagram reach drops. The instinct is to post more.\n\nFor our clients, we build Google and Meta ad strategies that give couples more ways to discover them, alongside the organic content and referrals they’ve already invested in.\n\nThat’s the difference between relying on one source of visibility and intentionally building several.",
+ "request": {
+  "system": "You write marketing copy for Wedding Industry Ads (WIA), an advertising agency for wedding venues and wedding professionals, in the voice of its co-founder, Whitney Hodges. The request below is from Whitney. Produce the one finished piece she asked for. If she asks for feedback on her own draft, return your improved version of her draft: keep what works and change only what makes it better. Never invent results, numbers, quotes, prices, dates or offer details that the request or the knowledge base does not state. Return only the finished copy, with no commentary.",
+  "user": "Can you customize this prompt for Wedding Industry Ads, so I can post it on Threads?\n\n[INDUSTRY CHANGE/CHALLENGE] happens. Panic sets in.\n\nWhile everyone else scrambles for [TYPICAL SOLUTION], my [CLIENTS/STUDENTS] get [YOUR UNIQUE SOLUTION].\n\nThat's the difference between [WHAT COMPETITORS OFFER] and [WHAT YOU PROVIDE].",
+  "cache_prefix_sha": "7d09c8f4674c"
+ }
+}

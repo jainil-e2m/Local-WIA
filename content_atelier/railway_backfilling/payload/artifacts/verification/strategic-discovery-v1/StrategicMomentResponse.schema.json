@@ -1,0 +1,239 @@
+{
+  "$defs": {
+    "Discovery": {
+      "additionalProperties": false,
+      "properties": {
+        "lenses": {
+          "items": {
+            "enum": [
+              "audience_insight",
+              "wia_expertise",
+              "service_value",
+              "broader_principle"
+            ],
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Lenses",
+          "type": "array"
+        },
+        "destination": {
+          "enum": [
+            "public_opportunity",
+            "internal_intelligence",
+            "research_needed"
+          ],
+          "title": "Destination",
+          "type": "string"
+        },
+        "wia_contribution": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "pattern": "\\S",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Wia Contribution"
+        },
+        "attention_reason": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Attention Reason",
+          "type": "string"
+        },
+        "research_questions": {
+          "items": {
+            "minLength": 1,
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "title": "Research Questions",
+          "type": "array"
+        }
+      },
+      "required": [
+        "lenses",
+        "destination",
+        "wia_contribution",
+        "attention_reason",
+        "research_questions"
+      ],
+      "title": "Discovery",
+      "type": "object"
+    },
+    "StrategicMomentDraft": {
+      "additionalProperties": false,
+      "properties": {
+        "local_key": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Local Key",
+          "type": "string"
+        },
+        "anchor_span_ids": {
+          "items": {
+            "minLength": 1,
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Anchor Span Ids",
+          "type": "array"
+        },
+        "context_span_ids": {
+          "items": {
+            "minLength": 1,
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Context Span Ids",
+          "type": "array"
+        },
+        "quote": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Quote",
+          "type": "string"
+        },
+        "context_summary": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Context Summary",
+          "type": "string"
+        },
+        "moment_type": {
+          "enum": [
+            "result",
+            "objection",
+            "decision",
+            "tension",
+            "mechanism",
+            "observation",
+            "story"
+          ],
+          "title": "Moment Type",
+          "type": "string"
+        },
+        "proposition": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Proposition",
+          "type": "string"
+        },
+        "audience_relevance": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Audience Relevance",
+          "type": "string"
+        },
+        "qualifications": {
+          "items": {
+            "minLength": 1,
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "title": "Qualifications",
+          "type": "array"
+        },
+        "claim_status": {
+          "enum": [
+            "reported",
+            "measured",
+            "estimated",
+            "planned",
+            "hypothetical",
+            "inferred"
+          ],
+          "title": "Claim Status",
+          "type": "string"
+        },
+        "sensitivity": {
+          "enum": [
+            "public_candidate",
+            "internal_only",
+            "unknown"
+          ],
+          "title": "Sensitivity",
+          "type": "string"
+        },
+        "strength": {
+          "maximum": 5,
+          "minimum": 0,
+          "title": "Strength",
+          "type": "number"
+        },
+        "reasons": {
+          "items": {
+            "minLength": 1,
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Reasons",
+          "type": "array"
+        },
+        "discovery": {
+          "$ref": "#/$defs/Discovery"
+        }
+      },
+      "required": [
+        "local_key",
+        "anchor_span_ids",
+        "context_span_ids",
+        "quote",
+        "context_summary",
+        "moment_type",
+        "proposition",
+        "audience_relevance",
+        "qualifications",
+        "claim_status",
+        "sensitivity",
+        "strength",
+        "reasons",
+        "discovery"
+      ],
+      "title": "StrategicMomentDraft",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "moments": {
+      "items": {
+        "$ref": "#/$defs/StrategicMomentDraft"
+      },
+      "title": "Moments",
+      "type": "array"
+    },
+    "processed_span_ids": {
+      "items": {
+        "minLength": 1,
+        "pattern": "\\S",
+        "type": "string"
+      },
+      "title": "Processed Span Ids",
+      "type": "array"
+    },
+    "coverage_notes": {
+      "items": {
+        "minLength": 1,
+        "pattern": "\\S",
+        "type": "string"
+      },
+      "title": "Coverage Notes",
+      "type": "array"
+    }
+  },
+  "required": [
+    "moments",
+    "processed_span_ids",
+    "coverage_notes"
+  ],
+  "title": "StrategicMomentResponse",
+  "type": "object"
+}

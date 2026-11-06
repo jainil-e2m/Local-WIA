@@ -1,0 +1,23 @@
+{
+ "meta": {
+  "run_id": "T1-J0-claude-haiku-5.5-P37-AH",
+  "model": "anthropic/claude-haiku-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 453,
+  "completion_tokens": 572,
+  "cached_tokens": 0,
+  "cost": 0.0003313,
+  "seconds": 3.6,
+  "finish": "stop",
+  "system_sha": "ea72523eb9c9",
+  "user_sha": "9349f0cc018e"
+ },
+ "output": null,
+ "content": "{\"choice\": \"B\", \"confidence\": 3, \"reason\": \"Version B speaks directly to the business owner throughout (\"you,\" \"your business\"), which suits an email to wedding professionals better than Version A's mix of agency \"we\" and third-person \"this business.\"\"}",
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: email\n\nVersion A:\nBefore we can write an ad that makes someone stop scrolling, we need to know why they should care.\nBefore we can build a landing page that turns traffic into inquiries, we need to understand what their ideal client actually wants and which parts of their business matter most to them.\nAnd before we can put a photographer or venue in front of someone actively searching Google alongside a dozen competitors, we need to give that person a reason to choose *this* business.\n\nVersion B:\nBefore you can write an ad that makes someone stop scrolling, you need to be able to articulate why they should care.\nBefore you can build a landing page that turns traffic into inquiries, you need to have clarity on what your ideal client actually wants and which parts of your business matter most to them.\nAnd before you start paying to show up in a Google search or the Instagram newsfeed, you need to clearly give couples a reason to choose *your* business.",
+  "cache_prefix_sha": "ea72523eb9c9"
+ }
+}

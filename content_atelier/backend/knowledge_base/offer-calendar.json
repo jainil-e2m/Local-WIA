@@ -1,0 +1,30 @@
+{
+  "purpose": "The offer calendar the strategy brief reads (E.B28): each offer's status over a window, and the points a card must not make while it is in force because they would undercut it (do_not_undercut). A card whose point, title or takeaway makes one of those points is held until the window ends, with the offer named, and carries a blocking flag at Gate 1. Statuses: open (on sale now), waitlist (sold through the waitlist), delivering (sold or given and being delivered; not on sale), closed (not on sale). An entry without dates holds until it is changed.",
+  "source": "Knowledge-base documents 05 (offers, access routes) and 14 (the content plan for 19 October to 1 November: the 2026 audit giveaway closed on 16 October and its audits run from late October to early November); the revision 7.3 finding that an angle about outgrowing one-off audits must not run while the giveaway audits are being delivered. Read by the engineer under D12; WIA confirms or corrects it at its next content-plan review.",
+  "made_by": "Engineer (Claude, delegated review under D12), 22 October 2026",
+  "entries": [
+    {"offer": "ELEVATE", "status": "waitlist",
+     "do_not_undercut": ["Hiring an ads agency is a waste of money for a wedding business",
+                         "You do not need an agency to run your wedding ads"],
+     "source": "KB 05: waitlist, then a discovery call"},
+    {"offer": "Google Search Accelerator", "status": "open",
+     "do_not_undercut": ["Wedding pros cannot learn to run their own Google ads"],
+     "source": "KB 05: application, then a qualifying email and a proposal"},
+    {"offer": "Meta Ads Accelerator", "status": "open",
+     "do_not_undercut": ["Wedding pros cannot learn to run their own Meta ads"],
+     "source": "KB 05: application, then a qualifying email and a proposal"},
+    {"offer": "Ads Accelerator Bundle", "status": "open", "do_not_undercut": [],
+     "source": "KB 05: application, then a proposal"},
+    {"offer": "LeadLock and The Foolproof Follow-Up Advantage", "status": "open",
+     "do_not_undercut": ["Automated follow-up feels impersonal to couples and loses bookings"],
+     "source": "KB 05: sold alone, or included with ELEVATE"},
+    {"offer": "Google Ads Audit Giveaway", "status": "delivering", "starts": "2026-10-19", "ends": "2026-11-08",
+     "do_not_undercut": ["A one-off ads audit is not enough to fix your ads",
+                         "After an audit you are left to do the work on your own",
+                         "Free ads audits are only a sales tactic"],
+     "terms": ["one-off audit", "one-time audit", "free audit", "after your audit", "after the audit", "audit isn't enough",
+               "audits aren't enough", "outgrow an audit", "outgrowing one-off audits"],
+     "note": "The 2026 giveaway closed on 16 October; Carmen runs the five audits from late October to early November. No audit CTA in this window.",
+     "source": "KB 14 (19 Oct to 1 Nov entry); KB 05 (Google Ads Audit Giveaway)"}
+  ]
+}

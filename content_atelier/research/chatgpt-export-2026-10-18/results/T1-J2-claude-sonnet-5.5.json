@@ -1,0 +1,686 @@
+[
+ {
+  "id": "P03",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 3,
+  "reason": "Both are too harsh for Whitney's calm voice, but A uses an em dash, calls the reader's business an 'expensive hobby' and promises 'autopilot' leads. B has an em dash too, yet its wedding-specific image is gentler and less insulting, though it still hints at referrals drying up.",
+  "cost": 0.049963
+ },
+ {
+  "id": "P01",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "A tells a specific, plausible story in Whitney's first-person voice with concrete figures (121 followers, 75 inquiries, 13 booked calls), whereas B has a forced TV hook, a vague 'blew us away', and hype formatting with a teaser CTA.",
+  "cost": 0.051279
+ },
+ {
+  "id": "P02",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "Version A uses an em dash and overclaims with \"on autopilot\" and \"proven\", while Version B is cleaner and tighter, though it still leans a little on running down organic.",
+  "cost": 0.050885
+ },
+ {
+  "id": "P02",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "Version B uses a banned em dash and overclaims with 'on autopilot' and 'proven', while also mocking organic as 'crossing your fingers'. Version A is shorter and cleaner, though it also leans on the organic-versus-paid contrast.",
+  "cost": 0.051415
+ },
+ {
+  "id": "P03",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "Both use an em dash and the harsh 'you don't have a business' opener, but A's wedding-specific table-and-RSVPs image is softer and more on-brand than B's insulting 'expensive hobby', 'autopilot' overclaim and algorithm talk.",
+  "cost": 0.051763
+ },
+ {
+  "id": "P01",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "B is a specific first-person story in Whitney's voice with no em dashes, while A has em dashes, hype ('blew us away', 'BIG announcements'), an overclaim ('ads bring dream clients straight to you') and a generic pop-culture hook.",
+  "cost": 0.055799
+ },
+ {
+  "id": "P06",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "Version B has em dashes, emojis and a horror-movie gimmick that clash with Whitney's calm voice and rules; Version A is flawed (\"killing it\", an exclamation mark, semicolon) but has no em dashes and keeps closer to her foundation-first message.",
+  "cost": 0.0083862
+ },
+ {
+  "id": "P04",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "B runs down organic social ('chasing the algorithm') and overclaims automation ('leads on autopilot'), while A stays on lead quality and pre-selling, which fits WIA's positioning better, though 'tire kickers' is a bit harsh.",
+  "cost": 0.0109882
+ },
+ {
+  "id": "P06",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 3,
+  "reason": "Version B is calmer and more consistent with Whitney's voice and her rules on foundations and follow-up, though 'killing it' and the exclamation mark are flaws; Version A leans on emojis, horror-themed puns and an em dash, which her style bans or discourages.",
+  "cost": 0.0083562
+ },
+ {
+  "id": "P05",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 3,
+  "reason": "Both use the banned problem-swap hook and an em dash, but A has a typo ('you don't lead volume problem') and a vague 'marketing strategy problem', while B is clean and uses WIA's visibility framing.",
+  "cost": 0.0096542
+ },
+ {
+  "id": "P05",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 2,
+  "reason": "Both versions use the banned problem-swap hook, but A also has an em dash, which is banned outright, and calls the reader 'invisible'. B's typo ('you don't lead volume problem') is an easy fix.",
+  "cost": 0.0115642
+ },
+ {
+  "id": "P04",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 3,
+  "reason": "B names a concrete outcome (better-qualified inquiries from a funnel), while A overclaims with 'leads on autopilot' and runs down organic with 'chasing the algorithm', though B's 'tire kickers' wording is a bit harsh.",
+  "cost": 0.0131782
+ },
+ {
+  "id": "P08",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "A is concrete and specific to weddings (Google results, dream couples) and sets up the Google ads lead-in without stock phrasing, while B uses the 'here's the part no one talks about' line that doesn't sound like Whitney and leans on 'invisible' pain.",
+  "cost": 0.0097702
+ },
+ {
+  "id": "P07",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 3,
+  "reason": "Version A uses an em dash, which Whitney bans outright, while Version B avoids it and adds the useful point about high-intent Google searches, even though both lean on a 'hard truth' framing.",
+  "cost": 0.0095762
+ },
+ {
+  "id": "P07",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "Version B uses an em dash, which Whitney bans outright, and its 'none of that matters' line dismisses the reader's work, while Version A avoids the em dash and keeps a more possibility-led tone despite its stock 'hard truth' phrasing.",
+  "cost": 0.0096162
+ },
+ {
+  "id": "P08",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "Version A contains an em dash and uses the 'here's the part no one talks about' line the voice guide rules out, while Version B has neither and ties the point to Google visibility for couples.",
+  "cost": 0.0099002
+ },
+ {
+  "id": "P09",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 3,
+  "reason": "Version A uses an em dash (banned) and says ads \"accelerate\" SEO, which is inaccurate since paid search doesn't affect organic rankings. Version B has a few weak spots (\"algorithmic luck\", \"killer\") but positions ads as building on a strong SEO foundation.",
+  "cost": 0.0108922
+ },
+ {
+  "id": "P10",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "Version B uses a banned em dash, while A avoids it and speaks to established businesses missing from page one.",
+  "cost": 0.0080662
+ },
+ {
+  "id": "P10",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "Version A uses em dashes, which Whitney bans outright, while B avoids them and speaks to established, talented owners in a concrete, specific way.",
+  "cost": 0.0080362
+ },
+ {
+  "id": "P09",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "Version B uses a banned em dash, strings together short fragments, and wrongly implies Google Ads 'accelerate' SEO. Version A is cleaner and calmer, although its 'algorithmic luck' line and the all-caps 'TWICE' are weak spots.",
+  "cost": 0.0106522
+ },
+ {
+  "id": "P12",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "A signals the established reader through detail and avoids the 'gap isn't X, it's Y' contrast that B uses as its default hook, which Whitney discourages.",
+  "cost": 0.0071542
+ },
+ {
+  "id": "P11",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "Version A's \"me\" matches the Whitney sign-off, and it avoids the em dash that Version B uses in its sign-off, which Whitney bans; \"Excited to hear from you\" is slightly gushing but a smaller issue.",
+  "cost": 0.0096182
+ },
+ {
+  "id": "P11",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 3,
+  "reason": "A keeps the 'we' voice and the Whitney & Daniela sign-off consistent, while B mixes 'me' with 'we' and closes on a gushing 'Excited to hear from you'; A's em dash before the sign-off is a flaw but a smaller one.",
+  "cost": 0.0117082
+ },
+ {
+  "id": "P13",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "A opens with the banned problem-swap hook ('This isn't a conversion problem, it's a visibility problem') and leans on stock phrasing, while B is calmer and speaks to couples and inquiries, though both use em dashes.",
+  "cost": 0.0088562
+ },
+ {
+  "id": "P12",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 3,
+  "reason": "A leans on the discouraged \"isn't X, it's Y\" contrast and edges toward the banned problem-swap hook, while B states the point directly and signals the established reader through detail.",
+  "cost": 0.0092042
+ },
+ {
+  "id": "P13",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "Version B opens with the banned problem-swap hook ('This isn't a conversion problem. It's a visibility problem.') and leans on stock phrasing like 'attention economy', while Version A explains why repetition matters in a calmer, more Whitney-like way, despite one em dash and a mild 'not because' construction.",
+  "cost": 0.0089262
+ },
+ {
+  "id": "P15",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 3,
+  "reason": "B describes the Accelerator model concretely and accurately (teach, launch campaigns, support), while A is vague and leans on a cliché; both contain an em dash, which is banned.",
+  "cost": 0.0087982
+ },
+ {
+  "id": "P14",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "B adds two more em dashes (banned) plus markdown bolding and an 'X but not Y' contrast, while A keeps the same message in plainer wording with parentheses instead of dashes.",
+  "cost": 0.0110662
+ },
+ {
+  "id": "P17",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "A keeps a calm, complete-sentence voice and hedges with 'necessarily' as Whitney does, while B leans on the discouraged chain of short fragments and a more absolute, dramatic claim.",
+  "cost": 0.0074722
+ },
+ {
+  "id": "P15",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "Both versions use a banned em dash, but A describes the Accelerator accurately (teach, launch campaigns, guided support) and is more concrete, while B is vaguer and its 'build the foundation' could imply WIA does more than ads.",
+  "cost": 0.0100282
+ },
+ {
+  "id": "P14",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 3,
+  "reason": "B drops two of A's three em dashes (banned) and the asterisk/bold formatting, and its wording is plainer, though its PS is a bit gushing and its 'biggest giveaway ever' claim is unverified.",
+  "cost": 0.0112662
+ },
+ {
+  "id": "P18",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "Version A presents advertising as frustrating, which Whitney's edits forbid, while Version B leads with a positive, concrete principle about data and measurement that fits WIA's positioning.",
+  "cost": 0.0073302
+ },
+ {
+  "id": "P19",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "A is specific to weddings (couples, wedding day, website or Instagram) and 'at least not yet' keeps it warm and possibility-led, while B is blunter, generic and reads as gatekeeping.",
+  "cost": 0.0073562
+ },
+ {
+  "id": "P18",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "Version A makes a clear point about measurement and conversion data, while Version B implies advertising is frustrating, which Whitney's rules prohibit.",
+  "cost": 0.0082702
+ },
+ {
+  "id": "P16",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 3,
+  "reason": "Version B has an em dash ('was and wasn't working—and why'), which Whitney bans outright. Its agency-firing detour also runs down agencies. Version A is cleaner and ties the result to the tracking foundation, though slide 7 is thin.",
+  "cost": 0.0148762
+ },
+ {
+  "id": "P19",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 3,
+  "reason": "B is specific to weddings and couples, treats positioning as a foundation that comes before ads ('at least not yet'), and sounds calmer and more like Whitney than A's blunter, more abrasive line.",
+  "cost": 0.0073462
+ },
+ {
+  "id": "P17",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 3,
+  "reason": "Both use the banned problem-swap hook, but B avoids A's chain of short fragments and names the concrete gap (no tracking to show inquiries or bookings, only clicks) in calmer, fuller sentences.",
+  "cost": 0.0092122
+ },
+ {
+  "id": "P21",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "Version B uses an em dash, which Whitney banned, while A avoids it and signals an established, growth-minded reader with more warmth and detail.",
+  "cost": 0.0071442
+ },
+ {
+  "id": "P16",
+  "order": "HA",
+  "choice": null,
+  "correct": false,
+  "confidence": null,
+  "reason": null,
+  "cost": 0.0174062
+ },
+ {
+  "id": "P22",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 3,
+  "reason": "B is concrete and calm and speaks to control, whereas A's 'reach new heights' is a vague, generic cliché with no real meaning for wedding pros.",
+  "cost": 0.0071642
+ },
+ {
+  "id": "P21",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "Version A uses an em dash, which Whitney banned outright, while B keeps the established, growth-minded tone without banned punctuation.",
+  "cost": 0.0079142
+ },
+ {
+  "id": "P20",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "Version A has a truncated \"...\" gap and adds an unverified budget claim ($500/month on Google, $300/month on Meta) that the sources don't support, while Version B is complete and makes no invented claims.",
+  "cost": 0.0094222
+ },
+ {
+  "id": "P20",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "Version B has a stray \"...\" where text was cut and adds an unsupported claim about results at $500/month on Google and $300/month on Meta, plus an \"it's not X, it's Y\" line, while A sticks to what's supportable.",
+  "cost": 0.0100422
+ },
+ {
+  "id": "P24",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "Version B uses an em dash, a 'stop losing inquiries' pain framing and a 'no more missed messages' chain, whereas A describes LeadLock concretely (HighLevel, pipelines, text and email responses, follow-up workflows, scheduling) without em dashes or pain-led copy.",
+  "cost": 0.0080322
+ },
+ {
+  "id": "P22",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 4,
+  "reason": "A ties to the control over lead flow that WIA clients say they want, while B's 'reach new heights' is a vague cliché with no consequence, and it's missing end punctuation.",
+  "cost": 0.0084842
+ },
+ {
+  "id": "P26",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "A frames paid ads as amplifying organic and ends with a real next step, while B runs organic down as 'borrowed ground' and a gamble with no CTA; A has em dashes and 'That's a gamble' too, but is the more complete, on-positioning piece.",
+  "cost": 0.0084602
+ },
+ {
+  "id": "P24",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 3,
+  "reason": "Version A uses an em dash, which is banned, and leans on pain-led 'no more missed messages' phrasing, while Version B is more concrete and specific to the product, though 'autopilot' and the HighLevel claim are slightly risky.",
+  "cost": 0.0105122
+ },
+ {
+  "id": "P23",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 3,
+  "reason": "B leaves room for owners burned before, says organic 'rarely' (not 'can't') delivers control, and frames ads as amplifying demand, though its 'DIYing isn't going to cut it' line and em dashes are flaws, and A has em dashes and a 'lies we tell ourselves' framing too.",
+  "cost": 0.0121582
+ },
+ {
+  "id": "P23",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "A is calmer and more principled (ads capture or amplify demand, organic 'rarely' can), while B opens with 'lies we tell ourselves,' which talks down to the reader, and says organic 'can't' do what ads do.",
+  "cost": 0.0133082
+ },
+ {
+  "id": "P27",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "Version A is a complete, calm caption that names real client hesitations and shows WIA's thinking on positioning and buyer psychology, while Version B is a fragmentary draft with arrows and slashes that isn't publishable, though A's line about agencies promising more leads leans slightly critical.",
+  "cost": 0.0080562
+ },
+ {
+  "id": "P26",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 3,
+  "reason": "B frames paid ads as amplifying organic and shows WIA's view of who actually sees the content, while A runs down organic social ('borrowed ground', 'a gamble') and offers no WIA perspective or next step.",
+  "cost": 0.0110302
+ },
+ {
+  "id": "P25",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 2,
+  "reason": "B breaks Whitney's explicit bans (em dashes, the 'don't need more X, they need Y' swap) and ends on a reflection question instead of a reply prompt, while A is a rough fragment but accurately describes the Accelerators' client work without any banned patterns.",
+  "cost": 0.0134342
+ },
+ {
+  "id": "P25",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 3,
+  "reason": "Version A breaks banned rules (em dash, the 'don't need X, they need Y' swap) and reads like stock assistant copy, while Version B is rough but plainly true to how the Accelerators work and sounds like Whitney.",
+  "cost": 0.0126942
+ },
+ {
+  "id": "P27",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "Version B is a finished, publishable caption in Whitney's calm voice, built on real client objections (generic ads, lead quality, confidence). Version A is unfinished notes with arrows, and it dwells on asking for examples.",
+  "cost": 0.0094862
+ },
+ {
+  "id": "P30",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 5,
+  "reason": "Version B runs down SEO and organic social and uses an em dash, and its 'done wasting time' framing breaks Whitney's rules, while Version A treats organic and referrals as a foundation to amplify.",
+  "cost": 0.0077122
+ },
+ {
+  "id": "P30",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 5,
+  "reason": "Version A runs down SEO and organic social ('done wasting time on') and uses an em dash, both against Whitney's rules, while Version B treats organic and referrals as a foundation to build on and uses a more accurate, calm tone.",
+  "cost": 0.0077922
+ },
+ {
+  "id": "P28",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 4,
+  "reason": "B opens with a fresh hook and sounds like Whitney's calm, specific voice, while A uses the \"isn't X, it's where\" default hook, the banned \"that's exactly why we created\" offer opener, a lowercase typo, and a DM-to-talk CTA for the waitlist-only ELEVATE.",
+  "cost": 0.0120722
+ },
+ {
+  "id": "P28",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 3,
+  "reason": "A is specific to ELEVATE, calm and in Whitney's voice, while B leans on an \"isn't X, it's Y\" hook, the \"that's exactly why we created\" opener, a broken sentence, and a dig at other agencies.",
+  "cost": 0.0110722
+ },
+ {
+  "id": "P31",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "Version A uses an em dash (banned) and calls the Accelerator a 'done-for-you service', which misdescribes it; B uses a hyphen and correctly frames it as a Google Ads setup and campaign launch.",
+  "cost": 0.0074622
+ },
+ {
+  "id": "P29",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 3,
+  "reason": "B avoids A's explicit banned 'isn't your budget, it's your belief' problem-swap hook, and it tells a fuller, more specific client story with a quote, concrete outcomes and a real next step, though it has a typo and some pain-leaning framing.",
+  "cost": 0.0125762
+ },
+ {
+  "id": "P31",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "B uses an banned em dash and mislabels the Accelerator as a done-for-you service, while A describes the offer accurately (setup plus campaign launch) with no em dash.",
+  "cost": 0.0093122
+ },
+ {
+  "id": "P29",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "Version B's hook is the banned 'isn't your budget, it's your belief' problem-swap, and it leans on fear-based bullets, whereas A avoids the swap and has the fuller, specific client story, despite its typos and the questionable DM ELEVATE call to action.",
+  "cost": 0.0131962
+ },
+ {
+  "id": "P32",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "B addresses established planners with a possibility-led, ads-amplify-foundations framing and has no em dash, while A uses a pain-focused 'I created this because' opener plus an em dash.",
+  "cost": 0.0087902
+ },
+ {
+  "id": "P32",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "A speaks to established planners with possibility and ties ads to existing foundations, while B has a banned em dash, leads with struggle, and drifts into a messaging problem that isn't about ads.",
+  "cost": 0.0087102
+ },
+ {
+  "id": "P34",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 4,
+  "reason": "Version A speaks to established, growth-minded owners with calm, possibility-led wording, while Version B opens with a '(Locked replacement)' placeholder and dwells on unsure, inconsistent results, which reads as pain-led and runs down a platform.",
+  "cost": 0.0075862
+ },
+ {
+  "id": "P35",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "A is tighter and more concrete, ending on the specific \"We're interested...\" to \"We're ready to book!\" journey, while B is wordier and its \"fully supported\" and \"without you having to build it yourself\" phrasing is more generic and overclaiming.",
+  "cost": 0.0077002
+ },
+ {
+  "id": "P35",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 3,
+  "reason": "B is more concrete and wedding-specific, and avoids A's overclaim that the process is 'fully supported' through to booking, though it uses quotation marks and an exclamation mark.",
+  "cost": 0.0074202
+ },
+ {
+  "id": "P34",
+  "order": "HA",
+  "choice": "B",
+  "correct": false,
+  "confidence": 4,
+  "reason": "A contains a banned em dash, a stray \"(Locked replacement)\" label and a pain-led framing, while B speaks to a growth-minded owner with calm, possibility-led wording, despite its short fragments.",
+  "cost": 0.0090262
+ },
+ {
+  "id": "P36",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 3,
+  "reason": "B is more concrete, covering email and text sequences, tours and consultations, and why post-consultation follow-up matters, so it reads like someone who knows the business, whereas A is bare labels with an arrow; B does have a grammar slip ('every leads').",
+  "cost": 0.0075882
+ },
+ {
+  "id": "P37",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 4,
+  "reason": "Version A speaks directly to the reader ('you', 'your business') and carries foundations-first ideas in Whitney's calm voice, while Version B slips into inconsistent third person ('their ideal client', 'this business') and an awkward 'a photographer or venue' that makes it sound like an internal brief rather than an email.",
+  "cost": 0.0081042
+ },
+ {
+  "id": "P33",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 4,
+  "reason": "Version A uses an em dash, which is banned, and is generic marketing copy with no specifics. Version B has no em dashes, names the Accelerators, and speaks to owners scaling what already works.",
+  "cost": 0.0091422
+ },
+ {
+  "id": "P33",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "A names the Accelerator and speaks to established owners scaling what's already working, while B is a generic positioning line with a 'not just more noise' contrast; both use em dashes, and A's 'past year' claim is unverified.",
+  "cost": 0.0115422
+ },
+ {
+  "id": "P37",
+  "order": "AH",
+  "choice": "A",
+  "correct": false,
+  "confidence": 3,
+  "reason": "A shows what WIA does ('we need to know', 'we need to give that person a reason') and uses concrete wedding examples such as a photographer or venue competing in Google alongside a dozen others, while B turns it into generic 'you need to' instructions that read like a prerequisite.",
+  "cost": 0.0079542
+ },
+ {
+  "id": "P36",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "Version A names the real mechanics (email and text sequences, reminders, and why post-consultation follow-up matters), which fits Whitney's concrete, explanatory style, while B is a terse arrow-and-fragment outline; A's \"every leads\" typo is easy to fix.",
+  "cost": 0.0095282
+ },
+ {
+  "id": "P38",
+  "order": "AH",
+  "choice": "B",
+  "correct": true,
+  "confidence": 3,
+  "reason": "B describes the automation accurately as a nurture sequence, while A's 'continues the conversation' overclaims what the system does, and B's tie to booked consultations fits Whitney's focus on bookings.",
+  "cost": 0.0097942
+ },
+ {
+  "id": "P38",
+  "order": "HA",
+  "choice": "A",
+  "correct": true,
+  "confidence": 3,
+  "reason": "A describes the follow-up accurately as an automated nurture sequence, while B's 'continues the conversation' overclaims automation and carries a stray editor note.",
+  "cost": 0.0101542
+ }
+]

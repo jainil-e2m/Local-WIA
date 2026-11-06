@@ -1,0 +1,60 @@
+{
+  "source_id": "zoom:c34438c33417f528",
+  "raw_sha256": "7bea9fdc567d00ad6afc508bc89e41199ededfbf92f353c193f119f55bd29d6e",
+  "raw_bytes": 58,
+  "normalized_characters": 58,
+  "source_path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\testing\\.backfill-sql-tests-20261014\\test_prompt_or_model_change_cr0\\week1\\meeting.txt",
+  "week_index": 1,
+  "meeting_ref": "m1",
+  "metadata": {
+    "filename_label": "meeting",
+    "name": null,
+    "date": null,
+    "weekday": null,
+    "timezone": null,
+    "status": "zoom_metadata_not_supplied"
+  },
+  "turns": [
+    {
+      "kind": "cue",
+      "start_ms": 1000,
+      "end_ms": 2000,
+      "start_raw": "00:00:01.000",
+      "end_raw": "00:00:02.000",
+      "cue_settings": "",
+      "timing_source_line": [
+        3,
+        "00:00:01.000 --> 00:00:02.000"
+      ],
+      "speaker": "Whitney Hodges",
+      "text": "Whitney Hodges: Hi!",
+      "source_lines": [
+        [
+          4,
+          "Whitney Hodges: Hi!"
+        ]
+      ],
+      "ref": "1",
+      "ordinal": 0,
+      "source_id": "zoom:c34438c33417f528",
+      "source_revision_sha256": "7bea9fdc567d00ad6afc508bc89e41199ededfbf92f353c193f119f55bd29d6e"
+    }
+  ],
+  "structural_lines": [
+    {
+      "kind": "format_header",
+      "lines": [
+        [
+          1,
+          "WEBVTT"
+        ]
+      ]
+    }
+  ],
+  "padding_lines": 2,
+  "fidelity": {
+    "original_bytes_archived": true,
+    "nonblank_line_accounting_passed": true,
+    "cue_text_preserved_after_line_ending_normalization": true
+  }
+}

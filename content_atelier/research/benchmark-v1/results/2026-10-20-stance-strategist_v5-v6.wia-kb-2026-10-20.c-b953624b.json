@@ -1,0 +1,465 @@
+{
+  "golden": "research/golden-scenes/benchmark-v1-scenes.json",
+  "label": ".wia-kb-2026-10-20.c-b953624b",
+  "stances": {
+    "g07": {
+      "stance": "Whitney's stance: reviews are not market research",
+      "claim": [
+        [
+          "market research"
+        ],
+        [
+          "review"
+        ]
+      ]
+    },
+    "g09": {
+      "stance": "the strategist's checkpoint: judge the campaign at about 100 clicks",
+      "claim": [
+        [
+          "100 clicks",
+          "100 click",
+          "hundred clicks"
+        ]
+      ]
+    }
+  },
+  "configs": {
+    "strategist_v5": {
+      "week1": {
+        "summary": {
+          "samples": 3,
+          "samples_with_attract": 1,
+          "template_titles": "9 of 11"
+        },
+        "samples": [
+          {
+            "sample": 1,
+            "cards": 4,
+            "attract_cards": 0,
+            "template_titles": 4,
+            "pillars": [
+              "WARM",
+              "WARM",
+              "CONVERT",
+              "WARM"
+            ],
+            "scenes": {}
+          },
+          {
+            "sample": 2,
+            "cards": 3,
+            "attract_cards": 1,
+            "template_titles": 2,
+            "pillars": [
+              "CONVERT",
+              "WARM",
+              "ATTRACT"
+            ],
+            "scenes": {}
+          },
+          {
+            "sample": 3,
+            "cards": 4,
+            "attract_cards": 0,
+            "template_titles": 3,
+            "pillars": [
+              "CONVERT",
+              "WARM",
+              "WARM",
+              "WARM"
+            ],
+            "scenes": {}
+          }
+        ],
+        "missing": []
+      },
+      "week2": {
+        "summary": {
+          "samples": 3,
+          "samples_with_attract": 1,
+          "template_titles": "9 of 12",
+          "g07_survives_in_samples": 0,
+          "g09_survives_in_samples": 0
+        },
+        "samples": [
+          {
+            "sample": 1,
+            "cards": 4,
+            "attract_cards": 1,
+            "template_titles": 3,
+            "pillars": [
+              "WARM",
+              "CONVERT",
+              "ATTRACT",
+              "WARM"
+            ],
+            "scenes": {
+              "g07": {
+                "moment_id": "w2_m1_buying_research",
+                "cards": [
+                  {
+                    "rank": 3,
+                    "title": "A glowing review tells us something different from a booking survey",
+                    "pillar": "ATTRACT",
+                    "claim_present": false,
+                    "credited": true,
+                    "speaker": "Whitney Hodges",
+                    "blocking_flags": [],
+                    "survives": false
+                  }
+                ],
+                "survives": false
+              },
+              "g09": {
+                "moment_id": "w2_m3_clicks_no_conversions",
+                "cards": [
+                  {
+                    "rank": 2,
+                    "title": "We build your Google campaign, then help you make the next decision",
+                    "pillar": "CONVERT",
+                    "claim_present": false,
+                    "credited": true,
+                    "speaker": "Carmen Cruickshank",
+                    "blocking_flags": [],
+                    "survives": false
+                  }
+                ],
+                "survives": false
+              }
+            }
+          },
+          {
+            "sample": 2,
+            "cards": 4,
+            "attract_cards": 0,
+            "template_titles": 3,
+            "pillars": [
+              "WARM",
+              "CONVERT",
+              "WARM",
+              "WARM"
+            ],
+            "scenes": {
+              "g07": {
+                "moment_id": "w2_m1_buying_research",
+                "cards": [
+                  {
+                    "rank": 1,
+                    "title": "Why we want to hear from couples right after they book",
+                    "pillar": "WARM",
+                    "claim_present": false,
+                    "credited": true,
+                    "speaker": "Whitney Hodges",
+                    "blocking_flags": [],
+                    "survives": false
+                  }
+                ],
+                "survives": false
+              },
+              "g09": {
+                "moment_id": "w2_m3_clicks_no_conversions",
+                "cards": [
+                  {
+                    "rank": 2,
+                    "title": "The kind of Google Ads guidance you get after we launch",
+                    "pillar": "CONVERT",
+                    "claim_present": false,
+                    "credited": true,
+                    "speaker": "Carmen Cruickshank",
+                    "blocking_flags": [],
+                    "survives": false
+                  }
+                ],
+                "survives": false
+              }
+            }
+          },
+          {
+            "sample": 3,
+            "cards": 4,
+            "attract_cards": 0,
+            "template_titles": 3,
+            "pillars": [
+              "WARM",
+              "CONVERT",
+              "WARM",
+              "WARM"
+            ],
+            "scenes": {
+              "g07": {
+                "moment_id": "w2_m1_buying_research",
+                "cards": [
+                  {
+                    "rank": 1,
+                    "title": "What we want to learn from a couple who just booked you",
+                    "pillar": "WARM",
+                    "claim_present": false,
+                    "credited": true,
+                    "speaker": "Whitney Hodges",
+                    "blocking_flags": [],
+                    "survives": false
+                  }
+                ],
+                "survives": false
+              },
+              "g09": {
+                "moment_id": "w2_m3_clicks_no_conversions",
+                "cards": [
+                  {
+                    "rank": 2,
+                    "title": "The decisions we help you make after your venue's Google campaign launches",
+                    "pillar": "CONVERT",
+                    "claim_present": false,
+                    "credited": true,
+                    "speaker": "Carmen Cruickshank",
+                    "blocking_flags": [],
+                    "survives": false
+                  }
+                ],
+                "survives": false
+              }
+            }
+          }
+        ],
+        "missing": []
+      }
+    },
+    "strategist_v6": {
+      "week1": {
+        "summary": {
+          "samples": 3,
+          "samples_with_attract": 3,
+          "template_titles": "0 of 13"
+        },
+        "samples": [
+          {
+            "sample": 1,
+            "cards": 5,
+            "attract_cards": 1,
+            "template_titles": 0,
+            "pillars": [
+              "CONVERT",
+              "ATTRACT",
+              "WARM",
+              "WARM",
+              "WARM"
+            ],
+            "scenes": {}
+          },
+          {
+            "sample": 2,
+            "cards": 4,
+            "attract_cards": 1,
+            "template_titles": 0,
+            "pillars": [
+              "WARM",
+              "ATTRACT",
+              "CONVERT",
+              "WARM"
+            ],
+            "scenes": {}
+          },
+          {
+            "sample": 3,
+            "cards": 4,
+            "attract_cards": 1,
+            "template_titles": 0,
+            "pillars": [
+              "CONVERT",
+              "WARM",
+              "ATTRACT",
+              "WARM"
+            ],
+            "scenes": {}
+          }
+        ],
+        "missing": []
+      },
+      "week2": {
+        "summary": {
+          "samples": 3,
+          "samples_with_attract": 3,
+          "template_titles": "0 of 16",
+          "g07_survives_in_samples": 3,
+          "g09_survives_in_samples": 3
+        },
+        "samples": [
+          {
+            "sample": 1,
+            "cards": 5,
+            "attract_cards": 1,
+            "template_titles": 0,
+            "pillars": [
+              "WARM",
+              "ATTRACT",
+              "CONVERT",
+              "WARM",
+              "WARM"
+            ],
+            "scenes": {
+              "g07": {
+                "moment_id": "w2_m1_buying_research",
+                "cards": [
+                  {
+                    "rank": 2,
+                    "title": "Reviews aren't market research.",
+                    "pillar": "ATTRACT",
+                    "claim_present": true,
+                    "credited": true,
+                    "speaker": "Whitney Hodges",
+                    "blocking_flags": [],
+                    "survives": true
+                  }
+                ],
+                "survives": true
+              },
+              "g09": {
+                "moment_id": "w2_m3_clicks_no_conversions",
+                "cards": [
+                  {
+                    "rank": 3,
+                    "title": "You can run your ads and still have a team beside you.",
+                    "pillar": "CONVERT",
+                    "claim_present": false,
+                    "credited": true,
+                    "speaker": "Carmen Cruickshank",
+                    "blocking_flags": [],
+                    "survives": false
+                  },
+                  {
+                    "rank": 4,
+                    "title": "A venue campaign needs more than a promising click-through rate.",
+                    "pillar": "WARM",
+                    "claim_present": true,
+                    "credited": true,
+                    "speaker": "Carmen Cruickshank",
+                    "blocking_flags": [],
+                    "survives": true
+                  }
+                ],
+                "survives": true
+              }
+            }
+          },
+          {
+            "sample": 2,
+            "cards": 5,
+            "attract_cards": 1,
+            "template_titles": 0,
+            "pillars": [
+              "ATTRACT",
+              "WARM",
+              "CONVERT",
+              "WARM",
+              "WARM"
+            ],
+            "scenes": {
+              "g07": {
+                "moment_id": "w2_m1_buying_research",
+                "cards": [
+                  {
+                    "rank": 1,
+                    "title": "Reviews are not market research",
+                    "pillar": "ATTRACT",
+                    "claim_present": true,
+                    "credited": true,
+                    "speaker": "Whitney Hodges",
+                    "blocking_flags": [],
+                    "survives": true
+                  }
+                ],
+                "survives": true
+              },
+              "g09": {
+                "moment_id": "w2_m3_clicks_no_conversions",
+                "cards": [
+                  {
+                    "rank": 3,
+                    "title": "Owning your Google ads can still be a team effort",
+                    "pillar": "CONVERT",
+                    "claim_present": false,
+                    "credited": true,
+                    "speaker": "Carmen Cruickshank",
+                    "blocking_flags": [],
+                    "survives": false
+                  },
+                  {
+                    "rank": 4,
+                    "title": "A new Google campaign deserves a little breathing room",
+                    "pillar": "WARM",
+                    "claim_present": true,
+                    "credited": true,
+                    "speaker": "Carmen Cruickshank",
+                    "blocking_flags": [],
+                    "survives": true
+                  }
+                ],
+                "survives": true
+              }
+            }
+          },
+          {
+            "sample": 3,
+            "cards": 6,
+            "attract_cards": 1,
+            "template_titles": 0,
+            "pillars": [
+              "ATTRACT",
+              "WARM",
+              "CONVERT",
+              "WARM",
+              "WARM",
+              "WARM"
+            ],
+            "scenes": {
+              "g07": {
+                "moment_id": "w2_m1_buying_research",
+                "cards": [
+                  {
+                    "rank": 1,
+                    "title": "Reviews aren't market research",
+                    "pillar": "ATTRACT",
+                    "claim_present": true,
+                    "credited": true,
+                    "speaker": "Whitney Hodges",
+                    "blocking_flags": [],
+                    "survives": true
+                  }
+                ],
+                "survives": true
+              },
+              "g09": {
+                "moment_id": "w2_m3_clicks_no_conversions",
+                "cards": [
+                  {
+                    "rank": 3,
+                    "title": "Your Google ads questions have a team behind them",
+                    "pillar": "CONVERT",
+                    "claim_present": false,
+                    "credited": true,
+                    "speaker": "Carmen Cruickshank",
+                    "blocking_flags": [],
+                    "survives": false
+                  },
+                  {
+                    "rank": 5,
+                    "title": "A promising campaign deserves time to answer the question",
+                    "pillar": "WARM",
+                    "claim_present": true,
+                    "credited": true,
+                    "speaker": "Carmen Cruickshank",
+                    "blocking_flags": [],
+                    "survives": true
+                  }
+                ],
+                "survives": true
+              }
+            }
+          }
+        ],
+        "missing": []
+      }
+    }
+  }
+}

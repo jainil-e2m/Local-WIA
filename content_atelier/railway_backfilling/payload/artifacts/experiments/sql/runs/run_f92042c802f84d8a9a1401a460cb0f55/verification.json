@@ -1,0 +1,75 @@
+{
+  "run_id": "run_f92042c802f84d8a9a1401a460cb0f55",
+  "status": "completed",
+  "week2_status": "comparison_review",
+  "verified_vectors": [
+    {
+      "id": "angle_62fdf81e47a0c62d15a960d0",
+      "title": "A later tour does not always mean the venue should offer more hours",
+      "quality": 100.0,
+      "maximum_cosine": 0.635598362727935,
+      "history_checked": 6,
+      "dimensions": 1536,
+      "returned_embedding_model": "text-embedding-3-small"
+    },
+    {
+      "id": "angle_7105aba8e326f02e56211c3f",
+      "title": "A review describes the experience; buyer research asks what shaped the choice",
+      "quality": 100.0,
+      "maximum_cosine": 0.6107990290920926,
+      "history_checked": 6,
+      "dimensions": 1536,
+      "returned_embedding_model": "text-embedding-3-small"
+    },
+    {
+      "id": "angle_7c73eebf6cca3612458cd575",
+      "title": "A lower ad budget can still be a test, not a retreat",
+      "quality": 100.0,
+      "maximum_cosine": 0.560234635227445,
+      "history_checked": 6,
+      "dimensions": 1536,
+      "returned_embedding_model": "text-embedding-3-small"
+    },
+    {
+      "id": "angle_9a991eee30eae5e82fdee3d9",
+      "title": "An opened email is not the same signal as a clicked one",
+      "quality": 90.0,
+      "maximum_cosine": 0.6030721786679832,
+      "history_checked": 6,
+      "dimensions": 1536,
+      "returned_embedding_model": "text-embedding-3-small"
+    },
+    {
+      "id": "angle_9c2bc831fb61f8d994d439fc",
+      "title": "Review the campaign that is spending, not just the account total",
+      "quality": 100.0,
+      "maximum_cosine": 0.6058861694974875,
+      "history_checked": 6,
+      "dimensions": 1536,
+      "returned_embedding_model": "text-embedding-3-small"
+    },
+    {
+      "id": "angle_a19e2181f0c27e33e4b1fe9f",
+      "title": "Self-service can handle routine fit questions without removing the human part",
+      "quality": 100.0,
+      "maximum_cosine": 0.5950799340530138,
+      "history_checked": 6,
+      "dimensions": 1536,
+      "returned_embedding_model": "text-embedding-3-small"
+    }
+  ],
+  "all_stages_completed": true,
+  "gate_one_approval_denied": true,
+  "live_refinement_exercised": false,
+  "refinement_skip_reason": "No baseline-quality or historical-overlap targets",
+  "citation_recovery": {
+    "assertions": 18,
+    "extra_generation_calls": 0,
+    "original_response_preserved": true
+  },
+  "persistent_switches": {
+    "generation": false,
+    "encoding": false,
+    "refinement": false
+  }
+}

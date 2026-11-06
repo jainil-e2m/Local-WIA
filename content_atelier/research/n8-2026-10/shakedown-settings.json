@@ -1,0 +1,41 @@
+{
+ "purpose": "Phase N8's free-model shakedown on scratch copy C (atelier_np_c, production's dump of 25 October 07:34 UTC): deploy/shakedown-settings.json with N8's candidate profiles (strategist v8, scene profile v4, writer v5.2) and internal meetings included as team practice (D24). Never applied to production.",
+ "recorded": "2026-10-25",
+ "recorded_by": "kenil.shah@e2m.solutions (D12 delegation)",
+ "settings": {
+  "prompts.profile.strategist": "2026-10-25.wia-strategist.v8",
+  "prompts.profile.card_verification": "card-verification.v4",
+  "prompts.profile.extraction": "2026-10-25.scenes.v4",
+  "moments.extraction_profile": "2026-10-25.scenes.v4",
+  "prompts.profile.brief": "brief_document_v4",
+  "prompts.profile.brief_writer": "v5.2",
+  "models.default": "nvidia/nemotron-3.5-super-vl:free",
+  "models.moment_extraction": "nvidia/nemotron-3.5-super-vl:free",
+  "models.angle_generation": "nvidia/nemotron-3.5-super-vl:free",
+  "models.card_verification": "dots-studio/dots-3-note-preview:free",
+  "models.context_mining": "dots-studio/dots-3-note-preview:free",
+  "models.document_classification": "dots-studio/dots-3-note-preview:free",
+  "models.brief": "nvidia/nemotron-3.5-super-vl:free",
+  "models.brief_review": "dots-studio/dots-3-note-preview:free",
+  "models.completion_tokens": 16000,
+  "models.completion_tokens.moment_extraction": 32000,
+  "features.briefs": true,
+  "features.context": true,
+  "context.schedule.mining_live": true,
+  "features.packs": true,
+  "models.pack_writer": "nvidia/nemotron-3.5-super-vl:free",
+  "models.pack_review": "dots-studio/dots-3-note-preview:free",
+  "prompts.profile.pack_finish": "2026-10-25.pack-finish.v2",
+  "prompts.profile.pack_check": "2026-10-25.pack-check.v2",
+  "prompts.profile.pack_repair": "2026-10-25.pack-repair.v1",
+  "packs.finish_mode": "finish",
+  "documents.included_call_types": [
+   "client_1to1",
+   "office_hours",
+   "workshop",
+   "prospect",
+   "slack_thread",
+   "internal"
+  ]
+ }
+}

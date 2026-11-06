@@ -1,0 +1,120 @@
+# The local stack (plan 0.B12): one API, one environment file, and every process the platform runs in production.
+#
+#   docker compose up -d --build        (from backend/; Docker Desktop is enough on Windows)
+#   docker compose logs -f editorial-worker scheduler
+#
+# Postgres (pgvector), Redis, the schema migration, the API, the scheduler, the editorial worker (queues interactive,
+# default and bulk), the intake worker and the media worker. They share the artifact store with host tools: it is the
+# folder ./.storage-artifacts on the host, so `python -m backend_pipeline.storage_cli ...` run from a terminal reads and
+# writes the same files and the same database (127.0.0.1:15432) as the containers.
+#
+# Configuration is one file, backend/.env (copy .env.example). The older .env.storage.local and .env.intake.local are
+# still read when they exist, after .env, so an existing setup keeps working. The database, Redis and artifact paths
+# below are the stack's own and override the file inside the containers. Paid calls stay closed until the
+# ATELIER_ALLOW_* catches are set in the file and a run plan is active (DEPLOYMENT.md).
+name: content-atelier-storage
+
+x-backend: &backend
+  build: .
+  image: content-atelier-backend:local
+  env_file:
+    - path: .env
+      required: false
+    - path: .env.storage.local
+      required: false
+    - path: .env.intake.local
+      required: false
+  environment: &environment
+    ATELIER_DATABASE_URL: postgresql://atelier:atelier_local_only@postgres:5432/atelier
+    ATELIER_REDIS_URL: redis://redis:6379/0
+    ATELIER_ARTIFACT_ROOT: /artifacts
+    TZ: America/Chicago
+    HF_HOME: /models
+  volumes:
+    - ${ATELIER_ARTIFACTS_DIR:-./.storage-artifacts}:/artifacts
+    - models:/models
+    # The knowledge base the strategist and brief writer load (code default /app/knowledge_base).
+    - ./knowledge_base:/app/knowledge_base:ro
+  restart: unless-stopped
+  init: true
+
+x-needs-the-schema: &needs-the-schema
+  depends_on:
+    migrate:
+      condition: service_completed_successfully
+    redis:
+      condition: service_healthy
+
+services:
+  postgres:
+    image: pgvector/pgvector:0.8.2-pg17@sha256:feb68f4f15446397d8cac7f4fe48fe4586de83160d1fc48b46283312d1a33966
+    ports:
+      - "127.0.0.1:15432:5432"
+    environment:
+      POSTGRES_USER: atelier
+      POSTGRES_PASSWORD: atelier_local_only
+      POSTGRES_DB: atelier
+    volumes:
+      - atelier_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U atelier -d atelier"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+
+  redis:
+    image: redis:7.4-alpine
+    command: [redis-server, --appendonly, "yes"]
+    ports:
+      - "127.0.0.1:16379:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: [CMD, redis-cli, ping]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+
+  migrate:
+    <<: *backend
+    command: [python, -m, backend_pipeline.storage_cli, migrate]
+    restart: "no"
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  api:
+    <<: [*backend, *needs-the-schema]
+    ports:
+      - "127.0.0.1:18081:8000"
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=3)"]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+      start_period: 20s
+
+  scheduler:
+    <<: [*backend, *needs-the-schema]
+    command: [python, -m, backend_pipeline.jobs, scheduler]
+
+  editorial-worker:
+    <<: [*backend, *needs-the-schema]
+    command: [python, -m, backend_pipeline.jobs, worker, --queues, "interactive,default,bulk"]
+
+  intake-worker:
+    <<: [*backend, *needs-the-schema]
+    command: [python, -m, backend_pipeline.jobs, worker, --queues, intake]
+
+  media-worker:
+    <<: [*backend, *needs-the-schema]
+    command: [python, -m, backend_pipeline.jobs, worker, --queues, media]
+    cpus: 2
+    mem_limit: 4g
+
+volumes:
+  atelier_data:
+  redis_data:
+  models:

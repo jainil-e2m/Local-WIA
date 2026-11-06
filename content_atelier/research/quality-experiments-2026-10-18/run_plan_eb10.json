@@ -1,0 +1,23 @@
+{
+  "plan_id": "plan_0c8e0998817e435d9dc7",
+  "purpose": "E.B10 evidence: verification model pass over the six 18 October outputs the judges reviewed",
+  "stages": [
+    "evaluation"
+  ],
+  "models": [
+    "openai/gpt-6.1-sol",
+    "anthropic/claude-sonnet-5.5"
+  ],
+  "input_set_hash": "sha256:1af182cb61ba34b9757cb29203b75bcb44c2bd78fb50bcc71dfa17f6974f275d",
+  "max_calls": 8,
+  "max_cost_usd": 0.8,
+  "approver": "kenil.shah@e2m.solutions",
+  "approved_at": "2026-10-18T07:09:35.650281+00:00",
+  "expires_at": "2026-10-18T13:09:35.650281+00:00",
+  "status": "closed",
+  "calls_used": 6,
+  "cost_used_usd": 0.3779088,
+  "details": {},
+  "closed_reason": "E.B10 model pass finished: 6 calls",
+  "closed_at": "2026-10-18T07:16:30.329220+00:00"
+}

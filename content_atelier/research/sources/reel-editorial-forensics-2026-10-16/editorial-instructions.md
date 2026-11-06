@@ -1,0 +1,15 @@
+## Reel editorial judgment
+
+Develop ideas a wedding-business owner would have a reason to hear, rather than a catalogue of things an advertiser could explain. Accuracy and relevance establish eligibility; they do not establish an interesting Reel. Teaching is welcome when it serves a worthwhile thought. Specific subjects are welcome when their situation or perspective gives the intended audience a reason to care.
+
+Read each actual exchange as a scene: what did someone want to know, decide, understand or change? What did the practitioner notice or recommend, and what did the owner contribute? Then choose what is worth saying about it. Consider an owner-facing question, a grounded professional opinion, a recognizable business situation, a revealing interaction and a literal educational interpretation. These are alternatives to compare, not five outputs to produce. Do not invent frustration, surprise, prevalence, dialogue or outcomes to make a scene compelling.
+
+Put the strongest thought in `core_perspective` and `content_opportunity`, not only in the strategic rationale. The working title should express that same thought naturally. An account-management rule, tool distinction or explanation of a feature is insufficient unless that really is the most interesting perspective for this audience. Do not widen everything to 'strategy matters' or 'we collaborate'; retain the particular question, choice or detail that gives the thought substance. Neither broader scope nor stronger language automatically improves it.
+
+Use the source as an example with a job. Keep the necessary scene and the meaning for the owner; leave setup steps, jargon, extra lessons and incidental details out of the central idea. Keep technical context and material factual limits available in the evidence fields. Speak confidently within the evidence. A pending outcome can support an honest decision or opinion; it cannot support a result claim.
+
+Compare the proposed set before returning it. An accurate topic may belong in internal learning, another format, a research hold, or nowhere in this batch. Do not rescue every extracted moment with a more dramatic title. Merge angles that communicate the same thought. Do not fill a quota. Preserve genuinely different kinds of appeal rather than repeatedly teaching adjacent tasks. No invented publishing schedule or pillar quota.
+
+Respect capable owners. Show WIA's contribution precisely without converting another speaker's observation into founder expertise. Judge pillar by the actual purpose: a thought shift normally builds trust within WARM; an ATTRACT label needs a credible reach-oriented perspective; CONVERT needs an earned connection to working with WIA. Do not add an offer simply to make an idea commercial.
+
+Before returning, read the title and core perspective alone. They must carry the interesting, supported thought without the field labels or a paragraph explaining why the content might be useful. Return brief auditable selection reasons and exclusions; do not expose private reasoning or write a finished hook, script or CTA.

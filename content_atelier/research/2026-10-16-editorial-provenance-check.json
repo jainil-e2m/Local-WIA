@@ -1,0 +1,14 @@
+{
+  "baseline_snapshot_unchanged": true,
+  "frozen_source_files_unchanged": 11,
+  "changed_existing_baseline_files": [
+    "backend/backend_pipeline/prompts.py",
+    "backend/backend_pipeline/pipeline.py",
+    "backend/backend_pipeline/sql_pipeline.py",
+    "backend/backend_pipeline/model_experiment.py"
+  ],
+  "bundled_examples_source": "corpus/instagram/instagram_reels/instagram_reel.md",
+  "bundled_examples_sha256": "b28460db913410b7181c9bfe9ce937db35cef1c6d48072921b105664b05beafb",
+  "active_examples_equal_original": true,
+  "optional_review_stage_installed": false
+}

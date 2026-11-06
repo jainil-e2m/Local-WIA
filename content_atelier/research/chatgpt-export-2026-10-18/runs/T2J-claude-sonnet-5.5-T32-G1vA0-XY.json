@@ -1,0 +1,28 @@
+{
+ "meta": {
+  "run_id": "T2J-claude-sonnet-5.5-T32-G1vA0-XY",
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 1116,
+  "completion_tokens": 599,
+  "cached_tokens": 0,
+  "cost": 0.008222,
+  "seconds": 6.5,
+  "finish": "stop",
+  "system_sha": "5374112cdde3",
+  "user_sha": "72d1812e56d7"
+ },
+ "output": {
+  "winner": "A",
+  "edits_needed_A": "some",
+  "edits_needed_B": "many",
+  "reason": "A is a complete email whose premise, strong planners with good work who want more reliable growth, is close to Whitney's 'amplify what's already working' angle. It only needs the ads and amplification point added. B is a single line that frames planners as struggling to communicate their value, which contradicts her positioning, never mentions ads or scale, and leaves the rest of the email unwritten."
+ },
+ "content": null,
+ "request": {
+  "system": "You compare two draft pieces of marketing copy for Wedding Industry Ads (WIA), a wedding-industry advertising agency. You are given the request, the version WIA's co-founder Whitney actually approved or wrote (the reference), and two candidate drafts. Decide which candidate would need fewer and smaller edits to become something Whitney would approve. Judge substance first (what is claimed, for whom, how WIA is positioned, accuracy, whether her own wording was kept where she supplied it), then voice. Do not reward length, and do not require the candidate to copy the reference wording.\n\nReturn only JSON: {\"winner\": \"A\" or \"B\" or \"tie\", \"edits_needed_A\": \"few\", \"edits_needed_B\": \"many\", \"reason\": \"one or two sentences\"} where edits_needed values are none, few, some or many.",
+  "user": "Request:\nI need another email for the morning of my session. Here's a template the summit host provided, but it's pretty generic\n\nSuggested subject line: Join me today to learn about [presentation topic]\n\nAlt Subject line: My session is live — here’s why it matters\n\n \n\nHey [Name],\n\nI wanted to personally let you know that my session for the 2026 Planners Workshop is now available.\n\nI’m teaching [SESSION TITLE], and I created it because I keep seeing planners struggle with [INSERT PROBLEM YOU SEE OFTEN].\n\nIn this session, we’ll cover:\n\n[Talking point 1]\n\n\n\n\n\n[Talking point 2]\n\n\n\n\n\n[Talking point 3]\n\n\n\n\n\nMy goal is simple: to help you [INSERT CLEAR OUTCOME] so you can book better weddings and feel more confident doing it.\n\nIf you haven’t registered yet, you can still grab a free ticket here:\n\n [YOUR AFFILIATE LINK]\n\nI’d love for you to watch it,\n\n [Your name]\n\nReference (what Whitney approved):\nI created this session for planners who are ready to amplify what’s already working in their business.\n\nWhen your marketing foundations are dialed in, ads become a strategic way to expand reach, reinforce positioning, and attract more aligned clients at scale.\n\nCandidate A:\nSubject: A strong reputation. An unpredictable inbox.\n\nHey [Name],\n\nYou can be an excellent planner, deliver a thoughtful client experience, and have a portfolio you’re proud of—and still wonder where your next inquiry is coming from.\n\nThat doesn’t mean you need to work harder at being visible.\n\nIt may mean your marketing needs a clearer strategy, not more of your time.\n\nWhen referrals and Instagram do most of the heavy lifting, it’s easy to feel like every quiet week requires you to do something more. Post more. Network more. Find another way to stay in front of people.\n\nBut the goal isn’t to give yourself another marketing job. It’s to build a business that keeps creating opportunities while you’re taking care of your couples.\n\nIf that’s the kind of growth you’re thinking about, I’d love for you to join me today.\n\nMy session, **[SESSION TITLE]**, is now available inside the **2026 Planners Workshop**.\n\nYou can still register for free and watch here:\n\n**[Grab your free ticket → YOUR AFFILIATE LINK]**\n\nHope to see you there,\n\nWhitney\n\nCandidate B:\nI created this session because I keep seeing incredibly talented planners struggle to clearly communicate their value — especially as their work becomes more complex and higher-level.",
+  "cache_prefix_sha": "5374112cdde3"
+ }
+}

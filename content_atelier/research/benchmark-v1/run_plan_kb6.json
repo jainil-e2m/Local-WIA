@@ -1,0 +1,20 @@
+{
+  "plan_id": "plan_3ac42b23f2fa4f74b03d",
+  "purpose": "E.B11/E.B3: identity smoke run of knowledge base version 6 (wia-kb-2026-10-20.c-886de379) against version 5's recorded result on benchmark v1, strategist v5, three samples a week",
+  "stages": [
+    "evaluation"
+  ],
+  "models": [
+    "openai/gpt-6.1-sol"
+  ],
+  "input_set_hash": "*",
+  "max_calls": 8,
+  "max_cost_usd": 0.9,
+  "approver": "kenil.shah@e2m.solutions",
+  "approved_at": "2026-10-19T17:41:54.517016+00:00",
+  "expires_at": "2026-10-19T23:41:54.517016+00:00",
+  "status": "active",
+  "calls_used": 7,
+  "cost_used_usd": 0.7646409,
+  "details": {}
+}

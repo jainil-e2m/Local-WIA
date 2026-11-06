@@ -1,0 +1,492 @@
+[
+  {
+    "brief_id": "brief_2ff7b35b7ad9cc0e3493bc82",
+    "angle_id": "angle_1d20dd133d5492c950608290",
+    "week_id": "week_2026-06-08",
+    "schema_version": "brief_document_v1",
+    "findings_now": [
+      {
+        "severity": "blocking",
+        "claim_id": "C1",
+        "message": "Claim status must be one of: reported, measured, estimated, planned, hypothetical, inferred"
+      },
+      {
+        "severity": "blocking",
+        "claim_id": "C2",
+        "message": "Claim status must be one of: reported, measured, estimated, planned, hypothetical, inferred"
+      },
+      {
+        "severity": "blocking",
+        "claim_id": "C3",
+        "message": "Claim status must be one of: reported, measured, estimated, planned, hypothetical, inferred"
+      },
+      {
+        "severity": "blocking",
+        "claim_id": "C4",
+        "message": "Claim status must be one of: reported, measured, estimated, planned, hypothetical, inferred"
+      },
+      {
+        "severity": "blocking",
+        "claim_id": "C5",
+        "message": "Claim status must be one of: reported, measured, estimated, planned, hypothetical, inferred"
+      },
+      {
+        "severity": "blocking",
+        "claim_id": "C6",
+        "message": "Claim status must be one of: reported, measured, estimated, planned, hypothetical, inferred"
+      },
+      {
+        "severity": "blocking",
+        "claim_id": "C7",
+        "message": "Claim status must be one of: reported, measured, estimated, planned, hypothetical, inferred"
+      },
+      {
+        "severity": "blocking",
+        "claim_id": null,
+        "message": "Unresolved consent requirements must be cleared and reviewed before approval"
+      },
+      {
+        "severity": "blocking",
+        "claim_id": "C1",
+        "message": "Source qualifications were lost"
+      },
+      {
+        "severity": "blocking",
+        "claim_id": "C4",
+        "message": "Source qualifications were lost"
+      },
+      {
+        "severity": "warning",
+        "claim_id": null,
+        "message": "Prior differences for unsupplied angle IDs are ignored: exemplar_buyer_stage, exemplar_human_automation, knowledge_base_buying_research_email"
+      },
+      {
+        "severity": "warning",
+        "claim_id": null,
+        "message": "Legacy publication coverage is incomplete; this is an admitted-archive review."
+      }
+    ],
+    "recorded_then": [
+      {
+        "message": "Unresolved consent requirements must be cleared and reviewed before approval",
+        "claim_id": null,
+        "severity": "blocking"
+      },
+      {
+        "message": "Source qualifications were lost",
+        "claim_id": "C1",
+        "severity": "blocking"
+      },
+      {
+        "message": "Claim status exceeds the source status",
+        "claim_id": "C1",
+        "severity": "blocking"
+      },
+      {
+        "message": "Source qualifications were lost",
+        "claim_id": "C2",
+        "severity": "blocking"
+      },
+      {
+        "message": "Claim status exceeds the source status",
+        "claim_id": "C2",
+        "severity": "blocking"
+      },
+      {
+        "message": "Source qualifications were lost",
+        "claim_id": "C4",
+        "severity": "blocking"
+      },
+      {
+        "message": "Claim status exceeds the source status",
+        "claim_id": "C4",
+        "severity": "blocking"
+      },
+      {
+        "message": "Prior coverage differences must cover each supplied historical argument",
+        "claim_id": null,
+        "severity": "blocking"
+      },
+      {
+        "message": "Numerical prose requires a structured source-bound claim; format numbering is supplied separately",
+        "claim_id": null,
+        "severity": "blocking"
+      },
+      {
+        "message": "Legacy publication coverage is incomplete; this is an admitted-archive review.",
+        "claim_id": null,
+        "severity": "warning"
+      },
+      {
+        "message": "The transcript-labelled report is represented with appropriate qualification, but the source has public_use=false, unknown sensitivity, and unverified attribution. The brief correctly makes anonymous paraphrase conditional on clearance; that clearance is unresolved, so this source-grounded public treatment is not cleared for approval or distribution.",
+        "claim_id": "C1",
+        "severity": "blocking",
+        "evidence_ids": [
+          "ev_3476592e997f9c7081a2947f",
+          "ev_90c2235d079789a7cb7c5240"
+        ]
+      },
+      {
+        "message": "The workflow is consistently framed as proposed rather than implemented or currently offered, and client sending/tagging responsibility is retained. However, the supporting passages have public_use=false, unknown sensitivity, and unverified attribution. Anonymous public paraphrase still requires clearance, which remains unresolved.",
+        "claim_id": "C2",
+        "severity": "blocking",
+        "evidence_ids": [
+          "ev_9185f6bf7790302604c100b2",
+          "ev_429599bb6358fc421993c3c1",
+          "ev_c611a1a7603324c6c599ddcb"
+        ]
+      },
+      {
+        "message": "The inference is appropriately bounded: reviews may include choice context, and the proposed survey does not establish answers or marketing effects. Public treatment based on the cited internal discussion remains subject to unresolved reuse clearance.",
+        "claim_id": "C3",
+        "severity": "blocking",
+        "evidence_ids": [
+          "ev_3476592e997f9c7081a2947f",
+          "ev_45915a800c5c8a90cafb5187",
+          "ev_9185f6bf7790302604c100b2",
+          "ev_c611a1a7603324c6c599ddcb"
+        ]
+      },
+      {
+        "message": "The brief correctly treats agreement as neither validation nor evidence of implementation or demand. Any public paraphrase of this internal discussion remains uncleared; the required reuse review is unanswered.",
+        "claim_id": "C4",
+        "severity": "blocking",
+        "evidence_ids": [
+          "ev_9b07f1e5250eb7275b49a6aa"
+        ]
+      },
+      {
+        "message": "The audience pain is explicitly labelled an editorial hypothesis and presented as a possibility, not a measured or universal audience finding.",
+        "claim_id": "C5",
+        "severity": "warning",
+        "evidence_ids": [
+          "ev_90c2235d079789a7cb7c5240",
+          "ev_45915a800c5c8a90cafb5187"
+        ]
+      },
+      {
+        "message": "The comparison correctly admits incomplete legacy publication coverage and distinguishes pending/generated/approved/scheduled/published states; it does not claim comprehensive distinctness or novelty. The closest prior angle has pending approval and no listed publications, while the historical buying-research email is exemplar material, not evidence of this treatment being published. Consolidation/refresh remains unresolved before scheduling.",
+        "claim_id": "C6",
+        "severity": "warning",
+        "evidence_ids": []
+      },
+      {
+        "message": "The exact approved CTA text is retained without an alternative offer or silent rewrite. However, the brief itself makes publication conditional on verifying current commercial scope and the DM destination, and Q2 is unanswered. Preserve the CTA wording, but do not publish until those checks are resolved.",
+        "claim_id": "C7",
+        "severity": "blocking",
+        "evidence_ids": []
+      },
+      {
+        "message": "Meaningful historical differentiation remains unresolved",
+        "claim_id": null,
+        "severity": "blocking"
+      }
+    ],
+    "gone_since": [
+      {
+        "severity": "blocking",
+        "claim_id": "C1",
+        "message": "Claim status exceeds the source status"
+      },
+      {
+        "severity": "blocking",
+        "claim_id": "C1",
+        "message": "The transcript-labelled report is represented with appropriate qualification, but the source has public_use=false, unknown sensitivity, and unverified attribution. The brief correctly makes anonymous paraphrase conditional on clearance; that clearance is unresolved, so this source-grounded public treatment is not cleared for approval or distribution."
+      },
+      {
+        "severity": "blocking",
+        "claim_id": "C2",
+        "message": "Claim status exceeds the source status"
+      },
+      {
+        "severity": "blocking",
+        "claim_id": "C2",
+        "message": "Source qualifications were lost"
+      },
+      {
+        "severity": "blocking",
+        "claim_id": "C2",
+        "message": "The workflow is consistently framed as proposed rather than implemented or currently offered, and client sending/tagging responsibility is retained. However, the supporting passages have public_use=false, unknown sensitivity, and unverified attribution. Anonymous public paraphrase still requires clearance, which remains unresolved."
+      },
+      {
+        "severity": "blocking",
+        "claim_id": "C3",
+        "message": "The inference is appropriately bounded: reviews may include choice context, and the proposed survey does not establish answers or marketing effects. Public treatment based on the cited internal discussion remains subject to unresolved reuse clearance."
+      },
+      {
+        "severity": "blocking",
+        "claim_id": "C4",
+        "message": "Claim status exceeds the source status"
+      },
+      {
+        "severity": "blocking",
+        "claim_id": "C4",
+        "message": "The brief correctly treats agreement as neither validation nor evidence of implementation or demand. Any public paraphrase of this internal discussion remains uncleared; the required reuse review is unanswered."
+      },
+      {
+        "severity": "blocking",
+        "claim_id": "C7",
+        "message": "The exact approved CTA text is retained without an alternative offer or silent rewrite. However, the brief itself makes publication conditional on verifying current commercial scope and the DM destination, and Q2 is unanswered. Preserve the CTA wording, but do not publish until those checks are resolved."
+      },
+      {
+        "severity": "blocking",
+        "claim_id": null,
+        "message": "Meaningful historical differentiation remains unresolved"
+      },
+      {
+        "severity": "blocking",
+        "claim_id": null,
+        "message": "Numerical prose requires a structured source-bound claim; format numbering is supplied separately"
+      },
+      {
+        "severity": "blocking",
+        "claim_id": null,
+        "message": "Prior coverage differences must cover each supplied historical argument"
+      },
+      {
+        "severity": "warning",
+        "claim_id": "C5",
+        "message": "The audience pain is explicitly labelled an editorial hypothesis and presented as a possibility, not a measured or universal audience finding."
+      },
+      {
+        "severity": "warning",
+        "claim_id": "C6",
+        "message": "The comparison correctly admits incomplete legacy publication coverage and distinguishes pending/generated/approved/scheduled/published states; it does not claim comprehensive distinctness or novelty. The closest prior angle has pending approval and no listed publications, while the historical buying-research email is exemplar material, not evidence of this treatment being published. Consolidation/refresh remains unresolved before scheduling."
+      }
+    ],
+    "new_since": [
+      {
+        "severity": "blocking",
+        "claim_id": "C1",
+        "message": "Claim status must be one of: reported, measured, estimated, planned, hypothetical, inferred"
+      },
+      {
+        "severity": "blocking",
+        "claim_id": "C2",
+        "message": "Claim status must be one of: reported, measured, estimated, planned, hypothetical, inferred"
+      },
+      {
+        "severity": "blocking",
+        "claim_id": "C3",
+        "message": "Claim status must be one of: reported, measured, estimated, planned, hypothetical, inferred"
+      },
+      {
+        "severity": "blocking",
+        "claim_id": "C4",
+        "message": "Claim status must be one of: reported, measured, estimated, planned, hypothetical, inferred"
+      },
+      {
+        "severity": "blocking",
+        "claim_id": "C5",
+        "message": "Claim status must be one of: reported, measured, estimated, planned, hypothetical, inferred"
+      },
+      {
+        "severity": "blocking",
+        "claim_id": "C6",
+        "message": "Claim status must be one of: reported, measured, estimated, planned, hypothetical, inferred"
+      },
+      {
+        "severity": "blocking",
+        "claim_id": "C7",
+        "message": "Claim status must be one of: reported, measured, estimated, planned, hypothetical, inferred"
+      },
+      {
+        "severity": "warning",
+        "claim_id": null,
+        "message": "Prior differences for unsupplied angle IDs are ignored: exemplar_buyer_stage, exemplar_human_automation, knowledge_base_buying_research_email"
+      }
+    ],
+    "blocking_now": 10
+  },
+  {
+    "brief_id": "brief_f4778b6818b357fde23bb1b4",
+    "angle_id": "angle_ab0db137df928ed4e835dfda",
+    "week_id": "week_2026-06-01",
+    "schema_version": "brief_document_v1",
+    "findings_now": [
+      {
+        "severity": "blocking",
+        "claim_id": "C1",
+        "message": "Claim status must be one of: reported, measured, estimated, planned, hypothetical, inferred"
+      },
+      {
+        "severity": "blocking",
+        "claim_id": "C2",
+        "message": "Claim status must be one of: reported, measured, estimated, planned, hypothetical, inferred"
+      },
+      {
+        "severity": "blocking",
+        "claim_id": "C3",
+        "message": "Claim status must be one of: reported, measured, estimated, planned, hypothetical, inferred"
+      },
+      {
+        "severity": "blocking",
+        "claim_id": "C4",
+        "message": "Claim status must be one of: reported, measured, estimated, planned, hypothetical, inferred"
+      },
+      {
+        "severity": "blocking",
+        "claim_id": null,
+        "message": "Unresolved consent requirements must be cleared and reviewed before approval"
+      },
+      {
+        "severity": "warning",
+        "claim_id": null,
+        "message": "Prior differences for unsupplied angle IDs are ignored: exemplar_buyer_stage, exemplar_human_automation"
+      },
+      {
+        "severity": "warning",
+        "claim_id": null,
+        "message": "Legacy publication coverage is incomplete; this is an admitted-archive review."
+      }
+    ],
+    "recorded_then": [
+      {
+        "message": "Unresolved consent requirements must be cleared and reviewed before approval",
+        "claim_id": null,
+        "severity": "blocking"
+      },
+      {
+        "message": "Claim status exceeds the source status",
+        "claim_id": "C1",
+        "severity": "blocking"
+      },
+      {
+        "message": "Claim status exceeds the source status",
+        "claim_id": "C2",
+        "severity": "blocking"
+      },
+      {
+        "message": "Prior coverage differences must cover each supplied historical argument",
+        "claim_id": null,
+        "severity": "blocking"
+      },
+      {
+        "message": "Numerical prose requires a structured source-bound claim; format numbering is supplied separately",
+        "claim_id": null,
+        "severity": "blocking"
+      },
+      {
+        "message": "Legacy publication coverage is incomplete; this is an admitted-archive review.",
+        "claim_id": null,
+        "severity": "warning"
+      },
+      {
+        "message": "This reported account is correctly marked as private internal grounding and excluded from public deliverables. Keep that boundary: the transcript assertion is not independent verification, and anonymity would not clear public reuse.",
+        "claim_id": "C1",
+        "severity": "warning",
+        "evidence_ids": [
+          "ev_e2358d95913b781d409db5c6"
+        ]
+      },
+      {
+        "message": "The reported Orlando-first plan and possible later Colorado targeting are accurately qualified as private intentions, not completed work. Do not expose them publicly without permission review.",
+        "claim_id": "C2",
+        "severity": "warning",
+        "evidence_ids": [
+          "ev_68f251d9b6451a5980967f0f",
+          "ev_1b75c7c12a01d041ba7d8be4",
+          "ev_3c51f6730a72932526534454"
+        ]
+      },
+      {
+        "message": "The public teaching route is framed as conditional inference, avoids the private account and market names, and preserves the possibility of a coherent shared page. No performance outcome is claimed; retain the direction to validate differences rather than infer preferences from geography.",
+        "claim_id": "C3",
+        "severity": "warning",
+        "evidence_ids": [
+          "ev_e2358d95913b781d409db5c6",
+          "ev_3c51f6730a72932526534454"
+        ]
+      },
+      {
+        "message": "The exact approved CTA survives. Because “for a better client experience” could read as an established benefit, keep the required adjacent, readable caveat in every standalone deliverable stating that venue-level tailoring is untested and no measured client-experience result is supplied.",
+        "claim_id": "C4",
+        "severity": "warning",
+        "evidence_ids": [
+          "ev_e2358d95913b781d409db5c6"
+        ]
+      },
+      {
+        "message": "The similarity review explicitly admits that the legacy publication catalogue is missing. The supplied prior arguments are pending and have no publications listed, so the substantive distinctions support differentiation from those arguments—not a claim of publication novelty or comprehensive archive coverage.",
+        "claim_id": null,
+        "severity": "warning",
+        "evidence_ids": []
+      }
+    ],
+    "gone_since": [
+      {
+        "severity": "blocking",
+        "claim_id": "C1",
+        "message": "Claim status exceeds the source status"
+      },
+      {
+        "severity": "blocking",
+        "claim_id": "C2",
+        "message": "Claim status exceeds the source status"
+      },
+      {
+        "severity": "blocking",
+        "claim_id": null,
+        "message": "Numerical prose requires a structured source-bound claim; format numbering is supplied separately"
+      },
+      {
+        "severity": "blocking",
+        "claim_id": null,
+        "message": "Prior coverage differences must cover each supplied historical argument"
+      },
+      {
+        "severity": "warning",
+        "claim_id": "C1",
+        "message": "This reported account is correctly marked as private internal grounding and excluded from public deliverables. Keep that boundary: the transcript assertion is not independent verification, and anonymity would not clear public reuse."
+      },
+      {
+        "severity": "warning",
+        "claim_id": "C2",
+        "message": "The reported Orlando-first plan and possible later Colorado targeting are accurately qualified as private intentions, not completed work. Do not expose them publicly without permission review."
+      },
+      {
+        "severity": "warning",
+        "claim_id": "C3",
+        "message": "The public teaching route is framed as conditional inference, avoids the private account and market names, and preserves the possibility of a coherent shared page. No performance outcome is claimed; retain the direction to validate differences rather than infer preferences from geography."
+      },
+      {
+        "severity": "warning",
+        "claim_id": "C4",
+        "message": "The exact approved CTA survives. Because “for a better client experience” could read as an established benefit, keep the required adjacent, readable caveat in every standalone deliverable stating that venue-level tailoring is untested and no measured client-experience result is supplied."
+      },
+      {
+        "severity": "warning",
+        "claim_id": null,
+        "message": "The similarity review explicitly admits that the legacy publication catalogue is missing. The supplied prior arguments are pending and have no publications listed, so the substantive distinctions support differentiation from those arguments—not a claim of publication novelty or comprehensive archive coverage."
+      }
+    ],
+    "new_since": [
+      {
+        "severity": "blocking",
+        "claim_id": "C1",
+        "message": "Claim status must be one of: reported, measured, estimated, planned, hypothetical, inferred"
+      },
+      {
+        "severity": "blocking",
+        "claim_id": "C2",
+        "message": "Claim status must be one of: reported, measured, estimated, planned, hypothetical, inferred"
+      },
+      {
+        "severity": "blocking",
+        "claim_id": "C3",
+        "message": "Claim status must be one of: reported, measured, estimated, planned, hypothetical, inferred"
+      },
+      {
+        "severity": "blocking",
+        "claim_id": "C4",
+        "message": "Claim status must be one of: reported, measured, estimated, planned, hypothetical, inferred"
+      },
+      {
+        "severity": "warning",
+        "claim_id": null,
+        "message": "Prior differences for unsupplied angle IDs are ignored: exemplar_buyer_stage, exemplar_human_automation"
+      }
+    ],
+    "blocking_now": 5
+  }
+]

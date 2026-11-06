@@ -1,0 +1,254 @@
+{
+ "wins": {
+  "v2": 0,
+  "v3": 6,
+  "tie": 0
+ },
+ "cost_usd": 1.172,
+ "rows": [
+  {
+   "angle": "d4f2db12",
+   "title": "I want to know what made a couple book, as well as what they loved afterward",
+   "checks": {
+    "v2": {
+     "copy_fields": 25,
+     "copy_words": 1006,
+     "audit_phrases": 8,
+     "instructions_in_copy": 0
+    },
+    "v3": {
+     "copy_fields": 25,
+     "copy_words": 1040,
+     "audit_phrases": 0,
+     "instructions_in_copy": 0
+    }
+   },
+   "examples": {
+    "v2": [
+     [
+      "wia_perspective",
+      "was an idea"
+     ],
+     [
+      "supporting_example.scene",
+      "internal conversation"
+     ],
+     [
+      "slide4",
+      "internal conversation"
+     ],
+     [
+      "slide5",
+      "was an idea"
+     ]
+    ],
+    "v3": []
+   },
+   "judgements": [
+    {
+     "order": "v2v3",
+     "winner": "v3",
+     "confidence": 4,
+     "edits_needed": {
+      "v2": 4,
+      "v3": 3
+     },
+     "accuracy_problems": {
+      "v2": [
+       "Audit-style hedging appears in the Reel, carousel, email and caption: 'an idea to explore, rather than a completed research project with findings to share'. This is a caveat that belongs in 'Before publishing'.",
+       "The copy retells the internal call ('During an internal conversation about our own marketing, I described...') in every format instead of stating WIA's belief directly.",
+       "Carousel slide 3 says 'rather than reasons to supply on their behalf', which is a note to the writer inside the audience copy.",
+       "The supporting example is written in the third person ('Whitney proposed...', 'A colleague agreed'), mixing a brief-writer's notes into the perspective section."
+      ],
+      "v3": [
+       "'We ask what research they can share about why couples choose them' slightly widens the actual question, which was whether the client has any market research.",
+       "The carousel is framed as 'questions WIA recommends asking', and the slide 4 and 5 questions are written as WIA's own, though none were said on the call. They are hypothetical and not presented as carried out.",
+       "Carousel slide 6 has a garbled phrase ('which reasons to choose your business to communicate').",
+       "The Reel is only a beat outline, not a script."
+      ]
+     },
+     "reason": "Brief B reads more like finished Whitney copy: it states her belief about asking couples about the booking decision and offers usable open questions, with the not-yet-implemented caveats kept in 'Before publishing'. Brief A repeats 'idea to explore, not a completed research project' hedging in every audience-facing format and keeps retelling the call, so Whitney would have to cut a lot, even though its Reel is more script-ready."
+    },
+    {
+     "order": "v3v2",
+     "winner": "v3",
+     "confidence": 4,
+     "edits_needed": {
+      "v3": 2,
+      "v2": 3
+     },
+     "accuracy_problems": {
+      "v3": [
+       "Says the proposal was to ask newly booked couples about their decision, but the transcript has Whitney proposing a survey of newly signed clients (wedding pros) about their buying triggers.",
+       "Carousel questions presented as 'what I'd ask' couples are the writer's invention and are not in the call evidence.",
+       "Reel is built on recounting a real internal call that discussed a survey not yet built; the copy avoids saying it was implemented, but the internal-call framing still needs Gate 2 approval."
+      ],
+      "v2": [
+       "Copy repeatedly says newly booked couples would be asked, but the transcript concerns surveying newly signed clients; the email then switches to 'newly signed clients', which is inconsistent.",
+       "Carousel slide 6 invents a framework (what an answer helps us communicate) that is not in the call evidence.",
+       "The 'a colleague agreed' detail appears only in the supporting example, which is fine, but the copy relies on an unimplemented proposal as its central scene."
+      ]
+     },
+     "reason": "A leads with Whitney's own perspective and gives a more useful carousel, with concrete questions and finished copy that keeps its checks in 'Before publishing'. B repeats audit-style hedging in the audience copy ('That was an idea to explore, rather than a completed research project') in the Reel, carousel, email and caption, which Whitney would cut, and its carousel is more abstract; both briefs make the same couples-versus-clients misreading of the call."
+    }
+   ]
+  },
+  {
+   "angle": "1f79f6d4",
+   "title": "Why Carmen wanted more time and another set of eyes on a venue campaign",
+   "checks": {
+    "v2": {
+     "copy_fields": 25,
+     "copy_words": 1077,
+     "audit_phrases": 0,
+     "instructions_in_copy": 1
+    },
+    "v3": {
+     "copy_fields": 25,
+     "copy_words": 1056,
+     "audit_phrases": 0,
+     "instructions_in_copy": 0
+    }
+   },
+   "examples": {
+    "v2": [
+     [
+      "supporting_example.wia_move",
+      "Credit"
+     ]
+    ],
+    "v3": []
+   },
+   "judgements": [
+    {
+     "order": "v2v3",
+     "winner": "v3",
+     "confidence": 4,
+     "edits_needed": {
+      "v2": 4,
+      "v3": 2
+     },
+     "accuracy_problems": {
+      "v2": [
+       "The caption ends with the stray note 'No explicit CTA.' inside the audience copy.",
+       "Carmen's 'I'm not really getting any conclusions' is repeated across the Reel, carousel, email and caption as audit-style hedging, and 'Neither explanation was settled' reads like a note to a writer.",
+       "The 'office hours' setting is assumed; the transcript excerpts don't say it.",
+       "Carmen's role is never stated, and the pieces retell the call more than they state WIA's own approach."
+      ],
+      "v3": [
+       "Jacqueline is called 'Meta ads strategist'; the roster says Meta ads manager.",
+       "'Recommended giving the campaign more time' is a mild stretch: Carmen only said it hadn't had the breathing room to judge and wanted about 100 clicks.",
+       "The 'office hours' setting is assumed, not in the transcript excerpts.",
+       "The 'quick departure' versus 'spending time' contrast is a loose paraphrase of Carmen's remarks about visitors who stay only seconds."
+      ]
+     },
+     "reason": "B opens with WIA's own approach (what it weighs in a review and why), names Carmen's role correctly, and gives a cleaner, more publishable carousel, email and caption in a calm Whitney voice, with caveats kept in the pre-publish list. A repeatedly hedges in the audience copy (the 'hadn't reached a conclusion' refrain, 'not an established explanation'), leaves a writer note ('No explicit CTA.') inside the caption, and retells the call more than it states WIA's perspective."
+    },
+    {
+     "order": "v3v2",
+     "winner": "v3",
+     "confidence": 4,
+     "edits_needed": {
+      "v3": 2,
+      "v2": 4
+     },
+     "accuracy_problems": {
+      "v3": [
+       "Calls Jacqueline 'our Meta ads strategist'; the roster lists her as Meta ads manager, not strategist (small title mismatch).",
+       "Carousel slide 2 says Carmen's 'review connected what was happening in the campaign with the experience after the click', which is slightly more than she concluded.",
+       "Slide 4 and the caption present the quick-exit versus exploring contrast as part of this review's logic. Carmen said it generally and did not apply it to a conclusion here."
+      ],
+      "v2": [
+       "The caption ends with 'No explicit CTA.' as a writer note inside the audience-facing copy.",
+       "Copy describes an individual visitor reaching the inquiry form and leaving, but the brief's own 'Before publishing' list says to keep individual visitor details out.",
+       "Repeated audit-style hedging in audience copy ('didn't establish', 'neither explanation was settled') reads as a record of the call rather than WIA's view.",
+       "Email is signed 'Daniela & Whitney', although the content and the Reel come from Whitney's account of Carmen's review."
+      ]
+     },
+     "reason": "Brief A leads with WIA's own approach to campaign reviews, keeps Carmen's open questions open, and gives the audience clean, publishable copy in a calm, warm voice with only minor title and framing nits. Brief B largely retells the call, puts evidentiary disclaimers into the audience copy ('it didn't establish why', 'neither was settled'), includes a visitor detail its own checklist says to omit, and leaves a stray 'No explicit CTA.' note in the caption, so Whitney would have to edit more."
+    }
+   ]
+  },
+  {
+   "angle": "d0e9fbc9",
+   "title": "The time between booking a venue tour and arriving deserves a plan",
+   "checks": {
+    "v2": {
+     "copy_fields": 25,
+     "copy_words": 1226,
+     "audit_phrases": 1,
+     "instructions_in_copy": 1
+    },
+    "v3": {
+     "copy_fields": 25,
+     "copy_words": 1148,
+     "audit_phrases": 0,
+     "instructions_in_copy": 1
+    }
+   },
+   "examples": {
+    "v2": [
+     [
+      "supporting_example.scene",
+      "historical call"
+     ],
+     [
+      "email.transformation",
+      "Do not"
+     ]
+    ],
+    "v3": [
+     [
+      "slide5",
+      "Keep"
+     ]
+    ]
+   },
+   "judgements": [
+    {
+     "order": "v2v3",
+     "winner": "v3",
+     "confidence": 4,
+     "edits_needed": {
+      "v2": 4,
+      "v3": 2
+     },
+     "accuracy_problems": {
+      "v2": [
+       "The email body contains a writer instruction ('Invite the reader to consider... Do not imply that the proposed changes produced attendance or booking results'), which would publish as audience copy.",
+       "Audience-facing copy retells the owner's private context (family availability, tour-hours limits, her existing outreach), which the call evidence doesn't clear for publication and no permission is recorded.",
+       "Hedging language sits in the audience copy ('Those were ideas to consider within the owner's schedule'), a legal or audit tone that belongs in the Before publishing list.",
+       "The reel and carousel are mostly a call retelling rather than WIA's own view, and the owner's stated reason for later tour dates is spelled out."
+      ],
+      "v3": [
+       "Reel 1 is a list of direction notes ('Establish the opportunity...', 'Describe Whitney asking...') rather than a speakable script, so it needs writing before use.",
+       "'The venue owner helped frame the discussion' in the supporting example is vague and loosely supported by the transcript, though it isn't used in the audience copy."
+      ]
+     },
+     "reason": "Brief B leads with WIA's own perspective ('we'd consider...'), keeps the call to a light attribution (Whitney's suggestion and the team's email idea credited separately, no Fallon as current staff), and leaves out the owner's private scheduling and family details. Its email, caption and carousel read as finished copy with the checks kept in the Before publishing list, whereas Brief A retells the call heavily, hedges in the audience copy, and leaves a writer instruction inside the email body."
+    },
+    {
+     "order": "v3v2",
+     "winner": "v3",
+     "confidence": 4,
+     "edits_needed": {
+      "v3": 2,
+      "v2": 4
+     },
+     "accuracy_problems": {
+      "v3": [
+       "Repeats the same call scene (team proposed, Whitney asked about virtual tours) in the Reel, carousel, email and caption, which is a sibling-wording risk but not an accuracy error",
+       "Reel is only an outline, not a recorded script, so it needs a script written before use"
+      ],
+      "v2": [
+       "The email body contains a writer instruction ('Invite the reader to consider... Do not imply that the proposed changes produced attendance or booking results'), which would publish as audience copy",
+       "Public copy discloses the venue owner's private scheduling context (family-driven tour dates, tour-hosting limits, existing virtual-tour option) that is already flagged as needing permission",
+       "The email and Reel retell the call at length, so the piece leads with the call rather than WIA's own belief"
+      ]
+     },
+     "reason": "Brief A leads with what WIA believes and does about the wait before a tour, keeps the call to a short anonymised supporting example, and has no writer notes or caveats in the audience copy, with recommendations kept as recommendations. Brief B retells the call in detail, includes the owner's private scheduling circumstances in public copy, and leaves a drafting instruction inside the email body, so Whitney would need to rewrite more of it."
+    }
+   ]
+  }
+ ]
+}

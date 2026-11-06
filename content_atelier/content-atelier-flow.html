@@ -1,0 +1,751 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How the Content Atelier Works — Wedding Industry Ads</title>
+    <meta
+      name="description"
+      content="How the Content Atelier turns great client conversations into ready-to-use marketing, with Whitney in charge at every important step."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Palette and chrome lifted from WIA-Automation-Timeline/public/index.html. */
+      :root {
+        --ink: #221e17;
+        --ink-2: #4b4137;
+        --gray: #6d6e6d;
+        --mist: #e0dfe2;
+        --stone: #c7beb2;
+        --primary: #5070ff;
+        --sky: #8da1fd;
+        --lavender: #c5c9de;
+        --camel: #c39878;
+        --mocha: #87725f;
+        --red: #a83323;
+        --radius: 17px;
+
+        --auto: #6d6e6d;
+        --ai: #5070ff;
+        --whitney: #c39878;
+        --team: #87725f;
+      }
+
+      * { box-sizing: border-box; }
+      html { -webkit-text-size-adjust: 100%; }
+
+      body {
+        margin: 0;
+        font-family: Inter, system-ui, -apple-system, sans-serif;
+        color: var(--ink);
+        background:
+          radial-gradient(1100px 620px at 78% -10%, rgba(141, 161, 253, 0.26), transparent 62%),
+          radial-gradient(760px 520px at 6% 106%, rgba(195, 152, 120, 0.18), transparent 66%),
+          linear-gradient(160deg, #ffffff 0%, #fefefe 56%, #e0dfe2 100%);
+        background-attachment: fixed;
+        -webkit-font-smoothing: antialiased;
+        min-height: 100vh;
+      }
+
+      .shell {
+        width: 100%;
+        max-width: 1600px;
+        margin: 0 auto;
+        padding: clamp(1rem, 3vw, 3rem);
+      }
+
+      /* ---------------- hero ---------------- */
+      .hero {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: clamp(24px, 5vw, 64px);
+      }
+      .hero-text { flex: 1; min-width: 0; }
+      .hero-lockup {
+        --mark: clamp(78px, 7.7vw, 104px);
+        flex: none;
+        display: flex;
+        align-items: center;
+        gap: clamp(10px, 1.4vw, 18px);
+        margin-top: 4px;
+      }
+      .e2m-mark { flex: none; width: var(--mark); height: var(--mark); display: block; }
+      .lockup-x {
+        flex: none;
+        font-size: clamp(13px, 1.4vw, 19px);
+        font-weight: 500;
+        line-height: 1;
+      }
+      .hero-mark {
+        flex: none;
+        width: var(--mark);
+        height: var(--mark);
+        border-radius: 999px;
+        border: 2px solid var(--primary);
+        background: rgba(255, 255, 255, 0.5);
+        display: grid;
+        place-items: center;
+        font-size: calc(var(--mark) * 0.102);
+        font-weight: 800;
+        letter-spacing: 0.1em;
+        line-height: 1.5;
+        text-align: center;
+        color: var(--primary);
+      }
+      h1 {
+        margin: 0;
+        font-size: clamp(2.1rem, 4.6vw, 3.4rem);
+        font-weight: 900;
+        letter-spacing: -0.035em;
+        line-height: 1.03;
+      }
+      h1 em {
+        font-style: normal;
+        background: linear-gradient(90deg, var(--primary), var(--ink) 52%, var(--primary));
+        background-size: 220% auto;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        animation: shimmer 6s ease-in-out infinite;
+      }
+      @keyframes shimmer {
+        0%, 100% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+      }
+      .lede {
+        margin: 16px 0 0;
+        max-width: 62ch;
+        font-size: 1.05rem;
+        line-height: 1.7;
+        color: var(--ink-2);
+      }
+
+      /* ---------------- stat strip ---------------- */
+      .stats {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px 67px;
+        margin: 30px 0 26px;
+        padding-top: 24px;
+        border-top: 1px solid var(--mist);
+      }
+      .stat .k {
+        font-size: 10.5px;
+        font-weight: 700;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--gray);
+      }
+      .stat .v {
+        margin-top: 5px;
+        font-size: 1.85rem;
+        font-weight: 800;
+        letter-spacing: -0.03em;
+        line-height: 1;
+      }
+      .stat .v small {
+        font-size: 0.92rem;
+        font-weight: 600;
+        color: var(--ink-2);
+        letter-spacing: 0;
+      }
+
+      /* ---------------- board ---------------- */
+      .board {
+        background: rgba(255, 255, 255, 0.92);
+        border: 1px solid var(--mist);
+        border-radius: var(--radius);
+        box-shadow: 0 18px 50px rgba(34, 30, 23, 0.07);
+        backdrop-filter: blur(9px);
+        -webkit-backdrop-filter: blur(9px);
+        overflow: hidden;
+      }
+      .board-head {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: wrap;
+        padding: 18px 22px;
+        border-bottom: 1px solid var(--mist);
+      }
+      .chip {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 7px 14px;
+        border-radius: 999px;
+        border: 1px solid rgba(80, 112, 255, 0.28);
+        background: rgba(80, 112, 255, 0.08);
+        color: var(--primary);
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+      }
+      .board-head .spacer { flex: 1; }
+      .btn {
+        appearance: none;
+        border: 0;
+        font: inherit;
+        cursor: pointer;
+        padding: 9px 18px;
+        border-radius: 999px;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        background: var(--ink);
+        color: #fff;
+      }
+      .btn.ghost { background: rgba(34, 30, 23, 0.06); color: var(--ink-2); }
+      .btn:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+
+      /* ---------------- the journey ---------------- */
+      .scroller { overflow-x: auto; scrollbar-width: thin; }
+      .track {
+        position: relative;
+        min-width: 1080px;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: auto auto;
+        gap: 0 14px;
+        padding: 34px 26px 26px;
+      }
+
+      /* The rail runs through the middle of every icon; its fill grows as
+         the story moves along. */
+      .rail,
+      .rail-fill {
+        position: absolute;
+        height: 3px;
+        border-radius: 999px;
+        top: 0;
+        left: 0;
+      }
+      .rail { background: var(--mist); }
+      .rail-fill {
+        background: linear-gradient(90deg, var(--primary), var(--sky));
+        transition: width 900ms ease;
+      }
+
+      .step {
+        position: relative;
+        z-index: 1;
+        appearance: none;
+        border: 1px solid transparent;
+        background: transparent;
+        font: inherit;
+        color: inherit;
+        text-align: center;
+        cursor: pointer;
+        padding: 0 8px 18px;
+        border-radius: 14px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: background 250ms ease, border-color 250ms ease, transform 250ms ease;
+      }
+      .step:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+      .step:hover { background: rgba(80, 112, 255, 0.04); }
+      .step.active {
+        background: #fff;
+        border-color: var(--mist);
+        box-shadow: 0 14px 34px rgba(34, 30, 23, 0.08);
+      }
+
+      .icon {
+        width: 58px;
+        height: 58px;
+        border-radius: 999px;
+        display: grid;
+        place-items: center;
+        background: #fff;
+        border: 2px solid var(--mist);
+        color: var(--gray);
+        margin-top: -6px;
+        transition: background 300ms ease, border-color 300ms ease, color 300ms ease;
+      }
+      .icon svg { width: 24px; height: 24px; }
+      .step.done .icon { border-color: var(--sky); color: var(--primary); }
+      .step.active .icon {
+        background: var(--primary);
+        border-color: var(--primary);
+        color: #fff;
+        box-shadow: 0 0 0 7px rgba(80, 112, 255, 0.14);
+      }
+
+      .num {
+        margin-top: 14px;
+        font-size: 10px;
+        font-weight: 800;
+        letter-spacing: 0.16em;
+        color: var(--gray);
+      }
+      .step h3 {
+        margin: 5px 0 0;
+        font-size: 15px;
+        font-weight: 800;
+        letter-spacing: -0.01em;
+        line-height: 1.25;
+      }
+      .step p {
+        margin: 7px 0 0;
+        font-size: 12.5px;
+        line-height: 1.5;
+        color: var(--ink-2);
+      }
+      .who {
+        margin-top: 11px;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 4px 10px;
+        border-radius: 999px;
+        font-size: 9.5px;
+        font-weight: 800;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--c);
+        background: color-mix(in srgb, var(--c) 11%, transparent);
+      }
+      .who::before {
+        content: "";
+        width: 6px;
+        height: 6px;
+        border-radius: 999px;
+        background: var(--c);
+      }
+
+      /* "Not this time" hangs under the quality check. */
+      .branch {
+        grid-row: 2;
+        grid-column: 4;
+        margin-top: 20px;
+        padding: 14px 10px 16px;
+        border: 1px dashed var(--stone);
+        background: rgba(255, 255, 255, 0.6);
+      }
+      .branch::before {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: -21px;
+        height: 20px;
+        border-left: 2px dashed var(--stone);
+      }
+      .branch .icon { width: 44px; height: 44px; margin-top: 0; }
+      .branch .icon svg { width: 19px; height: 19px; }
+      .branch.active .icon { background: var(--camel); border-color: var(--camel); box-shadow: 0 0 0 7px rgba(195, 152, 120, 0.18); }
+      .branch h3 { font-size: 13.5px; margin-top: 10px; }
+
+      /* The traveller — one conversation making its way through. */
+      .traveller {
+        position: absolute;
+        z-index: 2;
+        width: 14px;
+        height: 14px;
+        margin: -7px 0 0 -7px;
+        border-radius: 999px;
+        background: #fff;
+        border: 3px solid var(--primary);
+        box-shadow: 0 0 0 6px rgba(80, 112, 255, 0.18), 0 4px 12px rgba(80, 112, 255, 0.4);
+        transition: left 900ms cubic-bezier(0.6, 0, 0.3, 1), top 900ms cubic-bezier(0.6, 0, 0.3, 1);
+        pointer-events: none;
+      }
+      .traveller.hide { opacity: 0; }
+
+      /* ---------------- the story panel ---------------- */
+      .story {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 22px;
+        align-items: start;
+        padding: 26px;
+        border-top: 1px solid var(--mist);
+        background: rgba(80, 112, 255, 0.03);
+        min-height: 164px;
+      }
+      .story .big {
+        width: 64px;
+        height: 64px;
+        border-radius: 18px;
+        display: grid;
+        place-items: center;
+        font-size: 1.5rem;
+        font-weight: 900;
+        color: #fff;
+        background: var(--primary);
+        transition: background 300ms ease;
+      }
+      .story h2 {
+        margin: 2px 0 0;
+        font-size: clamp(1.3rem, 2vw, 1.65rem);
+        font-weight: 800;
+        letter-spacing: -0.02em;
+      }
+      .story p {
+        margin: 10px 0 0;
+        max-width: 78ch;
+        font-size: 15.5px;
+        line-height: 1.7;
+        color: var(--ink-2);
+      }
+      .story .fade { animation: fade 450ms ease; }
+      @keyframes fade {
+        from { opacity: 0; transform: translateY(6px); }
+        to { opacity: 1; transform: none; }
+      }
+      .progress {
+        height: 3px;
+        background: var(--mist);
+      }
+      .progress i {
+        display: block;
+        height: 100%;
+        width: 0;
+        background: var(--primary);
+      }
+
+      .legend {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 12px 26px;
+        padding: 16px 22px;
+        border-top: 1px solid var(--mist);
+        font-size: 11.5px;
+        font-weight: 600;
+        color: var(--ink-2);
+      }
+      .legend .li { display: inline-flex; align-items: center; gap: 8px; }
+      .legend .sw { width: 10px; height: 10px; border-radius: 999px; background: var(--c); }
+
+      /* ---------------- promises ---------------- */
+      .promises {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 18px;
+        margin-top: 22px;
+      }
+      .promise {
+        padding: 22px 24px;
+        background: rgba(255, 255, 255, 0.92);
+        border: 1px solid var(--mist);
+        border-radius: var(--radius);
+        box-shadow: 0 18px 50px rgba(34, 30, 23, 0.05);
+      }
+      .promise .k {
+        font-size: 10.5px;
+        font-weight: 700;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--primary);
+      }
+      .promise h3 {
+        margin: 8px 0 0;
+        font-size: 1.12rem;
+        font-weight: 800;
+        letter-spacing: -0.015em;
+      }
+      .promise p {
+        margin: 8px 0 0;
+        font-size: 14px;
+        line-height: 1.65;
+        color: var(--ink-2);
+      }
+
+      @media (max-width: 820px) {
+        .hero { flex-direction: column-reverse; align-items: flex-start; gap: 18px; }
+        .stats { gap: 16px 30px; }
+        .promises { grid-template-columns: 1fr; }
+        .story { grid-template-columns: 1fr; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .traveller, .rail-fill, .step, .icon { transition: none; }
+        h1 em { animation: none; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="shell">
+      <div class="hero">
+        <div class="hero-text">
+          <h1><em>How the Content Atelier Works</em></h1>
+          <p class="lede">
+            Every week, WIA has great conversations with clients. The Content
+            Atelier finds the moments worth sharing and turns them into
+            ready-to-use marketing, with Whitney in charge at every step that
+            matters.
+          </p>
+        </div>
+        <div class="hero-lockup">
+          <svg class="e2m-mark" viewBox="0 0 512 512" role="img" aria-label="E2M Solutions" xmlns="http://www.w3.org/2000/svg">
+            <rect x="46.13" y="31.76" width="442.99" height="185.63" fill="#fff" />
+            <path d="M488.62,32.26v184.63H46.63V32.26h441.99M489.62,31.26H45.63v186.63h443.99V31.26h0Z" />
+            <rect x="279.91" y="242.95" width="209.21" height="246.53" fill="#fff" />
+            <path d="M488.62,243.45v245.53h-208.21v-245.53h208.21M489.62,242.45h-210.21v247.53h210.21v-247.53h0Z" />
+            <path d="M475.57,464.69h-46.82v-80.31l-30.65,71.17h-28.16l-30.66-71.17v80.31h-46.8v-161.36h49.54l41.94,92.81,42.07-92.81h49.55v161.36ZM383.83,46.08c36.83,0,62.03,21.51,62.03,53.72,0,27.67-25.78,46.57-48.73,62.84-3.56,2.51-10.57,8.2-10.93,8.69h60.6v38.61h-120.01v-16.87c0-27.33,15.57-36.72,47.18-60.96,16.51-12.7,23.77-19.96,23.77-31.12,0-9.39-6.43-15.68-16.87-15.68-11.18,0-20.32,9.39-24.84,20.3l-34.82-15.55c6.07-19.96,26.97-43.97,62.62-43.97h0ZM187.52,208.69h-119.05V47.33h117.86v38.04h-70.57v22.34h61.9v37.9h-61.9v25.18h71.76v37.9h0ZM0,0v256.02h256.02v255.98h255.98V0H0Z" />
+          </svg>
+          <span class="lockup-x" aria-hidden="true">&times;</span>
+          <div class="hero-mark">WEDDING<br />INDUSTRY<br />ADS</div>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div class="stat">
+          <div class="k">Steps</div>
+          <div class="v">7</div>
+        </div>
+        <div class="stat">
+          <div class="k">Whitney signs off</div>
+          <div class="v">2 <small>times</small></div>
+        </div>
+        <div class="stat">
+          <div class="k">From one great moment</div>
+          <div class="v">1 <small>email</small> · 1 <small>carousel</small> · 3 <small>reels</small></div>
+        </div>
+        <div class="stat">
+          <div class="k">Posted automatically</div>
+          <div class="v">Never</div>
+        </div>
+      </div>
+
+      <div class="board">
+        <div class="board-head">
+          <span class="chip">From conversation to content</span>
+          <div class="spacer"></div>
+          <button type="button" class="btn ghost" id="restart">Start over</button>
+          <button type="button" class="btn" id="play">Pause</button>
+        </div>
+
+        <div class="scroller">
+          <div class="track" id="track">
+            <div class="rail" id="rail"></div>
+            <div class="rail-fill" id="rail-fill"></div>
+            <div class="traveller" id="traveller"></div>
+          </div>
+        </div>
+
+        <div class="progress"><i id="progress"></i></div>
+        <div class="story" id="story" aria-live="polite">
+          <div class="big" id="story-num">1</div>
+          <div id="story-body">
+            <h2></h2>
+            <p></p>
+          </div>
+        </div>
+
+        <div class="legend">
+          <span class="li"><span class="sw" style="--c: var(--auto)"></span> Happens automatically</span>
+          <span class="li"><span class="sw" style="--c: var(--ai)"></span> AI does the heavy lifting</span>
+          <span class="li"><span class="sw" style="--c: var(--whitney)"></span> Whitney decides</span>
+          <span class="li"><span class="sw" style="--c: var(--team)"></span> The team takes it from here</span>
+        </div>
+      </div>
+
+      <div class="promises">
+        <div class="promise">
+          <div class="k">Promise 1</div>
+          <h3>Whitney stays in control</h3>
+          <p>
+            Nothing is written until she likes the idea, and nothing leaves until
+            she's happy with the result. She always chooses what we ask readers
+            to do next.
+          </p>
+        </div>
+        <div class="promise">
+          <div class="k">Promise 2</div>
+          <h3>Every claim is real</h3>
+          <p>
+            Quotes are word-for-word, and every number links back to the moment it
+            was said. Clients are never named without their permission.
+          </p>
+        </div>
+        <div class="promise">
+          <div class="k">Promise 3</div>
+          <h3>Nothing posts on its own</h3>
+          <p>
+            The Atelier writes. People publish. Emails are saved as drafts, and
+            posts go out only when the team sends them.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const ICONS = {
+        call: '<polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>',
+        sort: '<polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/>',
+        find: '<circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>',
+        check: '<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/>',
+        whitney: '<path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>',
+        write: '<path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>',
+        send: '<line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/>',
+        later: '<path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>'
+      };
+      const WHO = {
+        auto: ["Automatic", "var(--auto)"],
+        ai: ["AI", "var(--ai)"],
+        whitney: ["Whitney", "var(--whitney)"],
+        team: ["The team", "var(--team)"]
+      };
+
+      const STEPS = [
+        {
+          icon: "call", who: "auto", title: "A great conversation happens",
+          short: "Client calls, workshops and podcasts are recorded.",
+          long: "Client calls, monthly workshops and podcast appearances are recorded and turned into written transcripts, just as they are today. Nobody has to copy and paste anything into ChatGPT after a call."
+        },
+        {
+          icon: "sort", who: "auto", title: "The right calls are picked out",
+          short: "Team-only meetings are left out.",
+          long: "Internal team meetings and recordings that never really started are set to one side straight away. Only real conversations with clients, and the workshops, move on to the next step."
+        },
+        {
+          icon: "find", who: "ai", title: "The best moments are found",
+          short: "AI spots the lines worth sharing.",
+          long: "The AI reads the whole conversation and picks out the moments worth sharing: a result, a milestone, a line that sticks. It only keeps a client's exact words, along with the time they said them, so nothing is paraphrased or made up."
+        },
+        {
+          icon: "check", who: "ai", title: "Is it worth making content?",
+          short: "A real lesson, enough to say, and something new?",
+          long: "Not every good call makes good content. The AI asks three questions. Is there a bigger lesson here, not just praise? Is there enough to fill an email, a carousel and some reels? Have we said this before? It also checks it fits how WIA wants to be seen."
+        },
+        {
+          branch: true,
+          icon: "later", who: "ai", title: "Not this time",
+          short: "Saved with a clear reason.",
+          long: "When the answer is no, the call is saved rather than thrown away, with a plain reason, such as \u201clots of praise, but no result we could point to.\u201d Whitney can open it any time and ask the AI to look again for something specific, and it will tell her honestly what it finds."
+        },
+        {
+          icon: "whitney", who: "whitney", title: "Whitney decides",
+          short: "Approve, tweak or pass on each idea.",
+          long: "Whitney sees a short summary of each idea: the key quote, why it's worth sharing, and the angle it could take. She approves it, edits it or passes. She always picks what we ask readers to do next, because the AI never decides that for her."
+        },
+        {
+          icon: "write", who: "ai", title: "The content is written",
+          short: "Email, carousel, reel scripts and captions.",
+          long: "From the idea Whitney approved, the Atelier writes one marketing email, one carousel of 7 to 10 slides, up to three reel scripts and captions, all in Whitney's voice. Each piece is written fresh, so they work together without repeating each other."
+        },
+        {
+          icon: "send", who: "team", title: "Checked and handed over",
+          short: "Final sign-off, then to the team.",
+          long: "Whitney gives everything a final look. No client is named without permission, and every number matches what was really said. Then the carousel goes to Giselle to design, the scripts go to Whitney to film, and the email is saved as a draft, ready to send."
+        }
+      ];
+
+      const track = document.getElementById("track");
+      const rail = document.getElementById("rail");
+      const railFill = document.getElementById("rail-fill");
+      const traveller = document.getElementById("traveller");
+      const storyNum = document.getElementById("story-num");
+      const storyBody = document.getElementById("story-body");
+      const progress = document.getElementById("progress");
+      const playBtn = document.getElementById("play");
+
+      const DURATION = 6500;
+      let current = 0;
+      let playing = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      let elapsed = 0;
+      let last = performance.now();
+
+      /* Main steps are numbered 1–7; the branch borrows its parent's number. */
+      let n = 0;
+      const els = STEPS.map((s) => {
+        if (!s.branch) n++;
+        s.label = s.branch ? "4b" : String(n);
+        const b = document.createElement("button");
+        b.type = "button";
+        b.className = "step" + (s.branch ? " branch" : "");
+        const [whoName, whoColor] = WHO[s.who];
+        b.innerHTML =
+          '<span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
+          ICONS[s.icon] + "</svg></span>" +
+          (s.branch ? "" : '<span class="num">STEP ' + s.label + "</span>") +
+          "<h3>" + s.title + "</h3>" +
+          "<p>" + s.short + "</p>" +
+          '<span class="who" style="--c:' + whoColor + '">' + whoName + "</span>";
+        track.appendChild(b);
+        return b;
+      });
+
+      els.forEach((b, i) => b.addEventListener("click", () => go(i)));
+
+      function centre(i) {
+        const icon = els[i].querySelector(".icon").getBoundingClientRect();
+        const box = track.getBoundingClientRect();
+        return { x: icon.left - box.left + icon.width / 2, y: icon.top - box.top + icon.height / 2 };
+      }
+
+      function mainIndex(i) {
+        return STEPS[i].branch ? i - 1 : i;
+      }
+
+      function layoutRail() {
+        const first = centre(0);
+        const lastMain = centre(STEPS.length - 1);
+        rail.style.top = railFill.style.top = first.y - 1.5 + "px";
+        rail.style.left = railFill.style.left = first.x + "px";
+        rail.style.width = lastMain.x - first.x + "px";
+        railFill.style.width = centre(mainIndex(current)).x - first.x + "px";
+        const c = centre(current);
+        traveller.style.left = c.x + "px";
+        traveller.style.top = c.y + "px";
+      }
+
+      function go(i) {
+        current = i;
+        elapsed = 0;
+        const m = mainIndex(i);
+        els.forEach((b, j) => {
+          b.classList.toggle("active", j === i);
+          b.classList.toggle("done", !STEPS[j].branch && j < m);
+        });
+        const s = STEPS[i];
+        storyNum.textContent = s.label;
+        storyNum.style.background = WHO[s.who][1];
+        storyBody.innerHTML = "<h2></h2><p></p>";
+        storyBody.querySelector("h2").textContent = s.title;
+        storyBody.querySelector("p").textContent = s.long;
+        storyBody.classList.remove("fade");
+        void storyBody.offsetWidth;
+        storyBody.classList.add("fade");
+        layoutRail();
+      }
+
+      function setPlaying(p) {
+        playing = p;
+        playBtn.textContent = p ? "Pause" : "Play";
+      }
+
+      function tick(now) {
+        const dt = now - last;
+        last = now;
+        if (playing) {
+          elapsed += dt;
+          if (elapsed >= DURATION) go((current + 1) % STEPS.length);
+        }
+        progress.style.width = Math.min(100, (elapsed / DURATION) * 100) + "%";
+        requestAnimationFrame(tick);
+      }
+
+      playBtn.addEventListener("click", () => setPlaying(!playing));
+      document.getElementById("restart").addEventListener("click", () => {
+        go(0);
+        setPlaying(true);
+      });
+      window.addEventListener("resize", layoutRail);
+      if (document.fonts) document.fonts.ready.then(layoutRail);
+
+      setPlaying(playing);
+      go(0);
+      requestAnimationFrame(tick);
+    </script>
+  </body>
+</html>

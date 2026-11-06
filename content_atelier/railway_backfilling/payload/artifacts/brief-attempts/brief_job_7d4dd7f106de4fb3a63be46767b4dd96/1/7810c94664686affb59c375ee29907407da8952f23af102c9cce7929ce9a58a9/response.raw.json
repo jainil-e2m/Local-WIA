@@ -1,0 +1,55 @@
+{
+  "id": "gen-1791887217-7tkQtWlPYldmd75NnFvM",
+  "object": "chat.completion",
+  "created": 1791887217,
+  "model": "openai/gpt-6-luna",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "completed",
+      "message": {
+        "role": "assistant",
+        "content": "{\"queries\":[{\"text\":\"Wedding businesses asking newly booked couples why they chose the vendor: examples or documented evidence that this reveals buying triggers beyond customer reviews\",\"purpose\":\"support\"},{\"text\":\"Wedding vendors' challenges understanding why couples choose them and what information reviews fail to provide\",\"purpose\":\"pain\"},{\"text\":\"Common objections and practical barriers to surveying newly booked wedding clients, including timing, client burden, and survey fatigue\",\"purpose\":\"objection\"},{\"text\":\"How to design a short post-booking customer survey that identifies decision factors and turns responses into advertising or landing-page messaging\",\"purpose\":\"explanation\"},{\"text\":\"Evidence on response rates and sample-size limitations for post-purchase surveys sent to newly booked service customers\",\"purpose\":\"numbers\"},{\"text\":\"Research on whether customer reviews can reveal purchase motivations, and limitations of treating reviews as market research\",\"purpose\":\"counterevidence\"},{\"text\":\"Risks of leading questions, recall bias, and selection bias when surveying customers after they book a service\",\"purpose\":\"counterevidence\"},{\"text\":\"Existing Wedding Industry Ads or LeadLock public coverage discussing buyer research surveys, customer reviews, or using client insights in ad copy and landing pages\",\"purpose\":\"prior_coverage\"}]}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.encrypted",
+            "data": "gAAAAABqzgd0JK1I6Ia-YVCJuwVPPpPtB1FrFjg4KUk0kwMgkMxv79Uxz7h9JL_z1K67ur9qglNAeUWOS8GL2UkyrfGSg9FyYPoSQFJLp3oLguqr4k-ZVFCO05HcA9Q4B7v1Jlp4WpL0eWbkj7swguc74lslt2reqfkS6Oy7AsotA1XaakthhHlpJWP7wOmpD_xQv3VHyirNBpO7bbAqoqpWjSobaSORjIiR31txdYcTgfR2u3oHOjt2rsg8ymxeYzXL9CHNtctVlvzYWolt2s4Za9FqOcb_v2N0a9CP9TOZ_Qgp0Yky5cucDRAvNX5EDdq-n1opDF3InnhC1s-dal3-J4RilsutwbFffRFG_6DSnNnnCWeMJXNLwy9zlZRo2b_HhLFNufn1KC15LZUm4fQUk4NAkcdbYhZ4Z4Z7IWkh0l0jGoVYE4O9zznczyUNOPXXqJ4CW8Z3caUOFa2Xeo7fiAorW1ulCOp1ORkAa3PoCE9BABqQBeL7PkozBOHEa8q0KBNEuBkgJpG0JlTrA0UTgiE9TJpIQp7GRCx2SImSgBkk6sw5lk8245Tu29Fa2TNTACQNKOgX8z8J9gWdV94he-MipWd1cXTs8lz4MS3b0d_DBVGkSQev_z6ZDZc0y6vvj1aiiQjwkA_kQSeuIIU4lnIYBPYjZRH3WyO1RDNvC1dpIygeZ6vYpoFoqAI4W2UH6vsE3I_nVTu3ongmaUERpU1tOYsOfBqhp7E2cWu07wNchbiTbQ5SRCqyBZdT2-JWlWhHeMWWo6qnBjqfofqwVDtkuByOFPiJseWBEEtsYwgtERItiVQQ8v5sqkAhgI72-zcc8IsoLyUw6OfRQLU1mI-D3B_EJV5BihrV9AoDMVmIVj6uMwoqmHAn8o_f9Y2D4fnr9xxkohxmYZvU1TtD9hTNzhEbKOJTdlfRsWy9eKLkyf5stVUlEwyWDvmuyFfj1uApZOua7Z0Q0DzNtCGyBGXx09KVPxRFGv3q7QyKm4NiKaBtWJbrqAbLy6nX_BND9kUUpbDeCqeIeOGCP4evxC-K7d-MTJQSnpjUhZ5BvautilTzlZhbJQcqT1avMbq5CtWwDvXrvXlAkO117vtcdxUlsYKyuXZAGOmfefczKsNcwughtvl8QaLzE-SRzhTJYWHzEeY9AjyI-AOOf-6xXPcADYaJgT34B9ptsk9kxP5TvKOVdMaxEZlkG8Z70QUF157cFKhdL1ne26Zq--cRoAzFozWTlDvLvD-GzYMcR77_zKy-FjTRMFJ5MzcBj3Ut5Z-a-gTav0ntxJqKCgkP-BWIDd-_gTBnQvsmgSPsxf9bmu1BMoPNa_fx3GrRiHmBYMbD0MCV8omWLvd4Uj-j8Lr6TvKcXG7gC6F-y0f_8JFB7gkUXdla9M8KVW8vwSHm29Y4Uvb5hKXbt1Gmc2A91yy3V_UWgxSidDOoHShMce4NSDSz3moJK1hovzGldroU0GlDl3X-BEznHJBHeYbVIp7eL0pW10Ckl1RqZ4oxrq14ReoXNgOFcKH0WcTDMQqHtRASKgkga-YlZOKDFtGIlsqgtIWAitA7DzWCoVPnYqCkIuKOBwaH4b9fgd2o_zGZeYKPYdv0ziaw2VnqZn6TRBZLRmwGb7yzceOpTkz742OWuEtEqeP910EdIRIIqzOZw_sFuPWBqJ5Vg-BJzbLiOpme8SJJ_ZWkgu1UqORh4XIXn9iN2dcnSKYwAEebUJNp7AOnLIXj-O7porX33O_lnGKC70Um8tA5i3P5iuwNiMxYIzJceqEBAIDTj2yNsqgT7cNHsUB78wRtUAOyusl6InxuHGeCXC1FCQB1TxnNn6l_XW9GQ1G3-PMj1HX7-nGTEerVGOoVaFlm4meLe8pXNSefKlmgQSgT9sazuwrMqCyN3-bH2RXidfcZeilONiKX9J2Z_GneUtfyBVJV-2P3iqbH2_DpwQy36bTDChmXEvBfZX61TGfdyiyFIqrDMLQB_ItOEW8e6pE58mWjMf5xmnbXVs2A71isvx7tXHA1T_23aHvnKamy3csw1ztCo2EslrZG3oTfbo_hj8bdecxRzLYSme28qx6ch51vb7LipKAIOBJJbWS1rOOvhZX3iqs-ZjcTE9RByvbyUoZpLqh3YlLOBMbiWE8__zc9pWyWM41BNS_o8gOurfBNMYQecG_f_AxtRlLt8EbV-Snf2pCd6OuqnMOwLR_TeMutywqBVYnR6OtsKz0hWR6lRZSD8_mnurI45-dHmaXTNKCmqKk8LOUtVnEswmSyx8AM5YKEG6aDg5p0VKlHFRs4KNi7Hg6SLOGphNQOzI0geUJJXLsNYU8wvCG-mkNVKv8PWNyypRDgr8oYyHlrAkR0S3mfgzLAVSROEW4jtZ1OzZLFQdcVFbNci_mZ6HmNNmmMOGdLDm8Q0gMvHCV_7RHZQpymNkwHSL7YWtybHTCmMIDpo0v3mf5IfQnEwXOFh4UnMKpeSlD3zyMgCZKHCWsLg6voy8341aLU5gbKCdy0eYFZBUmSGbfOeBXM-oEwuwUGzwErHgc20h5lkt7Se-CFcdJgSZbxKUq-f2uPKAOfvGATf4QTYrrl5RC4jyXHs_t9GOVBPeG91OE4zYuaQF1LNB280_udSHaHkro0ojni7xAdEXIOG7Lyh0a0o0o2ln3CvzXbZEY4d-juQcN29lcl87OapXdv_EFjEVxZBF5Xm8lJCyed_VnmnhXrXgCDnfuUhFhIEgdWenyIpasilWvU5fMVn73qpSzMeFj71M9nlcG-LwFS_KdBLTscGVi1Lm15Nd3bI53ZbfAP3rGbMjo4Q9f2CEU8m6_pMHo9ONRBC_1tjzmDegaBOoIlijoze6xG61LuThw56zQV3FsriZwzPdiNthPaWTIke6dSqPXFNezQ6yl8wMdZfiiWOX5CAJxDgV_lA93qCGLDbzLV6yHARxi-mJ5BIQh8UmxGxgntsmehFDJlaN9By-x6VwvcWYNHgiZJwUIkiIeNQXFg2vOlIXhfL7Pej6xfgvUmBk269isjC5RkBD1AI3ZBvQThMmB__77ehPQWYgGDxOmdwtBc-eIa4NwB2pH8EhqSWZNBkumAYfvW6yzPEEeitQ==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LWx1bmEtMjAyNjA5MjJ8b3BlbmFpIn0",
+            "format": "openai-responses-v1",
+            "id": "rs_0731ee68f2535a3e016ace07733adc87d19bb0edd7e7bf05d1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 22042,
+    "completion_tokens": 353,
+    "total_tokens": 22395,
+    "cost": 0.002931675,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 22039,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002931675,
+      "upstream_inference_prompt_cost": 0.002755175,
+      "upstream_inference_completions_cost": 0.0001765
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 107,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

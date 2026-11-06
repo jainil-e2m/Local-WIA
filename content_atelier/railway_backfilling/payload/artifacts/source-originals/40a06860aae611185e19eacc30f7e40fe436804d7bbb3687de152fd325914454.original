@@ -1,0 +1,4115 @@
+WEBVTT
+
+00:04:08.000 --> 00:04:09.000
+Whitney Hodges: Sorry.
+
+00:05:58.000 --> 00:06:00.000
+Whitney Hodges: Hi, Amy.
+
+00:05:59.000 --> 00:06:01.000
+Ami Price: Whitney, how are you?
+
+00:06:00.000 --> 00:06:05.000
+Whitney Hodges: I'm good. It's so nice to officially meet you.
+
+00:06:03.000 --> 00:06:15.000
+Ami Price: Same! I know, I know! I can't believe after these months we're doing this. So yeah, it's nice to meet you! You have a beautiful office, by the way.
+
+00:06:10.000 --> 00:06:12.000
+Whitney Hodges: I know!
+
+00:06:12.000 --> 00:06:14.000
+Whitney Hodges: Yeah!
+
+00:06:15.000 --> 00:06:18.000
+Whitney Hodges: Oh, thank you so much.
+
+00:06:16.000 --> 00:06:28.000
+Ami Price: I'm sure you only have 30 minutes, so we can dive right in on Ridgefield, but just wanted to do a quick, like, check-in about the domain.
+
+00:06:28.000 --> 00:06:30.000
+Whitney Hodges: Perfect. Yes.
+
+00:06:28.000 --> 00:06:31.000
+Ami Price: Transition.
+
+00:06:31.000 --> 00:06:35.000
+Ami Price: you know, he was able to acquire the dot com, and I…
+
+00:06:33.000 --> 00:06:35.000
+Whitney Hodges: Great.
+
+00:06:35.000 --> 00:06:51.000
+Ami Price: strongly think that everyone should own their .com. You know, the .co has always been a little silly to me personally. So from your end, and you know, my end is relatively straightforward.
+
+00:06:38.000 --> 00:06:41.000
+Whitney Hodges: Mixed up. Mm-hmm.
+
+00:06:41.000 --> 00:06:43.000
+Whitney Hodges: Yeah, yeah.
+
+00:06:43.000 --> 00:06:45.000
+Whitney Hodges: For sure.
+
+00:06:47.000 --> 00:06:49.000
+Whitney Hodges: Mm-hmm.
+
+00:06:51.000 --> 00:07:06.000
+Ami Price: you know, we'll just redirect everything, but I want to make sure I have my arms around what subdomains we'll need to redirect, if you have custom landing pages, all of that.
+
+00:06:51.000 --> 00:06:53.000
+Whitney Hodges: Yes.
+
+00:07:01.000 --> 00:07:02.000
+Whitney Hodges: Mm-hmm.
+
+00:07:04.000 --> 00:07:06.000
+Whitney Hodges: Mm-hmm.
+
+00:07:06.000 --> 00:07:07.000
+Whitney Hodges: Yes.
+
+00:07:06.000 --> 00:07:10.000
+Ami Price: Uh, good stuff. And then, are any…
+
+00:07:10.000 --> 00:07:19.000
+Ami Price: emails… like, you don't generate any emails on your side, or… correct? That's all through LeadLock slash CRM.
+
+00:07:19.000 --> 00:07:35.000
+Whitney Hodges: So it is through Leadlock, but Leadlock is ours. So that's us. It's all the same thing. We've just like branded it with its own name. And so that's where landing pages have been built and all of that.
+
+00:07:20.000 --> 00:07:22.000
+Ami Price: It is, okay.
+
+00:07:22.000 --> 00:07:24.000
+Ami Price: Okay, so it is… okay.
+
+00:07:24.000 --> 00:07:26.000
+Ami Price: Okay, got it.
+
+00:07:26.000 --> 00:07:28.000
+Ami Price: Okay.
+
+00:07:28.000 --> 00:07:29.000
+Ami Price: Okay.
+
+00:07:32.000 --> 00:07:33.000
+Ami Price: Yep.
+
+00:07:35.000 --> 00:07:52.000
+Whitney Hodges: It's a pretty quick fix, I would think, as far as the landing pages, just in terms of us getting the DNS records for those new subdomains created for the .com, and then we'll just point all of those landing pages there. So basically, everything that has.
+
+00:07:42.000 --> 00:07:44.000
+Ami Price: Mm-hmm.
+
+00:07:49.000 --> 00:07:51.000
+Ami Price: Okay. Okay.
+
+00:07:52.000 --> 00:08:08.000
+Whitney Hodges: that you have DNS records for right now, you know, as far as the subdomain, we'll need those for the .com, um, subdomain as well. Um, and then, as far as the emails, um, I guess kind of walk me through how that will.
+
+00:07:54.000 --> 00:07:56.000
+Ami Price: Got it.
+
+00:08:00.000 --> 00:08:01.000
+Ami Price: Yep.
+
+00:08:08.000 --> 00:08:10.000
+Ami Price: Yep.
+
+00:08:08.000 --> 00:08:16.000
+Whitney Hodges: work, like, because they'll basically… I mean, it'll be, like, a new Gmail account, I would think, right? Or, like, how…
+
+00:08:14.000 --> 00:08:30.000
+Ami Price: Yeah, so we actually did this for ourselves when we were able to acquire the CelebrateCreative.com domain. So basically, all of the .co's will continue to work. We will make them aliases of the .coms.
+
+00:08:18.000 --> 00:08:19.000
+Whitney Hodges: Okay.
+
+00:08:21.000 --> 00:08:22.000
+Whitney Hodges: Mm-hmm.
+
+00:08:22.000 --> 00:08:23.000
+Whitney Hodges: Yeah.
+
+00:08:28.000 --> 00:08:30.000
+Whitney Hodges: Got it.
+
+00:08:30.000 --> 00:08:31.000
+Whitney Hodges: Okay.
+
+00:08:30.000 --> 00:08:46.000
+Ami Price: So, we will go into the main email account, switch it to the .com, but make all the .co's aliases. So, while they won't be able to send from .co anymore, because, you know, it's not an actual account.
+
+00:08:35.000 --> 00:08:36.000
+Whitney Hodges: Mm-hmm.
+
+00:08:38.000 --> 00:08:39.000
+Whitney Hodges: Okay.
+
+00:08:42.000 --> 00:08:43.000
+Whitney Hodges: Mm-hmm.
+
+00:08:43.000 --> 00:08:45.000
+Whitney Hodges: Okay.
+
+00:08:46.000 --> 00:08:56.000
+Ami Price: they'll be able to receive to it if anybody has those old email addresses. We still get emails from two years later to our… Mm-hmm.
+
+00:08:54.000 --> 00:08:57.000
+Whitney Hodges: Sure. Mm-hmm. Okay.
+
+00:08:56.000 --> 00:09:10.000
+Ami Price: Um, so… Jason is the one that will do this, but the long and the short is in Gmail, in Google Workspace, there's basically a setting, and you go in and you change your primary domain, and it will then change the emails. Yep.
+
+00:09:06.000 --> 00:09:07.000
+Whitney Hodges: Okay.
+
+00:09:07.000 --> 00:09:09.000
+Whitney Hodges: Okay.
+
+00:09:09.000 --> 00:09:26.000
+Whitney Hodges: Got it. Okay, so I would think what would need to happen is that, like, the same day that you guys are going in and doing that, like, we have a meeting right afterwards to get it all switched over and locked as well, um, and we probably would need to have.
+
+00:09:15.000 --> 00:09:16.000
+Ami Price: Yeah.
+
+00:09:19.000 --> 00:09:22.000
+Ami Price: Test everything. Yep.
+
+00:09:26.000 --> 00:09:48.000
+Whitney Hodges: Well, unless you have the login information. So, the way that we have, like, everything sync in LeadLock, as far as, like, with the email addresses, with the calendars, things like that, um, it all goes through the client's Google account, basically, right? Like, so it's, like, to set up the integrations, we're typically live on a Zoom call with the client, where we're saying.
+
+00:09:32.000 --> 00:09:34.000
+Ami Price: Mm-hmm.
+
+00:09:40.000 --> 00:09:43.000
+Ami Price: Gmail, basically, yeah. Okay.
+
+00:09:47.000 --> 00:09:49.000
+Ami Price: Okay.
+
+00:09:48.000 --> 00:10:01.000
+Whitney Hodges: log in to your Gmail, and let's connect it. Log in to your calendar, and let's connect it. So, as long as we coordinate that to where it's all happening the same day, I think that it should be pretty seamless.
+
+00:09:50.000 --> 00:09:52.000
+Ami Price: Got it.
+
+00:09:55.000 --> 00:09:56.000
+Ami Price: Okay.
+
+00:10:00.000 --> 00:10:16.000
+Ami Price: Okay, and we're gonna have to do the same thing. Obviously, for security, we don't normally have their Google admin workspace, you know, so we Zoom with them for exactly the same reason. So maybe what we can do is first half of the meeting is… is Jason switching it literally over with Scott.
+
+00:10:04.000 --> 00:10:06.000
+Whitney Hodges: Okay.
+
+00:10:07.000 --> 00:10:09.000
+Whitney Hodges: Right. Mm-hmm.
+
+00:10:10.000 --> 00:10:11.000
+Whitney Hodges: Mm-hmm.
+
+00:10:15.000 --> 00:10:16.000
+Whitney Hodges: Okay.
+
+00:10:16.000 --> 00:10:23.000
+Ami Price: And then second half of the meeting is bringing you guys on to do what you need to do after that happens.
+
+00:10:16.000 --> 00:10:17.000
+Whitney Hodges: Mm-hmm.
+
+00:10:23.000 --> 00:10:26.000
+Whitney Hodges: Okay, perfect. I love that.
+
+00:10:24.000 --> 00:10:33.000
+Ami Price: Yeah, we're planning as of now to go live sometime the week of August 3rd would be the guess.
+
+00:10:33.000 --> 00:10:35.000
+Whitney Hodges: Okay.
+
+00:10:33.000 --> 00:10:48.000
+Ami Price: So, likely, my… I will be pushing for Friday. I always like to push, like, later in the week, have the weekend to test, you know, anything, and then he do… does whatever marketing he wants to do the beginning of the next.
+
+00:10:38.000 --> 00:10:40.000
+Whitney Hodges: Mmhm.
+
+00:10:40.000 --> 00:10:42.000
+Whitney Hodges: Okay.
+
+00:10:42.000 --> 00:10:43.000
+Whitney Hodges: Go ahead.
+
+00:10:43.000 --> 00:10:45.000
+Whitney Hodges: Mm-hmm.
+
+00:10:48.000 --> 00:10:51.000
+Whitney Hodges: Okay, got it.
+
+00:10:48.000 --> 00:10:49.000
+Ami Price: week.
+
+00:10:49.000 --> 00:11:07.000
+Ami Price: Um, so that would be my preferred, is that Friday, what, the 7th or 8th, whatever that date is, would be my preferred. But of course, that's, you know, up to Scott and how he wants to handle. But our plan is to deliver him his staging site for review no later than the 3rd.
+
+00:10:53.000 --> 00:10:55.000
+Whitney Hodges: Mm-hmm.
+
+00:10:58.000 --> 00:10:59.000
+Whitney Hodges: Mmhm.
+
+00:11:03.000 --> 00:11:04.000
+Whitney Hodges: Okay.
+
+00:11:07.000 --> 00:11:25.000
+Whitney Hodges: Okay, got it. So, I will be out of town the Thursday and Friday of that week, but I think you've corresponded quite a bit with Danielle, who really heads up things on the lead block side, um, and my plan would have been to really have her heading up that call from our side.
+
+00:11:08.000 --> 00:11:09.000
+Ami Price: So…
+
+00:11:10.000 --> 00:11:12.000
+Ami Price: Okay.
+
+00:11:12.000 --> 00:11:14.000
+Ami Price: Okay.
+
+00:11:16.000 --> 00:11:17.000
+Ami Price: Yep.
+
+00:11:19.000 --> 00:11:21.000
+Ami Price: Yep, okay.
+
+00:11:24.000 --> 00:11:32.000
+Ami Price: Perfect. Yeah, it won't be me either, it'll be Jason, but so same difference.
+
+00:11:25.000 --> 00:11:27.000
+Whitney Hodges: Anyway, so as long as that…
+
+00:11:27.000 --> 00:11:32.000
+Whitney Hodges: Her schedule? Okay, perfect, sounds good.
+
+00:11:32.000 --> 00:11:47.000
+Ami Price: And then, you know, if… I can't imagine anything goes sideways, but if anything goes sideways, you know, we'll just work it out. It's no different than them changing email addresses, you know. Um, from your side, is there anything else, you know.
+
+00:11:39.000 --> 00:11:40.000
+Whitney Hodges: Right.
+
+00:11:41.000 --> 00:11:44.000
+Whitney Hodges: Right. Mm-hmm.
+
+00:11:47.000 --> 00:11:50.000
+Ami Price: Random, that we haven't touched on, that…
+
+00:11:50.000 --> 00:11:52.000
+Ami Price: you know…
+
+00:11:51.000 --> 00:11:58.000
+Whitney Hodges: With Ridgefield, honestly, we're still kind of stumped with this SSL thing, like, it still hasn't…
+
+00:11:52.000 --> 00:11:53.000
+Ami Price: hits a domain.
+
+00:11:57.000 --> 00:12:08.000
+Ami Price: It's go high level or mail gun. It has nothing to do with their domain. So were you able to contact like the go high level people? Did they say anything?
+
+00:11:59.000 --> 00:12:00.000
+Whitney Hodges: Okay.
+
+00:12:01.000 --> 00:12:02.000
+Whitney Hodges: Okay.
+
+00:12:02.000 --> 00:12:04.000
+Whitney Hodges: No.
+
+00:12:05.000 --> 00:12:21.000
+Whitney Hodges: Mm-hmm. Yeah, Danielle wasn't in touch with them on Monday. And I'll tell you what she said that they said, just because honestly, like, we've never run into this before. So she said.
+
+00:12:15.000 --> 00:12:16.000
+Ami Price: Okay.
+
+00:12:21.000 --> 00:12:34.000
+Whitney Hodges: So, on their end, Mailgun SSL certificate has been renewed since April 21st, 2026, but when they go into Ridgefield, which I assume is, like, they mean the sub-account.
+
+00:12:26.000 --> 00:12:27.000
+Ami Price: Okay.
+
+00:12:32.000 --> 00:12:35.000
+Ami Price: In Mailgun, yep.
+
+00:12:34.000 --> 00:12:40.000
+Whitney Hodges: Yeah, to try to refresh it on the back end, it's not updating. I could…
+
+00:12:38.000 --> 00:12:41.000
+Ami Price: So it's a mail gun issue, basically.
+
+00:12:40.000 --> 00:12:42.000
+Whitney Hodges: Yeah. Mm-hmm.
+
+00:12:41.000 --> 00:12:50.000
+Ami Price: have they contacted, or, like, who owns the Mailgun account? Is it Scott? Is it… you know what I mean? Like, who owns the Mailgun?
+
+00:12:46.000 --> 00:12:48.000
+Whitney Hodges: Alright.
+
+00:12:50.000 --> 00:13:07.000
+Whitney Hodges: So there's actually, I mean, the mailgun account would be like through. Ghl, basically, because we don't even use mailgun through the con. The for the client we use like. Lead connector email or something, which is basically, you know, the the email server through.
+
+00:12:56.000 --> 00:12:57.000
+Ami Price: Right.
+
+00:12:58.000 --> 00:13:00.000
+Ami Price: Right.
+
+00:13:00.000 --> 00:13:01.000
+Ami Price: And same.
+
+00:13:07.000 --> 00:13:19.000
+Whitney Hodges: GHL, but they're… that, for them, is powered through Mailgun. So when you see, you know, the records and things like that, that's why we're seeing Mailgun listed there.
+
+00:13:08.000 --> 00:13:09.000
+Ami Price: Yep.
+
+00:13:12.000 --> 00:13:14.000
+Ami Price: Right.
+
+00:13:16.000 --> 00:13:19.000
+Ami Price: Got it. Got it.
+
+00:13:19.000 --> 00:13:33.000
+Whitney Hodges: Basically. Um, but I did, like… I mean, I was just, like, researching, like, going down a rabbit hole. Um, I did see, like, one thing that I didn't really even understand what it meant, though, as far as, like, troubleshooting this.
+
+00:13:32.000 --> 00:13:34.000
+Ami Price: Okay.
+
+00:13:33.000 --> 00:13:36.000
+Whitney Hodges: Um, and let me see…
+
+00:13:36.000 --> 00:13:46.000
+Whitney Hodges: if it makes sense to you. Let me share my screen. Or you could let me know if this is, like, already in place, right? Um…
+
+00:13:40.000 --> 00:13:41.000
+Ami Price: Sure.
+
+00:13:42.000 --> 00:13:44.000
+Ami Price: Yeah, no, it's good.
+
+00:13:46.000 --> 00:13:55.000
+Whitney Hodges: So, I mean, this is just from, like, a Google AI search, right? We say we use the LC email, Cloudflare's DNS, like…
+
+00:13:49.000 --> 00:13:50.000
+Ami Price: Sure.
+
+00:13:52.000 --> 00:13:53.000
+Ami Price: Yep.
+
+00:13:53.000 --> 00:13:58.000
+Ami Price: CloudFlare is turned off proxy. We do not, Mailgun does not allow proxying.
+
+00:13:58.000 --> 00:14:13.000
+Whitney Hodges: OK, perfect. It was saying there's this second step though, and I don't quite fully understand what this means. Something about edge certificates and disabling universal SSL.
+
+00:14:06.000 --> 00:14:07.000
+Ami Price: Okay.
+
+00:14:12.000 --> 00:14:16.000
+Ami Price: Let me go in and look and just double check it.
+
+00:14:13.000 --> 00:14:15.000
+Whitney Hodges: Again, I don't know what that means.
+
+00:14:15.000 --> 00:14:16.000
+Whitney Hodges: Okay.
+
+00:14:16.000 --> 00:14:21.000
+Ami Price: That is not a standard thing that we turn on. So let me just see.
+
+00:14:18.000 --> 00:14:20.000
+Whitney Hodges: Right.
+
+00:14:20.000 --> 00:14:21.000
+Whitney Hodges: Yeah.
+
+00:14:23.000 --> 00:14:27.000
+Ami Price: And also, when the proxy's off.
+
+00:14:27.000 --> 00:14:28.000
+Whitney Hodges: Mm-hmm.
+
+00:14:28.000 --> 00:14:31.000
+Ami Price: It doesn't even…
+
+00:14:31.000 --> 00:14:33.000
+Ami Price: run through Cloudflare.
+
+00:14:32.000 --> 00:14:35.000
+Whitney Hodges: Got it. Mm-hmm.
+
+00:14:33.000 --> 00:14:44.000
+Ami Price: Like, it's not even, like… so that orange proxy that it mentions over and over again, that says, do you want Cloudflare to handle this or not? And if it's off, Cloudflare's not even.
+
+00:14:38.000 --> 00:14:39.000
+Whitney Hodges: Right.
+
+00:14:41.000 --> 00:14:43.000
+Whitney Hodges: Right.
+
+00:14:43.000 --> 00:14:46.000
+Whitney Hodges: Got it. Yeah.
+
+00:14:44.000 --> 00:14:45.000
+Ami Price: involved.
+
+00:14:45.000 --> 00:14:55.000
+Ami Price: Um, let me check this. And that's… that is… that tracks with the fact that we're seeing that the cert is issued by Mailgun and expired at this point 24 days ago.
+
+00:14:53.000 --> 00:14:54.000
+Whitney Hodges: Right.
+
+00:14:54.000 --> 00:14:56.000
+Whitney Hodges: Right. Mm-hmm.
+
+00:14:55.000 --> 00:14:59.000
+Ami Price: Is is what it shows. Okay, let's look at here.
+
+00:14:56.000 --> 00:14:57.000
+Whitney Hodges: Yeah.
+
+00:14:59.000 --> 00:15:04.000
+Ami Price: I will go to Ssl and edge certificates.
+
+00:15:14.000 --> 00:15:17.000
+Ami Price: So, there is…
+
+00:15:17.000 --> 00:15:22.000
+Ami Price: no way to disable universal SSL without.
+
+00:15:21.000 --> 00:15:22.000
+Whitney Hodges: Bye.
+
+00:15:22.000 --> 00:15:25.000
+Ami Price: Disabling searches for their entire domain.
+
+00:15:25.000 --> 00:15:36.000
+Whitney Hodges: Right. Okay. Got it. Yeah. And it says to only do that, it says if the gray cloud tweak in step one doesn't work, it'll flew out a few hours. What is that? Sorry.
+
+00:15:31.000 --> 00:15:34.000
+Ami Price: Yeah, yeah.
+
+00:15:34.000 --> 00:15:40.000
+Ami Price: Um, but that would take their whole website insecure if we disabled the universal, yeah.
+
+00:15:37.000 --> 00:15:40.000
+Whitney Hodges: Yeah, yeah, we don't do that. Yeah.
+
+00:15:40.000 --> 00:15:41.000
+Ami Price: Um…
+
+00:15:41.000 --> 00:15:46.000
+Ami Price: So I mean, I'm surprised Mailgun has not been able to.
+
+00:15:46.000 --> 00:15:47.000
+Ami Price: Help?
+
+00:15:47.000 --> 00:15:48.000
+Whitney Hodges: I know.
+
+00:15:47.000 --> 00:15:56.000
+Ami Price: Honestly, that's really strange to me that they've not been able to help.
+
+00:15:48.000 --> 00:15:49.000
+Whitney Hodges: Yeah.
+
+00:15:51.000 --> 00:15:53.000
+Whitney Hodges: Yeah.
+
+00:15:56.000 --> 00:16:14.000
+Ami Price: But just looking at this one more time, it is off. It's off for all of the Mailgun entries. There's email.mg.ridgefield, there's email.reply.ridgefield, and there's info.ridgefieldweddings.co, and there's link.ridgefieldweddings.co, and they're all off.
+
+00:16:02.000 --> 00:16:03.000
+Whitney Hodges: Okay.
+
+00:16:14.000 --> 00:16:17.000
+Whitney Hodges: Okay, got it. Let me just…
+
+00:16:18.000 --> 00:16:28.000
+Whitney Hodges: Really quick, just to, like, double check, like, totally be on the safe side, I want to pull up the records that I have on my end, and just, like, show you what we have inside of, um…
+
+00:16:22.000 --> 00:16:24.000
+Ami Price: Mm-hmm. Yep.
+
+00:16:30.000 --> 00:16:32.000
+Whitney Hodges: Inside of their GHL account.
+
+00:16:31.000 --> 00:16:33.000
+Ami Price: Yep.
+
+00:16:41.000 --> 00:16:44.000
+Whitney Hodges: Thanks for looking at this with me.
+
+00:16:42.000 --> 00:16:45.000
+Ami Price: Of course, of course.
+
+00:16:54.000 --> 00:16:58.000
+Whitney Hodges: Amy, remind me, where are you guys located?
+
+00:16:57.000 --> 00:17:00.000
+Ami Price: Uh, we're in Asheville, North Carolina.
+
+00:16:59.000 --> 00:17:05.000
+Whitney Hodges: Oh, beautiful. Um, I'm in Texas, outside of Austin. Yeah.
+
+00:17:00.000 --> 00:17:01.000
+Ami Price: How about you?
+
+00:17:03.000 --> 00:17:06.000
+Ami Price: Okay. Okay. Awesome.
+
+00:17:06.000 --> 00:17:09.000
+Whitney Hodges: Yeah, okay, so let's see…
+
+00:17:10.000 --> 00:17:13.000
+Whitney Hodges: Umm. Email services.
+
+00:17:29.000 --> 00:17:31.000
+Whitney Hodges: Yeah, see, it says…
+
+00:17:31.000 --> 00:17:37.000
+Whitney Hodges: It's issued and all good, but it's not. Okay, uh…
+
+00:17:34.000 --> 00:17:49.000
+Ami Price: Mm-hmm. Oh, is there — I wonder if there's a way to — and this is also not Mailgun, to be clear. This is like them saying they're doing it through Mailgun. I would have them log in literally to Mailgun.
+
+00:17:41.000 --> 00:17:43.000
+Whitney Hodges: Mm-hmm. Yeah.
+
+00:17:48.000 --> 00:17:51.000
+Whitney Hodges: Right. Mm-hmm.
+
+00:17:49.000 --> 00:17:54.000
+Ami Price: and do it through there, um, which I would assume they have.
+
+00:17:51.000 --> 00:17:52.000
+Whitney Hodges: Yeah.
+
+00:17:53.000 --> 00:17:56.000
+Whitney Hodges: Right, exactly. Yeah.
+
+00:17:54.000 --> 00:17:58.000
+Ami Price: Said. Log in. Um…
+
+00:18:01.000 --> 00:18:03.000
+Ami Price: Yeah.
+
+00:18:03.000 --> 00:18:09.000
+Ami Price: And yep, so email.reply just goes to mailgang.org. Yep, that's in there.
+
+00:18:06.000 --> 00:18:07.000
+Whitney Hodges: Mm-hmm.
+
+00:18:08.000 --> 00:18:15.000
+Whitney Hodges: Okay, awesome. Yeah, and the MX stuff is in there, and the DMARC, I mean, it's all verified.
+
+00:18:09.000 --> 00:18:12.000
+Ami Price: All that stuff's in there. So…
+
+00:18:12.000 --> 00:18:14.000
+Ami Price: Mm-hmm.
+
+00:18:14.000 --> 00:18:15.000
+Ami Price: Mmhm.
+
+00:18:16.000 --> 00:18:17.000
+Ami Price: Yep.
+
+00:18:16.000 --> 00:18:20.000
+Whitney Hodges: And I don't think anything's missing, so…
+
+00:18:18.000 --> 00:18:23.000
+Ami Price: No, I don't either. And obviously it was working until.
+
+00:18:20.000 --> 00:18:22.000
+Whitney Hodges: Yeah.
+
+00:18:23.000 --> 00:18:25.000
+Whitney Hodges: Right, yeah, I mean…
+
+00:18:24.000 --> 00:18:27.000
+Ami Price: 21 days ago, or whatever.
+
+00:18:25.000 --> 00:18:30.000
+Whitney Hodges: Yeah, like we, I mean, we fully test everything and.
+
+00:18:27.000 --> 00:18:28.000
+Ami Price: Yeah.
+
+00:18:29.000 --> 00:18:41.000
+Ami Price: Utterly bizarre. Okay, well, I mean, I'm sure they don't want us to, but we're happy to help with Mailgun. We, you know, have used it on other clients before. It's not our preferred, but it exists.
+
+00:18:30.000 --> 00:18:32.000
+Whitney Hodges: Yeah.
+
+00:18:36.000 --> 00:18:37.000
+Whitney Hodges: Mm-hmm.
+
+00:18:38.000 --> 00:18:40.000
+Whitney Hodges: Mm-hmm.
+
+00:18:40.000 --> 00:18:42.000
+Whitney Hodges: Mm-hmm.
+
+00:18:41.000 --> 00:18:43.000
+Ami Price: But I'm imagining they have a…
+
+00:18:43.000 --> 00:18:45.000
+Ami Price: I can't…
+
+00:18:45.000 --> 00:18:56.000
+Ami Price: I guess it's up to them. We wouldn't have individual Mailgun accounts for each of our clients. That seems silly. So it's probably some sort of umbrella account. Yeah.
+
+00:18:47.000 --> 00:18:49.000
+Whitney Hodges: Yeah, it's right there.
+
+00:18:52.000 --> 00:19:07.000
+Whitney Hodges: Right, it's all through CHL. Yeah, exactly. I think I have seen that there is a way that if we really needed to, we could create a Mailgun account for Ridgefield, and then kind of own that a little bit more, but um…
+
+00:19:02.000 --> 00:19:05.000
+Ami Price: Okay. Okay.
+
+00:19:07.000 --> 00:19:16.000
+Whitney Hodges: they had said that they were supposed to get back to us within 24 to 48 hours. Today, we'll… we're just about at the 48-hour mark, so…
+
+00:19:10.000 --> 00:19:12.000
+Ami Price: Okay.
+
+00:19:12.000 --> 00:19:14.000
+Ami Price: Okay.
+
+00:19:15.000 --> 00:19:31.000
+Ami Price: It's interesting too that like Mailgun is issuing SSLs for a subdomain. Like it's just a whole bizarre, honestly, it's a bizarre setup. Like it's super, I've never seen anything that convoluted from any CRM.
+
+00:19:16.000 --> 00:19:19.000
+Whitney Hodges: circle back with us.
+
+00:19:23.000 --> 00:19:24.000
+Whitney Hodges: Mm-hmm.
+
+00:19:24.000 --> 00:19:27.000
+Whitney Hodges: Yeah, that's all. Yeah.
+
+00:19:28.000 --> 00:19:29.000
+Whitney Hodges: Mm-hmm.
+
+00:19:29.000 --> 00:19:36.000
+Whitney Hodges: Yeah, yeah, yeah, it's it's complicated to set up for sure. Yeah.
+
+00:19:31.000 --> 00:19:33.000
+Ami Price: Um…
+
+00:19:33.000 --> 00:19:44.000
+Ami Price: Yeah. Uh, well, keep us posted. We're, um, we're on the run this weekend, but we'll be around to troubleshoot, just maybe not, like, right away. Um…
+
+00:19:37.000 --> 00:19:39.000
+Whitney Hodges: I will. Thank you.
+
+00:19:42.000 --> 00:19:44.000
+Whitney Hodges: Okay, sure.
+
+00:19:44.000 --> 00:19:56.000
+Ami Price: But if you want, I can go ahead and export their records from Cloudflare and email you, like, the TXT file, so you guys have, like, just an export of the current records.
+
+00:19:51.000 --> 00:19:53.000
+Whitney Hodges: Mm-hmm.
+
+00:19:56.000 --> 00:19:59.000
+Whitney Hodges: Yeah, you're welcome, Sue. Yeah.
+
+00:19:56.000 --> 00:20:03.000
+Ami Price: Maybe that way you have all the information and, like, you know, if they have questions.
+
+00:20:00.000 --> 00:20:06.000
+Whitney Hodges: Yeah, I can like show that to GHL. Yeah. That would be great.
+
+00:20:03.000 --> 00:20:04.000
+Ami Price: Yep.
+
+00:20:04.000 --> 00:20:06.000
+Ami Price: Um…
+
+00:20:06.000 --> 00:20:15.000
+Ami Price: Alright, perfect. I'll do that, and I'll send it to you, but all the, like, MX records are in there for Mailgun, and, of course, Google Apps, right? Because they have both.
+
+00:20:13.000 --> 00:20:16.000
+Whitney Hodges: Right. Yeah.
+
+00:20:15.000 --> 00:20:17.000
+Ami Price: Um…
+
+00:20:17.000 --> 00:20:33.000
+Ami Price: And then, just to be clear, when you're in there, the MX record is reply.ridgefieldweddings, not email.reply. Yep, okay, perfect. Yep, so the only thing in there for email.reply is just the CNAME to go to mailgun.org and proxied false.
+
+00:20:22.000 --> 00:20:24.000
+Whitney Hodges: Great.
+
+00:20:24.000 --> 00:20:27.000
+Whitney Hodges: Right. Mm-hmm. Yep.
+
+00:20:33.000 --> 00:20:39.000
+Whitney Hodges: Yeah, got it. It's always confused me why that one has to be email.reply when the actual…
+
+00:20:35.000 --> 00:20:36.000
+Ami Price: So…
+
+00:20:39.000 --> 00:20:41.000
+Whitney Hodges: Email address is just…
+
+00:20:41.000 --> 00:20:46.000
+Whitney Hodges: reply dot and then the subdomain. It's so confusing to me.
+
+00:20:45.000 --> 00:20:50.000
+Ami Price: Well, because they're not actually sending email from it, that's a lander.
+
+00:20:46.000 --> 00:20:48.000
+Whitney Hodges: Let's see.
+
+00:20:50.000 --> 00:20:52.000
+Whitney Hodges: Got it. Okay.
+
+00:20:50.000 --> 00:20:54.000
+Ami Price: So the reply dot is the actual email.
+
+00:20:53.000 --> 00:20:55.000
+Whitney Hodges: Mmhm.
+
+00:20:54.000 --> 00:21:02.000
+Ami Price: address, right? The email.reply… bizarre, right? I would have said landing.whatever, but…
+
+00:20:56.000 --> 00:20:57.000
+Whitney Hodges: Mm-hmm.
+
+00:20:58.000 --> 00:21:00.000
+Whitney Hodges: Yeah.
+
+00:21:00.000 --> 00:21:04.000
+Whitney Hodges: Right. Yeah. Yeah. Yeah. Yeah.
+
+00:21:02.000 --> 00:21:11.000
+Ami Price: Not my circus. Um, that is literally just a landing page, right? That's all they're trying to do is view a landing page, correct? On that link?
+
+00:21:08.000 --> 00:21:10.000
+Whitney Hodges: Got it. Mm-hmm.
+
+00:21:11.000 --> 00:21:13.000
+Whitney Hodges: So…
+
+00:21:11.000 --> 00:21:15.000
+Ami Price: Like, that email.reply is basically a lander from the emails.
+
+00:21:15.000 --> 00:21:18.000
+Whitney Hodges: So, the…
+
+00:21:18.000 --> 00:21:24.000
+Whitney Hodges: what is happening? Specifically, what is happening, right, is that, like, we have this, uh…
+
+00:21:24.000 --> 00:21:39.000
+Whitney Hodges: subdomain, right, set up for their emailing. So, all of their emails from LeadLock are coming from info at reply.ridgefieldweddings.co, right? So, somebody inquires, they receive that, um…
+
+00:21:28.000 --> 00:21:29.000
+Ami Price: Mm-hmm.
+
+00:21:31.000 --> 00:21:34.000
+Ami Price: Yep, yep, yep.
+
+00:21:35.000 --> 00:21:36.000
+Ami Price: Yep.
+
+00:21:39.000 --> 00:22:03.000
+Whitney Hodges: you know, initial email. And inside that email, there's a link for people to be able to book a tour. There's a link for people to view their price guide in Canva. So when people try to click any of the links that are coming from the emails, it's telling them that you know it's not secure. But if I were to just give people the landing page URL like it's fine, it all works so.
+
+00:21:58.000 --> 00:22:01.000
+Ami Price: The regular link, it's fine.
+
+00:22:03.000 --> 00:22:09.000
+Ami Price: Got it. So what that is, is basically they're cloaking links to track who's clicking where.
+
+00:22:09.000 --> 00:22:11.000
+Whitney Hodges: Okay, so if I were to…
+
+00:22:09.000 --> 00:22:11.000
+Ami Price: Just so you know.
+
+00:22:11.000 --> 00:22:15.000
+Whitney Hodges: OK, I wonder if I were to turn off.
+
+00:22:15.000 --> 00:22:17.000
+Whitney Hodges: Link tracking, if that would fix it.
+
+00:22:16.000 --> 00:22:19.000
+Ami Price: That's probably will do it.
+
+00:22:18.000 --> 00:22:22.000
+Whitney Hodges: Oh my gosh. Okay. Thank you.
+
+00:22:20.000 --> 00:22:33.000
+Ami Price: it's a redirect, right? They're bouncing through that, and so that domain, that's why they're controlling the security cert, and it won't bounce them through it to get to the end domain.
+
+00:22:22.000 --> 00:22:23.000
+Whitney Hodges: Yeah.
+
+00:22:24.000 --> 00:22:25.000
+Whitney Hodges: Uh-huh.
+
+00:22:31.000 --> 00:22:32.000
+Whitney Hodges: Uh-huh.
+
+00:22:33.000 --> 00:22:35.000
+Whitney Hodges: Okay, got it.
+
+00:22:33.000 --> 00:22:41.000
+Ami Price: So that is where it's getting hitched. And this is why we hate with the power of a thousand suns, and no offense if this offends you.
+
+00:22:36.000 --> 00:22:37.000
+Whitney Hodges: Okay.
+
+00:22:40.000 --> 00:22:41.000
+Whitney Hodges: Okay.
+
+00:22:41.000 --> 00:22:52.000
+Ami Price: landing pages outside of their own website. We would always, always, always recommend that that lander is a no-indexed page on richfieldweddings.com slash ad landing.
+
+00:22:43.000 --> 00:22:45.000
+Whitney Hodges: Mm, mm-hmm.
+
+00:22:52.000 --> 00:22:54.000
+Whitney Hodges: Got it. Mm-hmm.
+
+00:22:52.000 --> 00:23:10.000
+Ami Price: Because we then can track everything in Google Analytics and track all the conversions and where everybody came from and have everything all in one place and it's fully branded and we all have full control and it's on their main website and can change and move with everything else.
+
+00:22:56.000 --> 00:22:57.000
+Whitney Hodges: Mm-hmm.
+
+00:22:58.000 --> 00:23:00.000
+Whitney Hodges: Mm-hmm.
+
+00:23:03.000 --> 00:23:05.000
+Whitney Hodges: Mm-hmm.
+
+00:23:06.000 --> 00:23:08.000
+Whitney Hodges: Okay.
+
+00:23:10.000 --> 00:23:13.000
+Whitney Hodges: Right, okay, good to know. Mm-hmm.
+
+00:23:11.000 --> 00:23:12.000
+Ami Price: So…
+
+00:23:12.000 --> 00:23:19.000
+Ami Price: Um, most… and for… I understand completely the operational reasons that most.
+
+00:23:18.000 --> 00:23:19.000
+Whitney Hodges: I'm good.
+
+00:23:19.000 --> 00:23:32.000
+Ami Price: providers don't want to do that, because they want exactly the opposite control. They want to build the landing page, they want to control everything, they want to handle everything, and I totally get that, right? But then you introduce all this unnecessary, like.
+
+00:23:22.000 --> 00:23:24.000
+Whitney Hodges: Yeah, right.
+
+00:23:26.000 --> 00:23:27.000
+Whitney Hodges: Mm-hmm.
+
+00:23:28.000 --> 00:23:29.000
+Whitney Hodges: Mm-hmm.
+
+00:23:32.000 --> 00:23:33.000
+Whitney Hodges: Mmhm.
+
+00:23:32.000 --> 00:23:38.000
+Ami Price: complexity. But that's exactly what's happening, it's link tracking. So, you may want to try…
+
+00:23:33.000 --> 00:23:34.000
+Whitney Hodges: Yeah.
+
+00:23:35.000 --> 00:23:37.000
+Whitney Hodges: Yeah. Yeah.
+
+00:23:38.000 --> 00:23:45.000
+Whitney Hodges: I'll… yeah, I'll try trying… I mean, it's like, we always want to be able to know if somebody's clicked a link, but if they're not gonna be able.
+
+00:23:42.000 --> 00:23:47.000
+Ami Price: But those old links, though, in their old emails will still fail.
+
+00:23:47.000 --> 00:23:49.000
+Whitney Hodges: Sorry, say that again.
+
+00:23:48.000 --> 00:23:57.000
+Ami Price: the links in their emails will still fail, because the link tracking would only go forward, see what I mean? Like, they have emails in their inbox with the existing…
+
+00:23:56.000 --> 00:24:03.000
+Whitney Hodges: Got it. Okay, so move it, but moving forward for new people that are receiving it. Okay. Okay.
+
+00:24:01.000 --> 00:24:02.000
+Ami Price: Mm-hmm.
+
+00:24:02.000 --> 00:24:04.000
+Ami Price: Yeah, and…
+
+00:24:03.000 --> 00:24:05.000
+Whitney Hodges: Okay, let's try that right now.
+
+00:24:05.000 --> 00:24:17.000
+Ami Price: I'm certain that GoHighLevel then has redirects on their side to basically say, email.reply.ridgefield.co goes, you know, slash random string here goes to this Canva.
+
+00:24:12.000 --> 00:24:14.000
+Whitney Hodges: Okay.
+
+00:24:15.000 --> 00:24:16.000
+Whitney Hodges: Mm-hmm.
+
+00:24:16.000 --> 00:24:18.000
+Whitney Hodges: Yes.
+
+00:24:17.000 --> 00:24:21.000
+Ami Price: Right? So, you know.
+
+00:24:18.000 --> 00:24:19.000
+Whitney Hodges: Mm-hmm. Right.
+
+00:24:21.000 --> 00:24:28.000
+Ami Price: If we really can't get it working, which I can't imagine, eventually they can't figure it out. But like, if we really can't, we could recreate that.
+
+00:24:25.000 --> 00:24:27.000
+Whitney Hodges: Yeah. Great.
+
+00:24:28.000 --> 00:24:30.000
+Whitney Hodges: Mm-hmm.
+
+00:24:28.000 --> 00:24:34.000
+Ami Price: you know, by doing, like, an email.reply redirect in Cloudflare.
+
+00:24:33.000 --> 00:24:35.000
+Whitney Hodges: Okay.
+
+00:24:34.000 --> 00:24:40.000
+Ami Price: And actually proxying it through Cloudflare, see what I mean? And doing those redirects through their actual DNS.
+
+00:24:37.000 --> 00:24:38.000
+Whitney Hodges: Uh-huh.
+
+00:24:40.000 --> 00:24:42.000
+Whitney Hodges: Got it. Okay.
+
+00:24:40.000 --> 00:24:42.000
+Ami Price: If we need to.
+
+00:24:42.000 --> 00:24:52.000
+Whitney Hodges: Okay, yeah. I'm hoping it's just gonna… they're gonna figure it out, and it's gonna be resolved today, but in the meantime, I'm gonna go in and see if turning off that link tracking…
+
+00:24:45.000 --> 00:24:48.000
+Ami Price: Yeah. Yeah. Yeah.
+
+00:24:50.000 --> 00:24:57.000
+Ami Price: Do it, and then send an email to a test email, and then see if you get the plain Canva links, or whatever.
+
+00:24:52.000 --> 00:24:55.000
+Whitney Hodges: Yeah, exactly.
+
+00:24:56.000 --> 00:25:01.000
+Whitney Hodges: Right. Yeah. Okay. Perfect. Thank you so much. I really appreciate it.
+
+00:24:57.000 --> 00:24:58.000
+Ami Price: Yeah.
+
+00:24:59.000 --> 00:25:05.000
+Ami Price: All right. Yeah, of course. Of course. I'm sorry it's been such a cluster.
+
+00:25:01.000 --> 00:25:03.000
+Whitney Hodges: Mmhm.
+
+00:25:03.000 --> 00:25:11.000
+Whitney Hodges: No, it's okay. Yeah, it's just hard when it's, like, something's not working and you feel like it's, like, out of your control.
+
+00:25:10.000 --> 00:25:24.000
+Ami Price: I know, I know, I know. Um, but I'll message, uh, that trail back with the export of the DNS records, just so you have, like, the full and complete Cloudflare, um, situation.
+
+00:25:11.000 --> 00:25:14.000
+Whitney Hodges: Oh. Mm-hmm. Yes.
+
+00:25:18.000 --> 00:25:19.000
+Whitney Hodges: Perfect.
+
+00:25:21.000 --> 00:25:23.000
+Whitney Hodges: Okay.
+
+00:25:24.000 --> 00:25:25.000
+Whitney Hodges: Perfect.
+
+00:25:24.000 --> 00:25:39.000
+Ami Price: Um, awesome, and I'll keep you posted, well, the whole thread, I'll keep you guys posted on the timing of the switchover once Scott, you know, approves actual go-live time, but I would definitely anticipate, you know, if not that first week of August, the second week.
+
+00:25:31.000 --> 00:25:32.000
+Whitney Hodges: Okay.
+
+00:25:39.000 --> 00:25:44.000
+Whitney Hodges: Sounds good. Yeah, we're excited to see the new site, I think.
+
+00:25:41.000 --> 00:25:42.000
+Ami Price: Yeah, thanks!
+
+00:25:42.000 --> 00:25:49.000
+Ami Price: Thanks! I think it's gonna be really pretty. It's, you know, not that the old site was ugly, I just…
+
+00:25:48.000 --> 00:25:49.000
+Whitney Hodges: Mm-hmm.
+
+00:25:49.000 --> 00:25:54.000
+Ami Price: didn't agree with some of the image choices and stuff. It was a little basic, so…
+
+00:25:51.000 --> 00:25:53.000
+Whitney Hodges: Got it. Yeah.
+
+00:25:53.000 --> 00:25:59.000
+Whitney Hodges: Has overall branding changed? I mean, like, our colors, logos, fonts, any of that changing?
+
+00:25:58.000 --> 00:26:05.000
+Ami Price: Yeah, I can give you… I don't think he'd mind me giving you a little peek at the, um…
+
+00:26:05.000 --> 00:26:13.000
+Ami Price: at the prototype. Let me pull it up here. The fonts are changing, but they're still in the same format.
+
+00:26:13.000 --> 00:26:28.000
+Ami Price: general feel. The logo is still the same. Um, we just elevated the font a little bit, and then the color palette, yes, is… here, let me… and I'm on a tiny laptop, so sorry, this is gonna be…
+
+00:26:17.000 --> 00:26:19.000
+Whitney Hodges: Mm-hmm.
+
+00:26:23.000 --> 00:26:25.000
+Whitney Hodges: Yes.
+
+00:26:26.000 --> 00:26:28.000
+Whitney Hodges: That's okay.
+
+00:26:28.000 --> 00:26:30.000
+Ami Price: Let's share.
+
+00:26:32.000 --> 00:26:34.000
+Ami Price: There we go.
+
+00:26:34.000 --> 00:26:37.000
+Ami Price: So we went with more of a kind of **** green.
+
+00:26:37.000 --> 00:26:39.000
+Whitney Hodges: Oh, pretty!
+
+00:26:38.000 --> 00:26:40.000
+Ami Price: um, palette here.
+
+00:26:40.000 --> 00:26:42.000
+Whitney Hodges: Mm-hmm.
+
+00:26:40.000 --> 00:26:46.000
+Ami Price: And then the font, it's just a little bit, because that La Luxe is on…
+
+00:26:46.000 --> 00:26:51.000
+Ami Price: everybody's site everywhere. So it's just a nice little elevated.
+
+00:26:47.000 --> 00:26:50.000
+Whitney Hodges: Yeah. Mm-hmm.
+
+00:26:51.000 --> 00:26:52.000
+Whitney Hodges: Okay.
+
+00:26:51.000 --> 00:26:54.000
+Ami Price: I think it's called Perfect Romantic.
+
+00:26:53.000 --> 00:26:55.000
+Whitney Hodges: Mm-hmm.
+
+00:26:54.000 --> 00:27:00.000
+Ami Price: But very, very in line with where they are now, just a little bit grown up.
+
+00:27:01.000 --> 00:27:05.000
+Whitney Hodges: I like it. Yeah. Beautiful. Yeah.
+
+00:27:03.000 --> 00:27:08.000
+Ami Price: Yeah. Obviously it's hard to see on, you know, the prototypes, but.
+
+00:27:07.000 --> 00:27:09.000
+Whitney Hodges: Yeah, that's okay.
+
+00:27:08.000 --> 00:27:18.000
+Ami Price: And then they did a whole shoot, which is nice. So we had some fresh images to work with and some drone photography. But yeah, it's…
+
+00:27:12.000 --> 00:27:15.000
+Whitney Hodges: Oh, love it. Okay.
+
+00:27:17.000 --> 00:27:19.000
+Whitney Hodges: Very nice.
+
+00:27:18.000 --> 00:27:27.000
+Ami Price: it's… it's gonna be a nice little step up, I think, from where they are. Um, which their… their template that they were on before is basically…
+
+00:27:26.000 --> 00:27:28.000
+Whitney Hodges: Mm-hmm.
+
+00:27:27.000 --> 00:27:40.000
+Ami Price: we've converted, I think, 4 people from exactly that same layout template. We don't do template sites, not that there's anything wrong with them, it's just we think that everybody deserves their own, like.
+
+00:27:30.000 --> 00:27:34.000
+Whitney Hodges: Yeah.
+
+00:27:36.000 --> 00:27:39.000
+Whitney Hodges: Yeah. Mm-hmm.
+
+00:27:39.000 --> 00:27:55.000
+Whitney Hodges: Something custom, yeah. Yeah. Love that. Yeah, okay, well, when everything's officially approved, or before everything goes live, if you wouldn't mind sharing the brand assets with us, so that we can make sure everything feels cohesive with the landing pages we do have on our end, and…
+
+00:27:40.000 --> 00:27:43.000
+Ami Price: Personality. Yeah.
+
+00:27:48.000 --> 00:27:50.000
+Ami Price: Absolutely.
+
+00:27:50.000 --> 00:27:51.000
+Ami Price: Absolutely.
+
+00:27:54.000 --> 00:27:56.000
+Ami Price: Yeah.
+
+00:27:55.000 --> 00:27:57.000
+Whitney Hodges: Ads and all of that.
+
+00:27:56.000 --> 00:28:11.000
+Ami Price: Yeah, and if we ever do want to get to a point where you'd rather, or you even want to talk about what it would look like if the Landers were on their website, like, we can talk about that. I'm not trying to step on what you're doing, just saying we may be able to have, like, a more interlocked.
+
+00:28:05.000 --> 00:28:06.000
+Whitney Hodges: Mm-hmm.
+
+00:28:07.000 --> 00:28:09.000
+Whitney Hodges: Mm-hmm.
+
+00:28:11.000 --> 00:28:15.000
+Ami Price: Experience for people, if everything's on the site.
+
+00:28:11.000 --> 00:28:13.000
+Whitney Hodges: Yes.
+
+00:28:13.000 --> 00:28:15.000
+Whitney Hodges: Mm-hmm.
+
+00:28:15.000 --> 00:28:31.000
+Whitney Hodges: Yeah, got it. Um, yeah, I mean, I think if you were… you know, a big reason that we like our team to be able to have access to that, right, not only is because of the data, but is, like, if we see an area of opportunity, well, we're just gonna go jump into the landing page and.
+
+00:28:23.000 --> 00:28:25.000
+Ami Price: Mm-hmm.
+
+00:28:31.000 --> 00:28:36.000
+Ami Price: Oh, you'd be able to edit it. We would give you an account, yeah.
+
+00:28:31.000 --> 00:28:43.000
+Whitney Hodges: and edit it, right? So I would just want to make sure that, like, that would be okay, um, that it wouldn't have to be something of, like, we think this needs to change, or this copy needs to change, and then we're sending it to you, and then it's like…
+
+00:28:41.000 --> 00:28:53.000
+Ami Price: No, we would give you an account to edit it. I mean, assuming Scott is happy with, you know, whatever the new setup would be, like, absolutely, you'd have access, but simple things, like…
+
+00:28:43.000 --> 00:28:46.000
+Whitney Hodges: A week later or something like that. Okay.
+
+00:28:47.000 --> 00:28:49.000
+Whitney Hodges: Mm-hmm. Yeah.
+
+00:28:50.000 --> 00:28:52.000
+Whitney Hodges: Mmhm.
+
+00:28:53.000 --> 00:29:04.000
+Ami Price: we are eventually going to put a portfolio section on the site, right, with his most recent weddings and favorite weddings. As we add new ones, you know, that landing page could dynamically update with the latest content.
+
+00:28:56.000 --> 00:28:58.000
+Whitney Hodges: Mm-hmm.
+
+00:29:00.000 --> 00:29:01.000
+Whitney Hodges: Mm-hmm.
+
+00:29:04.000 --> 00:29:07.000
+Whitney Hodges: Right. Mm-hmm.
+
+00:29:04.000 --> 00:29:09.000
+Ami Price: just for example, right? Like, view our latest weddings at Ridgefield, and you wouldn't have to do a thing to.
+
+00:29:09.000 --> 00:29:12.000
+Whitney Hodges: Mm-hmm, yeah. Okay.
+
+00:29:10.000 --> 00:29:16.000
+Ami Price: Right? Simple example, but like, you know, or we shift a hex color.
+
+00:29:12.000 --> 00:29:14.000
+Whitney Hodges: Mmhm.
+
+00:29:16.000 --> 00:29:18.000
+Whitney Hodges: Mm-hmm. Yeah, it's already… yeah.
+
+00:29:16.000 --> 00:29:24.000
+Ami Price: You know, not that we plan on it, but we shift a hex color or change a font, it would automagically change, and you wouldn't have to do anything to make that happen.
+
+00:29:22.000 --> 00:29:26.000
+Whitney Hodges: Right. Mm-hmm. Makes sense. Mm-hmm. Okay.
+
+00:29:24.000 --> 00:29:35.000
+Ami Price: Right? So, you know, pros and cons, and of course, can build and look however we want. We have people who do minimal landing pages, and people do maximal landing pages, right?
+
+00:29:29.000 --> 00:29:31.000
+Whitney Hodges: Mm-hmm.
+
+00:29:33.000 --> 00:29:36.000
+Whitney Hodges: Yeah. Mm-hmm.
+
+00:29:35.000 --> 00:29:46.000
+Ami Price: Um, but yeah, not a conversation for today, but just a bug in the ear for future, of like, that's absolutely a possibility, if that's something we wanted to explore with you.
+
+00:29:40.000 --> 00:29:41.000
+Whitney Hodges: Sure.
+
+00:29:42.000 --> 00:29:43.000
+Whitney Hodges: Yeah.
+
+00:29:45.000 --> 00:29:49.000
+Whitney Hodges: Okay, we'll definitely keep that in mind. Thanks for that. Okay.
+
+00:29:47.000 --> 00:29:54.000
+Ami Price: Awesome. Okay, well, thank you. It's so nice to officially meet you. And yeah, you too. Bye.
+
+00:29:50.000 --> 00:29:54.000
+Whitney Hodges: You too, Amy. Have a great rest of your day.
+
+00:29:54.000 --> 00:29:56.000
+Whitney Hodges: Bye.
+
+00:34:53.000 --> 00:34:56.000
+judy: Hold on.
+
+00:34:56.000 --> 00:34:58.000
+Whitney Hodges: Take your time.
+
+00:34:58.000 --> 00:35:02.000
+judy: Hold on, Whitney. Let's see. Where do I am?
+
+00:34:59.000 --> 00:35:01.000
+Whitney Hodges: Sure.
+
+00:35:02.000 --> 00:35:06.000
+Whitney Hodges: I can see you now and hear you. Can you see me?
+
+00:35:09.000 --> 00:35:22.000
+judy: So it's still not on? You can't hear me, right? Oh, oh, oh, okay. Great, great. Uh, Brittany is running just a little behind, but she'll be here in just a minute.
+
+00:35:13.000 --> 00:35:17.000
+Whitney Hodges: No, I can hear you and thank you. Yeah, you're great.
+
+00:35:22.000 --> 00:35:23.000
+Whitney Hodges: Okay.
+
+00:35:23.000 --> 00:35:24.000
+judy: And…
+
+00:35:24.000 --> 00:35:26.000
+Whitney Hodges: Okay, no worries.
+
+00:35:24.000 --> 00:35:26.000
+judy: Uh, there.
+
+00:35:26.000 --> 00:35:39.000
+judy: Okay, alright. She'll be, like, just a minute or two. And can we, uh, put her, like, on… can she do it on her desk, also, do the Zoom, or does it have to be a whole new…
+
+00:35:32.000 --> 00:35:34.000
+Whitney Hodges: Okay, great.
+
+00:35:39.000 --> 00:35:43.000
+judy: Add on her computer. I'm sorry.
+
+00:35:44.000 --> 00:35:52.000
+Whitney Hodges: No, I mean, she should be able to log in and join the call with us if you shared the link with her. Definitely. Yeah.
+
+00:35:47.000 --> 00:35:51.000
+judy: Okay, I will. I'm going to give her the link real quick then.
+
+00:35:51.000 --> 00:35:54.000
+judy: All right, hold on.
+
+00:35:52.000 --> 00:35:54.000
+Whitney Hodges: Mm-hmm. Perfect.
+
+00:35:54.000 --> 00:35:56.000
+judy: Uh… hmm?
+
+00:36:01.000 --> 00:36:02.000
+judy: copy.
+
+00:36:09.000 --> 00:36:11.000
+judy: Mm-hmm.
+
+00:36:15.000 --> 00:36:18.000
+judy: Okay. All right. Yeah. All right.
+
+00:36:18.000 --> 00:36:23.000
+Whitney Hodges: Okay, perfect. Okay, well, I'll look forward to meeting her. How's your week been going?
+
+00:36:19.000 --> 00:36:21.000
+judy: Yeah.
+
+00:36:21.000 --> 00:36:37.000
+judy: How's my week been going? Hectic. I've had grandkids because one had to have surgery, so I've been keeping the other two. And then my daughter, the mom, had to have surgery too. And so it's been…
+
+00:36:26.000 --> 00:36:28.000
+Whitney Hodges: Okay.
+
+00:36:28.000 --> 00:36:29.000
+Whitney Hodges: Yeah.
+
+00:36:33.000 --> 00:36:34.000
+Whitney Hodges: Oh!
+
+00:36:34.000 --> 00:36:35.000
+Whitney Hodges: Mm-hmm.
+
+00:36:37.000 --> 00:36:42.000
+judy: I thought my today would be better, but it's still hectic.
+
+00:36:42.000 --> 00:36:47.000
+Whitney Hodges: Oh my goodness. Well, I hope everybody's okay and heals up quickly.
+
+00:36:43.000 --> 00:36:57.000
+judy: Yes. Yes, they're healing, hopefully now. So, yes. Um, so, you know what, one question I did not ask you last time we spoke was…
+
+00:36:47.000 --> 00:36:49.000
+Whitney Hodges: Hello?
+
+00:36:49.000 --> 00:36:52.000
+Whitney Hodges: Good, good.
+
+00:36:57.000 --> 00:36:59.000
+judy: About…
+
+00:36:58.000 --> 00:36:59.000
+Whitney Hodges: Mm-hmm.
+
+00:36:59.000 --> 00:37:04.000
+judy: Uh… oh, how much… how much, like, with the, um…
+
+00:37:04.000 --> 00:37:06.000
+judy: The ads.
+
+00:37:06.000 --> 00:37:17.000
+judy: how much it would that cost, and what the length of the contract agreement would be. And so that was the question, too. So, yeah.
+
+00:37:07.000 --> 00:37:09.000
+Whitney Hodges: Yes.
+
+00:37:11.000 --> 00:37:13.000
+Whitney Hodges: Mm-hmm.
+
+00:37:15.000 --> 00:37:21.000
+Whitney Hodges: Sure. Yeah, definitely. Yeah, we can definitely look at all of that today.
+
+00:37:18.000 --> 00:37:20.000
+judy: Okay, okay.
+
+00:37:21.000 --> 00:37:37.000
+Whitney Hodges: One thing you know to to be aware of right when you are running ads is that the ad spend itself right for actually running the ads on Google running the ads on Meta that that's going to get paid directly to Google and directly to Meta. Right? So you'll have like.
+
+00:37:26.000 --> 00:37:28.000
+judy: Yes.
+
+00:37:34.000 --> 00:37:36.000
+judy: Right.
+
+00:37:37.000 --> 00:37:53.000
+Whitney Hodges: a credit card on file in your ad accounts, and they'll charge you directly for that. So for ad spend itself, we do recommend a minimum of $500 per month per platform.
+
+00:37:38.000 --> 00:37:40.000
+judy: Okay.
+
+00:37:42.000 --> 00:37:43.000
+judy: Okay.
+
+00:37:51.000 --> 00:37:53.000
+judy: Okay, all right, that's…
+
+00:37:53.000 --> 00:38:05.000
+Whitney Hodges: $1,000 per month on the ad spend, so that you're, you know, getting the maximum visibility, um, and showing up, um, in, in both of those, those places. Um…
+
+00:37:57.000 --> 00:37:59.000
+judy: Okay.
+
+00:38:02.000 --> 00:38:03.000
+judy: Okay.
+
+00:38:03.000 --> 00:38:11.000
+judy: Now, do y'all do the actual ad for us, and then you post it when…
+
+00:38:05.000 --> 00:38:07.000
+Whitney Hodges: And…
+
+00:38:12.000 --> 00:38:16.000
+judy: When it's time or however all that works is my question.
+
+00:38:16.000 --> 00:38:18.000
+Whitney Hodges: We…
+
+00:38:17.000 --> 00:38:18.000
+judy: Okay.
+
+00:38:18.000 --> 00:38:32.000
+Whitney Hodges: We do, yes. So, we really handle, um, everything for you, as far as designing the ads, you know, the ad creatives, the ad copy, um, actually, you know.
+
+00:38:21.000 --> 00:38:23.000
+judy: Okay, okay.
+
+00:38:27.000 --> 00:38:29.000
+judy: Yes.
+
+00:38:32.000 --> 00:38:47.000
+Whitney Hodges: creating the ad accounts for you, right, and making sure that it's set up the right way. All of the necessary, you know, targeting, conversion tracking to make sure that everything is working, building the campaigns, launching the campaigns.
+
+00:38:32.000 --> 00:38:33.000
+judy: Right.
+
+00:38:34.000 --> 00:38:36.000
+judy: Right.
+
+00:38:42.000 --> 00:38:43.000
+judy: Okay.
+
+00:38:45.000 --> 00:38:46.000
+judy: Okay.
+
+00:38:47.000 --> 00:39:00.000
+Whitney Hodges: um, optimizing them over time, refreshing them with new ad creatives, um, as needed. Um, yeah, if you want to go down the road of ads, then we will handle all of that for you.
+
+00:38:48.000 --> 00:38:49.000
+judy: Alright.
+
+00:38:50.000 --> 00:38:52.000
+judy: Okay.
+
+00:38:57.000 --> 00:39:10.000
+judy: Okay, alright, alright. And then, is there a, um… I'm sure there is a minimum contract time, because, I mean, we have time to see if it's working, etc. Yeah.
+
+00:39:00.000 --> 00:39:03.000
+Whitney Hodges: Mm-hmm. Yeah. Mm-hmm.
+
+00:39:07.000 --> 00:39:09.000
+Whitney Hodges: Okay. Mm-hmm.
+
+00:39:11.000 --> 00:39:12.000
+judy: Yeah.
+
+00:39:11.000 --> 00:39:26.000
+Whitney Hodges: Exactly, yes. So the initial agreement is for six months of us working together. And then from there, it just renews month to month.
+
+00:39:16.000 --> 00:39:18.000
+judy: Perfect.
+
+00:39:18.000 --> 00:39:20.000
+judy: Alright.
+
+00:39:21.000 --> 00:39:23.000
+judy: I…
+
+00:39:23.000 --> 00:39:25.000
+judy: Oh, okay, great, great.
+
+00:39:26.000 --> 00:39:34.000
+Whitney Hodges: Most of our venue clients stay on with us long past the 6 months. Um, we have…
+
+00:39:30.000 --> 00:39:32.000
+judy: I would think so.
+
+00:39:32.000 --> 00:39:33.000
+judy: Yeah.
+
+00:39:34.000 --> 00:39:52.000
+Whitney Hodges: Yeah, we have a, uh, a venue in the Bryan College Station area that started working with us right after COVID, um, and they're still on our roster, so going on, like, 6 years at this point. Um, and then, yeah, several other, you know, some that have signed on newer earlier this year, but, like.
+
+00:39:36.000 --> 00:39:37.000
+judy: Yeah.
+
+00:39:39.000 --> 00:39:41.000
+judy: Uh-huh.
+
+00:39:42.000 --> 00:39:43.000
+judy: Okay.
+
+00:39:44.000 --> 00:39:46.000
+judy: Uh-huh.
+
+00:39:50.000 --> 00:39:51.000
+judy: Right.
+
+00:39:52.000 --> 00:40:02.000
+Whitney Hodges: we… we view it all as, like, a long-term relationship, most definitely. Um, but yes, the initial agreement would be for… for 6 months. Mm-hmm.
+
+00:39:53.000 --> 00:39:55.000
+judy: Okay. Okay.
+
+00:39:58.000 --> 00:40:06.000
+judy: Okay. Okay. Good. Good. Good. Okay. Well, that makes sense. And that answers that question. All right.
+
+00:40:02.000 --> 00:40:05.000
+Whitney Hodges: Mm-hmm. Mm-hmm. Yeah.
+
+00:40:05.000 --> 00:40:21.000
+Whitney Hodges: Mm-hmm. Good. Yeah, so the, um, the ads is definitely, you know, a piece of it, and I'll kind of show you more about kind of, like, what that looks like, um, as well. Um, but then there's also, um, lead block, right, or lead management.
+
+00:40:12.000 --> 00:40:14.000
+judy: Uh-huh.
+
+00:40:14.000 --> 00:40:15.000
+judy: Yep.
+
+00:40:18.000 --> 00:40:21.000
+judy: Yes, right.
+
+00:40:21.000 --> 00:40:28.000
+Whitney Hodges: platform, um, which really is what… it helps protect your ads investment.
+
+00:40:23.000 --> 00:40:24.000
+judy: Oh.
+
+00:40:25.000 --> 00:40:30.000
+judy: Oh, and this is Brittany. I'm sorry.
+
+00:40:29.000 --> 00:40:33.000
+Whitney Hodges: Hi. Hi, I'm Whitney. It's so nice to meet you.
+
+00:40:30.000 --> 00:40:48.000
+judy: Nice to meet you. Sorry. No, no, it's fine. We were going over the ad stuff because they'll do the like Google and Instagram ads. Okay. Is that am I saying that right? The Google and social media. Okay.
+
+00:40:48.000 --> 00:41:04.000
+judy: Because I don't know. And they would. They'll create the ads, do all of that, and then run them. Yeah, yeah. And they work. Y'all work strictly with, like, venues right now, right?
+
+00:40:48.000 --> 00:40:49.000
+Whitney Hodges: Mm-hmm.
+
+00:40:50.000 --> 00:40:51.000
+Whitney Hodges: Mm-hmm.
+
+00:41:00.000 --> 00:41:01.000
+Whitney Hodges: Mm-hmm.
+
+00:41:06.000 --> 00:41:22.000
+Whitney Hodges: The majority of clients on our roster are venues, but we work with planners and photographers and entertainment companies as well. But yes, for the full service advertising and lead lock. We do find that it is a really great fit for for venues.
+
+00:41:09.000 --> 00:41:11.000
+judy: Okay.
+
+00:41:18.000 --> 00:41:20.000
+judy: Okay.
+
+00:41:20.000 --> 00:41:21.000
+judy: Okay.
+
+00:41:21.000 --> 00:41:29.000
+judy: All right. And so she's going to talk to us, you know, about that lead law. It's a software, right?
+
+00:41:22.000 --> 00:41:24.000
+Whitney Hodges: Yeah, mm-hmm.
+
+00:41:29.000 --> 00:41:31.000
+judy: They offer…
+
+00:41:29.000 --> 00:41:31.000
+Whitney Hodges: Okay.
+
+00:41:31.000 --> 00:41:47.000
+judy: And this is where I'll be real honest with you, Brittany and I've been fighting, not with each other, but we really have a hard time going to this, um, way of doing it, but it's pretty much just me and her now, and uh…
+
+00:41:38.000 --> 00:41:40.000
+Whitney Hodges: Okay.
+
+00:41:45.000 --> 00:41:46.000
+Whitney Hodges: Mm-hmm.
+
+00:41:47.000 --> 00:41:51.000
+judy: We're spending a lot of time responding.
+
+00:41:47.000 --> 00:41:49.000
+Whitney Hodges: Yeah.
+
+00:41:51.000 --> 00:41:55.000
+judy: Two requests, like I said, so I think this would…
+
+00:41:53.000 --> 00:41:54.000
+Whitney Hodges: Mm-hmm.
+
+00:41:55.000 --> 00:42:00.000
+judy: if we can personalize it enough, and Brittany and I feel comfortable enough.
+
+00:41:56.000 --> 00:41:57.000
+Whitney Hodges: Mm-hmm.
+
+00:42:00.000 --> 00:42:05.000
+judy: with it, and I don't know anything really about it, is what she's going to kind of walk us through.
+
+00:42:05.000 --> 00:42:09.000
+judy: Yeah, but we've been, like I said, we've…
+
+00:42:06.000 --> 00:42:09.000
+Whitney Hodges: Mm-hmm. Yeah.
+
+00:42:09.000 --> 00:42:13.000
+judy: Looked at this, but it's just real hard to, um…
+
+00:42:13.000 --> 00:42:27.000
+judy: take the personalization from it, especially for me. Yeah. Uh-huh. Because I'm older. And so, yeah, it's like, huh. All right.
+
+00:42:14.000 --> 00:42:16.000
+Whitney Hodges: Mm-hmm.
+
+00:42:19.000 --> 00:42:23.000
+Whitney Hodges: Right. Right. Yeah.
+
+00:42:23.000 --> 00:42:24.000
+Whitney Hodges: Uh-huh.
+
+00:42:25.000 --> 00:42:26.000
+Whitney Hodges: I…
+
+00:42:27.000 --> 00:42:46.000
+Whitney Hodges: Right. No, I hear you, most definitely, and you're not alone at all in your concern, right? Which is why, you know, the way that we set things up for you, we want it to be very customized, we want it to be personalized to you guys, and we want you to be able to, kind of.
+
+00:42:29.000 --> 00:42:31.000
+judy: Okay.
+
+00:42:32.000 --> 00:42:33.000
+judy: Uh-huh.
+
+00:42:46.000 --> 00:43:08.000
+Whitney Hodges: adapt as much or honestly as little of the system as kind of like what you would feel comfortable with, right? So I'm going to kind of like walk you through things. Definitely let me know of kind of any questions along the way. But what I'd love to show you today is just kind of more of like how things look on the ad side, as far as like the Google Ads and the Meta Ads.
+
+00:43:08.000 --> 00:43:34.000
+Whitney Hodges: And then how that all flows into Leadlock, the lead management platform. Because we see Leadlock and kind of managing your leads in this way with the software as something that's really kind of helping to protect and maximize your investment into ads, right? Because if you're already kind of, you know, struggling to quickly respond to leads that are coming in or kind of like keep up with things.
+
+00:43:10.000 --> 00:43:13.000
+judy: Okay, okay.
+
+00:43:34.000 --> 00:43:50.000
+Whitney Hodges: When you start running ads, right, and you increase your lead volume even more, that's going to kind of start to compound. So, even at a minimum, if there can be a way to where every lead that comes in automatically receives an initial email.
+
+00:43:50.000 --> 00:44:14.000
+Whitney Hodges: an initial text message as soon as they inquire, which we do find that today's couples really kind of want that instant gratification of kind of more more information. That that can kind of help alleviate some of that pressure of, you know, if you're doing other things, or you're on a tour, and leads are coming in. And then you've got this kind of like back pile of people that you need to just even send an initial response to.
+
+00:44:12.000 --> 00:44:13.000
+judy: Bye.
+
+00:44:14.000 --> 00:44:29.000
+Whitney Hodges: Um, but then at your convenience, you can pop into the system and personally reach out to people, right? Like, if you want to let them know availability, or if you want to see if they can hop on, um, a call, or if they'd like to schedule a tour, like, however you'd like to go about that.
+
+00:44:27.000 --> 00:44:28.000
+judy: Yes.
+
+00:44:29.000 --> 00:44:37.000
+Whitney Hodges: If you guys don't have any other just initial questions, I'll kind of pop over and walk you through things.
+
+00:44:33.000 --> 00:44:38.000
+judy: Not yet. I'm sure we will. Yeah. Okay. All right.
+
+00:44:37.000 --> 00:44:38.000
+Whitney Hodges: Okay.
+
+00:44:38.000 --> 00:44:43.000
+Whitney Hodges: Okay, good. Yeah, no, and you should, and I'm happy to answer all of them. Okay.
+
+00:44:39.000 --> 00:44:41.000
+judy: Okay, alright.
+
+00:44:49.000 --> 00:45:05.000
+Whitney Hodges: Okay. So, first things first, I want to kind of show you some examples of how your ads will look on Google. So, these are examples from a real client. They're a wedding venue in North Texas, right?
+
+00:44:57.000 --> 00:44:58.000
+judy: Okay.
+
+00:45:03.000 --> 00:45:05.000
+judy: Uh-huh.
+
+00:45:05.000 --> 00:45:23.000
+Whitney Hodges: So the Google ads that we set up are Google search campaign ads, right? So this is the paid complement to like your Google SEO efforts, right? Of basically wanting to show up in the results when somebody is going to Google and.
+
+00:45:10.000 --> 00:45:12.000
+judy: Mmhm.
+
+00:45:16.000 --> 00:45:17.000
+judy: Uh-huh.
+
+00:45:23.000 --> 00:45:37.000
+Whitney Hodges: Um, you know, looking for, um, you know, an Austin wedding venue, or wedding venue near me, or whatever we kind of determine are the, the keywords that we would like to bid on for your, your paid campaigns.
+
+00:45:28.000 --> 00:45:30.000
+judy: Mm-hmm.
+
+00:45:33.000 --> 00:45:36.000
+judy: Oh, okay. All right.
+
+00:45:37.000 --> 00:45:39.000
+Whitney Hodges: Mm-hmm, yeah. So…
+
+00:45:39.000 --> 00:46:00.000
+Whitney Hodges: with SEO, which I think you're probably a bit familiar with, because Emily has been helping you with that right? It's kind of a it's a it's a long game strategy in terms of like, you know, the information that you're putting on your website as far as the SEO data, the copy on the pages, the blog posts right to show up for certain keywords organically when when people search.
+
+00:45:42.000 --> 00:45:44.000
+judy: Yes.
+
+00:45:49.000 --> 00:45:51.000
+judy: Right.
+
+00:45:56.000 --> 00:45:58.000
+judy: Right.
+
+00:45:58.000 --> 00:45:59.000
+judy: Yes.
+
+00:46:00.000 --> 00:46:16.000
+Whitney Hodges: But, uh, with paid Google Ads, um, it's quite a bit more instantaneous, because we're telling Google, these are the keywords that we want to show up for, but we only want to show up for what we would consider to be, like, high-intent searchers, right? So oftentimes.
+
+00:46:16.000 --> 00:46:37.000
+Whitney Hodges: We will, you know, bid higher sometimes on females than on males. Like, if we find that those are the majority of people who are actually, you know, inquiring. We want to make sure, you know, that your venue is showing up for people who are in the right location, right? Not that, like, you know, somebody in New York is searching and you're showing up.
+
+00:46:21.000 --> 00:46:23.000
+judy: Oh.
+
+00:46:31.000 --> 00:46:32.000
+judy: Bye.
+
+00:46:37.000 --> 00:46:44.000
+Whitney Hodges: you know, the destination weddings piece of it is important, and we can definitely talk through that. Um…
+
+00:46:40.000 --> 00:46:42.000
+judy: Okay.
+
+00:46:44.000 --> 00:46:45.000
+Whitney Hodges: So…
+
+00:46:46.000 --> 00:47:02.000
+Whitney Hodges: Essentially, what happens when somebody goes to Google to search is that Google is going to show them your ad if they think that your ad is going to be relevant to them, if they think that there's going to be a high likelihood of them clicking on your ad.
+
+00:47:02.000 --> 00:47:18.000
+Whitney Hodges: Um, with Google Ads, it is pay-per-click, so you are only charged your ad spend if somebody actually clicks on the ad. Um, what is also really nice about the Google Ads is that we have complete control over.
+
+00:47:18.000 --> 00:47:35.000
+Whitney Hodges: what these ads are going to say, right? So, when your venue just shows up organically in the Google search results, Google's kind of just putting out there whatever it wants there to be, kind of based on what they've seen on the website, what the copy is on the website.
+
+00:47:20.000 --> 00:47:21.000
+judy: Hello?
+
+00:47:35.000 --> 00:47:46.000
+Whitney Hodges: Whereas, um, what we can do is craft the exact headlines, so headlines that you see here, and then add text that we want to be included in the ads. And…
+
+00:47:43.000 --> 00:47:45.000
+judy: Oh, okay.
+
+00:47:46.000 --> 00:47:57.000
+Whitney Hodges: And what Google will do, it's dynamic, right? So we're putting in a variety of different headlines, a variety of different text, some different photos. So based on…
+
+00:47:57.000 --> 00:48:13.000
+Whitney Hodges: the user who's searching, and exactly what search terms they're using, Google then kind of, like, crafts an ad just for them, right? Of, like, okay, I think this headline is gonna resonate with them, and this ad text, and, you know, let me show this photo.
+
+00:48:13.000 --> 00:48:30.000
+Whitney Hodges: Right? So, these are just a few examples. It can show up a variety of different ways for different searchers, um, and also can show up, you know, kind of more in, like, the map listing, um, results as well. But, like, the goal here, right, is to get.
+
+00:48:30.000 --> 00:48:32.000
+Whitney Hodges: You to show up.
+
+00:48:32.000 --> 00:48:46.000
+Whitney Hodges: at the top of the search results for those, um, you know, high intent users who, you know, are wanting to find a venue like you. Um, but again, you're not charged your ad spend unless somebody is actually clicking.
+
+00:48:44.000 --> 00:48:46.000
+judy: All right.
+
+00:48:46.000 --> 00:48:48.000
+Whitney Hodges: on that.
+
+00:48:49.000 --> 00:48:52.000
+Whitney Hodges: Questions about the Google Ads?
+
+00:48:50.000 --> 00:48:51.000
+judy: Mm-hmm.
+
+00:48:52.000 --> 00:49:04.000
+judy: I don't think so. I mean, because it's kind of like what we already do, but more personalized, right? Is what it seems like. Is that… yeah. I think so, yeah. And still, it's still very confusing, but…
+
+00:49:03.000 --> 00:49:05.000
+Whitney Hodges: Yes?
+
+00:49:04.000 --> 00:49:17.000
+judy: As long as Brittany and I aren't having to word it and do it. Yeah, that's right. Then we're gonna be okay with that. Yeah, yeah, as long as we're not having to figure all this out. Yeah. Yeah, which…
+
+00:49:06.000 --> 00:49:08.000
+Whitney Hodges: Okay.
+
+00:49:10.000 --> 00:49:14.000
+Whitney Hodges: Yeah. No, no, we would take care of all of that.
+
+00:49:18.000 --> 00:49:34.000
+Whitney Hodges: We would take care of all of that. So yes, the goal of SEO and the goal of Google Ads essentially is the same. It's just different avenues to get there. And we find that when you focus on both, it really can, you know, amplify your results and increase your volume.
+
+00:49:18.000 --> 00:49:19.000
+judy: Okay.
+
+00:49:23.000 --> 00:49:24.000
+judy: Uh-huh.
+
+00:49:25.000 --> 00:49:27.000
+judy: Okay.
+
+00:49:30.000 --> 00:49:32.000
+judy: Sure.
+
+00:49:34.000 --> 00:49:36.000
+Whitney Hodges: So, um…
+
+00:49:36.000 --> 00:49:50.000
+Whitney Hodges: you know, I'm sure you use Google, right? If you kind of, like, think back to a time where you Google something, or, you know, the next time that you Google something, and the results that show up, you're gonna see things that have, like, a sponsored tag.
+
+00:49:41.000 --> 00:49:42.000
+judy: Mm-hmm.
+
+00:49:49.000 --> 00:49:50.000
+judy: Oh.
+
+00:49:51.000 --> 00:50:07.000
+Whitney Hodges: versus just, like, you know, regular kind of listings. So, your paid ads, they're gonna have that sponsored tag, versus, you know, just your organic result isn't going to. Um, and what we love, when people have strong SEO and paid ads.
+
+00:49:52.000 --> 00:49:54.000
+judy: Right.
+
+00:49:55.000 --> 00:49:58.000
+judy: Yeah. Okay.
+
+00:50:07.000 --> 00:50:25.000
+Whitney Hodges: is that it gives, uh, you know, the… a higher likelihood of you actually showing up in the search results twice. People can see the paid ad, and they can see the organic listing, and it's like that double… it doubles your authority, right? Like, people… they're seeing the name twice, they're like, oh, you know.
+
+00:50:14.000 --> 00:50:16.000
+judy: Scroll down, yeah.
+
+00:50:16.000 --> 00:50:17.000
+judy: Okay.
+
+00:50:19.000 --> 00:50:21.000
+judy: That's true.
+
+00:50:25.000 --> 00:50:31.000
+Whitney Hodges: Pecan Springs Ranch, like, this is… this is legit. They've got their marketing dialed in, you know?
+
+00:50:28.000 --> 00:50:29.000
+judy: Yeah.
+
+00:50:31.000 --> 00:50:33.000
+judy: Paint one. Okay.
+
+00:50:35.000 --> 00:50:37.000
+Whitney Hodges: Okay.
+
+00:50:39.000 --> 00:50:45.000
+Whitney Hodges: So, here are some examples of meta ads.
+
+00:50:43.000 --> 00:50:44.000
+judy: Uh-huh.
+
+00:50:45.000 --> 00:51:00.000
+Whitney Hodges: Um, also for, you know, a ranch venue in Texas. Um, and I can kind of open up some of these and kind of expand them for you, but just know that with the meta ads, and so when I say meta ads, that means ads that can run on both Instagram and on Facebook.
+
+00:50:58.000 --> 00:51:00.000
+judy: Uh-huh.
+
+00:51:00.000 --> 00:51:16.000
+Whitney Hodges: Um, you know, certainly if you had a preference and you've really only wanted ads to run on Instagram, we, um, can do that, but we do often find that, um, the results are better when we're running on both platforms, um, in tandem.
+
+00:51:12.000 --> 00:51:13.000
+judy: Okay.
+
+00:51:13.000 --> 00:51:16.000
+judy: Well, because Instagram is my favorite.
+
+00:51:16.000 --> 00:51:20.000
+Whitney Hodges: Um, so where these would be showing up…
+
+00:51:16.000 --> 00:51:18.000
+judy: Wow.
+
+00:51:18.000 --> 00:51:19.000
+judy: Right.
+
+00:51:19.000 --> 00:51:35.000
+judy: No, I was just saying, like, I use Facebook more than I do Instagram. I go on both, but I use, you know, so I see more ads on Facebook. You tend to use more Facebook. Yeah, but, like, Kirby, she uses Instagram more than… Instagram more than… Yeah, so… Yeah. Both is probably… Yeah, okay.
+
+00:51:20.000 --> 00:51:22.000
+Whitney Hodges: for people. Sorry. Did you have a question?
+
+00:51:24.000 --> 00:51:26.000
+Whitney Hodges: Yeah?
+
+00:51:30.000 --> 00:51:31.000
+Whitney Hodges: Mm-hmm.
+
+00:51:33.000 --> 00:51:35.000
+Whitney Hodges: Mm-hmm. Mm-hmm.
+
+00:51:35.000 --> 00:51:53.000
+Whitney Hodges: Yeah, exactly. So where these are meant to show up are going to be like, you know, in stories placements. So on Facebook and Instagram, if you're scrolling through stories, ads can pop up there. So video ads, like real style ads can work really well there.
+
+00:51:53.000 --> 00:52:09.000
+Whitney Hodges: And then, of course, just like, you know, as you're scrolling the newsfeed. So, it's a bit different than Google Ads, right? Because with Google, people are going to search, it's high intent, you know, they're specifically looking for, you know, a venue. Whereas when people.
+
+00:52:01.000 --> 00:52:02.000
+judy: Okay.
+
+00:52:09.000 --> 00:52:26.000
+Whitney Hodges: hop onto Instagram or Facebook for the most part. They're going there to just kind of like scroll to be entertained, or maybe it's to connect with friends and family things like that. So this would be considered more disruptor marketing, right? Because what we want to do is.
+
+00:52:18.000 --> 00:52:19.000
+judy: Okay.
+
+00:52:26.000 --> 00:52:42.000
+Whitney Hodges: get in front of the people on those platforms where we can capture their attention, you know, pique their curiosity, kind of disrupt what they're already doing to make them aware and to get them to click through, essentially.
+
+00:52:43.000 --> 00:53:02.000
+Whitney Hodges: And so, um, we can do a variety of different things with the meta ads, which is really exciting. We call it a full funnel of ads, because we can reach completely cold audiences, we can reach, um, you know, your warmer audiences, but then we can also set up retargeting ads, which we would consider to be.
+
+00:53:02.000 --> 00:53:19.000
+Whitney Hodges: um, you know, your hottest audience members. So, if you've ever experienced, like, you know, Googling something, or going to somebody's website, and then opening up your Facebook or Instagram, and then you very quickly thereafter see an ad.
+
+00:53:19.000 --> 00:53:48.000
+Whitney Hodges: For that business, that is retargeting. So that's one of the things that we would do, right? We know that, you know, couples or brides, as they're researching, as they're checking things out, they may hit your website and they may not be ready to inquire or ready to book a tour. They may just kind of be researching. So then when they open up their social media apps and see you again, it's like a reminder, right? It's continuing them on that journey. It's building that, like, know, like, trust factor.
+
+00:53:32.000 --> 00:53:34.000
+judy: Oh, okay.
+
+00:53:48.000 --> 00:53:56.000
+Whitney Hodges: Um, and so it's helping the ads on each platform really kind of work together, and to help compound the results.
+
+00:53:58.000 --> 00:54:20.000
+Whitney Hodges: So, what we like to do here, and this is different than, I would say, um, you know, a lot of agencies, or even, you know, what some other, you know, ads managers do, is we like to run a variety of different ads, um, all at once. And it's for those different purposes, right? Because what somebody needs to see who has never heard of Pecan Springs Ranch before.
+
+00:54:09.000 --> 00:54:11.000
+judy: Mm-hmm.
+
+00:54:20.000 --> 00:54:36.000
+Whitney Hodges: is very different than what somebody we would want to show somebody who has already explored the website. Right? So we write different ad copy. We craft different creatives for those different purposes. So, you know, you can see here that really none of these ads are the same. It's all.
+
+00:54:23.000 --> 00:54:24.000
+judy: Mm-hmm.
+
+00:54:36.000 --> 00:54:53.000
+Whitney Hodges: different copy, it's different videos that we've used. Oftentimes, we will leverage some of your existing Instagram content, and then we can turn that into an ad, right? So if you have a really great reel that showcases a really nice wedding, well, we may, you know, grab that.
+
+00:54:53.000 --> 00:55:00.000
+Whitney Hodges: plug that into the Ads Manager, um, you know, maybe add some more text onto the reel itself, you know.
+
+00:55:00.000 --> 00:55:21.000
+Whitney Hodges: change up the caption, like, write a really strong copy, um, that you see for the ad text, and then, of course, you know, a headline, um, as well. Um, but what we would also ask of you is that you… if you could provide us with, you know, photos that you would like to feature, you know, if you have video clips, whether it be from, you know, photographers, or even just, you know.
+
+00:55:14.000 --> 00:55:15.000
+judy: Hi.
+
+00:55:21.000 --> 00:55:34.000
+Whitney Hodges: footage from your phones, because we can take all of that, right, and then, like, craft that into new ad creatives for you. Um, and we're always refreshing that on a monthly basis. So.
+
+00:55:24.000 --> 00:55:26.000
+judy: off.
+
+00:55:31.000 --> 00:55:33.000
+judy: Okay.
+
+00:55:34.000 --> 00:55:52.000
+Whitney Hodges: In the beginning, when we're onboarding you, it's going to be very heavy in terms of production, right? There's a lot of copy that we're writing at once. There's a lot of ad creatives that we're pulling together. But then after that and after that initial launch, it's usually about like three new ad creatives that we would test on a monthly.
+
+00:55:49.000 --> 00:55:51.000
+judy: Okay.
+
+00:55:52.000 --> 00:56:01.000
+Whitney Hodges: basis. So, we're always going to kind of be sharing with you, you know, new things that we're working on for you to be able to, like, check out and kind of give your stamp of approval.
+
+00:55:59.000 --> 00:56:01.000
+judy: Okay, all right.
+
+00:56:04.000 --> 00:56:08.000
+Whitney Hodges: Questions about the meta ad side of things?
+
+00:56:06.000 --> 00:56:14.000
+judy: Um, when we send you photos or video, do you need the whole list of all the, um, vendors?
+
+00:56:12.000 --> 00:56:13.000
+Whitney Hodges: Mm-hmm.
+
+00:56:14.000 --> 00:56:18.000
+judy: There's a question. Yeah. Yeah.
+
+00:56:19.000 --> 00:56:20.000
+judy: Mm-hmm.
+
+00:56:19.000 --> 00:56:36.000
+Whitney Hodges: Good question. So, if you would like to tag all of the vendors in the ad copy, we can definitely do that, um, in which case we would need to know, you know, who they are, right? And the way that we would do that, right, because, I mean, we do want this to be.
+
+00:56:29.000 --> 00:56:30.000
+judy: Yeah.
+
+00:56:30.000 --> 00:56:31.000
+judy: Right.
+
+00:56:36.000 --> 00:56:53.000
+Whitney Hodges: your ad, right? We want to be, like, directing people to inquire with you. So we would kind of put that, like, at the very bottom of the copy. Like, we could just include all of their handles, if you'd like. Um… I would say, usually with the ads.
+
+00:56:39.000 --> 00:56:40.000
+judy: Right.
+
+00:56:44.000 --> 00:56:45.000
+judy: Okay.
+
+00:56:53.000 --> 00:57:11.000
+Whitney Hodges: ads. What venues are doing is they may be crediting the photographer or the videographer. But I would say it's probably it's rare in an ad, usually that I'm seeing them tag every single vendor that was, you know, but that that really is up to you and kind of your.
+
+00:56:56.000 --> 00:56:58.000
+judy: Yeah.
+
+00:57:03.000 --> 00:57:05.000
+judy: like, 4.
+
+00:57:05.000 --> 00:57:06.000
+judy: Okay.
+
+00:57:06.000 --> 00:57:07.000
+judy: Okay.
+
+00:57:10.000 --> 00:57:13.000
+judy: Okay. All right. All right.
+
+00:57:11.000 --> 00:57:14.000
+Whitney Hodges: relationships with them. Yeah.
+
+00:57:13.000 --> 00:57:18.000
+judy: For sure, photography and videography. Yeah, yeah, okay, that makes sense.
+
+00:57:14.000 --> 00:57:15.000
+Whitney Hodges: Mmhm.
+
+00:57:18.000 --> 00:57:19.000
+Whitney Hodges: No.
+
+00:57:19.000 --> 00:57:20.000
+judy: Yeah.
+
+00:57:20.000 --> 00:57:27.000
+judy: They're the ones that want the credit. Credit, yeah, yeah, yeah, okay. Yeah, I think.
+
+00:57:21.000 --> 00:57:23.000
+Whitney Hodges: Any other questions on this?
+
+00:57:25.000 --> 00:57:26.000
+Whitney Hodges: Right.
+
+00:57:27.000 --> 00:57:28.000
+judy: Yeah.
+
+00:57:30.000 --> 00:57:32.000
+judy: Yeah, it's looking good.
+
+00:57:30.000 --> 00:57:32.000
+Whitney Hodges: Making sense so far?
+
+00:57:33.000 --> 00:57:38.000
+Whitney Hodges: Okay, all right, so what I want to show you next is.
+
+00:57:38.000 --> 00:57:55.000
+Whitney Hodges: ads traffic landing page. Because the ads themselves that I just showed you, obviously that's very important, that's the entry point, that's where we're piquing people's interest, that's where we're getting them to click. But what we find beyond that is that, um.
+
+00:57:55.000 --> 00:58:10.000
+Whitney Hodges: In order to really kind of, again, like, maximize your ad spend investment, we find that, you know, you're most likely to, you know, get the most kind of qualified inquiries.
+
+00:58:10.000 --> 00:58:27.000
+Whitney Hodges: When you send the traffic to a long-form landing page. So, this is a bit different, right, than just sending people to your website, or to the homepage of your website. Not that the website isn't wonderful. I mean, it's beautiful, and it's a really important.
+
+00:58:20.000 --> 00:58:22.000
+judy: Oh, okay.
+
+00:58:26.000 --> 00:58:27.000
+judy: Thank you.
+
+00:58:27.000 --> 00:58:32.000
+Whitney Hodges: tool. But if you think about the way people use a website.
+
+00:58:32.000 --> 00:58:48.000
+Whitney Hodges: Um, they're… they're researching, right? They're exploring. There are a lot of different things for them to be able to… to check out, right? Usually it's, like, galleries, or going to blog posts, like, so many different things. Um, and from an ads traffic perspective.
+
+00:58:48.000 --> 00:59:03.000
+Whitney Hodges: we kind of consider those things to be distractions, because if you are paying for visibility, if you are paying for traffic, we want that traffic to have the highest likelihood of converting into an inquiry, right? And.
+
+00:58:50.000 --> 00:58:51.000
+judy: Oh.
+
+00:59:00.000 --> 00:59:02.000
+judy: Oh.
+
+00:59:03.000 --> 00:59:23.000
+Whitney Hodges: obviously, that can happen on your website, and I know Emily builds websites, you know, with, uh, conversions truly in mind, but, um, again, there's just, like, different pages people can kind of explore, and we're all just so busy in our lives right now that, like, it's easy to get distracted, right, or to start looking at.
+
+00:59:10.000 --> 00:59:11.000
+judy: Bye.
+
+00:59:23.000 --> 00:59:37.000
+Whitney Hodges: And then something else comes up. So, what we like to do is to take all the best pieces of your website, and to turn it into a long-form landing page specifically for your ads traffic.
+
+00:59:28.000 --> 00:59:29.000
+judy: Uh-huh.
+
+00:59:32.000 --> 00:59:34.000
+judy: Thank you.
+
+00:59:35.000 --> 00:59:38.000
+judy: Now, is on the website…
+
+00:59:37.000 --> 00:59:38.000
+Whitney Hodges: And…
+
+00:59:38.000 --> 00:59:44.000
+judy: I don't know what you call it, the whole platform there.
+
+00:59:41.000 --> 00:59:43.000
+Whitney Hodges: Mmhm.
+
+00:59:44.000 --> 00:59:45.000
+Whitney Hodges: Mm-hmm.
+
+00:59:45.000 --> 00:59:49.000
+judy: Okay, so it would be a part of the website, but it's…
+
+00:59:45.000 --> 00:59:47.000
+Whitney Hodges: Mm-hmm.
+
+00:59:49.000 --> 00:59:53.000
+judy: A little… it's… but it still stands separately, correct?
+
+00:59:53.000 --> 01:00:01.000
+Whitney Hodges: No, I'm sorry, so this is… would actually be one of the pieces that we would be building for you inside of LeadLock.
+
+00:59:59.000 --> 01:00:12.000
+judy: Oh, okay, okay, okay. You would still have your original inquiry thing on our website. Website, but this would be in… This would be from the ads. Okay. It would go straight to this page instead of going to our website. Okay, gotcha.
+
+01:00:02.000 --> 01:00:04.000
+Whitney Hodges: Mm-hmm. Mm-hmm.
+
+01:00:07.000 --> 01:00:08.000
+Whitney Hodges: You're right.
+
+01:00:09.000 --> 01:00:12.000
+Whitney Hodges: Right, right.
+
+01:00:12.000 --> 01:00:13.000
+Whitney Hodges: And…
+
+01:00:13.000 --> 01:00:18.000
+Whitney Hodges: And so what's nice about that is that you can really kind of, um…
+
+01:00:15.000 --> 01:00:17.000
+judy: I guess.
+
+01:00:18.000 --> 01:00:38.000
+Whitney Hodges: you know, measure your marketing a little bit more in isolation, right? Like, you can see what happens with organic traffic when that goes to the website, versus we can see how paid traffic performs when it goes to this landing page. So you can kind of keep… we'll be able to keep track of, like, okay, these leads just came from the general website, versus.
+
+01:00:25.000 --> 01:00:27.000
+judy: Right.
+
+01:00:38.000 --> 01:00:52.000
+Whitney Hodges: these leads came in from ads. Um, and so it helps you to really be able to understand your ROI, um, over time, right? And, and where, um, it makes the most sense to kind of be investing in, in your marketing.
+
+01:00:39.000 --> 01:00:40.000
+judy: I…
+
+01:00:49.000 --> 01:00:50.000
+judy: Okay.
+
+01:00:50.000 --> 01:00:52.000
+judy: All right.
+
+01:00:52.000 --> 01:01:08.000
+Whitney Hodges: Um, so we would build this page for you in LeadLock. You can see, like, as this example, it is, um, it's on a subdomain of their website. So, this is their website that anybody could just go to to go to their general website.
+
+01:01:01.000 --> 01:01:03.000
+judy: Mm-hmm.
+
+01:01:08.000 --> 01:01:23.000
+Whitney Hodges: We've just added the info dot in front of it. So it's still completely on brand, you know, it's not like a weird, like, sketchy link that people are being sent to. Um, it, it, it feels in a lot of ways like your website, because we're gonna use.
+
+01:01:14.000 --> 01:01:16.000
+judy: Right.
+
+01:01:20.000 --> 01:01:22.000
+judy: All the same.
+
+01:01:22.000 --> 01:01:24.000
+judy: Okay.
+
+01:01:23.000 --> 01:01:39.000
+Whitney Hodges: all of the branding that Emily has put together, brand photos, there are probably a lot of things from the website that we may even just pull over into this verbatim. But what you'll see with this, as I scroll, is that there are just clear and consistent.
+
+01:01:29.000 --> 01:01:30.000
+judy: Sure.
+
+01:01:30.000 --> 01:01:31.000
+judy: Okay.
+
+01:01:39.000 --> 01:01:58.000
+Whitney Hodges: repeated calls to action, right, to get people to inquire, so a button here to inquire. Then we've got, you know, their hero section that makes it really clear, you know, where they are, what they do, um, some more, you know, description on that here, and then again, you know, button to inquire.
+
+01:01:39.000 --> 01:01:41.000
+judy: Uh-huh. Okay.
+
+01:01:43.000 --> 01:01:45.000
+judy: Ah.
+
+01:01:47.000 --> 01:01:48.000
+judy: Oh.
+
+01:01:57.000 --> 01:01:59.000
+judy: Mm-hmm.
+
+01:01:58.000 --> 01:02:16.000
+Whitney Hodges: Um, we always like to include a section fairly early on of, you know, what your differentiators are, what your unique value proposition is, what's going to set you apart, um, from, from others, right? Because Austin is a very busy wedding market, most definitely. But again, another button.
+
+01:02:14.000 --> 01:02:16.000
+judy: Mm-hmm.
+
+01:02:16.000 --> 01:02:17.000
+judy: Yeah.
+
+01:02:16.000 --> 01:02:18.000
+Whitney Hodges: to inquire, right?
+
+01:02:19.000 --> 01:02:28.000
+Whitney Hodges: We can incorporate a lot of really great photos. This is going to be optimized for mobile as well, because we know most people are scrolling their phones on mobile.
+
+01:02:24.000 --> 01:02:26.000
+judy: Vice impacted on.
+
+01:02:26.000 --> 01:02:28.000
+judy: Okay.
+
+01:02:28.000 --> 01:02:29.000
+judy: Okay.
+
+01:02:28.000 --> 01:02:30.000
+Whitney Hodges: Mm-hmm.
+
+01:02:33.000 --> 01:02:41.000
+Whitney Hodges: We kind of give a breakdown of, like, the different, you know, spaces that they would experience on the property that they can pick.
+
+01:02:34.000 --> 01:02:36.000
+judy: Bye-bye.
+
+01:02:36.000 --> 01:02:39.000
+judy: Oh, yeah.
+
+01:02:40.000 --> 01:02:41.000
+judy: Huh.
+
+01:02:45.000 --> 01:03:01.000
+Whitney Hodges: One of the things that they've indicated that's really important to their couples and that their couples love is the, uh, the suites that they have for the bride and groom. Um, so, you know, they wanted a section specifically to feature that. We've got, you know, strong testimonials in here.
+
+01:02:49.000 --> 01:02:50.000
+judy: Mm-hmm.
+
+01:02:51.000 --> 01:02:53.000
+judy: Bye.
+
+01:02:55.000 --> 01:02:57.000
+judy: Okay.
+
+01:02:59.000 --> 01:03:01.000
+judy: Uh-huh.
+
+01:03:02.000 --> 01:03:07.000
+Whitney Hodges: We do give a breakdown of everything that is included.
+
+01:03:03.000 --> 01:03:05.000
+judy: Oh, that's included.
+
+01:03:05.000 --> 01:03:06.000
+judy: Yeah.
+
+01:03:07.000 --> 01:03:21.000
+Whitney Hodges: Um, because we want people to be able to self-qualify, right? Like, you know, if somebody has… knows that they're gonna have 300 guests, it's better for them to know this now than to, you know, inquire, and it might be a good fit. Or if they're on a…
+
+01:03:17.000 --> 01:03:19.000
+judy: You're welcome.
+
+01:03:19.000 --> 01:03:32.000
+judy: That is an issue we have, even though they get all of that information of what is included, it's constantly still repeated, don't you think? Yeah. Yeah.
+
+01:03:21.000 --> 01:03:22.000
+Whitney Hodges: Sorry.
+
+01:03:28.000 --> 01:03:30.000
+Whitney Hodges: Mm-hmm.
+
+01:03:32.000 --> 01:03:37.000
+judy: Nobody reads it. Yeah, nobody reads a whole lot anymore.
+
+01:03:32.000 --> 01:03:35.000
+Whitney Hodges: Yeah. Mm-hmm. Yeah.
+
+01:03:37.000 --> 01:03:41.000
+judy: They want immediate answers, too. Yeah.
+
+01:03:42.000 --> 01:03:46.000
+Whitney Hodges: Right, yeah, they don't want to have to do the research themselves.
+
+01:03:43.000 --> 01:03:46.000
+judy: No, no. Yeah.
+
+01:03:46.000 --> 01:04:05.000
+Whitney Hodges: you know, they do include kind of what the starting pricing is to help kind of weed out, um, any, you know, price shoppers or more kind of the budget brides. But you'll notice that the kind of what's included, you know, bulleted sort of stuff is, um, is further down than the things that are more kind of emotional.
+
+01:03:53.000 --> 01:03:55.000
+judy: Oh, okay.
+
+01:04:01.000 --> 01:04:02.000
+judy: Right.
+
+01:04:05.000 --> 01:04:20.000
+Whitney Hodges: more kind of, um, visually driven that would really, like, you know, draw people in. So, I mean, this is… it's a mini sales page right here that's really meant to, um, pre-qualify people before they are to even inquire.
+
+01:04:07.000 --> 01:04:08.000
+judy: Uh-huh.
+
+01:04:10.000 --> 01:04:12.000
+judy: Right.
+
+01:04:17.000 --> 01:04:33.000
+judy: Okay. Pretty much like what we send out our info email just already. Oh, you're right. Before they inquire. Yeah. Yeah. And that's true. Cause we, we sent out like, uh, once they reach out to us, we sent them an info email, like with all this on there, but this way.
+
+01:04:20.000 --> 01:04:21.000
+Whitney Hodges: Um.
+
+01:04:26.000 --> 01:04:28.000
+Whitney Hodges: Mm-hmm.
+
+01:04:33.000 --> 01:04:39.000
+judy: We don't have to send that email on all this stuff and then inquire.
+
+01:04:34.000 --> 01:04:38.000
+Whitney Hodges: Mm-hmm. We see it before.
+
+01:04:38.000 --> 01:04:39.000
+Whitney Hodges: Yeah.
+
+01:04:39.000 --> 01:04:55.000
+Whitney Hodges: I would still include it in the email, most definitely, because to your point, people aren't always reading everything, right? Maybe somebody only sees the top of the page and chooses to inquire from there. You're going to have to kind of reiterate things, but I do think that it's important for.
+
+01:04:41.000 --> 01:04:43.000
+judy: Good morning.
+
+01:04:43.000 --> 01:04:46.000
+judy: Uh-huh. Okay.
+
+01:04:55.000 --> 01:05:08.000
+Whitney Hodges: Um, the ads, you know, not to just go to, like, a simple opt-in form, but to really be, like, pre-educating people, pre-selling people, um, to really kind of, like, drive those, those quality leads, most definitely.
+
+01:04:59.000 --> 01:05:00.000
+judy: Yep.
+
+01:05:06.000 --> 01:05:07.000
+judy: Right. Yeah.
+
+01:05:09.000 --> 01:05:22.000
+Whitney Hodges: We always like to include, you know, a section on the owners or the people who, you know, work there, the team, so that they're putting faces to names before they even inquire, even schedule a tour.
+
+01:05:14.000 --> 01:05:15.000
+judy: What?
+
+01:05:15.000 --> 01:05:16.000
+judy: Bye.
+
+01:05:19.000 --> 01:05:34.000
+judy: That's super important to do the photos because I had this with Emily. I don't like to do photos. We don't have a photo of us on our website.
+
+01:05:25.000 --> 01:05:27.000
+Whitney Hodges: Thank you.
+
+01:05:28.000 --> 01:05:29.000
+Whitney Hodges: Mm-hmm.
+
+01:05:34.000 --> 01:05:46.000
+judy: a page to do it someday. But yeah, it was like, yeah, I'm not, I'm not. But I've got Brittany… She needs to, because it's a good story of the video.
+
+01:05:35.000 --> 01:05:37.000
+Whitney Hodges: Okay.
+
+01:05:38.000 --> 01:05:39.000
+Whitney Hodges: Okay.
+
+01:05:46.000 --> 01:06:00.000
+Whitney Hodges: I would suggest it, most definitely. It's really gonna, like, humanize things, personalize things for you. I do think that it's important for you to tell your story, for them to do some sort of, kind of, like, you know, personal, um…
+
+01:05:47.000 --> 01:05:48.000
+judy: Bye.
+
+01:05:53.000 --> 01:05:55.000
+judy: Oh, okay.
+
+01:05:55.000 --> 01:05:57.000
+judy: Alright.
+
+01:05:57.000 --> 01:06:11.000
+judy: Just have an emoji. Yeah. But, yeah, no, I mean, we'll work on that getting someone to come take our picture. Appreciate it. Yeah.
+
+01:06:00.000 --> 01:06:04.000
+Whitney Hodges: Connection sort of there.
+
+01:06:07.000 --> 01:06:09.000
+Whitney Hodges: Mm-hmm. Yeah.
+
+01:06:09.000 --> 01:06:10.000
+Whitney Hodges: Mmhm.
+
+01:06:11.000 --> 01:06:13.000
+judy: Yeah, that's right. Thank you.
+
+01:06:12.000 --> 01:06:30.000
+Whitney Hodges: Yeah, that I think that would be nice. Um, and, um, you know, then, Brittany, if you're the one that's doing the majority of the tours, right, they'll have seen your name, they'll have seen your face before they even come in, um, that's, um, important, because it kind of just, like, clicks in people's brains, right, before they actually.
+
+01:06:22.000 --> 01:06:24.000
+judy: Right.
+
+01:06:26.000 --> 01:06:35.000
+judy: There's only us, too, that they're… our name, it's Judy or Brittany. Yeah, yeah, because the other ones that work with us is, like, um…
+
+01:06:30.000 --> 01:06:32.000
+Whitney Hodges: Mm-hmm.
+
+01:06:32.000 --> 01:06:34.000
+Whitney Hodges: Okay.
+
+01:06:35.000 --> 01:06:43.000
+judy: The site managers. Yeah. And I don't think that they have to be up there, right? Because they…
+
+01:06:43.000 --> 01:06:51.000
+Whitney Hodges: Not necessarily, no, unless… unless you wanted them to be. We have some venues that'll do that. They show, like, um…
+
+01:06:48.000 --> 01:06:49.000
+judy: Everyone.
+
+01:06:51.000 --> 01:07:06.000
+Whitney Hodges: Yeah, they'll show, like, uh, you know, the owner, and then this is your, you know, uh, you know, event kind of planner coordinator, the girl who does the tours as well, and then this is the person who is more kind of, like.
+
+01:07:00.000 --> 01:07:02.000
+judy: Okay.
+
+01:07:06.000 --> 01:07:15.000
+Whitney Hodges: overseeing the event, and manages the property, and things like that, but it's… I mean, it's completely up to you how much you want to… to share.
+
+01:07:12.000 --> 01:07:15.000
+judy: Okay, okay. All right.
+
+01:07:15.000 --> 01:07:18.000
+Whitney Hodges: Mm-hmm. Yeah.
+
+01:07:18.000 --> 01:07:33.000
+Whitney Hodges: And then this is a section that I really love because I feel like you don't always see this on people's websites, that really it's it's meant to weed people out, if I'm being honest, and kind of, like, help them self qualify. Right? It's meant to speak to.
+
+01:07:26.000 --> 01:07:28.000
+judy: Yeah.
+
+01:07:33.000 --> 01:07:58.000
+Whitney Hodges: exactly who your ideal clients are and then say, is this you? Um, and so then, like, one, uh, last button to inquire there, or no, there are more buttons. Um, another hot button for this venue in particular is, uh, lodging. They don't have insight lodging, so they get tons of questions on what nearby accommodations there are and things like that. So they use this as, uh, you know, an additional.
+
+01:07:42.000 --> 01:07:43.000
+judy: Okay.
+
+01:07:46.000 --> 01:07:47.000
+judy: Wow.
+
+01:07:58.000 --> 01:08:08.000
+Whitney Hodges: um, kind of incentive for people to inquire, right? Inquire with us, and we'll send you the compiled list of our favorite close accomplishments.
+
+01:08:00.000 --> 01:08:02.000
+judy: Okay.
+
+01:08:04.000 --> 01:08:06.000
+judy: Ah.
+
+01:08:08.000 --> 01:08:09.000
+Whitney Hodges: Mmhm.
+
+01:08:11.000 --> 01:08:27.000
+Whitney Hodges: And then they do have a pretty thorough FAQ section here as well to kind of start to get in front of things like, you know, alcohol. It's a big question that they get. It sounds like it comes up for you guys with the maximum capacity.
+
+01:08:12.000 --> 01:08:14.000
+judy: Okay.
+
+01:08:21.000 --> 01:08:23.000
+judy: Thanks.
+
+01:08:27.000 --> 01:08:30.000
+Whitney Hodges: is, um…
+
+01:08:30.000 --> 01:08:41.000
+Whitney Hodges: you know, if you have certain policies on preferred vendors or things like that. Whatever, you know, whatever your existing website FAQs are, those could all be incorporated here as well.
+
+01:08:32.000 --> 01:08:34.000
+judy: Uh-huh.
+
+01:08:35.000 --> 01:08:37.000
+judy: Okay.
+
+01:08:38.000 --> 01:08:39.000
+judy: Alright.
+
+01:08:39.000 --> 01:08:43.000
+judy: All right. It's a pretty venue. Yeah, it is.
+
+01:08:43.000 --> 01:08:59.000
+Whitney Hodges: And so this will be collaborative, right? Like, we're gonna design the page, we're gonna send it over to you before anything ever goes live, because we wanna get your stamp of approval, we, you know, want to get your buy-in, if there are edits that you wanna see, like, you'll be able to let us know those, and we'll…
+
+01:08:55.000 --> 01:08:56.000
+judy: Mm-hmm.
+
+01:08:59.000 --> 01:09:03.000
+Whitney Hodges: kind of make all of those edits before anything goes live.
+
+01:09:00.000 --> 01:09:02.000
+judy: Okay. All right.
+
+01:09:03.000 --> 01:09:04.000
+judy: Alright.
+
+01:09:04.000 --> 01:09:20.000
+Whitney Hodges: Okay. So when people get to this page, right, like if they were to inquire, when they click this button, they get this pop up form here. And this is a lead lock form. So this is kind of what kicks things off with the lead lock software.
+
+01:09:18.000 --> 01:09:19.000
+judy: Okay.
+
+01:09:20.000 --> 01:09:35.000
+Whitney Hodges: Now, keep in mind that these forms, as well, are completely customizable, right? To include your logo, your brand fonts, and then also whatever questions you would like to ask. So, this venue has chosen to keep it very simple. Others.
+
+01:09:33.000 --> 01:09:35.000
+judy: Mm-hmm.
+
+01:09:35.000 --> 01:09:37.000
+Whitney Hodges: We'll ask.
+
+01:09:37.000 --> 01:09:52.000
+Whitney Hodges: questions, right, of if they have a preferred date in mind, if they, uh, know how many guests that they are expecting. Um, so, uh, it definitely can be more thorough than this, um, if you would like for it to be.
+
+01:09:46.000 --> 01:09:48.000
+judy: Okay.
+
+01:09:49.000 --> 01:09:51.000
+judy: Mm-hmm.
+
+01:09:52.000 --> 01:10:02.000
+Whitney Hodges: Um, and then when they inquire, what is going to happen, um, is… well, actually, I'll just inquire really quickly, and I'll show you…
+
+01:10:14.000 --> 01:10:16.000
+Whitney Hodges: Mm-hmm.
+
+01:10:18.000 --> 01:10:22.000
+Whitney Hodges: I'll make sure they know this is a test. They'll know my name.
+
+01:10:18.000 --> 01:10:20.000
+judy: Yeah.
+
+01:10:24.000 --> 01:10:27.000
+Whitney Hodges: Okay. Um…
+
+01:10:31.000 --> 01:10:50.000
+Whitney Hodges: So, it directs me to a thank you page. It's letting me know that they're going to be in contact, and to check my email. And then, they… what they've chosen to do is have a button that goes back to their website, right? So, for somebody who's super interested, and is like, I want to see all the galleries, like, I want to see what else there is.
+
+01:10:33.000 --> 01:10:35.000
+judy: Mm-hmm.
+
+01:10:38.000 --> 01:10:39.000
+judy: Bye.
+
+01:10:42.000 --> 01:10:44.000
+judy: Oh.
+
+01:10:50.000 --> 01:10:55.000
+Whitney Hodges: They can then go over, and then, you know, your website can do the job that it's meant to do.
+
+01:10:55.000 --> 01:11:08.000
+Whitney Hodges: One of the reasons that we redirect to a thank you page after somebody inquires is for the purpose of tracking your leads, from both a Google standpoint and a Meta ad standpoint. Because…
+
+01:11:04.000 --> 01:11:06.000
+judy: Uh-huh.
+
+01:11:08.000 --> 01:11:28.000
+Whitney Hodges: we can put a deeper level of tracking on this page, to where we can tell Google and tell Meta, if somebody hits a thank you page, that means that they are a lead. That means that they have inquired. So that information flows back into your ad account, and that's what helps your ads optimize over time, because Meta and Google can then try to put your ads in front of.
+
+01:11:21.000 --> 01:11:22.000
+judy: Thank you.
+
+01:11:26.000 --> 01:11:28.000
+judy: Okay.
+
+01:11:28.000 --> 01:11:30.000
+Whitney Hodges: more users.
+
+01:11:30.000 --> 01:11:36.000
+Whitney Hodges: like them, right? The people who are most likely to actually fill out the form and inquire.
+
+01:11:34.000 --> 01:11:44.000
+judy: And so, like, by using, um, a lead lock or something like this, it is gonna, uh, not only…
+
+01:11:41.000 --> 01:11:43.000
+Whitney Hodges: Mm-hmm.
+
+01:11:44.000 --> 01:11:51.000
+judy: you know, help us in finding people, but it will also… it keeps a better track of, uh…
+
+01:11:51.000 --> 01:11:56.000
+judy: what is working as far as advertising. Is that…
+
+01:11:52.000 --> 01:11:54.000
+Whitney Hodges: Mm-hmm.
+
+01:11:56.000 --> 01:12:01.000
+Whitney Hodges: It does. Yeah, so I'm gonna actually take you inside of LeadLock.
+
+01:11:57.000 --> 01:12:01.000
+judy: Because we have a real problem with that right now. I don't know. Yeah.
+
+01:12:01.000 --> 01:12:03.000
+judy: All right.
+
+01:12:01.000 --> 01:12:04.000
+Whitney Hodges: Mm-hmm. Mm-hmm.
+
+01:12:04.000 --> 01:12:13.000
+Whitney Hodges: Yeah, so I want to take you inside of the actual lead block and kind of, um, of show you around, um, most definitely. So, um…
+
+01:12:07.000 --> 01:12:09.000
+judy: Alright.
+
+01:12:13.000 --> 01:12:29.000
+Whitney Hodges: You know, keep in mind too, like, from a a user perspective or potential couple's perspective. Right? I now have an email that's in my inbox and kinda I'll show you what an example is of that. And then a few minutes later, I'm gonna be getting a text message, from them that's automated.
+
+01:12:16.000 --> 01:12:17.000
+judy: Uh-huh.
+
+01:12:26.000 --> 01:12:28.000
+judy: Oh.
+
+01:12:29.000 --> 01:12:40.000
+Whitney Hodges: As well. So, um… oh, and the other thing that I wanted to say is that we can put, um, a lead lock inquiry form.
+
+01:12:40.000 --> 01:12:56.000
+Whitney Hodges: on your website as well. So, it doesn't just have to be lead management for the ads, we would recommend using it for your lead management in general, right? So that even if somebody's inquiring through the website, they can get that automated email, an automated text.
+
+01:12:40.000 --> 01:12:42.000
+judy: Oh, okay.
+
+01:12:46.000 --> 01:12:48.000
+judy: Okay.
+
+01:12:56.000 --> 01:13:12.000
+Whitney Hodges: You are able to track them inside of the the system, essentially. But it would be 2 different forms. We would have, you know, an ads landing page form and then a website form. So you'll be able to see which leads have come from ads versus which leads have come from the website.
+
+01:13:05.000 --> 01:13:06.000
+judy: Okay.
+
+01:13:10.000 --> 01:13:16.000
+judy: Oh, gotcha. Okay. All right. And now, oh gosh, what was the question?
+
+01:13:16.000 --> 01:13:27.000
+judy: Well, okay, just go on and then I'll think of what I was going to ask you. It was important too. I got to write it down so much. Okay.
+
+01:13:25.000 --> 01:13:27.000
+Whitney Hodges: Okay.
+
+01:13:29.000 --> 01:13:48.000
+Whitney Hodges: Okay, sounds good. Okay, so again, this is a real client's, um, LeadLock account, uh, their venue, um, in North Texas. When you first log into your LeadLock account, you are going to see your dashboard. So, at a glance, this is kind of, you know, how… how you are doing, like.
+
+01:13:48.000 --> 01:13:53.000
+Whitney Hodges: what each stage of your funnel is looking like. So.
+
+01:13:49.000 --> 01:13:51.000
+judy: Oh, okay.
+
+01:13:53.000 --> 01:14:01.000
+Whitney Hodges: 129 inquiries. Um, people can inquire for other events as well, not just weddings, so 48 for that.
+
+01:13:57.000 --> 01:13:58.000
+judy: Bye.
+
+01:14:01.000 --> 01:14:17.000
+Whitney Hodges: The people who are actually kind of, like, responsive and are currently in a back and forth, like, dialogue with them, whether it be via email or text message, we consider that the chatting category. That's usually what happens before somebody actually schedules a tour. Um, you know, 31 tours scheduled.
+
+01:14:07.000 --> 01:14:09.000
+judy: Alright.
+
+01:14:09.000 --> 01:14:10.000
+judy: Ah, okay.
+
+01:14:17.000 --> 01:14:36.000
+Whitney Hodges: 27 tours completed, 14 contracts pending that turned into 13 new weddings that have been booked. So you're going to be able to always see that at a glance, and really, like, see what your conversion rates are too, right? And kind of, you know, identify where there are areas of opportunity. Like.
+
+01:14:24.000 --> 01:14:26.000
+judy: Sorry.
+
+01:14:28.000 --> 01:14:29.000
+judy: Okay.
+
+01:14:36.000 --> 01:14:42.000
+Whitney Hodges: What I would see see here is, like, okay. Well, we've got a lot of inquiries.
+
+01:14:42.000 --> 01:14:59.000
+Whitney Hodges: But only 30% of those people are that's it's actually like a back and forth sort of dialogue. So that would tell me, okay, do we need to be personally reaching out more? Or maybe does our initial email need to be worded a little bit differently or text message worded a little bit differently to try and get more responses.
+
+01:14:43.000 --> 01:14:45.000
+judy: Oh, yeah.
+
+01:14:59.000 --> 01:15:18.000
+Whitney Hodges: So, when you have data like this at your fingertips, you can just kind of make better marketing decisions, and that's also what we're here for, right? Because our team is looking at this. We're not just managing your ads, we are managing your funnel, right? And pointing out areas of opportunity and collaborating with you on what can be.
+
+01:15:11.000 --> 01:15:13.000
+judy: Okay.
+
+01:15:17.000 --> 01:15:19.000
+judy: This is, um…
+
+01:15:18.000 --> 01:15:21.000
+Whitney Hodges: tweaked to make things better.
+
+01:15:19.000 --> 01:15:25.000
+judy: get all that information. Like, we don't have to enter it, right? It's gonna… it's able to…
+
+01:15:25.000 --> 01:15:29.000
+judy: Pull it magically somehow. Okay.
+
+01:15:26.000 --> 01:15:27.000
+Whitney Hodges: Mm-hmm.
+
+01:15:29.000 --> 01:15:38.000
+Whitney Hodges: Yeah, it's based on, you know, it all starts with the form that I showed you, right, of somebody inquiring.
+
+01:15:32.000 --> 01:15:34.000
+judy: Right.
+
+01:15:35.000 --> 01:15:36.000
+judy: Uh-huh.
+
+01:15:38.000 --> 01:15:54.000
+Whitney Hodges: So, you know, that's automatically pulled in, and then if they start responding to you, then they're chatting, right? If you use the scheduler within the system to book your tours, then it's automatically going to move them to the tour scheduled.
+
+01:15:42.000 --> 01:15:43.000
+judy: Thank you.
+
+01:15:52.000 --> 01:15:53.000
+judy: Okay.
+
+01:15:54.000 --> 01:16:03.000
+Whitney Hodges: um, category, uh, what's… once the date and time of their tour passes, then their tour complete. Um, what…
+
+01:16:03.000 --> 01:16:18.000
+Whitney Hodges: you would still want to be using, I think, is it HoneyBook that you have for contracts and invoices? So I would still recommend that you keep that, and that you use that for your contracts and invoices. So that is one thing that you would have to do manually, and I'll kind of show you how to do this, of like.
+
+01:16:04.000 --> 01:16:06.000
+judy: Yeah. Mm-hmm.
+
+01:16:07.000 --> 01:16:08.000
+judy: Correct.
+
+01:16:11.000 --> 01:16:13.000
+judy: Uh-huh.
+
+01:16:14.000 --> 01:16:16.000
+judy: Okay.
+
+01:16:18.000 --> 01:16:28.000
+Whitney Hodges: Okay, this lead, I've sent them a contract. Okay, let me move their status to contract. Oh, they've signed their contract. Let me move them to the one category.
+
+01:16:21.000 --> 01:16:22.000
+judy: Awesome.
+
+01:16:25.000 --> 01:16:29.000
+judy: Okay, gotcha. Alright. Alright.
+
+01:16:28.000 --> 01:16:29.000
+Whitney Hodges: Mmhm.
+
+01:16:30.000 --> 01:16:31.000
+Whitney Hodges: Um…
+
+01:16:32.000 --> 01:16:44.000
+Whitney Hodges: So here, you know, we can see, like, where, uh, the sources of where leads are coming from, which is really cool to just kind of see the volume. The little plus sign just means that they've come from the website, uh…
+
+01:16:37.000 --> 01:16:38.000
+judy: Oh.
+
+01:16:45.000 --> 01:16:55.000
+Whitney Hodges: 8 leads from ads, which actually, I think there have been quite a bit more than that, um, because a lot of them have been turned into book tours. Oh, we can see… okay, so these are just, like.
+
+01:16:56.000 --> 01:17:11.000
+Whitney Hodges: leads from ads in general that they, for whatever reason, the system doesn't know the exact source. But then we see leads from specific Facebook ads. You can see those different numbers here for different ad creatives. Right?
+
+01:17:00.000 --> 01:17:02.000
+judy: Yeah.
+
+01:17:04.000 --> 01:17:06.000
+judy: Oh.
+
+01:17:08.000 --> 01:17:09.000
+judy: Mm-hmm.
+
+01:17:11.000 --> 01:17:15.000
+Whitney Hodges: Or the Instagram, this one creative here as well.
+
+01:17:11.000 --> 01:17:12.000
+judy: Right.
+
+01:17:15.000 --> 01:17:30.000
+Whitney Hodges: Um, this can be synced with your Google Analytics if you'd like for it to, so you can just kind of see all of that information, um, at a glance, but that's, that's just the dashboard for you. I would say where our clients are spending most of their time is the opportunity section.
+
+01:17:23.000 --> 01:17:25.000
+judy: Okay.
+
+01:17:30.000 --> 01:17:35.000
+Whitney Hodges: Because this is gonna be where you see your actual leads.
+
+01:17:35.000 --> 01:17:43.000
+Whitney Hodges: coming through, um, and where you can see where the leads are coming from, right? So, like, okay, uh, little… oops, uh…
+
+01:17:36.000 --> 01:17:38.000
+judy: Oh!
+
+01:17:44.000 --> 01:17:54.000
+Whitney Hodges: Little plus sign here, like I mentioned, that is the website versus this came from this specific Facebook ad. This came from this Facebook ad.
+
+01:17:44.000 --> 01:17:46.000
+judy: Uh-huh.
+
+01:17:48.000 --> 01:17:50.000
+judy: That's her name.
+
+01:17:51.000 --> 01:17:53.000
+judy: And it has their names.
+
+01:17:54.000 --> 01:18:08.000
+Whitney Hodges: from Instagram, yeah, and you know their name, right? Like, so you know, you can say with certainty, this lead came to me from an Instagram ad. It's really, it's really cool to be able to have that attribution data.
+
+01:17:56.000 --> 01:17:59.000
+judy: Oh.
+
+01:18:01.000 --> 01:18:02.000
+judy: Ah!
+
+01:18:05.000 --> 01:18:06.000
+judy: Yeah.
+
+01:18:06.000 --> 01:18:08.000
+judy: That's interesting.
+
+01:18:09.000 --> 01:18:25.000
+Whitney Hodges: And then we're able to see, you know, okay, who you're currently chatting with, right? And so maybe these are the people that you, like, click into their conversations, which I'll show you and, you know, kind of continue the conversation there. These are the people whose, you know, tours are scheduled.
+
+01:18:12.000 --> 01:18:14.000
+judy: I don't know.
+
+01:18:25.000 --> 01:18:43.000
+Whitney Hodges: These are the people whose tours are complete. So you know, we can put them in a follow up sequence after their tour. But you probably also want to continue to be personally checking in and reaching out after their tour is complete. So it's like at a glance. You just know who all those people are, and you can see them right.
+
+01:18:40.000 --> 01:18:41.000
+judy: Right.
+
+01:18:43.000 --> 01:18:57.000
+Whitney Hodges: Um, and then we've got people, you know, who've been moved over to the one category as well, and then of course, you know, not every lead's gonna turn into a booking, so these are the people who went elsewhere, and, you know, we're keeping track of them as well.
+
+01:18:53.000 --> 01:18:54.000
+judy: Okay.
+
+01:18:54.000 --> 01:18:57.000
+judy: Oh, oh, huh.
+
+01:18:58.000 --> 01:19:03.000
+judy: Oh, okay. One of my question earlier was about.
+
+01:19:01.000 --> 01:19:02.000
+Whitney Hodges: So…
+
+01:19:03.000 --> 01:19:10.000
+judy: Email versus text. So, we don't… we don't use text, really, at all.
+
+01:19:04.000 --> 01:19:06.000
+Whitney Hodges: Mm-hmm.
+
+01:19:07.000 --> 01:19:09.000
+Whitney Hodges: Mm-hmm.
+
+01:19:10.000 --> 01:19:11.000
+Whitney Hodges: Mm-hmm.
+
+01:19:10.000 --> 01:19:16.000
+judy: So how do you keep track of that conversation that you're having?
+
+01:19:11.000 --> 01:19:12.000
+Whitney Hodges: Mm-hmm.
+
+01:19:17.000 --> 01:19:20.000
+judy: Because legal matters more than anything.
+
+01:19:17.000 --> 01:19:20.000
+Whitney Hodges: Great question. Mm-hmm. Yeah, so let me show you.
+
+01:19:21.000 --> 01:19:22.000
+judy: Yeah.
+
+01:19:22.000 --> 01:19:24.000
+Whitney Hodges: Mm-hmm.
+
+01:19:25.000 --> 01:19:33.000
+Whitney Hodges: So, we definitely recommend leveraging text messages, because from what we see, um…
+
+01:19:35.000 --> 01:19:37.000
+Whitney Hodges: Uh, it's just…
+
+01:19:37.000 --> 01:19:43.000
+Whitney Hodges: More common that you're going to be able to get a response through a text message, but also that they're actually going to.
+
+01:19:43.000 --> 01:19:54.000
+Whitney Hodges: see and read what the communication is. And I want to find an example of this that's a little bit better, just one second, just as far as, like, more of a back-and-forth conversation.
+
+01:19:44.000 --> 01:19:46.000
+judy: Oh.
+
+01:19:51.000 --> 01:19:53.000
+judy: Okay.
+
+01:19:54.000 --> 01:19:56.000
+Whitney Hodges: Uh, but…
+
+01:19:56.000 --> 01:20:09.000
+Whitney Hodges: The texting happens from within the system, so it's not on your personal phones, it's not your personal phone number, it's a lead lock phone number that would be created for you, that you…
+
+01:20:00.000 --> 01:20:01.000
+judy: Oh!
+
+01:20:05.000 --> 01:20:07.000
+judy: Okay.
+
+01:20:09.000 --> 01:20:24.000
+Whitney Hodges: So, even though the client is texting with you on their phone, you would actually be texting them from logged in to the website version, if you're on your desktop working, or there is a mobile app. So, if you're on the go.
+
+01:20:20.000 --> 01:20:22.000
+judy: Okay.
+
+01:20:24.000 --> 01:20:35.000
+Whitney Hodges: you're in the Lead Connector app, and you can text people or email people, um, through the app that way. Um, it is gonna be synced to your, um.
+
+01:20:35.000 --> 01:20:40.000
+Whitney Hodges: your email account as well. Do you guys use Gmail for email or Outlook?
+
+01:20:37.000 --> 01:20:40.000
+judy: Outlook. Outlook. Uh-huh.
+
+01:20:40.000 --> 01:20:41.000
+Whitney Hodges: Outlook?
+
+01:20:41.000 --> 01:20:56.000
+Whitney Hodges: Okay, yeah, so it's gonna be synced to, uh, your… your Outlook, right? So, whether you send an email, whether you respond to, you know, a lead through your Outlook account, or you respond by going into the LeadBlock system, it's…
+
+01:20:56.000 --> 01:20:59.000
+Whitney Hodges: It's going to track it either way. Everything will stay synced.
+
+01:20:57.000 --> 01:20:58.000
+judy: Okay.
+
+01:20:58.000 --> 01:21:00.000
+judy: Just get away.
+
+01:21:00.000 --> 01:21:05.000
+judy: Huh? Gotta learn all this new stuff. Yeah, yeah.
+
+01:21:01.000 --> 01:21:03.000
+Whitney Hodges: Okay, so let's look here.
+
+01:21:04.000 --> 01:21:05.000
+Whitney Hodges: Okay.
+
+01:21:05.000 --> 01:21:10.000
+judy: Now, okay, so say we did this, uh…
+
+01:21:10.000 --> 01:21:20.000
+judy: Do we con… okay, and we've got questions on how to use Leadlock. Do we contact you or Leadlock company?
+
+01:21:10.000 --> 01:21:12.000
+Whitney Hodges: Mm-hmm.
+
+01:21:21.000 --> 01:21:22.000
+Whitney Hodges: Mm-hmm.
+
+01:21:22.000 --> 01:21:32.000
+Whitney Hodges: So Leadlock is my company as well. So yeah, so it's just really what we have named the software.
+
+01:21:23.000 --> 01:21:26.000
+judy: Oh! Oh.
+
+01:21:26.000 --> 01:21:27.000
+judy: Cool.
+
+01:21:28.000 --> 01:21:31.000
+judy: Okay, okay, okay.
+
+01:21:32.000 --> 01:21:48.000
+Whitney Hodges: So, so with our team, and we, I mean, we have different team members that do different things, right? Like, uh, you know, Fallon is who's really gonna be heading up your, uh, your ad strategy and managing your campaigns, versus Danielle, who would be getting you up and running, um, on…
+
+01:21:33.000 --> 01:21:34.000
+judy: Okay.
+
+01:21:35.000 --> 01:21:36.000
+judy: Yeah.
+
+01:21:40.000 --> 01:21:42.000
+judy: Okay.
+
+01:21:48.000 --> 01:22:04.000
+Whitney Hodges: on Leadlock. So, um, you know, that you… there's, uh, this little button here that you can click to get support, where you can submit a ticket at any time. Danielle has office hours live once a week that you can pop into, or of course, you can always just send any of us an email.
+
+01:21:49.000 --> 01:21:51.000
+judy: Okay.
+
+01:21:51.000 --> 01:21:53.000
+judy: We lost you.
+
+01:22:03.000 --> 01:22:08.000
+judy: Okay. Okay. All right. Well, that's good to know. Yeah.
+
+01:22:04.000 --> 01:22:09.000
+Whitney Hodges: Um, if anything comes up that you need. Mm-hmm.
+
+01:22:09.000 --> 01:22:24.000
+Whitney Hodges: Yeah. So, so here's just kind of an example of, like, how the conversation is streamlined together a bit. So it looks like this lead did really kind of go straight to booking a tour. We can see that she, yeah.
+
+01:22:24.000 --> 01:22:39.000
+Whitney Hodges: booked the tour on July twenty second. That's what kind of, like, created the the inquiry. And then we can see this automated email that the system sent out when her tour was scheduled. We can also see that she opened the email.
+
+01:22:34.000 --> 01:22:35.000
+judy: Aha.
+
+01:22:40.000 --> 01:22:57.000
+Whitney Hodges: So, um, this is an example of just, like, a, you know, a tour confirmation email that could go out. It gives her a little bit more information that, you know, they want her to know before the tour. It also includes their pricing and packages to really kind of try to make sure that they've consumed that before.
+
+01:22:57.000 --> 01:23:12.000
+Whitney Hodges: Um, they come in, there are links there for them to be able to reschedule or cancel if they need to, there's directions, they have a tour resource for people to be able to check out, and then simultaneously, when that email went out.
+
+01:23:12.000 --> 01:23:17.000
+Whitney Hodges: a text message confirmation went out as well.
+
+01:23:15.000 --> 01:23:16.000
+judy: Ah.
+
+01:23:17.000 --> 01:23:19.000
+Whitney Hodges: So…
+
+01:23:19.000 --> 01:23:31.000
+Whitney Hodges: for whatever reason, from what I see here, uh, they needed to… the venue needed to reschedule the tour with her. So that's when a team member came in here, and with this.
+
+01:23:31.000 --> 01:23:42.000
+Whitney Hodges: SMS toggled on, texted the bride, saying, hey, can we reschedule? And then she's responding here, like, yes, we can do 3. Okay, perfect. So then they updated the appointment.
+
+01:23:42.000 --> 01:23:47.000
+Whitney Hodges: Another confirmation went out.
+
+01:23:43.000 --> 01:23:45.000
+judy: Uh-huh.
+
+01:23:47.000 --> 01:24:05.000
+Whitney Hodges: Then, you know, the the bride is sending a a text message. You guys would get an alert whenever a text message comes in. She actually, looks like called the the same kind of lead lock phone number that she had been texting and left a voicemail. And you the voicemail is right there for her.
+
+01:24:05.000 --> 01:24:17.000
+Whitney Hodges: Um, so they're just, like, easily going back and forth through text message to be able to reschedule, which is what we find that is the way that today's couples really are most responsive and want to communicate. Um…
+
+01:24:14.000 --> 01:24:15.000
+judy: Okay.
+
+01:24:17.000 --> 01:24:19.000
+Whitney Hodges: So…
+
+01:24:19.000 --> 01:24:27.000
+Whitney Hodges: Yeah, just kind of an example of how the conversation stays streamlined and all in the same place, if that makes sense.
+
+01:24:24.000 --> 01:24:26.000
+judy: Uh-huh, yeah.
+
+01:24:28.000 --> 01:24:43.000
+Whitney Hodges: and to where, like Judy, you could log in, and you could see what correspondence has been versus like Brittany. Same thing. It's so. It's like kind of could help you guys stay on the same page a little bit. I mean, you're probably, I would guess, sharing an email address for kind of correspondence already.
+
+01:24:35.000 --> 01:24:37.000
+judy: Okay, yeah.
+
+01:24:41.000 --> 01:24:42.000
+judy: Yeah.
+
+01:24:43.000 --> 01:24:48.000
+Whitney Hodges: Um, but this helps to make sure that the texting is streamlined there as well.
+
+01:24:45.000 --> 01:24:47.000
+judy: Okay.
+
+01:24:47.000 --> 01:24:54.000
+judy: Get rid of that thing. What? Yeah. You don't have to get a new one. Oh, yeah. You don't even need a phone then, right?
+
+01:24:48.000 --> 01:24:50.000
+Whitney Hodges: Mm-hmm.
+
+01:24:54.000 --> 01:24:57.000
+judy: Or shouldn't. Oh.
+
+01:24:58.000 --> 01:25:15.000
+Whitney Hodges: So so you would have a lead lock phone number, and that lead lock phone number is gonna have to be connected to an actual real phone, that that's kind of, like, considered the forwarding number. Right? So if somebody actually and we don't often find that people are usually calling the number.
+
+01:25:04.000 --> 01:25:07.000
+judy: Excellent. Oh, okay. Okay.
+
+01:25:08.000 --> 01:25:10.000
+judy: Okay.
+
+01:25:10.000 --> 01:25:11.000
+judy: All right.
+
+01:25:15.000 --> 01:25:24.000
+Whitney Hodges: Um, but when they do, right, we wanna make sure that it actually gets forwarded to a real, you know, working phone number. Um, obviously, yeah. Mm-hmm.
+
+01:25:17.000 --> 01:25:18.000
+judy: Right.
+
+01:25:19.000 --> 01:25:22.000
+judy: Okay. Okay. Good.
+
+01:25:22.000 --> 01:25:23.000
+judy: All right.
+
+01:25:24.000 --> 01:25:41.000
+Whitney Hodges: So, I want to just kind of show you how… how it works, how the system actually works, right? If somebody were to just fill out that inquiry form, um, on, uh, the landing page, like I showed you, or of course the inquiry form, you know, that's on your… your website.
+
+01:25:39.000 --> 01:25:40.000
+judy: Mm-hmm.
+
+01:25:43.000 --> 01:25:52.000
+Whitney Hodges: So step by step, you can really kinda see what what happens. So somebody inquires, we do like to send you a notification.
+
+01:25:52.000 --> 01:26:09.000
+Whitney Hodges: Just so that you are, you know, aware. A new inquiry has come in. You know, this is their name. They've submitted an inquiry. You know, check it out when you have a chance sort of thing. Because you're gonna know, right, that the system is automatically sending them a text, automatically sending them an email.
+
+01:25:52.000 --> 01:25:54.000
+judy: Oh.
+
+01:26:09.000 --> 01:26:24.000
+Whitney Hodges: But I know you don't want to lose that personal touch. So this kind of helps in terms of like you being aware of what's going on, so that at your next opportunity, if you want to pop in there and send a personal email, follow up a personal text, follow up, or try to get them on the phone something like that.
+
+01:26:19.000 --> 01:26:21.000
+judy: Uh-huh.
+
+01:26:24.000 --> 01:26:26.000
+judy: Mm-hmm.
+
+01:26:24.000 --> 01:26:35.000
+Whitney Hodges: you… you can do that, right? Um, at the same time, instantaneously is when they're gonna receive a welcome email. Um, and of course, this is…
+
+01:26:31.000 --> 01:26:32.000
+judy: Hmm?
+
+01:26:35.000 --> 01:26:54.000
+Whitney Hodges: totally customizable, um, and will be, um, you know, customized for your business. So, if you want to share with us, like, what you are normally sending as an initial email, like, we can just plug that in here, we can tweak it, we can make updates, we can kind of, like.
+
+01:26:52.000 --> 01:26:53.000
+judy: Oh.
+
+01:26:54.000 --> 01:27:13.000
+Whitney Hodges: zhuzh it up based on what we would, um, recommend. Um, but here's, you know, an example of, uh, you know, what, what they're sending. They have a link to their wedding packages included in here. Um, they're encouraging them to schedule a tour. They're saying, you know, this is what we'll go over with your tour.
+
+01:27:11.000 --> 01:27:12.000
+judy: Ah.
+
+01:27:13.000 --> 01:27:20.000
+Whitney Hodges: Um, and then they have chosen to include a link that people can go to to get their tour.
+
+01:27:15.000 --> 01:27:16.000
+judy: Oh.
+
+01:27:16.000 --> 01:27:19.000
+judy: Oh, uh-huh, uh-huh.
+
+01:27:20.000 --> 01:27:33.000
+Whitney Hodges: Um, so we can definitely set that up for you if you'd like, but I know, I think you were saying something about how with scheduling and calendars and things like that, you kind of are preferring to do it manually at this point. Um…
+
+01:27:29.000 --> 01:27:31.000
+judy: Yeah.
+
+01:27:33.000 --> 01:27:40.000
+Whitney Hodges: So, I mean, either way really can work. You can definitely adopt the system without.
+
+01:27:34.000 --> 01:27:35.000
+judy: Okay.
+
+01:27:38.000 --> 01:27:42.000
+judy: Okay, and we could add it later.
+
+01:27:40.000 --> 01:27:46.000
+Whitney Hodges: necessarily sending them a link to book the tour. You could always add it later. Mm-hmm.
+
+01:27:43.000 --> 01:27:45.000
+judy: Okay, alright, alright.
+
+01:27:46.000 --> 01:27:47.000
+Whitney Hodges: Mm-hmm.
+
+01:27:50.000 --> 01:28:07.000
+Whitney Hodges: So, um, because the text message messaging is automated, they do have to agree to receive the text messages. So if they check a box, right, saying that they're okay with receiving the text messages, um, then that is when they're going to receive a text.
+
+01:27:56.000 --> 01:27:58.000
+judy: Oh, yeah.
+
+01:28:07.000 --> 01:28:23.000
+Whitney Hodges: Um, so the way that this venue actually has it set up, um, is that they're waiting a day later to send the text, which is totally fine. Most venues really will do it kind of at the same time as the initial email, but, you know, different things work for different venues. So…
+
+01:28:13.000 --> 01:28:15.000
+judy: Bye.
+
+01:28:19.000 --> 01:28:20.000
+judy: Oh.
+
+01:28:20.000 --> 01:28:21.000
+judy: Yeah.
+
+01:28:23.000 --> 01:28:35.000
+Whitney Hodges: you know, they're saying, you know, this is Allie and Danny at Diamond Day Ranch, we saw the inquiry, um, they're really encouraging people to schedule a tour. So again, they're, you know, putting that tour link in there. But we…
+
+01:28:29.000 --> 01:28:31.000
+judy: Okay.
+
+01:28:32.000 --> 01:28:34.000
+judy: Oh, okay.
+
+01:28:35.000 --> 01:28:51.000
+Whitney Hodges: we see people approach it differently, right? Oftentimes, we'll see, you know, a text message that's sent out at the same time, or a few minutes after the initial email, but it's just more along the lines of, like, we've emailed you more information, go to your inbox to check it out, or…
+
+01:28:51.000 --> 01:29:08.000
+Whitney Hodges: Uh, that text message could include a link to your packages, or the text message could be meant to really kind of start a conversation with them of, uh, you know, we received your inquiry, do you have a preferred date in mind? Or even just asking the question of, do you want to schedule a tour?
+
+01:28:52.000 --> 01:28:54.000
+judy: I…
+
+01:28:58.000 --> 01:28:59.000
+judy: Yes, ma'am.
+
+01:29:03.000 --> 01:29:04.000
+judy: Right.
+
+01:29:08.000 --> 01:29:15.000
+Whitney Hodges: And then if they respond, then you can have more of that back and forth with them to manually get their tour scheduled.
+
+01:29:12.000 --> 01:29:14.000
+judy: Okay. All right.
+
+01:29:14.000 --> 01:29:16.000
+judy: Okay.
+
+01:29:15.000 --> 01:29:17.000
+Whitney Hodges: Okay.
+
+01:29:17.000 --> 01:29:18.000
+Whitney Hodges: Okay.
+
+01:29:18.000 --> 01:29:36.000
+Whitney Hodges: So then, you know, what it also does, Judy, and what I definitely do recommend, this is a best practice for venues these days, is it doesn't just stop with one email and one text message. It continues to really put them into what we would call an email nurture sequence.
+
+01:29:29.000 --> 01:29:30.000
+judy: Okay.
+
+01:29:35.000 --> 01:29:36.000
+judy: Hmm.
+
+01:29:36.000 --> 01:29:50.000
+Whitney Hodges: Right? So that it's this consistent follow-up that's happening with these new leads that are coming in, without relying on you to be the one to do it, right? So, the second email that goes out a couple of days later.
+
+01:29:47.000 --> 01:29:49.000
+judy: Mm-hmm.
+
+01:29:50.000 --> 01:30:05.000
+Whitney Hodges: It's just including even more information for these leads, um, you know, these potential couples to be able to consume. So, um, in this one, they're kind of, like, describing the morning of your wedding, they're including.
+
+01:30:01.000 --> 01:30:03.000
+judy: Wow.
+
+01:30:05.000 --> 01:30:21.000
+Whitney Hodges: a, testimonial from one of their brides, and then again, you know, they're including a link to schedule a tour. In your case, it could just be the question of, would you like to schedule a tour? Right? And if you wanna stop the sequence as soon as somebody replies, you could totally do that.
+
+01:30:06.000 --> 01:30:07.000
+judy: Oh.
+
+01:30:14.000 --> 01:30:15.000
+judy: Okay.
+
+01:30:19.000 --> 01:30:20.000
+judy: Oh.
+
+01:30:21.000 --> 01:30:37.000
+Whitney Hodges: Um, couples these days definitely understand that what they are receiving here is more of, like, a marketing email versus, like, a personalized email, back and forth sort of dialogue. And so this isn't meant to replace.
+
+01:30:30.000 --> 01:30:32.000
+judy: Okay, bye.
+
+01:30:37.000 --> 01:30:47.000
+Whitney Hodges: the actual sales conversations that you're going to need to have, right? But what it is meant to do is to, um, really kind of.
+
+01:30:47.000 --> 01:31:02.000
+Whitney Hodges: capture and engage with, um, repeatedly the leads that are coming in, because I know when we met, um, you know, the last time you were kind of saying that a lead comes in, you send out that first email.
+
+01:31:02.000 --> 01:31:13.000
+Whitney Hodges: and if they don't respond, then they don't respond, right? But this way, it's like, those leads are getting followed up with, without you having to be the ones to do it. Um…
+
+01:31:03.000 --> 01:31:04.000
+judy: Right.
+
+01:31:11.000 --> 01:31:12.000
+judy: Okay.
+
+01:31:13.000 --> 01:31:31.000
+Whitney Hodges: Because what we'll see a lot of times is that, um, leads that come in will receive, like, 3 to 4 of these emails before they respond, or before they schedule their tour. So, that leads me to believe that with some of the leads that you have coming in right now, like, you would be able to capture more tours from them.
+
+01:31:31.000 --> 01:31:35.000
+Whitney Hodges: If there was just more follow up that was happening. Do you see what I'm saying?
+
+01:31:32.000 --> 01:31:35.000
+judy: Oh, okay. I gotcha. Huh.
+
+01:31:37.000 --> 01:31:55.000
+Whitney Hodges: So, you know, what we include in this sequence, um, can, again, all be customized for you. Um, oftentimes what we'll see is that, you know, we're pointing, uh, people to, um, reviews, or different wedding galleries, or, you know, a wedding video, or blog post, or virtual tour, like.
+
+01:31:55.000 --> 01:32:09.000
+Whitney Hodges: it can be really whatever you'd like for it to be. Um, you know, they're choosing their third email to kind of address, uh, rain plan. That's, you know, a hot button item for a lot of their, their couples. Um.
+
+01:31:57.000 --> 01:31:58.000
+judy: Ah.
+
+01:32:03.000 --> 01:32:04.000
+judy: Oh.
+
+01:32:05.000 --> 01:32:07.000
+judy: Yep.
+
+01:32:09.000 --> 01:32:28.000
+Whitney Hodges: So it's just, you know, continuing, and text messages are continuing, um, over the course, um, for this venue of about 2 weeks or so, um, is how they are doing it. And if at any point anyone were to schedule that tour, they would be pulled out of this sequence.
+
+01:32:20.000 --> 01:32:21.000
+judy: Okay.
+
+01:32:28.000 --> 01:32:33.000
+Whitney Hodges: And they would be put into a pre-tour sequence.
+
+01:32:30.000 --> 01:32:37.000
+judy: Okay. Because, like, Brittany and I, I think, both feel like that's a lot of, um…
+
+01:32:38.000 --> 01:32:45.000
+judy: I said, like, shoving it down your throat, like, it just seems like it's like a… What do you mean, like a…
+
+01:32:44.000 --> 01:32:46.000
+Whitney Hodges: Mm-hmm.
+
+01:32:45.000 --> 01:32:49.000
+judy: Like you're forcing it too much. Yeah, like do…
+
+01:32:49.000 --> 01:32:52.000
+judy: But you're saying that we could…
+
+01:32:49.000 --> 01:32:51.000
+Whitney Hodges: Mm-hmm.
+
+01:32:51.000 --> 01:32:52.000
+Whitney Hodges: Thanks.
+
+01:32:52.000 --> 01:32:57.000
+judy: cut that back, like, not have as many follow-ups, is that correct? Because you're like…
+
+01:32:58.000 --> 01:33:08.000
+Whitney Hodges: Sure, it's all completely customizable. I mean, even if you just wanted it to be the one email and one text message that initially goes out, it could…
+
+01:33:04.000 --> 01:33:06.000
+judy: Okay.
+
+01:33:06.000 --> 01:33:07.000
+judy: Yes.
+
+01:33:08.000 --> 01:33:23.000
+Whitney Hodges: It's just what we are seeing that's currently working these days, and what most venues have in place as far as a best practice are, like, email and text nurture sequences. And I know it can kind of feel aggressive, but.
+
+01:33:13.000 --> 01:33:14.000
+judy: Mm-hmm.
+
+01:33:21.000 --> 01:33:22.000
+judy: Mm-hmm.
+
+01:33:23.000 --> 01:33:32.000
+Whitney Hodges: When your competitors are potentially doing it, and you're not, um, and when they're experiencing this from other vendors, or really just.
+
+01:33:32.000 --> 01:33:40.000
+Whitney Hodges: anything kind of in today's digital world, right? I mean, we, we get a lot of emails, um, that, um, it…
+
+01:33:33.000 --> 01:33:35.000
+judy: Right.
+
+01:33:35.000 --> 01:33:37.000
+judy: Yes.
+
+01:33:40.000 --> 01:33:51.000
+Whitney Hodges: and we're more distracted than ever, um, it's a way to try to consistently stay in front of people. Um, but we definitely want it to be com- you to be comfortable with it, right?
+
+01:33:43.000 --> 01:33:46.000
+judy: Okay. Okay.
+
+01:33:48.000 --> 01:33:49.000
+judy: Right.
+
+01:33:51.000 --> 01:33:58.000
+Whitney Hodges: It's got to feel on brand for you. So that is why we customize it.
+
+01:33:55.000 --> 01:33:58.000
+judy: Okay, all right.
+
+01:33:58.000 --> 01:34:14.000
+judy: Okay. Yeah. Well, yeah. And I'm like that with anything though, like, like shopping or whatever. Like, I feel like if there's too much of something, I get turned off. Turned off. That's me personally. So obviously not everyone's like that. Yeah. And, and the same with me, but that.
+
+01:33:59.000 --> 01:34:00.000
+Whitney Hodges: Okay.
+
+01:34:10.000 --> 01:34:12.000
+Whitney Hodges: Definitely.
+
+01:34:12.000 --> 01:34:13.000
+Whitney Hodges: Mm-hmm. Fant.
+
+01:34:14.000 --> 01:34:16.000
+judy: You know, it makes sense in.
+
+01:34:16.000 --> 01:34:25.000
+judy: I mean, it's a different generation we're looking at. Yeah. Basically. Yeah, yeah, yeah.
+
+01:34:21.000 --> 01:34:22.000
+Whitney Hodges: Mmhm.
+
+01:34:23.000 --> 01:34:24.000
+Whitney Hodges: Yeah. Okay.
+
+01:34:24.000 --> 01:34:25.000
+Whitney Hodges: Okay.
+
+01:34:25.000 --> 01:34:32.000
+Whitney Hodges: So I'm trying to see here. There should be a tour workflow, and I'm just looking for it.
+
+01:34:32.000 --> 01:34:48.000
+Whitney Hodges: This is the post tour one. So but essentially what would happen. So even if you don't choose to use the scheduler, you know, even if you don't want to send people a link to be able to book a tour with you. What you could do is.
+
+01:34:48.000 --> 01:34:59.000
+Whitney Hodges: manually book the tours inside of the system, inside of, like, the calendars right here. Um, and that could then.
+
+01:34:52.000 --> 01:34:53.000
+judy: Uh-huh.
+
+01:34:59.000 --> 01:35:16.000
+Whitney Hodges: Um, just by you, here, let me show you an example. So, like, new appointment booking, um, we would want it to be a tour, right? Um, you would choose, like, who the, the tour is gonna be with, put their information in there.
+
+01:35:16.000 --> 01:35:31.000
+Whitney Hodges: set the date and time, click book appointment, then that could put them into a pre-tour sequence to where receiving a confirmation email, a confirmation text, and then reminders that are leading up to the tour.
+
+01:35:20.000 --> 01:35:23.000
+judy: Okay, okay.
+
+01:35:27.000 --> 01:35:30.000
+judy: Okay. All right.
+
+01:35:31.000 --> 01:35:37.000
+Whitney Hodges: Um, is that something that you guys are kind of doing manually right now, before people are coming in?
+
+01:35:34.000 --> 01:35:41.000
+judy: I mean, I don't do a lot of follow-up, like we confirm it, you know, we sent like a little.
+
+01:35:40.000 --> 01:35:42.000
+Whitney Hodges: Okay.
+
+01:35:41.000 --> 01:35:51.000
+judy: Like, another inquiry with more information that we have before the tour, and that's basically, like, our confirmation, and we don't have people that just don't show up normally.
+
+01:35:47.000 --> 01:35:49.000
+Whitney Hodges: Mm-hmm.
+
+01:35:51.000 --> 01:35:52.000
+judy: So.
+
+01:35:52.000 --> 01:36:01.000
+Whitney Hodges: Oh, good. Okay. Yeah, so then, I mean, what we set up, we could keep simple, right? It could just be one email that goes out, or if you would prefer…
+
+01:35:52.000 --> 01:35:54.000
+judy: Yeah.
+
+01:35:57.000 --> 01:36:09.000
+judy: I mean, I think, like, one more confirmation couldn't hurt. Yeah, one… yeah. Especially depends, like, when they book the tour. Sometimes we get people that book, like, a month before, or some people that book, like, two days before, so… Yeah.
+
+01:36:08.000 --> 01:36:09.000
+Whitney Hodges: Okay.
+
+01:36:09.000 --> 01:36:11.000
+judy: You know? Yeah.
+
+01:36:11.000 --> 01:36:12.000
+Whitney Hodges: Mmhm.
+
+01:36:11.000 --> 01:36:13.000
+judy: But yeah. Okay.
+
+01:36:13.000 --> 01:36:24.000
+Whitney Hodges: Yeah, yeah. And then after your tours happen, I would say like totally up to you how you want to handle that. Sometimes it's better for that follow up to be completely personalized.
+
+01:36:20.000 --> 01:36:27.000
+judy: Yeah, we always… we… we do it within, like, a day or two. We send, like, a follow-up email with, like, the price breakdown.
+
+01:36:24.000 --> 01:36:26.000
+Whitney Hodges: Mm-hmm. Thank you.
+
+01:36:27.000 --> 01:36:28.000
+judy: Ah.
+
+01:36:28.000 --> 01:36:36.000
+judy: like, our preferred vendor list, a sample contract, so we… Yeah. Yeah, I feel like the follow-up, for sure, is needed. Oh, yeah, yeah.
+
+01:36:29.000 --> 01:36:30.000
+Whitney Hodges: Mm-hmm.
+
+01:36:32.000 --> 01:36:33.000
+Whitney Hodges: Mm-hmm.
+
+01:36:37.000 --> 01:36:46.000
+Whitney Hodges: Mm-hmm. And so after that email, that personal follow-up email that you send to tours that come in, are you then kind of like…
+
+01:36:46.000 --> 01:36:47.000
+judy: Yeah. Okay.
+
+01:36:46.000 --> 01:36:57.000
+Whitney Hodges: continuing to follow up with them beyond that, if you're not hearing from them? Okay. Okay. So if you wanted to put them into a more automated post-tour sequence.
+
+01:36:48.000 --> 01:36:49.000
+judy: Yeah.
+
+01:36:49.000 --> 01:36:50.000
+judy: Yeah. Okay.
+
+01:36:57.000 --> 01:37:03.000
+Whitney Hodges: in here, you could, but I also understand if you would prefer for that to all be.
+
+01:37:01.000 --> 01:37:03.000
+judy: Um.
+
+01:37:03.000 --> 01:37:06.000
+Whitney Hodges: Personalized. Do you know what I'm saying?
+
+01:37:03.000 --> 01:37:09.000
+judy: And I think like one thing we kind of always been was like if.
+
+01:37:09.000 --> 01:37:24.000
+judy: If you don't, um, if… we don't want you booking with us if you really don't like us, you know what I mean? Don't feel like you have to, just because we're… Yeah, yeah, yeah. You know, like, some people sign the contract now, or, you know, like… Yeah, we don't ever do that. We're like, we don't.
+
+01:37:18.000 --> 01:37:19.000
+Whitney Hodges: Okay.
+
+01:37:21.000 --> 01:37:22.000
+Whitney Hodges: Uh-huh.
+
+01:37:24.000 --> 01:37:25.000
+Whitney Hodges: Uh-huh.
+
+01:37:24.000 --> 01:37:29.000
+judy: And I think the reason is, is because we've had people…
+
+01:37:25.000 --> 01:37:27.000
+Whitney Hodges: Yeah.
+
+01:37:27.000 --> 01:37:28.000
+Whitney Hodges: Yeah, no…
+
+01:37:28.000 --> 01:37:29.000
+Whitney Hodges: Okay.
+
+01:37:29.000 --> 01:37:41.000
+judy: come to us, find us somehow or other, and they've already booked another venue, and then they're trying to get out of it, and then they're asking me to help them, and I'm like, no.
+
+01:37:39.000 --> 01:37:59.000
+Whitney Hodges: Oh, wow. Okay. Yeah. Yeah, no, this isn't meant to be, like, a pressure tactic by any means. It's more of meant to be, like, following up with the people who haven't made a decision yet, right? Because if, like, if you're wanting to know, have you booked elsewhere? Where did you end up booking?
+
+01:37:44.000 --> 01:37:47.000
+judy: Okay. Okay.
+
+01:37:57.000 --> 01:37:59.000
+judy: Right.
+
+01:37:59.000 --> 01:38:15.000
+Whitney Hodges: Um, you know, is this still a viable lead or not? Um, like, what we're seeing with some venues is that, um, and I would love to know on your end if you've seen this at all, but somebody will, you know, tour the venue, and then it might not be until 3 months.
+
+01:38:00.000 --> 01:38:02.000
+judy: Right.
+
+01:38:13.000 --> 01:38:14.000
+judy: Yes.
+
+01:38:15.000 --> 01:38:20.000
+Whitney Hodges: even, like, 6 months later that they'll come back and say, okay. I'm ready to book.
+
+01:38:17.000 --> 01:38:24.000
+judy: We've been getting a lot of that. This year has been more than any other year of that.
+
+01:38:20.000 --> 01:38:22.000
+Whitney Hodges: Mmhm.
+
+01:38:24.000 --> 01:38:31.000
+Whitney Hodges: Mm-hmm. Yeah. Mm-hmm. So, the emails would more kind of be meant to be…
+
+01:38:28.000 --> 01:38:30.000
+judy: Like a reminder to…
+
+01:38:31.000 --> 01:38:47.000
+Whitney Hodges: continuing to be, like, keeping you top of mind, you know what I, you know what I mean? Um, because if you think about the, you know, if you think about somebody who has toured a variety of different venues, and if the other ones are continuing to follow up with them.
+
+01:38:33.000 --> 01:38:36.000
+judy: Maybe just raise it to the right.
+
+01:38:36.000 --> 01:38:37.000
+judy: Ah, yeah.
+
+01:38:47.000 --> 01:39:00.000
+Whitney Hodges: but you've only followed up with them once, right, that's kind of putting you at a slight disadvantage if they're continuing to hear from these other venues and be checked in on. So, just food for thought there.
+
+01:38:52.000 --> 01:38:53.000
+judy: Oh.
+
+01:38:58.000 --> 01:39:01.000
+judy: Yeah, definitely. Definitely. Okay.
+
+01:39:01.000 --> 01:39:03.000
+Whitney Hodges: Mm-hmm. Yeah.
+
+01:39:02.000 --> 01:39:10.000
+judy: So pretty much like we can personalize all of this however we would feel comfortable with.
+
+01:39:11.000 --> 01:39:12.000
+judy: Yeah.
+
+01:39:12.000 --> 01:39:21.000
+Whitney Hodges: You can, yeah. And so we can keep it very simple from the start, if you'd like, and you'll just know that the capabilities are there to be able to add on.
+
+01:39:14.000 --> 01:39:15.000
+judy: Right.
+
+01:39:18.000 --> 01:39:20.000
+judy: Add-on. Okay.
+
+01:39:21.000 --> 01:39:30.000
+Whitney Hodges: tour booking links later, if you'd like, or post-tour sequences. Um, it… but it's… I would say, yeah, it really is up to you and what your comfort level is.
+
+01:39:23.000 --> 01:39:24.000
+judy: Right.
+
+01:39:27.000 --> 01:39:33.000
+judy: Okay, okay, that's good. Yeah, yeah, all right, all right.
+
+01:39:31.000 --> 01:39:33.000
+Whitney Hodges: Mm-hmm.
+
+01:39:34.000 --> 01:39:38.000
+Whitney Hodges: What other questions do you have, if any?
+
+01:39:34.000 --> 01:39:36.000
+judy: Um…
+
+01:39:40.000 --> 01:39:44.000
+Whitney Hodges: And I appreciate all your time. I know we've gone later than what we were originally booked for.
+
+01:39:41.000 --> 01:39:49.000
+judy: Oh, no, no, we're fine. You have a… I do have a tour in a little bit. Oh, okay. At noon. Okay, that's what I just was thinking. Um…
+
+01:39:44.000 --> 01:39:45.000
+Whitney Hodges: 8.
+
+01:39:48.000 --> 01:39:50.000
+Whitney Hodges: Yes.
+
+01:39:49.000 --> 01:39:52.000
+judy: Okay, I think…
+
+01:39:53.000 --> 01:39:59.000
+judy: That was all of our questions. Yeah. Yeah.
+
+01:40:00.000 --> 01:40:01.000
+Whitney Hodges: Okay.
+
+01:40:01.000 --> 01:40:05.000
+Whitney Hodges: Yeah. I mean, are you thinking that this is something that may.
+
+01:40:03.000 --> 01:40:12.000
+judy: Oh, yeah, no, definitely would like to pursue this, uh, and get the pricing and everything. Um…
+
+01:40:05.000 --> 01:40:08.000
+Whitney Hodges: Work for work.
+
+01:40:10.000 --> 01:40:11.000
+Whitney Hodges: Okay.
+
+01:40:12.000 --> 01:40:26.000
+judy: Yeah, but no, I think it is something… it's… it's just gonna, uh… It's different. It's gonna take time, I mean, after 12 years, you know, and… but that's why I contacted y'all, too, was because, you know, we needed to, um…
+
+01:40:12.000 --> 01:40:14.000
+Whitney Hodges: Okay.
+
+01:40:22.000 --> 01:40:24.000
+Whitney Hodges: Right.
+
+01:40:26.000 --> 01:40:27.000
+Whitney Hodges: Hello.
+
+01:40:26.000 --> 01:40:32.000
+judy: Change up how it… how we're doing stuff. Make it a little more…
+
+01:40:32.000 --> 01:40:44.000
+judy: I don't know what the word is… friendly… use… for them to use it? Friendly? Yeah. To ask us questions? I don't know. But I felt like we needed to… to, you know…
+
+01:40:32.000 --> 01:40:34.000
+Whitney Hodges: Mm-hmm.
+
+01:40:38.000 --> 01:40:41.000
+Whitney Hodges: Uh-huh, yeah.
+
+01:40:44.000 --> 01:40:49.000
+judy: Catch up with the time.
+
+01:40:45.000 --> 01:40:46.000
+Whitney Hodges: Mm-hmm.
+
+01:40:48.000 --> 01:41:04.000
+Whitney Hodges: Yeah, things, I mean, things are definitely changing really quickly. So I love it that you're open to kind of adapting things like new things. There will be a bit of a learning curve, right, with adopting block, but we are here to support you with that every step of the way.
+
+01:40:53.000 --> 01:40:54.000
+judy: Yeah.
+
+01:40:57.000 --> 01:40:59.000
+judy: Yes.
+
+01:41:01.000 --> 01:41:03.000
+judy: Okay. Okay.
+
+01:41:04.000 --> 01:41:14.000
+Whitney Hodges: And, you know, like, with some software platforms, CRM platforms, you kind of… you sign up for a subscription, and then you're kind of on your own to figure out how to set it up, but…
+
+01:41:11.000 --> 01:41:15.000
+judy: Right, right. And I can't do that, yeah.
+
+01:41:14.000 --> 01:41:24.000
+Whitney Hodges: how it is with us at all. I mean, we are… we're fully setting it all up for you and… and teaching you how to use it, um, essentially, yeah.
+
+01:41:18.000 --> 01:41:21.000
+judy: Okay. Walking through.
+
+01:41:21.000 --> 01:41:31.000
+judy: Oh, okay, okay. I like how you can customize it, though. I do, too, yeah. Two follow-ups, not, like, every week, or… Right, yeah. And they can, um…
+
+01:41:25.000 --> 01:41:26.000
+Whitney Hodges: Mm-hmm.
+
+01:41:27.000 --> 01:41:29.000
+Whitney Hodges: Mmhm.
+
+01:41:31.000 --> 01:41:32.000
+Whitney Hodges: Mm-hmm.
+
+01:41:31.000 --> 01:41:35.000
+judy: I'm gonna assume, since I get a lot of that, like, you can…
+
+01:41:35.000 --> 01:41:50.000
+judy: as the person on the receiving end, they can unsubscribe, or whatever it's called, if they're not wanting us to contact them, because I do get a lot of people, they don't want to give us the grooms.
+
+01:41:42.000 --> 01:41:45.000
+Whitney Hodges: Of course. Mm-hmm.
+
+01:41:50.000 --> 01:41:57.000
+judy: Uh, information. Information, you know, because he didn't want to be getting calls and stuff like that. And I'm like, well, I have to have it.
+
+01:41:52.000 --> 01:41:53.000
+Whitney Hodges: Mm-hmm.
+
+01:41:54.000 --> 01:41:55.000
+Whitney Hodges: Yep.
+
+01:41:57.000 --> 01:41:59.000
+Whitney Hodges: Mm-hmm.
+
+01:41:57.000 --> 01:42:00.000
+judy: For a contract, 'cause you, yeah.
+
+01:42:00.000 --> 01:42:04.000
+Whitney Hodges: Right. Mm-hmm. Yeah. Mm-hmm.
+
+01:42:00.000 --> 01:42:05.000
+judy: But no, no, we're very interested in this. Yeah.
+
+01:42:04.000 --> 01:42:28.000
+Whitney Hodges: Yeah. So, I mean, people aren't interested. Yeah. Yeah. If people aren't interested, if they've gone a different direction, if they've seen the information or like, this isn't for me, they can unsubscribe from email, unsubscribe from the text messages at any time. But I even think just the ability for you guys to be able to have a streamlined way to have text message conversations with today's couples is gonna kind of be a game changer for you.
+
+01:42:10.000 --> 01:42:12.000
+judy: Bye.
+
+01:42:14.000 --> 01:42:16.000
+judy: Okay.
+
+01:42:21.000 --> 01:42:22.000
+judy: Yeah, yeah.
+
+01:42:26.000 --> 01:42:28.000
+judy: Yeah. Yeah.
+
+01:42:28.000 --> 01:42:37.000
+Whitney Hodges: Um, without having to use your personal phones, right? You can do it from within the system, you can do it on the mobile app, which we'll show you how to use as well.
+
+01:42:31.000 --> 01:42:33.000
+judy: System.
+
+01:42:34.000 --> 01:42:37.000
+judy: Okay. Okay.
+
+01:42:37.000 --> 01:42:46.000
+judy: Yeah, no, we're definitely interested if you can send over the pricing on all this for us to make a decision and stuff. Yeah.
+
+01:42:37.000 --> 01:42:39.000
+Whitney Hodges: Yeah. Mm-hmm.
+
+01:42:43.000 --> 01:42:45.000
+Whitney Hodges: Mm-hmm. Mm-hmm.
+
+01:42:46.000 --> 01:42:48.000
+judy: Okay.
+
+01:42:47.000 --> 01:43:03.000
+Whitney Hodges: Definitely. Yeah. So I'll send you, um, you know, this link here, which is essentially for the, the proposal. So, so elevate is what we, we call it when we're, it's our premium ads management plus the automation through lead box.
+
+01:42:52.000 --> 01:42:53.000
+judy: Alright.
+
+01:42:58.000 --> 01:43:00.000
+judy: Oh.
+
+01:43:00.000 --> 01:43:01.000
+judy: Okay.
+
+01:43:03.000 --> 01:43:19.000
+Whitney Hodges: Um, so, um, you know, this is really to help you embrace the full funnel advertising with both the Google and Meta, um, all totally set up by our team. Um, and, you know, I love it that we're wedding industry specific, that we're mostly working with venues as well.
+
+01:43:09.000 --> 01:43:11.000
+judy: Yes.
+
+01:43:12.000 --> 01:43:13.000
+judy: Okay.
+
+01:43:17.000 --> 01:43:19.000
+judy: Right.
+
+01:43:19.000 --> 01:43:27.000
+Whitney Hodges: I think it gives us a leg up versus just, you know, a jack of all trades marketing firm. Right?
+
+01:43:23.000 --> 01:43:27.000
+judy: Oh, yeah. No, no. Yeah, definitely.
+
+01:43:27.000 --> 01:43:28.000
+Whitney Hodges: So…
+
+01:43:28.000 --> 01:43:44.000
+Whitney Hodges: the way the process will work when we we start working together is that the the 1st phase really is that we want to make sure that everything is in alignment. We want to make sure that all the right foundations are in place.
+
+01:43:31.000 --> 01:43:32.000
+judy: Huh?
+
+01:43:44.000 --> 01:44:06.000
+Whitney Hodges: So there will be some onboarding calls where we meet to, you know, get your ad accounts set up and to give us ad access to admin access to. We'll have a messaging and positioning interview with you where we really get to know what your unique value proposition is, who your ideal clients are, because we want to be able to weave all of that into.
+
+01:43:49.000 --> 01:43:51.000
+judy: Gotcha.
+
+01:44:00.000 --> 01:44:01.000
+judy: Oh.
+
+01:44:06.000 --> 01:44:07.000
+judy: Okay.
+
+01:44:06.000 --> 01:44:21.000
+Whitney Hodges: your ad copy. You know how the campaigns are set up, what we're including on the landing page, and then, of course, meeting to really understand how you want to use lead block, how you want to customize it for your business.
+
+01:44:19.000 --> 01:44:21.000
+judy: Okay.
+
+01:44:21.000 --> 01:44:35.000
+Whitney Hodges: So at that point, like, after we've had meetings to make sure we're on the same page, that's where our team really gets to work building the Google and Meta ads, so there's keyword research that goes into it, campaigns are getting built, uh…
+
+01:44:28.000 --> 01:44:30.000
+judy: Okay.
+
+01:44:32.000 --> 01:44:36.000
+judy: Yes. And Brittany's going to leave. She's got a tour. Sorry.
+
+01:44:36.000 --> 01:44:41.000
+judy: Nice to meet you. Hi. I'll see you. I'll talk to you.
+
+01:44:36.000 --> 01:44:39.000
+Whitney Hodges: Okay, so nice to meet you, Brittany.
+
+01:44:41.000 --> 01:44:42.000
+Whitney Hodges: Mm-hmm.
+
+01:44:41.000 --> 01:44:43.000
+judy: Okay.
+
+01:44:44.000 --> 01:45:00.000
+Whitney Hodges: You know, we're putting together ad copy and creative, the landing page, you know, the writing the emails for Lead Lock. And so all of that's going to get sent to you, you know, for your review and for your approval. Of course, if you want to see edits, you just let us know about those.
+
+01:45:00.000 --> 01:45:15.000
+Whitney Hodges: But once everything is really ready to go, that's when we, you know, officially onboard you onto LeadBlock. You know, we get it all fully connected for you. Leads start flowing through there. We launch your ads.
+
+01:45:15.000 --> 01:45:31.000
+Whitney Hodges: And that's when our team then has the ability to really start digging into the data and optimizing things, like seeing what's happening with these leads that are coming in. So from there, you know, we'll have monthly.
+
+01:45:21.000 --> 01:45:22.000
+judy: Right.
+
+01:45:23.000 --> 01:45:25.000
+judy: Right.
+
+01:45:31.000 --> 01:45:42.000
+Whitney Hodges: One-on-one strategy meetings with you, uh, monthly reports that are sent to you that really kind of explain all of the analytics and how things are working and what we…
+
+01:45:32.000 --> 01:45:33.000
+judy: Mm-hmm.
+
+01:45:37.000 --> 01:45:38.000
+judy: Okay.
+
+01:45:39.000 --> 01:45:40.000
+judy: Okay.
+
+01:45:40.000 --> 01:45:42.000
+judy: Yeah, yeah.
+
+01:45:42.000 --> 01:45:44.000
+Whitney Hodges: are seeing.
+
+01:45:44.000 --> 01:45:52.000
+Whitney Hodges: So, yeah, I'll send this over to you. It's going to include kind of breakdown of everything that's included.
+
+01:45:45.000 --> 01:45:47.000
+judy: Okay.
+
+01:45:49.000 --> 01:45:50.000
+judy: Okay.
+
+01:45:52.000 --> 01:46:10.000
+Whitney Hodges: To officially get you onboarded onto both LeadLock and for the ads, um, it's an onboarding fee of $3,994 total. Um, that usually essentially kind of covers your first month with us, because it's usually about the first month to 6 weeks that it takes to get you onboarded.
+
+01:45:53.000 --> 01:45:54.000
+judy: Aha.
+
+01:45:57.000 --> 01:45:58.000
+judy: Okay.
+
+01:45:59.000 --> 01:46:01.000
+judy: Uh-huh.
+
+01:46:08.000 --> 01:46:09.000
+judy: Right. Right.
+
+01:46:10.000 --> 01:46:16.000
+Whitney Hodges: Um, and then from there, the ads management monthly retainer is $14.97.
+
+01:46:14.000 --> 01:46:15.000
+judy: Okay.
+
+01:46:17.000 --> 01:46:21.000
+Whitney Hodges: And the LeadLock subscription is $147.
+
+01:46:18.000 --> 01:46:21.000
+judy: Okay, alright, okay.
+
+01:46:21.000 --> 01:46:30.000
+Whitney Hodges: Um, and then your ad spend, like I had mentioned before, that gets paid directly to Google, right? So that's… that's outside of… of this.
+
+01:46:24.000 --> 01:46:25.000
+judy: Right.
+
+01:46:25.000 --> 01:46:26.000
+judy: Right.
+
+01:46:28.000 --> 01:46:30.000
+judy: Okay, okay.
+
+01:46:31.000 --> 01:46:33.000
+judy: Okay.
+
+01:46:32.000 --> 01:46:34.000
+Whitney Hodges: So, um…
+
+01:46:35.000 --> 01:46:52.000
+Whitney Hodges: In order to move forward, you know, your next steps would just be able to fill out the information here and click submit. And then it would take you to a contract to sign and an invoice for payment. And then at that point, that's when we'll, you know, get a kickoff call scheduled with you.
+
+01:46:38.000 --> 01:46:40.000
+judy: Okay.
+
+01:46:42.000 --> 01:46:44.000
+judy: Okay.
+
+01:46:51.000 --> 01:46:54.000
+judy: Okay. Sounds good. Yeah.
+
+01:46:52.000 --> 01:46:54.000
+Whitney Hodges: and really get started on things.
+
+01:46:54.000 --> 01:46:55.000
+judy: Okay.
+
+01:46:55.000 --> 01:46:56.000
+Whitney Hodges: Yeah.
+
+01:46:56.000 --> 01:47:04.000
+Whitney Hodges: Do you have a timeline in mind at the top… off the top of your head, Judy? Like, is this something you'd want to get started with right away, you think, or…
+
+01:47:00.000 --> 01:47:06.000
+judy: Uh, yeah, yeah, no, I mean, I definitely want to get started with it right away, yeah.
+
+01:47:04.000 --> 01:47:05.000
+Whitney Hodges: Okay.
+
+01:47:06.000 --> 01:47:15.000
+judy: Yeah, send that over. Let me look over all the pricing and everything, and then we'll go from there.
+
+01:47:06.000 --> 01:47:10.000
+Whitney Hodges: Okay. Okay. Okay.
+
+01:47:15.000 --> 01:47:17.000
+judy: Yeah. All right.
+
+01:47:17.000 --> 01:47:29.000
+Whitney Hodges: Okay, sounds good. Yeah, I'll get that sent over to you. Um, do you want to put, like, a quick, just, like, check-in meeting on the calendar for sometime next week, so that I can answer any remaining questions?
+
+01:47:18.000 --> 01:47:19.000
+judy: Okay.
+
+01:47:25.000 --> 01:47:27.000
+judy: Um…
+
+01:47:32.000 --> 01:47:34.000
+Whitney Hodges: Okay.
+
+01:47:35.000 --> 01:47:36.000
+Whitney Hodges: Okay.
+
+01:47:38.000 --> 01:47:39.000
+Whitney Hodges: Okay.
+

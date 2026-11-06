@@ -1,0 +1,48 @@
+{
+  "source_type": "fathom",
+  "classification": "additional",
+  "selected_as_additional_source": true,
+  "recording_id": 9004,
+  "week": null,
+  "occurrence_ist": "2026-10-08T20:30:00+05:30",
+  "transcript_sha256": "7670038203bf73e1f4c8c5b587f97f6a07af68f45f4c187a9e18c822467f6643",
+  "source_metadata": {
+    "title": "Monthly Strategy Call",
+    "meeting_title": "Monthly Strategy Call",
+    "meeting_type": "external",
+    "url": "https://fathom.example.test/calls/9004",
+    "meeting_url": "https://zoom.example.test/j/1",
+    "created_at": "2026-10-08T15:40:00Z",
+    "scheduled_start_time": "2026-10-08T15:00:00Z",
+    "scheduled_end_time": "2026-10-08T15:45:00Z",
+    "recording_id": 9004,
+    "recording_start_time": "2026-10-08T15:00:00Z",
+    "recording_end_time": "2026-10-08T15:38:00Z",
+    "calendar_invitees_domains_type": "one_or_more_external",
+    "shared_with": "team",
+    "transcript": null,
+    "transcript_language": "en",
+    "default_summary": null,
+    "action_items": null,
+    "highlights": null,
+    "calendar_invitees": [
+      {
+        "name": "Alex Rivera",
+        "email": "alex@example.test",
+        "email_domain": "example.test",
+        "is_external": false,
+        "matched_speaker_display_name": null
+      }
+    ],
+    "recorded_by": {
+      "name": "Host",
+      "email": "host@example.test",
+      "email_domain": "example.test",
+      "team": "Ads"
+    },
+    "share_url": "https://fathom.example.test/share/9004",
+    "crm_matches": null
+  },
+  "collected_by": "documents fathom-backfill",
+  "collected_at": "2026-11-02T07:13:21.799855+00:00"
+}

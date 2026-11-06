@@ -1,0 +1,83 @@
+{
+  "purpose": "The beliefs WIA wants its market to hold, each with the offer it serves and the funnel stage it fits (E.B28, the v2 method's step 1). The strategy brief chooses four to six of them for each cycle's window, deterministically, and lists each one's do-not-repeat pieces from the published register. Every belief rests on statements quoted word for word from knowledge-base documents 16 (belief statements) and 01 (Savannah's content strategy); the assembler checks each quote against the document it names and leaves out a belief whose quotes no longer appear there.",
+  "source": "Knowledge-base documents 16 and 01 (the quotes), 05 (the offer names) and 01's 'Highest Priority Series to Launch First' (the series names). The one-sentence belief above each group of quotes, the stage and the offer are the engineer's reading under D12 and D21, not WIA's words.",
+  "made_by": "Engineer (Claude, delegated review under D12), 22 October 2026; no model call, no call transcript, nothing from a benchmark week",
+  "entries": [
+    {"id": "budget-follows-proof", "stage": "ATTRACT", "offers": ["ELEVATE"],
+     "belief": "Spending more on ads is never our first move: budget follows proof.",
+     "quotes": [
+       {"document": "content_strategy", "text": "Anyone who tells you that in order to make more as a wedding professional, you have to spend more on ads is BS and just wants your money"},
+       {"document": "content_strategy", "text": "The wedding pros winning with ads in 2026 aren't actually the ones that have the highest ad spend."},
+       {"document": "belief_statements", "text": "We want to help clients make more money, not have all of their revenue and then some go towards paying us plus ad spend. That's not sustainable."}]},
+    {"id": "predictable-over-viral", "stage": "ATTRACT", "offers": ["ELEVATE"],
+     "belief": "Predictable inquiries build a wedding business; a viral moment doesn't.",
+     "quotes": [
+       {"document": "belief_statements", "text": "Virality is exciting. But predictability builds businesses."},
+       {"document": "content_strategy", "text": "A viral reel isn't going to pay your second shooter."}]},
+    {"id": "platforms-have-their-own-goals", "stage": "ATTRACT", "offers": ["ELEVATE"],
+     "belief": "We keep a wedding business's ads pointed at booked couples, because Meta and Google have goals of their own.",
+     "quotes": [
+       {"document": "content_strategy", "text": "Meta and Google do not have the same goal that you do."},
+       {"document": "belief_statements", "text": "Google reps work for Google… they're not your marketing strategist"}]},
+    {"id": "right-couples-not-reach", "stage": "ATTRACT", "offers": ["ELEVATE"],
+     "belief": "An established wedding business needs the right couples to see it, not more reach.",
+     "quotes": [
+       {"document": "content_strategy", "text": "Most wedding marketing advice is built for beginners."},
+       {"document": "content_strategy", "text": "You need 200 of the right couples to see you, not 200,000 random people."}]},
+    {"id": "stop-boosting", "stage": "ATTRACT", "offers": ["Meta Ads Accelerator"], "priority_series": "Stop Boosting Posts",
+     "belief": "Boosting a post isn't an ad strategy.",
+     "quotes": [
+       {"document": "content_strategy", "text": "Stop boosting posts."}]},
+    {"id": "system-not-vacuum", "stage": "WARM", "offers": ["ELEVATE"], "priority_series": "Watch Us Build an Ad Strategy",
+     "belief": "We build a sales system around the ads, not ads in a vacuum, so some of our most useful work isn't the ads themselves.",
+     "quotes": [
+       {"document": "content_strategy", "text": "Most agencies run your ads in a vacuum and send you a report."},
+       {"document": "content_strategy", "text": "We build an entire system for sales around your ads."},
+       {"document": "belief_statements", "text": "There's a huge difference between running ads and building a client acquisition system."}]},
+    {"id": "colder-not-worse", "stage": "WARM", "offers": ["LeadLock and The Foolproof Follow-Up Advantage", "ELEVATE"],
+     "priority_series": "Ad Leads Aren't Worse Than Referrals. They're Just Colder.",
+     "belief": "Ad leads aren't worse than referrals; they're colder, and they need a different follow-up.",
+     "quotes": [
+       {"document": "content_strategy", "text": "Your ad leads aren't worse than your referrals. They're just colder."},
+       {"document": "belief_statements", "text": "Ads traffic requires a different level of follow-up than warm referrals."}]},
+    {"id": "conversions-not-clicks", "stage": "WARM", "offers": ["ELEVATE"], "priority_series": "We Measure Conversions, Not Clicks",
+     "belief": "We judge ads by booked weddings, not clicks.",
+     "quotes": [
+       {"document": "content_strategy", "text": "We measure conversions, not clicks."},
+       {"document": "belief_statements", "text": "This is how ads bring in bookings, not just leads."}]},
+    {"id": "know-your-team", "stage": "WARM", "offers": ["ELEVATE"],
+     "belief": "Our clients know who runs their ads, and they understand what the team is doing and why.",
+     "quotes": [
+       {"document": "content_strategy", "text": "You will know the name and face of the person running your ads."},
+       {"document": "content_strategy", "text": "And we make sure you actually understand it"},
+       {"document": "belief_statements", "text": "There seems to be a misconception that ads are just running, and we aren't really doing anything."}]},
+    {"id": "amplify-what-works", "stage": "WARM", "offers": ["ELEVATE"],
+     "belief": "Ads amplify a business that is already working; they don't fix a broken brand.",
+     "quotes": [
+       {"document": "belief_statements", "text": "We're not here to fix broken brands. We're here to take amazing wedding businesses with awesome organic marketing and strong brands and amplify that through advertising"},
+       {"document": "belief_statements", "text": "Ads don't create demand. They capture it—or amplify it."}]},
+    {"id": "ads-reveal-opportunity", "stage": "WARM", "offers": ["ELEVATE"],
+     "belief": "Advertising brings in leads and also shows where a good business can do even better.",
+     "quotes": [
+       {"document": "belief_statements", "text": "advertising often does two things at once: it brings in new leads, and it reveals areas where refinement can unlock stronger results."}]},
+    {"id": "results-compound", "stage": "WARM", "offers": ["ELEVATE"], "seasons": ["engagement_lead_up", "engagement"],
+     "belief": "Ad results compound: what an account learns this season pays off in the next.",
+     "quotes": [
+       {"document": "belief_statements", "text": "with ads, results compound the longer you're in the game."},
+       {"document": "content_strategy", "text": "Ads aren't a faucet you turn on for leads."}]},
+    {"id": "strategy-is-the-skill", "stage": "CONVERT", "offers": ["Meta Ads Accelerator", "Google Search Accelerator", "Ads Accelerator Bundle"],
+     "belief": "Pushing the buttons is the easy part; thinking like a strategist is the skill, and we teach both.",
+     "quotes": [
+       {"document": "content_strategy", "text": "thinking like a strategist is the hard part / that’s the skill. We teach both."},
+       {"document": "belief_statements", "text": "You'll be doing the work, but you won't be left to figure it out on your own."}]},
+    {"id": "no-dead-season", "stage": "CONVERT", "offers": ["ELEVATE"], "seasons": ["engagement_lead_up", "engagement"],
+     "belief": "A quiet January isn't a dead season; an always-on ad system keeps couples booking.",
+     "quotes": [
+       {"document": "content_strategy", "text": "If you were fully booked in October and crickets in January, it's not a dead season."}]},
+    {"id": "ready-for-more", "stage": "CONVERT", "offers": ["ELEVATE"],
+     "belief": "Owners who already invest in their marketing come to us to amplify what is working.",
+     "quotes": [
+       {"document": "belief_statements", "text": "Clients come to us because they are ready for ads. They want to amplify what is already working"},
+       {"document": "belief_statements", "text": "You don't grow first and then invest. You invest strategically so you can grow."}]}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "plan_id": "plan_334eedbbb7a145c698e5",
+  "purpose": "NP.X2a capped live Opus call",
+  "stages": [
+    "pack_finish"
+  ],
+  "models": [
+    "anthropic/claude-opus-5.5"
+  ],
+  "input_set_hash": "*",
+  "max_calls": 2,
+  "max_cost_usd": 0.06,
+  "approver": "kenil.shah@e2m.solutions",
+  "approved_at": "2026-10-24T12:20:10.051365+00:00",
+  "expires_at": "2026-10-24T14:20:10.051365+00:00",
+  "status": "active",
+  "calls_used": 1,
+  "cost_used_usd": 0.033359,
+  "details": {}
+}

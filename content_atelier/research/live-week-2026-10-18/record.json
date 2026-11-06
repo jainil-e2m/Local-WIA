@@ -1,0 +1,822 @@
+{
+  "week_id": "week_2026-10-05",
+  "knowledge_base_version": "wia-kb-2026-10-18.c-3ccde8c5",
+  "inputs": "benchmark Week 2 excerpts (research/quality-experiments-2026-10-18/sources/week2.json) as one VTT per meeting",
+  "run_plan": "plan_8a5e3f0cc1324a8fb2d7",
+  "cards": [
+    {
+      "angle_id": "angle_34d94366efc711d88549a9e8",
+      "supersedes_id": null,
+      "approval_status": "pending",
+      "review_note": null,
+      "card": {
+        "rank": 1,
+        "title": "The time between booking a venue tour and arriving deserves a plan",
+        "pillar": "CONVERT",
+        "series": "Ad Leads Aren't Worse Than Referrals. They're Just Colder.",
+        "audience": "Venue owners investing in visibility who want to carry a couple's interest through to the in-person tour.",
+        "moment_ids": [
+          "moment_5867b2d015c1bb7f86bb673a"
+        ],
+        "content_type": "solution_selling",
+        "why_selected": "This is the strongest offer-led scene because it shows WIA considering the couple's experience and the venue's real schedule together. It gives LeadLock a clear role while preserving the owner's role in sales. Its central point is pre-tour interest, distinct from the recent content about visibility, attribution and time away from Instagram.",
+        "wia_in_action": "WIA reviewed the inquiry-to-tour journey and asked about the venue's existing virtual-tour option. Whitney proposed an earlier phone or virtual connection for couples whose in-person visit was further away. Fallon Looney, who was on the historical call and is no longer with WIA, suggested a supplemental email with wedding footage and an invitation to ask questions. The recommendations respected the owner's tour schedule rather than asking her to add more tour hours.",
+        "why_it_matters": "An owner may think, 'They've booked the tour, so now we'll send reminders.' This scene adds another question: what would help that couple stay interested and feel more familiar with the venue? It demonstrates Whitney's belief that automation should 'enhance the sales process, not replace it.'",
+        "evidence_points": [
+          "The WIA team proposed reviewing the language and personalization of nurture between inquiry and tour.",
+          "The venue owner said some couples schedule further ahead to accommodate family and described limits on when the venue can host tours.",
+          "Whitney asked whether virtual tours were already an option, and the owner said they were.",
+          "Whitney proposed an earlier personal connection; Fallon proposed a supplemental email for couples with a longer wait."
+        ],
+        "core_perspective": "When a couple schedules a tour a few weeks away, there's an opportunity to help them picture their wedding before they arrive. We look at what happens during that wait, including the emails they receive and where a personal conversation would help.",
+        "offer_connection": "Connect this to LeadLock and The Foolproof Follow-Up Advantage: WIA builds automated email and text follow-up that supports the owner's personal sales conversations. The scene makes the value of pre-consult nurture concrete without presenting the proposed virtual contact or supplemental email as an implemented feature. Close the Instagram piece with an invitation to inquire about LeadLock.",
+        "verify_before_publishing": [
+          "Approve an anonymized account of this historical call; credit Whitney's suggestion and do not present Fallon as current staff.",
+          "Keep both follow-up ideas as recommendations, with no cancellation figures, implementation claims or results."
+        ]
+      },
+      "flags": [
+        {
+          "id": "flag_025e0521929a",
+          "kind": "former_staff",
+          "text": "WIA reviewed the inquiry-to-tour journey and asked about the venue's existing virtual-tour option. Whitney proposed an earlier phone or virtual connection for couples whose in-person visit was further",
+          "field": "wia_in_action",
+          "source": "deterministic",
+          "message": "Fallon Looney has left WIA; never present them as current",
+          "severity": "check"
+        },
+        {
+          "id": "flag_b3500704f1c3",
+          "kind": "former_staff",
+          "text": "Whitney proposed an earlier personal connection; Fallon proposed a supplemental email for couples with a longer wait.",
+          "field": "evidence_points[3]",
+          "source": "deterministic",
+          "message": "Fallon Looney has left WIA; never present them as current",
+          "severity": "check"
+        },
+        {
+          "id": "flag_2d856749f42b",
+          "kind": "other",
+          "text": "It demonstrates Whitney's belief that automation should 'enhance the sales process, not replace it.'",
+          "field": "why_it_matters",
+          "source": "model",
+          "message": "This quote is not in S1. Whitney only suggested adding a more personalized sales step before the tour. Presenting it as her quoted belief is an invented quote.",
+          "severity": "check"
+        },
+        {
+          "id": "flag_f893c1a82ceb",
+          "kind": "tense",
+          "text": "WIA reviewed the inquiry-to-tour journey",
+          "field": "wia_in_action",
+          "source": "model",
+          "message": "Fallon looked at conversion and no-show data, but said she would like to take a look at the nurture language. The scene does not show the nurture review as done.",
+          "severity": "check"
+        },
+        {
+          "id": "flag_9647b8bbaa5c",
+          "kind": "invented_reason",
+          "text": "The recommendations respected the owner's tour schedule rather than asking her to add more tour hours.",
+          "field": "wia_in_action",
+          "source": "model",
+          "message": "The owner described her tour limits, but no speaker framed the ideas as designed around them. Whitney's wedding-day FaceTime idea was conditional on 'bandwidth', and Fallon wasn't sure the owner would want to ask couples to come in sooner.",
+          "severity": "check"
+        }
+      ]
+    },
+    {
+      "angle_id": "angle_b8a9244167b8f545588aef66",
+      "supersedes_id": null,
+      "approval_status": "pending",
+      "review_note": null,
+      "card": {
+        "rank": 3,
+        "title": "I want to know what made a couple book, as well as what they loved afterward",
+        "pillar": "ATTRACT",
+        "series": "Watch Us Build an Ad Strategy",
+        "audience": "Wedding pros with strong reviews who want their advertising to reflect why their best-fit couples chose them.",
+        "moment_ids": [
+          "moment_125018d28145a9aa35909f6f"
+        ],
+        "content_type": "founder_forward",
+        "why_selected": "This earns the reach piece through a clear founder perspective rather than a forced polarizing hook. It differs from the recent UVP training: the point is which customer evidence WIA wants and why, rather than the general importance of positioning before campaign setup.",
+        "wia_in_action": "During a strategy call, Whitney explained that WIA asks ELEVATE clients for existing buying research. She proposed collecting feedback from newly booked couples and using what WIA learns to inform ad copy and landing pages. The WIA move is customer research tied to a specific advertising decision.",
+        "why_it_matters": "An owner may think, 'Our reviews already tell you why couples love us.' Whitney's question makes room for another kind of evidence: what mattered before the wedding happened. It supports her belief that 'good marketing decisions start with good data' without dismissing reviews or claiming an industry-wide research gap.",
+        "evidence_points": [
+          "Whitney said WIA asks new ELEVATE clients whether they have market research to share.",
+          "She distinguished reviews from research into buying triggers.",
+          "She proposed asking newly signed clients about their decision and feeding that information back into ad copy and landing pages.",
+          "The call does not report survey responses or changes made from that research."
+        ],
+        "core_perspective": "I want to understand what a couple was weighing when they chose your business. Their review can tell us what they loved about the experience. Asking about the booking decision can give us different information to consider when we write your ads.",
+        "offer_connection": "This shows the thinking behind ELEVATE's messaging and advertising work. Keep the piece focused on the value of asking about the booking decision, with no offer CTA and no promise that a survey workflow is included or live.",
+        "verify_before_publishing": [
+          "Approve use of Whitney's historical call remarks; avoid her broad characterization of wedding pros as a measured finding.",
+          "Describe the client survey and shared-data workflow as proposed, not implemented or currently included."
+        ]
+      },
+      "flags": [
+        {
+          "id": "flag_a826f81d971b",
+          "kind": "misattribution",
+          "text": "It supports her belief that 'good marketing decisions start with good data'",
+          "field": "why_it_matters",
+          "source": "model",
+          "message": "Whitney does not say this in S4. A quoted belief she never expressed on the call is an invented quote.",
+          "severity": "block"
+        },
+        {
+          "id": "flag_328043e6e43b",
+          "kind": "other",
+          "text": "During a strategy call, Whitney explained",
+          "field": "wia_in_action",
+          "source": "model",
+          "message": "In S4 Whitney is floating an idea to Fallon, then a WIA team member, and asking 'pick your brain'. It does not show a client strategy call, so check how the setting is described.",
+          "severity": "check"
+        },
+        {
+          "id": "flag_8960d4de417a",
+          "kind": "overclaim",
+          "text": "She proposed collecting feedback from newly booked couples and using what WIA learns to inform ad copy and landing pages.",
+          "field": "wia_in_action",
+          "source": "model",
+          "message": "The proposal was LeadLock surveys that ELEVATE clients would have to send or tag themselves when someone signs. Whitney said the data would go into a shared spreadsheet before being woven into ad copy and landing pages. It is an unconfirmed idea, not a WIA process.",
+          "severity": "check"
+        }
+      ]
+    },
+    {
+      "angle_id": "angle_6cda7af998500d981f79f6d4",
+      "supersedes_id": null,
+      "approval_status": "approved",
+      "review_note": "D12, develop: Carmen's diagnostic judgment and the hand-off to Jacqueline are WIA's work and specific. Checked: the metrics stay out as results, and the brief must confirm the setting and the Accelerator link before publishing (ledger checks).",
+      "card": {
+        "rank": 2,
+        "title": "Why Carmen wanted more time and another set of eyes on a venue campaign",
+        "pillar": "WARM",
+        "series": "Watch Us Build an Ad Strategy",
+        "audience": "Wedding venue owners who want expert guidance on what to keep running, what to review and when to make a change.",
+        "moment_ids": [
+          "moment_ce3ca481978cce814d6d8500",
+          "moment_3eb9782ac13742b9550e62a9"
+        ],
+        "content_type": "behind_the_scenes",
+        "why_selected": "The distinctive contribution is Carmen's restraint and her referral to another team expert. A dashboard lesson alone would be too basic. Combining the two scenes shows how WIA helps an owner think through a decision, with a concrete example of what guided support looks like.",
+        "wia_in_action": "Carmen used diagnosis beyond the dashboard. She considered the limited traffic, discussed different kinds of visitor behavior and avoided claiming a cause. When a visitor reached the inquiry form and then moved away, she recommended asking Jacqueline for landing-page feedback. The scene shows support that includes judgment and collaboration, even before there is a settled answer.",
+        "why_it_matters": "An owner may ask, 'Should we change the campaign yet?' WIA's answer depends on what there is to assess and what still needs a closer look. This shows the belief that 'good marketing decisions start with good data' through a specific decision, rather than repeating the recent attribution story.",
+        "evidence_points": [
+          "Carmen said the campaign had not yet had enough breathing room for her to assess its success.",
+          "She discussed whether visitor behavior might point toward the ads or the landing-page experience, without establishing either explanation.",
+          "She noticed a visitor reaching the inquiry form and then moving away from the page.",
+          "She recommended submitting the venue's corporate landing page to Jacqueline for feedback and said she had not reached a conclusion."
+        ],
+        "core_perspective": "We want enough evidence to make a useful recommendation. In office hours, Carmen considered how much traffic a venue campaign had received, looked at what visitors were doing after the click and recommended Jacqueline's feedback on the landing page. She kept the open questions open.",
+        "offer_connection": "This illustrates the guided support available through the Accelerators after WIA builds and launches the campaigns. The owner continues managing the ads with expert feedback available. Keep this piece free of an offer CTA; the work itself is the trust-builder.",
+        "verify_before_publishing": [
+          "Approve the anonymized office-hours scene and preserve that the campaign was for corporate events at a venue.",
+          "Do not publish the reported metrics as verified results or Carmen's preferred click count as a universal threshold."
+        ]
+      },
+      "flags": [
+        {
+          "id": "flag_b0389fae34b8",
+          "kind": "other",
+          "text": "This illustrates the guided support available through the Accelerators after WIA builds and launches the campaigns. The owner continues managing the ads with expert feedback available.",
+          "field": "offer_connection",
+          "source": "model",
+          "message": "The scenes never say this venue is an Accelerator member or who manages the campaign. Carmen only advises posting the page for Jacqueline's feedback, so the Accelerator link is an inference.",
+          "severity": "check"
+        },
+        {
+          "id": "flag_cecb53bb7062",
+          "kind": "invented_reason",
+          "text": "In office hours, Carmen considered",
+          "field": "core_perspective",
+          "source": "model",
+          "message": "The scenes do not name the setting as office hours. Confirm the setting before saying it publicly.",
+          "severity": "check"
+        },
+        {
+          "id": "flag_b2878351ae97",
+          "kind": "other",
+          "text": "This shows the belief that 'good marketing decisions start with good data'",
+          "field": "why_it_matters",
+          "source": "model",
+          "message": "The quoted line is not in S2 or S3. It reads as a speaker's words, so present it as the card writer's framing or drop the quotation marks.",
+          "severity": "check"
+        }
+      ]
+    },
+    {
+      "angle_id": "angle_bb74a6718f964153adbecd86d0e9fbc9",
+      "supersedes_id": "angle_34d94366efc711d88549a9e8",
+      "approval_status": "approved",
+      "review_note": "D12, develop: WIA's own move (a planned connection between tour booking and the tour) on a real call; reframed so the ideas stay recommendations and no belief is quoted. Checked against the call: Whitney's suggestion is credited to her, Fallon is not presented as current staff.",
+      "card": {
+        "rank": 1,
+        "title": "The time between booking a venue tour and arriving deserves a plan",
+        "pillar": "CONVERT",
+        "series": "Ad Leads Aren't Worse Than Referrals. They're Just Colder.",
+        "audience": "Venue owners investing in visibility who want to carry a couple's interest through to the in-person tour.",
+        "moment_ids": [
+          "moment_5867b2d015c1bb7f86bb673a"
+        ],
+        "content_type": "solution_selling",
+        "why_selected": "This is the strongest offer-led scene because it shows WIA considering the couple's experience and the venue's real schedule together. It gives LeadLock a clear role while preserving the owner's role in sales. Its central point is pre-tour interest, distinct from the recent content about visibility, attribution and time away from Instagram.",
+        "wia_in_action": "WIA reviewed the inquiry-to-tour journey and asked about the venue's existing virtual-tour option. Whitney suggested an earlier phone or virtual connection for couples whose in-person visit was further away, and the team suggested a supplemental email with wedding footage and an invitation to ask questions. The ideas worked within the owner's tour schedule rather than asking her to add more tour hours. They were recommendations on the call, not changes already made.",
+        "why_it_matters": "An owner may think, 'They've booked the tour, so now we'll send reminders.' This scene adds another question: what would help that couple stay interested and feel more familiar with the venue while they wait? It shows our view that follow-up should support the owner's own sales conversation, not replace it.",
+        "evidence_points": [
+          "The WIA team proposed reviewing the language and personalization of nurture between inquiry and tour.",
+          "The venue owner said some couples schedule further ahead to accommodate family and described limits on when the venue can host tours.",
+          "Whitney asked whether virtual tours were already an option, and the owner said they were.",
+          "Whitney proposed an earlier personal connection; Fallon proposed a supplemental email for couples with a longer wait."
+        ],
+        "core_perspective": "When a couple schedules a tour a few weeks away, there's an opportunity to help them picture their wedding before they arrive. We look at what happens during that wait, including the emails they receive and where a personal conversation would help.",
+        "offer_connection": "Connect this to LeadLock and The Foolproof Follow-Up Advantage: WIA builds automated email and text follow-up that supports the owner's personal sales conversations. The scene makes the value of pre-consult nurture concrete without presenting the proposed virtual contact or supplemental email as an implemented feature. Close the Instagram piece with an invitation to inquire about LeadLock.",
+        "verify_before_publishing": [
+          "Approve an anonymized account of this historical call; credit Whitney's suggestion and do not present Fallon as current staff.",
+          "Keep both follow-up ideas as recommendations, with no cancellation figures, implementation claims or results."
+        ]
+      },
+      "flags": [
+        {
+          "id": "flag_b3500704f1c3",
+          "kind": "former_staff",
+          "text": "Whitney proposed an earlier personal connection; Fallon proposed a supplemental email for couples with a longer wait.",
+          "field": "evidence_points[3]",
+          "source": "deterministic",
+          "message": "Fallon Looney has left WIA; never present them as current",
+          "severity": "check"
+        }
+      ]
+    },
+    {
+      "angle_id": "angle_6272bda35f744111ad64d919d4f2db12",
+      "supersedes_id": "angle_b8a9244167b8f545588aef66",
+      "approval_status": "approved",
+      "review_note": "D12, develop after reframe: Whitney's point that the booking decision is different evidence from reviews is a real WIA perspective. Checked: the setting is now an internal team conversation, the survey stays a proposal, and no quote is attributed to her.",
+      "card": {
+        "rank": 3,
+        "title": "I want to know what made a couple book, as well as what they loved afterward",
+        "pillar": "ATTRACT",
+        "series": "Watch Us Build an Ad Strategy",
+        "audience": "Wedding pros with strong reviews who want their advertising to reflect why their best-fit couples chose them.",
+        "moment_ids": [
+          "moment_125018d28145a9aa35909f6f"
+        ],
+        "content_type": "founder_forward",
+        "why_selected": "This earns the reach piece through a clear founder perspective rather than a forced polarizing hook. It differs from the recent UVP training: the point is which customer evidence WIA wants and why, rather than the general importance of positioning before campaign setup.",
+        "wia_in_action": "In a conversation with the team about improving WIA's own marketing, Whitney explained that WIA asks new ELEVATE clients whether they have research on why couples book them. She floated asking newly booked couples about their decision and using what WIA learns in ad copy and landing pages. It is an idea WIA is exploring, not a process clients receive today.",
+        "why_it_matters": "An owner may think, 'Our reviews already tell you why couples love us.' Whitney's question makes room for another kind of evidence: what mattered to the couple before the wedding happened, while they were still deciding. It does not dismiss reviews or claim an industry-wide research gap.",
+        "evidence_points": [
+          "Whitney said WIA asks new ELEVATE clients whether they have market research to share.",
+          "She distinguished reviews from research into buying triggers.",
+          "She proposed asking newly signed clients about their decision and feeding that information back into ad copy and landing pages.",
+          "The call does not report survey responses or changes made from that research."
+        ],
+        "core_perspective": "I want to understand what a couple was weighing when they chose your business. Their review can tell us what they loved about the experience. Asking about the booking decision can give us different information to consider when we write your ads.",
+        "offer_connection": "This shows the thinking behind ELEVATE's messaging and advertising work. Keep the piece focused on the value of asking about the booking decision, with no offer CTA and no promise that a survey workflow is included or live.",
+        "verify_before_publishing": [
+          "Approve use of Whitney's historical call remarks; avoid her broad characterization of wedding pros as a measured finding.",
+          "Describe the client survey and shared-data workflow as proposed, not implemented or currently included."
+        ]
+      },
+      "flags": []
+    }
+  ],
+  "decisions": [
+    {
+      "item_kind": "brief",
+      "item_id": "brief_f22e2a55a5844fb7a24cda8f61230012",
+      "action": "gate_two_approved",
+      "disposition": "approve",
+      "actor": "kenil.shah@e2m.solutions",
+      "author": "kenil.shah@e2m.solutions",
+      "note": "D12: WIA's own move is the subject; the former team member is no longer named; the CTA is the catalogue's DM keyword and email reply; nothing is claimed as implemented.",
+      "details": {
+        "run_id": "brief_run_14417297d98e38f161370de0",
+        "angle_id": "angle_bb74a6718f964153adbecd86d0e9fbc9",
+        "schema_version": "brief_document_v2"
+      },
+      "created_at": "2026-10-18 12:24:19.075388+00:00"
+    },
+    {
+      "item_kind": "brief",
+      "item_id": "brief_7f92528ccb624653bbf4b1759646eed7",
+      "action": "gate_two_approved",
+      "disposition": "approve",
+      "actor": "kenil.shah@e2m.solutions",
+      "author": "kenil.shah@e2m.solutions",
+      "note": "D12: Carmen's diagnostic judgment is the subject; the belief is cited to the knowledge base, not quoted as her words; no metrics or causes claimed; no offer ask.",
+      "details": {
+        "run_id": "brief_run_8f71dc89ad7c77747940b2c0",
+        "angle_id": "angle_6cda7af998500d981f79f6d4",
+        "schema_version": "brief_document_v2"
+      },
+      "created_at": "2026-10-18 12:24:19.558122+00:00"
+    },
+    {
+      "item_kind": "brief",
+      "item_id": "brief_deea6dfccbab4ce19b0e74f8235a0ec1",
+      "action": "gate_two_approved",
+      "disposition": "approve",
+      "actor": "kenil.shah@e2m.solutions",
+      "author": "kenil.shah@e2m.solutions",
+      "note": "D12: Whitney's own perspective in her voice; the survey stays a proposal; no results claimed; no offer ask.",
+      "details": {
+        "run_id": "brief_run_517e48228b94fd01d453d304",
+        "angle_id": "angle_6272bda35f744111ad64d919d4f2db12",
+        "schema_version": "brief_document_v2"
+      },
+      "created_at": "2026-10-18 12:24:20.140148+00:00"
+    },
+    {
+      "item_kind": "angle",
+      "item_id": "angle_6cda7af998500d981f79f6d4",
+      "action": "gate_one_approved",
+      "disposition": "develop",
+      "actor": "kenil.shah@e2m.solutions",
+      "author": "kenil.shah@e2m.solutions",
+      "note": "D12, develop: Carmen's diagnostic judgment and the hand-off to Jacqueline are WIA's work and specific. Checked: the metrics stay out as results, and the brief must confirm the setting and the Accelerator link before publishing (ledger checks).",
+      "details": {
+        "run_id": "run_c0d968ddb5c740d9a38b89b509ab7db1",
+        "backfilled": "recorded after the plain-approval fix; decided at Gate 1 earlier the same day"
+      },
+      "created_at": "2026-10-18 12:27:26.479363+00:00"
+    },
+    {
+      "item_kind": "angle",
+      "item_id": "angle_bb74a6718f964153adbecd86d0e9fbc9",
+      "action": "gate_one_approved",
+      "disposition": "develop",
+      "actor": "kenil.shah@e2m.solutions",
+      "author": "kenil.shah@e2m.solutions",
+      "note": "D12, develop: WIA's own move (a planned connection between tour booking and the tour) on a real call; reframed so the ideas stay recommendations and no belief is quoted. Checked against the call: Whitney's suggestion is credited to her, Fallon is not presented as current staff.",
+      "details": {
+        "run_id": "run_c0d968ddb5c740d9a38b89b509ab7db1",
+        "backfilled": "recorded after the plain-approval fix; decided at Gate 1 earlier the same day"
+      },
+      "created_at": "2026-10-18 12:27:26.479363+00:00"
+    },
+    {
+      "item_kind": "angle",
+      "item_id": "angle_6272bda35f744111ad64d919d4f2db12",
+      "action": "gate_one_approved",
+      "disposition": "develop",
+      "actor": "kenil.shah@e2m.solutions",
+      "author": "kenil.shah@e2m.solutions",
+      "note": "D12, develop after reframe: Whitney's point that the booking decision is different evidence from reviews is a real WIA perspective. Checked: the setting is now an internal team conversation, the survey stays a proposal, and no quote is attributed to her.",
+      "details": {
+        "run_id": "run_c0d968ddb5c740d9a38b89b509ab7db1",
+        "backfilled": "recorded after the plain-approval fix; decided at Gate 1 earlier the same day"
+      },
+      "created_at": "2026-10-18 12:27:26.479363+00:00"
+    }
+  ],
+  "calls": [
+    {
+      "stage": "moment_extraction",
+      "model": "openai/gpt-6-luna",
+      "status": "succeeded",
+      "cost_usd": "0.005123"
+    },
+    {
+      "stage": "angle_generation",
+      "model": "openai/gpt-6.1-sol",
+      "status": "succeeded",
+      "cost_usd": "0.134381"
+    },
+    {
+      "stage": "card_verification",
+      "model": "anthropic/claude-sonnet-5.5",
+      "status": "succeeded",
+      "cost_usd": "0.103984"
+    },
+    {
+      "stage": "embedding",
+      "model": "openai/text-embedding-3-small",
+      "status": "succeeded",
+      "cost_usd": "0.000005"
+    },
+    {
+      "stage": "embedding",
+      "model": "openai/text-embedding-3-small",
+      "status": "succeeded",
+      "cost_usd": "0.000004"
+    },
+    {
+      "stage": "embedding",
+      "model": "openai/text-embedding-3-small",
+      "status": "succeeded",
+      "cost_usd": "0.000004"
+    },
+    {
+      "stage": "embedding",
+      "model": "openai/text-embedding-3-small",
+      "status": "succeeded",
+      "cost_usd": "0.000004"
+    },
+    {
+      "stage": "embedding",
+      "model": "openai/text-embedding-3-small",
+      "status": "succeeded",
+      "cost_usd": "0.000005"
+    },
+    {
+      "stage": "embedding",
+      "model": "openai/text-embedding-3-small",
+      "status": "succeeded",
+      "cost_usd": "0.000100"
+    },
+    {
+      "stage": "brief_plan",
+      "model": "openai/gpt-6-luna",
+      "status": "succeeded",
+      "cost_usd": "0.001774"
+    },
+    {
+      "stage": "embedding",
+      "model": "openai/text-embedding-3-small",
+      "status": "succeeded",
+      "cost_usd": "0.000006"
+    },
+    {
+      "stage": "brief_grade",
+      "model": "openai/gpt-6-luna",
+      "status": "succeeded",
+      "cost_usd": "0.004484"
+    },
+    {
+      "stage": "brief_plan",
+      "model": "openai/gpt-6-luna",
+      "status": "succeeded",
+      "cost_usd": "0.001698"
+    },
+    {
+      "stage": "embedding",
+      "model": "openai/text-embedding-3-small",
+      "status": "succeeded",
+      "cost_usd": "0.000003"
+    },
+    {
+      "stage": "brief_grade",
+      "model": "openai/gpt-6-luna",
+      "status": "succeeded",
+      "cost_usd": "0.005055"
+    },
+    {
+      "stage": "brief_write",
+      "model": "openai/gpt-6.1-sol",
+      "status": "succeeded",
+      "cost_usd": "0.163866"
+    },
+    {
+      "stage": "brief_repair",
+      "model": "openai/gpt-6.1-sol",
+      "status": "succeeded",
+      "cost_usd": "0.196066"
+    },
+    {
+      "stage": "brief_plan",
+      "model": "openai/gpt-6-luna",
+      "status": "succeeded",
+      "cost_usd": "0.001390"
+    },
+    {
+      "stage": "embedding",
+      "model": "openai/text-embedding-3-small",
+      "status": "succeeded",
+      "cost_usd": "0.000007"
+    },
+    {
+      "stage": "brief_grade",
+      "model": "openai/gpt-6-luna",
+      "status": "succeeded",
+      "cost_usd": "0.004620"
+    },
+    {
+      "stage": "brief_plan",
+      "model": "openai/gpt-6-luna",
+      "status": "succeeded",
+      "cost_usd": "0.001272"
+    },
+    {
+      "stage": "embedding",
+      "model": "openai/text-embedding-3-small",
+      "status": "succeeded",
+      "cost_usd": "0.000003"
+    },
+    {
+      "stage": "brief_grade",
+      "model": "openai/gpt-6-luna",
+      "status": "succeeded",
+      "cost_usd": "0.005323"
+    },
+    {
+      "stage": "brief_write",
+      "model": "openai/gpt-6.1-sol",
+      "status": "succeeded",
+      "cost_usd": "0.063919"
+    },
+    {
+      "stage": "brief_repair",
+      "model": "openai/gpt-6.1-sol",
+      "status": "succeeded",
+      "cost_usd": "0.095869"
+    },
+    {
+      "stage": "brief_plan",
+      "model": "openai/gpt-6-luna",
+      "status": "succeeded",
+      "cost_usd": "0.000952"
+    },
+    {
+      "stage": "embedding",
+      "model": "openai/text-embedding-3-small",
+      "status": "succeeded",
+      "cost_usd": "0.000005"
+    },
+    {
+      "stage": "brief_grade",
+      "model": "openai/gpt-6-luna",
+      "status": "succeeded",
+      "cost_usd": "0.005468"
+    },
+    {
+      "stage": "brief_plan",
+      "model": "openai/gpt-6-luna",
+      "status": "succeeded",
+      "cost_usd": "0.000931"
+    },
+    {
+      "stage": "embedding",
+      "model": "openai/text-embedding-3-small",
+      "status": "succeeded",
+      "cost_usd": "0.000001"
+    },
+    {
+      "stage": "brief_grade",
+      "model": "openai/gpt-6-luna",
+      "status": "succeeded",
+      "cost_usd": "0.005475"
+    },
+    {
+      "stage": "brief_plan",
+      "model": "openai/gpt-6-luna",
+      "status": "succeeded",
+      "cost_usd": "0.000855"
+    },
+    {
+      "stage": "embedding",
+      "model": "openai/text-embedding-3-small",
+      "status": "succeeded",
+      "cost_usd": "0.000001"
+    },
+    {
+      "stage": "brief_grade",
+      "model": "openai/gpt-6-luna",
+      "status": "succeeded",
+      "cost_usd": "0.004965"
+    },
+    {
+      "stage": "brief_write",
+      "model": "openai/gpt-6.1-sol",
+      "status": "succeeded",
+      "cost_usd": "0.161894"
+    },
+    {
+      "stage": "brief_repair",
+      "model": "openai/gpt-6.1-sol",
+      "status": "succeeded",
+      "cost_usd": "0.201559"
+    },
+    {
+      "stage": "context_mining",
+      "model": "anthropic/claude-haiku-5.5",
+      "status": "refused",
+      "cost_usd": "0.000000"
+    },
+    {
+      "stage": "context_mining",
+      "model": "anthropic/claude-sonnet-5.5",
+      "status": "succeeded",
+      "cost_usd": "0.010858"
+    },
+    {
+      "stage": "context_mining",
+      "model": "anthropic/claude-sonnet-5.5",
+      "status": "succeeded",
+      "cost_usd": "0.010818"
+    }
+  ],
+  "learning_loop_candidates": [
+    {
+      "kind": "exemplar",
+      "source_kind": "approved_brief",
+      "source_ref": "mining:a5b41a0045d1512d7475c124",
+      "source_detail": {
+        "section": "wia_perspective",
+        "angle_id": "angle_bb74a6718f964153adbecd86d0e9fbc9",
+        "brief_id": "brief_f22e2a55a5844fb7a24cda8f61230012"
+      },
+      "text": "[brief, CONVERT, approved_brief_wia_perspective] We were looking at what a venue's couples received between booking a tour and arriving for it. Whitney suggested an earlier phone or virtual connection for couples whose visit was weeks away, and our team suggested a supplemental email with wedding footage and an invitation to ask questions. Both were recommendations on that call, not changes we have documented. They reflect how we think about follow-up: automated emails and texts support the owner's own sales conversation and give couples something useful to engage with while they wait."
+    },
+    {
+      "kind": "exemplar",
+      "source_kind": "approved_brief",
+      "source_ref": "mining:8dfaf04b54862fe97df8c518",
+      "source_detail": {
+        "section": "supporting_example",
+        "angle_id": "angle_bb74a6718f964153adbecd86d0e9fbc9",
+        "brief_id": "brief_f22e2a55a5844fb7a24cda8f61230012"
+      },
+      "text": "[brief, CONVERT, approved_brief_supporting_example] {\"scene\": \"On an earlier venue call, our team reviewed the language and personalisation of the venue's inquiry-to-tour follow-up.\", \"wia_move\": \"Whitney suggested an earlier phone or virtual connection for couples whose in-person visit was further away. The team suggested a supplemental email with wedding footage and an invitation to ask questions. Neither is established as implemented.\", \"client_contribution\": \"The owner supplied scheduling context and confirmed that virtual tours were already an option. These private details stay out of public copy; the virtual-tour service was the venue's, not a WIA invention.\"}"
+    },
+    {
+      "kind": "exemplar",
+      "source_kind": "approved_brief",
+      "source_ref": "mining:8c3d819ab531c1435197f002",
+      "source_detail": {
+        "section": "wia_perspective",
+        "angle_id": "angle_6cda7af998500d981f79f6d4",
+        "brief_id": "brief_7f92528ccb624653bbf4b1759646eed7"
+      },
+      "text": "[brief, WARM, approved_brief_wia_perspective] In a venue campaign review, Carmen held two things together: the campaign needed more breathing room, and she recommended seeking another set of eyes on the landing page. She considered the traffic available, looked at behavior after the click and recommended asking Jacqueline for feedback. She also said she hadn't reached a conclusion. That's what we want our guidance to do: help an owner decide what to examine next while being clear about what the evidence can tell us. Good marketing decisions start with good data, and part of that work is knowing when a question is still open."
+    },
+    {
+      "kind": "exemplar",
+      "source_kind": "approved_brief",
+      "source_ref": "mining:14af15e8317d22f42e0bb770",
+      "source_detail": {
+        "section": "supporting_example",
+        "angle_id": "angle_6cda7af998500d981f79f6d4",
+        "brief_id": "brief_7f92528ccb624653bbf4b1759646eed7"
+      },
+      "text": "[brief, WARM, approved_brief_supporting_example] {\"scene\": \"Carmen was reviewing a venue's corporate-events campaign. She said it hadn't had enough breathing room to assess success. Later, she described a visitor going straight to the inquiry form and then moving away from the page. These are observations reported during the conversation, not independently verified visitor data. Public use of this account-specific scene remains subject to permission.\", \"wia_move\": \"Carmen considered both traffic intent and the landing-page experience as possible explanations, without settling on either. She recommended submitting the corporate landing page to Jacqueline for feedback and explicitly said she wasn't reaching a conclusion. Credit Carmen for that recommendation. The evidence does not show Jacqueline speaking, reviewing the page or providing feedback.\", \"client_contribution\": \"The venue's corporate campaign and landing page provided the account-specific material under review. The supplied excerpts do not establish an owner response, subsequent changes, membership status or who managed the campaign, so none should be invented.\"}"
+    },
+    {
+      "kind": "exemplar",
+      "source_kind": "approved_brief",
+      "source_ref": "mining:f1a0bc39ec3fc3bbb9d7fcee",
+      "source_detail": {
+        "section": "wia_perspective",
+        "angle_id": "angle_6272bda35f744111ad64d919d4f2db12",
+        "brief_id": "brief_deea6dfccbab4ce19b0e74f8235a0ec1"
+      },
+      "text": "[brief, ATTRACT, approved_brief_wia_perspective] In an internal team conversation about our own marketing, I brought up a question we ask new ELEVATE clients: do they have any research about why couples chose them? Reviews are useful evidence of the experience a business delivers. I also want to understand the decision that came before that experience. What was the couple weighing, and what helped them feel ready to book? I proposed asking newly booked couples about that decision and considering their answers when we write ad copy and landing pages. That remains an idea to explore. The principle is the part worth sharing: understanding what matters to your couples gives us more to work with when we communicate why they should choose you."
+    },
+    {
+      "kind": "exemplar",
+      "source_kind": "approved_brief",
+      "source_ref": "mining:6d9b2c176b283fd4aa94503a",
+      "source_detail": {
+        "section": "supporting_example",
+        "angle_id": "angle_6272bda35f744111ad64d919d4f2db12",
+        "brief_id": "brief_deea6dfccbab4ce19b0e74f8235a0ec1"
+      },
+      "text": "[brief, ATTRACT, approved_brief_supporting_example] {\"scene\": \"During a historical internal team conversation about improving WIA's own marketing, Whitney described asking new ELEVATE clients whether they had market research to share. She distinguished the reviews clients offered from information about buying decisions, then floated asking newly signed clients about their choice.\", \"wia_move\": \"Whitney proposed gathering booking-decision information and bringing what WIA learns into ad copy and landing pages. The brief uses her reasoning, not the proposed survey mechanics, as the example of WIA's work.\", \"client_contribution\": \"No client participated in this scene, and no couple's response is supplied. Whitney originated the proposal. The record does not establish that surveys were sent or that any advertising was changed.\"}"
+    },
+    {
+      "kind": "exemplar",
+      "source_kind": "approved_card",
+      "source_ref": "mining:a728a382947e7befb2154e0c",
+      "source_detail": {
+        "angle_id": "angle_6272bda35f744111ad64d919d4f2db12",
+        "decisions": [
+          "decision_b43e05c455a14719b45ddaccd9d7e2a2"
+        ],
+        "disposition": "develop"
+      },
+      "text": "[card, ATTRACT, approved_card] I want to know what made a couple book, as well as what they loved afterward\nI want to understand what a couple was weighing when they chose your business. Their review can tell us what they loved about the experience. Asking about the booking decision can give us different information to consider when we write your ads."
+    },
+    {
+      "kind": "exemplar",
+      "source_kind": "approved_card",
+      "source_ref": "mining:d37c4cf814b589d50205fa41",
+      "source_detail": {
+        "angle_id": "angle_bb74a6718f964153adbecd86d0e9fbc9",
+        "decisions": [
+          "decision_806561b723c347b79b4d8212b3abe070"
+        ],
+        "disposition": "develop"
+      },
+      "text": "[card, CONVERT, approved_card] The time between booking a venue tour and arriving deserves a plan\nWhen a couple schedules a tour a few weeks away, there's an opportunity to help them picture their wedding before they arrive. We look at what happens during that wait, including the emails they receive and where a personal conversation would help."
+    },
+    {
+      "kind": "exemplar",
+      "source_kind": "approved_card",
+      "source_ref": "mining:aa4bd828dce147d0b6808a9a",
+      "source_detail": {
+        "angle_id": "angle_6cda7af998500d981f79f6d4",
+        "decisions": [
+          "decision_b03cb5e409c9402db32be4f44203a010"
+        ],
+        "disposition": "develop"
+      },
+      "text": "[card, WARM, approved_card] Why Carmen wanted more time and another set of eyes on a venue campaign\nWe want enough evidence to make a useful recommendation. In office hours, Carmen considered how much traffic a venue campaign had received, looked at what visitors were doing after the click and recommended Jacqueline's feedback on the landing page. She kept the open questions open."
+    },
+    {
+      "kind": "rule",
+      "source_kind": "brief_edit",
+      "source_ref": "mining:36b4756f2f26242ee32531d3",
+      "source_detail": {
+        "diffs": [
+          {
+            "after": "[{\"answer\": \"Answered under WIA's delegation (D12, 18 October 2026): WIA's permission covers anonymised use of its own call material (C-06 public use, WIA-Rulings-2026-10-18); publish only the anonymised paraphrase, with no client or venue identifiable from the retained details.\", \"kind\": \"permissio",
+            "field": "before_publishing",
+            "before": "[{\"answer\": null, \"kind\": \"permission\", \"required\": true, \"text\": \"Approve public use of an anonymised paraphrase of this historical call and confirm the client cannot be identified from the retained details. The supplied passages are marked public_use false; do not publish the call-based narrative ",
+            "brief_id": "brief_f22e2a55a5844fb7a24cda8f61230012"
+          },
+          {
+            "after": "[{\"answer\": \"Answered under WIA's delegation (D12, 18 October 2026): Carmen's attribution is verified against the call evidence; WIA's permission covers anonymised use of its own call material (C-06 public use, WIA-Rulings-2026-10-18); publish only the anonymised paraphrase, with no client or venue ",
+            "field": "before_publishing",
+            "before": "[{\"answer\": null, \"kind\": \"permission\", \"required\": true, \"text\": \"Confirm Carmen's speaker attribution and permission to publish the anonymized account scene and reported visitor behavior. Public use is not authorized in the supplied evidence records. The account-specific passages in the format pla",
+            "brief_id": "brief_7f92528ccb624653bbf4b1759646eed7"
+          },
+          {
+            "after": "[{\"answer\": \"Answered under WIA's delegation (D12, 18 October 2026): Whitney's remarks are attributed to her as she made them; WIA's permission covers reuse of its own team conversation.\", \"kind\": \"permission\", \"required\": true, \"text\": \"Confirm Whitney's attribution and approval for public reuse of",
+            "field": "before_publishing",
+            "before": "[{\"answer\": null, \"kind\": \"permission\", \"required\": true, \"text\": \"Confirm Whitney's attribution and approval for public reuse of these historical remarks.\"}, {\"answer\": null, \"kind\": \"do_not_claim\", \"required\": true, \"text\": \"Keep the survey idea a historical proposal. Do not describe a live or inc",
+            "brief_id": "brief_deea6dfccbab4ce19b0e74f8235a0ec1"
+          }
+        ],
+        "briefs": [
+          "brief_7f92528ccb624653bbf4b1759646eed7",
+          "brief_deea6dfccbab4ce19b0e74f8235a0ec1",
+          "brief_f22e2a55a5844fb7a24cda8f61230012"
+        ],
+        "category": "positioning",
+        "categorised_by": [
+          "anthropic/claude-sonnet-5.5"
+        ]
+      },
+      "text": "Recurring positioning edit at Gate 2 in before publishing; state the rule these edits share (flag; scope brief)"
+    },
+    {
+      "kind": "rule",
+      "source_kind": "brief_edit",
+      "source_ref": "mining:e10d4e154a138108c8d64b61",
+      "source_detail": {
+        "diffs": [
+          {
+            "after": "{\"action\": null, \"choice\": \"no_explicit_ask\", \"chosen_by\": \"person\", \"offer_connection\": null, \"track\": null}",
+            "field": "cta",
+            "before": "{\"action\": null, \"choice\": \"no_explicit_ask\", \"chosen_by\": \"writer\", \"offer_connection\": \"The scene can illustrate guided Accelerator support only if membership and campaign-management responsibilities are confirmed. The planned public narrative names no offer and carries no offer CTA.\", \"track\": nu",
+            "brief_id": "brief_7f92528ccb624653bbf4b1759646eed7"
+          },
+          {
+            "after": "{\"action\": null, \"choice\": \"no_explicit_ask\", \"chosen_by\": \"person\", \"offer_connection\": null, \"track\": null}",
+            "field": "cta",
+            "before": "{\"action\": null, \"choice\": \"no_explicit_ask\", \"chosen_by\": \"writer\", \"offer_connection\": \"Demonstrate the thinking behind ELEVATE's messaging and advertising work without an offer CTA or any promise of an included survey workflow.\", \"track\": \"none\"}",
+            "brief_id": "brief_deea6dfccbab4ce19b0e74f8235a0ec1"
+          }
+        ],
+        "briefs": [
+          "brief_7f92528ccb624653bbf4b1759646eed7",
+          "brief_deea6dfccbab4ce19b0e74f8235a0ec1"
+        ],
+        "category": "positioning",
+        "categorised_by": [
+          "anthropic/claude-sonnet-5.5"
+        ]
+      },
+      "text": "Recurring positioning edit at Gate 2 in cta; state the rule these edits share (flag; scope brief)"
+    },
+    {
+      "kind": "rule",
+      "source_kind": "brief_edit",
+      "source_ref": "mining:081b83ae1952be8dfd9af683",
+      "source_detail": {
+        "diffs": [
+          {
+            "after": "{\"action\": \"Instagram caption: DM us ADS to inquire about LeadLock and The Foolproof Follow-Up Advantage. Email: Reply to this email, and let's see what the right next step looks like.\", \"choice\": \"explicit\", \"chosen_by\": \"person\", \"offer_connection\": \"LeadLock is the platform; The Foolproof Follow-",
+            "field": "cta",
+            "before": "{\"action\": \"Instagram caption: DM us ADS to inquire about LeadLock and The Foolproof Follow-Up Advantage. Email: Reply to this email, and let's see what the right next step looks like.\", \"choice\": \"explicit\", \"chosen_by\": \"writer\", \"offer_connection\": \"LeadLock is the platform; The Foolproof Follow-",
+            "brief_id": "brief_f22e2a55a5844fb7a24cda8f61230012"
+          },
+          {
+            "after": "{\"action\": null, \"choice\": \"no_explicit_ask\", \"chosen_by\": \"person\", \"offer_connection\": null, \"track\": null}",
+            "field": "cta",
+            "before": "{\"action\": null, \"choice\": \"no_explicit_ask\", \"chosen_by\": \"writer\", \"offer_connection\": \"The scene can illustrate guided Accelerator support only if membership and campaign-management responsibilities are confirmed. The planned public narrative names no offer and carries no offer CTA.\", \"track\": nu",
+            "brief_id": "brief_7f92528ccb624653bbf4b1759646eed7"
+          },
+          {
+            "after": "{\"action\": null, \"choice\": \"no_explicit_ask\", \"chosen_by\": \"person\", \"offer_connection\": null, \"track\": null}",
+            "field": "cta",
+            "before": "{\"action\": null, \"choice\": \"no_explicit_ask\", \"chosen_by\": \"writer\", \"offer_connection\": \"Demonstrate the thinking behind ELEVATE's messaging and advertising work without an offer CTA or any promise of an included survey workflow.\", \"track\": \"none\"}",
+            "brief_id": "brief_deea6dfccbab4ce19b0e74f8235a0ec1"
+          }
+        ],
+        "briefs": [
+          "brief_7f92528ccb624653bbf4b1759646eed7",
+          "brief_deea6dfccbab4ce19b0e74f8235a0ec1",
+          "brief_f22e2a55a5844fb7a24cda8f61230012"
+        ],
+        "category": "scope",
+        "categorised_by": [
+          "anthropic/claude-sonnet-5.5"
+        ]
+      },
+      "text": "Recurring scope edit at Gate 2 in cta; state the rule these edits share (flag; scope brief)"
+    }
+  ]
+}

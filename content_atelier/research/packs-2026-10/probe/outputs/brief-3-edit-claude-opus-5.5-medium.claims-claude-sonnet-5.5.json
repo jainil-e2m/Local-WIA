@@ -1,0 +1,205 @@
+{
+ "statements": [
+  {
+   "piece": "email",
+   "text": "Carmen, our Google Ads lead, was going through a venue client's recent searches with a member of their team when another venue's name came up.",
+   "verdict": "supported",
+   "source": "Carmen, our Google Ads lead, was looking through the searches with someone from the venue's team.",
+   "why": "Same actor and event. The evidence says the review covered the last week of search terms."
+  },
+  {
+   "piece": "email",
+   "text": "Her usual position on searches like that is to leave them in.",
+   "verdict": "supported",
+   "source": "ev_28a85fcadf1de2f38599a19b",
+   "why": "Carmen says her default is to leave competitors in."
+  },
+  {
+   "piece": "email",
+   "text": "\"my default is always, like, just leave competitors in.\"",
+   "verdict": "supported",
+   "source": "ev_28a85fcadf1de2f38599a19b",
+   "why": "The quote matches the evidence word for word, with only the filler \"I'm almost like\" dropped."
+  },
+  {
+   "piece": "email",
+   "text": "The team member agreed, and she explained why it made sense for their venue. Couples had considered that nearby venue as well as theirs. Those couples were comparing the two.",
+   "verdict": "supported",
+   "source": "ev_760275f484a2098ab4b0dadc; And when a nearby venue came up, that team member explained that some couples had considered that place before considering theirs.",
+   "why": "Erin said leaving it in was fine, and the claims say couples considered both venues and that an actual comparison was being made."
+  },
+  {
+   "piece": "email",
+   "text": "\"Okay, good to know,\" Carmen said.",
+   "verdict": "supported",
+   "source": "ev_a824a517e71b4a8a11ad087a",
+   "why": "The quote matches the evidence exactly."
+  },
+  {
+   "piece": "email",
+   "text": "Later in the review, a different venue came up. This time the team member placed it in a different market and didn't see its couples considering their venue at all.",
+   "verdict": "supported",
+   "source": "The client's team explained that it was in a different market and wasn't somewhere they saw their couples making that same comparison.",
+   "why": "The claims state this, and Erin's quotes say \"That's nowhere near\" and \"Nobody having a wedding there...\"."
+  },
+  {
+   "piece": "email",
+   "text": "Carmen agreed that one should be excluded.",
+   "verdict": "supported",
+   "source": "Carmen agreed with excluding it.",
+   "why": "This is kept as agreement with a recommendation, not a completed change."
+  },
+  {
+   "piece": "email",
+   "text": "What separated them wasn't anything written in the account. It came from what the client's team knows about the couples they talk to.",
+   "verdict": "unsupported",
+   "source": "The useful distinction came from combining the searches with what the client's team knew.",
+   "why": "The brief says the distinction came from combining the searches with team knowledge. The pack says nothing in the account contributed, which goes further."
+  },
+  {
+   "piece": "email",
+   "text": "If you'd like to keep running your own Google Ads with that kind of support, that's what our Google Search Accelerator was built for: we build and launch your campaigns, and you run them with our experts beside you.",
+   "verdict": "unsupported",
+   "source": "none",
+   "why": "The brief gives no description of the Accelerator or how it works. This adds a service detail the sources do not support."
+  },
+  {
+   "piece": "email",
+   "text": "If there's a Google Ads decision you'd like expert support with, reply to this email and tell me a bit about what you're trying to solve.",
+   "verdict": "supported",
+   "source": "If there's a Google Ads decision you'd like expert support with, reply to this email and tell me a bit about what you're trying to solve.",
+   "why": "This is the approved email reply invitation."
+  },
+  {
+   "piece": "reel_1",
+   "text": "Our Google Ads lead, Carmen, was reviewing a venue client's Google Ads searches recently, and two competing venues came up with two very different answers.",
+   "verdict": "unsupported",
+   "source": "Carmen, our Google Ads lead, was reviewing searches with a member of a client's venue team.",
+   "why": "The review is supported, but \"recently\" adds a time the sources do not give."
+  },
+  {
+   "piece": "reel_1",
+   "text": "When another venue's name shows up in the searches, Carmen's default is usually to leave it in. And when the first one came up, someone from the client's team agreed with her. She said couples had actually considered that nearby venue as well as theirs.",
+   "verdict": "supported",
+   "source": "ev_28a85fcadf1de2f38599a19b; ev_760275f484a2098ab4b0dadc; the claim that couples had considered a nearby venue as well as theirs",
+   "why": "Carmen's default, Erin's agreement and the couples' comparison are all in the sources."
+  },
+  {
+   "piece": "reel_1",
+   "text": "Then a different venue came up. The team member explained that one was in a different market, and she didn't see those couples considering their venue. Carmen agreed that one should be excluded.",
+   "verdict": "supported",
+   "source": "The client's team explained that it was in a different market... Carmen agreed with excluding it.",
+   "why": "Matches the brief's claims on actor, content and certainty."
+  },
+  {
+   "piece": "reel_1",
+   "text": "The venue's team knows their couples, and they hear where else those couples are looking.",
+   "verdict": "supported",
+   "source": "The client's team supplied the local context: which venue had been part of couples' consideration...",
+   "why": "The client's team supplied the local context about couples' consideration."
+  },
+  {
+   "piece": "reel_1",
+   "text": "Caption: In a recent review, Carmen went through those searches with a member of a venue client's team. One competing venue was a place their couples had genuinely weighed alongside them, so leaving it in made sense. Another belonged to a different market, and Carmen agreed that one should be excluded.",
+   "verdict": "unsupported",
+   "source": "During a venue's Google Ads review, Carmen... discussed competing venue searches with a member of the client's team.",
+   "why": "The sequence is supported, but \"recent\" adds a time the sources do not give."
+  },
+  {
+   "piece": "reel_1",
+   "text": "Caption: When both of those are part of the decision, your Google Ads reflect your venue's real market, instead of a blanket rule about competitors.",
+   "verdict": "supported",
+   "source": "none",
+   "why": "This is general advice and belief rather than a claim about the event or a result, so it is not scored against the sources."
+  },
+  {
+   "piece": "reel_2",
+   "text": "Our Google Ads lead found two competing venues in a client's search terms.",
+   "verdict": "supported",
+   "source": "Carmen reviewed other venue names in a client's Google Ads.",
+   "why": "Carmen reviewed other venue names in the client's Google Ads."
+  },
+  {
+   "piece": "reel_2",
+   "text": "Their team knew couples had weighed one of them alongside their own venue.",
+   "verdict": "supported",
+   "source": "The client's team knew couples had considered one nearby venue as well as theirs.",
+   "why": "Same meaning."
+  },
+  {
+   "piece": "reel_2",
+   "text": "The other served a different market. Carmen agreed it should be excluded.",
+   "verdict": "supported",
+   "source": "They placed another in a different market. Carmen agreed it should be excluded.",
+   "why": "Same meaning, and the exclusion stays an agreement, not a completed action."
+  },
+  {
+   "piece": "reel_2",
+   "text": "Caption: For one nearby venue, the team explained that couples had considered it as well as their own. For another, they explained it served a different market, with couples who weren't looking at them. Carmen agreed that the second one should be excluded.",
+   "verdict": "supported",
+   "source": "When a separate venue came up, the team explained that it belonged to another market... Carmen supported excluding it.",
+   "why": "Same actors, content and certainty."
+  },
+  {
+   "piece": "reel_2",
+   "text": "Caption: Carmen ran into exactly this during a recent review with a venue client's team.",
+   "verdict": "unsupported",
+   "source": "During a venue's Google Ads review...",
+   "why": "\"Recent\" adds a time the sources do not give."
+  },
+  {
+   "piece": "carousel",
+   "text": "Our Google Ads lead, Carmen, was going through a venue client's search terms with a member of their team. Competing venue names kept coming up. Her usual approach with those: leave them in.",
+   "verdict": "supported",
+   "source": "Other venue names appeared in the discussion; ev_28a85fcadf1de2f38599a19b",
+   "why": "The review, the venue names appearing and Carmen's default are all in the sources."
+  },
+  {
+   "piece": "carousel",
+   "text": "When the first nearby venue came up, the team member agreed it should stay. Couples had considered that place as well as theirs. Those couples were genuinely comparing the two.",
+   "verdict": "supported",
+   "source": "ev_760275f484a2098ab4b0dadc; there was an actual comparison being made by couples",
+   "why": "Erin said leaving it in was fine, and the claims support an actual comparison being made."
+  },
+  {
+   "piece": "carousel",
+   "text": "Then a different venue came up. This time the team member placed it in a separate market, with couples who wouldn't be looking at their venue. Carmen agreed that one should be excluded.",
+   "verdict": "supported",
+   "source": "The client's team identified it as being in a separate market... Carmen agreed with excluding it.",
+   "why": "Same meaning."
+  },
+  {
+   "piece": "carousel",
+   "text": "Want to keep running your own Google Ads with an expert beside you? That's what our Google Search Accelerator is for. We launch your campaigns, then guide you while you run them, with your venue knowledge part of every decision.",
+   "verdict": "unsupported",
+   "source": "none",
+   "why": "The brief gives no description of the Accelerator or what WIA does within it."
+  },
+  {
+   "piece": "carousel",
+   "text": "Prefer us to manage your ads for you? We do that too.",
+   "verdict": "unsupported",
+   "source": "none",
+   "why": "The sources say nothing about WIA offering managed ad services."
+  },
+  {
+   "piece": "carousel",
+   "text": "Have a real Google Ads decision on your plate? DM us \"ADS\" and let's talk it through.",
+   "verdict": "supported",
+   "source": "If you'd like to work through a real advertising decision with an expert, DM us \"ADS\" and let's talk about it.",
+   "why": "This is the approved carousel CTA."
+  },
+  {
+   "piece": "carousel",
+   "text": "Caption: In a recent review, a member of a venue client's team walked Carmen through two of those names. One belonged to a nearby venue their couples had genuinely considered. The other served a different market entirely, and Carmen agreed it should be excluded.",
+   "verdict": "unsupported",
+   "source": "A member of the client's team described a nearby venue that had also been on some couples' radar.",
+   "why": "The content is supported, but \"recent\" adds a time the sources do not give. \"Their couples\" also generalises \"some couples\"."
+  }
+ ],
+ "summary": {
+  "supported": 21,
+  "unsupported": 9,
+  "guardrail": 0
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J1-claude-haiku-5.5-P12-AH",
+  "model": "anthropic/claude-haiku-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 16087,
+  "completion_tokens": 424,
+  "cached_tokens": 15842,
+  "cost": 0.00039492,
+  "seconds": 2.9,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "4722e099aa05"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 4,
+  "reason": "Version B acknowledges the established owner's existing investment and frames control as a softer, calmer reframe, which fits Whitney's respectful, non-dismissive voice better than A's blunter 'it isn't effort or quality' contrast."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: carousel\n\nVersion A:\nFor many established wedding businesses,\nthe gap isn’t effort or quality…\n\n…it’s control.\n\nVersion B:\nFor established wedding businesses\nwho have already invested in their work…\n\nthe challenge is often control.",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

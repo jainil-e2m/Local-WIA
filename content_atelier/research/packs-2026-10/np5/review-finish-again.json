@@ -1,0 +1,12 @@
+{
+  "purpose": "NP-6: brief 3's pack is finished again on production with the v2 profiles, as the paid proof's stop rule did on scratch copy B, so production replays the proof's own lineage (the first pack under v1, then Finish again under v2) at USD 0.",
+  "name": "finish-again",
+  "actor": "ai@weddingindustryads.com",
+  "steps": [
+    {
+      "label": "brief 3: Finish again under pack-finish.v2 and pack-check.v2",
+      "brief_id": "brief_57502d2280064c9564925d56",
+      "action": "finish_again"
+    }
+  ]
+}

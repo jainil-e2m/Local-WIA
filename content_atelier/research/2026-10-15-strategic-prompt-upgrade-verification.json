@@ -1,0 +1,397 @@
+{
+  "date": "2026-10-15",
+  "repository_root": "C:/Users/Jainil Trivedi/Desktop/Wedding_Industry_Ads/content_atelier",
+  "branch": "feat/content_brief",
+  "baseline_commit": "aafa8c24246daaa6e89e7f3bb7d717dd0f1b8b23",
+  "baseline_target_hashes": {
+    "backend/backend_pipeline/prompts.py": "13afd04aea794872d95cbd29eac22c640fc9b31ac54c80f529048acaaab748b8",
+    "backend/backend_pipeline/prompt_templates/moment_extraction.weekly_v3.md": "84dee0da539506015af951824d084ec41e0a3032561b003bcad37b2b3cd57d48",
+    "backend/backend_pipeline/prompt_templates/angle_generation.system.md": "fd09d604ebdbd2b6e648c777f4e727b628fe1539e1599ebba6b24cc5901bc874",
+    "backend/backend_pipeline/prompt_templates/angle_generation.user.md": "d2564c9d7eeef11048e31fc1c799df21c4cfc5aedf1b1039c1761ab02f918297"
+  },
+  "protected_file_hashes": {
+    "backend/backend_pipeline/strategy_contracts.py": "63a47d93bcaad6d96a0f9d92ebbbbd7bcbd13780c22b672bb3ce0f552ffd07ff",
+    "backend/backend_pipeline/contracts.py": "cebb891c8b934378c60b9c2d9dc2bb58107f1492b52a7f81f3a0b6ee5a54b18f",
+    "backend/backend_pipeline/prompt_templates/moment_extraction.system.md": "89c0477fb4f01b8e81a6fc80a441cb8d33b9a86874ddd63dc5bd21fdce4f34af",
+    "backend/backend_pipeline/prompt_templates/wia_strategy.md": "c0eb92ef3985e5b6cf837581aa9e737c5268935591759c0daaa1a977ba3ef7bc",
+    "backend/backend_pipeline/prompt_templates/editorial_policy.md": "7296620c8c8f2af6aac7840b9f9d8d23627e0490f82dd0458e76ce4f66fdcfc9",
+    "backend/backend_pipeline/prompt_templates/moment_extraction.user.md": "950ba4937cc37361e4dc6098921c3a67464a693e6473eead962d9e25631789e3",
+    "backend/backend_pipeline/prompt_templates/angle_generation.sql_comparison_v1.md": "addf5cbe4fe0c1c3354308a2312ab2fb1ef508d4e9cbb75836c1c452707252f7",
+    "backend/backend_pipeline/prompt_templates/angle_refinement.sql_comparison_v1.md": "9cee513f405a1485f52bd592ef940b1b1d0d127a7921202895b4b38c1a7aa5b0",
+    "backend/backend_pipeline/pipeline.py": "705f468496148f46bbdf7f0154341920e60cb5576a337e7ec37c69f30fd9e38b",
+    "backend/backend_pipeline/sql_pipeline.py": "0b0c09fac93ed5c636ff04000e737546a4e9946a4bf84e2cc8dcf15a2f3fa831",
+    "backend/backend_pipeline/weekly.py": "2d33cc8b5348094257cd6d937dcdba0cfd375a45debf439ad822ee75e612864c",
+    "backend/backend_pipeline/provider.py": "59e441a2939b0f764080467b060073e2365f0e0953f136baa9d3450a6b1e9e9e",
+    "backend/backend_pipeline/refinement.py": "674fa217b0efd862d2720a4c633e9f5a7eb1579ff0675a0127ccea92618da822",
+    "backend/backend_pipeline/scoring.py": "d50cd2ca2d04e8951e5d30e8c84b5cf0582d2775de3bee58d018d126a24f6f82",
+    "backend/backend_pipeline/matching.py": "403f54a0f5e7afc72ab0f3d4f29c135722ac48bf1448aa706b41589a7b8fe0a3",
+    "backend/backend_pipeline/gate_one.py": "6a70622893a771476370542a1813cb76ac6fde00ee93446ed9aed9ad41dacb4e"
+  },
+  "preexisting_working_tree": [
+    " M backend/README.md",
+    " M backend/backend_pipeline/api.py",
+    " M backend/backend_pipeline/database.py",
+    " M backend/backend_pipeline/prepare.py",
+    " M backend/backend_pipeline/repository.py",
+    " M backend/backend_pipeline/retrieval.py",
+    " M backend/backend_pipeline/storage_sources.py",
+    " M backend/pyproject.toml",
+    " M backend/requirements.txt",
+    " M frontend/server/app.mjs",
+    " M frontend/src/App.tsx",
+    " M frontend/src/components/Sidebar.tsx",
+    "?? backend/.dockerignore",
+    "?? backend/Dockerfile",
+    "?? backend/backend_pipeline/backfill.py",
+    "?? backend/backend_pipeline/fathom_sources.py",
+    "?? backend/backend_pipeline/intake/",
+    "?? backend/backend_pipeline/tests/test_future_intake.py",
+    "?? backend/backend_pipeline/tests/test_transcript_backfill.py",
+    "?? backend/compose.intake.yml",
+    "?? backend/docs/Future-Source-Intake.md",
+    "?? backend/docs/transcript-backfill-2026-10-14.md",
+    "?? backend/fathom_backfill_staging/",
+    "?? backend/intake.env.example",
+    "?? backend/migrations/003_future_intake.sql",
+    "?? backend/migrations/schema-catalog-intake-brief.json",
+    "?? backend/migrations/schema-catalog-intake.json",
+    "?? backend/scripts/generate_intake_catalog.py",
+    "?? context/2026-10-15-transcript-only-backfill-completed.md",
+    "?? frontend/server/intake.test.mjs",
+    "?? frontend/src/components/SourcesView.tsx",
+    "?? pending_before_deployment.md",
+    "?? project_agenda.md",
+    "?? research/fathom-backfill-completed-2026-10-14.json",
+    "?? research/fathom-backfill-completed-2026-10-14.md",
+    "?? research/fathom-meeting-metadata-2026-10-14.json",
+    "?? research/fathom-reconciliation-metadata-2026-10-14.json",
+    "?? research/fathom-weekly-inventory-2026-10-14.json",
+    "?? research/fathom-weekly-inventory-2026-10-14.md",
+    "?? research/fathom-zoom-reconciliation-2026-10-14.json",
+    "?? research/fathom-zoom-reconciliation-2026-10-14.md",
+    "?? research/sources/prompt-upgrade-2026-10-15/",
+    "?? research/transcript-backfill-completed-2026-10-15.md",
+    "?? research/zoom-local-reconciliation-inventory-2026-10-14.json",
+    "?? testing/.backfill-native-check-20261014/",
+    "?? testing/.backfill-native-tests-20261014/",
+    "?? testing/.backfill-preparation-check-20261014/",
+    "?? testing/.backfill-sql-tests-20261014/",
+    "?? testing/.backfill-tests-20261014/"
+  ],
+  "packages": [
+    {
+      "original_location": "C:/Users/Jainil Trivedi/Downloads/Content_Atelier_Key_Moments_Prompt_Package",
+      "snapshot": "research/sources/prompt-upgrade-2026-10-15/Content_Atelier_Key_Moments_Prompt_Package",
+      "files": [
+        {
+          "relative_path": "Content_Atelier_Key_Moments_Engineering_Handoff.md",
+          "sha256": "ef89314b169009a0ab248d7525e94ae89b773607fdf0b24d6ff492011d9b235b"
+        },
+        {
+          "relative_path": "Content_Atelier_Key_Moments_SYSTEM_CANDIDATE.md",
+          "sha256": "f8bdf76d0d03cf1858fc307aa4f0eeb5dbe97a8da3d539ff2b9879ef86b93724"
+        },
+        {
+          "relative_path": "Content_Atelier_Key_Moments_WEEKLY_USER_PREFIX.txt",
+          "sha256": "05e6c368603b9efeccb2782ea3017be00cf01770be65b483bd14ca6fd2178718"
+        }
+      ]
+    },
+    {
+      "original_location": "C:/Users/Jainil Trivedi/Downloads/Content_Atelier_Angle_Generation_Candidate_Package",
+      "snapshot": "research/sources/prompt-upgrade-2026-10-15/Content_Atelier_Angle_Generation_Candidate_Package",
+      "files": [
+        {
+          "relative_path": "backend/backend_pipeline/prompt_templates/angle_generation.system.md",
+          "sha256": "3cf960bf65731beafc47ea79099b83ef0f1c3ba18fa89e2dda4386933b0f9415"
+        },
+        {
+          "relative_path": "backend/backend_pipeline/prompt_templates/angle_generation.user.md",
+          "sha256": "dd7bb005807ee1fc654a2bfae524b5ad8b0b7409d37223767275bbc9df7de0ea"
+        },
+        {
+          "relative_path": "Content_Atelier_Angle_Generation_Redesign_Handoff_A-G.md",
+          "sha256": "57e34dbfeee878211038b9cc253a8d3b1480bcef51e2471765ef88f0a7d620df"
+        },
+        {
+          "relative_path": "Content_Atelier_Angle_Generation_Static_Checks.json",
+          "sha256": "e8ebe11b8a9cf006ac691286ae33a3b5334003426e9314f98e57783406d390dc"
+        }
+      ]
+    }
+  ],
+  "baseline_schemas_file": "research/sources/prompt-upgrade-2026-10-15/baseline-schemas.json",
+  "safe_configuration": {
+    "moments_model": "openai/gpt-6-luna",
+    "angles_model": "openai/gpt-6-luna",
+    "reasoning_effort": "high",
+    "response_format": "json_object",
+    "max_tokens": null,
+    "embeddings_enabled": false,
+    "input_limits_enabled": false
+  },
+  "status": "installed_and_locally_verified",
+  "paid_calls": 0,
+  "database_operations": 0,
+  "installed_target_hashes": {
+    "backend/backend_pipeline/prompts.py": "e1c4bb803ca8a5823cfe41d68d8883d0e067bc2b6f3800eaae71fda94a34d44f",
+    "backend/backend_pipeline/prompt_templates/moment_extraction.weekly_v3.md": "9e1a742f6a0898f87cd4b196c34cd49fcfec3818c50da7d1341d15c8e8d1d296",
+    "backend/backend_pipeline/prompt_templates/angle_generation.system.md": "a0f2e497a0113474469a1dc0336ad04fc4aa3711145c84b4dad53174ae24d867",
+    "backend/backend_pipeline/prompt_templates/angle_generation.user.md": "dd7bb005807ee1fc654a2bfae524b5ad8b0b7409d37223767275bbc9df7de0ea"
+  },
+  "protected_files_unchanged": true,
+  "original_packages_unchanged": true,
+  "installed_angle_user_byte_identical": true,
+  "weekly_prefix_exact": true,
+  "rendered_requests": [
+    {
+      "stage": "weekly",
+      "version": "baseline",
+      "mode": "json_object",
+      "path": "backend/.storage-artifacts/verification/prompt-upgrade-20261015/baseline-weekly-json_object.request.json",
+      "sha256": "b07d016189069e74f9ffa56f54dffc91ca62ad826cb6ca9082cb7eafaabb615b",
+      "system_sha256": "e765115173898fe644d693cc7d35b635ff8490516835513eabdc45ee3eeb3c6b",
+      "user_sha256": "8ecf0dba1afe77d5530db6157ccbb750e0b84520b10d80ec3102ba16e6ed5c79",
+      "serialized_characters": 25571,
+      "fixture": "synthetic; not a provider result"
+    },
+    {
+      "stage": "weekly",
+      "version": "baseline",
+      "mode": "json_schema",
+      "path": "backend/.storage-artifacts/verification/prompt-upgrade-20261015/baseline-weekly-json_schema.request.json",
+      "sha256": "2a8e5fd0268277b5cd4e977001d37b1a4d7e487c8d8c7b73346a88caaf8005e8",
+      "system_sha256": "9cc3ffbfc5211c0aa66af4aca07ce7de38c17cf249e3571c30dc6b88bb0b347a",
+      "user_sha256": "8ecf0dba1afe77d5530db6157ccbb750e0b84520b10d80ec3102ba16e6ed5c79",
+      "serialized_characters": 25265,
+      "fixture": "synthetic; not a provider result"
+    },
+    {
+      "stage": "weekly",
+      "version": "installed",
+      "mode": "json_object",
+      "path": "backend/.storage-artifacts/verification/prompt-upgrade-20261015/installed-weekly-json_object.request.json",
+      "sha256": "c80da8f427a4531da72d9e7e91a10135c220344e8923e46ad663271b3e4aecdb",
+      "system_sha256": "38810bcbeadc1b18edd657fa0c9cf3ccf28befd912295e88760afcf5c5957586",
+      "user_sha256": "d8f365873cd90ba60f2f0a3407986b8f2e20d8146f8cd9d233ced0bfe58878be",
+      "serialized_characters": 36973,
+      "fixture": "synthetic; not a provider result"
+    },
+    {
+      "stage": "weekly",
+      "version": "installed",
+      "mode": "json_schema",
+      "path": "backend/.storage-artifacts/verification/prompt-upgrade-20261015/installed-weekly-json_schema.request.json",
+      "sha256": "e82f5d81c740eb9995452230561bc3f50055c708e98837502e143b7c41e096a5",
+      "system_sha256": "401832626f5c2c88a5c0308c8451482b549291fc2e52f909a36d34d0d5715ff8",
+      "user_sha256": "d8f365873cd90ba60f2f0a3407986b8f2e20d8146f8cd9d233ced0bfe58878be",
+      "serialized_characters": 36667,
+      "fixture": "synthetic; not a provider result"
+    },
+    {
+      "stage": "initial",
+      "version": "baseline",
+      "mode": "json_object",
+      "path": "backend/.storage-artifacts/verification/prompt-upgrade-20261015/baseline-initial-json_object.request.json",
+      "sha256": "ca7924fc2f6d4381e792745ea080f41c57b006f6b5dbd410e9225e23f5c32760",
+      "system_sha256": "efd2fa5061c7b6c46e6e0d4ad58e71a9a1094d69d2d0745c8130912f8a9e04db",
+      "user_sha256": "9e97387fe85fa1e4ad288657299690b3256eff9ef5a8a5e2df11420303dcd582",
+      "serialized_characters": 28721,
+      "fixture": "synthetic; not a provider result"
+    },
+    {
+      "stage": "initial",
+      "version": "baseline",
+      "mode": "json_schema",
+      "path": "backend/.storage-artifacts/verification/prompt-upgrade-20261015/baseline-initial-json_schema.request.json",
+      "sha256": "52bd520b59da89006275eed511a2fef8ecdd46a189939325b0c22ea893756ff9",
+      "system_sha256": "79f27891fd9f7cfedc8f23cc8bf8e137c5e045ca279e9f91f574d433d3a751e2",
+      "user_sha256": "9e97387fe85fa1e4ad288657299690b3256eff9ef5a8a5e2df11420303dcd582",
+      "serialized_characters": 28326,
+      "fixture": "synthetic; not a provider result"
+    },
+    {
+      "stage": "initial",
+      "version": "installed",
+      "mode": "json_object",
+      "path": "backend/.storage-artifacts/verification/prompt-upgrade-20261015/installed-initial-json_object.request.json",
+      "sha256": "43416f505839fb1690fa95d091974bbbcaac1b6c98a3a5bd973378ae927bf5b3",
+      "system_sha256": "d20c0a705f769073fdd3370fc76d14cf7004bf7a3b5549ceac4aabbb8dd56c2f",
+      "user_sha256": "0c7126dab5e751c318148f362c8f70e43f328c9eae48784da42a508209ce622a",
+      "serialized_characters": 37723,
+      "fixture": "synthetic; not a provider result"
+    },
+    {
+      "stage": "initial",
+      "version": "installed",
+      "mode": "json_schema",
+      "path": "backend/.storage-artifacts/verification/prompt-upgrade-20261015/installed-initial-json_schema.request.json",
+      "sha256": "12e14e9e02b0cf8f9edc7c8a99d5720615571ae4acca74911090e0e6dd87480d",
+      "system_sha256": "7844c5c10e613e259cb7810c66378717aa67e1e093efb0b88cda7e102971855e",
+      "user_sha256": "0c7126dab5e751c318148f362c8f70e43f328c9eae48784da42a508209ce622a",
+      "serialized_characters": 37328,
+      "fixture": "synthetic; not a provider result"
+    },
+    {
+      "stage": "comparison",
+      "version": "baseline",
+      "mode": "json_object",
+      "path": "backend/.storage-artifacts/verification/prompt-upgrade-20261015/baseline-comparison-json_object.request.json",
+      "sha256": "779c219239aec635fa56e551a4ebeaf9c0dd971d314c4a0719429a4045f9f311",
+      "system_sha256": "cdcdae85aa595360bef7cef2c55911dc7d12e7e89bc22e929816939f114fa6f1",
+      "user_sha256": "f530bff365476fff72e0976c79b212e8689f3cb09a970b9447fce66962c30fd4",
+      "serialized_characters": 29987,
+      "fixture": "synthetic; not a provider result"
+    },
+    {
+      "stage": "comparison",
+      "version": "baseline",
+      "mode": "json_schema",
+      "path": "backend/.storage-artifacts/verification/prompt-upgrade-20261015/baseline-comparison-json_schema.request.json",
+      "sha256": "210d69a5080c3501a850810da5dcceedb4f656fb04b79cc10e0305970ec5c252",
+      "system_sha256": "1fdbfe7a9a37bd8db1c88d8213e167ab0e024abb2bb1ac660f53318dcdd1eaa9",
+      "user_sha256": "f530bff365476fff72e0976c79b212e8689f3cb09a970b9447fce66962c30fd4",
+      "serialized_characters": 29592,
+      "fixture": "synthetic; not a provider result"
+    },
+    {
+      "stage": "comparison",
+      "version": "installed",
+      "mode": "json_object",
+      "path": "backend/.storage-artifacts/verification/prompt-upgrade-20261015/installed-comparison-json_object.request.json",
+      "sha256": "d8b8f6d6259a6a0296e539f2fe0c5eec90e867bdc60cc1b140c9d05398d88a60",
+      "system_sha256": "7505d9d4476911bcaf08eda902e3843c4c0fa86adcb4f7984a440d5ee931ba6c",
+      "user_sha256": "f530bff365476fff72e0976c79b212e8689f3cb09a970b9447fce66962c30fd4",
+      "serialized_characters": 38989,
+      "fixture": "synthetic; not a provider result"
+    },
+    {
+      "stage": "comparison",
+      "version": "installed",
+      "mode": "json_schema",
+      "path": "backend/.storage-artifacts/verification/prompt-upgrade-20261015/installed-comparison-json_schema.request.json",
+      "sha256": "31a8ca91b33e4296888ed6c3a4223a7c62da8fe6e2c9e788fb53851d20562873",
+      "system_sha256": "1a5b8fe33789db94328c3b445969989661fd16cccdc20fc9074896ecf5f92c00",
+      "user_sha256": "f530bff365476fff72e0976c79b212e8689f3cb09a970b9447fce66962c30fd4",
+      "serialized_characters": 38594,
+      "fixture": "synthetic; not a provider result"
+    },
+    {
+      "stage": "refinement",
+      "version": "baseline",
+      "mode": "json_object",
+      "path": "backend/.storage-artifacts/verification/prompt-upgrade-20261015/baseline-refinement-json_object.request.json",
+      "sha256": "6418430867adeb80edb348473f4479d428687099192f358eb915d6ba8d480b56",
+      "system_sha256": "608912a0b4a616f145d12c2c70c020bae7bdc82414398d41b609f37b39a8edcf",
+      "user_sha256": "493f24db57463a8308942e500082698f3ca83b9a5f20500528bba45f8aad50f3",
+      "serialized_characters": 30421,
+      "fixture": "synthetic; not a provider result"
+    },
+    {
+      "stage": "refinement",
+      "version": "baseline",
+      "mode": "json_schema",
+      "path": "backend/.storage-artifacts/verification/prompt-upgrade-20261015/baseline-refinement-json_schema.request.json",
+      "sha256": "4a3b5f1f55067467037331bdac5d7c6ffe9880c14b604b80e994c6a3e55c0984",
+      "system_sha256": "fefc69adafdaf1ec7eb4823d03693775d8087ac1c7efc4553b410817690d2c1e",
+      "user_sha256": "493f24db57463a8308942e500082698f3ca83b9a5f20500528bba45f8aad50f3",
+      "serialized_characters": 30045,
+      "fixture": "synthetic; not a provider result"
+    },
+    {
+      "stage": "refinement",
+      "version": "installed",
+      "mode": "json_object",
+      "path": "backend/.storage-artifacts/verification/prompt-upgrade-20261015/installed-refinement-json_object.request.json",
+      "sha256": "9a59cf8307b1163cab8921e5bcc88ef69484e6ebe14269f07e56caa34258e1f2",
+      "system_sha256": "7b2a5b74ab15848f2a623ff8a93bd5b7489a61240978c5343a01c4994e0cc670",
+      "user_sha256": "493f24db57463a8308942e500082698f3ca83b9a5f20500528bba45f8aad50f3",
+      "serialized_characters": 38832,
+      "fixture": "synthetic; not a provider result"
+    },
+    {
+      "stage": "refinement",
+      "version": "installed",
+      "mode": "json_schema",
+      "path": "backend/.storage-artifacts/verification/prompt-upgrade-20261015/installed-refinement-json_schema.request.json",
+      "sha256": "1271ae17e897caef58a74d38b919e41b293159003a233644e3d92c8ca7c873ad",
+      "system_sha256": "22b75cd6869f13cbc110cc02ec475f1696f5aca12c6b01473c9833c6c3a994ef",
+      "user_sha256": "493f24db57463a8308942e500082698f3ca83b9a5f20500528bba45f8aad50f3",
+      "serialized_characters": 38456,
+      "fixture": "synthetic; not a provider result"
+    }
+  ],
+  "week2_local_size_check": {
+    "source_count": 11,
+    "turn_count": 5218,
+    "packet_sha256": "a708f7fcb6ffe5de9aabf3aa138a43e01d16639cb95133d4fbaccd1d65fb1078",
+    "packet_bytes_sha256": "a708f7fcb6ffe5de9aabf3aa138a43e01d16639cb95133d4fbaccd1d65fb1078",
+    "versions": {
+      "baseline": {
+        "serialized_characters": 545931,
+        "message_text_utf8_bytes": 542088,
+        "system_sha256": "68404099e7598577d28307e649b728e38222e51f1a1d4c5419ca02504114a142",
+        "user_sha256": "da5605024e4e1b6f126538de1607d0f7656f5de039f84bd1a192ffc62e939d46",
+        "full_source_packet_preserved": true
+      },
+      "installed": {
+        "serialized_characters": 557333,
+        "message_text_utf8_bytes": 553467,
+        "system_sha256": "96544a6c01b7df7da5b23957942f5c659dce28ff8276f8d1102554164e72bcb5",
+        "user_sha256": "1563ab0356d6b4aa838629c9c3d7b0ab68ef4d302050c7b89c198b5ed6ee691a",
+        "full_source_packet_preserved": true
+      }
+    },
+    "no_truncation": true,
+    "local_input_limits_enforced": false,
+    "capacity_note": "Existing local capacity validation is disabled in the current configuration; provider capacity was not newly verified. Character and byte sizes are not native token counts."
+  },
+  "shared_strategy_version_changed": false,
+  "new_runtime_profile": false,
+  "committed": false,
+  "pushed": false,
+  "editorially_evaluated": false,
+  "deployed": false,
+  "verification_runs": [
+    {
+      "command": "python -m pytest backend_pipeline/tests/test_prompt_upgrade.py backend_pipeline/tests/test_strategic_discovery.py backend_pipeline/tests/test_prompt_contracts.py backend_pipeline/tests/test_comparison_workflow.py backend_pipeline/tests/test_citation_adapter.py -q -ra --basetemp=.test-runs/prompt-upgrade-20261015",
+      "passed": 57,
+      "failed": 2,
+      "skipped": 22,
+      "failure_reason": "Two assertions pinned prior prompt wording; corrected to accept equivalent candidate safeguards."
+    },
+    {
+      "command": "python -m pytest backend_pipeline/tests/test_prompt_upgrade.py backend_pipeline/tests/test_strategic_discovery.py backend_pipeline/tests/test_prompt_contracts.py backend_pipeline/tests/test_comparison_workflow.py backend_pipeline/tests/test_citation_adapter.py backend_pipeline/tests/test_generation_only.py backend_pipeline/tests/test_preparation.py backend_pipeline/tests/test_luna_costs.py backend_pipeline/tests/test_reuse.py -q -ra --basetemp=.test-runs/prompt-upgrade-20261015-verified",
+      "passed": 142,
+      "failed": 0,
+      "skipped": 22,
+      "skip_reason": "No isolated atelier_test database configured."
+    },
+    {
+      "command": "python -m pytest backend_pipeline/tests/test_prompt_upgrade.py -q --basetemp=.test-runs/prompt-upgrade-20261015-final --junitxml=.storage-artifacts/verification/prompt-upgrade-20261015/focused-tests.xml",
+      "passed": 31,
+      "failed": 0,
+      "skipped": 0
+    },
+    {
+      "command": "python -m ruff check backend_pipeline/prompts.py backend_pipeline/tests/test_prompt_upgrade.py",
+      "status": "passed"
+    },
+    {
+      "command": "git diff --check -- <the four runtime targets and two adjusted existing tests>",
+      "status": "passed",
+      "whole_repository_check": "Unrelated existing repository.py whitespace errors were left untouched."
+    }
+  ],
+  "verification_file_hashes": {
+    "backend/backend_pipeline/tests/test_prompt_upgrade.py": "d60eaa2aba5b19dc948797c2b5a6d24fd948da6ca32ac6684224c94ee28b3460",
+    "backend/backend_pipeline/tests/test_strategic_discovery.py": "c9b6d503b4ab474ed408221aae32aa152caab5378fc1691483dd2ed8548e4d16",
+    "backend/backend_pipeline/tests/test_prompt_contracts.py": "90e0658de5e71bd2f6327272ffd979acb8d5d6da3836333e30ca3a0d6ede5dd3"
+  },
+  "reconciliations": {
+    "offer_context": "Replace only concrete offer-description paragraph with the brief's bounded paragraph.",
+    "source_safeguards": "Targeted additions to existing grounding, attribution, sensitivity and coverage sentences.",
+    "refinement": "One paragraph makes internal_insights conditional; refinement uses intelligence as context only and creates no intelligence records."
+  },
+  "reconciliation_diff": "research/2026-10-15-strategic-prompt-reconciliations.diff"
+}

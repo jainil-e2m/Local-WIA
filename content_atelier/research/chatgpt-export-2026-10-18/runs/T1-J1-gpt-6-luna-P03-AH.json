@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J1-gpt-6-luna-P03-AH",
+  "model": "openai/gpt-6-luna",
+  "provider": "OpenAI",
+  "effort": null,
+  "prompt_tokens": 9936,
+  "completion_tokens": 127,
+  "cached_tokens": 9834,
+  "cost": 0.000174515,
+  "seconds": 3.9,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "bc7e1e0ebf73"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 4,
+  "reason": "It uses a wedding-specific image and avoids A’s harsher “expensive hobby” framing and autopilot promise."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: threads\n\nVersion A:\nIf you can’t consistently attract qualified leads, you don’t have a wedding business.  \nYou have an expensive hobby.  \nReal businesses have a lead generation system that works on autopilot—even when the algorithm changes overnight.\n\nVersion B:\nIf you can’t consistently attract qualified leads, you don’t have a business.\nYou have a perfectly set table with no RSVPs.\nReal wedding businesses generate leads through their marketing—even when referrals dry up.",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

@@ -1,0 +1,17 @@
+{
+  "model": "apodex/apodex-1.1-mini:free",
+  "tokenizer_repository": "apodex/Apodex-1.1-mini-NVFP4",
+  "tokenizer_revision": "2ad25a79a171c6a204b3bfeeb4a6c3b12fd827eb",
+  "tokenizer_sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+  "message_text_tokens": 126627,
+  "schema_proxy_tokens": 547,
+  "unmeasured_provider_margin_tokens": 12718,
+  "completion_reserved_tokens": 32768,
+  "context_reference_tokens": 262144,
+  "headroom_tokens": 89484,
+  "fits": true,
+  "counting_is_local": true,
+  "hosted_usage_is_exact": false,
+  "route_snapshot": "provider_catalog/2026-10-08T08-26-25.826461+00-00-apodex.json",
+  "measured_at_utc": "2026-10-08T08:27:30.562046+00:00"
+}

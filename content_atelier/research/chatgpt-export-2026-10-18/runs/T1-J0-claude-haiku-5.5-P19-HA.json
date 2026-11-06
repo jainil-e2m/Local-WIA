@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J0-claude-haiku-5.5-P19-HA",
+  "model": "anthropic/claude-haiku-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 264,
+  "completion_tokens": 345,
+  "cached_tokens": 0,
+  "cost": 0.0001989,
+  "seconds": 2.5,
+  "finish": "stop",
+  "system_sha": "ea72523eb9c9",
+  "user_sha": "cf59b0930f30"
+ },
+ "output": {
+  "choice": "A",
+  "confidence": 3,
+  "reason": "Version A is more specific to wedding vendors, naming the website and Instagram and the couple's wedding-day booking decision, while Version B's 'it' is vaguer, though B is punchier for a reel."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: reel\n\nVersion A:\nIf I can't tell from looking at your website or Instagram why couples should choose to book you for their wedding day, then we don't have any business running your ads, at least not yet.\n\nVersion B:\nIf I don't know why someone should choose your business, I have no business running ads for it.",
+  "cache_prefix_sha": "ea72523eb9c9"
+ }
+}

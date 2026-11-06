@@ -1,0 +1,29 @@
+{
+  "omitted_file_reasons": {
+    "synthetic test output or rebuildable tokenizer assets": 7218,
+    "credential/environment filename": 4,
+    "duplicate ZIP; extracted project package retained": 2
+  },
+  "excluded_areas": [
+    {
+      "source": "ignored test/scratch/runtime areas outside configured stores",
+      "reason": "Not production source or retained experiment history; originals untouched"
+    },
+    {
+      "source": "testing/.data/editorial-tests-*",
+      "reason": "Synthetic pytest output; source tests preserved in code export"
+    },
+    {
+      "source": "testing/.data/tokenizers",
+      "reason": "Rebuildable tokenizer assets"
+    },
+    {
+      "source": "unrelated Desktop/Documents/Downloads and parent WIA application folders",
+      "reason": "Outside Content Atelier transfer scope"
+    },
+    {
+      "source": "test databases",
+      "reason": "Fixture data; complete names and row counts recorded in database-inventory.json"
+    }
+  ]
+}

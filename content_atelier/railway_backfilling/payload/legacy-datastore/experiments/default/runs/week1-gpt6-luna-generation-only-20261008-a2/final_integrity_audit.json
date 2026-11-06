@@ -1,0 +1,91 @@
+{
+  "purpose": "local_final_integrity_audit_no_provider_requests",
+  "sources": [
+    {
+      "meeting_ref": "m1",
+      "original_sha256_matches": true,
+      "archive_bytes_match": true,
+      "turn_count": 192
+    },
+    {
+      "meeting_ref": "m2",
+      "original_sha256_matches": true,
+      "archive_bytes_match": true,
+      "turn_count": 260
+    },
+    {
+      "meeting_ref": "m3",
+      "original_sha256_matches": true,
+      "archive_bytes_match": true,
+      "turn_count": 397
+    },
+    {
+      "meeting_ref": "m4",
+      "original_sha256_matches": true,
+      "archive_bytes_match": true,
+      "turn_count": 586
+    },
+    {
+      "meeting_ref": "m5",
+      "original_sha256_matches": true,
+      "archive_bytes_match": true,
+      "turn_count": 709
+    },
+    {
+      "meeting_ref": "m6",
+      "original_sha256_matches": true,
+      "archive_bytes_match": true,
+      "turn_count": 283
+    },
+    {
+      "meeting_ref": "m7",
+      "original_sha256_matches": true,
+      "archive_bytes_match": true,
+      "turn_count": 247
+    },
+    {
+      "meeting_ref": "m8",
+      "original_sha256_matches": true,
+      "archive_bytes_match": true,
+      "turn_count": 308
+    },
+    {
+      "meeting_ref": "m9",
+      "original_sha256_matches": true,
+      "archive_bytes_match": true,
+      "turn_count": 256
+    }
+  ],
+  "source_count": 9,
+  "turn_count": 3238,
+  "secret_artifact_scan_count": 49,
+  "supplied_credential_value_hits": 0,
+  "prompt_hashes_present_in_ledger": {
+    "angle_generation.system.md": true,
+    "angle_generation.user.md": true,
+    "editorial_policy.md": true,
+    "moment_extraction.compact.md": true,
+    "moment_extraction.system.md": true,
+    "moment_extraction.user.md": true,
+    "moment_extraction.weekly_v2.md": true,
+    "moment_extraction.weekly_v3.md": true
+  },
+  "runs": {
+    "week1-gpt6-luna-generation-only-20261008-a1": {
+      "status": "failed",
+      "angle_attempts": 0,
+      "candidates_file_exists": false,
+      "moments_file_exists": false,
+      "embedding_directory_exists": false
+    },
+    "week1-gpt6-luna-generation-only-20261008-a2": {
+      "status": "failed",
+      "angle_attempts": 0,
+      "candidates_file_exists": false,
+      "moments_file_exists": false,
+      "embedding_directory_exists": false
+    }
+  },
+  "embeddings_enabled": false,
+  "new_provider_requests": 0
+}

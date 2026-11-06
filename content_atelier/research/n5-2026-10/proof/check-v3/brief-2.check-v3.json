@@ -1,0 +1,261 @@
+{
+ "statements": [
+  {
+   "piece": "carousel",
+   "text": "A client recently had that kind of reaction to some new ads from us.",
+   "verdict": "guardrail",
+   "source": "before_publishing: do not imply the ads were poor",
+   "why": "Follows a list of flaws in ads (generic headline, off tone, photo), so it implies the client's ads were poor, which is kept out.",
+   "in_moment": null
+  },
+  {
+   "piece": "carousel",
+   "text": "They weren't sure they loved them, and they hadn't finished their review.",
+   "verdict": "supported",
+   "source": "ev_a4d08605e8691f0838a00c45; ev_ad3187ffacb3f12091e39671",
+   "why": "Matches the client's tentative reaction and unfinished review.",
+   "in_moment": null
+  },
+  {
+   "piece": "carousel",
+   "text": "I welcomed specific edits and made it clear that not using those ads was a fine answer too.",
+   "verdict": "supported",
+   "source": "ev_a8d1d65a3f03e28c532a7ff0; ev_d8cb0ca04f5c1fc2bd589a0f",
+   "why": "Whitney welcomed edits and said not using the ads was fine.",
+   "in_moment": null
+  },
+  {
+   "piece": "carousel",
+   "text": "Our effort on a draft doesn't turn your approval into an obligation.",
+   "verdict": "supported",
+   "source": "approved perspective",
+   "why": "States the approved central point and adds no event.",
+   "in_moment": null
+  },
+  {
+   "piece": "carousel",
+   "text": "That holds whether we're managing your campaigns or guiding you while you handle your own.",
+   "verdict": "supported",
+   "source": "before_publishing: belief-level wording confirmed for management and guided support",
+   "why": "Belief-level wording about both ways of working, confirmed by the team.",
+   "in_moment": null
+  },
+  {
+   "piece": "carousel",
+   "text": "We'd sent new ads for review.",
+   "verdict": "supported",
+   "source": "We'd sent new ads for review.",
+   "why": "Stated in the supported claims.",
+   "in_moment": null
+  },
+  {
+   "piece": "carousel",
+   "text": "Our team had made the proposed creative for a client's Meta campaigns.",
+   "verdict": "supported",
+   "source": "ev_3659b8ec1f3cc723895135fb",
+   "why": "The team made the creative, and the call names the Meta ad side.",
+   "in_moment": null
+  },
+  {
+   "piece": "carousel",
+   "text": "We sent it over and checked in on our call to hear what they thought.",
+   "verdict": "supported",
+   "source": "ev_aef9bd53038ff12ae9fcd8c1",
+   "why": "Whitney asked on the call whether they had looked at the ads.",
+   "in_moment": null
+  },
+  {
+   "piece": "carousel",
+   "text": "\"I don't think that I love them.\"",
+   "verdict": "supported",
+   "source": "ev_a4d08605e8691f0838a00c45",
+   "why": "Exact words of the client, placed in the moment they were said.",
+   "in_moment": true
+  },
+  {
+   "piece": "carousel",
+   "text": "They also said they hadn't finished reviewing them yet.",
+   "verdict": "supported",
+   "source": "ev_ad3187ffacb3f12091e39671",
+   "why": "Client said not yet to finalize anything.",
+   "in_moment": null
+  },
+  {
+   "piece": "carousel",
+   "text": "So this was a starting point, not a final answer.",
+   "verdict": "supported",
+   "source": "supporting_example details",
+   "why": "The reaction was tentative, not a completed rejection.",
+   "in_moment": null
+  },
+  {
+   "piece": "carousel",
+   "text": "She invited specific edits.",
+   "verdict": "supported",
+   "source": "ev_a8d1d65a3f03e28c532a7ff0",
+   "why": "Whitney invited specific tweaks or edits.",
+   "in_moment": null
+  },
+  {
+   "piece": "carousel",
+   "text": "She also said that if they'd rather not use those ads, that was fine, with no hard feelings either way.",
+   "verdict": "supported",
+   "source": "ev_d8cb0ca04f5c1fc2bd589a0f",
+   "why": "Matches Whitney's no-hard-feelings statement.",
+   "in_moment": null
+  },
+  {
+   "piece": "carousel",
+   "text": "Whether we manage your ads for you, or we launch your campaigns, then guide you while you run them, the same honesty applies.",
+   "verdict": "supported",
+   "source": "offer_descriptors",
+   "why": "Standard close naming both ways of working, matching approved descriptors, with no program, price or link.",
+   "in_moment": null
+  },
+  {
+   "piece": "reel_1",
+   "text": "Not long ago, our team sent a client new Meta ads to review.",
+   "verdict": "supported",
+   "source": "We'd sent new ads for review.",
+   "why": "Matches the real event and its timing.",
+   "in_moment": null
+  },
+  {
+   "piece": "reel_1",
+   "text": "On our call, they said they weren't sure they loved them and hadn't finished looking yet.",
+   "verdict": "supported",
+   "source": "ev_a4d08605e8691f0838a00c45; ev_ad3187ffacb3f12091e39671",
+   "why": "Matches the client's words on the call.",
+   "in_moment": null
+  },
+  {
+   "piece": "reel_1",
+   "text": "I told them specific edits were welcome, and that leaving those ads unused was an option too, with no hard feelings.",
+   "verdict": "supported",
+   "source": "ev_a8d1d65a3f03e28c532a7ff0; ev_d8cb0ca04f5c1fc2bd589a0f",
+   "why": "Matches Whitney's response.",
+   "in_moment": null
+  },
+  {
+   "piece": "reel_2",
+   "text": "When a client recently told me they weren't sure they loved some new ads we'd sent, and that they hadn't finished reviewing them, I said two things.",
+   "verdict": "supported",
+   "source": "supporting_example scene",
+   "why": "Matches the scene.",
+   "in_moment": null
+  },
+  {
+   "piece": "reel_2",
+   "text": "Send any specific edits you'd like. And if you'd rather not use those ads, that's fine too.",
+   "verdict": "supported",
+   "source": "ev_a8d1d65a3f03e28c532a7ff0; ev_d8cb0ca04f5c1fc2bd589a0f",
+   "why": "Faithful paraphrase of what Whitney said.",
+   "in_moment": null
+  },
+  {
+   "piece": "reel_2",
+   "text": "When you hire a team to run your ads, part of what you're hiring us for is making the creative and sending it over for review.",
+   "verdict": "supported",
+   "source": "ev_83e223b6c8d988a068e02a83",
+   "why": "Whitney describes presenting new creatives for approval as part of the service.",
+   "in_moment": null
+  },
+  {
+   "piece": "reel_2",
+   "text": "This came up with a client recently. They weren't sure they loved a few new ads we'd sent, and they hadn't finished reviewing them.",
+   "verdict": "supported",
+   "source": "supporting_example scene",
+   "why": "Matches the scene.",
+   "in_moment": null
+  },
+  {
+   "piece": "reel_2",
+   "text": "I told them edits were welcome, and if they'd rather not use them, that's completely fine. No hard feelings.",
+   "verdict": "supported",
+   "source": "ev_a8d1d65a3f03e28c532a7ff0; ev_d8cb0ca04f5c1fc2bd589a0f",
+   "why": "Matches Whitney's words.",
+   "in_moment": null
+  },
+  {
+   "piece": "reel_3",
+   "text": "On a recent call, a client hadn't finished reviewing some new ads from us, and their first reaction was that they didn't think they loved them.",
+   "verdict": "supported",
+   "source": "ev_a4d08605e8691f0838a00c45; ev_ad3187ffacb3f12091e39671",
+   "why": "Matches the client's reaction.",
+   "in_moment": null
+  },
+  {
+   "piece": "reel_3",
+   "text": "I told them specific edits were welcome, and that leaving those ads unused was a perfectly good answer too.",
+   "verdict": "supported",
+   "source": "ev_a8d1d65a3f03e28c532a7ff0; ev_d8cb0ca04f5c1fc2bd589a0f",
+   "why": "Matches Whitney's response.",
+   "in_moment": null
+  },
+  {
+   "piece": "reel_3",
+   "text": "We believe the work behind a draft is something we bring to the partnership, never a debt you settle with a yes.",
+   "verdict": "supported",
+   "source": "approved perspective",
+   "why": "States the approved stance and adds no event.",
+   "in_moment": null
+  },
+  {
+   "piece": "reel_3",
+   "text": "Our client wasn't sure they loved the new ads we'd made.",
+   "verdict": "supported",
+   "source": "ev_a4d08605e8691f0838a00c45",
+   "why": "Matches the client's tentative reaction.",
+   "in_moment": null
+  },
+  {
+   "piece": "reel_3",
+   "text": "Whitney offered edits, or the option to not use them at all.",
+   "verdict": "supported",
+   "source": "ev_a8d1d65a3f03e28c532a7ff0; ev_d8cb0ca04f5c1fc2bd589a0f",
+   "why": "Matches what Whitney offered.",
+   "in_moment": null
+  },
+  {
+   "piece": "reel_3",
+   "text": "Making the ads didn't make approval something we were owed.",
+   "verdict": "supported",
+   "source": "approved perspective",
+   "why": "Matches the central point.",
+   "in_moment": null
+  }
+ ],
+ "flags": [
+  {
+   "piece": "carousel",
+   "path": "caption.body",
+   "text": "A client recently had that kind of reaction to some new ads from us.",
+   "verdict": "guardrail",
+   "why": "Follows a list of flaws in ads (generic headline, off tone, photo), so it implies the client's ads were poor, which is kept out.",
+   "source": "before_publishing: do not imply the ads were poor"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 13664,
+  "completion_tokens": 4810,
+  "total_tokens": 18474,
+  "cost": 0.0766265,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 2397,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0766265,
+   "upstream_inference_prompt_cost": 0.0285265,
+   "upstream_inference_completions_cost": 0.0481
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1921,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ }
+}

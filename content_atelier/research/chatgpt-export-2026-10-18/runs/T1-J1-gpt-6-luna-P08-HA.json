@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J1-gpt-6-luna-P08-HA",
+  "model": "openai/gpt-6-luna",
+  "provider": "OpenAI",
+  "effort": null,
+  "prompt_tokens": 9958,
+  "completion_tokens": 172,
+  "cached_tokens": 9834,
+  "cost": 0.000199765,
+  "seconds": 2.6,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "531f710d743d"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 4,
+  "reason": "It frames the visibility gap thoughtfully without implying that ranking first on Google is the only path to bookings."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: stories\n\nVersion A:\nYou're showing up on social media\nYou've invested in professional branding\nYour website is designed to call in ideal clients\n\nBut if it doesn't show up at the top of the Google search results, booking dream couples on repeat is a whole lot harder than it needs to be\n\nVersion B:\nYou’re showing up consistently.  \nYou’ve built a strong brand.  \nYour client experience is next level.\n\nBut here’s the part no one talks about:  \nYou can do all of that right — and still stay invisible to the couples actively searching for you.",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

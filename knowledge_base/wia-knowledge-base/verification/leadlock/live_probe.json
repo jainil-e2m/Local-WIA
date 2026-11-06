@@ -1,0 +1,539 @@
+{
+  "review_date": "2026-10-19",
+  "started_at_utc": "2026-10-19T11:10:26.267Z",
+  "mode": "bounded_get_only_api_probe",
+  "credential_present": true,
+  "credential_source": "frontend/.env:GHL_PIT",
+  "configured_location_id": "Xi40zxmRvW8Pbyk5DYHp",
+  "version_header": "2021-07-28",
+  "full_backfill": false,
+  "calls": [
+    {
+      "label": "location",
+      "method": "GET",
+      "path": "/locations/Xi40zxmRvW8Pbyk5DYHp",
+      "query": {},
+      "http_status": 200,
+      "ok": true,
+      "top_level_keys": [
+        "location",
+        "traceId"
+      ]
+    },
+    {
+      "label": "location_search",
+      "method": "GET",
+      "path": "/locations/search",
+      "query": {
+        "companyId": "yQ2DeX37jyYz6nKwc59C",
+        "limit": 5,
+        "skip": 0
+      },
+      "http_status": 403,
+      "ok": false,
+      "top_level_keys": [
+        "error",
+        "message",
+        "statusCode"
+      ],
+      "error": "\"Forbidden resource\""
+    },
+    {
+      "label": "contacts",
+      "method": "GET",
+      "path": "/contacts/",
+      "query": {
+        "locationId": "Xi40zxmRvW8Pbyk5DYHp",
+        "limit": 3
+      },
+      "http_status": 200,
+      "ok": true,
+      "top_level_keys": [
+        "contacts",
+        "meta",
+        "traceId"
+      ],
+      "meta": {
+        "total": 1787,
+        "nextPageUrl": "https://services.leadconnectorhq.com/contacts/?locationId=Xi40zxmRvW8Pbyk5DYHp&limit=3&startAfter=1791115150871&startAfterId=GHVficXjfz5vC94TyHOg",
+        "currentPage": 1,
+        "nextPage": 2
+      },
+      "returned_rows": 3,
+      "sample_row_keys": [
+        "additionalEmails",
+        "address1",
+        "assignedTo",
+        "attributions",
+        "businessId",
+        "city",
+        "companyName",
+        "contactName",
+        "country",
+        "customFields",
+        "dateAdded",
+        "dateOfBirth",
+        "dateUpdated",
+        "dnd",
+        "dndSettings",
+        "email",
+        "firstName",
+        "firstNameRaw",
+        "followers",
+        "id",
+        "lastName",
+        "lastNameRaw",
+        "locationId",
+        "phone",
+        "postalCode",
+        "profilePhoto",
+        "source",
+        "startAfter",
+        "state",
+        "tags",
+        "timezone",
+        "type",
+        "website"
+      ]
+    },
+    {
+      "label": "invoices",
+      "method": "GET",
+      "path": "/invoices/",
+      "query": {
+        "altId": "Xi40zxmRvW8Pbyk5DYHp",
+        "altType": "location",
+        "limit": 5,
+        "offset": 0,
+        "sortField": "issueDate",
+        "sortOrder": "descend"
+      },
+      "http_status": 401,
+      "ok": false,
+      "top_level_keys": [
+        "message",
+        "statusCode"
+      ],
+      "error": "\"The token is not authorized for this scope.\""
+    },
+    {
+      "label": "transactions",
+      "method": "GET",
+      "path": "/payments/transactions",
+      "query": {
+        "altId": "Xi40zxmRvW8Pbyk5DYHp",
+        "altType": "location",
+        "limit": 5,
+        "offset": 0
+      },
+      "http_status": 401,
+      "ok": false,
+      "top_level_keys": [
+        "message",
+        "statusCode"
+      ],
+      "error": "\"The token is not authorized for this scope.\""
+    },
+    {
+      "label": "subscriptions",
+      "method": "GET",
+      "path": "/payments/subscriptions",
+      "query": {
+        "altId": "Xi40zxmRvW8Pbyk5DYHp",
+        "altType": "location",
+        "limit": 5,
+        "offset": 0
+      },
+      "http_status": 401,
+      "ok": false,
+      "top_level_keys": [
+        "message",
+        "statusCode"
+      ],
+      "error": "\"The token is not authorized for this scope.\""
+    },
+    {
+      "label": "orders",
+      "method": "GET",
+      "path": "/payments/orders",
+      "query": {
+        "altId": "Xi40zxmRvW8Pbyk5DYHp",
+        "altType": "location",
+        "limit": 5,
+        "offset": 0
+      },
+      "http_status": 401,
+      "ok": false,
+      "top_level_keys": [
+        "message",
+        "statusCode"
+      ],
+      "error": "\"The token is not authorized for this scope.\""
+    },
+    {
+      "label": "products",
+      "method": "GET",
+      "path": "/products/",
+      "query": {
+        "locationId": "Xi40zxmRvW8Pbyk5DYHp",
+        "limit": 5,
+        "offset": 0
+      },
+      "http_status": 401,
+      "ok": false,
+      "top_level_keys": [
+        "message",
+        "statusCode"
+      ],
+      "error": "\"The token is not authorized for this scope.\""
+    },
+    {
+      "label": "pipelines",
+      "method": "GET",
+      "path": "/opportunities/pipelines",
+      "query": {
+        "locationId": "Xi40zxmRvW8Pbyk5DYHp"
+      },
+      "http_status": 401,
+      "ok": false,
+      "top_level_keys": [
+        "message",
+        "statusCode"
+      ],
+      "error": "\"The token is not authorized for this scope.\""
+    },
+    {
+      "label": "opportunities",
+      "method": "GET",
+      "path": "/opportunities/search",
+      "query": {
+        "location_id": "Xi40zxmRvW8Pbyk5DYHp",
+        "limit": 5
+      },
+      "http_status": 401,
+      "ok": false,
+      "top_level_keys": [
+        "message",
+        "statusCode"
+      ],
+      "error": "\"The token is not authorized for this scope.\""
+    },
+    {
+      "label": "calendars",
+      "method": "GET",
+      "path": "/calendars/",
+      "query": {
+        "locationId": "Xi40zxmRvW8Pbyk5DYHp"
+      },
+      "http_status": 401,
+      "ok": false,
+      "top_level_keys": [
+        "message",
+        "statusCode"
+      ],
+      "error": "\"The token is not authorized for this scope.\""
+    },
+    {
+      "label": "surveys",
+      "method": "GET",
+      "path": "/surveys/",
+      "query": {
+        "locationId": "Xi40zxmRvW8Pbyk5DYHp",
+        "limit": 5,
+        "skip": 0
+      },
+      "http_status": 401,
+      "ok": false,
+      "top_level_keys": [
+        "message",
+        "statusCode"
+      ],
+      "error": "\"The token is not authorized for this scope.\""
+    },
+    {
+      "label": "survey_submissions",
+      "method": "GET",
+      "path": "/surveys/submissions",
+      "query": {
+        "locationId": "Xi40zxmRvW8Pbyk5DYHp",
+        "limit": 3,
+        "page": 1
+      },
+      "http_status": 401,
+      "ok": false,
+      "top_level_keys": [
+        "message",
+        "statusCode"
+      ],
+      "error": "\"The token is not authorized for this scope.\""
+    },
+    {
+      "label": "forms",
+      "method": "GET",
+      "path": "/forms/",
+      "query": {
+        "locationId": "Xi40zxmRvW8Pbyk5DYHp",
+        "limit": 5,
+        "skip": 0
+      },
+      "http_status": 401,
+      "ok": false,
+      "top_level_keys": [
+        "message",
+        "statusCode"
+      ],
+      "error": "\"The token is not authorized for this scope.\""
+    },
+    {
+      "label": "form_submissions",
+      "method": "GET",
+      "path": "/forms/submissions",
+      "query": {
+        "locationId": "Xi40zxmRvW8Pbyk5DYHp",
+        "limit": 3,
+        "page": 1
+      },
+      "http_status": 401,
+      "ok": false,
+      "top_level_keys": [
+        "message",
+        "statusCode"
+      ],
+      "error": "\"The token is not authorized for this scope.\""
+    },
+    {
+      "label": "conversations",
+      "method": "GET",
+      "path": "/conversations/search",
+      "query": {
+        "locationId": "Xi40zxmRvW8Pbyk5DYHp",
+        "limit": 3
+      },
+      "http_status": 401,
+      "ok": false,
+      "top_level_keys": [
+        "message",
+        "statusCode"
+      ],
+      "error": "\"The token is not authorized for this scope.\""
+    },
+    {
+      "label": "custom_fields",
+      "method": "GET",
+      "path": "/locations/Xi40zxmRvW8Pbyk5DYHp/customFields",
+      "query": {},
+      "http_status": 401,
+      "ok": false,
+      "top_level_keys": [
+        "message",
+        "statusCode"
+      ],
+      "error": "\"The token is not authorized for this scope.\""
+    }
+  ],
+  "observations": {
+    "location": {
+      "id": "Xi40zxmRvW8Pbyk5DYHp",
+      "name": "Wedding Industry Ads",
+      "company_id": "yQ2DeX37jyYz6nKwc59C",
+      "timezone": "America/Chicago",
+      "keys": [
+        "address",
+        "automaticMobileAppInvite",
+        "brandId",
+        "business",
+        "city",
+        "companyId",
+        "country",
+        "currency",
+        "dateAdded",
+        "defaultEmailService",
+        "domain",
+        "email",
+        "firstName",
+        "id",
+        "isAgencySubAccount",
+        "lastName",
+        "locale",
+        "logoUrl",
+        "name",
+        "permissions",
+        "phone",
+        "postalCode",
+        "settings",
+        "snapshotId",
+        "social",
+        "state",
+        "timezone",
+        "website"
+      ],
+      "business_keys": [
+        "address",
+        "city",
+        "country",
+        "email",
+        "logoUrl",
+        "name",
+        "postalCode",
+        "state",
+        "timezone",
+        "website"
+      ]
+    },
+    "locations": [],
+    "contact_shapes": [
+      {
+        "id": "pZtvuzZ3vrprCYK3yKu2",
+        "identity_hash": "6f16ce5d34d0",
+        "keys": [
+          "additionalEmails",
+          "address1",
+          "assignedTo",
+          "attributions",
+          "businessId",
+          "city",
+          "companyName",
+          "contactName",
+          "country",
+          "customFields",
+          "dateAdded",
+          "dateOfBirth",
+          "dateUpdated",
+          "dnd",
+          "dndSettings",
+          "email",
+          "firstName",
+          "firstNameRaw",
+          "followers",
+          "id",
+          "lastName",
+          "lastNameRaw",
+          "locationId",
+          "phone",
+          "postalCode",
+          "profilePhoto",
+          "source",
+          "startAfter",
+          "state",
+          "tags",
+          "timezone",
+          "type",
+          "website"
+        ],
+        "fields_present": {
+          "firstName": true,
+          "lastName": true,
+          "email": true,
+          "phone": true,
+          "companyName": true,
+          "dateAdded": true,
+          "source": true,
+          "tags": true,
+          "customFields": true
+        }
+      },
+      {
+        "id": "U4qevDBWgb7PKTy9ZG93",
+        "identity_hash": "ede2ad2c0a6a",
+        "keys": [
+          "additionalEmails",
+          "address1",
+          "assignedTo",
+          "attributions",
+          "businessId",
+          "city",
+          "companyName",
+          "contactName",
+          "country",
+          "customFields",
+          "dateAdded",
+          "dateOfBirth",
+          "dateUpdated",
+          "dnd",
+          "dndSettings",
+          "email",
+          "firstName",
+          "firstNameRaw",
+          "followers",
+          "id",
+          "lastName",
+          "lastNameRaw",
+          "locationId",
+          "phone",
+          "postalCode",
+          "profilePhoto",
+          "source",
+          "startAfter",
+          "state",
+          "tags",
+          "timezone",
+          "type",
+          "website"
+        ],
+        "fields_present": {
+          "firstName": true,
+          "lastName": true,
+          "email": true,
+          "phone": true,
+          "companyName": false,
+          "dateAdded": true,
+          "source": true,
+          "tags": true,
+          "customFields": true
+        }
+      },
+      {
+        "id": "GHVficXjfz5vC94TyHOg",
+        "identity_hash": "dcff79c988b5",
+        "keys": [
+          "additionalEmails",
+          "address1",
+          "assignedTo",
+          "attributions",
+          "businessId",
+          "city",
+          "companyName",
+          "contactName",
+          "country",
+          "customFields",
+          "dateAdded",
+          "dateOfBirth",
+          "dateUpdated",
+          "dnd",
+          "dndSettings",
+          "email",
+          "firstName",
+          "firstNameRaw",
+          "followers",
+          "id",
+          "lastName",
+          "lastNameRaw",
+          "locationId",
+          "phone",
+          "postalCode",
+          "profilePhoto",
+          "source",
+          "startAfter",
+          "state",
+          "tags",
+          "timezone",
+          "type",
+          "website"
+        ],
+        "fields_present": {
+          "firstName": true,
+          "lastName": true,
+          "email": true,
+          "phone": true,
+          "companyName": true,
+          "dateAdded": true,
+          "source": true,
+          "tags": true,
+          "customFields": true
+        }
+      }
+    ]
+  },
+  "result": "bounded_probe_completed",
+  "finished_at_utc": "2026-10-19T11:10:42.428Z"
+}

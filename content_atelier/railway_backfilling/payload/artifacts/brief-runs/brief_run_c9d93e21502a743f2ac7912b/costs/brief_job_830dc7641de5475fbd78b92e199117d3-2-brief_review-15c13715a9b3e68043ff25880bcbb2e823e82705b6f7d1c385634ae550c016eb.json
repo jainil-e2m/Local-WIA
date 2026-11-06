@@ -1,0 +1,43 @@
+{
+  "stage": "brief_review",
+  "job_id": "brief_job_830dc7641de5475fbd78b92e199117d3",
+  "attempt": 2,
+  "fingerprint": "15c13715a9b3e68043ff25880bcbb2e823e82705b6f7d1c385634ae550c016eb",
+  "synthetic": false,
+  "real_external_dispatch": true,
+  "currency": "USD",
+  "recorded_at_utc": "2026-10-13T10:39:24.086875+00:00",
+  "dispatched": true,
+  "reused": false,
+  "generation_id": "gen-1791887950-UjVfgZdKHVDNp6aRccT2",
+  "returned_model_id": "openai/gpt-6-luna",
+  "provider": "OpenAI",
+  "usage": {
+    "prompt_tokens": 54867,
+    "completion_tokens": 1079,
+    "total_tokens": 55946,
+    "cost": 0.0073978,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 54864,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0073978,
+      "upstream_inference_prompt_cost": 0.0068583,
+      "upstream_inference_completions_cost": 0.0005395
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 374,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "original_reported_cost_usd": 0.0073978,
+  "new_cost_usd": 0.0073978,
+  "cost_status": "reported",
+  "cost_source": "provider_usage.cost",
+  "credit_purchase_fees_included": false
+}

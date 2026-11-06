@@ -1,0 +1,26 @@
+{
+ "angle_id": "angle_79f2fa470f1410a18827336d",
+ "request": {
+  "expected_hash": "e5969a317e0f9c4b8b55fef00af08049ae68710bede31b092c78e287fd12c0f8",
+  "disposition": "develop",
+  "author": "kenil.shah@e2m.solutions (delegated, D12)",
+  "note": "Developed for the N8 proof on scratch copy D (delegated, D12, R55): the Diamond A tour-waiting story, to test account memory in the brief.",
+  "cta": {
+   "choice": "decide_in_development"
+  },
+  "verify_acknowledged": [
+   "Confirm permission to use the anonymised delayed-tour discussion."
+  ]
+ },
+ "status": 200,
+ "response": {
+  "angle_id": "angle_79f2fa470f1410a18827336d",
+  "approval_status": "approved",
+  "decision_id": "decision_340e5348ab5b4b2e9f87706860933446",
+  "brief_run": {
+   "run_id": "brief_run_af4ad59d7ab06ef67f60f82d",
+   "status": "queued"
+  },
+  "disposition": "develop"
+ }
+}

@@ -1,0 +1,1450 @@
+{
+  "synthetic": true,
+  "real_external_calls": 0,
+  "brief": {
+    "brief_id": "brief_9a7a762b46a340138c50946ddc8ee366",
+    "week_id": "week_2026-06-01",
+    "angle_id": "angle_56b9ab0904d1786b7c9eecee",
+    "angle_input_hash": "88a8626ccb5413d8809fd6f5a355ca1a24563a97777d45d0c18a0962989f60d5",
+    "supersedes_id": "brief_410abd183a7e4882a36367298c0ffcc8",
+    "content_body": {
+      "review": {
+        "findings": [
+          {
+            "message": "Legacy publication coverage is incomplete; this is an admitted-archive review.",
+            "claim_id": null,
+            "severity": "warning"
+          }
+        ],
+        "clearances": {},
+        "repair_used": false,
+        "human_review": {
+          "at": "2026-10-16T14:37:32.598925+00:00",
+          "actor": "tester",
+          "reason": "Checked bounded claims and prior coverage"
+        },
+        "history_state": "be81f6e982051a08ac7ac5603b8bea5f70f4ea7180127e2ee0baeae608b443d5",
+        "locked_fields": [],
+        "answer_provenance": {
+          "at": "2026-10-16T14:37:32.301021+00:00",
+          "kind": "editor_context_not_source_proof",
+          "actor": "tester"
+        },
+        "history_acknowledged": true,
+        "support_reviewed_document_hash": "d5521f764247a98e81a1f86b41ad59702bb1852c43406e9ff8f0cbfbdf5ab62c"
+      },
+      "document": {
+        "cta": {
+          "text": "Discuss follow-up"
+        },
+        "email": {
+          "outline": [
+            "Name the uncertainty",
+            "Explain the mechanism",
+            "Ask for a bounded review"
+          ],
+          "direction": "Explain the reported observation with its limitation.",
+          "reader_job": "Understand the decision",
+          "evidence_ids": [
+            "ev_68a718497c8aae5e713e7396"
+          ]
+        },
+        "reels": [
+          {
+            "outline": [
+              "Name the uncertainty",
+              "Explain the mechanism",
+              "Ask for a bounded review"
+            ],
+            "direction": "Explain the reported observation with its limitation.",
+            "reader_job": "Recognize uncertainty",
+            "evidence_ids": [
+              "ev_68a718497c8aae5e713e7396"
+            ]
+          },
+          {
+            "outline": [
+              "Name the uncertainty",
+              "Explain the mechanism",
+              "Ask for a bounded review"
+            ],
+            "direction": "Explain the reported observation with its limitation.",
+            "reader_job": "Understand the mechanism",
+            "evidence_ids": [
+              "ev_68a718497c8aae5e713e7396"
+            ]
+          },
+          {
+            "outline": [
+              "Name the uncertainty",
+              "Explain the mechanism",
+              "Ask for a bounded review"
+            ],
+            "direction": "Explain the reported observation with its limitation.",
+            "reader_job": "Decide the next review",
+            "evidence_ids": [
+              "ev_68a718497c8aae5e713e7396"
+            ]
+          }
+        ],
+        "title": "A bounded follow-up review",
+        "voice": [
+          "Plain language"
+        ],
+        "claims": [
+          {
+            "kind": "source_assertion",
+            "text": "An improvement in follow-up was reported.",
+            "quote": null,
+            "claim_id": "claim_observation",
+            "evidence_ids": [
+              "ev_68a718497c8aae5e713e7396"
+            ],
+            "public_quote": false,
+            "numeric_facts": [],
+            "source_status": "reported",
+            "qualifications": [
+              "Not measured"
+            ]
+          }
+        ],
+        "sources": [
+          "ev_68a718497c8aae5e713e7396",
+          "ev_70d4202a14eb105616790d1c",
+          "ev_eaae767a03aa789ce6073129",
+          "ev_cc04e6a6d227e862b0adf3e3"
+        ],
+        "why_now": "The admitted observation raises a useful current editorial question; meeting date is unknown.",
+        "audience": "Wedding business owners",
+        "carousel": [
+          {
+            "number": 1,
+            "direction": "Explain a bounded review step.",
+            "evidence_ids": [
+              "ev_68a718497c8aae5e713e7396"
+            ]
+          },
+          {
+            "number": 2,
+            "direction": "Explain a bounded review step.",
+            "evidence_ids": [
+              "ev_68a718497c8aae5e713e7396"
+            ]
+          },
+          {
+            "number": 3,
+            "direction": "Explain a bounded review step.",
+            "evidence_ids": [
+              "ev_68a718497c8aae5e713e7396"
+            ]
+          },
+          {
+            "number": 4,
+            "direction": "Explain a bounded review step.",
+            "evidence_ids": [
+              "ev_68a718497c8aae5e713e7396"
+            ]
+          },
+          {
+            "number": 5,
+            "direction": "Explain a bounded review step.",
+            "evidence_ids": [
+              "ev_68a718497c8aae5e713e7396"
+            ]
+          },
+          {
+            "number": 6,
+            "direction": "Explain a bounded review step.",
+            "evidence_ids": [
+              "ev_68a718497c8aae5e713e7396"
+            ]
+          },
+          {
+            "number": 7,
+            "direction": "Explain a bounded review step.",
+            "evidence_ids": [
+              "ev_68a718497c8aae5e713e7396"
+            ]
+          },
+          {
+            "number": 8,
+            "direction": "Explain a bounded review step.",
+            "evidence_ids": [
+              "ev_68a718497c8aae5e713e7396"
+            ]
+          }
+        ],
+        "narrative": [
+          "Explain the observation without causal certainty."
+        ],
+        "positioning": null,
+        "core_insight": "A reported improvement is a starting point for review, not proof of a measured result.",
+        "distribution": [
+          "Use the approved editorial channels"
+        ],
+        "accessibility": [
+          "Provide captions"
+        ],
+        "audience_pain": "Uncertainty about the next action",
+        "message_spine": [
+          "Inspect the observation",
+          "Retain the limitation",
+          "Choose a bounded review"
+        ],
+        "open_questions": [
+          {
+            "text": "Which channel should lead?",
+            "answer": "Email first",
+            "required": true,
+            "question_id": "distribution"
+          }
+        ],
+        "reader_promise": "Understand how to review follow-up without assuming measured improvement.",
+        "angle_statement": "Different follow-up decision",
+        "differentiation": "Focus on the bounded review decision rather than presenting a general outcome.",
+        "reader_decision": "Different decision",
+        "handoff_checklist": [
+          "Preserve source qualifications",
+          "Approve the exact brief before production"
+        ],
+        "prior_differences": {
+          "angle_1783f15b58b8a989c290584d": "Develop this reader decision while retaining the unmeasured limitation.",
+          "angle_bc808ede1f4cea2ea8e1b6a3": "Develop this reader decision while retaining the unmeasured limitation."
+        },
+        "similarity_review": "Review covers the admitted archive; legacy publication coverage is incomplete.",
+        "creative_direction": [
+          "Use a clear flow"
+        ],
+        "evaluation_signals": [
+          "Check reader comprehension"
+        ],
+        "carousel_reader_job": "Apply a bounded review",
+        "evidence_boundaries": [
+          "Not measured; speaker identity and public-use permission remain unverified."
+        ],
+        "claims_requiring_consent": []
+      },
+      "provenance": {
+        "angle": {
+          "cta": {
+            "text": "Discuss follow-up"
+          },
+          "body": {
+            "take": "Different follow-up decision",
+            "risks": [
+              "Unverified public use",
+              "handling: unknown; public reuse needs review"
+            ],
+            "title": "Different",
+            "tension": "Uncertain next action",
+            "argument": "Different follow-up decision",
+            "audience": "Wedding business owners",
+            "strategy": {
+              "risks": [
+                "Unverified public use",
+                "handling: unknown; public reuse needs review"
+              ],
+              "title": "Different",
+              "quality": {
+                "reasons": [
+                  "Synthetic quality fixture"
+                ],
+                "grounding": 5.0,
+                "strategic_fit": 5.0,
+                "distinctiveness": 5.0,
+                "source_strength": 5.0,
+                "audience_resonance": 5.0
+              },
+              "tension": "Uncertain next action",
+              "audience": "Wedding business owners",
+              "inference": null,
+              "local_key": "Different",
+              "moment_ids": [
+                "moment_ce9fe8df75668c253ae9b509"
+              ],
+              "qualifiers": [
+                "Not measured"
+              ],
+              "content_type": "education",
+              "reader_decision": "Different decision",
+              "core_perspective": "Different follow-up decision",
+              "selection_reason": "Synthetic mechanics fixture, not founder-fit evidence.",
+              "service_relevance": null,
+              "source_assertions": [
+                "[moment_ce9fe8df75668c253ae9b509] An improvement was reported."
+              ],
+              "strategic_purpose": "WARM",
+              "evidence_readiness": "supported",
+              "research_questions": [],
+              "content_opportunity": "Different follow-up decision",
+              "strategic_rationale": "Synthetic opportunity for a pipeline mechanics test.",
+              "wia_expertise_in_action": "Different mechanism"
+            },
+            "inference": null,
+            "mechanism": "Different mechanism",
+            "qualifiers": [
+              "Not measured"
+            ],
+            "reader_decision": "Different decision",
+            "source_family_id": "source_family_6ce20bbf069d1df49445a81b",
+            "source_assertions": [
+              "[moment_ce9fe8df75668c253ae9b509] An improvement was reported."
+            ]
+          },
+          "steer": "Bounded treatment",
+          "policy": null,
+          "week_id": "week_2026-06-01",
+          "angle_id": "angle_56b9ab0904d1786b7c9eecee",
+          "approved_at": "2026-10-16T20:07:26.005156+05:30",
+          "approved_by": "tester",
+          "approved_hash": "88a8626ccb5413d8809fd6f5a355ca1a24563a97777d45d0c18a0962989f60d5",
+          "moment_hashes": {
+            "moment_ce9fe8df75668c253ae9b509": "0b55acff44632d5e57c78956760f3b992eecfb8b9e50890fbc0b62824aaa28da"
+          }
+        },
+        "run_id": "brief_run_50d80d38ccc3ead0e3d4d210",
+        "brand_hash": "72f2e359d3777454b7e2f21faf3218644cdfd0c87dd0058dc31000162949b259",
+        "dossier_hash": "b493c719f036a734baf552cd33f46a616b946aa47c53c1400c9dfa6f3c3304c4"
+      },
+      "schema_version": "brief_document_v1"
+    },
+    "selected_evidence": [
+      {
+        "end": 73,
+        "role": "anchor",
+        "start": 40,
+        "title": "meeting.vtt",
+        "excerpt": "Alice: We improved the follow-up.",
+        "speaker": "Alice",
+        "start_ms": 1000,
+        "chunk_ids": [],
+        "inherited": true,
+        "moment_ids": [
+          "moment_ce9fe8df75668c253ae9b509"
+        ],
+        "passage_id": "zoom:6d7ecd4aacf3061b:span:0",
+        "public_use": false,
+        "source_url": null,
+        "evidence_id": "ev_68a718497c8aae5e713e7396",
+        "sensitivity": "unknown",
+        "source_hash": "a509b12ec5539eb166502e79953d63722dbe6520b95b7b1ef1e6648484809981",
+        "claim_status": "reported",
+        "source_digest": "3304bec2e5729d611a8f30e85d5f257ba2f1b9cbb197b54d997ae6b2ae14007b",
+        "transcript_id": "transcript_c2c32b7549832f12014ec8fe",
+        "qualifications": [
+          "Not measured"
+        ],
+        "attribution_verified": false
+      },
+      {
+        "end": 159,
+        "role": "qualification",
+        "start": 107,
+        "title": "meeting.vtt",
+        "excerpt": "Alice: It was an observation, not a measured result.",
+        "speaker": "Alice",
+        "start_ms": 4000,
+        "chunk_ids": [],
+        "inherited": true,
+        "moment_ids": [
+          "moment_ce9fe8df75668c253ae9b509"
+        ],
+        "passage_id": "zoom:6d7ecd4aacf3061b:span:1",
+        "public_use": false,
+        "source_url": null,
+        "evidence_id": "ev_70d4202a14eb105616790d1c",
+        "sensitivity": "unknown",
+        "source_hash": "a509b12ec5539eb166502e79953d63722dbe6520b95b7b1ef1e6648484809981",
+        "claim_status": "reported",
+        "source_digest": "3304bec2e5729d611a8f30e85d5f257ba2f1b9cbb197b54d997ae6b2ae14007b",
+        "transcript_id": "transcript_c2c32b7549832f12014ec8fe",
+        "qualifications": [
+          "Not measured"
+        ],
+        "attribution_verified": false
+      },
+      {
+        "end": 73,
+        "role": "support",
+        "start": 40,
+        "title": "meeting.vtt",
+        "excerpt": "Alice: We improved the follow-up.",
+        "speaker": "Alice",
+        "start_ms": 1000,
+        "chunk_ids": [
+          "chunk_b9016f275429c477dd6ff437"
+        ],
+        "inherited": false,
+        "moment_ids": [],
+        "passage_id": "zoom:56b3168762ef86b3:span:0",
+        "public_use": false,
+        "source_url": null,
+        "evidence_id": "ev_eaae767a03aa789ce6073129",
+        "sensitivity": "unknown",
+        "source_hash": "a509b12ec5539eb166502e79953d63722dbe6520b95b7b1ef1e6648484809981",
+        "claim_status": "unknown",
+        "source_digest": "59b8e46ba1306a494106a3b7d6fc9e3082cc848451b070f3088858917e9dd934",
+        "transcript_id": "transcript_54d8d5d644854873983f8934",
+        "qualifications": [],
+        "attribution_verified": false
+      },
+      {
+        "end": 159,
+        "role": "support",
+        "start": 107,
+        "title": "meeting.vtt",
+        "excerpt": "Alice: It was an observation, not a measured result.",
+        "speaker": "Alice",
+        "start_ms": 4000,
+        "chunk_ids": [
+          "chunk_b9016f275429c477dd6ff437"
+        ],
+        "inherited": false,
+        "moment_ids": [],
+        "passage_id": "zoom:56b3168762ef86b3:span:1",
+        "public_use": false,
+        "source_url": null,
+        "evidence_id": "ev_cc04e6a6d227e862b0adf3e3",
+        "sensitivity": "unknown",
+        "source_hash": "a509b12ec5539eb166502e79953d63722dbe6520b95b7b1ef1e6648484809981",
+        "claim_status": "unknown",
+        "source_digest": "59b8e46ba1306a494106a3b7d6fc9e3082cc848451b070f3088858917e9dd934",
+        "transcript_id": "transcript_54d8d5d644854873983f8934",
+        "qualifications": [],
+        "attribution_verified": false
+      }
+    ],
+    "prior_content_context": [
+      {
+        "briefs": [],
+        "cosine": 0.0,
+        "angle_id": "angle_1783f15b58b8a989c290584d",
+        "argument": "Repeated follow-up decision",
+        "audience": "Wedding business owners",
+        "discovery": [
+          "semantic",
+          "passage_overlap"
+        ],
+        "mechanism": "Repeated mechanism",
+        "content_hash": "db0f862e4ff9eda4168b9610fba11aedf4c996124b7f0876c2819f2fdd82f5ba",
+        "publications": [],
+        "approval_status": "pending"
+      },
+      {
+        "briefs": [],
+        "cosine": 0.0,
+        "angle_id": "angle_bc808ede1f4cea2ea8e1b6a3",
+        "argument": "Repeated variation follow-up decision",
+        "audience": "Wedding business owners",
+        "discovery": [
+          "semantic",
+          "passage_overlap"
+        ],
+        "mechanism": "Repeated variation mechanism",
+        "content_hash": "f57cb1d9973c0261aee0008916eb11558d621a9b93d4aa57d3763cc752eb5403",
+        "publications": [],
+        "approval_status": "pending"
+      }
+    ],
+    "research_gaps": {
+      "items": [],
+      "coverage": {
+        "as_of": "2026-10-16T20:07:26.005156+05:30",
+        "external": "disabled",
+        "meeting_dates": "unknown_dates_not_inferred_from_week",
+        "eligible_chunks": 2,
+        "published_archive": "incomplete_legacy_catalogue_missing",
+        "archive_source_ids": [
+          "transcript_54d8d5d644854873983f8934",
+          "transcript_c2c32b7549832f12014ec8fe"
+        ],
+        "prior_argument_count": 2,
+        "semantic_and_lexical": "completed",
+        "original_grounding_complete": true
+      }
+    },
+    "content_hash": "f085924b77fbbbaface02357e4eaa2fc4d57b637138bddd51b9b98791e4ab602",
+    "approval_status": "approved",
+    "approved_hash": "f085924b77fbbbaface02357e4eaa2fc4d57b637138bddd51b9b98791e4ab602",
+    "approved_by": "tester",
+    "approved_at": "2026-10-16 20:07:32.828415+05:30",
+    "review_note": "Approved bounded production contract",
+    "updated_by": "tester",
+    "created_at": "2026-10-16 20:07:32.583277+05:30",
+    "updated_at": "2026-10-16 20:07:32.810949+05:30",
+    "has_replacement": false,
+    "can_approve": false,
+    "can_edit": true,
+    "can_review": true,
+    "blockers": [],
+    "can_consume": true
+  },
+  "research": {
+    "status": "waiting_for_review",
+    "run_id": "brief_run_50d80d38ccc3ead0e3d4d210",
+    "input_hash": "7ff955f6bd7b926dcf672c42e774bb9e911628f49815f853d4a0c00ffef68635",
+    "jobs": [
+      {
+        "job_id": "brief_job_1f64832352634d6a9ec78b6c35b8b380",
+        "stage": "brief_research",
+        "status": "completed",
+        "current_step": "grading",
+        "current_message": "brief_research complete",
+        "completed_units": null,
+        "total_units": null,
+        "error_summary": null,
+        "result_refs": {
+          "hash": "b493c719f036a734baf552cd33f46a616b946aa47c53c1400c9dfa6f3c3304c4",
+          "artifact": "brief-runs/brief_run_50d80d38ccc3ead0e3d4d210/brief_research/b493c719f036a734baf552cd33f46a616b946aa47c53c1400c9dfa6f3c3304c4.json"
+        }
+      },
+      {
+        "job_id": "brief_job_300a65b54f3b4f95a98f570a30e86921",
+        "stage": "brief_writing",
+        "status": "completed",
+        "current_step": null,
+        "current_message": "brief_writing complete",
+        "completed_units": null,
+        "total_units": null,
+        "error_summary": null,
+        "result_refs": {
+          "hash": "e910f822eb0a4fc5465277a7828375459581183cad503e6fef0abbe3dcda03a4",
+          "artifact": "brief-runs/brief_run_50d80d38ccc3ead0e3d4d210/brief_writing/e910f822eb0a4fc5465277a7828375459581183cad503e6fef0abbe3dcda03a4.json"
+        }
+      },
+      {
+        "job_id": "brief_job_8c69d5bd052943c8adbf3ba4e8104346",
+        "stage": "brief_prepare",
+        "status": "completed",
+        "current_step": null,
+        "current_message": "brief_prepare complete",
+        "completed_units": null,
+        "total_units": null,
+        "error_summary": null,
+        "result_refs": {
+          "hash": "168dcce97f8b3e394a64f82492edcc511512e2fa84e3c3cc65f6fbe0263b1af9",
+          "artifact": "brief-runs/brief_run_50d80d38ccc3ead0e3d4d210/brief_prepare/168dcce97f8b3e394a64f82492edcc511512e2fa84e3c3cc65f6fbe0263b1af9.json"
+        }
+      },
+      {
+        "job_id": "brief_job_8e153ffbd53c468fa152e038f1139b6b",
+        "stage": "brief_validation",
+        "status": "completed",
+        "current_step": null,
+        "current_message": "Brief ready for Gate 2",
+        "completed_units": null,
+        "total_units": null,
+        "error_summary": null,
+        "result_refs": {
+          "blocking": 0,
+          "brief_id": "brief_eca0d5872d2806d4626df446",
+          "content_hash": "c563b5bfbb2999264967b5b6a1a57cbdabd5102a70d825fc88bf333648adc031"
+        }
+      },
+      {
+        "job_id": "brief_job_e61b23863bb143358987c5484f27e9b9",
+        "stage": "brief_context",
+        "status": "completed",
+        "current_step": null,
+        "current_message": "brief_context complete",
+        "completed_units": null,
+        "total_units": null,
+        "error_summary": null,
+        "result_refs": {
+          "hash": "b493c719f036a734baf552cd33f46a616b946aa47c53c1400c9dfa6f3c3304c4",
+          "artifact": "brief-runs/brief_run_50d80d38ccc3ead0e3d4d210/brief_context/b493c719f036a734baf552cd33f46a616b946aa47c53c1400c9dfa6f3c3304c4.json"
+        }
+      }
+    ],
+    "dossier": {
+      "angle": {
+        "cta": {
+          "text": "Discuss follow-up"
+        },
+        "body": {
+          "take": "Different follow-up decision",
+          "risks": [
+            "Unverified public use",
+            "handling: unknown; public reuse needs review"
+          ],
+          "title": "Different",
+          "tension": "Uncertain next action",
+          "argument": "Different follow-up decision",
+          "audience": "Wedding business owners",
+          "strategy": {
+            "risks": [
+              "Unverified public use",
+              "handling: unknown; public reuse needs review"
+            ],
+            "title": "Different",
+            "quality": {
+              "reasons": [
+                "Synthetic quality fixture"
+              ],
+              "grounding": 5.0,
+              "strategic_fit": 5.0,
+              "distinctiveness": 5.0,
+              "source_strength": 5.0,
+              "audience_resonance": 5.0
+            },
+            "tension": "Uncertain next action",
+            "audience": "Wedding business owners",
+            "inference": null,
+            "local_key": "Different",
+            "moment_ids": [
+              "moment_ce9fe8df75668c253ae9b509"
+            ],
+            "qualifiers": [
+              "Not measured"
+            ],
+            "content_type": "education",
+            "reader_decision": "Different decision",
+            "core_perspective": "Different follow-up decision",
+            "selection_reason": "Synthetic mechanics fixture, not founder-fit evidence.",
+            "service_relevance": null,
+            "source_assertions": [
+              "[moment_ce9fe8df75668c253ae9b509] An improvement was reported."
+            ],
+            "strategic_purpose": "WARM",
+            "evidence_readiness": "supported",
+            "research_questions": [],
+            "content_opportunity": "Different follow-up decision",
+            "strategic_rationale": "Synthetic opportunity for a pipeline mechanics test.",
+            "wia_expertise_in_action": "Different mechanism"
+          },
+          "inference": null,
+          "mechanism": "Different mechanism",
+          "qualifiers": [
+            "Not measured"
+          ],
+          "reader_decision": "Different decision",
+          "source_family_id": "source_family_6ce20bbf069d1df49445a81b",
+          "source_assertions": [
+            "[moment_ce9fe8df75668c253ae9b509] An improvement was reported."
+          ]
+        },
+        "steer": "Bounded treatment",
+        "policy": null,
+        "week_id": "week_2026-06-01",
+        "angle_id": "angle_56b9ab0904d1786b7c9eecee",
+        "approved_at": "2026-10-16T20:07:26.005156+05:30",
+        "approved_by": "tester",
+        "approved_hash": "88a8626ccb5413d8809fd6f5a355ca1a24563a97777d45d0c18a0962989f60d5",
+        "moment_hashes": {
+          "moment_ce9fe8df75668c253ae9b509": "0b55acff44632d5e57c78956760f3b992eecfb8b9e50890fbc0b62824aaa28da"
+        }
+      },
+      "evidence": [
+        {
+          "evidence_id": "ev_68a718497c8aae5e713e7396",
+          "transcript_id": "transcript_c2c32b7549832f12014ec8fe",
+          "source_hash": "a509b12ec5539eb166502e79953d63722dbe6520b95b7b1ef1e6648484809981",
+          "source_digest": "3304bec2e5729d611a8f30e85d5f257ba2f1b9cbb197b54d997ae6b2ae14007b",
+          "passage_id": "zoom:6d7ecd4aacf3061b:span:0",
+          "start": 40,
+          "end": 73,
+          "excerpt": "Alice: We improved the follow-up.",
+          "title": "meeting.vtt",
+          "speaker": "Alice",
+          "start_ms": 1000,
+          "source_url": null,
+          "moment_ids": [
+            "moment_ce9fe8df75668c253ae9b509"
+          ],
+          "chunk_ids": [],
+          "role": "anchor",
+          "qualifications": [
+            "Not measured"
+          ],
+          "claim_status": "reported",
+          "sensitivity": "unknown",
+          "inherited": true,
+          "public_use": false,
+          "attribution_verified": false
+        },
+        {
+          "evidence_id": "ev_70d4202a14eb105616790d1c",
+          "transcript_id": "transcript_c2c32b7549832f12014ec8fe",
+          "source_hash": "a509b12ec5539eb166502e79953d63722dbe6520b95b7b1ef1e6648484809981",
+          "source_digest": "3304bec2e5729d611a8f30e85d5f257ba2f1b9cbb197b54d997ae6b2ae14007b",
+          "passage_id": "zoom:6d7ecd4aacf3061b:span:1",
+          "start": 107,
+          "end": 159,
+          "excerpt": "Alice: It was an observation, not a measured result.",
+          "title": "meeting.vtt",
+          "speaker": "Alice",
+          "start_ms": 4000,
+          "source_url": null,
+          "moment_ids": [
+            "moment_ce9fe8df75668c253ae9b509"
+          ],
+          "chunk_ids": [],
+          "role": "qualification",
+          "qualifications": [
+            "Not measured"
+          ],
+          "claim_status": "reported",
+          "sensitivity": "unknown",
+          "inherited": true,
+          "public_use": false,
+          "attribution_verified": false
+        },
+        {
+          "evidence_id": "ev_eaae767a03aa789ce6073129",
+          "transcript_id": "transcript_54d8d5d644854873983f8934",
+          "source_hash": "a509b12ec5539eb166502e79953d63722dbe6520b95b7b1ef1e6648484809981",
+          "source_digest": "59b8e46ba1306a494106a3b7d6fc9e3082cc848451b070f3088858917e9dd934",
+          "passage_id": "zoom:56b3168762ef86b3:span:0",
+          "start": 40,
+          "end": 73,
+          "excerpt": "Alice: We improved the follow-up.",
+          "title": "meeting.vtt",
+          "speaker": "Alice",
+          "start_ms": 1000,
+          "source_url": null,
+          "moment_ids": [],
+          "chunk_ids": [
+            "chunk_b9016f275429c477dd6ff437"
+          ],
+          "role": "support",
+          "qualifications": [],
+          "claim_status": "unknown",
+          "sensitivity": "unknown",
+          "inherited": false,
+          "public_use": false,
+          "attribution_verified": false
+        },
+        {
+          "evidence_id": "ev_cc04e6a6d227e862b0adf3e3",
+          "transcript_id": "transcript_54d8d5d644854873983f8934",
+          "source_hash": "a509b12ec5539eb166502e79953d63722dbe6520b95b7b1ef1e6648484809981",
+          "source_digest": "59b8e46ba1306a494106a3b7d6fc9e3082cc848451b070f3088858917e9dd934",
+          "passage_id": "zoom:56b3168762ef86b3:span:1",
+          "start": 107,
+          "end": 159,
+          "excerpt": "Alice: It was an observation, not a measured result.",
+          "title": "meeting.vtt",
+          "speaker": "Alice",
+          "start_ms": 4000,
+          "source_url": null,
+          "moment_ids": [],
+          "chunk_ids": [
+            "chunk_b9016f275429c477dd6ff437"
+          ],
+          "role": "support",
+          "qualifications": [],
+          "claim_status": "unknown",
+          "sensitivity": "unknown",
+          "inherited": false,
+          "public_use": false,
+          "attribution_verified": false
+        }
+      ],
+      "prior": [
+        {
+          "angle_id": "angle_1783f15b58b8a989c290584d",
+          "argument": "Repeated follow-up decision",
+          "audience": "Wedding business owners",
+          "mechanism": "Repeated mechanism",
+          "approval_status": "pending",
+          "cosine": 0.0,
+          "discovery": [
+            "semantic",
+            "passage_overlap"
+          ],
+          "briefs": [],
+          "publications": [],
+          "content_hash": "db0f862e4ff9eda4168b9610fba11aedf4c996124b7f0876c2819f2fdd82f5ba"
+        },
+        {
+          "angle_id": "angle_bc808ede1f4cea2ea8e1b6a3",
+          "argument": "Repeated variation follow-up decision",
+          "audience": "Wedding business owners",
+          "mechanism": "Repeated variation mechanism",
+          "approval_status": "pending",
+          "cosine": 0.0,
+          "discovery": [
+            "semantic",
+            "passage_overlap"
+          ],
+          "briefs": [],
+          "publications": [],
+          "content_hash": "f57cb1d9973c0261aee0008916eb11558d621a9b93d4aa57d3763cc752eb5403"
+        }
+      ],
+      "queries": [
+        {
+          "text": "follow-up evidence round 0 aspect 0",
+          "purpose": "support"
+        },
+        {
+          "text": "follow-up evidence round 0 aspect 1",
+          "purpose": "support"
+        },
+        {
+          "text": "follow-up evidence round 0 aspect 2",
+          "purpose": "support"
+        },
+        {
+          "text": "follow-up evidence round 0 aspect 3",
+          "purpose": "support"
+        },
+        {
+          "text": "follow-up evidence round 0 aspect 4",
+          "purpose": "support"
+        },
+        {
+          "text": "follow-up evidence round 0 aspect 5",
+          "purpose": "support"
+        }
+      ],
+      "coverage": {
+        "original_grounding_complete": true,
+        "semantic_and_lexical": "completed",
+        "eligible_chunks": 2,
+        "archive_source_ids": [
+          "transcript_54d8d5d644854873983f8934",
+          "transcript_c2c32b7549832f12014ec8fe"
+        ],
+        "prior_argument_count": 2,
+        "published_archive": "incomplete_legacy_catalogue_missing",
+        "external": "disabled",
+        "meeting_dates": "unknown_dates_not_inferred_from_week",
+        "as_of": "2026-10-16T20:07:26.005156+05:30"
+      },
+      "gaps": [],
+      "audit": [
+        {
+          "query": {
+            "text": "follow-up evidence round 0 aspect 0",
+            "purpose": "support"
+          },
+          "hits": [
+            {
+              "chunk_id": "chunk_b9016f275429c477dd6ff437",
+              "rrf": 0.01639344262295082,
+              "cosine": 1.0,
+              "semantic_rank": 1
+            },
+            {
+              "chunk_id": "chunk_e897409bd6fd32954cde7601",
+              "rrf": 0.016129032258064516,
+              "cosine": 1.0,
+              "semantic_rank": 2
+            }
+          ],
+          "expanded_ids": [
+            "ev_eaae767a03aa789ce6073129",
+            "ev_cc04e6a6d227e862b0adf3e3",
+            "ev_68a718497c8aae5e713e7396",
+            "ev_70d4202a14eb105616790d1c"
+          ]
+        },
+        {
+          "query": {
+            "text": "follow-up evidence round 0 aspect 1",
+            "purpose": "support"
+          },
+          "hits": [
+            {
+              "chunk_id": "chunk_b9016f275429c477dd6ff437",
+              "rrf": 0.01639344262295082,
+              "cosine": 1.0,
+              "semantic_rank": 1
+            },
+            {
+              "chunk_id": "chunk_e897409bd6fd32954cde7601",
+              "rrf": 0.016129032258064516,
+              "cosine": 1.0,
+              "semantic_rank": 2
+            }
+          ],
+          "expanded_ids": [
+            "ev_eaae767a03aa789ce6073129",
+            "ev_cc04e6a6d227e862b0adf3e3",
+            "ev_68a718497c8aae5e713e7396",
+            "ev_70d4202a14eb105616790d1c"
+          ]
+        },
+        {
+          "query": {
+            "text": "follow-up evidence round 0 aspect 2",
+            "purpose": "support"
+          },
+          "hits": [
+            {
+              "chunk_id": "chunk_b9016f275429c477dd6ff437",
+              "rrf": 0.01639344262295082,
+              "cosine": 1.0,
+              "semantic_rank": 1
+            },
+            {
+              "chunk_id": "chunk_e897409bd6fd32954cde7601",
+              "rrf": 0.016129032258064516,
+              "cosine": 1.0,
+              "semantic_rank": 2
+            }
+          ],
+          "expanded_ids": [
+            "ev_eaae767a03aa789ce6073129",
+            "ev_cc04e6a6d227e862b0adf3e3",
+            "ev_68a718497c8aae5e713e7396",
+            "ev_70d4202a14eb105616790d1c"
+          ]
+        },
+        {
+          "query": {
+            "text": "follow-up evidence round 0 aspect 3",
+            "purpose": "support"
+          },
+          "hits": [
+            {
+              "chunk_id": "chunk_b9016f275429c477dd6ff437",
+              "rrf": 0.01639344262295082,
+              "cosine": 1.0,
+              "semantic_rank": 1
+            },
+            {
+              "chunk_id": "chunk_e897409bd6fd32954cde7601",
+              "rrf": 0.016129032258064516,
+              "cosine": 1.0,
+              "semantic_rank": 2
+            }
+          ],
+          "expanded_ids": [
+            "ev_eaae767a03aa789ce6073129",
+            "ev_cc04e6a6d227e862b0adf3e3",
+            "ev_68a718497c8aae5e713e7396",
+            "ev_70d4202a14eb105616790d1c"
+          ]
+        },
+        {
+          "query": {
+            "text": "follow-up evidence round 0 aspect 4",
+            "purpose": "support"
+          },
+          "hits": [
+            {
+              "chunk_id": "chunk_b9016f275429c477dd6ff437",
+              "rrf": 0.01639344262295082,
+              "cosine": 1.0,
+              "semantic_rank": 1
+            },
+            {
+              "chunk_id": "chunk_e897409bd6fd32954cde7601",
+              "rrf": 0.016129032258064516,
+              "cosine": 1.0,
+              "semantic_rank": 2
+            }
+          ],
+          "expanded_ids": [
+            "ev_eaae767a03aa789ce6073129",
+            "ev_cc04e6a6d227e862b0adf3e3",
+            "ev_68a718497c8aae5e713e7396",
+            "ev_70d4202a14eb105616790d1c"
+          ]
+        },
+        {
+          "query": {
+            "text": "follow-up evidence round 0 aspect 5",
+            "purpose": "support"
+          },
+          "hits": [
+            {
+              "chunk_id": "chunk_b9016f275429c477dd6ff437",
+              "rrf": 0.01639344262295082,
+              "cosine": 1.0,
+              "semantic_rank": 1
+            },
+            {
+              "chunk_id": "chunk_e897409bd6fd32954cde7601",
+              "rrf": 0.016129032258064516,
+              "cosine": 1.0,
+              "semantic_rank": 2
+            }
+          ],
+          "expanded_ids": [
+            "ev_eaae767a03aa789ce6073129",
+            "ev_cc04e6a6d227e862b0adf3e3",
+            "ev_68a718497c8aae5e713e7396",
+            "ev_70d4202a14eb105616790d1c"
+          ]
+        },
+        {
+          "grades": {
+            "grades": [
+              {
+                "evidence_id": "ev_68a718497c8aae5e713e7396",
+                "relevant": true,
+                "role": "support",
+                "reason": "Useful exact source context"
+              },
+              {
+                "evidence_id": "ev_70d4202a14eb105616790d1c",
+                "relevant": true,
+                "role": "support",
+                "reason": "Useful exact source context"
+              },
+              {
+                "evidence_id": "ev_eaae767a03aa789ce6073129",
+                "relevant": true,
+                "role": "support",
+                "reason": "Useful exact source context"
+              },
+              {
+                "evidence_id": "ev_cc04e6a6d227e862b0adf3e3",
+                "relevant": true,
+                "role": "support",
+                "reason": "Useful exact source context"
+              }
+            ],
+            "gaps": []
+          },
+          "ungraded_budget_omissions": []
+        }
+      ],
+      "brand": {
+        "hash": "72f2e359d3777454b7e2f21faf3218644cdfd0c87dd0058dc31000162949b259",
+        "documents": {
+          "voice": [
+            "Use plain language and preserve uncertainty."
+          ],
+          "status": "fixture",
+          "strategy": [
+            "Develop the approved reader decision."
+          ],
+          "cta_rules": [
+            "Use the exact approved CTA."
+          ],
+          "exemplars": []
+        }
+      }
+    },
+    "costs": {
+      "report_run_id": "brief_run_50d80d38ccc3ead0e3d4d210",
+      "currency": "USD",
+      "recorded_at_utc": "2026-10-16T14:37:31.381965+00:00",
+      "stages": [
+        {
+          "stage": "brief_plan",
+          "status": "recorded",
+          "attempt_count": 1,
+          "dispatched_count": 0,
+          "reused_count": 0,
+          "known_reported_new_cost_usd": 0.0,
+          "new_cost_usd": 0.0,
+          "all_new_costs_known": true,
+          "calls": [
+            {
+              "stage": "brief_plan",
+              "job_id": "brief_job_1f64832352634d6a9ec78b6c35b8b380",
+              "attempt": 1,
+              "fingerprint": "1eb402d71bc3fae876b2af089cb3659050904b8600dce6df48f5eb8ef9c83f38",
+              "synthetic": true,
+              "real_external_dispatch": false,
+              "currency": "USD",
+              "recorded_at_utc": "2026-10-16T14:37:27.173812+00:00",
+              "dispatched": false,
+              "reused": false,
+              "generation_id": null,
+              "returned_model_id": null,
+              "provider": null,
+              "usage": null,
+              "original_reported_cost_usd": null,
+              "new_cost_usd": 0.0,
+              "cost_status": "not_sent",
+              "cost_source": null,
+              "credit_purchase_fees_included": false
+            }
+          ]
+        },
+        {
+          "stage": "brief_grade",
+          "status": "recorded",
+          "attempt_count": 1,
+          "dispatched_count": 0,
+          "reused_count": 0,
+          "known_reported_new_cost_usd": 0.0,
+          "new_cost_usd": 0.0,
+          "all_new_costs_known": true,
+          "calls": [
+            {
+              "stage": "brief_grade",
+              "job_id": "brief_job_1f64832352634d6a9ec78b6c35b8b380",
+              "attempt": 1,
+              "fingerprint": "8bf1a01eec1fce7cde3b4122267b5ffcb42fbea5a6508f28dafcc0823db0f2da",
+              "synthetic": true,
+              "real_external_dispatch": false,
+              "currency": "USD",
+              "recorded_at_utc": "2026-10-16T14:37:29.183444+00:00",
+              "dispatched": false,
+              "reused": false,
+              "generation_id": null,
+              "returned_model_id": null,
+              "provider": null,
+              "usage": null,
+              "original_reported_cost_usd": null,
+              "new_cost_usd": 0.0,
+              "cost_status": "not_sent",
+              "cost_source": null,
+              "credit_purchase_fees_included": false
+            }
+          ]
+        },
+        {
+          "stage": "brief_write",
+          "status": "recorded",
+          "attempt_count": 1,
+          "dispatched_count": 0,
+          "reused_count": 0,
+          "known_reported_new_cost_usd": 0.0,
+          "new_cost_usd": 0.0,
+          "all_new_costs_known": true,
+          "calls": [
+            {
+              "stage": "brief_write",
+              "job_id": "brief_job_300a65b54f3b4f95a98f570a30e86921",
+              "attempt": 1,
+              "fingerprint": "7afe551fae75bfac2ff3a9d487c6319c95222bc21c1d40409bc4bb75621e442b",
+              "synthetic": true,
+              "real_external_dispatch": false,
+              "currency": "USD",
+              "recorded_at_utc": "2026-10-16T14:37:30.549595+00:00",
+              "dispatched": false,
+              "reused": false,
+              "generation_id": null,
+              "returned_model_id": null,
+              "provider": null,
+              "usage": null,
+              "original_reported_cost_usd": null,
+              "new_cost_usd": 0.0,
+              "cost_status": "not_sent",
+              "cost_source": null,
+              "credit_purchase_fees_included": false
+            }
+          ]
+        },
+        {
+          "stage": "brief_review",
+          "status": "recorded",
+          "attempt_count": 1,
+          "dispatched_count": 0,
+          "reused_count": 0,
+          "known_reported_new_cost_usd": 0.0,
+          "new_cost_usd": 0.0,
+          "all_new_costs_known": true,
+          "calls": [
+            {
+              "stage": "brief_review",
+              "job_id": "brief_job_8e153ffbd53c468fa152e038f1139b6b",
+              "attempt": 1,
+              "fingerprint": "7a35c5e441fb7a00e65c306e7ffd9fcde873fcdff1806fe04586a9bd578f51d8",
+              "synthetic": true,
+              "real_external_dispatch": false,
+              "currency": "USD",
+              "recorded_at_utc": "2026-10-16T14:37:31.367965+00:00",
+              "dispatched": false,
+              "reused": false,
+              "generation_id": null,
+              "returned_model_id": null,
+              "provider": null,
+              "usage": null,
+              "original_reported_cost_usd": null,
+              "new_cost_usd": 0.0,
+              "cost_status": "not_sent",
+              "cost_source": null,
+              "credit_purchase_fees_included": false
+            }
+          ]
+        },
+        {
+          "stage": "brief_repair",
+          "status": "not_attempted",
+          "attempt_count": 0,
+          "dispatched_count": 0,
+          "reused_count": 0,
+          "known_reported_new_cost_usd": 0.0,
+          "new_cost_usd": 0.0,
+          "all_new_costs_known": true,
+          "calls": []
+        },
+        {
+          "stage": "brief_query_embedding",
+          "status": "recorded",
+          "attempt_count": 1,
+          "dispatched_count": 0,
+          "reused_count": 0,
+          "known_reported_new_cost_usd": 0.0,
+          "new_cost_usd": 0.0,
+          "all_new_costs_known": true,
+          "calls": [
+            {
+              "stage": "brief_query_embedding",
+              "job_id": "brief_job_1f64832352634d6a9ec78b6c35b8b380",
+              "attempt": 1,
+              "fingerprint": "68c51689e5c8f7135ee35f87210bdc8da8bfdeba4e44adb44a894e2fa47ab621",
+              "synthetic": true,
+              "real_external_dispatch": false,
+              "currency": "USD",
+              "recorded_at_utc": "2026-10-16T14:37:27.545964+00:00",
+              "dispatched": false,
+              "reused": false,
+              "generation_id": null,
+              "returned_model_id": "text-embedding-3-small",
+              "provider": null,
+              "usage": null,
+              "original_reported_cost_usd": null,
+              "new_cost_usd": 0.0,
+              "cost_status": "not_sent",
+              "cost_source": null,
+              "credit_purchase_fees_included": false
+            }
+          ]
+        },
+        {
+          "stage": "brief_web",
+          "status": "not_attempted",
+          "attempt_count": 0,
+          "dispatched_count": 0,
+          "reused_count": 0,
+          "known_reported_new_cost_usd": 0.0,
+          "new_cost_usd": 0.0,
+          "all_new_costs_known": true,
+          "calls": []
+        }
+      ],
+      "known_reported_new_cost_usd": 0.0,
+      "total_new_cost_usd": 0.0,
+      "all_new_costs_known": true,
+      "reasoning_is_included_in_completion_tokens": true,
+      "original_reused_usage_is_not_new_billing": true,
+      "credit_purchase_fees_included": false
+    }
+  },
+  "versions": [
+    {
+      "brief_id": "brief_eca0d5872d2806d4626df446",
+      "supersedes_id": null,
+      "content_hash": "c563b5bfbb2999264967b5b6a1a57cbdabd5102a70d825fc88bf333648adc031",
+      "approval_status": "pending",
+      "created_at": "2026-10-16 20:07:31.572655+05:30",
+      "updated_by": null
+    },
+    {
+      "brief_id": "brief_410abd183a7e4882a36367298c0ffcc8",
+      "supersedes_id": "brief_eca0d5872d2806d4626df446",
+      "content_hash": "98fbea3063d234703229d194f7542e12d502f13c3a3d2c0e08fa3fa2b44d5320",
+      "approval_status": "pending",
+      "created_at": "2026-10-16 20:07:32.289539+05:30",
+      "updated_by": "tester"
+    },
+    {
+      "brief_id": "brief_9a7a762b46a340138c50946ddc8ee366",
+      "supersedes_id": "brief_410abd183a7e4882a36367298c0ffcc8",
+      "content_hash": "f085924b77fbbbaface02357e4eaa2fc4d57b637138bddd51b9b98791e4ab602",
+      "approval_status": "approved",
+      "created_at": "2026-10-16 20:07:32.583277+05:30",
+      "updated_by": "tester"
+    }
+  ],
+  "costs": {
+    "report_run_id": "brief_run_50d80d38ccc3ead0e3d4d210",
+    "currency": "USD",
+    "recorded_at_utc": "2026-10-16T14:37:31.381965+00:00",
+    "stages": [
+      {
+        "stage": "brief_plan",
+        "status": "recorded",
+        "attempt_count": 1,
+        "dispatched_count": 0,
+        "reused_count": 0,
+        "known_reported_new_cost_usd": 0.0,
+        "new_cost_usd": 0.0,
+        "all_new_costs_known": true,
+        "calls": [
+          {
+            "stage": "brief_plan",
+            "job_id": "brief_job_1f64832352634d6a9ec78b6c35b8b380",
+            "attempt": 1,
+            "fingerprint": "1eb402d71bc3fae876b2af089cb3659050904b8600dce6df48f5eb8ef9c83f38",
+            "synthetic": true,
+            "real_external_dispatch": false,
+            "currency": "USD",
+            "recorded_at_utc": "2026-10-16T14:37:27.173812+00:00",
+            "dispatched": false,
+            "reused": false,
+            "generation_id": null,
+            "returned_model_id": null,
+            "provider": null,
+            "usage": null,
+            "original_reported_cost_usd": null,
+            "new_cost_usd": 0.0,
+            "cost_status": "not_sent",
+            "cost_source": null,
+            "credit_purchase_fees_included": false
+          }
+        ]
+      },
+      {
+        "stage": "brief_grade",
+        "status": "recorded",
+        "attempt_count": 1,
+        "dispatched_count": 0,
+        "reused_count": 0,
+        "known_reported_new_cost_usd": 0.0,
+        "new_cost_usd": 0.0,
+        "all_new_costs_known": true,
+        "calls": [
+          {
+            "stage": "brief_grade",
+            "job_id": "brief_job_1f64832352634d6a9ec78b6c35b8b380",
+            "attempt": 1,
+            "fingerprint": "8bf1a01eec1fce7cde3b4122267b5ffcb42fbea5a6508f28dafcc0823db0f2da",
+            "synthetic": true,
+            "real_external_dispatch": false,
+            "currency": "USD",
+            "recorded_at_utc": "2026-10-16T14:37:29.183444+00:00",
+            "dispatched": false,
+            "reused": false,
+            "generation_id": null,
+            "returned_model_id": null,
+            "provider": null,
+            "usage": null,
+            "original_reported_cost_usd": null,
+            "new_cost_usd": 0.0,
+            "cost_status": "not_sent",
+            "cost_source": null,
+            "credit_purchase_fees_included": false
+          }
+        ]
+      },
+      {
+        "stage": "brief_write",
+        "status": "recorded",
+        "attempt_count": 1,
+        "dispatched_count": 0,
+        "reused_count": 0,
+        "known_reported_new_cost_usd": 0.0,
+        "new_cost_usd": 0.0,
+        "all_new_costs_known": true,
+        "calls": [
+          {
+            "stage": "brief_write",
+            "job_id": "brief_job_300a65b54f3b4f95a98f570a30e86921",
+            "attempt": 1,
+            "fingerprint": "7afe551fae75bfac2ff3a9d487c6319c95222bc21c1d40409bc4bb75621e442b",
+            "synthetic": true,
+            "real_external_dispatch": false,
+            "currency": "USD",
+            "recorded_at_utc": "2026-10-16T14:37:30.549595+00:00",
+            "dispatched": false,
+            "reused": false,
+            "generation_id": null,
+            "returned_model_id": null,
+            "provider": null,
+            "usage": null,
+            "original_reported_cost_usd": null,
+            "new_cost_usd": 0.0,
+            "cost_status": "not_sent",
+            "cost_source": null,
+            "credit_purchase_fees_included": false
+          }
+        ]
+      },
+      {
+        "stage": "brief_review",
+        "status": "recorded",
+        "attempt_count": 1,
+        "dispatched_count": 0,
+        "reused_count": 0,
+        "known_reported_new_cost_usd": 0.0,
+        "new_cost_usd": 0.0,
+        "all_new_costs_known": true,
+        "calls": [
+          {
+            "stage": "brief_review",
+            "job_id": "brief_job_8e153ffbd53c468fa152e038f1139b6b",
+            "attempt": 1,
+            "fingerprint": "7a35c5e441fb7a00e65c306e7ffd9fcde873fcdff1806fe04586a9bd578f51d8",
+            "synthetic": true,
+            "real_external_dispatch": false,
+            "currency": "USD",
+            "recorded_at_utc": "2026-10-16T14:37:31.367965+00:00",
+            "dispatched": false,
+            "reused": false,
+            "generation_id": null,
+            "returned_model_id": null,
+            "provider": null,
+            "usage": null,
+            "original_reported_cost_usd": null,
+            "new_cost_usd": 0.0,
+            "cost_status": "not_sent",
+            "cost_source": null,
+            "credit_purchase_fees_included": false
+          }
+        ]
+      },
+      {
+        "stage": "brief_repair",
+        "status": "not_attempted",
+        "attempt_count": 0,
+        "dispatched_count": 0,
+        "reused_count": 0,
+        "known_reported_new_cost_usd": 0.0,
+        "new_cost_usd": 0.0,
+        "all_new_costs_known": true,
+        "calls": []
+      },
+      {
+        "stage": "brief_query_embedding",
+        "status": "recorded",
+        "attempt_count": 1,
+        "dispatched_count": 0,
+        "reused_count": 0,
+        "known_reported_new_cost_usd": 0.0,
+        "new_cost_usd": 0.0,
+        "all_new_costs_known": true,
+        "calls": [
+          {
+            "stage": "brief_query_embedding",
+            "job_id": "brief_job_1f64832352634d6a9ec78b6c35b8b380",
+            "attempt": 1,
+            "fingerprint": "68c51689e5c8f7135ee35f87210bdc8da8bfdeba4e44adb44a894e2fa47ab621",
+            "synthetic": true,
+            "real_external_dispatch": false,
+            "currency": "USD",
+            "recorded_at_utc": "2026-10-16T14:37:27.545964+00:00",
+            "dispatched": false,
+            "reused": false,
+            "generation_id": null,
+            "returned_model_id": "text-embedding-3-small",
+            "provider": null,
+            "usage": null,
+            "original_reported_cost_usd": null,
+            "new_cost_usd": 0.0,
+            "cost_status": "not_sent",
+            "cost_source": null,
+            "credit_purchase_fees_included": false
+          }
+        ]
+      },
+      {
+        "stage": "brief_web",
+        "status": "not_attempted",
+        "attempt_count": 0,
+        "dispatched_count": 0,
+        "reused_count": 0,
+        "known_reported_new_cost_usd": 0.0,
+        "new_cost_usd": 0.0,
+        "all_new_costs_known": true,
+        "calls": []
+      }
+    ],
+    "known_reported_new_cost_usd": 0.0,
+    "total_new_cost_usd": 0.0,
+    "all_new_costs_known": true,
+    "reasoning_is_included_in_completion_tokens": true,
+    "original_reused_usage_is_not_new_billing": true,
+    "credit_purchase_fees_included": false
+  }
+}

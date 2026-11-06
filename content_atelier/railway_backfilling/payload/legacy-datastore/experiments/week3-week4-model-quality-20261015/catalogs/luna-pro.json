@@ -1,0 +1,218 @@
+{
+  "requested_model": "openai/gpt-6-luna-pro",
+  "status": 200,
+  "advertised_id": "openai/gpt-6-luna-pro",
+  "exact_route_found": true,
+  "endpoints": [
+    {
+      "provider_name": "OpenAI",
+      "context_length": 1050000,
+      "max_prompt_tokens": 922000,
+      "max_completion_tokens": 128000,
+      "supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "seed",
+        "max_tokens",
+        "response_format",
+        "structured_outputs",
+        "tools",
+        "tool_choice",
+        "verbosity",
+        "reasoning_effort"
+      ],
+      "pricing": {
+        "prompt": "0.00000005",
+        "completion": "0.00000025",
+        "web_search": "0.01",
+        "input_cache_read": "0.000000005",
+        "input_cache_write": "0.0000000625",
+        "discount": 0,
+        "overrides": [
+          {
+            "min_prompt_tokens": 272000,
+            "prompt": "0.0000001",
+            "completion": "0.000000375",
+            "input_cache_read": "0.00000001",
+            "input_cache_write": "0.000000125"
+          }
+        ]
+      }
+    },
+    {
+      "provider_name": "OpenAI",
+      "context_length": 1050000,
+      "max_prompt_tokens": 922000,
+      "max_completion_tokens": 128000,
+      "supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "seed",
+        "max_tokens",
+        "response_format",
+        "structured_outputs",
+        "tools",
+        "tool_choice",
+        "verbosity",
+        "reasoning_effort"
+      ],
+      "pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.0000005",
+        "web_search": "0.01",
+        "input_cache_read": "0.00000001",
+        "input_cache_write": "0.000000125",
+        "discount": 0,
+        "overrides": [
+          {
+            "min_prompt_tokens": 272000,
+            "prompt": "0.0000002",
+            "completion": "0.00000075",
+            "input_cache_read": "0.00000002",
+            "input_cache_write": "0.00000025"
+          }
+        ]
+      }
+    },
+    {
+      "provider_name": "Azure",
+      "context_length": 1050000,
+      "max_prompt_tokens": 922000,
+      "max_completion_tokens": 128000,
+      "supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "max_completion_tokens",
+        "tools",
+        "tool_choice",
+        "seed",
+        "response_format",
+        "structured_outputs",
+        "verbosity",
+        "reasoning_effort"
+      ],
+      "pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.0000005",
+        "web_search": "0.01",
+        "input_cache_read": "0.00000001",
+        "input_cache_write": "0.000000125",
+        "discount": 0,
+        "overrides": [
+          {
+            "min_prompt_tokens": 272000,
+            "prompt": "0.0000002",
+            "completion": "0.00000075",
+            "input_cache_read": "0.00000002",
+            "input_cache_write": "0.00000025"
+          }
+        ]
+      }
+    },
+    {
+      "provider_name": "Azure",
+      "context_length": 1050000,
+      "max_prompt_tokens": null,
+      "max_completion_tokens": 128000,
+      "supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "max_completion_tokens",
+        "tools",
+        "tool_choice",
+        "seed",
+        "response_format",
+        "structured_outputs",
+        "verbosity",
+        "reasoning_effort"
+      ],
+      "pricing": {
+        "prompt": "0.00000011",
+        "completion": "0.00000055",
+        "web_search": "0.01",
+        "input_cache_read": "0.000000011",
+        "input_cache_write": "0.0000001375",
+        "discount": 0,
+        "overrides": [
+          {
+            "min_prompt_tokens": 272000,
+            "prompt": "0.00000022",
+            "completion": "0.000000825",
+            "input_cache_read": "0.000000022",
+            "input_cache_write": "0.000000275"
+          }
+        ]
+      }
+    },
+    {
+      "provider_name": "Azure",
+      "context_length": 1050000,
+      "max_prompt_tokens": null,
+      "max_completion_tokens": 128000,
+      "supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "max_completion_tokens",
+        "tools",
+        "tool_choice",
+        "seed",
+        "response_format",
+        "structured_outputs",
+        "verbosity",
+        "reasoning_effort"
+      ],
+      "pricing": {
+        "prompt": "0.00000011",
+        "completion": "0.00000055",
+        "web_search": "0.01",
+        "input_cache_read": "0.000000011",
+        "input_cache_write": "0.0000001375",
+        "discount": 0,
+        "overrides": [
+          {
+            "min_prompt_tokens": 272000,
+            "prompt": "0.00000022",
+            "completion": "0.000000825",
+            "input_cache_read": "0.000000022",
+            "input_cache_write": "0.000000275"
+          }
+        ]
+      }
+    },
+    {
+      "provider_name": "OpenAI",
+      "context_length": 1050000,
+      "max_prompt_tokens": 922000,
+      "max_completion_tokens": 128000,
+      "supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "seed",
+        "max_tokens",
+        "response_format",
+        "structured_outputs",
+        "tools",
+        "tool_choice",
+        "verbosity",
+        "reasoning_effort"
+      ],
+      "pricing": {
+        "prompt": "0.0000002",
+        "completion": "0.000001",
+        "web_search": "0.01",
+        "input_cache_read": "0.00000002",
+        "input_cache_write": "0.00000025",
+        "discount": 0,
+        "overrides": [
+          {
+            "min_prompt_tokens": 272000,
+            "prompt": "0.0000004",
+            "completion": "0.0000015",
+            "input_cache_read": "0.00000004",
+            "input_cache_write": "0.0000005"
+          }
+        ]
+      }
+    }
+  ]
+}

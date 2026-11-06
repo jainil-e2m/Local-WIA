@@ -1,0 +1,8 @@
+{"call_id": "llm_19333e9765b44839a3e113ab", "event": "sent", "stage": "pack_check", "model": "anthropic/claude-sonnet-5.5", "fingerprint": "np7-check-v3-brief-1", "routing_policy": "2026-10-18.deny-collection-zdr.v1", "at": "2026-10-25T00:32:28.513529+00:00"}
+{"call_id": "llm_19333e9765b44839a3e113ab", "event": "succeeded", "cost_usd": 0.0542685, "error": null, "at": "2026-10-25T00:32:41.509180+00:00"}
+{"call_id": "llm_a28e16dec3024ed2829edd95", "event": "sent", "stage": "pack_check", "model": "anthropic/claude-sonnet-5.5", "fingerprint": "np7-check-v3-brief-2", "routing_policy": "2026-10-18.deny-collection-zdr.v1", "at": "2026-10-25T00:32:42.281878+00:00"}
+{"call_id": "llm_a28e16dec3024ed2829edd95", "event": "succeeded", "cost_usd": 0.0766265, "error": null, "at": "2026-10-25T00:33:11.915595+00:00"}
+{"call_id": "llm_bbadf91e26944a4ab24e2021", "event": "sent", "stage": "pack_check", "model": "anthropic/claude-sonnet-5.5", "fingerprint": "np7-check-v3-brief-3", "routing_policy": "2026-10-18.deny-collection-zdr.v1", "at": "2026-10-25T00:33:13.897706+00:00"}
+{"call_id": "llm_bbadf91e26944a4ab24e2021", "event": "succeeded", "cost_usd": 0.0756437, "error": null, "at": "2026-10-25T00:33:35.859438+00:00"}
+{"call_id": "llm_6c091f7b5a4e4f2189fdd76e", "event": "sent", "stage": "pack_check", "model": "anthropic/claude-sonnet-5.5", "fingerprint": "np7-check-v3-held-out", "routing_policy": "2026-10-18.deny-collection-zdr.v1", "at": "2026-10-25T00:33:39.690073+00:00"}
+{"call_id": "llm_6c091f7b5a4e4f2189fdd76e", "event": "succeeded", "cost_usd": 0.0837825, "error": null, "at": "2026-10-25T00:34:05.209544+00:00"}

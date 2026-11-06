@@ -1,0 +1,625 @@
+{
+  "$defs": {
+    "Alternative": {
+      "additionalProperties": false,
+      "properties": {
+        "candidate_key": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "pattern": "\\S",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Candidate Key"
+        },
+        "central_point": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "pattern": "\\S",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Central Point"
+        },
+        "comparison_reason": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Comparison Reason",
+          "type": "string"
+        }
+      },
+      "required": [
+        "candidate_key",
+        "central_point",
+        "comparison_reason"
+      ],
+      "title": "Alternative",
+      "type": "object"
+    },
+    "BatchNotes": {
+      "additionalProperties": false,
+      "properties": {
+        "selection_rationale": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Selection Rationale",
+          "type": "string"
+        },
+        "mix_rationale": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Mix Rationale",
+          "type": "string"
+        },
+        "history_check": {
+          "enum": [
+            "not_supplied",
+            "checked_supplied_history"
+          ],
+          "title": "History Check",
+          "type": "string"
+        },
+        "plan_check": {
+          "enum": [
+            "not_supplied",
+            "checked_supplied_plan"
+          ],
+          "title": "Plan Check",
+          "type": "string"
+        },
+        "limitations": {
+          "items": {
+            "minLength": 1,
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "title": "Limitations",
+          "type": "array"
+        },
+        "evidence_dependent_gaps": {
+          "items": {
+            "minLength": 1,
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "title": "Evidence Dependent Gaps",
+          "type": "array"
+        }
+      },
+      "required": [
+        "selection_rationale",
+        "mix_rationale",
+        "history_check",
+        "plan_check",
+        "limitations",
+        "evidence_dependent_gaps"
+      ],
+      "title": "BatchNotes",
+      "type": "object"
+    },
+    "Claim": {
+      "additionalProperties": false,
+      "properties": {
+        "claim": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Claim",
+          "type": "string"
+        },
+        "state": {
+          "enum": [
+            "spoken_view",
+            "proposed_action",
+            "reported_action",
+            "reported_result",
+            "expressed_understanding",
+            "brand_perspective",
+            "editorial_inference"
+          ],
+          "title": "State",
+          "type": "string"
+        },
+        "source_refs": {
+          "items": {
+            "minLength": 1,
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "title": "Source Refs",
+          "type": "array"
+        },
+        "knowledge_refs": {
+          "items": {
+            "minLength": 1,
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "title": "Knowledge Refs",
+          "type": "array"
+        }
+      },
+      "required": [
+        "claim",
+        "state",
+        "source_refs",
+        "knowledge_refs"
+      ],
+      "title": "Claim",
+      "type": "object"
+    },
+    "Judgment": {
+      "additionalProperties": false,
+      "properties": {
+        "value": {
+          "maximum": 5,
+          "minimum": 1,
+          "title": "Value",
+          "type": "integer"
+        },
+        "reason": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Reason",
+          "type": "string"
+        }
+      },
+      "required": [
+        "value",
+        "reason"
+      ],
+      "title": "Judgment",
+      "type": "object"
+    },
+    "Judgments": {
+      "additionalProperties": false,
+      "properties": {
+        "audience_relevance": {
+          "$ref": "#/$defs/Judgment"
+        },
+        "strategic_value_brand_fit": {
+          "$ref": "#/$defs/Judgment"
+        },
+        "distinctiveness": {
+          "$ref": "#/$defs/Judgment"
+        },
+        "appropriate_depth": {
+          "$ref": "#/$defs/Judgment"
+        },
+        "voice_framing": {
+          "$ref": "#/$defs/Judgment"
+        },
+        "source_support": {
+          "$ref": "#/$defs/Judgment"
+        }
+      },
+      "required": [
+        "audience_relevance",
+        "strategic_value_brand_fit",
+        "distinctiveness",
+        "appropriate_depth",
+        "voice_framing",
+        "source_support"
+      ],
+      "title": "Judgments",
+      "type": "object"
+    },
+    "OtherFinding": {
+      "additionalProperties": false,
+      "properties": {
+        "local_key": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Local Key",
+          "type": "string"
+        },
+        "disposition": {
+          "enum": [
+            "REFRAME",
+            "HOLD",
+            "INTERNAL",
+            "SKIP"
+          ],
+          "title": "Disposition",
+          "type": "string"
+        },
+        "moment_keys": {
+          "items": {
+            "minLength": 1,
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Moment Keys",
+          "type": "array"
+        },
+        "evidence_refs": {
+          "items": {
+            "minLength": 1,
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "title": "Evidence Refs",
+          "type": "array"
+        },
+        "summary": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Summary",
+          "type": "string"
+        },
+        "disposition_reason": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Disposition Reason",
+          "type": "string"
+        },
+        "proposed_reframe": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "pattern": "\\S",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Proposed Reframe"
+        },
+        "retrieval_needs": {
+          "items": {
+            "$ref": "#/$defs/RetrievalNeed"
+          },
+          "title": "Retrieval Needs",
+          "type": "array"
+        },
+        "internal_use": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "pattern": "\\S",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Internal Use"
+        }
+      },
+      "required": [
+        "local_key",
+        "disposition",
+        "moment_keys",
+        "evidence_refs",
+        "summary",
+        "disposition_reason",
+        "proposed_reframe",
+        "retrieval_needs",
+        "internal_use"
+      ],
+      "title": "OtherFinding",
+      "type": "object"
+    },
+    "RetrievalNeed": {
+      "additionalProperties": false,
+      "properties": {
+        "question": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Question",
+          "type": "string"
+        },
+        "known_refs": {
+          "items": {
+            "minLength": 1,
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "title": "Known Refs",
+          "type": "array"
+        },
+        "needed_segment_or_record": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Needed Segment Or Record",
+          "type": "string"
+        },
+        "resolution_condition": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Resolution Condition",
+          "type": "string"
+        }
+      },
+      "required": [
+        "question",
+        "known_refs",
+        "needed_segment_or_record",
+        "resolution_condition"
+      ],
+      "title": "RetrievalNeed",
+      "type": "object"
+    },
+    "SelectedAngle": {
+      "additionalProperties": false,
+      "properties": {
+        "local_key": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Local Key",
+          "type": "string"
+        },
+        "rank": {
+          "exclusiveMinimum": 0,
+          "title": "Rank",
+          "type": "integer"
+        },
+        "disposition": {
+          "const": "SELECT",
+          "title": "Disposition",
+          "type": "string"
+        },
+        "title": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Title",
+          "type": "string"
+        },
+        "central_point": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Central Point",
+          "type": "string"
+        },
+        "why_worthwhile": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Why Worthwhile",
+          "type": "string"
+        },
+        "audience": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Audience",
+          "type": "string"
+        },
+        "intended_shift": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Intended Shift",
+          "type": "string"
+        },
+        "primary_pillar": {
+          "enum": [
+            "ATTRACT",
+            "WARM",
+            "CONVERT"
+          ],
+          "title": "Primary Pillar",
+          "type": "string"
+        },
+        "content_type": {
+          "enum": [
+            "opinion",
+            "founder_forward",
+            "campaign_breakdown",
+            "trend",
+            "uvp",
+            "thought_shift",
+            "process",
+            "behind_the_scenes",
+            "education",
+            "founder_story",
+            "solution_selling",
+            "social_proof"
+          ],
+          "title": "Content Type",
+          "type": "string"
+        },
+        "strategic_rationale": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Strategic Rationale",
+          "type": "string"
+        },
+        "source_demonstration": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Source Demonstration",
+          "type": "string"
+        },
+        "moment_keys": {
+          "items": {
+            "minLength": 1,
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Moment Keys",
+          "type": "array"
+        },
+        "evidence_refs": {
+          "items": {
+            "minLength": 1,
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Evidence Refs",
+          "type": "array"
+        },
+        "claims": {
+          "items": {
+            "$ref": "#/$defs/Claim"
+          },
+          "minItems": 1,
+          "title": "Claims",
+          "type": "array"
+        },
+        "claim_boundaries": {
+          "items": {
+            "minLength": 1,
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "title": "Claim Boundaries",
+          "type": "array"
+        },
+        "development_direction": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Development Direction",
+          "type": "string"
+        },
+        "tension": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "pattern": "\\S",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Tension"
+        },
+        "offer_connection": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "pattern": "\\S",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Offer Connection"
+        },
+        "possible_format": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "pattern": "\\S",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Possible Format"
+        },
+        "judgments": {
+          "$ref": "#/$defs/Judgments"
+        },
+        "nearest_alternative": {
+          "$ref": "#/$defs/Alternative"
+        }
+      },
+      "required": [
+        "local_key",
+        "rank",
+        "disposition",
+        "title",
+        "central_point",
+        "why_worthwhile",
+        "audience",
+        "intended_shift",
+        "primary_pillar",
+        "content_type",
+        "strategic_rationale",
+        "source_demonstration",
+        "moment_keys",
+        "evidence_refs",
+        "claims",
+        "claim_boundaries",
+        "development_direction",
+        "tension",
+        "offer_connection",
+        "possible_format",
+        "judgments",
+        "nearest_alternative"
+      ],
+      "title": "SelectedAngle",
+      "type": "object"
+    },
+    "SourceAccounting": {
+      "additionalProperties": false,
+      "properties": {
+        "moment_key": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Moment Key",
+          "type": "string"
+        },
+        "finding_keys": {
+          "items": {
+            "minLength": 1,
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "title": "Finding Keys",
+          "type": "array"
+        },
+        "treatment_note": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Treatment Note",
+          "type": "string"
+        }
+      },
+      "required": [
+        "moment_key",
+        "finding_keys",
+        "treatment_note"
+      ],
+      "title": "SourceAccounting",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "selected_angles": {
+      "items": {
+        "$ref": "#/$defs/SelectedAngle"
+      },
+      "title": "Selected Angles",
+      "type": "array"
+    },
+    "other_findings": {
+      "items": {
+        "$ref": "#/$defs/OtherFinding"
+      },
+      "title": "Other Findings",
+      "type": "array"
+    },
+    "source_accounting": {
+      "items": {
+        "$ref": "#/$defs/SourceAccounting"
+      },
+      "title": "Source Accounting",
+      "type": "array"
+    },
+    "batch_notes": {
+      "$ref": "#/$defs/BatchNotes"
+    }
+  },
+  "required": [
+    "selected_angles",
+    "other_findings",
+    "source_accounting",
+    "batch_notes"
+  ],
+  "title": "HandbookAngleResponse",
+  "type": "object"
+}

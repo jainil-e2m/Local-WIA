@@ -1,0 +1,53 @@
+[
+ {
+  "angle_id": "angle_6f3f12c62f26564e209bef5a",
+  "request": {
+   "expected_hash": "cfc9cb9a8c1ab260076985658bc40dd3194d9a40f64704f176ff38f566b1f16a",
+   "disposition": "skip",
+   "reason_code": "evidence",
+   "note": "Delegated Gate 1 (D12): the meeting shows one request to keep earlier edits in mind; the owner's feedback and a standing practice are not in it (the verifier's blocking flag).",
+   "author": "WIA team under delegation (D12)"
+  },
+  "status": 200,
+  "response": {
+   "angle_id": "angle_6f3f12c62f26564e209bef5a",
+   "approval_status": "rejected",
+   "decision_id": "decision_567f9e51d0c94c98844f849a6753dfc0",
+   "disposition": "skip"
+  }
+ },
+ {
+  "angle_id": "angle_3c3de69af49eeafc32a7ba4b",
+  "request": {
+   "expected_hash": "39777a494252c2c9346bb2990280d255cd910f27748a4e3b89f0978f57fa614e",
+   "disposition": "skip",
+   "reason_code": "evidence",
+   "note": "Delegated Gate 1 (D12): nobody says the AI guidance is being built on these resources, and the Accelerator link is the writer's (two blocking flags); the work was exploration.",
+   "author": "WIA team under delegation (D12)"
+  },
+  "status": 200,
+  "response": {
+   "angle_id": "angle_3c3de69af49eeafc32a7ba4b",
+   "approval_status": "rejected",
+   "decision_id": "decision_a15696c21d6b4f89a160faa48109a6bf",
+   "disposition": "skip"
+  }
+ },
+ {
+  "angle_id": "angle_b6129280ed29f4d552ee79e1",
+  "request": {
+   "expected_hash": "f8d75601b9f18733542d194b483d0bc6c14f011e896b4266e70c320ed2c4873d",
+   "disposition": "skip",
+   "reason_code": "distinctiveness",
+   "note": "Delegated Gate 1 (D12): a planned monthly strategy call is a familiar point that fails the surprise test, and the scene is a plan, not a practice; two stronger cards are developed this week.",
+   "author": "WIA team under delegation (D12)"
+  },
+  "status": 200,
+  "response": {
+   "angle_id": "angle_b6129280ed29f4d552ee79e1",
+   "approval_status": "rejected",
+   "decision_id": "decision_f61dd2ff6fee43cb9c40895991291c10",
+   "disposition": "skip"
+  }
+ }
+]

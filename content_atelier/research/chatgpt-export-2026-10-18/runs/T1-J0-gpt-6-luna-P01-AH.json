@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J0-gpt-6-luna-P01-AH",
+  "model": "openai/gpt-6-luna",
+  "provider": "OpenAI",
+  "effort": null,
+  "prompt_tokens": 664,
+  "completion_tokens": 299,
+  "cached_tokens": 0,
+  "cost": 0.0002159,
+  "seconds": 5.9,
+  "finish": "stop",
+  "system_sha": "ea72523eb9c9",
+  "user_sha": "9fd6650cb097"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 4,
+  "reason": "It feels more personal and credible, with a relatable story and clear results that sound like Whitney’s voice."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: caption\n\nVersion A:\nIf you’ve been watching The Summer I Turned Pretty, you know the big debate: Team Conrad or Team Jeremiah? (We’re Team Conrad 😉).\n\nAnd honestly, ads can feel the same way — everyone has an opinion, and the choices aren’t always easy. But here’s the truth: when you run them strategically, there’s no debate. Ads bring dream clients straight to you.\n\nFor months, we were so focused on running ads for our clients that we rarely stopped to run them for ourselves. But this summer, we finally did it — and the results blew us away.\n\n➡️ In less than a week, with just $30/day:\n✔️ 73 new leads\n✔️ 4 booked consultations\n\nIt’s proof that when you pair the right strategy with consistent action, ads work.\n\nIf you’ve been putting off running ads for your own business because you’re “too busy” — let this be your sign. The right campaigns can completely shift the way you attract clients.\n\n🚀 And this is only the beginning. We’re so excited for the fall season!\n✨ Turn on notifications for our posts and stories — in September we’ll be sharing BIG announcements just for wedding pros. Stay tuned!\n\nVersion B:\nI went dark on Instagram this spring...and I felt it.\n\nWe didn’t post for nearly two months. :grimacing: I was deep in the weeds, training new team members and onboarding new clients. It was a season of growth behind the scenes, but our own marketing took a backseat.\n\nWhen the dust finally settled, the impact was obvious:\n\n→ Organic reach? Basically nonexistent.\n\n→ Leads? Slowww.\n\n→ Visibility? Barely there.\n\nAnd honestly, I was tired of putting out good content that no one was seeing.\n\nSo I did what I’ve helped dozens of wedding pros do:\n\nI turned on ads.\n\nIn August, we finally turned the spotlight on ourselves.\n\nWe launched our own Meta Ads with a modest budget, and in just a few weeks:\n\n:sparkles: 121 new followers\n\n:sparkles: 75 inquiries\n\n:sparkles: 13 booked calls\n\nIt’s proof of what we already knew. Ads work when they’re done right.\n\n(And with results like these, it's my guilt-free excuse to take Wednesday mornings off to watch new episodes of TSITP :two_hearts:)\n\nSo if you’ve been putting off your own marketing because client work always comes first (trust me, I get it), let this be your sign: running strategic ads doesn’t have to be overwhelming, and it can completely shift how clients find you.\n\nHere’s to a new season of visibility, growth, and dream bookings.\n\nxo,\n\nWhitney",
+  "cache_prefix_sha": "ea72523eb9c9"
+ }
+}

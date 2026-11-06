@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J1-claude-haiku-5.5-P26-AH",
+  "model": "anthropic/claude-haiku-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 16565,
+  "completion_tokens": 531,
+  "cached_tokens": 15842,
+  "cost": 0.00049622,
+  "seconds": 3.2,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "9acf5b40fafc"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 4,
+  "reason": "Version B reframes the problem and explains the principle behind it (intent versus visibility) before recommending anything, which fits Whitney's calm, strategic voice better than Version A's fragmented, hype-driven 'gamble' framing, though it still has a few unverified claims and a clichéd closing line."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: caption\n\nVersion A:\nOrganic social right now?\n\nIt’s unpredictable at best… invisible at worst.\n\nOne day your content lands.  \nThe next day—it disappears without a trace.\n\nAnd it’s not because your work isn’t good enough.  \nIt’s because you’re building on borrowed ground.\n\nThe algorithm decides:\nWho sees your content  \nWhen they see it  \nAnd whether it lives or dies in a matter of hours  \n\nThat’s not a growth strategy. That’s a gamble.\n\nVersion B:\nThe issue isn’t that organic doesn’t work.\nIt’s that it’s not always working for the right people.\n\nMost of the visibility you’re getting?\nIt’s coming from other vendors, past clients, friends, family—\n\nPeople who already know you… or were never going to book you in the first place.\n\nMeanwhile, the couples who are actively planning and ready to invest?\nThere’s no guarantee they’re seeing your content at all.\n\nThat’s the gap.\n\nBecause organic relies on timing, behavior, and an algorithm you don’t control.\n\nThat’s not a growth strategy. That’s a gamble.\n\nThe shift we see the most successful wedding pros make?\n\nThey stop relying on organic to carry their marketing…\nAnd start amplifying it with digital ads.\n\nBecause when you introduce paid strategy:\n— Your visibility becomes predictable\n— Your audience becomes intentional\n— Your content actually gets the lifespan it deserves\n\nYou’re no longer hoping the right people find you.\nYou’re making sure they do.\n\nThat’s where real momentum starts.\n\nIf you’re ready to stop guessing and start scaling with a strategy that actually holds up…\n\nLearn more about our Accelerator programs here:\nhttps://weddingindustryads.com/accelerate",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

@@ -1,0 +1,24 @@
+{
+  "changed": true,
+  "before": {
+    "key": "schedule.weekly_cycle.2026-11-01",
+    "value": {
+      "error": "ValueError: Write the Fathom folders outside the repository (R48), not under /",
+      "state": "failed",
+      "attempts": 3
+    },
+    "updated_at": "2026-11-01 10:01:24.229266+00:00",
+    "updated_by": "scheduler"
+  },
+  "after": {
+    "key": "schedule.weekly_cycle.2026-11-01",
+    "value": {
+      "error": "ValueError: Write the Fathom folders outside the repository (R48), not under /",
+      "state": "failed",
+      "attempts": 0
+    },
+    "updated_at": "2026-11-02 08:17:29.389439+00:00",
+    "updated_by": "ai@weddingindustryads.com: authorized November 1 recovery"
+  },
+  "note": "Existing scheduler will claim the period; no task was invoked directly"
+}

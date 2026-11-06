@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "copy_records_verified": 6446,
+  "payload_files": 6448,
+  "payload_bytes": 576487380,
+  "git_objects_scanned": 4499,
+  "document_archive_members_scanned": 136,
+  "credential_findings": [],
+  "failures": [],
+  "original_git_baseline_unchanged": true,
+  "scan_scope": "Known configured credential values, high-confidence token/private-key/connection-password signatures, raw payload bytes, ZIP-based document members, decoded Git objects; database restored SQL separately scanned. No scanner can establish absence of every possible secret."
+}

@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J0-claude-haiku-5.5-P33-HA",
+  "model": "anthropic/claude-haiku-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 352,
+  "completion_tokens": 269,
+  "cached_tokens": 0,
+  "cost": 0.0001697,
+  "seconds": 1.8,
+  "finish": "stop",
+  "system_sha": "ea72523eb9c9",
+  "user_sha": "95bc2f24828f"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 4,
+  "reason": "Version B is concise and clearly states what WIA does for wedding pros, while Version A relies on vaguer corporate phrasing like 'mission' and 'shape a more modern, accessible approach' and pushes an unclear program pitch."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: email\n\nVersion A:\nAt Wedding Industry Ads, our mission is to make digital advertising profitable for wedding business owners. Over the past year, we’ve been building a new way to work with wedding pros through our Accelerator programs — offering hands-on support for those ready to scale what’s already working, while helping shape a more modern, accessible approach to ads in the wedding industry.\n\nVersion B:\nAt Wedding Industry Ads, we help wedding professionals use digital advertising strategically and profitably — so their marketing supports real growth, not just more noise.",
+  "cache_prefix_sha": "ea72523eb9c9"
+ }
+}

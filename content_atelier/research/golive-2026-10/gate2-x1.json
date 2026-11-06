@@ -1,0 +1,40 @@
+{
+ "purpose": "N4 7.X1: the live check's brief taken through Gate 2 on production by the WIA team under delegation (D12, R55), through the production API. The call carries the collector's public_use=false restriction, which no brief may override, so its quotations are told in reported speech in Whitney's voice (as NP-6 did for brief 2). Client permission is a before-publishing note, never invented.",
+ "brief_id": "brief_f1eb04cb4d343e56e6d134fd",
+ "actor": "ai@weddingindustryads.com",
+ "author": "WIA team under delegation (D12)",
+ "edit_note": "Gate 2 (delegated, D12, R55; N4 7.X1): the two quotations become reported speech (the call is not cleared for public quotation), and Reel 1's cover names its subject.",
+ "edits": [
+  {
+   "path": "format_plan.reels[0].script",
+   "old": "So she asked, \"So would this be visualizing what I'd love to see or what actually happens?\"\n\nI answered, \"Closer to what actually happens.\" And I clarified that I meant what a current couple was experiencing.",
+   "new": "So she asked me whether I meant the wedding she'd love to see or what actually happens there.\n\nI told her: closer to what actually happens. What a current couple is experiencing."
+  },
+  {
+   "path": "format_plan.reels[0].beats[2]",
+   "old": "Deliver the two quotations exactly as supplied; this is a new script, not an existing call clip.",
+   "new": "Tell the exchange in Whitney's own words, without quoting the call; this is a new script, not an existing call clip."
+  },
+  {
+   "path": "format_plan.reels[0].cover_text",
+   "old": "The wedding a venue hosts today",
+   "new": "Venue ads: today's wedding, not the plan"
+  }
+ ],
+ "revise": "Give Reel 2's cover a concrete subject: it is about a venue's ads. Siblings share the idea, never the language: Reel 1's script, the email and the captions should not repeat each other's sentences (\"still on her wish list, and she confirmed...\"). Use the word \"distinction\" far less; say plainly what is kept apart: the wedding couples have now and the venue's plans. Keep the account exactly as the call has it, with no reason given for Whitney's question. Keep every line a person edited.",
+ "cta": {
+  "choice": "no_explicit_ask",
+  "track": "none",
+  "action": null,
+  "offer_connection": null
+ },
+ "answers": {
+  "P1": "Before posting: WIA confirms the client's okay",
+  "P2": "Checked under D12 by the WIA team against the transcript: the owner's question and Whitney's answer at 1:09:05 to 1:09:16, and Whitney's draping check at 1:14:24 to 1:14:26 with the owner's confirmation at 1:14:29 to 1:14:39. The quotations are now told in reported speech.",
+  "P3": "Confirmed under D12: the draping is described only as planned at the time of the call; nothing says it was installed, that ads changed, that the owner overstated anything, or that one exchange is a standing WIA procedure.",
+  "P4": "Checked under D12: the two close entries in prior coverage are this card's own earlier versions (unpublished, not scheduled). The email's date, time and segment are proposals for Whitney to confirm.",
+  "P5": "Confirmed under D12: no explicit ask across the pack; no offer is named and no Instagram offer slot is used."
+ },
+ "review_reason": "The WIA team checked every claim against the call under delegation (D12), with the quotations now in reported speech.",
+ "decision_note": "Approved by the WIA team under delegation (D12); Whitney has not reviewed it. N4's live check (7.X1)."
+}

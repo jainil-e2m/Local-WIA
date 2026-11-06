@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J0-gpt-6-luna-P25-HA",
+  "model": "openai/gpt-6-luna",
+  "provider": "OpenAI",
+  "effort": null,
+  "prompt_tokens": 274,
+  "completion_tokens": 259,
+  "cached_tokens": 0,
+  "cost": 0.0001569,
+  "seconds": 3.1,
+  "finish": "stop",
+  "system_sha": "ea72523eb9c9",
+  "user_sha": "394d0e7d4125"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 5,
+  "reason": "B is a polished, audience-focused email with a clear training link and next step, while A reads like an unfinished draft."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: email\n\nVersion A:\nEmail 1 - The reality is running ads is doing more. Being a client in the Accelerators does require work. It's just that that work is building an evergreen system, not the constant churn of new content\n\nVersion B:\nYou’re in.\n\nHere’s your access to *The Visibility Blueprint*:\n→ [Watch the training]\n\nBefore you press play, I want to offer a different lens:\n\nMost wedding pros don’t need more marketing.\n\nThey need **more control over how they’re seen**.\n\nThe ones who are growing right now aren’t doing more —  \nthey’re building systems that make their visibility *predictable*.\n\nThat’s what this training will show you.\n\nWatch it with this in mind:\n*Where could my current visibility become more intentional?*\n\n– Whitney",
+  "cache_prefix_sha": "ea72523eb9c9"
+ }
+}

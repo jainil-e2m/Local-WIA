@@ -1,0 +1,55 @@
+{
+  "review_version": 1,
+  "recorded_at_utc": "2026-10-08T09:22:15Z",
+  "run_id": "week1-apodex-partial-angle-diagnostic-20261008-a5",
+  "reviewer_type": "assistant_manual_source_review",
+  "human_approved": false,
+  "full_weekly_pipeline_succeeded": false,
+  "all_candidates_unchanged": true,
+  "all_selected_source_contexts_reviewed": true,
+  "similarity_status": "not_run",
+  "embedding_requests": 0,
+  "review_is_not_scoring_calibration_or_public_clearance": true,
+  "angles": [
+    {
+      "angle_id": "angle_a8305d8c23c1c6480fbde659",
+      "assessment": "needs_revision",
+      "source_context": "m1.t0020-m1.t0076",
+      "strength": "Accurate candid positioning while retaining helpful portrait direction is a concrete buyer-expectation decision.",
+      "issues": ["Repelled clients are not observed", "Wasted consultation time and damaged reviews are added outcomes", "Uncertainty must qualify the mechanism, not only notes"],
+      "proposed_direction_not_generated_or_approved": "Describe candid photography without promising couples no guidance."
+    },
+    {
+      "angle_id": "angle_bd5223ece8a9f7ff0717b7ca",
+      "assessment": "hold_for_grounding_revision",
+      "source_context": "m4.t0048-m4.t0196",
+      "strength": "Check what the ad has explained before diagnosing the inquiry form.",
+      "issues": ["Usually/often converts a hypothesis into a broad causal claim", "Google visitors do not have literally no context", "Meta is not paid search", "20% is reported page-to-form movement, not a verified abandonment rate", "Context includes Meta leads and tracking uncertainty"],
+      "proposed_direction_not_generated_or_approved": "Before changing the inquiry form, inspect the service context visitors receive."
+    },
+    {
+      "angle_id": "angle_12206a3818bc3bddf45d40bd",
+      "assessment": "needs_revision",
+      "source_context": "m7.t0173-m7.t0191",
+      "strength": "Text replies and cancellation feedback were observed in one venue account.",
+      "issues": ["Attendance improvement not demonstrated", "Greater honesty not established", "Email remains needed", "Fuller host-introduction sequence is a proposal, not currently delivered"],
+      "proposed_direction_not_generated_or_approved": "Use tour texts to make replying and giving feedback easier, while retaining email's role."
+    },
+    {
+      "angle_id": "angle_70607445053d185286ca8859",
+      "assessment": "needs_revision",
+      "source_context": "m8.t0248-m8.t0266",
+      "strength": "A competent owner already has a comparison asset; placement is the useful next decision.",
+      "issues": ["Useless/never see is exaggerated and ignores existing follow-up use", "Defaulting to cheaper competitors is unobserved", "Comparison includes estimated external costs, not guaranteed savings", "Placement change is proposed, not measured"],
+      "proposed_direction_not_generated_or_approved": "Make your existing comparison guide easier to find when couples assess value."
+    },
+    {
+      "angle_id": "angle_e18252e89ecab8a4de977663",
+      "assessment": "hold_for_grounding_revision",
+      "source_context": "m9.t0219-m9.t0241",
+      "strength": "A tool may be valuable while its recurring cost does not fit this prospect's capacity.",
+      "issues": ["Specific offer prices are outside the supplied context at m9.t0214 and m9.t0216", "Original $12.97 transcription is ambiguous, not a verified current price", "Setup fee explicitly is not the principal objection", "50-wedding payback example is invented", "No demonstrated venue/planner return on investment"],
+      "proposed_direction_not_generated_or_approved": "A tool can be valuable and still not fit your current recurring-cost budget."
+    }
+  ]
+}

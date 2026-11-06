@@ -1,0 +1,36 @@
+{
+  "status": "verified_sanitized_history",
+  "data_blocks_processed": 3233,
+  "redacted_blocks": 54,
+  "credential_matches_removed": 75,
+  "excluded_credential_paths": [
+    "backend/.env.example",
+    "backend/intake.env.example",
+    "backend/storage.env.example",
+    "frontend/.env.example"
+  ],
+  "commit_count": 227,
+  "refs": [
+    "refs/heads/feat/content_brief ef8077aee7dd37d704db119b1491b447dd45d010",
+    "refs/heads/main c235f6fb3006f025c0b56e9a0383ea80accd5578",
+    "refs/remotes/origin/feat/content_brief ef8077aee7dd37d704db119b1491b447dd45d010",
+    "refs/remotes/origin/fix/phase-s-stabilise b83bf6146b368ec003422729ef22266b7312415e",
+    "refs/remotes/origin/item/0-platform-baseline 83c31109c2eb287cc6eeff1f0d06a37c2a1101a3",
+    "refs/remotes/origin/item/0.B3-E.B1-migration-005-run-plans 008fbcb5602cfe041b6d4751c257e28c438603ed",
+    "refs/remotes/origin/item/1-evidence-intake 439cb5ffb5a2ee9abac41d409ace3c7578fb8513",
+    "refs/remotes/origin/item/2-moments-ledger 93c5aaf280ed173fa7d92ef765ebf93e700f570f",
+    "refs/remotes/origin/item/E-editorial b16a60bed1eaf0ad3f6c5c594944612a8528bdc8",
+    "refs/remotes/origin/item/L-living-context 148d54589d9c688a574ecb068815e610a0886bee",
+    "refs/remotes/origin/item/S-stabilise 890c3d54292eccfad0a3f1d980acccd68f0d94cf",
+    "refs/remotes/origin/item/SEL-closeout cd9dbd2628efaa076a0df59378e97f90a69b2985",
+    "refs/remotes/origin/item/transfer-tools 5dd1ff0bd61494c8319ae922eea4b33a832ae170",
+    "refs/remotes/origin/main 96a570cbcc41229cdfea82aecd3723b49ddf8f9c",
+    "refs/remotes/origin/verify/2026-10-18 a904cfd1bb0085f808becf81e88e4b6d2e70d91f",
+    "refs/remotes/origin/verify/2026-10-19 c76a12f1d5ed6795bee91a4e39d1f90e88a2afa7"
+  ],
+  "bundle_bytes": 22370927,
+  "bundle_sha256": "638b60f01868096b59f66404a8f1f8b01de6fa610c541b96e96894231498a49e",
+  "original_repository_unchanged": true,
+  "commit_hashes_rewritten": true,
+  "note": "History retains exported refs and ancestry with credential redactions and environment/key paths removed. Original commit hashes are recorded separately in source-git-baseline.json. This is intentionally not a byte-for-byte original Git bundle."
+}

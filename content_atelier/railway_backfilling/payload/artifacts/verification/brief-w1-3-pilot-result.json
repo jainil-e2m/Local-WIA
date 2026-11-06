@@ -1,0 +1,863 @@
+{
+  "run_id": "brief_run_76d191ebe580663186c56ca8",
+  "angle_id": "angle_ab0db137df928ed4e835dfda",
+  "cta": "Match the landing page per venue for a better client experience.",
+  "writer_model": "openai/gpt-6.1-sol",
+  "research_review_model": "openai/gpt-6-luna",
+  "human_authorized": true,
+  "permanent_external_switches": false,
+  "request_character_cap": 300000,
+  "guide_bundle": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\.storage-artifacts\\brief-brand-bundles\\w1-3-user-approved-hierarchy.json",
+  "guide_hash": "102535dbb2b66237a1b1c215cfc017b613e7815cbcbf855651cc88047c744094",
+  "protected_before": {
+    "transcripts": {
+      "count": 20,
+      "hash": "3618d187d5321c7b7410ed66f13234b94b613360ade39940b3475355f47129a6"
+    },
+    "transcript_chunks": {
+      "count": 329,
+      "hash": "f057323354fbc67ea2b14d5b4570605154f1894da4a21bb18ae986983d7bbae8"
+    },
+    "key_moments": {
+      "count": 13,
+      "hash": "5a33627d4e3fe1e6853c16099fea7df3ee3fb4a6f32a8fbbe6e71b18dc629595"
+    },
+    "content_angles": {
+      "count": 11,
+      "hash": "61c495678d3996323402887c429936e4fbfc719bf9a7bf81d8de204132604c74"
+    },
+    "content_packs": {
+      "count": 0,
+      "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "content_assets": {
+      "count": 0,
+      "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "calendar_entries": {
+      "count": 0,
+      "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  },
+  "prepared_counts": {
+    "sources": 20,
+    "chunks": 329,
+    "original_evidence": 12,
+    "prior_angles": 11
+  },
+  "source_transfer_authorization": {
+    "approved": true,
+    "approved_on_client_date": "2026-10-12",
+    "human_reply": "Approve this W1-3 brief pipeline",
+    "chat_endpoint": "https://openrouter.ai/api/v1/chat/completions",
+    "embedding_endpoint": "https://openrouter.ai/api/v1/embeddings",
+    "chat_models": [
+      "openai/gpt-6-luna",
+      "openai/gpt-6.1-sol"
+    ],
+    "embedding_model": "openai/text-embedding-3-small",
+    "maximum_chat_calls": 10,
+    "maximum_queries": 12,
+    "maximum_embedding_batches": 3,
+    "gate_two_approval_authorized": false
+  },
+  "run": {
+    "run_id": "brief_run_76d191ebe580663186c56ca8",
+    "status": "waiting_for_review",
+    "current_message": "Brief ready for Gate 2; production is separate",
+    "error_summary": null
+  },
+  "jobs": [
+    {
+      "job_id": "brief_job_1056b1d59c90419ebe5ef6ea91806e19",
+      "stage": "brief_prepare",
+      "status": "completed",
+      "current_step": null,
+      "current_message": "brief_prepare complete",
+      "attempt_count": 1,
+      "error_summary": null,
+      "result_refs": {
+        "hash": "7fb3f470a68bac7c065adf844d653ddd3fe8500911bf9f844679be0b7a1a427d",
+        "artifact": "brief-runs/brief_run_76d191ebe580663186c56ca8/brief_prepare/7fb3f470a68bac7c065adf844d653ddd3fe8500911bf9f844679be0b7a1a427d.json"
+      }
+    },
+    {
+      "job_id": "brief_job_83b4da78120b42dd8a14c57d00de6040",
+      "stage": "brief_research",
+      "status": "completed",
+      "current_step": "grading",
+      "current_message": "brief_research complete",
+      "attempt_count": 1,
+      "error_summary": null,
+      "result_refs": {
+        "hash": "61b2ee03538c74b522bd4f8c8e2b31cdad524bb607d3a27ec092072e19ceeacc",
+        "artifact": "brief-runs/brief_run_76d191ebe580663186c56ca8/brief_research/61b2ee03538c74b522bd4f8c8e2b31cdad524bb607d3a27ec092072e19ceeacc.json"
+      }
+    },
+    {
+      "job_id": "brief_job_880778cfba0f4e23a77a90480e4a2cb0",
+      "stage": "brief_context",
+      "status": "completed",
+      "current_step": null,
+      "current_message": "brief_context complete",
+      "attempt_count": 1,
+      "error_summary": null,
+      "result_refs": {
+        "hash": "61b2ee03538c74b522bd4f8c8e2b31cdad524bb607d3a27ec092072e19ceeacc",
+        "artifact": "brief-runs/brief_run_76d191ebe580663186c56ca8/brief_context/61b2ee03538c74b522bd4f8c8e2b31cdad524bb607d3a27ec092072e19ceeacc.json"
+      }
+    },
+    {
+      "job_id": "brief_job_9bd0af7bbe9c429dac0d31db37b9533a",
+      "stage": "brief_validation",
+      "status": "completed",
+      "current_step": null,
+      "current_message": "Brief ready for Gate 2",
+      "attempt_count": 1,
+      "error_summary": null,
+      "result_refs": {
+        "blocking": 5,
+        "brief_id": "brief_f4778b6818b357fde23bb1b4",
+        "content_hash": "d24c6aa2df3eae315e1d1600c2a7b714aba11bfb9c3273d26c5ae4986623bdf4"
+      }
+    },
+    {
+      "job_id": "brief_job_ee2cae8b9a65405188a9a3f38d392e70",
+      "stage": "brief_writing",
+      "status": "completed",
+      "current_step": null,
+      "current_message": "brief_writing complete",
+      "attempt_count": 1,
+      "error_summary": null,
+      "result_refs": {
+        "hash": "79aece8a12dfaec1d1f1eee6c82e2f23b2a76bca9e1b7ed5b9e45205b5c39efe",
+        "artifact": "brief-runs/brief_run_76d191ebe580663186c56ca8/brief_writing/79aece8a12dfaec1d1f1eee6c82e2f23b2a76bca9e1b7ed5b9e45205b5c39efe.json"
+      }
+    }
+  ],
+  "dispatches": [
+    {
+      "event_type": "brief_provider_dispatch",
+      "details": {
+        "model": "openai/gpt-6-luna",
+        "synthetic": false,
+        "fingerprint": "f8c154cf790f6b3b38292cca1f3108a59baa445efc3ec606e2fc7535a4dcbec1",
+        "request_artifact": "brief-attempts/brief_job_83b4da78120b42dd8a14c57d00de6040/1/f8c154cf790f6b3b38292cca1f3108a59baa445efc3ec606e2fc7535a4dcbec1/request.json"
+      }
+    },
+    {
+      "event_type": "brief_query_dispatch",
+      "details": {
+        "count": 8,
+        "synthetic": false,
+        "fingerprint": "4ead56fc2363014711fa0058295524715f2a41b4733a397694ef186601a6c9b3"
+      }
+    },
+    {
+      "event_type": "brief_provider_dispatch",
+      "details": {
+        "model": "openai/gpt-6-luna",
+        "synthetic": false,
+        "fingerprint": "e14af0d6887f93c3e1d23c4c89dd47dfbd08306ef1d995dcd7121240c7cbf1ae",
+        "request_artifact": "brief-attempts/brief_job_83b4da78120b42dd8a14c57d00de6040/1/e14af0d6887f93c3e1d23c4c89dd47dfbd08306ef1d995dcd7121240c7cbf1ae/request.json"
+      }
+    },
+    {
+      "event_type": "brief_provider_dispatch",
+      "details": {
+        "model": "openai/gpt-6-luna",
+        "synthetic": false,
+        "fingerprint": "9e870bf29b58782274acb90ce5962ac1dd14191eebabd39612e95ae79efcafbf",
+        "request_artifact": "brief-attempts/brief_job_83b4da78120b42dd8a14c57d00de6040/1/9e870bf29b58782274acb90ce5962ac1dd14191eebabd39612e95ae79efcafbf/request.json"
+      }
+    },
+    {
+      "event_type": "brief_query_dispatch",
+      "details": {
+        "count": 4,
+        "synthetic": false,
+        "fingerprint": "7b8c890ee294babcbe60071ae930a026d087012b37d18518c2251bd9f505685a"
+      }
+    },
+    {
+      "event_type": "brief_provider_dispatch",
+      "details": {
+        "model": "openai/gpt-6-luna",
+        "synthetic": false,
+        "fingerprint": "fbafc4c95955967268bfde552b60952d68cade101fd1bb4c58882a5fcb95ce6d",
+        "request_artifact": "brief-attempts/brief_job_83b4da78120b42dd8a14c57d00de6040/1/fbafc4c95955967268bfde552b60952d68cade101fd1bb4c58882a5fcb95ce6d/request.json"
+      }
+    },
+    {
+      "event_type": "brief_provider_dispatch",
+      "details": {
+        "model": "openai/gpt-6.1-sol",
+        "synthetic": false,
+        "fingerprint": "7ca7955e9a18cf0b44f03d4fabb93473b23e82ac92e48ae63a078fbc558c86d6",
+        "request_artifact": "brief-attempts/brief_job_ee2cae8b9a65405188a9a3f38d392e70/1/7ca7955e9a18cf0b44f03d4fabb93473b23e82ac92e48ae63a078fbc558c86d6/request.json"
+      }
+    },
+    {
+      "event_type": "brief_provider_dispatch",
+      "details": {
+        "model": "openai/gpt-6-luna",
+        "synthetic": false,
+        "fingerprint": "9d618749819947da7f4aa64f346f1bbf561020e0acd1281f06e52345705647fa",
+        "request_artifact": "brief-attempts/brief_job_9bd0af7bbe9c429dac0d31db37b9533a/1/9d618749819947da7f4aa64f346f1bbf561020e0acd1281f06e52345705647fa/request.json"
+      }
+    },
+    {
+      "event_type": "brief_provider_dispatch",
+      "details": {
+        "model": "openai/gpt-6.1-sol",
+        "synthetic": false,
+        "fingerprint": "ec947cb328b5f9fb9bd32c24d8d682071faf1db3efff55415e7c6608e09532a6",
+        "request_artifact": "brief-attempts/brief_job_9bd0af7bbe9c429dac0d31db37b9533a/1/ec947cb328b5f9fb9bd32c24d8d682071faf1db3efff55415e7c6608e09532a6/request.json"
+      }
+    },
+    {
+      "event_type": "brief_provider_dispatch",
+      "details": {
+        "model": "openai/gpt-6-luna",
+        "synthetic": false,
+        "fingerprint": "ade52755c4606661677b85c87badb81b2233970654e16ecf08261266d3b29db3",
+        "request_artifact": "brief-attempts/brief_job_9bd0af7bbe9c429dac0d31db37b9533a/1/ade52755c4606661677b85c87badb81b2233970654e16ecf08261266d3b29db3/request.json"
+      }
+    }
+  ],
+  "brief_id": "brief_f4778b6818b357fde23bb1b4",
+  "export_markdown": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\.storage-artifacts\\brief-runs\\brief_run_76d191ebe580663186c56ca8\\exports\\w1-3-content-brief.md",
+  "blocking": [
+    "Unresolved consent requirements must be cleared and reviewed before approval",
+    "Claim status exceeds the source status",
+    "Prior coverage differences must cover each supplied historical argument",
+    "Numerical prose requires a structured source-bound claim; format numbering is supplied separately",
+    "Required questions remain unanswered",
+    "Acknowledge the admitted-archive/legacy-history limitation"
+  ],
+  "review_findings": [
+    {
+      "message": "Unresolved consent requirements must be cleared and reviewed before approval",
+      "claim_id": null,
+      "severity": "blocking"
+    },
+    {
+      "message": "Claim status exceeds the source status",
+      "claim_id": "C1",
+      "severity": "blocking"
+    },
+    {
+      "message": "Claim status exceeds the source status",
+      "claim_id": "C2",
+      "severity": "blocking"
+    },
+    {
+      "message": "Prior coverage differences must cover each supplied historical argument",
+      "claim_id": null,
+      "severity": "blocking"
+    },
+    {
+      "message": "Numerical prose requires a structured source-bound claim; format numbering is supplied separately",
+      "claim_id": null,
+      "severity": "blocking"
+    },
+    {
+      "message": "Legacy publication coverage is incomplete; this is an admitted-archive review.",
+      "claim_id": null,
+      "severity": "warning"
+    },
+    {
+      "message": "This reported account is correctly marked as private internal grounding and excluded from public deliverables. Keep that boundary: the transcript assertion is not independent verification, and anonymity would not clear public reuse.",
+      "claim_id": "C1",
+      "severity": "warning",
+      "evidence_ids": [
+        "ev_e2358d95913b781d409db5c6"
+      ]
+    },
+    {
+      "message": "The reported Orlando-first plan and possible later Colorado targeting are accurately qualified as private intentions, not completed work. Do not expose them publicly without permission review.",
+      "claim_id": "C2",
+      "severity": "warning",
+      "evidence_ids": [
+        "ev_68f251d9b6451a5980967f0f",
+        "ev_1b75c7c12a01d041ba7d8be4",
+        "ev_3c51f6730a72932526534454"
+      ]
+    },
+    {
+      "message": "The public teaching route is framed as conditional inference, avoids the private account and market names, and preserves the possibility of a coherent shared page. No performance outcome is claimed; retain the direction to validate differences rather than infer preferences from geography.",
+      "claim_id": "C3",
+      "severity": "warning",
+      "evidence_ids": [
+        "ev_e2358d95913b781d409db5c6",
+        "ev_3c51f6730a72932526534454"
+      ]
+    },
+    {
+      "message": "The exact approved CTA survives. Because “for a better client experience” could read as an established benefit, keep the required adjacent, readable caveat in every standalone deliverable stating that venue-level tailoring is untested and no measured client-experience result is supplied.",
+      "claim_id": "C4",
+      "severity": "warning",
+      "evidence_ids": [
+        "ev_e2358d95913b781d409db5c6"
+      ]
+    },
+    {
+      "message": "The similarity review explicitly admits that the legacy publication catalogue is missing. The supplied prior arguments are pending and have no publications listed, so the substantive distinctions support differentiation from those arguments—not a claim of publication novelty or comprehensive archive coverage.",
+      "claim_id": null,
+      "severity": "warning",
+      "evidence_ids": []
+    }
+  ],
+  "protected_after": {
+    "transcripts": {
+      "count": 20,
+      "hash": "3618d187d5321c7b7410ed66f13234b94b613360ade39940b3475355f47129a6"
+    },
+    "transcript_chunks": {
+      "count": 329,
+      "hash": "f057323354fbc67ea2b14d5b4570605154f1894da4a21bb18ae986983d7bbae8"
+    },
+    "key_moments": {
+      "count": 13,
+      "hash": "5a33627d4e3fe1e6853c16099fea7df3ee3fb4a6f32a8fbbe6e71b18dc629595"
+    },
+    "content_angles": {
+      "count": 11,
+      "hash": "61c495678d3996323402887c429936e4fbfc719bf9a7bf81d8de204132604c74"
+    },
+    "content_packs": {
+      "count": 0,
+      "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "content_assets": {
+      "count": 0,
+      "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "calendar_entries": {
+      "count": 0,
+      "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  },
+  "costs": {
+    "report_run_id": "brief_run_76d191ebe580663186c56ca8",
+    "currency": "USD",
+    "recorded_at_utc": "2026-10-12T15:14:06.195864+00:00",
+    "stages": [
+      {
+        "stage": "brief_plan",
+        "status": "recorded",
+        "attempt_count": 2,
+        "dispatched_count": 2,
+        "reused_count": 0,
+        "known_reported_new_cost_usd": 0.0016631,
+        "new_cost_usd": 0.0016631,
+        "all_new_costs_known": true,
+        "calls": [
+          {
+            "stage": "brief_plan",
+            "job_id": "brief_job_83b4da78120b42dd8a14c57d00de6040",
+            "attempt": 1,
+            "fingerprint": "9e870bf29b58782274acb90ce5962ac1dd14191eebabd39612e95ae79efcafbf",
+            "synthetic": false,
+            "real_external_dispatch": true,
+            "currency": "USD",
+            "recorded_at_utc": "2026-10-12T15:02:45.505771+00:00",
+            "dispatched": true,
+            "reused": false,
+            "generation_id": "gen-1791817361-XxyK9GBUNhUrfMmsi933",
+            "returned_model_id": "openai/gpt-6-luna",
+            "provider": "OpenAI",
+            "usage": {
+              "prompt_tokens": 5481,
+              "completion_tokens": 261,
+              "total_tokens": 5742,
+              "cost": 0.00081555,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 5478,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0.00081555,
+                "upstream_inference_prompt_cost": 0.00068505,
+                "upstream_inference_completions_cost": 0.0001305
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 85,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            },
+            "original_reported_cost_usd": 0.00081555,
+            "new_cost_usd": 0.00081555,
+            "cost_status": "reported",
+            "cost_source": "provider_usage.cost",
+            "credit_purchase_fees_included": false
+          },
+          {
+            "stage": "brief_plan",
+            "job_id": "brief_job_83b4da78120b42dd8a14c57d00de6040",
+            "attempt": 1,
+            "fingerprint": "f8c154cf790f6b3b38292cca1f3108a59baa445efc3ec606e2fc7535a4dcbec1",
+            "synthetic": false,
+            "real_external_dispatch": true,
+            "currency": "USD",
+            "recorded_at_utc": "2026-10-12T15:01:41.118957+00:00",
+            "dispatched": true,
+            "reused": false,
+            "generation_id": "gen-1791817294-wPkHkrOHnfAHAXN3BdSA",
+            "returned_model_id": "openai/gpt-6-luna",
+            "provider": "OpenAI",
+            "usage": {
+              "prompt_tokens": 5133,
+              "completion_tokens": 412,
+              "total_tokens": 5545,
+              "cost": 0.00084755,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 5130,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0.00084755,
+                "upstream_inference_prompt_cost": 0.00064155,
+                "upstream_inference_completions_cost": 0.000206
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 113,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            },
+            "original_reported_cost_usd": 0.00084755,
+            "new_cost_usd": 0.00084755,
+            "cost_status": "reported",
+            "cost_source": "provider_usage.cost",
+            "credit_purchase_fees_included": false
+          }
+        ]
+      },
+      {
+        "stage": "brief_grade",
+        "status": "recorded",
+        "attempt_count": 2,
+        "dispatched_count": 2,
+        "reused_count": 0,
+        "known_reported_new_cost_usd": 0.024117975,
+        "new_cost_usd": 0.024117975,
+        "all_new_costs_known": true,
+        "calls": [
+          {
+            "stage": "brief_grade",
+            "job_id": "brief_job_83b4da78120b42dd8a14c57d00de6040",
+            "attempt": 1,
+            "fingerprint": "e14af0d6887f93c3e1d23c4c89dd47dfbd08306ef1d995dcd7121240c7cbf1ae",
+            "synthetic": false,
+            "real_external_dispatch": true,
+            "currency": "USD",
+            "recorded_at_utc": "2026-10-12T15:02:38.819653+00:00",
+            "dispatched": true,
+            "reused": false,
+            "generation_id": "gen-1791817321-YKPF53TFNihluVoQCtrX",
+            "returned_model_id": "openai/gpt-6-luna",
+            "provider": "OpenAI",
+            "usage": {
+              "prompt_tokens": 55923,
+              "completion_tokens": 6387,
+              "total_tokens": 62310,
+              "cost": 0.0101838,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 55920,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0.0101838,
+                "upstream_inference_prompt_cost": 0.0069903,
+                "upstream_inference_completions_cost": 0.0031935
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 218,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            },
+            "original_reported_cost_usd": 0.0101838,
+            "new_cost_usd": 0.0101838,
+            "cost_status": "reported",
+            "cost_source": "provider_usage.cost",
+            "credit_purchase_fees_included": false
+          },
+          {
+            "stage": "brief_grade",
+            "job_id": "brief_job_83b4da78120b42dd8a14c57d00de6040",
+            "attempt": 1,
+            "fingerprint": "fbafc4c95955967268bfde552b60952d68cade101fd1bb4c58882a5fcb95ce6d",
+            "synthetic": false,
+            "real_external_dispatch": true,
+            "currency": "USD",
+            "recorded_at_utc": "2026-10-12T15:03:47.381502+00:00",
+            "dispatched": true,
+            "reused": false,
+            "generation_id": "gen-1791817380-RaNXs511H1yNiLZ3Rb4X",
+            "returned_model_id": "openai/gpt-6-luna",
+            "provider": "OpenAI",
+            "usage": {
+              "prompt_tokens": 78142,
+              "completion_tokens": 8333,
+              "total_tokens": 86475,
+              "cost": 0.013934175,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 78139,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0.013934175,
+                "upstream_inference_prompt_cost": 0.009767675,
+                "upstream_inference_completions_cost": 0.0041665
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 389,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            },
+            "original_reported_cost_usd": 0.013934175,
+            "new_cost_usd": 0.013934175,
+            "cost_status": "reported",
+            "cost_source": "provider_usage.cost",
+            "credit_purchase_fees_included": false
+          }
+        ]
+      },
+      {
+        "stage": "brief_write",
+        "status": "recorded",
+        "attempt_count": 1,
+        "dispatched_count": 1,
+        "reused_count": 0,
+        "known_reported_new_cost_usd": 0.138351,
+        "new_cost_usd": 0.138351,
+        "all_new_costs_known": true,
+        "calls": [
+          {
+            "stage": "brief_write",
+            "job_id": "brief_job_ee2cae8b9a65405188a9a3f38d392e70",
+            "attempt": 1,
+            "fingerprint": "7ca7955e9a18cf0b44f03d4fabb93473b23e82ac92e48ae63a078fbc558c86d6",
+            "synthetic": false,
+            "real_external_dispatch": true,
+            "currency": "USD",
+            "recorded_at_utc": "2026-10-12T15:06:30.546557+00:00",
+            "dispatched": true,
+            "reused": false,
+            "generation_id": "gen-1791817482-eYuyn6qWfzctLQOf67kg",
+            "returned_model_id": "openai/gpt-6.1-sol",
+            "provider": "OpenAI",
+            "usage": {
+              "prompt_tokens": 34505,
+              "completion_tokens": 5209,
+              "total_tokens": 39714,
+              "cost": 0.138351,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 34502,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0.138351,
+                "upstream_inference_prompt_cost": 0.086261,
+                "upstream_inference_completions_cost": 0.05209
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 38,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            },
+            "original_reported_cost_usd": 0.138351,
+            "new_cost_usd": 0.138351,
+            "cost_status": "reported",
+            "cost_source": "provider_usage.cost",
+            "credit_purchase_fees_included": false
+          }
+        ]
+      },
+      {
+        "stage": "brief_review",
+        "status": "recorded",
+        "attempt_count": 2,
+        "dispatched_count": 2,
+        "reused_count": 0,
+        "known_reported_new_cost_usd": 0.010282225,
+        "new_cost_usd": 0.010282225,
+        "all_new_costs_known": true,
+        "calls": [
+          {
+            "stage": "brief_review",
+            "job_id": "brief_job_9bd0af7bbe9c429dac0d31db37b9533a",
+            "attempt": 1,
+            "fingerprint": "9d618749819947da7f4aa64f346f1bbf561020e0acd1281f06e52345705647fa",
+            "synthetic": false,
+            "real_external_dispatch": true,
+            "currency": "USD",
+            "recorded_at_utc": "2026-10-12T15:12:04.540192+00:00",
+            "dispatched": true,
+            "reused": false,
+            "generation_id": "gen-1791817914-HF3NN8TiZgnK9nElZMOW",
+            "returned_model_id": "openai/gpt-6-luna",
+            "provider": "OpenAI",
+            "usage": {
+              "prompt_tokens": 37664,
+              "completion_tokens": 771,
+              "total_tokens": 38435,
+              "cost": 0.005093425,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 37661,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0.005093425,
+                "upstream_inference_prompt_cost": 0.004707925,
+                "upstream_inference_completions_cost": 0.0003855
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 460,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            },
+            "original_reported_cost_usd": 0.005093425,
+            "new_cost_usd": 0.005093425,
+            "cost_status": "reported",
+            "cost_source": "provider_usage.cost",
+            "credit_purchase_fees_included": false
+          },
+          {
+            "stage": "brief_review",
+            "job_id": "brief_job_9bd0af7bbe9c429dac0d31db37b9533a",
+            "attempt": 1,
+            "fingerprint": "ade52755c4606661677b85c87badb81b2233970654e16ecf08261266d3b29db3",
+            "synthetic": false,
+            "real_external_dispatch": true,
+            "currency": "USD",
+            "recorded_at_utc": "2026-10-12T15:14:06.174769+00:00",
+            "dispatched": true,
+            "reused": false,
+            "generation_id": "gen-1791818035-ulWVwO2Txlpm52v4mMN4",
+            "returned_model_id": "openai/gpt-6-luna",
+            "provider": "OpenAI",
+            "usage": {
+              "prompt_tokens": 37775,
+              "completion_tokens": 934,
+              "total_tokens": 38709,
+              "cost": 0.0051888,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 37772,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0.0051888,
+                "upstream_inference_prompt_cost": 0.0047218,
+                "upstream_inference_completions_cost": 0.000467
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 476,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            },
+            "original_reported_cost_usd": 0.0051888,
+            "new_cost_usd": 0.0051888,
+            "cost_status": "reported",
+            "cost_source": "provider_usage.cost",
+            "credit_purchase_fees_included": false
+          }
+        ]
+      },
+      {
+        "stage": "brief_repair",
+        "status": "recorded",
+        "attempt_count": 1,
+        "dispatched_count": 1,
+        "reused_count": 0,
+        "known_reported_new_cost_usd": 0.153071,
+        "new_cost_usd": 0.153071,
+        "all_new_costs_known": true,
+        "calls": [
+          {
+            "stage": "brief_repair",
+            "job_id": "brief_job_9bd0af7bbe9c429dac0d31db37b9533a",
+            "attempt": 1,
+            "fingerprint": "ec947cb328b5f9fb9bd32c24d8d682071faf1db3efff55415e7c6608e09532a6",
+            "synthetic": false,
+            "real_external_dispatch": true,
+            "currency": "USD",
+            "recorded_at_utc": "2026-10-12T15:13:53.051719+00:00",
+            "dispatched": true,
+            "reused": false,
+            "generation_id": "gen-1791817926-i8hKRZGsorTDnhK3hW9P",
+            "returned_model_id": "openai/gpt-6.1-sol",
+            "provider": "OpenAI",
+            "usage": {
+              "prompt_tokens": 39801,
+              "completion_tokens": 5357,
+              "total_tokens": 45158,
+              "cost": 0.153071,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 39798,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0.153071,
+                "upstream_inference_prompt_cost": 0.099501,
+                "upstream_inference_completions_cost": 0.05357
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 44,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            },
+            "original_reported_cost_usd": 0.153071,
+            "new_cost_usd": 0.153071,
+            "cost_status": "reported",
+            "cost_source": "provider_usage.cost",
+            "credit_purchase_fees_included": false
+          }
+        ]
+      },
+      {
+        "stage": "brief_query_embedding",
+        "status": "recorded",
+        "attempt_count": 2,
+        "dispatched_count": 2,
+        "reused_count": 0,
+        "known_reported_new_cost_usd": 7.12e-06,
+        "new_cost_usd": 7.12e-06,
+        "all_new_costs_known": true,
+        "calls": [
+          {
+            "stage": "brief_query_embedding",
+            "job_id": "brief_job_83b4da78120b42dd8a14c57d00de6040",
+            "attempt": 1,
+            "fingerprint": "4ead56fc2363014711fa0058295524715f2a41b4733a397694ef186601a6c9b3",
+            "synthetic": false,
+            "real_external_dispatch": true,
+            "currency": "USD",
+            "recorded_at_utc": "2026-10-12T15:01:45.142828+00:00",
+            "dispatched": true,
+            "reused": false,
+            "generation_id": "gen-emb-1791817303-uQVhxWsGQuwkPuLPt2lw",
+            "returned_model_id": "text-embedding-3-small",
+            "provider": "OpenAI",
+            "usage": {
+              "prompt_tokens": 225,
+              "total_tokens": 225,
+              "cost": 4.5e-06,
+              "is_byok": false,
+              "cost_details": {
+                "upstream_inference_cost": 4.5e-06,
+                "upstream_inference_prompt_cost": 4.5e-06,
+                "upstream_inference_completions_cost": 0
+              }
+            },
+            "original_reported_cost_usd": 4.5e-06,
+            "new_cost_usd": 4.5e-06,
+            "cost_status": "reported",
+            "cost_source": "provider_usage.cost",
+            "credit_purchase_fees_included": false
+          },
+          {
+            "stage": "brief_query_embedding",
+            "job_id": "brief_job_83b4da78120b42dd8a14c57d00de6040",
+            "attempt": 1,
+            "fingerprint": "7b8c890ee294babcbe60071ae930a026d087012b37d18518c2251bd9f505685a",
+            "synthetic": false,
+            "real_external_dispatch": true,
+            "currency": "USD",
+            "recorded_at_utc": "2026-10-12T15:02:49.268458+00:00",
+            "dispatched": true,
+            "reused": false,
+            "generation_id": "gen-emb-1791817367-xY5d0lvZczkXHVYbXfSP",
+            "returned_model_id": "text-embedding-3-small",
+            "provider": "OpenAI",
+            "usage": {
+              "prompt_tokens": 131,
+              "total_tokens": 131,
+              "cost": 2.62e-06,
+              "is_byok": false,
+              "cost_details": {
+                "upstream_inference_cost": 2.62e-06,
+                "upstream_inference_prompt_cost": 2.62e-06,
+                "upstream_inference_completions_cost": 0
+              }
+            },
+            "original_reported_cost_usd": 2.62e-06,
+            "new_cost_usd": 2.62e-06,
+            "cost_status": "reported",
+            "cost_source": "provider_usage.cost",
+            "credit_purchase_fees_included": false
+          }
+        ]
+      },
+      {
+        "stage": "brief_web",
+        "status": "not_attempted",
+        "attempt_count": 0,
+        "dispatched_count": 0,
+        "reused_count": 0,
+        "known_reported_new_cost_usd": 0.0,
+        "new_cost_usd": 0.0,
+        "all_new_costs_known": true,
+        "calls": []
+      }
+    ],
+    "known_reported_new_cost_usd": 0.32749242,
+    "total_new_cost_usd": 0.32749242,
+    "all_new_costs_known": true,
+    "reasoning_is_included_in_completion_tokens": true,
+    "original_reused_usage_is_not_new_billing": true,
+    "credit_purchase_fees_included": false
+  },
+  "verification_notes": {
+    "all_five_stages_completed": true,
+    "chat_calls": 8,
+    "embedding_batches": 2,
+    "embedded_queries": 12,
+    "actual_total_tokens": 322444,
+    "gate_two_approval": "not_performed",
+    "database_recovery": "Existing Docker Desktop and Content Atelier PostgreSQL container restarted; committed writing recovered without another dispatch.",
+    "remaining_contract_issues": [
+      "Reported claim status was emitted as a prose string instead of the source status token.",
+      "Prior differences include two exemplar keys alongside the eleven actual prior angle IDs."
+    ],
+    "numeric_validation_defect": "All detected digits in checked prose occur in valid claim references [C3]/[C4]. The current numerical checker treats their identifier digits as quantities; this is a validator false positive, not invented numerical results.",
+    "human_review_pending": [
+      "Source/public-use permission and speaker context.",
+      "Explicit acceptance of the untested venue-level application alongside the exact CTA.",
+      "Incomplete legacy-publication coverage acknowledgement/review."
+    ],
+    "semantic_reviewer_result": "Approved direction and distinct treatment both passed after the one repair; remaining model findings were warnings."
+  }
+}

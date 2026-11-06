@@ -1,0 +1,25 @@
+{
+  "stage": "moment_extraction",
+  "week": 3,
+  "slug": "luna-pro",
+  "model": "openai/gpt-6-luna-pro",
+  "reasoning_effort": "high",
+  "run_id": "week3-week4-shared-luna-angle-quality-20261015-w3-shared-extraction",
+  "source_count": 5,
+  "source_turns": 1837,
+  "source_packet_sha256": "657e096b0ef2d6963760c0a856b7b098a1330776186aeb6d5bb4d820466513ad",
+  "request_hash": "03a163ee452d5544371be40e59855b5a387ef2ec9ae225ee405b54b58ba0401a",
+  "request_characters": 217835,
+  "catalog_hash": "c108a21c77f81e2728c50c83de45584746382391fddef0972042ab454f03abe5",
+  "capacity_check": {
+    "method": "conservative_utf8_byte_allowance_not_native_token_count",
+    "input_allowance": 216003,
+    "margin": 21601,
+    "advertised_eligible_endpoints": 6,
+    "output_reserve": 128000,
+    "request_has_explicit_output_cap": false,
+    "fits_conservative_allowance": true,
+    "provider_defaults_and_limits_still_apply": true
+  },
+  "timeout_seconds": 900.0
+}

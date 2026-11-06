@@ -1,0 +1,45 @@
+{
+  "report_run_id": "week2-luna-pro-strategic-angles-20261013-r1",
+  "mode": "replay",
+  "stage": "angle_generation",
+  "requested_model_id": "openai/gpt-6-luna-pro",
+  "request_fingerprint": "8f52d9749bc8114a097a6186ae4a8da3a2986a6400106e878d7b00e290d1a960",
+  "artifact_id": "artifact_94dedec3db7549b4",
+  "original_run_id": "week2-luna-pro-strategic-angles-20261013-a2",
+  "validation_status": "reused_validated",
+  "currency": "USD",
+  "recorded_at_utc": "2026-10-13T08:27:35.441178+00:00",
+  "dispatched": false,
+  "reused": true,
+  "generation_id": "gen-1791879805-o8NcDQLO772zp4nMWWFZ",
+  "returned_model_id": "openai/gpt-6-luna-pro",
+  "provider": "OpenAI",
+  "usage": {
+    "prompt_tokens": 361190,
+    "completion_tokens": 9042,
+    "total_tokens": 370232,
+    "cost": 0.0579784,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 116895,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0579784,
+      "upstream_inference_prompt_cost": 0.0511969,
+      "upstream_inference_completions_cost": 0.0067815
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 315,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "original_reported_cost_usd": 0.0579784,
+  "new_cost_usd": 0.0,
+  "cost_status": "reused_no_new_charge",
+  "cost_source": "provider_usage.cost",
+  "credit_purchase_fees_included": false
+}

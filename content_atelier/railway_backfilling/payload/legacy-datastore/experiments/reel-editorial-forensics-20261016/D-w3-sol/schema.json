@@ -1,0 +1,149 @@
+{
+  "$defs": {
+    "Assessment": {
+      "additionalProperties": false,
+      "properties": {
+        "candidate_key": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Candidate Key",
+          "type": "string"
+        },
+        "disposition": {
+          "enum": [
+            "priority",
+            "reserve",
+            "hold",
+            "skip"
+          ],
+          "title": "Disposition",
+          "type": "string"
+        },
+        "reason": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Reason",
+          "type": "string"
+        },
+        "source_issue": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "pattern": "\\S",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Source Issue"
+        },
+        "idea": {
+          "maximum": 5,
+          "minimum": 0,
+          "title": "Idea",
+          "type": "number"
+        },
+        "audience_connection": {
+          "maximum": 5,
+          "minimum": 0,
+          "title": "Audience Connection",
+          "type": "number"
+        },
+        "framing": {
+          "maximum": 5,
+          "minimum": 0,
+          "title": "Framing",
+          "type": "number"
+        },
+        "voice": {
+          "maximum": 5,
+          "minimum": 0,
+          "title": "Voice",
+          "type": "number"
+        },
+        "reel_focus": {
+          "maximum": 5,
+          "minimum": 0,
+          "title": "Reel Focus",
+          "type": "number"
+        },
+        "commercial_meaning": {
+          "maximum": 5,
+          "minimum": 0,
+          "title": "Commercial Meaning",
+          "type": "number"
+        },
+        "redundancy_with": {
+          "items": {
+            "minLength": 1,
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "title": "Redundancy With",
+          "type": "array"
+        }
+      },
+      "required": [
+        "candidate_key",
+        "disposition",
+        "reason",
+        "source_issue",
+        "idea",
+        "audience_connection",
+        "framing",
+        "voice",
+        "reel_focus",
+        "commercial_meaning",
+        "redundancy_with"
+      ],
+      "title": "Assessment",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "assessments": {
+      "items": {
+        "$ref": "#/$defs/Assessment"
+      },
+      "title": "Assessments",
+      "type": "array"
+    },
+    "priority_keys": {
+      "items": {
+        "minLength": 1,
+        "pattern": "\\S",
+        "type": "string"
+      },
+      "title": "Priority Keys",
+      "type": "array"
+    },
+    "reserve_keys": {
+      "items": {
+        "minLength": 1,
+        "pattern": "\\S",
+        "type": "string"
+      },
+      "title": "Reserve Keys",
+      "type": "array"
+    },
+    "coverage_notes": {
+      "items": {
+        "minLength": 1,
+        "pattern": "\\S",
+        "type": "string"
+      },
+      "title": "Coverage Notes",
+      "type": "array"
+    }
+  },
+  "required": [
+    "assessments",
+    "priority_keys",
+    "reserve_keys",
+    "coverage_notes"
+  ],
+  "title": "Selection",
+  "type": "object"
+}

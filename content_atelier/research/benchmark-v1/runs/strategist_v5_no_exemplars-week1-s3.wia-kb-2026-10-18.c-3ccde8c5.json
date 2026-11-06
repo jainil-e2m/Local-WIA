@@ -1,0 +1,202 @@
+{
+ "config": "strategist_v5_no_exemplars",
+ "week": "week1",
+ "sample": 3,
+ "model": "openai/gpt-6.1-sol",
+ "benchmark": "benchmark-v1.2026-10-18",
+ "cost": 0.0662882,
+ "usage": {
+  "prompt_tokens": 34625,
+  "completion_tokens": 6282,
+  "total_tokens": 40907,
+  "cost": 0.0662882,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 34622,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0662882,
+   "upstream_inference_prompt_cost": 0.0034682,
+   "upstream_inference_completions_cost": 0.06282
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 3624,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "seconds": 208.9,
+ "finish": "stop",
+ "request_fingerprint": "3288ec5a15329cd072594c423a18c156db06e7b2ad840de956897017370da48b",
+ "output": {
+  "week_summary": "This week's strongest ideas show how WIA makes decisions around the couples a business wants to book: Carmen looks beyond photography vocabulary when reviewing keywords, Whitney brings a venue's existing comparison tool into landing-page planning, and the ad strategy continues supporting couples after they inquire. Develop these three pieces, with the venue landing-page idea also becoming the Tuesday email. Publish the ELEVATE invitation last, after the first two pieces have shown the thinking behind the work. There are no founder seeds this cycle. All selected scenes need publication review.",
+  "angles": [
+   {
+    "rank": 1,
+    "title": "Why we'd put your venue comparison chart on the ads landing page",
+    "pillar": "WARM",
+    "content_type": "behind_the_scenes",
+    "audience": "Venue owners who want more inquiries from couples who understand and appreciate their all-inclusive experience.",
+    "core_perspective": "When couples are comparing an all-inclusive venue with venue-only rentals, we want the ads landing page to help them understand what they're comparing. The questions that come up on tours can tell us what deserves space on that page. Here, the client already had a useful comparison chart, and Whitney recommended bringing it into the paid-ad experience.",
+    "why_it_matters": "This shifts the conversation from how much information to include toward which information helps couples understand the venue's value before they inquire. It shows how WIA uses the client's sales experience to make landing-page decisions.",
+    "wia_in_action": "Ads landing-page planning: the venue owner explained the comparisons couples make and described a chart she already uses on her website and in follow-up. Whitney recommended including it on the ads landing page. The move supports Whitney's belief: \"For a wedding business, every touchpoint matters more.\"",
+    "offer_connection": "Shows the landing-page thinking within ELEVATE's paid acquisition system. Keep this piece focused on the process, without an offer CTA.",
+    "moment_ids": [
+     "S4"
+    ],
+    "evidence_points": [
+     "The client said couples compare her all-inclusive offering with venue-only rentals and don't always understand the value of the inclusions.",
+     "The comparison chart was the client's existing tool, already used on her website and in follow-up.",
+     "Whitney recommended including that chart on the ads landing page."
+    ],
+    "verify_before_publishing": [
+     "Confirm permission for anonymised use of the scene.",
+     "Keep this as a recommendation; confirm implementation before showing a live page or claiming the chart was added."
+    ],
+    "why_selected": "The concrete WIA contribution makes this more useful than general advice about explaining venue value. It shows Whitney recognising something the client already uses successfully in conversations and giving it a role in the paid-ad experience, without claiming WIA created it.",
+    "series": "Watch Us Build an Ad Strategy"
+   },
+   {
+    "rank": 2,
+    "title": "Why our venue ad strategy includes couples who've already inquired",
+    "pillar": "CONVERT",
+    "content_type": "solution_selling",
+    "audience": "Venue owners looking for an advertising partnership that considers how couples decide to book, as well as how they discover the venue.",
+    "core_perspective": "A couple who has already inquired about your venue is still part of the ad strategy. We plan different creative for the introduction, the invitation to inquire and the decision to book. For an all-inclusive venue, those warmer ads can return to the ease of the experience and the reasons the venue fits the wedding they're planning.",
+    "why_it_matters": "This expands the role owners may give ads from creating inquiries to continuing to reinforce trust while couples decide. It makes WIA's ongoing creative strategy tangible, while the venue team still handles personal follow-up and sales.",
+    "wia_in_action": "Google + Meta Strategy & Budget, Meta planning: Whitney explained that client attraction, conversion and warm retargeting have different objectives and need different creative. She specifically included people who had already inquired or scheduled a tour in the warm audience. This supports Whitney's belief: \"Some platforms capture intent. Others reinforce trust. Couples need both before they book.\"",
+    "offer_connection": "ELEVATE is WIA's done-for-you, ongoing Google and Meta ads management with LeadLock. This scene shows one part of that partnership: planning creative around where couples are in their decision. LeadLock supports the owner's follow-up with automated nurture emails and texts. Close with one invitation to join the ELEVATE waitlist.",
+    "moment_ids": [
+     "S5"
+    ],
+    "evidence_points": [
+     "The client asked whether the campaign layers use separate creative or the same creative with different targeting.",
+     "Whitney explained that each layer has a different objective and reaches people at different stages.",
+     "Whitney included people who had inquired or scheduled a tour in warm retargeting.",
+     "Her warmer-content example focused on reasons to choose the venue and the ease of an all-inclusive experience."
+    ],
+    "verify_before_publishing": [
+     "Confirm permission for anonymised use of the scene.",
+     "Describe the strategy Whitney explained, without claiming these campaigns were launched or produced bookings."
+    ],
+    "why_selected": "This is the clearest offer piece because it gives ongoing ad management a specific job owners can picture. The focus on couples who've already inquired adds depth beyond a basic explanation of campaign layers. It also differs from the recently published measurement and reduced-posting stories.",
+    "series": "Watch Us Build an Ad Strategy"
+   },
+   {
+    "rank": 3,
+    "title": "A couple can be right for you without knowing the photography terms",
+    "pillar": "ATTRACT",
+    "content_type": "polarizing_opinion",
+    "audience": "Wedding photographers who want to reach more aligned couples through Google Ads.",
+    "core_perspective": "We don't expect couples to describe photography the way a photographer would. When a search term seems at odds with a client's style, we ask what happens with those inquiries before deciding to exclude it. The conversations behind a phrase can tell us more than the phrase alone.",
+    "why_it_matters": "For photographers who want more aligned inquiries, this shifts the focus from perfect vocabulary to what couples mean and how a search term performs. It shows why wedding-specific judgement belongs in keyword decisions.",
+    "wia_in_action": "Diagnosis beyond the dashboard: Carmen asked whether inquiries mentioning \"light and airy\" became clients before deciding how to handle the term. She recommended leaving it eligible and reconsidering if search activity became irrelevant. This demonstrates Whitney's belief: \"good marketing decisions start with good data.\"",
+    "offer_connection": "Shows the judgement behind WIA's Google Ads work, relevant to the Google Search Accelerator and ELEVATE. Use as a reach piece with no offer CTA.",
+    "moment_ids": [
+     "S3"
+    ],
+    "evidence_points": [
+     "The photographer said \"light and airy\" didn't describe her work, but questioned whether couples use photography terms accurately.",
+     "Carmen asked about the booking history behind inquiries using that phrase.",
+     "Carmen recommended keeping the term in consideration and revisiting it if the search activity proved irrelevant."
+    ],
+    "verify_before_publishing": [
+     "Confirm permission for anonymised use of the scene.",
+     "Omit the client's private booking recollection; it isn't in the approved results register."
+    ],
+    "why_selected": "A specific keyword decision makes the opinion credible and gives photographers a reason to understand WIA's approach better. Carmen contributes the question and the decision, so this goes beyond a general observation about couples' language. A separate process treatment would repeat the same central point.",
+    "series": null
+   }
+  ],
+  "internal_insights": [
+   {
+    "moment_ids": [
+     "S1"
+    ],
+    "insight": "Carmen's move was to confirm the market scope. The photographer chose Orlando for now because Florida and Colorado couples expect different wedding imagery, with Colorado left as a future possibility. This is useful evidence of the need to align audience and page experience, but the client's rationale shouldn't be presented as a strategy Carmen originated.",
+    "use": "Keep Orlando as the current focus in the campaign brief. Record Colorado as a future consideration without assigning a launch date or claiming that separate pages were recommended."
+   },
+   {
+    "moment_ids": [
+     "S2"
+    ],
+    "insight": "The client's promise combines candid coverage with guidance when couples want it. She wanted to avoid an absolute \"no posing\" claim and proposed \"authentic, not staged.\" No WIA response or decision is captured in this excerpt.",
+    "use": "Use in messaging and creative review to preserve the client's actual service promise. Credit the wording to the client and don't describe it as approved copy or a WIA rewrite."
+   },
+   {
+    "moment_ids": [
+     "S3"
+    ],
+    "insight": "The client's booking recollection gave Carmen directional context for the keyword decision, but it wasn't verified account data or an approved public result.",
+    "use": "Use privately when reviewing search terms alongside inquiry and booking records. Keep the recollection out of public proof unless it is verified and added to the approved results register."
+   },
+   {
+    "moment_ids": [
+     "S6"
+    ],
+    "insight": "The prospect recognised the setup work and praised the system while evaluating the recurring investment against a deliberately capped wedding calendar. This is purchase-fit feedback. The excerpt contains no WIA diagnostic response and doesn't identify the offer.",
+    "use": "Inform sales discovery around desired wedding volume and intended use of the system. Confirm which offer was discussed before tagging the feedback. Keep the investment reaction and praise internal rather than turning them into public advice or a testimonial."
+   }
+  ],
+  "considered_not_selected": [
+   {
+    "moment_ids": [
+     "S1"
+    ],
+    "idea": "Why we'd focus a wedding ads landing page on one market",
+    "reason": "Carmen confirmed geography, but the client supplied the reasoning and the excerpt contains no deeper WIA recommendation. Useful for the campaign brief, thinner as public thought leadership than the selected keyword decision."
+   },
+   {
+    "moment_ids": [
+     "S2"
+    ],
+    "idea": "Why candid wedding photography can still include posing guidance",
+    "reason": "The distinction is useful, but this excerpt contains only the client's explanation and proposed wording. Without a captured WIA contribution, it would become photography education rather than content that demonstrates WIA's work."
+   },
+   {
+    "moment_ids": [
+     "S4"
+    ],
+    "idea": "All-inclusive wedding venues deserve a fair comparison",
+    "reason": "The founder-opinion treatment would centre venue comparisons and leave WIA's contribution in the background. The selected landing-page treatment keeps the same concrete proof and makes Whitney's decision the point."
+   },
+   {
+    "moment_ids": [
+     "S5"
+    ],
+    "idea": "Why each layer of a venue campaign gets different creative",
+    "reason": "A broad WARM explanation would repeat the central point of the selected CONVERT piece and lean toward teaching campaign basics. The focus on couples who've already inquired makes the value of ongoing strategy more concrete."
+   },
+   {
+    "moment_ids": [
+     "S6"
+    ],
+    "idea": "Sharing the prospect's praise for the system",
+    "reason": "The offer isn't identified and testimonial permission isn't established. The surrounding investment discussion belongs in sales research, and there is no WIA diagnostic exchange here to support a separate public process idea."
+   }
+  ],
+  "publishing_order": [
+   3,
+   1,
+   2
+  ],
+  "pillar_notes": [
+   {
+    "pillar": "ATTRACT",
+    "note": "Lead with the photography-vocabulary opinion. Carmen's decision supplies a fresh, wedding-specific reason to pay attention to WIA. No offer CTA."
+   },
+   {
+    "pillar": "WARM",
+    "note": "Follow with the venue comparison-chart scene and use it for the Tuesday list email as well. It shows the depth of landing-page planning without turning into a checklist or repeating a recent case-study point."
+   },
+   {
+    "pillar": "CONVERT",
+    "note": "Place the ELEVATE piece last. The earlier pieces establish WIA's judgement, then this one shows how that thinking continues after an inquiry. Make it the week's only Instagram offer CTA, inviting owners to join the ELEVATE waitlist."
+   }
+  ],
+  "seed_pairings": []
+ }
+}

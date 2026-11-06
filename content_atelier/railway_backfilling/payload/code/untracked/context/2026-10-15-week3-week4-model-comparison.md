@@ -1,0 +1,17 @@
+# Week 3/4 model-quality comparison — approval pending
+
+Superseded by `2026-10-15-week3-week4-shared-extraction.md`: the active setup uses two shared Luna extractions plus six independent angle calls. The historical twelve-call suite below was never dispatched.
+
+The user requested preparing independent full pipelines for Week 3 and Week 4 with exact `openai/gpt-6-luna-pro`, `openai/gpt-6.1-sol`, and `anthropic/claude-sonnet-5.5`. Paid execution explicitly requires a later approval. **No inference calls have been made.**
+
+Prepared reasoning is high for all three (explicitly requested for Luna; Sol/Sonnet also proposed high for review). Each cell independently extracts from the whole week, validates the whole response, then generates angles from only its own validated moments and original context. Up to 12 calls across six cells; no automatic retries or partial acceptance. No forced angle count. All use current upgraded strategic prompts/contracts and JSON-object mode, temperature omitted, no explicit output cap, timeout 900 seconds.
+
+Real sources: existing `backend/zoom_backfill_meetings/week3` has 5 exports/1,837 turns; Week 4 has 6 exports/1,803 turns. Exact bytes are frozen in the private suite at `testing/.data/experiments/week3-week4-model-quality-20261015/`. Each cell has a separate pipeline datastore, cache and run ID. No shared history, no cross-week history, embeddings, matching, recency, refinement, approval, SQL or publishing. Provider-side prompt caching is billing behavior, not local output replay.
+
+New code: `backend/backend_pipeline/model_experiment.py`, `backend/scripts/prepare_week3_week4_comparison.py`, isolation tests. The only shared adapter change adds exact Sonnet 5.5 to temperature omission/usage handling; other request formats remain unchanged. Source/prompt/engine/schema identities are sealed; the live guard refuses drift or model substitution. One active-cell lock and started/dispatch markers prevent concurrent or repeated calls. Complete raw receipts and failures are retained before local validation. A failed extractor blocks only its own angle call.
+
+Public route metadata for all three exact IDs was read without credentials/private data/inference. Six full-week requests pass conservative UTF-8-byte capacity checks; native counts and paid endpoint acceptance remain untested. All three system/user messages are identical for a given week; angle inputs vary because each extractor produces its own pool. Thus this is an end-to-end comparison, not an isolated angle-stage comparison on equal moments.
+
+Checks: 62 passed across isolation/generation/cache/cost mechanics; final isolation plus prompt-upgrade regression run 41 passed; counts overlap. Ruff passed. Actual preparation completed, final suite verification found zero dispatches and zero started cells. No paid calls, database operations, staging/commit/push or deployment occurred.
+
+Full report: `research/2026-10-15-week3-week4-model-comparison-setup.md`; companion JSON contains hashes and six plans. After explicit user approval, execute one cell from backend with `python scripts/prepare_week3_week4_comparison.py run --week 3 --model luna-pro --live`, then Sol and Sonnet, review Week 3, and proceed to Week 4 in the same order as authorized. Do not rerun prepare against this suite or delete markers. Each successful cell writes its own readable review with original supporting dialogue plus costs and raw/parsed outputs. Nothing is fed back to siblings.

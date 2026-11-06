@@ -1,0 +1,64 @@
+{
+  "run_id": "brief_run_76d191ebe580663186c56ca8",
+  "angle_id": "angle_ab0db137df928ed4e835dfda",
+  "cta": "Match the landing page per venue for a better client experience.",
+  "writer_model": "openai/gpt-6.1-sol",
+  "research_review_model": "openai/gpt-6-luna",
+  "human_authorized": true,
+  "permanent_external_switches": false,
+  "request_character_cap": 300000,
+  "guide_bundle": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\.storage-artifacts\\brief-brand-bundles\\w1-3-user-approved-hierarchy.json",
+  "guide_hash": "102535dbb2b66237a1b1c215cfc017b613e7815cbcbf855651cc88047c744094",
+  "protected_before": {
+    "transcripts": {
+      "count": 20,
+      "hash": "3618d187d5321c7b7410ed66f13234b94b613360ade39940b3475355f47129a6"
+    },
+    "transcript_chunks": {
+      "count": 329,
+      "hash": "f057323354fbc67ea2b14d5b4570605154f1894da4a21bb18ae986983d7bbae8"
+    },
+    "key_moments": {
+      "count": 13,
+      "hash": "5a33627d4e3fe1e6853c16099fea7df3ee3fb4a6f32a8fbbe6e71b18dc629595"
+    },
+    "content_angles": {
+      "count": 11,
+      "hash": "61c495678d3996323402887c429936e4fbfc719bf9a7bf81d8de204132604c74"
+    },
+    "content_packs": {
+      "count": 0,
+      "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "content_assets": {
+      "count": 0,
+      "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "calendar_entries": {
+      "count": 0,
+      "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  },
+  "prepared_counts": {
+    "sources": 20,
+    "chunks": 329,
+    "original_evidence": 12,
+    "prior_angles": 11
+  },
+  "source_transfer_authorization": {
+    "approved": true,
+    "approved_on_client_date": "2026-10-12",
+    "human_reply": "Approve this W1-3 brief pipeline",
+    "chat_endpoint": "https://openrouter.ai/api/v1/chat/completions",
+    "embedding_endpoint": "https://openrouter.ai/api/v1/embeddings",
+    "chat_models": [
+      "openai/gpt-6-luna",
+      "openai/gpt-6.1-sol"
+    ],
+    "embedding_model": "openai/text-embedding-3-small",
+    "maximum_chat_calls": 10,
+    "maximum_queries": 12,
+    "maximum_embedding_batches": 3,
+    "gate_two_approval_authorized": false
+  }
+}

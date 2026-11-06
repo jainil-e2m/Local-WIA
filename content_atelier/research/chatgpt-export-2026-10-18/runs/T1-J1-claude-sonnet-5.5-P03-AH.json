@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J1-claude-sonnet-5.5-P03-AH",
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 16172,
+  "completion_tokens": 128,
+  "cached_tokens": 0,
+  "cost": 0.041545,
+  "seconds": 2.4,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "bc7e1e0ebf73"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 4,
+  "reason": "Version B is less aggressive and uses a wedding-specific metaphor, with no 'autopilot' or 'algorithm changes' hype, while A's 'expensive hobby' jab and autopilot claim clash with Whitney's calm, reframing voice and her stance that ads amplify businesses rather than run themselves."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: threads\n\nVersion A:\nIf you can’t consistently attract qualified leads, you don’t have a wedding business.  \nYou have an expensive hobby.  \nReal businesses have a lead generation system that works on autopilot—even when the algorithm changes overnight.\n\nVersion B:\nIf you can’t consistently attract qualified leads, you don’t have a business.\nYou have a perfectly set table with no RSVPs.\nReal wedding businesses generate leads through their marketing—even when referrals dry up.",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

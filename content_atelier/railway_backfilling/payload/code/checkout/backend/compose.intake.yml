@@ -1,0 +1,75 @@
+# Overlay the existing storage stack; its project name/volume are preserved.
+# docker compose -f compose.storage.yml -f compose.intake.yml --env-file .env.intake.local up -d --build
+x-intake: &intake
+  build: .
+  env_file: .env.intake.local
+  environment: &environment
+    ATELIER_DATABASE_URL: postgresql://atelier:REDACTED_FOR_HANDOVER@postgres:5432/atelier
+    ATELIER_ARTIFACT_ROOT: /artifacts
+    ATELIER_INTAKE_REDIS_URL: redis://intake-redis:6379/0
+    ATELIER_ALLOW_GENERATION: "false"
+    ATELIER_ALLOW_REFINEMENT: "false"
+    ATELIER_ALLOW_BRIEF_GENERATION: "false"
+    TZ: America/Chicago
+    HF_HOME: /models
+  volumes:
+    - intake_artifacts:/artifacts
+    - intake_models:/models
+  restart: unless-stopped
+  init: true
+services:
+  intake-redis:
+    image: redis:7.4-alpine
+    command: [redis-server, --appendonly, "yes"]
+    volumes:
+      - intake_redis:/data
+    healthcheck:
+      test: [CMD, redis-cli, ping]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+  intake-migrate:
+    <<: *intake
+    command: [python, -m, backend_pipeline.intake.runtime, migrate]
+    restart: "no"
+    depends_on:
+      postgres:
+        condition: service_healthy
+  intake-api:
+    <<: *intake
+    ports:
+      - "127.0.0.1:18000:8000"
+    depends_on:
+      intake-migrate:
+        condition: service_completed_successfully
+  intake-worker:
+    <<: *intake
+    command: [python, -m, backend_pipeline.intake.runtime, worker]
+    depends_on:
+      intake-migrate:
+        condition: service_completed_successfully
+      intake-redis:
+        condition: service_healthy
+  intake-media:
+    <<: *intake
+    command: [python, -m, backend_pipeline.intake.runtime, media-worker]
+    cpus: 2
+    mem_limit: 4g
+    depends_on:
+      intake-migrate:
+        condition: service_completed_successfully
+      intake-redis:
+        condition: service_healthy
+  intake-scheduler:
+    <<: *intake
+    command: [python, -m, backend_pipeline.intake.runtime, scheduler]
+    depends_on:
+      intake-migrate:
+        condition: service_completed_successfully
+      intake-redis:
+        condition: service_healthy
+volumes:
+  intake_artifacts:
+  intake_models:
+  intake_redis:

@@ -1,0 +1,45 @@
+{
+  "moments": [
+    {
+      "local_key": "one",
+      "anchor_span_ids": [
+        "m1.t0001"
+      ],
+      "context_first_span_id": "m1.t0001",
+      "context_last_span_id": "m1.t0002",
+      "quote": "We improved the follow-up.",
+      "context_summary": "Reported follow-up improvement with an explicit limitation.",
+      "moment_type": "observation",
+      "proposition": "Follow-up quality matters",
+      "audience_relevance": "Owners reviewing inquiries",
+      "qualifications": [
+        "Not measured"
+      ],
+      "claim_status": "reported",
+      "sensitivity": "unknown",
+      "strength": 4.0,
+      "reasons": [
+        "Exact source quote"
+      ],
+      "discovery": {
+        "lenses": [
+          "audience_insight",
+          "broader_principle"
+        ],
+        "destination": "public_opportunity",
+        "wia_contribution": null,
+        "attention_reason": "The synthetic exchange raises a buyer-understanding concern.",
+        "research_questions": []
+      }
+    }
+  ],
+  "processed_meetings": [
+    {
+      "meeting_ref": "m1",
+      "first_span_id": "m1.t0001",
+      "last_span_id": "m1.t0002",
+      "span_count": 2
+    }
+  ],
+  "coverage_notes": []
+}

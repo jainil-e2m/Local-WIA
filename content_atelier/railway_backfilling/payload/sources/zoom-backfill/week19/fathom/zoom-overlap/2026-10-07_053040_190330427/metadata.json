@@ -1,0 +1,71 @@
+{
+  "source_type": "fathom",
+  "recording_id": 190330427,
+  "week": 19,
+  "timezone": "Asia/Kolkata",
+  "occurrence_ist": "2026-10-07T05:30:40+05:30",
+  "source_metadata": {
+    "recording_id": 190330427,
+    "meeting_title": "Impromptu Zoom Meeting",
+    "title": "Impromptu Zoom Meeting",
+    "recording_start_time": "2026-10-07T00:00:40Z",
+    "recording_end_time": "2026-10-07T00:43:45Z",
+    "scheduled_start_time": "2026-10-06T23:59:57Z",
+    "scheduled_end_time": "2026-10-07T00:14:57Z",
+    "recorded_by": {
+      "name": "Whitney Hodges",
+      "email": "hello@weddingindustryads.com",
+      "email_domain": "weddingindustryads.com",
+      "team": "Executive"
+    },
+    "calendar_invitees": [
+      {
+        "name": "Whitney Hodges",
+        "email": "hello@weddingindustryads.com",
+        "email_domain": "weddingindustryads.com",
+        "is_external": false,
+        "matched_speaker_display_name": null
+      }
+    ],
+    "meeting_url": "https://zoom.us/j/2168603443",
+    "shared_with": "all_teams",
+    "url": "https://fathom.video/calls/851939413",
+    "share_url": "https://fathom.video/share/PBaYvZBrSvAnxxzvAZgk_Rr9d3p3We2M",
+    "created_at": "2026-10-07T00:43:54Z",
+    "transcript_language": "en"
+  },
+  "download_provenance": {
+    "recording_id": 190330427,
+    "week": 19,
+    "segments": 590,
+    "sha256": "a52bfb36f8d7a7d02dfad8a2499e6481a8b91d2d278d569b6ebc1c454c3538d4",
+    "reused": false,
+    "received_at_utc": "2026-10-14T13:23:35.773Z"
+  },
+  "transcript_sha256": "a52bfb36f8d7a7d02dfad8a2499e6481a8b91d2d278d569b6ebc1c454c3538d4",
+  "classification": "zoom-overlap",
+  "selected_as_additional_source": false,
+  "zoom_counterpart": {
+    "week": 19,
+    "path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week19\\Whitney Hodges's Personal Meeting Room's transcript (1).txt",
+    "filename": "Whitney Hodges's Personal Meeting Room's transcript (1).txt",
+    "shared_5grams": 5225,
+    "fathom_5gram_coverage": 0.7727003845016267,
+    "zoom_5gram_coverage": 0.7269059543683918,
+    "matched_tokens": 6587,
+    "fathom_token_coverage": 0.9652696365767878,
+    "zoom_token_coverage": 0.9086770589046765,
+    "zoom_token_count": 7249,
+    "zoom_last_cue_seconds": 2627.0,
+    "speakers": [
+      "Whitney Hodges",
+      "Myla Li Photos"
+    ]
+  },
+  "paired_capture_recording_ids": [],
+  "processing_status": "gathered_only",
+  "chunking_status": "not_started",
+  "embedding_status": "not_started",
+  "source_speaker_labels_preserved": true,
+  "source_end_times": "not supplied; none invented"
+}

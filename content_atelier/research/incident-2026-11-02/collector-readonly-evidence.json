@@ -1,0 +1,145 @@
+{
+  "inspected_at": "2026-11-02T06:52:03.462315+00:00",
+  "read_only": {
+    "transaction_read_only": "on"
+  },
+  "source_states": [
+    {
+      "status": "pending_transcript",
+      "count": 1,
+      "without_revision": 0
+    },
+    {
+      "status": "received",
+      "count": 13,
+      "without_revision": 0
+    }
+  ],
+  "pending_sources": [
+    {
+      "source_id": "source_d0c0ff8d67a8e9d59b6436f7c3a0b1f4",
+      "upstream_id": "197260974",
+      "title": "Impromptu Zoom Meeting",
+      "status": "pending_transcript",
+      "occurred_at": "2026-10-28 15:02:06+00:00",
+      "received_at": "2026-10-28 16:18:27.614173+00:00",
+      "latest_revision_id": "revision_eeef656ae5c265fe2c0ea534fc40a979",
+      "last_checked_at": "2026-10-28T16:18:31.309890+00:00"
+    }
+  ],
+  "job_states": [
+    {
+      "status": "completed",
+      "count": 53,
+      "min_attempts": 1,
+      "max_attempts": 1,
+      "oldest_created": "2026-10-27 11:13:00.357490+00:00",
+      "last_updated": "2026-10-29 15:20:42.711902+00:00"
+    },
+    {
+      "status": "waiting",
+      "count": 87,
+      "min_attempts": 5,
+      "max_attempts": 91,
+      "oldest_created": "2026-10-29 16:20:24.434243+00:00",
+      "last_updated": "2026-11-02 06:43:46.741693+00:00"
+    }
+  ],
+  "waiting_job_examples": [
+    {
+      "job_id": "intake_job_f51a17befc7d9db8ed328a7db1e726a6",
+      "status": "waiting",
+      "attempt_count": 39,
+      "error_summary": "Fathom HTTP 429",
+      "created_at": "2026-10-31 20:30:40.857601+00:00",
+      "updated_at": "2026-11-02 06:43:46.741693+00:00",
+      "retry_at": "2026-11-02T07:43:46.753010+00:00",
+      "request_id": "request_ebc87b15584923588cbe528b6622b94a"
+    },
+    {
+      "job_id": "intake_job_4d6f8670b416c062d8ca145a7f5dd51e",
+      "status": "waiting",
+      "attempt_count": 40,
+      "error_summary": "Fathom HTTP 429",
+      "created_at": "2026-10-31 19:30:35.713693+00:00",
+      "updated_at": "2026-11-02 06:43:45.998736+00:00",
+      "retry_at": "2026-11-02T07:43:46.010187+00:00",
+      "request_id": "request_0917103d5ec453e475d1eada6c6ac455"
+    },
+    {
+      "job_id": "intake_job_ff3c74c7286d0b6efa37849d0006e8e3",
+      "status": "waiting",
+      "attempt_count": 41,
+      "error_summary": "Fathom HTTP 429",
+      "created_at": "2026-10-31 18:30:29.805418+00:00",
+      "updated_at": "2026-11-02 06:43:45.407769+00:00",
+      "retry_at": "2026-11-02T07:43:45.418959+00:00",
+      "request_id": "request_88d7417189d4ce62b5ab37c7a084aed1"
+    },
+    {
+      "job_id": "intake_job_160b9d933c05947dfa4e99f389e0b83f",
+      "status": "waiting",
+      "attempt_count": 42,
+      "error_summary": "Fathom HTTP 429",
+      "created_at": "2026-10-31 17:30:25.548456+00:00",
+      "updated_at": "2026-11-02 06:43:44.899583+00:00",
+      "retry_at": "2026-11-02T07:43:44.910859+00:00",
+      "request_id": "request_d371d57cfec6a9e672189f3d71cdb97c"
+    },
+    {
+      "job_id": "intake_job_99ea1f2471348dc7fadf61cf37af50bd",
+      "status": "waiting",
+      "attempt_count": 43,
+      "error_summary": "Discovered recordings are awaiting transcript publication",
+      "created_at": "2026-10-31 16:30:17.985978+00:00",
+      "updated_at": "2026-11-02 06:43:44.377272+00:00",
+      "retry_at": "2026-11-02T07:43:44.388730+00:00",
+      "request_id": "request_f4c28ddd3dbba49a8ffe3b9d6fb9e7d3"
+    },
+    {
+      "job_id": "intake_job_7e28520f1da9b9696eececb1d19d1863",
+      "status": "waiting",
+      "attempt_count": 44,
+      "error_summary": "Discovered recordings are awaiting transcript publication",
+      "created_at": "2026-10-31 15:30:09.248181+00:00",
+      "updated_at": "2026-11-02 06:43:43.568974+00:00",
+      "retry_at": "2026-11-02T07:43:43.580418+00:00",
+      "request_id": "request_5621eab0d99cb2b5f992932f2353bceb"
+    },
+    {
+      "job_id": "intake_job_cc39c7576384fc0cba78b55d6dadd645",
+      "status": "waiting",
+      "attempt_count": 45,
+      "error_summary": "Discovered recordings are awaiting transcript publication",
+      "created_at": "2026-10-31 14:29:57.338213+00:00",
+      "updated_at": "2026-11-02 06:43:42.996923+00:00",
+      "retry_at": "2026-11-02T07:43:43.008356+00:00",
+      "request_id": "request_d440816f24a693e8ddc5155fc2a36cbb"
+    },
+    {
+      "job_id": "intake_job_56ff346c5cec09c5f9d3880aca39c9b1",
+      "status": "waiting",
+      "attempt_count": 31,
+      "error_summary": "Discovered recordings are awaiting transcript publication",
+      "created_at": "2026-11-01 04:31:48.131756+00:00",
+      "updated_at": "2026-11-02 06:43:16.037714+00:00",
+      "retry_at": "2026-11-02T07:43:16.050410+00:00",
+      "request_id": "request_303664b9210774707fde3dc2ab3c03f2"
+    }
+  ],
+  "pending_request_range": [
+    {
+      "status": "completed",
+      "count": 53,
+      "oldest_start": "2026-10-27 11:12:59.251833+00:00",
+      "latest_end": "2026-10-29 15:20:11.377174+00:00"
+    },
+    {
+      "status": "pending_transcript",
+      "count": 87,
+      "oldest_start": "2026-10-29 15:20:11.377174+00:00",
+      "latest_end": "2026-11-02 06:03:18.390071+00:00"
+    }
+  ],
+  "missing_recording_ids_present_anywhere": []
+}

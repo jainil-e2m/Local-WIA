@@ -1,0 +1,613 @@
+{
+ "benchmark": "benchmark-v1.2026-10-18",
+ "configs": {
+  "default": {
+   "model": "openai/gpt-6-luna",
+   "profile": "2026-10-16.reel-editorial.v1",
+   "weeks": {
+    "week1": {
+     "samples": [
+      {
+       "public_cards": 5,
+       "internal_insights": 1,
+       "pillars": {
+        "ATTRACT": 0,
+        "WARM": 5,
+        "CONVERT": 0
+       },
+       "blocking_flags": 0,
+       "check_flags": 3,
+       "style_warnings": 0,
+       "without_wia_contribution": 2,
+       "near_duplicate_title_pairs": 0,
+       "cost": 0.004492175,
+       "titles": [
+        "A landing page may need to feel local to the market it serves",
+        "Candid photography can still include guidance when clients need it",
+        "A search term that sounds mismatched may still bring the right inquiry",
+        "Make the value inside an all-inclusive venue easier to compare",
+        "Creative should change with what a potential couple needs to understand"
+       ],
+       "reframe_alignment": 0.082
+      },
+      {
+       "public_cards": 4,
+       "internal_insights": 2,
+       "pillars": {
+        "ATTRACT": 0,
+        "WARM": 4,
+        "CONVERT": 0
+       },
+       "blocking_flags": 0,
+       "check_flags": 2,
+       "style_warnings": 0,
+       "without_wia_contribution": 1,
+       "near_duplicate_title_pairs": 0,
+       "cost": 0.00312141,
+       "titles": [
+        "Candid does not have to mean unguided",
+        "Check what a search term brings in before ruling it out",
+        "Make the all-inclusive comparison visible",
+        "Different campaign stages have different communication jobs"
+       ],
+       "reframe_alignment": 0.109
+      },
+      {
+       "public_cards": 3,
+       "internal_insights": 3,
+       "pillars": {
+        "ATTRACT": 0,
+        "WARM": 3,
+        "CONVERT": 0
+       },
+       "blocking_flags": 0,
+       "check_flags": 0,
+       "style_warnings": 0,
+       "without_wia_contribution": 0,
+       "near_duplicate_title_pairs": 0,
+       "cost": 0.00245141,
+       "titles": [
+        "When a search term sounds mismatched, check what happens after the inquiry",
+        "Help couples compare what an all-inclusive venue price covers",
+        "Creative should reflect what the audience needs at each stage"
+       ],
+       "reframe_alignment": 0.124
+      }
+     ],
+     "summary": {
+      "public_cards": {
+       "mean": 4,
+       "stdev": 0.8165,
+       "values": [
+        5,
+        4,
+        3
+       ]
+      },
+      "internal_insights": {
+       "mean": 2,
+       "stdev": 0.8165,
+       "values": [
+        1,
+        2,
+        3
+       ]
+      },
+      "blocking_flags": {
+       "mean": 0,
+       "stdev": 0.0,
+       "values": [
+        0,
+        0,
+        0
+       ]
+      },
+      "check_flags": {
+       "mean": 1.6667,
+       "stdev": 1.2472,
+       "values": [
+        3,
+        2,
+        0
+       ]
+      },
+      "style_warnings": {
+       "mean": 0,
+       "stdev": 0.0,
+       "values": [
+        0,
+        0,
+        0
+       ]
+      },
+      "without_wia_contribution": {
+       "mean": 1,
+       "stdev": 0.8165,
+       "values": [
+        2,
+        1,
+        0
+       ]
+      },
+      "near_duplicate_title_pairs": {
+       "mean": 0,
+       "stdev": 0.0,
+       "values": [
+        0,
+        0,
+        0
+       ]
+      },
+      "cost": {
+       "mean": 0.0034,
+       "stdev": 0.0008,
+       "values": [
+        0.004492175,
+        0.00312141,
+        0.00245141
+       ]
+      },
+      "reframe_alignment": {
+       "mean": 0.105,
+       "stdev": 0.0174,
+       "values": [
+        0.082,
+        0.109,
+        0.124
+       ]
+      },
+      "title_stability": 0.151,
+      "identical_titles_across_samples": 0
+     }
+    },
+    "week2": {
+     "samples": [
+      {
+       "public_cards": 3,
+       "internal_insights": 3,
+       "pillars": {
+        "ATTRACT": 0,
+        "WARM": 3,
+        "CONVERT": 0
+       },
+       "blocking_flags": 0,
+       "check_flags": 6,
+       "style_warnings": 0,
+       "without_wia_contribution": 0,
+       "near_duplicate_title_pairs": 0,
+       "cost": 0.004549695,
+       "titles": [
+        "Reviews and buyer research answer different questions",
+        "When a venue tour is weeks away, create an earlier connection",
+        "A promising click-through rate is not a landing-page diagnosis"
+       ]
+      },
+      {
+       "public_cards": 4,
+       "internal_insights": 3,
+       "pillars": {
+        "ATTRACT": 0,
+        "WARM": 3,
+        "CONVERT": 1
+       },
+       "blocking_flags": 1,
+       "check_flags": 7,
+       "style_warnings": 0,
+       "without_wia_contribution": 0,
+       "near_duplicate_title_pairs": 0,
+       "cost": 0.00375432,
+       "titles": [
+        "Reviews and buyer research answer different questions",
+        "What a venue can offer when an earlier tour is not practical",
+        "Forty-one clicks were not enough for a verdict",
+        "A first step can fit the help a business is ready for"
+       ]
+      },
+      {
+       "public_cards": 3,
+       "internal_insights": 4,
+       "pillars": {
+        "ATTRACT": 0,
+        "WARM": 3,
+        "CONVERT": 0
+       },
+       "blocking_flags": 0,
+       "check_flags": 8,
+       "style_warnings": 0,
+       "without_wia_contribution": 0,
+       "near_duplicate_title_pairs": 0,
+       "cost": 0.00321432,
+       "titles": [
+        "Reviews are not the same as asking why couples chose you",
+        "Keep couples engaged when an earlier venue tour is not realistic",
+        "What 41 clicks can and cannot tell you about a campaign"
+       ]
+      }
+     ],
+     "summary": {
+      "public_cards": {
+       "mean": 3.3333,
+       "stdev": 0.4714,
+       "values": [
+        3,
+        4,
+        3
+       ]
+      },
+      "internal_insights": {
+       "mean": 3.3333,
+       "stdev": 0.4714,
+       "values": [
+        3,
+        3,
+        4
+       ]
+      },
+      "blocking_flags": {
+       "mean": 0.3333,
+       "stdev": 0.4714,
+       "values": [
+        0,
+        1,
+        0
+       ]
+      },
+      "check_flags": {
+       "mean": 7,
+       "stdev": 0.8165,
+       "values": [
+        6,
+        7,
+        8
+       ]
+      },
+      "style_warnings": {
+       "mean": 0,
+       "stdev": 0.0,
+       "values": [
+        0,
+        0,
+        0
+       ]
+      },
+      "without_wia_contribution": {
+       "mean": 0,
+       "stdev": 0.0,
+       "values": [
+        0,
+        0,
+        0
+       ]
+      },
+      "near_duplicate_title_pairs": {
+       "mean": 0,
+       "stdev": 0.0,
+       "values": [
+        0,
+        0,
+        0
+       ]
+      },
+      "cost": {
+       "mean": 0.0038,
+       "stdev": 0.0005,
+       "values": [
+        0.004549695,
+        0.00375432,
+        0.00321432
+       ]
+      },
+      "title_stability": 0.188,
+      "identical_titles_across_samples": 0
+     }
+    }
+   }
+  },
+  "strategist_v5": {
+   "model": "openai/gpt-6.1-sol",
+   "profile": "2026-10-18.wia-strategist.v5",
+   "weeks": {
+    "week1": {
+     "samples": [
+      {
+       "public_cards": 3,
+       "internal_insights": 3,
+       "pillars": {
+        "ATTRACT": 0,
+        "WARM": 2,
+        "CONVERT": 1
+       },
+       "blocking_flags": 0,
+       "check_flags": 2,
+       "style_warnings": 0,
+       "without_wia_contribution": 0,
+       "near_duplicate_title_pairs": 0,
+       "cost": 0.1203635,
+       "titles": [
+        "What we're asking a couple to do changes the ad we build",
+        "Why we ask about bookings before excluding a Google search",
+        "Your tour follow-up can tell us what couples need from your ads landing page"
+       ],
+       "reframe_alignment": 0.106
+      },
+      {
+       "public_cards": 3,
+       "internal_insights": 2,
+       "pillars": {
+        "ATTRACT": 1,
+        "WARM": 1,
+        "CONVERT": 1
+       },
+       "blocking_flags": 0,
+       "check_flags": 1,
+       "style_warnings": 0,
+       "without_wia_contribution": 0,
+       "near_duplicate_title_pairs": 0,
+       "cost": 0.0564447,
+       "titles": [
+        "Your venue ads still have a job after a couple books a tour",
+        "Why we want your best tour explanation on the ads landing page",
+        "Couples shouldn't have to know photography terms to find you"
+       ],
+       "reframe_alignment": 0.077
+      },
+      {
+       "public_cards": 3,
+       "internal_insights": 3,
+       "pillars": {
+        "ATTRACT": 0,
+        "WARM": 2,
+        "CONVERT": 1
+       },
+       "blocking_flags": 0,
+       "check_flags": 2,
+       "style_warnings": 0,
+       "without_wia_contribution": 0,
+       "near_duplicate_title_pairs": 0,
+       "cost": 0.0544547,
+       "titles": [
+        "We plan your venue ads for more than the first inquiry",
+        "Why we ask about bookings before we rule out a search term",
+        "What your tour follow-up can tell us about your ads landing page"
+       ],
+       "reframe_alignment": 0.104
+      }
+     ],
+     "summary": {
+      "public_cards": {
+       "mean": 3,
+       "stdev": 0.0,
+       "values": [
+        3,
+        3,
+        3
+       ]
+      },
+      "internal_insights": {
+       "mean": 2.6667,
+       "stdev": 0.4714,
+       "values": [
+        3,
+        2,
+        3
+       ]
+      },
+      "blocking_flags": {
+       "mean": 0,
+       "stdev": 0.0,
+       "values": [
+        0,
+        0,
+        0
+       ]
+      },
+      "check_flags": {
+       "mean": 1.6667,
+       "stdev": 0.4714,
+       "values": [
+        2,
+        1,
+        2
+       ]
+      },
+      "style_warnings": {
+       "mean": 0,
+       "stdev": 0.0,
+       "values": [
+        0,
+        0,
+        0
+       ]
+      },
+      "without_wia_contribution": {
+       "mean": 0,
+       "stdev": 0.0,
+       "values": [
+        0,
+        0,
+        0
+       ]
+      },
+      "near_duplicate_title_pairs": {
+       "mean": 0,
+       "stdev": 0.0,
+       "values": [
+        0,
+        0,
+        0
+       ]
+      },
+      "cost": {
+       "mean": 0.0771,
+       "stdev": 0.0306,
+       "values": [
+        0.1203635,
+        0.0564447,
+        0.0544547
+       ]
+      },
+      "reframe_alignment": {
+       "mean": 0.0957,
+       "stdev": 0.0132,
+       "values": [
+        0.106,
+        0.077,
+        0.104
+       ]
+      },
+      "title_stability": 0.206,
+      "identical_titles_across_samples": 0
+     }
+    },
+    "week2": {
+     "samples": [
+      {
+       "public_cards": 4,
+       "internal_insights": 5,
+       "pillars": {
+        "ATTRACT": 0,
+        "WARM": 3,
+        "CONVERT": 1
+       },
+       "blocking_flags": 0,
+       "check_flags": 4,
+       "style_warnings": 0,
+       "without_wia_contribution": 0,
+       "near_duplicate_title_pairs": 0,
+       "cost": 0.0901102,
+       "titles": [
+        "Why we want to know what made your couples book",
+        "We launch your Google Ads, then help you think through what comes next",
+        "Why we keep looking after a couple books the venue tour",
+        "Why we look at your ads and landing page before recommending the next step"
+       ]
+      },
+      {
+       "public_cards": 4,
+       "internal_insights": 5,
+       "pillars": {
+        "ATTRACT": 1,
+        "WARM": 2,
+        "CONVERT": 1
+       },
+       "blocking_flags": 0,
+       "check_flags": 6,
+       "style_warnings": 0,
+       "without_wia_contribution": 0,
+       "near_duplicate_title_pairs": 0,
+       "cost": 0.078171,
+       "titles": [
+        "Why we plan for the days before a venue tour",
+        "In the Google Search Accelerator, you get help with the next decision",
+        "What we want to know beyond your couples' reviews",
+        "Why we want to see your existing ads before recommending a rebuild"
+       ]
+      },
+      {
+       "public_cards": 3,
+       "internal_insights": 4,
+       "pillars": {
+        "ATTRACT": 1,
+        "WARM": 1,
+        "CONVERT": 1
+       },
+       "blocking_flags": 0,
+       "check_flags": 3,
+       "style_warnings": 0,
+       "without_wia_contribution": 0,
+       "near_duplicate_title_pairs": 0,
+       "cost": 0.099801,
+       "titles": [
+        "I want to hear from your couples right after they book",
+        "Your venue tour follow-up can do more than confirm the time",
+        "What we look at before recommending changes to your wedding ads"
+       ]
+      }
+     ],
+     "summary": {
+      "public_cards": {
+       "mean": 3.6667,
+       "stdev": 0.4714,
+       "values": [
+        4,
+        4,
+        3
+       ]
+      },
+      "internal_insights": {
+       "mean": 4.6667,
+       "stdev": 0.4714,
+       "values": [
+        5,
+        5,
+        4
+       ]
+      },
+      "blocking_flags": {
+       "mean": 0,
+       "stdev": 0.0,
+       "values": [
+        0,
+        0,
+        0
+       ]
+      },
+      "check_flags": {
+       "mean": 4.3333,
+       "stdev": 1.2472,
+       "values": [
+        4,
+        6,
+        3
+       ]
+      },
+      "style_warnings": {
+       "mean": 0,
+       "stdev": 0.0,
+       "values": [
+        0,
+        0,
+        0
+       ]
+      },
+      "without_wia_contribution": {
+       "mean": 0,
+       "stdev": 0.0,
+       "values": [
+        0,
+        0,
+        0
+       ]
+      },
+      "near_duplicate_title_pairs": {
+       "mean": 0,
+       "stdev": 0.0,
+       "values": [
+        0,
+        0,
+        0
+       ]
+      },
+      "cost": {
+       "mean": 0.0894,
+       "stdev": 0.0088,
+       "values": [
+        0.0901102,
+        0.078171,
+        0.099801
+       ]
+      },
+      "title_stability": 0.217,
+      "identical_titles_across_samples": 0
+     }
+    }
+   }
+  }
+ },
+ "notes": [
+  "Development weeks only (Weeks 1 and 2, excerpt-only moment packets, the same for every configuration); the held-out result is E.B13's.",
+  "Ledger flags are E.B10's deterministic pass; a blocking flag is an unsupported fact, misattribution or consent problem.",
+  "reframe_alignment is word overlap with Whitney's Week 1 alternatives: a proxy for her accepted share, not her verdict."
+ ],
+ "total_cost_usd": 0.5209
+}

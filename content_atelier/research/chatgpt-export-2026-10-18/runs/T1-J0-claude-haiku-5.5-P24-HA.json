@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J0-claude-haiku-5.5-P24-HA",
+  "model": "anthropic/claude-haiku-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 442,
+  "completion_tokens": 435,
+  "cached_tokens": 0,
+  "cost": 0.0002617,
+  "seconds": 3.8,
+  "finish": "stop",
+  "system_sha": "ea72523eb9c9",
+  "user_sha": "c912c6e340b0"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 3,
+  "reason": "Version B is tighter and more benefit-driven, with no typos, though its markdown bold may not render on an unspecified channel."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: other\n\nVersion A:\nLeadLock gives venues and wedding professionals a powerful lead management system. Built on HighLevel and customized for the wedding industry, LeadLock helps you go from manually chasing every inquiry to nurturing leads on autopilot. With organized pipelines, automated text & email inquiry responses, smart follow-up workflows,  and easy online consultation schedule, you'll convert more clients with ease.\n\nVersion B:\n**LeadLock** is a lead management system built for wedding venues and pros who want to stop losing inquiries and start booking more clients—automatically. From instant responses to automated follow-up and appointment scheduling, LeadLock helps you convert more leads with less stress. No more missed messages, no more disorganized inboxes—just a streamlined system that turns inquiries into “yes.”",
+  "cache_prefix_sha": "ea72523eb9c9"
+ }
+}

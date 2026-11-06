@@ -1,0 +1,222 @@
+{
+  "week": 20,
+  "timezone": "Asia/Kolkata",
+  "original_zoom_files_unchanged": true,
+  "fathom_sources": [
+    {
+      "recording_id": 191821545,
+      "week": 20,
+      "title": "Impromptu Zoom Meeting",
+      "speakers": [
+        "Carmen Cruickshank",
+        "Whitney Hodges"
+      ],
+      "category": "zoom-overlap",
+      "selected_as_additional_source": false,
+      "reason": "Dialogue identifies the same call as the linked Zoom file. Retain Fathom as an alternate source; do not count it as an additional meeting.",
+      "folder": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week20\\fathom\\zoom-overlap\\2026-10-12_203326_191821545",
+      "segments": 154,
+      "token_count_normalized": 1532,
+      "raw_sha256": "05374114192d10350ec762a7be620a646f83291fa5116aef16876c998e4ed44f",
+      "fathom_token_coverage_in_zoom": 0.9660574412532638,
+      "zoom_token_coverage": 0.9035409035409036,
+      "shared_5gram_coverage": 0.7427821522309711,
+      "zoom_counterpart_path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week20\\Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+      "largest_unmatched_fathom_word_run": 6,
+      "review_notes": "Different transcription wording is preserved in both originals; this is same-call overlap, not byte-identical equality."
+    },
+    {
+      "recording_id": 191846621,
+      "week": 20,
+      "title": "Impromptu Zoom Meeting",
+      "speakers": [
+        "Jacqueline Hood",
+        "Whitney Hodges",
+        "Carmen Cruickshank"
+      ],
+      "category": "additional",
+      "selected_as_additional_source": true,
+      "reason": "No corresponding dialogue found across all 170 local Zoom exports; speaker/dialogue review supports a separate call in the assigned week.",
+      "folder": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week20\\fathom\\additional\\2026-10-12_213114_191846621",
+      "segments": 633,
+      "token_count_normalized": 5922,
+      "raw_sha256": "8f15478c1053bf25e3b3cca45252bc2fc00105dc05c05a985f32fdb6aec14acf",
+      "fathom_token_coverage_in_zoom": null,
+      "zoom_token_coverage": null,
+      "shared_5gram_coverage": 0.008729887024991442,
+      "zoom_counterpart_path": null,
+      "largest_unmatched_fathom_word_run": null,
+      "review_notes": "Additional relative to the supplied local corpus; does not imply absence from other accounts or recording stores."
+    },
+    {
+      "recording_id": 191876816,
+      "week": 20,
+      "title": "WIA Weekly Meeting",
+      "speakers": [
+        "Carmen Cruickshank",
+        "Whitney Hodges",
+        "Danielle McGinnis",
+        "Jacqueline Hood"
+      ],
+      "category": "additional",
+      "selected_as_additional_source": true,
+      "reason": "No corresponding dialogue found across all 170 local Zoom exports; speaker/dialogue review supports a separate call in the assigned week.",
+      "folder": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week20\\fathom\\additional\\2026-10-12_223233_191876816",
+      "segments": 588,
+      "token_count_normalized": 8087,
+      "raw_sha256": "bab94fd9a47f93d05ca0a58f1f2d5429014eb3b7de2be8b1a5684276dc1f5625",
+      "fathom_token_coverage_in_zoom": null,
+      "zoom_token_coverage": null,
+      "shared_5gram_coverage": 0.0075,
+      "zoom_counterpart_path": null,
+      "largest_unmatched_fathom_word_run": null,
+      "review_notes": "Additional relative to the supplied local corpus; does not imply absence from other accounts or recording stores."
+    },
+    {
+      "recording_id": 192285654,
+      "week": 20,
+      "title": "The Penny + WIA | Monthly Strategy Call",
+      "speakers": [
+        "Whitney Hodges",
+        "Lauren Christensen"
+      ],
+      "category": "zoom-overlap",
+      "selected_as_additional_source": false,
+      "reason": "Dialogue identifies the same call as the linked Zoom file. Retain Fathom as an alternate source; do not count it as an additional meeting.",
+      "folder": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week20\\fathom\\zoom-overlap\\2026-10-13_223248_192285654",
+      "segments": 245,
+      "token_count_normalized": 3379,
+      "raw_sha256": "06073f66b73c963f30ebeca4ab7e5252f13f75a9f4d977a775bf1ec70d58881a",
+      "fathom_token_coverage_in_zoom": 0.9502811482687186,
+      "zoom_token_coverage": 0.9129940290019903,
+      "shared_5gram_coverage": 0.7608566329565735,
+      "zoom_counterpart_path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week20\\The Penny + WIA _ Monthly Strategy Call's transcript.txt",
+      "largest_unmatched_fathom_word_run": 26,
+      "review_notes": "Different transcription wording is preserved in both originals; this is same-call overlap, not byte-identical equality."
+    },
+    {
+      "recording_id": 192360549,
+      "week": 20,
+      "title": "Check-in with Gisselle",
+      "speakers": [
+        "Whitney Hodges",
+        "Gisselle Jiménez"
+      ],
+      "category": "zoom-overlap",
+      "selected_as_additional_source": false,
+      "reason": "Dialogue identifies the same call as the linked Zoom file. Retain Fathom as an alternate source; do not count it as an additional meeting.",
+      "folder": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week20\\fathom\\zoom-overlap\\2026-10-14_003213_192360549",
+      "segments": 685,
+      "token_count_normalized": 8497,
+      "raw_sha256": "01bbe5f5afd8b80a0ec05a768a24bc9e9cb8ab81b51fc16d82791a29b02e3183",
+      "fathom_token_coverage_in_zoom": 0.9642226668235848,
+      "zoom_token_coverage": 0.9094239094239094,
+      "shared_5gram_coverage": 0.7424928503336511,
+      "zoom_counterpart_path": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week20\\Check-in with Gisselle's transcript.txt",
+      "largest_unmatched_fathom_word_run": 9,
+      "review_notes": "Different transcription wording is preserved in both originals; this is same-call overlap, not byte-identical equality."
+    }
+  ],
+  "paired_capture_metadata": [
+    {
+      "recording_id": 191819766,
+      "preferred_recording_id": 191821545,
+      "week": 20,
+      "downloaded": false,
+      "reason": "Simultaneous capture of the same Zoom meeting number, nearly identical recording endpoint; fuller preferred capture downloaded. Alternative dialogue has not been compared.",
+      "metadata": {
+        "recording_id": 191819766,
+        "meeting_title": "Impromptu Zoom Meeting",
+        "title": "Impromptu Zoom Meeting",
+        "recording_start_time": "2026-10-12T15:04:19Z",
+        "recording_end_time": "2026-10-12T15:17:14Z",
+        "scheduled_start_time": "2026-10-12T15:01:37Z",
+        "scheduled_end_time": "2026-10-12T15:16:37Z",
+        "recorded_by": {
+          "name": "Whitney Hodges",
+          "email": "hello@weddingindustryads.com",
+          "email_domain": "weddingindustryads.com",
+          "team": "Executive"
+        },
+        "calendar_invitees": [
+          {
+            "name": "Whitney Hodges",
+            "email": "hello@weddingindustryads.com",
+            "email_domain": "weddingindustryads.com",
+            "is_external": false,
+            "matched_speaker_display_name": null
+          }
+        ],
+        "meeting_url": "https://zoom.us/j/2085528765?pwd=KULT3rc3SrTrEXV2jrKrbamZUVz6MP.1",
+        "shared_with": "all_teams",
+        "url": "https://fathom.video/calls/858310106",
+        "share_url": "https://fathom.video/share/sxNqQtrg7RycT71Vs8L6MqLZZqyFgb4x",
+        "created_at": "2026-10-12T15:17:27Z",
+        "transcript_language": "en"
+      },
+      "evidence": [
+        {
+          "recording_ids": [
+            191821545,
+            191819766
+          ],
+          "basis": "same normalized Zoom meeting number; overlapping recording intervals",
+          "start_difference_seconds": 53.0,
+          "end_difference_seconds": 1.0,
+          "status": "strong metadata evidence for duplicate capture; dialogue equality unverified"
+        }
+      ]
+    },
+    {
+      "recording_id": 191843056,
+      "preferred_recording_id": 191846621,
+      "week": 20,
+      "downloaded": false,
+      "reason": "Simultaneous capture of the same Zoom meeting number, nearly identical recording endpoint; fuller preferred capture downloaded. Alternative dialogue has not been compared.",
+      "metadata": {
+        "recording_id": 191843056,
+        "meeting_title": "Impromptu Zoom Meeting",
+        "title": "Impromptu Zoom Meeting",
+        "recording_start_time": "2026-10-12T16:02:07Z",
+        "recording_end_time": "2026-10-12T16:44:48Z",
+        "scheduled_start_time": "2026-10-12T15:59:40Z",
+        "scheduled_end_time": "2026-10-12T16:14:40Z",
+        "recorded_by": {
+          "name": "Carmen Cruickshank",
+          "email": "carmen@weddingindustryads.com",
+          "email_domain": "weddingindustryads.com",
+          "team": "WIA"
+        },
+        "calendar_invitees": [
+          {
+            "name": "Carmen Cruickshank",
+            "email": "carmen@weddingindustryads.com",
+            "email_domain": "weddingindustryads.com",
+            "is_external": false,
+            "matched_speaker_display_name": null
+          }
+        ],
+        "meeting_url": "https://zoom.us/j/6964390394?pwd=M1FOYUQyVVkvRFFYUmhNWVVwMENXdz09",
+        "shared_with": "all_teams",
+        "url": "https://fathom.video/calls/858384633",
+        "share_url": "https://fathom.video/share/GsVfyoDeiw9bxiS_SzmkK5fUNXisRuyC",
+        "created_at": "2026-10-12T16:45:00Z",
+        "transcript_language": "en"
+      },
+      "evidence": [
+        {
+          "recording_ids": [
+            191846621,
+            191843056
+          ],
+          "basis": "same normalized Zoom meeting number; overlapping recording intervals",
+          "start_difference_seconds": 53.0,
+          "end_difference_seconds": 1.0,
+          "status": "strong metadata evidence for duplicate capture; dialogue equality unverified"
+        }
+      ]
+    }
+  ],
+  "processing_rule": "Use additional Fathom sources once a Fathom-aware importer is in place. Existing Zoom remains the selected source for zoom-overlap. Do not recursively ingest both representations of the same call.",
+  "formats": "Raw JSON plus readable Markdown. Existing TXT/VTT importer cannot faithfully admit native Fathom metadata/timing; no fabricated VTT was created."
+}

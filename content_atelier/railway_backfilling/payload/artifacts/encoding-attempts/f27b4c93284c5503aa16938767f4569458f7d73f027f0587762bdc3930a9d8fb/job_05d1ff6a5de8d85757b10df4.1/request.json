@@ -1,0 +1,8 @@
+{
+  "contract": "7b68c0e1d6ae9ad427811874db2f6cdae7283040583f763dd926cb6d144b0afd",
+  "input_hash": "1d5fa7c70a448e7a5787d4b8b70875f9b3fd6a5c7d194a9ad4e07e2d907fe5d2",
+  "endpoint": "https://openrouter.ai/api/v1",
+  "model": "openai/text-embedding-3-small",
+  "dimensions": 1536,
+  "input": "Audience: Wedding photographers managing search campaigns who have a defined visual style and are weighing lead relevance against excluding potentially useful searches. | Tension: A term such as “light and airy” may seem inconsistent with a photographer's work, yet the photographer does not know whether every couple using it means the same thing. | Argument: A search term that appears stylistically misaligned is not automatically a negative keyword when couples may use style labels imprecisely and some inquiries using the term may still be suitable. | Take: Treat a suspected mismatch as a question to investigate with actual search and inquiry evidence, rather than deciding from the label alone. | Mechanism: The photographer reported that some inquiries included the term and that one of roughly four or five people who mentioned it in the last year became a client. That small account does not establish keyword performance, but it illustrates why the search phrase, inquiry context, and eventual fit need to be considered before excluding it. | Reader decision: Review search-term records and the resulting inquiry and booking context for the term; decide whether the evidence shows a recurring mismatch before adding it as a negative keyword."
+}

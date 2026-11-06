@@ -1,0 +1,34 @@
+{
+  "purpose": "NP.X3's held-out brief (the content-packs plan, section 7.3): an October card the finisher prompt was not written from (angle_a3e9ed535b9e4158aa14aa8a3ed0a637, card 4 after its Gate 1 fix), developed with writer v5 on scratch copy B and taken through Gate 2 by the WIA team under delegation (R55, D12). Both quotations come from a call carrying the collector's public_use=false restriction, which no brief may override, so the team told Whitney's reply and the owner's question in reported speech; nothing else in the copy was changed, so the pack shows what the finisher does with the writer's copy. No client permission is invented: the client's okay is a before-posting note.",
+  "actor": "ai@weddingindustryads.com",
+  "author": "WIA team under delegation (D12)",
+  "client_okay": "Before posting: WIA confirms the client's okay",
+  "briefs": [
+    {
+      "label": "held-out brief",
+      "brief_id": "brief_f7cda6c296a374abd715b293",
+      "edits": [
+        {
+          "path": "format_plan.email.body",
+          "old": "I answered, \"Closer to what actually happens.\" Then I specified the experience of a current couple.",
+          "new": "I told her I meant something closer to what actually happens, like what a current couple is experiencing."
+        },
+        {
+          "path": "format_plan.reels[0].script",
+          "old": "And she asked, \"So would this be visualizing what I'd love to see or what actually happens?\"",
+          "new": "And she asked whether that would be visualizing what she'd love to see, or what actually happens."
+        }
+      ],
+      "cta": "keep",
+      "answers": {
+        "P1": "client_okay",
+        "P2": "Checked under D12 by the WIA team against the transcript (The Brightside | Messaging & Positioning Call, transcript_5b0389844e4a927240f1ec39, 69:05 to 69:16): the owner asks the question and Whitney answers it. Both are now told in reported speech, so no quotation is published; WIA confirms the audio before posting.",
+        "P3": "Kept out under D12: no patio passage, installation timing, campaign change, motive for the question or claim about how often WIA does this.",
+        "P4": "Checked under D12 by the WIA team: angle_36f6b25c9a0840b05725a515 (\"How we separate today's wedding experience from future plans\") is an unapproved card from the 12 October week's cycle, never briefed or published (no published record), so there is no duplicate to hold for.",
+        "P5": "Confirmed under D12: no explicit ask on any piece; the email's send date, time and list are WIA's to confirm when scheduling."
+      },
+      "clearances": [],
+      "review_reason": "The WIA team checked every claim against the call under delegation (D12); the two quotations are now reported speech."
+    }
+  ]
+}

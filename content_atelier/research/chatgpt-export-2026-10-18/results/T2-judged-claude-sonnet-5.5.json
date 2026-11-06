@@ -1,0 +1,603 @@
+{
+ "judgements": [
+  {
+   "task": "T02",
+   "pair": "G1vA0",
+   "order": "YX",
+   "winner": "A0",
+   "reason": "Candidate A keeps Whitney's template structure and her organic-vs-paid positioning, though it overclaims with 'on autopilot' and 'proven' and uses 'my' instead of 'our'. Candidate B changes the premise to inquiry slowdown and a funnel-system angle, drops the requested template format, and never contrasts organic with paid ads.",
+   "cost": 0.003286
+  },
+  {
+   "task": "T02",
+   "pair": "G2vG1",
+   "order": "YX",
+   "winner": "G2",
+   "reason": "B keeps the organic-reach-drop premise and the contrast between relying on organic and building a paid strategy, which matches the reference, though it drops the 'Panic sets in' line and the template structure, and it adds Google ads and referral claims. A changes the trigger to 'inquiries slow down,' shifts the message to funnel and system analysis, and lengthens the post, so it would need heavier rewriting.",
+   "cost": 0.003476
+  },
+  {
+   "task": "T02",
+   "pair": "G2vA0",
+   "order": "XY",
+   "winner": "A0",
+   "reason": "B keeps the user's template structure and the 'Panic sets in' line, and its organic-vs-paid contrast matches the reference. It needs edits for 'my clients' (should be 'our'), the 'on autopilot' and 'proven' claims, and the line breaks. A drops the template's panic framing and the 'While everyone else scrambles' line, and its 'alongside organic' and 'several sources' message dilutes the paid-vs-organic positioning Whitney approved.",
+   "cost": 0.003698
+  },
+  {
+   "task": "T02",
+   "pair": "G2vG1",
+   "order": "XY",
+   "winner": "G2",
+   "reason": "A keeps the reference's core framing (reach drops, post more, organic vs. building a broader paid visibility strategy) and the template structure, though it softens the paid-ads positioning and drops the 'Panic sets in' line. B changes the problem to slow inquiries, breaks the template with extra lines, and shifts the pitch to a funnel/system audit, which is not the message Whitney approved.",
+   "cost": 0.003436
+  },
+  {
+   "task": "T02",
+   "pair": "G1vA0",
+   "order": "XY",
+   "winner": "A0",
+   "reason": "B keeps the organic-reach-versus-paid-ads contrast and the post-more/reels scramble that Whitney's version uses, needing only tweaks to 'my' and the autopilot and platform claims. A shifts the premise to slow inquiries and a vague 'system' pitch, never contrasting organic with paid, so it would need a rewrite.",
+   "cost": 0.005726
+  },
+  {
+   "task": "T02",
+   "pair": "G2vA0",
+   "order": "YX",
+   "winner": "A0",
+   "reason": "A keeps the prompt's structure and Whitney's organic-versus-paid contrast, so it needs only small fixes: \"my\" to \"our\" and toning down \"autopilot\" and \"proven\". B drops \"Panic sets in\" and the \"everyone else scrambles\" beat, and its \"several sources of visibility\" framing softens the paid-versus-organic positioning, so it would need a near-rewrite.",
+   "cost": 0.006228
+  },
+  {
+   "task": "T06",
+   "pair": "G1vA0",
+   "order": "YX",
+   "winner": "A0",
+   "reason": "Whitney kept her four-point section essentially unchanged, and Candidate A stays within that section and mostly preserves her wording, adding only horror-themed headings and some trimming. Candidate B rewrites the whole email, drops her 'slay' hook and playful voice, and adds new framing and claims, so it would need far more edits to get back to what she approved.",
+   "cost": 0.008496
+  },
+  {
+   "task": "T06",
+   "pair": "G2vA0",
+   "order": "YX",
+   "winner": "A0",
+   "reason": "Candidate A keeps Whitney's four tips and most of her wording, adding only themed headers and light trimming. Candidate B rewrites the whole email, dropping her Halloween voice and changing the tips' content and the positioning.",
+   "cost": 0.008426
+  },
+  {
+   "task": "T06",
+   "pair": "G1vA0",
+   "order": "XY",
+   "winner": "A0",
+   "reason": "Whitney's approved version kept her four tips almost word for word, and B preserves their substance (destination URL, follow-up within minutes, smart setup over big budget, data as a lifeline) and only adds Halloween-themed headers that fit her playful voice. A rewrites the whole email, drops her wording and the 'within minutes' and 'data is your lifeline' points, and shifts to a more serious, explanatory tone, so it would need heavy edits to get back to what she approved.",
+   "cost": 0.009096
+  },
+  {
+   "task": "T06",
+   "pair": "G2vA0",
+   "order": "XY",
+   "winner": "A0",
+   "reason": "Whitney approved the four-tips section essentially as written, so the best answer keeps her wording. B does that, adding only Halloween-flavored headers and light trims that fit the spooky theme. A rewrites the whole email and replaces her tip copy, dropping the Halloween tone and changing how the Accelerator is described, so it would need heavy edits to get back to what she approved.",
+   "cost": 0.008596
+  },
+  {
+   "task": "T06",
+   "pair": "G2vG1",
+   "order": "YX",
+   "winner": "G2",
+   "reason": "B keeps Whitney's subject line and three of her four tip headings, so it is closer to the approved wording, though it rewrites the tip bodies and shifts the offer toward 'we build for you.' A rewrites the headings and body copy, and moves away from the playful Halloween voice, so it would need more edits.",
+   "cost": 0.01146
+  },
+  {
+   "task": "T07",
+   "pair": "G1vA0",
+   "order": "YX",
+   "winner": "A0",
+   "reason": "A keeps Whitney's three opening lines verbatim and lands the same core point as the reference: less-qualified vendors win bookings simply by being found first on Google. B changes the third line, drops the 'hard truth' framing, and turns the piece into a soft, reflective argument that her competitors aren't better, which departs from her direct, punchy voice and her message about lost high-intent leads.",
+   "cost": 0.003692
+  },
+  {
+   "task": "T06",
+   "pair": "G2vG1",
+   "order": "XY",
+   "winner": "G1",
+   "reason": "B keeps Whitney's offer description (\"We build your campaign with you\"), the ✨ bullets, the 👉 CTA and the playful Halloween voice, while A shifts the offer to \"we build your first campaigns for you\" and drops the playful tone and her subject/preview. Both rewrote her approved four-point section, but B's edits are fewer and smaller.",
+   "cost": 0.01231
+  },
+  {
+   "task": "T07",
+   "pair": "G2vA0",
+   "order": "XY",
+   "winner": "A0",
+   "reason": "B keeps Whitney's opening lines and the 'hard truth' framing, and makes the approved point that less-qualified competitors win bookings by being easier to find, needing only small tweaks such as restoring 'ideal couples' and 'high-intent leads'. A rewrites her creative line, drops the hard-truth section, and adds a generic Google Ads pitch.",
+   "cost": 0.005788
+  },
+  {
+   "task": "T07",
+   "pair": "G2vA0",
+   "order": "YX",
+   "winner": "A0",
+   "reason": "A keeps Whitney's lines and the blunt 'hard truth' point that lesser competitors win bookings by being found first, matching the reference. B rewrites her third line, drops the hard-truth section, and adds an unrequested soft Google Ads pitch.",
+   "cost": 0.006598
+  },
+  {
+   "task": "T07",
+   "pair": "G1vA0",
+   "order": "XY",
+   "winner": "A0",
+   "reason": "B keeps Whitney's opening lines and 'hard truth' structure and makes her key point that less-qualified competitors win by being easier to find, so it needs only small additions like the high-intent leads angle. A rewrites her third line, drops the hard-truth framing, and says competitors aren't worse, which contradicts her message.",
+   "cost": 0.006302
+  },
+  {
+   "task": "T07",
+   "pair": "G2vG1",
+   "order": "XY",
+   "winner": "G2",
+   "reason": "Both rewrite Whitney's supplied opening, but A keeps two of the three lines, keeps the Google-findability point and her \"if ideal couples can't find you on Google\" line, and ends with a Google Ads pitch. B rewrites more of the opening, drops the \"hard truth\" framing and the competitors-winning-first point, and ends on a soft, abstract note that lacks the high-intent urgency Whitney used.",
+   "cost": 0.003908
+  },
+  {
+   "task": "T16",
+   "pair": "G2vG1",
+   "order": "XY",
+   "winner": "G1",
+   "reason": "B keeps Whitney's framing: the lesson about understanding your ads, the landing page built from WIA's recommendations and frameworks, and a CTA that mirrors her \"DM Accelerators\" wording. A invents details, such as the \"for clarity\" disclaimer, a claim that WIA builds first campaigns and the client then manages them, and a CTA asking for a reply about their ads experience, and it says WIA \"showed her how to create\" the landing page rather than helping her build it from WIA's frameworks.",
+   "cost": 0.009242
+  },
+  {
+   "task": "T16",
+   "pair": "G2vA0",
+   "order": "XY",
+   "winner": "A0",
+   "reason": "The reference is a slide-by-slide carousel, and Candidate B follows that format and the same story arc. Candidate A is another email that repeats the one already sent, so it would need a full rewrite. B would still need edits: it states the ads weren't the problem more flatly than the reference's \"wasn't necessarily,\" and it leaves out the agency hand-holding and firing beat.",
+   "cost": 0.009984
+  },
+  {
+   "task": "T16",
+   "pair": "G1vA0",
+   "order": "XY",
+   "winner": "A0",
+   "reason": "The reference is a slide-by-slide carousel, and B delivers that format with a similar arc and key details ($22K, metrics reports, missing tracking, rebuild). A is a full email, so it would need a complete reformat.",
+   "cost": 0.009646
+  },
+  {
+   "task": "T16",
+   "pair": "G2vA0",
+   "order": "YX",
+   "winner": "A0",
+   "reason": "The reference is a slide-by-slide carousel, and Candidate A matches that format and follows the same story arc: $22K spent, reports without tracking, the rebuilt foundation, then the results. Candidate B is a full email, which Whitney had already sent, so it would need rewriting into slides. A's invented quote and the 'leadership' detail would need a light check.",
+   "cost": 0.010514
+  },
+  {
+   "task": "T16",
+   "pair": "G1vA0",
+   "order": "YX",
+   "winner": "A0",
+   "reason": "The reference is a slide-by-slide carousel, and Candidate A matches that format and follows the same arc (the $22K, the reports without tracking, the rebuild, the results). Candidate B is a full email, which is the wrong format since the email already went out, so it would need to be reworked into slides.",
+   "cost": 0.009976
+  },
+  {
+   "task": "T16",
+   "pair": "G2vG1",
+   "order": "YX",
+   "winner": "G2",
+   "reason": "B is more accurate about the program (WIA builds and launches the campaigns, then guides the client) and adds a useful clarification that last year's $22K included agency fees while this year's $6K is ad spend only. A drifts into an abstract 'not simply taking over tasks' framing and says the client built the landing page with only 'recommendations', which is vaguer on how WIA is positioned.",
+   "cost": 0.008862
+  },
+  {
+   "task": "T07",
+   "pair": "G2vG1",
+   "order": "YX",
+   "winner": "G2",
+   "reason": "B keeps Whitney's 'if ideal couples can't find you on Google' line and the idea of couples actively searching, so it needs fewer fixes, mainly cutting the unrequested Google Ads pitch and restoring the competitors-winning hard truth. A drops her framing and the hard-truth setup and adds a soft, reflective tone that departs from her blunt voice.",
+   "cost": 0.008998
+  },
+  {
+   "task": "T24",
+   "pair": "G2vA0",
+   "order": "YX",
+   "winner": "G2",
+   "reason": "B keeps the substance of Whitney's reference (HighLevel, industry-specific, text and email responses, pipeline tracking, scheduling) and positions WIA accurately, though it runs longer than the short blurb she approved. A is short but omits HighLevel and pipelines, and its 'turns inquiries into yes' tagline plus the 'less stress' framing drift from her wording and would need more rework.",
+   "cost": 0.004194
+  },
+  {
+   "task": "T24",
+   "pair": "G2vA0",
+   "order": "XY",
+   "winner": "G2",
+   "reason": "A keeps the substance of the reference (HighLevel, wedding-industry customization, instant text/email, follow-up, pipeline tracking, scheduling) in a professional sponsor-blurb tone, so it needs only trimming. B is punchy but drops HighLevel and pipelines, leans on 'no more missed messages' hype, and ends with a cutesy 'yes' line that would need rewriting.",
+   "cost": 0.004204
+  },
+  {
+   "task": "T24",
+   "pair": "G1vA0",
+   "order": "XY",
+   "winner": "G1",
+   "reason": "Candidate A keeps the substance of the reference: it covers HighLevel, the wedding-industry customization, automated text and email responses, follow-up, pipeline tracking and scheduling, and moving from manual chasing to automation. It is longer than the approved version and would need trimming. Candidate B is concise, but it omits HighLevel and pipelines, and its 'no more missed messages' phrasing overpromises, so it would need more rework.",
+   "cost": 0.004218
+  },
+  {
+   "task": "T24",
+   "pair": "G2vG1",
+   "order": "YX",
+   "winner": "G1",
+   "reason": "Both are accurate and cover the same features, but A is closer to Whitney's approved version: it speaks directly to the reader and stresses moving from manual chasing to automated follow-up. B reads more abstract and drifts to 'staying focused on weddings and clients already in your care', which is less on point, and it adds 'Wedding Industry Ads' attribution that the reference left out.",
+   "cost": 0.0042
+  },
+  {
+   "task": "T24",
+   "pair": "G2vG1",
+   "order": "XY",
+   "winner": "G1",
+   "reason": "Candidate B is closer to Whitney's approved version: it keeps the 'chasing inquiries' framing and the shift away from manual follow-up, and it lists the same features (text/email responses, automated follow-up, pipelines, scheduling) while staying on HighLevel and wedding-industry customization. Candidate A is more generic and its closing paragraph about 'staying focused on weddings already in your care' drifts from the autopilot/ease message, so it would need more rework.",
+   "cost": 0.00463
+  },
+  {
+   "task": "T26",
+   "pair": "G2vA0",
+   "order": "YX",
+   "winner": "G2",
+   "reason": "Candidate A stops after the 'gamble' line and never introduces ads, WIA's Accelerator programs, or the requested CTA link, so it would need major additions. Candidate B includes the CTA and the organic-plus-paid positioning, but it adds unverified specifics about the Accelerator and lacks Whitney's punchy 'gap' framing, so it still needs some edits.",
+   "cost": 0.004742
+  },
+  {
+   "task": "T26",
+   "pair": "G2vA0",
+   "order": "XY",
+   "winner": "G2",
+   "reason": "Candidate A is a complete caption with the paid-ads message and the Accelerator CTA and link, needing only tone and claim adjustments. Candidate B stops after the problem statement, with no ads solution and no CTA, so it would need a full rewrite of the second half.",
+   "cost": 0.006952
+  },
+  {
+   "task": "T26",
+   "pair": "G1vA0",
+   "order": "XY",
+   "winner": "G1",
+   "reason": "Candidate A includes the requested Accelerator CTA and link and frames ads as the fix for organic's limits, as the transcript does. Candidate B has no CTA, never brings in ads, and ends abruptly, so it would need major additions.",
+   "cost": 0.0068
+  },
+  {
+   "task": "T26",
+   "pair": "G1vA0",
+   "order": "YX",
+   "winner": null,
+   "reason": null,
+   "cost": 0.0045
+  },
+  {
+   "task": "T24",
+   "pair": "G1vA0",
+   "order": "YX",
+   "winner": "G1",
+   "reason": "B keeps the substance Whitney's version includes (HighLevel, wedding-industry customization, pipelines, text/email responses, follow-up, scheduling) and only needs trimming for length. A is punchy but omits HighLevel and the industry customization, and its 'yes' tagline and absolute claims need reworking.",
+   "cost": 0.007678
+  },
+  {
+   "task": "T26",
+   "pair": "G2vG1",
+   "order": "XY",
+   "winner": "G1",
+   "reason": "B keeps the reel's core argument: organic reach is limited and uncontrollable, and ads give more control and longer life. It also closes with the Accelerator CTA and link. A drifts into content-value examples and makes specific claims about the Accelerator (done-for-you launch, Google and Meta) that the transcript doesn't support. It also softens the organic-vs-paid contrast, so it would need heavier rewriting.",
+   "cost": 0.005162
+  },
+  {
+   "task": "T27",
+   "pair": "G2vA0",
+   "order": "YX",
+   "winner": "G2",
+   "reason": "Candidate A is a fragment with stray arrows and placeholder-like questions. It has no problem/solution framing, no results, and no CTA. Candidate B is a complete caption that addresses the research (trust, quality inquiries, clear strategy), names the problem WIA solves, includes a results claim and the CTA, and covers both Elevate and the Accelerators. It needs trimming and fact-checking of the $90k stat, and it lacks the reference's \"hesitation\" framing.",
+   "cost": 0.005926
+  },
+  {
+   "task": "T27",
+   "pair": "G2vA0",
+   "order": "XY",
+   "winner": "G2",
+   "reason": "Candidate A is a complete caption that covers the problem, the strategy, results, trust and the link-in-bio CTA, though the specific $90,000 / 59 leads / 9 bookings claim would need checking and the caption runs long. Candidate B is a fragment with a garbled arrow and example questions, no real solution, results or CTA, so it would need a near-total rewrite.",
+   "cost": 0.005556
+  },
+  {
+   "task": "T27",
+   "pair": "G1vA0",
+   "order": "YX",
+   "winner": null,
+   "reason": null,
+   "cost": 0.005652
+  },
+  {
+   "task": "T27",
+   "pair": "G1vA0",
+   "order": "XY",
+   "winner": "G1",
+   "reason": "Candidate A is a complete caption that covers the problem WIA solves, quality inquiries, results, both service paths, and the link-in-bio CTA. It does make a specific 'double their business' claim that Whitney would need to verify. Candidate B is a fragment with an invented, garbled quote, no CTA, and no positioning, so it would need a full rewrite.",
+   "cost": 0.005652
+  },
+  {
+   "task": "T30",
+   "pair": "G2vA0",
+   "order": "XY",
+   "winner": "G2",
+   "reason": "A delivers a full, usable pitch email that follows the tips and keeps Whitney's positioning (Google and Meta ads for venues and pros), needing only light fixes such as verifying the 12-year claim. B copies the bio but adds a claim that pros were \"done wasting time on SEO and organic social,\" which contradicts Whitney's approved framing of growing beyond organic and referrals. B also isn't an email pitch at all.",
+   "cost": 0.004782
+  },
+  {
+   "task": "T26",
+   "pair": "G2vG1",
+   "order": "YX",
+   "winner": null,
+   "reason": null,
+   "cost": 0.010212
+  },
+  {
+   "task": "T30",
+   "pair": "G1vA0",
+   "order": "XY",
+   "winner": "G1",
+   "reason": "A is a complete, usable pitch email that follows the supplied tips and positions WIA accurately, though it adds an unverified claim (Whitney's 12 years in wedding sales) and some talking points Whitney would likely tweak. B reuses the boilerplate but is only a short bio paragraph, not an email pitch, and adds claims Whitney wouldn't make (\"done wasting time on SEO and organic social\"), so it needs a lot of rework.",
+   "cost": 0.004872
+  },
+  {
+   "task": "T27",
+   "pair": "G2vG1",
+   "order": "XY",
+   "winner": null,
+   "reason": null,
+   "cost": 0.01177
+  },
+  {
+   "task": "T30",
+   "pair": "G2vA0",
+   "order": "YX",
+   "winner": "A0",
+   "reason": "A stays very close to Whitney's approved positioning and wording, needing only small fixes such as softening the 'wasting time on SEO and organic social' line and removing 'books their calendar'. B is a full email template, but it invents a bio claim (Whitney's 12 years in wedding and event sales) and builds on topics and positioning she didn't supply, so it would need heavy rework.",
+   "cost": 0.007292
+  },
+  {
+   "task": "T30",
+   "pair": "G2vG1",
+   "order": "YX",
+   "winner": "G2",
+   "reason": "B names Google and Meta ads for venues and wedding professionals, as Whitney's reference does, and its topics stay practical and neutral. A drops the Google/Meta specificity and takes a more provocative stance, with 'Your ad leads aren't worse than your referrals. They're just colder' and 'not walk them through an ads dashboard'. It also frames the audience as businesses with inconsistent inquiries, which departs from Whitney's 'ready to grow beyond organic and referrals' positioning.",
+   "cost": 0.005844
+  },
+  {
+   "task": "T27",
+   "pair": "G2vG1",
+   "order": "YX",
+   "winner": "G1",
+   "reason": "A states the problem WIA solves and addresses the market-research hesitations (quality over lead volume, trust, unsure about paid ads) in the intentional, brand-aligned way the reference does. B's specific \"$90,000 / 59 leads / 9 bookings\" case study wasn't supplied, so it needs verifying or removing. A's vaguer \"double their business\" claim also needs a check but is a smaller fix.",
+   "cost": 0.01063
+  },
+  {
+   "task": "T32",
+   "pair": "G2vA0",
+   "order": "YX",
+   "winner": "G2",
+   "reason": "The reference frames the session for planners who already have working marketing and want ads to build on it, and B matches that positioning and fills out the full email. A is a single sentence about planners struggling to communicate their value, which is a different premise from Whitney's and leaves most of the email unwritten.",
+   "cost": 0.003802
+  },
+  {
+   "task": "T30",
+   "pair": "G1vA0",
+   "order": "YX",
+   "winner": "A0",
+   "reason": "Candidate A nearly mirrors Whitney's approved description of WIA and only needs small fixes, such as softening the 'wasting time on SEO and organic social' jab and swapping 'florists' for her wording. Candidate B is a full pitch email with invented claims (Whitney's 12 years in sales, the 'colder leads' angles) and a different positioning, so it would need heavy rewriting.",
+   "cost": 0.007332
+  },
+  {
+   "task": "T32",
+   "pair": "G2vA0",
+   "order": "XY",
+   "winner": "G2",
+   "reason": "Candidate A is a complete email that matches Whitney's core message of using ads to build on marketing that already works, and it keeps WIA's positioning. Candidate B is a single line built on a different premise (planners struggling to communicate value), never mentions ads, and is not a usable email.",
+   "cost": 0.007022
+  },
+  {
+   "task": "T30",
+   "pair": "G2vG1",
+   "order": "XY",
+   "winner": null,
+   "reason": null,
+   "cost": 0.010724
+  },
+  {
+   "task": "T32",
+   "pair": "G2vG1",
+   "order": "YX",
+   "winner": "G2",
+   "reason": "Whitney's reference positions the session around amplifying what's already working, with ads as a strategic way to expand reach and attract aligned clients. Candidate B matches this with WIA-centered ads and building on existing marketing, while Candidate A never mentions ads and frames the session around fixing an unpredictable inbox and a marketing strategy problem, which conflicts with her positioning.",
+   "cost": 0.004666
+  },
+  {
+   "task": "T32",
+   "pair": "G2vG1",
+   "order": "XY",
+   "winner": "G2",
+   "reason": "Candidate A reflects the reference's core message: paid ads build on marketing foundations that already work, with WIA positioned explicitly. Candidate B never mentions ads and frames the planner's marketing as lacking, which cuts against the reference's premise.",
+   "cost": 0.007196
+  },
+  {
+   "task": "T32",
+   "pair": "G1vA0",
+   "order": "XY",
+   "winner": "G1",
+   "reason": "A is a complete email whose premise, strong planners with good work who want more reliable growth, is close to Whitney's 'amplify what's already working' angle. It only needs the ads and amplification point added. B is a single line that frames planners as struggling to communicate their value, which contradicts her positioning, never mentions ads or scale, and leaves the rest of the email unwritten.",
+   "cost": 0.008222
+  },
+  {
+   "task": "T32",
+   "pair": "G1vA0",
+   "order": "YX",
+   "winner": "G1",
+   "reason": "Whitney's version targets planners whose foundations already work and positions ads as a way to amplify and scale that. B matches that audience (strong reputation, relying on referrals and Instagram) and covers the full email, though it never mentions ads and would need that framing added. A builds on a different problem, struggling to communicate value, which doesn't fit her \"amplify what's working\" premise and would need rewriting.",
+   "cost": 0.008172
+  },
+  {
+   "task": "T37",
+   "pair": "G1vA0",
+   "order": "YX",
+   "winner": "G1",
+   "reason": "The reference is a three-part 'Before you can...' passage that frames advertising as starting with the 'why they should care' work. Candidate B delivers the full email in a Writing Block and keeps Whitney's supplied lines, so it needs only trims, such as dropping the added 'No targeting...' line and tightening the middle. Candidate A is only a three-sentence fragment and shifts to 'we' and 'a photographer or venue', which is a different framing, so it would need heavy rework and doesn't deliver the requested email.",
+   "cost": 0.00691
+  },
+  {
+   "task": "T37",
+   "pair": "G2vA0",
+   "order": "XY",
+   "winner": "A0",
+   "reason": "Candidate B closely mirrors the approved three-part 'before you can...' structure and message, needing only pronoun and detail tweaks. Candidate A is a full email that doesn't contain the approved passage and would need heavy restructuring to match.",
+   "cost": 0.009166
+  },
+  {
+   "task": "T37",
+   "pair": "G2vA0",
+   "order": "YX",
+   "winner": null,
+   "reason": null,
+   "cost": 0.011486
+  },
+  {
+   "task": "T37",
+   "pair": "G1vA0",
+   "order": "XY",
+   "winner": "G1",
+   "reason": "A delivers what was asked: a full email in an editable Writing Block, opening with the required line, using her questions and key phrases, and framing the UVP work as something done together inside the Accelerators. B only echoes the reference's three \"Before...\" paragraphs, in a \"we\" and third-person voice rather than speaking to the reader, and it leaves out the opening, the Accelerator positioning and the course contrast.",
+   "cost": 0.01132
+  },
+  {
+   "task": "T37",
+   "pair": "G2vG1",
+   "order": "YX",
+   "winner": null,
+   "reason": null,
+   "cost": 0.012584
+  },
+  {
+   "task": "T37",
+   "pair": "G2vG1",
+   "order": "XY",
+   "winner": null,
+   "reason": null,
+   "cost": 0.012584
+  }
+ ],
+ "lint": {
+  "T02": {
+   "A0": {
+    "guarantee_or_automatic": 1,
+    "em_dash": 1
+   },
+   "G1": {},
+   "G2": {},
+   "final": {}
+  },
+  "T06": {
+   "A0": {
+    "em_dash": 2
+   },
+   "G1": {
+    "em_dash": 2,
+    "staccato": 1
+   },
+   "G2": {
+    "ai_vocab": 1
+   },
+   "final": {
+    "ai_vocab": 1
+   }
+  },
+  "T07": {
+   "A0": {
+    "em_dash": 1
+   },
+   "G1": {
+    "em_dash": 1
+   },
+   "G2": {},
+   "final": {}
+  },
+  "T16": {
+   "A0": {
+    "price_in_public_copy": 3,
+    "staccato": 1
+   },
+   "G1": {
+    "price_in_public_copy": 3,
+    "em_dash": 1
+   },
+   "G2": {
+    "price_in_public_copy": 5
+   },
+   "final": {
+    "price_in_public_copy": 1,
+    "em_dash": 1,
+    "staccato": 1
+   }
+  },
+  "T24": {
+   "A0": {
+    "em_dash": 2
+   },
+   "G1": {
+    "em_dash": 2
+   },
+   "G2": {},
+   "final": {
+    "guarantee_or_automatic": 1
+   }
+  },
+  "T26": {
+   "A0": {
+    "em_dash": 1
+   },
+   "G1": {
+    "em_dash": 1
+   },
+   "G2": {
+    "guarantee_or_automatic": 1
+   },
+   "final": {
+    "guarantee_or_automatic": 1,
+    "em_dash": 4
+   }
+  },
+  "T27": {
+   "A0": {},
+   "G1": {
+    "em_dash": 5
+   },
+   "G2": {
+    "price_in_public_copy": 1
+   },
+   "final": {}
+  },
+  "T30": {
+   "A0": {
+    "em_dash": 1
+   },
+   "G1": {
+    "em_dash": 3
+   },
+   "G2": {
+    "ai_vocab": 1
+   },
+   "final": {}
+  },
+  "T32": {
+   "A0": {
+    "em_dash": 1
+   },
+   "G1": {
+    "em_dash": 1
+   },
+   "G2": {},
+   "final": {}
+  },
+  "T37": {
+   "A0": {},
+   "G1": {},
+   "G2": {},
+   "final": {}
+  }
+ }
+}

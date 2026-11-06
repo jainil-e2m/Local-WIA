@@ -1,0 +1,555 @@
+{
+  "batch_status": "failed",
+  "accepted_moments": 0,
+  "returned_proposals": 17,
+  "individual_parser_passes_for_diagnosis_only": 15,
+  "individual_parser_failures": 2,
+  "provider_reported_cost_usd": 0.09096267,
+  "angle_calls_sent": 0,
+  "partial_pool_created": false,
+  "automatic_repair_performed": false,
+  "coverage_notes": [
+    "The inventory confirms six delivered transcript records; the meeting metadata states zoom_metadata_not_supplied. Speaker labels and names are therefore treated as transcript attribution, not independently verified identity, and no publication permissions are supplied.",
+    "In m1, the market-research email, task assignment, and spreadsheet are discussed at m1.t0140-m1.t0215, but the actual research questions, client responses, and findings are not in the supplied exchange. The offboarding SOP is still being recalled and drafted at m1.t0338-m1.t0352, so no completed process or outcome is established.",
+    "In m2, Emily's scope-creep and niche-expansion discussion at m2.t0118-m2.t0196 was not elevated as a WIA service claim: it concerns another provider's client situation and contains no WIA resolution or verified outcome.",
+    "The m4 and m5 account and lead figures are participant-reported or discussed in live account reviews, not independently corroborated. The proposal stage in m5.t0231-m5.t0233 is not treated as an accepted sale.",
+    "The m6 workshop contains many additional teaching points. The 0.05-second website-impression figure at m6.t0223 is not treated as measured evidence because no supporting source or study is supplied. Selected workshop moments retain the speaker's attribution and do not imply implementation, results, or publication clearance."
+  ],
+  "proposals": [
+    {
+      "local_key": "m1_email_safeguards",
+      "individual_parser_check": "passed",
+      "error": null,
+      "proposition": "A suspected email-delivery failure prompted Whitney to acknowledge a monitoring gap and propose recurring safeguards, while keeping the cause unresolved and assigning immediate follow-up.",
+      "quote": "really what it tells me is that we just need to be putting more safeguards in place.",
+      "anchor_refs": [
+        "m1.t0085",
+        "m1.t0088",
+        "m1.t0093",
+        "m1.t0095",
+        "m1.t0102",
+        "m1.t0109",
+        "m1.t0129",
+        "m1.t0133"
+      ],
+      "context_first_ref": "m1.t0079",
+      "context_last_ref": "m1.t0135",
+      "quote_matches_anchor": true
+    },
+    {
+      "local_key": "m1_vault_prompt_accountability",
+      "individual_parser_check": "passed",
+      "error": null,
+      "proposition": "The proposed member-engagement routine exposed a choice between ensuring the prompt gets posted and maintaining clear staff ownership through a recurring task and existing SOP.",
+      "quote": "I want to make sure that I'm not just, like, saying it, and then there's not ever any actual, like, follow-up or, like, accountability to actually, like, get it done.",
+      "anchor_refs": [
+        "m1.t0412",
+        "m1.t0413",
+        "m1.t0417",
+        "m1.t0425",
+        "m1.t0429",
+        "m1.t0430",
+        "m1.t0444",
+        "m1.t0447",
+        "m1.t0450",
+        "m1.t0453"
+      ],
+      "context_first_ref": "m1.t0412",
+      "context_last_ref": "m1.t0453",
+      "quote_matches_anchor": true
+    },
+    {
+      "local_key": "m2_investment_hesitation",
+      "individual_parser_check": "passed",
+      "error": null,
+      "proposition": "Emily described investment hesitation after extended sales conversations as a pattern she encounters in her own inquiries, while distinguishing self-directed work from hiring help.",
+      "quote": "I feel like I get so many of those kinds of leads that do the same thing.",
+      "anchor_refs": [
+        "m2.t0004",
+        "m2.t0006",
+        "m2.t0010",
+        "m2.t0014",
+        "m2.t0017"
+      ],
+      "context_first_ref": "m2.t0003",
+      "context_last_ref": "m2.t0017",
+      "quote_matches_anchor": true
+    },
+    {
+      "local_key": "m2_ads_and_downstream_funnel",
+      "individual_parser_check": "passed",
+      "error": null,
+      "proposition": "Whitney reported challenging an ad-only success measure when downstream sales from challenge signups were unproven, and recommended resolving the funnel question before treating low lead costs as sufficient value.",
+      "quote": "If they're not turning into sales for you regardless, like why are you spending the money to run the ads? Why are you paying us to run the ads?",
+      "anchor_refs": [
+        "m2.t0072",
+        "m2.t0077",
+        "m2.t0079",
+        "m2.t0085",
+        "m2.t0091",
+        "m2.t0093",
+        "m2.t0096",
+        "m2.t0099",
+        "m2.t0104",
+        "m2.t0108",
+        "m2.t0115"
+      ],
+      "context_first_ref": "m2.t0072",
+      "context_last_ref": "m2.t0115",
+      "quote_matches_anchor": true
+    },
+    {
+      "local_key": "m3_support_options_after_management",
+      "individual_parser_check": "passed",
+      "error": null,
+      "proposition": "When Kelly wanted to keep running ads but not continue proactive management, she preferred the offered pay-as-needed consultation option to a recurring support program.",
+      "quote": "Yeah, that probably would make more sense for me.",
+      "anchor_refs": [
+        "m3.t0008",
+        "m3.t0009",
+        "m3.t0011",
+        "m3.t0014",
+        "m3.t0018",
+        "m3.t0021",
+        "m3.t0022",
+        "m3.t0023",
+        "m3.t0026",
+        "m3.t0027",
+        "m3.t0028",
+        "m3.t0032"
+      ],
+      "context_first_ref": "m3.t0008",
+      "context_last_ref": "m3.t0032",
+      "quote_matches_anchor": true
+    },
+    {
+      "local_key": "m3_leadlock_pricing_guide_help",
+      "individual_parser_check": "passed",
+      "error": null,
+      "proposition": "A client asked for help with a specific LeadLock update, and Whitney demonstrated the relevant workflow while identifying additional routes for real-time support.",
+      "quote": "I don't really know how to use LeadLock",
+      "anchor_refs": [
+        "m3.t0033",
+        "m3.t0035",
+        "m3.t0038",
+        "m3.t0039",
+        "m3.t0043",
+        "m3.t0045",
+        "m3.t0046",
+        "m3.t0047",
+        "m3.t0051",
+        "m3.t0052",
+        "m3.t0053",
+        "m3.t0054",
+        "m3.t0061"
+      ],
+      "context_first_ref": "m3.t0033",
+      "context_last_ref": "m3.t0061",
+      "quote_matches_anchor": true
+    },
+    {
+      "local_key": "m4_realistic_ad_monitoring",
+      "individual_parser_check": "passed",
+      "error": null,
+      "proposition": "Whitney tailored a proposed monitoring routine to a time-constrained venue owner by separating spend limits from performance risk and explaining which account signals might justify closer investigation.",
+      "quote": "So I can at least see the amount, but I look at it, but I don't really know what it means.",
+      "anchor_refs": [
+        "m4.t0088",
+        "m4.t0093",
+        "m4.t0100",
+        "m4.t0111",
+        "m4.t0114",
+        "m4.t0122",
+        "m4.t0129",
+        "m4.t0141",
+        "m4.t0144",
+        "m4.t0154",
+        "m4.t0158",
+        "m4.t0164",
+        "m4.t0168",
+        "m4.t0169",
+        "m4.t0171",
+        "m4.t0175",
+        "m4.t0178"
+      ],
+      "context_first_ref": "m4.t0088",
+      "context_last_ref": "m4.t0179",
+      "quote_matches_anchor": true
+    },
+    {
+      "local_key": "m4_google_conversion_correction",
+      "individual_parser_check": "failed",
+      "error": "ValueError: Moment quote must match an existing anchor span",
+      "proposition": "During an account walkthrough, Whitney corrected a potentially misleading description of a tracked conversion: a book-a-tour page view was not a completed tour booking.",
+      "quote": "Um, or I guess this wouldn't be if they've actually booked the tour, this is them looking at the book a tour page.",
+      "anchor_refs": [
+        "m4.t0248",
+        "m4.t0253",
+        "m4.t0256",
+        "m4.t0259",
+        "m4.t0263",
+        "m4.t0266"
+      ],
+      "context_first_ref": "m4.t0248",
+      "context_last_ref": "m4.t0266",
+      "quote_matches_anchor": false,
+      "original_anchor_turns": [
+        {
+          "ref": "m4.t0248",
+          "text": "Whitney Hodges: So it's gonna tell us here. So these are all of your conversion actions, and it's basically things that people are doing on the website, right? So when they get to that first, uh, looks like your home page, right? The different buttons that are available to them for them to be able to click on."
+        },
+        {
+          "ref": "m4.t0253",
+          "text": "Whitney Hodges: Going to the contact page, so that the page view loading of the contact page, definitely important. Um, but then submitting a lead form also, right, where that's them actually inquiring with you."
+        },
+        {
+          "ref": "m4.t0256",
+          "text": "Whitney Hodges: Um, if they have booked a tour or not. Like, um, or I guess this wouldn't be if they've actually booked the tour, this is them looking at the book a tour page."
+        },
+        {
+          "ref": "m4.t0259",
+          "text": "Whitney Hodges: So you can see all of those items for both of these campaigns. And so the conversions column right here, this is the number of times within the given date range that those things are happening. Okay, so this is all time, right? So you're probably not going to want to look at it like that. You're probably going to want to look at it."
+        },
+        {
+          "ref": "m4.t0263",
+          "text": "Whitney Hodges: If you're checking on it weekly. So, I mean, all of I think all of these numbers look great. Right? Like, you know, 4 leads from, the Google ads, 4 people submitting the lead form, 13 people looking at the book a tour page."
+        },
+        {
+          "ref": "m4.t0266",
+          "text": "Whitney Hodges: Exactly. Mhmm. Yeah. Yeah. And you can see it, you know, kind of how it's it's different between the the two campaigns. So that's really what you're gonna wanna be looking at on the the Google ad side of things. Right? Are these conversions happening? Are people submitting the lead forms? Are they looking at the book a tour page? Like, those are gonna be your your highest level actions that could be happening."
+        }
+      ]
+    },
+    {
+      "local_key": "m5_accelerator_fit",
+      "individual_parser_check": "passed",
+      "error": null,
+      "proposition": "Whitney matched a self-directed venue couple who wanted to learn campaign setup with the described Accelerator support, rather than defaulting to full-service management.",
+      "quote": "but, like, where to put it to be most proactive is where I think we struggle.",
+      "anchor_refs": [
+        "m5.t0011",
+        "m5.t0015",
+        "m5.t0019",
+        "m5.t0023",
+        "m5.t0028",
+        "m5.t0032",
+        "m5.t0034",
+        "m5.t0037",
+        "m5.t0041",
+        "m5.t0043",
+        "m5.t0045",
+        "m5.t0047",
+        "m5.t0049",
+        "m5.t0065"
+      ],
+      "context_first_ref": "m5.t0011",
+      "context_last_ref": "m5.t0065",
+      "quote_matches_anchor": true
+    },
+    {
+      "local_key": "m5_campaign_attribution_diagnosis",
+      "individual_parser_check": "passed",
+      "error": null,
+      "proposition": "A client clarification changed the attribution diagnosis: a separate ads-only form could identify paid leads, while UTMs and hidden fields were proposed for campaign-level detail.",
+      "quote": "truthfully, we got leads, which was amazing. And they came in, but honestly, I don't know where they came from.",
+      "anchor_refs": [
+        "m5.t0096",
+        "m5.t0098",
+        "m5.t0101",
+        "m5.t0108",
+        "m5.t0111",
+        "m5.t0113",
+        "m5.t0119",
+        "m5.t0124",
+        "m5.t0126",
+        "m5.t0127",
+        "m5.t0128",
+        "m5.t0129",
+        "m5.t0131",
+        "m5.t0133"
+      ],
+      "context_first_ref": "m5.t0096",
+      "context_last_ref": "m5.t0133",
+      "quote_matches_anchor": true
+    },
+    {
+      "local_key": "m5_specialization_and_proposal_stage",
+      "individual_parser_check": "passed",
+      "error": null,
+      "proposition": "The prospects directly identified venue specialization and a peer community as reasons WIA seemed more relevant than local alternatives, while the conversation remained at proposal stage.",
+      "quote": "I think with you guys and being specialized in venues, it makes way more sense, um, just with the background and the community, too, if everybody's kind of in the same boat, for sure.",
+      "anchor_refs": [
+        "m5.t0229",
+        "m5.t0230",
+        "m5.t0231",
+        "m5.t0232",
+        "m5.t0233"
+      ],
+      "context_first_ref": "m5.t0229",
+      "context_last_ref": "m5.t0233",
+      "quote_matches_anchor": true
+    },
+    {
+      "local_key": "m6_brand_foundations_and_landing_pages",
+      "individual_parser_check": "passed",
+      "error": null,
+      "proposition": "Whitney and Emily connected foundational brand and website work to the effort of building an ad landing page and to the consistency a couple may encounter across the broader site.",
+      "quote": "And she did it in a day, right? Because, like, all of that, like, already existed.",
+      "anchor_refs": [
+        "m6.t0337",
+        "m6.t0338",
+        "m6.t0339",
+        "m6.t0342",
+        "m6.t0343",
+        "m6.t0344",
+        "m6.t0345",
+        "m6.t0347"
+      ],
+      "context_first_ref": "m6.t0337",
+      "context_last_ref": "m6.t0347",
+      "quote_matches_anchor": true
+    },
+    {
+      "local_key": "m6_multiple_audiences_site_structure",
+      "individual_parser_check": "passed",
+      "error": null,
+      "proposition": "Emily distinguished between audiences that may need their own service pages and cultural or stylistic distinctions that may be better conveyed through relevant messaging and imagery; Whitney connected that distinction to ad landing pages and campaigns.",
+      "quote": "I wouldn't necessarily say that you need, like, a separate page for, like, South Asian weddings.",
+      "anchor_refs": [
+        "m6.t0351",
+        "m6.t0354",
+        "m6.t0355",
+        "m6.t0356",
+        "m6.t0357",
+        "m6.t0358",
+        "m6.t0359",
+        "m6.t0360",
+        "m6.t0362",
+        "m6.t0366",
+        "m6.t0367",
+        "m6.t0368"
+      ],
+      "context_first_ref": "m6.t0351",
+      "context_last_ref": "m6.t0369",
+      "quote_matches_anchor": true
+    },
+    {
+      "local_key": "m6_brand_design_collaboration_process",
+      "individual_parser_check": "passed",
+      "error": null,
+      "proposition": "Emily described a staged brand-design process in which client preference and strategic fit are both checked before visual work proceeds, with revisions treated as normal collaboration.",
+      "quote": "do you like this? But then also do you think it works for your ideal clients?",
+      "anchor_refs": [
+        "m6.t0372",
+        "m6.t0373",
+        "m6.t0376",
+        "m6.t0378",
+        "m6.t0379",
+        "m6.t0380",
+        "m6.t0381",
+        "m6.t0382",
+        "m6.t0383",
+        "m6.t0384",
+        "m6.t0385"
+      ],
+      "context_first_ref": "m6.t0372",
+      "context_last_ref": "m6.t0385",
+      "quote_matches_anchor": true
+    },
+    {
+      "local_key": "m6_rebrand_lifespan_conditions",
+      "individual_parser_check": "passed",
+      "error": null,
+      "proposition": "Emily's estimate of brand longevity was conditional on continuity in the business name, target clients, and market tier; a meaningful repositioning could justify a refresh.",
+      "quote": "your brand should work for you for, like, 10 to 20 plus years.",
+      "anchor_refs": [
+        "m6.t0386",
+        "m6.t0388",
+        "m6.t0391",
+        "m6.t0392",
+        "m6.t0394",
+        "m6.t0397",
+        "m6.t0399"
+      ],
+      "context_first_ref": "m6.t0386",
+      "context_last_ref": "m6.t0399",
+      "quote_matches_anchor": true
+    },
+    {
+      "local_key": "m6_adjacent_search_intent",
+      "individual_parser_check": "failed",
+      "error": "ValueError: Moment quote must match an existing anchor span",
+      "proposition": "The exchange distinguished truthful promotion of an existing service in the context of adjacent wedding interests from implying that the business sells services it does not offer.",
+      "quote": "Um, so we wouldn't want you ranking to say, like, marquee lights available, and then people click on an ad and get there, and then they're not there",
+      "anchor_refs": [
+        "m6.t0403",
+        "m6.t0404",
+        "m6.t0408",
+        "m6.t0413",
+        "m6.t0417",
+        "m6.t0420",
+        "m6.t0426",
+        "m6.t0427",
+        "m6.t0429",
+        "m6.t0430",
+        "m6.t0431",
+        "m6.t0432",
+        "m6.t0434",
+        "m6.t0440",
+        "m6.t0442",
+        "m6.t0447",
+        "m6.t0450",
+        "m6.t0455",
+        "m6.t0458",
+        "m6.t0460",
+        "m6.t0461",
+        "m6.t0464",
+        "m6.t0474",
+        "m6.t0475",
+        "m6.t0476",
+        "m6.t0480",
+        "m6.t0482"
+      ],
+      "context_first_ref": "m6.t0403",
+      "context_last_ref": "m6.t0482",
+      "quote_matches_anchor": false,
+      "original_anchor_turns": [
+        {
+          "ref": "m6.t0403",
+          "text": "stlic: Yeah, we're kind of in a few different markets, like Austin, San Antonio are the primary market here, and then we just opened a shop in St. Louis, and we're, uh, expanding into Kansas City a little bit."
+        },
+        {
+          "ref": "m6.t0404",
+          "text": "stlic: But I struggle with like my ad spend because if people are searching for ice sculptures, I'm already at the top in most of the markets just naturally. But it's like, how do I branch out to end, you know, trends like last year was espresso martinis, this year is champagne towers."
+        },
+        {
+          "ref": "m6.t0408",
+          "text": "stlic: of competition, and I'm already showing up. But how do we expand that reach to people who don't know what they don't know, or are like, oh, I want a champagne tower at my wedding, because that's in…"
+        },
+        {
+          "ref": "m6.t0413",
+          "text": "stlic: Um, I don't really have an e-comm kind of product, so, like, the meta ads aren't really ideal either, because I just need so much information. So, how do I get to those clients, or what's the strategy about, hey, if you're searching for."
+        },
+        {
+          "ref": "m6.t0417",
+          "text": "stlic: We don't do that at all, no. I just… it's like, the mentality of that customer is like, hey, we wanna spice up our wedding, or our event, and…"
+        },
+        {
+          "ref": "m6.t0420",
+          "text": "stlic: we're gonna get flowers for sure, but, like, do all the table centerpieces need to be flowers? How do we get the… some ice in there? Or… I'm not trying to, like, undercut anybody else's business, or downplay their stuff, but…"
+        },
+        {
+          "ref": "m6.t0426",
+          "text": "Emily Foster: Um, there's, like, a lot of ways that you could go about it, so I think that the blogging strategy could be really useful here, or, like, frequently asked questions, so getting some organic content on your website that does mention keywords like marquee lights or champagne towers and things like that."
+        },
+        {
+          "ref": "m6.t0427",
+          "text": "Emily Foster: I say that with organic, because I feel like I'd want like Whitney or Daniela to say like I like. I am cautious about you running ads specifically to a page that is ranking for marquee lights, because I'm worried about that getting into like false advertising. But it is okay. If it's more like organic content, like, if you were to write a blog post that's like."
+        },
+        {
+          "ref": "m6.t0429",
+          "text": "Emily Foster: Um, but, like, we wouldn't want you ranking to say, like, marquee lights available, and then people click on an ad and get there, and then they're not there, because I feel like that could just get into, like, mostly legal issues in the future, um, or if anything, like, frustrated clients."
+        },
+        {
+          "ref": "m6.t0430",
+          "text": "Emily Foster: Um, so I think adjacent content that can work well, like doing some keyword research about those kinds of topics, um, and seeing, like, if they even rank well in your area, kind of thing, like, if it's worth the squeeze, um, to kind of, like, have those blog posts."
+        },
+        {
+          "ref": "m6.t0431",
+          "text": "Emily Foster: And then having tons of call to actions in the blog post that links out to your services or your options for purchasing the ice sculpture experiences. And then you could run ads to those blogs. That could be a strategy if you're already kind of maxing out what you're doing with landing pages around ice sculptures. You could run ads to blog posts that have that kind of supplemental content."
+        },
+        {
+          "ref": "m6.t0432",
+          "text": "Emily Foster: Um, and, like, have examples of how you work together with that. And then, just, like, another tip, kind of outside the whole, like, digital advertising or, like, digital online space, like, I think that you could also start collaborating with those companies if they don't already offer ice sculptures, but, like."
+        },
+        {
+          "ref": "m6.t0434",
+          "text": "Emily Foster: Um, or consider, like, creating a referral program with them, like, maybe you have, like, a special offer that you give to a local marquee light company if one of their clients books an ice sculpture."
+        },
+        {
+          "ref": "m6.t0440",
+          "text": "stlic: just identifying the trends and staying current with, like you said, probably the blog post kind of situation is probably gonna be my best bet there. yeah, it's just like I know people are searching for things. If they're searching for my things, we do have a pretty good closing rate on our like. If someone fills out a form to your point earlier."
+        },
+        {
+          "ref": "m6.t0442",
+          "text": "stlic: we're getting more qualified leads is, you know, and that's the thing, like, oh, when we did Meta stuff, we'd get a ton of leads, but they were all ghosts. And how much time do you spend on tracking that down versus, like, no, you have to fill out this lengthy form."
+        },
+        {
+          "ref": "m6.t0447",
+          "text": "Emily Foster: Yeah, and it's not going to be the same for every market, um, but yeah, I would say, like, getting into the head of their pain points and finding keywords related to that in your area. So maybe it is, like, wedding decor in San Antonio, or, like, Austin, um, wedding reception ideas, and, like."
+        },
+        {
+          "ref": "m6.t0450",
+          "text": "Emily Foster: So it kind of organically gets those keywords on your site without you having like a dedicated page for a service that's not yours. But definitely thinking about like the pain points, like you basically just said that, but then doing the keyword research there and you could use tools like Moz or Ubersuggest."
+        },
+        {
+          "ref": "m6.t0455",
+          "text": "Whitney Hodges: Yeah, I think that was really good advice, Emily, and I'm not sure on your end, like, on the more organic side, how much you see Pinterest playing into the blogging strategy as well, like, if it makes sense that he's gonna, like, be kind of, like, creating blog posts that are dedicated to these, like, wedding decor trends."
+        },
+        {
+          "ref": "m6.t0458",
+          "text": "Emily Foster: Yeah, I think put it everywhere. Yeah, Pinterest is a great way. And then like, that's another great place. I might have mentioned this when we were talking about blog strategy, but having tons of pictures of ice sculptures with these kind of adjacent services, like even if it is like you had a wedding and, you know, a marquee light company has their lights in the background, that's okay to use a picture like that."
+        },
+        {
+          "ref": "m6.t0460",
+          "text": "Emily Foster: Um, but then having the pins do that, and then you can also continue sharing, like, on your stories, and create organic content, like, through Instagram and TikTok and Facebook, and, um, basically, like, promote it that way. And I also, I don't think that you're getting into dangerous territory of, like, false advertising if you have an ad."
+        },
+        {
+          "ref": "m6.t0461",
+          "text": "Emily Foster: like, where all of the messaging is focused on ice sculptures, but then you kind of… like, let's say you have, like, a reception table, and there's, like, an ice sculpture, and then a champagne tower next to it. Like, it's not like you're selling the champagne tower, but the overall image of that."
+        },
+        {
+          "ref": "m6.t0464",
+          "text": "stlic: Yeah, or just like, oh, you're considering marquee lights, also maybe consider an ice sculpture to make the impact you're looking for, where it's like…"
+        },
+        {
+          "ref": "m6.t0474",
+          "text": "Emily Foster: Yeah, I feel like a great way to think about it, like, a good analogy for this is, like, the way that Oreos basically uses milk to sell their product, but it's, like, just thinking, like, in your ads creative about, like, how can you make, like, the marquee lights or the champagne tower, like, the milk in the background kind of experience of, like, oh, if you're going to have this thing anyway."
+        },
+        {
+          "ref": "m6.t0475",
+          "text": "Emily Foster: then you can also buy this other thing that pairs really well with it. So kind of, like, that complimentary advertising."
+        },
+        {
+          "ref": "m6.t0476",
+          "text": "Whitney Hodges: Yeah. Yeah. Kristi mentioned things that are IG-worthy, eye sculptures, lighting, eye-catching things. So, I mean, there definitely is an area of opportunity with the meta ads. It's just that, you know, that strategy does have to be a little bit more in-depth than, like."
+        },
+        {
+          "ref": "m6.t0480",
+          "text": "Whitney Hodges: somebody who's coming in cold just thinking about an ice sculpture for the first time, they're not gonna be ready to send out fill out that form of your Sean that somebody who's, like, super qualified, like, ready to go would be. Right? So there would have to be those touch points in between of the email marketing or text message marketing, things that are really nurturing them and and kind of."
+        },
+        {
+          "ref": "m6.t0482",
+          "text": "Emily Foster: Yeah, yeah, and that blog and Pinterest content is a great way to, like, warm up too, like, because you can always, like, have that kind of part of your, like, inquiry or sales funnel too."
+        }
+      ]
+    },
+    {
+      "local_key": "m6_followup_capacity_and_nurture",
+      "individual_parser_check": "passed",
+      "error": null,
+      "proposition": "In response to concerns about low-readiness leads, labor, and spammy automation, Whitney recommended useful, sustained nurture rather than repeated generic check-ins, while making duration dependent on the event and buying timeline.",
+      "quote": "Automating felt kind of spammy, and was hard to track responses to",
+      "anchor_refs": [
+        "m6.t0485",
+        "m6.t0486",
+        "m6.t0492",
+        "m6.t0493",
+        "m6.t0494",
+        "m6.t0495",
+        "m6.t0497",
+        "m6.t0499",
+        "m6.t0500",
+        "m6.t0502",
+        "m6.t0504",
+        "m6.t0505",
+        "m6.t0506",
+        "m6.t0507",
+        "m6.t0508"
+      ],
+      "context_first_ref": "m6.t0485",
+      "context_last_ref": "m6.t0508",
+      "quote_matches_anchor": true
+    }
+  ]
+}

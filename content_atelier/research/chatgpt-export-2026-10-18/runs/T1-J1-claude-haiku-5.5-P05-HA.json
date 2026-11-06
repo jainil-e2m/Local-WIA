@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J1-claude-haiku-5.5-P05-HA",
+  "model": "anthropic/claude-haiku-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 16202,
+  "completion_tokens": 346,
+  "cached_tokens": 15842,
+  "cost": 0.00036742,
+  "seconds": 3.2,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "4bac0c1a5a20"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 4,
+  "reason": "Version A has a grammatical error ('you don't lead volume problem'), so it can't go out as written, while Version B is clean and clear and fits Whitney's grounded, clarity-first voice."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: threads\n\nVersion A:\nHere’s your reality check: Look at your last 3 months of inquiries.\nWhat’s your main lead source?\nIf it’s word of mouth, you don’t lead volume problem.\nYou have a marketing strategy problem — because couples who haven't heard of you can't find you.\n\nVersion B:\nHere’s your reality check: Look at your last 3 months of inquiries.  \nWhat’s your main lead source?  \nIf it’s word of mouth, you don’t have a “sales” problem.  \nYou have a visibility problem — because you’re invisible to couples who don’t already know you.",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

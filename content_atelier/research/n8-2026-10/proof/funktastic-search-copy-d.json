@@ -1,0 +1,51 @@
+{
+ "k": 10,
+ "results": [
+  {
+   "id": "f01",
+   "query": "a client's DJ business went from about seventeen events last year to ninety this year",
+   "found": true,
+   "hits": [
+    {
+     "rank": 2,
+     "kind": "chunk",
+     "matched_by": [
+      "semantic"
+     ],
+     "id": "chunk_561ce20815423ac1ce663076"
+    }
+   ],
+   "vector": null
+  },
+  {
+   "id": "f02",
+   "query": "the client says everything runs automatically so she never has to do manual work",
+   "found": false,
+   "hits": [],
+   "vector": null
+  },
+  {
+   "id": "f03",
+   "query": "weddings booked from ad leads without any outreach, just through automated follow-up",
+   "found": false,
+   "hits": [],
+   "vector": null
+  },
+  {
+   "id": "f04",
+   "query": "couples on calls say they found the business by seeing it on Instagram",
+   "found": false,
+   "hits": [],
+   "vector": null
+  },
+  {
+   "id": "f05",
+   "query": "leads come in automatically and turn into booked consultation calls",
+   "found": false,
+   "hits": [],
+   "vector": null
+  }
+ ],
+ "found": 1,
+ "scenes": 5
+}

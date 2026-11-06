@@ -1,0 +1,44 @@
+[
+  {
+    "local_key": "m1-market-research-survey-proposal-workflow",
+    "disposition": "INTERNAL",
+    "moment_keys": [
+      "m1-market-research-survey-proposal"
+    ],
+    "evidence_refs": [
+      "m1.t0565",
+      "m1.t0569",
+      "m1.t0573",
+      "m1.t0577",
+      "m1.t0595",
+      "m1.t0598",
+      "m1.t0603"
+    ],
+    "summary": "Whitney proposes helping full-service clients create surveys in LeadLock, with clients responsible for sending or tagging them and responses routed to a shared spreadsheet for possible use in advertising copy and landing pages. The conversation also raises possible client value and a potential differentiator.",
+    "disposition_reason": "This is useful product and delivery intelligence, but the exchange describes a proposal, not an implemented workflow, validated feature, or verified differentiator. Keep it internal until its status and current product scope are checked.",
+    "proposed_reframe": null,
+    "retrieval_needs": [
+      {
+        "question": "Was this survey workflow built, offered, or adopted, and what does the current LeadLock setup support?",
+        "known_refs": [
+          "m1.t0569",
+          "m1.t0573",
+          "m1.t0595",
+          "m1.t0598"
+        ],
+        "needed_segment_or_record": "Dated implementation notes or current LeadLock workflow documentation, with client records if making an adoption claim.",
+        "resolution_condition": "Keep it described only as a proposal unless a dated record verifies implementation; support any adoption or impact claim separately."
+      },
+      {
+        "question": "Is the workflow a differentiator relative to other available services?",
+        "known_refs": [
+          "m1.t0603",
+          "m1.t0606"
+        ],
+        "needed_segment_or_record": "Current, substantiated competitor or market research.",
+        "resolution_condition": "Do not claim market uniqueness without evidence that supports the comparison."
+      }
+    ],
+    "internal_use": "Route to product and delivery review to verify feasibility, client responsibilities, and whether the idea was later implemented. Do not present it as current LeadLock functionality based on this exchange."
+  }
+]

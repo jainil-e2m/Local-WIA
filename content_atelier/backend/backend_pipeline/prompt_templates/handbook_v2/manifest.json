@@ -1,0 +1,18 @@
+{
+  "profile": "2026-10-13.wia-handbook.v2-test",
+  "source_proposal": "research/2026-10-13-handbook-system-prompts-proposal.md",
+  "previous_prompts_inactive": true,
+  "production_default_changed": false,
+  "templates": {
+    "moment_extraction": {
+      "previous_sha256": "89c0477fb4f01b8e81a6fc80a441cb8d33b9a86874ddd63dc5bd21fdce4f34af",
+      "active_sha256": "d5faf14d6adf72263ef5adf0b892aa1e69b98abff773a1858c28e67de02a5f71",
+      "path": "content_atelier\\backend\\backend_pipeline\\prompt_templates\\handbook_v2\\moment_extraction.system.md"
+    },
+    "angle_generation": {
+      "previous_sha256": "fd09d604ebdbd2b6e648c777f4e727b628fe1539e1599ebba6b24cc5901bc874",
+      "active_sha256": "691e798f5d649695fafee3ce160f04a97b9034fce34269c8a6fc5ff721afb09f",
+      "path": "content_atelier\\backend\\backend_pipeline\\prompt_templates\\handbook_v2\\angle_generation.system.md"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J1-claude-haiku-5.5-P06-AH",
+  "model": "anthropic/claude-haiku-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 16498,
+  "completion_tokens": 131,
+  "cached_tokens": 15842,
+  "cost": 0.00028952,
+  "seconds": 1.5,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "81b8d854c815"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 4,
+  "reason": "Version A's horror-movie metaphors ('haunted houses', 'final girl', 'woods') clash with Whitney's calm, grounded, non-performative voice and banned-style flourishes, while Version B delivers the same strategic points clearly and calmly, though its 'killing it' phrasing is slightly hype-leaning."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: email\n\nVersion A:\n**Build on solid ground (no haunted houses here)**  \nYour campaign is only as strong as your destination URL. Make sure your website or landing page is built to convert.  \n\n⏱️ **Follow up like a final girl**  \nInquiries are great, but bookings are better. Respond within minutes, not hours. Automation helps—but personalization seals the deal.  \n\n🗺️ **Don’t go into the woods without a map**  \nSmart keyword strategy and campaign structure matter more than a huge budget.  \n\n📊 **Data is your lifeline—don’t ignore the signs**  \nRead it, respond to it, refine your ads. That’s how you turn “meh” into momentum.\n\nVersion B:\nHere’s how wedding professionals are killing it right now with Google Ads (and you can, too!):\n\nStart with the right foundation.\n\nYour campaign is only as strong as your destination url. Make sure your website or landing page is built to convert.\n\nHave a seamless follow‑up system.\n\nInquiries are good, but bookings are better. Speed matters. Following up within minutes (not hours) can dramatically increase your bookings. Automation helps, but personalization seals the deal.\n\nBuild your campaigns the right way.\n\nFrom keyword research to campaign structure, a strong setup is everything. You don’t need a massive budget; you just need a smart strategy.\n\nKnow what to look for.\n\nData is your lifeline. Learn how to read it, respond to it, and refine your ads for better performance over time.",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

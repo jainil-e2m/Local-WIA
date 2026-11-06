@@ -1,0 +1,97 @@
+{
+  "parent_run": "week2-luna-pro-strategic-20261013-a1",
+  "angle_run": "week2-luna-pro-strategic-angles-20261013-a2",
+  "replay_run": "week2-luna-pro-strategic-angles-20261013-r1",
+  "status": "partial",
+  "transcript_count": 11,
+  "source_turn_count": 5218,
+  "extraction_proposals": 7,
+  "validated_moments": 5,
+  "rejected_moments": 2,
+  "public_candidates": 4,
+  "internal_insights": 1,
+  "purpose_counts": {
+    "WARM": 4
+  },
+  "optional_decisions_null": 4,
+  "quality_scores": {
+    "angle_1d20dd133d5492c950608290": 80.0,
+    "angle_909fed86bedc54a9a9394ced": 80.0,
+    "angle_146af3866389568e9faefe5b": 80.0,
+    "angle_ee8bbb50f26500a7b3b6accd": 80.0
+  },
+  "model_receipts": [
+    {
+      "stage": "moment_extraction",
+      "requested_model": "openai/gpt-6-luna-pro",
+      "returned_model": "openai/gpt-6-luna-pro",
+      "provider": "OpenAI",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 540032,
+        "completion_tokens": 11801,
+        "total_tokens": 551833,
+        "cost": 0.09423364,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 174027,
+          "cache_write_tokens": 174027,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.09423364,
+          "upstream_inference_prompt_cost": 0.08538289,
+          "upstream_inference_completions_cost": 0.00885075
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 1156,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "stage": "angle_generation",
+      "requested_model": "openai/gpt-6-luna-pro",
+      "returned_model": "openai/gpt-6-luna-pro",
+      "provider": "OpenAI",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 361190,
+        "completion_tokens": 9042,
+        "total_tokens": 370232,
+        "cost": 0.0579784,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 116895,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0579784,
+          "upstream_inference_prompt_cost": 0.0511969,
+          "upstream_inference_completions_cost": 0.0067815
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 315,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    }
+  ],
+  "actual_paid_dispatches": 2,
+  "total_reported_cost_usd": 0.15221204,
+  "replay_outputs_identical": true,
+  "replay_cost_usd": 0.0,
+  "raw_source_hashes_match": true,
+  "supplied_key_value_hits": 0,
+  "artifact_json_files_scanned": 40,
+  "parent_remains_failed": true,
+  "human_approved": false,
+  "embedding_requests": 0,
+  "model_history_similarity": "not_run",
+  "candidate_hash": "44ec44a1d80512ff83049db75e92eb969c403f4a11a25124d033ed7025f28770"
+}

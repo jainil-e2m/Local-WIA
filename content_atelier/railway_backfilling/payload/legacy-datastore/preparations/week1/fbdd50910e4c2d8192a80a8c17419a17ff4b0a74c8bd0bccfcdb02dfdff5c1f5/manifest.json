@@ -1,0 +1,58 @@
+{
+  "created_at_utc": "2026-10-08T06:44:44.755088+00:00",
+  "fingerprint": "fbdd50910e4c2d8192a80a8c17419a17ff4b0a74c8bd0bccfcdb02dfdff5c1f5",
+  "preparation_version": "2026-10-08.lossless-weekly-preparation.v1",
+  "prompt_profile": "2026-10-08.weekly-compact-preparation.v1",
+  "status": "prepared_locally_not_sent",
+  "sources": [
+    {
+      "meeting_ref": "m1",
+      "source_id": "zoom:83a2b16809037f5c",
+      "raw_sha256": "7ef308fc2fd17d5b4c8e5e2f158d281dc4ee32769072ac8d22c55d6a77a6b525"
+    },
+    {
+      "meeting_ref": "m2",
+      "source_id": "zoom:571b0b214a2a5aae",
+      "raw_sha256": "3382737d3e54102858ebca801caaddb54eafd291e75eb028a71f77bd26060008"
+    },
+    {
+      "meeting_ref": "m3",
+      "source_id": "zoom:86678f3ddc1adcf1",
+      "raw_sha256": "5c79276bf75415f1a4742b4dc1f7501a53bfe93cffd88d602fb07670554d36cf"
+    },
+    {
+      "meeting_ref": "m4",
+      "source_id": "zoom:3eefc277b0608edd",
+      "raw_sha256": "ded203fa9cf3bc92841b8b451306c90dd1adacae0322f224021e6338705e3ea9"
+    },
+    {
+      "meeting_ref": "m5",
+      "source_id": "zoom:f7005fd702be92f4",
+      "raw_sha256": "055b13d6b99c50bb51ccb83d5b908cd2e562e40e391e5c1c45d1de27e93a416e"
+    },
+    {
+      "meeting_ref": "m6",
+      "source_id": "zoom:7f758bb6ff1733d4",
+      "raw_sha256": "f5d88ee626756cd46f82c0fd41f956c5337991c37634a9e1b6d4d88e77162f78"
+    },
+    {
+      "meeting_ref": "m7",
+      "source_id": "zoom:c9edb60e8d985185",
+      "raw_sha256": "671bed19d2289f6f70fda05d415a2a2c6efebcb41bc5d47af1194d566f8e02d0"
+    },
+    {
+      "meeting_ref": "m8",
+      "source_id": "zoom:1c75dfc72e4b3ac8",
+      "raw_sha256": "e6e8b9d0063f7f2569d43bb6933bc8cd670ea9bd63950eefb8d6b63d9ad21f67"
+    },
+    {
+      "meeting_ref": "m9",
+      "source_id": "zoom:d9f9129c096b3af1",
+      "raw_sha256": "bc9f23d3f2ea29eb51352d416d60b4cbfea01da71039dfd86d019587d57323d8"
+    }
+  ],
+  "private_artifacts": true,
+  "token_report": "token_report.json",
+  "metadata_warning": "Zoom meeting dates/day/timezones/source-confirmed names have not been supplied",
+  "no_credentials_loaded": true
+}

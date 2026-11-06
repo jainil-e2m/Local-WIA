@@ -1,0 +1,174 @@
+{
+  "report_run_id": "run_f92042c802f84d8a9a1401a460cb0f55",
+  "currency": "USD",
+  "recorded_at_utc": "2026-10-12T10:18:33.648491+00:00",
+  "stages": [
+    {
+      "stage": "moment_extraction",
+      "status": "recorded",
+      "attempt_count": 1,
+      "dispatched_count": 1,
+      "reused_count": 0,
+      "known_reported_new_cost_usd": 0.023618175,
+      "new_cost_usd": 0.023618175,
+      "all_new_costs_known": true,
+      "calls": [
+        {
+          "report_run_id": "run_f92042c802f84d8a9a1401a460cb0f55",
+          "mode": "live",
+          "stage": "moment_extraction",
+          "requested_model_id": "openai/gpt-6-luna",
+          "request_fingerprint": "024e8c10797e4684e26c021068434c3d13e8de27fe4e5fe43d2bd2b8f84e88a6",
+          "artifact_id": "artifact_914b19e854ff4fdb",
+          "validation_status": "validated",
+          "request_path": "service_calls/024e8c10797e4684e26c021068434c3d13e8de27fe4e5fe43d2bd2b8f84e88a6/attempts/artifact_914b19e854ff4fdb/request.json",
+          "raw_response_path": "service_calls/024e8c10797e4684e26c021068434c3d13e8de27fe4e5fe43d2bd2b8f84e88a6/attempts/artifact_914b19e854ff4fdb/response.raw.json",
+          "currency": "USD",
+          "recorded_at_utc": "2026-10-12T09:55:01.471653+00:00",
+          "dispatched": true,
+          "reused": false,
+          "generation_id": "gen-1791798848-eLnHVGObrxTtUNacmkKp",
+          "returned_model_id": "openai/gpt-6-luna",
+          "provider": "OpenAI",
+          "usage": {
+            "prompt_tokens": 172578,
+            "completion_tokens": 4092,
+            "total_tokens": 176670,
+            "cost": 0.023618175,
+            "is_byok": false,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 172575,
+              "audio_tokens": 0,
+              "video_tokens": 0
+            },
+            "cost_details": {
+              "upstream_inference_cost": 0.023618175,
+              "upstream_inference_prompt_cost": 0.021572175,
+              "upstream_inference_completions_cost": 0.002046
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 388,
+              "image_tokens": 0,
+              "audio_tokens": 0
+            }
+          },
+          "original_reported_cost_usd": 0.023618175,
+          "new_cost_usd": 0.023618175,
+          "cost_status": "reported",
+          "cost_source": "provider_usage.cost",
+          "credit_purchase_fees_included": false
+        }
+      ]
+    },
+    {
+      "stage": "angle_generation",
+      "status": "recorded",
+      "attempt_count": 1,
+      "dispatched_count": 1,
+      "reused_count": 1,
+      "known_reported_new_cost_usd": 0.00912755,
+      "new_cost_usd": 0.00912755,
+      "all_new_costs_known": true,
+      "calls": [
+        {
+          "report_run_id": "run_f92042c802f84d8a9a1401a460cb0f55",
+          "mode": "live",
+          "stage": "angle_generation",
+          "requested_model_id": "openai/gpt-6-luna",
+          "request_fingerprint": "997e6db45e5e567ac490d4c4727c482ab8999bbf2e5e76ff13716a4da3aa027a",
+          "artifact_id": "artifact_6d9ea19decb744f0",
+          "validation_status": "failed",
+          "request_path": "service_calls/997e6db45e5e567ac490d4c4727c482ab8999bbf2e5e76ff13716a4da3aa027a/attempts/artifact_6d9ea19decb744f0/request.json",
+          "raw_response_path": "service_calls/997e6db45e5e567ac490d4c4727c482ab8999bbf2e5e76ff13716a4da3aa027a/attempts/artifact_6d9ea19decb744f0/response.raw.json",
+          "currency": "USD",
+          "recorded_at_utc": "2026-10-12T09:55:46.420682+00:00",
+          "dispatched": true,
+          "reused": false,
+          "generation_id": "gen-1791798894-6NYOekbnnQJpftpROJfF",
+          "returned_model_id": "openai/gpt-6-luna",
+          "provider": "OpenAI",
+          "usage": {
+            "prompt_tokens": 53981,
+            "completion_tokens": 4760,
+            "total_tokens": 58741,
+            "cost": 0.00912755,
+            "is_byok": false,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 53978,
+              "audio_tokens": 0,
+              "video_tokens": 0
+            },
+            "cost_details": {
+              "upstream_inference_cost": 0.00912755,
+              "upstream_inference_prompt_cost": 0.00674755,
+              "upstream_inference_completions_cost": 0.00238
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 90,
+              "image_tokens": 0,
+              "audio_tokens": 0
+            }
+          },
+          "original_reported_cost_usd": 0.00912755,
+          "new_cost_usd": 0.00912755,
+          "cost_status": "reported",
+          "cost_source": "provider_usage.cost",
+          "credit_purchase_fees_included": false
+        },
+        {
+          "report_run_id": "run_f92042c802f84d8a9a1401a460cb0f55",
+          "mode": "live",
+          "stage": "angle_generation",
+          "requested_model_id": "openai/gpt-6-luna",
+          "request_fingerprint": "997e6db45e5e567ac490d4c4727c482ab8999bbf2e5e76ff13716a4da3aa027a",
+          "artifact_id": "artifact_citations_b0f4a4ab9a34de77",
+          "original_run_id": "run_f92042c802f84d8a9a1401a460cb0f55",
+          "validation_status": "reused_validated",
+          "currency": "USD",
+          "recorded_at_utc": "2026-10-12T10:18:33.648491+00:00",
+          "dispatched": false,
+          "reused": true,
+          "generation_id": "gen-1791798894-6NYOekbnnQJpftpROJfF",
+          "returned_model_id": "openai/gpt-6-luna",
+          "provider": "OpenAI",
+          "usage": {
+            "prompt_tokens": 53981,
+            "completion_tokens": 4760,
+            "total_tokens": 58741,
+            "cost": 0.00912755,
+            "is_byok": false,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 53978,
+              "audio_tokens": 0,
+              "video_tokens": 0
+            },
+            "cost_details": {
+              "upstream_inference_cost": 0.00912755,
+              "upstream_inference_prompt_cost": 0.00674755,
+              "upstream_inference_completions_cost": 0.00238
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 90,
+              "image_tokens": 0,
+              "audio_tokens": 0
+            }
+          },
+          "original_reported_cost_usd": 0.00912755,
+          "new_cost_usd": 0.0,
+          "cost_status": "reused_no_new_charge",
+          "cost_source": "provider_usage.cost",
+          "credit_purchase_fees_included": false
+        }
+      ]
+    }
+  ],
+  "known_reported_new_cost_usd": 0.032745725,
+  "total_new_cost_usd": 0.032745725,
+  "all_new_costs_known": true,
+  "reasoning_is_included_in_completion_tokens": true,
+  "original_reused_usage_is_not_new_billing": true,
+  "credit_purchase_fees_included": false
+}

@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J1-gpt-6-luna-P36-HA",
+  "model": "openai/gpt-6-luna",
+  "provider": "OpenAI",
+  "effort": null,
+  "prompt_tokens": 9921,
+  "completion_tokens": 87,
+  "cached_tokens": 9834,
+  "cost": 0.00015264,
+  "seconds": 2.8,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "eb91c0ea0658"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 5,
+  "reason": "It clearly summarizes the follow-up system without the awkward wording and absolute promise in A."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: caption\n\nVersion A:\n-email and text sequence to guide every leads towards booking a tour or consultation\n-pre-consultation reminders and nurturing to pre-sell every appointment\n-post-consultation reminder sequence because not every lead will be ready to make a decision on the spot\n\nVersion B:\n- inquiry -> consultation booking\n- pre-consultation nurturing\n- post-consultation follow-up",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

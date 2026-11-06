@@ -1,0 +1,212 @@
+{
+ "statements": [
+  {
+   "piece": "email",
+   "text": "Carmen, our Google Ads lead, was going through a venue client's recent searches with a member of their team when another venue's name came up.",
+   "verdict": "supported",
+   "source": "Carmen, our Google Ads lead, was looking through the searches with someone from the venue's team.",
+   "why": "Matches the brief's scene."
+  },
+  {
+   "piece": "email",
+   "text": "Her usual position on searches like that is to leave them in.",
+   "verdict": "supported",
+   "source": "ev_28a85fcadf1de2f38599a19b",
+   "why": "Carmen said her default is to leave competitors in."
+  },
+  {
+   "piece": "email",
+   "text": "\"my default is always, like, just leave competitors in.\"",
+   "verdict": "supported",
+   "source": "ev_28a85fcadf1de2f38599a19b",
+   "why": "Matches the evidence word for word, with only filler dropped."
+  },
+  {
+   "piece": "email",
+   "text": "The team member agreed, and she explained why it made sense for their venue.",
+   "verdict": "unsupported",
+   "source": "ev_760275f484a2098ab4b0dadc",
+   "why": "The brief says the team member explained that couples had considered the nearby venue. It does not say she agreed with Carmen's default. Her 'I think it's fine' was about a much larger venue and was given a price reason, not the stated comparison."
+  },
+  {
+   "piece": "email",
+   "text": "Couples had considered that nearby venue as well as theirs. Those couples were comparing the two.",
+   "verdict": "supported",
+   "source": "Those couples could be looking at both venues.",
+   "why": "Matches the brief's claims."
+  },
+  {
+   "piece": "email",
+   "text": "\"Okay, good to know,\" Carmen said.",
+   "verdict": "supported",
+   "source": "ev_a824a517e71b4a8a11ad087a",
+   "why": "Quote matches the evidence, and the brief says Carmen acknowledged the context."
+  },
+  {
+   "piece": "email",
+   "text": "Later in the review, a different venue came up. This time the team member placed it in a different market and didn't see its couples considering their venue at all. Carmen agreed that one should be excluded.",
+   "verdict": "supported",
+   "source": "Carmen agreed with excluding it.",
+   "why": "Matches the brief, and Carmen's agreement is kept as a recommendation."
+  },
+  {
+   "piece": "email",
+   "text": "So the same review produced two venue names and two different recommendations.",
+   "verdict": "supported",
+   "source": "The local context supported a different recommendation within the same review.",
+   "why": "Matches the brief."
+  },
+  {
+   "piece": "email",
+   "text": "We bring the advertising expertise, and we take responsibility for the call.",
+   "verdict": "supported",
+   "source": "\"I don't want to skirt around that. I want to own it\"",
+   "why": "Matches WIA's belief statements on ownership of results."
+  },
+  {
+   "piece": "email",
+   "text": "our Google Search Accelerator was built for: we build and launch your campaigns, and you run them with our experts beside you.",
+   "verdict": "supported",
+   "source": "offer_descriptors: Ads Accelerators",
+   "why": "Matches an approved descriptor. It does not claim this client joined an Accelerator."
+  },
+  {
+   "piece": "reel_1",
+   "text": "Our Google Ads lead, Carmen, was reviewing a venue client's Google Ads searches recently, and two competing venues came up with two very different answers.",
+   "verdict": "supported",
+   "source": "Carmen reviewed other venue names in a client's Google Ads.",
+   "why": "Matches the brief; 'recently' is allowed."
+  },
+  {
+   "piece": "reel_1",
+   "text": "And when the first one came up, someone from the client's team agreed with her.",
+   "verdict": "unsupported",
+   "source": "The team member explained that couples had considered a nearby venue as well as theirs.",
+   "why": "The brief has the team member supplying context, not agreeing with Carmen. It changes who did what."
+  },
+  {
+   "piece": "reel_1",
+   "text": "She said couples had actually considered that nearby venue as well as theirs.",
+   "verdict": "supported",
+   "source": "The client's team knew couples had considered one nearby venue as well as theirs.",
+   "why": "Matches the brief."
+  },
+  {
+   "piece": "reel_1",
+   "text": "Then a different venue came up... the team member explained that one was in a different market, and she didn't see those couples considering their venue. Carmen agreed that one should be excluded.",
+   "verdict": "supported",
+   "source": "The client's team identified it as being in a separate market and didn't see its couples considering their venue as an alternative.",
+   "why": "Matches the brief."
+  },
+  {
+   "piece": "reel_1",
+   "text": "So we want the data and that local knowledge in the same conversation before we make a recommendation. And then we own that recommendation.",
+   "verdict": "supported",
+   "source": "We weren't treating every other venue as an interchangeable competitor, and the local explanation had a place in Carmen's judgment.",
+   "why": "A statement of how WIA works, consistent with the beliefs."
+  },
+  {
+   "piece": "reel_1",
+   "text": "In a recent review, Carmen... went through those searches with a member of a venue client's team. One competing venue was a place their couples had genuinely weighed alongside them, so leaving it in made sense. Another belonged to a different market, and Carmen agreed that one should be excluded.",
+   "verdict": "supported",
+   "source": "During a venue's Google Ads review, the client's team explained why a competing venue's name made sense there.",
+   "why": "Matches the brief."
+  },
+  {
+   "piece": "reel_2",
+   "text": "Our Google Ads lead found two competing venues in a client's search terms.",
+   "verdict": "supported",
+   "source": "Carmen reviewed other venue names in a client's Google Ads.",
+   "why": "Matches the brief."
+  },
+  {
+   "piece": "reel_2",
+   "text": "Their team knew couples had weighed one of them alongside their own venue.",
+   "verdict": "supported",
+   "source": "The client's team knew couples had considered one nearby venue as well as theirs.",
+   "why": "Matches the brief."
+  },
+  {
+   "piece": "reel_2",
+   "text": "The other served a different market. Carmen agreed it should be excluded.",
+   "verdict": "supported",
+   "source": "Screen distinguishes the other market and states Carmen's agreement, not a completed exclusion.",
+   "why": "Matches the brief."
+  },
+  {
+   "piece": "reel_2",
+   "text": "For another, they explained it served a different market, with couples who weren't looking at them. Carmen agreed that the second one should be excluded.",
+   "verdict": "supported",
+   "source": "Carmen agreed with excluding it.",
+   "why": "Matches the brief."
+  },
+  {
+   "piece": "reel_2",
+   "text": "The account surfaced both names. The client's team explained how each one related to their couples, and that's what shaped two different recommendations.",
+   "verdict": "supported",
+   "source": "The account brought the names into the discussion; the client's team explained the relationship between those places and their couples.",
+   "why": "Matches the brief."
+  },
+  {
+   "piece": "carousel",
+   "text": "Our Google Ads lead, Carmen, was going through a venue client's search terms with a member of their team. Competing venue names kept coming up. Her usual approach with those: leave them in.",
+   "verdict": "supported",
+   "source": "ev_28a85fcadf1de2f38599a19b",
+   "why": "Matches the brief and Carmen's quote."
+  },
+  {
+   "piece": "carousel",
+   "text": "When the first nearby venue came up, the team member agreed it should stay.",
+   "verdict": "unsupported",
+   "source": "The team member explained that couples had considered a nearby venue as well as theirs.",
+   "why": "The sources do not say the team member agreed it should stay, and the evidence has no such decision. It adds a decision."
+  },
+  {
+   "piece": "carousel",
+   "text": "Couples had considered that place as well as theirs. Those couples were genuinely comparing the two.",
+   "verdict": "supported",
+   "source": "The client's team supplied the local context: which venue had been part of couples' consideration",
+   "why": "Matches the brief."
+  },
+  {
+   "piece": "carousel",
+   "text": "Then a different venue came up. This time the team member placed it in a separate market, with couples who wouldn't be looking at their venue. Carmen agreed that one should be excluded.",
+   "verdict": "supported",
+   "source": "Later in the discussion, they identified another venue as serving a different market, without the same overlap.",
+   "why": "Matches the brief."
+  },
+  {
+   "piece": "carousel",
+   "text": "Want to keep running your own Google Ads with an expert beside you? ... We launch your campaigns, then guide you while you run them",
+   "verdict": "supported",
+   "source": "offer_descriptors: Ads Accelerators",
+   "why": "Matches an approved descriptor."
+  },
+  {
+   "piece": "carousel",
+   "text": "Prefer us to manage your ads for you? We do that too.",
+   "verdict": "supported",
+   "source": "offer_descriptors: ELEVATE",
+   "why": "Matches the ELEVATE done-for-you descriptor key phrases."
+  },
+  {
+   "piece": "carousel",
+   "text": "They hear which other venues couples toured last month, which ones felt out of budget and which ones never made the list.",
+   "verdict": "guardrail",
+   "source": "before_publishing: do_not_claim (price comparisons)",
+   "why": "'Felt out of budget' hints at price or affordability comparisons, which are kept out. The reference to tours last month also adds detail the sources do not give."
+  },
+  {
+   "piece": "carousel",
+   "text": "In a recent review, a member of a venue client's team walked Carmen... through two of those names. One belonged to a nearby venue their couples had genuinely considered. The other served a different market entirely, and Carmen agreed it should be excluded.",
+   "verdict": "supported",
+   "source": "Carmen agreed it should be excluded.",
+   "why": "Matches the brief."
+  }
+ ],
+ "summary": {
+  "supported": 26,
+  "unsupported": 3,
+  "guardrail": 1
+ }
+}

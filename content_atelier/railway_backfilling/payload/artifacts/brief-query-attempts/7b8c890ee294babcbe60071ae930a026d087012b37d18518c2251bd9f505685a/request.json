@@ -1,0 +1,11 @@
+{
+  "model": "openai/text-embedding-3-small",
+  "input": [
+    "What evidence supports matching wedding photography landing-page imagery, venue details, and offer context to a specific venue, distinct from tailoring pages only by region?",
+    "What practical differences between wedding venues—such as setting, style, or client considerations—could make a venue-specific wedding photography landing page feel more relevant, without assuming every couple wants the same thing?",
+    "What are the arguments against building separate wedding photography landing pages for each venue, including maintenance costs, audience overlap, and whether venue-specific context is useful to couples?",
+    "Find published examples or case studies of wedding photographers matching landing pages to specific venues; note whether any reported client-experience or performance outcomes were actually measured."
+  ],
+  "dimensions": 1536,
+  "encoding_format": "float"
+}

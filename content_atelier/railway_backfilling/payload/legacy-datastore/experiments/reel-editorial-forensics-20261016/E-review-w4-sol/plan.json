@@ -1,0 +1,28 @@
+{
+  "name": "E-review-w4-sol",
+  "arm": "E-review",
+  "week": 4,
+  "slug": "sol",
+  "role": "comparative_editorial_selection_and_formulation",
+  "stage": "angle_refinement",
+  "request_hash": "6f5cd5f2be6c67ce1a63bb164cc15db83964c4dfee1dbf7ec82d15b0a7e7f958",
+  "pool_hash": "4bb18412180615d9e5cb60f3f33dedb34271e4636240bb2b96c09dfe510bb9e0",
+  "schema_hash": "98cb0af9ac794a85096486234f45f465742d7d012432d24c704a790a00868572",
+  "capacity": {
+    "method": "conservative_utf8_byte_allowance_not_native_token_count",
+    "input_allowance": 322209,
+    "margin": 32221,
+    "advertised_eligible_endpoints": 7,
+    "output_reserve": 128000,
+    "request_has_explicit_output_cap": false,
+    "fits_conservative_allowance": true,
+    "provider_defaults_and_limits_still_apply": true
+  },
+  "endpoint": "https://openrouter.ai/api/v1",
+  "reasoning": "high",
+  "embeddings": false,
+  "history": [],
+  "auto_retries": false,
+  "answer_key_supplied": false,
+  "source_week": 4
+}

@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J0-claude-haiku-5.5-P38-HA",
+  "model": "anthropic/claude-haiku-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 268,
+  "completion_tokens": 329,
+  "cached_tokens": 0,
+  "cost": 0.0001913,
+  "seconds": 2.2,
+  "finish": "stop",
+  "system_sha": "ea72523eb9c9",
+  "user_sha": "e6f1a2b96569"
+ },
+ "output": {
+  "choice": "A",
+  "confidence": 4,
+  "reason": "Version A names the concrete mechanism (an automated nurture sequence) and the outcome (more booked consultations), while Version B uses vague filler and is flagged as AI-floated phrasing."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: landing\n\nVersion A:\n...instantly responds to every new inquiry through email and text, then continues an automated nurture sequence so more couples book consultations...\n\nVersion B:\n...automatically responds to every new inquiry through email and text, then continues the conversation... (AI floated 'continues the conversation')",
+  "cache_prefix_sha": "ea72523eb9c9"
+ }
+}

@@ -1,0 +1,2 @@
+Repair the supplied brief once using only its dossier and specific failures. Return the complete BriefDocument contract.
+Retain the approved argument, audience, reader decision and exact CTA. Remove unsupported claims or narrow them, retain qualifications, fix evidence bindings and substantive differentiation. Never invent evidence or inflate outcomes to clear validation. Retain locked fields unless explicitly named in revision instructions. Questions and permission requirements may remain unresolved. This is the only repair pass.

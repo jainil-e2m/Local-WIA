@@ -1,0 +1,541 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "artifact_e37ebe2bdf0847e3",
+      "request_fingerprint": "e7eb12aba1603c1a20118d057dde99e2c42ce74846b17db61a059ea6e4566497",
+      "file": "e7eb12aba1603c1a20118d057dde99e2c42ce74846b17db61a059ea6e4566497.json",
+      "prompt_version": "2026-10-07.gpt-oss-120b.transcript-angle.v1",
+      "meetings": [],
+      "problems": [
+        "The artifact's request holds no user message, so its meetings cannot be identified"
+      ]
+    },
+    {
+      "artifact_id": "artifact_26513ca4a72c4cd6",
+      "request_fingerprint": "371c97f79a7fdaf44643954335e6f3934bcaf8cfe590046a4ae37a559c807675",
+      "file": "artifact.json",
+      "prompt_version": "2026-10-08.apodex-weekly-generation.v1",
+      "meetings": [
+        {
+          "meeting": "m1",
+          "turns": 0,
+          "skipped": "no stored document says exactly these turns"
+        },
+        {
+          "meeting": "m2",
+          "turns": 0,
+          "skipped": "no stored document says exactly these turns"
+        },
+        {
+          "meeting": "m3",
+          "turns": 0,
+          "skipped": "no stored document says exactly these turns"
+        },
+        {
+          "meeting": "m4",
+          "turns": 0,
+          "skipped": "no stored document says exactly these turns"
+        },
+        {
+          "meeting": "m5",
+          "turns": 0,
+          "skipped": "no stored document says exactly these turns"
+        },
+        {
+          "meeting": "m6",
+          "turns": 0,
+          "skipped": "no stored document says exactly these turns"
+        },
+        {
+          "meeting": "m7",
+          "turns": 0,
+          "skipped": "no stored document says exactly these turns"
+        },
+        {
+          "meeting": "m8",
+          "turns": 0,
+          "skipped": "no stored document says exactly these turns"
+        },
+        {
+          "meeting": "m9",
+          "turns": 0,
+          "skipped": "no stored document says exactly these turns"
+        }
+      ],
+      "problems": [],
+      "revalidated_from_attempt": "<local>/handover-2026-10-19/extra-legacy-datastore/service_calls/371c97f79a7fdaf44643954335e6f3934bcaf8cfe590046a4ae37a559c807675/attempts/artifact_26513ca4a72c4cd6",
+      "original_error": "Moment response references an unknown compact source ID"
+    },
+    {
+      "artifact_id": "artifact_b56256e3c1b745fd",
+      "request_fingerprint": "21dd79af303b5b933492fdf5e8b96e08f9db26b0206e56025d93458f38ca385d",
+      "file": "artifact.json",
+      "prompt_version": "2026-10-08.apodex-weekly-generation.v2",
+      "meetings": [
+        {
+          "meeting": "m1",
+          "turns": 192,
+          "document_id": "transcript_536edfd0a7064563b96079c5",
+          "skipped": "the saved response does not check against the document: 9 validation errors for CompactMomentResponse\nmoments.0.context_first_span_id\n  Field required [type=missing, input_value={'local_key': 'google_ads...s, 1 month, 3 months)']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.0.context_last_span_id\n  Field required [type=missing, input_value={'local_key': 'google_ads...s, 1 month, 3 months)']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.0.context_span_ids\n  Extra inputs are not permitted [type=extra_forbidden, input_value=['m1.t0135', 'm1.t0151', 'm1.t0153', 'm1.t0156'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden\nmoments.1.context_first_span_id\n  Field required [type=missing, input_value={'local_key': 'ad_copy_st...ions on consult calls']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.1.context_last_span_id\n  Field required [type=missing, input_value={'local_key': 'ad_copy_st...ions on consult calls']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.1.context_span_ids\n  Extra inputs are not permitted [type=extra_forbidden, input_value=['m1.t0022', 'm1.t0024', 'm1.t0052', 'm1.t0068'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden\nmoments.2.context_first_span_id\n  Field required [type=missing, input_value={'local_key': 'budget_as_...ncrete starting range']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.2.context_last_span_id\n  Field required [type=missing, input_value={'local_key': 'budget_as_...ncrete starting range']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.2.context_span_ids\n  Extra inputs are not permitted [type=extra_forbidden, input_value=['m1.t0158', 'm1.t0160', 'm1.t0162'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden"
+        },
+        {
+          "meeting": "m2",
+          "turns": 260,
+          "document_id": "transcript_2a92bfdd5ba2e5bd337f5856",
+          "moments": 0,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 0
+        },
+        {
+          "meeting": "m3",
+          "turns": 397,
+          "document_id": "transcript_9e1879c15e05bd2d327366bf",
+          "skipped": "the saved response does not check against the document: 3 validation errors for CompactMomentResponse\nmoments.0.context_first_span_id\n  Field required [type=missing, input_value={'local_key': 'negative_k...cheap/affordable/free']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.0.context_last_span_id\n  Field required [type=missing, input_value={'local_key': 'negative_k...cheap/affordable/free']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.0.context_span_ids\n  Extra inputs are not permitted [type=extra_forbidden, input_value=['m3.t0341', 'm3.t0345', 'm3.t0355'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden"
+        },
+        {
+          "meeting": "m4",
+          "turns": 586,
+          "document_id": "transcript_83c83e9034a83f5d53345ef5",
+          "skipped": "the saved response does not check against the document: 3 validation errors for CompactMomentResponse\nmoments.0.context_first_span_id\n  Field required [type=missing, input_value={'local_key': 'landing_pa...hat the service does)']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.0.context_last_span_id\n  Field required [type=missing, input_value={'local_key': 'landing_pa...hat the service does)']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.0.context_span_ids\n  Extra inputs are not permitted [type=extra_forbidden, input_value=['m4.t0096', 'm4.t0104', 'm4.t0107'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden"
+        },
+        {
+          "meeting": "m5",
+          "turns": 709,
+          "document_id": "transcript_831835c2812a56b151938edd",
+          "skipped": "the saved response does not check against the document: 6 validation errors for CompactMomentResponse\nmoments.0.context_first_span_id\n  Field required [type=missing, input_value={'local_key': 'meta_vs_go...is, not measured lift']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.0.context_last_span_id\n  Field required [type=missing, input_value={'local_key': 'meta_vs_go...is, not measured lift']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.0.context_span_ids\n  Extra inputs are not permitted [type=extra_forbidden, input_value=['m5.t0116', 'm5.t0120', 'm5.t0134'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden\nmoments.1.context_first_span_id\n  Field required [type=missing, input_value={'local_key': 'conversion... a 'conversion' means\"]}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.1.context_last_span_id\n  Field required [type=missing, input_value={'local_key': 'conversion... a 'conversion' means\"]}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.1.context_span_ids\n  Extra inputs are not permitted [type=extra_forbidden, input_value=['m5.t0044', 'm5.t0081', 'm5.t0097'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden"
+        },
+        {
+          "meeting": "m6",
+          "turns": 283,
+          "document_id": "transcript_53e18a03eafba31d746fbb7d",
+          "moments": 0,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 0
+        },
+        {
+          "meeting": "m7",
+          "turns": 247,
+          "document_id": "transcript_c1111065ac72b60cbe80df18",
+          "skipped": "the saved response does not check against the document: 3 validation errors for CompactMomentResponse\nmoments.0.context_first_span_id\n  Field required [type=missing, input_value={'local_key': 'text_vs_em... underutilized tactic']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.0.context_last_span_id\n  Field required [type=missing, input_value={'local_key': 'text_vs_em... underutilized tactic']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.0.context_span_ids\n  Extra inputs are not permitted [type=extra_forbidden, input_value=['m7.t0176', 'm7.t0181', 'm7.t0188'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden"
+        },
+        {
+          "meeting": "m8",
+          "turns": 308,
+          "document_id": "transcript_d158c0b7ca826039fec4d731",
+          "skipped": "the saved response does not check against the document: 3 validation errors for CompactMomentResponse\nmoments.0.context_first_span_id\n  Field required [type=missing, input_value={'local_key': 'all_inclus...arison chart as a fix']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.0.context_last_span_id\n  Field required [type=missing, input_value={'local_key': 'all_inclus...arison chart as a fix']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.0.context_span_ids\n  Extra inputs are not permitted [type=extra_forbidden, input_value=['m8.t0147', 'm8.t0156', 'm8.t0251'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden"
+        },
+        {
+          "meeting": "m9",
+          "turns": 256,
+          "document_id": "transcript_1f595f00a47fa1b61b2ae316",
+          "skipped": "the saved response does not check against the document: 3 validation errors for CompactMomentResponse\nmoments.0.context_first_span_id\n  Field required [type=missing, input_value={'local_key': 'small_busi...ds the tool to others']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.0.context_last_span_id\n  Field required [type=missing, input_value={'local_key': 'small_busi...ds the tool to others']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.0.context_span_ids\n  Extra inputs are not permitted [type=extra_forbidden, input_value=['m9.t0219', 'm9.t0223', 'm9.t0234'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden"
+        }
+      ],
+      "problems": [
+        "the saved response does not check against the document: 9 validation errors for CompactMomentResponse\nmoments.0.context_first_span_id\n  Field required [type=missing, input_value={'local_key': 'google_ads...s, 1 month, 3 months)']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.0.context_last_span_id\n  Field required [type=missing, input_value={'local_key': 'google_ads...s, 1 month, 3 months)']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.0.context_span_ids\n  Extra inputs are not permitted [type=extra_forbidden, input_value=['m1.t0135', 'm1.t0151', 'm1.t0153', 'm1.t0156'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden\nmoments.1.context_first_span_id\n  Field required [type=missing, input_value={'local_key': 'ad_copy_st...ions on consult calls']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.1.context_last_span_id\n  Field required [type=missing, input_value={'local_key': 'ad_copy_st...ions on consult calls']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.1.context_span_ids\n  Extra inputs are not permitted [type=extra_forbidden, input_value=['m1.t0022', 'm1.t0024', 'm1.t0052', 'm1.t0068'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden\nmoments.2.context_first_span_id\n  Field required [type=missing, input_value={'local_key': 'budget_as_...ncrete starting range']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.2.context_last_span_id\n  Field required [type=missing, input_value={'local_key': 'budget_as_...ncrete starting range']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.2.context_span_ids\n  Extra inputs are not permitted [type=extra_forbidden, input_value=['m1.t0158', 'm1.t0160', 'm1.t0162'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden",
+        "the saved response does not check against the document: 3 validation errors for CompactMomentResponse\nmoments.0.context_first_span_id\n  Field required [type=missing, input_value={'local_key': 'negative_k...cheap/affordable/free']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.0.context_last_span_id\n  Field required [type=missing, input_value={'local_key': 'negative_k...cheap/affordable/free']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.0.context_span_ids\n  Extra inputs are not permitted [type=extra_forbidden, input_value=['m3.t0341', 'm3.t0345', 'm3.t0355'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden",
+        "the saved response does not check against the document: 3 validation errors for CompactMomentResponse\nmoments.0.context_first_span_id\n  Field required [type=missing, input_value={'local_key': 'landing_pa...hat the service does)']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.0.context_last_span_id\n  Field required [type=missing, input_value={'local_key': 'landing_pa...hat the service does)']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.0.context_span_ids\n  Extra inputs are not permitted [type=extra_forbidden, input_value=['m4.t0096', 'm4.t0104', 'm4.t0107'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden",
+        "the saved response does not check against the document: 6 validation errors for CompactMomentResponse\nmoments.0.context_first_span_id\n  Field required [type=missing, input_value={'local_key': 'meta_vs_go...is, not measured lift']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.0.context_last_span_id\n  Field required [type=missing, input_value={'local_key': 'meta_vs_go...is, not measured lift']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.0.context_span_ids\n  Extra inputs are not permitted [type=extra_forbidden, input_value=['m5.t0116', 'm5.t0120', 'm5.t0134'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden\nmoments.1.context_first_span_id\n  Field required [type=missing, input_value={'local_key': 'conversion... a 'conversion' means\"]}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.1.context_last_span_id\n  Field required [type=missing, input_value={'local_key': 'conversion... a 'conversion' means\"]}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.1.context_span_ids\n  Extra inputs are not permitted [type=extra_forbidden, input_value=['m5.t0044', 'm5.t0081', 'm5.t0097'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden",
+        "the saved response does not check against the document: 3 validation errors for CompactMomentResponse\nmoments.0.context_first_span_id\n  Field required [type=missing, input_value={'local_key': 'text_vs_em... underutilized tactic']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.0.context_last_span_id\n  Field required [type=missing, input_value={'local_key': 'text_vs_em... underutilized tactic']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.0.context_span_ids\n  Extra inputs are not permitted [type=extra_forbidden, input_value=['m7.t0176', 'm7.t0181', 'm7.t0188'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden",
+        "the saved response does not check against the document: 3 validation errors for CompactMomentResponse\nmoments.0.context_first_span_id\n  Field required [type=missing, input_value={'local_key': 'all_inclus...arison chart as a fix']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.0.context_last_span_id\n  Field required [type=missing, input_value={'local_key': 'all_inclus...arison chart as a fix']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.0.context_span_ids\n  Extra inputs are not permitted [type=extra_forbidden, input_value=['m8.t0147', 'm8.t0156', 'm8.t0251'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden",
+        "the saved response does not check against the document: 3 validation errors for CompactMomentResponse\nmoments.0.context_first_span_id\n  Field required [type=missing, input_value={'local_key': 'small_busi...ds the tool to others']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.0.context_last_span_id\n  Field required [type=missing, input_value={'local_key': 'small_busi...ds the tool to others']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmoments.0.context_span_ids\n  Extra inputs are not permitted [type=extra_forbidden, input_value=['m9.t0219', 'm9.t0223', 'm9.t0234'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden"
+      ],
+      "revalidated_from_attempt": "<local>/handover-2026-10-19/extra-legacy-datastore/service_calls/21dd79af303b5b933492fdf5e8b96e08f9db26b0206e56025d93458f38ca385d/attempts/artifact_b56256e3c1b745fd",
+      "original_error": "Moment context must be contiguous and chronological"
+    },
+    {
+      "artifact_id": "artifact_465fa99c934d4c68",
+      "request_fingerprint": "b59bfbffdbc5714faebb4d764145463edd563e1fc6f1a8884a2b17b62e517b37",
+      "file": "artifact.json",
+      "prompt_version": "2026-10-08.apodex-weekly-generation.v3",
+      "meetings": [
+        {
+          "meeting": "m1",
+          "turns": 192,
+          "document_id": "transcript_536edfd0a7064563b96079c5",
+          "moments": 1,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 1
+        },
+        {
+          "meeting": "m2",
+          "turns": 260,
+          "document_id": "transcript_2a92bfdd5ba2e5bd337f5856",
+          "moments": 0,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 0
+        },
+        {
+          "meeting": "m3",
+          "turns": 397,
+          "document_id": "transcript_9e1879c15e05bd2d327366bf",
+          "moments": 0,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 0
+        },
+        {
+          "meeting": "m4",
+          "turns": 586,
+          "document_id": "transcript_83c83e9034a83f5d53345ef5",
+          "moments": 1,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 1
+        },
+        {
+          "meeting": "m5",
+          "turns": 709,
+          "document_id": "transcript_831835c2812a56b151938edd",
+          "moments": 0,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 0
+        },
+        {
+          "meeting": "m6",
+          "turns": 283,
+          "document_id": "transcript_53e18a03eafba31d746fbb7d",
+          "moments": 0,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 0
+        },
+        {
+          "meeting": "m7",
+          "turns": 247,
+          "document_id": "transcript_c1111065ac72b60cbe80df18",
+          "moments": 1,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 0
+        },
+        {
+          "meeting": "m8",
+          "turns": 308,
+          "document_id": "transcript_d158c0b7ca826039fec4d731",
+          "moments": 1,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 0
+        },
+        {
+          "meeting": "m9",
+          "turns": 256,
+          "document_id": "transcript_1f595f00a47fa1b61b2ae316",
+          "moments": 1,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 0
+        }
+      ],
+      "problems": [],
+      "revalidated_from_attempt": "<local>/handover-2026-10-19/extra-legacy-datastore/service_calls/b59bfbffdbc5714faebb4d764145463edd563e1fc6f1a8884a2b17b62e517b37/attempts/artifact_465fa99c934d4c68",
+      "original_error": "Context boundaries must be chronological within the same meeting"
+    },
+    {
+      "artifact_id": "artifact_d17e64eb31d64be3",
+      "request_fingerprint": "b1c7631780798d3b4e528184b91d41aa73e62d0635e866440260928073c186df",
+      "file": "artifact.json",
+      "prompt_version": "2026-10-08.apodex-weekly-generation.v3",
+      "meetings": [
+        {
+          "meeting": "m1",
+          "turns": 192,
+          "document_id": "transcript_536edfd0a7064563b96079c5",
+          "moments": 2,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 0
+        },
+        {
+          "meeting": "m2",
+          "turns": 260,
+          "document_id": "transcript_2a92bfdd5ba2e5bd337f5856",
+          "moments": 0,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 0
+        },
+        {
+          "meeting": "m3",
+          "turns": 397,
+          "document_id": "transcript_9e1879c15e05bd2d327366bf",
+          "moments": 2,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 0
+        },
+        {
+          "meeting": "m4",
+          "turns": 586,
+          "document_id": "transcript_83c83e9034a83f5d53345ef5",
+          "moments": 1,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 0
+        },
+        {
+          "meeting": "m5",
+          "turns": 709,
+          "document_id": "transcript_831835c2812a56b151938edd",
+          "moments": 1,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 1
+        },
+        {
+          "meeting": "m6",
+          "turns": 283,
+          "document_id": "transcript_53e18a03eafba31d746fbb7d",
+          "moments": 0,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 0
+        },
+        {
+          "meeting": "m7",
+          "turns": 247,
+          "document_id": "transcript_c1111065ac72b60cbe80df18",
+          "moments": 2,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 1
+        },
+        {
+          "meeting": "m8",
+          "turns": 308,
+          "document_id": "transcript_d158c0b7ca826039fec4d731",
+          "skipped": "the saved response does not check against the document: 1 validation error for CompactMomentResponse\nmoments.0.moment_type\n  Input should be 'result', 'objection', 'decision', 'tension', 'mechanism', 'observation' or 'story' [type=literal_error, input_value='buyer tension', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/literal_error"
+        },
+        {
+          "meeting": "m9",
+          "turns": 256,
+          "document_id": "transcript_1f595f00a47fa1b61b2ae316",
+          "moments": 2,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 0
+        }
+      ],
+      "problems": [
+        "the saved response does not check against the document: 1 validation error for CompactMomentResponse\nmoments.0.moment_type\n  Input should be 'result', 'objection', 'decision', 'tension', 'mechanism', 'observation' or 'story' [type=literal_error, input_value='buyer tension', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/literal_error"
+      ],
+      "revalidated_from_attempt": "<local>/handover-2026-10-19/extra-legacy-datastore/service_calls/b1c7631780798d3b4e528184b91d41aa73e62d0635e866440260928073c186df/attempts/artifact_d17e64eb31d64be3",
+      "original_error": "1 validation error for CompactMomentResponse\nmoments.10.moment_type\n  Input should be 'result', 'objection', 'decision', 'tension', 'mechanism', 'observation' or 'story' [type=literal_error, input_value='buyer tension', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/literal_error"
+    },
+    {
+      "artifact_id": "artifact_fa24c3cf880e4596",
+      "request_fingerprint": "4deaf2e32a987abdb7ba881dbb86bcca647d41087e057b2ed6648e78167fc9ba",
+      "file": "artifact.json",
+      "prompt_version": "2026-10-08.apodex-weekly-generation.v3",
+      "meetings": [
+        {
+          "meeting": "m1",
+          "turns": 192,
+          "document_id": "transcript_536edfd0a7064563b96079c5",
+          "moments": 1,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 0
+        },
+        {
+          "meeting": "m2",
+          "turns": 260,
+          "document_id": "transcript_2a92bfdd5ba2e5bd337f5856",
+          "moments": 0,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 0
+        },
+        {
+          "meeting": "m3",
+          "turns": 397,
+          "document_id": "transcript_9e1879c15e05bd2d327366bf",
+          "moments": 2,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 0
+        },
+        {
+          "meeting": "m4",
+          "turns": 586,
+          "document_id": "transcript_83c83e9034a83f5d53345ef5",
+          "moments": 0,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 0
+        },
+        {
+          "meeting": "m5",
+          "turns": 709,
+          "document_id": "transcript_831835c2812a56b151938edd",
+          "moments": 0,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 1
+        },
+        {
+          "meeting": "m6",
+          "turns": 283,
+          "document_id": "transcript_53e18a03eafba31d746fbb7d",
+          "moments": 0,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 0
+        },
+        {
+          "meeting": "m7",
+          "turns": 247,
+          "document_id": "transcript_c1111065ac72b60cbe80df18",
+          "moments": 1,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 1
+        },
+        {
+          "meeting": "m8",
+          "turns": 308,
+          "document_id": "transcript_d158c0b7ca826039fec4d731",
+          "moments": 2,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 0
+        },
+        {
+          "meeting": "m9",
+          "turns": 256,
+          "document_id": "transcript_1f595f00a47fa1b61b2ae316",
+          "moments": 1,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 0
+        }
+      ],
+      "problems": [],
+      "revalidated_from_attempt": "<local>/handover-2026-10-19/extra-legacy-datastore/service_calls/4deaf2e32a987abdb7ba881dbb86bcca647d41087e057b2ed6648e78167fc9ba/attempts/artifact_fa24c3cf880e4596",
+      "original_error": "Moment quote must match an existing anchor span"
+    },
+    {
+      "artifact_id": "artifact_d208ec5bed79483c",
+      "request_fingerprint": "ec84d6cded388a45e6f60d5c83f36cfc6b2efb278736654be681e094c2c2ca41",
+      "file": "artifact.json",
+      "prompt_version": "2026-10-13.wia-strategic-discovery.v1",
+      "meetings": [
+        {
+          "meeting": "m1",
+          "turns": 611,
+          "document_id": "transcript_1b534a0e94efca5c47e5b732",
+          "moments": 1,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 1
+        },
+        {
+          "meeting": "m2",
+          "turns": 652,
+          "document_id": "transcript_edfcc5280e26f7c496a2d6db",
+          "moments": 1,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 0
+        },
+        {
+          "meeting": "m3",
+          "turns": 252,
+          "document_id": "transcript_7e3336fe1b882cba5c0146a3",
+          "moments": 0,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 0
+        },
+        {
+          "meeting": "m4",
+          "turns": 559,
+          "document_id": "transcript_c936755ab348fd10488c75ba",
+          "moments": 0,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 0
+        },
+        {
+          "meeting": "m5",
+          "turns": 20,
+          "document_id": "transcript_91e0d99e2999481dae24bad6",
+          "moments": 0,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 0
+        },
+        {
+          "meeting": "m6",
+          "turns": 462,
+          "document_id": "transcript_98db534b2e9d835ff687d160",
+          "moments": 0,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 0
+        },
+        {
+          "meeting": "m7",
+          "turns": 1447,
+          "document_id": "transcript_e55fb5bf35dc6e9b7292b0fa",
+          "moments": 1,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 0
+        },
+        {
+          "meeting": "m8",
+          "turns": 312,
+          "document_id": "transcript_5a76b1b145664c30bf30d746",
+          "moments": 0,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 0
+        },
+        {
+          "meeting": "m9",
+          "turns": 301,
+          "document_id": "transcript_c870b09e0ba19376a28df37b",
+          "moments": 1,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 0
+        },
+        {
+          "meeting": "m10",
+          "turns": 282,
+          "document_id": "transcript_eb8ad3ff88e7802d765c3d5f",
+          "moments": 0,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 1
+        },
+        {
+          "meeting": "m11",
+          "turns": 320,
+          "document_id": "transcript_15884913ba40b1e26079f1e5",
+          "moments": 1,
+          "already_present": 0,
+          "repaired": 0,
+          "unverified": 0
+        }
+      ],
+      "problems": [],
+      "revalidated_from_attempt": "<local>/handover-2026-10-19/extra-legacy-datastore/service_calls/ec84d6cded388a45e6f60d5c83f36cfc6b2efb278736654be681e094c2c2ca41/attempts/artifact_d208ec5bed79483c",
+      "original_error": "Moment quote must match an existing anchor span"
+    }
+  ],
+  "moments": 27,
+  "already_present": 0,
+  "unverified": 8,
+  "repaired": 0,
+  "unmatched_meetings": 9,
+  "provider_calls": 0,
+  "applied": false
+}

@@ -1,0 +1,28 @@
+{
+ "meta": {
+  "run_id": "T2J-claude-sonnet-5.5-T30-G2vA0-YX",
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 1386,
+  "completion_tokens": 452,
+  "cached_tokens": 0,
+  "cost": 0.007292,
+  "seconds": 4.5,
+  "finish": "stop",
+  "system_sha": "5374112cdde3",
+  "user_sha": "ded302ca99a0"
+ },
+ "output": {
+  "winner": "A",
+  "edits_needed_A": "few",
+  "edits_needed_B": "many",
+  "reason": "A stays very close to Whitney's approved positioning and wording, needing only small fixes such as softening the 'wasting time on SEO and organic social' line and removing 'books their calendar'. B is a full email template, but it invents a bio claim (Whitney's 12 years in wedding and event sales) and builds on topics and positioning she didn't supply, so it would need heavy rework."
+ },
+ "content": null,
+ "request": {
+  "system": "You compare two draft pieces of marketing copy for Wedding Industry Ads (WIA), a wedding-industry advertising agency. You are given the request, the version WIA's co-founder Whitney actually approved or wrote (the reference), and two candidate drafts. Decide which candidate would need fewer and smaller edits to become something Whitney would approve. Judge substance first (what is claimed, for whom, how WIA is positioned, accuracy, whether her own wording was kept where she supplied it), then voice. Do not reward length, and do not require the candidate to copy the reference wording.\n\nReturn only JSON: {\"winner\": \"A\" or \"B\" or \"tie\", \"edits_needed_A\": \"few\", \"edits_needed_B\": \"many\", \"reason\": \"one or two sentences\"} where edits_needed values are none, few, some or many.",
+  "user": "Request:\nCan you help me craft some compelling pitches? For me and Daniela to get guest spots on some popular podcasts for the wedding industry. Here are some tips I found: \n\nPersonalize the pitch: Reference specific episodes, topics, or even comments from listeners to show genuine interest. \n\n\n\nFocus on value: Explain how your expertise will benefit the podcast's audience. \n\n\n\nOffer unique talking points: Suggest specific, relevant topics that haven't been covered extensively or offer a new perspective. \n\n\n\nKeep it concise: Use clear, concise language and avoid lengthy introductions. \n\n\n\nInclude a one-sheet: Consider including a one-page document with your bio, experience, and links to previous interviews. \n\n\n\nOffer to promote the episode: Let the host know you'll share the episode with your network. \n\nTo clarify, it should be one email from me and Daniela collectively\n\nReference (what Whitney approved):\nWe’re Whitney and Daniela, co-founders of Wedding Industry Ads. We help venues and wedding professionals run profitable Google and Meta ad campaigns. From venues to planners to photographers, we work with pros who are ready to grow their businesses beyond organic marketing and referrals. They want to amplify their marketing strategically to create a lead generation system that consistently brings in high-quality leads.\n\nCandidate A:\nWe’re Whitney and Daniela, co-founders of Wedding Industry Ads. We help venues and wedding professionals run strategic, profitable Google and Meta ad campaigns. From florists to planners to venue owners, we’ve worked with pros who were done wasting time on SEO and organic social — and ready for a system that consistently brings in quality leads and books their calendar.\n\nCandidate B:\nSubject: A conversation about how couples find and choose their wedding pros\n\nHi [Host Name],\n\nWe listened to your episode on [specific topic] with [guest], and your point about [specific takeaway] stood out to us. [Brief, genuine connection to your perspective or work.]\n\nWe’re Whitney and Daniela, co-founders of Wedding Industry Ads. We specialize in Google and Meta ads for wedding venues and wedding professionals. Whitney also spent 12 years in wedding and event sales before moving into advertising, so we approach marketing with the booking conversation in mind.\n\nWe’d love to join you on [Podcast Name] to explore how wedding businesses can build on strong referrals, organic marketing, and great client experiences to reach more of the right couples.\n\nA few conversations we could bring to your listeners:\n\n- **The trust gap between an ad inquiry and a referral.** Why couples who discover you through ads may approach the conversation differently, and how to help them feel confident taking the next step.\n- **What happens between the click and the booking.** How we look at messaging, landing pages, follow-up, and tracking together when building an ad strategy.\n- **Marketing for a decision couples may only make once.** How the wedding buying journey changes what businesses need to communicate, from first discovery to the shortlist.\n\nWe’d keep the conversation practical, with examples specific to wedding businesses and ideas listeners can apply to their own marketing.\n\nWe’d also be happy to share the episode with our audience. Would any of these topics be a good fit for an upcoming conversation?\n\nWhitney & Daniela\nCo-founders, Wedding Industry Ads\n[Website] | [Instagram]",
+  "cache_prefix_sha": "5374112cdde3"
+ }
+}

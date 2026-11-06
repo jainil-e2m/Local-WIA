@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J1-gpt-6-luna-P11-AH",
+  "model": "openai/gpt-6-luna",
+  "provider": "OpenAI",
+  "effort": null,
+  "prompt_tokens": 9950,
+  "completion_tokens": 91,
+  "cached_tokens": 9834,
+  "cost": 0.000158265,
+  "seconds": 1.9,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "6bfc9993b015"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 5,
+  "reason": "The personal, warm invitation and first-person sign-off feel more aligned with Whitney’s founder voice."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: email\n\nVersion A:\nIf you want to explore whether the Google Search Accelerator makes sense for your business, reply to this email and tell us a bit about what you’re trying to solve. We’ll take it from there.\n\n— Whitney & Daniela\nWedding Industry Ads\n\nVersion B:\nIf you want to explore whether the Google Search Accelerator makes sense for your business, reply to this email and tell me a bit about what you’re trying to solve. We’ll continue the conversation from there.\n\nExcited to hear from you,\nWhitney",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

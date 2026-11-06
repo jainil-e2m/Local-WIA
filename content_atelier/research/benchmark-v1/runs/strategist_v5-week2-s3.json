@@ -1,0 +1,207 @@
+{
+ "config": "strategist_v5",
+ "week": "week2",
+ "sample": 3,
+ "model": "openai/gpt-6.1-sol",
+ "benchmark": "benchmark-v1.2026-10-18",
+ "cost": 0.099801,
+ "usage": {
+  "prompt_tokens": 32153,
+  "completion_tokens": 9658,
+  "total_tokens": 41811,
+  "cost": 0.099801,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 32150,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.099801,
+   "upstream_inference_prompt_cost": 0.003221,
+   "upstream_inference_completions_cost": 0.09658
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 6499,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "seconds": 287.4,
+ "finish": "stop",
+ "request_fingerprint": "8f3bd2b9f01fa624233428f846cc4c35cd4062d09995f34e209e09dd788fad0b",
+ "output": {
+  "week_summary": "Three ideas worth developing: Whitney's view on learning from couples right after they book, a look at how WIA reaches an ad recommendation, and a LeadLock piece about building anticipation before a venue tour. Publish the founder perspective first, the diagnostic process second, and the offer piece last. This fits the draft post-giveaway direction without another audit promotion. Keep the AI widget discussion and the prospect's investment concerns internal. No founder seeds were supplied.",
+  "angles": [
+   {
+    "rank": 1,
+    "title": "I want to hear from your couples right after they book",
+    "pillar": "ATTRACT",
+    "content_type": "founder_forward",
+    "audience": "Wedding business owners with strong reviews and a thoughtful client experience who want their ads to reflect why couples choose them.",
+    "core_perspective": "A great review can tell us why couples loved working with you. Asking right after they book helps us learn what made them choose you, while they're still close to that decision. That's useful when we're deciding what your next ads should say.",
+    "why_it_matters": "An owner who wants more specific ads already has a valuable source of insight: the couples choosing her business. WIA shows why the timing and purpose of the question matter, while respecting the value of reviews.",
+    "wia_in_action": "Whitney described WIA's own new-client buying-trigger surveys, the research she asks ELEVATE clients to share, and a VAULT training about buyer types and triggers. She then proposed collecting newly booked couples' answers and bringing them back into ad copy and landing pages. The WIA move is asking for evidence behind a booking decision. It reflects her belief that 'good marketing decisions start with good data' and shifts the assumption that reviews already provide everything an ads strategist needs.",
+    "offer_connection": "Builds interest in ELEVATE by showing the thinking behind WIA's ongoing Google and Meta ads management. The proposed client surveys illustrate a possible source of campaign insight, not a new service or an established LeadLock feature. No offer CTA on this piece.",
+    "moment_ids": [
+     "S1"
+    ],
+    "evidence_points": [
+     "Whitney said WIA had started surveying newly signed WIA clients to uncover buying triggers.",
+     "She described asking new ELEVATE clients for market research and receiving reviews in response.",
+     "She described a VAULT training connecting buyer types and buying triggers to stronger ad and landing-page messaging.",
+     "She proposed surveys for ELEVATE clients, with client-managed sending or tagging and answers shared through a spreadsheet to inform copy and landing pages."
+    ],
+    "verify_before_publishing": [
+     "Approve anonymous use of S1.",
+     "Check whether the proposed client surveys were ever built before describing any implementation."
+    ],
+    "why_selected": "This gives Whitney a specific founder perspective supported by work she described doing for WIA itself. It adds a new question to September's positioning content: how we learn why people choose a business. That is more distinctive than another general reminder to define your differentiators.",
+    "series": "Watch Us Build an Ad Strategy"
+   },
+   {
+    "rank": 2,
+    "title": "Your venue tour follow-up can do more than confirm the time",
+    "pillar": "CONVERT",
+    "content_type": "solution_selling",
+    "audience": "Venue owners who already have an inquiry and tour process and want their follow-up to give couples a more personal introduction to the venue.",
+    "core_perspective": "Once a couple schedules a venue tour, your follow-up has a chance to help them picture their wedding there. We'd give that time a purpose: show the venue on a wedding day, invite their questions, and make room for a personal conversation before the visit.",
+    "why_it_matters": "A scheduled tour is an opportunity to build confidence before couples arrive. This makes the value of thoughtful nurture concrete without asking the venue team to offer tours during weddings or extend its hours.",
+    "wia_in_action": "Fallon Looney, then a WIA strategist and now a former team member, said the venue's outreach cadence was already good and recommended reviewing its language and personalization. After the owner explained the limits on getting couples in sooner, Whitney suggested a phone conversation or virtual preview before the later tour. Fallon proposed a supplemental email with wedding-day video for couples booking farther out. The WIA move is giving the follow-up a job that fits the couple's situation and the venue's capacity. It reflects Whitney's belief that automation should 'enhance the sales process, not replace it.'",
+    "offer_connection": "Use LeadLock and The Foolproof Follow-Up Advantage as the offer. WIA sets up the email and text follow-up system; the owner runs the platform and continues the personal follow-up. The recommended video email shows what nurture can contribute, while Whitney's call or virtual preview shows where the owner stays involved. End with one invitation to inquire about LeadLock. Use DM 'ADS' on Instagram if WIA confirms the draft week's CTA, and a reply invitation in email.",
+    "moment_ids": [
+     "S2"
+    ],
+    "evidence_points": [
+     "The venue owner suspected that couples with tours scheduled farther out sometimes chose another option before visiting; this was her explanation, not an established cause.",
+     "The owner described wedding-day, staffing and venue-presentation limits on offering earlier tours.",
+     "Fallon praised the existing outreach cadence and proposed reviewing the nurture's language and personalization.",
+     "Whitney suggested a phone conversation or virtual preview, including a brief wedding-day FaceTime if the team had bandwidth.",
+     "Fallon proposed a supplemental email with wedding-day video and an invitation to ask questions for couples whose tours were farther out."
+    ],
+    "verify_before_publishing": [
+     "Approve anonymous use of S2; identify Fallon as a former WIA strategist if included.",
+     "Confirm this week's LeadLock CTA; the video email and virtual preview were recommendations."
+    ],
+    "why_selected": "This is the clearest offer piece because it gives follow-up a specific purpose in a venue's sales process. The useful contribution is the combination of nurture and a real conversation, rather than a basic reminder to reply faster. It earns a LeadLock invitation without claiming improved attendance or automatic bookings.",
+    "series": "Ad Leads Aren't Worse Than Referrals. They're Just Colder."
+   },
+   {
+    "rank": 3,
+    "title": "What we look at before recommending changes to your wedding ads",
+    "pillar": "WARM",
+    "content_type": "process_or_framework",
+    "audience": "Wedding business owners already investing in ads who want clear guidance on what to keep, refine or build next.",
+    "core_perspective": "We want enough evidence to recommend the right next step for your wedding ads. That means looking at what people do on the landing page alongside what the ad account reports, and saying when there isn't enough data for a conclusion.",
+    "why_it_matters": "Owners who want to double down on their marketing need to understand how a recommendation was reached. These scenes show WIA considering the work already in place and distinguishing a question worth investigating from a conclusion it can support.",
+    "wia_in_action": "In office hours, Carmen examined an early campaign sample and visitor behavior, considered the landing page and ad links, and said she hadn't reached a conclusion. In a separate sales consultation, Whitney explained that Carmen would review the existing campaign and its landing pages together before recommending further work. The WIA move is diagnosing beyond the dashboard before prescribing. It reflects Whitney's belief that 'good marketing decisions start with good data' and shifts the expectation that an account review should immediately produce a list of settings to change.",
+    "offer_connection": "Supports trust in the Google Search Accelerator: WIA builds and launches the campaign at a VIP Day, then supports the owner for three months as they learn to make informed decisions. The office-hours scene makes that guidance tangible. This piece has no offer CTA and does not promote a standalone audit or the closed giveaway.",
+    "moment_ids": [
+     "S3",
+     "S5"
+    ],
+    "evidence_points": [
+     "Carmen said the campaign had not yet had enough room to judge its success and wanted a larger click sample before deciding.",
+     "She distinguished brief visits from visitors who explored the page but did not proceed.",
+     "Erin identified additional ad sitelinks; Carmen said she would remove them.",
+     "Carmen examined visitor behavior, recommended asking Jacqueline for landing-page feedback, and explicitly said she had not reached a conclusion.",
+     "In the separate consultation, Whitney described reviewing both the existing Google campaign and its landing pages, with the findings informing whether a new search campaign or substantial page work would be appropriate."
+    ],
+    "verify_before_publishing": [
+     "Approve anonymous use of S3 and S5.",
+     "Keep Erin's page identified as corporate; describe Carmen's diagnosis as unresolved."
+    ],
+    "why_selected": "The two scenes support one clear process idea, so a separate sales-call treatment would be repetitive. Carmen's willingness to leave the diagnosis open is distinctive, and Whitney's explanation shows why that diagnosis informs the next recommendation. The recent giveaway covered audits; this piece adds the actual reasoning rather than repeating the promotion.",
+    "series": "We Measure Conversions, Not Clicks"
+   }
+  ],
+  "internal_insights": [
+   {
+    "moment_ids": [
+     "S4"
+    ],
+    "insight": "Danielle McGinnis identified missing knowledge-base answers as a limit on the widget test. Whitney asked Gisselle Jiménez to build WIA's own knowledge base for review, wanted control over the sales handoff, and agreed to test on WIA before involving clients. The move is an in-house test with a deliberate human handoff, consistent with the belief that automation should enhance the sales process.",
+    "use": "Use for product development: define the information required, the review responsibility and the handoff before deciding whether to offer anything to clients. This is an exploratory AI widget discussion, not evidence that current LeadLock includes AI conversations or automatic booking."
+   },
+   {
+    "moment_ids": [
+     "S1"
+    ],
+    "insight": "The research proposal would require the client to send surveys or tag newly booked clients, with answers available to both the owner and WIA. Whitney wanted those answers to inform ads and landing pages, but the scene records an idea and agreement, not a completed workflow.",
+    "use": "Evaluate the operational work and integration before adding this to ELEVATE delivery or offer messaging. Keep client responsibilities explicit and do not promise a live LeadLock research feature."
+   },
+   {
+    "moment_ids": [
+     "S5"
+    ],
+    "insight": "The prospect wanted hands-on diagnosis, asked who would make account changes, and said reading or watching materials might not fit how he learns. He also asked about performance-based payment, removing VAULT access and flexibility around the investment. Whitney explained a diagnostic starting point rather than agreeing to those changes.",
+    "use": "Use as sales-language and learning-preference research. Make the current Accelerator division of work clear: WIA builds and launches campaigns, then guides the owner. Keep the prospect's affordability concerns private. The one-off audit and credit arrangement discussed on this recording are not established by the current offer sheet."
+   },
+   {
+    "moment_ids": [
+     "S2"
+    ],
+    "insight": "The owner's explanation connected longer waits with canceled tours, but causation remained open. Fallon also said the existing outreach cadence was good. Whitney responded to the venue's real scheduling limits with a different way to connect, rather than asking the team to provide more tour hours.",
+    "use": "Keep the timing explanation as a hypothesis in strategy work. Explore follow-up relevance and opportunities for personal contact without treating canceled tours as proof of poor lead quality or asking the venue to compromise wedding-day service."
+   }
+  ],
+  "considered_not_selected": [
+   {
+    "moment_ids": [
+     "S4"
+    ],
+    "idea": "Why we'd test a new sales tool on ourselves first",
+    "reason": "There is a real founder decision here, and the handling does not prohibit public use. However, the discussion concerns an exploratory AI widget outside the confirmed LeadLock description. The selected scenes demonstrate current offer value more directly, so keep this as internal product thinking for now."
+   },
+   {
+    "moment_ids": [
+     "S1"
+    ],
+    "idea": "LeadLock as a source of newly booked client research",
+    "reason": "The proposed survey and spreadsheet loop is promising, but it was not shown as built or launched. Use it as supporting evidence for Whitney's research perspective, not a feature announcement or a second offer piece."
+   },
+   {
+    "moment_ids": [
+     "S3"
+    ],
+    "idea": "Why we removed extra links from an event ad",
+    "reason": "Carmen said she would remove the sitelinks, but implementation and effect were not shown. A standalone treatment would turn a specific corporate campaign decision into a settings lesson. Keep it as evidence inside the broader diagnostic process."
+   },
+   {
+    "moment_ids": [
+     "S5"
+    ],
+    "idea": "Why we review what you've already built before recommending your next step",
+    "reason": "This is a valid public process idea from the sales call, separate from the prospect's private objections. Its central point overlaps the selected Carmen scene, so combine their evidence in rank 3. Do not turn it into a standalone audit sales post, since that purchase route is not on the current offer sheet."
+   },
+   {
+    "moment_ids": [
+     "S2"
+    ],
+    "idea": "Couples keep making decisions while they wait for a venue tour",
+    "reason": "A useful thought shift, but a standalone treatment would be close to July's content about couples' short window to find and trust a wedding business. The selected LeadLock treatment adds a new WIA contribution: follow-up tailored to the wait, with wedding-day video and personal contact."
+   }
+  ],
+  "publishing_order": [
+   1,
+   3,
+   2
+  ],
+  "pillar_notes": [
+   {
+    "pillar": "ATTRACT",
+    "note": "S1 supports a founder perspective without criticizing owners for not doing research. Lead with the value of hearing from newly booked couples, while keeping reviews valuable."
+   },
+   {
+    "pillar": "WARM",
+    "note": "S3 and the public process portion of S5 show how WIA thinks before recommending work. Combine them rather than publishing two similar diagnostic pieces, and use no audit CTA."
+   },
+   {
+    "pillar": "CONVERT",
+    "note": "S2 makes LeadLock's supporting role concrete through a proposed pre-tour sequence and the owner's personal follow-up. Place this last as the only offer CTA piece."
+   }
+  ],
+  "seed_pairings": []
+ }
+}

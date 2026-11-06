@@ -1,0 +1,174 @@
+{
+  "suite": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\testing\\.data\\experiments\\reel-editorial-forensics-20261016",
+  "new_paid_calls": 16,
+  "reported_new_cost_usd": "4.95712137",
+  "validated_cells": 13,
+  "failed_cells": 3,
+  "old_unreturned_week4_luna_charge": "unknown_not_included",
+  "results": [
+    {
+      "status": "completed",
+      "cell": "A-w4-sol",
+      "counts": {
+        "angles": 11,
+        "internal_insights": 7,
+        "processed_moment_ids": 17,
+        "coverage_notes": 8
+      },
+      "reported_new_cost_usd": 0.381491
+    },
+    {
+      "status": "completed",
+      "cell": "B-w3-sol",
+      "counts": {
+        "angles": 10,
+        "internal_insights": 13,
+        "processed_moment_ids": 18,
+        "coverage_notes": 12
+      },
+      "reported_new_cost_usd": 0.4055224
+    },
+    {
+      "status": "completed",
+      "cell": "B-w4-sol",
+      "counts": {
+        "angles": 9,
+        "internal_insights": 8,
+        "processed_moment_ids": 17,
+        "coverage_notes": 9
+      },
+      "reported_new_cost_usd": 0.3862785
+    },
+    {
+      "status": "completed",
+      "cell": "C-source-w3-luna-pro",
+      "counts": {
+        "moments": 17,
+        "processed_meetings": 5,
+        "coverage_notes": 4
+      },
+      "reported_new_cost_usd": 0.04429134
+    },
+    {
+      "status": "completed",
+      "cell": "C-source-w4-luna-pro",
+      "counts": {
+        "moments": 15,
+        "processed_meetings": 6,
+        "coverage_notes": 5
+      },
+      "reported_new_cost_usd": 0.09601107
+    },
+    {
+      "status": "completed",
+      "cell": "C-w3-sol",
+      "counts": {
+        "angles": 9,
+        "internal_insights": 9,
+        "processed_moment_ids": 17,
+        "coverage_notes": 10
+      },
+      "reported_new_cost_usd": 0.3776398
+    },
+    {
+      "status": "completed",
+      "cell": "C-w4-sol",
+      "counts": {
+        "angles": 10,
+        "internal_insights": 9,
+        "processed_moment_ids": 15,
+        "coverage_notes": 10
+      },
+      "reported_new_cost_usd": 0.4576598
+    },
+    {
+      "status": "failed",
+      "cell": "D-w3-sol",
+      "error": "Source issue cannot be silently accepted as a recommendation",
+      "error_type": "ValueError",
+      "reported_new_cost_usd": 0.2981085
+    },
+    {
+      "status": "completed",
+      "cell": "D-w4-sol",
+      "counts": {
+        "assessments": 11,
+        "priority_keys": 2,
+        "reserve_keys": 1,
+        "coverage_notes": 4
+      },
+      "reported_new_cost_usd": 0.284006
+    },
+    {
+      "status": "failed",
+      "cell": "E-review-w3-sol",
+      "error": "Review dropped original qualifications or risks",
+      "error_type": "ValueError",
+      "reported_new_cost_usd": 0.333621
+    },
+    {
+      "status": "failed",
+      "cell": "E-review-w4-sol",
+      "error": "Review dropped original qualifications or risks",
+      "error_type": "ValueError",
+      "reported_new_cost_usd": 0.3277755
+    },
+    {
+      "status": "completed",
+      "cell": "E-w3-luna-pro",
+      "counts": {
+        "angles": 7,
+        "internal_insights": 9,
+        "processed_moment_ids": 18,
+        "coverage_notes": 6
+      },
+      "reported_new_cost_usd": 0.08340946
+    },
+    {
+      "status": "completed",
+      "cell": "E-w3-sol",
+      "counts": {
+        "angles": 8,
+        "internal_insights": 13,
+        "processed_moment_ids": 18,
+        "coverage_notes": 10
+      },
+      "reported_new_cost_usd": 0.412826
+    },
+    {
+      "status": "completed",
+      "cell": "E-w3-sonnet",
+      "counts": {
+        "angles": 9,
+        "internal_insights": 10,
+        "processed_moment_ids": 18,
+        "coverage_notes": 7
+      },
+      "reported_new_cost_usd": 0.552048
+    },
+    {
+      "status": "completed",
+      "cell": "E-w4-sol",
+      "counts": {
+        "angles": 9,
+        "internal_insights": 8,
+        "processed_moment_ids": 17,
+        "coverage_notes": 9
+      },
+      "reported_new_cost_usd": 0.3489621
+    },
+    {
+      "status": "completed",
+      "cell": "E-w4-sol-repeat2",
+      "counts": {
+        "angles": 10,
+        "internal_insights": 8,
+        "processed_moment_ids": 17,
+        "coverage_notes": 9
+      },
+      "reported_new_cost_usd": 0.1674709
+    }
+  ],
+  "editorial_approval_not_established": true,
+  "no_reference_answers_supplied": true
+}

@@ -1,0 +1,18 @@
+{
+  "model": "openai/gpt-6-luna",
+  "counting_method": "conservative_utf8_byte_allowance_not_native_token_count",
+  "message_text_utf8_bytes": 374700,
+  "response_format_utf8_bytes": 22,
+  "input_token_budget_allowance": 374722,
+  "unmeasured_provider_margin_tokens": 37473,
+  "completion_reserved_tokens": 65536,
+  "context_reference_tokens": 1050000,
+  "prompt_limit_reference_tokens": 922000,
+  "headroom_tokens": 572269,
+  "fits": true,
+  "native_token_count_available": false,
+  "counting_is_local": true,
+  "hosted_usage_is_exact": false,
+  "route_snapshot": "provider_catalog/2026-10-08T10-40-55.300555+00-00-gpt6-luna.json",
+  "measured_at_utc": "2026-10-08T10:42:47.534176+00:00"
+}

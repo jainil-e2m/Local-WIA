@@ -1,0 +1,23 @@
+{
+  "run_id": "week1-gpt6-luna-partial-angle-replay-20261008-r1",
+  "status": "partial",
+  "purpose": "partial_pool_angle_prompt_diagnostic",
+  "source_run_id": "week1-gpt6-luna-generation-only-20261008-a3",
+  "full_weekly_pipeline_succeeded": false,
+  "accepted_moment_count": 7,
+  "rejected_moment_count": 2,
+  "candidate_angle_ids": [
+    "angle_0fbe8cc9cfffa8f9d70fdb6f",
+    "angle_ab0db137df928ed4e835dfda",
+    "angle_d5e284128bd876fcc252938e",
+    "angle_b8d9b3f43299c825040d7812",
+    "angle_9d5b915e1d67f035e55a6c6e",
+    "angle_d745e4ebad2bc0287e9a7087"
+  ],
+  "visible_angle_ids": [],
+  "angle_count": 6,
+  "embedding_requests": 0,
+  "similarity_status": "not_run",
+  "recency_adjustment_status": "not_run",
+  "human_approved": false
+}

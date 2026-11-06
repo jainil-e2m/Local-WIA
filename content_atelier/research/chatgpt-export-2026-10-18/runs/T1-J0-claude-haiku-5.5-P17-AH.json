@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J0-claude-haiku-5.5-P17-AH",
+  "model": "anthropic/claude-haiku-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 322,
+  "completion_tokens": 302,
+  "cached_tokens": 0,
+  "cost": 0.0001832,
+  "seconds": 2.4,
+  "finish": "stop",
+  "system_sha": "ea72523eb9c9",
+  "user_sha": "64a422a3c268"
+ },
+ "output": {
+  "choice": "A",
+  "confidence": 3,
+  "reason": "Version A is tighter and punchier, which suits carousel slides, while Version B's hedging ('necessarily') and longer sentences dilute the point."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: carousel\n\nVersion A:\nThe problem wasn't that the ads weren't working.\nThe problem was...\nNo conversion tracking.\nNo reliable attribution.\nNo way to measure what her investment was producing.\n\nVersion B:\nThe problem wasn't necessarily that the ads weren't working.\nThe problem was that there wasn't the right tracking in place to show whether they were generating inquiries or bookings.\nBeyond clicks, there was no way to measure the return on her investment.",
+  "cache_prefix_sha": "ea72523eb9c9"
+ }
+}

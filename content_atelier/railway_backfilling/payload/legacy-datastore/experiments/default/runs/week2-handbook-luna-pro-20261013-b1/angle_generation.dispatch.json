@@ -1,0 +1,32 @@
+{
+  "requested_model": "openai/gpt-6-luna-pro",
+  "request_hash": "a2e9fa3ed2c406518a48173c578b99b41c2cb4b230b9b76a997849694fc964ba",
+  "dispatched_at": "2026-10-13T10:00:43.956279+00:00",
+  "status": "received",
+  "returned_model": "openai/gpt-6-luna-pro",
+  "provider": "OpenAI",
+  "usage": {
+    "prompt_tokens": 85037,
+    "completion_tokens": 7034,
+    "total_tokens": 92071,
+    "cost": 0.01035358,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 25648,
+      "cache_write_tokens": 25648,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01035358,
+      "upstream_inference_prompt_cost": 0.00683658,
+      "upstream_inference_completions_cost": 0.003517
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 801,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,55 @@
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+
+# Dependencies, generated output and local caches
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+coverage/
+.cache/
+.pytest_cache/
+.pytest-tmp/
+.ruff_cache/
+.qa/
+testing/.calendar-*/
+*.tsbuildinfo
+*.log
+
+# Raw customer/source exports stay local; curated mock fixtures are committed.
+corpus/
+transcripts/
+*.vtt
+out/
+dump/
+.data/
+.storage-artifacts/
+.test-tmp/
+# The review document's Word template is made in the image (5.B14, briefs/review_template.py); no office file is committed (R48).
+backend/backend_pipeline/briefs/templates/
+
+# Supplied backfilled Zoom transcripts are private test inputs.
+backend/zoom_backfill_meetings/
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.claude/
+*.bak
+*.bak-*
+
+# Local grounding reports (Implementation-Prompts.md, prompt 1)
+backend/docs/grounding/
+transfer-work/
+handover-*/

@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J0-gpt-6-luna-P18-HA",
+  "model": "openai/gpt-6-luna",
+  "provider": "OpenAI",
+  "effort": null,
+  "prompt_tokens": 181,
+  "completion_tokens": 134,
+  "cached_tokens": 0,
+  "cost": 8.51e-05,
+  "seconds": 3.2,
+  "finish": "stop",
+  "system_sha": "ea72523eb9c9",
+  "user_sha": "917a289dc9d7"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 4,
+  "reason": "It feels more conversational and directly speaks to the frustration wedding businesses have with advertising."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: email\n\nVersion A:\nOne thing we've learned over the years is that good marketing decisions start with good data.\nIf you can't clearly measure what's working, it's incredibly difficult to know what to improve next.\n\nVersion B:\nOne of the biggest lessons we've learned over the years is that advertising isn't nearly as frustrating when you can clearly see what's working.",
+  "cache_prefix_sha": "ea72523eb9c9"
+ }
+}

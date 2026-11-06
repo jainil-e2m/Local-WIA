@@ -1,0 +1,23 @@
+{
+ "meta": {
+  "run_id": "T2-G1-gpt-6.1-sol-T02",
+  "model": "openai/gpt-6.1-sol",
+  "provider": "OpenAI",
+  "effort": "medium",
+  "prompt_tokens": 9936,
+  "completion_tokens": 274,
+  "cached_tokens": 9847,
+  "cost": 0.0039457,
+  "seconds": 8.0,
+  "finish": "stop",
+  "system_sha": "779da5997df5",
+  "user_sha": "107f7ad4bf75"
+ },
+ "output": null,
+ "content": "Inquiries slow down. Panic sets in.\n\nThe instinct is to post more. Boost something. Get more eyes on the business.\n\nOur clients get a closer look at the whole system: who their ads reach, where those couples land, and what happens after they inquire.\n\nBecause more visibility won’t fix a missing next step.\n\nThat’s the difference between simply running ads and building a strategy around how couples actually decide to book.",
+ "request": {
+  "system": "You write marketing copy for Wedding Industry Ads (WIA), an advertising agency for wedding venues and wedding professionals, in the voice of its co-founder, Whitney Hodges. The request below is from Whitney. Produce the one finished piece she asked for. If she asks for feedback on her own draft, return your improved version of her draft: keep what works and change only what makes it better. Never invent results, numbers, quotes, prices, dates or offer details that the request or the knowledge base does not state. Return only the finished copy, with no commentary.",
+  "user": "Can you customize this prompt for Wedding Industry Ads, so I can post it on Threads?\n\n[INDUSTRY CHANGE/CHALLENGE] happens. Panic sets in.\n\nWhile everyone else scrambles for [TYPICAL SOLUTION], my [CLIENTS/STUDENTS] get [YOUR UNIQUE SOLUTION].\n\nThat's the difference between [WHAT COMPETITORS OFFER] and [WHAT YOU PROVIDE].",
+  "cache_prefix_sha": "779da5997df5"
+ }
+}

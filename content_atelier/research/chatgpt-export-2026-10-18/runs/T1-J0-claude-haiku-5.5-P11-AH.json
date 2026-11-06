@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J0-claude-haiku-5.5-P11-AH",
+  "model": "anthropic/claude-haiku-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 345,
+  "completion_tokens": 433,
+  "cached_tokens": 0,
+  "cost": 0.000251,
+  "seconds": 2.8,
+  "finish": "stop",
+  "system_sha": "ea72523eb9c9",
+  "user_sha": "6bfc9993b015"
+ },
+ "output": {
+  "choice": "A",
+  "confidence": 3,
+  "reason": "Version A keeps the first-person plural consistent throughout, while Version B switches from 'tell me' to 'we'll continue' within two sentences."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: email\n\nVersion A:\nIf you want to explore whether the Google Search Accelerator makes sense for your business, reply to this email and tell us a bit about what you’re trying to solve. We’ll take it from there.\n\n— Whitney & Daniela\nWedding Industry Ads\n\nVersion B:\nIf you want to explore whether the Google Search Accelerator makes sense for your business, reply to this email and tell me a bit about what you’re trying to solve. We’ll continue the conversation from there.\n\nExcited to hear from you,\nWhitney",
+  "cache_prefix_sha": "ea72523eb9c9"
+ }
+}

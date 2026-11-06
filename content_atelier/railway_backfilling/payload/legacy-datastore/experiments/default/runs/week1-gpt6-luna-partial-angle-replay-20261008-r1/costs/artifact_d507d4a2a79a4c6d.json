@@ -1,0 +1,45 @@
+{
+  "report_run_id": "week1-gpt6-luna-partial-angle-replay-20261008-r1",
+  "mode": "replay",
+  "stage": "angle_generation",
+  "requested_model_id": "openai/gpt-6-luna",
+  "request_fingerprint": "055ecd1046e9bac71940449005f28c5481594cf177694e733294227022b9bcd7",
+  "artifact_id": "artifact_d507d4a2a79a4c6d",
+  "original_run_id": "week1-gpt6-luna-partial-angle-diagnostic-20261008-a4",
+  "validation_status": "reused_validated",
+  "currency": "USD",
+  "recorded_at_utc": "2026-10-08T11:29:58.464035+00:00",
+  "dispatched": false,
+  "reused": true,
+  "generation_id": "gen-1791458890-0y5T4laDgbYiRXvgWgnY",
+  "returned_model_id": "openai/gpt-6-luna",
+  "provider": "OpenAI",
+  "usage": {
+    "prompt_tokens": 56446,
+    "completion_tokens": 4067,
+    "total_tokens": 60513,
+    "cost": 0.009089175,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 56443,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.009089175,
+      "upstream_inference_prompt_cost": 0.007055675,
+      "upstream_inference_completions_cost": 0.0020335
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 212,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "original_reported_cost_usd": 0.009089175,
+  "new_cost_usd": 0.0,
+  "cost_status": "reused_no_new_charge",
+  "cost_source": "provider_usage.cost",
+  "credit_purchase_fees_included": false
+}

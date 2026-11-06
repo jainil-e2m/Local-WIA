@@ -1,0 +1,37 @@
+{
+  "schema_sha256": "1f89fa2894074cd6c54b51083e6c775a76ac1e1f59341d3b3f2fbefbb25fc6bb",
+  "counts": {
+    "weeks": 2,
+    "transcripts": 20,
+    "transcript_chunks": 329,
+    "key_moments": 7,
+    "content_angles": 6,
+    "angle_moments": 6,
+    "pipeline_runs": 4,
+    "pipeline_jobs": 8,
+    "pipeline_events": 3,
+    "content_briefs": 0,
+    "content_packs": 0,
+    "content_assets": 0,
+    "calendar_entries": 0
+  },
+  "weeks": [
+    {
+      "week_start": "2026-06-01",
+      "week_end": "2026-06-07",
+      "status": "awaiting_embeddings"
+    },
+    {
+      "week_start": "2026-06-08",
+      "week_end": "2026-06-14",
+      "status": "prepared"
+    }
+  ],
+  "non_null_angle_vectors": 0,
+  "non_null_chunk_vectors": 0,
+  "original_generation_times": [
+    "2026-10-08 11:28:56.043339+00:00"
+  ],
+  "generation_enabled": false,
+  "encoding_enabled": false
+}

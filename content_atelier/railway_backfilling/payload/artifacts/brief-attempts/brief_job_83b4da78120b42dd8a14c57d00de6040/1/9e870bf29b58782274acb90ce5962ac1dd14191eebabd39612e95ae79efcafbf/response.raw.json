@@ -1,0 +1,55 @@
+{
+  "id": "gen-1791817361-XxyK9GBUNhUrfMmsi933",
+  "object": "chat.completion",
+  "created": 1791817361,
+  "model": "openai/gpt-6-luna",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "completed",
+      "message": {
+        "role": "assistant",
+        "content": "{\"queries\":[{\"text\":\"What evidence supports matching wedding photography landing-page imagery, venue details, and offer context to a specific venue, distinct from tailoring pages only by region?\",\"purpose\":\"support\"},{\"text\":\"What practical differences between wedding venues—such as setting, style, or client considerations—could make a venue-specific wedding photography landing page feel more relevant, without assuming every couple wants the same thing?\",\"purpose\":\"explanation\"},{\"text\":\"What are the arguments against building separate wedding photography landing pages for each venue, including maintenance costs, audience overlap, and whether venue-specific context is useful to couples?\",\"purpose\":\"counterevidence\"},{\"text\":\"Find published examples or case studies of wedding photographers matching landing pages to specific venues; note whether any reported client-experience or performance outcomes were actually measured.\",\"purpose\":\"prior_coverage\"}]}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.encrypted",
+            "data": "gAAAAABqzPaUu789Q2eHdyRd2YgytcKIXHCAoPeRsasN2jxLH2L8iJsH3MLoLQ_hIj4pTGVWl3LCTfiuISCkoZ-cLIhaKfsoa7Azk2om23t-TrUGjVTJtXDZakZ5VCx1MQ0hOOE_ytsQNSU7NMQjLF3i_XzMle78CYr4h2GOam0CggZ5-pqmYtJheZFr5iclyp2voBwpA0FNCeeWLylzWTFvDStD5lZ-hLGftDcxI5MWvrL-RZgXGr_KPvLi0ovfLUsc0CsFD18EJOt3Il7gGasEJwrrEyTdXi4-sRmu0ao0ZNpsPW4Y0KjctbLEFXmDzl9xz08KmsouERe8wdU3dIqbNa5TX6IQfTyMNG0HrxHqlRjjaDYcUKKXE8bVmeqWYC1_Z_FrMkLVjVXITSesLd9fX2uTT18k_lLMxQ87SdYB1FzFj9UbpZCDwGnU8CUOYJXohRAfibPq0iAm55D6v-fZEDGQanm7JhBQ8bO8Rd7RuDE1GUK4ZOPSczPUoP8u8R8zGwUICR0XLCej2X-4iOgXAHuAwzxP6fDnvJfT58ciXTdug2xiOKLG7H4iQke7X40iKqj0M8sPpqvFcBN9kCh2o5LeymOKcfr5pLoHF31U1ZCYRxvgtWqlkofD2fqc390c9JiRpWZoHoiDye5JIC8bAoJAR5DtYGilqgP2-rq4ilIC-cUZJ95H18weGHO7J7jkweN1RQxTw689Wvn4J_-PHNAiwWBdBfFu_oDkzH941mDQxM4PeViDRyC7LZfVnzFJHkf1_y6AkWthNoSDwOHGMw0w5pIQj4rGqLt5JcGVLeVOCwW1k8XULdGcabFwYSMMVbWIqG0EUDZrcMwBMPPvOR9hwdqn9T3kxXfXuH03ybS_LWJpbab6J_SYwRGSk7Ga7muNx-KFmrTY78qwF11Z-lqwJ5NiBkItgkK_hdqARKbUD171w5iK4NJpS3k6mdZfGTPsMxgjB4uG66Mun-fVh0qr_0pt0ATwHL5owbco4U_-YEfThfEI3nIDMbBQvMre-jy_fxocK3fVoHi062UapXdSF-Gfih7hD7I6neu_JXZCWLDbJVR9Ydt78g9nmwYphkrjajlGGb9dwuyiN8JJwtHcnaj6nWV4_TkugU8WsPvbMoykKhsu6CLgo79EZa_Vu61O1OadM9vQngDbKLpfbZ-n1adS1aZ1sEcrVPCcBTL1_IOKXKMwRDcRqraHRbp_HD1rQIB6n51kc3_COOVUdHGnbMOywn4cCmShv7fmldUFMqT3_WdVMhvDHy78d-4YBnHNNzV2a8XdCO251j91Ur_cg99drk41CpJqSzYszBm-nwOFB8lKNsNTBcKuOBvzDkOuaBczuYAVok5xligAXuW9ZfX_oXeDoRgibluBd2-FT7T6-bQVHrV6LjiXJsMofVEc8jDG3bIheYmg4Motd4EeZGToqdXaSjKYbP8Ae5tmcLd9II6p5reuhVqBiRIOhoYLY7k2IaSdpvLbP7h4r9lv090OERMRlk_hIJ4LDyFpwrKGnTlc8cOIlqIhtyK2wvQIPHujkqNXQeLk83S-OdKJxGzSYjZaqcZXyoBKItzVbyrDXlOYa8yNocGXDnhsoz8XJiv-XLKxx7hncmKa-I6RpbYL6vZRqLa4oSH5Clpyt8gnRYIaL0Yaj6EAKWdZDRvrE2A7uINzA5y0DkLUOwoueJ4cNp4AA2Umhe7FkKMK5JWYYazSo0iAmgcQKp0F-arVPiSFcLTvjoZPXL-ip5FXoYBvKo_o7iMjoDzXOCVTwM8DnL6P2UgBQRPQy900EzZoQ8V1qZfXDGLIj9MLegOLsULkHOel08rHTCnefDypBPfT94Ks2Jri1NthkcrK56zkEqv-ORd1D8Np0zFK1g_Ec11iP7XWpn5OULQIhRG4lqIb77CbuohJNBzwmTOmq1g4QrAcjr8RH60f0mppO5YCPVnSf021IVVr7a-Jg1rYdgFKd5sMnKZ7ULaAnaxxfjOFNkHPWN6SR_UHwTYm980GLuoYj3z_qy264KpTAHZncal2PQ5aDq7w0TMg4_M4bO74CbSbL93ancgBj_kZ2rEn8LMUco5CTOefn9aoBR-52mfs82I3xGcBdANVbAtmw4Wl1W6CCU2RQGfRaSp5zJfW6fph_bmNwhJIeOX-xbPKnYsKusAUud0BKW1q4hqp68vvligYVl8gkrNb82q1Kr6BDGOeS6dKQVdCCjQC-at03ND-P5hLqm6z-wkNTYPvFlTiqyM8c9ielpdnSBpR0kR_VYkH-zLq1RI_DprX7fkOb0xQcZ47n3ZY4GshBxDm1Dd5jTQ6O1Kdo3BV7k484bTpPx7lO_fb0mMyxV-3SkChLojSjiU0FOm56ivs6FuRNDbG_5SHGsUpGRaUJXEervkLq1037kblXvUGbhxP0F2eZ5_yVqnjUjn1pXmz66vh_xWISiXxd7I-1HzN_EqcUNrG3CvxiKI2mjrte3Mg6tNnBMz4ALfCI3Tum5qgfkgWp02AeSPew1OuF0g_eKXJxOGaytzD3gTVivhhgjL9AhBu1Tidv8dsfcICKN4qCyw4o09BuVNOA70sfzF3DVxoCrQejmdmdu4luhsjDy_tHODb4KqlEDTYMeGp1TJdqEwDUL35Caf_5ypKXpVEZ1du1w7zSZDe2aD1R8o0DtJw_0toUDiIXhf6eM4PDPaviUwRWL_4avGe.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LWx1bmEtMjAyNjA5MjJ8b3BlbmFpIn0",
+            "format": "openai-responses-v1",
+            "id": "rs_09c9881d62f68a99016accf69269e887d1a5d9596240b2c3b4",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5481,
+    "completion_tokens": 261,
+    "total_tokens": 5742,
+    "cost": 0.00081555,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 5478,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00081555,
+      "upstream_inference_prompt_cost": 0.00068505,
+      "upstream_inference_completions_cost": 0.0001305
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 85,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

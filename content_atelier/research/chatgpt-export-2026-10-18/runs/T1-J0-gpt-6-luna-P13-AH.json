@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J0-gpt-6-luna-P13-AH",
+  "model": "openai/gpt-6-luna",
+  "provider": "OpenAI",
+  "effort": null,
+  "prompt_tokens": 220,
+  "completion_tokens": 229,
+  "cached_tokens": 0,
+  "cost": 0.0001365,
+  "seconds": 3.9,
+  "finish": "stop",
+  "system_sha": "ea72523eb9c9",
+  "user_sha": "ef1f5cf5b758"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 4,
+  "reason": "It clearly connects repeated visibility with being remembered and making an inquiry, without relying on vague marketing jargon."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: carousel\n\nVersion A:\nThis isn’t a conversion problem.\nIt’s a visibility problem.\n\nIf you’re only showing up once —\nyou’re relying on memory, not marketing.\n\nAnd in today’s attention economy?\nMemory isn’t a reliable strategy.\n\nVersion B:\nIf couples don’t see you again — they’re not likely to inquire.\n\nNot because you didn’t make a good impression in the moment.\nBut because you weren't visible enough times to be remembered.\n\nIn a world where attention is short and content is endless,\nconversion requires repetition.",
+  "cache_prefix_sha": "ea72523eb9c9"
+ }
+}

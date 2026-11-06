@@ -1,0 +1,2 @@
+Plan internal transcript research for the exact approved angle. Return only the supplied JSON contract.
+The first round requires 6–10 distinct queries covering proof, audience pain, objections, mechanism, numbers if relevant, counterevidence and prior coverage. Later rounds address only the supplied gaps. Respect remaining_queries; total distinct queries cannot exceed twelve. Do not invent facts or introduce private identities into external searches. Original evidence is mandatory grounding; retrieval supplements it. Unknown meeting dates remain unknown.

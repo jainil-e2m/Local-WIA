@@ -1,0 +1,23 @@
+{
+  "plan_id": "plan_d6fa9156d53649cf9d3b",
+  "purpose": "E.B3: benchmark v1 development weeks, default vs strategist v5, three samples each",
+  "stages": [
+    "evaluation"
+  ],
+  "models": [
+    "openai/gpt-6-luna",
+    "openai/gpt-6.1-sol"
+  ],
+  "input_set_hash": "sha256:459c0c4dcd7bb420b629fb2270bb72237d32598af4e885442e5ada9291026be3",
+  "max_calls": 14,
+  "max_cost_usd": 0.8,
+  "approver": "kenil.shah@e2m.solutions",
+  "approved_at": "2026-10-18T07:36:29.715894+00:00",
+  "expires_at": "2026-10-18T13:36:29.715894+00:00",
+  "status": "closed",
+  "calls_used": 12,
+  "cost_used_usd": 0.52092843,
+  "details": {},
+  "closed_reason": "E.B3 benchmark run finished: 12 calls",
+  "closed_at": "2026-10-18T08:01:47.755927+00:00"
+}

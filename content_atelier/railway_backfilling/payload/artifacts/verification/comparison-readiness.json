@@ -1,0 +1,100 @@
+{
+  "verified_date": "2026-10-12",
+  "workflow": "historical_comparison_v1",
+  "external_calls": 0,
+  "backend_runs": {
+    "comparison-tests.xml": {
+      "passed": 151,
+      "failures": 0,
+      "errors": 0
+    },
+    "comparison-affected-tests.xml": {
+      "passed": 40,
+      "failures": 0,
+      "errors": 0
+    }
+  },
+  "distinct_backend_cases_passed": 152,
+  "frontend": {
+    "storage_ui_tests_passed": 4,
+    "auth_proxy_tests_passed": 12,
+    "typecheck": "passed",
+    "production_build": "passed",
+    "previous_unrelated_suite_issue": "ScheduledContent.test.tsx expects 2 controls; calendar renders 10"
+  },
+  "real_data_unchanged": true,
+  "schema_unchanged": true,
+  "external_switches": {
+    "generation": false,
+    "encoding": false,
+    "refinement": false
+  },
+  "real_counts": {
+    "angle_moments": 6,
+    "calendar_entries": 0,
+    "content_angles": 6,
+    "content_assets": 0,
+    "content_briefs": 0,
+    "content_packs": 0,
+    "key_moments": 7,
+    "pipeline_events": 3,
+    "pipeline_jobs": 8,
+    "pipeline_runs": 4,
+    "transcript_chunks": 329,
+    "transcripts": 20,
+    "weeks": 2
+  },
+  "synthetic_example": {
+    "families": 8,
+    "targets": 6,
+    "cutoffs": [
+      {
+        "cutoff": 0.78,
+        "counts": {
+          "recovered": 2,
+          "failing_both": 0,
+          "failing_history": 2,
+          "failing_quality": 2,
+          "final_qualified": 4,
+          "initial_qualified": 2,
+          "current_batch_flagged": 2,
+          "no_supported_alternative": 1,
+          "retained_original_fallbacks": 0,
+          "qualified_without_batch_flags": 2
+        }
+      },
+      {
+        "cutoff": 0.85,
+        "counts": {
+          "recovered": 1,
+          "failing_both": 0,
+          "failing_history": 1,
+          "failing_quality": 2,
+          "final_qualified": 5,
+          "initial_qualified": 4,
+          "current_batch_flagged": 2,
+          "no_supported_alternative": 1,
+          "retained_original_fallbacks": 1,
+          "qualified_without_batch_flags": 3
+        }
+      },
+      {
+        "cutoff": 0.9,
+        "counts": {
+          "recovered": 1,
+          "failing_both": 0,
+          "failing_history": 0,
+          "failing_quality": 1,
+          "final_qualified": 7,
+          "initial_qualified": 6,
+          "current_batch_flagged": 4,
+          "no_supported_alternative": 1,
+          "retained_original_fallbacks": 2,
+          "qualified_without_batch_flags": 3
+        }
+      }
+    ]
+  },
+  "gate_one_comparison_approval": "disabled; authoritative threshold pending",
+  "semantic_accuracy": "not calibrated with real embeddings"
+}

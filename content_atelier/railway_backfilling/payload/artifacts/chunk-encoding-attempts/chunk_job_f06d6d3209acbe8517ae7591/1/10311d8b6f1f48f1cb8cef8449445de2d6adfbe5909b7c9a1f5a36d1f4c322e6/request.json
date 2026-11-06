@@ -1,0 +1,15 @@
+{
+  "endpoint": "https://openrouter.ai/api/v1/embeddings",
+  "contract": "5c61886dac23af4cd6a1c3fca450ad455e147c06987f5c90bd5e35482c18c1eb",
+  "body": {
+    "model": "openai/text-embedding-3-small",
+    "input": [
+      "Source: Check-in with Gisselle's transcript.txt\nGisselle Jiménez: Sorry. I think I have, um…\nWhitney Hodges: Um…\nGisselle Jiménez: Cancel.\nGisselle Jiménez: Sorry, I was just checking on some, um, reminders that I have here. Cancel Breeze… no, we're not canceling Breeze invoice right now, right? Uh…\nWhitney Hodges: Not yet, no. She wants one more month.\nGisselle Jiménez: Yeah.\nGisselle Jiménez: One moment. Okay, perfect. Uh, let me see… Okay, then, um, next on my list, I just… I still have to plug in, like, the AI chat widget that we're gonna do for WIA.\nWhitney Hodges: Yeah, like creating the knowledge base.\nGisselle Jiménez: So that's, um…\nGisselle Jiménez: Mm-hmm, yeah, so I will do that this week, um…\nGisselle Jiménez: And then…\nGisselle Jiménez: Let me see. I have some automations.\nGisselle Jiménez: Um, I still have to work on, like, the lead pipelines.\nWhitney Hodges: Mm-hmm.\nGisselle Jiménez: For, uh, wedding industry ads. And also, I think this is very overdue. Like, um, I had it on my task group, but I didn't, I didn't have a due date and I'm, I just saw it recently that, uh, you asked me to research like the, the, the script, the script. ai for like video editing.\nWhitney Hodges: Oh, yeah, mm-hmm.\nGisselle Jiménez: is…\nGisselle Jiménez: Is that something we still want to look into?\nWhitney Hodges: I think so, yeah.\nGisselle Jiménez: Yeah? Okay, yeah. Yeah, just so you know, it's still on my list. I had, like, forgot about it, but that's on my list. And then, um, I think there are also some videos that I need to, um, input for the Vault Google Drive.\nWhitney Hodges: It would be good to know. Yeah.\nGisselle Jiménez: Just that sometimes I have to go back because they're not in the Google Drive, and it sucks that you cannot really download them once they're uploaded in the lesson.\nWhitney Hodges: Mm-hmm.\nWhitney Hodges: Yeah, I know. Yeah.\nGisselle Jiménez: Not sure why, so have to, like, look into it. Um, but yeah.\nWhitney Hodges: Yes, so it'll be more organized, I think, moving forward, since we're, like, creating a version of it. And that way, too, it's like, if we ever…\nGisselle Jiménez: Mm-hmm.\nGisselle Jiménez: Yeah.\nWhitney Hodges: Move to a different platform, or if something ever…\nWhitney Hodges: happens with the vault itself, or with GHL, it's like, not all that stuff would be lost, you know?\nGisselle Jiménez: Mm-hmm.\nGisselle Jiménez: Yeah, I think having it in the driveway is definitely better."
+    ],
+    "dimensions": 1536,
+    "encoding_format": "float"
+  },
+  "input_hashes": [
+    "03d1ad69511c7cdba6d52f6ac76e098dec3ff932d15e34ea3eb92731f35b910a"
+  ]
+}

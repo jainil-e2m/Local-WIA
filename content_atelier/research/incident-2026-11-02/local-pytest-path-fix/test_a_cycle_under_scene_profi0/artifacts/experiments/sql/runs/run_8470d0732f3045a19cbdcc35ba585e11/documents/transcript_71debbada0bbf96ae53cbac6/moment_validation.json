@@ -1,0 +1,48 @@
+{
+  "validation": "per_moment.v1",
+  "repair_rule": "normalised-whitespace-punctuation.v1",
+  "coverage_rule": "coverage-failure-fails-week.accepted.v1",
+  "quote_repairs": [
+    {
+      "local_key": "s2",
+      "rule": "normalised-whitespace-punctuation.v1",
+      "original_quote": "Lead Lock has helped a lot with the follow up",
+      "repaired_quote": "Lead Lock has helped a lot with the follow-up",
+      "anchor_span_id": "file:15bf6609a809369f:span:3",
+      "moment_id": "moment_22702702d2ed7cd525fc24a8"
+    }
+  ],
+  "unverified_moments": [
+    {
+      "local_key": "s3",
+      "reason": "Moment quote must match an existing anchor span",
+      "usable_as_proof": false,
+      "draft": {
+        "local_key": "s3",
+        "anchor_span_ids": [
+          "file:15bf6609a809369f:span:2"
+        ],
+        "context_span_ids": [
+          "file:15bf6609a809369f:span:2"
+        ],
+        "quote": "Nobody said this at all, ever.",
+        "context_summary": "No binding quote.",
+        "moment_type": "observation",
+        "proposition": "Carmen Cruickshank asked: How March went | Client: Reported 45 bookings in March",
+        "audience_relevance": "Not assessed at extraction; the strategist judges relevance (E.B12)",
+        "qualifications": [
+          "Reported, not measured by WIA"
+        ],
+        "claim_status": "reported",
+        "sensitivity": "public_candidate",
+        "strength": 0.0,
+        "reasons": [
+          "Scene record; not scored at extraction (E.B12)"
+        ]
+      }
+    }
+  ],
+  "unverified_count": 1,
+  "unverified_usable_as_proof": false,
+  "scene_count": 3
+}

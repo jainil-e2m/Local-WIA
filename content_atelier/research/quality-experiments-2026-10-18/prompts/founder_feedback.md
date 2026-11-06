@@ -1,0 +1,6 @@
+I'm going to be brutally honest here. It's 1's across the board for me at this point.
+The AI is identifying what we talked about on our calls, but it's missing what those conversations demonstrate about our expertise, our process, and the value we provide to our clients. We need it to zoom out, recognize the bigger picture, and identify content opportunities that support our actual marketing strategy.
+I think there is the opportunity to layer in a deeper level of marketing strategy and strategic thinking before the content angles output.
+I'm curious why the system selected these six ideas over everything else discussed that week? It would help me to understand how it's going about identifying content opportunities.
+We want this system to uncover content opportunities that demonstrate what we know, how we think, how we work with clients, and why our approach matters, not simply extract educational takeaways from conversations.
+I added a tab to your doc that references the same source material but with angles much more aligned with what I'd like to see and that encompasses the strategic level of thinking I'm hoping for. I think in all cases, the ideas are zoomed out, less specific, and far less educational/academic sounding.

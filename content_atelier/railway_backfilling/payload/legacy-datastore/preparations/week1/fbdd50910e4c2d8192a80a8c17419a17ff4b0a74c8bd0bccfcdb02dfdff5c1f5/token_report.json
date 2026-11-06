@@ -1,0 +1,122 @@
+{
+  "tokenizer": "o200k_harmony",
+  "tokenizer_package": "tiktoken==0.12.0",
+  "vocabulary_sha256": "446a9538cb6c348e3516120d7c08b09f57c36495e2acfffe59a5bf8b0cfb1a2d",
+  "counting_is_local": true,
+  "hosted_provider_exact_input_tokens": null,
+  "method": "Exact local BPE counts of rendered messages; minified schema is a provider-format proxy. Margin is not measured usage.",
+  "system_text_tokens": 1874,
+  "user_text_tokens": 103178,
+  "message_text_tokens": 105052,
+  "source_packet_tokens": 102314,
+  "schema_proxy_tokens": 549,
+  "input_with_schema_proxy_tokens": 105601,
+  "provider_framing_and_schema_margin": 2048,
+  "context_limit_reference_tokens": 131072,
+  "selected_completion_reserve": 20480,
+  "selected_reserve_includes_reasoning_and_final_json": true,
+  "context_headroom_after_reserves": 2943,
+  "capacity_fits_selected_budget": true,
+  "coverage_only_output_tokens": 8729,
+  "completion_space_after_coverage_only": 11751,
+  "completion_budget_scenarios": [
+    {
+      "completion_reserved": 16384,
+      "remaining_context": 7039,
+      "fits": true
+    },
+    {
+      "completion_reserved": 20480,
+      "remaining_context": 2943,
+      "fits": true
+    },
+    {
+      "completion_reserved": 24576,
+      "remaining_context": -1153,
+      "fits": false
+    },
+    {
+      "completion_reserved": 32768,
+      "remaining_context": -9345,
+      "fits": false
+    }
+  ],
+  "request_serialized_characters": 363290,
+  "dialogue_only_tokens_sum": 78544,
+  "per_source": [
+    {
+      "meeting_ref": "m1",
+      "filename": "Carmen Cruickshank's Personal Meeting Room's transcript (1).txt",
+      "turns": 192,
+      "cue_turns": 192,
+      "packet_tokens_in_isolation": 5955
+    },
+    {
+      "meeting_ref": "m2",
+      "filename": "Carmen Cruickshank's Personal Meeting Room's transcript (2).txt",
+      "turns": 260,
+      "cue_turns": 260,
+      "packet_tokens_in_isolation": 7003
+    },
+    {
+      "meeting_ref": "m3",
+      "filename": "Carmen Cruickshank's Personal Meeting Room's transcript (3).txt",
+      "turns": 397,
+      "cue_turns": 397,
+      "packet_tokens_in_isolation": 12053
+    },
+    {
+      "meeting_ref": "m4",
+      "filename": "Carmen Cruickshank's Personal Meeting Room's transcript (4).txt",
+      "turns": 586,
+      "cue_turns": 586,
+      "packet_tokens_in_isolation": 16872
+    },
+    {
+      "meeting_ref": "m5",
+      "filename": "Carmen Cruickshank's Personal Meeting Room's transcript.txt",
+      "turns": 709,
+      "cue_turns": 709,
+      "packet_tokens_in_isolation": 18302
+    },
+    {
+      "meeting_ref": "m6",
+      "filename": "Check-in with Gisselle's transcript.txt",
+      "turns": 283,
+      "cue_turns": 283,
+      "packet_tokens_in_isolation": 8282
+    },
+    {
+      "meeting_ref": "m7",
+      "filename": "LeadLock Sequence Refresh's transcript.txt",
+      "turns": 247,
+      "cue_turns": 247,
+      "packet_tokens_in_isolation": 11032
+    },
+    {
+      "meeting_ref": "m8",
+      "filename": "Messaging & Positioning _ The Penny's transcript.txt",
+      "turns": 308,
+      "cue_turns": 308,
+      "packet_tokens_in_isolation": 13331
+    },
+    {
+      "meeting_ref": "m9",
+      "filename": "Whitney Hodges's Personal Meeting Room's transcript.txt",
+      "turns": 256,
+      "cue_turns": 256,
+      "packet_tokens_in_isolation": 9476
+    }
+  ],
+  "legacy_message_text_tokens": 316004,
+  "message_token_reduction_percent": 66.76,
+  "source_count": 9,
+  "turn_count": 3238,
+  "requested_model": "openai/gpt-oss-120b:free",
+  "requested_route_advertised_in_snapshot": false,
+  "meeting_metadata_complete": false,
+  "live_readiness": "not_cleared",
+  "live_requests_sent": 0,
+  "profile": "2026-10-08.weekly-compact-preparation.v1",
+  "legacy_live_runner_uses_this_profile": false
+}

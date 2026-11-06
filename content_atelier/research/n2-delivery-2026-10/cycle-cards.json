@@ -1,0 +1,777 @@
+[
+ {
+  "angle_id": "angle_ecb46d8f70907f6d903e56e8",
+  "content_body": {
+   "card": {
+    "rank": 1,
+    "point": "We make a page we've built earn its place against what already works for a venue, rather than moving all its ad traffic just because it's our page.",
+    "title": "How we decide whether to replace a client's existing page",
+    "pillar": "WARM",
+    "series": "Watch Us Build an Ad Strategy",
+    "audience": "Venue owners already investing in ads who want a team that respects the work they've built with their website designer.",
+    "guardrail": "Keep this about WIA making its own work earn a place in the client's advertising. Don't publish conversion comparisons or claim one page won without an approved result; develop the piece around the decision to compare before replacing.",
+    "offer_fit": {
+     "offer": "ELEVATE, our full-service advertising management program",
+     "cta_slot": "soft_invitation",
+     "calendar_note": "Builds trust in the ELEVATE waitlist window without an audit CTA. Use this for the Tuesday email with a reply invitation, and an Instagram piece without an offer CTA."
+    },
+    "belief_ref": "B3",
+    "moment_ids": [
+     "moment_c52ff3a5134b59f97303de7e"
+    ],
+    "reader_fit": {
+     "why": "This owner already has advertising and a website worth building on, and wants thoughtful ongoing management.",
+     "buyer": "elevate",
+     "buyer_statement": "“Clients come to us because they are ready for ads. They want to amplify what is already working.”"
+    },
+    "recurrence": null,
+    "content_type": "process_or_framework",
+    "why_selected": "This is the clearest counter-expected decision of the week. It adds something specific to earlier data-led content: WIA's own deliverable doesn't get preference simply because WIA made it.",
+    "public_stance": {
+     "stance": null,
+     "takes_stance": false
+    },
+    "wia_in_action": "Whitney described comparing WIA's new landing page with the venue's existing pages instead of moving all traffic at once. She then named revisions WIA would make to its own page and send back for the client's review.",
+    "point_is_about": "wia_standard",
+    "why_it_matters": "A new page shouldn't automatically replace a useful part of a venue's advertising. Owners planning website updates before engagement season should know how their ads team makes that decision.",
+    "evidence_points": [
+     "Whitney said WIA used a comparison because it didn't want to stop sending traffic to the existing pages and switch everything to its own page without knowing how it would convert. (10:13–10:35)",
+     "Whitney said WIA would revise imagery, mobile presentation and calls to action on its page, then send it back for Lauren to review. (10:52–11:03)"
+    ],
+    "reader_takeaway": "I want a team that respects what's already working, even when they built the alternative.",
+    "verify_before_publishing": [
+     "Confirm permission to use an anonymous account of the page-comparison decision."
+    ],
+    "surprise_for_experienced_advertiser": {
+     "reason": "An owner may expect an agency's preferred page to become the default; WIA was willing to keep using the client's existing work while assessing its own.",
+     "surprising": true
+    }
+   },
+   "take": "We make a page we've built earn its place against what already works for a venue, rather than moving all its ad traffic just because it's our page.",
+   "risks": [
+    "handling: unknown; public reuse needs review"
+   ],
+   "title": "How we decide whether to replace a client's existing page",
+   "ledger": {
+    "flags": [
+     {
+      "id": "flag_8463575f7b00",
+      "kind": "generalised_practice",
+      "text": "How we decide whether to replace a client's existing page",
+      "field": "title",
+      "source": "deterministic",
+      "message": "\"How we decide\" generalises one scene into a WIA practice",
+      "severity": "check"
+     },
+     {
+      "id": "flag_6428b921e14e",
+      "kind": "invented_reason",
+      "text": "respects the work they've built with their website designer",
+      "field": "audience",
+      "source": "model",
+      "message": "S1 never mentions a website designer, and never says what kind of business Lauren runs (the card calls it a venue). Whitney only says existing website pages were converting well. The same applies to the engagement-season context in why_it_matters.",
+      "severity": "check"
+     }
+    ],
+    "critic": {
+     "reason": "It shows WIA testing its own page against a client's converting pages instead of defaulting to its own, which a prospective ELEVATE client would find reassuring.",
+     "worth_attention": "pass",
+     "wia_is_the_subject": "pass"
+    },
+    "version": "ledger-2026-10-18.v1",
+    "bindings": [
+     {
+      "match": "model",
+      "point": "Whitney said WIA used a comparison because it didn't want to stop sending traffic to the existing pages and switch everything to its own page without knowing how it would convert. (10:13–10:35)",
+      "spans": [],
+      "status": "bound",
+      "scene_ids": [
+       "moment_c52ff3a5134b59f97303de7e"
+      ],
+      "point_index": 0
+     },
+     {
+      "match": "model",
+      "point": "Whitney said WIA would revise imagery, mobile presentation and calls to action on its page, then send it back for Lauren to review. (10:52–11:03)",
+      "spans": [],
+      "status": "bound",
+      "scene_ids": [
+       "moment_c52ff3a5134b59f97303de7e"
+      ],
+      "point_index": 1
+     }
+    ],
+    "readiness": "needs_check",
+    "model_pass": "anthropic/claude-sonnet-5.5",
+    "qualifiers": [
+     "The landing-page tweaks to imagery, mobile and calls to action were planned, not yet made, and had not been sent back to the client.",
+     "The existing pages converted better than the new LeadLock page, so no result or comparison can be published.",
+     "The split test is described for one client, not as a standard WIA procedure."
+    ],
+    "attribution": [
+     {
+      "name": "Whitney Hodges",
+      "field": "wia_in_action",
+      "speaks_in_scenes": true
+     },
+     {
+      "name": "Whitney Hodges",
+      "field": "evidence_points[0]",
+      "speaks_in_scenes": true
+     },
+     {
+      "name": "Whitney Hodges",
+      "field": "evidence_points[1]",
+      "speaks_in_scenes": true
+     }
+    ],
+    "ledger_hash": "9c54ee631ac5841769392c613891eb7ef107d98a9d30a3e40b04660d6276e6d8"
+   },
+   "tension": "",
+   "argument": "We make a page we've built earn its place against what already works for a venue, rather than moving all its ad traffic just because it's our page.",
+   "audience": "Venue owners already investing in ads who want a team that respects the work they've built with their website designer.",
+   "inference": null,
+   "mechanism": "Whitney described comparing WIA's new landing page with the venue's existing pages instead of moving all traffic at once. She then named revisions WIA would make to its own page and send back for the client's review.",
+   "qualifiers": [
+    "Whitney described a comparison but did not state a test duration or conversion figures."
+   ],
+   "reader_decision": null,
+   "source_family_id": "source_family_a0328dbaf444bcb034402f29",
+   "source_assertions": []
+  }
+ },
+ {
+  "angle_id": "angle_660cf0aa0adfb781791a073d",
+  "content_body": {
+   "card": {
+    "rank": 2,
+    "point": "Our clients can turn down a new ad with no hard feelings, because their approval matters even after we've done the work.",
+    "title": "How we handle a new ad a client doesn't love",
+    "pillar": "WARM",
+    "series": null,
+    "audience": "Wedding business owners who know their brand well and want their judgment to remain part of a done-for-you advertising partnership.",
+    "guardrail": "Don't turn a client's preference into a claim that WIA produced poor ads, or use performance claims in the public piece. Develop this around Whitney's response and the client's freedom to decline, with the business unnamed.",
+    "offer_fit": {
+     "offer": "ELEVATE, your dedicated, done-for-you advertising team",
+     "cta_slot": "none",
+     "calendar_note": "Shows the experience of an ongoing partnership while ELEVATE is on waitlist. Keep it as the week's second Instagram piece without an offer CTA."
+    },
+    "belief_ref": "none",
+    "moment_ids": [
+     "moment_3e18698c0196d5608b0a2f0b"
+    ],
+    "reader_fit": {
+     "why": "The reader wants execution handled by experts while keeping meaningful approval over how their wedding business is represented.",
+     "buyer": "elevate",
+     "buyer_statement": "“Your dedicated, done-for-you advertising team.”"
+    },
+    "recurrence": null,
+    "content_type": "behind_the_scenes",
+    "why_selected": "The small “no hard feelings” line proves a clear client-experience standard. It is fresher than another piece about creative rotation or data compounding, neither of which this moment directly proves.",
+    "public_stance": {
+     "stance": null,
+     "takes_stance": false
+    },
+    "wia_in_action": "Whitney invited specific edits, but also told Steve he could choose not to use the new creatives at all. She explained that other ads were still running, so there wasn't pressure to approve the new round.",
+    "point_is_about": "client_experience",
+    "why_it_matters": "Approving creative should give an owner a real say. This exchange shows what happens when that say includes declining work the agency has already made.",
+    "evidence_points": [
+     "Steve said he didn't remember the new creatives clearly, but didn't think he loved them and hadn't finalized his review. (01:33–01:45)",
+     "Whitney said other creatives were running and doing well, so there wasn't urgency to use the new ones. (01:54–02:01)",
+     "Whitney welcomed edits and said that if Steve didn't want to use the creatives at all, there were “no hard feelings.” (02:04–02:22)"
+    ],
+    "reader_takeaway": "I want an advertising team I can be that honest with.",
+    "verify_before_publishing": [
+     "Confirm permission to use the anonymous creative-review exchange."
+    ],
+    "surprise_for_experienced_advertiser": {
+     "reason": "The agency didn't ask the client to defend his preference or limit him to requesting revisions; Whitney explicitly made not using the work an acceptable decision.",
+     "surprising": true
+    }
+   },
+   "take": "Our clients can turn down a new ad with no hard feelings, because their approval matters even after we've done the work.",
+   "risks": [
+    "handling: unknown; public reuse needs review"
+   ],
+   "title": "How we handle a new ad a client doesn't love",
+   "ledger": {
+    "flags": [
+     {
+      "id": "flag_ca7f949d6b8a",
+      "kind": "invented_reason",
+      "text": "because their approval matters even after we've done the work",
+      "field": "point",
+      "source": "model",
+      "message": "Whitney says only that there is no urgency, that edits are welcome and that there would be no hard feelings. She gives no reason about approval mattering, so the card adds a motive.",
+      "severity": "check"
+     },
+     {
+      "id": "flag_bb355cb0b685",
+      "kind": "frequency",
+      "text": "How we handle a new ad a client doesn't love / Our clients can turn down a new ad",
+      "field": "title",
+      "source": "model",
+      "message": "One exchange with one client is presented as WIA's general practice and as true of all clients. Whitney does say a monthly round of creatives continues, but nothing shows how other clients are treated.",
+      "severity": "check"
+     },
+     {
+      "id": "flag_37711046b958",
+      "kind": "other",
+      "text": "Whitney ... told Steve",
+      "field": "wia_in_action",
+      "source": "model",
+      "message": "The speaker is labelled 'Steve's iPhone' and Steve is never addressed by name. The line 'I did quickly look at them' is also labelled Whitney, though it is plainly the client. Confirm the client's name and role before using it.",
+      "severity": "check"
+     }
+    ],
+    "critic": {
+     "reason": "It shows how WIA responds when a client is lukewarm about its work, which tells a prospect what the working relationship feels like, though the moment is small.",
+     "worth_attention": "pass",
+     "wia_is_the_subject": "pass"
+    },
+    "version": "ledger-2026-10-18.v1",
+    "bindings": [
+     {
+      "match": "model",
+      "point": "Steve said he didn't remember the new creatives clearly, but didn't think he loved them and hadn't finalized his review. (01:33–01:45)",
+      "spans": [],
+      "status": "bound",
+      "scene_ids": [
+       "moment_3e18698c0196d5608b0a2f0b"
+      ],
+      "point_index": 0
+     },
+     {
+      "match": "model",
+      "point": "Whitney said other creatives were running and doing well, so there wasn't urgency to use the new ones. (01:54–02:01)",
+      "spans": [],
+      "status": "bound",
+      "scene_ids": [
+       "moment_3e18698c0196d5608b0a2f0b"
+      ],
+      "point_index": 1
+     },
+     {
+      "point": "Whitney welcomed edits and said that if Steve didn't want to use the creatives at all, there were “no hard feelings.” (02:04–02:22)",
+      "spans": [
+       {
+        "role": "wia_team",
+        "match": "exact",
+        "speaker": "Whitney Hodges",
+        "moment_id": "moment_3e18698c0196d5608b0a2f0b",
+        "start_seconds": 131.0
+       }
+      ],
+      "status": "bound",
+      "point_index": 2
+     }
+    ],
+    "readiness": "needs_check",
+    "model_pass": "anthropic/claude-sonnet-5.5",
+    "qualifiers": [
+     "The client had not finalized a decision on the new creatives, and Whitney's 'no hard feelings' was an invitation, not a case where a client rejected the work.",
+     "Whitney said other creatives were running and 'doing well', which is not a published result and should not become a performance claim.",
+     "The client stays unnamed, and his reaction should not be framed as the ads being poor."
+    ],
+    "attribution": [
+     {
+      "name": "Whitney Hodges",
+      "field": "evidence_points[1]",
+      "speaks_in_scenes": true
+     }
+    ],
+    "ledger_hash": "3398101fde7f87fdbfccc38f56a8d7b3a2835729259b4833646a1ca1b51f40ab"
+   },
+   "tension": "",
+   "argument": "Our clients can turn down a new ad with no hard feelings, because their approval matters even after we've done the work.",
+   "audience": "Wedding business owners who know their brand well and want their judgment to remain part of a done-for-you advertising partnership.",
+   "inference": null,
+   "mechanism": "Whitney invited specific edits, but also told Steve he could choose not to use the new creatives at all. She explained that other ads were still running, so there wasn't pressure to approve the new round.",
+   "qualifiers": [
+    "The transcript attributes “I did quickly look at them” (m1.t0023) to Whitney, although the surrounding turns ask whether Steve reviewed the creatives; that attribution is left as transcribed."
+   ],
+   "reader_decision": null,
+   "source_family_id": "source_family_1185ab216117f7bf41665407",
+   "source_assertions": []
+  }
+ },
+ {
+  "angle_id": "angle_09950b1fdec96ac533d677bd",
+  "content_body": {
+   "card": {
+    "rank": 3,
+    "point": "We keep upcoming dates in the ad strategy by finding a reason they're right for couples now, including a venue's ability to host a wedding without a long engagement.",
+    "title": "How we find booking opportunities in a venue's coming season",
+    "pillar": "CONVERT",
+    "series": "Watch Us Build an Ad Strategy",
+    "audience": "Venue owners already advertising who are planning their next season's calendar and want their ads to reflect what their team can actually offer couples.",
+    "guardrail": "This is a proposed creative direction, not a completed campaign or a booking result. Keep the seasonal descriptions attributed to the owner, omit private availability details, and develop the invitation around ongoing advertising strategy rather than discounts or urgency.",
+    "offer_fit": {
+     "offer": "ELEVATE, our full-service advertising management program",
+     "cta_slot": "offer_cta",
+     "calendar_note": "Use the window's Instagram CTA, DM “ADS,” to discuss the ELEVATE waitlist. It supports planning for engagement season without claiming January results, announcing availability or introducing a Black Friday offer."
+    },
+    "belief_ref": "B5",
+    "moment_ids": [
+     "moment_565646c9623a619d89966c6f"
+    ],
+    "reader_fit": {
+     "why": "The reader has a capable venue team and wants an ads agency to turn that strength into more relevant opportunities.",
+     "buyer": "elevate",
+     "buyer_statement": "“They want to amplify what is already working.”"
+    },
+    "recurrence": "Whitney said other venue clients were receiving shorter-notice wedding inquiries; keep that as her team's reported experience, not a measured industry trend.",
+    "content_type": "solution_selling",
+    "why_selected": "This is the strongest offer-led idea because WIA made a specific strategic contribution and the owner immediately recognized its value. It gives B5 a concrete planning example without pretending an always-on campaign or future bookings were demonstrated.",
+    "public_stance": {
+     "stance": null,
+     "takes_stance": false
+    },
+    "wia_in_action": "Whitney asked what made spring weddings at the venue appealing, then explored seasonal food and drink. She also proposed explaining that couples didn't need a long engagement because the venue had a team that could pull the wedding together.",
+    "point_is_about": "wia_belief",
+    "why_it_matters": "A venue's booking opportunities can include couples with shorter engagements. An in-house team may give those couples a reason to consider dates the owner feels are getting close.",
+    "evidence_points": [
+     "Whitney asked why that time of year was a great time to marry at the venue, and the client described fresh greenery, flowers and spring energy. (05:08–06:17)",
+     "Whitney asked about seasonal menus and cocktails, then said those details could help explain the springtime experience in the copy. (06:19–07:17)",
+     "Whitney proposed speaking to shorter engagements; the client replied that they could move quickly because the full team was already in-house and wanted that angle included. (07:47–08:15)"
+    ],
+    "reader_takeaway": "I hadn't thought of my team's ability to move quickly as a reason couples could choose us.",
+    "verify_before_publishing": [
+     "Confirm permission to use the anonymous spring-wedding planning exchange."
+    ],
+    "surprise_for_experienced_advertiser": {
+     "reason": "Whitney found an advertising advantage in the venue's operating model: an in-house team makes a shorter planning window something the venue can confidently speak to.",
+     "surprising": true
+    }
+   },
+   "take": "We keep upcoming dates in the ad strategy by finding a reason they're right for couples now, including a venue's ability to host a wedding without a long engagement.",
+   "risks": [
+    "handling: unknown; public reuse needs review"
+   ],
+   "title": "How we find booking opportunities in a venue's coming season",
+   "ledger": {
+    "flags": [
+     {
+      "id": "flag_6f8936b88363",
+      "kind": "attributed_experience",
+      "text": "How we find booking opportunities in a venue's coming season / We keep upcoming dates in the ad strategy",
+      "field": "title",
+      "source": "model",
+      "message": "States a WIA team member's experience from their own work, credited to them: not a prevalence claim. Check that the card keeps it credited and states it as their experience, never as true of most wedding businesses. The verifier's note: One creative conversation with one venue is presented as WIA's standing method. The scene shows Whitney asking these questions once and proposing an angle for the next round of creatives.",
+      "severity": "check"
+     }
+    ],
+    "critic": {
+     "reason": "It shows Whitney drawing an advertising angle out of how a venue actually operates, which a venue owner could take as evidence of how WIA thinks.",
+     "worth_attention": "pass",
+     "wia_is_the_subject": "pass"
+    },
+    "version": "ledger-2026-10-18.v1",
+    "bindings": [
+     {
+      "match": "model",
+      "point": "Whitney asked why that time of year was a great time to marry at the venue, and the client described fresh greenery, flowers and spring energy. (05:08–06:17)",
+      "spans": [],
+      "status": "bound",
+      "scene_ids": [
+       "moment_565646c9623a619d89966c6f"
+      ],
+      "point_index": 0
+     },
+     {
+      "match": "model",
+      "point": "Whitney asked about seasonal menus and cocktails, then said those details could help explain the springtime experience in the copy. (06:19–07:17)",
+      "spans": [],
+      "status": "bound",
+      "scene_ids": [
+       "moment_565646c9623a619d89966c6f"
+      ],
+      "point_index": 1
+     },
+     {
+      "match": "model",
+      "point": "Whitney proposed speaking to shorter engagements; the client replied that they could move quickly because the full team was already in-house and wanted that angle included. (07:47–08:15)",
+      "spans": [],
+      "status": "bound",
+      "scene_ids": [
+       "moment_565646c9623a619d89966c6f"
+      ],
+      "point_index": 2
+     }
+    ],
+    "readiness": "needs_check",
+    "model_pass": "anthropic/claude-sonnet-5.5",
+    "qualifiers": [
+     "This was a proposed copy direction for the next round of creatives, not a launched campaign or a booking result.",
+     "The spring descriptions and the in-house team's ability to move quickly came from the client, not from WIA's data.",
+     "Whitney's remarks about last-minute requests from venue clients are her observation and carry no measured prevalence or result."
+    ],
+    "attribution": [
+     {
+      "name": "Whitney Hodges",
+      "field": "wia_in_action",
+      "speaks_in_scenes": true
+     },
+     {
+      "name": "Whitney Hodges",
+      "field": "evidence_points[0]",
+      "speaks_in_scenes": true
+     },
+     {
+      "name": "Whitney Hodges",
+      "field": "evidence_points[1]",
+      "speaks_in_scenes": true
+     },
+     {
+      "name": "Whitney Hodges",
+      "field": "evidence_points[2]",
+      "speaks_in_scenes": true
+     }
+    ],
+    "ledger_hash": "391617d645757605ce64b9b952a403ccd866971e089155ea53138c88435ab948"
+   },
+   "tension": "",
+   "argument": "We keep upcoming dates in the ad strategy by finding a reason they're right for couples now, including a venue's ability to host a wedding without a long engagement.",
+   "audience": "Venue owners already advertising who are planning their next season's calendar and want their ads to reflect what their team can actually offer couples.",
+   "inference": null,
+   "mechanism": "Whitney asked what made spring weddings at the venue appealing, then explored seasonal food and drink. She also proposed explaining that couples didn't need a long engagement because the venue had a team that could pull the wedding together.",
+   "qualifiers": [
+    "Descriptions of the seasons and venue operations are the client's account.",
+    "The copy angle was discussed for future creatives; no completed creative was reviewed here."
+   ],
+   "reader_decision": null,
+   "source_family_id": "source_family_034dd81626be61b4abe112f5",
+   "source_assertions": []
+  }
+ },
+ {
+  "angle_id": "angle_36f6b25c9a0840b05725a515",
+  "content_body": {
+   "card": {
+    "rank": 4,
+    "point": "We keep the wedding a venue hosts today separate from the one its owner is planning, so the details in its ads match what couples can experience.",
+    "title": "How we separate today's wedding experience from future plans",
+    "pillar": "WARM",
+    "series": "Watch Us Build an Ad Strategy",
+    "audience": "Venue owners refining their spaces or adding wedding packages who want their ads to represent the business accurately as it grows.",
+    "guardrail": "Keep the owner's plans positive and separate from current facts; don't present her as overstating anything. Develop the piece around Whitney's questions, not a list of unfinished work or a claim that the venue needs improvements before working with WIA.",
+    "offer_fit": {
+     "offer": "ELEVATE, our full-service advertising management program",
+     "cta_slot": "none",
+     "calendar_note": "Hold for the following week as another view of WIA's strategy work. It adds a specific accuracy standard rather than repeating September's point that positioning comes before campaign setup."
+    },
+    "belief_ref": "B3",
+    "moment_ids": [
+     "moment_10514e6b60a7eedfbe73007d",
+     "moment_ce1e32d5e22025461210dd47"
+    ],
+    "reader_fit": {
+     "why": "This reader already has a wedding experience worth advertising and wants a specialist to represent it faithfully while the business evolves.",
+     "buyer": "elevate",
+     "buyer_statement": "“We're here to take amazing wedding businesses with awesome organic marketing and strong brands and amplify that through advertising.”"
+    },
+    "recurrence": null,
+    "content_type": "process_or_framework",
+    "why_selected": "This call had several strong messaging ideas, but this exchange makes the clearest fresh WIA standard visible. It avoids returning to a general UVP lesson or turning the venue's own hospitality stories into WIA's expertise.",
+    "public_stance": {
+     "stance": null,
+     "takes_stance": false
+    },
+    "wia_in_action": "When Carli asked whether to describe her hoped-for wedding or what actually happens, Whitney asked for the current couple's experience. Later, Whitney checked whether proposed patio draping was a future improvement.",
+    "point_is_about": "wia_standard",
+    "why_it_matters": "An owner's vision and the experience couples can book today can both come up in a strategy conversation. WIA needs to know which details belong in current advertising.",
+    "evidence_points": [
+     "Carli asked whether the walkthrough should describe what she'd love to see or what actually happens; Whitney answered, “Closer to what actually happens,” and specified a current couple's experience. (1:09:05–1:09:16)",
+     "Carli said she hadn't hosted an all-inclusive wedding and couldn't use one as the example. (1:09:18–1:09:22)",
+     "Whitney checked whether the patio draping was still a future plan, and Carli said the drapes were on order with an expected six-week timeline. (1:14:24–1:14:39)"
+    ],
+    "reader_takeaway": "I want a team that understands my vision and still keeps the story we're advertising accurate.",
+    "verify_before_publishing": [
+     "Confirm permission to use the anonymous current-experience versus future-plans exchange."
+    ],
+    "surprise_for_experienced_advertiser": {
+     "reason": "The revealing move is Whitney redirecting an ideal-wedding exercise toward a current wedding, then checking a future feature instead of treating every appealing detail as available ad material.",
+     "surprising": true
+    }
+   },
+   "take": "We keep the wedding a venue hosts today separate from the one its owner is planning, so the details in its ads match what couples can experience.",
+   "risks": [
+    "handling: unknown; public reuse needs review"
+   ],
+   "title": "How we separate today's wedding experience from future plans",
+   "ledger": {
+    "flags": [
+     {
+      "id": "flag_191b7b64b15f",
+      "kind": "invented_reason",
+      "text": "so the details in its ads match what couples can experience",
+      "field": "point",
+      "source": "model",
+      "message": "Whitney asks for what actually happens and notes the draping is a future item, but she never says why. The scenes do not show that she is keeping ad details accurate, and she first asked for an 'ideal couple's perfect wedding day'. The same unsupported purpose appears in why_it_matters ('WIA needs to know which details belong in current advertising').",
+      "severity": "block"
+     },
+     {
+      "id": "flag_cc9008aa8f92",
+      "kind": "frequency",
+      "text": "How we separate today's wedding experience from future plans / We keep the wedding a venue hosts today separate",
+      "field": "title",
+      "source": "model",
+      "message": "Two short exchanges in one call are presented as a standing WIA standard.",
+      "severity": "check"
+     },
+     {
+      "id": "flag_562884ad4a01",
+      "kind": "consent",
+      "text": "the drapes were on order with an expected six-week timeline",
+      "field": "evidence_points",
+      "source": "model",
+      "message": "The owner's unannounced renovation plans and supplier timing are private details from a client call. Confirm that the client agrees before using them, even unnamed.",
+      "severity": "check"
+     }
+    ],
+    "critic": {
+     "reason": "It shows Whitney's questions steering a discovery exercise toward what is true today, though the stated purpose comes from the card, not from the call.",
+     "worth_attention": "pass",
+     "wia_is_the_subject": "pass"
+    },
+    "version": "ledger-2026-10-18.v1",
+    "bindings": [
+     {
+      "point": "Carli asked whether the walkthrough should describe what she'd love to see or what actually happens; Whitney answered, “Closer to what actually happens,” and specified a current couple's experience. (1:09:05–1:09:16)",
+      "spans": [
+       {
+        "role": "wia_team",
+        "match": "exact",
+        "speaker": "Whitney Hodges",
+        "moment_id": "moment_10514e6b60a7eedfbe73007d",
+        "start_seconds": 4151.0
+       }
+      ],
+      "status": "bound",
+      "point_index": 0
+     },
+     {
+      "match": "model",
+      "point": "Carli said she hadn't hosted an all-inclusive wedding and couldn't use one as the example. (1:09:18–1:09:22)",
+      "spans": [],
+      "status": "bound",
+      "scene_ids": [
+       "moment_10514e6b60a7eedfbe73007d"
+      ],
+      "point_index": 1
+     },
+     {
+      "match": "model",
+      "point": "Whitney checked whether the patio draping was still a future plan, and Carli said the drapes were on order with an expected six-week timeline. (1:14:24–1:14:39)",
+      "spans": [],
+      "status": "bound",
+      "scene_ids": [
+       "moment_ce1e32d5e22025461210dd47"
+      ],
+      "point_index": 2
+     }
+    ],
+    "readiness": "research_required",
+    "model_pass": "anthropic/claude-sonnet-5.5",
+    "qualifiers": [
+     "The patio draping was planned and on order, not installed, and the owner expected it within about six weeks.",
+     "Whitney asked for the current couple's experience; the owner's earlier prompt to describe an ideal day was a separate request.",
+     "The owner did not overstate anything, and the call does not show that she needs to improve the venue before running ads."
+    ],
+    "attribution": [
+     {
+      "name": "Whitney Hodges",
+      "field": "wia_in_action",
+      "speaks_in_scenes": true
+     }
+    ],
+    "ledger_hash": "ebb637fd883f5cbece54da8e92aed3fd508c4e4d65c75c892622edc45eb88620"
+   },
+   "tension": "",
+   "argument": "We keep the wedding a venue hosts today separate from the one its owner is planning, so the details in its ads match what couples can experience.",
+   "audience": "Venue owners refining their spaces or adding wedding packages who want their ads to represent the business accurately as it grows.",
+   "inference": null,
+   "mechanism": "When Carli asked whether to describe her hoped-for wedding or what actually happens, Whitney asked for the current couple's experience. Later, Whitney checked whether proposed patio draping was a future improvement.",
+   "qualifiers": [
+    "Carli said she had not hosted an all-inclusive wedding, so this account concerns existing events.",
+    "The turn about the percentage of ceremonies is attributed to Whitney in the transcript and is not recorded as Carli's statement.",
+    "The expected installation timing is a plan stated by Carli, not a completed improvement."
+   ],
+   "reader_decision": null,
+   "source_family_id": "source_family_39c589dcceb01e9a769a3809",
+   "source_assertions": []
+  }
+ },
+ {
+  "angle_id": "angle_b8c656564c3f3b524b723ae7",
+  "content_body": {
+   "card": {
+    "rank": 5,
+    "point": "We ask the person who knows a venue's local couples which competitors are real alternatives before treating every name in a search report the same way.",
+    "title": "What goes into our decisions about competing venues",
+    "pillar": "WARM",
+    "series": "Watch Us Build an Ad Strategy",
+    "audience": "Venue owners who run their own Google Ads and want expert guidance that also makes room for what they know about their local couples.",
+    "guardrail": "Credit Carmen's review and Erin's local knowledge, and identify Erin as the client's marketer, not a WIA employee or venue owner. Keep competitor names, price comparisons and booking claims out; develop this as a view of WIA's judgment, not a keyword tutorial.",
+    "offer_fit": {
+     "offer": "Google Search Accelerator, we build and launch your campaigns, and you run them with our experts beside you",
+     "cta_slot": "soft_invitation",
+     "calendar_note": "Hold for the following week while the Accelerator is open. Use a low-barrier invitation about working through a real decision with an expert, without selling an audit or implying ongoing management."
+    },
+    "belief_ref": "B3",
+    "moment_ids": [
+     "moment_ac0bc764400785c6b3719331"
+    ],
+    "reader_fit": {
+     "why": "The reader wants to keep running the account with specialists beside them, including guidance on decisions that require their own market knowledge.",
+     "buyer": "accelerators",
+     "buyer_statement": "“For venues and wedding professionals who want to manage their own advertising without spending years figuring it out through trial and error.”"
+    },
+    "recurrence": null,
+    "content_type": "process_or_framework",
+    "why_selected": "This is the strongest office-hours moment because the client contributed something the account couldn't supply. The point is how WIA includes that knowledge, rather than how competitor keywords work.",
+    "public_stance": {
+     "stance": null,
+     "takes_stance": false
+    },
+    "wia_in_action": "Carmen reviewed search terms with Erin, the venue's marketer, and asked what unfamiliar places represented. Erin distinguished nearby alternatives from a venue in a different market, and Carmen used that context in the review.",
+    "point_is_about": "wia_standard",
+    "why_it_matters": "A venue appearing in the same search report isn't automatically an alternative a couple would consider. Local knowledge belongs in that decision alongside the account data.",
+    "evidence_points": [
+     "Carmen asked whether “Brownstone” was a competitor; Erin explained its local meaning and said the term could stay. (19:20–19:29)",
+     "Carmen described her default of leaving competitor terms in, and Erin explained that some couples had considered a larger nearby venue before considering theirs. (20:09–20:30)",
+     "Erin identified an unfamiliar venue as being in the Hamptons and said its couples wouldn't be considering their venue; Carmen agreed with excluding it. (21:40–22:05)"
+    ],
+    "reader_takeaway": "I want experts who ask what my couples actually compare before making that call.",
+    "verify_before_publishing": [
+     "Confirm permission to use the anonymous search-review exchange with the client's marketer."
+    ],
+    "surprise_for_experienced_advertiser": {
+     "reason": "WIA's specialist invited the client's marketer to help interpret the market, rather than assuming the account report could answer which venues couples would genuinely compare.",
+     "surprising": true
+    }
+   },
+   "take": "We ask the person who knows a venue's local couples which competitors are real alternatives before treating every name in a search report the same way.",
+   "risks": [
+    "handling: unknown; public reuse needs review"
+   ],
+   "title": "What goes into our decisions about competing venues",
+   "ledger": {
+    "flags": [
+     {
+      "id": "flag_fbf4f0efa733",
+      "kind": "overclaim",
+      "text": "We ask the person who knows a venue's local couples which competitors are real alternatives before treating every name in a search report the same way.",
+      "field": "point",
+      "source": "model",
+      "message": "In S6 Carmen's stated default is to leave competitors in, and she asks Erin about only a few terms such as 'Brownstone'. Erin also volunteers many of the removals herself. The scene does not show a routine of asking which competitors are real alternatives. Evidence point 1 also adds 'nearby' and 'considered', which Erin does not say.",
+      "severity": "check"
+     },
+     {
+      "id": "flag_13eaf5d8626c",
+      "kind": "other",
+      "text": "identify Erin as the client's marketer, not a WIA employee or venue owner",
+      "field": "guardrail",
+      "source": "model",
+      "message": "The scenes never state Erin's role. She says 'we' and 'our weddings', which fits an owner, a staffer or a marketer. The card's 'marketer' label is unsupported.",
+      "severity": "check"
+     },
+     {
+      "id": "flag_ddd74ee9ee4b",
+      "kind": "other",
+      "text": "Google Search Accelerator, we build and launch your campaigns, and you run them with our experts beside you",
+      "field": "offer_fit",
+      "source": "model",
+      "message": "Nothing in S6 shows which offer this account is under. It could be Accelerator office hours, ELEVATE or something else, and the card's buyer and offer assignment is unsupported.",
+      "severity": "check"
+     }
+    ],
+    "critic": {
+     "reason": "It shows Carmen working through search terms with the client's input, but this is routine search-term cleanup and the local knowledge mostly came from the client, so it risks reading as a keyword tutorial.",
+     "worth_attention": "fail",
+     "wia_is_the_subject": "pass"
+    },
+    "version": "ledger-2026-10-18.v1",
+    "bindings": [
+     {
+      "point": "Carmen asked whether “Brownstone” was a competitor; Erin explained its local meaning and said the term could stay. (19:20–19:29)",
+      "spans": [
+       {
+        "role": "wia_team",
+        "match": "exact",
+        "speaker": "Carmen Cruickshank",
+        "moment_id": "moment_ac0bc764400785c6b3719331",
+        "start_seconds": 1160.0
+       },
+       {
+        "role": "client_or_prospect",
+        "match": "exact",
+        "speaker": "Erin Smith",
+        "moment_id": "moment_ac0bc764400785c6b3719331",
+        "start_seconds": 1164.0
+       }
+      ],
+      "status": "bound",
+      "point_index": 0
+     },
+     {
+      "match": "model",
+      "point": "Carmen described her default of leaving competitor terms in, and Erin explained that some couples had considered a larger nearby venue before considering theirs. (20:09–20:30)",
+      "spans": [],
+      "status": "bound",
+      "scene_ids": [
+       "moment_ac0bc764400785c6b3719331"
+      ],
+      "point_index": 1
+     },
+     {
+      "match": "model",
+      "point": "Erin identified an unfamiliar venue as being in the Hamptons and said its couples wouldn't be considering their venue; Carmen agreed with excluding it. (21:40–22:05)",
+      "spans": [],
+      "status": "bound",
+      "scene_ids": [
+       "moment_ac0bc764400785c6b3719331"
+      ],
+      "point_index": 2
+     }
+    ],
+    "readiness": "needs_check",
+    "model_pass": "anthropic/claude-sonnet-5.5",
+    "qualifiers": [
+     "Carmen's default is to leave competitor terms in, and Erin said the larger venue's presence was fine.",
+     "The exclusions were decided together in one search-term review, and they say nothing about results.",
+     "Erin's remark about couples who can't afford a larger venue is client information and should stay out of public copy."
+    ],
+    "attribution": [
+     {
+      "name": "Carmen Cruickshank",
+      "field": "wia_in_action",
+      "speaks_in_scenes": true
+     },
+     {
+      "name": "Carmen Cruickshank",
+      "field": "evidence_points[0]",
+      "speaks_in_scenes": true
+     },
+     {
+      "name": "Carmen Cruickshank",
+      "field": "evidence_points[1]",
+      "speaks_in_scenes": true
+     }
+    ],
+    "ledger_hash": "f873e364bbb870a800fb01dce9a2c2e5b0918c1f6aec249ee0aca957ac16569c"
+   },
+   "tension": "",
+   "argument": "We ask the person who knows a venue's local couples which competitors are real alternatives before treating every name in a search report the same way.",
+   "audience": "Venue owners who run their own Google Ads and want expert guidance that also makes room for what they know about their local couples.",
+   "inference": null,
+   "mechanism": "Carmen reviewed search terms with Erin, the venue's marketer, and asked what unfamiliar places represented. Erin distinguished nearby alternatives from a venue in a different market, and Carmen used that context in the review.",
+   "qualifiers": [
+    "The report about what some people said is Erin's account; no count or timeframe was given."
+   ],
+   "reader_decision": null,
+   "source_family_id": "source_family_7c429a3cb26512af4c406c19",
+   "source_assertions": []
+  }
+ }
+]

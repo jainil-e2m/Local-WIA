@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J1-gpt-6-luna-P19-HA",
+  "model": "openai/gpt-6-luna",
+  "provider": "OpenAI",
+  "effort": null,
+  "prompt_tokens": 9909,
+  "completion_tokens": 125,
+  "cached_tokens": 9834,
+  "cost": 0.00017014,
+  "seconds": 2.2,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "cf59b0930f30"
+ },
+ "output": {
+  "choice": "A",
+  "confidence": 4,
+  "reason": "It connects the principle that ads need strong foundations to the wedding-specific question of why couples should choose you."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: reel\n\nVersion A:\nIf I can't tell from looking at your website or Instagram why couples should choose to book you for their wedding day, then we don't have any business running your ads, at least not yet.\n\nVersion B:\nIf I don't know why someone should choose your business, I have no business running ads for it.",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

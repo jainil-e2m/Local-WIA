@@ -1,0 +1,105 @@
+import { ContentIdea } from '../types/atelier';
+import { briefingOverview, briefingSimilarity } from './briefingOverview';
+
+const bullets = (items: string[]) => items.map(item => `- ${item}`);
+const numbered = (items: string[]) => items.map((item, index) => `${index + 1}. ${item}`);
+const descriptions = (saved: string, summary: string) => saved === summary ? [summary, ''] : [saved, '', summary, ''];
+
+/** A complete handoff shared by the rendered brief, Markdown view, and copy/export. */
+export function productionBriefMarkdown(idea: ContentIdea): string {
+  const direction = idea.brief.productionBrief!;
+  const context = idea.editorialContext;
+  const plan = briefingOverview(idea);
+  const similarity = briefingSimilarity(idea);
+  return [
+    `# ${idea.title}`, '',
+    `**Brief type:** ${direction.briefType}`, '',
+    `**Prepared:** ${direction.preparedAt.slice(0, 10)} · **Editorial week:** ${idea.editorialWeek}`, '',
+    `**Review status:** ${idea.briefApprovedAt ? 'Brief approved; source direction retained.' : 'Brief awaiting approval. This is production direction, not finished public copy.'}`, '',
+    direction.preparationBasis, '',
+    '## Strategic assignment', '',
+    `**Audience:** ${context?.audience ?? idea.client}`, '',
+    `**Objective:** ${context?.objective ?? direction.readerPromise}`, '',
+    `**Funnel & pillar:** ${context ? `${context.funnelStage} · ${context.pillar}` : 'Confirm with the founder.'}`, '',
+    `**Reader promise:** ${direction.readerPromise}`, '',
+    `**Belief shift:** ${context?.beliefShift ?? idea.brief.coreInsight}`, '',
+    `**What makes this angle distinct:** ${direction.distinctiveness}`, '',
+    `**Natural offer fit:** ${idea.suggestedCta}. The final invitation follows the CTA direction below.`, '',
+    '## Core insight', '', idea.brief.coreInsight, '',
+    '## Audience pain', '', idea.brief.audiencePain, '',
+    '## Message spine', '', ...numbered(idea.brief.messageSpine), '',
+    '## Narrative framework', '',
+    ...direction.narrative.flatMap(beat => [`**${beat.beat}:** ${beat.direction}`, '']),
+    '## Evidence boundaries', '',
+    '### What the meetings establish', '', ...bullets(direction.evidencePolicy.established), '',
+    '### Proposed interpretations and tests', '', ...bullets(direction.evidencePolicy.hypotheses), '',
+    '### Claims this brief does not support', '', ...bullets(direction.evidencePolicy.excludedClaims), '',
+    '## Founder voice', '',
+    `**Perspective:** ${direction.voice.perspective}`, '',
+    `**Tone:** ${direction.voice.tone}`, '',
+    ...bullets(direction.voice.writingRules), '',
+    '**Avoid:**', '', ...bullets(direction.voice.avoid), '',
+    '## What we will generate', '',
+    'Scope: one founder email, one eight-slide carousel, and three distinct short videos, with supporting captions. The outlines below guide production; they are not a generated content pack.', '',
+    '### Email', '',
+    ...descriptions(plan[0].gist, direction.email.summary),
+    `**Reader job:** ${direction.email.readerJob}`, '',
+    `**Length:** ${direction.email.lengthGuidance}`, '',
+    '**Subject-line directions — proposed, not approved copy:**', '', ...bullets(direction.email.subjectDirections), '',
+    `**Opening direction:** ${direction.email.openingDirection}`, '',
+    '**Outline:**', '', ...numbered(direction.email.outline), '',
+    `**Email CTA:** ${direction.email.cta}`, '',
+    '### Carousel', '',
+    ...descriptions(plan[1].gist, direction.carousel.summary),
+    `**Reader job:** ${direction.carousel.readerJob}`, '',
+    ...direction.carousel.slides.flatMap(slide => [
+      `**Slide ${slide.number} · ${slide.beat} — ${slide.headlineDirection}**`, '',
+      slide.detail, '', `**Visual direction:** ${slide.visualDirection}`, '',
+    ]),
+    `**Caption direction:** ${direction.carousel.captionDirection}`, '',
+    ...direction.reels.flatMap((reel, index) => [
+      `### Reel ${index + 1} · ${reel.title}`, '',
+      ...descriptions(plan[index + 2].gist, reel.summary),
+      `**Role:** ${reel.role}`, '', `**Length:** ${reel.durationGuidance}`, '',
+      `**Hook direction:** ${reel.hookDirection}`, '',
+      '**Spoken argument beats — develop into a script after brief approval:**', '', ...numbered(reel.beats), '',
+      `**Visual direction:** ${reel.visualDirection}`, '', `**Reel CTA:** ${reel.cta}`, '',
+    ]),
+    '## CTA and commercial connection', '',
+    `**Primary action:** ${direction.cta.primaryAction}`, '',
+    `**Wording direction:** ${direction.cta.wordingDirection}`, '',
+    `**Offer connection:** ${direction.cta.offerBridge}`, '',
+    `**Destination:** ${direction.cta.destination}`, '',
+    `**Avoid:** ${direction.cta.avoid}`, '',
+    '## Creative and asset direction', '', direction.creativeDirection.treatment, '',
+    '**Assets:**', '', ...bullets(direction.creativeDirection.assets), '',
+    '**Accessibility:**', '', ...bullets(direction.creativeDirection.accessibility), '',
+    '## Distribution and adaptation', '', ...bullets(direction.distribution.channels), '',
+    `**Sequence:** ${direction.distribution.sequence}`, '',
+    `**Adaptation:** ${direction.distribution.adaptation}`, '',
+    '## How to evaluate the content', '',
+    `**Primary signal:** ${direction.success.primarySignal}`, '',
+    '**Secondary signals:**', '', ...bullets(direction.success.secondarySignals), '',
+    direction.success.measurementNote, '',
+    '## Source passages for internal review', '',
+    'Passages match the exported transcript text, timestamp, and speaker label. Confirm attribution by listening to the recording before public use. Overlapping captures are not independent corroboration.', '',
+    ...(context?.sources ?? []).flatMap(source => [
+      `### ${source.role} · ${source.meeting} · ${source.timestamp}`, '',
+      `**Transcript speaker:** ${source.speaker} · **Recorded:** ${source.recordedAt.slice(0, 10)}`, '',
+      `> ${source.quote}`, '', source.interpretation, '',
+      `[Open recording · ${source.timestamp}](${source.url})`, '',
+    ]),
+    '## Founder references and external context', '',
+    ...(context?.brandReferences ?? []).map(reference => `- **${reference.title}:** ${reference.section}`), '',
+    ...(context?.externalContext ?? []).flatMap(reference => [`[${reference.title}](${reference.url})`, '', reference.summary, '']),
+    '## Past four months · Similarity review', '', `**${similarity.status}**`, '', similarity.summary, '',
+    ...similarity.matches.flatMap(match => [
+      `### ${match.title} · ${match.publishedAt.slice(0, 10)}`, '', `**Overlap:** ${match.similarity}`, '',
+      '**How this version differs:**', '', ...bullets(match.modifications.length ? match.modifications : ['Document a distinct treatment before approval.']), '',
+    ]),
+    '## Claims requiring consent', '',
+    ...bullets(idea.brief.claimsRequiringConsent.length ? idea.brief.claimsRequiringConsent : ['No additional claim clearance recorded; check the assets and statements used in the final draft.']), '',
+    '## Open questions for Whitney', '', ...bullets(idea.brief.openQuestionsForWhitney), '',
+    '## Production handoff checklist', '', ...bullets(direction.reviewChecklist), '',
+  ].join('\n');
+}

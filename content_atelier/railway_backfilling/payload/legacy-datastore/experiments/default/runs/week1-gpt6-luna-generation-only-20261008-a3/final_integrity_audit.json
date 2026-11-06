@@ -1,0 +1,73 @@
+{
+  "run_id": "week1-gpt6-luna-generation-only-20261008-a3",
+  "source_count": 9,
+  "turn_count": 3238,
+  "sources": [
+    {
+      "meeting_ref": "m1",
+      "hash_matches": true,
+      "archive_matches": true
+    },
+    {
+      "meeting_ref": "m2",
+      "hash_matches": true,
+      "archive_matches": true
+    },
+    {
+      "meeting_ref": "m3",
+      "hash_matches": true,
+      "archive_matches": true
+    },
+    {
+      "meeting_ref": "m4",
+      "hash_matches": true,
+      "archive_matches": true
+    },
+    {
+      "meeting_ref": "m5",
+      "hash_matches": true,
+      "archive_matches": true
+    },
+    {
+      "meeting_ref": "m6",
+      "hash_matches": true,
+      "archive_matches": true
+    },
+    {
+      "meeting_ref": "m7",
+      "hash_matches": true,
+      "archive_matches": true
+    },
+    {
+      "meeting_ref": "m8",
+      "hash_matches": true,
+      "archive_matches": true
+    },
+    {
+      "meeting_ref": "m9",
+      "hash_matches": true,
+      "archive_matches": true
+    }
+  ],
+  "request_model": "openai/gpt-6-luna",
+  "max_tokens_present": false,
+  "max_completion_tokens_present": false,
+  "input_limit_enforced": false,
+  "embeddings_enabled": false,
+  "embedding_directory_exists": false,
+  "angle_stage_artifact_exists": false,
+  "credential_scan_file_count": 13,
+  "supplied_credential_value_hits": 0,
+  "coverage_note_invalid_id_count": 0,
+  "prompt_hashes_present_in_ledger": {
+    "angle_generation.system.md": true,
+    "angle_generation.user.md": true,
+    "editorial_policy.md": true,
+    "moment_extraction.compact.md": true,
+    "moment_extraction.system.md": true,
+    "moment_extraction.user.md": true,
+    "moment_extraction.weekly_v2.md": true,
+    "moment_extraction.weekly_v3.md": true
+  },
+  "new_provider_requests_in_audit": 0
+}

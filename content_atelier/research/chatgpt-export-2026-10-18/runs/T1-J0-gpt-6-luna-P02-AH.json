@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J0-gpt-6-luna-P02-AH",
+  "model": "openai/gpt-6-luna",
+  "provider": "OpenAI",
+  "effort": null,
+  "prompt_tokens": 245,
+  "completion_tokens": 202,
+  "cached_tokens": 0,
+  "cost": 0.0001255,
+  "seconds": 4.3,
+  "finish": "stop",
+  "system_sha": "ea72523eb9c9",
+  "user_sha": "e4d057af7327"
+ },
+ "output": {
+  "choice": "A",
+  "confidence": 4,
+  "reason": "It clearly connects Google and Meta ads to qualified wedding leads, while B is more generic and repeats itself with “strategic paid strategy.”"
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: threads\n\nVersion A:\nInstagram changes its algorithm. Panic sets in.  \nWhile everyone else scrambles for more posts, hashtags, and reels, my clients are already filling their calendars with high-quality leads—on autopilot.  \nThat’s the difference between crossing your fingers for organic reach and using a proven Google + Meta Ads strategy that puts you in front of couples the moment they start planning.\n\nVersion B:\nOrganic reach drops. Panic sets in.\n\nWhile everyone else scrambles to post more and create trendy reels, our clients are gaining followers and leads from their ads on repeat.\n\nThat's the difference between relying on the organic algorithm and running a strategic paid strategy.",
+  "cache_prefix_sha": "ea72523eb9c9"
+ }
+}

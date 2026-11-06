@@ -1,0 +1,2 @@
+Grade every delivered evidence_id exactly once. Return only the supplied JSON contract.
+Assess whether the exact passage supports the approved reader decision, qualifies it, contradicts it or supplies useful context. Preserve source qualifications and claim status. A topic match does not establish support. Do not discard inconvenient counterevidence. Original inherited evidence is retained regardless of grading. List concrete unresolved gaps; return no gaps when further retrieval is unnecessary. Do not invent results, identities, dates or permissions.

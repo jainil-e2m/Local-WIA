@@ -1,0 +1,14 @@
+{
+  "stage": "angle_generation",
+  "week": 3,
+  "slug": "sonnet",
+  "model": "anthropic/claude-sonnet-5.5",
+  "reasoning_effort": "high",
+  "run_id": "week3-week4-shared-luna-angle-quality-20261015-w3-sonnet",
+  "source_count": 5,
+  "source_turns": 1837,
+  "source_packet_sha256": "657e096b0ef2d6963760c0a856b7b098a1330776186aeb6d5bb4d820466513ad",
+  "catalog_hash": "acf62bfaeb870784d5548cf612040353173bd8f5ce49d9392111cf82715a970a",
+  "timeout_seconds": 900.0,
+  "angle_request_status": "Built from the same frozen shared Luna evidence as the other angle models"
+}

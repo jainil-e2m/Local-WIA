@@ -1,0 +1,21 @@
+{
+  "plan_id": "plan_5a52d1c167ee441392fc",
+  "purpose": "E.B3 judge comparison strategist_v5@wia-kb-2026-10-20.c-b953624b vs strategist_v6@wia-kb-2026-10-20.c-b953624b (anthropic/claude-sonnet-5.5, kb+pack)",
+  "stages": [
+    "evaluation_judge"
+  ],
+  "models": [
+    "anthropic/claude-sonnet-5.5"
+  ],
+  "input_set_hash": "sha256:17238b22aad38a03d157fd4f4ad0f5e33bb094cee36e9d88e1b6433b75355ac8",
+  "max_calls": 12,
+  "max_cost_usd": 0.58,
+  "approver": "kenil.shah@e2m.solutions",
+  "approved_at": "2026-10-19T20:15:30.619537+00:00",
+  "expires_at": "2026-10-20T02:15:30.619537+00:00",
+  "status": "exhausted",
+  "calls_used": 12,
+  "cost_used_usd": 0.429822,
+  "details": {},
+  "closed_reason": "call limit reached"
+}

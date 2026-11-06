@@ -1,0 +1,22 @@
+{
+  "plan_id": "plan_deac2ba67ddc4966bf0d",
+  "purpose": "E.B11: strategist v5 on KB version 3 without the exemplar bank, weeks 1 and 2, three samples",
+  "stages": [
+    "evaluation"
+  ],
+  "models": [
+    "openai/gpt-6.1-sol"
+  ],
+  "input_set_hash": "*",
+  "max_calls": 7,
+  "max_cost_usd": 0.6,
+  "approver": "kenil.shah@e2m.solutions",
+  "approved_at": "2026-10-18T12:30:09.171888+00:00",
+  "expires_at": "2026-10-18T15:30:09.171888+00:00",
+  "status": "closed",
+  "calls_used": 6,
+  "cost_used_usd": 0.5504101,
+  "details": {},
+  "closed_reason": "E.B11 comparison complete (6 samples, USD 0.55)",
+  "closed_at": "2026-10-18T12:54:44.809354+00:00"
+}

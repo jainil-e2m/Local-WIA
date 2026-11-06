@@ -1,0 +1,25 @@
+{
+  "week": 4,
+  "slug": "luna-pro",
+  "model": "openai/gpt-6-luna-pro",
+  "reasoning_effort": "high",
+  "run_id": "week3-week4-model-quality-20261015-w4-luna-pro",
+  "source_count": 6,
+  "source_turns": 1803,
+  "source_packet_sha256": "494bdfedfdec6e58b3305c33b21d88b29b2efb6233b4b35d4d6918a796e55aeb",
+  "extraction_request_hash": "f0f3676a8014f668d14336c85f96f81b71788554232dac31120a779d82c4249e",
+  "request_characters": 286117,
+  "catalog_hash": "c108a21c77f81e2728c50c83de45584746382391fddef0972042ab454f03abe5",
+  "capacity_check": {
+    "method": "conservative_utf8_byte_allowance_not_native_token_count",
+    "input_allowance": 284114,
+    "margin": 28412,
+    "advertised_eligible_endpoints": 6,
+    "output_reserve": 128000,
+    "request_has_explicit_output_cap": false,
+    "fits_conservative_allowance": true,
+    "provider_defaults_and_limits_still_apply": true
+  },
+  "timeout_seconds": 900.0,
+  "angle_request_status": "Built only after this model's whole extraction passes validation"
+}

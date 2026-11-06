@@ -1,0 +1,588 @@
+{
+ "benchmark": "benchmark-v1.2026-10-18",
+ "judge": {
+  "model": "anthropic/claude-sonnet-5.5",
+  "stage": "evaluation_judge",
+  "prompt_version": "judge-2.3a.2026-10-19.v1",
+  "seed": 20261019,
+  "both_orders": true,
+  "context": {
+   "name": "kb+pack",
+   "knowledge_base": {
+    "version": "wia-kb-2026-10-20.c-b953624b",
+    "sha256": "ff67ef51621683abc3c47d2e15fff2981608527664ffc4d0cf106832b658311e"
+   },
+   "knowledge_base_units_removed": 21,
+   "pack_rules_units_removed": 0,
+   "pack_exemplars_used": 20,
+   "pack_exemplars_removed": 0,
+   "sha256": "77242696d49de6f7d55e9353f16000cf1cab0e766d3a021378f20ef09953a315",
+   "characters": 156879,
+   "candidate_runs_left": 0
+  }
+ },
+ "rubric": {
+  "version": "rubric-2.3a.v1",
+  "text_sha256": "d669ed20831e02a96f3f176b14f177c6c5ca79298fa74e29a74a26aa94970429"
+ },
+ "input_set_hash": "sha256:17238b22aad38a03d157fd4f4ad0f5e33bb094cee36e9d88e1b6433b75355ac8",
+ "configurations": {
+  "names": [
+   "strategist_v5@wia-kb-2026-10-20.c-b953624b",
+   "strategist_v6@wia-kb-2026-10-20.c-b953624b"
+  ],
+  "weeks": [
+   "week1",
+   "week2"
+  ],
+  "samples": 3,
+  "pairs": 6,
+  "missing_samples": []
+ },
+ "configs": {
+  "strategist_v5@wia-kb-2026-10-20.c-b953624b": {
+   "preferred": {
+    "agree": 4,
+    "of": 10,
+    "share": 0.4,
+    "ci95": [
+     0.1682,
+     0.6873
+    ]
+   },
+   "pairs_won_in_both_orders": 0,
+   "mean_overall": 3.62,
+   "criterion_means": {
+    "wia_is_the_subject": 4.1,
+    "strategic_purpose": 3.5,
+    "audience": 3.9,
+    "worth_attention": 3.1,
+    "sounds_like_whitney": 3.5
+   }
+  },
+  "strategist_v6@wia-kb-2026-10-20.c-b953624b": {
+   "preferred": {
+    "agree": 6,
+    "of": 10,
+    "share": 0.6,
+    "ci95": [
+     0.3127,
+     0.8318
+    ]
+   },
+   "pairs_won_in_both_orders": 1,
+   "mean_overall": 3.68,
+   "criterion_means": {
+    "wia_is_the_subject": 3.9,
+    "strategic_purpose": 3.7,
+    "audience": 3.7,
+    "worth_attention": 3.7,
+    "sounds_like_whitney": 3.4
+   }
+  }
+ },
+ "by_week": {
+  "week1": {
+   "strategist_v5@wia-kb-2026-10-20.c-b953624b": 2,
+   "strategist_v6@wia-kb-2026-10-20.c-b953624b": 3,
+   "judgements": 5
+  },
+  "week2": {
+   "strategist_v5@wia-kb-2026-10-20.c-b953624b": 2,
+   "strategist_v6@wia-kb-2026-10-20.c-b953624b": 3,
+   "judgements": 5
+  }
+ },
+ "position_bias": {
+  "pairs_in_both_orders": 4,
+  "order_flips": 3,
+  "flip_rate": 0.75,
+  "chose_A": {
+   "agree": 2,
+   "of": 10,
+   "share": 0.2,
+   "ci95": [
+    0.0567,
+    0.5098
+   ]
+  }
+ },
+ "unparsed": 2,
+ "missing": 0,
+ "total_cost_usd": 0.429822,
+ "comparisons": [
+  {
+   "pair_id": "c-strategist_v5@wia-kb-2026-10-20.c-b953624b-vs-strategist_v6@wia-kb-2026-10-20.c-b953624b-week1-s1",
+   "group": "configurations",
+   "order": 0,
+   "first": true,
+   "A": "strategist_v5@wia-kb-2026-10-20.c-b953624b:week1:s1",
+   "B": "strategist_v6@wia-kb-2026-10-20.c-b953624b:week1:s1",
+   "label_preferred": null,
+   "seed": 20261019,
+   "judge_model": "anthropic/claude-sonnet-5.5",
+   "rubric_version": "rubric-2.3a.v1",
+   "rubric_text_sha256": "d669ed20831e02a96f3f176b14f177c6c5ca79298fa74e29a74a26aa94970429",
+   "prompt_version": "judge-2.3a.2026-10-19.v1",
+   "context_sha256": "77242696d49de6f7d55e9353f16000cf1cab0e766d3a021378f20ef09953a315",
+   "request_fingerprint": "f683eac1021f86c560e84269a9d598c886e0702763528466fab002022c561edb",
+   "ratings": {
+    "A": {
+     "wia_is_the_subject": 4,
+     "strategic_purpose": 4,
+     "audience": 4,
+     "worth_attention": 3,
+     "sounds_like_whitney": 4
+    },
+    "B": {
+     "wia_is_the_subject": 3,
+     "strategic_purpose": 3,
+     "audience": 4,
+     "worth_attention": 3,
+     "sounds_like_whitney": 3
+    }
+   },
+   "overall": {
+    "A": 3.8,
+    "B": 3.2
+   },
+   "preferred_side": "A",
+   "reason": "A has a cleaner mix (three WARM cards, one CONVERT with the right DM \"ADS\" and waitlist-then-call path), each card has a distinct angle, and it is careful to credit WIA's actual contribution and offer scope. B repeats the same material across three or four cards, labels the 'light and airy' card ATTRACT polarizing opinion without a real polarizing view, names clients in its evidence, and spreads the venue-follow-up point across several cards.",
+   "status": "judged",
+   "preferred": "strategist_v5@wia-kb-2026-10-20.c-b953624b:week1:s1",
+   "agrees": null,
+   "reused": false,
+   "cost": 0.1618165
+  },
+  {
+   "pair_id": "c-strategist_v5@wia-kb-2026-10-20.c-b953624b-vs-strategist_v6@wia-kb-2026-10-20.c-b953624b-week1-s1",
+   "group": "configurations",
+   "order": 1,
+   "first": false,
+   "A": "strategist_v6@wia-kb-2026-10-20.c-b953624b:week1:s1",
+   "B": "strategist_v5@wia-kb-2026-10-20.c-b953624b:week1:s1",
+   "label_preferred": null,
+   "seed": 20261019,
+   "judge_model": "anthropic/claude-sonnet-5.5",
+   "rubric_version": "rubric-2.3a.v1",
+   "rubric_text_sha256": "d669ed20831e02a96f3f176b14f177c6c5ca79298fa74e29a74a26aa94970429",
+   "prompt_version": "judge-2.3a.2026-10-19.v1",
+   "context_sha256": "77242696d49de6f7d55e9353f16000cf1cab0e766d3a021378f20ef09953a315",
+   "request_fingerprint": "25818831e28bc61337f0927c8b24dec36400e230b2d20a29d122215fed50d58a",
+   "status": "unparsed",
+   "reused": false,
+   "cost": 0.0306185
+  },
+  {
+   "pair_id": "c-strategist_v5@wia-kb-2026-10-20.c-b953624b-vs-strategist_v6@wia-kb-2026-10-20.c-b953624b-week1-s2",
+   "group": "configurations",
+   "order": 0,
+   "first": true,
+   "A": "strategist_v5@wia-kb-2026-10-20.c-b953624b:week1:s2",
+   "B": "strategist_v6@wia-kb-2026-10-20.c-b953624b:week1:s2",
+   "label_preferred": null,
+   "seed": 20261019,
+   "judge_model": "anthropic/claude-sonnet-5.5",
+   "rubric_version": "rubric-2.3a.v1",
+   "rubric_text_sha256": "d669ed20831e02a96f3f176b14f177c6c5ca79298fa74e29a74a26aa94970429",
+   "prompt_version": "judge-2.3a.2026-10-19.v1",
+   "context_sha256": "77242696d49de6f7d55e9353f16000cf1cab0e766d3a021378f20ef09953a315",
+   "request_fingerprint": "926c191049ef04183e739f59d67c83303911e9c9ef07a51526b61b9fcd9f38a6",
+   "ratings": {
+    "A": {
+     "wia_is_the_subject": 4,
+     "strategic_purpose": 3,
+     "audience": 3,
+     "worth_attention": 3,
+     "sounds_like_whitney": 3
+    },
+    "B": {
+     "wia_is_the_subject": 4,
+     "strategic_purpose": 4,
+     "audience": 3,
+     "worth_attention": 4,
+     "sounds_like_whitney": 3
+    }
+   },
+   "overall": {
+    "A": 3.2,
+    "B": 3.6
+   },
+   "preferred_side": "B",
+   "reason": "B's four cards cover more distinct angles and map to the plan: two WARM, one ATTRACT, and one CONVERT with the correct 'ADS' DM and the ELEVATE waitlist path, while A's three cards overlap (the Meta campaign jobs card comes from the same call material as the tour-conversation card) and A's CONVERT card carries a vaguer offer CTA.",
+   "status": "judged",
+   "preferred": "strategist_v6@wia-kb-2026-10-20.c-b953624b:week1:s2",
+   "agrees": null,
+   "reused": false,
+   "cost": 0.0164185
+  },
+  {
+   "pair_id": "c-strategist_v5@wia-kb-2026-10-20.c-b953624b-vs-strategist_v6@wia-kb-2026-10-20.c-b953624b-week1-s2",
+   "group": "configurations",
+   "order": 1,
+   "first": false,
+   "A": "strategist_v6@wia-kb-2026-10-20.c-b953624b:week1:s2",
+   "B": "strategist_v5@wia-kb-2026-10-20.c-b953624b:week1:s2",
+   "label_preferred": null,
+   "seed": 20261019,
+   "judge_model": "anthropic/claude-sonnet-5.5",
+   "rubric_version": "rubric-2.3a.v1",
+   "rubric_text_sha256": "d669ed20831e02a96f3f176b14f177c6c5ca79298fa74e29a74a26aa94970429",
+   "prompt_version": "judge-2.3a.2026-10-19.v1",
+   "context_sha256": "77242696d49de6f7d55e9353f16000cf1cab0e766d3a021378f20ef09953a315",
+   "request_fingerprint": "c1bfabc47d1447a8b8cdd9d0bcd74dbc85fbd3cdb1c943b325a4637a722fbf08",
+   "ratings": {
+    "A": {
+     "wia_is_the_subject": 4,
+     "strategic_purpose": 4,
+     "audience": 4,
+     "worth_attention": 4,
+     "sounds_like_whitney": 3
+    },
+    "B": {
+     "wia_is_the_subject": 4,
+     "strategic_purpose": 3,
+     "audience": 4,
+     "worth_attention": 3,
+     "sounds_like_whitney": 3
+    }
+   },
+   "overall": {
+    "A": 3.8,
+    "B": 3.4
+   },
+   "preferred_side": "A",
+   "reason": "A's four cards cover warm, attract and convert with distinct angles that show WIA's own judgment (landing-page chart, keyword call, retargeting after a tour, funnel layers) and give two off-offer pieces plus one CTA, while B has only three cards and repeats the funnel-layers and landing-page points in a more generic 'we' framing with a thinner CONVERT piece.",
+   "status": "judged",
+   "preferred": "strategist_v6@wia-kb-2026-10-20.c-b953624b:week1:s2",
+   "agrees": null,
+   "reused": false,
+   "cost": 0.0163985
+  },
+  {
+   "pair_id": "c-strategist_v5@wia-kb-2026-10-20.c-b953624b-vs-strategist_v6@wia-kb-2026-10-20.c-b953624b-week1-s3",
+   "group": "configurations",
+   "order": 1,
+   "first": true,
+   "A": "strategist_v6@wia-kb-2026-10-20.c-b953624b:week1:s3",
+   "B": "strategist_v5@wia-kb-2026-10-20.c-b953624b:week1:s3",
+   "label_preferred": null,
+   "seed": 20261019,
+   "judge_model": "anthropic/claude-sonnet-5.5",
+   "rubric_version": "rubric-2.3a.v1",
+   "rubric_text_sha256": "d669ed20831e02a96f3f176b14f177c6c5ca79298fa74e29a74a26aa94970429",
+   "prompt_version": "judge-2.3a.2026-10-19.v1",
+   "context_sha256": "77242696d49de6f7d55e9353f16000cf1cab0e766d3a021378f20ef09953a315",
+   "request_fingerprint": "fe5d1f09ae87a0f7354d72c6bfcefd65d966c677a13d129f021712132784604d",
+   "ratings": {
+    "A": {
+     "wia_is_the_subject": 4,
+     "strategic_purpose": 3,
+     "audience": 3,
+     "worth_attention": 4,
+     "sounds_like_whitney": 3
+    },
+    "B": {
+     "wia_is_the_subject": 5,
+     "strategic_purpose": 4,
+     "audience": 4,
+     "worth_attention": 3,
+     "sounds_like_whitney": 4
+    }
+   },
+   "overall": {
+    "A": 3.4,
+    "B": 4
+   },
+   "preferred_side": "B",
+   "reason": "B keeps WIA as the subject throughout (\"we ask\", \"why we'd\") with the offer connection correct and a cleaner slate mix, while A drifts into client-centred framing, leans on the shaky 'Colorado mountain imagery' client insight and an ATTRACT polarizing card that is really a Carmen anecdote, and its card 1 'three different jobs' reads as basics.",
+   "status": "judged",
+   "preferred": "strategist_v5@wia-kb-2026-10-20.c-b953624b:week1:s3",
+   "agrees": null,
+   "reused": false,
+   "cost": 0.0174165
+  },
+  {
+   "pair_id": "c-strategist_v5@wia-kb-2026-10-20.c-b953624b-vs-strategist_v6@wia-kb-2026-10-20.c-b953624b-week1-s3",
+   "group": "configurations",
+   "order": 0,
+   "first": false,
+   "A": "strategist_v5@wia-kb-2026-10-20.c-b953624b:week1:s3",
+   "B": "strategist_v6@wia-kb-2026-10-20.c-b953624b:week1:s3",
+   "label_preferred": null,
+   "seed": 20261019,
+   "judge_model": "anthropic/claude-sonnet-5.5",
+   "rubric_version": "rubric-2.3a.v1",
+   "rubric_text_sha256": "d669ed20831e02a96f3f176b14f177c6c5ca79298fa74e29a74a26aa94970429",
+   "prompt_version": "judge-2.3a.2026-10-19.v1",
+   "context_sha256": "77242696d49de6f7d55e9353f16000cf1cab0e766d3a021378f20ef09953a315",
+   "request_fingerprint": "f6c560ae543c43ffb0ac9cbae37d6acf8083661c3f67a106d193d29a86102bbb",
+   "ratings": {
+    "A": {
+     "wia_is_the_subject": 4,
+     "strategic_purpose": 3,
+     "audience": 4,
+     "worth_attention": 3,
+     "sounds_like_whitney": 3
+    },
+    "B": {
+     "wia_is_the_subject": 4,
+     "strategic_purpose": 4,
+     "audience": 4,
+     "worth_attention": 4,
+     "sounds_like_whitney": 4
+    }
+   },
+   "overall": {
+    "A": 3.4,
+    "B": 4
+   },
+   "preferred_side": "B",
+   "reason": "Both slates draw on the same call material and show WIA's thinking, but B fits the content plan better: it has one ATTRACT card, the warm card is explicitly unsalesy with a save invitation, and its CTA handling is cleaner. B's cards also carry sharper tensions (such as couples not needing a photographer's vocabulary), whereas A's slate is mostly warm or convert and leans on 'Why we ask...' framings.",
+   "status": "judged",
+   "preferred": "strategist_v6@wia-kb-2026-10-20.c-b953624b:week1:s3",
+   "agrees": null,
+   "reused": false,
+   "cost": 0.0175065
+  },
+  {
+   "pair_id": "c-strategist_v5@wia-kb-2026-10-20.c-b953624b-vs-strategist_v6@wia-kb-2026-10-20.c-b953624b-week2-s1",
+   "group": "configurations",
+   "order": 1,
+   "first": true,
+   "A": "strategist_v6@wia-kb-2026-10-20.c-b953624b:week2:s1",
+   "B": "strategist_v5@wia-kb-2026-10-20.c-b953624b:week2:s1",
+   "label_preferred": null,
+   "seed": 20261019,
+   "judge_model": "anthropic/claude-sonnet-5.5",
+   "rubric_version": "rubric-2.3a.v1",
+   "rubric_text_sha256": "d669ed20831e02a96f3f176b14f177c6c5ca79298fa74e29a74a26aa94970429",
+   "prompt_version": "judge-2.3a.2026-10-19.v1",
+   "context_sha256": "77242696d49de6f7d55e9353f16000cf1cab0e766d3a021378f20ef09953a315",
+   "request_fingerprint": "c925be0574baec01e0461e3035e2da45e665501b9647ee231274d936ce956daf",
+   "ratings": {
+    "A": {
+     "wia_is_the_subject": 4,
+     "strategic_purpose": 4,
+     "audience": 4,
+     "worth_attention": 3,
+     "sounds_like_whitney": 3
+    },
+    "B": {
+     "wia_is_the_subject": 4,
+     "strategic_purpose": 4,
+     "audience": 4,
+     "worth_attention": 4,
+     "sounds_like_whitney": 4
+    }
+   },
+   "overall": {
+    "A": 3.6,
+    "B": 4
+   },
+   "preferred_side": "B",
+   "reason": "Both slates fit the mix, the Instagram offer CTA and the offer-scope rules, but B folds the single office-hours scene into one stronger CONVERT card where A splits it across two similar cards, and B's plain first-person framing sounds more like Whitney, even though its brief names the former strategist Fallon Looney and quotes a belief line not found in the belief bank.",
+   "status": "judged",
+   "preferred": "strategist_v5@wia-kb-2026-10-20.c-b953624b:week2:s1",
+   "agrees": null,
+   "reused": false,
+   "cost": 0.0304865
+  },
+  {
+   "pair_id": "c-strategist_v5@wia-kb-2026-10-20.c-b953624b-vs-strategist_v6@wia-kb-2026-10-20.c-b953624b-week2-s1",
+   "group": "configurations",
+   "order": 0,
+   "first": false,
+   "A": "strategist_v5@wia-kb-2026-10-20.c-b953624b:week2:s1",
+   "B": "strategist_v6@wia-kb-2026-10-20.c-b953624b:week2:s1",
+   "label_preferred": null,
+   "seed": 20261019,
+   "judge_model": "anthropic/claude-sonnet-5.5",
+   "rubric_version": "rubric-2.3a.v1",
+   "rubric_text_sha256": "d669ed20831e02a96f3f176b14f177c6c5ca79298fa74e29a74a26aa94970429",
+   "prompt_version": "judge-2.3a.2026-10-19.v1",
+   "context_sha256": "77242696d49de6f7d55e9353f16000cf1cab0e766d3a021378f20ef09953a315",
+   "request_fingerprint": "f6364921d6c6ad33b9a239f07873f271651f8d56fa22cb5729c5483aa089b750",
+   "ratings": {
+    "A": {
+     "wia_is_the_subject": 4,
+     "strategic_purpose": 3,
+     "audience": 4,
+     "worth_attention": 3,
+     "sounds_like_whitney": 3
+    },
+    "B": {
+     "wia_is_the_subject": 4,
+     "strategic_purpose": 4,
+     "audience": 4,
+     "worth_attention": 4,
+     "sounds_like_whitney": 4
+    }
+   },
+   "overall": {
+    "A": 3.4,
+    "B": 4
+   },
+   "preferred_side": "B",
+   "reason": "B has the sharper tension (\"Reviews aren't market research\" comes straight from Whitney's belief bank), plain declarative titles, and a mix that fits the plan (mostly WARM, one ATTRACT, one CONVERT with a DM \"ADS\" CTA), and it keeps former staff out of the copy, while A's card 1 names Fallon Looney, a former strategist, and its reviews card is softer and less distinct.",
+   "status": "judged",
+   "preferred": "strategist_v6@wia-kb-2026-10-20.c-b953624b:week2:s1",
+   "agrees": null,
+   "reused": false,
+   "cost": 0.0276965
+  },
+  {
+   "pair_id": "c-strategist_v5@wia-kb-2026-10-20.c-b953624b-vs-strategist_v6@wia-kb-2026-10-20.c-b953624b-week2-s2",
+   "group": "configurations",
+   "order": 0,
+   "first": true,
+   "A": "strategist_v5@wia-kb-2026-10-20.c-b953624b:week2:s2",
+   "B": "strategist_v6@wia-kb-2026-10-20.c-b953624b:week2:s2",
+   "label_preferred": null,
+   "seed": 20261019,
+   "judge_model": "anthropic/claude-sonnet-5.5",
+   "rubric_version": "rubric-2.3a.v1",
+   "rubric_text_sha256": "d669ed20831e02a96f3f176b14f177c6c5ca79298fa74e29a74a26aa94970429",
+   "prompt_version": "judge-2.3a.2026-10-19.v1",
+   "context_sha256": "77242696d49de6f7d55e9353f16000cf1cab0e766d3a021378f20ef09953a315",
+   "request_fingerprint": "83254901f970fa7e581021b19dbd09fdf1904c6a432e35db4773c7082c25b7e3",
+   "ratings": {
+    "A": {
+     "wia_is_the_subject": 4,
+     "strategic_purpose": 3,
+     "audience": 4,
+     "worth_attention": 3,
+     "sounds_like_whitney": 4
+    },
+    "B": {
+     "wia_is_the_subject": 4,
+     "strategic_purpose": 4,
+     "audience": 4,
+     "worth_attention": 4,
+     "sounds_like_whitney": 4
+    }
+   },
+   "overall": {
+    "A": 3.6,
+    "B": 4
+   },
+   "preferred_side": "B",
+   "reason": "B fits the plan's mix better (one ATTRACT opinion card in Whitney's own 'reviews are not research' view, mostly WARM, one CONVERT with DM ADS) and carries sharper tension, and it avoids naming former strategist Fallon Looney as A does, though B's two cards from one office-hours call overlap somewhat.",
+   "status": "judged",
+   "preferred": "strategist_v6@wia-kb-2026-10-20.c-b953624b:week2:s2",
+   "agrees": null,
+   "reused": false,
+   "cost": 0.0278945
+  },
+  {
+   "pair_id": "c-strategist_v5@wia-kb-2026-10-20.c-b953624b-vs-strategist_v6@wia-kb-2026-10-20.c-b953624b-week2-s2",
+   "group": "configurations",
+   "order": 1,
+   "first": false,
+   "A": "strategist_v6@wia-kb-2026-10-20.c-b953624b:week2:s2",
+   "B": "strategist_v5@wia-kb-2026-10-20.c-b953624b:week2:s2",
+   "label_preferred": null,
+   "seed": 20261019,
+   "judge_model": "anthropic/claude-sonnet-5.5",
+   "rubric_version": "rubric-2.3a.v1",
+   "rubric_text_sha256": "d669ed20831e02a96f3f176b14f177c6c5ca79298fa74e29a74a26aa94970429",
+   "prompt_version": "judge-2.3a.2026-10-19.v1",
+   "context_sha256": "77242696d49de6f7d55e9353f16000cf1cab0e766d3a021378f20ef09953a315",
+   "request_fingerprint": "ba06e8161eb20709d5e14a003dc40b6e2ec0b0f7c8df8450dd232cea72769219",
+   "status": "unparsed",
+   "reused": false,
+   "cost": 0.0324745
+  },
+  {
+   "pair_id": "c-strategist_v5@wia-kb-2026-10-20.c-b953624b-vs-strategist_v6@wia-kb-2026-10-20.c-b953624b-week2-s3",
+   "group": "configurations",
+   "order": 0,
+   "first": true,
+   "A": "strategist_v5@wia-kb-2026-10-20.c-b953624b:week2:s3",
+   "B": "strategist_v6@wia-kb-2026-10-20.c-b953624b:week2:s3",
+   "label_preferred": null,
+   "seed": 20261019,
+   "judge_model": "anthropic/claude-sonnet-5.5",
+   "rubric_version": "rubric-2.3a.v1",
+   "rubric_text_sha256": "d669ed20831e02a96f3f176b14f177c6c5ca79298fa74e29a74a26aa94970429",
+   "prompt_version": "judge-2.3a.2026-10-19.v1",
+   "context_sha256": "77242696d49de6f7d55e9353f16000cf1cab0e766d3a021378f20ef09953a315",
+   "request_fingerprint": "f44b76b86a057de363555793df629098f8a39fa2fe5171ce9e6f99546fd60825",
+   "ratings": {
+    "A": {
+     "wia_is_the_subject": 4,
+     "strategic_purpose": 4,
+     "audience": 4,
+     "worth_attention": 3,
+     "sounds_like_whitney": 3
+    },
+    "B": {
+     "wia_is_the_subject": 4,
+     "strategic_purpose": 4,
+     "audience": 4,
+     "worth_attention": 4,
+     "sounds_like_whitney": 4
+    }
+   },
+   "overall": {
+    "A": 3.6,
+    "B": 4
+   },
+   "preferred_side": "B",
+   "reason": "B's slate fills the plan's ATTRACT slot with a sharp opinion hook drawn from Whitney's own line that reviews aren't market research, and its titles read more like her; A is clean but has no ATTRACT card, its titles are more procedural, and both slates lean heavily on the same 'good data' belief, though B's sales-widget card is its weakest.",
+   "status": "judged",
+   "preferred": "strategist_v6@wia-kb-2026-10-20.c-b953624b:week2:s3",
+   "agrees": null,
+   "reused": false,
+   "cost": 0.0305625
+  },
+  {
+   "pair_id": "c-strategist_v5@wia-kb-2026-10-20.c-b953624b-vs-strategist_v6@wia-kb-2026-10-20.c-b953624b-week2-s3",
+   "group": "configurations",
+   "order": 1,
+   "first": false,
+   "A": "strategist_v6@wia-kb-2026-10-20.c-b953624b:week2:s3",
+   "B": "strategist_v5@wia-kb-2026-10-20.c-b953624b:week2:s3",
+   "label_preferred": null,
+   "seed": 20261019,
+   "judge_model": "anthropic/claude-sonnet-5.5",
+   "rubric_version": "rubric-2.3a.v1",
+   "rubric_text_sha256": "d669ed20831e02a96f3f176b14f177c6c5ca79298fa74e29a74a26aa94970429",
+   "prompt_version": "judge-2.3a.2026-10-19.v1",
+   "context_sha256": "77242696d49de6f7d55e9353f16000cf1cab0e766d3a021378f20ef09953a315",
+   "request_fingerprint": "f232a84987a32f8e1bb879979048a94dab08a553e79e84d08f554e978a75dbd0",
+   "ratings": {
+    "A": {
+     "wia_is_the_subject": 4,
+     "strategic_purpose": 3,
+     "audience": 3,
+     "worth_attention": 3,
+     "sounds_like_whitney": 3
+    },
+    "B": {
+     "wia_is_the_subject": 4,
+     "strategic_purpose": 4,
+     "audience": 4,
+     "worth_attention": 3,
+     "sounds_like_whitney": 4
+    }
+   },
+   "overall": {
+    "A": 3.2,
+    "B": 3.8
+   },
+   "preferred_side": "B",
+   "reason": "B keeps the same WIA-centred scenes but matches the plan better: the research piece is WARM rather than a mislabelled polarizing opinion, the offer card is clearly one DM \"ADS\" piece, the Tuesday email is specified, and it caveats unfinished ideas, whereas A pads the slate with a tool-widget card and a hedged \"100 clicks\" card that is thin on tension and easy to mistake for a promise.",
+   "status": "judged",
+   "preferred": "strategist_v5@wia-kb-2026-10-20.c-b953624b:week2:s3",
+   "agrees": null,
+   "reused": false,
+   "cost": 0.0205325
+  }
+ ],
+ "notes": [
+  "A smoke test, never the gate (E.B3, section 2.3): WIA's dispositions and ratings decide.",
+  "Each pair is one week's sample s of each configuration, rendered in one plain format (the same card fields, moment references removed); which one is A is drawn from the seed, and with both orders an order flip is a pair whose choice followed the position.",
+  "Trust the result only as far as the judge's calibration (judge-calibrate) allows."
+ ]
+}

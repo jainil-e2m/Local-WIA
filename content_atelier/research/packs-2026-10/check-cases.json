@@ -1,0 +1,22 @@
+[
+  {
+    "case_id": "np5-pair-02",
+    "added": "2026-10-26",
+    "source": "np5-proof.md, the blind reading, pair 2: brief 1's carousel caption (proof/brief-1.pack.json)",
+    "piece": "carousel",
+    "path": "caption.ending",
+    "sentence": "We hold every page we build to that standard before recommending it replace anything a client already has.",
+    "expected": "unsupported",
+    "why": "One page the call shows is widened into a standing practice for every page WIA builds"
+  },
+  {
+    "case_id": "np5-pair-06",
+    "added": "2026-10-26",
+    "source": "np5-proof.md, the blind reading, pair 6: brief 2's carousel caption (proof/brief-2.pack.json)",
+    "piece": "carousel",
+    "path": "caption.body",
+    "sentence": "A client recently had that kind of reaction to some new ads from us.",
+    "expected": "guardrail",
+    "why": "Placed after a list of an ad's flaws, it implies the client's new ads were poor, which before-publishing item P5 keeps out"
+  }
+]

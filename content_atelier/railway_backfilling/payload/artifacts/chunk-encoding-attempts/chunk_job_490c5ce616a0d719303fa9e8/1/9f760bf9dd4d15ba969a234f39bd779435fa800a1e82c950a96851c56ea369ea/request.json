@@ -1,0 +1,15 @@
+{
+  "endpoint": "https://openrouter.ai/api/v1/embeddings",
+  "contract": "5c61886dac23af4cd6a1c3fca450ad455e147c06987f5c90bd5e35482c18c1eb",
+  "body": {
+    "model": "openai/text-embedding-3-small",
+    "input": [
+      "Source: Carmen Cruickshank's Personal Meeting Room's transcript.txt\nCarmen Cruickshank: The people's landing pages, too.\nFallon Looney: I know, I'm like, I was searching everywhere for it, and I'm like, come on, where?\nCarmen Cruickshank: It has to be here somewhere. This is VIP.\nCarmen Cruickshank: Yeah, I'm gonna try to send all those reports today, because this is…\nCarmen Cruickshank: It's just, it's a lot, but it's also, like, late, and it's not okay. Uh, okay, I just go to their ads.\nCarmen Cruickshank: And time to click it.\nFallon Looney: Okay.\nCarmen Cruickshank: And, oh my gosh.\nCarmen Cruickshank: Okay, there.\nFallon Looney: I know, because I was looking in lead block. Okay.\nCarmen Cruickshank: Oh.\nCarmen Cruickshank: Let's see, but I'll send it in the chat.\nFallon Looney: Okay, it's welcome.\nCarmen Cruickshank: I'll just send it in Slack.\nCarmen Cruickshank: Maybe that'd be better?\nFallon Looney: Yeah, just send it in Slack. I asked anyway, um, inside of Slack, so… I just tagged everybody because I wanted to make sure that I was looking in the right place. I know that, like, some…\nCarmen Cruickshank: Mm-hmm.\nFallon Looney: Because I saw the… like, I was in the Google account, but I also didn't know if that was just, like, inorganic. Like, I didn't know if we actually made the page, just because I'm going to be putting in her, like, meta…\nCarmen Cruickshank: Mmhm.\nFallon Looney: Code and pixel. So I just wanted to make sure that I had the right.\nCarmen Cruickshank: The right one.\nFallon Looney: the right page as we gear up to launch Meta Ads.\nCarmen Cruickshank: Mm-hmm. No, that's good.\nCarmen Cruickshank: Yeah. Awesome. Well, glad I could help and, like, clarify all those questions.\nFallon Looney: Great. Thank you.\nCarmen Cruickshank: Of course, of course.\nFallon Looney: All right. Talk soon."
+    ],
+    "dimensions": 1536,
+    "encoding_format": "float"
+  },
+  "input_hashes": [
+    "fd021788ce75e331c20940ba7425acd97c3ccffda7fcf1ea61e3441bf918d987"
+  ]
+}

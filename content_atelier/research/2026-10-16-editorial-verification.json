@@ -1,0 +1,37 @@
+{
+  "focused": {
+    "passed": 70,
+    "scope": [
+      "reel_calibration",
+      "prompt_contracts",
+      "prompt_upgrade",
+      "strategic_discovery"
+    ]
+  },
+  "additional": {
+    "passed": 104,
+    "skipped": 22,
+    "overlap_with_focused": 5,
+    "scope": [
+      "generation_only",
+      "reuse",
+      "luna_costs",
+      "model_experiment",
+      "reviewed_experiment",
+      "comparison_workflow",
+      "citation_adapter",
+      "editorial_forensics",
+      "reel_calibration"
+    ]
+  },
+  "skip_reason": "SQL integration requires separately configured isolated atelier_test; no URL configured",
+  "configured_database_read_only_attempt": "OperationalError",
+  "ruff": "passed; preexisting SQLWorker BLE001 handler excluded",
+  "diff_whitespace_check": "passed",
+  "outbound_http_during_automated_tests": "forbidden_by_autouse_fixture",
+  "live_quality_experiment_calls": 16,
+  "live_quality_experiment_contract_failures": 3,
+  "production_deployed": false,
+  "github_push": false,
+  "database_migrations": false
+}

@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J1-claude-haiku-5.5-P13-HA",
+  "model": "anthropic/claude-haiku-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 16188,
+  "completion_tokens": 557,
+  "cached_tokens": 15842,
+  "cost": 0.00047152,
+  "seconds": 3.4,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "d75ece6d090c"
+ },
+ "output": {
+  "choice": "A",
+  "confidence": 3,
+  "reason": "Version A explains the why behind the principle with calm reasoning and reframes the problem without declaring it, which fits Whitney's voice better than B's sharper, more declarative diagnosis and its 'attention economy' cliché."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: carousel\n\nVersion A:\nIf couples don’t see you again — they’re not likely to inquire.\n\nNot because you didn’t make a good impression in the moment.\nBut because you weren't visible enough times to be remembered.\n\nIn a world where attention is short and content is endless,\nconversion requires repetition.\n\nVersion B:\nThis isn’t a conversion problem.\nIt’s a visibility problem.\n\nIf you’re only showing up once —\nyou’re relying on memory, not marketing.\n\nAnd in today’s attention economy?\nMemory isn’t a reliable strategy.",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

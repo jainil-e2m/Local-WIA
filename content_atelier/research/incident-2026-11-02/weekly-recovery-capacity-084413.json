@@ -1,0 +1,80 @@
+{
+  "at": "2026-11-02T08:44:04.982616+00:00",
+  "run_id": "run_113a8c5a0b384cfba61e6fc7b59367ee",
+  "failed_artifact": {
+    "request_fingerprint": "b711709c8a5be0b742458b57ed5d535c00efc09db772d2b77c14e23328d8a941",
+    "model": null,
+    "status": "failed",
+    "error": "Whole-week token budget exceeded; no request sent. No batching or truncation permitted."
+  },
+  "preflight_reports": [
+    {
+      "key": "service_calls/b711709c8a5be0b742458b57ed5d535c00efc09db772d2b77c14e23328d8a941/attempts/artifact_9bec0c8147004f48/preflight.json",
+      "report": {
+        "model": "openai/gpt-6.1-sol",
+        "counting_method": "conservative_utf8_byte_allowance_not_native_token_count",
+        "message_text_utf8_bytes": 853145,
+        "response_format_utf8_bytes": 6418,
+        "input_token_budget_allowance": 859563,
+        "unmeasured_provider_margin_tokens": 85957,
+        "completion_reserved_tokens": 32000,
+        "context_reference_tokens": 1050000,
+        "prompt_limit_reference_tokens": 922000,
+        "headroom_tokens": 72480,
+        "fits": false,
+        "native_token_count_available": false,
+        "counting_is_local": true,
+        "hosted_usage_is_exact": false,
+        "route_snapshot": "provider_catalog/2026-10-23T22-25-40.283060+00-00-gpt-6.1-sol.json",
+        "measured_at_utc": "2026-11-02T08:28:05.724991+00:00"
+      }
+    }
+  ],
+  "model_records": [
+    {
+      "stage": "moment_extraction",
+      "model": "openai/gpt-6-luna",
+      "status": "succeeded",
+      "input_tokens": 25623,
+      "output_tokens": 18231,
+      "cost_usd": "0.012318",
+      "created_at": "2026-11-02 08:18:34.678285+00:00",
+      "error": null
+    },
+    {
+      "stage": "moment_extraction",
+      "model": "openai/gpt-6-luna",
+      "status": "succeeded",
+      "input_tokens": 29194,
+      "output_tokens": 15844,
+      "cost_usd": "0.011571",
+      "created_at": "2026-11-02 08:21:40.657302+00:00",
+      "error": null
+    },
+    {
+      "stage": "moment_extraction",
+      "model": "openai/gpt-6-luna",
+      "status": "succeeded",
+      "input_tokens": 31724,
+      "output_tokens": 13842,
+      "cost_usd": "0.010886",
+      "created_at": "2026-11-02 08:24:02.239496+00:00",
+      "error": null
+    },
+    {
+      "stage": "moment_extraction",
+      "model": "openai/gpt-6-luna",
+      "status": "succeeded",
+      "input_tokens": 16525,
+      "output_tokens": 13608,
+      "cost_usd": "0.008870",
+      "created_at": "2026-11-02 08:25:43.545964+00:00",
+      "error": null
+    }
+  ],
+  "scene_summary": {
+    "current_message": "291 verified scenes from 16 documents (12 already in the ledger); 6 unverified, not used as proof",
+    "unverified_count": "6",
+    "verified_scenes": 291
+  }
+}

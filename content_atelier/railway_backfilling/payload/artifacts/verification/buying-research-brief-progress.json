@@ -1,0 +1,168 @@
+{
+  "run": {
+    "run_id": "brief_run_c9d93e21502a743f2ac7912b",
+    "status": "waiting_for_review",
+    "current_message": "Brief ready for Gate 2; production is separate",
+    "error_summary": null
+  },
+  "jobs": [
+    {
+      "job_id": "brief_job_33be522b09d046bc8ff44095b0a7a5ac",
+      "stage": "brief_prepare",
+      "status": "completed",
+      "attempt_count": 1,
+      "current_message": "brief_prepare complete",
+      "error_summary": null,
+      "result_refs": {
+        "hash": "6f7de9f7bb890c713ec06cfee8c51dbd51e67381563c06cb96416e4b1033a463",
+        "artifact": "brief-runs/brief_run_c9d93e21502a743f2ac7912b/brief_prepare/6f7de9f7bb890c713ec06cfee8c51dbd51e67381563c06cb96416e4b1033a463.json"
+      }
+    },
+    {
+      "job_id": "brief_job_7d4dd7f106de4fb3a63be46767b4dd96",
+      "stage": "brief_research",
+      "status": "completed",
+      "attempt_count": 1,
+      "current_message": "brief_research complete",
+      "error_summary": null,
+      "result_refs": {
+        "hash": "cbcf94cfef959b8609d9cc557e6783bf7effb54c0c93eaf6872cf0809ce30036",
+        "artifact": "brief-runs/brief_run_c9d93e21502a743f2ac7912b/brief_research/cbcf94cfef959b8609d9cc557e6783bf7effb54c0c93eaf6872cf0809ce30036.json"
+      }
+    },
+    {
+      "job_id": "brief_job_830dc7641de5475fbd78b92e199117d3",
+      "stage": "brief_validation",
+      "status": "completed",
+      "attempt_count": 2,
+      "current_message": "Brief ready for Gate 2",
+      "error_summary": null,
+      "result_refs": {
+        "blocking": 15,
+        "brief_id": "brief_2ff7b35b7ad9cc0e3493bc82",
+        "content_hash": "0d8d43a1fb5a05672f4bd91412f9787bce50deb631ddb1fe2873147ab40500df"
+      }
+    },
+    {
+      "job_id": "brief_job_95e9156dd1824a7d80a5d757d8e6fdc0",
+      "stage": "brief_context",
+      "status": "completed",
+      "attempt_count": 1,
+      "current_message": "brief_context complete",
+      "error_summary": null,
+      "result_refs": {
+        "hash": "cbcf94cfef959b8609d9cc557e6783bf7effb54c0c93eaf6872cf0809ce30036",
+        "artifact": "brief-runs/brief_run_c9d93e21502a743f2ac7912b/brief_context/cbcf94cfef959b8609d9cc557e6783bf7effb54c0c93eaf6872cf0809ce30036.json"
+      }
+    },
+    {
+      "job_id": "brief_job_d9aacdaf3c914bb197a5ecde9a8e9688",
+      "stage": "brief_writing",
+      "status": "completed",
+      "attempt_count": 1,
+      "current_message": "brief_writing complete",
+      "error_summary": null,
+      "result_refs": {
+        "hash": "6ce8c267cbbb3d71dc2108360a8a7be505404962c732e0adc9e8b671aaffb6db",
+        "artifact": "brief-runs/brief_run_c9d93e21502a743f2ac7912b/brief_writing/6ce8c267cbbb3d71dc2108360a8a7be505404962c732e0adc9e8b671aaffb6db.json"
+      }
+    }
+  ],
+  "dispatches": [
+    {
+      "event_type": "brief_provider_dispatch",
+      "details": {
+        "model": "openai/gpt-6-luna",
+        "synthetic": false,
+        "fingerprint": "7810c94664686affb59c375ee29907407da8952f23af102c9cce7929ce9a58a9",
+        "request_artifact": "brief-attempts/brief_job_7d4dd7f106de4fb3a63be46767b4dd96/1/7810c94664686affb59c375ee29907407da8952f23af102c9cce7929ce9a58a9/request.json"
+      }
+    },
+    {
+      "event_type": "brief_query_dispatch",
+      "details": {
+        "count": 8,
+        "synthetic": false,
+        "fingerprint": "d88fa143545b7e2b39b71b3b2072712cca424b9910f2f1a1941cfc100dd19da1"
+      }
+    },
+    {
+      "event_type": "brief_provider_dispatch",
+      "details": {
+        "model": "openai/gpt-6-luna",
+        "synthetic": false,
+        "fingerprint": "b511e10cd8259de892a640949b482213290711c6141942a449c8709b02b4b3eb",
+        "request_artifact": "brief-attempts/brief_job_7d4dd7f106de4fb3a63be46767b4dd96/1/b511e10cd8259de892a640949b482213290711c6141942a449c8709b02b4b3eb/request.json"
+      }
+    },
+    {
+      "event_type": "brief_provider_dispatch",
+      "details": {
+        "model": "openai/gpt-6-luna",
+        "synthetic": false,
+        "fingerprint": "b6d25307b19792d95b57e18c17c0e2f3f4220f9632dc5874d53eaf6195667b3b",
+        "request_artifact": "brief-attempts/brief_job_7d4dd7f106de4fb3a63be46767b4dd96/1/b6d25307b19792d95b57e18c17c0e2f3f4220f9632dc5874d53eaf6195667b3b/request.json"
+      }
+    },
+    {
+      "event_type": "brief_query_dispatch",
+      "details": {
+        "count": 4,
+        "synthetic": false,
+        "fingerprint": "3da777757cc6ae0088269e714470a1e21089bb28e84cbb3c4ccef84948be106b"
+      }
+    },
+    {
+      "event_type": "brief_provider_dispatch",
+      "details": {
+        "model": "openai/gpt-6-luna",
+        "synthetic": false,
+        "fingerprint": "c04ad36e95da2030564c2b698bfdc6dbce8fff60dad5945e44b345a9090701ba",
+        "request_artifact": "brief-attempts/brief_job_7d4dd7f106de4fb3a63be46767b4dd96/1/c04ad36e95da2030564c2b698bfdc6dbce8fff60dad5945e44b345a9090701ba/request.json"
+      }
+    },
+    {
+      "event_type": "brief_provider_dispatch",
+      "details": {
+        "model": "openai/gpt-6.1-sol",
+        "synthetic": false,
+        "fingerprint": "a528a7c6d9714b8ea3b470f2a05ae40427d381a68c5d0f82ce6c13c4c7a95f14",
+        "request_artifact": "brief-attempts/brief_job_d9aacdaf3c914bb197a5ecde9a8e9688/1/a528a7c6d9714b8ea3b470f2a05ae40427d381a68c5d0f82ce6c13c4c7a95f14/request.json"
+      }
+    },
+    {
+      "event_type": "brief_provider_dispatch",
+      "details": {
+        "model": "openai/gpt-6-luna",
+        "synthetic": false,
+        "fingerprint": "8f75782e0d020fc7e1e3ddd046a5cfe7e4a6420288d570652a6745c795271e73",
+        "request_artifact": "brief-attempts/brief_job_830dc7641de5475fbd78b92e199117d3/1/8f75782e0d020fc7e1e3ddd046a5cfe7e4a6420288d570652a6745c795271e73/request.json"
+      }
+    },
+    {
+      "event_type": "brief_cache_reused",
+      "details": {
+        "artifact": "brief-attempts/brief_job_830dc7641de5475fbd78b92e199117d3/1/8f75782e0d020fc7e1e3ddd046a5cfe7e4a6420288d570652a6745c795271e73/validated.json",
+        "fingerprint": "8f75782e0d020fc7e1e3ddd046a5cfe7e4a6420288d570652a6745c795271e73"
+      }
+    },
+    {
+      "event_type": "brief_provider_dispatch",
+      "details": {
+        "model": "openai/gpt-6.1-sol",
+        "synthetic": false,
+        "fingerprint": "1dec77232e9ce51571b6863267e1f5c50c0983b0dc0cc5e3e53aaf210a2cd61e",
+        "request_artifact": "brief-attempts/brief_job_830dc7641de5475fbd78b92e199117d3/2/1dec77232e9ce51571b6863267e1f5c50c0983b0dc0cc5e3e53aaf210a2cd61e/request.json"
+      }
+    },
+    {
+      "event_type": "brief_provider_dispatch",
+      "details": {
+        "model": "openai/gpt-6-luna",
+        "synthetic": false,
+        "fingerprint": "15c13715a9b3e68043ff25880bcbb2e823e82705b6f7d1c385634ae550c016eb",
+        "request_artifact": "brief-attempts/brief_job_830dc7641de5475fbd78b92e199117d3/2/15c13715a9b3e68043ff25880bcbb2e823e82705b6f7d1c385634ae550c016eb/request.json"
+      }
+    }
+  ]
+}

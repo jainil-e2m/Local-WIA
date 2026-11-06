@@ -1,0 +1,33 @@
+# Invented examples only. Keep real data in backend/.local/roster.yaml.
+people:
+  - name: Alex Example
+    kind: staff
+    status: pending
+    functions: [ads_google, ads_meta]
+    emails: [alex@example.com]
+    slack: [U000EXAMPLE1]
+    clickup: ["10000001"]
+    fathom: [alex@example.com]
+    display_names: [Alex E.]
+  - name: Sam Sample
+    kind: former
+    status: pending
+    functions: [support]
+    emails: [sam@example.org]
+  - name: Riley Placeholder
+    kind: contractor
+    status: pending
+    functions: [support]
+    emails: [riley@example.net]
+shared_mailboxes:
+  - name: Example main inbox
+    email: hello@example.com
+    status: pending
+    holders: [{person: Alex Example, from: 2026-01-01}]
+  - name: Example support inbox
+    email: support@example.org
+    status: pending
+    holders:
+      - {person: Sam Sample, to: 2026-02-28}
+      - {person: Riley Placeholder, from: 2026-03-01}
+account_teams: {}

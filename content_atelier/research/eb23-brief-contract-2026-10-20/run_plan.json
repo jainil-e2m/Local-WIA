@@ -1,0 +1,23 @@
+{
+  "plan_id": "plan_b02c83567f0e4b1aa80a",
+  "purpose": "E.B23 evidence: brief contract v3 (writer v4, the ledger built after writing, limited repair) on the live week's three cards against E.B22's v3-writer briefs, judged by the calibrated J2 configuration in both orders",
+  "stages": [
+    "evaluation"
+  ],
+  "models": [
+    "openai/gpt-6.1-sol",
+    "anthropic/claude-sonnet-5.5"
+  ],
+  "input_set_hash": "sha256:170bcec183f22e25c5d8153dd19d7955292441f3acf291aaa1b951214fdccad5",
+  "max_calls": 21,
+  "max_cost_usd": 1.5,
+  "approver": "kenil.shah@e2m.solutions",
+  "approved_at": "2026-10-19T20:55:44.259293+00:00",
+  "expires_at": "2026-10-20T08:55:44.259293+00:00",
+  "status": "active",
+  "calls_used": 15,
+  "cost_used_usd": 1.2988869,
+  "details": {
+    "knowledge_base": "backend/knowledge_base/archive/wia-kb-2026-10-18.c-0cb353e4"
+  }
+}

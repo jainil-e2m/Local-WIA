@@ -1,0 +1,15 @@
+{
+  "endpoint": "https://api.openai.com/v1/embeddings",
+  "contract": "981558eb240c4680ea2a807f97a44da209c7cc99c70f5f44f725bd7127bc317f",
+  "body": {
+    "model": "text-embedding-3-small",
+    "input": [
+      "Source: meeting.vtt\nAlice: We improved the follow-up.\nAlice: It was an observation, not a measured result."
+    ],
+    "dimensions": 1536,
+    "encoding_format": "float"
+  },
+  "input_hashes": [
+    "975d987aa99831006283f66824bc601bbda6e6a4e6772b20c428d7d7df01e918"
+  ]
+}

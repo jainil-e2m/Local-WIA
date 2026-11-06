@@ -1,0 +1,170 @@
+{
+ "statements": [
+  {
+   "piece": "email",
+   "text": "We'd sent one of our clients a few new ad creatives for his Meta ads.",
+   "verdict": "supported",
+   "source": "ev_3659b8ec1f3cc723895135fb",
+   "why": "Whitney says ad creatives were sent for review on the Meta ad side."
+  },
+  {
+   "piece": "email",
+   "text": "When we got on a call, he hadn't finalized anything yet, but he was honest with me anyway:",
+   "verdict": "supported",
+   "source": "ev_ad3187ffacb3f12091e39671",
+   "why": "The client says 'not yet to kind of finalize anything'."
+  },
+  {
+   "piece": "email",
+   "text": "\"I don't necessarily remember what they were, but I don't think that I love them.\"",
+   "verdict": "supported",
+   "source": "ev_a4d08605e8691f0838a00c45",
+   "why": "The quote matches the evidence word for word."
+  },
+  {
+   "piece": "email",
+   "text": "Our team had put the work in",
+   "verdict": "supported",
+   "source": "Our team had made the proposed creative.",
+   "why": "The brief states the team made the ads."
+  },
+  {
+   "piece": "email",
+   "text": "So I told him two things. If there were any specific tweaks or edits he'd like to see, he should let us know.",
+   "verdict": "supported",
+   "source": "ev_a8d1d65a3f03e28c532a7ff0",
+   "why": "Whitney invites specific tweaks or edits."
+  },
+  {
+   "piece": "email",
+   "text": "\"If you decide you don't want to use them at all, like no hard feelings there as well.\"",
+   "verdict": "supported",
+   "source": "ev_d8cb0ca04f5c1fc2bd589a0f",
+   "why": "The quote matches the evidence word for word."
+  },
+  {
+   "piece": "email",
+   "text": "I meant both. A revision was on the table, and so was not using those particular ads.",
+   "verdict": "supported",
+   "source": "A revision was available. So was choosing not to use those particular ads.",
+   "why": "This matches the approved claims."
+  },
+  {
+   "piece": "reel_1 script",
+   "text": "I had a call with one of our clients where that's pretty much what happened. We'd sent over a few new ad creatives for his Meta ads, and he hadn't finished going through them yet.",
+   "verdict": "supported",
+   "source": "ev_3659b8ec1f3cc723895135fb; ev_ad3187ffacb3f12091e39671",
+   "why": "Ads were sent, and the client had not finalized his review."
+  },
+  {
+   "piece": "reel_1 script",
+   "text": "He said he didn't really remember what they were, but he didn't think he loved them.",
+   "verdict": "supported",
+   "source": "ev_a4d08605e8691f0838a00c45",
+   "why": "This is a faithful paraphrase of the client's words."
+  },
+  {
+   "piece": "reel_1 script",
+   "text": "If there are specific tweaks or edits you want, just let us know. And if you decide you don't want to use them at all, no hard feelings.",
+   "verdict": "supported",
+   "source": "ev_a8d1d65a3f03e28c532a7ff0; ev_d8cb0ca04f5c1fc2bd589a0f",
+   "why": "This paraphrases Whitney's words and is not presented as a verbatim quote."
+  },
+  {
+   "piece": "reel_1 script",
+   "text": "Because yes, we did the work. That doesn't mean you owe us an approval.",
+   "verdict": "supported",
+   "source": "We've done the work. That doesn't mean you owe us an approval.",
+   "why": "This is an approved claim."
+  },
+  {
+   "piece": "reel_1 caption",
+   "text": "They know Meta and Google, and they've clearly put time into these.",
+   "verdict": "unsupported",
+   "source": "none",
+   "why": "Google and the team's platform expertise are not in the sources."
+  },
+  {
+   "piece": "reel_1 caption",
+   "text": "We'd sent him new ads to review, he hadn't finalized anything, and he told me plainly he wasn't sure he loved them.",
+   "verdict": "supported",
+   "source": "ev_ad3187ffacb3f12091e39671; ev_a4d08605e8691f0838a00c45",
+   "why": "The client was tentative and had not finalized his review."
+  },
+  {
+   "piece": "reel_1 caption",
+   "text": "I asked for any edits he'd want, and I told him that if he'd rather not use them at all, that was completely fine.",
+   "verdict": "supported",
+   "source": "ev_a8d1d65a3f03e28c532a7ff0; ev_d8cb0ca04f5c1fc2bd589a0f",
+   "why": "'Completely fine' carries the same meaning as 'no hard feelings'."
+  },
+  {
+   "piece": "reel_2 screens",
+   "text": "We sent a client new Meta ads to review. He wasn't sure he loved them.",
+   "verdict": "supported",
+   "source": "ev_3659b8ec1f3cc723895135fb; ev_a4d08605e8691f0838a00c45",
+   "why": "The certainty level is preserved."
+  },
+  {
+   "piece": "reel_2 screens",
+   "text": "I told him: send us any edits, or don't use them at all. No hard feelings.",
+   "verdict": "supported",
+   "source": "ev_a8d1d65a3f03e28c532a7ff0; ev_d8cb0ca04f5c1fc2bd589a0f",
+   "why": "This is a paraphrase of Whitney's words, not a quote."
+  },
+  {
+   "piece": "reel_2 screens",
+   "text": "We'd already made the ads. That didn't mean he owed us a yes.",
+   "verdict": "supported",
+   "source": "The work was already done. Approval still wasn't an obligation.",
+   "why": "This matches the approved claims."
+  },
+  {
+   "piece": "reel_2 caption",
+   "text": "Most agencies send new ads for approval.",
+   "verdict": "unsupported",
+   "source": "none",
+   "why": "A claim about most agencies is not in the sources."
+  },
+  {
+   "piece": "reel_2 caption",
+   "text": "One of our clients was candid that he didn't think he loved the latest ads we'd sent, even though he hadn't finished reviewing them. I welcomed any changes he wanted to see, and I made it clear that leaving those ads unused was a perfectly good answer too.",
+   "verdict": "supported",
+   "source": "I welcome feedback on changes an owner would like to see, and also make clear that leaving those particular ads unused is an option.",
+   "why": "This matches the approved claim and the evidence."
+  },
+  {
+   "piece": "carousel slide 2",
+   "text": "We'd sent one of our clients a few new ad creatives for his Meta ads. Our team made them and sent them over for his review. Then we got on a call.",
+   "verdict": "supported",
+   "source": "ev_3659b8ec1f3cc723895135fb; Our team had made the proposed creative.",
+   "why": "The sources state the team made and sent the ads, and the call took place."
+  },
+  {
+   "piece": "carousel slide 3",
+   "text": "He hadn't finalized his review yet. But he was honest: he didn't remember them exactly, and his first reaction was that he might not love them.",
+   "verdict": "supported",
+   "source": "ev_ad3187ffacb3f12091e39671; ev_a4d08605e8691f0838a00c45",
+   "why": "The tentative tone matches the brief."
+  },
+  {
+   "piece": "carousel slide 4",
+   "text": "Whitney told him two things. If he wanted specific tweaks or edits, let us know. If he decided not to use them at all, no hard feelings.",
+   "verdict": "supported",
+   "source": "ev_a8d1d65a3f03e28c532a7ff0; ev_d8cb0ca04f5c1fc2bd589a0f",
+   "why": "Whitney credited with offering edits or non-use."
+  },
+  {
+   "piece": "carousel caption",
+   "text": "We'd sent him new Meta ads, and before he'd finished reviewing them, he told us he wasn't sure about them. The answer he got was simple: send over any edits you'd like, or don't use them, and there are no hard feelings either way.",
+   "verdict": "supported",
+   "source": "ev_ad3187ffacb3f12091e39671; ev_a8d1d65a3f03e28c532a7ff0; ev_d8cb0ca04f5c1fc2bd589a0f",
+   "why": "This is a faithful paraphrase."
+  }
+ ],
+ "summary": {
+  "supported": 23,
+  "unsupported": 2,
+  "guardrail": 0
+ }
+}

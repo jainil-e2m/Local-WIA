@@ -1,0 +1,79 @@
+{
+  "fingerprint": "15c13715a9b3e68043ff25880bcbb2e823e82705b6f7d1c385634ae550c016eb",
+  "output": {
+    "reviewed_claim_ids": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "preserves_approved_direction": true,
+    "distinct_treatment": false,
+    "findings": [
+      {
+        "claim_id": "C1",
+        "severity": "blocking",
+        "message": "The transcript-labelled report is represented with appropriate qualification, but the source has public_use=false, unknown sensitivity, and unverified attribution. The brief correctly makes anonymous paraphrase conditional on clearance; that clearance is unresolved, so this source-grounded public treatment is not cleared for approval or distribution.",
+        "evidence_ids": [
+          "ev_3476592e997f9c7081a2947f",
+          "ev_90c2235d079789a7cb7c5240"
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "severity": "blocking",
+        "message": "The workflow is consistently framed as proposed rather than implemented or currently offered, and client sending/tagging responsibility is retained. However, the supporting passages have public_use=false, unknown sensitivity, and unverified attribution. Anonymous public paraphrase still requires clearance, which remains unresolved.",
+        "evidence_ids": [
+          "ev_9185f6bf7790302604c100b2",
+          "ev_429599bb6358fc421993c3c1",
+          "ev_c611a1a7603324c6c599ddcb"
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "severity": "blocking",
+        "message": "The inference is appropriately bounded: reviews may include choice context, and the proposed survey does not establish answers or marketing effects. Public treatment based on the cited internal discussion remains subject to unresolved reuse clearance.",
+        "evidence_ids": [
+          "ev_3476592e997f9c7081a2947f",
+          "ev_45915a800c5c8a90cafb5187",
+          "ev_9185f6bf7790302604c100b2",
+          "ev_c611a1a7603324c6c599ddcb"
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "severity": "blocking",
+        "message": "The brief correctly treats agreement as neither validation nor evidence of implementation or demand. Any public paraphrase of this internal discussion remains uncleared; the required reuse review is unanswered.",
+        "evidence_ids": [
+          "ev_9b07f1e5250eb7275b49a6aa"
+        ]
+      },
+      {
+        "claim_id": "C5",
+        "severity": "warning",
+        "message": "The audience pain is explicitly labelled an editorial hypothesis and presented as a possibility, not a measured or universal audience finding.",
+        "evidence_ids": [
+          "ev_90c2235d079789a7cb7c5240",
+          "ev_45915a800c5c8a90cafb5187"
+        ]
+      },
+      {
+        "claim_id": "C6",
+        "severity": "warning",
+        "message": "The comparison correctly admits incomplete legacy publication coverage and distinguishes pending/generated/approved/scheduled/published states; it does not claim comprehensive distinctness or novelty. The closest prior angle has pending approval and no listed publications, while the historical buying-research email is exemplar material, not evidence of this treatment being published. Consolidation/refresh remains unresolved before scheduling.",
+        "evidence_ids": []
+      },
+      {
+        "claim_id": "C7",
+        "severity": "blocking",
+        "message": "The exact approved CTA text is retained without an alternative offer or silent rewrite. However, the brief itself makes publication conditional on verifying current commercial scope and the DM destination, and Q2 is unanswered. Preserve the CTA wording, but do not publish until those checks are resolved.",
+        "evidence_ids": []
+      }
+    ]
+  },
+  "output_hash": "61d45e6770ab2e1e32ebea6b2644cba897633578b8e372b247f0368997e78d64",
+  "artifact": "brief-attempts/brief_job_830dc7641de5475fbd78b92e199117d3/2/15c13715a9b3e68043ff25880bcbb2e823e82705b6f7d1c385634ae550c016eb/validated.json"
+}

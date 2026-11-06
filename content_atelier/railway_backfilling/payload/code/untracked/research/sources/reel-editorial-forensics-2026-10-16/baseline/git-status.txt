@@ -1,0 +1,82 @@
+ M backend/README.md
+ M backend/backend_pipeline/api.py
+ M backend/backend_pipeline/database.py
+ M backend/backend_pipeline/prepare.py
+ M backend/backend_pipeline/prompt_templates/angle_generation.system.md
+ M backend/backend_pipeline/prompt_templates/angle_generation.user.md
+ M backend/backend_pipeline/prompt_templates/moment_extraction.weekly_v3.md
+ M backend/backend_pipeline/prompts.py
+ M backend/backend_pipeline/provider.py
+ M backend/backend_pipeline/repository.py
+ M backend/backend_pipeline/retrieval.py
+ M backend/backend_pipeline/storage_sources.py
+ M backend/backend_pipeline/tests/test_prompt_contracts.py
+ M backend/backend_pipeline/tests/test_strategic_discovery.py
+ M backend/pyproject.toml
+ M backend/requirements.txt
+ M frontend/server/app.mjs
+ M frontend/src/App.tsx
+ M frontend/src/components/Sidebar.tsx
+?? backend/.dockerignore
+?? backend/Dockerfile
+?? backend/backend_pipeline/backfill.py
+?? backend/backend_pipeline/fathom_sources.py
+?? backend/backend_pipeline/intake/
+?? backend/backend_pipeline/model_experiment.py
+?? backend/backend_pipeline/reviewed_experiment.py
+?? backend/backend_pipeline/tests/test_future_intake.py
+?? backend/backend_pipeline/tests/test_model_experiment.py
+?? backend/backend_pipeline/tests/test_prompt_upgrade.py
+?? backend/backend_pipeline/tests/test_reviewed_experiment.py
+?? backend/backend_pipeline/tests/test_transcript_backfill.py
+?? backend/compose.intake.yml
+?? backend/docs/Future-Source-Intake.md
+?? backend/docs/transcript-backfill-2026-10-14.md
+?? backend/fathom_backfill_staging/
+?? backend/intake.env.example
+?? backend/migrations/003_future_intake.sql
+?? backend/migrations/schema-catalog-intake-brief.json
+?? backend/migrations/schema-catalog-intake.json
+?? backend/scripts/generate_intake_catalog.py
+?? backend/scripts/prepare_week3_week4_comparison.py
+?? backend/scripts/run_reviewed_week4.py
+?? context/2026-10-15-strategic-prompt-upgrade.md
+?? context/2026-10-15-transcript-only-backfill-completed.md
+?? context/2026-10-15-week3-week4-live-comparison.md
+?? context/2026-10-15-week3-week4-model-comparison.md
+?? context/2026-10-15-week3-week4-shared-extraction.md
+?? context/2026-10-16-reel-copywriting-review.md
+?? frontend/server/intake.test.mjs
+?? frontend/src/components/SourcesView.tsx
+?? pending_before_deployment.md
+?? project_agenda.md
+?? research/2026-10-15-strategic-prompt-reconciliations.diff
+?? research/2026-10-15-strategic-prompt-upgrade-verification.json
+?? research/2026-10-15-strategic-prompt-upgrade.md
+?? research/2026-10-15-week3-week4-model-comparison-results.json
+?? research/2026-10-15-week3-week4-model-comparison-results.md
+?? research/2026-10-15-week3-week4-model-comparison-setup.json
+?? research/2026-10-15-week3-week4-model-comparison-setup.md
+?? research/2026-10-15-week3-week4-shared-extraction-setup.json
+?? research/2026-10-15-week3-week4-shared-extraction-setup.md
+?? research/2026-10-16-instagram-reel-copywriting-analysis.md
+?? research/2026-10-16-reel-copywriting-angle-inventory.md
+?? research/fathom-backfill-completed-2026-10-14.json
+?? research/fathom-backfill-completed-2026-10-14.md
+?? research/fathom-meeting-metadata-2026-10-14.json
+?? research/fathom-reconciliation-metadata-2026-10-14.json
+?? research/fathom-weekly-inventory-2026-10-14.json
+?? research/fathom-weekly-inventory-2026-10-14.md
+?? research/fathom-zoom-reconciliation-2026-10-14.json
+?? research/fathom-zoom-reconciliation-2026-10-14.md
+?? research/sources/model-comparison-independent-baseline-2026-10-15/
+?? research/sources/prompt-upgrade-2026-10-15/
+?? research/sources/reel-editorial-forensics-2026-10-16/
+?? research/transcript-backfill-completed-2026-10-15.md
+?? research/week3-week4-comparison-2026-10-15/
+?? research/zoom-local-reconciliation-inventory-2026-10-14.json
+?? testing/.backfill-native-check-20261014/
+?? testing/.backfill-native-tests-20261014/
+?? testing/.backfill-preparation-check-20261014/
+?? testing/.backfill-sql-tests-20261014/
+?? testing/.backfill-tests-20261014/

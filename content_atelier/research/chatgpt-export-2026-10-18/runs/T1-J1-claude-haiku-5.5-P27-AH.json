@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J1-claude-haiku-5.5-P27-AH",
+  "model": "anthropic/claude-haiku-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 16323,
+  "completion_tokens": 372,
+  "cached_tokens": 15842,
+  "cost": 0.00039252,
+  "seconds": 2.8,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "757bd541061b"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 4,
+  "reason": "Version B opens with buyer concerns, reframes them around intentional strategy and confidence, and reads as calm, insight-led founder writing, while Version A is fragmented and its arrow-linked quote structure is unclear."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: caption\n\nVersion A:\nOne thing we hear constantly from clients before working with us is:\n“I just want to know this strategy will actually work.”  →  later: “Can I see examples of your work?” / “Have you done this successfully for businesses like mine?” / “Can I see what this actually looks like in practice?”\n\nVersion B:\nOne thing we hear often from wedding pros before they work with us is:\n\n“I don’t want my ads to feel generic.”\n“I want to know the leads coming in are actually aligned.”\n“I just want to feel confident I’m making a smart investment.”\n\nAnd honestly, that hesitation makes complete sense.\n\nThe wedding industry is full of agencies promising more leads without understanding positioning, buyer psychology, or what actually turns quality inquiries into booked clients.\n\nMost business owners aren’t looking for flashy marketing.\n\nThey’re looking for a strategy that feels intentional, brand-aligned, and capable of generating real ROI long-term.",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

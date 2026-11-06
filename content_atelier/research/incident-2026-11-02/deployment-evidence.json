@@ -1,0 +1,66 @@
+{
+  "project": "Content Atelier",
+  "services": [
+    {
+      "environment": "production",
+      "service": "postgres",
+      "deployment": "eb8faa9e-a757-495f-a07d-89834130d097",
+      "status": "SUCCESS"
+    },
+    {
+      "environment": "production",
+      "service": "Frontend",
+      "deployment": "a56b44fb-1506-469e-ada3-19d027329788",
+      "commit": "efedd191a100fa7e156aa8e0145e6e185e78c733",
+      "status": "SUCCESS"
+    },
+    {
+      "environment": "production",
+      "service": "bulk-worker",
+      "deployment": "9da97c0c-f714-4c90-b82a-dcf28247646f",
+      "commit": "efedd191a100fa7e156aa8e0145e6e185e78c733",
+      "status": "SUCCESS"
+    },
+    {
+      "environment": "production",
+      "service": "intake-worker",
+      "deployment": "31a72c14-3b4c-472e-9c45-c2aa865127de",
+      "commit": "efedd191a100fa7e156aa8e0145e6e185e78c733",
+      "status": "SUCCESS"
+    },
+    {
+      "environment": "production",
+      "service": "api",
+      "deployment": "701629f0-c628-4b8b-bd3d-13f1e58e51c7",
+      "commit": "efedd191a100fa7e156aa8e0145e6e185e78c733",
+      "status": "SUCCESS"
+    },
+    {
+      "environment": "production",
+      "service": "editorial-worker",
+      "deployment": "003d7f9e-9014-4938-ab9b-65458ce5ccdc",
+      "commit": "efedd191a100fa7e156aa8e0145e6e185e78c733",
+      "status": "SUCCESS"
+    },
+    {
+      "environment": "production",
+      "service": "scheduler",
+      "deployment": "2c503a8b-ea14-4de1-9a07-d992852cf111",
+      "commit": "efedd191a100fa7e156aa8e0145e6e185e78c733",
+      "status": "SUCCESS"
+    },
+    {
+      "environment": "production",
+      "service": "db-backup",
+      "deployment": "ebed9ae3-ddef-4074-b639-af913f537e2b",
+      "commit": "efedd191a100fa7e156aa8e0145e6e185e78c733",
+      "status": "SUCCESS"
+    },
+    {
+      "environment": "production",
+      "service": "Redis",
+      "deployment": "c8bb3203-779e-4f90-b2c1-10759624bb3d",
+      "status": "SUCCESS"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "about": "Supplied documents the compiler adds, once, to a version whose base lacks them, from `effective` on (backend_pipeline/knowledge/additions.py). Each entry is reviewed as a whole: its file is committed beside the knowledge base and bound by `sha256` (the hash of its text with line endings normalised and outer whitespace stripped, as the loader reads it), so the runtime never reads the source it was derived from (R52) and a changed file stops the compile until it is reviewed again. A new document is an identity change: the version waits for its benchmark (R44).",
+  "effective": "2026-10-20",
+  "entries": [
+    {
+      "id": "A01",
+      "key": "editing_guide",
+      "file": "17-editing-guide.md",
+      "heading": "Document 17: How Whitney edits (her corrections to drafts in her ChatGPT history, as rules for anyone writing or planning WIA copy)",
+      "owner": "Whitney Hodges (her corrections, derived from the ChatGPT export, E.B25 (e))",
+      "status": "confirmed",
+      "stages": [
+        "strategist",
+        "brief"
+      ],
+      "provenance": {
+        "source": "research/chatgpt-export-2026-10-18/data/pack_rules.md (the export pack's \"how Whitney edits\" sheet, section 1.8 T2), rewritten as rules and reconciled with WIA's rulings R-1 to R-16; reviewed by the engineer under D21 on 20 October 2026",
+        "author": "model, from Whitney's corrections in her ChatGPT history",
+        "model_written": true,
+        "derived_from_weeks": []
+      },
+      "review_interval_days": 90,
+      "effective": "2026-10-20",
+      "sha256": "1b2e2313ebb02c831584abecceca23bc935c697cae1ff48e9f921fa730e6f9ed",
+      "reviewed": "The owner's final text of 20 October 2026 (D21, reconciled with WIA's rulings), copied verbatim"
+    },
+    {
+      "id": "A02",
+      "key": "spoken_voice",
+      "file": "18-spoken-voice.md",
+      "heading": "Document 18: Whitney's spoken voice (Reels she recorded herself, verbatim; for Reel scripts only, never written copy or evidence)",
+      "owner": "Whitney Hodges (her recorded Reels, E.B25 (j))",
+      "status": "confirmed",
+      "stages": [
+        "brief"
+      ],
+      "provenance": {
+        "source": "Whitney's recorded Reel transcripts: research/2026-10-16-installed-editorial-prompts.md (Instagram Reel Transcripts, Reels 1 to 4) and research/chatgpt-export-2026-10-18/kb-candidates/exemplar-bank.jsonl (EX34, EX35, EX37, EX39); the 18 August 2026 Reel first. The 31 July case-study Reel is withheld while its week is held out (E.B17, benchmark Week 6); call turns are left out because Weeks 1 and 2 are benchmark weeks (D28)",
+        "author": "Whitney (recorded)",
+        "model_written": false,
+        "derived_from_weeks": []
+      },
+      "review_interval_days": 90,
+      "effective": "2026-10-22",
+      "sha256": "254de9e850237474286cfc9186629680eec0b0b6ae720e64199439dcb452f6a6",
+      "reviewed": "Engineer's selection under D12 and D21 on 22 October 2026; transcripts verbatim, one short 'how she talks' list marked as the engineer's reading"
+    },
+    {
+      "id": "A03",
+      "key": "transformations",
+      "file": "19-transformations.md",
+      "heading": "Document 19: How Whitney turns a raw moment into a finished piece (six chains in her own words: her raw note or recording, what she said about drafts, what she published)",
+      "owner": "Whitney Hodges (her notes, reasons and finals, L.B12)",
+      "status": "confirmed",
+      "stages": [
+        "strategist",
+        "brief"
+      ],
+      "provenance": {
+        "source": "D34's recommended default (allow, through additions.json from the reviewed seed, her text only): research/v2-reassessment-2026-10-20/blind-review/whitney-finished-pieces.md, research/chatgpt-export-2026-10-18/data/t2_tasks.jsonl (T07, T24, T32), research/week2-packs-rebuild-2026-10-21/notes/chatgpt_export_week2_findings.md (her dated notes) and the recorded Reel of 25 June 2026 (research/2026-10-16-installed-editorial-prompts.md, Reel 6); model and teammate drafts left out; no Week 2 or held-out Week 6 material",
+        "author": "Whitney (her own words); 'Her move' lines by the engineer",
+        "model_written": false,
+        "derived_from_weeks": []
+      },
+      "review_interval_days": 90,
+      "effective": "2026-10-22",
+      "sha256": "421b6f65c7f4d3e2473235d7f924a0db9fd3ec443c76a2a83cecbbc2486cab92",
+      "reviewed": "Engineer's selection under D12, D21 and D34's default on 22 October 2026; her words verbatim (em dashes normalised to commas, V01)"
+    }
+  ]
+}

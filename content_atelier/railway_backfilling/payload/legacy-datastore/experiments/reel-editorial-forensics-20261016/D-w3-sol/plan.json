@@ -1,0 +1,28 @@
+{
+  "name": "D-w3-sol",
+  "arm": "D",
+  "week": 3,
+  "slug": "sol",
+  "role": "selection_without_rewrite",
+  "stage": "angle_refinement",
+  "request_hash": "7f40d51fe40dde87c997db0de32b3a56cff00236c1b0bdfa01bd7107f4eff8cb",
+  "pool_hash": "06da8129f5347c20c1fd7cf5a8d941d1fd92188137e00e82043504aef884384f",
+  "schema_hash": "2006e7853e3aec9dd27fe0adbfa30e99035c5ce95996c8a74b9467faf3400aeb",
+  "capacity": {
+    "method": "conservative_utf8_byte_allowance_not_native_token_count",
+    "input_allowance": 323262,
+    "margin": 32327,
+    "advertised_eligible_endpoints": 7,
+    "output_reserve": 128000,
+    "request_has_explicit_output_cap": false,
+    "fits_conservative_allowance": true,
+    "provider_defaults_and_limits_still_apply": true
+  },
+  "endpoint": "https://openrouter.ai/api/v1",
+  "reasoning": "high",
+  "embeddings": false,
+  "history": [],
+  "auto_retries": false,
+  "answer_key_supplied": false,
+  "source_week": 3
+}

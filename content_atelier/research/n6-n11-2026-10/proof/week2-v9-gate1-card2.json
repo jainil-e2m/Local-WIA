@@ -1,0 +1,27 @@
+{
+ "angle_id": "angle_12a3131518bd475997b0d47f548fa2f5",
+ "request": {
+  "expected_hash": "9b25ce3dacf3f61ef50c20ca7ee51a5c16ee833efc7364c69dc7322d5fa92a46",
+  "disposition": "develop",
+  "author": "kenil.shah@e2m.solutions (delegated, D12)",
+  "note": "Developed for N11's benchmark on scratch copy D (delegated, D12, R55) after reframing the point to what the call shows (Whitney asks where a couple is in their decision); the CONVERT card, on a LeadLock offer week. The overlap is with the first benchmark sample's card on the same call (the pre-tour wait), which is a different moment and is not developed in this sample.",
+  "cta": {
+   "choice": "decide_in_development"
+  },
+  "verify_acknowledged": [
+   "Confirm permission for the anonymised owner exchange."
+  ],
+  "overlap_acknowledged": true
+ },
+ "status": 200,
+ "response": {
+  "angle_id": "angle_12a3131518bd475997b0d47f548fa2f5",
+  "approval_status": "approved",
+  "decision_id": "decision_b9f9e55ba2c24df293c6d4e139d70972",
+  "brief_run": {
+   "run_id": "brief_run_b9a88757c1aa7151214f8bf8",
+   "status": "queued"
+  },
+  "disposition": "develop"
+ }
+}

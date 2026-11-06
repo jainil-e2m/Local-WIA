@@ -1,0 +1,366 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 0%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 0%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 0%;
+
+    --primary: 229 100% 66%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 30 15% 25%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 260 5% 88%;
+    --muted-foreground: 30 15% 25%;
+
+    --accent: 38 19% 11%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 2 78% 63%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 260 5% 88%;
+    --input: 260 5% 88%;
+    --ring: 229 100% 66%;
+
+    --radius: 17px;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-size: 18px;
+    line-height: 1.75;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    @apply bg-primary text-white;
+  }
+}
+
+@layer utilities {
+  /* Light hero surface. Wedding Industry Ads runs a white ground --
+     #ffffff background, #000000 text -- so the hub's dark navy ramp is gone.
+     This is white -> off-white -> the extracted light grey, with two soft
+     washes in the brand's periwinkle and camel. Same 160deg geometry. */
+  .bg-hero {
+    background: #f8f9fd;
+  }
+
+  .hero-marble {
+    background:
+      radial-gradient(900px 520px at 80% 18%, rgba(217, 226, 255, 0.42), transparent 70%),
+      radial-gradient(720px 460px at 12% 78%, rgba(232, 235, 249, 0.55), transparent 72%),
+      linear-gradient(112deg, #ffffff 0%, #fafbff 46%, #f1f4fc 100%);
+  }
+
+  .hero-marble__vein {
+    position: absolute;
+    display: block;
+    width: min(980px, 76vw);
+    height: min(260px, 21vw);
+    transform-origin: center;
+    background-image:
+      url("/marble-vein-reference.png"),
+      linear-gradient(96deg, transparent 12%, rgba(91, 121, 224, 0.13) 49%, transparent 82%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-blend-mode: multiply;
+    filter: saturate(1.38) contrast(1.12);
+    mix-blend-mode: multiply;
+    -webkit-mask-image: radial-gradient(ellipse at center, black 28%, rgba(0, 0, 0, 0.9) 48%, transparent 76%);
+    mask-image: radial-gradient(ellipse at center, black 28%, rgba(0, 0, 0, 0.9) 48%, transparent 76%);
+  }
+
+  .hero-marble__sheen {
+    position: absolute;
+    inset: -14%;
+    background: linear-gradient(122deg, transparent 34%, rgba(255, 255, 255, 0.76) 49%, transparent 64%);
+    transform: rotate(-8deg);
+  }
+
+  /* Lead Magnet console ground.
+     Deliberately a separate class rather than a change to .bg-hero: the
+     landing hero uses that too, and this page needs a deeper ramp so its
+     light panels have something to sit against. Same 160deg geometry and
+     the same brand-accent radial, three stops lower. */
+  .bg-hero-leadmagnet {
+    background:
+      radial-gradient(1100px 620px at 78% -10%, rgba(110, 118, 175, 0.32), transparent 60%),
+      linear-gradient(160deg, #101438 0%, #0a0c22 62%, #050611 100%);
+  }
+
+  /* Frosted panel for that page's cards, table and inputs.
+     The fill is translucent on purpose — the panels pick up the ground
+     beneath them, which is what separates frosted glass from a flat white
+     card dropped on a dark page. These set border-color only, so the
+     element still needs Tailwind's `border` for width. */
+  .lm-glass {
+    background-color: rgba(244, 246, 250, 0.92);
+    border-color: rgba(255, 255, 255, 0.62);
+    box-shadow: 0 12px 34px rgba(4, 8, 26, 0.32);
+    -webkit-backdrop-filter: blur(9px);
+    backdrop-filter: blur(9px);
+  }
+
+  /* Same panel with a top-left sheen, for elements read as lifted (the KPI
+     cards). Kept separate so the flat variant stays flat. */
+  .lm-glass-raised {
+    background-image: linear-gradient(
+      150deg,
+      rgba(255, 255, 255, 0.97),
+      rgba(244, 246, 250, 0.92)
+    );
+    border-color: rgba(255, 255, 255, 0.62);
+    box-shadow: 0 12px 34px rgba(4, 8, 26, 0.32);
+    -webkit-backdrop-filter: blur(9px);
+    backdrop-filter: blur(9px);
+  }
+
+  /* Table header — a shade deeper than the body so the header row reads as
+     structure without needing a heavier rule. */
+  .lm-glass-head {
+    background-color: rgba(231, 237, 247, 0.95);
+  }
+
+  .bg-ink {
+    background-color: #221e17;
+  }
+
+  /* Headline gradient. Two constraints shape it. Every stop has to read on
+     white, which rules out the light end of the palette (sky, lavender and
+     camel all sit under 2.5:1 there). And the primary is the brand's dominant
+     signal -- the spec assigns it to headings -- so it holds both ends and the
+     ink sweeps through the middle as the shimmer moves, rather than the ramp
+     spending two of three stops in brown. */
+  .text-gradient-brand {
+    @apply bg-gradient-to-r from-brand-primary via-brand-accent to-brand-primary bg-clip-text text-transparent;
+    background-size: 200% auto;
+  }
+
+  /* on-theme thin scrollbar for dark overlay surfaces (modal bodies, gantt) */
+  .scrollbar-themed {
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: rgba(173, 177, 206, 0.35) transparent;
+  }
+  .scrollbar-themed::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  .scrollbar-themed::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .scrollbar-themed::-webkit-scrollbar-thumb {
+    background: rgba(173, 177, 206, 0.28);
+    border-radius: 9999px;
+  }
+  .scrollbar-themed::-webkit-scrollbar-thumb:hover {
+    background: rgba(173, 177, 206, 0.45);
+  }
+  .scrollbar-themed::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+
+  /* thin fading grid used behind the hero */
+  .hero-grid {
+    /* Ink hairlines, not white ones -- the grid sits on white now. */
+    background-image:
+      linear-gradient(rgba(34, 30, 23, 0.055) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(34, 30, 23, 0.055) 1px, transparent 1px);
+    background-size: 64px 64px;
+    -webkit-mask-image: radial-gradient(ellipse 90% 75% at 50% 40%, black 25%, transparent 75%);
+    mask-image: radial-gradient(ellipse 90% 75% at 50% 40%, black 25%, transparent 75%);
+  }
+}
+
+/* ── Marble landing (MarbleHero.tsx) ───────────────────────────────────
+   Values are the delivered design's, measured at its 1566px capture width. */
+@layer components {
+  /* The page shell the landing hero and the header share, so the logo and
+     the copy column always start on the same edge. */
+  .landing-shell {
+    margin-inline: auto;
+    width: min(1220px, calc(100% - 32px));
+  }
+  @media (min-width: 640px) {
+    .landing-shell {
+      width: min(1220px, calc(100% - 64px));
+    }
+  }
+
+  /* The region the owner marked for the marble: from 46% of the hero's width
+     to its right edge, full height. Nothing of the stone may cross its left
+     edge — the live render dissolves in from it (shaders.ts, BAKE_DETAIL).
+     Below 1100px the copy spans the width, so there is no such region. */
+  .landing-marble {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 46%;
+    z-index: 0;
+    pointer-events: none;
+    display: none;
+  }
+  @media (min-width: 1100px) {
+    .landing-marble {
+      display: block;
+    }
+  }
+  .landing-marble-canvas,
+  .landing-marble-still {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .landing-marble-canvas {
+    transition: opacity 1.2s ease-out;
+  }
+  /* No-WebGL fallback: the offline still. Its own edge dissolve is baked in;
+     the mask keeps that edge inside the region whatever `cover` crops. */
+  .landing-marble-still {
+    object-fit: cover;
+    object-position: right top;
+    -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 22%);
+    mask-image: linear-gradient(90deg, transparent 0%, #000 22%);
+  }
+  /* Soft cool light over the stone, as in the design. */
+  .landing-marble::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(60% 50% at 70% 35%, rgba(255, 255, 255, 0.18), transparent 70%),
+      radial-gradient(50% 45% at 55% 90%, rgba(225, 228, 245, 0.3), transparent 70%);
+  }
+
+  /* The turning bouquet (BouquetVideo). Its frames are 1152x640 with the
+     bouquet's head centred at (553, 301), radius 298; at 0.70 scale that puts
+     the head where the design's bouquet sat, centred on (50% + 430px, 358px).
+     The frame is mostly transparent: every edge fades out before the border,
+     so the petals dissolve into the page instead of meeting a box. */
+  .landing-bouquet {
+    position: absolute;
+    left: calc(50% + 42px);
+    top: 147px;
+    width: 806px;
+    aspect-ratio: 1152 / 640;
+    filter: drop-shadow(16px 26px 24px rgba(30, 40, 70, 0.2));
+  }
+  .landing-bouquet-layer {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.25s linear;
+  }
+  .landing-fern-near {
+    position: absolute;
+    right: -150px;
+    bottom: -110px;
+    width: 700px;
+    transform: rotate(-8deg);
+    filter: blur(4.5px) saturate(0.85) brightness(0.66);
+    opacity: 1;
+  }
+  .landing-fern-far {
+    position: absolute;
+    right: -170px;
+    bottom: 250px;
+    width: 400px;
+    transform: rotate(-40deg) scaleX(-1);
+    filter: blur(9px) brightness(0.72);
+    opacity: 0.6;
+  }
+  .landing-petal {
+    position: absolute;
+    border-radius: 60% 40% 60% 40% / 60% 60% 40% 40%;
+    background: radial-gradient(circle at 35% 35%, #fff 0%, #f4f1ea 60%, #e2ded3 100%);
+    box-shadow: 2px 3px 5px rgba(40, 40, 70, 0.18);
+  }
+
+  /* Navy pill with a polished gold rim. The rim is a gradient painted on the
+     border box under a navy padding box, so it catches light top-left and
+     falls off bottom-right the way metal does — a flat border reads as paint. */
+  .lux-navy {
+    display: inline-flex;
+    align-items: center;
+    height: 46px;
+    border: 2px solid transparent;
+    border-radius: 9999px;
+    white-space: nowrap;
+    font-size: 12.5px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #f1d8a4;
+    background:
+      radial-gradient(120% 140% at 50% 0%, #141a5c 0%, #080a3f 60%) padding-box,
+      linear-gradient(160deg, #f3dcaa 0%, #b88d4f 32%, #e6c88f 58%, #8f6a3a 100%) border-box;
+    box-shadow:
+      inset 0 0 0 1px rgba(0, 0, 0, 0.55),
+      inset 0 1px 0 rgba(255, 255, 255, 0.08),
+      0 10px 22px rgba(8, 10, 63, 0.28),
+      0 3px 6px rgba(8, 10, 63, 0.18);
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+  .lux-navy:hover {
+    transform: translateY(-2px);
+    box-shadow:
+      inset 0 0 0 1px rgba(0, 0, 0, 0.55),
+      inset 0 1px 0 rgba(255, 255, 255, 0.08),
+      0 14px 28px rgba(8, 10, 63, 0.32),
+      0 4px 8px rgba(8, 10, 63, 0.2);
+  }
+  .lux-navy:focus-visible,
+  .lux-cream:focus-visible {
+    outline: 2px solid #5b78f6;
+    outline-offset: 3px;
+  }
+
+  /* Ivory twin of the navy pill, same gold rim. */
+  .lux-cream {
+    border: 2px solid transparent;
+    background:
+      linear-gradient(180deg, #fbf6ee 0%, #f3eadc 100%) padding-box,
+      linear-gradient(160deg, #f0d9a8 0%, #c29a5e 35%, #e9d09c 60%, #a37b44 100%) border-box;
+    box-shadow:
+      inset 0 0 0 1px rgba(255, 255, 255, 0.75),
+      0 10px 22px rgba(154, 106, 44, 0.16),
+      0 3px 6px rgba(154, 106, 44, 0.1);
+  }
+}
+
+/* Respect users who prefer reduced motion — neutralize CSS animations. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

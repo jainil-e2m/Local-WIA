@@ -1,0 +1,1773 @@
+{
+ "pack_id": "pack_86676107663f5a8e70c990ec",
+ "contract_version": "content_pack_v2",
+ "title": "What goes into our post-tour follow-up",
+ "week_id": "week_2026-06-10",
+ "source_brief_id": "brief_8412a1852eaf482dbf4217a6983d5c96",
+ "source_brief_hash": "30b5592e76cfba9bc7ac0eacdb99088ca99b332c9bdf17e23890bc450532a888",
+ "angle_id": "angle_12a3131518bd475997b0d47f548fa2f5",
+ "pillar": "CONVERT",
+ "rank": 2,
+ "state": "in_review",
+ "state_reason": null,
+ "approval_status": "pending",
+ "manifest_hash": "86dafe70c793fbed1f9109c784ef24e6b1eac39b79b69db4c5c3d515a87e3cd7",
+ "approved_by": null,
+ "approved_at": null,
+ "created_at": "2026-10-27T03:19:24.024512+00:00",
+ "supersedes_id": "pack_bb7e06f1539a45c9925bacfabb7fa1fb",
+ "run_id": "pack_run_86676107663f5a8e70c990ec",
+ "run_active": false,
+ "pieces": [
+  {
+   "key": "email",
+   "channel": "email",
+   "label": "Email",
+   "kind": null,
+   "ordinal": 1,
+   "origin": "finished",
+   "not_written_reason": null,
+   "brief_key": "email",
+   "content": {
+    "cta": "reply",
+    "job": "Standalone list email. Tell the full exchange from more tours and unanswered follow-up to the client's within-a-week practice and prospective texts. Connect the point to the complete LeadLock system with one reply invitation.",
+    "body": "She told me she pays attention to whether her venue is the first stop on a couple's tour list or the last one.\n\nWhen she knows it's the last, she reaches out within a week. She asks them, politely but directly, whether they've picked their venue or are still deciding. It's a question that fits a couple who has finished looking.\n\nA couple fresh off their first tour is in a different place. They're still comparing, and they may not be ready to answer that.\n\n**Knowing a couple toured your venue isn't the same as knowing they're ready to decide.**\n\nShe already had automated follow-up emails in place, and she was reaching out personally on top of them. She raised the idea of adding texts after the tour, and I agreed we could incorporate them.\n\nThat conversation is a good picture of how we think about follow-up. You're already generating inquiries, hosting tours and talking with couples yourself. The support around that work should build on what you learn during the visit, so a couple who's still comparing and a couple who's ready to decide each hear something that fits where they are.\n\nLeadLock is the platform where we build your email and text follow-up. Inside it, we set up The Foolproof Follow-Up Advantage, the email-and-text system that carries your own conversations forward between visits. You run the platform, and the personal contact couples get from you stays yours.",
+    "ending": "If you'd like follow-up support shaped around what you learn on your tours, simply reply to this email and let's talk about your business.\n\nTalk soon,\nWhitney",
+    "opening": "Hi {{contact.first_name}},\n\nOn a recent call, one of our venue clients and I were talking about her follow-up after a tour.\n\nSo I asked her what couples were ready to do when they walked out. Did they still have other venues to see, or were they ready to move forward?",
+    "preview": "A couple still comparing venues needs a different next message than one who's done touring.",
+    "register": "written",
+    "send_header": {
+     "date": "Next available Tuesday, exact date for WIA to confirm",
+     "send_time": "10:00 a.m. Central, proposed for WIA to confirm",
+     "recipients": "Proposed segment: venue-owner leads on the WIA list who have not purchased LeadLock; confirm segment availability and exclusions"
+    },
+    "subject_options": [
+     "What is a couple ready to do after your venue tour?",
+     "When to ask a couple if they've chosen your venue",
+     "The question I asked a venue client about her tours"
+    ],
+    "offer_descriptor": "the platform where we build your email and text follow-up"
+   },
+   "brief_copy": {
+    "cta": "reply",
+    "job": "Standalone list email. Tell the full exchange from more tours and unanswered follow-up to the client's within-a-week practice and prospective texts. Connect the point to the complete LeadLock system with one reply invitation.",
+    "body": "She explained that she gauges whether her venue is the couple's first tour or their last.\n\nWhen she knows it's their last, she asks directly and politely, within a week, whether they've chosen a venue or are still undecided. That helps her know how to proceed.\n\nA couple on their first tour is still comparing venues. They may have enjoyed the visit without being ready to answer that same question.\n\n**A completed venue tour doesn't tell us which conversation the couple is ready to have next.**\n\nShe already had automated follow-up emails in place and was also reaching out personally. She raised adding texts after the tour, and I agreed that we could incorporate them.\n\nIf you're generating inquiries and hosting tours, follow-up support should build on that work. What you learn during a visit can tell us more than the fact that the couple came through your doors.\n\nLeadLock, the platform where we build your email and text follow-up, supports your contact with couples. The Foolproof Follow-Up Advantage is the system we build in it, from inquiry nurture and consultation scheduling to reminders and follow-up before and after the consultation.\n\nYou run the platform and continue your own conversations. We want the email-and-text support around those conversations to reflect where the couple is in their venue search, rather than treat every tour as a sign that they're ready to book.",
+    "ending": "If you'd like support with the follow-up around your venue's inquiries and tours, simply reply to this email and let's talk about your business.\n\nTalk soon,\nWhitney",
+    "opening": "Hi {{contact.first_name}},\n\nA venue client was booking more tours, and more couples were also going quiet afterwards.\n\nI asked what couples were ready to do when they left. Did they have other venues to visit, or were they ready to move forward?",
+    "preview": "Some couples have finished touring. Others still have venues to see, and the next conversation can differ.",
+    "register": "written",
+    "send_header": {
+     "date": "Next available Tuesday, exact date for WIA to confirm",
+     "send_time": "10:00 a.m. Central, proposed for WIA to confirm",
+     "recipients": "Proposed segment: venue-owner leads on the WIA list who have not purchased LeadLock; confirm segment availability and exclusions"
+    },
+    "subject_options": [
+     "A venue tour doesn't mean a couple is ready to book",
+     "How close are your toured couples to choosing?",
+     "Post-tour follow-up needs more than a completed visit"
+    ],
+    "offer_descriptor": "the platform where we build your email and text follow-up"
+   },
+   "locks": [],
+   "findings": [],
+   "changes": [
+    {
+     "kind": "finished",
+     "path": "body",
+     "after": "She told me she pays attention to whether her venue is the first stop on a couple's tour list or the last one.\n\nWhen she knows it's the last, she reaches out within a week. She asks them, politely but directly, whether they've picked their venue or are still deciding. It's a question that fits a couple who has finished looking.\n\nA couple fresh off their first tour is in a different place. They're still comparing, and they may not be ready to answer that.\n\n**Knowing a couple toured your venue isn't the same as knowing they're ready to decide.**\n\nShe already had automated follow-up emails in place, and she was reaching out personally on top of them. She raised the idea of adding texts after the tour, and I agreed we could incorporate them.\n\nThat conversation is a good picture of how we think about follow-up. You're already generating inquiries, hosting tours and talking with couples yourself. The support around that work should build on what you learn during the visit, so a couple who's still comparing and a couple who's ready to decide each hear something that fits where they are.\n\nLeadLock is the platform where we build your email and text follow-up. Inside it, we set up The Foolproof Follow-Up Advantage, the email-and-text system that carries your own conversations forward between visits. You run the platform, and the personal contact couples get from you stays yours.",
+     "before": "She explained that she gauges whether her venue is the couple's first tour or their last.\n\nWhen she knows it's their last, she asks directly and politely, within a week, whether they've chosen a venue or are still undecided. That helps her know how to proceed.\n\nA couple on their first tour is still comparing venues. They may have enjoyed the visit without being ready to answer that same question.\n\n**A completed venue tour doesn't tell us which conversation the couple is ready to have next.**\n\nShe already had automated follow-up emails in place and was also reaching out personally. She raised adding texts after the tour, and I agreed that we could incorporate them.\n\nIf you're generating inquiries and hosting tours, follow-up support should build on that work. What you learn during a visit can tell us more than the fact that the couple came through your doors.\n\nLeadLock, the platform where we build your email and text follow-up, supports your contact with couples. The Foolproof Follow-Up Advantage is the system we build in it, from inquiry nurture and consultation scheduling to reminders and follow-up before and after the consultation.\n\nYou run the platform and continue your own conversations. We want the email-and-text support around those conversations to reflect where the couple is in their venue search, rather than treat every tour as a sign that they're ready to book."
+    },
+    {
+     "kind": "finished",
+     "path": "ending",
+     "after": "If you'd like follow-up support shaped around what you learn on your tours, simply reply to this email and let's talk about your business.\n\nTalk soon,\nWhitney",
+     "before": "If you'd like support with the follow-up around your venue's inquiries and tours, simply reply to this email and let's talk about your business.\n\nTalk soon,\nWhitney"
+    },
+    {
+     "kind": "finished",
+     "path": "opening",
+     "after": "Hi {{contact.first_name}},\n\nOn a recent call, one of our venue clients and I were talking about the couples who don't reply after a tour.\n\nSo I asked her what couples were ready to do when they walked out. Did they still have other venues to see, or were they ready to move forward?",
+     "before": "Hi {{contact.first_name}},\n\nA venue client was booking more tours, and more couples were also going quiet afterwards.\n\nI asked what couples were ready to do when they left. Did they have other venues to visit, or were they ready to move forward?"
+    },
+    {
+     "kind": "finished",
+     "path": "preview",
+     "after": "A couple still comparing venues needs a different next message than one who's done touring.",
+     "before": "Some couples have finished touring. Others still have venues to see, and the next conversation can differ."
+    },
+    {
+     "kind": "finished",
+     "path": "subject_options[0]",
+     "after": "What is a couple ready to do after your venue tour?",
+     "before": "A venue tour doesn't mean a couple is ready to book"
+    },
+    {
+     "kind": "finished",
+     "path": "subject_options[1]",
+     "after": "When to ask a couple if they've chosen your venue",
+     "before": "How close are your toured couples to choosing?"
+    },
+    {
+     "kind": "finished",
+     "path": "subject_options[2]",
+     "after": "The question I asked a venue client about her tours",
+     "before": "Post-tour follow-up needs more than a completed visit"
+    },
+    {
+     "kind": "repaired",
+     "path": "opening",
+     "after": "Hi {{contact.first_name}},\n\nOn a recent call, one of our venue clients and I were talking about her follow-up after a tour.\n\nSo I asked her what couples were ready to do when they walked out. Did they still have other venues to see, or were they ready to move forward?",
+     "before": "Hi {{contact.first_name}},\n\nOn a recent call, one of our venue clients and I were talking about the couples who don't reply after a tour.\n\nSo I asked her what couples were ready to do when they walked out. Did they still have other venues to see, or were they ready to move forward?"
+    }
+   ],
+   "published": [],
+   "content_hash": "2d3d4741e2e831580ebcaf35e707b0626ae2ce75838b46587ead9b0f3090ab65",
+   "editable": [
+    "send_header",
+    "subject_options",
+    "preview",
+    "opening",
+    "body",
+    "ending"
+   ]
+  },
+  {
+   "key": "carousel",
+   "channel": "carousel",
+   "label": "Carousel",
+   "kind": null,
+   "ordinal": 2,
+   "origin": "finished",
+   "not_written_reason": null,
+   "brief_key": "carousel",
+   "content": {
+    "cta": "offer",
+    "job": "Seven-slide written story. Move from more tours and unanswered follow-up through Whitney's question, the client's concrete practice and the proposed texts. Connect the same point to the full LeadLock system. The caption carries the only Instagram offer CTA.",
+    "title": "What a completed venue tour doesn't tell you",
+    "slides": [
+     {
+      "job": "Lead with the stake and carry the promise that follow-up should reflect the couple's place in the venue search.",
+      "text": "A completed venue tour doesn't tell you how close a couple is to choosing.\n\nIt only tells you they came to see your space.\n\n**Your follow-up after the tour should reflect where they are in their venue search.**",
+      "number": 1
+     },
+     {
+      "job": "Begin the exchange with Whitney's question and the client's explanation.",
+      "text": "A venue client described more tour bookings and more couples going quiet afterwards.\n\nWe asked whether couples left with other venues to visit or were ready to move forward.\n\nThe client explained that she gauges whether her venue is the couple's first tour or their last.",
+      "number": 2
+     },
+     {
+      "job": "Show the concrete practice that makes the tour-order distinction useful.",
+      "text": "When she knows her venue was the last tour, she reaches out within a week.\n\nShe asks, directly and politely, whether they've made their choice yet.\n\nA couple on their first visit is still comparing, and that question can wait.",
+      "number": 3
+     },
+     {
+      "job": "Complete the exchange with the existing support and prospective text addition.",
+      "text": "She already had automated email follow-up and continued to reach out personally.\n\nShe raised adding texts after the tour. We agreed that those could be incorporated.",
+      "number": 4
+     },
+     {
+      "job": "State the WIA belief once and connect it to the reader's tour conversations.",
+      "text": "**We believe follow-up should start with what a couple is ready to do next.**\n\nOn a tour, you may learn that more visits are planned, or that yours was the last stop.\n\nThat's what we want the emails and texts around your conversations to reflect.",
+      "number": 5
+     },
+     {
+      "job": "Name the complete offer and preserve the distinction between platform, system and personal follow-up.",
+      "text": "LeadLock is our follow-up platform.\n\nInside it, we build The Foolproof Follow-Up Advantage, the email-and-text follow-up system that supports the conversations you have with couples.\n\nYou run the platform. The personal contact stays with you.",
+      "number": 6
+     },
+     {
+      "job": "Include both advertising delivery preferences and bridge to the caption's invitation without adding a second offer ask.",
+      "text": "There are two ways to work with us on your ads.\n\nWe can manage them for you, or launch your campaigns and guide you while you run them.\n\nEither way, we can build the email-and-text support around your follow-up, shaped by what you learn on every tour.",
+      "number": 7
+     }
+    ],
+    "caption": {
+     "body": "You've shown them the space and listened to how they talk about their day. Along the way, you may learn whether more visits are planned or whether yours was the last stop. That's exactly what we want post-tour follow-up to use.\n\nOne of our venue clients puts this to work. We asked her what couples were ready to do as they left, and she explained that she notices whether her venue is an early stop or the final one. After a final tour, she checks in within a week and politely asks whether they've chosen. For a couple still at the beginning, that question would come too soon.\n\nShe was already using automated emails along with her own personal outreach, and she raised adding post-tour texts, which we agreed could be included.\n\nLeadLock, our follow-up platform, holds The Foolproof Follow-Up Advantage, the email-and-text system WIA builds for you there so couples keep hearing from you between the visit and their decision. You stay in charge of the platform and the personal contact, and the messages are shaped by what you learn when couples visit.",
+     "hook": "You know things about a couple after a tour that no inquiry form could tell you.",
+     "ending": "If you want follow-up shaped by what happens on your tours, DM us \"ADS\" and let's talk about LeadLock and The Foolproof Follow-Up Advantage."
+    },
+    "register": "written",
+    "no_offer_ending": "If this is how you'd like post-tour follow-up to work, save this for when you're planning your next season of tours.",
+    "offer_descriptor": "our follow-up platform"
+   },
+   "brief_copy": {
+    "cta": "offer",
+    "job": "Seven-slide written story. Move from more tours and unanswered follow-up through Whitney's question, the client's concrete practice and the proposed texts. Connect the same point to the full LeadLock system. The caption carries the only Instagram offer CTA.",
+    "title": "More venue tours can come with more unanswered follow-up.",
+    "slides": [
+     {
+      "job": "Lead with the stake and carry the promise that follow-up should reflect the couple's place in the venue search.",
+      "text": "More venue tours can come with more unanswered follow-up.\n\nA couple who has just started comparing venues may need a different conversation from one who has finished touring.\n\nWe want your follow-up to reflect where they are in that search.",
+      "number": 1
+     },
+     {
+      "job": "Begin the exchange with Whitney's question and the client's explanation.",
+      "text": "A venue client described more tour bookings and more couples going quiet afterwards.\n\nWe asked whether couples left with other venues to visit or were ready to move forward.\n\nThe client explained that she gauges whether her venue is the couple's first tour or their last.",
+      "number": 2
+     },
+     {
+      "job": "Show the concrete practice that makes the tour-order distinction useful.",
+      "text": "When she knows her venue was the last tour, she follows up directly and politely within a week.\n\nShe asks whether the couple has chosen a venue or is still undecided, so she knows how to proceed.\n\nA couple on their first tour is still comparing venues. They aren't necessarily ready to answer that same question.",
+      "number": 3
+     },
+     {
+      "job": "Complete the exchange with the existing support and prospective text addition.",
+      "text": "She already had automated email follow-up and continued to reach out personally.\n\nShe raised adding texts after the tour. We agreed that those could be incorporated.",
+      "number": 4
+     },
+     {
+      "job": "State the WIA belief once and connect it to the reader's tour conversations.",
+      "text": "**We want to know what a couple is ready to do before we shape the follow-up.**\n\nYou may learn during the tour that they have other venues booked or that they've finished visiting their options.\n\nThat matters to the next conversation. Email and text can support your contact with the couple without assuming that every visit ends at the same point.",
+      "number": 5
+     },
+     {
+      "job": "Name the complete offer and preserve the distinction between platform, system and personal follow-up.",
+      "text": "LeadLock is our follow-up platform.\n\nThe Foolproof Follow-Up Advantage is the email-and-text system we build in it. It supports inquiry nurture, consultation scheduling and reminders, and follow-up before and after consultations.\n\nYou run the platform and continue speaking with couples. The support around a tour belongs within that broader system.",
+      "number": 6
+     },
+     {
+      "job": "Include both advertising delivery preferences and bridge to the caption's invitation without adding a second offer ask.",
+      "text": "Whether you want our team to manage your ads or launch them and guide you while you run them, we can also build the email-and-text support around your own follow-up.\n\nYou bring what you've learned from hosting the tour. We bring the support around the conversations still ahead.\n\nThat gives us more to work with than the fact that a couple visited your venue.",
+      "number": 7
+     }
+    ],
+    "caption": {
+     "body": "You already help couples experience your venue and picture their wedding there. When more tours also bring more unanswered messages, you want follow-up that builds on what happened during the visit.\n\nWe asked a venue client what couples were ready to do when they left. She explained that she distinguishes an early visit in their search from the final tour on their list.\n\nAfter a last tour, she politely asks within a week whether they've chosen a venue or are still undecided. A couple who has just started touring is still comparing options.\n\nShe had automated emails alongside personal follow-up and raised including post-tour texts. Whitney agreed that those could be incorporated.\n\nLeadLock, our follow-up platform, is where we build The Foolproof Follow-Up Advantage: the email-and-text system supporting inquiries, consultation scheduling, reminders and follow-up around those conversations.\n\nYou run the platform and continue speaking with couples. We want that support to reflect what you learn on the tour, rather than assume that visiting means they're ready to book.",
+     "hook": "The next conversation after a venue tour depends on what the couple still has to do.",
+     "ending": "DM us \"ADS\" and let's talk about follow-up support for your venue."
+    },
+    "register": "written",
+    "no_offer_ending": null,
+    "offer_descriptor": "our follow-up platform"
+   },
+   "locks": [
+    {
+     "at": "2026-10-25T16:59:34.150974+00:00",
+     "path": "slides[1].text",
+     "author": "kenil.shah@e2m.solutions",
+     "origin": "gate_two",
+     "delegated": true
+    },
+    {
+     "at": "2026-10-25T16:59:34.150974+00:00",
+     "path": "slides[3].text",
+     "author": "kenil.shah@e2m.solutions",
+     "origin": "gate_two",
+     "delegated": true
+    },
+    {
+     "at": "2026-10-25T17:07:51.335747+00:00",
+     "path": "slides[0].text",
+     "author": "ai@weddingindustryads.com",
+     "origin": "pack",
+     "delegated": true
+    },
+    {
+     "at": "2026-10-25T17:07:52.438852+00:00",
+     "path": "slides[2].text",
+     "author": "ai@weddingindustryads.com",
+     "origin": "pack",
+     "delegated": true
+    },
+    {
+     "at": "2026-10-25T17:07:53.646260+00:00",
+     "path": "slides[4].text",
+     "author": "ai@weddingindustryads.com",
+     "origin": "pack",
+     "delegated": true
+    }
+   ],
+   "findings": [
+    {
+     "finding_id": "edi_f4f96323495cac60c3b2",
+     "source": "editorial",
+     "piece": "carousel",
+     "path": "slides[1].text",
+     "sentence": "A venue client described more tour bookings and more couples going quiet afterwards.",
+     "severity": "warning",
+     "message": "Carousel: \"A venue client described more tour bookings and more couples going quiet afterwards.\" could suggest the ads brought poor leads (Same pairing of more tours with couples going quiet implies poor lead quality. (a line a person wrote: theirs to change))",
+     "status": "open",
+     "resolution": null,
+     "can_attest": true,
+     "verdict": "editorial",
+     "issue": "lead_quality"
+    },
+    {
+     "finding_id": "check_940dbc1a954aa498",
+     "source": "check",
+     "check": "copy.sibling_overlap",
+     "piece": "carousel",
+     "path": "caption.body",
+     "sentence": null,
+     "severity": "warning",
+     "message": "The carousel's caption body and the email's body repeat the same words (\"follow up advantage the email and text system...\"): siblings repeat the idea, never the language",
+     "status": "open",
+     "resolution": null,
+     "can_attest": false
+    },
+    {
+     "finding_id": "check_394455c08d346f24",
+     "source": "check",
+     "check": "consent.names",
+     "piece": "carousel",
+     "path": "caption.hook",
+     "sentence": null,
+     "severity": "blocking",
+     "message": "\"no inquiry\": the call does not establish zero",
+     "status": "open",
+     "resolution": null,
+     "can_attest": false
+    }
+   ],
+   "changes": [
+    {
+     "kind": "finished",
+     "path": "title",
+     "after": "What a completed venue tour doesn't tell you",
+     "before": "More venue tours can come with more unanswered follow-up."
+    },
+    {
+     "kind": "finished",
+     "path": "slides[0].text",
+     "after": "A completed venue tour doesn't tell you how close a couple is to choosing.\n\nIt only tells you they came to see your space.\n\n**Your follow-up after the tour should reflect where they are in their venue search.**",
+     "before": "More venue tours can come with more unanswered follow-up.\n\nA couple who has just started comparing venues may need a different conversation from one who has finished touring.\n\nWe want your follow-up to reflect where they are in that search."
+    },
+    {
+     "kind": "finished",
+     "path": "slides[2].text",
+     "after": "When she knows her venue was the last tour, she reaches out within a week.\n\nShe asks, directly and politely, whether they've made their choice yet.\n\nA couple on their first visit is still comparing, and that question can wait.",
+     "before": "When she knows her venue was the last tour, she follows up directly and politely within a week.\n\nShe asks whether the couple has chosen a venue or is still undecided, so she knows how to proceed.\n\nA couple on their first tour is still comparing venues. They aren't necessarily ready to answer that same question."
+    },
+    {
+     "kind": "finished",
+     "path": "slides[4].text",
+     "after": "**We believe follow-up should start with what a couple is ready to do next.**\n\nOn a tour, you may learn that more visits are planned, or that yours was the last stop.\n\nThat's what we want the emails and texts around your conversations to reflect.",
+     "before": "**We want to know what a couple is ready to do before we shape the follow-up.**\n\nYou may learn during the tour that they have other venues booked or that they've finished visiting their options.\n\nThat matters to the next conversation. Email and text can support your contact with the couple without assuming that every visit ends at the same point."
+    },
+    {
+     "kind": "finished",
+     "path": "slides[5].text",
+     "after": "LeadLock is our follow-up platform.\n\nInside it, we build The Foolproof Follow-Up Advantage, the email-and-text follow-up system that supports the conversations you have with couples.\n\nYou run the platform. The personal contact stays with you.",
+     "before": "LeadLock is our follow-up platform.\n\nThe Foolproof Follow-Up Advantage is the email-and-text system we build in it. It supports inquiry nurture, consultation scheduling and reminders, and follow-up before and after consultations.\n\nYou run the platform and continue speaking with couples. The support around a tour belongs within that broader system."
+    },
+    {
+     "kind": "finished",
+     "path": "slides[6].text",
+     "after": "There are two ways to work with us on your ads.\n\nWe can manage them for you, or launch your campaigns and guide you while you run them.\n\nEither way, we can build the email-and-text support around your follow-up, shaped by what you learn on every tour.",
+     "before": "Whether you want our team to manage your ads or launch them and guide you while you run them, we can also build the email-and-text support around your own follow-up.\n\nYou bring what you've learned from hosting the tour. We bring the support around the conversations still ahead.\n\nThat gives us more to work with than the fact that a couple visited your venue."
+    },
+    {
+     "kind": "finished",
+     "path": "caption.hook",
+     "after": "You know things about a couple after a tour that no inquiry form could tell you.",
+     "before": "The next conversation after a venue tour depends on what the couple still has to do."
+    },
+    {
+     "kind": "finished",
+     "path": "caption.body",
+     "after": "You've shown them the space and listened to how they talk about their day. Along the way, you often learn whether they're still early in the search or close to deciding. That's exactly what we want post-tour follow-up to use.\n\nOne of our venue clients puts this to work. We asked her what couples were ready to do as they left, and she explained that she notices whether her venue is an early stop or the final one. After a final tour, she checks in within a week and politely asks whether they've chosen. For a couple still at the beginning, that question would come too soon.\n\nShe was already using automated emails along with her own personal outreach, and she raised adding post-tour texts, which we agreed could be included.\n\nLeadLock, our follow-up platform, holds The Foolproof Follow-Up Advantage, the email-and-text system WIA builds for you there so couples keep hearing from you between the visit and their decision. You stay in charge of the platform and the personal contact, and the messages are shaped by what you learn when couples visit.",
+     "before": "You already help couples experience your venue and picture their wedding there. When more tours also bring more unanswered messages, you want follow-up that builds on what happened during the visit.\n\nWe asked a venue client what couples were ready to do when they left. She explained that she distinguishes an early visit in their search from the final tour on their list.\n\nAfter a last tour, she politely asks within a week whether they've chosen a venue or are still undecided. A couple who has just started touring is still comparing options.\n\nShe had automated emails alongside personal follow-up and raised including post-tour texts. Whitney agreed that those could be incorporated.\n\nLeadLock, our follow-up platform, is where we build The Foolproof Follow-Up Advantage: the email-and-text system supporting inquiries, consultation scheduling, reminders and follow-up around those conversations.\n\nYou run the platform and continue speaking with couples. We want that support to reflect what you learn on the tour, rather than assume that visiting means they're ready to book."
+    },
+    {
+     "kind": "finished",
+     "path": "caption.ending",
+     "after": "If you want follow-up shaped by what happens on your tours, DM us \"ADS\" and let's talk about LeadLock and The Foolproof Follow-Up Advantage.",
+     "before": "DM us \"ADS\" and let's talk about follow-up support for your venue."
+    },
+    {
+     "kind": "finished",
+     "path": "no_offer_ending",
+     "after": "If this is how you'd like post-tour follow-up to work, save this for when you're planning your next season of tours.",
+     "before": null
+    },
+    {
+     "kind": "repaired",
+     "path": "caption.body",
+     "after": "You've shown them the space and listened to how they talk about their day. Along the way, you may learn whether more visits are planned or whether yours was the last stop. That's exactly what we want post-tour follow-up to use.\n\nOne of our venue clients puts this to work. We asked her what couples were ready to do as they left, and she explained that she notices whether her venue is an early stop or the final one. After a final tour, she checks in within a week and politely asks whether they've chosen. For a couple still at the beginning, that question would come too soon.\n\nShe was already using automated emails along with her own personal outreach, and she raised adding post-tour texts, which we agreed could be included.\n\nLeadLock, our follow-up platform, holds The Foolproof Follow-Up Advantage, the email-and-text system WIA builds for you there so couples keep hearing from you between the visit and their decision. You stay in charge of the platform and the personal contact, and the messages are shaped by what you learn when couples visit.",
+     "before": "You've shown them the space and listened to how they talk about their day. Along the way, you often learn whether they're still early in the search or close to deciding. That's exactly what we want post-tour follow-up to use.\n\nOne of our venue clients puts this to work. We asked her what couples were ready to do as they left, and she explained that she notices whether her venue is an early stop or the final one. After a final tour, she checks in within a week and politely asks whether they've chosen. For a couple still at the beginning, that question would come too soon.\n\nShe was already using automated emails along with her own personal outreach, and she raised adding post-tour texts, which we agreed could be included.\n\nLeadLock, our follow-up platform, holds The Foolproof Follow-Up Advantage, the email-and-text system WIA builds for you there so couples keep hearing from you between the visit and their decision. You stay in charge of the platform and the personal contact, and the messages are shaped by what you learn when couples visit."
+    }
+   ],
+   "published": [],
+   "content_hash": "5cc39c48a3effc2cc5c75f19e487691d9de6d7047adc30568bf8e6ac826dc39c",
+   "editable": [
+    "title",
+    "slides",
+    "caption",
+    "no_offer_ending"
+   ]
+  },
+  {
+   "key": "reel_1",
+   "channel": "reel",
+   "label": "Reel 1",
+   "kind": "central",
+   "ordinal": 3,
+   "origin": "finished",
+   "not_written_reason": null,
+   "brief_key": "reel_1",
+   "content": {
+    "cta": "none",
+    "job": "Shows a venue owner, through one client conversation, why follow-up after a tour should start with where the couple is in their decision.",
+    "kind": "central",
+    "beats": [
+     "A venue client is booking more tours, and more couples are going quiet afterwards.",
+     "Whitney asks whether couples leave with other venues to see or ready to move forward.",
+     "The client explains she gauges first versus last tour, and after a last tour politely asks within a week whether they've chosen.",
+     "Whitney's one-line reaction; a first-tour couple is still comparing.",
+     "The client already has automated emails plus personal follow-up and raises post-tour texts; Whitney agrees they could be worked in.",
+     "Close on shaping follow-up around what the couple is ready to do next."
+    ],
+    "title": "First tour or last tour",
+    "script": "I had a call with one of our venue clients recently, and she was booking more tours, but more of those couples were going quiet afterwards.\n\nSo I asked her a question. When couples leave a tour, do they still have other venues to see, or are they ready to move forward?\n\nAnd she explained that she gauges one thing: is her venue their first tour, or their last?\n\nWhen she knows it's their last, she reaches out within a week and asks, really politely, if they've made their choice or they're still undecided.\n\nI thought that was such a smart distinction.\n\nBecause a couple who's just started touring is still comparing, right? They're not necessarily ready for that question yet.\n\nNow, she already had automated emails going out, and she was following up personally on top of that. She'd been thinking about texting couples after the tour, too, and I told her we could add that.\n\nSo when we shape follow-up after a tour, the fact that a couple visited is only part of the picture. We want to know what they're ready to do next, so every email and text supports the conversation you're already having with them.",
+    "source": "new_script",
+    "caption": {
+     "body": "One still has other venues on the list. The other may have just finished looking. From your inbox, the days after can look exactly alike, and it's hard to know which message each of them needs.\n\nI asked one of our venue clients about this on a recent call: when couples leave, are they still exploring or close to deciding? She told me she pays close attention to where her venue lands in their search.\n\nIf she knows it's the final visit, she gets in touch within a week and asks, kindly and plainly, whether they've decided or are still weighing options. A couple at the start of their search may not be ready for that.\n\nShe already sent automated emails and reached out to couples herself, and she brought up adding texts after tours. I told her we could incorporate them.\n\nThat's the information we want shaping follow-up: what the couple was ready to do when the tour ended, more than the fact that a tour happened. Then each message fits the stage they've reached, and your own conversations with couples stay at the center.",
+     "hook": "Two couples can walk out of the same venue tour at very different points in their search.",
+     "ending": "-Whitney"
+    },
+    "premise": "A venue client's habit of noticing whether her venue was a couple's first tour or their last shows why we ask what a couple is ready to do next before we shape post-tour follow-up.",
+    "screens": null,
+    "register": "spoken",
+    "takeaway": "A couple who toured my venue hasn't necessarily decided anything yet, so my follow-up should fit how far along their search really is.",
+    "cover_text": "The question I ask about couples after a venue tour",
+    "production": "face_to_camera",
+    "timestamps": [
+     "4:43 to 5:25: the client describes more tour bookings and more couples not responding; Whitney treats follow-through as something to refine.",
+     "35:23 to 36:07: Whitney asks whether couples leave tours still exploring or ready to move forward, and the client explains she gauges whether her venue is the couple's first tour or their last.",
+     "36:09 to 36:29: the client describes automated emails plus personal follow-up and raises post-tour texts; Whitney says they can be incorporated.",
+     "36:30 to 37:05: after a last tour, the client politely asks within a week whether the couple has chosen a venue or is still undecided."
+    ],
+    "on_screen_hook": "First venue tour or last? One venue client's answer shapes how she follows up.",
+    "personal_lines": [
+     "I thought that was such a smart distinction."
+    ],
+    "spoken_opening": "I had a call with one of our venue clients recently, and she was booking more tours, but more of those couples were going quiet afterwards.",
+    "no_offer_ending": null,
+    "cover_alternates": [
+     "One venue client's rule for post-tour follow-up",
+     "Where couples are when they leave your venue"
+    ],
+    "distinct_because": "It is the only Reel built on the client exchange itself: Whitney's question, the first-versus-last-tour distinction, the within-a-week ask and the proposed post-tour texts.",
+    "offer_descriptor": null,
+    "read_time_seconds": 80
+   },
+   "brief_copy": {
+    "cta": "none",
+    "job": "Face-to-camera story. Open on more tours and more unanswered follow-up, then tell Whitney's question, the client's tour-order distinction and her concrete practice. Keep the text addition prospective. No offer CTA.",
+    "kind": "central",
+    "beats": [
+     "The venue client describes more tours and more couples going quiet.",
+     "Whitney asks what couples are ready to do when they leave.",
+     "The client explains how she gauges first versus last tours and politely follows up within a week after a last tour.",
+     "The client raises post-tour texts alongside existing emails and personal follow-up; Whitney agrees they could be incorporated.",
+     "Close on shaping support around the conversation the couple is ready to have."
+    ],
+    "title": "More venue tours, more couples going quiet",
+    "script": "A venue client was booking more tours, and she was also hearing back from fewer of the couples she'd followed up with.\n\nSo I asked what couples were ready to do when they left. Did they still have other venues to see, or were they ready to move forward?\n\nShe explained that she gauges whether her venue is their first tour or their last.\n\nAnd when she knows it's their last, she follows up directly, within a week. Very politely, she asks whether they've chosen a venue or they're still undecided.\n\nA couple who's just started touring is still comparing venues. They're not necessarily ready for that same question.\n\nShe already had automated emails, and she was following up personally, too. She brought up adding texts after the tour, and I agreed that we could incorporate them.\n\nWhen we're thinking about the follow-up, we need more than the fact that a couple visited. We want to know what they're ready to do, so the messages can support the conversation you're having with them.",
+    "source": "new_script",
+    "caption": {
+     "body": "You already put care into helping couples picture their wedding at your venue. After the visit, you want to keep that conversation moving without assuming everyone has finished looking.\n\nA venue client described more tour bookings alongside more couples who weren't responding. I asked whether they left with other venues to visit or were ready to move forward.\n\nShe explained that she gauges where her venue falls in their tour list. If it's their final visit, she politely asks within a week whether they've chosen a venue or are still undecided. Someone at the beginning of that list is still comparing options.\n\nShe had automated emails and was also reaching out personally. When she raised including post-tour texts, I agreed that we could incorporate them.\n\nYour conversations on the tour can tell us what the next message needs to make room for, while email and text support the contact you continue to have with the couple.",
+     "hook": "More couples touring your venue doesn't tell you which ones are ready to choose.",
+     "ending": "-Whitney"
+    },
+    "screens": null,
+    "register": "spoken",
+    "cover_text": "More venue tours, more couples going quiet.",
+    "production": "face_to_camera",
+    "on_screen_hook": "This venue was booking more tours. More couples were going quiet afterwards.",
+    "personal_lines": [],
+    "spoken_opening": "A venue client was booking more tours, and she was also hearing back from fewer of the couples she'd followed up with.",
+    "no_offer_ending": null,
+    "cover_alternates": [],
+    "offer_descriptor": null,
+    "read_time_seconds": 83
+   },
+   "locks": [
+    {
+     "at": "2026-10-25T17:07:54.839834+00:00",
+     "path": "script",
+     "author": "ai@weddingindustryads.com",
+     "origin": "pack",
+     "delegated": true
+    }
+   ],
+   "findings": [
+    {
+     "finding_id": "edi_cba595ad93e95e035c62",
+     "source": "editorial",
+     "piece": "reel_1",
+     "path": "script",
+     "sentence": "I had a call with one of our venue clients recently, and she was booking more tours, but more of those couples were going quiet afterwards.",
+     "severity": "warning",
+     "message": "Reel 1: \"I had a call with one of our venue clients recently, and she was booking more tours, but more of those couples were g...\" could suggest the ads brought poor leads (Opening pairs more tours with couples going quiet, so a reader may infer WIA's ads brought poor leads. (a line a person wrote: theirs to change))",
+     "status": "open",
+     "resolution": null,
+     "can_attest": true,
+     "verdict": "editorial",
+     "issue": "lead_quality"
+    }
+   ],
+   "changes": [
+    {
+     "kind": "finished",
+     "path": "script",
+     "after": "I had a call with one of our venue clients recently, and she was booking more tours, but more of those couples were going quiet afterwards.\n\nSo I asked her a question. When couples leave a tour, do they still have other venues to see, or are they ready to move forward?\n\nAnd she explained that she gauges one thing: is her venue their first tour, or their last?\n\nWhen she knows it's their last, she reaches out within a week and asks, really politely, if they've made their choice or they're still undecided.\n\nI thought that was such a smart distinction.\n\nBecause a couple who's just started touring is still comparing, right? They're not necessarily ready for that question yet.\n\nNow, she already had automated emails going out, and she was following up personally on top of that. She'd been thinking about texting couples after the tour, too, and I told her we could add that.\n\nSo when we shape follow-up after a tour, the fact that a couple visited is only part of the picture. We want to know what they're ready to do next, so every email and text supports the conversation you're already having with them.",
+     "before": "A venue client was booking more tours, and she was also hearing back from fewer of the couples she'd followed up with.\n\nSo I asked what couples were ready to do when they left. Did they still have other venues to see, or were they ready to move forward?\n\nShe explained that she gauges whether her venue is their first tour or their last.\n\nAnd when she knows it's their last, she follows up directly, within a week. Very politely, she asks whether they've chosen a venue or they're still undecided.\n\nA couple who's just started touring is still comparing venues. They're not necessarily ready for that same question.\n\nShe already had automated emails, and she was following up personally, too. She brought up adding texts after the tour, and I agreed that we could incorporate them.\n\nWhen we're thinking about the follow-up, we need more than the fact that a couple visited. We want to know what they're ready to do, so the messages can support the conversation you're having with them."
+    },
+    {
+     "kind": "finished",
+     "path": "caption.hook",
+     "after": "Two couples can walk out of the same venue tour at very different points in their search.",
+     "before": "More couples touring your venue doesn't tell you which ones are ready to choose."
+    },
+    {
+     "kind": "finished",
+     "path": "caption.body",
+     "after": "One still has other venues on the list. The other may have just finished looking. From your inbox, the days after can look exactly alike, and it's hard to know which message each of them needs.\n\nI asked one of our venue clients about this on a recent call: when couples leave, are they still exploring or close to deciding? She told me she pays close attention to where her venue lands in their search.\n\nIf she knows it's the final visit, she gets in touch within a week and asks, kindly and plainly, whether they've decided or are still weighing options. A couple at the start of their search may not be ready for that.\n\nShe already sent automated emails and reached out to couples herself, and she brought up adding texts after tours. I told her we could incorporate them.\n\nThat's the information we want shaping follow-up: what the couple was ready to do when the tour ended, more than the fact that a tour happened. Then each message fits the stage they've reached, and your own conversations with couples stay at the center.",
+     "before": "You already put care into helping couples picture their wedding at your venue. After the visit, you want to keep that conversation moving without assuming everyone has finished looking.\n\nA venue client described more tour bookings alongside more couples who weren't responding. I asked whether they left with other venues to visit or were ready to move forward.\n\nShe explained that she gauges where her venue falls in their tour list. If it's their final visit, she politely asks within a week whether they've chosen a venue or are still undecided. Someone at the beginning of that list is still comparing options.\n\nShe had automated emails and was also reaching out personally. When she raised including post-tour texts, I agreed that we could incorporate them.\n\nYour conversations on the tour can tell us what the next message needs to make room for, while email and text support the contact you continue to have with the couple."
+    },
+    {
+     "kind": "finished",
+     "path": "cover_text",
+     "after": "The question I ask about couples after a venue tour",
+     "before": "More venue tours, more couples going quiet."
+    },
+    {
+     "kind": "finished",
+     "path": "on_screen_hook",
+     "after": "First venue tour or last? One venue client's answer shapes how she follows up.",
+     "before": "This venue was booking more tours. More couples were going quiet afterwards."
+    },
+    {
+     "kind": "finished",
+     "path": "spoken_opening",
+     "after": "I had a call with one of our venue clients recently, and she was booking more tours, but more of those couples were going quiet afterwards.",
+     "before": "A venue client was booking more tours, and she was also hearing back from fewer of the couples she'd followed up with."
+    },
+    {
+     "kind": "finished",
+     "path": "cover_alternates[0]",
+     "after": "One venue client's rule for post-tour follow-up",
+     "before": null
+    },
+    {
+     "kind": "finished",
+     "path": "cover_alternates[1]",
+     "after": "Where couples are when they leave your venue",
+     "before": null
+    }
+   ],
+   "published": [],
+   "content_hash": "fb3cd57ed54a63a3cba38ed15bb545124f783e157ef3b0df4df1135e82b3139a",
+   "editable": [
+    "title",
+    "cover_text",
+    "cover_alternates",
+    "on_screen_hook",
+    "spoken_opening",
+    "script",
+    "screens",
+    "caption",
+    "personal_lines",
+    "no_offer_ending"
+   ]
+  },
+  {
+   "key": "reel_2",
+   "channel": "reel",
+   "label": "Reel 2",
+   "kind": "second",
+   "ordinal": 4,
+   "origin": "written",
+   "not_written_reason": null,
+   "brief_key": null,
+   "content": {
+    "cta": "none",
+    "job": "Shows a venue owner how we read one ad channel's lead count against what happened after the inquiry before deciding what a dip means.",
+    "kind": "second",
+    "beats": [
+     "Open on the tension: Google Ads leads dipped in August while tours stayed steady.",
+     "The client asks what WIA is seeing for leads from Facebook versus Google.",
+     "Meta brought far more August leads; Google dipped and WIA is digging into it.",
+     "Whitney explains, hedged, that Google ads or organic search may work together with Meta retargeting.",
+     "Tour volume held steady month over month; in theory more leads turned into tours; bookings looked up July to August.",
+     "Close on looking at tours and bookings before deciding what a dip means."
+    ],
+    "title": "Reading a Google dip against steady tours",
+    "script": "One of our venue clients saw her Google Ads leads dip from July to August. Over those same months, her tour numbers stayed about the same. So which number tells you more?\n\nShe asked me on a recent call what we were seeing for leads from Facebook versus Google. And on lead count alone, Meta brought in way more in August. Meta held steady, Google took a dip, and we're digging into that.\n\nBut the lead count is only one piece. Somebody might see her Google ad, or find her through organic search, and then get retargeted with a Meta ad. Those could all be working together, right?\n\nAnd when I looked past the leads, her tour volume had stayed pretty steady month over month. So in theory, more of those leads were turning into tours. It also looked like bookings were up from July to August.\n\nThat's why I don't want to judge a channel by its lead count by itself. So before deciding what her dip meant, I looked at what happened after her inquiries came in: the tours, the bookings, and how the two channels might be working together.\n\nSo we're still looking into the Google side, just with her tours and bookings in front of us too.",
+    "source": "new_script",
+    "caption": {
+     "body": "You open the report, see fewer leads from Google than the month before, and start wondering whether the budget is in the right place.\n\nA venue client asked us something similar recently: which channel was bringing in more leads, Facebook or Google? In August, Meta had brought in far more, and Google's count had slipped from July. We're looking into why.\n\nHer tours, though, held steady month over month, and it looked like bookings were up as well. Her two channels might not have been working separately, either. One might find her on Google, from an ad or an ordinary search, and later come across a Meta ad. Both could be part of the same decision.\n\nSo before drawing conclusions about her Google numbers, we looked at what happened once couples inquired: how many came out to tour, how many booked, and how the platforms might be supporting each other. A dip is a reason to look closer, with the tour calendar as part of what we read.",
+     "hook": "When one ad channel's numbers drop, it's tempting to decide what that means right away.",
+     "ending": "-Whitney"
+    },
+    "premise": "When a venue client's Google Ads lead count dipped from July to August while her Meta leads held and her tours stayed steady, the lead count alone wasn't the whole picture, so we looked at tours and bookings and at how the two channels might be working together before drawing conclusions.",
+    "screens": null,
+    "register": "spoken",
+    "takeaway": "I shouldn't judge an ad channel by its lead count alone; what happens after the lead, in tours and bookings, tells me more.",
+    "cover_text": "What one ad channel's lead count doesn't show",
+    "production": "face_to_camera",
+    "timestamps": [
+     "7:45 to 8:02: Whitney compares lead volume month over month; Meta held steady, Google dipped, and the team is digging into it.",
+     "10:38: the client asks what they are seeing for leads from Facebook versus Google.",
+     "10:46 to 11:04: Whitney explains that Meta brought far more August leads, and that Google ads or organic search may be working together with Meta retargeting.",
+     "11:24 to 11:49: Whitney notes tour volume held steady month over month, that the leads are potentially better quality, and that bookings were up from July to August."
+    ],
+    "on_screen_hook": "A venue client asked: Facebook or Google? Why we looked past the lead count.",
+    "personal_lines": [],
+    "spoken_opening": "One of our venue clients saw her Google Ads leads dip from July to August. Over those same months, her tour numbers stayed about the same.",
+    "no_offer_ending": null,
+    "cover_alternates": [
+     "Reading a dip in Google Ads leads",
+     "Meta, Google and a steady tour calendar"
+    ],
+    "distinct_because": "It answers a different question from a different part of the call: how WIA reads a channel's numbers and decides what they mean. Follow-up and the tour conversation play no part in it.",
+    "offer_descriptor": null,
+    "read_time_seconds": 75
+   },
+   "brief_copy": null,
+   "locks": [],
+   "findings": [
+    {
+     "finding_id": "fid_b41c5013b3b8e4100678",
+     "source": "fidelity",
+     "piece": "reel_2",
+     "path": "caption.body",
+     "sentence": "So before drawing conclusions about her Google numbers, we looked at what happened once couples inquired: how many came out to tour, how many booked, and how the platforms might be supporting each other.",
+     "severity": "blocking",
+     "message": "Reel 2: \"So before drawing conclusions about her Google numbers, we looked at what happened once couples inquired: how many ca...\" goes beyond what the call supports (The call shows Whitney noting tours and bookings in passing; it doesn't say a deliberate review was done before drawing conclusions.)",
+     "status": "open",
+     "resolution": null,
+     "can_attest": true,
+     "verdict": "unsupported",
+     "issue": null
+    },
+    {
+     "finding_id": "fid_ace5921cb6f4d04368d6",
+     "source": "fidelity",
+     "piece": "reel_2",
+     "path": "script",
+     "sentence": "So before deciding what her dip meant, I looked at what happened after her inquiries came in: the tours, the bookings, and how the two channels might be working together.",
+     "severity": "blocking",
+     "message": "Reel 2: \"So before deciding what her dip meant, I looked at what happened after her inquiries came in: the tours, the bookings...\" goes beyond what the call supports (This invents an order of analysis and a method the call does not state.)",
+     "status": "open",
+     "resolution": null,
+     "can_attest": true,
+     "verdict": "unsupported",
+     "issue": null
+    },
+    {
+     "finding_id": "edi_58459a5b30c8495a3c11",
+     "source": "editorial",
+     "piece": "reel_2",
+     "path": "caption.body",
+     "sentence": "You open the report, see fewer leads from Google than the month before, and start wondering whether the budget is in the right place.",
+     "severity": "warning",
+     "message": "Reel 2: \"You open the report, see fewer leads from Google than the month before, and start wondering whether the budget is in...\" states a general lesson instead of WIA's specific decision (A generic opening about budget placement that hints at spend, not the client's specific situation.)",
+     "status": "open",
+     "resolution": null,
+     "can_attest": true,
+     "verdict": "editorial",
+     "issue": "broad_lesson"
+    },
+    {
+     "finding_id": "edi_5ceebf8f775b83733d5b",
+     "source": "editorial",
+     "piece": "reel_2",
+     "path": "caption.hook",
+     "sentence": "When one ad channel's numbers drop, it's tempting to decide what that means right away.",
+     "severity": "warning",
+     "message": "Reel 2: \"When one ad channel's numbers drop, it's tempting to decide what that means right away.\" states a general lesson instead of WIA's specific decision (A general principle any agency could post.)",
+     "status": "open",
+     "resolution": null,
+     "can_attest": true,
+     "verdict": "editorial",
+     "issue": "broad_lesson"
+    },
+    {
+     "finding_id": "edi_6c4c555fd107c84011f2",
+     "source": "editorial",
+     "piece": "reel_2",
+     "path": "caption.body",
+     "sentence": "Her two channels might not have been working separately, either.",
+     "severity": "blocking",
+     "message": "Reel 2: \"Her two channels might not have been working separately, either.\" states a cause the call does not show (A speculative channel interplay is offered as an explanation with no evidence.)",
+     "status": "open",
+     "resolution": null,
+     "can_attest": true,
+     "verdict": "editorial",
+     "issue": "unsupported_causation"
+    },
+    {
+     "finding_id": "edi_9ab4f8fbe284dac1395c",
+     "source": "editorial",
+     "piece": "reel_2",
+     "path": "spoken_opening",
+     "sentence": "One of our venue clients saw her Google Ads leads dip from July to August.",
+     "severity": "blocking",
+     "message": "Reel 2: \"One of our venue clients saw her Google Ads leads dip from July to August.\" needs context to be read correctly (A dip in Google performance is presented without saying whether WIA or someone else ran the campaigns.)",
+     "status": "open",
+     "resolution": null,
+     "can_attest": true,
+     "verdict": "editorial",
+     "issue": "missing_context"
+    }
+   ],
+   "changes": [
+    {
+     "kind": "written",
+     "note": "Written by the finisher: the earlier Reel 2 retold the central story, so it has a premise of its own",
+     "path": "*"
+    },
+    {
+     "kind": "repaired",
+     "path": "script",
+     "after": "Google Ads leads dipped for one of our venue clients in August, and her tour numbers stayed steady. So which number tells you more?\n\nShe asked me on a recent call what we were seeing for leads from Facebook versus Google. And on lead count alone, Meta brought in way more in August. Meta held steady, Google took a dip, and we're digging into that.\n\nBut the lead count is only one piece. Somebody might see her Google ad, or find her through organic search, and then get retargeted with a Meta ad. Those could all be working together, right?\n\nAnd when I looked past the leads, her tour volume had stayed pretty steady month over month. So in theory, more of those leads were turning into tours. It also looked like bookings were up from July to August.\n\nThat's why I don't want to judge a channel by its lead count by itself. So before deciding what her dip meant, I looked at what happened after her inquiries came in: the tours, the bookings, and how the two channels might be working together.\n\nSo we're still looking into the Google side, just with her tours and bookings in front of us too.",
+     "before": "Google Ads leads dipped for one of our venue clients in August, and her tour numbers stayed steady. So which number tells you more?\n\nShe asked me on a recent call what we were seeing for leads from Facebook versus Google. And on lead count alone, Meta brought in way more in August. Meta held steady, Google took a dip, and we're digging into that.\n\nBut the lead count is only one piece. Somebody might see her Google ad, or find her through organic search, and then get retargeted with a Meta ad. Those could all be working together, right?\n\nAnd when I looked past the leads, her tour volume had stayed pretty steady month over month. So in theory, more of those leads were turning into tours. It also looked like bookings were up from July to August.\n\nThat's why I don't want to judge a channel by its lead count by itself. Before we decide what a dip means, we look at what happened after the inquiry: the tours, the bookings, and how the channels might be feeding each other.\n\nSo we're still looking into the Google side, just with her tours and bookings in front of us too."
+    },
+    {
+     "kind": "repaired",
+     "path": "caption.body",
+     "after": "You open the report, see fewer leads from Google than the month before, and start wondering whether the budget is in the right place. It's a fair question for any venue investing in ads ahead of engagement season.\n\nA venue client asked us something similar recently: which channel was bringing in more leads, Facebook or Google? In August, Meta had brought in far more, and Google's count had slipped from July. We're looking into why.\n\nHer tours, though, held steady month over month, and it looked like bookings were up as well. Couples rarely move in a straight line, either. One might find her on Google, from an ad or an ordinary search, and later come across a Meta ad. Both could be part of the same decision.\n\nSo before drawing conclusions about her Google numbers, we looked at what happened once couples inquired: how many came out to tour, how many booked, and how the platforms might be supporting each other. A dip is a reason to look closer, with the tour calendar as part of what we read.",
+     "before": "You open the report, see fewer leads from Google than the month before, and start wondering whether the budget is in the right place. It's a fair question for any venue investing in ads ahead of engagement season.\n\nA venue client asked us something similar recently: which channel was bringing in more leads, Facebook or Google? In August, Meta had brought in far more, and Google's count had slipped from July. We're looking into why.\n\nHer tours, though, held steady month over month, and it looked like bookings were up as well. Couples rarely move in a straight line, either. One might find her on Google, from an ad or an ordinary search, and later come across a Meta ad. Both could be part of the same decision.\n\nSo before we draw conclusions about one platform, we look at what happens once a couple inquires: how many come out to tour, how many book, and how the platforms might be supporting each other. A dip is a reason to look closer, with the tour calendar as part of what we read."
+    },
+    {
+     "kind": "repaired",
+     "path": "script",
+     "after": "One of our venue clients saw her Google Ads leads dip from July to August. Over those same months, her tour numbers stayed about the same. So which number tells you more?\n\nShe asked me on a recent call what we were seeing for leads from Facebook versus Google. And on lead count alone, Meta brought in way more in August. Meta held steady, Google took a dip, and we're digging into that.\n\nBut the lead count is only one piece. Somebody might see her Google ad, or find her through organic search, and then get retargeted with a Meta ad. Those could all be working together, right?\n\nAnd when I looked past the leads, her tour volume had stayed pretty steady month over month. So in theory, more of those leads were turning into tours. It also looked like bookings were up from July to August.\n\nThat's why I don't want to judge a channel by its lead count by itself. So before deciding what her dip meant, I looked at what happened after her inquiries came in: the tours, the bookings, and how the two channels might be working together.\n\nSo we're still looking into the Google side, just with her tours and bookings in front of us too.",
+     "before": "Google Ads leads dipped for one of our venue clients in August, and her tour numbers stayed steady. So which number tells you more?\n\nShe asked me on a recent call what we were seeing for leads from Facebook versus Google. And on lead count alone, Meta brought in way more in August. Meta held steady, Google took a dip, and we're digging into that.\n\nBut the lead count is only one piece. Somebody might see her Google ad, or find her through organic search, and then get retargeted with a Meta ad. Those could all be working together, right?\n\nAnd when I looked past the leads, her tour volume had stayed pretty steady month over month. So in theory, more of those leads were turning into tours. It also looked like bookings were up from July to August.\n\nThat's why I don't want to judge a channel by its lead count by itself. So before deciding what her dip meant, I looked at what happened after her inquiries came in: the tours, the bookings, and how the two channels might be working together.\n\nSo we're still looking into the Google side, just with her tours and bookings in front of us too."
+    },
+    {
+     "kind": "repaired",
+     "path": "spoken_opening",
+     "after": "One of our venue clients saw her Google Ads leads dip from July to August. Over those same months, her tour numbers stayed about the same.",
+     "before": "Google Ads leads dipped for one of our venue clients in August, and her tour numbers stayed steady."
+    },
+    {
+     "kind": "repaired",
+     "path": "caption.body",
+     "after": "You open the report, see fewer leads from Google than the month before, and start wondering whether the budget is in the right place. It's a fair question for any venue investing in ads ahead of engagement season.\n\nA venue client asked us something similar recently: which channel was bringing in more leads, Facebook or Google? In August, Meta had brought in far more, and Google's count had slipped from July. We're looking into why.\n\nHer tours, though, held steady month over month, and it looked like bookings were up as well. Her two channels might not have been working separately, either. One might find her on Google, from an ad or an ordinary search, and later come across a Meta ad. Both could be part of the same decision.\n\nSo before drawing conclusions about her Google numbers, we looked at what happened once couples inquired: how many came out to tour, how many booked, and how the platforms might be supporting each other. A dip is a reason to look closer, with the tour calendar as part of what we read.",
+     "before": "You open the report, see fewer leads from Google than the month before, and start wondering whether the budget is in the right place. It's a fair question for any venue investing in ads ahead of engagement season.\n\nA venue client asked us something similar recently: which channel was bringing in more leads, Facebook or Google? In August, Meta had brought in far more, and Google's count had slipped from July. We're looking into why.\n\nHer tours, though, held steady month over month, and it looked like bookings were up as well. Couples rarely move in a straight line, either. One might find her on Google, from an ad or an ordinary search, and later come across a Meta ad. Both could be part of the same decision.\n\nSo before drawing conclusions about her Google numbers, we looked at what happened once couples inquired: how many came out to tour, how many booked, and how the platforms might be supporting each other. A dip is a reason to look closer, with the tour calendar as part of what we read."
+    },
+    {
+     "kind": "repaired",
+     "path": "caption.body",
+     "after": "You open the report, see fewer leads from Google than the month before, and start wondering whether the budget is in the right place.\n\nA venue client asked us something similar recently: which channel was bringing in more leads, Facebook or Google? In August, Meta had brought in far more, and Google's count had slipped from July. We're looking into why.\n\nHer tours, though, held steady month over month, and it looked like bookings were up as well. Her two channels might not have been working separately, either. One might find her on Google, from an ad or an ordinary search, and later come across a Meta ad. Both could be part of the same decision.\n\nSo before drawing conclusions about her Google numbers, we looked at what happened once couples inquired: how many came out to tour, how many booked, and how the platforms might be supporting each other. A dip is a reason to look closer, with the tour calendar as part of what we read.",
+     "before": "You open the report, see fewer leads from Google than the month before, and start wondering whether the budget is in the right place. It's a fair question for any venue investing in ads ahead of engagement season.\n\nA venue client asked us something similar recently: which channel was bringing in more leads, Facebook or Google? In August, Meta had brought in far more, and Google's count had slipped from July. We're looking into why.\n\nHer tours, though, held steady month over month, and it looked like bookings were up as well. Her two channels might not have been working separately, either. One might find her on Google, from an ad or an ordinary search, and later come across a Meta ad. Both could be part of the same decision.\n\nSo before drawing conclusions about her Google numbers, we looked at what happened once couples inquired: how many came out to tour, how many booked, and how the platforms might be supporting each other. A dip is a reason to look closer, with the tour calendar as part of what we read."
+    },
+    {
+     "kind": "repaired",
+     "path": "on_screen_hook",
+     "after": "A venue client asked: Facebook or Google? Why we looked past the lead count.",
+     "before": "A venue client's Google Ads leads dipped in August while her tours held steady."
+    }
+   ],
+   "published": [],
+   "content_hash": "d579bccb1309e613ffdeacae5e5890d39863cad9e89b02a2eec12bbaedd23b58",
+   "editable": [
+    "title",
+    "cover_text",
+    "cover_alternates",
+    "on_screen_hook",
+    "spoken_opening",
+    "script",
+    "screens",
+    "caption",
+    "personal_lines",
+    "no_offer_ending"
+   ]
+  },
+  {
+   "key": "reel_3",
+   "channel": "reel",
+   "label": "Reel 3",
+   "kind": "third",
+   "ordinal": 5,
+   "origin": "written",
+   "not_written_reason": null,
+   "brief_key": null,
+   "content": {
+    "cta": "none",
+    "job": "Lets a cold viewer see, from a venue client's own five-year read, that couples almost always decide after the visit rather than on it.",
+    "kind": "third",
+    "beats": [
+     "Use ordinary, non-client-specific workday b-roll; do not suggest footage of the actual call or venue.",
+     "Screen 1: the five-year observation that only a handful of couples booked on the spot.",
+     "Screen 2: the two kinds of couples she sees on tours.",
+     "Screen 3: the decision comes after the visit, so what she learns on the tour carries into follow-up."
+    ],
+    "title": "Couples decide after the tour",
+    "script": null,
+    "source": "new_script",
+    "caption": {
+     "body": "If you've hosted a lot of tours, you probably have a feel for this already. One of our venue clients put it plainly: in five years, only a handful of couples have booked on the spot.\n\nShe described two kinds of couples who come through. Some already know the venue, love it and have been waiting for it, but still want to see a few other places before they commit. In her experience, those are the couples her venue books most often. Others are earlier in the process, touring several venues while they work out what they want.\n\nEither way, the decision usually lands in the days after the visit. That's why what she picks up during a tour is worth carrying into what couples hear from her next.\n\nWhen we shape post-tour emails and texts with a venue, that's the knowledge we want built in: who the couple seemed to be as they walked through, and what they're likely ready for now.",
+     "hook": "One of our venue clients sees two kinds of couples come through on tour day.",
+     "ending": "-Whitney"
+    },
+    "premise": "A venue client's own read of who tours her venue: in five years only a handful of couples booked on the spot, most arrive either already in love with the venue and just needing a minute or still early in their search, so the decision almost always happens after the visit.",
+    "screens": [
+     "A venue client: in five years, only a handful of couples booked on the spot during a tour.",
+     "Some arrive already loving the venue and just need a minute. She says she gets most of those. Others are still early, touring to see what's out there.",
+     "So for most of her couples, the decision comes after the visit. What she notices on the tour matters for the conversation after it."
+    ],
+    "register": "on_screen",
+    "takeaway": "Couples almost never book on the tour itself, and the ones who arrive already knowing and loving my venue are the ones I win most often.",
+    "cover_text": "Two kinds of couples one venue client sees on tour",
+    "production": "on_screen_text",
+    "timestamps": [
+     "35:47: the client says only a handful of couples in five years have booked on the spot.",
+     "37:17: the client describes couples who already know and love the venue and have been waiting, and couples still on the wave of tours.",
+     "37:39: the client says most are not torn between two venues; they have known about the venue, love it, want to see others, and she gets most of those.",
+     "38:00: the client describes couples still on the tour wave who are not sure yet."
+    ],
+    "on_screen_hook": "A venue client describes two kinds of couples who tour her venue. In five years, only a handful booked on the spot.",
+    "personal_lines": [],
+    "spoken_opening": null,
+    "no_offer_ending": null,
+    "cover_alternates": [
+     "When couples actually decide on a venue",
+     "Who walks through a venue on tour day"
+    ],
+    "distinct_because": "It gives a different insight, the owner's view of when couples decide and who arrives at the tour, rather than how or when to follow up. It draws on her five-year observation and her description of the couples who tour, not on the first-versus-last exchange.",
+    "offer_descriptor": null,
+    "read_time_seconds": 12
+   },
+   "brief_copy": null,
+   "locks": [],
+   "findings": [
+    {
+     "finding_id": "edi_cb6d0125c34949bcf8fc",
+     "source": "editorial",
+     "piece": "reel_3",
+     "path": "on_screen_hook",
+     "sentence": "A venue client describes two kinds of couples who tour her venue. In five years, only a handful booked on the spot.",
+     "severity": "warning",
+     "message": "Reel 3: \"A venue client describes two kinds of couples who tour her venue. In five years, only a handful booked on the spot.\" repeats another Reel's premise (The decision-after-the-visit theme overlaps with Reel 1's first-versus-last-tour point.)",
+     "status": "open",
+     "resolution": null,
+     "can_attest": true,
+     "verdict": "editorial",
+     "issue": "premise_overlap"
+    },
+    {
+     "finding_id": "edi_5129e19e9aac2d033a63",
+     "source": "editorial",
+     "piece": "reel_3",
+     "path": "screens[2]",
+     "sentence": "So for most of her couples, the decision comes after the visit. What she notices on the tour matters for the conversation after it.",
+     "severity": "warning",
+     "message": "Reel 3: \"So for most of her couples, the decision comes after the visit. What she notices on the tour matters for the conversa...\" leaves the reader little to take away (It restates Reel 1's point and leaves the owner without a concrete action.)",
+     "status": "open",
+     "resolution": null,
+     "can_attest": true,
+     "verdict": "editorial",
+     "issue": "weak_takeaway"
+    }
+   ],
+   "changes": [
+    {
+     "kind": "written",
+     "note": "Written by the finisher: the earlier Reel 3 retold the central story, so it has a premise of its own",
+     "path": "*"
+    },
+    {
+     "kind": "repaired",
+     "path": "screens[2]",
+     "after": "So for most of her couples, the decision comes after the visit. What she notices on the tour matters for the conversation after it.",
+     "before": "So the decision almost always happens after the visit. What she notices on the tour matters for the conversation after it."
+    },
+    {
+     "kind": "repaired",
+     "path": "screens[1]",
+     "after": "Some arrive already loving the venue and just need a minute. She says she gets most of those. Others are still early, touring to see what's out there.",
+     "before": "Most arrive already loving the venue and just need a minute. Others are still early, touring to see what's out there."
+    },
+    {
+     "kind": "repaired",
+     "path": "on_screen_hook",
+     "after": "A venue client describes two kinds of couples who tour her venue. In five years, only a handful booked on the spot.",
+     "before": "A venue client: in five years, only a handful of couples booked on the spot during a tour."
+    },
+    {
+     "kind": "repaired",
+     "path": "caption.hook",
+     "after": "One of our venue clients sees two kinds of couples come through on tour day.",
+     "before": "Do couples book on your venue tour, or after it?"
+    },
+    {
+     "kind": "repaired",
+     "path": "cover_text",
+     "after": "Two kinds of couples one venue client sees on tour",
+     "before": "Couples rarely book on the venue tour itself."
+    }
+   ],
+   "published": [],
+   "content_hash": "d19a6e02c77ecce672c4852c8dbfc78f3fb9a5d8ed4e0d6264afde22f2e64685",
+   "editable": [
+    "title",
+    "cover_text",
+    "cover_alternates",
+    "on_screen_hook",
+    "spoken_opening",
+    "script",
+    "screens",
+    "caption",
+    "personal_lines",
+    "no_offer_ending"
+   ]
+  }
+ ],
+ "findings": [],
+ "ready_blockers": [
+  "Reel 2: \"So before drawing conclusions about her Google numbers, we looked at what happened once couples inquired: how many ca...\" is not supported by the call. Edit that sentence, or attest it is true",
+  "Reel 2: \"So before deciding what her dip meant, I looked at what happened after her inquiries came in: the tours, the bookings...\" is not supported by the call. Edit that sentence, or attest it is true",
+  "Reel 2: \"Her two channels might not have been working separately, either.\" states a cause the call does not show. Edit that line, or keep it with a reason",
+  "Reel 2: \"One of our venue clients saw her Google Ads leads dip from July to August.\" needs context to be read correctly. Edit that line, or keep it with a reason",
+  "\"no inquiry\": the call does not establish zero"
+ ],
+ "before_publishing": [
+  {
+   "id": "P1",
+   "done": null,
+   "kind": "permission",
+   "text": "Obtain the client's permission to share the anonymised exchange, including the increase in tours and unanswered follow-up, her first-versus-last-tour distinction, her within-a-week practice and her existing follow-up arrangement. Hold publication until permission is recorded. No direct client quotation is included.",
+   "answer": "Before posting: WIA confirms the client's okay",
+   "required": true,
+   "client_permission": true
+  },
+  {
+   "id": "P2",
+   "done": null,
+   "kind": "fact",
+   "text": "Confirm the speaker attribution for the selected passages. Copy uses \"venue client\" rather than an unverified owner title and keeps the distinction and proposed texts attributed to her.",
+   "answer": "Checked under D12 by the WIA team: the speakers are Whitney and the venue's contact on the account; her title is not recorded, so the copy says venue client and keeps the distinction, the within-a-week practice and the texts with her.",
+   "required": true,
+   "client_permission": false
+  },
+  {
+   "id": "P3",
+   "done": null,
+   "kind": "do_not_claim",
+   "text": "Keep post-tour texts prospective: raised on the call and agreed in principle, with no build, launch or booking result established. Do not frame unanswered follow-up as poor-quality advertising or failed automation. Keep LeadLock as the full email-and-text follow-up support for the client's own conversations, not a replacement for them. Do not add later account results or internal-meeting client details.",
+   "answer": "Kept under D12: the texts stay prospective (raised and agreed in principle; nothing built, launched or booked); quiet couples are not blamed on the ads or the automation; LeadLock supports her own conversations.",
+   "required": true,
+   "client_permission": false
+  },
+  {
+   "id": "P4",
+   "done": null,
+   "kind": "cta",
+   "text": "At Gate 2, confirm ADS on the carousel as this brief's only Instagram offer CTA, the email reply invitation, and the proposed email date, time and recipient segment.",
+   "answer": "Confirmed under D12: ADS on the carousel (the default DM keyword) is this brief's only Instagram offer ask; the email invites a reply; the proposed send date, time and list are for WIA to confirm when scheduling.",
+   "required": true,
+   "client_permission": false
+  },
+  {
+   "id": "P5",
+   "done": null,
+   "kind": "other",
+   "text": "Check publication history against the supplied prior-coverage entry with the same decision-readiness argument. Confirm this approved development is not repeating a point published in the last 90 days.",
+   "answer": "Checked under D12: the matching entry is an unpublished card from an earlier cycle (no publication); nothing with this argument was published in the last 90 days.",
+   "required": true,
+   "client_permission": false
+  },
+  {
+   "id": "N6",
+   "done": null,
+   "kind": "pack",
+   "text": "A line a person wrote for the earlier Reel 3 was not carried into its new premise: More tours are a good sign. But a tour on your calendar doesn't tell you whether the couple is on their first visit or their last, and unanswered follow-up looks the same either way.\n\nThis came up with one of our venue clients. I asked whether couples left planning other visits or ready to move forward. Her answer was that she watches whether her venue opened their search or closed it.\n\nWhen she knows they've finished touring, she reaches out within a week and politely asks if they've landed on a venue or are still undecided. A couple who has only begun visiting is still comparing what they've seen.\n\nShe already paired automated emails with her personal contact, and she asked about texting couples after the tour as well. I said we could add that.\n\nThat's the kind of detail we want shaping the emails and texts around your conversations, so each couple hears from you in a way that suits how far their search has come.",
+   "answer": null,
+   "required": false,
+   "client_permission": false
+  }
+ ],
+ "client_quotes": [],
+ "stronger_with_permission": [
+  "If the client approves direct quotation, her own question about whether her venue is a couple's first tour or their last would make Reel 1 and the email more vivid than reported speech.",
+  "If the client approves sharing it, her own words about couples who already love the venue and just need a minute would give Reel 3 a stronger first screen."
+ ],
+ "granted": [],
+ "pack_notes": [
+  "Reel 1's locked script opens by setting more tours beside more couples going quiet, which can read as a lead-quality complaint; a person wrote it, so it stays, but WIA may want to reconsider that first line.",
+  "Carousel slide 2 (locked) carries the same more-tours-and-quiet-couples pairing; kept because a person wrote it, flagged for the same concern.",
+  "Reel 2 states that a Google ad or organic search may work together with Meta retargeting; a specialist should confirm the wording, which stays hedged in Whitney's terms.",
+  "Reel 2 uses account figures from the same call (Meta far ahead on August leads, Google dipping, tours steady, bookings looking up July to August); confirm the client's permission under P1 covers them and that they sit within P3's limit on account results.",
+  "Reel 2 says WIA is digging into the Google dip; confirm that is still the current status at posting, and do not state a cause.",
+  "Reel 3 uses the client's five-year observation (only a handful booked on the spot) and her read that the venue books most couples who arrive already loving it; P1's permission list does not name these, so confirm the client's okay.",
+  "The Foolproof Follow-Up Advantage is not among the approved offer descriptors; confirm the name and its wording before posting.",
+  "N6: the line written for the earlier Reel 3 was not carried over because Reel 3 now has its own premise (when couples decide), per the plan."
+ ],
+ "creative_choices": [
+  {
+   "why": "It puts the reader's own question in plain words and names the venue tour. It leaves the first-versus-last framing to Reel 1 so the two don't collide, and the preview can finish the thought by setting a couple still comparing against one who has finished touring.",
+   "piece": "email",
+   "chosen": "What is a couple ready to do after your venue tour?",
+   "considered": [
+    "What is a couple ready to do after your venue tour?",
+    "The question I asked a venue client about her tours",
+    "When to ask a couple if they've chosen your venue",
+    "First tour or last tour changes your follow-up"
+   ]
+  },
+  {
+   "why": "A person locked this slide 1. It already carries the carousel's promise as an insight about the reader, naming the venue tour and the decision, and it opens differently from Reel 1's first-or-last hook and the email's question.",
+   "piece": "carousel",
+   "chosen": "A completed venue tour doesn't tell you how close a couple is to choosing.",
+   "considered": [
+    "A completed venue tour doesn't tell you how close a couple is to choosing.",
+    "Your follow-up after a venue tour should match where the couple is in their search.",
+    "Two couples can leave the same venue tour in very different places."
+   ]
+  },
+  {
+   "why": "It names the venue tour and the client's real distinction in the first words, and it avoids leading with more tours beside quiet couples, which would read as a lead-quality complaint even though the locked script's spoken line keeps that setup.",
+   "piece": "reel_1",
+   "chosen": "First venue tour or last? One venue client's answer shapes how she follows up.",
+   "considered": [
+    "First venue tour or last? One venue client's answer shapes how she follows up.",
+    "What I asked a venue client about where couples are when they leave a tour",
+    "A venue client: more tours booked, more couples going quiet afterwards.",
+    "The venue tour is over. Is the couple's search?"
+   ]
+  },
+  {
+   "why": "It states a real, specific tension from the call, a channel dip set against steady tours, that the Reel resolves through how we read it. The retargeting interplay must stay hedged in Whitney's own terms for a specialist to confirm, and the August figures need the same client permission as the rest of the pack.",
+   "piece": "reel_2",
+   "chosen": "Google Ads leads dipped for one of our venue clients in August, and her tour numbers stayed steady.",
+   "considered": [
+    "Google Ads leads dipped for one of our venue clients in August, and her tour numbers stayed steady.",
+    "Is Meta or Google bringing you more leads? A venue client asked me that, and the lead count was only part of the answer.",
+    "When one ad channel's lead count drops, the first thing I look at is what happened to tours."
+   ]
+  },
+  {
+   "why": "It is a true, specific observation from the client that reads in two seconds with the sound off. It is the most independent premise left in this call, because the other remaining material either pairs more traffic with poor-fit leads or comes from internal meetings the brief excludes, and the line \"we did lose one\" stays out.",
+   "piece": "reel_3",
+   "chosen": "In five years, a venue client can count on a handful of fingers the couples who booked on the spot.",
+   "considered": [
+    "In five years, a venue client can count on a handful of fingers the couples who booked on the spot.",
+    "Do couples book on your venue tour, or after it?",
+    "Some couples arrive at a venue tour already in love with the space. Others are just starting to look."
+   ]
+  }
+ ],
+ "change_notes": [
+  "Email: reordered subject lines to lead with the plan's chosen opening and replaced the first-or-last subject so it doesn't collide with Reel 1; rewrote the opening so it no longer pairs more tours with quiet couples; reworded the within-a-week line and the LeadLock paragraph to avoid shared spans with carousel slides 3 and 6.",
+  "Reel 1: kept the locked script and personal line; replaced the cover and on-screen hook, which paired more tours with going quiet, using the plan's first-or-last opening; rewrote the caption with a new hook and no tours-versus-quiet pairing.",
+  "Reel 2: written fresh from the plan's premise (a Google Ads dip read against steady tours and bookings), face to camera, hedges kept, no CTA.",
+  "Reel 3: written fresh from the plan's premise as three on-screen text screens on when couples decide; left out the lost-couple line and any framing of early-stage couples as poor fits.",
+  "Carousel: kept locked slides 1 to 5 and slides 6 and 7; rewrote the caption to drop the more-tours-and-unanswered pairing and avoid repeating slide 6's wording; added a no-offer ending for the offer post."
+ ],
+ "fidelity": {
+  "open": 10,
+  "flags": [
+   {
+    "why": "Turns one moment into a standing practice; the call does not state this as a method or policy.",
+    "path": "script",
+    "text": "Before we decide what a dip means, we look at what happened after the inquiry: the tours, the bookings, and how the channels might be feeding each other.",
+    "piece": "reel_2",
+    "source": "",
+    "verdict": "unsupported"
+   },
+   {
+    "why": "States a habitual practice the sources do not give.",
+    "path": "caption.body",
+    "text": "So before we draw conclusions about one platform, we look at what happens once a couple inquires",
+    "piece": "reel_2",
+    "source": "",
+    "verdict": "unsupported"
+   },
+   {
+    "why": "'Almost always' is stronger than 'very few' on-the-spot bookings.",
+    "path": "screens[2]",
+    "text": "So the decision almost always happens after the visit.",
+    "piece": "reel_3",
+    "source": "ev_a292bdefb555852aa06614c0",
+    "verdict": "unsupported"
+   },
+   {
+    "why": "She said they get most of that type, not that most arrive that way; the other type is also described.",
+    "path": "screens[1]",
+    "text": "Most arrive already loving the venue and just need a minute.",
+    "piece": "reel_3",
+    "source": "ev_d3ebd869ce3ca599df150e90",
+    "verdict": "unsupported"
+   },
+   {
+    "why": "Opening pairs more tours with couples going quiet, so a reader may infer WIA's ads brought poor leads. (a line a person wrote: theirs to change)",
+    "path": "script",
+    "text": "I had a call with one of our venue clients recently, and she was booking more tours, but more of those couples were going quiet afterwards.",
+    "issue": "lead_quality",
+    "piece": "reel_1",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "Same pairing of more tours with couples going quiet implies poor lead quality. (a line a person wrote: theirs to change)",
+    "path": "slides[1].text",
+    "text": "A venue client described more tour bookings and more couples going quiet afterwards.",
+    "issue": "lead_quality",
+    "piece": "carousel",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "Frames the opening around couples going silent, which may suggest weak leads from WIA's ads.",
+    "path": "opening",
+    "text": "On a recent call, one of our venue clients and I were talking about the couples who don't reply after a tour.",
+    "issue": "lead_quality",
+    "piece": "email",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "blocking"
+   },
+   {
+    "why": "Implies tours and bookings held up through the channel mix, but the call shows only a sequence of numbers.",
+    "path": "spoken_opening",
+    "text": "Google Ads leads dipped for one of our venue clients in August, and her tour numbers stayed steady.",
+    "issue": "unsupported_causation",
+    "piece": "reel_2",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "blocking"
+   },
+   {
+    "why": "Blanket claim about couples beyond what the call says.",
+    "path": "caption.body",
+    "text": "Couples rarely move in a straight line, either.",
+    "issue": "generalization",
+    "piece": "reel_2",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "blocking"
+   },
+   {
+    "why": "Broad claim about venues and a season not in the sources.",
+    "path": "caption.body",
+    "text": "It's a fair question for any venue investing in ads ahead of engagement season.",
+    "issue": "generalization",
+    "piece": "reel_2",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "blocking"
+   },
+   {
+    "why": "Telling only of a Google dip and a good month could read as WIA's results or hint at a result, which the pack keeps out.",
+    "path": "on_screen_hook",
+    "text": "A venue client's Google Ads leads dipped in August while her tours held steady.",
+    "issue": "misleading_implication",
+    "piece": "reel_2",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "blocking"
+   },
+   {
+    "why": "Turns one venue's five-year experience into a claim about all couples.",
+    "path": "cover_text",
+    "text": "Couples rarely book on the venue tour itself.",
+    "issue": "generalization",
+    "piece": "reel_3",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "blocking"
+   },
+   {
+    "why": "Its point that couples decide after the visit largely restates Reel 1's point about readiness after a tour.",
+    "path": "on_screen_hook",
+    "text": "A venue client: in five years, only a handful of couples booked on the spot during a tour.",
+    "issue": "premise_overlap",
+    "piece": "reel_3",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "A generic question built for effect rather than a specific, true opening.",
+    "path": "caption.hook",
+    "text": "Do couples book on your venue tour, or after it?",
+    "issue": "weak_hook",
+    "piece": "reel_3",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "Claims what owners often learn, not drawn from the call.",
+    "path": "caption.body",
+    "text": "Along the way, you often learn whether they're still early in the search or close to deciding.",
+    "issue": "generalization",
+    "piece": "carousel",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "blocking"
+   }
+  ],
+  "checked": 22,
+  "repairs": [
+   {
+    "new": "So before deciding what her dip meant, I looked at what happened after her inquiries came in: the tours, the bookings, and how the two channels might be working together.",
+    "old": "Before we decide what a dip means, we look at what happened after the inquiry: the tours, the bookings, and how the channels might be feeding each other.",
+    "path": "script",
+    "piece": "reel_2"
+   },
+   {
+    "new": "So before drawing conclusions about her Google numbers, we looked at what happened once couples inquired: how many came out to tour, how many booked, and how the platforms might be supporting each other.",
+    "old": "So before we draw conclusions about one platform, we look at what happens once a couple inquires: how many come out to tour, how many book, and how the platforms might be supporting each other.",
+    "path": "caption.body",
+    "piece": "reel_2"
+   },
+   {
+    "new": "One of our venue clients saw her Google Ads leads dip from July to August. Over those same months, her tour numbers stayed about the same. So which number tells you more?",
+    "old": "Google Ads leads dipped for one of our venue clients in August, and her tour numbers stayed steady. So which number tells you more?",
+    "path": "script",
+    "piece": "reel_2"
+   },
+   {
+    "new": "One of our venue clients saw her Google Ads leads dip from July to August. Over those same months, her tour numbers stayed about the same.",
+    "old": "Google Ads leads dipped for one of our venue clients in August, and her tour numbers stayed steady.",
+    "path": "spoken_opening",
+    "piece": "reel_2"
+   },
+   {
+    "new": "Her two channels might not have been working separately, either.",
+    "old": "Couples rarely move in a straight line, either.",
+    "path": "caption.body",
+    "piece": "reel_2"
+   },
+   {
+    "new": "",
+    "old": "It's a fair question for any venue investing in ads ahead of engagement season.",
+    "path": "caption.body",
+    "piece": "reel_2"
+   },
+   {
+    "new": "A venue client asked: Facebook or Google? Why we looked past the lead count.",
+    "old": "A venue client's Google Ads leads dipped in August while her tours held steady.",
+    "path": "on_screen_hook",
+    "piece": "reel_2"
+   },
+   {
+    "new": "So for most of her couples, the decision comes after the visit.",
+    "old": "So the decision almost always happens after the visit.",
+    "path": "screens[2]",
+    "piece": "reel_3"
+   },
+   {
+    "new": "Some arrive already loving the venue and just need a minute. She says she gets most of those.",
+    "old": "Most arrive already loving the venue and just need a minute.",
+    "path": "screens[1]",
+    "piece": "reel_3"
+   },
+   {
+    "new": "A venue client describes two kinds of couples who tour her venue. In five years, only a handful booked on the spot.",
+    "old": "A venue client: in five years, only a handful of couples booked on the spot during a tour.",
+    "path": "on_screen_hook",
+    "piece": "reel_3"
+   },
+   {
+    "new": "One of our venue clients sees two kinds of couples come through on tour day.",
+    "old": "Do couples book on your venue tour, or after it?",
+    "path": "caption.hook",
+    "piece": "reel_3"
+   },
+   {
+    "new": "Two kinds of couples one venue client sees on tour",
+    "old": "Couples rarely book on the venue tour itself.",
+    "path": "cover_text",
+    "piece": "reel_3"
+   },
+   {
+    "new": "On a recent call, one of our venue clients and I were talking about her follow-up after a tour.",
+    "old": "On a recent call, one of our venue clients and I were talking about the couples who don't reply after a tour.",
+    "path": "opening",
+    "piece": "email"
+   },
+   {
+    "new": "Along the way, you may learn whether more visits are planned or whether yours was the last stop.",
+    "old": "Along the way, you often learn whether they're still early in the search or close to deciding.",
+    "path": "caption.body",
+    "piece": "carousel"
+   }
+  ],
+  "settled": [
+   {
+    "why": "The call shows Whitney noting tours and bookings in passing; it doesn't say a deliberate review was done before drawing conclusions.",
+    "path": "caption.body",
+    "text": "So before drawing conclusions about her Google numbers, we looked at what happened once couples inquired: how many came out to tour, how many booked, and how the platforms might be supporting each other.",
+    "piece": "reel_2",
+    "source": "",
+    "outcome": "open_finding",
+    "verdict": "unsupported"
+   },
+   {
+    "why": "This invents an order of analysis and a method the call does not state.",
+    "path": "script",
+    "text": "So before deciding what her dip meant, I looked at what happened after her inquiries came in: the tours, the bookings, and how the two channels might be working together.",
+    "piece": "reel_2",
+    "source": "",
+    "outcome": "open_finding",
+    "verdict": "unsupported"
+   },
+   {
+    "why": "A generic opening about budget placement that hints at spend, not the client's specific situation.",
+    "path": "caption.body",
+    "text": "You open the report, see fewer leads from Google than the month before, and start wondering whether the budget is in the right place.",
+    "issue": "broad_lesson",
+    "piece": "reel_2",
+    "source": "",
+    "outcome": "open_finding",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "A general principle any agency could post.",
+    "path": "caption.hook",
+    "text": "When one ad channel's numbers drop, it's tempting to decide what that means right away.",
+    "issue": "broad_lesson",
+    "piece": "reel_2",
+    "source": "",
+    "outcome": "open_finding",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "A speculative channel interplay is offered as an explanation with no evidence.",
+    "path": "caption.body",
+    "text": "Her two channels might not have been working separately, either.",
+    "issue": "unsupported_causation",
+    "piece": "reel_2",
+    "source": "",
+    "outcome": "open_finding",
+    "verdict": "editorial",
+    "severity": "blocking"
+   },
+   {
+    "why": "A dip in Google performance is presented without saying whether WIA or someone else ran the campaigns.",
+    "path": "spoken_opening",
+    "text": "One of our venue clients saw her Google Ads leads dip from July to August.",
+    "issue": "missing_context",
+    "piece": "reel_2",
+    "source": "",
+    "outcome": "open_finding",
+    "verdict": "editorial",
+    "severity": "blocking"
+   },
+   {
+    "why": "The decision-after-the-visit theme overlaps with Reel 1's first-versus-last-tour point.",
+    "path": "on_screen_hook",
+    "text": "A venue client describes two kinds of couples who tour her venue. In five years, only a handful booked on the spot.",
+    "issue": "premise_overlap",
+    "piece": "reel_3",
+    "source": "",
+    "outcome": "open_finding",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "It restates Reel 1's point and leaves the owner without a concrete action.",
+    "path": "screens[2]",
+    "text": "So for most of her couples, the decision comes after the visit. What she notices on the tour matters for the conversation after it.",
+    "issue": "weak_takeaway",
+    "piece": "reel_3",
+    "source": "",
+    "outcome": "open_finding",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "Opening pairs more tours with couples going quiet, so a reader may infer WIA's ads brought poor leads. (a line a person wrote: theirs to change)",
+    "path": "script",
+    "text": "I had a call with one of our venue clients recently, and she was booking more tours, but more of those couples were going quiet afterwards.",
+    "issue": "lead_quality",
+    "piece": "reel_1",
+    "source": "",
+    "outcome": "open_finding",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "Same pairing of more tours with couples going quiet implies poor lead quality. (a line a person wrote: theirs to change)",
+    "path": "slides[1].text",
+    "text": "A venue client described more tour bookings and more couples going quiet afterwards.",
+    "issue": "lead_quality",
+    "piece": "carousel",
+    "source": "",
+    "outcome": "open_finding",
+    "verdict": "editorial",
+    "severity": "warning"
+   }
+  ],
+  "put_back": 0,
+  "readings": [
+   {
+    "why": "Clear and faithful, but it opens on quiet couples and leans on the same story as Reel 1.",
+    "piece": "email",
+    "strength": "acceptable"
+   },
+   {
+    "why": "Faithful and structured, but plain and opens on the lead-quality pairing.",
+    "piece": "carousel",
+    "strength": "acceptable"
+   },
+   {
+    "why": "Central story is faithful and specific, but the opening pairs tours with going quiet.",
+    "piece": "reel_1",
+    "strength": "acceptable"
+   },
+   {
+    "why": "Distinct premise, but it states a practice as habit and hints at results.",
+    "piece": "reel_2",
+    "strength": "weak"
+   },
+   {
+    "why": "Overstates what the client said, overlaps Reel 1's point, and has a generic hook.",
+    "piece": "reel_3",
+    "strength": "weak"
+   }
+  ],
+  "rechecked": 17,
+  "survivors": [
+   {
+    "why": "The call shows Whitney noting tours and bookings in passing; it doesn't say a deliberate review was done before drawing conclusions.",
+    "path": "caption.body",
+    "text": "So before drawing conclusions about her Google numbers, we looked at what happened once couples inquired: how many came out to tour, how many booked, and how the platforms might be supporting each other.",
+    "piece": "reel_2",
+    "source": "",
+    "verdict": "unsupported"
+   },
+   {
+    "why": "This invents an order of analysis and a method the call does not state.",
+    "path": "script",
+    "text": "So before deciding what her dip meant, I looked at what happened after her inquiries came in: the tours, the bookings, and how the two channels might be working together.",
+    "piece": "reel_2",
+    "source": "",
+    "verdict": "unsupported"
+   },
+   {
+    "why": "A generic opening about budget placement that hints at spend, not the client's specific situation.",
+    "path": "caption.body",
+    "text": "You open the report, see fewer leads from Google than the month before, and start wondering whether the budget is in the right place.",
+    "issue": "broad_lesson",
+    "piece": "reel_2",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "A general principle any agency could post.",
+    "path": "caption.hook",
+    "text": "When one ad channel's numbers drop, it's tempting to decide what that means right away.",
+    "issue": "broad_lesson",
+    "piece": "reel_2",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "A speculative channel interplay is offered as an explanation with no evidence.",
+    "path": "caption.body",
+    "text": "Her two channels might not have been working separately, either.",
+    "issue": "unsupported_causation",
+    "piece": "reel_2",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "blocking"
+   },
+   {
+    "why": "A dip in Google performance is presented without saying whether WIA or someone else ran the campaigns.",
+    "path": "spoken_opening",
+    "text": "One of our venue clients saw her Google Ads leads dip from July to August.",
+    "issue": "missing_context",
+    "piece": "reel_2",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "blocking"
+   },
+   {
+    "why": "The decision-after-the-visit theme overlaps with Reel 1's first-versus-last-tour point.",
+    "path": "on_screen_hook",
+    "text": "A venue client describes two kinds of couples who tour her venue. In five years, only a handful booked on the spot.",
+    "issue": "premise_overlap",
+    "piece": "reel_3",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "It restates Reel 1's point and leaves the owner without a concrete action.",
+    "path": "screens[2]",
+    "text": "So for most of her couples, the decision comes after the visit. What she notices on the tour matters for the conversation after it.",
+    "issue": "weak_takeaway",
+    "piece": "reel_3",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "Opening pairs more tours with couples going quiet, so a reader may infer WIA's ads brought poor leads. (a line a person wrote: theirs to change)",
+    "path": "script",
+    "text": "I had a call with one of our venue clients recently, and she was booking more tours, but more of those couples were going quiet afterwards.",
+    "issue": "lead_quality",
+    "piece": "reel_1",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "Same pairing of more tours with couples going quiet implies poor lead quality. (a line a person wrote: theirs to change)",
+    "path": "slides[1].text",
+    "text": "A venue client described more tour bookings and more couples going quiet afterwards.",
+    "issue": "lead_quality",
+    "piece": "carousel",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "warning"
+   }
+  ],
+  "check_called": true,
+  "recheck_flags": [
+   {
+    "why": "The call shows Whitney noting tours and bookings in passing; it doesn't say a deliberate review was done before drawing conclusions.",
+    "path": "caption.body",
+    "text": "So before drawing conclusions about her Google numbers, we looked at what happened once couples inquired: how many came out to tour, how many booked, and how the platforms might be supporting each other.",
+    "piece": "reel_2",
+    "source": "",
+    "verdict": "unsupported"
+   },
+   {
+    "why": "This invents an order of analysis and a method the call does not state.",
+    "path": "script",
+    "text": "So before deciding what her dip meant, I looked at what happened after her inquiries came in: the tours, the bookings, and how the two channels might be working together.",
+    "piece": "reel_2",
+    "source": "",
+    "verdict": "unsupported"
+   },
+   {
+    "why": "A generic opening about budget placement that hints at spend, not the client's specific situation.",
+    "path": "caption.body",
+    "text": "You open the report, see fewer leads from Google than the month before, and start wondering whether the budget is in the right place.",
+    "issue": "broad_lesson",
+    "piece": "reel_2",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "A general principle any agency could post.",
+    "path": "caption.hook",
+    "text": "When one ad channel's numbers drop, it's tempting to decide what that means right away.",
+    "issue": "broad_lesson",
+    "piece": "reel_2",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "A speculative channel interplay is offered as an explanation with no evidence.",
+    "path": "caption.body",
+    "text": "Her two channels might not have been working separately, either.",
+    "issue": "unsupported_causation",
+    "piece": "reel_2",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "blocking"
+   },
+   {
+    "why": "A dip in Google performance is presented without saying whether WIA or someone else ran the campaigns.",
+    "path": "spoken_opening",
+    "text": "One of our venue clients saw her Google Ads leads dip from July to August.",
+    "issue": "missing_context",
+    "piece": "reel_2",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "blocking"
+   },
+   {
+    "why": "The decision-after-the-visit theme overlaps with Reel 1's first-versus-last-tour point.",
+    "path": "on_screen_hook",
+    "text": "A venue client describes two kinds of couples who tour her venue. In five years, only a handful booked on the spot.",
+    "issue": "premise_overlap",
+    "piece": "reel_3",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "warning"
+   },
+   {
+    "why": "It restates Reel 1's point and leaves the owner without a concrete action.",
+    "path": "screens[2]",
+    "text": "So for most of her couples, the decision comes after the visit. What she notices on the tour matters for the conversation after it.",
+    "issue": "weak_takeaway",
+    "piece": "reel_3",
+    "source": "",
+    "verdict": "editorial",
+    "severity": "warning"
+   }
+  ],
+  "repair_called": true,
+  "missed_patches": [],
+  "recheck_called": true,
+  "finisher_called": true
+ },
+ "provenance": {
+  "mode": "live",
+  "models": {
+   "writer": "anthropic/claude-opus-5.5",
+   "reviewer": "anthropic/claude-sonnet-5.5"
+  },
+  "run_id": "pack_run_86676107663f5a8e70c990ec",
+  "brief_id": "brief_8412a1852eaf482dbf4217a6983d5c96",
+  "profiles": {
+   "pack_plan": "2026-10-27.pack-plan.v1",
+   "pack_check": "2026-10-27.pack-check.v4",
+   "pack_finish": "2026-10-27.pack-finish.v3",
+   "pack_repair": "2026-10-27.pack-repair.v2",
+   "pack_caption": "2026-10-26.pack-caption.v1",
+   "pack_recheck": "2026-10-27.pack-check.v4",
+   "pack_refinish": "2026-10-27.pack-refinish.v2"
+  },
+  "approved_by": "kenil.shah@e2m.solutions",
+  "finish_mode": "finish",
+  "brief_schema": "brief_document_v4",
+  "approved_hash": "30b5592e76cfba9bc7ac0eacdb99088ca99b332c9bdf17e23890bc450532a888",
+  "handoff_version": "brief_handoff_v2",
+  "approval_delegated": true,
+  "knowledge_base_version": "wia-kb-2026-10-22.c-a1a75795"
+ },
+ "change": {
+  "at": "2026-10-27T03:19:24.024512+00:00",
+  "by": "content-pack step",
+  "kind": "finish_again",
+  "note": null,
+  "paths": [],
+  "pieces": [],
+  "delegated": false
+ },
+ "versions": [
+  {
+   "pack_id": "pack_da2ebc56e84190afa8b79583",
+   "supersedes_id": null,
+   "manifest_hash": "79825479089d1a571fa011fbc5c64370bd03c43e1bd06b9380b69c38483bd609",
+   "approval_status": "pending",
+   "created_at": "2026-10-25T16:59:44.699145+00:00",
+   "run_id": "pack_run_da2ebc56e84190afa8b79583",
+   "kind": "generated",
+   "by": "content-pack step",
+   "delegated": false,
+   "pieces": [],
+   "paths": [],
+   "note": null
+  },
+  {
+   "pack_id": "pack_625242484cac46bab61742676870bd93",
+   "supersedes_id": "pack_da2ebc56e84190afa8b79583",
+   "manifest_hash": "0f61681258d6e8482aabfdd5a3feff82105badc4a49d144847b31ed26c395acd",
+   "approval_status": "pending",
+   "created_at": "2026-10-25T17:07:51.331392+00:00",
+   "run_id": "pack_run_da2ebc56e84190afa8b79583",
+   "kind": "edit",
+   "by": "ai@weddingindustryads.com",
+   "delegated": true,
+   "pieces": [
+    "carousel"
+   ],
+   "paths": [
+    "slides[0].text"
+   ],
+   "note": null
+  },
+  {
+   "pack_id": "pack_7cb0b5dac0dc47ca97371f09c9a4ff90",
+   "supersedes_id": "pack_625242484cac46bab61742676870bd93",
+   "manifest_hash": "0cdf02429602655952851109bdeb316ccc488f6c14252a32323fdd4035e9ff6a",
+   "approval_status": "pending",
+   "created_at": "2026-10-25T17:07:52.434692+00:00",
+   "run_id": "pack_run_da2ebc56e84190afa8b79583",
+   "kind": "edit",
+   "by": "ai@weddingindustryads.com",
+   "delegated": true,
+   "pieces": [
+    "carousel"
+   ],
+   "paths": [
+    "slides[2].text"
+   ],
+   "note": null
+  },
+  {
+   "pack_id": "pack_1810a7fc6bc54df296a5749d58d6928f",
+   "supersedes_id": "pack_7cb0b5dac0dc47ca97371f09c9a4ff90",
+   "manifest_hash": "9ee802b704a63caeda46b5e74f0ba5f799f41e37f431b83cafa852320f12796f",
+   "approval_status": "pending",
+   "created_at": "2026-10-25T17:07:53.642271+00:00",
+   "run_id": "pack_run_da2ebc56e84190afa8b79583",
+   "kind": "edit",
+   "by": "ai@weddingindustryads.com",
+   "delegated": true,
+   "pieces": [
+    "carousel"
+   ],
+   "paths": [
+    "slides[4].text"
+   ],
+   "note": null
+  },
+  {
+   "pack_id": "pack_68ba881421284c37a3b9e92df8c9b16f",
+   "supersedes_id": "pack_1810a7fc6bc54df296a5749d58d6928f",
+   "manifest_hash": "7c464aac22016a0dbcbde6b98feb8d681686ffa2f4a6b5534eb4aff96f0bbd26",
+   "approval_status": "pending",
+   "created_at": "2026-10-25T17:07:54.835779+00:00",
+   "run_id": "pack_run_da2ebc56e84190afa8b79583",
+   "kind": "edit",
+   "by": "ai@weddingindustryads.com",
+   "delegated": true,
+   "pieces": [
+    "reel_1"
+   ],
+   "paths": [
+    "script"
+   ],
+   "note": null
+  },
+  {
+   "pack_id": "pack_bb7e06f1539a45c9925bacfabb7fa1fb",
+   "supersedes_id": "pack_68ba881421284c37a3b9e92df8c9b16f",
+   "manifest_hash": "e0ce7b75b22719cb7784afd7742191107a5e67ceb73457257870b045cbd9c928",
+   "approval_status": "approved",
+   "created_at": "2026-10-25T17:07:56.039900+00:00",
+   "run_id": "pack_run_da2ebc56e84190afa8b79583",
+   "kind": "edit",
+   "by": "ai@weddingindustryads.com",
+   "delegated": true,
+   "pieces": [
+    "reel_3"
+   ],
+   "paths": [
+    "caption.body"
+   ],
+   "note": null
+  },
+  {
+   "pack_id": "pack_86676107663f5a8e70c990ec",
+   "supersedes_id": "pack_bb7e06f1539a45c9925bacfabb7fa1fb",
+   "manifest_hash": "86dafe70c793fbed1f9109c784ef24e6b1eac39b79b69db4c5c3d515a87e3cd7",
+   "approval_status": "pending",
+   "created_at": "2026-10-27T03:19:24.024512+00:00",
+   "run_id": "pack_run_86676107663f5a8e70c990ec",
+   "kind": "finish_again",
+   "by": "content-pack step",
+   "delegated": false,
+   "pieces": [],
+   "paths": [],
+   "note": null
+  }
+ ],
+ "approval_delegated": true,
+ "can_edit": true,
+ "can_decide": true,
+ "can_finish_again": true,
+ "can_mark_published": true,
+ "removed_material": null
+}

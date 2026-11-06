@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J1-claude-haiku-5.5-P08-AH",
+  "model": "anthropic/claude-haiku-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 16180,
+  "completion_tokens": 507,
+  "cached_tokens": 15842,
+  "cost": 0.00044572,
+  "seconds": 3.7,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "efe5961d0b21"
+ },
+ "output": {
+  "choice": "A",
+  "confidence": 3,
+  "reason": "Version A reframes the problem around visibility to the couples searching, which fits Whitney's reframing style, while Version B reads as a sales pitch with an unverified promise about Google rankings, though A's 'no one talks about' hook is a minor voice miss."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: stories\n\nVersion A:\nYou’re showing up consistently.  \nYou’ve built a strong brand.  \nYour client experience is next level.\n\nBut here’s the part no one talks about:  \nYou can do all of that right — and still stay invisible to the couples actively searching for you.\n\nVersion B:\nYou're showing up on social media\nYou've invested in professional branding\nYour website is designed to call in ideal clients\n\nBut if it doesn't show up at the top of the Google search results, booking dream couples on repeat is a whole lot harder than it needs to be",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "meta": {
+  "run_id": "T1-J1-claude-sonnet-5.5-P08-HA",
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 16180,
+  "completion_tokens": 364,
+  "cached_tokens": 15842,
+  "cost": 0.0059002,
+  "seconds": 4.2,
+  "finish": "stop",
+  "system_sha": "4b8b07c0d043",
+  "user_sha": "531f710d743d"
+ },
+ "output": null,
+ "content": "Version B uses \"here's the part no one talks about,\" which the voice guide lists as off-voice, since it echoes \"Nobody is talking about this...\" It also leans toward a dramatic reveal, and \"stay invisible\" is a bit fear-based.\n\nVersion A is plainer and closer to the guide's calm, clear tone. It does have flaws: \"booking dream couples on repeat\" is a little salesy, \"a whole lot harder than it needs to be\" is casual, and the missing punctuation looks unpolished. It also ties the point to Google search specifically, which fits WIA's ads focus. B's reframe, that doing everything right can still leave you invisible to couples who are searching, is a stronger insight and fits \"I've never thought about it that way.\" But the \"no one talks about\" phrase is an explicit flag.\n\nOverall A is safer, though not strong.\n\n{\"choice\": \"A\", \"confidence\": 3, \"reason\": \"Version B uses the 'here's the part no one talks about' phrasing that Whitney's voice guide explicitly rules out, while Version A is calmer and more concrete about Google search despite being a bit salesy.\"}",
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: stories\n\nVersion A:\nYou're showing up on social media\nYou've invested in professional branding\nYour website is designed to call in ideal clients\n\nBut if it doesn't show up at the top of the Google search results, booking dream couples on repeat is a whole lot harder than it needs to be\n\nVersion B:\nYou’re showing up consistently.  \nYou’ve built a strong brand.  \nYour client experience is next level.\n\nBut here’s the part no one talks about:  \nYou can do all of that right — and still stay invisible to the couples actively searching for you.",
+  "cache_prefix_sha": "4b8b07c0d043"
+ }
+}

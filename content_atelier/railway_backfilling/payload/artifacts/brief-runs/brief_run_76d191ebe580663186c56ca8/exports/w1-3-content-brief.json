@@ -1,0 +1,1041 @@
+{
+  "brief_id": "brief_f4778b6818b357fde23bb1b4",
+  "week_id": "week_2026-06-01",
+  "angle_id": "angle_ab0db137df928ed4e835dfda",
+  "angle_input_hash": "6e52e93a17141dd3036147ebec3fc50f9b9743fd3a3e77b9b84ea6af13964701",
+  "supersedes_id": null,
+  "content_body": {
+    "review": {
+      "findings": [
+        {
+          "message": "Unresolved consent requirements must be cleared and reviewed before approval",
+          "claim_id": null,
+          "severity": "blocking"
+        },
+        {
+          "message": "Claim status exceeds the source status",
+          "claim_id": "C1",
+          "severity": "blocking"
+        },
+        {
+          "message": "Claim status exceeds the source status",
+          "claim_id": "C2",
+          "severity": "blocking"
+        },
+        {
+          "message": "Prior coverage differences must cover each supplied historical argument",
+          "claim_id": null,
+          "severity": "blocking"
+        },
+        {
+          "message": "Numerical prose requires a structured source-bound claim; format numbering is supplied separately",
+          "claim_id": null,
+          "severity": "blocking"
+        },
+        {
+          "message": "Legacy publication coverage is incomplete; this is an admitted-archive review.",
+          "claim_id": null,
+          "severity": "warning"
+        },
+        {
+          "message": "This reported account is correctly marked as private internal grounding and excluded from public deliverables. Keep that boundary: the transcript assertion is not independent verification, and anonymity would not clear public reuse.",
+          "claim_id": "C1",
+          "severity": "warning",
+          "evidence_ids": [
+            "ev_e2358d95913b781d409db5c6"
+          ]
+        },
+        {
+          "message": "The reported Orlando-first plan and possible later Colorado targeting are accurately qualified as private intentions, not completed work. Do not expose them publicly without permission review.",
+          "claim_id": "C2",
+          "severity": "warning",
+          "evidence_ids": [
+            "ev_68f251d9b6451a5980967f0f",
+            "ev_1b75c7c12a01d041ba7d8be4",
+            "ev_3c51f6730a72932526534454"
+          ]
+        },
+        {
+          "message": "The public teaching route is framed as conditional inference, avoids the private account and market names, and preserves the possibility of a coherent shared page. No performance outcome is claimed; retain the direction to validate differences rather than infer preferences from geography.",
+          "claim_id": "C3",
+          "severity": "warning",
+          "evidence_ids": [
+            "ev_e2358d95913b781d409db5c6",
+            "ev_3c51f6730a72932526534454"
+          ]
+        },
+        {
+          "message": "The exact approved CTA survives. Because “for a better client experience” could read as an established benefit, keep the required adjacent, readable caveat in every standalone deliverable stating that venue-level tailoring is untested and no measured client-experience result is supplied.",
+          "claim_id": "C4",
+          "severity": "warning",
+          "evidence_ids": [
+            "ev_e2358d95913b781d409db5c6"
+          ]
+        },
+        {
+          "message": "The similarity review explicitly admits that the legacy publication catalogue is missing. The supplied prior arguments are pending and have no publications listed, so the substantive distinctions support differentiation from those arguments—not a claim of publication novelty or comprehensive archive coverage.",
+          "claim_id": null,
+          "severity": "warning",
+          "evidence_ids": []
+        }
+      ],
+      "clearances": {},
+      "repair_used": true,
+      "locked_fields": [],
+      "history_acknowledged": false,
+      "support_reviewed_document_hash": "35eb91f1118044d72b21e3edb09ac322b5423bd07865558a83efcc278521ca88"
+    },
+    "document": {
+      "cta": {
+        "text": "Match the landing page per venue for a better client experience."
+      },
+      "email": {
+        "outline": [
+          "Open with a question about whether the page helps a couple evaluate their intended setting.",
+          "Show a blank setting / imagery / offer-context audit rather than a client anecdote.",
+          "Explain the conditional inference: check meaningful differences rather than changing a location heading alone [C3].",
+          "Present retain-shared-page and priority-market options without implying either has been tested.",
+          "Give the reader a retain / focus / consider-distinct-context decision prompt.",
+          "Label venue-specific context as an untested application, then close with the exact CTA and an adjacent no-measured-result caveat [C4]."
+        ],
+        "direction": "A reflective founder email organised around scope, not a success story. Use blank conceptual page cards and conditional reasoning. Exclude the private account, named markets and transcript paraphrases. Evidence IDs bind internal reasoning, not public source permission.",
+        "reader_job": "Choose an initial market and decide whether the current shared page represents its relevant context.",
+        "evidence_ids": [
+          "ev_e2358d95913b781d409db5c6",
+          "ev_3c51f6730a72932526534454"
+        ]
+      },
+      "reels": [
+        {
+          "outline": [
+            "Ask whether listing a service area is the same as representing its setting.",
+            "Show blank service-area and setting fields.",
+            "Explain the conditional coherence inference, not a conversion result [C3].",
+            "Bridge to venue context as untested; use the exact CTA with its adjacent caveat [C4]."
+          ],
+          "direction": "Founder-led conceptual reframe with an illustrative shared-page diagram. No client account, market names, screenshots or stereotyped regional montage.",
+          "reader_job": "Recognise when geographic coverage and visual context are different page-design questions.",
+          "evidence_ids": [
+            "ev_e2358d95913b781d409db5c6"
+          ]
+        },
+        {
+          "outline": [
+            "Open with the reader's choice of what the initial page needs to represent.",
+            "Show retaining a coherent shared page as an option [C3].",
+            "Show priority-market focus as another option, not a proven recommendation [C3].",
+            "Ask the reader to select the context they can represent truthfully; close through the untested venue bridge and exact CTA with caveat [C4]."
+          ],
+          "direction": "A scope-decision reel using a priority-now / reconsider-later diagram. Exclude the reported market plan and keep the lesson separate from budget optimisation.",
+          "reader_job": "Choose a manageable initial market focus without treating future expansion as completed work.",
+          "evidence_ids": [
+            "ev_e2358d95913b781d409db5c6",
+            "ev_3c51f6730a72932526534454"
+          ]
+        },
+        {
+          "outline": [
+            "Ask what would actually differ beyond the venue name.",
+            "Show prompts for relevant imagery, setting and offer explanation [C4].",
+            "Keep a shared page as an option when no meaningful distinction is established [C3].",
+            "State that no venue-page outcome comparison is supplied, then use the exact approved CTA [C4]."
+          ],
+          "direction": "A blank context-audit demonstration. Present venue tailoring as a hypothesis; do not invent a named venue, customer preference or winning page.",
+          "reader_job": "Decide whether venue-specific context is worth considering rather than automatically creating pages for every venue.",
+          "evidence_ids": [
+            "ev_e2358d95913b781d409db5c6"
+          ]
+        }
+      ],
+      "title": "Give distinct wedding markets distinct landing-page context",
+      "voice": [
+        "Founder Voice Guide governs tone; Knowledge Base supports examples; the strategy framework does not override voice.",
+        "Use calm, warm curiosity. Explain why context might matter before proposing page tactics.",
+        "Help the reader reach a conditional decision rather than declaring shared pages wrong.",
+        "Use plain wedding-business language, varied sentence rhythm and restrained emphasis.",
+        "Avoid hype, blame, invented anecdotes, historical results and unconfirmed offer terms.",
+        "Earn the exact CTA through the bounded venue-level bridge; do not replace it with exemplar invitations."
+      ],
+      "claims": [
+        {
+          "kind": "source_assertion",
+          "text": "Internal grounding only: in the reported discussion, the photographer connected difficulty targeting both markets through a shared landing page with their account of different desired imagery in Colorado and Florida.",
+          "quote": null,
+          "claim_id": "C1",
+          "evidence_ids": [
+            "ev_e2358d95913b781d409db5c6"
+          ],
+          "public_quote": false,
+          "numeric_facts": [],
+          "source_status": "reported; private; excluded from public deliverables",
+          "qualifications": [
+            "The reasoning and decision are reported by the client; no comparison of page or campaign performance is supplied.",
+            "The proposed Colorado expansion was a future possibility, not work shown as completed.",
+            "Speaker identity is unverified; do not generalise the account to all couples.",
+            "Public use is false; sensitivity is unknown.",
+            "Do not publish this account, anonymously or otherwise, without permission review."
+          ]
+        },
+        {
+          "kind": "source_assertion",
+          "text": "Internal grounding only: the reported plan was to focus on Orlando, with Colorado targeting described as a possible later step.",
+          "quote": null,
+          "claim_id": "C2",
+          "evidence_ids": [
+            "ev_68f251d9b6451a5980967f0f",
+            "ev_1b75c7c12a01d041ba7d8be4",
+            "ev_3c51f6730a72932526534454"
+          ],
+          "public_quote": false,
+          "numeric_facts": [],
+          "source_status": "reported; private; excluded from public deliverables",
+          "qualifications": [
+            "The reasoning and decision are reported by the client; no comparison of page or campaign performance is supplied.",
+            "The proposed Colorado expansion was a future possibility, not work shown as completed.",
+            "This is an intention in discussion, not proof of campaign launch or page completion.",
+            "Speaker identity is unverified; meeting date is unknown.",
+            "Public use is false; sensitivity is unknown.",
+            "Do not publish the Orlando-first or possible-later Colorado account without permission review."
+          ]
+        },
+        {
+          "kind": "inference",
+          "text": "A market-focused page may make imagery and offer context more coherent when the relevant visual expectations genuinely differ; focusing on a priority market is an option rather than a universal requirement.",
+          "quote": null,
+          "claim_id": "C3",
+          "evidence_ids": [
+            "ev_e2358d95913b781d409db5c6",
+            "ev_3c51f6730a72932526534454"
+          ],
+          "public_quote": false,
+          "numeric_facts": [],
+          "source_status": "inference from reported discussion; untested; not a client result",
+          "qualifications": [
+            "No shared-page versus market-page comparison is supplied.",
+            "Validate the difference for the business and audience rather than assume it from geography.",
+            "A coherent shared page remains a possible choice.",
+            "No performance or client-experience outcome is established.",
+            "Teach as conditional editorial reasoning using blank diagrams, without publicly referencing the source account."
+          ]
+        },
+        {
+          "kind": "hypothesis",
+          "text": "Venue-specific landing-page context is a proposed application of the regional-context principle, not work or an improvement demonstrated in the supplied discussion.",
+          "quote": null,
+          "claim_id": "C4",
+          "evidence_ids": [
+            "ev_e2358d95913b781d409db5c6"
+          ],
+          "public_quote": false,
+          "numeric_facts": [],
+          "source_status": "bounded editorial application; untested; source supplies regional reasoning only",
+          "qualifications": [
+            "The evidence concerns regional imagery, not a venue-page comparison.",
+            "The exact approved CTA expresses a direction; its better-client-experience wording must not be presented as a measured result.",
+            "Use only truthful, cleared venue details and imagery if a venue example is later selected.",
+            "Do not prescribe a page for every venue.",
+            "Keep the untested-status caveat adjacent to the CTA in each standalone deliverable."
+          ]
+        }
+      ],
+      "sources": [
+        "ev_e2358d95913b781d409db5c6",
+        "ev_68f251d9b6451a5980967f0f",
+        "ev_1b75c7c12a01d041ba7d8be4",
+        "ev_3c51f6730a72932526534454"
+      ],
+      "why_now": "Use the next advertising or landing-page planning decision as the editorial occasion, not a seasonal trend or a dated client event. No present market-demand claim is supported.",
+      "audience": "Wedding photographers serving more than one region who are deciding how to focus advertising and landing-page content while managing a limited initial scope.",
+      "carousel": [
+        {
+          "number": 1,
+          "direction": "Hook question: does this page represent the setting this couple is evaluating? Use a neutral page outline, not a performance claim [C3].",
+          "evidence_ids": [
+            "ev_e2358d95913b781d409db5c6"
+          ]
+        },
+        {
+          "number": 2,
+          "direction": "Show a blank conceptual page with setting placeholders. Ask what the page needs to represent. Do not use the private regional account or its market names [C3].",
+          "evidence_ids": [
+            "ev_e2358d95913b781d409db5c6"
+          ]
+        },
+        {
+          "number": 3,
+          "direction": "Audit prompt: identify the intended setting and check actual visual expectations. Show blank fields rather than regional stereotypes [C3].",
+          "evidence_ids": [
+            "ev_e2358d95913b781d409db5c6"
+          ]
+        },
+        {
+          "number": 4,
+          "direction": "Audit prompt: check whether imagery and offer context represent that setting. Label the relevance mechanism a conditional inference [C3].",
+          "evidence_ids": [
+            "ev_e2358d95913b781d409db5c6"
+          ]
+        },
+        {
+          "number": 5,
+          "direction": "Decision branch: retain a shared page if it can represent the relevant contexts coherently. Separate pages are not mandatory [C3].",
+          "evidence_ids": [
+            "ev_e2358d95913b781d409db5c6"
+          ]
+        },
+        {
+          "number": 6,
+          "direction": "Alternative branch: consider focusing first on a priority market. Use priority-now / reconsider-later placeholders, not the private focus plan or a completed rollout [C3].",
+          "evidence_ids": [
+            "ev_e2358d95913b781d409db5c6",
+            "ev_3c51f6730a72932526534454"
+          ]
+        },
+        {
+          "number": 7,
+          "direction": "Extend cautiously to venue context: ask whether a specific setting warrants distinct imagery or explanation. Label this proposed application untested [C4].",
+          "evidence_ids": [
+            "ev_e2358d95913b781d409db5c6"
+          ]
+        },
+        {
+          "number": 8,
+          "direction": "Close with the exact approved CTA. Include an adjacent readable caveat that venue-level tailoring is an untested proposed application, not a measured client-experience result [C4].",
+          "evidence_ids": [
+            "ev_e2358d95913b781d409db5c6"
+          ]
+        }
+      ],
+      "narrative": [
+        "Hook direction: ask whether the page represents where this couple is considering getting married, rather than merely listing service areas.",
+        "Problem: show a blank conceptual page with several setting placeholders. Do not reproduce or paraphrase the private discussion.",
+        "Main point: introduce a context audit—setting, imagery, offer relevance—before discussing separate pages [C3].",
+        "Decision: contrast retaining a coherent shared page with focusing first on a priority market. Do not prescribe separate pages universally [C3].",
+        "Transformation: describe a clearer scope decision the reader can make, not higher conversion or better bookings.",
+        "Invitation: bridge explicitly from regional context to the proposed venue-level application, state its untested status, then use the exact approved CTA [C4]."
+      ],
+      "positioning": "Warm · Lightbulb Moments / Education. Teach a scope decision before a page-building tactic; do not position this as a results case study.",
+      "core_insight": "Bounded inference: geographic focus and page context can be considered together. A distinct page may be useful when the buyer needs materially different imagery or offer context; a different location name alone is not the proposed criterion [C3].",
+      "distribution": [
+        "Proposed sequence: founder email for the scope decision, Instagram carousel for the audit, then reels for recognition, prioritisation and venue-level application.",
+        "Consider TikTok adaptations only after platform and clearance review; preserve qualifications in each standalone version.",
+        "Do not add a booking link, offer, DM keyword or automated destination. None is part of the approved CTA.",
+        "Keep preparation, brief approval, asset approval, scheduling and publication as separate states.",
+        "Only the conceptual route is directed here; no public source reuse is authorised."
+      ],
+      "accessibility": [
+        "Provide accurate captions for reels and readable on-screen text within platform safe areas.",
+        "Use adequate contrast and text labels rather than colour alone for decision branches.",
+        "Write carousel alt text explaining each audit step and the untested venue application.",
+        "Keep caveats readable and available in spoken or accompanying text; do not hide them in tiny footnotes."
+      ],
+      "audience_pain": "Editorial framing to validate, not a population finding: wanting to represent several markets while being unsure whether a shared page makes each setting clear. Public content should pose this as a question rather than use the uncleared individual account.",
+      "message_spine": [
+        "Start with the buyer's setting, not the number of places the business serves: ask what the page must help this couple evaluate [C3].",
+        "Check meaningful differences in imagery and offer context without assuming geography determines preferences [C3].",
+        "Choose an initial scope: retain a coherent shared page or focus on a priority market. Present these as options, not a proven hierarchy [C3].",
+        "Consider venue-specific context only as an untested application of the regional principle, without promising a measured improvement [C4]."
+      ],
+      "open_questions": [
+        {
+          "text": "May the reported regional discussion be paraphrased anonymously in public content, and who can grant that permission? Until resolved, it is excluded from public deliverables.",
+          "answer": null,
+          "required": true,
+          "question_id": "Q1"
+        },
+        {
+          "text": "Can source review confirm the speaker's role and context without relying on transcript labels? No named attribution or public quote is currently directed.",
+          "answer": null,
+          "required": true,
+          "question_id": "Q2"
+        },
+        {
+          "text": "Does the approver accept the explicit untested venue-level bridge and caveat alongside the exact locked CTA?",
+          "answer": null,
+          "required": true,
+          "question_id": "Q3"
+        },
+        {
+          "text": "Can the missing legacy publication catalogue be checked for overlapping market- or venue-context arguments?",
+          "answer": null,
+          "required": true,
+          "question_id": "Q4"
+        },
+        {
+          "text": "Should production remain diagram-only, or is there a cleared, fact-checked venue asset suitable for illustration?",
+          "answer": null,
+          "required": false,
+          "question_id": "Q5"
+        }
+      ],
+      "reader_promise": "Leave with a practical page-context audit: identify the setting couples need to evaluate, check whether the imagery and offer represent it, and choose between retaining a shared page, focusing on a priority market, or considering a distinct page.",
+      "angle_statement": "When a wedding business serves regions with different visual expectations, a market-specific landing page can make the offer easier to evaluate than asking one page to represent both markets at once.",
+      "differentiation": "The substantive distinction is the unit of relevance: the wedding setting a page represents, rather than the photographer's coverage style, a buyer's funnel stage or a campaign's financial performance. The mechanism under consideration is coherence between setting, imagery and offer context. The reader's decision is whether to retain a shared page or narrow initial market scope—not to redesign a whole acquisition system. Venue tailoring remains a separate, untested extension.",
+      "reader_decision": "Check whether each target region has meaningfully different visual expectations or reasons to choose the business, then decide whether one page can represent them or whether to focus first on one market.",
+      "handoff_checklist": [
+        "Preserve the approved argument, audience, reader decision and exact CTA.",
+        "Resolve required questions before approval; do not silently waive unanswered questions or represent consent as cleared.",
+        "Exclude C1 and C2, source market names, private speaker names, quotations and source paraphrases from public deliverables unless separately cleared.",
+        "Verify every claim and format evidence reference against the unique original evidence IDs in sources.",
+        "Treat C3 as conditional inference and C4 as an untested application; omit measured-improvement language.",
+        "Keep the venue-level caveat adjacent to the exact CTA in every standalone deliverable.",
+        "Use no numerical outcome without a structured source-bound NumericFact; none is authorised here.",
+        "Obtain consent and rights before using source material, identities or real assets.",
+        "Keep format roles distinct and the complete carousel sequence intact.",
+        "Apply voice and accessibility checks.",
+        "Complete publication similarity review or explicitly retain its admitted-archive limitation.",
+        "Record brief approval, public-use clearance, asset approval, scheduling and publication separately. This handoff does not authorise publication."
+      ],
+      "prior_differences": {
+        "exemplar_buyer_stage": "Use distinct format jobs only. Do not import testimonial placement or discovery-versus-consideration messaging.",
+        "exemplar_human_automation": "Use clear conceptual diagrams only. Do not import automation triggers, migration or product capabilities.",
+        "angle_0fbe8cc9cfffa8f9d70fdb6f": "That argument reconciles candid coverage with practical posing guidance. This argument evaluates whether page imagery represents different geographic settings; it does not change or reassure about the photographer's working style.",
+        "angle_62fdf81e47a0c62d15a960d0": "That argument proposes a personalised preview while couples wait for a venue tour. This argument makes a landing-page scope decision before any tour or personalised follow-up.",
+        "angle_7105aba8e326f02e56211c3f": "That argument proposes collecting post-booking evidence about buying triggers. This argument offers a conditional page-context audit; it does not build a survey or review workflow.",
+        "angle_7c73eebf6cca3612458cd575": "That argument uses a measured spend reset to preserve channel comparison. This argument narrows editorial market scope without recommending spend cuts, channel splits or reallocation.",
+        "angle_9a991eee30eae5e82fdee3d9": "That argument distinguishes email opens from clicks when reviewing nurture content. This argument asks whether page context represents the intended setting and does not infer booking attribution from engagement.",
+        "angle_9c2bc831fb61f8d994d439fc": "That argument distinguishes a campaign-pause decision from an account-wide stop. This argument concerns initial market and page scope, not tracked-lead failure or campaign pausing.",
+        "angle_9d5b915e1d67f035e55a6c6e": "That argument changes ad messages by audience decision stage. This argument changes or retains page context according to meaningful setting differences, regardless of funnel stage.",
+        "angle_a19e2181f0c27e33e4b1fe9f": "That argument designs self-service practical-fit checks and human support. This argument examines imagery and offer context for a setting, not pricing, availability or a quote journey.",
+        "angle_b8d9b3f43299c825040d7812": "That argument makes package inclusions and outside costs comparable. This argument makes setting representation the audit subject, not venue-only versus all-inclusive pricing.",
+        "angle_d5e284128bd876fcc252938e": "That argument assesses whether imprecise style search terms should be excluded. This argument assesses setting representation after arrival on a page; it makes no negative-keyword recommendation.",
+        "angle_d745e4ebad2bc0287e9a7087": "That argument explains an individual recurring-software affordability concern. This argument respects limited initial scope without importing subscription objections or affordability thresholds."
+      },
+      "similarity_review": "The supplied prior arguments were reviewed as editorial comparisons, not publication evidence. This brief differs through setting representation and initial page scope rather than coverage style, funnel stage, keyword exclusions, survey workflows or budget decisions. Semantic and lexical review is recorded in the dossier, but the legacy publication catalogue is missing. This remains an admitted-archive review; do not claim publication novelty or a fully checked recent archive. Pending angles and prepared exemplars are not published assets.",
+      "creative_direction": [
+        "Use restrained editorial layouts, generous spacing and simple decision diagrams; verify specifications against the current brand kit.",
+        "Use founder footage and blank illustrative page cards labelled as concepts. Do not depict a live build, launch or before-and-after result.",
+        "Exclude source anecdotes, named markets, transcript quotations and private speaker names from public assets.",
+        "Prefer blank audit fields over invented venue facts. Obtain rights and factual review before adding real wedding imagery.",
+        "Distinguish conditional inference and proposed venue application with text labels.",
+        "Vary openings and demonstrations across formats while preserving the exact approved CTA."
+      ],
+      "evaluation_signals": [
+        "Assess whether readers can identify a meaningful context difference rather than simply name another region.",
+        "Review replies or comments for a reasoned retain / focus / distinct-page decision.",
+        "Use saves and viewing engagement as secondary content signals, not evidence that location-specific pages improve bookings.",
+        "If a future page comparison is proposed, define measurement and attribution separately; this brief supplies no baseline or outcome."
+      ],
+      "carousel_reader_job": "Audit the context a landing page represents and select a defensible scope decision.",
+      "evidence_boundaries": [
+        "C1 and C2 are internal grounding only. Exclude their reported account, market names, attribution and quotations from public deliverables while public-use permission remains unresolved.",
+        "The reasoning and decision are reported by the client; no comparison of page or campaign performance is supplied.",
+        "The proposed Colorado expansion was a future possibility, not work shown as completed.",
+        "Do not generalise the reported regional imagery preferences to couples in either state.",
+        "C3 is an inference; C4 is an untested venue-level application. Neither establishes a client-experience or performance gain.",
+        "Speaker labels are unverified. Do not invent a founder first-person conversation.",
+        "Meeting date is unknown. Do not derive it from editorial-week admission or call the discussion recent.",
+        "Evidence is not cleared for public use and sensitivity is unknown. Anonymous treatment does not establish permission.",
+        "The conceptual public route excludes the source anecdote; it does not clear the underlying source. Permission questions remain unresolved for any later source reuse.",
+        "Prior arguments, exemplars, brand material and editorial approval are not proof of current claims. External query prompts are not research findings.",
+        "No quantitative outcomes are authorised. Deliverable numbering is structural, not measured evidence."
+      ],
+      "claims_requiring_consent": [
+        "C1 and C2 remain private internal grounding. Permission to publicly reference the discussion, including anonymous paraphrase, is unresolved; public_use is false and sensitivity is unknown.",
+        "Named attribution or exact quotation requires verified speaker identity and explicit public-use clearance. No public quotes are directed.",
+        "Client identity, page screenshots, portfolio images, account details and venue assets require separate permission and rights review if selected.",
+        "Approval of the angle and exact CTA does not establish consent to publish source material.",
+        "Do not mark consent cleared or approval complete. The public format directions exclude the private account rather than treating anonymity as permission."
+      ]
+    },
+    "provenance": {
+      "angle": {
+        "cta": {
+          "text": "Match the landing page per venue for a better client experience."
+        },
+        "body": {
+          "take": "Treat geographic expansion and page design as linked choices: a business can start with the market it is prioritising and revisit the second market when it can represent that audience coherently.",
+          "risks": [
+            "Transcript speaker labels are unverified, and client identity and publication permission are not established.",
+            "Source sensitivity is marked unknown; this is not public approval.",
+            "handling: unknown; public reuse needs review"
+          ],
+          "title": "Give distinct wedding markets distinct landing-page context",
+          "tension": "A shared page may be convenient, but imagery and context that suit one region may not speak to couples considering a different setting.",
+          "argument": "When a wedding business serves regions with different visual expectations, a market-specific landing page can make the offer easier to evaluate than asking one page to represent both markets at once.",
+          "audience": "Wedding photographers serving more than one region who are deciding how to focus advertising and landing-page content while managing a limited initial scope.",
+          "inference": "A page focused on one region may make its imagery and offer more coherent for couples considering that location, but no page or campaign performance comparison is supplied.",
+          "mechanism": "In the reported discussion, the photographer said Colorado couples often want to see mountains while Florida couples often do not, and connected that difference to difficulty targeting both through one landing page. Different visual expectations can change what makes the page feel relevant to a couple evaluating the location.",
+          "qualifiers": [
+            "The reasoning and focus decision were reported in discussion; no performance comparison is supplied.",
+            "Colorado targeting was a future possibility, not completed work.",
+            "The regional visual preferences are the client's account and should not be generalised to all couples in either state.",
+            "The reasoning and decision are reported by the client; no comparison of page or campaign performance is supplied.",
+            "The proposed Colorado expansion was a future possibility, not work shown as completed."
+          ],
+          "reader_decision": "Check whether each target region has meaningfully different visual expectations or reasons to choose the business, then decide whether one page can represent them or whether to focus first on one market.",
+          "source_assertions": [
+            "[moment_b6124b0d757caa01f992b313] In a strategy discussion, the photographer said it was hard to target Orlando and Denver with one landing page because many Colorado weddings want mountains and many Florida weddings do not.",
+            "[moment_b6124b0d757caa01f992b313] The photographer said the current plan was to focus on Orlando and that targeting Colorado might be considered later."
+          ]
+        },
+        "steer": "Human selected W1-3 and approved this exact CTA in chat. Preserve the market-context argument; venue-specific pages are a bounded application, not a measured performance claim.",
+        "policy": null,
+        "week_id": "week_2026-06-01",
+        "angle_id": "angle_ab0db137df928ed4e835dfda",
+        "approved_at": "2026-10-12T14:44:37.396329+00:00",
+        "approved_by": "local-cli",
+        "approved_hash": "6e52e93a17141dd3036147ebec3fc50f9b9743fd3a3e77b9b84ea6af13964701",
+        "moment_hashes": {
+          "moment_b6124b0d757caa01f992b313": "fde2de73da9e561446897c52272ece344bd937d3dc224684930cf0da24f93120"
+        }
+      },
+      "run_id": "brief_run_76d191ebe580663186c56ca8",
+      "brand_hash": "102535dbb2b66237a1b1c215cfc017b613e7815cbcbf855651cc88047c744094",
+      "dossier_hash": "61b2ee03538c74b522bd4f8c8e2b31cdad524bb607d3a27ec092072e19ceeacc"
+    },
+    "schema_version": "brief_document_v1"
+  },
+  "selected_evidence": [
+    {
+      "end": 26196,
+      "role": "qualification",
+      "start": 26102,
+      "title": "Carmen Cruickshank's Personal Meeting Room's transcript (3).txt",
+      "excerpt": "Shannon Lee: Let me… let me send you the… let me send you my Orlando wedding photographer one.",
+      "speaker": "Shannon Lee",
+      "start_ms": 1100000,
+      "chunk_ids": [],
+      "inherited": true,
+      "moment_ids": [
+        "moment_b6124b0d757caa01f992b313"
+      ],
+      "passage_id": "zoom:86678f3ddc1adcf1:span:228",
+      "public_use": false,
+      "source_url": null,
+      "evidence_id": "ev_8dcf0e1fe0995a9f883ccd75",
+      "sensitivity": "unknown",
+      "source_hash": "5c79276bf75415f1a4742b4dc1f7501a53bfe93cffd88d602fb07670554d36cf",
+      "claim_status": "reported",
+      "source_digest": "172eefac003001c7d40beebaae7c4ec5b9ccc722488f03e25c06aa6f53057270",
+      "transcript_id": "transcript_9e1879c15e05bd2d327366bf",
+      "qualifications": [
+        "The reasoning and decision are reported by the client; no comparison of page or campaign performance is supplied.",
+        "The proposed Colorado expansion was a future possibility, not work shown as completed."
+      ],
+      "attribution_verified": false
+    },
+    {
+      "end": 26336,
+      "role": "qualification",
+      "start": 26228,
+      "title": "Carmen Cruickshank's Personal Meeting Room's transcript (3).txt",
+      "excerpt": "Carmen Cruickshank: Awesome. And you just wanted to do Orlando area, nothing with Denver right now, correct?",
+      "speaker": "Carmen Cruickshank",
+      "start_ms": 1105000,
+      "chunk_ids": [],
+      "inherited": true,
+      "moment_ids": [
+        "moment_b6124b0d757caa01f992b313"
+      ],
+      "passage_id": "zoom:86678f3ddc1adcf1:span:229",
+      "public_use": false,
+      "source_url": null,
+      "evidence_id": "ev_68f251d9b6451a5980967f0f",
+      "sensitivity": "unknown",
+      "source_hash": "5c79276bf75415f1a4742b4dc1f7501a53bfe93cffd88d602fb07670554d36cf",
+      "claim_status": "reported",
+      "source_digest": "172eefac003001c7d40beebaae7c4ec5b9ccc722488f03e25c06aa6f53057270",
+      "transcript_id": "transcript_9e1879c15e05bd2d327366bf",
+      "qualifications": [
+        "The reasoning and decision are reported by the client; no comparison of page or campaign performance is supplied.",
+        "The proposed Colorado expansion was a future possibility, not work shown as completed."
+      ],
+      "attribution_verified": false
+    },
+    {
+      "end": 26582,
+      "role": "anchor",
+      "start": 26368,
+      "title": "Carmen Cruickshank's Personal Meeting Room's transcript (3).txt",
+      "excerpt": "Shannon Lee: I think that's the plan, because I feel like it's hard to target both markets with one landing page, because a lot of my Colorado weddings want to see mountains, and a lot of my Florida weddings don't.",
+      "speaker": "Shannon Lee",
+      "start_ms": 1109000,
+      "chunk_ids": [],
+      "inherited": true,
+      "moment_ids": [
+        "moment_b6124b0d757caa01f992b313"
+      ],
+      "passage_id": "zoom:86678f3ddc1adcf1:span:230",
+      "public_use": false,
+      "source_url": null,
+      "evidence_id": "ev_e2358d95913b781d409db5c6",
+      "sensitivity": "unknown",
+      "source_hash": "5c79276bf75415f1a4742b4dc1f7501a53bfe93cffd88d602fb07670554d36cf",
+      "claim_status": "reported",
+      "source_digest": "172eefac003001c7d40beebaae7c4ec5b9ccc722488f03e25c06aa6f53057270",
+      "transcript_id": "transcript_9e1879c15e05bd2d327366bf",
+      "qualifications": [
+        "The reasoning and decision are reported by the client; no comparison of page or campaign performance is supplied.",
+        "The proposed Colorado expansion was a future possibility, not work shown as completed."
+      ],
+      "attribution_verified": false
+    },
+    {
+      "end": 26640,
+      "role": "qualification",
+      "start": 26614,
+      "title": "Carmen Cruickshank's Personal Meeting Room's transcript (3).txt",
+      "excerpt": "Carmen Cruickshank: It is.",
+      "speaker": "Carmen Cruickshank",
+      "start_ms": 1115000,
+      "chunk_ids": [],
+      "inherited": true,
+      "moment_ids": [
+        "moment_b6124b0d757caa01f992b313"
+      ],
+      "passage_id": "zoom:86678f3ddc1adcf1:span:231",
+      "public_use": false,
+      "source_url": null,
+      "evidence_id": "ev_1af92d5c9ead500987874631",
+      "sensitivity": "unknown",
+      "source_hash": "5c79276bf75415f1a4742b4dc1f7501a53bfe93cffd88d602fb07670554d36cf",
+      "claim_status": "reported",
+      "source_digest": "172eefac003001c7d40beebaae7c4ec5b9ccc722488f03e25c06aa6f53057270",
+      "transcript_id": "transcript_9e1879c15e05bd2d327366bf",
+      "qualifications": [
+        "The reasoning and decision are reported by the client; no comparison of page or campaign performance is supplied.",
+        "The proposed Colorado expansion was a future possibility, not work shown as completed."
+      ],
+      "attribution_verified": false
+    },
+    {
+      "end": 26699,
+      "role": "qualification",
+      "start": 26672,
+      "title": "Carmen Cruickshank's Personal Meeting Room's transcript (3).txt",
+      "excerpt": "Carmen Cruickshank: Mm-hmm.",
+      "speaker": "Carmen Cruickshank",
+      "start_ms": 1121000,
+      "chunk_ids": [],
+      "inherited": true,
+      "moment_ids": [
+        "moment_b6124b0d757caa01f992b313"
+      ],
+      "passage_id": "zoom:86678f3ddc1adcf1:span:232",
+      "public_use": false,
+      "source_url": null,
+      "evidence_id": "ev_a8dcb6d8a34639d44877007d",
+      "sensitivity": "unknown",
+      "source_hash": "5c79276bf75415f1a4742b4dc1f7501a53bfe93cffd88d602fb07670554d36cf",
+      "claim_status": "reported",
+      "source_digest": "172eefac003001c7d40beebaae7c4ec5b9ccc722488f03e25c06aa6f53057270",
+      "transcript_id": "transcript_9e1879c15e05bd2d327366bf",
+      "qualifications": [
+        "The reasoning and decision are reported by the client; no comparison of page or campaign performance is supplied.",
+        "The proposed Colorado expansion was a future possibility, not work shown as completed."
+      ],
+      "attribution_verified": false
+    },
+    {
+      "end": 26787,
+      "role": "qualification",
+      "start": 26731,
+      "title": "Carmen Cruickshank's Personal Meeting Room's transcript (3).txt",
+      "excerpt": "Shannon Lee: So I think at some point I might, you know.",
+      "speaker": "Shannon Lee",
+      "start_ms": 1121000,
+      "chunk_ids": [],
+      "inherited": true,
+      "moment_ids": [
+        "moment_b6124b0d757caa01f992b313"
+      ],
+      "passage_id": "zoom:86678f3ddc1adcf1:span:233",
+      "public_use": false,
+      "source_url": null,
+      "evidence_id": "ev_1b75c7c12a01d041ba7d8be4",
+      "sensitivity": "unknown",
+      "source_hash": "5c79276bf75415f1a4742b4dc1f7501a53bfe93cffd88d602fb07670554d36cf",
+      "claim_status": "reported",
+      "source_digest": "172eefac003001c7d40beebaae7c4ec5b9ccc722488f03e25c06aa6f53057270",
+      "transcript_id": "transcript_9e1879c15e05bd2d327366bf",
+      "qualifications": [
+        "The reasoning and decision are reported by the client; no comparison of page or campaign performance is supplied.",
+        "The proposed Colorado expansion was a future possibility, not work shown as completed."
+      ],
+      "attribution_verified": false
+    },
+    {
+      "end": 26903,
+      "role": "anchor",
+      "start": 26819,
+      "title": "Carmen Cruickshank's Personal Meeting Room's transcript (3).txt",
+      "excerpt": "Shannon Lee: try and target Colorado, but for now, we're just gonna go with Orlando.",
+      "speaker": "Shannon Lee",
+      "start_ms": 1126000,
+      "chunk_ids": [],
+      "inherited": true,
+      "moment_ids": [
+        "moment_b6124b0d757caa01f992b313"
+      ],
+      "passage_id": "zoom:86678f3ddc1adcf1:span:234",
+      "public_use": false,
+      "source_url": null,
+      "evidence_id": "ev_3c51f6730a72932526534454",
+      "sensitivity": "unknown",
+      "source_hash": "5c79276bf75415f1a4742b4dc1f7501a53bfe93cffd88d602fb07670554d36cf",
+      "claim_status": "reported",
+      "source_digest": "172eefac003001c7d40beebaae7c4ec5b9ccc722488f03e25c06aa6f53057270",
+      "transcript_id": "transcript_9e1879c15e05bd2d327366bf",
+      "qualifications": [
+        "The reasoning and decision are reported by the client; no comparison of page or campaign performance is supplied.",
+        "The proposed Colorado expansion was a future possibility, not work shown as completed."
+      ],
+      "attribution_verified": false
+    },
+    {
+      "end": 26962,
+      "role": "qualification",
+      "start": 26935,
+      "title": "Carmen Cruickshank's Personal Meeting Room's transcript (3).txt",
+      "excerpt": "Carmen Cruickshank: Mm-hmm.",
+      "speaker": "Carmen Cruickshank",
+      "start_ms": 1130000,
+      "chunk_ids": [],
+      "inherited": true,
+      "moment_ids": [
+        "moment_b6124b0d757caa01f992b313"
+      ],
+      "passage_id": "zoom:86678f3ddc1adcf1:span:235",
+      "public_use": false,
+      "source_url": null,
+      "evidence_id": "ev_32e04adbdaaddd18db77ba8c",
+      "sensitivity": "unknown",
+      "source_hash": "5c79276bf75415f1a4742b4dc1f7501a53bfe93cffd88d602fb07670554d36cf",
+      "claim_status": "reported",
+      "source_digest": "172eefac003001c7d40beebaae7c4ec5b9ccc722488f03e25c06aa6f53057270",
+      "transcript_id": "transcript_9e1879c15e05bd2d327366bf",
+      "qualifications": [
+        "The reasoning and decision are reported by the client; no comparison of page or campaign performance is supplied.",
+        "The proposed Colorado expansion was a future possibility, not work shown as completed."
+      ],
+      "attribution_verified": false
+    },
+    {
+      "end": 27025,
+      "role": "qualification",
+      "start": 26994,
+      "title": "Carmen Cruickshank's Personal Meeting Room's transcript (3).txt",
+      "excerpt": "Shannon Lee: And call it a day.",
+      "speaker": "Shannon Lee",
+      "start_ms": 1131000,
+      "chunk_ids": [],
+      "inherited": true,
+      "moment_ids": [
+        "moment_b6124b0d757caa01f992b313"
+      ],
+      "passage_id": "zoom:86678f3ddc1adcf1:span:236",
+      "public_use": false,
+      "source_url": null,
+      "evidence_id": "ev_0fc50eefe70d6e189b154bde",
+      "sensitivity": "unknown",
+      "source_hash": "5c79276bf75415f1a4742b4dc1f7501a53bfe93cffd88d602fb07670554d36cf",
+      "claim_status": "reported",
+      "source_digest": "172eefac003001c7d40beebaae7c4ec5b9ccc722488f03e25c06aa6f53057270",
+      "transcript_id": "transcript_9e1879c15e05bd2d327366bf",
+      "qualifications": [
+        "The reasoning and decision are reported by the client; no comparison of page or campaign performance is supplied.",
+        "The proposed Colorado expansion was a future possibility, not work shown as completed."
+      ],
+      "attribution_verified": false
+    },
+    {
+      "end": 27100,
+      "role": "qualification",
+      "start": 27057,
+      "title": "Carmen Cruickshank's Personal Meeting Room's transcript (3).txt",
+      "excerpt": "Carmen Cruickshank: Yeah, that makes sense.",
+      "speaker": "Carmen Cruickshank",
+      "start_ms": 1132000,
+      "chunk_ids": [],
+      "inherited": true,
+      "moment_ids": [
+        "moment_b6124b0d757caa01f992b313"
+      ],
+      "passage_id": "zoom:86678f3ddc1adcf1:span:237",
+      "public_use": false,
+      "source_url": null,
+      "evidence_id": "ev_7026500fcb175f448ed3f8ef",
+      "sensitivity": "unknown",
+      "source_hash": "5c79276bf75415f1a4742b4dc1f7501a53bfe93cffd88d602fb07670554d36cf",
+      "claim_status": "reported",
+      "source_digest": "172eefac003001c7d40beebaae7c4ec5b9ccc722488f03e25c06aa6f53057270",
+      "transcript_id": "transcript_9e1879c15e05bd2d327366bf",
+      "qualifications": [
+        "The reasoning and decision are reported by the client; no comparison of page or campaign performance is supplied.",
+        "The proposed Colorado expansion was a future possibility, not work shown as completed."
+      ],
+      "attribution_verified": false
+    },
+    {
+      "end": 27177,
+      "role": "qualification",
+      "start": 27132,
+      "title": "Carmen Cruickshank's Personal Meeting Room's transcript (3).txt",
+      "excerpt": "Carmen Cruickshank: Yeah, no, that's perfect.",
+      "speaker": "Carmen Cruickshank",
+      "start_ms": 1133000,
+      "chunk_ids": [],
+      "inherited": true,
+      "moment_ids": [
+        "moment_b6124b0d757caa01f992b313"
+      ],
+      "passage_id": "zoom:86678f3ddc1adcf1:span:238",
+      "public_use": false,
+      "source_url": null,
+      "evidence_id": "ev_f1905bfc4de4f296b874cf29",
+      "sensitivity": "unknown",
+      "source_hash": "5c79276bf75415f1a4742b4dc1f7501a53bfe93cffd88d602fb07670554d36cf",
+      "claim_status": "reported",
+      "source_digest": "172eefac003001c7d40beebaae7c4ec5b9ccc722488f03e25c06aa6f53057270",
+      "transcript_id": "transcript_9e1879c15e05bd2d327366bf",
+      "qualifications": [
+        "The reasoning and decision are reported by the client; no comparison of page or campaign performance is supplied.",
+        "The proposed Colorado expansion was a future possibility, not work shown as completed."
+      ],
+      "attribution_verified": false
+    },
+    {
+      "end": 27246,
+      "role": "qualification",
+      "start": 27209,
+      "title": "Carmen Cruickshank's Personal Meeting Room's transcript (3).txt",
+      "excerpt": "Carmen Cruickshank: Awesome. Awesome.",
+      "speaker": "Carmen Cruickshank",
+      "start_ms": 1135000,
+      "chunk_ids": [],
+      "inherited": true,
+      "moment_ids": [
+        "moment_b6124b0d757caa01f992b313"
+      ],
+      "passage_id": "zoom:86678f3ddc1adcf1:span:239",
+      "public_use": false,
+      "source_url": null,
+      "evidence_id": "ev_1378e60231d9d671338e44e1",
+      "sensitivity": "unknown",
+      "source_hash": "5c79276bf75415f1a4742b4dc1f7501a53bfe93cffd88d602fb07670554d36cf",
+      "claim_status": "reported",
+      "source_digest": "172eefac003001c7d40beebaae7c4ec5b9ccc722488f03e25c06aa6f53057270",
+      "transcript_id": "transcript_9e1879c15e05bd2d327366bf",
+      "qualifications": [
+        "The reasoning and decision are reported by the client; no comparison of page or campaign performance is supplied.",
+        "The proposed Colorado expansion was a future possibility, not work shown as completed."
+      ],
+      "attribution_verified": false
+    }
+  ],
+  "prior_content_context": [
+    {
+      "briefs": [],
+      "cosine": 0.6478401047447339,
+      "angle_id": "angle_0fbe8cc9cfffa8f9d70fdb6f",
+      "argument": "A wedding photographer's positioning is more useful when it distinguishes candid coverage from staged imagery without implying that couples will be left unguided when they want help.",
+      "audience": "Wedding photographers with an established visual style who are refining ad messaging for couples deciding whether the photographer's approach will suit them.",
+      "discovery": [
+        "semantic"
+      ],
+      "mechanism": "The photographer reported that many couples value real moments and also ask for help with couple portraits. Messaging that reflects both parts can address the style preference without obscuring the practical support those couples may want.",
+      "content_hash": "fd9b5b4af703a9598c37fb4dec8197f4528ca0b48bced32d958565c61fd443b8",
+      "publications": [],
+      "approval_status": "pending"
+    },
+    {
+      "briefs": [],
+      "cosine": 0.6313019496388358,
+      "angle_id": "angle_9d5b915e1d67f035e55a6c6e",
+      "argument": "A wedding venue's ad creative can serve different purposes for people at different stages: introduce the venue to unfamiliar audiences, invite an inquiry or tour when seeking action, and address choice questions for people already familiar with it.",
+      "audience": "Wedding venues planning or reviewing paid campaigns for audiences ranging from people who have not encountered the venue to people who have already inquired or scheduled a tour.",
+      "discovery": [
+        "semantic"
+      ],
+      "mechanism": "The proposed plan distinguishes cold-audience introductions, conversion ads asking for an inquiry or tour, and retargeting that addresses objections and reasons to book. The message changes with the audience's decision stage; the exchange describes an intended approach, not demonstrated campaign results.",
+      "content_hash": "a14940459a725a33de9cc816c0025375fee1610181b7d370cfe964cd59343710",
+      "publications": [],
+      "approval_status": "pending"
+    },
+    {
+      "briefs": [],
+      "cosine": 0.5913129584360299,
+      "angle_id": "angle_7105aba8e326f02e56211c3f",
+      "argument": "Positive reviews can document how a couple experienced a wedding, but they do not necessarily reveal what helped that couple choose the business. Owners who want stronger buyer-specific evidence for messaging can consider asking decision-focused questions after booking and preserving the answers for later review.",
+      "audience": "Established wedding-business owners with reviews and testimonials who still lack clear evidence about the reasons couples chose them.",
+      "discovery": [
+        "semantic"
+      ],
+      "mechanism": "In an internal discussion, Whitney distinguished reviews about past experience from a proposed survey sent after a new client signs to investigate buying triggers. She outlined a possible LeadLock workflow in which the client would send or trigger the survey, responses would be available in a spreadsheet, and findings could be considered for ad copy and landing pages.",
+      "content_hash": "1ccfe6da747d567050a237022c3b668e791b2719c35d5a1467fe5d60d49105da",
+      "publications": [],
+      "approval_status": "pending"
+    },
+    {
+      "briefs": [],
+      "cosine": 0.5878756582011948,
+      "angle_id": "angle_d5e284128bd876fcc252938e",
+      "argument": "A search term that appears stylistically misaligned is not automatically a negative keyword when couples may use style labels imprecisely and some inquiries using the term may still be suitable.",
+      "audience": "Wedding photographers managing search campaigns who have a defined visual style and are weighing lead relevance against excluding potentially useful searches.",
+      "discovery": [
+        "semantic"
+      ],
+      "mechanism": "The photographer reported that some inquiries included the term and that one of roughly four or five people who mentioned it in the last year became a client. That small account does not establish keyword performance, but it illustrates why the search phrase, inquiry context, and eventual fit need to be considered before excluding it.",
+      "content_hash": "e7087981582e3f832edfffe378627f92bc33a2461ab4c56e77246b022fea9a33",
+      "publications": [],
+      "approval_status": "pending"
+    },
+    {
+      "briefs": [],
+      "cosine": 0.5537802270338926,
+      "angle_id": "angle_9c2bc831fb61f8d994d439fc",
+      "argument": "When one ad is spending without tracked leads, the useful decision may be to pause that specific campaign while preserving other campaigns with a different temporary purpose. An account-wide stop-or-continue judgment can obscure which activity is actually in question.",
+      "audience": "Wedding-business owners reviewing paid campaigns who are concerned about spend but have several ads serving different purposes.",
+      "discovery": [
+        "semantic"
+      ],
+      "mechanism": "The account review described one Meta lead campaign limited to people who had visited the website in the previous 45 days. It had spent over $500 without tracked leads in the view Whitney could see. The recommendation was to turn off that lead campaign while new campaigns were being built, but leave other landing-page-view campaigns running temporarily.",
+      "content_hash": "5aa0294deea9c90e7b2cfec56ab5adbdef45cd2b865de59b7a03eeee9a79c119",
+      "publications": [],
+      "approval_status": "pending"
+    },
+    {
+      "briefs": [],
+      "cosine": 0.5378401398753877,
+      "angle_id": "angle_a19e2181f0c27e33e4b1fe9f",
+      "argument": "A clear self-service path can let suitable prospects check practical fit questions before they need personal attention, while leaving room for the inquiries that require help. The useful design question is what couples can confidently assess on their own and where a human response still matters.",
+      "audience": "Wedding-business owners with established inquiry systems who are considering whether to make pricing, availability, location, or next steps easier to assess without a conversation.",
+      "discovery": [
+        "semantic"
+      ],
+      "mechanism": "An elopement planner described a self-built flow that let prospects view pricing, availability, and locations and follow steps toward a quote. He reported that 80 to 90 percent of his customers moved through it easily, while he still spent substantial time with the remaining customers who needed more assistance.",
+      "content_hash": "8895eba7f1c903dc87d340b0d5da8cc02a4cdde078f3aace10417ec764624b7f",
+      "publications": [],
+      "approval_status": "pending"
+    },
+    {
+      "briefs": [],
+      "cosine": 0.5266409696205379,
+      "angle_id": "angle_9a991eee30eae5e82fdee3d9",
+      "argument": "Email opens can show that a message was viewed, but clicks offer a different signal about which content prompted an action. Owners can use those differences to decide which messages deserve closer review, without treating engagement as proof that the email caused a tour or booking.",
+      "audience": "Wedding-business owners with an inquiry nurture sequence who are reviewing whether follow-up content is helping couples take a next step.",
+      "discovery": [
+        "semantic"
+      ],
+      "mechanism": "During a review of one venue's workflow, the team noted that some emails were opened without clicks and that clicks appeared to increase on later messages. They discussed examining the content of those emails, including a guest-entertainment guide and weather or backup-plan information, as material worth reviewing rather than proof of booking causation.",
+      "content_hash": "3e8b0b235c6cda8591798156f1beda4d79d28acfdbca49b3438f6ecea3581512",
+      "publications": [],
+      "approval_status": "pending"
+    },
+    {
+      "briefs": [],
+      "cosine": 0.5177625762289367,
+      "angle_id": "angle_62fdf81e47a0c62d15a960d0",
+      "argument": "When couples book a venue tour well in advance, the business may need to keep the venue in consideration without expanding into tour times that do not fit its staffing or preparation constraints. A personalized preview before the visit is a possible alternative to treating schedule expansion as the only response.",
+      "audience": "Wedding-venue owners whose couples book tours more than two weeks ahead and who cannot readily add weekend or early-morning appointments.",
+      "discovery": [
+        "semantic"
+      ],
+      "mechanism": "The venue owner said couples sometimes found another venue before their scheduled visit, while also describing limits on Saturday tours and drawbacks to Sunday appointments. Whitney proposed a phone or video touchpoint and a supplemental message for people whose tours were booked farther out; these were ideas, not tested interventions.",
+      "content_hash": "70ed07a198c324a5cc9f42a49d77af6bff84c3c3dc63e03840f70f0f2128c767",
+      "publications": [],
+      "approval_status": "pending"
+    },
+    {
+      "briefs": [],
+      "cosine": 0.5165193004904376,
+      "angle_id": "angle_7c73eebf6cca3612458cd575",
+      "argument": "When traffic rises without clearly stronger leads, reducing spend need not mean making the largest possible cut. A more measured reset can preserve room to compare channels and reassess the budget against conversion and lead-quality evidence.",
+      "audience": "Wedding-business owners already investing in paid ads who want to reduce spend but do not yet have clear evidence about which channel or lead source is working better.",
+      "discovery": [
+        "semantic"
+      ],
+      "mechanism": "In this account discussion, the owner reported increased traffic without clearly stronger leads. The team recommended a lower Google Ads budget than the existing spend, an initially fairly even Google and Meta split, and later reallocation based on data. The recommendation connected budget restraint to a plan for comparison rather than an assumption that more traffic meant better leads.",
+      "content_hash": "6c597396c791122f9d3c80338f5f250fe71f4343c6383804378954a43c9179a4",
+      "publications": [],
+      "approval_status": "pending"
+    },
+    {
+      "briefs": [],
+      "cosine": 0.4893085100219422,
+      "angle_id": "angle_b8d9b3f43299c825040d7812",
+      "argument": "When couples compare an all-inclusive venue with venue-only alternatives, showing what each option includes and what couples would need to source separately can make the comparison more meaningful than headline rental fees alone.",
+      "audience": "Owners of all-inclusive wedding venues whose prospective couples compare their package with local venue-only options and ask what the total wedding will involve or cost.",
+      "discovery": [
+        "semantic"
+      ],
+      "mechanism": "The venue owner said couples ask what is included and what the wedding will cost. She described using a comparison chart and estimated outside costs in tour follow-up; making comparable scope visible can help buyers evaluate what they would otherwise need to arrange, while the account does not establish a tested effect on bookings.",
+      "content_hash": "61cf0fb984393c286c1feca8ab072bba3975b7918c47921151584ee48bd88248",
+      "publications": [],
+      "approval_status": "pending"
+    },
+    {
+      "briefs": [],
+      "cosine": 0.4692476925216367,
+      "angle_id": "angle_d745e4ebad2bc0287e9a7087",
+      "argument": "For a small wedding business considering lead-management software, an ongoing subscription can remain the decisive affordability concern even when the setup work seems worth paying for and the system appears useful.",
+      "audience": "Owners of small wedding businesses evaluating recurring software or lead-management costs, especially those with limited booking volume or lower-cost tools already in use.",
+      "discovery": [
+        "semantic"
+      ],
+      "mechanism": "In one sales conversation, a photographer who takes up to about 20 weddings a year distinguished the setup fee from the ongoing cost and compared it with a free tool she was using. Those differences help explain her reported decision not to proceed; they do not establish an affordability threshold for other businesses.",
+      "content_hash": "6787b0c3a0a81e37ccff42e1a44bc30c352dd73bb794409a5c42b377b9f6d24c",
+      "publications": [],
+      "approval_status": "pending"
+    }
+  ],
+  "research_gaps": {
+    "items": [
+      "Supplemental candidates omitted from grading under context budget; see audit."
+    ],
+    "coverage": {
+      "as_of": "2026-10-12T14:44:37.396329+00:00",
+      "external": "disabled",
+      "meeting_dates": "unknown_dates_not_inferred_from_week",
+      "eligible_chunks": 329,
+      "published_archive": "incomplete_legacy_catalogue_missing",
+      "archive_source_ids": [
+        "transcript_15884913ba40b1e26079f1e5",
+        "transcript_1b534a0e94efca5c47e5b732",
+        "transcript_1f595f00a47fa1b61b2ae316",
+        "transcript_2a92bfdd5ba2e5bd337f5856",
+        "transcript_536edfd0a7064563b96079c5",
+        "transcript_53e18a03eafba31d746fbb7d",
+        "transcript_5a76b1b145664c30bf30d746",
+        "transcript_7e3336fe1b882cba5c0146a3",
+        "transcript_831835c2812a56b151938edd",
+        "transcript_83c83e9034a83f5d53345ef5",
+        "transcript_91e0d99e2999481dae24bad6",
+        "transcript_98db534b2e9d835ff687d160",
+        "transcript_9e1879c15e05bd2d327366bf",
+        "transcript_c1111065ac72b60cbe80df18",
+        "transcript_c870b09e0ba19376a28df37b",
+        "transcript_c936755ab348fd10488c75ba",
+        "transcript_d158c0b7ca826039fec4d731",
+        "transcript_e55fb5bf35dc6e9b7292b0fa",
+        "transcript_eb8ad3ff88e7802d765c3d5f",
+        "transcript_edfcc5280e26f7c496a2d6db"
+      ],
+      "prior_argument_count": 11,
+      "semantic_and_lexical": "completed",
+      "original_grounding_complete": true
+    }
+  },
+  "content_hash": "d24c6aa2df3eae315e1d1600c2a7b714aba11bfb9c3273d26c5ae4986623bdf4",
+  "approval_status": "pending",
+  "approved_hash": null,
+  "approved_by": null,
+  "approved_at": null,
+  "review_note": null,
+  "updated_by": null,
+  "created_at": "2026-10-12 15:14:06.302425+00:00",
+  "updated_at": "2026-10-12 15:14:06.302425+00:00",
+  "has_replacement": false,
+  "can_approve": false,
+  "can_edit": true,
+  "can_review": true,
+  "blockers": [
+    "Unresolved consent requirements must be cleared and reviewed before approval",
+    "Claim status exceeds the source status",
+    "Prior coverage differences must cover each supplied historical argument",
+    "Numerical prose requires a structured source-bound claim; format numbering is supplied separately",
+    "Required questions remain unanswered",
+    "Acknowledge the admitted-archive/legacy-history limitation"
+  ],
+  "can_consume": false
+}

@@ -1,0 +1,28 @@
+{
+ "meta": {
+  "run_id": "T2J-claude-sonnet-5.5-T02-G1vA0-YX",
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 813,
+  "completion_tokens": 166,
+  "cached_tokens": 0,
+  "cost": 0.003286,
+  "seconds": 2.5,
+  "finish": "stop",
+  "system_sha": "5374112cdde3",
+  "user_sha": "e41cefc7c081"
+ },
+ "output": {
+  "winner": "A",
+  "edits_needed_A": "some",
+  "edits_needed_B": "many",
+  "reason": "Candidate A keeps Whitney's template structure and her organic-vs-paid positioning, though it overclaims with 'on autopilot' and 'proven' and uses 'my' instead of 'our'. Candidate B changes the premise to inquiry slowdown and a funnel-system angle, drops the requested template format, and never contrasts organic with paid ads."
+ },
+ "content": null,
+ "request": {
+  "system": "You compare two draft pieces of marketing copy for Wedding Industry Ads (WIA), a wedding-industry advertising agency. You are given the request, the version WIA's co-founder Whitney actually approved or wrote (the reference), and two candidate drafts. Decide which candidate would need fewer and smaller edits to become something Whitney would approve. Judge substance first (what is claimed, for whom, how WIA is positioned, accuracy, whether her own wording was kept where she supplied it), then voice. Do not reward length, and do not require the candidate to copy the reference wording.\n\nReturn only JSON: {\"winner\": \"A\" or \"B\" or \"tie\", \"edits_needed_A\": \"few\", \"edits_needed_B\": \"many\", \"reason\": \"one or two sentences\"} where edits_needed values are none, few, some or many.",
+  "user": "Request:\nCan you customize this prompt for Wedding Industry Ads, so I can post it on Threads?\n\n[INDUSTRY CHANGE/CHALLENGE] happens. Panic sets in.\n\nWhile everyone else scrambles for [TYPICAL SOLUTION], my [CLIENTS/STUDENTS] get [YOUR UNIQUE SOLUTION].\n\nThat's the difference between [WHAT COMPETITORS OFFER] and [WHAT YOU PROVIDE].\n\nReference (what Whitney approved):\nOrganic reach drops. Panic sets in.\n\nWhile everyone else scrambles to post more and create trendy reels, our clients are gaining followers and leads from their ads on repeat.\n\nThat's the difference between relying on the organic algorithm and running a strategic paid strategy.\n\nCandidate A:\nInstagram changes its algorithm. Panic sets in.  \nWhile everyone else scrambles for more posts, hashtags, and reels, my clients are already filling their calendars with high-quality leads—on autopilot.  \nThat’s the difference between crossing your fingers for organic reach and using a proven Google + Meta Ads strategy that puts you in front of couples the moment they start planning.\n\nCandidate B:\nInquiries slow down. Panic sets in.\n\nThe instinct is to post more. Boost something. Get more eyes on the business.\n\nOur clients get a closer look at the whole system: who their ads reach, where those couples land, and what happens after they inquire.\n\nBecause more visibility won’t fix a missing next step.\n\nThat’s the difference between simply running ads and building a strategy around how couples actually decide to book.",
+  "cache_prefix_sha": "5374112cdde3"
+ }
+}

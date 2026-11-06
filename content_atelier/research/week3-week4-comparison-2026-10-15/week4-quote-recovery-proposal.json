@@ -1,0 +1,32 @@
+{
+  "status": "proposal_only_not_applied",
+  "changes": [
+    {
+      "local_key": "m4_google_conversion_correction",
+      "field": "quote",
+      "original_value": "Um, or I guess this wouldn't be if they've actually booked the tour, this is them looking at the book a tour page.",
+      "proposed_value": "or I guess this wouldn't be if they've actually booked the tour, this is them looking at the book a tour page.",
+      "source_ref": "m4.t0256",
+      "canonical_span_id": "zoom:d8b33275c5cdae01:span:255",
+      "source_turn_text": "Whitney Hodges: Um, if they have booked a tour or not. Like, um, or I guess this wouldn't be if they've actually booked the tour, this is them looking at the book a tour page.",
+      "source_revision_sha256": "ca0456e0f2313d6a26d692745db3886338385c1e543e2a2304e49b4507c70006"
+    },
+    {
+      "local_key": "m6_adjacent_search_intent",
+      "field": "quote",
+      "original_value": "Um, so we wouldn't want you ranking to say, like, marquee lights available, and then people click on an ad and get there, and then they're not there",
+      "proposed_value": "we wouldn't want you ranking to say, like, marquee lights available, and then people click on an ad and get there, and then they're not there",
+      "source_ref": "m6.t0429",
+      "canonical_span_id": "zoom:7dab4c458c4d3825:span:428",
+      "source_turn_text": "Emily Foster: Um, but, like, we wouldn't want you ranking to say, like, marquee lights available, and then people click on an ad and get there, and then they're not there, because I feel like that could just get into, like, mostly legal issues in the future, um, or if anything, like, frustrated clients.",
+      "source_revision_sha256": "88dd2bb5c6f4f735c96436fbe02a60e93db34f821f922d2eb95dc483bb4c5090"
+    }
+  ],
+  "whole_response_preview_parser_moments": 17,
+  "only_two_quote_fields_changed": true,
+  "original_content_sha256": "9cdf3f1d039a840a4ae60f21369519304225b5383fc05f20197055febac7a22d",
+  "no_new_calls": true,
+  "no_canonical_artifacts_changed": true,
+  "accepted_pool_created": false,
+  "requires_explicit_recovery_protocol": true
+}

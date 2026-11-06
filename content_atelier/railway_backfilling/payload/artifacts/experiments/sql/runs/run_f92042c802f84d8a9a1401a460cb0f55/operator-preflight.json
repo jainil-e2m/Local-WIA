@@ -1,0 +1,61 @@
+{
+  "prepared_at": "2026-10-12T09:54:14.924452+00:00",
+  "week_id": "week_2026-06-08",
+  "workflow": "historical_comparison_v1",
+  "source_count": 11,
+  "passage_count": 5218,
+  "packet_utf8_bytes": 516999,
+  "request_message_utf8_bytes": 533885,
+  "local_input_limits_enabled": false,
+  "request_output_cap": null,
+  "history_vectors": 6,
+  "history_ids": [
+    "angle_0fbe8cc9cfffa8f9d70fdb6f",
+    "angle_9d5b915e1d67f035e55a6c6e",
+    "angle_ab0db137df928ed4e835dfda",
+    "angle_b8d9b3f43299c825040d7812",
+    "angle_d5e284128bd876fcc252938e",
+    "angle_d745e4ebad2bc0287e9a7087"
+  ],
+  "chat_endpoint": "https://openrouter.ai/api/v1/chat/completions",
+  "embedding_endpoint": "https://openrouter.ai/api/v1/embeddings",
+  "chat_model": "openai/gpt-6-luna",
+  "embedding_model": "openai/text-embedding-3-small",
+  "dimensions": 1536,
+  "schema": {
+    "tables": 13,
+    "vectors": [
+      {
+        "table_name": "content_angles",
+        "attname": "embedding",
+        "type": "vector(1536)"
+      },
+      {
+        "table_name": "transcript_chunks",
+        "attname": "embedding",
+        "type": "vector(1536)"
+      }
+    ],
+    "schema_sha256": "1f89fa2894074cd6c54b51083e6c775a76ac1e1f59341d3b3f2fbefbb25fc6bb",
+    "foreign_keys": 30,
+    "checks": 18
+  },
+  "persistent_switches": {
+    "generation": false,
+    "encoding": false,
+    "refinement": false
+  },
+  "external_calls": 0,
+  "protected_state": {
+    "transcripts": "c1c85098cda6036e56b3e3f718dba5a88adfef1376229ad048ff1043f38761fb",
+    "transcript_chunks": "35965d4f0a59232d6bea77e5bebd589b7aa6cb78157057b02c8b6efed3e248fb",
+    "content_briefs": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "content_packs": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "content_assets": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "calendar_entries": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "week1_weeks": "db5c19cb2855b1c1310220aaf17e8a82221da9d2d58c013a83715cf1f1f1a0d7",
+    "week1_key_moments": "7b71aa63a99922822be9593f1a80ccc73c137271b2dc1dbc668e0a3e3111ff5e",
+    "week1_content_angles": "dbe36bba743538b3ddb9270ad380724d2952f7f94b2325617f082ddce11aa3cf",
+    "week1_angle_moments": "2496578435e2bd6b425fae941256c804605201dc0035bcf4ed0cab2484d0d188"
+  }
+}

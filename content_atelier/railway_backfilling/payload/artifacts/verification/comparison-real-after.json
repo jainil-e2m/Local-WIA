@@ -1,0 +1,80 @@
+{
+  "catalog": {
+    "tables": 13,
+    "vectors": [
+      {
+        "table_name": "content_angles",
+        "attname": "embedding",
+        "type": "vector(1536)"
+      },
+      {
+        "table_name": "transcript_chunks",
+        "attname": "embedding",
+        "type": "vector(1536)"
+      }
+    ],
+    "schema_sha256": "1f89fa2894074cd6c54b51083e6c775a76ac1e1f59341d3b3f2fbefbb25fc6bb",
+    "foreign_keys": 30,
+    "checks": 18
+  },
+  "tables": {
+    "angle_moments": {
+      "count": 6,
+      "hash": "2496578435e2bd6b425fae941256c804605201dc0035bcf4ed0cab2484d0d188"
+    },
+    "calendar_entries": {
+      "count": 0,
+      "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "content_angles": {
+      "count": 6,
+      "hash": "9ca2d31d0e24d38bd18888a0244c516faf7927dd4f5f0d33dee1a6326b2418cc"
+    },
+    "content_assets": {
+      "count": 0,
+      "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "content_briefs": {
+      "count": 0,
+      "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "content_packs": {
+      "count": 0,
+      "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "key_moments": {
+      "count": 7,
+      "hash": "7b71aa63a99922822be9593f1a80ccc73c137271b2dc1dbc668e0a3e3111ff5e"
+    },
+    "pipeline_events": {
+      "count": 3,
+      "hash": "0fdf9e372d3ae40c6ce6f75db649b0ceea7e40101f4ebc7543a213f379db7026"
+    },
+    "pipeline_jobs": {
+      "count": 8,
+      "hash": "232bd6737247370cc755e46584457d8caabfa3316feefe4ae9ddf78f4fb65e75"
+    },
+    "pipeline_runs": {
+      "count": 4,
+      "hash": "e8833d754f93d648f47493862a571792a67835fed5825e91fc7546e438b86b12"
+    },
+    "transcript_chunks": {
+      "count": 329,
+      "hash": "35965d4f0a59232d6bea77e5bebd589b7aa6cb78157057b02c8b6efed3e248fb"
+    },
+    "transcripts": {
+      "count": 20,
+      "hash": "c1c85098cda6036e56b3e3f718dba5a88adfef1376229ad048ff1043f38761fb"
+    },
+    "weeks": {
+      "count": 2,
+      "hash": "9c2d8f454a78efbfc13cf009137cb9f1a61d1270508ac1ce7474c65f02ea1d5e"
+    }
+  },
+  "external_switches": {
+    "generation": false,
+    "encoding": false,
+    "refinement": false
+  },
+  "real_data_unchanged": true
+}

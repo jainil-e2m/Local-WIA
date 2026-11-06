@@ -1,0 +1,352 @@
+{
+  "$defs": {
+    "StrategicAngleDraft": {
+      "additionalProperties": false,
+      "properties": {
+        "local_key": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Local Key",
+          "type": "string"
+        },
+        "title": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Title",
+          "type": "string"
+        },
+        "content_opportunity": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Content Opportunity",
+          "type": "string"
+        },
+        "strategic_purpose": {
+          "enum": [
+            "ATTRACT",
+            "WARM",
+            "CONVERT"
+          ],
+          "title": "Strategic Purpose",
+          "type": "string"
+        },
+        "content_type": {
+          "enum": [
+            "opinion",
+            "founder_forward",
+            "campaign_breakdown",
+            "trend",
+            "uvp",
+            "thought_shift",
+            "process",
+            "behind_the_scenes",
+            "education",
+            "founder_story",
+            "solution_selling",
+            "social_proof"
+          ],
+          "title": "Content Type",
+          "type": "string"
+        },
+        "strategic_rationale": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Strategic Rationale",
+          "type": "string"
+        },
+        "audience": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Audience",
+          "type": "string"
+        },
+        "core_perspective": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Core Perspective",
+          "type": "string"
+        },
+        "tension": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Tension",
+          "type": "string"
+        },
+        "wia_expertise_in_action": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "pattern": "\\S",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Wia Expertise In Action"
+        },
+        "service_relevance": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "pattern": "\\S",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Service Relevance"
+        },
+        "reader_decision": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "pattern": "\\S",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Reader Decision"
+        },
+        "evidence_readiness": {
+          "enum": [
+            "supported",
+            "research_required"
+          ],
+          "title": "Evidence Readiness",
+          "type": "string"
+        },
+        "research_questions": {
+          "items": {
+            "minLength": 1,
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "title": "Research Questions",
+          "type": "array"
+        },
+        "selection_reason": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Selection Reason",
+          "type": "string"
+        },
+        "moment_ids": {
+          "items": {
+            "minLength": 1,
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Moment Ids",
+          "type": "array"
+        },
+        "source_assertions": {
+          "items": {
+            "minLength": 1,
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Source Assertions",
+          "type": "array"
+        },
+        "inference": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "pattern": "\\S",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Inference"
+        },
+        "qualifiers": {
+          "items": {
+            "minLength": 1,
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "title": "Qualifiers",
+          "type": "array"
+        },
+        "risks": {
+          "items": {
+            "minLength": 1,
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "title": "Risks",
+          "type": "array"
+        },
+        "quality": {
+          "$ref": "#/$defs/StrategicQuality"
+        }
+      },
+      "required": [
+        "local_key",
+        "title",
+        "content_opportunity",
+        "strategic_purpose",
+        "content_type",
+        "strategic_rationale",
+        "audience",
+        "core_perspective",
+        "tension",
+        "wia_expertise_in_action",
+        "service_relevance",
+        "reader_decision",
+        "evidence_readiness",
+        "research_questions",
+        "selection_reason",
+        "moment_ids",
+        "source_assertions",
+        "inference",
+        "qualifiers",
+        "risks",
+        "quality"
+      ],
+      "title": "StrategicAngleDraft",
+      "type": "object"
+    },
+    "StrategicQuality": {
+      "additionalProperties": false,
+      "properties": {
+        "grounding": {
+          "maximum": 5,
+          "minimum": 0,
+          "title": "Grounding",
+          "type": "number"
+        },
+        "strategic_fit": {
+          "maximum": 5,
+          "minimum": 0,
+          "title": "Strategic Fit",
+          "type": "number"
+        },
+        "distinctiveness": {
+          "maximum": 5,
+          "minimum": 0,
+          "title": "Distinctiveness",
+          "type": "number"
+        },
+        "audience_resonance": {
+          "maximum": 5,
+          "minimum": 0,
+          "title": "Audience Resonance",
+          "type": "number"
+        },
+        "source_strength": {
+          "maximum": 5,
+          "minimum": 0,
+          "title": "Source Strength",
+          "type": "number"
+        },
+        "reasons": {
+          "items": {
+            "minLength": 1,
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Reasons",
+          "type": "array"
+        }
+      },
+      "required": [
+        "grounding",
+        "strategic_fit",
+        "distinctiveness",
+        "audience_resonance",
+        "source_strength",
+        "reasons"
+      ],
+      "title": "StrategicQuality",
+      "type": "object"
+    },
+    "StrategicRefinementOutcome": {
+      "additionalProperties": false,
+      "properties": {
+        "original_id": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Original Id",
+          "type": "string"
+        },
+        "outcome": {
+          "enum": [
+            "replacement",
+            "no_supported_alternative"
+          ],
+          "title": "Outcome",
+          "type": "string"
+        },
+        "replacement": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/StrategicAngleDraft"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "explanation": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Explanation",
+          "type": "string"
+        }
+      },
+      "required": [
+        "original_id",
+        "outcome",
+        "replacement",
+        "explanation"
+      ],
+      "title": "StrategicRefinementOutcome",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "outcomes": {
+      "items": {
+        "$ref": "#/$defs/StrategicRefinementOutcome"
+      },
+      "title": "Outcomes",
+      "type": "array"
+    },
+    "processed_moment_ids": {
+      "items": {
+        "minLength": 1,
+        "pattern": "\\S",
+        "type": "string"
+      },
+      "title": "Processed Moment Ids",
+      "type": "array"
+    },
+    "coverage_notes": {
+      "items": {
+        "minLength": 1,
+        "pattern": "\\S",
+        "type": "string"
+      },
+      "title": "Coverage Notes",
+      "type": "array"
+    }
+  },
+  "required": [
+    "outcomes",
+    "processed_moment_ids",
+    "coverage_notes"
+  ],
+  "title": "StrategicRefinementResponse",
+  "type": "object"
+}

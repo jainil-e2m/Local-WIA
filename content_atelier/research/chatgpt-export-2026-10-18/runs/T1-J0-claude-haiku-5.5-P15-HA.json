@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J0-claude-haiku-5.5-P15-HA",
+  "model": "anthropic/claude-haiku-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 260,
+  "completion_tokens": 328,
+  "cached_tokens": 0,
+  "cost": 0.00019,
+  "seconds": 2.4,
+  "finish": "stop",
+  "system_sha": "ea72523eb9c9",
+  "user_sha": "83c48eebf0f5"
+ },
+ "output": {
+  "choice": "A",
+  "confidence": 4,
+  "reason": "Version A concretely names WIA's services (teaching strategy, launching campaigns, ongoing support), while Version B's driver's-seat metaphor is vaguer and omits that WIA runs the campaigns."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: stories\n\nVersion A:\nWe teach you the strategy, launch your campaigns, and support you as you learn what’s working—and how to make it better.\n\nVersion B:\nWe build the foundation, guide the strategy, and support your decisions—\nbut you stay in the driver’s seat.",
+  "cache_prefix_sha": "ea72523eb9c9"
+ }
+}

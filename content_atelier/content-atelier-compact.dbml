@@ -1,0 +1,327 @@
+// Content Atelier: approved compact 13-table schema, 9 October 2026.
+// Paste the COMPLETE file into dbdiagram.io. Matching SQL is in backend/migrations/.
+// Applied to an isolated local database; see backend/STORAGE.md for implementation status.
+// Only content_angles.embedding and transcript_chunks.embedding are vectors.
+
+Project content_atelier_compact {
+  database_type: 'PostgreSQL'
+  Note: 'One PostgreSQL database with pgvector. Thirteen tables for content, evidence, review, scheduling, execution and process visibility. Configuration and existing authentication stay outside this schema.'
+}
+
+Table weeks {
+  week_id text [pk]
+  week_start date [not null]
+  week_end date [not null]
+  status text [not null, default: 'pending']
+  active_run_id text [ref: > pipeline_runs.run_id, note: 'Run currently shown in the weekly UI; it must belong to this week.']
+  coverage_notes jsonb
+  created_at timestamptz [not null, default: `now()`]
+  indexes {
+    week_start [unique]
+  }
+  checks {
+    `week_end = week_start + 6` [name: 'week_has_seven_inclusive_dates']
+  }
+}
+
+Table pipeline_runs {
+  run_id text [pk]
+  week_id text [not null, ref: > weeks.week_id]
+  run_scope text [not null, note: 'Actual requested work, such as weekly_angles, brief_generation, pack_generation or scheduling.']
+  status text [not null, default: 'queued']
+  current_message text
+  error_summary text
+  has_partial_failures boolean [not null, default: false]
+  trigger_type text [not null, note: 'scheduled, manual or source_update.']
+  triggered_by text [note: 'Existing authenticated subject for a human-triggered run.']
+  input_refs jsonb [not null]
+  created_at timestamptz [not null, default: `now()`]
+  started_at timestamptz
+  finished_at timestamptz
+  updated_at timestamptz [not null, default: `now()`]
+  indexes {
+    (week_id, created_at)
+    (status, updated_at)
+  }
+  checks {
+    `status IN ('queued', 'running', 'waiting_for_review', 'completed', 'partially_completed', 'failed', 'cancelled')` [name: 'run_status_is_valid']
+  }
+  Note: 'One actual execution, separate from its calendar week. input_refs freezes admitted content IDs/hashes and requested scope before work starts; no transcript copies or model configuration. Job retries stay inside the same run. Completion is relative to the requested scope.'
+}
+
+Table transcripts {
+  transcript_id text [pk]
+  week_id text [not null, ref: > weeks.week_id]
+  source_type text [not null, note: 'fathom, zoom or manual; identifies actual source provenance.']
+  upstream_id text [note: 'Namespace by provider/account/source identity; null for manual inputs.']
+  title text [not null]
+  source_url text
+  occurred_at timestamptz
+  original_text text [not null]
+  passage_map jsonb [not null]
+  content_hash text [not null]
+  source_metadata jsonb
+  use_restrictions jsonb
+  processing_status text [not null, default: 'pending']
+  ingested_at timestamptz [not null, default: `now()`]
+  indexes {
+    (source_type, upstream_id, content_hash) [unique]
+    week_id
+  }
+  Note: 'Preserved source text plus stable passage IDs, original-text offsets, speakers and available timestamps in passage_map. Metadata contains known facts only. Changed captured input gets a new row; cited originals stay stable.'
+}
+
+Table transcript_chunks {
+  chunk_id text [pk]
+  transcript_id text [not null, ref: > transcripts.transcript_id]
+  chunk_text text [not null]
+  passage_refs jsonb [not null]
+  content_hash text [not null]
+  embedding vector(1536)
+  indexes {
+    (transcript_id, content_hash) [unique]
+  }
+  Note: 'Contextualized embedding input and ordered references into its transcript passage_map. Null embedding means unavailable for vector retrieval. Preserve chunks already cited in briefs.'
+}
+
+Table key_moments {
+  moment_id text [pk]
+  week_id text [not null, ref: > weeks.week_id]
+  run_id text [not null, ref: > pipeline_runs.run_id]
+  moment_body jsonb [not null]
+  evidence_refs jsonb [not null]
+  created_at timestamptz [not null, default: `now()`]
+  indexes {
+    (week_id, run_id)
+  }
+  Note: 'Validated Call 1 content: quote, proposition, type, context, qualifications, audience relevance, strength, reasons, claim status and sensitivity. evidence_refs supplies transcript/passage IDs and anchor/context/qualification roles; a moment may use multiple transcripts.'
+}
+
+Table content_angles {
+  angle_id text [pk]
+  week_id text [not null, ref: > weeks.week_id]
+  run_id text [not null, ref: > pipeline_runs.run_id]
+  supersedes_id text [ref: > content_angles.angle_id]
+  content_body jsonb [not null]
+  quality_scores jsonb
+  base_score numeric
+  adjusted_score numeric
+  selection_status text [not null, default: 'candidate']
+  matching_result jsonb
+  selected_cta jsonb
+  content_hash text [not null]
+  embedding_input_hash text
+  embedding vector(1536)
+  first_generated_at timestamptz [not null]
+  approval_status text [not null, default: 'pending']
+  approved_hash text
+  approved_by text
+  approved_at timestamptz
+  review_note text
+  updated_by text
+  created_at timestamptz [not null, default: `now()`]
+  updated_at timestamptz [not null, default: `now()`]
+  indexes {
+    (week_id, run_id, selection_status)
+  }
+  checks {
+    `(base_score IS NULL OR base_score BETWEEN 0 AND 100) AND (adjusted_score IS NULL OR adjusted_score BETWEEN 0 AND 100)` [name: 'angle_scores_in_range']
+    `(embedding IS NULL) = (embedding_input_hash IS NULL)` [name: 'angle_vector_has_input_hash']
+    `approval_status <> 'approved' OR (approved_hash IS NOT NULL AND approved_hash = content_hash AND approved_by IS NOT NULL AND approved_at IS NOT NULL AND selected_cta IS NOT NULL)` [name: 'angle_approval_is_bound']
+  }
+  Note: 'Validated Call 2 arguments, including valid suppressed candidates. content_body holds title, argument, audience, tension, take, mechanism, reader decision, assertions, inference, qualifiers and risks. UI selects visible records. Preserve original generation age on reuse or edited copies of the same logical angle.'
+}
+
+Table angle_moments {
+  angle_id text [not null, ref: > content_angles.angle_id]
+  moment_id text [not null, ref: > key_moments.moment_id]
+  evidence_role text [not null]
+  indexes {
+    (angle_id, moment_id) [pk]
+  }
+}
+
+Table content_briefs {
+  brief_id text [pk]
+  week_id text [not null, ref: > weeks.week_id]
+  angle_id text [not null, ref: > content_angles.angle_id]
+  angle_input_hash text [not null]
+  supersedes_id text [ref: > content_briefs.brief_id]
+  content_body jsonb [not null]
+  selected_evidence jsonb [not null]
+  prior_content_context jsonb [not null]
+  research_gaps jsonb
+  content_hash text [not null]
+  approval_status text [not null, default: 'pending']
+  approved_hash text
+  approved_by text
+  approved_at timestamptz
+  review_note text
+  updated_by text
+  created_at timestamptz [not null, default: `now()`]
+  updated_at timestamptz [not null, default: `now()`]
+  checks {
+    `approval_status <> 'approved' OR (approved_hash IS NOT NULL AND approved_hash = content_hash AND approved_by IS NOT NULL AND approved_at IS NOT NULL)` [name: 'brief_approval_is_bound']
+  }
+  Note: 'Editable brief contract, required questions/answers and CTA. angle_input_hash pins the approved angle consumed. Selected evidence retains exact internal locations or external URLs and qualifications. Prior context retains actual old angle/brief/asset IDs, compact coverage and known approval/publication state.'
+}
+
+Table content_packs {
+  pack_id text [pk]
+  week_id text [not null, ref: > weeks.week_id]
+  supersedes_id text [ref: > content_packs.pack_id]
+  title text [not null]
+  manifest_hash text
+  validation_result jsonb
+  approval_status text [not null, default: 'pending']
+  approved_hash text
+  approved_by text
+  approved_at timestamptz
+  review_note text
+  updated_by text
+  created_at timestamptz [not null, default: `now()`]
+  updated_at timestamptz [not null, default: `now()`]
+  checks {
+    `approval_status <> 'approved' OR (manifest_hash IS NOT NULL AND approved_hash IS NOT NULL AND approved_hash = manifest_hash AND approved_by IS NOT NULL AND approved_at IS NOT NULL)` [name: 'pack_approval_is_bound']
+  }
+  Note: 'Production grouping; assets below contain the copy. manifest_hash covers ordered slots, exact asset IDs/content hashes and governing brief input hashes. Final approval requires complete assigned assets and current successful checks.'
+}
+
+Table content_assets {
+  asset_id text [pk]
+  pack_id text [not null, ref: > content_packs.pack_id]
+  brief_id text [not null, ref: > content_briefs.brief_id]
+  brief_input_hash text [not null]
+  supersedes_id text [ref: > content_assets.asset_id]
+  slot_key text [not null]
+  ordinal integer [not null]
+  asset_type text [not null, note: 'email, carousel or reel; no fixed asset-count cap.']
+  reader_contribution text [not null]
+  status text [not null, default: 'planned']
+  content_body jsonb
+  content_hash text
+  validation_result jsonb
+  updated_by text
+  created_at timestamptz [not null, default: `now()`]
+  updated_at timestamptz [not null, default: `now()`]
+  indexes {
+    (pack_id, slot_key) [unique]
+    (pack_id, ordinal) [unique]
+  }
+  checks {
+    `ordinal > 0` [name: 'asset_order_is_positive']
+    `(content_body IS NULL) = (content_hash IS NULL)` [name: 'asset_content_has_hash']
+    `status = 'planned' OR content_body IS NOT NULL` [name: 'generated_asset_has_content']
+  }
+  Note: 'One actual assigned deliverable and governing approved brief. Body/hash are null before generation. Email fields, ordered carousel slides/caption or reel script/shot directions stay in JSON. Each asset has one owning pack; edits to a consumed pack use a replacement pack and asset records.'
+}
+
+Table calendar_entries {
+  calendar_entry_id text [pk]
+  asset_id text [not null, ref: > content_assets.asset_id]
+  asset_content_hash text [not null]
+  channel text [not null]
+  scheduled_for timestamptz
+  status text [not null, default: 'draft']
+  external_schedule_id text
+  published_at timestamptz
+  published_url text
+  created_at timestamptz [not null, default: `now()`]
+  updated_at timestamptz [not null, default: `now()`]
+  indexes {
+    (scheduled_for, status)
+    asset_id
+  }
+  checks {
+    `status <> 'scheduled' OR scheduled_for IS NOT NULL` [name: 'scheduled_entry_has_time']
+    `status <> 'published' OR published_at IS NOT NULL` [name: 'published_entry_has_confirmation_time']
+  }
+  Note: 'Schedules the exact asset content, not an entire pack or a JSON array position. Publishing instants use timestamptz; display timezone stays in application configuration. Published state requires actual confirmation.'
+}
+
+Table pipeline_jobs {
+  job_id text [pk]
+  run_id text [not null, ref: > pipeline_runs.run_id]
+  week_id text [not null, ref: > weeks.week_id]
+  stage text [not null]
+  transcript_id text [ref: > transcripts.transcript_id]
+  angle_id text [ref: > content_angles.angle_id]
+  brief_id text [ref: > content_briefs.brief_id]
+  pack_id text [ref: > content_packs.pack_id]
+  asset_id text [ref: > content_assets.asset_id]
+  calendar_entry_id text [ref: > calendar_entries.calendar_entry_id]
+  status text [not null, default: 'queued']
+  current_step text
+  current_message text
+  completed_units integer
+  total_units integer
+  progress_details jsonb
+  idempotency_key text [not null, unique]
+  input_hash text
+  attempt_count integer [not null, default: 0]
+  result_refs jsonb
+  error_summary text
+  lease_token text
+  lease_expires_at timestamptz
+  created_at timestamptz [not null, default: `now()`]
+  updated_at timestamptz [not null, default: `now()`]
+  started_at timestamptz
+  finished_at timestamptz
+  heartbeat_at timestamptz
+  indexes {
+    (week_id, run_id, stage)
+    (status, lease_expires_at)
+  }
+  checks {
+    `num_nonnulls(transcript_id, angle_id, brief_id, pack_id, asset_id, calendar_entry_id) <= 1` [name: 'job_has_at_most_one_target']
+    `attempt_count >= 0` [name: 'job_attempt_count_nonnegative']
+    `(completed_units IS NULL OR completed_units >= 0) AND (total_units IS NULL OR total_units >= 0)` [name: 'job_progress_units_nonnegative']
+    `completed_units IS NULL OR total_units IS NULL OR completed_units <= total_units` [name: 'job_progress_units_in_range']
+    `num_nonnulls(lease_token, lease_expires_at) IN (0, 2)` [name: 'job_lease_is_complete']
+  }
+  Note: 'One stage execution for the whole week or one target. Same-stage brief/asset jobs can run independently. current_step/message/details supply UI updates; unit counts are null when unmeasurable. result_refs contains output IDs and completed per-run reassessment. A retry updates this job and appends events; leases support recovery.'
+}
+
+Table pipeline_events {
+  event_id text [pk]
+  run_id text [not null, ref: > pipeline_runs.run_id]
+  job_id text [ref: > pipeline_jobs.job_id]
+  event_type text [not null]
+  severity text [not null, default: 'info']
+  message text [not null]
+  attempt_number integer
+  details jsonb
+  created_at timestamptz [not null, default: `now()`]
+  indexes {
+    (run_id, created_at, event_id)
+    (job_id, created_at)
+  }
+  checks {
+    `attempt_number IS NULL OR attempt_number >= 1` [name: 'event_attempt_number_positive']
+  }
+  Note: 'Append-only meaningful process milestones, warnings, retries and failures. A referenced job must belong to the event run. Approval events reference the actual content decision; they do not grant approval. Small payloads only; periodic heartbeats remain on jobs.'
+}
+
+TableGroup evidence {
+  weeks
+  transcripts
+  transcript_chunks
+  key_moments
+}
+TableGroup editorial {
+  content_angles
+  angle_moments
+  content_briefs
+}
+TableGroup production {
+  content_packs
+  content_assets
+  calendar_entries
+}
+TableGroup execution {
+  pipeline_runs
+  pipeline_jobs
+  pipeline_events
+}
+
+// END OF SCHEMA — copy through this line.

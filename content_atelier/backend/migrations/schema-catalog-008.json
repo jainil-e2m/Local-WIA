@@ -1,0 +1,5968 @@
+{
+  "columns": [
+    {
+      "table_name": "angle_moments",
+      "column_name": "angle_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "angle_moments",
+      "column_name": "moment_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "angle_moments",
+      "column_name": "evidence_role",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_docs",
+      "column_name": "key",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_docs",
+      "column_name": "version",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_docs",
+      "column_name": "heading",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_docs",
+      "column_name": "owner",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_docs",
+      "column_name": "status",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_docs",
+      "column_name": "effective_date",
+      "data_type": "date",
+      "udt_name": "date",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_docs",
+      "column_name": "review_interval_days",
+      "data_type": "integer",
+      "udt_name": "int4",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_docs",
+      "column_name": "approver",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_docs",
+      "column_name": "approved_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_docs",
+      "column_name": "sha256",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_docs",
+      "column_name": "body",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_docs",
+      "column_name": "object_key",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_docs",
+      "column_name": "created_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "brand_kit_docs",
+      "column_name": "compiled_from",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_docs",
+      "column_name": "benchmark_state",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'not_required'::text"
+    },
+    {
+      "table_name": "brand_kit_items",
+      "column_name": "item_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_items",
+      "column_name": "kind",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_items",
+      "column_name": "key",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_items",
+      "column_name": "body",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_items",
+      "column_name": "text",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_items",
+      "column_name": "valid_from",
+      "data_type": "date",
+      "udt_name": "date",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_items",
+      "column_name": "valid_to",
+      "data_type": "date",
+      "udt_name": "date",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_items",
+      "column_name": "status",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_items",
+      "column_name": "visibility",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_items",
+      "column_name": "sensitivity",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'none'::text"
+    },
+    {
+      "table_name": "brand_kit_items",
+      "column_name": "permission",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_items",
+      "column_name": "source_kind",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_items",
+      "column_name": "source_ref",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_items",
+      "column_name": "source_detail",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": "'{}'::jsonb"
+    },
+    {
+      "table_name": "brand_kit_items",
+      "column_name": "statement_date",
+      "data_type": "date",
+      "udt_name": "date",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_items",
+      "column_name": "author",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_items",
+      "column_name": "model_written",
+      "data_type": "boolean",
+      "udt_name": "bool",
+      "is_nullable": "NO",
+      "column_default": "false"
+    },
+    {
+      "table_name": "brand_kit_items",
+      "column_name": "confidence",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_items",
+      "column_name": "supersedes_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_items",
+      "column_name": "reviewed_by",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_items",
+      "column_name": "reviewed_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_items",
+      "column_name": "review_note",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_items",
+      "column_name": "embedding",
+      "data_type": "USER-DEFINED",
+      "udt_name": "vector",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_items",
+      "column_name": "hash",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_items",
+      "column_name": "created_by",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "brand_kit_items",
+      "column_name": "created_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "brand_kit_items",
+      "column_name": "updated_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "calendar_entries",
+      "column_name": "calendar_entry_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "calendar_entries",
+      "column_name": "asset_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "calendar_entries",
+      "column_name": "asset_content_hash",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "calendar_entries",
+      "column_name": "channel",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "calendar_entries",
+      "column_name": "scheduled_for",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "calendar_entries",
+      "column_name": "status",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'draft'::text"
+    },
+    {
+      "table_name": "calendar_entries",
+      "column_name": "external_schedule_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "calendar_entries",
+      "column_name": "published_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "calendar_entries",
+      "column_name": "published_url",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "calendar_entries",
+      "column_name": "created_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "calendar_entries",
+      "column_name": "updated_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "calendar_entries",
+      "column_name": "revision",
+      "data_type": "integer",
+      "udt_name": "int4",
+      "is_nullable": "NO",
+      "column_default": "1"
+    },
+    {
+      "table_name": "calendar_entries",
+      "column_name": "pack_manifest_hash",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "calendar_entries",
+      "column_name": "display_timezone",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'Asia/Kolkata'::text"
+    },
+    {
+      "table_name": "calendar_entries",
+      "column_name": "created_by",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "calendar_entries",
+      "column_name": "updated_by",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "calibration_labels",
+      "column_name": "label_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "calibration_labels",
+      "column_name": "item_kind",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "calibration_labels",
+      "column_name": "item_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "calibration_labels",
+      "column_name": "decision_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "calibration_labels",
+      "column_name": "week_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "calibration_labels",
+      "column_name": "disposition",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "calibration_labels",
+      "column_name": "reason_code",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "calibration_labels",
+      "column_name": "reframe",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "calibration_labels",
+      "column_name": "central_point_kept",
+      "data_type": "boolean",
+      "udt_name": "bool",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "calibration_labels",
+      "column_name": "rubric_ratings",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "calibration_labels",
+      "column_name": "rater",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "calibration_labels",
+      "column_name": "author",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "calibration_labels",
+      "column_name": "source",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "calibration_labels",
+      "column_name": "proxy",
+      "data_type": "boolean",
+      "udt_name": "bool",
+      "is_nullable": "NO",
+      "column_default": "false"
+    },
+    {
+      "table_name": "calibration_labels",
+      "column_name": "details",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": "'{}'::jsonb"
+    },
+    {
+      "table_name": "calibration_labels",
+      "column_name": "created_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "clients",
+      "column_name": "client_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "clients",
+      "column_name": "name",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "clients",
+      "column_name": "aliases",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": "'[]'::jsonb"
+    },
+    {
+      "table_name": "clients",
+      "column_name": "consent",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'anonymise_only'::text"
+    },
+    {
+      "table_name": "clients",
+      "column_name": "status",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'active'::text"
+    },
+    {
+      "table_name": "clients",
+      "column_name": "notes",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "clients",
+      "column_name": "source",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'reviewed_list'::text"
+    },
+    {
+      "table_name": "clients",
+      "column_name": "created_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "clients",
+      "column_name": "updated_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "content_angles",
+      "column_name": "angle_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "content_angles",
+      "column_name": "week_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "content_angles",
+      "column_name": "run_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "content_angles",
+      "column_name": "supersedes_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_angles",
+      "column_name": "content_body",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "content_angles",
+      "column_name": "quality_scores",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_angles",
+      "column_name": "base_score",
+      "data_type": "numeric",
+      "udt_name": "numeric",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_angles",
+      "column_name": "adjusted_score",
+      "data_type": "numeric",
+      "udt_name": "numeric",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_angles",
+      "column_name": "selection_status",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'candidate'::text"
+    },
+    {
+      "table_name": "content_angles",
+      "column_name": "matching_result",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_angles",
+      "column_name": "selected_cta",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_angles",
+      "column_name": "content_hash",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "content_angles",
+      "column_name": "embedding_input_hash",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_angles",
+      "column_name": "embedding",
+      "data_type": "USER-DEFINED",
+      "udt_name": "vector",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_angles",
+      "column_name": "first_generated_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "content_angles",
+      "column_name": "approval_status",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'pending'::text"
+    },
+    {
+      "table_name": "content_angles",
+      "column_name": "approved_hash",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_angles",
+      "column_name": "approved_by",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_angles",
+      "column_name": "approved_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_angles",
+      "column_name": "review_note",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_angles",
+      "column_name": "updated_by",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_angles",
+      "column_name": "created_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "content_angles",
+      "column_name": "updated_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "content_assets",
+      "column_name": "asset_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "content_assets",
+      "column_name": "pack_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "content_assets",
+      "column_name": "brief_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "content_assets",
+      "column_name": "brief_input_hash",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "content_assets",
+      "column_name": "supersedes_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_assets",
+      "column_name": "slot_key",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "content_assets",
+      "column_name": "ordinal",
+      "data_type": "integer",
+      "udt_name": "int4",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "content_assets",
+      "column_name": "asset_type",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "content_assets",
+      "column_name": "reader_contribution",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "content_assets",
+      "column_name": "status",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'planned'::text"
+    },
+    {
+      "table_name": "content_assets",
+      "column_name": "content_body",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_assets",
+      "column_name": "content_hash",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_assets",
+      "column_name": "validation_result",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_assets",
+      "column_name": "updated_by",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_assets",
+      "column_name": "created_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "content_assets",
+      "column_name": "updated_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "content_briefs",
+      "column_name": "brief_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "content_briefs",
+      "column_name": "week_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "content_briefs",
+      "column_name": "angle_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "content_briefs",
+      "column_name": "angle_input_hash",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "content_briefs",
+      "column_name": "supersedes_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_briefs",
+      "column_name": "content_body",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "content_briefs",
+      "column_name": "selected_evidence",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "content_briefs",
+      "column_name": "prior_content_context",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "content_briefs",
+      "column_name": "research_gaps",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_briefs",
+      "column_name": "content_hash",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "content_briefs",
+      "column_name": "approval_status",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'pending'::text"
+    },
+    {
+      "table_name": "content_briefs",
+      "column_name": "approved_hash",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_briefs",
+      "column_name": "approved_by",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_briefs",
+      "column_name": "approved_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_briefs",
+      "column_name": "review_note",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_briefs",
+      "column_name": "updated_by",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_briefs",
+      "column_name": "created_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "content_briefs",
+      "column_name": "updated_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "content_packs",
+      "column_name": "pack_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "content_packs",
+      "column_name": "week_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "content_packs",
+      "column_name": "supersedes_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_packs",
+      "column_name": "title",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "content_packs",
+      "column_name": "manifest_hash",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_packs",
+      "column_name": "validation_result",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_packs",
+      "column_name": "approval_status",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'pending'::text"
+    },
+    {
+      "table_name": "content_packs",
+      "column_name": "approved_hash",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_packs",
+      "column_name": "approved_by",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_packs",
+      "column_name": "approved_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_packs",
+      "column_name": "review_note",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_packs",
+      "column_name": "updated_by",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_packs",
+      "column_name": "created_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "content_packs",
+      "column_name": "updated_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "content_packs",
+      "column_name": "source_brief_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_packs",
+      "column_name": "source_brief_hash",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_packs",
+      "column_name": "production_run_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "content_packs",
+      "column_name": "contract_version",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "decisions",
+      "column_name": "decision_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "decisions",
+      "column_name": "item_kind",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "decisions",
+      "column_name": "item_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "decisions",
+      "column_name": "week_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "decisions",
+      "column_name": "action",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "decisions",
+      "column_name": "disposition",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "decisions",
+      "column_name": "reason_code",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "decisions",
+      "column_name": "note",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "decisions",
+      "column_name": "reframe",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "decisions",
+      "column_name": "central_point_kept",
+      "data_type": "boolean",
+      "udt_name": "bool",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "decisions",
+      "column_name": "hold_until",
+      "data_type": "date",
+      "udt_name": "date",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "decisions",
+      "column_name": "actor",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "decisions",
+      "column_name": "author",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "decisions",
+      "column_name": "expected_hash",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "decisions",
+      "column_name": "resulting_item_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "decisions",
+      "column_name": "details",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": "'{}'::jsonb"
+    },
+    {
+      "table_name": "decisions",
+      "column_name": "created_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "external_calls",
+      "column_name": "call_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "external_calls",
+      "column_name": "plan_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "external_calls",
+      "column_name": "service",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "external_calls",
+      "column_name": "operation",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "external_calls",
+      "column_name": "status",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "external_calls",
+      "column_name": "cost_usd",
+      "data_type": "numeric",
+      "udt_name": "numeric",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "external_calls",
+      "column_name": "details",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": "'{}'::jsonb"
+    },
+    {
+      "table_name": "external_calls",
+      "column_name": "created_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "glossary_terms",
+      "column_name": "term_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "glossary_terms",
+      "column_name": "term",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "glossary_terms",
+      "column_name": "kind",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "glossary_terms",
+      "column_name": "variants",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": "'[]'::jsonb"
+    },
+    {
+      "table_name": "glossary_terms",
+      "column_name": "notes",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "glossary_terms",
+      "column_name": "status",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'active'::text"
+    },
+    {
+      "table_name": "glossary_terms",
+      "column_name": "created_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "glossary_terms",
+      "column_name": "updated_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "intake_assets",
+      "column_name": "asset_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_assets",
+      "column_name": "revision_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_assets",
+      "column_name": "provider_file_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_assets",
+      "column_name": "filename",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_assets",
+      "column_name": "mime_type",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_assets",
+      "column_name": "expected_hash",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_assets",
+      "column_name": "size_bytes",
+      "data_type": "bigint",
+      "udt_name": "int8",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_assets",
+      "column_name": "content_hash",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_assets",
+      "column_name": "raw_artifact",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_assets",
+      "column_name": "source_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_assets",
+      "column_name": "status",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'awaiting_upload'::text"
+    },
+    {
+      "table_name": "intake_assets",
+      "column_name": "metadata",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": "'{}'::jsonb"
+    },
+    {
+      "table_name": "intake_batches",
+      "column_name": "batch_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_batches",
+      "column_name": "request_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_batches",
+      "column_name": "content_hash",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_batches",
+      "column_name": "raw_artifact",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_batches",
+      "column_name": "status",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'received'::text"
+    },
+    {
+      "table_name": "intake_batches",
+      "column_name": "received_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "intake_buckets",
+      "column_name": "bucket_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_buckets",
+      "column_name": "starts_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_buckets",
+      "column_name": "cutoff",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_buckets",
+      "column_name": "status",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'open'::text"
+    },
+    {
+      "table_name": "intake_buckets",
+      "column_name": "completed_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_connections",
+      "column_name": "connection_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_connections",
+      "column_name": "provider",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_connections",
+      "column_name": "activated_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_connections",
+      "column_name": "checkpoint",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_connections",
+      "column_name": "config",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_connections",
+      "column_name": "health",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'ready'::text"
+    },
+    {
+      "table_name": "intake_connections",
+      "column_name": "error_summary",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_connections",
+      "column_name": "updated_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "intake_membership",
+      "column_name": "bucket_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_membership",
+      "column_name": "revision_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_requests",
+      "column_name": "request_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_requests",
+      "column_name": "connection_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_requests",
+      "column_name": "bucket_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_requests",
+      "column_name": "window_start",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_requests",
+      "column_name": "window_end",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_requests",
+      "column_name": "coverage",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": "'{}'::jsonb"
+    },
+    {
+      "table_name": "intake_requests",
+      "column_name": "status",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'pending'::text"
+    },
+    {
+      "table_name": "intake_requests",
+      "column_name": "created_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "intake_revisions",
+      "column_name": "revision_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_revisions",
+      "column_name": "source_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_revisions",
+      "column_name": "transcript_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_revisions",
+      "column_name": "content_hash",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_revisions",
+      "column_name": "raw_artifact",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_revisions",
+      "column_name": "collection_status",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'received'::text"
+    },
+    {
+      "table_name": "intake_revisions",
+      "column_name": "extraction_status",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'pending'::text"
+    },
+    {
+      "table_name": "intake_revisions",
+      "column_name": "indexing_status",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'pending'::text"
+    },
+    {
+      "table_name": "intake_revisions",
+      "column_name": "deleted",
+      "data_type": "boolean",
+      "udt_name": "bool",
+      "is_nullable": "NO",
+      "column_default": "false"
+    },
+    {
+      "table_name": "intake_revisions",
+      "column_name": "error_summary",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_revisions",
+      "column_name": "received_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "intake_schema_migrations",
+      "column_name": "version",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_schema_migrations",
+      "column_name": "applied_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "intake_sources",
+      "column_name": "source_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_sources",
+      "column_name": "connection_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_sources",
+      "column_name": "upstream_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_sources",
+      "column_name": "kind",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_sources",
+      "column_name": "title",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_sources",
+      "column_name": "source_url",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_sources",
+      "column_name": "occurred_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_sources",
+      "column_name": "latest_revision_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_sources",
+      "column_name": "provider_updated_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "intake_sources",
+      "column_name": "status",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'received'::text"
+    },
+    {
+      "table_name": "intake_sources",
+      "column_name": "metadata",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": "'{}'::jsonb"
+    },
+    {
+      "table_name": "intake_sources",
+      "column_name": "received_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "key_moments",
+      "column_name": "moment_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "key_moments",
+      "column_name": "week_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "key_moments",
+      "column_name": "run_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "key_moments",
+      "column_name": "moment_body",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "key_moments",
+      "column_name": "evidence_refs",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "key_moments",
+      "column_name": "created_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "key_moments",
+      "column_name": "document_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "key_moments",
+      "column_name": "moment_type",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "key_moments",
+      "column_name": "speaker_label",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "key_moments",
+      "column_name": "speaker_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "key_moments",
+      "column_name": "speaker_role",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'unknown'::text"
+    },
+    {
+      "table_name": "key_moments",
+      "column_name": "evidence_kind",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'direct_quote'::text"
+    },
+    {
+      "table_name": "key_moments",
+      "column_name": "client_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "key_moments",
+      "column_name": "consent_status",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'anonymise'::text"
+    },
+    {
+      "table_name": "key_moments",
+      "column_name": "quote_verified",
+      "data_type": "boolean",
+      "udt_name": "bool",
+      "is_nullable": "NO",
+      "column_default": "true"
+    },
+    {
+      "table_name": "key_moments",
+      "column_name": "quote_repair",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "key_moments",
+      "column_name": "unverified_reason",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "key_moments",
+      "column_name": "sensitivity",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "key_moments",
+      "column_name": "destination",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "key_moments",
+      "column_name": "occurred_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "key_moments",
+      "column_name": "extractor_version",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "key_moments",
+      "column_name": "checks",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": "'{}'::jsonb"
+    },
+    {
+      "table_name": "key_moments",
+      "column_name": "is_current",
+      "data_type": "boolean",
+      "udt_name": "bool",
+      "is_nullable": "NO",
+      "column_default": "true"
+    },
+    {
+      "table_name": "key_moments",
+      "column_name": "embedding",
+      "data_type": "USER-DEFINED",
+      "udt_name": "vector",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "key_moments",
+      "column_name": "embedding_model",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "key_moments",
+      "column_name": "embedding_input_hash",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "key_moments",
+      "column_name": "tsv",
+      "data_type": "tsvector",
+      "udt_name": "tsvector",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "llm_runs",
+      "column_name": "llm_run_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "llm_runs",
+      "column_name": "plan_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "llm_runs",
+      "column_name": "stage",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "llm_runs",
+      "column_name": "model",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "llm_runs",
+      "column_name": "provider",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "llm_runs",
+      "column_name": "routing_policy",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "llm_runs",
+      "column_name": "request_fingerprint",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "llm_runs",
+      "column_name": "prompt_version",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "llm_runs",
+      "column_name": "knowledge_base_version",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "llm_runs",
+      "column_name": "input_tokens",
+      "data_type": "integer",
+      "udt_name": "int4",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "llm_runs",
+      "column_name": "output_tokens",
+      "data_type": "integer",
+      "udt_name": "int4",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "llm_runs",
+      "column_name": "cost_usd",
+      "data_type": "numeric",
+      "udt_name": "numeric",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "llm_runs",
+      "column_name": "status",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "llm_runs",
+      "column_name": "error",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "llm_runs",
+      "column_name": "details",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": "'{}'::jsonb"
+    },
+    {
+      "table_name": "llm_runs",
+      "column_name": "created_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "moment_topics",
+      "column_name": "moment_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "moment_topics",
+      "column_name": "topic_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "moment_topics",
+      "column_name": "assigned_by",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'model'::text"
+    },
+    {
+      "table_name": "moment_topics",
+      "column_name": "similarity",
+      "data_type": "real",
+      "udt_name": "float4",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "moment_topics",
+      "column_name": "created_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "mutation_receipts",
+      "column_name": "request_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "mutation_receipts",
+      "column_name": "actor",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "mutation_receipts",
+      "column_name": "operation",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "mutation_receipts",
+      "column_name": "request_hash",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "mutation_receipts",
+      "column_name": "response",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "mutation_receipts",
+      "column_name": "created_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "people",
+      "column_name": "person_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "people",
+      "column_name": "name",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "people",
+      "column_name": "role",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "people",
+      "column_name": "status",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'current'::text"
+    },
+    {
+      "table_name": "people",
+      "column_name": "title",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "people",
+      "column_name": "aliases",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": "'[]'::jsonb"
+    },
+    {
+      "table_name": "people",
+      "column_name": "email",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "people",
+      "column_name": "slack_user_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "people",
+      "column_name": "client_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "people",
+      "column_name": "roster_key",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "people",
+      "column_name": "source",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "people",
+      "column_name": "notes",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "people",
+      "column_name": "created_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "people",
+      "column_name": "updated_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "pipeline_events",
+      "column_name": "event_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_events",
+      "column_name": "run_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_events",
+      "column_name": "job_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_events",
+      "column_name": "event_type",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_events",
+      "column_name": "severity",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'info'::text"
+    },
+    {
+      "table_name": "pipeline_events",
+      "column_name": "message",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_events",
+      "column_name": "attempt_number",
+      "data_type": "integer",
+      "udt_name": "int4",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_events",
+      "column_name": "details",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_events",
+      "column_name": "created_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "column_name": "job_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "column_name": "run_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "column_name": "week_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "column_name": "stage",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "column_name": "transcript_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "column_name": "angle_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "column_name": "brief_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "column_name": "pack_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "column_name": "asset_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "column_name": "calendar_entry_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "column_name": "status",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'queued'::text"
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "column_name": "current_step",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "column_name": "current_message",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "column_name": "completed_units",
+      "data_type": "integer",
+      "udt_name": "int4",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "column_name": "total_units",
+      "data_type": "integer",
+      "udt_name": "int4",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "column_name": "progress_details",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "column_name": "idempotency_key",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "column_name": "input_hash",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "column_name": "attempt_count",
+      "data_type": "integer",
+      "udt_name": "int4",
+      "is_nullable": "NO",
+      "column_default": "0"
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "column_name": "result_refs",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "column_name": "error_summary",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "column_name": "lease_token",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "column_name": "lease_expires_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "column_name": "created_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "column_name": "updated_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "column_name": "started_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "column_name": "finished_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "column_name": "heartbeat_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "column_name": "executor",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'postgres'::text"
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "column_name": "queue",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'default'::text"
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "column_name": "rq_job_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "column_name": "priority",
+      "data_type": "integer",
+      "udt_name": "int4",
+      "is_nullable": "NO",
+      "column_default": "0"
+    },
+    {
+      "table_name": "pipeline_runs",
+      "column_name": "run_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_runs",
+      "column_name": "week_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_runs",
+      "column_name": "run_scope",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_runs",
+      "column_name": "status",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'queued'::text"
+    },
+    {
+      "table_name": "pipeline_runs",
+      "column_name": "current_message",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_runs",
+      "column_name": "error_summary",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_runs",
+      "column_name": "has_partial_failures",
+      "data_type": "boolean",
+      "udt_name": "bool",
+      "is_nullable": "NO",
+      "column_default": "false"
+    },
+    {
+      "table_name": "pipeline_runs",
+      "column_name": "trigger_type",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_runs",
+      "column_name": "triggered_by",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_runs",
+      "column_name": "input_refs",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_runs",
+      "column_name": "created_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "pipeline_runs",
+      "column_name": "started_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_runs",
+      "column_name": "finished_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "pipeline_runs",
+      "column_name": "updated_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "published_content",
+      "column_name": "content_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "published_content",
+      "column_name": "published_on",
+      "data_type": "date",
+      "udt_name": "date",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "published_content",
+      "column_name": "channel",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "published_content",
+      "column_name": "title",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "published_content",
+      "column_name": "text",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "published_content",
+      "column_name": "key_message",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "published_content",
+      "column_name": "pillar",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "published_content",
+      "column_name": "content_type",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "published_content",
+      "column_name": "sibling_group",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "published_content",
+      "column_name": "status",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "published_content",
+      "column_name": "source_kind",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "published_content",
+      "column_name": "source_ref",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "published_content",
+      "column_name": "details",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": "'{}'::jsonb"
+    },
+    {
+      "table_name": "published_content",
+      "column_name": "embedding",
+      "data_type": "USER-DEFINED",
+      "udt_name": "vector",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "published_content",
+      "column_name": "topic_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "published_content",
+      "column_name": "angle_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "published_content",
+      "column_name": "brief_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "published_content",
+      "column_name": "performance",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": "'[]'::jsonb"
+    },
+    {
+      "table_name": "published_content",
+      "column_name": "created_by",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "published_content",
+      "column_name": "created_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "published_content",
+      "column_name": "updated_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "run_plans",
+      "column_name": "plan_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "run_plans",
+      "column_name": "purpose",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "run_plans",
+      "column_name": "stages",
+      "data_type": "ARRAY",
+      "udt_name": "_text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "run_plans",
+      "column_name": "models",
+      "data_type": "ARRAY",
+      "udt_name": "_text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "run_plans",
+      "column_name": "input_set_hash",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "run_plans",
+      "column_name": "max_calls",
+      "data_type": "integer",
+      "udt_name": "int4",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "run_plans",
+      "column_name": "max_cost_usd",
+      "data_type": "numeric",
+      "udt_name": "numeric",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "run_plans",
+      "column_name": "approver",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "run_plans",
+      "column_name": "approved_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "run_plans",
+      "column_name": "expires_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "run_plans",
+      "column_name": "status",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'active'::text"
+    },
+    {
+      "table_name": "run_plans",
+      "column_name": "calls_used",
+      "data_type": "integer",
+      "udt_name": "int4",
+      "is_nullable": "NO",
+      "column_default": "0"
+    },
+    {
+      "table_name": "run_plans",
+      "column_name": "cost_used_usd",
+      "data_type": "numeric",
+      "udt_name": "numeric",
+      "is_nullable": "NO",
+      "column_default": "0"
+    },
+    {
+      "table_name": "run_plans",
+      "column_name": "closed_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "run_plans",
+      "column_name": "closed_reason",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "run_plans",
+      "column_name": "details",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": "'{}'::jsonb"
+    },
+    {
+      "table_name": "schema_migrations",
+      "column_name": "version",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "schema_migrations",
+      "column_name": "name",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "schema_migrations",
+      "column_name": "checksum",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "schema_migrations",
+      "column_name": "applied_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "schema_migrations",
+      "column_name": "applied_by",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'storage_cli migrate'::text"
+    },
+    {
+      "table_name": "schema_migrations",
+      "column_name": "source",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "seeds",
+      "column_name": "seed_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "seeds",
+      "column_name": "kind",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "seeds",
+      "column_name": "text",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "seeds",
+      "column_name": "target_offer",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "seeds",
+      "column_name": "source_url",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "seeds",
+      "column_name": "always_true",
+      "data_type": "boolean",
+      "udt_name": "bool",
+      "is_nullable": "NO",
+      "column_default": "false"
+    },
+    {
+      "table_name": "seeds",
+      "column_name": "author",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "seeds",
+      "column_name": "created_by",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "seeds",
+      "column_name": "week_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "seeds",
+      "column_name": "status",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'open'::text"
+    },
+    {
+      "table_name": "seeds",
+      "column_name": "used_in_run_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "seeds",
+      "column_name": "created_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "settings",
+      "column_name": "key",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "settings",
+      "column_name": "value",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "settings",
+      "column_name": "updated_by",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "settings",
+      "column_name": "updated_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "slack_channels",
+      "column_name": "channel_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "slack_channels",
+      "column_name": "connection_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "slack_channels",
+      "column_name": "name",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "slack_channels",
+      "column_name": "workspace",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "slack_channels",
+      "column_name": "included",
+      "data_type": "boolean",
+      "udt_name": "bool",
+      "is_nullable": "NO",
+      "column_default": "true"
+    },
+    {
+      "table_name": "slack_channels",
+      "column_name": "exclusion_reason",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "slack_channels",
+      "column_name": "created_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "slack_channels",
+      "column_name": "updated_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "topics",
+      "column_name": "topic_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "topics",
+      "column_name": "name",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "topics",
+      "column_name": "description",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "topics",
+      "column_name": "pillars",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": "'[]'::jsonb"
+    },
+    {
+      "table_name": "topics",
+      "column_name": "status",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'active'::text"
+    },
+    {
+      "table_name": "topics",
+      "column_name": "merged_into",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "topics",
+      "column_name": "embedding",
+      "data_type": "USER-DEFINED",
+      "udt_name": "vector",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "topics",
+      "column_name": "embedding_model",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "topics",
+      "column_name": "embedding_input_hash",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "topics",
+      "column_name": "origin",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'model'::text"
+    },
+    {
+      "table_name": "topics",
+      "column_name": "created_by",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "topics",
+      "column_name": "created_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "topics",
+      "column_name": "updated_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "transcript_chunks",
+      "column_name": "chunk_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "transcript_chunks",
+      "column_name": "transcript_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "transcript_chunks",
+      "column_name": "chunk_text",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "transcript_chunks",
+      "column_name": "passage_refs",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "transcript_chunks",
+      "column_name": "content_hash",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "transcript_chunks",
+      "column_name": "embedding",
+      "data_type": "USER-DEFINED",
+      "udt_name": "vector",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "transcript_chunks",
+      "column_name": "header",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "transcript_chunks",
+      "column_name": "occurred_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "transcript_chunks",
+      "column_name": "speaker_roles",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "transcript_chunks",
+      "column_name": "embedding_model",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "transcript_chunks",
+      "column_name": "segmentation_version",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'v1'::text"
+    },
+    {
+      "table_name": "transcript_chunks",
+      "column_name": "is_current",
+      "data_type": "boolean",
+      "udt_name": "bool",
+      "is_nullable": "NO",
+      "column_default": "true"
+    },
+    {
+      "table_name": "transcript_chunks",
+      "column_name": "search_text",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "transcript_chunks",
+      "column_name": "tsv",
+      "data_type": "tsvector",
+      "udt_name": "tsvector",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "transcripts",
+      "column_name": "transcript_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "transcripts",
+      "column_name": "week_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "transcripts",
+      "column_name": "source_type",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "transcripts",
+      "column_name": "upstream_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "transcripts",
+      "column_name": "title",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "transcripts",
+      "column_name": "source_url",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "transcripts",
+      "column_name": "occurred_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "transcripts",
+      "column_name": "original_text",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "transcripts",
+      "column_name": "passage_map",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "transcripts",
+      "column_name": "content_hash",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "transcripts",
+      "column_name": "source_metadata",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "transcripts",
+      "column_name": "use_restrictions",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "transcripts",
+      "column_name": "processing_status",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'pending'::text"
+    },
+    {
+      "table_name": "transcripts",
+      "column_name": "ingested_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "transcripts",
+      "column_name": "occurred_at_source",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "transcripts",
+      "column_name": "call_type",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "transcripts",
+      "column_name": "included",
+      "data_type": "boolean",
+      "udt_name": "bool",
+      "is_nullable": "NO",
+      "column_default": "true"
+    },
+    {
+      "table_name": "transcripts",
+      "column_name": "exclusion_reason",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "transcripts",
+      "column_name": "client_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "transcripts",
+      "column_name": "participants",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": "'[]'::jsonb"
+    },
+    {
+      "table_name": "transcripts",
+      "column_name": "speaker_map",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "transcripts",
+      "column_name": "canonical_document_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "transcripts",
+      "column_name": "raw_object_key",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "transcripts",
+      "column_name": "classification",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "transcripts",
+      "column_name": "normaliser_version",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "transcripts",
+      "column_name": "normalised_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "transcripts",
+      "column_name": "extraction_status",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'pending'::text"
+    },
+    {
+      "table_name": "users",
+      "column_name": "email",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "users",
+      "column_name": "name",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "users",
+      "column_name": "role",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "users",
+      "column_name": "slack_user_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "users",
+      "column_name": "created_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "users",
+      "column_name": "updated_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "weeks",
+      "column_name": "week_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "weeks",
+      "column_name": "week_start",
+      "data_type": "date",
+      "udt_name": "date",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "weeks",
+      "column_name": "week_end",
+      "data_type": "date",
+      "udt_name": "date",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "weeks",
+      "column_name": "status",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'pending'::text"
+    },
+    {
+      "table_name": "weeks",
+      "column_name": "active_run_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "weeks",
+      "column_name": "coverage_notes",
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "weeks",
+      "column_name": "created_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    }
+  ],
+  "constraints": [
+    {
+      "table_name": "angle_moments",
+      "conname": "angle_moments_angle_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (angle_id) REFERENCES content_angles(angle_id) DEFERRABLE"
+    },
+    {
+      "table_name": "angle_moments",
+      "conname": "angle_moments_moment_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (moment_id) REFERENCES key_moments(moment_id) DEFERRABLE"
+    },
+    {
+      "table_name": "angle_moments",
+      "conname": "angle_moments_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (angle_id, moment_id)"
+    },
+    {
+      "table_name": "brand_kit_docs",
+      "conname": "brand_kit_docs_benchmark_state_check",
+      "contype": "c",
+      "definition": "CHECK ((benchmark_state = ANY (ARRAY['not_required'::text, 'pending'::text, 'passed'::text, 'failed'::text])))"
+    },
+    {
+      "table_name": "brand_kit_docs",
+      "conname": "brand_kit_docs_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (key, version)"
+    },
+    {
+      "table_name": "brand_kit_docs",
+      "conname": "brand_kit_docs_review_interval_days_check",
+      "contype": "c",
+      "definition": "CHECK ((review_interval_days > 0))"
+    },
+    {
+      "table_name": "brand_kit_docs",
+      "conname": "brand_kit_docs_status_check",
+      "contype": "c",
+      "definition": "CHECK ((status = ANY (ARRAY['supplied'::text, 'confirmed'::text, 'draft'::text, 'unconfirmed'::text])))"
+    },
+    {
+      "table_name": "brand_kit_items",
+      "conname": "brand_kit_items_check",
+      "contype": "c",
+      "definition": "CHECK (((valid_to IS NULL) OR (valid_from IS NULL) OR (valid_to >= valid_from)))"
+    },
+    {
+      "table_name": "brand_kit_items",
+      "conname": "brand_kit_items_check1",
+      "contype": "c",
+      "definition": "CHECK (((status <> ALL (ARRAY['confirmed'::text, 'retired'::text])) OR ((reviewed_by IS NOT NULL) AND (reviewed_at IS NOT NULL))))"
+    },
+    {
+      "table_name": "brand_kit_items",
+      "conname": "brand_kit_items_check2",
+      "contype": "c",
+      "definition": "CHECK (((kind <> 'result'::text) OR (permission IS NOT NULL)))"
+    },
+    {
+      "table_name": "brand_kit_items",
+      "conname": "brand_kit_items_check3",
+      "contype": "c",
+      "definition": "CHECK (((permission IS NULL) OR (kind = 'result'::text)))"
+    },
+    {
+      "table_name": "brand_kit_items",
+      "conname": "brand_kit_items_confidence_check",
+      "contype": "c",
+      "definition": "CHECK ((confidence = ANY (ARRAY['low'::text, 'medium'::text, 'high'::text])))"
+    },
+    {
+      "table_name": "brand_kit_items",
+      "conname": "brand_kit_items_key_check",
+      "contype": "c",
+      "definition": "CHECK ((key ~ '^[a-z_]+:[a-z0-9][a-z0-9_.:-]*$'::text))"
+    },
+    {
+      "table_name": "brand_kit_items",
+      "conname": "brand_kit_items_kind_check",
+      "contype": "c",
+      "definition": "CHECK ((kind = ANY (ARRAY['rule'::text, 'exemplar'::text, 'offer'::text, 'price'::text, 'roster_member'::text, 'result'::text, 'cta'::text, 'process_step'::text, 'belief'::text, 'audience_phrase'::text, 'format_rule'::text, 'campaign'::text, 'content_plan_entry'::text, 'performance_note'::text])))"
+    },
+    {
+      "table_name": "brand_kit_items",
+      "conname": "brand_kit_items_permission_check",
+      "contype": "c",
+      "definition": "CHECK ((permission = ANY (ARRAY['published'::text, 'client_permission'::text, 'none'::text])))"
+    },
+    {
+      "table_name": "brand_kit_items",
+      "conname": "brand_kit_items_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (item_id)"
+    },
+    {
+      "table_name": "brand_kit_items",
+      "conname": "brand_kit_items_sensitivity_check",
+      "contype": "c",
+      "definition": "CHECK ((sensitivity = ANY (ARRAY['none'::text, 'client_private'::text, 'personal'::text, 'confidential'::text])))"
+    },
+    {
+      "table_name": "brand_kit_items",
+      "conname": "brand_kit_items_source_kind_check",
+      "contype": "c",
+      "definition": "CHECK ((source_kind = ANY (ARRAY['export_seed'::text, 'knowledge_base'::text, 'gate_decision'::text, 'approved_card'::text, 'approved_brief'::text, 'brief_edit'::text, 'published_piece'::text, 'performance_entry'::text, 'approver_entry'::text, 'seed'::text, 'learning_loop'::text])))"
+    },
+    {
+      "table_name": "brand_kit_items",
+      "conname": "brand_kit_items_source_kind_source_ref_key",
+      "contype": "u",
+      "definition": "UNIQUE (source_kind, source_ref)"
+    },
+    {
+      "table_name": "brand_kit_items",
+      "conname": "brand_kit_items_status_check",
+      "contype": "c",
+      "definition": "CHECK ((status = ANY (ARRAY['candidate'::text, 'confirmed'::text, 'rejected'::text, 'retired'::text])))"
+    },
+    {
+      "table_name": "brand_kit_items",
+      "conname": "brand_kit_items_supersedes_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (supersedes_id) REFERENCES brand_kit_items(item_id)"
+    },
+    {
+      "table_name": "brand_kit_items",
+      "conname": "brand_kit_items_text_check",
+      "contype": "c",
+      "definition": "CHECK ((length(btrim(text)) > 0))"
+    },
+    {
+      "table_name": "brand_kit_items",
+      "conname": "brand_kit_items_visibility_check",
+      "contype": "c",
+      "definition": "CHECK ((visibility = ANY (ARRAY['public'::text, 'internal'::text])))"
+    },
+    {
+      "table_name": "calendar_entries",
+      "conname": "active_calendar_has_time",
+      "contype": "c",
+      "definition": "CHECK (((status <> ALL (ARRAY['scheduled'::text, 'needs_review'::text])) OR (scheduled_for IS NOT NULL)))"
+    },
+    {
+      "table_name": "calendar_entries",
+      "conname": "calendar_entries_asset_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (asset_id) REFERENCES content_assets(asset_id) DEFERRABLE"
+    },
+    {
+      "table_name": "calendar_entries",
+      "conname": "calendar_entries_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (calendar_entry_id)"
+    },
+    {
+      "table_name": "calendar_entries",
+      "conname": "calendar_entries_revision_check",
+      "contype": "c",
+      "definition": "CHECK ((revision > 0))"
+    },
+    {
+      "table_name": "calendar_entries",
+      "conname": "calendar_status",
+      "contype": "c",
+      "definition": "CHECK ((status = ANY (ARRAY['draft'::text, 'scheduled'::text, 'needs_review'::text, 'cancelled'::text, 'published'::text])))"
+    },
+    {
+      "table_name": "calendar_entries",
+      "conname": "published_entry_has_confirmation_time",
+      "contype": "c",
+      "definition": "CHECK (((status <> 'published'::text) OR (published_at IS NOT NULL)))"
+    },
+    {
+      "table_name": "calendar_entries",
+      "conname": "scheduled_entry_has_time",
+      "contype": "c",
+      "definition": "CHECK (((status <> 'scheduled'::text) OR (scheduled_for IS NOT NULL)))"
+    },
+    {
+      "table_name": "calibration_labels",
+      "conname": "calibration_labels_check",
+      "contype": "c",
+      "definition": "CHECK (((decision_id IS NOT NULL) OR proxy OR (source <> 'gate'::text)))"
+    },
+    {
+      "table_name": "calibration_labels",
+      "conname": "calibration_labels_decision_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (decision_id) REFERENCES decisions(decision_id)"
+    },
+    {
+      "table_name": "calibration_labels",
+      "conname": "calibration_labels_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (label_id)"
+    },
+    {
+      "table_name": "clients",
+      "conname": "clients_consent_check",
+      "contype": "c",
+      "definition": "CHECK ((consent = ANY (ARRAY['anonymise_only'::text, 'may_name'::text, 'no_use'::text])))"
+    },
+    {
+      "table_name": "clients",
+      "conname": "clients_name_check",
+      "contype": "c",
+      "definition": "CHECK ((length(btrim(name)) > 0))"
+    },
+    {
+      "table_name": "clients",
+      "conname": "clients_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (client_id)"
+    },
+    {
+      "table_name": "clients",
+      "conname": "clients_status_check",
+      "contype": "c",
+      "definition": "CHECK ((status = ANY (ARRAY['active'::text, 'former'::text])))"
+    },
+    {
+      "table_name": "content_angles",
+      "conname": "angle_approval_is_bound",
+      "contype": "c",
+      "definition": "CHECK (((approval_status <> 'approved'::text) OR ((approved_hash IS NOT NULL) AND (approved_hash = content_hash) AND (approved_by IS NOT NULL) AND (approved_at IS NOT NULL) AND (selected_cta IS NOT NULL))))"
+    },
+    {
+      "table_name": "content_angles",
+      "conname": "angle_scores_in_range",
+      "contype": "c",
+      "definition": "CHECK ((((base_score IS NULL) OR ((base_score >= (0)::numeric) AND (base_score <= (100)::numeric))) AND ((adjusted_score IS NULL) OR ((adjusted_score >= (0)::numeric) AND (adjusted_score <= (100)::numeric)))))"
+    },
+    {
+      "table_name": "content_angles",
+      "conname": "angle_vector_has_input_hash",
+      "contype": "c",
+      "definition": "CHECK (((embedding IS NULL) = (embedding_input_hash IS NULL)))"
+    },
+    {
+      "table_name": "content_angles",
+      "conname": "content_angles_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (angle_id)"
+    },
+    {
+      "table_name": "content_angles",
+      "conname": "content_angles_run_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (run_id) REFERENCES pipeline_runs(run_id) DEFERRABLE"
+    },
+    {
+      "table_name": "content_angles",
+      "conname": "content_angles_supersedes_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (supersedes_id) REFERENCES content_angles(angle_id) DEFERRABLE"
+    },
+    {
+      "table_name": "content_angles",
+      "conname": "content_angles_week_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (week_id) REFERENCES weeks(week_id) DEFERRABLE"
+    },
+    {
+      "table_name": "content_assets",
+      "conname": "asset_content_has_hash",
+      "contype": "c",
+      "definition": "CHECK (((content_body IS NULL) = (content_hash IS NULL)))"
+    },
+    {
+      "table_name": "content_assets",
+      "conname": "asset_order_is_positive",
+      "contype": "c",
+      "definition": "CHECK ((ordinal > 0))"
+    },
+    {
+      "table_name": "content_assets",
+      "conname": "content_assets_brief_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (brief_id) REFERENCES content_briefs(brief_id) DEFERRABLE"
+    },
+    {
+      "table_name": "content_assets",
+      "conname": "content_assets_pack_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (pack_id) REFERENCES content_packs(pack_id) DEFERRABLE"
+    },
+    {
+      "table_name": "content_assets",
+      "conname": "content_assets_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (asset_id)"
+    },
+    {
+      "table_name": "content_assets",
+      "conname": "content_assets_supersedes_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (supersedes_id) REFERENCES content_assets(asset_id) DEFERRABLE"
+    },
+    {
+      "table_name": "content_assets",
+      "conname": "generated_asset_has_content",
+      "contype": "c",
+      "definition": "CHECK (((status = 'planned'::text) OR (content_body IS NOT NULL)))"
+    },
+    {
+      "table_name": "content_briefs",
+      "conname": "brief_approval_is_bound",
+      "contype": "c",
+      "definition": "CHECK (((approval_status <> 'approved'::text) OR ((approved_hash IS NOT NULL) AND (approved_hash = content_hash) AND (approved_by IS NOT NULL) AND (approved_at IS NOT NULL))))"
+    },
+    {
+      "table_name": "content_briefs",
+      "conname": "content_briefs_angle_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (angle_id) REFERENCES content_angles(angle_id) DEFERRABLE"
+    },
+    {
+      "table_name": "content_briefs",
+      "conname": "content_briefs_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (brief_id)"
+    },
+    {
+      "table_name": "content_briefs",
+      "conname": "content_briefs_supersedes_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (supersedes_id) REFERENCES content_briefs(brief_id) DEFERRABLE"
+    },
+    {
+      "table_name": "content_briefs",
+      "conname": "content_briefs_week_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (week_id) REFERENCES weeks(week_id) DEFERRABLE"
+    },
+    {
+      "table_name": "content_packs",
+      "conname": "content_packs_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (pack_id)"
+    },
+    {
+      "table_name": "content_packs",
+      "conname": "content_packs_supersedes_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (supersedes_id) REFERENCES content_packs(pack_id) DEFERRABLE"
+    },
+    {
+      "table_name": "content_packs",
+      "conname": "content_packs_week_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (week_id) REFERENCES weeks(week_id) DEFERRABLE"
+    },
+    {
+      "table_name": "content_packs",
+      "conname": "pack_approval_is_bound",
+      "contype": "c",
+      "definition": "CHECK (((approval_status <> 'approved'::text) OR ((manifest_hash IS NOT NULL) AND (approved_hash IS NOT NULL) AND (approved_hash = manifest_hash) AND (approved_by IS NOT NULL) AND (approved_at IS NOT NULL))))"
+    },
+    {
+      "table_name": "decisions",
+      "conname": "decisions_check",
+      "contype": "c",
+      "definition": "CHECK (((disposition <> 'reframe'::text) OR ((reframe IS NOT NULL) AND (central_point_kept IS NOT NULL))))"
+    },
+    {
+      "table_name": "decisions",
+      "conname": "decisions_check1",
+      "contype": "c",
+      "definition": "CHECK (((disposition <> 'hold'::text) OR (hold_until IS NOT NULL)))"
+    },
+    {
+      "table_name": "decisions",
+      "conname": "decisions_disposition_check",
+      "contype": "c",
+      "definition": "CHECK ((disposition = ANY (ARRAY['develop'::text, 'reframe'::text, 'hold'::text, 'internal'::text, 'skip'::text, 'revive'::text, 'approve'::text, 'reject'::text])))"
+    },
+    {
+      "table_name": "decisions",
+      "conname": "decisions_item_kind_check",
+      "contype": "c",
+      "definition": "CHECK ((item_kind = ANY (ARRAY['angle'::text, 'considered_idea'::text, 'brief'::text, 'brand_kit_item'::text, 'brand_kit_version'::text, 'brand_kit_source'::text, 'published_content'::text, 'run_plan'::text, 'seed'::text, 'topic'::text])))"
+    },
+    {
+      "table_name": "decisions",
+      "conname": "decisions_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (decision_id)"
+    },
+    {
+      "table_name": "decisions",
+      "conname": "decisions_week_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (week_id) REFERENCES weeks(week_id)"
+    },
+    {
+      "table_name": "external_calls",
+      "conname": "external_calls_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (call_id)"
+    },
+    {
+      "table_name": "external_calls",
+      "conname": "external_calls_plan_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (plan_id) REFERENCES run_plans(plan_id)"
+    },
+    {
+      "table_name": "glossary_terms",
+      "conname": "glossary_terms_kind_check",
+      "contype": "c",
+      "definition": "CHECK ((kind = ANY (ARRAY['product'::text, 'staff'::text, 'client'::text, 'other'::text])))"
+    },
+    {
+      "table_name": "glossary_terms",
+      "conname": "glossary_terms_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (term_id)"
+    },
+    {
+      "table_name": "glossary_terms",
+      "conname": "glossary_terms_status_check",
+      "contype": "c",
+      "definition": "CHECK ((status = ANY (ARRAY['active'::text, 'retired'::text])))"
+    },
+    {
+      "table_name": "glossary_terms",
+      "conname": "glossary_terms_term_check",
+      "contype": "c",
+      "definition": "CHECK ((length(btrim(term)) > 0))"
+    },
+    {
+      "table_name": "intake_assets",
+      "conname": "intake_assets_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (asset_id)"
+    },
+    {
+      "table_name": "intake_assets",
+      "conname": "intake_assets_revision_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (revision_id) REFERENCES intake_revisions(revision_id)"
+    },
+    {
+      "table_name": "intake_assets",
+      "conname": "intake_assets_revision_id_provider_file_id_key",
+      "contype": "u",
+      "definition": "UNIQUE (revision_id, provider_file_id)"
+    },
+    {
+      "table_name": "intake_assets",
+      "conname": "intake_assets_size_bytes_check",
+      "contype": "c",
+      "definition": "CHECK ((size_bytes >= 0))"
+    },
+    {
+      "table_name": "intake_assets",
+      "conname": "intake_assets_source_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (source_id) REFERENCES intake_sources(source_id)"
+    },
+    {
+      "table_name": "intake_batches",
+      "conname": "intake_batches_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (batch_id)"
+    },
+    {
+      "table_name": "intake_batches",
+      "conname": "intake_batches_request_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (request_id) REFERENCES intake_requests(request_id)"
+    },
+    {
+      "table_name": "intake_buckets",
+      "conname": "intake_buckets_check",
+      "contype": "c",
+      "definition": "CHECK (((cutoff IS NULL) OR (cutoff > starts_at)))"
+    },
+    {
+      "table_name": "intake_buckets",
+      "conname": "intake_buckets_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (bucket_id)"
+    },
+    {
+      "table_name": "intake_buckets",
+      "conname": "intake_buckets_starts_at_key",
+      "contype": "u",
+      "definition": "UNIQUE (starts_at)"
+    },
+    {
+      "table_name": "intake_buckets",
+      "conname": "intake_buckets_status_check",
+      "contype": "c",
+      "definition": "CHECK ((status = ANY (ARRAY['open'::text, 'collecting'::text, 'completed'::text])))"
+    },
+    {
+      "table_name": "intake_connections",
+      "conname": "intake_connections_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (connection_id)"
+    },
+    {
+      "table_name": "intake_connections",
+      "conname": "intake_connections_provider_check",
+      "contype": "c",
+      "definition": "CHECK ((provider = ANY (ARRAY['fathom'::text, 'slack'::text])))"
+    },
+    {
+      "table_name": "intake_membership",
+      "conname": "intake_membership_bucket_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (bucket_id) REFERENCES intake_buckets(bucket_id)"
+    },
+    {
+      "table_name": "intake_membership",
+      "conname": "intake_membership_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (bucket_id, revision_id)"
+    },
+    {
+      "table_name": "intake_membership",
+      "conname": "intake_membership_revision_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (revision_id) REFERENCES intake_revisions(revision_id)"
+    },
+    {
+      "table_name": "intake_requests",
+      "conname": "intake_requests_bucket_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (bucket_id) REFERENCES intake_buckets(bucket_id)"
+    },
+    {
+      "table_name": "intake_requests",
+      "conname": "intake_requests_check",
+      "contype": "c",
+      "definition": "CHECK ((window_end >= window_start))"
+    },
+    {
+      "table_name": "intake_requests",
+      "conname": "intake_requests_connection_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (connection_id) REFERENCES intake_connections(connection_id)"
+    },
+    {
+      "table_name": "intake_requests",
+      "conname": "intake_requests_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (request_id)"
+    },
+    {
+      "table_name": "intake_revisions",
+      "conname": "intake_revisions_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (revision_id)"
+    },
+    {
+      "table_name": "intake_revisions",
+      "conname": "intake_revisions_source_id_content_hash_key",
+      "contype": "u",
+      "definition": "UNIQUE (source_id, content_hash)"
+    },
+    {
+      "table_name": "intake_revisions",
+      "conname": "intake_revisions_source_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (source_id) REFERENCES intake_sources(source_id)"
+    },
+    {
+      "table_name": "intake_revisions",
+      "conname": "intake_revisions_transcript_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (transcript_id) REFERENCES transcripts(transcript_id)"
+    },
+    {
+      "table_name": "intake_revisions",
+      "conname": "intake_revisions_transcript_id_key",
+      "contype": "u",
+      "definition": "UNIQUE (transcript_id)"
+    },
+    {
+      "table_name": "intake_schema_migrations",
+      "conname": "intake_schema_migrations_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (version)"
+    },
+    {
+      "table_name": "intake_sources",
+      "conname": "intake_sources_connection_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (connection_id) REFERENCES intake_connections(connection_id)"
+    },
+    {
+      "table_name": "intake_sources",
+      "conname": "intake_sources_connection_id_upstream_id_key",
+      "contype": "u",
+      "definition": "UNIQUE (connection_id, upstream_id)"
+    },
+    {
+      "table_name": "intake_sources",
+      "conname": "intake_sources_latest_revision_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (latest_revision_id) REFERENCES intake_revisions(revision_id)"
+    },
+    {
+      "table_name": "intake_sources",
+      "conname": "intake_sources_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (source_id)"
+    },
+    {
+      "table_name": "key_moments",
+      "conname": "key_moments_client_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (client_id) REFERENCES clients(client_id)"
+    },
+    {
+      "table_name": "key_moments",
+      "conname": "key_moments_consent_status_check",
+      "contype": "c",
+      "definition": "CHECK ((consent_status = ANY (ARRAY['cleared'::text, 'anonymise'::text, 'internal_only'::text, 'do_not_use'::text])))"
+    },
+    {
+      "table_name": "key_moments",
+      "conname": "key_moments_destination_check",
+      "contype": "c",
+      "definition": "CHECK ((destination = ANY (ARRAY['public_opportunity'::text, 'internal_intelligence'::text, 'research_needed'::text])))"
+    },
+    {
+      "table_name": "key_moments",
+      "conname": "key_moments_document_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (document_id) REFERENCES transcripts(transcript_id)"
+    },
+    {
+      "table_name": "key_moments",
+      "conname": "key_moments_evidence_kind_check",
+      "contype": "c",
+      "definition": "CHECK ((evidence_kind = ANY (ARRAY['direct_quote'::text, 'team_report'::text, 'screenshot_text'::text])))"
+    },
+    {
+      "table_name": "key_moments",
+      "conname": "key_moments_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (moment_id)"
+    },
+    {
+      "table_name": "key_moments",
+      "conname": "key_moments_run_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (run_id) REFERENCES pipeline_runs(run_id) DEFERRABLE"
+    },
+    {
+      "table_name": "key_moments",
+      "conname": "key_moments_sensitivity_check",
+      "contype": "c",
+      "definition": "CHECK ((sensitivity = ANY (ARRAY['public_candidate'::text, 'internal_only'::text, 'unknown'::text])))"
+    },
+    {
+      "table_name": "key_moments",
+      "conname": "key_moments_speaker_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (speaker_id) REFERENCES people(person_id)"
+    },
+    {
+      "table_name": "key_moments",
+      "conname": "key_moments_speaker_role_check",
+      "contype": "c",
+      "definition": "CHECK ((speaker_role = ANY (ARRAY['staff'::text, 'client'::text, 'prospect'::text, 'vendor'::text, 'outside'::text, 'ai_agent'::text, 'unknown'::text])))"
+    },
+    {
+      "table_name": "key_moments",
+      "conname": "key_moments_unverified_has_no_vector",
+      "contype": "c",
+      "definition": "CHECK ((quote_verified OR (embedding IS NULL)))"
+    },
+    {
+      "table_name": "key_moments",
+      "conname": "key_moments_unverified_has_reason",
+      "contype": "c",
+      "definition": "CHECK ((quote_verified OR (unverified_reason IS NOT NULL)))"
+    },
+    {
+      "table_name": "key_moments",
+      "conname": "key_moments_vector_has_input_hash",
+      "contype": "c",
+      "definition": "CHECK (((embedding IS NULL) = (embedding_input_hash IS NULL)))"
+    },
+    {
+      "table_name": "key_moments",
+      "conname": "key_moments_vector_has_model",
+      "contype": "c",
+      "definition": "CHECK (((embedding IS NULL) OR (embedding_model IS NOT NULL)))"
+    },
+    {
+      "table_name": "key_moments",
+      "conname": "key_moments_week_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (week_id) REFERENCES weeks(week_id) DEFERRABLE"
+    },
+    {
+      "table_name": "llm_runs",
+      "conname": "llm_runs_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (llm_run_id)"
+    },
+    {
+      "table_name": "llm_runs",
+      "conname": "llm_runs_plan_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (plan_id) REFERENCES run_plans(plan_id)"
+    },
+    {
+      "table_name": "llm_runs",
+      "conname": "llm_runs_status_check",
+      "contype": "c",
+      "definition": "CHECK ((status = ANY (ARRAY['sent'::text, 'succeeded'::text, 'failed'::text, 'refused'::text, 'replayed'::text])))"
+    },
+    {
+      "table_name": "moment_topics",
+      "conname": "moment_topics_assigned_by_check",
+      "contype": "c",
+      "definition": "CHECK ((assigned_by = ANY (ARRAY['model'::text, 'person'::text, 'merge'::text])))"
+    },
+    {
+      "table_name": "moment_topics",
+      "conname": "moment_topics_moment_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (moment_id) REFERENCES key_moments(moment_id) ON DELETE CASCADE"
+    },
+    {
+      "table_name": "moment_topics",
+      "conname": "moment_topics_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (moment_id, topic_id)"
+    },
+    {
+      "table_name": "moment_topics",
+      "conname": "moment_topics_topic_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (topic_id) REFERENCES topics(topic_id)"
+    },
+    {
+      "table_name": "mutation_receipts",
+      "conname": "mutation_receipts_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (request_id)"
+    },
+    {
+      "table_name": "people",
+      "conname": "people_check",
+      "contype": "c",
+      "definition": "CHECK (((client_id IS NULL) OR (role = ANY (ARRAY['client'::text, 'prospect'::text]))))"
+    },
+    {
+      "table_name": "people",
+      "conname": "people_client_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (client_id) REFERENCES clients(client_id)"
+    },
+    {
+      "table_name": "people",
+      "conname": "people_name_check",
+      "contype": "c",
+      "definition": "CHECK ((length(btrim(name)) > 0))"
+    },
+    {
+      "table_name": "people",
+      "conname": "people_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (person_id)"
+    },
+    {
+      "table_name": "people",
+      "conname": "people_role_check",
+      "contype": "c",
+      "definition": "CHECK ((role = ANY (ARRAY['staff'::text, 'client'::text, 'prospect'::text, 'vendor'::text, 'outside'::text, 'ai_agent'::text])))"
+    },
+    {
+      "table_name": "people",
+      "conname": "people_source_check",
+      "contype": "c",
+      "definition": "CHECK ((source = ANY (ARRAY['roster'::text, 'corpus'::text, 'call'::text, 'manual'::text])))"
+    },
+    {
+      "table_name": "people",
+      "conname": "people_status_check",
+      "contype": "c",
+      "definition": "CHECK ((status = ANY (ARRAY['current'::text, 'former'::text])))"
+    },
+    {
+      "table_name": "pipeline_events",
+      "conname": "event_attempt_number_positive",
+      "contype": "c",
+      "definition": "CHECK (((attempt_number IS NULL) OR (attempt_number >= 1)))"
+    },
+    {
+      "table_name": "pipeline_events",
+      "conname": "pipeline_events_job_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (job_id) REFERENCES pipeline_jobs(job_id) DEFERRABLE"
+    },
+    {
+      "table_name": "pipeline_events",
+      "conname": "pipeline_events_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (event_id)"
+    },
+    {
+      "table_name": "pipeline_events",
+      "conname": "pipeline_events_run_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (run_id) REFERENCES pipeline_runs(run_id) DEFERRABLE"
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "conname": "job_attempt_count_nonnegative",
+      "contype": "c",
+      "definition": "CHECK ((attempt_count >= 0))"
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "conname": "job_has_at_most_one_target",
+      "contype": "c",
+      "definition": "CHECK ((num_nonnulls(transcript_id, angle_id, brief_id, pack_id, asset_id, calendar_entry_id) <= 1))"
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "conname": "job_lease_is_complete",
+      "contype": "c",
+      "definition": "CHECK ((num_nonnulls(lease_token, lease_expires_at) = ANY (ARRAY[0, 2])))"
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "conname": "job_progress_units_in_range",
+      "contype": "c",
+      "definition": "CHECK (((completed_units IS NULL) OR (total_units IS NULL) OR (completed_units <= total_units)))"
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "conname": "job_progress_units_nonnegative",
+      "contype": "c",
+      "definition": "CHECK ((((completed_units IS NULL) OR (completed_units >= 0)) AND ((total_units IS NULL) OR (total_units >= 0))))"
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "conname": "pipeline_jobs_angle_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (angle_id) REFERENCES content_angles(angle_id) DEFERRABLE"
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "conname": "pipeline_jobs_asset_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (asset_id) REFERENCES content_assets(asset_id) DEFERRABLE"
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "conname": "pipeline_jobs_brief_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (brief_id) REFERENCES content_briefs(brief_id) DEFERRABLE"
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "conname": "pipeline_jobs_calendar_entry_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (calendar_entry_id) REFERENCES calendar_entries(calendar_entry_id) DEFERRABLE"
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "conname": "pipeline_jobs_executor_check",
+      "contype": "c",
+      "definition": "CHECK ((executor = ANY (ARRAY['postgres'::text, 'rq'::text])))"
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "conname": "pipeline_jobs_idempotency_key_key",
+      "contype": "u",
+      "definition": "UNIQUE (idempotency_key)"
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "conname": "pipeline_jobs_pack_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (pack_id) REFERENCES content_packs(pack_id) DEFERRABLE"
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "conname": "pipeline_jobs_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (job_id)"
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "conname": "pipeline_jobs_queue_check",
+      "contype": "c",
+      "definition": "CHECK ((queue = ANY (ARRAY['interactive'::text, 'default'::text, 'bulk'::text, 'intake'::text, 'media'::text])))"
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "conname": "pipeline_jobs_run_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (run_id) REFERENCES pipeline_runs(run_id) DEFERRABLE"
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "conname": "pipeline_jobs_transcript_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (transcript_id) REFERENCES transcripts(transcript_id) DEFERRABLE"
+    },
+    {
+      "table_name": "pipeline_jobs",
+      "conname": "pipeline_jobs_week_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (week_id) REFERENCES weeks(week_id) DEFERRABLE"
+    },
+    {
+      "table_name": "pipeline_runs",
+      "conname": "pipeline_runs_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (run_id)"
+    },
+    {
+      "table_name": "pipeline_runs",
+      "conname": "pipeline_runs_week_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (week_id) REFERENCES weeks(week_id) DEFERRABLE"
+    },
+    {
+      "table_name": "pipeline_runs",
+      "conname": "run_status_is_valid",
+      "contype": "c",
+      "definition": "CHECK ((status = ANY (ARRAY['queued'::text, 'running'::text, 'waiting_for_review'::text, 'completed'::text, 'partially_completed'::text, 'failed'::text, 'cancelled'::text])))"
+    },
+    {
+      "table_name": "published_content",
+      "conname": "published_content_angle_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (angle_id) REFERENCES content_angles(angle_id)"
+    },
+    {
+      "table_name": "published_content",
+      "conname": "published_content_brief_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (brief_id) REFERENCES content_briefs(brief_id)"
+    },
+    {
+      "table_name": "published_content",
+      "conname": "published_content_channel_check",
+      "contype": "c",
+      "definition": "CHECK ((length(btrim(channel)) > 0))"
+    },
+    {
+      "table_name": "published_content",
+      "conname": "published_content_performance_check",
+      "contype": "c",
+      "definition": "CHECK ((jsonb_typeof(performance) = 'array'::text))"
+    },
+    {
+      "table_name": "published_content",
+      "conname": "published_content_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (content_id)"
+    },
+    {
+      "table_name": "published_content",
+      "conname": "published_content_source_kind_check",
+      "contype": "c",
+      "definition": "CHECK ((source_kind = ANY (ARRAY['export_seed'::text, 'published_import'::text, 'approver_entry'::text, 'approved_brief'::text])))"
+    },
+    {
+      "table_name": "published_content",
+      "conname": "published_content_source_kind_source_ref_key",
+      "contype": "u",
+      "definition": "UNIQUE (source_kind, source_ref)"
+    },
+    {
+      "table_name": "published_content",
+      "conname": "published_content_status_check",
+      "contype": "c",
+      "definition": "CHECK ((status = ANY (ARRAY['unconfirmed'::text, 'confirmed'::text])))"
+    },
+    {
+      "table_name": "published_content",
+      "conname": "published_content_title_check",
+      "contype": "c",
+      "definition": "CHECK ((length(btrim(title)) > 0))"
+    },
+    {
+      "table_name": "run_plans",
+      "conname": "run_plans_calls_used_check",
+      "contype": "c",
+      "definition": "CHECK ((calls_used >= 0))"
+    },
+    {
+      "table_name": "run_plans",
+      "conname": "run_plans_check",
+      "contype": "c",
+      "definition": "CHECK ((calls_used <= max_calls))"
+    },
+    {
+      "table_name": "run_plans",
+      "conname": "run_plans_check1",
+      "contype": "c",
+      "definition": "CHECK ((expires_at > approved_at))"
+    },
+    {
+      "table_name": "run_plans",
+      "conname": "run_plans_cost_used_usd_check",
+      "contype": "c",
+      "definition": "CHECK ((cost_used_usd >= (0)::numeric))"
+    },
+    {
+      "table_name": "run_plans",
+      "conname": "run_plans_max_calls_check",
+      "contype": "c",
+      "definition": "CHECK ((max_calls > 0))"
+    },
+    {
+      "table_name": "run_plans",
+      "conname": "run_plans_max_cost_usd_check",
+      "contype": "c",
+      "definition": "CHECK ((max_cost_usd > (0)::numeric))"
+    },
+    {
+      "table_name": "run_plans",
+      "conname": "run_plans_models_check",
+      "contype": "c",
+      "definition": "CHECK ((cardinality(models) > 0))"
+    },
+    {
+      "table_name": "run_plans",
+      "conname": "run_plans_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (plan_id)"
+    },
+    {
+      "table_name": "run_plans",
+      "conname": "run_plans_stages_check",
+      "contype": "c",
+      "definition": "CHECK ((cardinality(stages) > 0))"
+    },
+    {
+      "table_name": "run_plans",
+      "conname": "run_plans_status_check",
+      "contype": "c",
+      "definition": "CHECK ((status = ANY (ARRAY['active'::text, 'exhausted'::text, 'closed'::text, 'expired'::text])))"
+    },
+    {
+      "table_name": "schema_migrations",
+      "conname": "schema_migrations_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (version)"
+    },
+    {
+      "table_name": "schema_migrations",
+      "conname": "schema_migrations_source_check",
+      "contype": "c",
+      "definition": "CHECK ((source = ANY (ARRAY['detected'::text, 'applied'::text])))"
+    },
+    {
+      "table_name": "seeds",
+      "conname": "seeds_kind_check",
+      "contype": "c",
+      "definition": "CHECK ((kind = ANY (ARRAY['thought'::text, 'draft'::text, 'asset'::text])))"
+    },
+    {
+      "table_name": "seeds",
+      "conname": "seeds_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (seed_id)"
+    },
+    {
+      "table_name": "seeds",
+      "conname": "seeds_status_check",
+      "contype": "c",
+      "definition": "CHECK ((status = ANY (ARRAY['open'::text, 'used'::text, 'withdrawn'::text])))"
+    },
+    {
+      "table_name": "seeds",
+      "conname": "seeds_text_check",
+      "contype": "c",
+      "definition": "CHECK ((length(btrim(text)) > 0))"
+    },
+    {
+      "table_name": "seeds",
+      "conname": "seeds_week_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (week_id) REFERENCES weeks(week_id)"
+    },
+    {
+      "table_name": "settings",
+      "conname": "settings_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (key)"
+    },
+    {
+      "table_name": "slack_channels",
+      "conname": "slack_channels_check",
+      "contype": "c",
+      "definition": "CHECK ((included OR (exclusion_reason IS NOT NULL)))"
+    },
+    {
+      "table_name": "slack_channels",
+      "conname": "slack_channels_connection_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (connection_id) REFERENCES intake_connections(connection_id)"
+    },
+    {
+      "table_name": "slack_channels",
+      "conname": "slack_channels_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (channel_id)"
+    },
+    {
+      "table_name": "topics",
+      "conname": "topics_check",
+      "contype": "c",
+      "definition": "CHECK (((embedding IS NULL) = (embedding_input_hash IS NULL)))"
+    },
+    {
+      "table_name": "topics",
+      "conname": "topics_check1",
+      "contype": "c",
+      "definition": "CHECK (((status <> 'merged'::text) OR (merged_into IS NOT NULL)))"
+    },
+    {
+      "table_name": "topics",
+      "conname": "topics_check2",
+      "contype": "c",
+      "definition": "CHECK (((merged_into IS NULL) OR (merged_into <> topic_id)))"
+    },
+    {
+      "table_name": "topics",
+      "conname": "topics_merged_into_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (merged_into) REFERENCES topics(topic_id)"
+    },
+    {
+      "table_name": "topics",
+      "conname": "topics_name_check",
+      "contype": "c",
+      "definition": "CHECK ((length(btrim(name)) > 0))"
+    },
+    {
+      "table_name": "topics",
+      "conname": "topics_origin_check",
+      "contype": "c",
+      "definition": "CHECK ((origin = ANY (ARRAY['model'::text, 'person'::text])))"
+    },
+    {
+      "table_name": "topics",
+      "conname": "topics_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (topic_id)"
+    },
+    {
+      "table_name": "topics",
+      "conname": "topics_status_check",
+      "contype": "c",
+      "definition": "CHECK ((status = ANY (ARRAY['active'::text, 'blocked'::text, 'merged'::text])))"
+    },
+    {
+      "table_name": "transcript_chunks",
+      "conname": "transcript_chunks_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (chunk_id)"
+    },
+    {
+      "table_name": "transcript_chunks",
+      "conname": "transcript_chunks_transcript_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (transcript_id) REFERENCES transcripts(transcript_id) DEFERRABLE"
+    },
+    {
+      "table_name": "transcripts",
+      "conname": "transcripts_call_type_check",
+      "contype": "c",
+      "definition": "CHECK ((call_type = ANY (ARRAY['client_1to1'::text, 'office_hours'::text, 'workshop'::text, 'prospect'::text, 'internal'::text, 'vendor'::text, 'fragment'::text, 'slack_thread'::text, 'other'::text])))"
+    },
+    {
+      "table_name": "transcripts",
+      "conname": "transcripts_canonical_document_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (canonical_document_id) REFERENCES transcripts(transcript_id)"
+    },
+    {
+      "table_name": "transcripts",
+      "conname": "transcripts_client_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (client_id) REFERENCES clients(client_id)"
+    },
+    {
+      "table_name": "transcripts",
+      "conname": "transcripts_exclusion_has_reason",
+      "contype": "c",
+      "definition": "CHECK ((included OR (exclusion_reason IS NOT NULL)))"
+    },
+    {
+      "table_name": "transcripts",
+      "conname": "transcripts_extraction_status_check",
+      "contype": "c",
+      "definition": "CHECK ((extraction_status = ANY (ARRAY['pending'::text, 'queued'::text, 'running'::text, 'completed'::text, 'failed'::text, 'not_applicable'::text])))"
+    },
+    {
+      "table_name": "transcripts",
+      "conname": "transcripts_not_its_own_canonical",
+      "contype": "c",
+      "definition": "CHECK (((canonical_document_id IS NULL) OR (canonical_document_id <> transcript_id)))"
+    },
+    {
+      "table_name": "transcripts",
+      "conname": "transcripts_occurred_at_source_check",
+      "contype": "c",
+      "definition": "CHECK ((occurred_at_source = ANY (ARRAY['provider'::text, 'filename'::text, 'content'::text, 'zoom_listing'::text, 'calendar'::text, 'manual'::text, 'unknown'::text])))"
+    },
+    {
+      "table_name": "transcripts",
+      "conname": "transcripts_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (transcript_id)"
+    },
+    {
+      "table_name": "transcripts",
+      "conname": "transcripts_week_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (week_id) REFERENCES weeks(week_id) DEFERRABLE"
+    },
+    {
+      "table_name": "users",
+      "conname": "users_email_check",
+      "contype": "c",
+      "definition": "CHECK (((email = lower(email)) AND (POSITION(('@'::text) IN (email)) > 1)))"
+    },
+    {
+      "table_name": "users",
+      "conname": "users_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (email)"
+    },
+    {
+      "table_name": "users",
+      "conname": "users_role_check",
+      "contype": "c",
+      "definition": "CHECK ((role = ANY (ARRAY['viewer'::text, 'editor'::text, 'approver'::text, 'admin'::text])))"
+    },
+    {
+      "table_name": "users",
+      "conname": "users_slack_user_id_key",
+      "contype": "u",
+      "definition": "UNIQUE (slack_user_id)"
+    },
+    {
+      "table_name": "weeks",
+      "conname": "week_has_seven_inclusive_dates",
+      "contype": "c",
+      "definition": "CHECK ((week_end = (week_start + 6)))"
+    },
+    {
+      "table_name": "weeks",
+      "conname": "weeks_active_run_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (active_run_id) REFERENCES pipeline_runs(run_id) DEFERRABLE"
+    },
+    {
+      "table_name": "weeks",
+      "conname": "weeks_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (week_id)"
+    }
+  ],
+  "indexes": [
+    {
+      "tablename": "angle_moments",
+      "indexname": "angle_moments_pkey",
+      "indexdef": "CREATE UNIQUE INDEX angle_moments_pkey ON public.angle_moments USING btree (angle_id, moment_id)"
+    },
+    {
+      "tablename": "angle_moments",
+      "indexname": "angle_moments_reverse",
+      "indexdef": "CREATE INDEX angle_moments_reverse ON public.angle_moments USING btree (moment_id)"
+    },
+    {
+      "tablename": "brand_kit_docs",
+      "indexname": "brand_kit_docs_pkey",
+      "indexdef": "CREATE UNIQUE INDEX brand_kit_docs_pkey ON public.brand_kit_docs USING btree (key, version)"
+    },
+    {
+      "tablename": "brand_kit_items",
+      "indexname": "brand_kit_items_kind_status",
+      "indexdef": "CREATE INDEX brand_kit_items_kind_status ON public.brand_kit_items USING btree (kind, status, key)"
+    },
+    {
+      "tablename": "brand_kit_items",
+      "indexname": "brand_kit_items_pkey",
+      "indexdef": "CREATE UNIQUE INDEX brand_kit_items_pkey ON public.brand_kit_items USING btree (item_id)"
+    },
+    {
+      "tablename": "brand_kit_items",
+      "indexname": "brand_kit_items_source_kind_source_ref_key",
+      "indexdef": "CREATE UNIQUE INDEX brand_kit_items_source_kind_source_ref_key ON public.brand_kit_items USING btree (source_kind, source_ref)"
+    },
+    {
+      "tablename": "brand_kit_items",
+      "indexname": "brand_kit_items_supersedes",
+      "indexdef": "CREATE INDEX brand_kit_items_supersedes ON public.brand_kit_items USING btree (supersedes_id) WHERE (supersedes_id IS NOT NULL)"
+    },
+    {
+      "tablename": "brand_kit_items",
+      "indexname": "brand_kit_items_validity",
+      "indexdef": "CREATE INDEX brand_kit_items_validity ON public.brand_kit_items USING btree (kind, valid_from, valid_to) WHERE (status = 'confirmed'::text)"
+    },
+    {
+      "tablename": "calendar_entries",
+      "indexname": "calendar_active_asset_channel",
+      "indexdef": "CREATE UNIQUE INDEX calendar_active_asset_channel ON public.calendar_entries USING btree (asset_id, channel) WHERE (status = ANY (ARRAY['scheduled'::text, 'needs_review'::text]))"
+    },
+    {
+      "tablename": "calendar_entries",
+      "indexname": "calendar_entries_asset_id_idx",
+      "indexdef": "CREATE INDEX calendar_entries_asset_id_idx ON public.calendar_entries USING btree (asset_id)"
+    },
+    {
+      "tablename": "calendar_entries",
+      "indexname": "calendar_entries_pkey",
+      "indexdef": "CREATE UNIQUE INDEX calendar_entries_pkey ON public.calendar_entries USING btree (calendar_entry_id)"
+    },
+    {
+      "tablename": "calendar_entries",
+      "indexname": "calendar_entries_scheduled_for_status_idx",
+      "indexdef": "CREATE INDEX calendar_entries_scheduled_for_status_idx ON public.calendar_entries USING btree (scheduled_for, status)"
+    },
+    {
+      "tablename": "calibration_labels",
+      "indexname": "calibration_labels_item",
+      "indexdef": "CREATE INDEX calibration_labels_item ON public.calibration_labels USING btree (item_kind, item_id)"
+    },
+    {
+      "tablename": "calibration_labels",
+      "indexname": "calibration_labels_one_per_decision",
+      "indexdef": "CREATE UNIQUE INDEX calibration_labels_one_per_decision ON public.calibration_labels USING btree (decision_id) WHERE (decision_id IS NOT NULL)"
+    },
+    {
+      "tablename": "calibration_labels",
+      "indexname": "calibration_labels_pkey",
+      "indexdef": "CREATE UNIQUE INDEX calibration_labels_pkey ON public.calibration_labels USING btree (label_id)"
+    },
+    {
+      "tablename": "clients",
+      "indexname": "clients_name_unique",
+      "indexdef": "CREATE UNIQUE INDEX clients_name_unique ON public.clients USING btree (lower(name))"
+    },
+    {
+      "tablename": "clients",
+      "indexname": "clients_pkey",
+      "indexdef": "CREATE UNIQUE INDEX clients_pkey ON public.clients USING btree (client_id)"
+    },
+    {
+      "tablename": "content_angles",
+      "indexname": "content_angles_pkey",
+      "indexdef": "CREATE UNIQUE INDEX content_angles_pkey ON public.content_angles USING btree (angle_id)"
+    },
+    {
+      "tablename": "content_angles",
+      "indexname": "content_angles_week_id_run_id_selection_status_idx",
+      "indexdef": "CREATE INDEX content_angles_week_id_run_id_selection_status_idx ON public.content_angles USING btree (week_id, run_id, selection_status)"
+    },
+    {
+      "tablename": "content_assets",
+      "indexname": "content_assets_pack_id_ordinal_idx",
+      "indexdef": "CREATE UNIQUE INDEX content_assets_pack_id_ordinal_idx ON public.content_assets USING btree (pack_id, ordinal)"
+    },
+    {
+      "tablename": "content_assets",
+      "indexname": "content_assets_pack_id_slot_key_idx",
+      "indexdef": "CREATE UNIQUE INDEX content_assets_pack_id_slot_key_idx ON public.content_assets USING btree (pack_id, slot_key)"
+    },
+    {
+      "tablename": "content_assets",
+      "indexname": "content_assets_pkey",
+      "indexdef": "CREATE UNIQUE INDEX content_assets_pkey ON public.content_assets USING btree (asset_id)"
+    },
+    {
+      "tablename": "content_briefs",
+      "indexname": "content_briefs_pkey",
+      "indexdef": "CREATE UNIQUE INDEX content_briefs_pkey ON public.content_briefs USING btree (brief_id)"
+    },
+    {
+      "tablename": "content_packs",
+      "indexname": "content_packs_pkey",
+      "indexdef": "CREATE UNIQUE INDEX content_packs_pkey ON public.content_packs USING btree (pack_id)"
+    },
+    {
+      "tablename": "decisions",
+      "indexname": "decisions_item",
+      "indexdef": "CREATE INDEX decisions_item ON public.decisions USING btree (item_kind, item_id, created_at)"
+    },
+    {
+      "tablename": "decisions",
+      "indexname": "decisions_pkey",
+      "indexdef": "CREATE UNIQUE INDEX decisions_pkey ON public.decisions USING btree (decision_id)"
+    },
+    {
+      "tablename": "external_calls",
+      "indexname": "external_calls_pkey",
+      "indexdef": "CREATE UNIQUE INDEX external_calls_pkey ON public.external_calls USING btree (call_id)"
+    },
+    {
+      "tablename": "glossary_terms",
+      "indexname": "glossary_terms_pkey",
+      "indexdef": "CREATE UNIQUE INDEX glossary_terms_pkey ON public.glossary_terms USING btree (term_id)"
+    },
+    {
+      "tablename": "glossary_terms",
+      "indexname": "glossary_terms_term_unique",
+      "indexdef": "CREATE UNIQUE INDEX glossary_terms_term_unique ON public.glossary_terms USING btree (lower(term))"
+    },
+    {
+      "tablename": "intake_assets",
+      "indexname": "intake_assets_pkey",
+      "indexdef": "CREATE UNIQUE INDEX intake_assets_pkey ON public.intake_assets USING btree (asset_id)"
+    },
+    {
+      "tablename": "intake_assets",
+      "indexname": "intake_assets_revision_id_provider_file_id_key",
+      "indexdef": "CREATE UNIQUE INDEX intake_assets_revision_id_provider_file_id_key ON public.intake_assets USING btree (revision_id, provider_file_id)"
+    },
+    {
+      "tablename": "intake_batches",
+      "indexname": "intake_batches_pkey",
+      "indexdef": "CREATE UNIQUE INDEX intake_batches_pkey ON public.intake_batches USING btree (batch_id)"
+    },
+    {
+      "tablename": "intake_buckets",
+      "indexname": "intake_buckets_pkey",
+      "indexdef": "CREATE UNIQUE INDEX intake_buckets_pkey ON public.intake_buckets USING btree (bucket_id)"
+    },
+    {
+      "tablename": "intake_buckets",
+      "indexname": "intake_buckets_starts_at_key",
+      "indexdef": "CREATE UNIQUE INDEX intake_buckets_starts_at_key ON public.intake_buckets USING btree (starts_at)"
+    },
+    {
+      "tablename": "intake_buckets",
+      "indexname": "intake_one_collecting_bucket",
+      "indexdef": "CREATE UNIQUE INDEX intake_one_collecting_bucket ON public.intake_buckets USING btree ((true)) WHERE (status = 'collecting'::text)"
+    },
+    {
+      "tablename": "intake_buckets",
+      "indexname": "intake_one_open_bucket",
+      "indexdef": "CREATE UNIQUE INDEX intake_one_open_bucket ON public.intake_buckets USING btree ((true)) WHERE (status = 'open'::text)"
+    },
+    {
+      "tablename": "intake_connections",
+      "indexname": "intake_connections_pkey",
+      "indexdef": "CREATE UNIQUE INDEX intake_connections_pkey ON public.intake_connections USING btree (connection_id)"
+    },
+    {
+      "tablename": "intake_membership",
+      "indexname": "intake_member_revision",
+      "indexdef": "CREATE INDEX intake_member_revision ON public.intake_membership USING btree (revision_id)"
+    },
+    {
+      "tablename": "intake_membership",
+      "indexname": "intake_membership_pkey",
+      "indexdef": "CREATE UNIQUE INDEX intake_membership_pkey ON public.intake_membership USING btree (bucket_id, revision_id)"
+    },
+    {
+      "tablename": "intake_requests",
+      "indexname": "intake_request_pending",
+      "indexdef": "CREATE INDEX intake_request_pending ON public.intake_requests USING btree (status, connection_id)"
+    },
+    {
+      "tablename": "intake_requests",
+      "indexname": "intake_requests_pkey",
+      "indexdef": "CREATE UNIQUE INDEX intake_requests_pkey ON public.intake_requests USING btree (request_id)"
+    },
+    {
+      "tablename": "intake_revisions",
+      "indexname": "intake_revision_source",
+      "indexdef": "CREATE INDEX intake_revision_source ON public.intake_revisions USING btree (source_id, received_at)"
+    },
+    {
+      "tablename": "intake_revisions",
+      "indexname": "intake_revisions_pkey",
+      "indexdef": "CREATE UNIQUE INDEX intake_revisions_pkey ON public.intake_revisions USING btree (revision_id)"
+    },
+    {
+      "tablename": "intake_revisions",
+      "indexname": "intake_revisions_source_id_content_hash_key",
+      "indexdef": "CREATE UNIQUE INDEX intake_revisions_source_id_content_hash_key ON public.intake_revisions USING btree (source_id, content_hash)"
+    },
+    {
+      "tablename": "intake_revisions",
+      "indexname": "intake_revisions_transcript_id_key",
+      "indexdef": "CREATE UNIQUE INDEX intake_revisions_transcript_id_key ON public.intake_revisions USING btree (transcript_id)"
+    },
+    {
+      "tablename": "intake_schema_migrations",
+      "indexname": "intake_schema_migrations_pkey",
+      "indexdef": "CREATE UNIQUE INDEX intake_schema_migrations_pkey ON public.intake_schema_migrations USING btree (version)"
+    },
+    {
+      "tablename": "intake_sources",
+      "indexname": "intake_sources_connection_id_upstream_id_key",
+      "indexdef": "CREATE UNIQUE INDEX intake_sources_connection_id_upstream_id_key ON public.intake_sources USING btree (connection_id, upstream_id)"
+    },
+    {
+      "tablename": "intake_sources",
+      "indexname": "intake_sources_pkey",
+      "indexdef": "CREATE UNIQUE INDEX intake_sources_pkey ON public.intake_sources USING btree (source_id)"
+    },
+    {
+      "tablename": "key_moments",
+      "indexname": "key_moments_client",
+      "indexdef": "CREATE INDEX key_moments_client ON public.key_moments USING btree (client_id) WHERE (client_id IS NOT NULL)"
+    },
+    {
+      "tablename": "key_moments",
+      "indexname": "key_moments_document",
+      "indexdef": "CREATE INDEX key_moments_document ON public.key_moments USING btree (document_id) WHERE (document_id IS NOT NULL)"
+    },
+    {
+      "tablename": "key_moments",
+      "indexname": "key_moments_occurred_at",
+      "indexdef": "CREATE INDEX key_moments_occurred_at ON public.key_moments USING btree (occurred_at)"
+    },
+    {
+      "tablename": "key_moments",
+      "indexname": "key_moments_pkey",
+      "indexdef": "CREATE UNIQUE INDEX key_moments_pkey ON public.key_moments USING btree (moment_id)"
+    },
+    {
+      "tablename": "key_moments",
+      "indexname": "key_moments_searchable",
+      "indexdef": "CREATE INDEX key_moments_searchable ON public.key_moments USING btree (consent_status, speaker_role) WHERE (quote_verified AND is_current)"
+    },
+    {
+      "tablename": "key_moments",
+      "indexname": "key_moments_tsv",
+      "indexdef": "CREATE INDEX key_moments_tsv ON public.key_moments USING gin (tsv)"
+    },
+    {
+      "tablename": "key_moments",
+      "indexname": "key_moments_type",
+      "indexdef": "CREATE INDEX key_moments_type ON public.key_moments USING btree (moment_type)"
+    },
+    {
+      "tablename": "key_moments",
+      "indexname": "key_moments_week_id_run_id_idx",
+      "indexdef": "CREATE INDEX key_moments_week_id_run_id_idx ON public.key_moments USING btree (week_id, run_id)"
+    },
+    {
+      "tablename": "llm_runs",
+      "indexname": "llm_runs_pkey",
+      "indexdef": "CREATE UNIQUE INDEX llm_runs_pkey ON public.llm_runs USING btree (llm_run_id)"
+    },
+    {
+      "tablename": "llm_runs",
+      "indexname": "llm_runs_plan",
+      "indexdef": "CREATE INDEX llm_runs_plan ON public.llm_runs USING btree (plan_id, created_at)"
+    },
+    {
+      "tablename": "moment_topics",
+      "indexname": "moment_topics_pkey",
+      "indexdef": "CREATE UNIQUE INDEX moment_topics_pkey ON public.moment_topics USING btree (moment_id, topic_id)"
+    },
+    {
+      "tablename": "moment_topics",
+      "indexname": "moment_topics_topic",
+      "indexdef": "CREATE INDEX moment_topics_topic ON public.moment_topics USING btree (topic_id)"
+    },
+    {
+      "tablename": "mutation_receipts",
+      "indexname": "mutation_receipts_pkey",
+      "indexdef": "CREATE UNIQUE INDEX mutation_receipts_pkey ON public.mutation_receipts USING btree (request_id)"
+    },
+    {
+      "tablename": "people",
+      "indexname": "people_email_unique",
+      "indexdef": "CREATE UNIQUE INDEX people_email_unique ON public.people USING btree (lower(email)) WHERE (email IS NOT NULL)"
+    },
+    {
+      "tablename": "people",
+      "indexname": "people_pkey",
+      "indexdef": "CREATE UNIQUE INDEX people_pkey ON public.people USING btree (person_id)"
+    },
+    {
+      "tablename": "people",
+      "indexname": "people_role",
+      "indexdef": "CREATE INDEX people_role ON public.people USING btree (role, status)"
+    },
+    {
+      "tablename": "people",
+      "indexname": "people_roster_key_unique",
+      "indexdef": "CREATE UNIQUE INDEX people_roster_key_unique ON public.people USING btree (roster_key) WHERE (roster_key IS NOT NULL)"
+    },
+    {
+      "tablename": "pipeline_events",
+      "indexname": "pipeline_events_job_id_created_at_idx",
+      "indexdef": "CREATE INDEX pipeline_events_job_id_created_at_idx ON public.pipeline_events USING btree (job_id, created_at)"
+    },
+    {
+      "tablename": "pipeline_events",
+      "indexname": "pipeline_events_pkey",
+      "indexdef": "CREATE UNIQUE INDEX pipeline_events_pkey ON public.pipeline_events USING btree (event_id)"
+    },
+    {
+      "tablename": "pipeline_events",
+      "indexname": "pipeline_events_run_id_created_at_event_id_idx",
+      "indexdef": "CREATE INDEX pipeline_events_run_id_created_at_event_id_idx ON public.pipeline_events USING btree (run_id, created_at, event_id)"
+    },
+    {
+      "tablename": "pipeline_jobs",
+      "indexname": "pipeline_jobs_idempotency_key_key",
+      "indexdef": "CREATE UNIQUE INDEX pipeline_jobs_idempotency_key_key ON public.pipeline_jobs USING btree (idempotency_key)"
+    },
+    {
+      "tablename": "pipeline_jobs",
+      "indexname": "pipeline_jobs_pkey",
+      "indexdef": "CREATE UNIQUE INDEX pipeline_jobs_pkey ON public.pipeline_jobs USING btree (job_id)"
+    },
+    {
+      "tablename": "pipeline_jobs",
+      "indexname": "pipeline_jobs_status_lease_expires_at_idx",
+      "indexdef": "CREATE INDEX pipeline_jobs_status_lease_expires_at_idx ON public.pipeline_jobs USING btree (status, lease_expires_at)"
+    },
+    {
+      "tablename": "pipeline_jobs",
+      "indexname": "pipeline_jobs_week_id_run_id_stage_idx",
+      "indexdef": "CREATE INDEX pipeline_jobs_week_id_run_id_stage_idx ON public.pipeline_jobs USING btree (week_id, run_id, stage)"
+    },
+    {
+      "tablename": "pipeline_runs",
+      "indexname": "pipeline_runs_pkey",
+      "indexdef": "CREATE UNIQUE INDEX pipeline_runs_pkey ON public.pipeline_runs USING btree (run_id)"
+    },
+    {
+      "tablename": "pipeline_runs",
+      "indexname": "pipeline_runs_status_updated_at_idx",
+      "indexdef": "CREATE INDEX pipeline_runs_status_updated_at_idx ON public.pipeline_runs USING btree (status, updated_at)"
+    },
+    {
+      "tablename": "pipeline_runs",
+      "indexname": "pipeline_runs_week_id_created_at_idx",
+      "indexdef": "CREATE INDEX pipeline_runs_week_id_created_at_idx ON public.pipeline_runs USING btree (week_id, created_at)"
+    },
+    {
+      "tablename": "published_content",
+      "indexname": "published_content_brief",
+      "indexdef": "CREATE INDEX published_content_brief ON public.published_content USING btree (brief_id) WHERE (brief_id IS NOT NULL)"
+    },
+    {
+      "tablename": "published_content",
+      "indexname": "published_content_date",
+      "indexdef": "CREATE INDEX published_content_date ON public.published_content USING btree (published_on DESC)"
+    },
+    {
+      "tablename": "published_content",
+      "indexname": "published_content_pkey",
+      "indexdef": "CREATE UNIQUE INDEX published_content_pkey ON public.published_content USING btree (content_id)"
+    },
+    {
+      "tablename": "published_content",
+      "indexname": "published_content_source_kind_source_ref_key",
+      "indexdef": "CREATE UNIQUE INDEX published_content_source_kind_source_ref_key ON public.published_content USING btree (source_kind, source_ref)"
+    },
+    {
+      "tablename": "run_plans",
+      "indexname": "run_plans_pkey",
+      "indexdef": "CREATE UNIQUE INDEX run_plans_pkey ON public.run_plans USING btree (plan_id)"
+    },
+    {
+      "tablename": "schema_migrations",
+      "indexname": "schema_migrations_pkey",
+      "indexdef": "CREATE UNIQUE INDEX schema_migrations_pkey ON public.schema_migrations USING btree (version)"
+    },
+    {
+      "tablename": "seeds",
+      "indexname": "seeds_pkey",
+      "indexdef": "CREATE UNIQUE INDEX seeds_pkey ON public.seeds USING btree (seed_id)"
+    },
+    {
+      "tablename": "settings",
+      "indexname": "settings_pkey",
+      "indexdef": "CREATE UNIQUE INDEX settings_pkey ON public.settings USING btree (key)"
+    },
+    {
+      "tablename": "slack_channels",
+      "indexname": "slack_channels_connection",
+      "indexdef": "CREATE INDEX slack_channels_connection ON public.slack_channels USING btree (connection_id) WHERE (connection_id IS NOT NULL)"
+    },
+    {
+      "tablename": "slack_channels",
+      "indexname": "slack_channels_pkey",
+      "indexdef": "CREATE UNIQUE INDEX slack_channels_pkey ON public.slack_channels USING btree (channel_id)"
+    },
+    {
+      "tablename": "topics",
+      "indexname": "topics_name_unique",
+      "indexdef": "CREATE UNIQUE INDEX topics_name_unique ON public.topics USING btree (lower(name)) WHERE (status <> 'merged'::text)"
+    },
+    {
+      "tablename": "topics",
+      "indexname": "topics_pkey",
+      "indexdef": "CREATE UNIQUE INDEX topics_pkey ON public.topics USING btree (topic_id)"
+    },
+    {
+      "tablename": "topics",
+      "indexname": "topics_status",
+      "indexdef": "CREATE INDEX topics_status ON public.topics USING btree (status)"
+    },
+    {
+      "tablename": "transcript_chunks",
+      "indexname": "transcript_chunks_current",
+      "indexdef": "CREATE INDEX transcript_chunks_current ON public.transcript_chunks USING btree (transcript_id) WHERE is_current"
+    },
+    {
+      "tablename": "transcript_chunks",
+      "indexname": "transcript_chunks_pkey",
+      "indexdef": "CREATE UNIQUE INDEX transcript_chunks_pkey ON public.transcript_chunks USING btree (chunk_id)"
+    },
+    {
+      "tablename": "transcript_chunks",
+      "indexname": "transcript_chunks_text_search_idx",
+      "indexdef": "CREATE INDEX transcript_chunks_text_search_idx ON public.transcript_chunks USING gin (to_tsvector('english'::regconfig, chunk_text))"
+    },
+    {
+      "tablename": "transcript_chunks",
+      "indexname": "transcript_chunks_transcript_id_content_hash_idx",
+      "indexdef": "CREATE UNIQUE INDEX transcript_chunks_transcript_id_content_hash_idx ON public.transcript_chunks USING btree (transcript_id, content_hash)"
+    },
+    {
+      "tablename": "transcript_chunks",
+      "indexname": "transcript_chunks_tsv",
+      "indexdef": "CREATE INDEX transcript_chunks_tsv ON public.transcript_chunks USING gin (tsv)"
+    },
+    {
+      "tablename": "transcripts",
+      "indexname": "transcripts_call_type",
+      "indexdef": "CREATE INDEX transcripts_call_type ON public.transcripts USING btree (call_type, included)"
+    },
+    {
+      "tablename": "transcripts",
+      "indexname": "transcripts_canonical",
+      "indexdef": "CREATE INDEX transcripts_canonical ON public.transcripts USING btree (canonical_document_id) WHERE (canonical_document_id IS NOT NULL)"
+    },
+    {
+      "tablename": "transcripts",
+      "indexname": "transcripts_client",
+      "indexdef": "CREATE INDEX transcripts_client ON public.transcripts USING btree (client_id) WHERE (client_id IS NOT NULL)"
+    },
+    {
+      "tablename": "transcripts",
+      "indexname": "transcripts_occurred_at",
+      "indexdef": "CREATE INDEX transcripts_occurred_at ON public.transcripts USING btree (occurred_at) WHERE included"
+    },
+    {
+      "tablename": "transcripts",
+      "indexname": "transcripts_pkey",
+      "indexdef": "CREATE UNIQUE INDEX transcripts_pkey ON public.transcripts USING btree (transcript_id)"
+    },
+    {
+      "tablename": "transcripts",
+      "indexname": "transcripts_source_type_upstream_id_content_hash_idx",
+      "indexdef": "CREATE UNIQUE INDEX transcripts_source_type_upstream_id_content_hash_idx ON public.transcripts USING btree (source_type, upstream_id, content_hash)"
+    },
+    {
+      "tablename": "transcripts",
+      "indexname": "transcripts_week_id_idx",
+      "indexdef": "CREATE INDEX transcripts_week_id_idx ON public.transcripts USING btree (week_id)"
+    },
+    {
+      "tablename": "users",
+      "indexname": "users_pkey",
+      "indexdef": "CREATE UNIQUE INDEX users_pkey ON public.users USING btree (email)"
+    },
+    {
+      "tablename": "users",
+      "indexname": "users_slack_user_id_key",
+      "indexdef": "CREATE UNIQUE INDEX users_slack_user_id_key ON public.users USING btree (slack_user_id)"
+    },
+    {
+      "tablename": "weeks",
+      "indexname": "weeks_pkey",
+      "indexdef": "CREATE UNIQUE INDEX weeks_pkey ON public.weeks USING btree (week_id)"
+    },
+    {
+      "tablename": "weeks",
+      "indexname": "weeks_week_start_idx",
+      "indexdef": "CREATE UNIQUE INDEX weeks_week_start_idx ON public.weeks USING btree (week_start)"
+    }
+  ],
+  "vectors": [
+    {
+      "table_name": "brand_kit_items",
+      "attname": "embedding",
+      "type": "vector(1536)"
+    },
+    {
+      "table_name": "content_angles",
+      "attname": "embedding",
+      "type": "vector(1536)"
+    },
+    {
+      "table_name": "key_moments",
+      "attname": "embedding",
+      "type": "vector(1536)"
+    },
+    {
+      "table_name": "published_content",
+      "attname": "embedding",
+      "type": "vector(1536)"
+    },
+    {
+      "table_name": "topics",
+      "attname": "embedding",
+      "type": "vector(1536)"
+    },
+    {
+      "table_name": "transcript_chunks",
+      "attname": "embedding",
+      "type": "vector(1536)"
+    }
+  ]
+}

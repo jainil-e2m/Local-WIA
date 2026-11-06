@@ -1,0 +1,21 @@
+{
+  "plan_id": "plan_df7fb44209814b4a90f5",
+  "purpose": "E.B22 evidence: brief writer v2 against the v3 candidate on the live week's three cards, judged by the calibrated J2 configuration in both orders (final reconciliation, 19 October)",
+  "stages": [
+    "evaluation"
+  ],
+  "models": [
+    "anthropic/claude-sonnet-5.5"
+  ],
+  "input_set_hash": "sha256:3e528c52ad7a31db810d69dfc1cc9053eb9938fa233f716f3573889b98f99b83",
+  "max_calls": 6,
+  "max_cost_usd": 0.6,
+  "approver": "kenil.shah@e2m.solutions (D12 delegation; owner's budget instruction of 19 October)",
+  "approved_at": "2026-10-18T22:15:06.489093+00:00",
+  "expires_at": "2026-10-19T04:15:06.489093+00:00",
+  "status": "exhausted",
+  "calls_used": 6,
+  "cost_used_usd": 0.382022,
+  "details": {},
+  "closed_reason": "call limit reached"
+}

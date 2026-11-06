@@ -1,0 +1,67 @@
+{
+  "scenes": [
+    {
+      "local_key": "p1",
+      "anchor_span_ids": [
+        "m1.t0002"
+      ],
+      "context_first_span_id": "m1.t0001",
+      "context_last_span_id": "m1.t0003",
+      "quote": "Dana loves the new inquiry form so much.",
+      "setup": "A team member says the client likes the form.",
+      "wia_moves": [
+        {
+          "speaker": "Carmen Cruickshank",
+          "move": "noticed",
+          "what": "Dana likes the new form"
+        }
+      ],
+      "client_contribution": null,
+      "left_open": [],
+      "process_step": null,
+      "moment_type": "testimonial",
+      "qualifications": [
+        "Reported, not measured by WIA"
+      ],
+      "claim_status": "reported",
+      "sensitivity": "public_candidate",
+      "departure": null
+    },
+    {
+      "local_key": "p2",
+      "anchor_span_ids": [
+        "m1.t0003"
+      ],
+      "context_first_span_id": "m1.t0002",
+      "context_last_span_id": "m1.t0004",
+      "quote": "I stopped dreading Mondays after the form changed.",
+      "setup": "The client describes the effect of the form.",
+      "wia_moves": [
+        {
+          "speaker": "Carmen Cruickshank",
+          "move": "asked",
+          "what": "How March went"
+        }
+      ],
+      "client_contribution": "Said she stopped dreading Mondays and that bookings rose by 60",
+      "left_open": [],
+      "process_step": null,
+      "moment_type": "human_line",
+      "qualifications": [
+        "Reported, not measured by WIA"
+      ],
+      "claim_status": "reported",
+      "sensitivity": "public_candidate",
+      "departure": null
+    }
+  ],
+  "processed_meetings": [
+    {
+      "meeting_ref": "m1",
+      "first_span_id": "m1.t0001",
+      "last_span_id": "m1.t0004",
+      "span_count": 4
+    }
+  ],
+  "coverage_notes": []
+}

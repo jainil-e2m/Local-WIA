@@ -1,0 +1,196 @@
+{
+  "completed_at": "2026-10-12T09:42:15.668607+00:00",
+  "run_id": "week1-gpt6-luna-partial-angle-diagnostic-20261008-a4",
+  "job_id": "job_05d1ff6a5de8d85757b10df4",
+  "status": "ready_for_week2_history",
+  "model": "openai/text-embedding-3-small",
+  "endpoint": "https://openrouter.ai/api/v1/embeddings",
+  "dimensions": 1536,
+  "contract": "7b68c0e1d6ae9ad427811874db2f6cdae7283040583f763dd926cb6d144b0afd",
+  "verified_angles": [
+    {
+      "angle_id": "angle_0fbe8cc9cfffa8f9d70fdb6f",
+      "content_hash": "fd9b5b4af703a9598c37fb4dec8197f4528ca0b48bced32d958565c61fd443b8",
+      "input_hash": "a248d61b74b2996a9929f2c0eeefd157d1a8229910b4daf8b353dc19ec6737f9",
+      "vector_digest": "8eec18a3180c27ce31e5f51659ef4d88feaa647753b7e20f51a5149bcd8cf0b2",
+      "dimensions": 1536,
+      "first_generated_at": "2026-10-08T11:28:56.043339+00:00",
+      "self_cosine": 1.0
+    },
+    {
+      "angle_id": "angle_9d5b915e1d67f035e55a6c6e",
+      "content_hash": "a14940459a725a33de9cc816c0025375fee1610181b7d370cfe964cd59343710",
+      "input_hash": "d92971eb1b30ca5f435d98aeb21d0107546a7615f429bc5134dd1c7149949424",
+      "vector_digest": "61409cd8b501992f8dc5d9a5b3eb19a6341f5a999a8319707a8e25a85c8f2397",
+      "dimensions": 1536,
+      "first_generated_at": "2026-10-08T11:28:56.043339+00:00",
+      "self_cosine": 1.0
+    },
+    {
+      "angle_id": "angle_ab0db137df928ed4e835dfda",
+      "content_hash": "50a194a48dddb872f0ac736b6a6c4fc622e4f4ad9660e26556bf284c8e33a961",
+      "input_hash": "4ced61fc5307df1bb19d083065079c622d64edfd4d062a45cf655efdbcbbeeae",
+      "vector_digest": "fa016daa14c41982f0615ef57272c0c03d7dfff72c57a3faaad75d69156810de",
+      "dimensions": 1536,
+      "first_generated_at": "2026-10-08T11:28:56.043339+00:00",
+      "self_cosine": 1.0
+    },
+    {
+      "angle_id": "angle_b8d9b3f43299c825040d7812",
+      "content_hash": "61cf0fb984393c286c1feca8ab072bba3975b7918c47921151584ee48bd88248",
+      "input_hash": "a9e1c57ca8efa95fd6bf185bdcd841ee437175630f098c58a8f4869528dae571",
+      "vector_digest": "b29426fd9adfff46550c7c3470fcd47d59c6a2d8c8fc6568b0a877e49a518d85",
+      "dimensions": 1536,
+      "first_generated_at": "2026-10-08T11:28:56.043339+00:00",
+      "self_cosine": 1.0
+    },
+    {
+      "angle_id": "angle_d5e284128bd876fcc252938e",
+      "content_hash": "e7087981582e3f832edfffe378627f92bc33a2461ab4c56e77246b022fea9a33",
+      "input_hash": "1d5fa7c70a448e7a5787d4b8b70875f9b3fd6a5c7d194a9ad4e07e2d907fe5d2",
+      "vector_digest": "f81b27d32d521ad64419ab086b0d645f04a50dd5439a1cec497c849e4a37c530",
+      "dimensions": 1536,
+      "first_generated_at": "2026-10-08T11:28:56.043339+00:00",
+      "self_cosine": 1.0
+    },
+    {
+      "angle_id": "angle_d745e4ebad2bc0287e9a7087",
+      "content_hash": "6787b0c3a0a81e37ccff42e1a44bc30c352dd73bb794409a5c42b377b9f6d24c",
+      "input_hash": "e57aa1cf46ad8eb96f831ea7da467d80cb024d1911b0304d191f056758f76ded",
+      "vector_digest": "26c70ee7e5b7837cd75e12420478069f48cc500bda813da97ec9d262fca23750",
+      "dimensions": 1536,
+      "first_generated_at": "2026-10-08T11:28:56.043339+00:00",
+      "self_cosine": 1.0
+    }
+  ],
+  "provenance": [
+    {
+      "angle_id": "angle_0fbe8cc9cfffa8f9d70fdb6f",
+      "returned_model": "text-embedding-3-small",
+      "usage": {
+        "prompt_tokens": 204,
+        "total_tokens": 204,
+        "cost": 4.08e-06,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 4.08e-06,
+          "upstream_inference_prompt_cost": 4.08e-06,
+          "upstream_inference_completions_cost": 0
+        }
+      },
+      "encoding_cache": "encoding/6ce5fabaa5f18cdd25193e97d4ae985bec2f72c728c9d3a71e3ee67478662549.json"
+    },
+    {
+      "angle_id": "angle_9d5b915e1d67f035e55a6c6e",
+      "returned_model": "text-embedding-3-small",
+      "usage": {
+        "prompt_tokens": 226,
+        "total_tokens": 226,
+        "cost": 4.52e-06,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 4.52e-06,
+          "upstream_inference_prompt_cost": 4.52e-06,
+          "upstream_inference_completions_cost": 0
+        }
+      },
+      "encoding_cache": "encoding/1cbf2d87fb04f604bcc7495215618d5baf26f828615ce73d432b3e4443b2c52f.json"
+    },
+    {
+      "angle_id": "angle_ab0db137df928ed4e835dfda",
+      "returned_model": "text-embedding-3-small",
+      "usage": {
+        "prompt_tokens": 229,
+        "total_tokens": 229,
+        "cost": 4.58e-06,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 4.58e-06,
+          "upstream_inference_prompt_cost": 4.58e-06,
+          "upstream_inference_completions_cost": 0
+        }
+      },
+      "encoding_cache": "encoding/784a784be2b19f65575d8d4f6dc41f8caacd8b8f4e2dfb600908c4564effa15a.json"
+    },
+    {
+      "angle_id": "angle_b8d9b3f43299c825040d7812",
+      "returned_model": "text-embedding-3-small",
+      "usage": {
+        "prompt_tokens": 233,
+        "total_tokens": 233,
+        "cost": 4.66e-06,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 4.66e-06,
+          "upstream_inference_prompt_cost": 4.66e-06,
+          "upstream_inference_completions_cost": 0
+        }
+      },
+      "encoding_cache": "encoding/8aa78cf102cf79be5432ce17aca260e625ae14dfff4c6e34b756c01fd36e9f49.json"
+    },
+    {
+      "angle_id": "angle_d5e284128bd876fcc252938e",
+      "returned_model": "text-embedding-3-small",
+      "usage": {
+        "prompt_tokens": 228,
+        "total_tokens": 228,
+        "cost": 4.56e-06,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 4.56e-06,
+          "upstream_inference_prompt_cost": 4.56e-06,
+          "upstream_inference_completions_cost": 0
+        }
+      },
+      "encoding_cache": "encoding/f27b4c93284c5503aa16938767f4569458f7d73f027f0587762bdc3930a9d8fb.json"
+    },
+    {
+      "angle_id": "angle_d745e4ebad2bc0287e9a7087",
+      "returned_model": "text-embedding-3-small",
+      "usage": {
+        "prompt_tokens": 234,
+        "total_tokens": 234,
+        "cost": 4.68e-06,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 4.68e-06,
+          "upstream_inference_prompt_cost": 4.68e-06,
+          "upstream_inference_completions_cost": 0
+        }
+      },
+      "encoding_cache": "encoding/b69f1f960db2e324fc42b34bf58a9010760174df17dbbc52ea1a99017a4331c4.json"
+    }
+  ],
+  "embedding_dispatches": 6,
+  "cache_reused": 0,
+  "generation_dispatches": 0,
+  "refinement_dispatches": 0,
+  "history_eligible": 6,
+  "accepted_partial_baseline_preserved": true,
+  "original_content_and_evidence_preserved": true,
+  "week2_unchanged": true,
+  "schema": {
+    "tables": 13,
+    "vectors": [
+      {
+        "table_name": "content_angles",
+        "attname": "embedding",
+        "type": "vector(1536)"
+      },
+      {
+        "table_name": "transcript_chunks",
+        "attname": "embedding",
+        "type": "vector(1536)"
+      }
+    ],
+    "schema_sha256": "1f89fa2894074cd6c54b51083e6c775a76ac1e1f59341d3b3f2fbefbb25fc6bb",
+    "foreign_keys": 30,
+    "checks": 18
+  },
+  "week1_status": "awaiting_matching",
+  "persistent_switches": {
+    "generation": false,
+    "encoding": false,
+    "refinement": false
+  }
+}

@@ -1,0 +1,411 @@
+{
+  "format": 2,
+  "additions": {
+    "file": "additions.json",
+    "sha256": "11a3a0ffa486b9616265f783ae79e15f2d35230ead62d33bb57aaa5e39b29eee",
+    "applied": [
+      "A01"
+    ]
+  },
+  "documents": [
+    {
+      "key": "content_strategy",
+      "file": "01-content-strategy.md",
+      "owner": "Savannah Jordan for WIA",
+      "stages": [
+        "strategist",
+        "brief"
+      ],
+      "status": "supplied",
+      "heading": "Document 1: WIA content strategy, by Savannah Jordan (WIA's external marketing consultant, not staff)",
+      "version": "wia-kb-2026-10-20.c-b953624b",
+      "approver": "kenil.shah@e2m.solutions",
+      "provenance": {
+        "author": "WIA (Savannah Jordan)",
+        "source": "Strategy from Savannah.docx; model commentary removed (E.B11 a); rulings R-6, R-7, R-8, R-10 supersede its referral, DIY, pain-led and cadence lines",
+        "model_written": false,
+        "derived_from_weeks": []
+      },
+      "effective_date": "2026-10-18",
+      "review_interval_days": 90
+    },
+    {
+      "key": "founder_voice_guide",
+      "file": "02-founder-voice-guide.md",
+      "owner": "Whitney Hodges (co-founder)",
+      "stages": [
+        "strategist",
+        "brief"
+      ],
+      "status": "supplied",
+      "heading": "Document 2: Whitney Hodges, Founder Voice Guide v2.0 (derived guidance)",
+      "version": "wia-kb-2026-10-20.c-b953624b",
+      "approver": "kenil.shah@e2m.solutions",
+      "provenance": {
+        "author": "model, from Whitney's corpus",
+        "source": "Whitney _ Founder Voice Guide.docx, written by ChatGPT on 8 July 2026 from Whitney's corpus of 4 Reels and 17 emails; its closing note to Whitney removed and the 17-to-90 misquote corrected (E.B11 a, R-12)",
+        "model_written": true,
+        "derived_from_weeks": []
+      },
+      "effective_date": "2026-10-18",
+      "review_interval_days": 90
+    },
+    {
+      "key": "accelerator_strategy",
+      "file": "03-accelerator-strategy.md",
+      "owner": "WIA",
+      "stages": [
+        "strategist",
+        "brief"
+      ],
+      "status": "supplied",
+      "heading": "Document 3: Savannah Jordan's Tier 1 Accelerator workbook, filled in by WIA about itself (ideal client, buying behaviour, objections, content topics, behind-the-scenes processes, founder story). This is Savannah's coaching programme, not WIA's own Ads Accelerators.",
+      "version": "wia-kb-2026-10-20.c-b953624b",
+      "approver": "kenil.shah@e2m.solutions",
+      "provenance": {
+        "author": "WIA",
+        "source": "Wedding Industry Ads _ Tier 1 Accelerator Strategy Doc.docx, relevant sections; the docx's buyer-type section is a checklist of completed training modules with no finding text, so there was nothing to restore",
+        "model_written": false,
+        "derived_from_weeks": []
+      },
+      "effective_date": "2026-10-18",
+      "review_interval_days": 90
+    },
+    {
+      "key": "team_roster",
+      "file": "04-team-roster.md",
+      "owner": "WIA",
+      "stages": [
+        "strategist",
+        "brief",
+        "verifier",
+        "extraction"
+      ],
+      "status": "confirmed",
+      "heading": "WIA team roster (who works for WIA, former staff, people often named who are not staff)",
+      "version": "wia-kb-2026-10-19.c-0b931261",
+      "provenance": {
+        "author": "WIA (confirmed items)",
+        "source": "compiled from 19 confirmed items valid on 2026-10-20 (L.B4)",
+        "model_written": false,
+        "derived_from_weeks": []
+      },
+      "effective_date": "2026-10-20",
+      "review_interval_days": 30,
+      "approver": "kenil.shah@e2m.solutions"
+    },
+    {
+      "key": "offer_sheet",
+      "file": "05-offer-sheet.md",
+      "owner": "WIA",
+      "stages": [
+        "strategist",
+        "brief",
+        "verifier"
+      ],
+      "status": "confirmed",
+      "heading": "WIA offers as of 14 October 2026 (who does what, how buyers reach each offer; no prices in public content)",
+      "version": "wia-kb-2026-10-18.c-3ccde8c5",
+      "provenance": {
+        "author": "WIA (confirmed items)",
+        "source": "compiled from 41 confirmed items valid on 2026-10-20 (L.B4)",
+        "model_written": false,
+        "derived_from_weeks": []
+      },
+      "effective_date": "2026-10-20",
+      "review_interval_days": 30,
+      "approver": "kenil.shah@e2m.solutions"
+    },
+    {
+      "key": "rejection_rules",
+      "file": "06-rejection-rules.md",
+      "owner": "WIA",
+      "stages": [
+        "strategist",
+        "brief",
+        "verifier"
+      ],
+      "status": "confirmed",
+      "heading": "Rejection rules (WIA's bans and flags, with origin, date, author and scope; they win over every other document)",
+      "version": "wia-kb-2026-10-20.c-b953624b",
+      "provenance": {
+        "author": "WIA (confirmed items)",
+        "source": "compiled from 96 confirmed items valid on 2026-10-20 (L.B4)",
+        "model_written": false,
+        "derived_from_weeks": []
+      },
+      "effective_date": "2026-10-20",
+      "review_interval_days": 60,
+      "approver": "kenil.shah@e2m.solutions"
+    },
+    {
+      "key": "process_catalogue",
+      "file": "07-process-catalogue.md",
+      "owner": "WIA",
+      "stages": [
+        "strategist",
+        "brief",
+        "extraction"
+      ],
+      "status": "confirmed",
+      "heading": "WIA's process catalogue (named methods, who does them, what each shows about WIA)",
+      "version": "wia-kb-2026-10-18.c-3ccde8c5",
+      "provenance": {
+        "author": "WIA (confirmed items)",
+        "source": "compiled from 79 confirmed items valid on 2026-10-20 (L.B4)",
+        "model_written": false,
+        "derived_from_weeks": []
+      },
+      "effective_date": "2026-10-20",
+      "review_interval_days": 90,
+      "approver": "kenil.shah@e2m.solutions"
+    },
+    {
+      "key": "content_workflow",
+      "file": "08-content-workflow.md",
+      "owner": "WIA",
+      "stages": [
+        "strategist",
+        "brief"
+      ],
+      "status": "confirmed",
+      "heading": "How WIA makes content (one asset into a set, reuse, hooks, CTA posts, weekly volume and channels)",
+      "version": "wia-kb-2026-10-19.c-0b931261",
+      "provenance": {
+        "author": "WIA (confirmed items)",
+        "source": "compiled from 29 confirmed items valid on 2026-10-20 (L.B4)",
+        "model_written": false,
+        "derived_from_weeks": []
+      },
+      "effective_date": "2026-10-20",
+      "review_interval_days": 60,
+      "approver": "kenil.shah@e2m.solutions"
+    },
+    {
+      "key": "format_guide",
+      "file": "09-format-guide.md",
+      "owner": "WIA",
+      "stages": [
+        "brief"
+      ],
+      "status": "confirmed",
+      "heading": "Format guide (per-channel structure and limits for briefs)",
+      "version": "wia-kb-2026-10-19.c-0b931261",
+      "provenance": {
+        "author": "WIA (confirmed items)",
+        "source": "compiled from 40 confirmed items valid on 2026-10-20 (L.B4)",
+        "model_written": false,
+        "derived_from_weeks": []
+      },
+      "effective_date": "2026-10-20",
+      "review_interval_days": 60,
+      "approver": "kenil.shah@e2m.solutions"
+    },
+    {
+      "key": "cta_catalogue",
+      "file": "10-cta-catalogue.md",
+      "owner": "WIA",
+      "stages": [
+        "brief"
+      ],
+      "status": "confirmed",
+      "heading": "CTA catalogue (per offer and channel, open or closed as of 14 October 2026)",
+      "version": "wia-kb-2026-10-18.c-0cb353e4",
+      "provenance": {
+        "author": "WIA (confirmed items)",
+        "source": "compiled from 17 confirmed items valid on 2026-10-20 (L.B4)",
+        "model_written": false,
+        "derived_from_weeks": []
+      },
+      "effective_date": "2026-10-20",
+      "review_interval_days": 30,
+      "approver": "kenil.shah@e2m.solutions"
+    },
+    {
+      "key": "audience_language",
+      "file": "11-audience-language.md",
+      "owner": "WIA",
+      "stages": [
+        "strategist",
+        "brief"
+      ],
+      "status": "confirmed",
+      "heading": "Audience language (ideal-client signals, prospects' own words, objections and desires)",
+      "version": "wia-kb-2026-10-19.c-0b931261",
+      "provenance": {
+        "author": "WIA (confirmed items)",
+        "source": "compiled from 63 confirmed items valid on 2026-10-20 (L.B4)",
+        "model_written": false,
+        "derived_from_weeks": []
+      },
+      "effective_date": "2026-10-20",
+      "review_interval_days": 90,
+      "approver": "kenil.shah@e2m.solutions"
+    },
+    {
+      "key": "results_register",
+      "file": "12-results-register.md",
+      "owner": "WIA",
+      "stages": [
+        "strategist",
+        "brief",
+        "verifier"
+      ],
+      "status": "confirmed",
+      "heading": "Results register (only results WIA has published, with caveats; private results need permission)",
+      "version": "wia-kb-2026-10-18.c-0cb353e4",
+      "provenance": {
+        "author": "WIA (confirmed items)",
+        "source": "compiled from 30 confirmed items valid on 2026-10-20 (L.B4)",
+        "model_written": false,
+        "derived_from_weeks": []
+      },
+      "effective_date": "2026-10-20",
+      "review_interval_days": 30,
+      "approver": "kenil.shah@e2m.solutions"
+    },
+    {
+      "key": "recent_published",
+      "file": "13-recent-published.md",
+      "owner": "WIA",
+      "stages": [
+        "strategist"
+      ],
+      "status": "confirmed",
+      "heading": "Recently published by WIA (for distinctiveness only: what WIA has already said)",
+      "version": "wia-kb-2026-10-18.c-0cb353e4",
+      "provenance": {
+        "author": "WIA (confirmed published pieces)",
+        "source": "compiled from 2 published pieces WIA confirmed (L.B4)",
+        "model_written": false,
+        "derived_from_weeks": []
+      },
+      "effective_date": "2026-10-20",
+      "review_interval_days": 14,
+      "approver": "kenil.shah@e2m.solutions"
+    },
+    {
+      "key": "content_plan",
+      "file": "14-content-plan.md",
+      "owner": "WIA",
+      "stages": [
+        "strategist",
+        "brief"
+      ],
+      "status": "confirmed",
+      "heading": "Content plan and campaigns (entries WIA confirmed; each holds only for its own dates)",
+      "version": "wia-kb-2026-10-19.c-0b931261",
+      "provenance": {
+        "author": "WIA (confirmed items)",
+        "source": "compiled from 9 confirmed items valid on 2026-10-20 (L.B4)",
+        "model_written": false,
+        "derived_from_weeks": []
+      },
+      "effective_date": "2026-10-20",
+      "review_interval_days": 14,
+      "approver": "kenil.shah@e2m.solutions"
+    },
+    {
+      "key": "exemplars",
+      "file": "15-exemplars.md",
+      "owner": "WIA",
+      "stages": [
+        "strategist",
+        "brief"
+      ],
+      "status": "confirmed",
+      "heading": "Exemplars (Whitney's published Reels and approved finals against drafts; patterns, not formulas)",
+      "version": "wia-kb-2026-10-19.c-0b931261",
+      "provenance": {
+        "author": "WIA (confirmed items)",
+        "source": "compiled from 39 confirmed items valid on 2026-10-20 (L.B4)",
+        "model_written": false,
+        "derived_from_weeks": []
+      },
+      "effective_date": "2026-10-20",
+      "review_interval_days": 60,
+      "approver": "kenil.shah@e2m.solutions"
+    },
+    {
+      "key": "belief_statements",
+      "file": "16-belief-statements.md",
+      "owner": "Whitney Hodges",
+      "stages": [
+        "strategist",
+        "brief",
+        "verifier"
+      ],
+      "status": "confirmed",
+      "heading": "Belief statements in Whitney's own words (the belief bank)",
+      "version": "wia-kb-2026-10-19.c-0b931261",
+      "provenance": {
+        "author": "WIA (confirmed items)",
+        "source": "compiled from 71 confirmed items valid on 2026-10-20 (L.B4)",
+        "model_written": false,
+        "derived_from_weeks": []
+      },
+      "effective_date": "2026-10-20",
+      "review_interval_days": 90,
+      "approver": "kenil.shah@e2m.solutions"
+    },
+    {
+      "key": "editing_guide",
+      "file": "17-editing-guide.md",
+      "owner": "Whitney Hodges (her corrections, derived from the ChatGPT export, E.B25 (e))",
+      "stages": [
+        "strategist",
+        "brief"
+      ],
+      "status": "confirmed",
+      "heading": "Document 17: How Whitney edits (her corrections to drafts in her ChatGPT history, as rules for anyone writing or planning WIA copy)",
+      "version": "wia-kb-2026-10-20.c-6bf62f94",
+      "provenance": {
+        "author": "model, from Whitney's corrections in her ChatGPT history",
+        "source": "research/chatgpt-export-2026-10-18/data/pack_rules.md (the export pack's \"how Whitney edits\" sheet, section 1.8 T2), rewritten as rules and reconciled with WIA's rulings R-1 to R-16; reviewed by the engineer under D21 on 20 October 2026",
+        "model_written": true,
+        "derived_from_weeks": []
+      },
+      "effective_date": "2026-10-20",
+      "review_interval_days": 90,
+      "approver": "kenil.shah@e2m.solutions"
+    }
+  ],
+  "rule_patterns": {
+    "file": "rejection-rules.patterns.json",
+    "rules": 18,
+    "sha256": "9e3696571e60057057bc082e4e18166dd9763267a5e402fdcf60968f55225dd3"
+  },
+  "supersessions": {
+    "file": "supersessions.json",
+    "sha256": "fb0ee3d6e51f32fe4bdacf60e2b6f5cae02d3c85a85c489c764b2925942008d7",
+    "applied": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S07",
+      "S08",
+      "S09",
+      "S10",
+      "S11",
+      "S12",
+      "S13",
+      "S14",
+      "S15",
+      "S16",
+      "S17",
+      "S18",
+      "S19",
+      "S20",
+      "S21",
+      "S22",
+      "S23",
+      "S24",
+      "S25",
+      "S26"
+    ]
+  },
+  "knowledge_base_version": "wia-kb-2026-10-20.c-6bf62f94"
+}

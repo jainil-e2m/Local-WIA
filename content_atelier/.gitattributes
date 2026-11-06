@@ -1,0 +1,7 @@
+# Knowledge-base documents are hashed per run; keep identical bytes on every platform (E.B11 e).
+backend/knowledge_base/** text eol=lf
+# Migrations are checksummed when applied; the runner normalises line endings, and LF keeps the files identical (L.B1).
+backend/migrations/*.sql text eol=lf
+# The OpenAPI document and the types generated from it are compared byte for byte in CI (1.F1).
+backend/openapi.json text eol=lf
+frontend/src/api/schema.d.ts text eol=lf

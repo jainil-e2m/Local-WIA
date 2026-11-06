@@ -1,0 +1,4 @@
+- Whitney Hodges: founder. Daniela: co-founder.
+- Carmen Cruickshank: WIA Google Ads strategist (runs client calls, audits and office hours).
+- Fallon Looney, Danielle McGinnis, Giselle/Gisselle: WIA team members.
+- Anyone else on a recording is a client, prospect, student or partner unless the dialogue clearly shows otherwise.

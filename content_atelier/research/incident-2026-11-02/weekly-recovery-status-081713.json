@@ -1,0 +1,41 @@
+{
+  "at": "2026-11-02T08:17:05.627511+00:00",
+  "deployment": {
+    "RAILWAY_PROJECT_ID": "3409333b-1844-456c-93f9-f572ba92eb92",
+    "RAILWAY_ENVIRONMENT_ID": "28239d73-fe52-4d23-bf80-94a8064c5eb5",
+    "RAILWAY_SERVICE_NAME": "scheduler",
+    "RAILWAY_GIT_COMMIT_SHA": "9b50c9d047a2d1005b19fbd80fea5f9e2476a32b"
+  },
+  "schedule": {
+    "key": "schedule.weekly_cycle.2026-11-01",
+    "value": {
+      "error": "ValueError: Write the Fathom folders outside the repository (R48), not under /",
+      "state": "failed",
+      "attempts": 3
+    },
+    "updated_at": "2026-11-01 10:01:24.229266+00:00",
+    "updated_by": "scheduler"
+  },
+  "heartbeat": {
+    "updated_at": "2026-11-02 08:16:53.880364+00:00",
+    "age_seconds": "11.757683"
+  },
+  "runs": [],
+  "jobs": [],
+  "cards": [],
+  "documents": {
+    "total": 14,
+    "included": 12,
+    "extracted": 12
+  },
+  "alerts": [
+    {
+      "kind": "schedule_missed",
+      "subject": "schedule.weekly_cycle.2026-11-01",
+      "message": "The scheduled weekly cycle did not run: ValueError: Write the Fathom folders outside the repository (R48), not under /",
+      "resolved_at": null,
+      "resolution": null,
+      "occurrences": 2644
+    }
+  ]
+}

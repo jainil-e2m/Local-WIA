@@ -1,0 +1,199 @@
+{
+  "status": "prepared_awaiting_user_approval",
+  "suite_directory": "C:/Users/Jainil Trivedi/Desktop/Wedding_Industry_Ads/content_atelier/testing/.data/experiments/week3-week4-model-quality-20261015",
+  "manifest_hash": "1ede9878769891a432cb6639040848fd39bf38231e5d5471e164b4c540f89b60",
+  "cells": [
+    {
+      "week": 3,
+      "slug": "luna-pro",
+      "model": "openai/gpt-6-luna-pro",
+      "reasoning_effort": "high",
+      "run_id": "week3-week4-model-quality-20261015-w3-luna-pro",
+      "source_count": 5,
+      "source_turns": 1837,
+      "source_packet_sha256": "657e096b0ef2d6963760c0a856b7b098a1330776186aeb6d5bb4d820466513ad",
+      "extraction_request_hash": "03a163ee452d5544371be40e59855b5a387ef2ec9ae225ee405b54b58ba0401a",
+      "request_characters": 217835,
+      "catalog_hash": "c108a21c77f81e2728c50c83de45584746382391fddef0972042ab454f03abe5",
+      "capacity_check": {
+        "method": "conservative_utf8_byte_allowance_not_native_token_count",
+        "input_allowance": 216003,
+        "margin": 21601,
+        "advertised_eligible_endpoints": 6,
+        "output_reserve": 128000,
+        "request_has_explicit_output_cap": false,
+        "fits_conservative_allowance": true,
+        "provider_defaults_and_limits_still_apply": true
+      },
+      "timeout_seconds": 900.0,
+      "angle_request_status": "Built only after this model's whole extraction passes validation"
+    },
+    {
+      "week": 3,
+      "slug": "sol",
+      "model": "openai/gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "run_id": "week3-week4-model-quality-20261015-w3-sol",
+      "source_count": 5,
+      "source_turns": 1837,
+      "source_packet_sha256": "657e096b0ef2d6963760c0a856b7b098a1330776186aeb6d5bb4d820466513ad",
+      "extraction_request_hash": "0d435c81d127e0832fe8b7454773a5cd912075fbd70211f28c9ce9588bb5bd09",
+      "request_characters": 217832,
+      "catalog_hash": "e99c734a07b60eb35ff892e326863516f2158984611abbc2536c7778b5dd1a6b",
+      "capacity_check": {
+        "method": "conservative_utf8_byte_allowance_not_native_token_count",
+        "input_allowance": 216003,
+        "margin": 21601,
+        "advertised_eligible_endpoints": 7,
+        "output_reserve": 128000,
+        "request_has_explicit_output_cap": false,
+        "fits_conservative_allowance": true,
+        "provider_defaults_and_limits_still_apply": true
+      },
+      "timeout_seconds": 900.0,
+      "angle_request_status": "Built only after this model's whole extraction passes validation"
+    },
+    {
+      "week": 3,
+      "slug": "sonnet",
+      "model": "anthropic/claude-sonnet-5.5",
+      "reasoning_effort": "high",
+      "run_id": "week3-week4-model-quality-20261015-w3-sonnet",
+      "source_count": 5,
+      "source_turns": 1837,
+      "source_packet_sha256": "657e096b0ef2d6963760c0a856b7b098a1330776186aeb6d5bb4d820466513ad",
+      "extraction_request_hash": "e8988a323989a6d405c52af5575a3f116ba92eba5931e474b88e5f539bf4ae53",
+      "request_characters": 217841,
+      "catalog_hash": "acf62bfaeb870784d5548cf612040353173bd8f5ce49d9392111cf82715a970a",
+      "capacity_check": {
+        "method": "conservative_utf8_byte_allowance_not_native_token_count",
+        "input_allowance": 216003,
+        "margin": 21601,
+        "advertised_eligible_endpoints": 8,
+        "output_reserve": 128000,
+        "request_has_explicit_output_cap": false,
+        "fits_conservative_allowance": true,
+        "provider_defaults_and_limits_still_apply": true
+      },
+      "timeout_seconds": 900.0,
+      "angle_request_status": "Built only after this model's whole extraction passes validation"
+    },
+    {
+      "week": 4,
+      "slug": "luna-pro",
+      "model": "openai/gpt-6-luna-pro",
+      "reasoning_effort": "high",
+      "run_id": "week3-week4-model-quality-20261015-w4-luna-pro",
+      "source_count": 6,
+      "source_turns": 1803,
+      "source_packet_sha256": "494bdfedfdec6e58b3305c33b21d88b29b2efb6233b4b35d4d6918a796e55aeb",
+      "extraction_request_hash": "f0f3676a8014f668d14336c85f96f81b71788554232dac31120a779d82c4249e",
+      "request_characters": 286117,
+      "catalog_hash": "c108a21c77f81e2728c50c83de45584746382391fddef0972042ab454f03abe5",
+      "capacity_check": {
+        "method": "conservative_utf8_byte_allowance_not_native_token_count",
+        "input_allowance": 284114,
+        "margin": 28412,
+        "advertised_eligible_endpoints": 6,
+        "output_reserve": 128000,
+        "request_has_explicit_output_cap": false,
+        "fits_conservative_allowance": true,
+        "provider_defaults_and_limits_still_apply": true
+      },
+      "timeout_seconds": 900.0,
+      "angle_request_status": "Built only after this model's whole extraction passes validation"
+    },
+    {
+      "week": 4,
+      "slug": "sol",
+      "model": "openai/gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "run_id": "week3-week4-model-quality-20261015-w4-sol",
+      "source_count": 6,
+      "source_turns": 1803,
+      "source_packet_sha256": "494bdfedfdec6e58b3305c33b21d88b29b2efb6233b4b35d4d6918a796e55aeb",
+      "extraction_request_hash": "036486797229a3c1813a84e4ec3ec7aafc628875cdc296fdf27f5ae2d8cfcef6",
+      "request_characters": 286114,
+      "catalog_hash": "e99c734a07b60eb35ff892e326863516f2158984611abbc2536c7778b5dd1a6b",
+      "capacity_check": {
+        "method": "conservative_utf8_byte_allowance_not_native_token_count",
+        "input_allowance": 284114,
+        "margin": 28412,
+        "advertised_eligible_endpoints": 7,
+        "output_reserve": 128000,
+        "request_has_explicit_output_cap": false,
+        "fits_conservative_allowance": true,
+        "provider_defaults_and_limits_still_apply": true
+      },
+      "timeout_seconds": 900.0,
+      "angle_request_status": "Built only after this model's whole extraction passes validation"
+    },
+    {
+      "week": 4,
+      "slug": "sonnet",
+      "model": "anthropic/claude-sonnet-5.5",
+      "reasoning_effort": "high",
+      "run_id": "week3-week4-model-quality-20261015-w4-sonnet",
+      "source_count": 6,
+      "source_turns": 1803,
+      "source_packet_sha256": "494bdfedfdec6e58b3305c33b21d88b29b2efb6233b4b35d4d6918a796e55aeb",
+      "extraction_request_hash": "701964d9829e5ca4d1027b0001c33644b12d792538d16a0a75dfeda56095591a",
+      "request_characters": 286123,
+      "catalog_hash": "acf62bfaeb870784d5548cf612040353173bd8f5ce49d9392111cf82715a970a",
+      "capacity_check": {
+        "method": "conservative_utf8_byte_allowance_not_native_token_count",
+        "input_allowance": 284114,
+        "margin": 28412,
+        "advertised_eligible_endpoints": 8,
+        "output_reserve": 128000,
+        "request_has_explicit_output_cap": false,
+        "fits_conservative_allowance": true,
+        "provider_defaults_and_limits_still_apply": true
+      },
+      "timeout_seconds": 900.0,
+      "angle_request_status": "Built only after this model's whole extraction passes validation"
+    }
+  ],
+  "runtime_identity": {
+    "model_experiment.py": "e71d824c1539a88be7362e7fceb467c8fa71bb39ef4a13258f3e98db0b5d16ae",
+    "config.py": "00433c5891ba0732a7b841d1e7d19118716149c7e989b64130e17e26b7c31f84",
+    "pipeline.py": "705f468496148f46bbdf7f0154341920e60cb5576a337e7ec37c69f30fd9e38b",
+    "provider.py": "b8c4d1cd65a7303ce7f6e9ed3594d21326a57e79e12d6db2f68ea28cf483d188",
+    "prompts.py": "e1c4bb803ca8a5823cfe41d68d8883d0e067bc2b6f3800eaae71fda94a34d44f",
+    "weekly.py": "2d33cc8b5348094257cd6d937dcdba0cfd375a45debf439ad822ee75e612864c",
+    "prepare.py": "8de667e5aa53b35f3a692ec3d1e6ca510454ceee7af44c4d07c402c895072319",
+    "strategy_contracts.py": "63a47d93bcaad6d96a0f9d92ebbbbd7bcbd13780c22b672bb3ce0f552ffd07ff",
+    "contracts.py": "cebb891c8b934378c60b9c2d9dc2bb58107f1492b52a7f81f3a0b6ee5a54b18f",
+    "models.py": "a60f4e771e4d2c477b4bad8b493e07a633243e1c9a15cfa76ae8ab71c65d5c22",
+    "store.py": "184cf27b618b59b3a0e484c4ec933f3f2f01bb33bd2f116b22310d57681e429f",
+    "costs.py": "647b3d728da171e12f57885254b4df3e6fbfce7533abc28f36bb05626beade04",
+    "prompt_templates/moment_extraction.system.md": "89c0477fb4f01b8e81a6fc80a441cb8d33b9a86874ddd63dc5bd21fdce4f34af",
+    "prompt_templates/wia_strategy.md": "c0eb92ef3985e5b6cf837581aa9e737c5268935591759c0daaa1a977ba3ef7bc",
+    "prompt_templates/editorial_policy.md": "7296620c8c8f2af6aac7840b9f9d8d23627e0490f82dd0458e76ce4f66fdcfc9",
+    "prompt_templates/moment_extraction.weekly_v3.md": "9e1a742f6a0898f87cd4b196c34cd49fcfec3818c50da7d1341d15c8e8d1d296",
+    "prompt_templates/angle_generation.system.md": "a0f2e497a0113474469a1dc0336ad04fc4aa3711145c84b4dad53174ae24d867",
+    "prompt_templates/angle_generation.user.md": "dd7bb005807ee1fc654a2bfae524b5ad8b0b7409d37223767275bbc9df7de0ea"
+  },
+  "schema_hashes": {
+    "moment_extraction": "45a1bf9f8d5c2c18d11f3389ffcfb57b8839c7ac7ea91227addbe0e30771cc07",
+    "angle_generation": "5df83f8a0a25d9307be1f5c77547e2d577b23590624673b94efa9044cbbe7f02"
+  },
+  "max_paid_calls": 12,
+  "paid_calls_made": 0,
+  "tests": [
+    {
+      "suite": "isolation and existing generation/cache/cost mechanics",
+      "passed": 62
+    },
+    {
+      "suite": "final isolation and prompt-upgrade regression checks",
+      "passed": 41
+    }
+  ],
+  "no_embeddings": true,
+  "no_history": true,
+  "no_matching": true,
+  "no_refinement": true,
+  "all_reasoning_effort": "high",
+  "temperature_sent": false
+}

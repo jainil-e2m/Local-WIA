@@ -1,0 +1,33 @@
+{
+  "week": 11,
+  "timezone": "Asia/Kolkata",
+  "original_zoom_files_unchanged": true,
+  "fathom_sources": [
+    {
+      "recording_id": 172747117,
+      "week": 11,
+      "title": "WIA + Bri Photography Check-In Call",
+      "speakers": [
+        "Carmen Cruickshank",
+        "Bri Garofalo",
+        "Whitney Hodges"
+      ],
+      "category": "additional",
+      "selected_as_additional_source": true,
+      "reason": "No corresponding dialogue found across all 170 local Zoom exports; speaker/dialogue review supports a separate call in the assigned week.",
+      "folder": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\backend\\zoom_backfill_meetings\\week11\\fathom\\additional\\2026-08-13_003114_172747117",
+      "segments": 300,
+      "token_count_normalized": 3218,
+      "raw_sha256": "9f5a8bcf2036765d9d516c93b6fd6b8e2b5f815bf52db428473cf115e15706cc",
+      "fathom_token_coverage_in_zoom": null,
+      "zoom_token_coverage": null,
+      "shared_5gram_coverage": 0.011591478696741854,
+      "zoom_counterpart_path": null,
+      "largest_unmatched_fathom_word_run": null,
+      "review_notes": "Additional relative to the supplied local corpus; does not imply absence from other accounts or recording stores."
+    }
+  ],
+  "paired_capture_metadata": [],
+  "processing_rule": "Use additional Fathom sources once a Fathom-aware importer is in place. Existing Zoom remains the selected source for zoom-overlap. Do not recursively ingest both representations of the same call.",
+  "formats": "Raw JSON plus readable Markdown. Existing TXT/VTT importer cannot faithfully admit native Fathom metadata/timing; no fabricated VTT was created."
+}

@@ -1,0 +1,23 @@
+{
+  "version": "wia-rules-2026-10-18.v3",
+  "rules": [
+    {"id": "RR-01", "pattern": "\u2014", "kind": "ban", "scope": "all", "since": "2025-12-26", "message": "Em dash: use a comma, colon or full stop"},
+    {"id": "RR-02", "pattern": "\\b(?:don|doesn)['\u2019]?t\\s+have\\s+an?\\s+[\\w'\u2019 -]{0,30}?\\bproblem\\b", "kind": "ban", "scope": "all", "since": "2026-04-30", "message": "Problem-swap hook; absolute ban from 2026-08-04"},
+    {"id": "RR-02", "pattern": "\\b(?:isn['\u2019]?t|is\\s+not|not)\\s+an?\\s+[\\w'\u2019-]+(?:\\s+[\\w'\u2019-]+){0,3}\\s+problem\\b[^.?!\\n]{0,10}[.,;:]?\\s*(?:it['\u2019]?s|you\\s+have|they\\s+have)\\s+an?\\s+[\\w'\u2019-]+(?:\\s+[\\w'\u2019-]+){0,3}\\s+problem\\b", "kind": "ban", "scope": "all", "since": "2026-04-30", "message": "Problem-swap hook (\"not an X problem, a Y problem\"); absolute ban from 2026-08-04"},
+    {"id": "RR-04", "pattern": "\\b(?:price[ds]?|pricing|costs?|investment|invest|normally|regularly|pay|tuition)\\b[^.\\n$]{0,20}\\$\\s?\\d|\\$\\s?\\d[\\d,]*(?:\\.\\d\\d)?\\s*(?:/|per|a|each)\\s*(?:mo|month|year|yr)\\b", "kind": "ban", "scope": "brief", "since": "2025-09-24", "message": "Price in public copy"},
+    {"id": "RR-04", "pattern": "\\$\\s?\\d", "kind": "flag", "scope": "brief", "since": "2025-09-24", "message": "Dollar figure: no prices in public copy; a client result must be one WIA published (RR-25)"},
+    {"id": "RR-09", "pattern": "\\b(?:DMs?|DM['\u2019]?d|DMing|direct\\s+message)\\b", "kind": "ban", "scope": "brief", "applies_to": "email", "since": "2025-12-27", "message": "DM request: applies to email assets only; emails ask for a reply"},
+    {"id": "RR-10", "pattern": "\\b17\\s*(?:to|-|\u2013)\\s*90\\s+weddings\\b", "kind": "ban", "scope": "all", "since": "2026-06-25", "message": "Misquote: 17 to 90 events, not weddings"},
+    {"id": "RR-27", "pattern": "\\bFallon\\b", "kind": "flag", "scope": "all", "since": "2026-08-14", "message": "Former staff (left 2026-08-14): never named as current"},
+    {"id": "RR-27", "pattern": "\\bChristina\\s+Hill\\b", "kind": "flag", "scope": "all", "since": "2026-02-06", "message": "Former staff (left 2026-02-06): never named as current"},
+    {"id": "RR-27", "pattern": "\\bYulia\\b", "kind": "flag", "scope": "all", "since": "2025-12-01", "message": "Former staff (left December 2025): never named as current"},
+    {"id": "RR-28", "pattern": "(?-i:\\bMatt\\b)|\\bDaniela\\s+Martinez\\b", "kind": "ban", "scope": "all", "since": "2026-10-18", "message": "Person invented by ChatGPT; not on the roster"},
+    {"id": "RR-31", "pattern": "\\b(?:it['\u2019]?s|this\\s+is|that['\u2019]?s|they['\u2019]?re|you['\u2019]?re)\\s+not\\s+(?:just\\s+)?(?:about\\s+)?[^.?!\\n]{1,60}?\\s*[,;.]\\s*(?:it['\u2019]?s|this\\s+is|that['\u2019]?s|they['\u2019]?re|you['\u2019]?re|but)\\b", "kind": "flag", "scope": "all", "since": "2025-12-31", "message": "\"It's not X, it's Y\": at most one per piece, never the hook"},
+    {"id": "RR-31", "pattern": "\\bthe\\s+goal\\s+(?:isn['\u2019]?t|is\\s+not|wasn['\u2019]?t)\\b", "kind": "flag", "scope": "all", "since": "2025-12-31", "message": "\"The goal isn't X\": at most one per piece, never the hook"},
+    {"id": "RR-32", "pattern": "\\bnot\\s+because\\b[^.?!\\n]{1,80}?\\bbut\\s+because\\b", "kind": "flag", "scope": "all", "since": "2026-07-28", "message": "\"Not because X, but because Y\""},
+    {"id": "RR-34", "pattern": "\\b(?:here['\u2019]?s\\s+the\\s+(?:truth|thing)|(?:that['\u2019]?s|this\\s+is)\\s+(?:exactly\\s+)?why\\s+we\\s+created|you\\s+don['\u2019]?t\\s+have\\s+to\\s+take\\s+our\\s+word\\s+for\\s+it|only\\s+half\\s+the\\s+battle|just\\s+following\\s+up|no\\s+pressure,?\\s+no\\s+pitch|your\\s+day,?\\s+your\\s+way)\\b", "kind": "flag", "scope": "all", "since": "2025-12-09", "message": "Stock AI phrase"},
+    {"id": "RR-34", "pattern": "\\b(?:delv(?:e|es|ed|ing)|tapestry|realm|landscape|game[- ]?changers?|unlock(?:s|ed|ing)?)\\b", "kind": "flag", "scope": "all", "since": "2025-12-09", "message": "Stock AI word"},
+    {"id": "RR-34", "pattern": "(?-i:\\belevate\\s+your\\b)", "kind": "flag", "scope": "all", "since": "2025-12-09", "message": "Stock AI phrase \"elevate your\" (the offer name ELEVATE is not matched)"},
+    {"id": "RR-35", "pattern": "\\b(?:skyrocket\\w*|magic(?:al|ally)?|leaving\\s+money\\s+on\\s+the\\s+table)\\b", "kind": "flag", "scope": "all", "since": "2026-10-18", "message": "Flag only (R-16): her own copy uses it"}
+  ]
+}

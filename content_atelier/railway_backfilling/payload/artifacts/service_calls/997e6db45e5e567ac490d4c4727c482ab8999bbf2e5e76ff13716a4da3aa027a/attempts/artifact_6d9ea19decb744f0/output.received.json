@@ -1,0 +1,243 @@
+{
+  "angles": [
+    {
+      "local_key": "measured-budget-reset",
+      "title": "A lower ad budget can still be a test, not a retreat",
+      "argument": "When traffic rises without clearly stronger leads, reducing spend need not mean making the largest possible cut. A more measured reset can preserve room to compare channels and reassess the budget against conversion and lead-quality evidence.",
+      "audience": "Wedding-business owners already investing in paid ads who want to reduce spend but do not yet have clear evidence about which channel or lead source is working better.",
+      "tension": "The owner wants a lower bill, while a sharp reduction could make it harder to assess the new campaign and channel mix.",
+      "take": "Treat the first revised budget as a provisional test, not a proven optimum: choose a reduction that fits the business, then review the resulting conversion and lead-quality evidence before reallocating.",
+      "mechanism": "In this account discussion, the owner reported increased traffic without clearly stronger leads. The team recommended a lower Google Ads budget than the existing spend, an initially fairly even Google and Meta split, and later reallocation based on data. The recommendation connected budget restraint to a plan for comparison rather than an assumption that more traffic meant better leads.",
+      "reader_decision": "Before cutting spend, decide what budget is sustainable for an initial test and what conversion or lead-quality evidence would justify changing the channel allocation.",
+      "moment_ids": [
+        "moment_8c1808d0576e8c359d78f1ad"
+      ],
+      "source_assertions": [
+        "The owner said spend had risen and traffic had increased, but she was not seeing clearly stronger leads (zoom:a1d291ac732953a1:span:180; zoom:a1d291ac732953a1:span:184).",
+        "Whitney recommended a fairly even initial split between Google and Meta until the data could inform reallocation (zoom:a1d291ac732953a1:span:190).",
+        "The team discussed reducing Google Ads from $60 per day to about $30 per day, with monitoring and later review; the new allocation was a starting recommendation (zoom:a1d291ac732953a1:span:192; zoom:a1d291ac732953a1:span:207)."
+      ],
+      "inference": "A budget change is more informative when paired with an explicit plan to review channel and lead-quality evidence, rather than treated as a guaranteed improvement.",
+      "qualifiers": [
+        "The amounts and proposed split were recommendations for this particular venue, not general benchmarks.",
+        "The discussion supplies no verified outcome from the proposed budget or later campaign performance."
+      ],
+      "risks": [
+        "Do not claim the revised budget improved lead quality or reduced cost per result."
+      ],
+      "quality": {
+        "grounding": 5,
+        "source_relevance": 5,
+        "audience_fit": 5,
+        "specificity": 5,
+        "editorial_usefulness": 5,
+        "reasons": [
+          "The source supports a concrete budget decision and a stated plan to revisit it using results.",
+          "The direction preserves the distinction between increased traffic and stronger leads."
+        ]
+      }
+    },
+    {
+      "local_key": "pause-campaign-by-campaign",
+      "title": "Review the campaign that is spending, not just the account total",
+      "argument": "When one ad is spending without tracked leads, the useful decision may be to pause that specific campaign while preserving other campaigns with a different temporary purpose. An account-wide stop-or-continue judgment can obscure which activity is actually in question.",
+      "audience": "Wedding-business owners reviewing paid campaigns who are concerned about spend but have several ads serving different purposes.",
+      "tension": "A desire to avoid wasting money can lead to an all-or-nothing decision, even when the reported problem belongs to one campaign and tracking may not show every lead.",
+      "take": "Inspect the campaign's tracked outcome and audience restriction, then decide whether that campaign should continue while separately assessing other active campaigns.",
+      "mechanism": "The account review described one Meta lead campaign limited to people who had visited the website in the previous 45 days. It had spent over $500 without tracked leads in the view Whitney could see. The recommendation was to turn off that lead campaign while new campaigns were being built, but leave other landing-page-view campaigns running temporarily.",
+      "reader_decision": "Identify which individual campaign is spending without tracked leads, check its audience and tracking limits, and make a separate decision about each other campaign's purpose.",
+      "moment_ids": [
+        "moment_e10261c8f280c0b72ad6dde1"
+      ],
+      "source_assertions": [
+        "Whitney said the account view showed one Meta lead campaign with over $500 in spend and no generated leads according to the tracking she could see (zoom:a1d291ac732953a1:span:317; zoom:a1d291ac732953a1:span:319).",
+        "The campaign targeted people who had visited the website in the previous 45 days, which Whitney described as a very small audience for generating leads on its own (zoom:a1d291ac732953a1:span:321).",
+        "Whitney recommended turning off that lead campaign while new campaigns were developed, while other landing-page-view campaigns could remain on temporarily (zoom:a1d291ac732953a1:span:325; zoom:a1d291ac732953a1:span:327; zoom:a1d291ac732953a1:span:330)."
+      ],
+      "inference": "A campaign-level review can make a budget decision more precise than judging every active ad by the result of one campaign.",
+      "qualifiers": [
+        "The spend and absence of tracked leads were reported from the account view and are not independently verified here.",
+        "The small audience was offered as a likely explanation, not established as the sole cause.",
+        "The recommendation applied to one lead campaign, and no post-pause outcome is supplied."
+      ],
+      "risks": [
+        "Do not state that tracking captured every lead or that the audience restriction caused the lack of tracked leads."
+      ],
+      "quality": {
+        "grounding": 5,
+        "source_relevance": 5,
+        "audience_fit": 5,
+        "specificity": 5,
+        "editorial_usefulness": 5,
+        "reasons": [
+          "The source clearly distinguishes one lead campaign from other campaigns left on temporarily.",
+          "The decision remains bounded by the reported tracking and audience uncertainty."
+        ]
+      }
+    },
+    {
+      "local_key": "buyer-research-after-booking",
+      "title": "A review describes the experience; buyer research asks what shaped the choice",
+      "argument": "Positive reviews can document how a couple experienced a wedding, but they do not necessarily reveal what helped that couple choose the business. Owners who want stronger buyer-specific evidence for messaging can consider asking decision-focused questions after booking and preserving the answers for later review.",
+      "audience": "Established wedding-business owners with reviews and testimonials who still lack clear evidence about the reasons couples chose them.",
+      "tension": "Reviews are visible and useful, but relying on them to explain purchase decisions may leave the business guessing about what mattered before a couple booked.",
+      "take": "Separate experience feedback from questions about the buying decision. If collecting post-booking answers, decide who will send the survey, how responses will be stored, and how they may inform messaging.",
+      "mechanism": "In an internal discussion, Whitney distinguished reviews about past experience from a proposed survey sent after a new client signs to investigate buying triggers. She outlined a possible LeadLock workflow in which the client would send or trigger the survey, responses would be available in a spreadsheet, and findings could be considered for ad copy and landing pages.",
+      "reader_decision": "Decide whether existing reviews answer the specific question you have about why couples booked; if not, consider whether a repeatable post-booking survey is practical for your business.",
+      "moment_ids": [
+        "moment_781675b63c6aea8b7d459594"
+      ],
+      "source_assertions": [
+        "Whitney described clients sharing reviews when asked whether they had market research, and distinguished reviews from decision-focused research (zoom:a1d291ac732953a1:span:552; zoom:a1d291ac732953a1:span:557).",
+        "She proposed surveys after a new client signs to investigate buying triggers (zoom:a1d291ac732953a1:span:548).",
+        "The proposed workflow involved clients sending or triggering surveys, responses being available in a spreadsheet, and findings potentially informing ad copy and landing pages (zoom:a1d291ac732953a1:span:568; zoom:a1d291ac732953a1:span:572; zoom:a1d291ac732953a1:span:576)."
+      ],
+      "inference": "Experience feedback and decision research can complement one another because they answer different questions.",
+      "qualifiers": [
+        "The survey workflow was proposed, not confirmed as implemented.",
+        "The conversation does not establish that survey findings improve ad or landing-page performance.",
+        "The observation about clients lacking research is an internal practitioner observation, not a measured prevalence estimate."
+      ],
+      "risks": [
+        "Do not present reviews as useless or imply that the proposed survey process is an established delivered service."
+      ],
+      "quality": {
+        "grounding": 5,
+        "source_relevance": 5,
+        "audience_fit": 5,
+        "specificity": 5,
+        "editorial_usefulness": 5,
+        "reasons": [
+          "The source explicitly distinguishes reviews from research into purchase decisions.",
+          "The proposed collection workflow gives owners a practical process question without asserting an outcome."
+        ]
+      }
+    },
+    {
+      "local_key": "keep-couples-engaged-while-tour-waits",
+      "title": "A later tour does not always mean the venue should offer more hours",
+      "argument": "When couples book a venue tour well in advance, the business may need to keep the venue in consideration without expanding into tour times that do not fit its staffing or preparation constraints. A personalized preview before the visit is a possible alternative to treating schedule expansion as the only response.",
+      "audience": "Wedding-venue owners whose couples book tours more than two weeks ahead and who cannot readily add weekend or early-morning appointments.",
+      "tension": "Couples may choose another venue before a delayed tour, but the venue has genuine limits on staffing, event preparation, and when a space is ready to show.",
+      "take": "For couples who must wait, consider whether a personal call, virtual preview, or useful supplemental message could answer questions and help them picture the venue before their in-person tour.",
+      "mechanism": "The venue owner said couples sometimes found another venue before their scheduled visit, while also describing limits on Saturday tours and drawbacks to Sunday appointments. Whitney proposed a phone or video touchpoint and a supplemental message for people whose tours were booked farther out; these were ideas, not tested interventions.",
+      "reader_decision": "For tours booked well in advance, decide whether to preserve the current schedule and add a feasible pre-tour touchpoint, or whether a different appointment option is workable for the business.",
+      "moment_ids": [
+        "moment_c43b5b36bc5de1e0f33db424"
+      ],
+      "source_assertions": [
+        "The venue owner reported that couples booking more than two weeks ahead might find another venue before their tour and described operational constraints on tour availability (zoom:6bc6fdce6d004cad:span:96; zoom:6bc6fdce6d004cad:span:107; zoom:6bc6fdce6d004cad:span:111; zoom:6bc6fdce6d004cad:span:114).",
+        "Whitney proposed a phone or video preview for couples with later tours, and a supplemental email with a video for some people booked farther out (zoom:6bc6fdce6d004cad:span:148; zoom:6bc6fdce6d004cad:span:151; zoom:6bc6fdce6d004cad:span:154; zoom:6bc6fdce6d004cad:span:199; zoom:6bc6fdce6d004cad:span:204).",
+        "The discussion presented these touchpoints as possible approaches, not as interventions with demonstrated effects (zoom:6bc6fdce6d004cad:span:151; zoom:6bc6fdce6d004cad:span:199)."
+      ],
+      "inference": "A useful pre-tour touchpoint may help bridge the wait while respecting real capacity limits, but the discussion does not show whether it changes cancellations or bookings.",
+      "qualifiers": [
+        "The tour-scheduling constraints belong to this venue and should not be generalized.",
+        "The reported reasons for cancellations and the proposed follow-up options were not tested in the supplied passages.",
+        "The meeting's reported inquiry and tour figures lack underlying dashboard and denominator detail."
+      ],
+      "risks": [
+        "Do not claim that a call, video, or supplemental email prevents cancellations or improves tour show-up rates."
+      ],
+      "quality": {
+        "grounding": 5,
+        "source_relevance": 5,
+        "audience_fit": 5,
+        "specificity": 5,
+        "editorial_usefulness": 5,
+        "reasons": [
+          "The tension between buyer timing and operational limits is explicit in the discussion.",
+          "The direction turns the proposed touchpoint into a capacity-aware decision without claiming it works."
+        ]
+      }
+    },
+    {
+      "local_key": "interpret-email-actions",
+      "title": "An opened email is not the same signal as a clicked one",
+      "argument": "Email opens can show that a message was viewed, but clicks offer a different signal about which content prompted an action. Owners can use those differences to decide which messages deserve closer review, without treating engagement as proof that the email caused a tour or booking.",
+      "audience": "Wedding-business owners with an inquiry nurture sequence who are reviewing whether follow-up content is helping couples take a next step.",
+      "tension": "A sequence may show healthy opens while some messages receive no clicks, making it easy to overstate what open rates say about buyer interest or sequence effectiveness.",
+      "take": "Review opens and clicks at the message level, inspect the content of emails associated with clicks, and keep engagement signals separate from confirmed tour or booking outcomes.",
+      "mechanism": "During a review of one venue's workflow, the team noted that some emails were opened without clicks and that clicks appeared to increase on later messages. They discussed examining the content of those emails, including a guest-entertainment guide and weather or backup-plan information, as material worth reviewing rather than proof of booking causation.",
+      "reader_decision": "When reviewing your own sequence, identify which messages prompt clicks and inspect what they offer before deciding what to retain, revise, or test next.",
+      "moment_ids": [
+        "moment_154819f0899d166bdcd9115c"
+      ],
+      "source_assertions": [
+        "The team reviewed an inquiry workflow and reported opens without clicks on some messages, with clicks appearing to increase later in the sequence (zoom:6bc6fdce6d004cad:span:341; zoom:6bc6fdce6d004cad:span:343; zoom:6bc6fdce6d004cad:span:347).",
+        "Whitney suggested examining the content of emails that appeared to prompt action; the discussion identified a guest-entertainment guide and weather or backup-plan information (zoom:6bc6fdce6d004cad:span:349; zoom:6bc6fdce6d004cad:span:353; zoom:6bc6fdce6d004cad:span:371).",
+        "The speakers discussed email engagement and tour scheduling, but did not establish that the cited content caused tours or bookings (zoom:6bc6fdce6d004cad:span:368; zoom:6bc6fdce6d004cad:span:371; zoom:6bc6fdce6d004cad:span:373)."
+      ],
+      "inference": "Comparing different engagement signals can help identify content for closer review, but the available observations cannot establish which content caused a buyer to book.",
+      "qualifiers": [
+        "The rates and patterns were reported for this client's workflow; the supplied passages do not provide the dashboard, time period, or full denominator.",
+        "The relationship between specific topics and clicks is observational, not a demonstrated causal finding.",
+        "The discussion does not establish that the cited emails produced tours or bookings."
+      ],
+      "risks": [
+        "Do not generalize this venue's reported email pattern or describe clicks as proof of buying intent."
+      ],
+      "quality": {
+        "grounding": 5,
+        "source_relevance": 4,
+        "audience_fit": 5,
+        "specificity": 4,
+        "editorial_usefulness": 4,
+        "reasons": [
+          "The discussion supports the distinction between opens and clicks and an action to inspect email content.",
+          "The lack of measurement detail and causal evidence limits how far the observed pattern can be taken."
+        ]
+      }
+    },
+    {
+      "local_key": "self-service-with-human-boundary",
+      "title": "Self-service can handle routine fit questions without removing the human part",
+      "argument": "A clear self-service path can let suitable prospects check practical fit questions before they need personal attention, while leaving room for the inquiries that require help. The useful design question is what couples can confidently assess on their own and where a human response still matters.",
+      "audience": "Wedding-business owners with established inquiry systems who are considering whether to make pricing, availability, location, or next steps easier to assess without a conversation.",
+      "tension": "Owners want to reduce repetitive inquiry work, but automation can be mistaken for a substitute for the personal attention some prospects still need.",
+      "take": "Map the questions a couple needs answered before deciding to proceed, make reliable information available early where practical, and identify which cases still need a human conversation.",
+      "mechanism": "An elopement planner described a self-built flow that let prospects view pricing, availability, and locations and follow steps toward a quote. He reported that 80 to 90 percent of his customers moved through it easily, while he still spent substantial time with the remaining customers who needed more assistance.",
+      "reader_decision": "Choose which fit questions your inquiry process can answer clearly without you, and define where a person should take over rather than assuming the system can handle every prospect.",
+      "moment_ids": [
+        "moment_df3d3465325a2899f1a2cb49"
+      ],
+      "source_assertions": [
+        "The planner described a self-service page where prospects could see pricing, availability, locations, and quote information (zoom:879bb09f2baddc58:span:134; zoom:879bb09f2baddc58:span:136; zoom:879bb09f2baddc58:span:137).",
+        "He reported that 80 to 90 percent of his customers moved through his flow easily (zoom:879bb09f2baddc58:span:125).",
+        "He also described continuing manual work with customers who needed more help (zoom:879bb09f2baddc58:span:123; zoom:879bb09f2baddc58:span:126)."
+      ],
+      "inference": "Clear self-service information may help suitable prospects assess fit while reserving personal attention for cases that need it; the account does not establish that another business would see the same effect.",
+      "qualifiers": [
+        "The 80-to-90-percent figure and description of ease are the business owner's report; no measurement method or period is supplied.",
+        "The system was built around one elopement planner's business and tools and is not a general benchmark.",
+        "The owner described continued manual work; he did not claim that the system removed human involvement."
+      ],
+      "risks": [
+        "Do not imply that automation handles every prospect or replaces human sales conversations."
+      ],
+      "quality": {
+        "grounding": 5,
+        "source_relevance": 5,
+        "audience_fit": 5,
+        "specificity": 5,
+        "editorial_usefulness": 5,
+        "reasons": [
+          "The source gives a concrete process and explicitly identifies where manual attention remains.",
+          "The proposed reader decision is about process design, not adopting a particular tool or expecting a particular result."
+        ]
+      }
+    }
+  ],
+  "processed_moment_ids": [
+    "moment_8c1808d0576e8c359d78f1ad",
+    "moment_e10261c8f280c0b72ad6dde1",
+    "moment_781675b63c6aea8b7d459594",
+    "moment_c43b5b36bc5de1e0f33db424",
+    "moment_154819f0899d166bdcd9115c",
+    "moment_df3d3465325a2899f1a2cb49"
+  ],
+  "coverage_notes": [
+    "All six current moments support a bounded editorial direction. Budget adjustment and campaign pausing are treated separately because they concern different decisions: setting a test budget across channels versus stopping one underperforming tracked campaign.",
+    "The research-survey, venue-tour follow-up, email-engagement, and self-service directions concern distinct reader decisions and are not presented as proven interventions or outcomes."
+  ]
+}

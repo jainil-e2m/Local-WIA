@@ -1,0 +1,27 @@
+{
+ "meta": {
+  "run_id": "T1-J0-claude-haiku-5.5-P04-AH",
+  "model": "anthropic/claude-haiku-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 305,
+  "completion_tokens": 265,
+  "cached_tokens": 0,
+  "cost": 0.000163,
+  "seconds": 2.0,
+  "finish": "stop",
+  "system_sha": "ea72523eb9c9",
+  "user_sha": "91eaa4dd0182"
+ },
+ "output": {
+  "choice": "B",
+  "confidence": 4,
+  "reason": "Version B names a concrete pain point (dead-end sales calls and tire kickers) and a specific benefit (pre-selling before the Zoom), while Version A's 'leads on autopilot' overpromises."
+ },
+ "content": null,
+ "request": {
+  "system": "You are evaluating marketing content for Wedding Industry Ads (WIA), an advertising agency that runs Google and Meta ads and lead follow-up for wedding venues and wedding professionals. WIA's founder is Whitney Hodges. You will see two versions of the same piece of WIA content. Decide which version Whitney would approve to publish or send as it is.\n\nReturn only JSON: {\"choice\": \"A\" or \"B\", \"confidence\": 1 to 5, \"reason\": \"one short sentence\"}",
+  "user": "Channel: threads\n\nVersion A:\n“you look less stressed”  \nThanks, I stopped chasing the algorithm.  \nNow I run Google + Meta Ads that bring in leads on autopilot.\n\nVersion B:\n\"you look happier\"\nThanks, I stopped taking dead-end sales calls.\nNow my funnel weeds out tire kickers and pre-sells my services before I even get on Zoom.",
+  "cache_prefix_sha": "ea72523eb9c9"
+ }
+}

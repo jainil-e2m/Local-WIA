@@ -1,0 +1,96 @@
+{
+  "output": {
+    "queries": [
+      {
+        "text": "Find research or expert guidance on how wedding photographers can tailor landing-page imagery and messaging to different regional or venue contexts, without assuming all couples in a region share the same preferences.",
+        "purpose": "support"
+      },
+      {
+        "text": "What difficulties do wedding photographers report when one landing page is meant to serve couples considering visually distinct locations or wedding settings?",
+        "purpose": "pain"
+      },
+      {
+        "text": "What are the tradeoffs for a wedding photographer with limited time or budget between focusing advertising on one region first and building separate pages for multiple regions?",
+        "purpose": "objection"
+      },
+      {
+        "text": "How can location-specific imagery, venue details, and offer context affect whether a wedding photography landing page feels relevant to couples evaluating that location?",
+        "purpose": "explanation"
+      },
+      {
+        "text": "What evidence or metrics are used to compare general and location-specific wedding photography landing pages, and what limits should be noted when interpreting those comparisons?",
+        "purpose": "numbers"
+      },
+      {
+        "text": "What evidence or arguments suggest that a single wedding photography landing page can serve multiple regions effectively, or that separate regional pages may not be worthwhile?",
+        "purpose": "counterevidence"
+      },
+      {
+        "text": "Find existing articles or published case studies about wedding photographers using region-specific or venue-specific landing pages; summarize the claims and whether outcomes were measured.",
+        "purpose": "prior_coverage"
+      },
+      {
+        "text": "What practical criteria can a wedding photographer use to decide whether different target locations have meaningfully different visual expectations or reasons to choose the business?",
+        "purpose": "support"
+      }
+    ]
+  },
+  "metadata": {
+    "raw": {
+      "id": "gen-1791817294-wPkHkrOHnfAHAXN3BdSA",
+      "object": "chat.completion",
+      "created": 1791817294,
+      "model": "openai/gpt-6-luna",
+      "provider": "OpenAI",
+      "system_fingerprint": null,
+      "service_tier": "default",
+      "choices": [
+        {
+          "index": 0,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "completed",
+          "message": {
+            "role": "assistant",
+            "content": "{\"queries\":[{\"text\":\"Find research or expert guidance on how wedding photographers can tailor landing-page imagery and messaging to different regional or venue contexts, without assuming all couples in a region share the same preferences.\",\"purpose\":\"support\"},{\"text\":\"What difficulties do wedding photographers report when one landing page is meant to serve couples considering visually distinct locations or wedding settings?\",\"purpose\":\"pain\"},{\"text\":\"What are the tradeoffs for a wedding photographer with limited time or budget between focusing advertising on one region first and building separate pages for multiple regions?\",\"purpose\":\"objection\"},{\"text\":\"How can location-specific imagery, venue details, and offer context affect whether a wedding photography landing page feels relevant to couples evaluating that location?\",\"purpose\":\"explanation\"},{\"text\":\"What evidence or metrics are used to compare general and location-specific wedding photography landing pages, and what limits should be noted when interpreting those comparisons?\",\"purpose\":\"numbers\"},{\"text\":\"What evidence or arguments suggest that a single wedding photography landing page can serve multiple regions effectively, or that separate regional pages may not be worthwhile?\",\"purpose\":\"counterevidence\"},{\"text\":\"Find existing articles or published case studies about wedding photographers using region-specific or venue-specific landing pages; summarize the claims and whether outcomes were measured.\",\"purpose\":\"prior_coverage\"},{\"text\":\"What practical criteria can a wedding photographer use to decide whether different target locations have meaningfully different visual expectations or reasons to choose the business?\",\"purpose\":\"support\"}]}",
+            "refusal": null,
+            "reasoning": null,
+            "reasoning_details": [
+              {
+                "type": "reasoning.encrypted",
+                "data": "gAAAAABqzPZRH4bNtOExeCUgZUzhjTCEc51D6S3E8-UMavfbrwAm3CO-DezfI9Is-oz_I18ZwK0QTurGo0f07lFmjmuHKqJ6bkIBgrtcbFk5-7DmGDztVQYIhR0gIDoqvFuMpggJpvyzYL_2lpLaZnhV1wWb5QZ8CJ9mGuIlJiT1T_SOahXuPD45-U0JZery0P0D2nRi2xcaQj-QwwktqFMaHLUuWI1He6bmZqLATEVUpT3GrzC8cUhrcJZ98U4Zg5T_RLSlUnBoZd1EleevAv621gwwku3jwHQ6aSbfWVKl4Sul_YH_qvjA9x1ujX8jwum9nMe8nIK7YsnzAtDeA1sb8IqzYMMKTwEL50rAl54lS2Zl7xMrYyASK4gfwTqqsQeB7BxJB4Z7h_8JFHL_EtPO3KY8BwVon_TnFF2Vzz7mZFPUTevy7A7vWk-7LfRPdGZDHJlOx_d3SkNknyA33ZaLeg2HwfGCKuc-ZFRtSvL4CPQLshvyqGyny72FWy0g9jxKPpjF2skPUdhrA3XqnRNZx4fhvXAPs5EGpFSevfZbYCwyT8_s5pbeCFegevi6TQXC68m6mSp2hUhWdQuGTrEsSd4MmrAcvf8D_dLaj1DY-E25dXSs4ti7yLo-G5lj9M60gtv_OaEfzZwK-izF7r8YQvOJws1KYKbemiBZMVMQbZryOwvgr6iuOLyvpYFVmuxWghAmHdgVZmARWXGpNggcFEOYlJk0TD9TrasmnWxZ5NCdndbQTGVnZ4GCCcVtaHV3jfe4juJKK4EcpGOAIA9QtSn7cR4E54U75WPcGw4bz8ignGhwXP8dDsyEYPBGm_mlW9Me8qGHldMIMgShzjbl13FjchHO2RLENUJ0HKFd2u8_Psb56WGe6ogqQ-dyFIg8grYTcrECh3QSvIRFrf5ZYidy8-LOFTFh-JuDFicHplRtdGVxnsxHXUXQyIKGn7w2lSdMwg69zRHupwOvdIKW2Y3YW6IqPp3nsQ48bb3EtcDFiUcwORWm-4WiRASG4sOnAB6jPcG-INKyFJ8SITExZOt4Kv4UPangSWwXC3_1IDOwfN4pVBOHEMoNxKhT4w-bcZbqQDg2fLzDiSkrFkiDNmptSHSlNNqwWQK2nVWizgEYDHlHhJN3NDu4eukloD2y1D0wipWJFNH4IIgAq9q0qtE-lZEiHW7GAPaDxcnqvGzrv2GOm2I5j0nzFIwu0gCAnO_UjDyxE0HORmq8Hu8mzICyOLS_P1XP_zW0BsFHIzve0utVCU0lUnyCH-DC-spEXytICfzzLuTgKz0BNN6m2dJ8wjF3Qk9Hsg7WgnTDyIuJIb4jLdyX2zSOBMVzJSG4klqHuaxB9Px3MACbLGQqZVgwSWCA2HVv73wXKR_7Zsk6NBmplBwXgSa0p1GZxxW7_zeaxMBXe19to1u56JAYoW2BzdJbUUbYudUYluxNdQQUAeo5Hrk2ZSawQ9Uo-rvwlUfZp92_CzIN0uRYwfaxefGneeNn8QMcXtlN2WqnSJ4pErMJroon8XPk0URglt7uphVQOJBUwfRZ9XPKLaoUemxKkgJftkOlt6ENBXTGO6EOuMcme4kzXx3WfthbP6rN70b1SOEJL-b3AWBmoByTzeNJxHLKq4TUbRX5YrxLTJJFl0pwgNriXr6yPOfqy3v5qvJQqaFCi6yahnvehw7o8dwLANtFUV7HsbPcSyS9h-5kwlPtjLOL5VpD8EvNscz_wzmwd9zptlaMwO7lghU_P3Ctq-cyrkbS26WwoXDGu9A6CWLkdzBTcMAKpxFoj4lBtLVlo0ig9WmGMJEW5_kAkl2dbiFH__KBpiXcHqSjUJvDI4_Zz7jJJWAL32XaFsGZnSF3RFzRYPjYIXkSfJcjbNYvO8aPpjE8Yi31uK1EOPXkDm9SULrBvyJLiHlmN6pozwIVYW6NTlSkxtzwVz-b09ykNJQWJcw3liLsLqKRwURIVrlimKqVDexgznckgLhvTz_2xEUEAMqjvKjvQUYhj_AP_GadXo-nrPDEt9zdJEkvugtqX0dfA2dK2nrmKVqCo9dGaNBFb0DaqoflF0PF2NITt742tiriX-CpeJLD2Y7nmSqlcReG1GQHcN-DLZTES3ly5VbSPyWOvEZWorr-AA-TRppy-zDgaqoBIH8uV1GVA2eSUjffSoyfY7pWGyE4FtPmu09HE2ehJAV_NxwTcDMDKGOwA3aeIoKtudVZ1j51-5Y-LdpjYm6v-f9Z6IsnxLpmM9vN-bH1fqAIOdVKMyPxOaffErhjrWlRgwIRBS1QwVQkOeg8TR3n92hAkG4_3DWftOErZiecJhflfI9n18HoY-D2Tdh701On2sDYKHkr7rLqJTzra7Y2w_IUsxvkbud8il7MHIA4FvfAw9DmugMv-UTY92Hz2Nv9YkvkdIWjW6YYZhzzn8uJhflSRp_8BolgnIubZawEW8Wgr8V2OOh5qPwZY5-8xwDmSFVMUWihWOsUiYpxomNswVVmil2tAteY4kS76zsyOUDK3Qx9nox0bT_tKIIWtwKSk15HJTERsQPtMp3lNri_rfLzmx9YehWBtlCOiiJOADqil0vXv5G_JikDzcIqTAh9kq9DyGI5esCO5fs6BgODV8K0BadzJ69cpmUFtRnrLcONqbQOoYYi4eiaucOTNSJMRafBIyacmemgApqnmJ4pLu11cLs9wCZlhi-lBknEl2V9vLMQVX6IJ_v18Ngr8kcoo0sz5ZAjrBYmcOFRSLl3tOG5fH42vfK-Hy63rBo_CldcDIeggudC88-EduLMAnMHL7xp_nMpMdHJpUGcij_rRqNh7Zx0leP8EiTR6DxVzcR8hxuB1et6icgXrx7q-7ssl59L4XFooKJtsSt3sgSE6SfLJkYa3v1zVHEltgomdj18zdWkBKZq2UF5lYoLIVSosUclHi62D1PBbv4hvsz5GU1A5dqMVSzYGT3DTxhQ8LfiX8RXPDoeXI5sJz5gUXYYj45YT3RmPzR-WAZoeHHyM9P22_zI7jl1TqRP0tYDApSitug64zzUewKcrzoapjC5RpCWi7b2B9eKdAc_uJZU59H8Min01DMDhh8kMs3xwrJPQNuWX3sx_H8da_NRKwiVqcvw3OqYci6y0xdISvAMT9Vgdhnq6Od6E1JwJN5ZULlI3vEB0IG7_XyjtI6_YXIsZ0F95JUEuQ7Hqfg2bwYkCRm0SgK-SBqTwEHMU9cEv-zuJatAJ8-rGQ--2x4es7gGo-5AZEscaQpVQVE=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LWx1bmEtMjAyNjA5MjJ8b3BlbmFpIn0",
+                "format": "openai-responses-v1",
+                "id": "rs_06a6492deb551481016accf65060a487d1844e9e12900e0e08",
+                "index": 0
+              }
+            ]
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 5133,
+        "completion_tokens": 412,
+        "total_tokens": 5545,
+        "cost": 0.00084755,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 5130,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00084755,
+          "upstream_inference_prompt_cost": 0.00064155,
+          "upstream_inference_completions_cost": 0.000206
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 113,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    "fingerprint": "f8c154cf790f6b3b38292cca1f3108a59baa445efc3ec606e2fc7535a4dcbec1"
+  }
+}

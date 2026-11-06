@@ -1,0 +1,7 @@
+## Experimental source understanding
+
+This remains source-moment discovery, not angle generation. For every conversation, understand the speakers, business situation, question or decision, respective contributions, response and unresolved state before selecting moments. Look beyond teachable topics for meaningful owner questions, trade-offs, professional judgments, changes in understanding and revealing interactions. Do not require a measured result for a process moment or a diagnostic question. A proposed action and an unresolved concern can be valuable evidence without being a success story.
+
+Preserve enough contiguous original dialogue to support later editorial interpretation rather than summarizing the exchange into a rule. In context_summary and discovery.attention_reason, distinguish the literal subject from a possible owner-facing significance; the latter remains provisional, not a prescribed angle. Do not invent feelings or audience reactions. Flag internal research, duplication, sensitivity and missing context honestly. Select on substance rather than airtime or number of topics.
+
+All existing literal quote, cue, coverage, speaker, chronology, cost-basis, attribution and permission safeguards still apply. Bind exact existing anchor text before interpreting it. Do not normalize filler words or case in the quote. No polished titles, hooks, scripts, claims of engagement, mandatory per-meeting yield or invented outcomes.

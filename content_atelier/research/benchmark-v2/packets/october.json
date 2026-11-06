@@ -1,0 +1,1249 @@
+{
+ "benchmark": "benchmark-v2.2026-10-23",
+ "name": "october",
+ "window": {
+  "from": "2026-10-12",
+  "to": "2026-10-19"
+ },
+ "made_by": "system: ledger packet, no model call",
+ "state": "pending",
+ "coverage": {
+  "summary": {
+   "calls": 15,
+   "included_calls": 8,
+   "excluded_calls": 7,
+   "verified_scenes": 10,
+   "in_packet": 10,
+   "held_for_consent": 0,
+   "first_scene_types": 0,
+   "tokens": 36103,
+   "budget_tokens": 150000,
+   "within_budget": true,
+   "pending_extraction": [
+    "transcript_669399dea7769240079387fd",
+    "transcript_6435749f634cd89aa0aaaab0",
+    "transcript_dd546eb36ff1f3de35539724",
+    "transcript_f326f85ff49572e48259b27e",
+    "transcript_5b0389844e4a927240f1ec39",
+    "transcript_56fa74d2f060647519580467",
+    "transcript_8223a163373716323e0b44f7"
+   ],
+   "every_verified_scene_in_packet": true
+  },
+  "documents": [
+   {
+    "transcript_id": "transcript_161b086aa87d5a85b1282e21",
+    "title": "Impromptu Zoom Meeting",
+    "call_type": "internal",
+    "occurred_at": "2026-10-12T15:04:19+00:00",
+    "included": false,
+    "exclusion_reason": "Internal call: only WIA staff speak, so it is not client evidence.",
+    "state": "excluded",
+    "scenes": 0,
+    "verified": 0,
+    "unverified": 0,
+    "held_for_consent": 0,
+    "in_packet": 0,
+    "extractor_versions": []
+   },
+   {
+    "transcript_id": "transcript_ba26b543595afbb2a9daef99",
+    "title": "Impromptu Zoom Meeting",
+    "call_type": "internal",
+    "occurred_at": "2026-10-12T16:01:14+00:00",
+    "included": false,
+    "exclusion_reason": "Confirmed by reading: only WIA's team (Whitney, Carmen, Gisselle, Jacqueline, Danielle) speaks, about WIA's own work. (delegated review under D21, 19 October 2026)",
+    "state": "excluded",
+    "scenes": 0,
+    "verified": 0,
+    "unverified": 0,
+    "held_for_consent": 0,
+    "in_packet": 0,
+    "extractor_versions": []
+   },
+   {
+    "transcript_id": "transcript_ab81608af562a18bff8978a9",
+    "title": "WIA Weekly Meeting",
+    "call_type": "internal",
+    "occurred_at": "2026-10-12T17:02:33+00:00",
+    "included": false,
+    "exclusion_reason": "Confirmed by reading: only WIA's team (Whitney, Carmen, Gisselle, Jacqueline, Danielle) speaks, about WIA's own work. (delegated review under D21, 19 October 2026)",
+    "state": "excluded",
+    "scenes": 0,
+    "verified": 0,
+    "unverified": 0,
+    "held_for_consent": 0,
+    "in_packet": 0,
+    "extractor_versions": []
+   },
+   {
+    "transcript_id": "transcript_fd3a6d31b3b378e4a92246a8",
+    "title": "The Penny + WIA _ Monthly Strategy Call's transcript.txt",
+    "call_type": "client_1to1",
+    "occurred_at": "2026-10-13T17:02:48+00:00",
+    "included": true,
+    "exclusion_reason": null,
+    "state": "extracted",
+    "scenes": 10,
+    "verified": 10,
+    "unverified": 0,
+    "held_for_consent": 0,
+    "in_packet": 10,
+    "extractor_versions": [
+     "2026-10-19.scenes.v2"
+    ]
+   },
+   {
+    "transcript_id": "transcript_ddf710f2fb738528846577dd",
+    "title": "Check-in with Gisselle's transcript.txt",
+    "call_type": "internal",
+    "occurred_at": "2026-10-13T19:02:13+00:00",
+    "included": false,
+    "exclusion_reason": "Confirmed by reading: only WIA's team (Whitney, Carmen, Gisselle, Jacqueline, Danielle) speaks, about WIA's own work. (delegated review under D21, 19 October 2026)",
+    "state": "excluded",
+    "scenes": 0,
+    "verified": 0,
+    "unverified": 0,
+    "held_for_consent": 0,
+    "in_packet": 0,
+    "extractor_versions": []
+   },
+   {
+    "transcript_id": "transcript_669399dea7769240079387fd",
+    "title": "Impromptu Zoom Meeting",
+    "call_type": "client_1to1",
+    "occurred_at": "2026-10-14T15:02:36+00:00",
+    "included": true,
+    "exclusion_reason": null,
+    "state": "pending_extraction",
+    "scenes": 0,
+    "verified": 0,
+    "unverified": 0,
+    "held_for_consent": 0,
+    "in_packet": 0,
+    "extractor_versions": []
+   },
+   {
+    "transcript_id": "transcript_6435749f634cd89aa0aaaab0",
+    "title": "Impromptu Zoom Meeting",
+    "call_type": "client_1to1",
+    "occurred_at": "2026-10-14T17:01:04+00:00",
+    "included": true,
+    "exclusion_reason": null,
+    "state": "pending_extraction",
+    "scenes": 0,
+    "verified": 0,
+    "unverified": 0,
+    "held_for_consent": 0,
+    "in_packet": 0,
+    "extractor_versions": []
+   },
+   {
+    "transcript_id": "transcript_dd546eb36ff1f3de35539724",
+    "title": "Ridgefield x WIA | Monthly Strategy Call",
+    "call_type": "client_1to1",
+    "occurred_at": "2026-10-14T20:00:31+00:00",
+    "included": true,
+    "exclusion_reason": null,
+    "state": "pending_extraction",
+    "scenes": 0,
+    "verified": 0,
+    "unverified": 0,
+    "held_for_consent": 0,
+    "in_packet": 0,
+    "extractor_versions": []
+   },
+   {
+    "transcript_id": "transcript_f326f85ff49572e48259b27e",
+    "title": "Impromptu Zoom Meeting",
+    "call_type": "client_1to1",
+    "occurred_at": "2026-10-15T16:04:21+00:00",
+    "included": true,
+    "exclusion_reason": null,
+    "state": "pending_extraction",
+    "scenes": 0,
+    "verified": 0,
+    "unverified": 0,
+    "held_for_consent": 0,
+    "in_packet": 0,
+    "extractor_versions": []
+   },
+   {
+    "transcript_id": "transcript_5b0389844e4a927240f1ec39",
+    "title": "The Brightside | Messaging & Positioning Call",
+    "call_type": "client_1to1",
+    "occurred_at": "2026-10-15T17:01:01+00:00",
+    "included": true,
+    "exclusion_reason": null,
+    "state": "pending_extraction",
+    "scenes": 0,
+    "verified": 0,
+    "unverified": 0,
+    "held_for_consent": 0,
+    "in_packet": 0,
+    "extractor_versions": []
+   },
+   {
+    "transcript_id": "transcript_56fa74d2f060647519580467",
+    "title": "Press Record Co. x WIA Monthly Strategy Call",
+    "call_type": "client_1to1",
+    "occurred_at": "2026-10-15T19:59:39+00:00",
+    "included": true,
+    "exclusion_reason": null,
+    "state": "pending_extraction",
+    "scenes": 0,
+    "verified": 0,
+    "unverified": 0,
+    "held_for_consent": 0,
+    "in_packet": 0,
+    "extractor_versions": []
+   },
+   {
+    "transcript_id": "transcript_a46de16fa39f6c5ba4f13401",
+    "title": "Check-in with Gisselle",
+    "call_type": "internal",
+    "occurred_at": "2026-10-19T14:33:59+00:00",
+    "included": false,
+    "exclusion_reason": "Internal call: only WIA staff speak, so it is not client evidence.",
+    "state": "excluded",
+    "scenes": 0,
+    "verified": 0,
+    "unverified": 0,
+    "held_for_consent": 0,
+    "in_packet": 0,
+    "extractor_versions": []
+   },
+   {
+    "transcript_id": "transcript_c2576802c99b100603f96006",
+    "title": "Impromptu Zoom Meeting",
+    "call_type": "internal",
+    "occurred_at": "2026-10-19T15:07:28+00:00",
+    "included": false,
+    "exclusion_reason": "Internal call: only WIA staff speak, so it is not client evidence.",
+    "state": "excluded",
+    "scenes": 0,
+    "verified": 0,
+    "unverified": 0,
+    "held_for_consent": 0,
+    "in_packet": 0,
+    "extractor_versions": []
+   },
+   {
+    "transcript_id": "transcript_adf2b27a342e9c80597707c2",
+    "title": "Impromptu Zoom Meeting",
+    "call_type": "internal",
+    "occurred_at": "2026-10-19T16:03:21+00:00",
+    "included": false,
+    "exclusion_reason": "Internal call: only WIA staff speak, so it is not client evidence.",
+    "state": "excluded",
+    "scenes": 0,
+    "verified": 0,
+    "unverified": 0,
+    "held_for_consent": 0,
+    "in_packet": 0,
+    "extractor_versions": []
+   },
+   {
+    "transcript_id": "transcript_8223a163373716323e0b44f7",
+    "title": "WIA Weekly Meeting",
+    "call_type": "client_1to1",
+    "occurred_at": "2026-10-19T17:01:08+00:00",
+    "included": true,
+    "exclusion_reason": null,
+    "state": "pending_extraction",
+    "scenes": 0,
+    "verified": 0,
+    "unverified": 0,
+    "held_for_consent": 0,
+    "in_packet": 0,
+    "extractor_versions": []
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "quote": "Yeah, totally. It's like you think you're good, and then you gotta kind of basically restart the whole process of training and all that, but we got two really good people, so I'm happy, I'm excited about that. I think they're gonna be great, and kind of take some responsibility off me, and help with the marketing stuff too, so…",
+   "reasons": [
+    "Scene record; not scored at extraction (E.B12)"
+   ],
+   "strength": 0.0,
+   "discovery": null,
+   "moment_type": "result",
+   "proposition": "Whitney Hodges asked: Asked whether the new people would be involved in sales or tours. | Client: Lauren said she hired two people who would focus on marketing and some event-planning work. She said she would continue handling sales, and that Lindsey might help with sales later depending on how things go. | Left open: Whether Lindsey will begin helping with sales.",
+   "sensitivity": "unknown",
+   "claim_status": "reported",
+   "qualifications": [
+    "The possible future sales role for Lindsey was not settled."
+   ],
+   "context_summary": "Lauren said October was especially hectic. She described hiring new people and the venue manager, Lindsey, easing back in part-time.",
+   "audience_relevance": "Not assessed at extraction; the strategist judges relevance (E.B12)",
+   "moment_id": "moment_d2a98f4d06ab46832a816d87",
+   "source_ids": [
+    "transcript_fd3a6d31b3b378e4a92246a8"
+   ],
+   "source_metadata": {},
+   "consent": "anonymise",
+   "extractor_version": "2026-10-19.scenes.v2",
+   "speaker_identity_status": "unverified_labels",
+   "source_evidence": [
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:7",
+     "text": "Lauren Christensen: I know, it's been a crazy… October's always crazy for us, but seems extra crazy this year.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 141
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:8",
+     "text": "Whitney Hodges: Yeah, I know you said that things have been hectic.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 147
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:9",
+     "text": "Lauren Christensen: Yeah, it's just been, like, hiring a couple new people, and luckily our venue manager's kind of easing back in, so that's great, but she's not, you know, she's only a couple hours a week so far, so…",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 150
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:10",
+     "text": "Whitney Hodges: For you guys lately.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 151
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:11",
+     "text": "Whitney Hodges: Got it. Okay, yeah, yeah, I totally understand. Yeah, all the staffing stuff can kind of throw you for a loop.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 162
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:12",
+     "text": "Lauren Christensen: Yeah, totally. It's like you think you're good, and then you gotta kind of basically restart the whole process of training and all that, but we got two really good people, so I'm happy, I'm excited about that. I think they're gonna be great, and kind of take some responsibility off me, and help with the marketing stuff too, so…",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 169
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:13",
+     "text": "Whitney Hodges: Awesome, cool. Will they be involved in, like, the sales at all, or tours, or anything like that?",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 185
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:14",
+     "text": "Lauren Christensen: Not at the moment, no. Um, more just marketing, um, and then some more, like, event planning-related stuff on the back end to kind of… kind of because Lindsey, our venue manager, is coming back part-time, so we'll kind of be taking over some of her kind of simpler things, and then she'll stay client-focused, kind of, um, client relations.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 189
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:15",
+     "text": "Whitney Hodges: Yes.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 191
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:16",
+     "text": "Lauren Christensen: I'll continue sales, and then we're going to kind of see how that goes. Potentially, if anyone were to start helping with sales, it would be Lindsey, our venue manager, so…",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 207
+    }
+   ]
+  },
+  {
+   "quote": "So, um… but it was just weird, because last year, you know, it was great. We had a really strong end, like, Q3 and 4 were really strong sales-wise, and then Q1, which typically is, is when things kind of dropped off the map. So, um, I… hopefully, like, we're kind of gaining momentum, and we can kind of keep that going.",
+   "reasons": [
+    "Scene record; not scored at extraction (E.B12)"
+   ],
+   "strength": 0.0,
+   "discovery": null,
+   "moment_type": "result",
+   "proposition": "Whitney Hodges asked: Asked how sales had been going since they last met. | Whitney Hodges explained: Said she hoped the current momentum would continue into Q1, which she described as engagement season, when people book venues after the holidays. | Client: Lauren said sales had picked up a little, sometimes arriving in groups of 3 or 4, and that text and email campaign engagement was improving. She said the prior year had a strong Q3 and Q4, while Q1 typically dropped off, and she hoped the current momentum would continue. | Left open: Whether the sales momentum will continue into Q1.",
+   "sensitivity": "internal_only",
+   "claim_status": "reported",
+   "qualifications": [
+    "Sales patterns and engagement were reported by Lauren; no underlying figures or independent verification were provided."
+   ],
+   "context_summary": "Whitney asked how sales had been since the previous call. Lauren described an uneven pattern and compared the current period with the prior year's sales pattern.",
+   "audience_relevance": "Not assessed at extraction; the strategist judges relevance (E.B12)",
+   "moment_id": "moment_13fcea3abe35c752221de949",
+   "source_ids": [
+    "transcript_fd3a6d31b3b378e4a92246a8"
+   ],
+   "source_metadata": {},
+   "consent": "internal_only",
+   "extractor_version": "2026-10-19.scenes.v2",
+   "speaker_identity_status": "unverified_labels",
+   "source_evidence": [
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:20",
+     "text": "Whitney Hodges: How have things been going for you sales-wise since we last met?",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 220
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:21",
+     "text": "Lauren Christensen: Yeah, they've been, um, they picked up a little bit, which is great, um, a little bit closer to kind of.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 225
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:22",
+     "text": "Lauren Christensen: The clip that we had, you know, before, um…",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 230
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:23",
+     "text": "Whitney Hodges: Mm-hmm.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 232
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:24",
+     "text": "Lauren Christensen: It's interesting, it's always been, like, this year it's been nothing, and then all of a sudden, like, you know, 3 or 4 at once, and then kind of nothing. It always seems to come kind.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 233
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:25",
+     "text": "Whitney Hodges: Birds.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 241
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:26",
+     "text": "Lauren Christensen: Um, which is, I mean, it's great as long as we get the numbers, but it does seem like we're getting back on track, even just with, like, engagement with, um, you know, text and email campaigns, and those things are kind of improving. Um, you know, this time, it's interesting, because we used to not have, historically, fall was not super busy for us, sales-wise, but last year, we had a really long, strong end to the year, um, and it seems like that's kind of what's happening again.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 242
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:27",
+     "text": "Lauren Christensen: So, um… but it was just weird, because last year, you know, it was great. We had a really strong end, like, Q3 and 4 were really strong sales-wise, and then Q1, which typically is, is when things kind of dropped off the map. So, um, I… hopefully, like, we're kind of gaining momentum, and we can kind of keep that going.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 265
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:28",
+     "text": "Whitney Hodges: Mm-hmm.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 273
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:29",
+     "text": "Whitney Hodges: OK, good. Yeah, good to hear that things are picking up. Yeah, and agreed. Hopefully, that will carry through to Q1 when it's officially engagement season, when people are doing a lot of their venue booking after the holidays.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 280
+    }
+   ]
+  },
+  {
+   "quote": "She's been great, she's been very responsive. Um, I mean, there's been some kind of little hiccups of just tweaking things and figuring out, you know, why things are… for a while, they weren't moving to different stages, but I think she kind of got that dialed in, um…",
+   "reasons": [
+    "Scene record; not scored at extraction (E.B12)"
+   ],
+   "strength": 0.0,
+   "discovery": null,
+   "moment_type": "testimonial",
+   "proposition": "Whitney Hodges asked: Asked how Lauren's transition to LeadLock was going. | Whitney Hodges explained: Said Danielle would layer in the post-tour sequences once Lauren sent them, and that Danielle was focusing on the pipelines and workflows before creating a LeadLock report similar to the one Lauren had shown her in NurturePro. | Whitney Hodges explained: Said the ads report she had sent, which included some LeadLock insights, could serve in the interim. | Client: Lauren praised Danielle's responsiveness. She said the pipeline stages had not been moving correctly for a while but were now dialed in, and that she still needed to send the post-tour follow-ups. She said she kept NurturePro active for leads still there and had not had the bandwidth to move them, making it somewhat overwhelming to manage leads in multiple places. | Left open: Lauren still needs to send the post-tour follow-ups.; Danielle's planned LeadLock reporting work had not yet been completed. | Process step: ELEVATE client journey, end to end 12. Nurture",
+   "sensitivity": "unknown",
+   "claim_status": "reported",
+   "qualifications": [
+    "Lauren's praise is about Danielle's responsiveness; the technical setup and remaining work are reported in the conversation."
+   ],
+   "context_summary": "Whitney asked how Lauren's move to LeadLock was going. Lauren described the setup and the remaining work on post-tour follow-ups, while Whitney relayed the next steps Danielle had discussed.",
+   "audience_relevance": "Not assessed at extraction; the strategist judges relevance (E.B12)",
+   "moment_id": "moment_11bb46ec9d67520e36f59ae6",
+   "source_ids": [
+    "transcript_fd3a6d31b3b378e4a92246a8"
+   ],
+   "source_metadata": {},
+   "consent": "anonymise",
+   "extractor_version": "2026-10-19.scenes.v2",
+   "speaker_identity_status": "unverified_labels",
+   "source_evidence": [
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:32",
+     "text": "Whitney Hodges: Um, I know you've been working pretty closely with, uh, Danielle lately on kind of, like, fully embracing LeadLock since we've, you know, officially got you on the platform now. How has that been going for you?",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 297
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:33",
+     "text": "Lauren Christensen: Yep.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 304
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:34",
+     "text": "Lauren Christensen: She's been great, she's been very responsive. Um, I mean, there's been some kind of little hiccups of just tweaking things and figuring out, you know, why things are… for a while, they weren't moving to different stages, but I think she kind of got that dialed in, um…",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 309
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:35",
+     "text": "Whitney Hodges: Mm-hmm.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 316
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:36",
+     "text": "Whitney Hodges: Mm-hmm.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 320
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:37",
+     "text": "Lauren Christensen: now she's just waiting on me for a couple things, like, uh, I need to get her my, like, nurture follow-ups for after tours, because we didn't transfer the old ones over, um, and that's more just me, like, I'm hoping to get to that today or tomorrow, but, um, overall with her, I feel like it's been great. I…",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 323
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:38",
+     "text": "Whitney Hodges: Got it.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 330
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:39",
+     "text": "Whitney Hodges: Mm-hmm.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 332
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:40",
+     "text": "Lauren Christensen: this, you know, since it's still go high level, it's been really easy for me just to shift over. I do still have my Nurture Pro account active, just because I had some leads in there with everything going on, I just haven't had the bandwidth to, like, make that shift. Um, so that's been a little bit overwhelming, or just hard for me, because I'm managing people in multiple places, but it's not too bad.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 340
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:41",
+     "text": "Whitney Hodges: Mm-hmm.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 344
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:42",
+     "text": "Whitney Hodges: Right.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 352
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:43",
+     "text": "Whitney Hodges: Oh.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 355
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:44",
+     "text": "Whitney Hodges: Okay, got it. Okay, good to hear. Well, thanks for all of the collaboration on that. Yeah, Danielle mentioned that once you get those kind of post-tour sequences over, she'll get that… all of that kind of layered in there as well. I know that she really wants to focus on making sure that, like, the pipelines are where you want them to be, you know, the work…",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 358
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:45",
+     "text": "Whitney Hodges: workflows are where you want them to be, and then her focus after that is going to be creating more of a report directly from LeadLock, similar to what you had showed her, um, in NurturePro. But hopefully, kind of in the meantime, the ads report that I sent over to you yesterday.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 376
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:46",
+     "text": "Lauren Christensen: Mmhm.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 385
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:47",
+     "text": "Lauren Christensen: Okay.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 387
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:48",
+     "text": "Lauren Christensen: Yeah.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 389
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:49",
+     "text": "Whitney Hodges: which does, you know, kind of include some lead lock insights there, will kind of be, um, okay in the interim. Um, did you have a chance to look at that, or do you want to kind of look at that together today? Okay.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 393
+    }
+   ]
+  },
+  {
+   "quote": "The retargeting campaign hasn't been bringing in quite as many leads as the just more kind of like top of funnel conversion campaign. So that's something that we'll be really be kind of focusing in on in October. And then on the Google ad side of things kind of balancing things between that central coast campaign and the more like general.",
+   "reasons": [
+    "Scene record; not scored at extraction (E.B12)"
+   ],
+   "strength": 0.0,
+   "discovery": null,
+   "moment_type": "result",
+   "proposition": "Whitney Hodges reviewed: Said she saw strength on the front end of both Google and Meta performance, with areas for improvement on Meta. | Whitney Hodges explained: Said the retargeting campaign was bringing in fewer leads than the top-of-funnel conversion campaign and that the team would focus on it in October. | Whitney Hodges explained: Said the team would check for keyword overlap between the Central Coast and general Google campaigns while balancing them to seek cost-effective leads. | Client: Lauren asked for Whitney's feedback on the report and how she interpreted the results. | Left open: The planned Meta retargeting focus and Google campaign review had not yet taken place. | Process step: ELEVATE client journey, end to end 13. Ongoing",
+   "sensitivity": "internal_only",
+   "claim_status": "reported",
+   "qualifications": [
+    "These are Whitney's observations from the ads report, not independently verified results."
+   ],
+   "context_summary": "Lauren asked Whitney for her interpretation of the ads report, including what looked positive and what might need improvement. Whitney reviewed the reported Google and Meta performance.",
+   "audience_relevance": "Not assessed at extraction; the strategist judges relevance (E.B12)",
+   "moment_id": "moment_6d4ca0a0f9d55807ae22962d",
+   "source_ids": [
+    "transcript_fd3a6d31b3b378e4a92246a8"
+   ],
+   "source_metadata": {},
+   "consent": "internal_only",
+   "extractor_version": "2026-10-19.scenes.v2",
+   "speaker_identity_status": "unverified_labels",
+   "source_evidence": [
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:57",
+     "text": "Whitney Hodges: Any questions or concerns on what you were seeing there?",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 416
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:58",
+     "text": "Lauren Christensen: Um, I don't think so, I mean…",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 420
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:59",
+     "text": "Lauren Christensen: I guess I'm open to your feedback in terms of, like, you know, obviously we know what the numbers are, but how would you interpret that? Like, where… what are you positive about? Where do you think things… you still kind of want to see things improve? Like, what's your take?",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 423
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:60",
+     "text": "Whitney Hodges: Yeah, yeah. So I feel like we're seeing strength on the front end from ads performance on both the Google side and the Meta side. I think that there are minor areas of improvement there that we'll be focusing on the Meta side specifically.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 434
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:61",
+     "text": "Whitney Hodges: The retargeting campaign hasn't been bringing in quite as many leads as the just more kind of like top of funnel conversion campaign. So that's something that we'll be really be kind of focusing in on in October. And then on the Google ad side of things kind of balancing things between that central coast campaign and the more like general.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 451
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:62",
+     "text": "Whitney Hodges: campaign that we launched in April, just kind of making sure that, like, things are clean and that there's, like, not too much overlap in terms of, like, keywords within each of those campaigns, so that we can try to really be driving the most cost-effective leads, um, as possible. Um, but based on what I could see, you know, in.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 472
+    }
+   ]
+  },
+  {
+   "quote": "But yeah, I will make sure that the… I've been kind of going in there a couple times a week and making sure, because I was still just watching to make sure they were moving stages automatically on their own, but I know for the manual, like, you know, confirmed, I'll make sure that that's updated, um, so it's kind of accurate.",
+   "reasons": [
+    "Scene record; not scored at extraction (E.B12)"
+   ],
+   "strength": 0.0,
+   "discovery": null,
+   "moment_type": "decision",
+   "proposition": "Whitney Hodges reviewed: Said she had not seen ad-attributed leads turn into tours in LeadLock, while leads overall were turning into tours; she noted that the LeadLock data covered a limited period after the mid-month switch. | Whitney Hodges asked: Asked whether Lauren was moving booked clients into the appropriate pipeline category. | Whitney Hodges reviewed: Said she did not see a booked client in LeadLock for the period beginning September 18, but that some booking opportunities appeared to be happening in October. She said a full month of leads in LeadLock would allow review of email opens, responses, and when people responded. | Client: Lauren said it was hard to tell which leads came from NurturePro and which were in LeadLock. She said she believed she had moved some records, but had not yet updated a recent booking, and committed to keeping confirmed bookings updated. | Left open: The accuracy of the pipeline stages still depended on Lauren updating confirmed bookings.; A full month of LeadLock data was needed for the more detailed email and response review. | Process step: ELEVATE client journey, end to end 13. Ongoing",
+   "sensitivity": "internal_only",
+   "claim_status": "planned",
+   "qualifications": [
+    "Whitney said the LeadLock data covered a limited period following the mid-month switchover.",
+    "Lauren was unsure whether some leads had been moved between systems or stages."
+   ],
+   "context_summary": "Whitney reviewed the LeadLock pipeline and asked whether Lauren was updating the stages when leads became booked clients. Lauren described uncertainty about which system some leads were in and committed to updating confirmed bookings.",
+   "audience_relevance": "Not assessed at extraction; the strategist judges relevance (E.B12)",
+   "moment_id": "moment_ada533a29de95cba3a4962d7",
+   "source_ids": [
+    "transcript_fd3a6d31b3b378e4a92246a8"
+   ],
+   "source_metadata": {},
+   "consent": "internal_only",
+   "extractor_version": "2026-10-19.scenes.v2",
+   "speaker_identity_status": "unverified_labels",
+   "source_evidence": [
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:64",
+     "text": "Whitney Hodges: Um, LeadLock, like, the funnel in general was working, right? We didn't necessarily see any leads directly attributed from ads turn into tours, but it was also kind of a limited amount of data in terms of what was actually flowing through LeadLock, since that switchover kind of happened.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 492
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:65",
+     "text": "Whitney Hodges: mid-month. But, you know, in general, when we just look at leads overall, like, we were seeing those convert into tours. Have you been updating the pipeline on your end in terms of, like, when things actually turn into a sale or.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 509
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:66",
+     "text": "Lauren Christensen: No.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 510
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:67",
+     "text": "Whitney Hodges: a booked client? Are you kind of, like, moving those over to the one category yet?",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 527
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:68",
+     "text": "Lauren Christensen: I'm trying to think, you know, I haven't… there's been maybe one or two. It's hard for me, because I'm like, which ones came from NurturePro, and which ones are in LeadLock? So, um, I believe I have moved them over, but like, for example, I think I have one or two that one person booked yesterday, and I haven't moved that.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 533
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:69",
+     "text": "Whitney Hodges: Right. Mm-hmm.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 540
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:70",
+     "text": "Whitney Hodges: Sure. Mm-hmm.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 548
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:71",
+     "text": "Lauren Christensen: But yeah, I will make sure that the… I've been kind of going in there a couple times a week and making sure, because I was still just watching to make sure they were moving stages automatically on their own, but I know for the manual, like, you know, confirmed, I'll make sure that that's updated, um, so it's kind of accurate.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 549
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:72",
+     "text": "Whitney Hodges: Uh-huh.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 560
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:73",
+     "text": "Whitney Hodges: Okay, perfect. Yeah, so for September, in terms of what was in lead lock, I didn't see anything that actually, like, turned into a one client, but again, you know, it was kind of that shorter time frame of September 18th onward, so just wasn't sure if that was.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 563
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:74",
+     "text": "Whitney Hodges: accurate, or if there were just people that maybe didn't get moved over yet. But I think that we did see some of those, like, one opportunities happening, um, in the month of October. So, um, so that's great. Um, so, especially now that we'll have kind of, like, full month of October with all leads flowing in there.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 578
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:75",
+     "text": "Whitney Hodges: That's going to give us the opportunity to look a lot more specifically at email open rates, response rates, at what point people are responding as well. So I'm excited that everything's kind of, you know, all in there.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 597
+    }
+   ]
+  },
+  {
+   "quote": "already generating leads and converting well. So it's not like we wanted to, like, stop that entirely and just switch it all over to the the lead block page without knowing that it was going to convert. And some conversions did come from the new lead block landing page, but not as strong as the existing pages.",
+   "reasons": [
+    "Scene record; not scored at extraction (E.B12)"
+   ],
+   "strength": 0.0,
+   "discovery": null,
+   "moment_type": "result",
+   "proposition": "Whitney Hodges explained: Said the existing website pages were generating leads and converting well, and that some conversions came from the new LeadLock landing page but it was not performing as strongly. | Whitney Hodges recommended: Said the team would make changes to the imagery, its appearance on mobile, and the wording of calls to action, then send the page back to Lauren to review. | Left open: The page changes had not yet been made or reviewed by Lauren. | Process step: ELEVATE client journey, end to end 9. Ads landing page",
+   "sensitivity": "internal_only",
+   "claim_status": "reported",
+   "qualifications": [
+    "The comparison between the pages was reported by Whitney; no performance figures were given."
+   ],
+   "context_summary": "Whitney discussed the LeadLock landing page alongside the existing website pages, which had already been generating leads. She described the new page's performance and planned changes.",
+   "audience_relevance": "Not assessed at extraction; the strategist judges relevance (E.B12)",
+   "moment_id": "moment_f6664c5a180c8627fe78491e",
+   "source_ids": [
+    "transcript_fd3a6d31b3b378e4a92246a8"
+   ],
+   "source_metadata": {},
+   "consent": "internal_only",
+   "extractor_version": "2026-10-19.scenes.v2",
+   "speaker_identity_status": "unverified_labels",
+   "source_evidence": [
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:77",
+     "text": "Whitney Hodges: Um, together, for sure. Um, the other thing that we are kind of, uh, working on at this point is I have spotted some areas of opportunity for the lead lock landing page that we created for you, because we kind of did, like, some, like, a split testing sort of scenario, right? Because we were seeing, like, the existing website pages that you have.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 613
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:78",
+     "text": "Lauren Christensen: Yeah.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 613
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:79",
+     "text": "Lauren Christensen: Awesome.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 616
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:80",
+     "text": "Lauren Christensen: Okay.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 629
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:81",
+     "text": "Whitney Hodges: already generating leads and converting well. So it's not like we wanted to, like, stop that entirely and just switch it all over to the the lead block page without knowing that it was going to convert. And some conversions did come from the new lead block landing page, but not as strong as the existing pages.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 635
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:82",
+     "text": "Whitney Hodges: So, there are a few tweaks that we're going to make there, I think, like, in terms of imagery, how it appears on mobile, um, just, like, the way the calls to action are phrased. So, once we make those updates, kind of, I'll send that back over to you so you can kind of take another look.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 652
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:83",
+     "text": "Lauren Christensen: Okay.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 652
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:84",
+     "text": "Lauren Christensen: Okay.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 663
+    }
+   ]
+  },
+  {
+   "quote": "Is the plan that, essentially, when the new website's live, those new landing pages will also be live, or there might be a little bit of lag there, depending on, kind of, where they're at?",
+   "reasons": [
+    "Scene record; not scored at extraction (E.B12)"
+   ],
+   "strength": 0.0,
+   "discovery": null,
+   "moment_type": "question",
+   "proposition": "Whitney Hodges asked: Asked where things stood with the new website and its timeline. | Whitney Hodges recommended: Recommended that the dedicated landing pages go live with the new website if the designer could do that. | Whitney Hodges explained: Said that, based on work for other clients of the designer, WIA could send ads traffic to the homepage or weddings page during an interim period if dedicated landing pages were not ready. | Whitney Hodges explained: Asked to be kept informed of the go-live date so WIA could coordinate tracking and support the designer with LeadLock form embed codes. | Client: Lauren said the designer was selecting images and they had reviewed some pages; she expected to review the work and send final edits. She estimated the website might launch within a week or two. Lauren said she had a meeting with the designer that Friday and offered to send an update or include Whitney in the timeline discussion; Whitney agreed. | Left open: Whether the dedicated ads landing pages would be ready when the new website launched.; The go-live date and the timing for tracking and form coordination. | Process step: ELEVATE client journey, end to end 9. Ads landing page",
+   "sensitivity": "unknown",
+   "claim_status": "planned",
+   "qualifications": [
+    "The website timeline was Lauren's estimate, and the landing-page timing had not been confirmed."
+   ],
+   "context_summary": "Whitney asked about the timeline for Lauren's new website and offered to coordinate WIA's tracking and LeadLock forms. Lauren described the designer's progress and asked whether the new landing pages would be ready when the website launched.",
+   "audience_relevance": "Not assessed at extraction; the strategist judges relevance (E.B12)",
+   "moment_id": "moment_18161fb7da1727fdc3877232",
+   "source_ids": [
+    "transcript_fd3a6d31b3b378e4a92246a8"
+   ],
+   "source_metadata": {},
+   "consent": "anonymise",
+   "extractor_version": "2026-10-19.scenes.v2",
+   "speaker_identity_status": "unverified_labels",
+   "source_evidence": [
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:85",
+     "text": "Whitney Hodges: Um, but that does lead me to my next question as to kind of where things are at with you, um, and Celebrate Creative, because I know that you have kind of a new website that's in the works, and I want to make sure that, you know, we're, um, up to speed on what that timeline is going to be like, so that.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 668
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:86",
+     "text": "Whitney Hodges: If anything is needed on our end in terms of updating tracking or putting lead block forms, um, you know, on the new site, that we're here to support you with that.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 685
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:87",
+     "text": "Lauren Christensen: Yeah, I'm just checking to see when my next meeting is with her.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 695
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:88",
+     "text": "Lauren Christensen: Um, because last we left, we met last week, she had… she's culled… she's just basically in the culling of images portion, I think.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 699
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:89",
+     "text": "Whitney Hodges: Got it. Mm-hmm.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 706
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:90",
+     "text": "Lauren Christensen: So she narrowed it down from, like, several thousand to four or five hundred. Um, so we walked through some of the pages just to kind of give my, like, initial take on it, but then she was gonna… and she had some just questions about, you know, like.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 708
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:91",
+     "text": "Whitney Hodges: Yeah, yeah.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 711
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:92",
+     "text": "Whitney Hodges: Mm-hmm.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 717
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:93",
+     "text": "Lauren Christensen: hotels in the area and making sure she's putting the right image with the right hotel. Um, so we did some of that kind of more, like, basic stuff last week, and then we scheduled another call. My impression was, essentially, she would have everything in there that she wanted to do, and then, um, so we'll meet, talk about it, and then I will send over any kind of, like, final edits.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 720
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:94",
+     "text": "Whitney Hodges: Got it.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 723
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:95",
+     "text": "Whitney Hodges: Mmhm.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 727
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:96",
+     "text": "Lauren Christensen: So, I believe that's, you know, within a week or two, we should kind of be launching, but I'm just trying to remember.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 737
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:97",
+     "text": "Whitney Hodges: Mm-hmm.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 737
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:98",
+     "text": "Whitney Hodges: Okay, exciting.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 743
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:99",
+     "text": "Lauren Christensen: Yeah.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 744
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:100",
+     "text": "Lauren Christensen: So that was, I guess, my other question, is because I know that when we do make that change, the plan is then she was going to be building out new landing pages because of the…",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 745
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:101",
+     "text": "Lauren Christensen: Compliance issues and all those types of things?",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 756
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:102",
+     "text": "Whitney Hodges: Mm-hmm, yes.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 759
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:103",
+     "text": "Lauren Christensen: Um, so I don't know if what you guys have talked about, and I can kind of clarify with her, but…",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 760
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:104",
+     "text": "Whitney Hodges: Mm-hmm.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 766
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:105",
+     "text": "Lauren Christensen: Is the plan that, essentially, when the new website's live, those new landing pages will also be live, or there might be a little bit of lag there, depending on, kind of, where they're at?",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 767
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:106",
+     "text": "Whitney Hodges: Yeah, I mean, that's what I would recommend if it's… if it's possible on Amy's end. I… it's… it's been a minute since I've kind of touched base with her, so I can kind of reconnect with her and see what her plan is, you know, as far as, um, pages like, um, where your calendar is embedded, where people can book a tour, uh, you know, thank you pages.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 774
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:107",
+     "text": "Lauren Christensen: Yeah.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 777
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:108",
+     "text": "Whitney Hodges: Things like that. What we are actually seeing from, um, other clients of Amy's that we are, are working with, um, is that, I mean, she's just done an awesome job with their websites. They're very conversion focused and, um, kind of like.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 793
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:109",
+     "text": "Whitney Hodges: you know, as they've launched these new websites, and we've been in kind of an interim period, while Amy behind the scenes, I think, is building dedicated ads traffic landing pages for these clients. We've just been sending traffic typically to like the weddings page of their websites.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 808
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:110",
+     "text": "Whitney Hodges: And it's performing extremely well. And, like, leads are coming in, you know, despite the fact that it's maybe not a true landing page, you know, there's the nav, um, on there, and, you know, ways to be able to kind of, like, click out, um, and, and things like that. So, um…",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 823
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:111",
+     "text": "Lauren Christensen: Okay.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 826
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:112",
+     "text": "Whitney Hodges: Yeah, I feel like even if she doesn't have like a dedicated ads traffic landing page ready right off of the bat, just based on her work and what we've seen thus far with other clients, I wouldn't be concerned about us sending ads traffic to.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 838
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:113",
+     "text": "Lauren Christensen: Much.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 844
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:114",
+     "text": "Lauren Christensen: Okay.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 851
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:115",
+     "text": "Whitney Hodges: either the homepage of the website or the weddings page of the website. We'll just want to be, you know, in the loop as to, like, once you guys kind of set a go-live date, so that we can make sure that tracking is in place as it needs to be.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 853
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:116",
+     "text": "Lauren Christensen: Okay.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 859
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:117",
+     "text": "Whitney Hodges: Um, you know, that we're supporting Amy with, like, embed codes for lead block forms, all of that good stuff.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 868
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:118",
+     "text": "Lauren Christensen: Okay. Yeah, and I looked… so we have a meeting net, um, this Friday, uh, to kind of talk about stuff, so I will put it on my notes to kind of send you an update, um, as well, just on my timeline, or do you want… maybe I could just CC and we can all be on the same one, so we're… we kind of.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 874
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:119",
+     "text": "Whitney Hodges: Okay.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 879
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:120",
+     "text": "Whitney Hodges: Yes.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 888
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:121",
+     "text": "Lauren Christensen: Are looped in on the timeline.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 890
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:122",
+     "text": "Whitney Hodges: Yeah, that sounds perfect. That's great. Mm-hmm. Okay.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 892
+    }
+   ]
+  },
+  {
+   "quote": "Yeah, this is, like, my last wedding that I'm in charge of client-facing, like, handing all the communication, and then Lindsey will take back over, so I'm kind of counting down the days, because that's just eating up so much of my brain space and my time, you know, to kind of do that with all these other things going on.",
+   "reasons": [
+    "Scene record; not scored at extraction (E.B12)"
+   ],
+   "strength": 0.0,
+   "discovery": null,
+   "moment_type": "tension",
+   "proposition": "Whitney Hodges noticed: Said the handoff would free up Lauren's mental load and time. | Client: Lauren said this was the last wedding for which she would handle client-facing communication before Lindsey took over, and that the work was using substantial time and attention.",
+   "sensitivity": "unknown",
+   "claim_status": "reported",
+   "qualifications": [],
+   "context_summary": "Lauren described the upcoming handoff of client-facing wedding communication to Lindsey. She said the current responsibilities were taking time and attention alongside her other work.",
+   "audience_relevance": "Not assessed at extraction; the strategist judges relevance (E.B12)",
+   "moment_id": "moment_1a96abf0e8da3701647d3ddd",
+   "source_ids": [
+    "transcript_fd3a6d31b3b378e4a92246a8"
+   ],
+   "source_metadata": {},
+   "consent": "anonymise",
+   "extractor_version": "2026-10-19.scenes.v2",
+   "speaker_identity_status": "unverified_labels",
+   "source_evidence": [
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:126",
+     "text": "Lauren Christensen: Yeah, this is, like, my last wedding that I'm in charge of client-facing, like, handing all the communication, and then Lindsey will take back over, so I'm kind of counting down the days, because that's just eating up so much of my brain space and my time, you know, to kind of do that with all these other things going on.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 904
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:127",
+     "text": "Whitney Hodges: Okay.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 905
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:128",
+     "text": "Whitney Hodges: Yeah, yeah, that'll be huge. I know that it'll free up just so much of your mental load, but then time as well, of course.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 919
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:129",
+     "text": "Lauren Christensen: Yes.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 925
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:130",
+     "text": "Lauren Christensen: So hard to switch from, like, client things to this kind of thing, you know, like, just in your… in my brain.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 926
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:131",
+     "text": "Whitney Hodges: Okay.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 929
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:132",
+     "text": "Whitney Hodges: 100%, yeah. Yeah, I go through the same thing.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 931
+    }
+   ]
+  },
+  {
+   "quote": "No, I don't think so. I mean, some might… maybe will come up once we get that new webpage launched, but I feel like those reports are really helpful, and then I'm excited to get, like, a full month in with Leadlock for the tracking and all that, just to kind of see how we can kind of continue to dive in, and what that will… kind of how that will inform us, I think will be.",
+   "reasons": [
+    "Scene record; not scored at extraction (E.B12)"
+   ],
+   "strength": 0.0,
+   "discovery": null,
+   "moment_type": "testimonial",
+   "proposition": "Whitney Hodges asked: Asked whether Lauren had any other questions, concerns, or topics on her mind. | Client: Lauren said the reports were helpful and that she was looking forward to having a full month of LeadLock tracking to review. She said that might help inform further analysis. | Left open: Lauren said questions might arise after the new webpage launched.; The team had not yet reviewed a full month of LeadLock tracking. | Process step: ELEVATE client journey, end to end 13. Ongoing",
+   "sensitivity": "unknown",
+   "claim_status": "reported",
+   "qualifications": [
+    "Lauren's positive comment is about the reports; she had not yet reviewed a full month of LeadLock tracking."
+   ],
+   "context_summary": "Whitney asked whether Lauren had any other questions or concerns. Lauren said she did not have anything else at that point, while noting that questions might come up after the new webpage launched.",
+   "audience_relevance": "Not assessed at extraction; the strategist judges relevance (E.B12)",
+   "moment_id": "moment_17d1e84ab3d5fc3c596e49d4",
+   "source_ids": [
+    "transcript_fd3a6d31b3b378e4a92246a8"
+   ],
+   "source_metadata": {},
+   "consent": "anonymise",
+   "extractor_version": "2026-10-19.scenes.v2",
+   "speaker_identity_status": "unverified_labels",
+   "source_evidence": [
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:154",
+     "text": "Whitney Hodges: yeah, run our families this way, for sure. Yeah. Yeah. Well, anything else that you can think of? Questions, concerns, anything that's top of mind?",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 999
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:155",
+     "text": "Lauren Christensen: Yeah, definitely.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 1001
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:156",
+     "text": "Lauren Christensen: Awesome.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 1004
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:157",
+     "text": "Lauren Christensen: No, I don't think so. I mean, some might… maybe will come up once we get that new webpage launched, but I feel like those reports are really helpful, and then I'm excited to get, like, a full month in with Leadlock for the tracking and all that, just to kind of see how we can kind of continue to dive in, and what that will… kind of how that will inform us, I think will be.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 1009
+    }
+   ]
+  },
+  {
+   "quote": "Okay, awesome. Yeah, I'll get her that stuff either today or tomorrow, so she can get it before she leaves.",
+   "reasons": [
+    "Scene record; not scored at extraction (E.B12)"
+   ],
+   "strength": 0.0,
+   "discovery": null,
+   "moment_type": "decision",
+   "proposition": "Whitney Hodges asked: Asked Lauren to send Danielle the post-tour sequence when she could. | Whitney Hodges explained: Said Danielle would focus on implementing the sequence and that Lauren could contact Whitney with LeadLock questions or troubleshooting while Danielle was away. | Client: Lauren said Danielle had already told her about the time away and that she would send the material that day or the next day. | Left open: Lauren still needed to send the post-tour sequence.; Danielle's implementation of the sequence was pending receipt of the material. | Process step: ELEVATE client journey, end to end 12. Nurture",
+   "sensitivity": "unknown",
+   "claim_status": "planned",
+   "qualifications": [
+    "Lauren's sending the sequence and Danielle's implementation were planned, not completed in the call."
+   ],
+   "context_summary": "Whitney returned to the post-tour sequence Lauren still needed to send to Danielle and noted that Danielle would be out of the office later in the week. Lauren committed to sending the material before then.",
+   "audience_relevance": "Not assessed at extraction; the strategist judges relevance (E.B12)",
+   "moment_id": "moment_26c5ea726c85bdae2bdbef21",
+   "source_ids": [
+    "transcript_fd3a6d31b3b378e4a92246a8"
+   ],
+   "source_metadata": {},
+   "consent": "anonymise",
+   "extractor_version": "2026-10-19.scenes.v2",
+   "speaker_identity_status": "unverified_labels",
+   "source_evidence": [
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:160",
+     "text": "Whitney Hodges: Yeah. Okay. Love that. Great. Yeah. So I think on your end, um, just when you can, if you can get, um, Danielle that, uh, post tour sequence, that would be great and she'll focus on getting it implemented right away. Um, I'm not sure if she's mentioned this to you already. She is going to be out of the office this Friday and then Monday and Tuesday of.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 1026
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:161",
+     "text": "Lauren Christensen: Awesome.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 1028
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:162",
+     "text": "Lauren Christensen: Mm-hmm.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 1035
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:163",
+     "text": "Lauren Christensen: Yeah, I think she told me that last week when we talked.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 1047
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:164",
+     "text": "Whitney Hodges: Yeah, so just a heads up on that, but if anything comes up, lead lock related, or you need to troubleshoot anything, or have any questions or concerns while she's out, you can always reach me.",
+     "speaker": "Whitney Hodges",
+     "start_seconds": 1050
+    },
+    {
+     "span_id": "zoom:db971f9d115f4fdd:span:165",
+     "text": "Lauren Christensen: Okay, awesome. Yeah, I'll get her that stuff either today or tomorrow, so she can get it before she leaves.",
+     "speaker": "Lauren Christensen",
+     "start_seconds": 1061
+    }
+   ]
+  }
+ ],
+ "packet_hash": "32affdc4f29ca4bf48ab0bad0be1f35e61303a368d64d39a3657bf44a44b5e43"
+}

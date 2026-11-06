@@ -1,0 +1,5 @@
+G2vA0: G2 9, A0 10, tie 0 of 20 | tasks won both orders: G2 4, A0 4
+G1vA0: G1 9, A0 9, tie 0 of 20 | tasks won both orders: G1 3, A0 4
+G2vG1: G2 9, G1 6, tie 0 of 20 | tasks won both orders: G2 3, G1 1
+lint findings (sum over tasks): {'A0': 14, 'G1': 20, 'G2': 9, 'final': 10}
+judge cost 0.434

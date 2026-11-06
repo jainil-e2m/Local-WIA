@@ -1,0 +1,318 @@
+{
+  "run_id": "week1-gpt6-luna-generation-only-20261008-a2",
+  "purpose": "offline_per_record_audit_only_not_partial_pool_acceptance",
+  "proposed_count": 14,
+  "individually_valid_count": 11,
+  "no_response_repaired": true,
+  "new_provider_requests": 0,
+  "full_weekly_pipeline_succeeded": false,
+  "meeting_inventory_matches": true,
+  "records": [
+    {
+      "position": 1,
+      "local_key": "m1-message-fit",
+      "moment_type": "decision",
+      "quote": "I just don't want someone to think that I'm never going to help them out",
+      "proposition": "A positioning message should distinguish the client’s actual approach from a misleading absolute: this photographer wanted to promise candid, unstaged moments without implying she would leave couples unsupported when they wanted posing guidance.",
+      "context_summary": "While reviewing ad headlines for a Florida wedding photographer, the client corrected copy that said “no posing.” She said most of her work is candid, but couples also want direction during portraits, and some explicitly ask for no posing. The discussion settled on language such as “authentic, not staged”; no performance results for that wording are given.",
+      "anchors": [
+        "m1.t0024",
+        "m1.t0026",
+        "m1.t0033",
+        "m1.t0052",
+        "m1.t0054",
+        "m1.t0064",
+        "m1.t0068"
+      ],
+      "context_first_span_id": "m1.t0022",
+      "context_last_span_id": "m1.t0076",
+      "individually_strict_valid": true,
+      "context_turn_count": 55
+    },
+    {
+      "position": 2,
+      "local_key": "m1-geographic-fit",
+      "moment_type": "decision",
+      "quote": "I just don't want to spend my advertising dollars to something that doesn't bring me joy.",
+      "proposition": "A service provider can distinguish work they would accept if it arrives from work they want to actively pay to attract, using both travel burden and personal fit when setting geographic ad priorities.",
+      "context_summary": "In discussing Florida location targeting, the photographer said she might travel to distant areas for a paying client but did not want to spend ad dollars attracting work in places she did not enjoy. They discussed excluding the Panhandle area and adding selected Florida locations; no targeting results are reported.",
+      "anchors": [
+        "m1.t0111"
+      ],
+      "context_first_span_id": "m1.t0101",
+      "context_last_span_id": "m1.t0115",
+      "individually_strict_valid": true,
+      "context_turn_count": 15
+    },
+    {
+      "position": 3,
+      "local_key": "m3-market-specific-pages",
+      "moment_type": "decision",
+      "quote": "it's hard to target both markets with one landing page",
+      "proposition": "When two wedding markets have different visual expectations, a single landing page may not communicate equally well to both; this photographer chose to focus the initial campaign on Orlando rather than combine Florida and Colorado.",
+      "context_summary": "The photographer was weighing Orlando and Denver. She said Colorado couples often want to see mountains while Florida couples do not, so she chose to start with an Orlando landing page and leave Colorado targeting for a possible later effort. The page still needed work; no results from this choice are supplied.",
+      "anchors": [
+        "m3.t0231",
+        "m3.t0235"
+      ],
+      "context_first_span_id": "m3.t0229",
+      "context_last_span_id": "m3.t0240",
+      "individually_strict_valid": true,
+      "context_turn_count": 12
+    },
+    {
+      "position": 4,
+      "local_key": "m3-ambiguous-style-term",
+      "moment_type": "tension",
+      "quote": "I don't trust couples to actually know what they want",
+      "proposition": "A style term that appears mismatched on its face may still be worth monitoring rather than excluding immediately when buyers’ terminology is unreliable and some of those inquiries have become clients.",
+      "context_summary": "The photographer raised “light and airy” as a style term that sometimes appears in inquiries, although it does not describe her work. She was unsure whether to exclude it as a negative keyword because couples may not accurately describe their preferences; she reported that one of roughly four or five people mentioning it in the last year became a client. The ads team chose to leave it for now and review relevance over time.",
+      "anchors": [
+        "m3.t0365",
+        "m3.t0368",
+        "m3.t0372",
+        "m3.t0373"
+      ],
+      "context_first_span_id": "m3.t0357",
+      "context_last_span_id": "m3.t0373",
+      "individually_strict_valid": true,
+      "context_turn_count": 17
+    },
+    {
+      "position": 5,
+      "local_key": "m4-service-clarity",
+      "moment_type": "mechanism",
+      "quote": "I feel like it should be more clear on the page, too",
+      "proposition": "When an ad or business offers more than the page’s prominent message makes clear, a visitor may reach an inquiry form still seeking basic information; clarifying the service near the top of the page was proposed as a way to address that uncertainty.",
+      "context_summary": "In a team discussion about a destination wedding planner who also handled travel, a colleague reviewing the landing page said its above-the-fold emphasis on finding a venue did not clearly communicate the broader service. The team discussed a plain-language one-liner and clearer explanation of what was handled. One speaker noted that about 20% of visitors reached the inquiry form but did not submit; the team suggested unclear information as a possible explanation, not a demonstrated cause.",
+      "anchors": [
+        "m4.t0056",
+        "m4.t0061",
+        "m4.t0063",
+        "m4.t0075",
+        "m4.t0076",
+        "m4.t0096",
+        "m4.t0104"
+      ],
+      "context_first_span_id": "m4.t0051",
+      "context_last_span_id": "m4.t0107",
+      "individually_strict_valid": true,
+      "context_turn_count": 57
+    },
+    {
+      "position": 6,
+      "local_key": "m5-conversion-strategy-test",
+      "moment_type": "decision",
+      "quote": "I almost want to do it now because I don't want you to feel like you're just waiting.",
+      "proposition": "When results worsen after a bidding-strategy change, the team chose a bounded test of a duplicated campaign on the earlier click-focused strategy instead of immediately raising the client’s budget; the test was a hypothesis, not proof that the prior strategy would work better.",
+      "context_summary": "In a review of a client’s Google Ads account, the team compared the earlier March 19–April 2 period, when the campaign had six conversions at a reported $40 per conversion, with April, when it had six at $85. The practitioner suspected rising cost per click and lower click volume after a change to maximize conversions might explain the difference, but the excerpt does not establish causation. They duplicated the campaign, switched the new copy to maximize clicks, and planned to compare its performance over the next two weeks; the outcome is not in this passage.",
+      "anchors": [
+        "m5.t0245",
+        "m5.t0257",
+        "m5.t0258",
+        "m5.t0259",
+        "m5.t0261",
+        "m5.t0262",
+        "m5.t0328",
+        "m5.t0329"
+      ],
+      "context_first_span_id": "m5.t0238",
+      "context_last_span_id": "m5.t0329",
+      "individually_strict_valid": false,
+      "error": "Moment quote must match an existing anchor span"
+    },
+    {
+      "position": 7,
+      "local_key": "m5-destination-search-fit",
+      "moment_type": "decision",
+      "quote": "we're not for everyone, and we don't want everyone",
+      "proposition": "A campaign’s apparent lack of direct lead results is not the only consideration: this destination-wedding owner wanted to judge whether a free promotional campaign was attracting the right kind of search interest, and set a short review point before deciding whether to stop it.",
+      "context_summary": "A destination-wedding business owner questioned whether to keep a promotional Performance Max campaign that had not produced leads and was associated in the discussion with irrelevant search terms. After reviewing that the campaign had been cleaned up, the owner proposed giving it one more week, then stopping it if it continued to attract irrelevant searches or no useful leads. The exchange does not provide a final decision or measured result from that week.",
+      "anchors": [
+        "m5.t0688",
+        "m5.t0691",
+        "m5.t0695",
+        "m5.t0696",
+        "m5.t0700",
+        "m5.t0702"
+      ],
+      "context_first_span_id": "m5.t0661",
+      "context_last_span_id": "m5.t0702",
+      "individually_strict_valid": true,
+      "context_turn_count": 42
+    },
+    {
+      "position": 8,
+      "local_key": "m7-nurture-customization",
+      "moment_type": "decision",
+      "quote": "everyone's not consistently using them",
+      "proposition": "When wedding venues use follow-up features unevenly and may not understand what is already in their account, a shared core system can remain distinct from optional workflows that are surfaced and customized for clients who want them.",
+      "context_summary": "The team compared optional LeadLock features seen in some venue accounts, including post-tour surveys, review requests, lost-lead surveys, and a six-month reactivation workflow. Staff said adoption varied and some clients did not know what features were active. The decision was not to make every feature standard for all clients; instead, the team discussed asking clients arriving from other platforms about existing workflows and offering relevant additions selectively.",
+      "anchors": [
+        "m7.t0091",
+        "m7.t0097",
+        "m7.t0098",
+        "m7.t0100",
+        "m7.t0103",
+        "m7.t0112",
+        "m7.t0119",
+        "m7.t0121",
+        "m7.t0124"
+      ],
+      "context_first_span_id": "m7.t0085",
+      "context_last_span_id": "m7.t0130",
+      "individually_strict_valid": true,
+      "context_turn_count": 46
+    },
+    {
+      "position": 9,
+      "local_key": "m7-scope-and-pricing",
+      "moment_type": "tension",
+      "quote": "are they still gonna sign, right? Or are they gonna get sticker shock",
+      "proposition": "When add-on work varies by the copy, scheduler, and pages a venue needs, clearer scope-based pricing could help staff quote consistently; whether to bundle that work upfront or keep it optional remains a commercial trade-off between scope clarity and possible buyer sticker shock.",
+      "context_summary": "The team discussed venues requesting workflows for non-wedding inquiries, which were not included in the initial LeadLock package and could vary in scope depending on whether the client supplied copy or also needed emails, a scheduler, or different thank-you pages. Staff wanted a clearer pricing breakdown to avoid promising a price later. Whitney described a tension between charging more upfront for a broader package and keeping an easier initial offer, with testing on demo calls still under consideration.",
+      "anchors": [
+        "m7.t0197",
+        "m7.t0202",
+        "m7.t0204",
+        "m7.t0206",
+        "m7.t0208",
+        "m7.t0213",
+        "m7.t0225",
+        "m7.t0229",
+        "m7.t0234",
+        "m7.t0238",
+        "m7.t0240"
+      ],
+      "context_first_span_id": "m7.t0197",
+      "context_last_span_id": "m7.t0241",
+      "individually_strict_valid": false,
+      "error": "Moment quote must match an existing anchor span"
+    },
+    {
+      "position": 10,
+      "local_key": "m7-text-follow-up",
+      "moment_type": "mechanism",
+      "quote": "they're much more likely to get that feedback if it comes in a text",
+      "proposition": "For a wedding venue, a relevant text at a tour decision point can do more than remind a couple of the appointment: it can make a cancellation or competing choice an opportunity to invite feedback, while a personal pre-tour message can help establish rapport and reduce arrival uncertainty.",
+      "context_summary": "While discussing venue nurture sequences, a team member described finding conversations in a client’s tour-reminder texts, including cancellations and couples choosing another venue. She said the venue could use that moment to ask for feedback and reported that people seemed more likely to respond by text. Whitney agreed that text follow-up was underused and described a pre-tour message that could include who will meet the couple, a photo, and practical arrival details. The exchange provides practitioner observations and suggestions, not controlled evidence of response lift.",
+      "anchors": [
+        "m7.t0173",
+        "m7.t0176",
+        "m7.t0180",
+        "m7.t0181",
+        "m7.t0188",
+        "m7.t0189",
+        "m7.t0190",
+        "m7.t0191"
+      ],
+      "context_first_span_id": "m7.t0170",
+      "context_last_span_id": "m7.t0196",
+      "individually_strict_valid": true,
+      "context_turn_count": 27
+    },
+    {
+      "position": 11,
+      "local_key": "m8-inclusive-value",
+      "moment_type": "buyer tension",
+      "quote": "they don't really know the value of those things",
+      "proposition": "When an all-inclusive venue is compared with venue-only locations, the headline price alone can obscure the scope difference; a clear item-by-item comparison may help couples assess total work and estimated costs before deciding, rather than asking them to infer the value from the package price.",
+      "context_summary": "A venue owner described a recurring comparison problem: couples see the venue-only fees of nearby alternatives alongside a higher all-inclusive price, but may not yet know what is included or what it would cost to arrange those pieces separately. The owner said she uses follow-up to compare the full package with the work and estimated costs couples would take on elsewhere. The team discussed bringing that comparison onto the ads landing page; the owner said an existing chart was useful but too simplified to communicate enough value. No conversion effect from a revised chart is reported.",
+      "anchors": [
+        "m8.t0146",
+        "m8.t0147",
+        "m8.t0148",
+        "m8.t0151",
+        "m8.t0156",
+        "m8.t0187",
+        "m8.t0188",
+        "m8.t0252",
+        "m8.t0254"
+      ],
+      "context_first_span_id": "m8.t0146",
+      "context_last_span_id": "m8.t0266",
+      "individually_strict_valid": false,
+      "error": "1 validation error for CompactMomentResponse\nmoments.0.moment_type\n  Input should be 'result', 'objection', 'decision', 'tension', 'mechanism', 'observation' or 'story' [type=literal_error, input_value='buyer tension', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/literal_error"
+    },
+    {
+      "position": 12,
+      "local_key": "m8-funnel-specific-creative",
+      "moment_type": "mechanism",
+      "quote": "there are different things that we want to accomplish with those",
+      "proposition": "Different funnel stages call for different creative jobs: introduce the venue to people who do not know it, ask for an inquiry or tour when the objective is direct response, and address choice criteria for people already familiar with it.",
+      "context_summary": "The venue owner asked whether each of three audience layers would use separate creative or the same creative with different targeting. Whitney explained different objectives by stage: repurposed social content to introduce the business to cold audiences, direct-response creative to invite inquiries or tour bookings, and warmer retargeting content to address reasons to choose the venue over alternatives. This is a described strategy, not a report of resulting performance.",
+      "anchors": [
+        "m8.t0283",
+        "m8.t0284",
+        "m8.t0286",
+        "m8.t0287",
+        "m8.t0288",
+        "m8.t0289",
+        "m8.t0291"
+      ],
+      "context_first_span_id": "m8.t0280",
+      "context_last_span_id": "m8.t0291",
+      "individually_strict_valid": true,
+      "context_turn_count": 12
+    },
+    {
+      "position": 13,
+      "local_key": "m9-fragmented-lead-sources",
+      "moment_type": "tension",
+      "quote": "it relies on me remembering and putting that information into Studio Ninja",
+      "proposition": "A CRM does not remove manual lead handling when inquiries arrive through several channels that do not feed into it; the consequential issue for this photographer was remembering to capture and track those conversations, not simply having another place to store contacts.",
+      "context_summary": "A UK wedding photographer described using separate tools for bookings, CRM, and email nurture. Her website form connected to her CRM, but leads from Instagram or TikTok DMs and wedding fairs depended on her manually entering details into the system. She said this made a spreadsheet seem similarly dependent on her memory. Whitney described LeadLock as a way to consolidate lead conversations; the exchange establishes the buyer’s operational problem, not a verified implementation outcome.",
+      "anchors": [
+        "m9.t0028",
+        "m9.t0032",
+        "m9.t0050",
+        "m9.t0051",
+        "m9.t0054",
+        "m9.t0056"
+      ],
+      "context_first_span_id": "m9.t0024",
+      "context_last_span_id": "m9.t0063",
+      "individually_strict_valid": true,
+      "context_turn_count": 40
+    },
+    {
+      "position": 14,
+      "local_key": "m9-buyer-fit-and-ongoing-cost",
+      "moment_type": "objection",
+      "quote": "I think it's the ongoing cost",
+      "proposition": "For this small wedding-photography business, the objection was not primarily the setup work; it was whether the recurring subscription made sense given her size, booking capacity, and existing low-cost or free tools.",
+      "context_summary": "During a LeadLock sales call, Whitney described an onboarding service that included customization and setup, then quoted a one-time $1,297 USD onboarding fee and a $147 USD monthly subscription. The photographer said the setup fee was less concerning than the ongoing cost, comparing it with the £20 per month she currently paid for Studio Ninja; she described herself as a small business taking at most about 20 weddings a year and said she used a free version of MailerLite. She viewed the system positively but thought the recurring cost was probably out of reach. This is one buyer’s reported objection, not a current price or general market conclusion.",
+      "anchors": [
+        "m9.t0168",
+        "m9.t0170",
+        "m9.t0171",
+        "m9.t0173",
+        "m9.t0174",
+        "m9.t0179",
+        "m9.t0182",
+        "m9.t0214",
+        "m9.t0216",
+        "m9.t0219",
+        "m9.t0223",
+        "m9.t0228",
+        "m9.t0234",
+        "m9.t0241",
+        "m9.t0244"
+      ],
+      "context_first_span_id": "m9.t0158",
+      "context_last_span_id": "m9.t0249",
+      "individually_strict_valid": true,
+      "context_turn_count": 92
+    }
+  ],
+  "coverage_notes": [
+    "m2: The meeting mainly covers internal campaign setup and tracking instruction. The camcorder-rental keyword example at m2.t0247–m2.t0256 is not a wedding-business result or sufficiently developed wedding-specific argument, so it was not selected.",
+    "m3: The reported cost-per-lead and budget concerns at m3.t0341–m3.t0355 are part of a wider discussion of Meta leads, price fit, and cold audiences, but do not establish a distinct tested lesson beyond the selected keyword-fit moment. The segment at m3.t0349 refers to 2026, but the packet supplies no date metadata to contextualize it.",
+    "m4: The discussion at m4.t0236–m4.t0267 about venue tours canceling, possible distance concerns, and a planned targeting change is unresolved: the 55% figure is reported without a validated denominator or outcome, and the cause was not settled. The destination-planner landing-page discussion is included only as a bounded page-clarity hypothesis; its client’s ad results and the suggested changes do not establish causation.",
+    "m5: The performance review for a waxing business at m5.t0044–m5.t0329 was not treated as a wedding-business result; the selected campaign test is explicitly qualified as a non-wedding client with no reported test outcome. The destination-wedding discussion at m5.t0500–m5.t0597 contains useful guest-budget, travel-time, and destination-selection observations, but was not selected as an independent moment because the excerpts are exploratory and do not establish frequency or a marketing decision.",
+    "m6: The meeting is mainly operational coordination, billing, access, and task management; no sufficiently developed wedding-business argument was selected. The email-alert discussion at m6.t1106–m6.t1252 concerns internal inbox monitoring rather than a clear reader-level business decision.",
+    "m7: The conversation also covers team handoffs and pricing-guide production. Those topics did not provide a sufficiently bounded reader-level argument beyond the selected optional-workflow and scope-pricing moments.",
+    "m8: The owner’s descriptions of client demographics, planning burden, event size, urban setting, and lodging inform the messaging interview, but are one venue’s reported positioning and buyer context, not independently verified market findings. The selected all-inclusive comparison preserves that case boundary.",
+    "m9: The sales-call explanation of software features is not treated as proof that LeadLock integrations or automations work for this buyer. The buyer’s fit objection is selected as a reported tension; no purchase or outcome is established."
+  ]
+}

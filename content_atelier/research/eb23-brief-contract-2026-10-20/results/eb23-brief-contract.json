@@ -1,0 +1,306 @@
+{
+ "knowledge_base": "backend/knowledge_base/archive/wia-kb-2026-10-18.c-0cb353e4",
+ "wins": {
+  "contract_v3": 4,
+  "eb22_v3_writer": 1,
+  "tie": 0
+ },
+ "cost_usd": 1.2989,
+ "briefs_meeting_the_done_when": 1,
+ "done_when_met": false,
+ "rows": [
+  {
+   "angle": "d4f2db12",
+   "title": "I want to know what made a couple book, as well as what they loved afterward",
+   "repair_calls": 1,
+   "repair": {
+    "used": true,
+    "findings": [
+     "Reel 1's script says \"That's why I recommend asking newly booked couples about their decision, while it's still fresh.\": Whitney did not say why she would ask, or that timing matters because the decision is 'still fresh'. Asking at contract signing is supported; the reason is not.. Remove it, or say only what the call supports",
+     "Carousel slide 5 says \"I'd want to ask while the choice is still fresh:\": The call does not say the couples should be asked while the choice is 'still fresh'. Only sending the survey when someone signs the contract was mentioned.. Remove it, or say only what the call supports"
+    ],
+    "accepted": true
+   },
+   "schema_repair": false,
+   "calls": [
+    "W4-d4f2db12",
+    "V1-d4f2db12",
+    "R4-d4f2db12",
+    "V2-d4f2db12"
+   ],
+   "ledger": {
+    "bound": 0,
+    "supported": 29,
+    "unsupported": 0,
+    "unchecked": 0,
+    "kept_by_person": 0,
+    "sent_to_verifier": 2
+   },
+   "verifier": {
+    "profile": "brief-verification.v1",
+    "model": "anthropic/claude-sonnet-5.5",
+    "status": "run"
+   },
+   "blocking_after": [
+    "The CTA is the writer's proposal; a person confirms it (or no explicit ask) at Gate 2",
+    "Required before-publishing items remain unanswered"
+   ],
+   "copy_checks": {
+    "contract_v3": {
+     "checking_language": 0,
+     "writer_instructions": 0
+    },
+    "eb22_v3_writer": {
+     "checking_language": 0,
+     "writer_instructions": 0
+    }
+   },
+   "eb22_regex_checks": {
+    "contract_v3": {
+     "copy_fields": 26,
+     "copy_words": 1137,
+     "audit_phrases": 0,
+     "instructions_in_copy": 0
+    },
+    "eb22_v3_writer": {
+     "copy_fields": 25,
+     "copy_words": 1040,
+     "audit_phrases": 0,
+     "instructions_in_copy": 0
+    }
+   },
+   "judgements": [
+    {
+     "order": "eb22-c3",
+     "winner": "eb22_v3_writer",
+     "confidence": 3,
+     "edits_needed": {
+      "eb22_v3_writer": 3,
+      "contract_v3": 3
+     },
+     "accuracy_problems": {
+      "eb22_v3_writer": [
+       "Retells the team conversation in every format, so the same sentence repeats across sibling pieces"
+      ],
+      "contract_v3": [
+       "Says \"I recommend\" and \"I recommended\" where the call only shows Whitney proposing an idea to explore, which reads as established advice",
+       "Claims that asking soon after booking captures the decision \"while it's still fresh\", which the call does not support"
+      ]
+     },
+     "reason": null,
+     "truncated": true
+    },
+    {
+     "order": "c3-eb22",
+     "winner": "contract_v3",
+     "confidence": 3,
+     "edits_needed": {
+      "contract_v3": 2,
+      "eb22_v3_writer": 3
+     },
+     "accuracy_problems": {
+      "contract_v3": [
+       "The email says asking 'soon after booking' captures the decision 'while it's still fresh'. The call doesn't say this, so it is a small unsupported claim.",
+       "The brief says Whitney 'recommends' asking couples, but on the call it was a proposal to build LeadLock surveys for ELEVATE clients. The Before publishing list guards against implying it was implemented."
+      ],
+      "eb22_v3_writer": [
+       "The carousel (slide 6) and the caption both say 'which reasons to choose your business to communicate'. The phrase is garbled and unclear.",
+       "The brief offers specific questions to ask couples that Whitney never said on the call. They are framed as recommendations, but they add detail beyond the evidence.",
+       "The Reel has no script, only beats, so the spoken lines still have to be written and could drift from the evidence."
+      ]
+     },
+     "reason": "Both briefs lead with Whitney's own perspective, present the idea as a recommendation rather than something carried out, and stay within the call evidence. A supplies a complete, publishable Reel script and cleaner carousel and email copy, while B gives only beats for the Reel and has an awkward repeated phrase in the carousel and caption, so A should need fewer edits.",
+     "truncated": false
+    }
+   ],
+   "no_more_accuracy_problems": false,
+   "meets_done_when": false
+  },
+  {
+   "angle": "1f79f6d4",
+   "title": "Why Carmen wanted more time and another set of eyes on a venue campaign",
+   "repair_calls": 0,
+   "repair": {
+    "used": false
+   },
+   "schema_repair": false,
+   "calls": [
+    "W4-1f79f6d4",
+    "V1-1f79f6d4"
+   ],
+   "ledger": {
+    "bound": 0,
+    "supported": 42,
+    "unsupported": 0,
+    "unchecked": 0,
+    "kept_by_person": 0,
+    "sent_to_verifier": 91
+   },
+   "verifier": {
+    "profile": "brief-verification.v1",
+    "model": "anthropic/claude-sonnet-5.5",
+    "status": "run"
+   },
+   "blocking_after": [
+    "The CTA is the writer's proposal; a person confirms it (or no explicit ask) at Gate 2",
+    "Required before-publishing items remain unanswered"
+   ],
+   "copy_checks": {
+    "contract_v3": {
+     "checking_language": 0,
+     "writer_instructions": 0
+    },
+    "eb22_v3_writer": {
+     "checking_language": 0,
+     "writer_instructions": 0
+    }
+   },
+   "eb22_regex_checks": {
+    "contract_v3": {
+     "copy_fields": 25,
+     "copy_words": 1118,
+     "audit_phrases": 0,
+     "instructions_in_copy": 0
+    },
+    "eb22_v3_writer": {
+     "copy_fields": 25,
+     "copy_words": 1056,
+     "audit_phrases": 0,
+     "instructions_in_copy": 0
+    }
+   },
+   "judgements": [
+    {
+     "order": "c3-eb22",
+     "winner": "contract_v3",
+     "confidence": 2,
+     "edits_needed": {
+      "contract_v3": 3,
+      "eb22_v3_writer": 3
+     },
+     "accuracy_problems": {
+      "contract_v3": [
+       "Copy omits that the campaign promoted corporate events and speaks of bringing 'more couples' to the venue, which sits badly with the source campaign",
+       "Repeats the 'few seconds signals something's off with the ads' line almost verbatim across the carousel, email and caption, so sibling pieces repeat wording and lean on ads-as-faulty framing"
+      ],
+      "eb22_v3_writer": []
+     },
+     "reason": null,
+     "truncated": true
+    }
+   ],
+   "unparsed": [
+    {
+     "order": "eb22-c3",
+     "reason": "empty reply"
+    }
+   ],
+   "no_more_accuracy_problems": false,
+   "meets_done_when": false
+  },
+  {
+   "angle": "d0e9fbc9",
+   "title": "The time between booking a venue tour and arriving deserves a plan",
+   "repair_calls": 0,
+   "repair": {
+    "used": false
+   },
+   "schema_repair": false,
+   "calls": [
+    "W4-d0e9fbc9",
+    "V1-d0e9fbc9"
+   ],
+   "ledger": {
+    "bound": 0,
+    "supported": 34,
+    "unsupported": 0,
+    "unchecked": 0,
+    "kept_by_person": 0,
+    "sent_to_verifier": 93
+   },
+   "verifier": {
+    "profile": "brief-verification.v1",
+    "model": "anthropic/claude-sonnet-5.5",
+    "status": "run"
+   },
+   "blocking_after": [
+    "The CTA is the writer's proposal; a person confirms it (or no explicit ask) at Gate 2"
+   ],
+   "copy_checks": {
+    "contract_v3": {
+     "checking_language": 0,
+     "writer_instructions": 0
+    },
+    "eb22_v3_writer": {
+     "checking_language": 0,
+     "writer_instructions": 0
+    }
+   },
+   "eb22_regex_checks": {
+    "contract_v3": {
+     "copy_fields": 26,
+     "copy_words": 1249,
+     "audit_phrases": 0,
+     "instructions_in_copy": 1
+    },
+    "eb22_v3_writer": {
+     "copy_fields": 25,
+     "copy_words": 1148,
+     "audit_phrases": 0,
+     "instructions_in_copy": 1
+    }
+   },
+   "judgements": [
+    {
+     "order": "eb22-c3",
+     "winner": "contract_v3",
+     "confidence": 4,
+     "edits_needed": {
+      "eb22_v3_writer": 4,
+      "contract_v3": 3
+     },
+     "accuracy_problems": {
+      "eb22_v3_writer": [
+       "Reel is only a bullet outline, not a recordable script, so the planned format is not usable as written",
+       "Heavy 'we'd consider / we'd look at' hedging blurs which items are recommendations and which are WIA's view",
+       "Does not flag that this argument already appears in recently approved briefs, so it risks repeating a point published in the last 90 days",
+       "'The venue owner helped frame the discussion' is vague and gives the audience no content"
+      ],
+      "contract_v3": [
+       "Repeats an argument already covered in a recent approved brief; it flags this but the central point may still fall inside the 90-day window",
+       "Retells the call heavily in the Reel and email instead of staying with WIA's own perspective",
+       "'The discussion brought the tour calendar into our thinking' is an awkward, unsupported line, though it stays within the evidence"
+      ]
+     },
+     "reason": "B gives a finished Reel script, states WIA's stance directly ('We recommend', 'That's how we approach nurture'), and credits the recommendations correctly as proposals, so it needs fewer edits. A's Reel is only an outline, its copy is full of hedged 'we'd consider' phrasing, and it spends more of its length retelling the call.",
+     "truncated": false
+    },
+    {
+     "order": "c3-eb22",
+     "winner": "contract_v3",
+     "confidence": 4,
+     "edits_needed": {
+      "contract_v3": 2,
+      "eb22_v3_writer": 3
+     },
+     "accuracy_problems": {
+      "contract_v3": [
+       "Reel and email retell the call scene ('We were talking about venue follow-up, and our team proposed...') more than they lead with WIA's own belief",
+       "Reel is likely spoken by Whitney but refers to 'Whitney suggested' in the third person",
+       "Supporting example line about the discussion bringing 'the tour calendar into our thinking' is vague and reads like a note rather than evidence"
+      ],
+      "eb22_v3_writer": [
+       "Reel has only bullet points and no script, so it can't be recorded as planned",
+       "Supporting example says 'The venue owner helped frame the discussion', which the evidence doesn't clearly support",
+       "Heavy 'we'd consider / we'd give some thought' hedging makes WIA's perspective vague, and the Reel opens on the call recap"
+      ]
+     },
+     "reason": "Both briefs keep the recommendations as proposals and credit Whitney and 'our team' correctly. A supplies a complete Reel script, a fuller carousel and finished caption and email copy in Whitney's voice, while B leaves the Reel as an outline, includes an unsupported owner-framing claim and hedges more. B's reply CTA is slightly stronger, but that doesn't outweigh the missing Reel script.",
+     "truncated": false
+    }
+   ],
+   "no_more_accuracy_problems": true,
+   "meets_done_when": true
+  }
+ ]
+}

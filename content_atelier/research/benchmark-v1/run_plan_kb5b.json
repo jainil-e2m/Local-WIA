@@ -1,0 +1,20 @@
+{
+  "plan_id": "plan_5a1fbf8089594330837e",
+  "purpose": "L.B4/E.B3: the rest of the identity smoke run of wia-kb-2026-10-19.c-0b931261 (5 samples left after a provider 502 under run_plan_kb5.json)",
+  "stages": [
+    "evaluation"
+  ],
+  "models": [
+    "openai/gpt-6.1-sol"
+  ],
+  "input_set_hash": "*",
+  "max_calls": 7,
+  "max_cost_usd": 0.9,
+  "approver": "kenil.shah@e2m.solutions",
+  "approved_at": "2026-10-19T02:34:05.934306+00:00",
+  "expires_at": "2026-10-19T08:34:05.934306+00:00",
+  "status": "active",
+  "calls_used": 6,
+  "cost_used_usd": 0.4459991,
+  "details": {}
+}

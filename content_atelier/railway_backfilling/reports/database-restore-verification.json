@@ -1,0 +1,101 @@
+{
+  "status": "passed",
+  "database": "atelier",
+  "tables": [
+    {
+      "schema": "public",
+      "table": "angle_moments",
+      "expected_rows": 13,
+      "restored_rows": 13,
+      "matches": true
+    },
+    {
+      "schema": "public",
+      "table": "calendar_entries",
+      "expected_rows": 0,
+      "restored_rows": 0,
+      "matches": true
+    },
+    {
+      "schema": "public",
+      "table": "content_angles",
+      "expected_rows": 13,
+      "restored_rows": 13,
+      "matches": true
+    },
+    {
+      "schema": "public",
+      "table": "content_assets",
+      "expected_rows": 0,
+      "restored_rows": 0,
+      "matches": true
+    },
+    {
+      "schema": "public",
+      "table": "content_briefs",
+      "expected_rows": 2,
+      "restored_rows": 2,
+      "matches": true
+    },
+    {
+      "schema": "public",
+      "table": "content_packs",
+      "expected_rows": 0,
+      "restored_rows": 0,
+      "matches": true
+    },
+    {
+      "schema": "public",
+      "table": "key_moments",
+      "expected_rows": 14,
+      "restored_rows": 14,
+      "matches": true
+    },
+    {
+      "schema": "public",
+      "table": "pipeline_events",
+      "expected_rows": 367,
+      "restored_rows": 367,
+      "matches": true
+    },
+    {
+      "schema": "public",
+      "table": "pipeline_jobs",
+      "expected_rows": 92,
+      "restored_rows": 92,
+      "matches": true
+    },
+    {
+      "schema": "public",
+      "table": "pipeline_runs",
+      "expected_rows": 49,
+      "restored_rows": 49,
+      "matches": true
+    },
+    {
+      "schema": "public",
+      "table": "transcript_chunks",
+      "expected_rows": 2657,
+      "restored_rows": 2657,
+      "matches": true
+    },
+    {
+      "schema": "public",
+      "table": "transcripts",
+      "expected_rows": 170,
+      "restored_rows": 170,
+      "matches": true
+    },
+    {
+      "schema": "public",
+      "table": "weeks",
+      "expected_rows": 20,
+      "restored_rows": 20,
+      "matches": true
+    }
+  ],
+  "chunk_embeddings": 2657,
+  "all_table_counts_match": true,
+  "source_database_unchanged": true,
+  "restore_target": "temporary isolated helper container, separate database"
+}

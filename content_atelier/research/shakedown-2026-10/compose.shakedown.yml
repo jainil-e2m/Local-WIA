@@ -1,0 +1,95 @@
+# Phase N1, the free-model shakedown (plan section 5.0c): the repository's own stack (backend/compose.yml, the production
+# order of processes and the production images) on a scratch copy of the working data, plus the Atelier Frontend image built
+# with no argument (backend mode) and Command Center's own image as the sign-in it relays to. Nothing here is a new
+# component: the only shakedown-specific inputs are the database name, the key and the settings applied to that database
+# (backend/deploy/shakedown-settings.json, which names the free models).
+#
+#   cd backend
+#   SHAKEDOWN_OPENROUTER_KEY=... docker compose -p atelier-shakedown -f compose.yml \
+#       -f ../research/shakedown-2026-10/compose.shakedown.yml up -d --build
+#
+# The workers follow Railway's split (editorial-worker on interactive and default, bulk-worker on bulk).
+# Differences from production, each for the local machine only: the artifact store is a folder (production: the bucket);
+# Command Center runs with AUTH_DISABLED=1 (as production does until the owner's auth layer, S.C1); the Atelier Frontend runs
+# with NODE_ENV=development, because over plain http on localhost production mode expects an https origin on every write.
+x-shakedown-env: &shakedown-env
+  # Phase N2 runs the same stack on the working copy: STACK_DATABASE_URL names atelier_work, SHAKEDOWN_ARTIFACTS_DIR its folder.
+  ATELIER_DATABASE_URL: ${STACK_DATABASE_URL:-postgresql://atelier:atelier_local_only@postgres:5432/atelier_shakedown}
+  ATELIER_ARTIFACT_ROOT: /artifacts
+  OPENROUTER_API_KEY: ${SHAKEDOWN_OPENROUTER_KEY:?set SHAKEDOWN_OPENROUTER_KEY}
+  EMBEDDING_API_KEY: ${SHAKEDOWN_OPENROUTER_KEY}
+  CONTENT_ATELIER_LIVE: "true"
+  CONTENT_ATELIER_EMBEDDINGS_ENABLED: "true"
+  ATELIER_ALLOW_GENERATION: "true"
+  ATELIER_ALLOW_ENCODING: "true"
+  ATELIER_ALLOW_REFINEMENT: "true"
+  ATELIER_ALLOW_BRIEF_GENERATION: "true"
+  ATELIER_API_SECRET: shakedown-local-secret
+  ATELIER_BRIEF_APPROVERS: kenil.shah@e2m.solutions
+  ATELIER_BRIEF_EDITORS: kenil.shah@e2m.solutions
+  ATELIER_INTAKE_ADMINS: kenil.shah@e2m.solutions
+
+services:
+  migrate:
+    environment: *shakedown-env
+    volumes: &shakedown-volumes
+      - ${SHAKEDOWN_ARTIFACTS_DIR:-../../atelier-work/shakedown-artifacts}:/artifacts
+      - ./knowledge_base:/app/knowledge_base:ro
+  api:
+    environment: *shakedown-env
+    volumes: *shakedown-volumes
+  scheduler:
+    environment: *shakedown-env
+    volumes: *shakedown-volumes
+  # Railway's split (DEPLOYMENT.md): editorial-worker takes interactive and default, bulk-worker takes bulk.
+  editorial-worker:
+    command: [python, -m, backend_pipeline.jobs, worker, --queues, "interactive,default"]
+    environment: *shakedown-env
+    volumes: *shakedown-volumes
+  bulk-worker:
+    extends:
+      file: compose.yml
+      service: editorial-worker
+    command: [python, -m, backend_pipeline.jobs, worker, --queues, bulk]
+    environment: *shakedown-env
+    volumes: *shakedown-volumes
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+      redis:
+        condition: service_healthy
+  intake-worker:
+    environment: *shakedown-env
+    volumes: *shakedown-volumes
+  media-worker:
+    environment: *shakedown-env
+    volumes: *shakedown-volumes
+    profiles: [media]
+
+  command-center:
+    build:
+      context: ../../WIA-Command-Center
+    image: wia-command-center:shakedown
+    environment:
+      PORT: "8080"
+      AUTH_DISABLED: "1"
+      VITE_CONTENT_ATELIER_URL: http://localhost:18080
+    ports:
+      - "127.0.0.1:18090:8080"
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ../frontend
+    image: content-atelier-frontend:shakedown
+    environment:
+      PORT: "8080"
+      NODE_ENV: development
+      COMMAND_CENTER_AUTH_ORIGIN: http://command-center:8080
+      COMMAND_CENTER_PUBLIC_ORIGIN: http://localhost:18090
+      ATELIER_BACKEND_ORIGIN: http://api:8000
+      ATELIER_API_SECRET: shakedown-local-secret
+    ports:
+      - "127.0.0.1:18080:8080"
+    depends_on: [api, command-center]
+    restart: unless-stopped

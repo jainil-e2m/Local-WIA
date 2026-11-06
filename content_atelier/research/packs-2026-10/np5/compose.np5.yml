@@ -1,0 +1,90 @@
+# Phase NP, NP-5 (the content-packs plan, section 7): N1's stack (research/shakedown-2026-10/compose.shakedown.yml, the
+# production images in backend mode with every worker of the production order) on the scratch copies restored from
+# production's nightly dump of 24 October: copy A (atelier_np_a, the free-model shakedown, NP.X1) and copy B (atelier_np_b,
+# the paid proof, NP.X3). The only difference from N1's file is the pack's live switch, ATELIER_ALLOW_PACK_GENERATION=true.
+#
+#   cd backend
+#   STACK_DATABASE_URL=postgresql://atelier:atelier_local_only@postgres:5432/atelier_np_a #   SHAKEDOWN_ARTIFACTS_DIR=../../atelier-work/np-artifacts-a SHAKEDOWN_OPENROUTER_KEY=... #   docker compose -p atelier-shakedown -f compose.yml -f ../research/packs-2026-10/np5/compose.np5.yml up -d --build
+#
+x-shakedown-env: &shakedown-env
+  # Phase N2 runs the same stack on the working copy: STACK_DATABASE_URL names atelier_work, SHAKEDOWN_ARTIFACTS_DIR its folder.
+  ATELIER_DATABASE_URL: ${STACK_DATABASE_URL:-postgresql://atelier:atelier_local_only@postgres:5432/atelier_shakedown}
+  ATELIER_ARTIFACT_ROOT: /artifacts
+  OPENROUTER_API_KEY: ${SHAKEDOWN_OPENROUTER_KEY:?set SHAKEDOWN_OPENROUTER_KEY}
+  EMBEDDING_API_KEY: ${SHAKEDOWN_OPENROUTER_KEY}
+  CONTENT_ATELIER_LIVE: "true"
+  CONTENT_ATELIER_EMBEDDINGS_ENABLED: "true"
+  ATELIER_ALLOW_GENERATION: "true"
+  ATELIER_ALLOW_ENCODING: "true"
+  ATELIER_ALLOW_REFINEMENT: "true"
+  ATELIER_ALLOW_BRIEF_GENERATION: "true"
+  ATELIER_ALLOW_PACK_GENERATION: "true"
+  ATELIER_API_SECRET: shakedown-local-secret
+  ATELIER_BRIEF_APPROVERS: kenil.shah@e2m.solutions
+  ATELIER_BRIEF_EDITORS: kenil.shah@e2m.solutions
+  ATELIER_INTAKE_ADMINS: kenil.shah@e2m.solutions
+
+services:
+  migrate:
+    environment: *shakedown-env
+    volumes: &shakedown-volumes
+      - ${SHAKEDOWN_ARTIFACTS_DIR:-../../atelier-work/shakedown-artifacts}:/artifacts
+      - ./knowledge_base:/app/knowledge_base:ro
+  api:
+    environment: *shakedown-env
+    volumes: *shakedown-volumes
+  scheduler:
+    environment: *shakedown-env
+    volumes: *shakedown-volumes
+  # Railway's split (DEPLOYMENT.md): editorial-worker takes interactive and default, bulk-worker takes bulk.
+  editorial-worker:
+    command: [python, -m, backend_pipeline.jobs, worker, --queues, "interactive,default"]
+    environment: *shakedown-env
+    volumes: *shakedown-volumes
+  bulk-worker:
+    extends:
+      file: compose.yml
+      service: editorial-worker
+    command: [python, -m, backend_pipeline.jobs, worker, --queues, bulk]
+    environment: *shakedown-env
+    volumes: *shakedown-volumes
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+      redis:
+        condition: service_healthy
+  intake-worker:
+    environment: *shakedown-env
+    volumes: *shakedown-volumes
+  media-worker:
+    environment: *shakedown-env
+    volumes: *shakedown-volumes
+    profiles: [media]
+
+  command-center:
+    build:
+      context: ../../WIA-Command-Center
+    image: wia-command-center:shakedown
+    environment:
+      PORT: "8080"
+      AUTH_DISABLED: "1"
+      VITE_CONTENT_ATELIER_URL: http://localhost:18080
+    ports:
+      - "127.0.0.1:18090:8080"
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ../frontend
+    image: content-atelier-frontend:shakedown
+    environment:
+      PORT: "8080"
+      NODE_ENV: development
+      COMMAND_CENTER_AUTH_ORIGIN: http://command-center:8080
+      COMMAND_CENTER_PUBLIC_ORIGIN: http://localhost:18090
+      ATELIER_BACKEND_ORIGIN: http://api:8000
+      ATELIER_API_SECRET: shakedown-local-secret
+    ports:
+      - "127.0.0.1:18080:8080"
+    depends_on: [api, command-center]
+    restart: unless-stopped

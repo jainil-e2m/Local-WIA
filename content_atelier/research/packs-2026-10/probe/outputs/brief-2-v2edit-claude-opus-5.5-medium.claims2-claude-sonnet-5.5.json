@@ -1,0 +1,212 @@
+{
+ "statements": [
+  {
+   "piece": "email",
+   "text": "We'd sent one of our clients a few new Meta ads to review",
+   "verdict": "supported",
+   "source": "ev_3659b8ec1f3cc723895135fb",
+   "why": "Whitney says a few ad creatives were sent for review on the Meta side."
+  },
+  {
+   "piece": "email",
+   "text": "when we got on a call together, he was honest with me about them.",
+   "verdict": "supported",
+   "source": "ev_a4d08605e8691f0838a00c45",
+   "why": "The client candidly shared his reaction on the call."
+  },
+  {
+   "piece": "email",
+   "text": "He hadn't finished going through them yet.",
+   "verdict": "supported",
+   "source": "ev_ad3187ffacb3f12091e39671",
+   "why": "The client said 'not yet to kind of finalize anything'. The example also says his review was unfinished."
+  },
+  {
+   "piece": "email",
+   "text": "But his first read was that he wasn't sure he loved them.",
+   "verdict": "supported",
+   "source": "ev_a4d08605e8691f0838a00c45",
+   "why": "Matches 'I don't think that I love them', kept tentative."
+  },
+  {
+   "piece": "email",
+   "text": "I told him that if there were specific tweaks or edits he wanted to see, he should let us know.",
+   "verdict": "supported",
+   "source": "ev_a8d1d65a3f03e28c532a7ff0",
+   "why": "Paraphrases Whitney's words."
+  },
+  {
+   "piece": "email",
+   "text": "\"If you decide you don't want to use them at all, no hard feelings there as well.\"",
+   "verdict": "supported",
+   "source": "ev_d8cb0ca04f5c1fc2bd589a0f",
+   "why": "Matches the quote with only the filler word 'like' dropped."
+  },
+  {
+   "piece": "email",
+   "text": "Editing those ads was one option. Leaving them unused was another, and just as acceptable.",
+   "verdict": "supported",
+   "source": "Claim: Choosing not to move ahead with those particular drafts was also an option.",
+   "why": "Same meaning as the brief's claims."
+  },
+  {
+   "piece": "reel_1",
+   "text": "I was on a call with one of our clients, and we got to the new Meta ads our team had sent over for his review.",
+   "verdict": "supported",
+   "source": "ev_3659b8ec1f3cc723895135fb",
+   "why": "Our team made and sent the ads for his review."
+  },
+  {
+   "piece": "reel_1",
+   "text": "He said he couldn't even remember exactly what they were, but he didn't think he loved them. And he hadn't finalized anything yet.",
+   "verdict": "supported",
+   "source": "ev_a4d08605e8691f0838a00c45; ev_ad3187ffacb3f12091e39671",
+   "why": "Close paraphrase of the client's words, same certainty."
+  },
+  {
+   "piece": "reel_1",
+   "text": "If there's anything you'd want changed, just tell us. And if you'd rather not run those ads at all, that's completely fine. No hard feelings.",
+   "verdict": "supported",
+   "source": "ev_a8d1d65a3f03e28c532a7ff0; ev_d8cb0ca04f5c1fc2bd589a0f",
+   "why": "Matches what Whitney offered."
+  },
+  {
+   "piece": "reel_1",
+   "text": "Our team put real work into those ads, but that doesn't mean he owes us an approval.",
+   "verdict": "supported",
+   "source": "Claims: We've done the work; That doesn't mean you owe us an approval.",
+   "why": "Stated in the brief's claims."
+  },
+  {
+   "piece": "reel_1",
+   "text": "A client was candid with me about a few new Meta ads we'd sent him. He hadn't finished reviewing them, and his early read was lukewarm.",
+   "verdict": "supported",
+   "source": "Supporting example details",
+   "why": "The reaction was tentative and the review unfinished."
+  },
+  {
+   "piece": "reel_1",
+   "text": "I asked him to send any changes he wanted, and I made sure he knew that passing on them completely was fine too.",
+   "verdict": "supported",
+   "source": "ev_a8d1d65a3f03e28c532a7ff0; ev_d8cb0ca04f5c1fc2bd589a0f",
+   "why": "Whitney invited edits and allowed non-use."
+  },
+  {
+   "piece": "reel_1",
+   "text": "Making the ad didn't earn us his approval.",
+   "verdict": "supported",
+   "source": "Claim: Approval still wasn't an obligation.",
+   "why": "Matches the brief."
+  },
+  {
+   "piece": "reel_2",
+   "text": "So when our team sends you new ads to look at, you've got real options. If you want specific changes, tell us. And if you'd rather we not use those ads at all, that's okay too.",
+   "verdict": "supported",
+   "source": "Claim: When we send new ads for review, there are a couple of options.",
+   "why": "Matches the brief's claims."
+  },
+  {
+   "piece": "reel_2",
+   "text": "I said almost exactly that to a client who wasn't sure about a new set of ads and hadn't finished looking at them yet. Edits were welcome, and so was skipping those ads.",
+   "verdict": "supported",
+   "source": "Supporting example",
+   "why": "Matches the example and evidence."
+  },
+  {
+   "piece": "reel_2",
+   "text": "I'm proud of the work our team puts into every ad.",
+   "verdict": "unsupported",
+   "source": "none",
+   "why": "Adds a feeling and an 'every ad' scope the sources do not give."
+  },
+  {
+   "piece": "reel_2",
+   "text": "I said that to a client who was still deciding about a new set of ads and had his doubts. Either answer was welcome.",
+   "verdict": "supported",
+   "source": "Supporting example; ev_a8d1d65a3f03e28c532a7ff0",
+   "why": "Matches the example."
+  },
+  {
+   "piece": "reel_3",
+   "text": "We sent a client new Meta ads to review. He wasn't convinced, and he hadn't finished looking.",
+   "verdict": "supported",
+   "source": "Supporting example details",
+   "why": "A tentative reaction with the review unfinished."
+  },
+  {
+   "piece": "reel_3",
+   "text": "I told him he could ask for edits, or pass on those ads entirely, with no hard feelings.",
+   "verdict": "supported",
+   "source": "Claim: I invited specific changes; So was choosing not to use those particular ads.",
+   "why": "Matches Whitney's words."
+  },
+  {
+   "piece": "reel_3",
+   "text": "The work was already done. Approving it was still his call.",
+   "verdict": "supported",
+   "source": "Claims: The work was already done; New ads we'd made were still a choice.",
+   "why": "Matches the brief."
+  },
+  {
+   "piece": "reel_3",
+   "text": "When a client was still on the fence about a few new Meta ads, I welcomed any edits he wanted. I also told him he could leave those ads unused.",
+   "verdict": "supported",
+   "source": "ev_a8d1d65a3f03e28c532a7ff0; ev_d8cb0ca04f5c1fc2bd589a0f",
+   "why": "Matches the evidence."
+  },
+  {
+   "piece": "carousel",
+   "text": "Our team made a few new Meta ads for a client and sent them over for his review.",
+   "verdict": "supported",
+   "source": "ev_3659b8ec1f3cc723895135fb",
+   "why": "Matches the credits."
+  },
+  {
+   "piece": "carousel",
+   "text": "\"I don't necessarily remember what they were, but I don't think that I love them.\"",
+   "verdict": "supported",
+   "source": "ev_a4d08605e8691f0838a00c45",
+   "why": "The quote is word for word."
+  },
+  {
+   "piece": "carousel",
+   "text": "He'd even emailed back that he'd look at them another time.",
+   "verdict": "unsupported",
+   "source": "ev_8869e1b584e8109a9807e696",
+   "why": "The client said 'I think I emailed you back', which is hedged. The pack states it as certain fact."
+  },
+  {
+   "piece": "carousel",
+   "text": "So this wasn't a final answer. It was a first, honest reaction.",
+   "verdict": "supported",
+   "source": "Supporting example details",
+   "why": "The reaction was tentative, not a completed rejection."
+  },
+  {
+   "piece": "carousel",
+   "text": "Here's how Whitney responded. Any edits he'd like to see? Let us know. Decide not to use them at all? No hard feelings. Both answers were genuinely on the table.",
+   "verdict": "supported",
+   "source": "ev_a8d1d65a3f03e28c532a7ff0; ev_d8cb0ca04f5c1fc2bd589a0f",
+   "why": "Matches Whitney's words."
+  },
+  {
+   "piece": "carousel",
+   "text": "Maybe you want us managing your ads. Maybe you want us to launch your campaigns and guide you while you run them.",
+   "verdict": "supported",
+   "source": "offer_descriptors",
+   "why": "Matches the approved ELEVATE and Accelerators descriptors."
+  },
+  {
+   "piece": "carousel",
+   "text": "before he'd even finished his review, he told Whitney he had his doubts about them. She asked for any edits he had in mind and made it clear he didn't have to use them at all.",
+   "verdict": "supported",
+   "source": "Supporting example",
+   "why": "Matches the example."
+  }
+ ],
+ "summary": {
+  "supported": 28,
+  "unsupported": 2,
+  "guardrail": 0
+ }
+}

@@ -1,0 +1,43 @@
+{
+  "purpose": "NP.X3's readings and NP-6: the WIA team's delegated review (R55, D12) of the three packs on production. The blind reading preferred the pack copy on 16 of 16 pairs but found it less faithful in one clause of two pieces, and one clause of brief 1's written stance Reel says a planned review happened. Section 7.3's rule would ship briefs 1 and 2 in missing_only, losing eight preferred pieces to two clauses; under D12 the team edits those clauses instead, so no shipped piece is less faithful than the brief. Briefs 1 and 2 on production replayed the proof byte for byte, so the same three edits apply. Brief 3 on production was finished again live under v2 (the proof's v2 answers were saved under the edited wire schema, PR #18); its pack has no open finding, and the agent's reading found one certainty its check let through ('Only the client's team could explain'), the line scratch copy B's check repaired, so the team edits it. Style suggestions from the reading are left for WIA. (On scratch copy B the fourth step attested the open finding of copy B's own v2 pack: review-copyB.json.)",
+  "name": "production",
+  "actor": "ai@weddingindustryads.com",
+  "steps": [
+    {
+      "label": "brief 1 carousel caption: one page, not a universal protocol (blind reading, pair 2)",
+      "brief_id": "brief_579f970d9210bc9be2cfbfde",
+      "action": "edit",
+      "key": "carousel",
+      "path": "caption.ending",
+      "old": "We hold every page we build to that standard before recommending it replace anything a client already has.",
+      "new": "We held the page we built to that standard before recommending it replace anything the client already had."
+    },
+    {
+      "label": "brief 1 stance Reel caption: the second review is planned, not done (blind reading, stance)",
+      "brief_id": "brief_579f970d9210bc9be2cfbfde",
+      "action": "edit",
+      "key": "reel_2",
+      "path": "caption.body",
+      "old": "We also planned updates to our page before it went back to them for review.",
+      "new": "We also planned updates to our page, to send back to them for another review."
+    },
+    {
+      "label": "brief 2 carousel caption: no suggestion the ads were poor (blind reading, pair 6; P5 keeps it out)",
+      "brief_id": "brief_b2ad696069930da13b4e2c4d",
+      "action": "edit",
+      "key": "carousel",
+      "path": "caption.body",
+      "old": "A client recently had that kind of reaction to some new ads from us. They weren't sure they loved them, and they hadn't finished their review.",
+      "new": "A client recently told us they weren't sure they loved some new ads we'd made, and that they hadn't finished their review."
+    },
+    {
+      "label": "brief 3 stance Reel caption: no certainty the call does not give (the agent's reading; copy B's check repaired the same line)",
+      "brief_id": "brief_57502d2280064c9564925d56",
+      "action": "edit",
+      "key": "reel_2",
+      "path": "caption.body",
+      "old": "Only the client's team could explain how each one related to the couples they talk with.",
+      "new": "The client's team explained how each one related to the couples they talk with."
+    }
+  ]
+}

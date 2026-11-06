@@ -1,0 +1,26 @@
+{
+  "candidate": "2026-10-15.wia-angle-opportunity-evidence-v2-candidate",
+  "schema_source": "Forensic Angle Generation report Part E3",
+  "checks": {
+    "All 21 required angle fields explicitly named in user template": true,
+    "All six required quality fields named": true,
+    "All four root fields named": true,
+    "All internal fields named": true,
+    "All twelve content type enums named": true,
+    "All strategic purpose enums named": true,
+    "All evidence readiness enums named": true,
+    "Markers each appear once": true,
+    "Correct marker order": true,
+    "Placeholder spelling and count": true,
+    "Both placeholders after moment-pool split": true,
+    "Angle and quality field guidance before SQL refinement split": true,
+    "Initial-generation root envelope after refinement split, before pool": true,
+    "Comparison split retains angle and coverage guidance": true,
+    "Template render with current builder regex": true,
+    "Comparison prefix excludes runtime moment packet": true,
+    "Refinement prefix excludes initial output envelope": true
+  },
+  "system_sha256": "3cf960bf65731beafc47ea79099b83ef0f1c3ba18fa89e2dda4386933b0f9415",
+  "user_sha256": "dd7bb005807ee1fc654a2bfae524b5ad8b0b7409d37223767275bbc9df7de0ea",
+  "notes": "Static checks only. No application or provider execution."
+}

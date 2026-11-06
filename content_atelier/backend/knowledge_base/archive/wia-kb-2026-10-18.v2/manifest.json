@@ -1,0 +1,334 @@
+{
+  "knowledge_base_version": "wia-kb-2026-10-18.v2",
+  "format": 2,
+  "documents": [
+    {
+      "key": "content_strategy",
+      "file": "01-content-strategy.md",
+      "heading": "Document 1: WIA content strategy, by Savannah Jordan (WIA's external marketing consultant, not staff)",
+      "version": "wia-kb-2026-10-18.v2",
+      "owner": "Savannah Jordan for WIA",
+      "status": "supplied",
+      "effective_date": "2026-10-18",
+      "review_interval_days": 90,
+      "stages": [
+        "strategist",
+        "brief"
+      ],
+      "provenance": {
+        "source": "Strategy from Savannah.docx; model commentary removed (E.B11 a); rulings R-6, R-7, R-8, R-10 supersede its referral, DIY, pain-led and cadence lines",
+        "author": "WIA (Savannah Jordan)",
+        "model_written": false,
+        "derived_from_weeks": []
+      }
+    },
+    {
+      "key": "founder_voice_guide",
+      "file": "02-founder-voice-guide.md",
+      "heading": "Document 2: Whitney Hodges, Founder Voice Guide v2.0 (derived guidance)",
+      "version": "wia-kb-2026-10-18.v2",
+      "owner": "Whitney Hodges (co-founder)",
+      "status": "supplied",
+      "effective_date": "2026-10-18",
+      "review_interval_days": 90,
+      "stages": [
+        "strategist",
+        "brief"
+      ],
+      "provenance": {
+        "source": "Whitney _ Founder Voice Guide.docx, written by ChatGPT on 8 July 2026 from Whitney's corpus of 4 Reels and 17 emails; its closing note to Whitney removed and the 17-to-90 misquote corrected (E.B11 a, R-12)",
+        "author": "model, from Whitney's corpus",
+        "model_written": true,
+        "derived_from_weeks": []
+      }
+    },
+    {
+      "key": "accelerator_strategy",
+      "file": "03-accelerator-strategy.md",
+      "heading": "Document 3: Savannah Jordan's Tier 1 Accelerator workbook, filled in by WIA about itself (ideal client, buying behaviour, objections, content topics, behind-the-scenes processes, founder story). This is Savannah's coaching programme, not WIA's own Ads Accelerators.",
+      "version": "wia-kb-2026-10-18.v2",
+      "owner": "WIA",
+      "status": "supplied",
+      "effective_date": "2026-10-18",
+      "review_interval_days": 90,
+      "stages": [
+        "strategist",
+        "brief"
+      ],
+      "provenance": {
+        "source": "Wedding Industry Ads _ Tier 1 Accelerator Strategy Doc.docx, relevant sections; the docx's buyer-type section is a checklist of completed training modules with no finding text, so there was nothing to restore",
+        "author": "WIA",
+        "model_written": false,
+        "derived_from_weeks": []
+      }
+    },
+    {
+      "key": "team_roster",
+      "file": "04-team-roster.md",
+      "heading": "WIA team roster (who works for WIA, former staff, people often named who are not staff)",
+      "version": "wia-kb-2026-10-18.v2",
+      "owner": "WIA",
+      "status": "confirmed",
+      "effective_date": "2026-10-14",
+      "review_interval_days": 30,
+      "stages": [
+        "strategist",
+        "brief",
+        "verifier",
+        "extraction"
+      ],
+      "provenance": {
+        "source": "WIA rulings 2026-10-18 section 2.1; kb-candidates/roster-corrections.md",
+        "author": "WIA (rulings, from dated export evidence)",
+        "model_written": false,
+        "derived_from_weeks": []
+      },
+      "approver": "project owner under WIA's delegation, 18 October 2026 (backend/docs/WIA-Rulings-2026-10-18.md)"
+    },
+    {
+      "key": "offer_sheet",
+      "file": "05-offer-sheet.md",
+      "heading": "WIA offers as of 14 October 2026 (who does what, how buyers reach each offer; no prices in public content)",
+      "version": "wia-kb-2026-10-18.v2",
+      "owner": "WIA",
+      "status": "confirmed",
+      "effective_date": "2026-10-14",
+      "review_interval_days": 30,
+      "stages": [
+        "strategist",
+        "brief",
+        "verifier"
+      ],
+      "provenance": {
+        "source": "WIA rulings 2026-10-18 section 2.2; kb-candidates/offer-facts.md",
+        "author": "WIA (rulings, from dated export evidence)",
+        "model_written": false,
+        "derived_from_weeks": []
+      },
+      "approver": "project owner under WIA's delegation, 18 October 2026 (backend/docs/WIA-Rulings-2026-10-18.md)"
+    },
+    {
+      "key": "rejection_rules",
+      "file": "06-rejection-rules.md",
+      "heading": "Rejection rules (WIA's bans and flags, with origin, date, author and scope; they win over every other document)",
+      "version": "wia-kb-2026-10-18.v2",
+      "owner": "WIA",
+      "status": "confirmed",
+      "effective_date": "2026-10-14",
+      "review_interval_days": 60,
+      "stages": [
+        "strategist",
+        "brief",
+        "verifier"
+      ],
+      "provenance": {
+        "source": "WIA rulings 2026-10-18 section 2.3; kb-candidates/rejection-rules.md; synthesis section 3; analysis 7.3",
+        "author": "Whitney and team, as marked per rule",
+        "model_written": false,
+        "derived_from_weeks": []
+      },
+      "approver": "project owner under WIA's delegation, 18 October 2026 (backend/docs/WIA-Rulings-2026-10-18.md)"
+    },
+    {
+      "key": "process_catalogue",
+      "file": "07-process-catalogue.md",
+      "heading": "WIA's process catalogue (named methods, who does them, what each shows about WIA)",
+      "version": "wia-kb-2026-10-18.v2",
+      "owner": "WIA",
+      "status": "draft",
+      "effective_date": "2026-10-14",
+      "review_interval_days": 90,
+      "stages": [
+        "strategist",
+        "brief",
+        "extraction"
+      ],
+      "provenance": {
+        "source": "kb-candidates/process-catalogue.md; synthesis 4.3; KB 03; WIA's own trainings win over the 25 August 2026 ChatGPT playbooks",
+        "author": "WIA",
+        "model_written": false,
+        "derived_from_weeks": []
+      }
+    },
+    {
+      "key": "content_workflow",
+      "file": "08-content-workflow.md",
+      "heading": "How WIA makes content (one asset into a set, reuse, hooks, CTA posts, weekly volume and channels)",
+      "version": "wia-kb-2026-10-18.v2",
+      "owner": "WIA",
+      "status": "draft",
+      "effective_date": "2026-10-14",
+      "review_interval_days": 60,
+      "stages": [
+        "strategist",
+        "brief"
+      ],
+      "provenance": {
+        "source": "kb-candidates/content-workflow.md; synthesis section 2; rulings R-9 to R-11",
+        "author": "Whitney and team",
+        "model_written": false,
+        "derived_from_weeks": []
+      }
+    },
+    {
+      "key": "format_guide",
+      "file": "09-format-guide.md",
+      "heading": "Format guide (per-channel structure and limits for briefs)",
+      "version": "wia-kb-2026-10-18.v2",
+      "owner": "WIA",
+      "status": "draft",
+      "effective_date": "2026-10-14",
+      "review_interval_days": 60,
+      "stages": [
+        "brief"
+      ],
+      "provenance": {
+        "source": "kb-candidates/format-guide.md; plan 4.5 and 2.4a",
+        "author": "Whitney and team",
+        "model_written": false,
+        "derived_from_weeks": []
+      }
+    },
+    {
+      "key": "cta_catalogue",
+      "file": "10-cta-catalogue.md",
+      "heading": "CTA catalogue (per offer and channel, open or closed as of 14 October 2026)",
+      "version": "wia-kb-2026-10-18.v2",
+      "owner": "WIA",
+      "status": "draft",
+      "effective_date": "2026-10-14",
+      "review_interval_days": 30,
+      "stages": [
+        "brief"
+      ],
+      "provenance": {
+        "source": "kb-candidates/cta-catalogue.md; rulings R-9 and 2.2",
+        "author": "Whitney",
+        "model_written": false,
+        "derived_from_weeks": []
+      }
+    },
+    {
+      "key": "audience_language",
+      "file": "11-audience-language.md",
+      "heading": "Audience language (ideal-client signals, prospects' own words, objections and desires)",
+      "version": "wia-kb-2026-10-18.v2",
+      "owner": "WIA",
+      "status": "draft",
+      "effective_date": "2026-10-14",
+      "review_interval_days": 90,
+      "stages": [
+        "strategist",
+        "brief"
+      ],
+      "provenance": {
+        "source": "kb-candidates/audience-language.md; synthesis 4.5",
+        "author": "Whitney; prospects (anonymised)",
+        "model_written": false,
+        "derived_from_weeks": []
+      }
+    },
+    {
+      "key": "results_register",
+      "file": "12-results-register.md",
+      "heading": "Results register (only results WIA has published, with caveats; private results need permission)",
+      "version": "wia-kb-2026-10-18.v2",
+      "owner": "WIA",
+      "status": "draft",
+      "effective_date": "2026-10-14",
+      "review_interval_days": 30,
+      "stages": [
+        "strategist",
+        "brief",
+        "verifier"
+      ],
+      "provenance": {
+        "source": "kb-candidates/case-study-method.md; synthesis 4.4; one Week 6-derived result withheld (E.B17)",
+        "author": "WIA published",
+        "model_written": false,
+        "derived_from_weeks": []
+      }
+    },
+    {
+      "key": "recent_published",
+      "file": "13-recent-published.md",
+      "heading": "Recently published by WIA (for distinctiveness only: what WIA has already said)",
+      "version": "wia-kb-2026-10-18.v2",
+      "owner": "WIA",
+      "status": "draft",
+      "effective_date": "2026-10-14",
+      "review_interval_days": 14,
+      "stages": [
+        "strategist"
+      ],
+      "provenance": {
+        "source": "kb-candidates/published-content-log.md; synthesis 4.6; Week 6-derived pieces withheld (E.B17)",
+        "author": "WIA published",
+        "model_written": false,
+        "derived_from_weeks": []
+      }
+    },
+    {
+      "key": "content_plan",
+      "file": "14-content-plan.md",
+      "heading": "Content plan, draft, 19 October to 29 November 2026 (WIA confirms or replaces it)",
+      "version": "wia-kb-2026-10-18.v2",
+      "owner": "WIA",
+      "status": "draft",
+      "effective_date": "2026-10-19",
+      "review_interval_days": 14,
+      "stages": [
+        "strategist",
+        "brief"
+      ],
+      "provenance": {
+        "source": "Drafted from the dated offers, content workflow and campaign history (E.B11 i)",
+        "author": "implementing engineer, from WIA's material",
+        "model_written": false,
+        "derived_from_weeks": []
+      }
+    },
+    {
+      "key": "exemplars",
+      "file": "15-exemplars.md",
+      "heading": "Exemplars (Whitney's published Reels and approved finals against drafts; patterns, not formulas)",
+      "version": "wia-kb-2026-10-18.v2",
+      "owner": "WIA",
+      "status": "draft",
+      "effective_date": "2026-10-14",
+      "review_interval_days": 60,
+      "stages": [
+        "strategist",
+        "brief"
+      ],
+      "provenance": {
+        "source": "reel_approved_examples.md (Reel 5 withheld: it derives from Week 6); kb-candidates/exemplar-bank.jsonl; data/t1_pairs.jsonl",
+        "author": "Whitney, WIA published",
+        "model_written": false,
+        "derived_from_weeks": [
+          4
+        ]
+      }
+    },
+    {
+      "key": "belief_statements",
+      "file": "16-belief-statements.md",
+      "heading": "Belief statements in Whitney's own words (the belief bank)",
+      "version": "wia-kb-2026-10-18.v2",
+      "owner": "Whitney Hodges",
+      "status": "draft",
+      "effective_date": "2026-10-14",
+      "review_interval_days": 90,
+      "stages": [
+        "strategist",
+        "brief"
+      ],
+      "provenance": {
+        "source": "kb-candidates/belief-statements.md",
+        "author": "Whitney",
+        "model_written": false,
+        "derived_from_weeks": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+ "meta": {
+  "run_id": "T2J-claude-sonnet-5.5-T24-G2vA0-XY",
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Claude Platform on AWS",
+  "effort": null,
+  "prompt_tokens": 1142,
+  "completion_tokens": 192,
+  "cached_tokens": 0,
+  "cost": 0.004204,
+  "seconds": 2.6,
+  "finish": "stop",
+  "system_sha": "5374112cdde3",
+  "user_sha": "d826c2e83d7e"
+ },
+ "output": {
+  "winner": "A",
+  "edits_needed_A": "few",
+  "edits_needed_B": "some",
+  "reason": "A keeps the substance of the reference (HighLevel, wedding-industry customization, instant text/email, follow-up, pipeline tracking, scheduling) in a professional sponsor-blurb tone, so it needs only trimming. B is punchy but drops HighLevel and pipelines, leans on 'no more missed messages' hype, and ends with a cutesy 'yes' line that would need rewriting.",
+  "_note": "A is longer than the reference, but it is closer in substance."
+ },
+ "content": null,
+ "request": {
+  "system": "You compare two draft pieces of marketing copy for Wedding Industry Ads (WIA), a wedding-industry advertising agency. You are given the request, the version WIA's co-founder Whitney actually approved or wrote (the reference), and two candidate drafts. Decide which candidate would need fewer and smaller edits to become something Whitney would approve. Judge substance first (what is claimed, for whom, how WIA is positioned, accuracy, whether her own wording was kept where she supplied it), then voice. Do not reward length, and do not require the candidate to copy the reference wording.\n\nReturn only JSON: {\"winner\": \"A\" or \"B\" or \"tie\", \"edits_needed_A\": \"few\", \"edits_needed_B\": \"many\", \"reason\": \"one or two sentences\"} where edits_needed values are none, few, some or many.",
+  "user": "Request:\nLeadLock is sponsoring a conference for venues next month. We need to fill out a sponsor form. One of the questions is \"Blurb about your company and what it does\". This is what Daniela drafted below. Give me your thoughts. Positive and negative.\n\nLeadLock is a lead management system designed to help wedding pros and venues convert more inquiries into booked appointments.\n\nStreamline your inquiry process, automate follow-up, and convert more leads into booked clients. Built on the HighLevel platform and powered by our industry-specific strategy, templates, and workflows, LeadLock fills the critical gap between marketing and sales. From instant text and email responses to fully automated nurture sequences, pipeline tracking, and appointment scheduling, LeadLock ensures no lead ever slips through the cracks - so business owners can book more clients with less stress.\n\nWe help small business owners organize their leads, respond instantly, eliminate follow-up bottlenecks, and finally stop losing opportunities due to slow response times or disorganized inboxes - so they can focus on delivering an exceptional client experience.\n\n\nYes!\n\nReference (what Whitney approved):\nLeadLock gives venues and wedding professionals a powerful lead management system. Built on HighLevel and customized for the wedding industry, LeadLock helps you go from manually chasing every inquiry to nurturing leads on autopilot. With organized pipelines, automated text & email inquiry responses, smart follow-up workflows,  and easy online consultation schedule, you'll convert more clients with ease.\n\nCandidate A:\nLeadLock is a lead management and follow-up system designed to help wedding venues and professionals turn more inquiries into booked appointments.\n\nBuilt on the HighLevel platform and powered by Wedding Industry Ads’ industry-specific strategy, templates, and workflows, LeadLock connects marketing with the conversations that lead to bookings. Instant text and email responses, automated follow-up, pipeline tracking, and appointment scheduling help your team stay organized and keep inquiries moving toward a tour or consultation.\n\nWith consistent follow-up in place, you can give prospective couples a thoughtful, responsive experience while staying focused on the weddings and clients already in your care.\n\nCandidate B:\n**LeadLock** is a lead management system built for wedding venues and pros who want to stop losing inquiries and start booking more clients—automatically. From instant responses to automated follow-up and appointment scheduling, LeadLock helps you convert more leads with less stress. No more missed messages, no more disorganized inboxes—just a streamlined system that turns inquiries into “yes.”",
+  "cache_prefix_sha": "5374112cdde3"
+ }
+}

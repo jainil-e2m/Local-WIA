@@ -1,0 +1,28 @@
+{
+  "about": "Supplied documents the compiler adds, once, to a version whose base lacks them, from `effective` on (backend_pipeline/knowledge/additions.py). Each entry is reviewed as a whole: its file is committed beside the knowledge base and bound by `sha256` (the hash of its text with line endings normalised and outer whitespace stripped, as the loader reads it), so the runtime never reads the source it was derived from (R52) and a changed file stops the compile until it is reviewed again. A new document is an identity change: the version waits for its benchmark (R44).",
+  "effective": "2026-10-20",
+  "entries": [
+    {
+      "id": "A01",
+      "key": "editing_guide",
+      "file": "17-editing-guide.md",
+      "heading": "Document 17: How Whitney edits (her corrections to drafts in her ChatGPT history, as rules for anyone writing or planning WIA copy)",
+      "owner": "Whitney Hodges (her corrections, derived from the ChatGPT export, E.B25 (e))",
+      "status": "confirmed",
+      "stages": [
+        "strategist",
+        "brief"
+      ],
+      "provenance": {
+        "source": "research/chatgpt-export-2026-10-18/data/pack_rules.md (the export pack's \"how Whitney edits\" sheet, section 1.8 T2), rewritten as rules and reconciled with WIA's rulings R-1 to R-16; reviewed by the engineer under D21 on 20 October 2026",
+        "author": "model, from Whitney's corrections in her ChatGPT history",
+        "model_written": true,
+        "derived_from_weeks": []
+      },
+      "review_interval_days": 90,
+      "effective": "2026-10-20",
+      "sha256": "1b2e2313ebb02c831584abecceca23bc935c697cae1ff48e9f921fa730e6f9ed",
+      "reviewed": "The owner's final text of 20 October 2026 (D21, reconciled with WIA's rulings), copied verbatim"
+    }
+  ]
+}

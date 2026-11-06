@@ -1,0 +1,35 @@
+{
+  "fingerprint": "9d618749819947da7f4aa64f346f1bbf561020e0acd1281f06e52345705647fa",
+  "output": {
+    "reviewed_claim_ids": [
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "preserves_approved_direction": true,
+    "distinct_treatment": true,
+    "findings": [
+      {
+        "claim_id": "C1",
+        "severity": "blocking",
+        "message": "Public reference to this reported account is not cleared: public_use is false, sensitivity is unknown, and the required permission question Q1 is unanswered. Keep the paraphrase out of public-facing content unless permission is confirmed. Do not use the named attribution or quotation; speaker identity is unverified.",
+        "evidence_ids": [
+          "ev_e2358d95913b781d409db5c6"
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "severity": "blocking",
+        "message": "Public reference to this reported plan is not cleared: public_use is false, sensitivity is unknown, and required permission question Q1 is unanswered. Do not publish the Orlando-first or possible-later Colorado account unless permission is confirmed. The brief correctly treats Colorado as a possibility, not completed work.",
+        "evidence_ids": [
+          "ev_68f251d9b6451a5980967f0f",
+          "ev_1b75c7c12a01d041ba7d8be4",
+          "ev_3c51f6730a72932526534454"
+        ]
+      }
+    ]
+  },
+  "output_hash": "a72aac63c7c925f0e15a342d3e335a3a8b4819ba6291166b820928761557b0cd",
+  "artifact": "brief-attempts/brief_job_9bd0af7bbe9c429dac0d31db37b9533a/1/9d618749819947da7f4aa64f346f1bbf561020e0acd1281f06e52345705647fa/validated.json"
+}

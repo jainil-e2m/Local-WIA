@@ -1,0 +1,93 @@
+{
+  "purpose": "Explanatory cutoff comparison of the legacy frozen archive, not an authoritative assessment",
+  "scenarios": [
+    {
+      "cutoff": 0.78,
+      "counts": {
+        "initial_qualified": 0,
+        "final_qualified": 0,
+        "recovered": 0,
+        "retained_original_fallbacks": 0,
+        "failing_quality": 0,
+        "failing_history": 1,
+        "failing_both": 0,
+        "no_supported_alternative": 0
+      },
+      "families": [
+        {
+          "original_id": "angle_1d20dd133d5492c950608290",
+          "replacement_id": null,
+          "selected_id": null,
+          "original_reasons": [
+            "historical_overlap"
+          ],
+          "replacement_reasons": null,
+          "selected_assessment": null
+        }
+      ],
+      "selected_ids": []
+    },
+    {
+      "cutoff": 0.85,
+      "counts": {
+        "initial_qualified": 0,
+        "final_qualified": 0,
+        "recovered": 0,
+        "retained_original_fallbacks": 0,
+        "failing_quality": 0,
+        "failing_history": 1,
+        "failing_both": 0,
+        "no_supported_alternative": 0
+      },
+      "families": [
+        {
+          "original_id": "angle_1d20dd133d5492c950608290",
+          "replacement_id": null,
+          "selected_id": null,
+          "original_reasons": [
+            "historical_overlap"
+          ],
+          "replacement_reasons": null,
+          "selected_assessment": null
+        }
+      ],
+      "selected_ids": []
+    },
+    {
+      "cutoff": 0.9,
+      "counts": {
+        "initial_qualified": 1,
+        "final_qualified": 1,
+        "recovered": 0,
+        "retained_original_fallbacks": 0,
+        "failing_quality": 0,
+        "failing_history": 0,
+        "failing_both": 0,
+        "no_supported_alternative": 0
+      },
+      "families": [
+        {
+          "original_id": "angle_1d20dd133d5492c950608290",
+          "replacement_id": null,
+          "selected_id": "angle_1d20dd133d5492c950608290",
+          "original_reasons": [],
+          "replacement_reasons": null,
+          "selected_assessment": {
+            "angle_id": "angle_1d20dd133d5492c950608290",
+            "base_score": 80.0,
+            "max_historical_cosine": 0.8674011336033635,
+            "grounding_valid": true,
+            "coverage_complete": true,
+            "evidence_readiness": "supported"
+          }
+        }
+      ],
+      "selected_ids": [
+        "angle_1d20dd133d5492c950608290"
+      ]
+    }
+  ],
+  "closest_cosine": 0.8674011336033635,
+  "legacy_adjusted_score": 64.4976606958053,
+  "authoritative_cutoff_selected": false
+}

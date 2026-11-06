@@ -1,0 +1,16 @@
+{
+  "id": "gen-recorded-card-refresh-0001",
+  "object": "chat.completion",
+  "model": "anthropic/claude-sonnet-5.5",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\"title\": \"How we read your inquiry form before we touch your ads\", \"audience\": \"Established wedding planners\", \"core_perspective\": \"We read a planner's inquiry form before we change a single ad, because that is where lead quality is decided.\", \"why_it_matters\": \"A planner who already gets plenty of leads needs better-fit inquiries, not more of them, and the form is where fit is decided.\", \"wia_in_action\": \"The strategist asks about pricing copy.\", \"offer_connection\": null, \"reason\": \"The point now starts from the inquiry form, as the feedback asks, and why it matters speaks to a planner who already has enough leads.\"}"
+      }
+    }
+  ],
+  "usage": {"prompt_tokens": 2310, "completion_tokens": 164, "total_tokens": 2474, "cost": 0.0094}
+}

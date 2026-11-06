@@ -1,0 +1,734 @@
+{
+  "generated_at_utc": "2026-10-15T15:21:00.458914+00:00",
+  "suite": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\testing\\.data\\experiments\\week3-week4-shared-luna-angle-quality-20261015",
+  "suite_integrity": "verified",
+  "source_files_unchanged": true,
+  "pool_checks": {
+    "3": {
+      "validated_moments": 18,
+      "pool_hash": "06da8129f5347c20c1fd7cf5a8d941d1fd92188137e00e82043504aef884384f",
+      "identical_angle_messages": true,
+      "reasoning_high_all_models": true,
+      "coverage_notes": [
+        "The five supplied meeting inventories are acknowledged exactly once. The transcripts contain no meeting dates or verified speaker identities beyond their supplied labels; inventory acknowledgement does not establish completeness of the original recordings.",
+        "M1's event-volume comparison, booking value, reported business growth, and attribution distinctions are preserved as participant reports or hypotheses, not independently verified results.",
+        "M3's Google-tag troubleshooting remains unresolved in m3.t0332-m3.t0373. The reported Davis and Gray lead pattern in m3.t0213-m3.t0248 does not isolate the effect of the location and landing-page changes.",
+        "M4's appointment counts and costs were corrected during the discussion and concern appointments, not confirmed weddings; course feedback is one participant's experience.",
+        "M5 does not include the original or revised buyer-type survey question (m5.t0452-m5.t0475), or a follow-up price quote or product verification for the email tool (m5.t0397-m5.t0408). The client referenced as Hazelwood and Kate in m5.t0111-m5.t0158 may or may not be the same person.",
+        "The Brook Lake departure and negative account discussion in m3.t0049-m3.t0063, and the Exquisite Moments departure in m3.t0251-m3.t0271, were not retained as public opportunities: the exchanges do not establish a useful, attributable public lesson and include sensitive client relationship details.",
+        "The proposed YouTube demand-generation option in m4.t0185-m4.t0211 was not selected as a separate moment because the client had not yet tested it and the discussion did not establish an outcome."
+      ],
+      "evidence_origin": "Unaltered validated live extraction"
+    },
+    "4": {
+      "validated_moments": 17,
+      "pool_hash": "4bb18412180615d9e5cb60f3f33dedb34271e4636240bb2b96c09dfe510bb9e0",
+      "identical_angle_messages": true,
+      "reasoning_high_all_models": true,
+      "coverage_notes": [
+        "The inventory confirms six delivered transcript records; the meeting metadata states zoom_metadata_not_supplied. Speaker labels and names are therefore treated as transcript attribution, not independently verified identity, and no publication permissions are supplied.",
+        "In m1, the market-research email, task assignment, and spreadsheet are discussed at m1.t0140-m1.t0215, but the actual research questions, client responses, and findings are not in the supplied exchange. The offboarding SOP is still being recalled and drafted at m1.t0338-m1.t0352, so no completed process or outcome is established.",
+        "In m2, Emily's scope-creep and niche-expansion discussion at m2.t0118-m2.t0196 was not elevated as a WIA service claim: it concerns another provider's client situation and contains no WIA resolution or verified outcome.",
+        "The m4 and m5 account and lead figures are participant-reported or discussed in live account reviews, not independently corroborated. The proposal stage in m5.t0231-m5.t0233 is not treated as an accepted sale.",
+        "The m6 workshop contains many additional teaching points. The 0.05-second website-impression figure at m6.t0223 is not treated as measured evidence because no supporting source or study is supplied. Selected workshop moments retain the speaker's attribution and do not imply implementation, results, or publication clearance."
+      ],
+      "evidence_origin": "User-approved quote-only derivative of a failed live extraction"
+    }
+  },
+  "started_count": 6,
+  "dispatch_count": 6,
+  "active_lock": true,
+  "completed_count": 4,
+  "max_paid_calls": 8,
+  "known_reported_cost_usd": 1.081364205,
+  "all_dispatched_costs_known": false,
+  "total_reported_cost_usd": null,
+  "records": [
+    {
+      "week": 3,
+      "stage": "moment_extraction",
+      "slug": "luna-pro",
+      "model": "openai/gpt-6-luna-pro",
+      "run_id": "week3-week4-shared-luna-angle-quality-20261015-w3-shared-extraction",
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "run_id": "week3-week4-shared-luna-angle-quality-20261015-w3-shared-extraction",
+        "week_index": 3,
+        "stage": "moment_extraction",
+        "moments": 18,
+        "pool_hash": "06da8129f5347c20c1fd7cf5a8d941d1fd92188137e00e82043504aef884384f",
+        "next": "inspect_shared_pool_then_angles"
+      },
+      "home": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\testing\\.data\\experiments\\week3-week4-shared-luna-angle-quality-20261015\\extractions\\week3",
+      "raw_response_count": 1,
+      "costs": [
+        {
+          "requested_model_id": "openai/gpt-6-luna-pro",
+          "returned_model_id": "openai/gpt-6-luna-pro",
+          "provider": "OpenAI",
+          "generation_id": "gen-1792073747-zwTdWcWRq6jfOSUCIiHM",
+          "dispatched": true,
+          "reused": false,
+          "validation_status": "validated",
+          "new_cost_usd": 0.051530965,
+          "cost_status": "reported",
+          "usage": {
+            "prompt_tokens": 256257,
+            "completion_tokens": 60445,
+            "total_tokens": 316702,
+            "cost": 0.051530965,
+            "is_byok": false,
+            "prompt_tokens_details": {
+              "cached_tokens": 66419,
+              "cache_write_tokens": 66419,
+              "audio_tokens": 0,
+              "video_tokens": 0
+            },
+            "cost_details": {
+              "upstream_inference_cost": 0.051530965,
+              "upstream_inference_prompt_cost": 0.021308465,
+              "upstream_inference_completions_cost": 0.0302225
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 39790,
+              "image_tokens": 0,
+              "audio_tokens": 0
+            }
+          }
+        }
+      ],
+      "elapsed_seconds": 418.96
+    },
+    {
+      "week": 4,
+      "stage": "moment_extraction",
+      "slug": "luna-pro",
+      "model": "openai/gpt-6-luna-pro",
+      "run_id": "week3-week4-shared-luna-angle-quality-20261015-w4-shared-extraction",
+      "status": "failed",
+      "result": {
+        "status": "failed",
+        "error_type": "ValueError",
+        "error": "Moment quote must match an existing anchor span"
+      },
+      "home": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\testing\\.data\\experiments\\week3-week4-shared-luna-angle-quality-20261015\\extractions\\week4",
+      "raw_response_count": 1,
+      "costs": [
+        {
+          "requested_model_id": "openai/gpt-6-luna-pro",
+          "returned_model_id": "openai/gpt-6-luna-pro",
+          "provider": "OpenAI",
+          "generation_id": "gen-1792074891-ShnJ7B0vBIiKfWe8eXaQ",
+          "dispatched": true,
+          "reused": false,
+          "validation_status": "failed",
+          "new_cost_usd": 0.09096267,
+          "cost_status": "reported",
+          "usage": {
+            "prompt_tokens": 293814,
+            "completion_tokens": 61789,
+            "total_tokens": 355603,
+            "cost": 0.09096267,
+            "is_byok": false,
+            "prompt_tokens_details": {
+              "cached_tokens": 78566,
+              "cache_write_tokens": 0,
+              "audio_tokens": 0,
+              "video_tokens": 0
+            },
+            "cost_details": {
+              "upstream_inference_cost": 0.09096267,
+              "upstream_inference_prompt_cost": 0.04462092,
+              "upstream_inference_completions_cost": 0.04634175
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 41686,
+              "image_tokens": 0,
+              "audio_tokens": 0
+            }
+          }
+        }
+      ],
+      "elapsed_seconds": 426.186
+    },
+    {
+      "week": 3,
+      "stage": "angle_generation",
+      "slug": "luna-pro",
+      "model": "openai/gpt-6-luna-pro",
+      "run_id": "week3-week4-shared-luna-angle-quality-20261015-w3-luna-pro",
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "run_id": "week3-week4-shared-luna-angle-quality-20261015-w3-luna-pro",
+        "week_index": 3,
+        "stage": "angle_generation",
+        "moments": 18,
+        "angles": 9,
+        "pool_hash": "06da8129f5347c20c1fd7cf5a8d941d1fd92188137e00e82043504aef884384f",
+        "embedding_requests": 0,
+        "similarity_status": "not_run"
+      },
+      "home": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\testing\\.data\\experiments\\week3-week4-shared-luna-angle-quality-20261015\\cells\\week3\\luna-pro",
+      "raw_response_count": 1,
+      "costs": [
+        {
+          "requested_model_id": "openai/gpt-6-luna-pro",
+          "returned_model_id": "openai/gpt-6-luna-pro",
+          "provider": "OpenAI",
+          "generation_id": "gen-1792074199-Vc2GFXgWhIYBstr4FS14",
+          "dispatched": true,
+          "reused": false,
+          "validation_status": "validated",
+          "new_cost_usd": 0.08213607,
+          "cost_status": "reported",
+          "usage": {
+            "prompt_tokens": 343837,
+            "completion_tokens": 35616,
+            "total_tokens": 379453,
+            "cost": 0.08213607,
+            "is_byok": false,
+            "prompt_tokens_details": {
+              "cached_tokens": 102641,
+              "cache_write_tokens": 102641,
+              "audio_tokens": 0,
+              "video_tokens": 0
+            },
+            "cost_details": {
+              "upstream_inference_cost": 0.08213607,
+              "upstream_inference_prompt_cost": 0.05542407,
+              "upstream_inference_completions_cost": 0.026712
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 15395,
+              "image_tokens": 0,
+              "audio_tokens": 0
+            }
+          }
+        }
+      ],
+      "elapsed_seconds": 242.508,
+      "candidate_count": 9,
+      "internal_insight_count": 8,
+      "pillars": {
+        "WARM": 9
+      },
+      "readiness": {
+        "supported": 9
+      },
+      "candidates": [
+        {
+          "title": "Where automation ends in the inquiry journey",
+          "strategic_purpose": "WARM",
+          "content_type": "process",
+          "core_perspective": "A self-service path to a booked call can reduce manual work before the conversation without automating the human conversation itself.",
+          "moment_ids": [
+            "moment_38d99accbdf475c2513fa9f5"
+          ]
+        },
+        {
+          "title": "Reading ad attribution alongside the wider business picture",
+          "strategic_purpose": "WARM",
+          "content_type": "education",
+          "core_perspective": "Direct attribution is useful, but it is not a complete account of the business; broader business figures add context without proving that advertising caused the change.",
+          "moment_ids": [
+            "moment_685c9db487511394f76b1711"
+          ]
+        },
+        {
+          "title": "Refreshing ad landing pages before a rebrand's full website is finished",
+          "strategic_purpose": "WARM",
+          "content_type": "process",
+          "core_perspective": "When brand decisions are approved, coordinating ad-traffic landing pages with those assets can begin before the full website is finished.",
+          "moment_ids": [
+            "moment_e96fb74d553e10dfc6ddfb1f"
+          ]
+        },
+        {
+          "title": "Keep buyer research separate from the wedding-day information form",
+          "strategic_purpose": "WARM",
+          "content_type": "process",
+          "core_perspective": "Reviews, buyer-decision research, and operational intake are not interchangeable; each needs questions and timing suited to its purpose.",
+          "moment_ids": [
+            "moment_1fd04cdedc6080e01f4a40d6",
+            "moment_0ced0a098e016faa7be084e1"
+          ]
+        },
+        {
+          "title": "Why new creative does not mean changing every working ad each month",
+          "strategic_purpose": "WARM",
+          "content_type": "behind_the_scenes",
+          "core_perspective": "Creative refresh timing can follow campaign performance rather than a calendar, and the reasoning still needs to be visible to the client.",
+          "moment_ids": [
+            "moment_baa14f0096a2495fb5aa0669"
+          ]
+        },
+        {
+          "title": "What low search activity can and cannot tell you about a niche campaign",
+          "strategic_purpose": "WARM",
+          "content_type": "education",
+          "core_perspective": "Low search activity alone does not answer whether a campaign is worthwhile; the next decision depends on what happens when relevant people search and click.",
+          "moment_ids": [
+            "moment_573c3e6d0094fc6fa6fd0259"
+          ]
+        },
+        {
+          "title": "Treating a move out of full-service management as a decision to revisit",
+          "strategic_purpose": "WARM",
+          "content_type": "process",
+          "core_perspective": "A change in management involvement is a timing and support decision that can be reviewed with the client, not a one-size-fits-all handoff.",
+          "moment_ids": [
+            "moment_782573880646665ee00579bb"
+          ]
+        },
+        {
+          "title": "Checking whether a lead slowdown is happening beyond paid ads",
+          "strategic_purpose": "WARM",
+          "content_type": "process",
+          "core_perspective": "A reported slowdown should be scoped before it is diagnosed; when multiple changes are made and the pattern later returns, a temporary lift does not identify the cause.",
+          "moment_ids": [
+            "moment_a3deaf92e77cc94f7c6548e5"
+          ]
+        },
+        {
+          "title": "Check the reporting period and appointment quality before judging a campaign change",
+          "strategic_purpose": "WARM",
+          "content_type": "education",
+          "core_perspective": "A campaign comparison is only as useful as its date range and the meaning of the conversion being counted.",
+          "moment_ids": [
+            "moment_c802d7cb180271683939f39f"
+          ]
+        }
+      ],
+      "coverage_notes": [
+        "The rebrand value-differentiation exchange was retained as internal positioning intelligence because the final distinctions and WIA's contribution to them are not supplied.",
+        "The tag-verification, agency-workload, course-feedback, participant-pipeline, offboarding, survey-correction, and vendor-evaluation exchanges are retained as internal intelligence rather than public claims or completed case studies.",
+        "The rendered previous-signature list is empty, so no historical novelty or prior-use claim is made.",
+        "Source metadata does not supply meeting dates, and speaker identity labels are unverified. Public candidates involving client situations require identity, permission, and public-use review."
+      ],
+      "manual_source_findings": [
+        "Two internal insights cite one another's source moments; see review note."
+      ],
+      "review": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\research\\week3-week4-comparison-2026-10-15\\week3-luna-pro.md"
+    },
+    {
+      "week": 3,
+      "stage": "angle_generation",
+      "slug": "sol",
+      "model": "openai/gpt-6.1-sol",
+      "run_id": "week3-week4-shared-luna-angle-quality-20261015-w3-sol",
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "run_id": "week3-week4-shared-luna-angle-quality-20261015-w3-sol",
+        "week_index": 3,
+        "stage": "angle_generation",
+        "moments": 18,
+        "angles": 10,
+        "pool_hash": "06da8129f5347c20c1fd7cf5a8d941d1fd92188137e00e82043504aef884384f",
+        "embedding_requests": 0,
+        "similarity_status": "not_run"
+      },
+      "home": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\testing\\.data\\experiments\\week3-week4-shared-luna-angle-quality-20261015\\cells\\week3\\sol",
+      "raw_response_count": 1,
+      "costs": [
+        {
+          "requested_model_id": "openai/gpt-6.1-sol",
+          "returned_model_id": "openai/gpt-6.1-sol",
+          "provider": "OpenAI",
+          "generation_id": "gen-1792074450-I8bnX3GLrSkEnmWFuwm8",
+          "dispatched": true,
+          "reused": false,
+          "validation_status": "validated",
+          "new_cost_usd": 0.4034585,
+          "cost_status": "reported",
+          "usage": {
+            "prompt_tokens": 102644,
+            "completion_tokens": 14685,
+            "total_tokens": 117329,
+            "cost": 0.4034585,
+            "is_byok": false,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 102641,
+              "audio_tokens": 0,
+              "video_tokens": 0
+            },
+            "cost_details": {
+              "upstream_inference_cost": 0.4034585,
+              "upstream_inference_prompt_cost": 0.2566085,
+              "upstream_inference_completions_cost": 0.14685
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 2588,
+              "image_tokens": 0,
+              "audio_tokens": 0
+            }
+          }
+        }
+      ],
+      "elapsed_seconds": 290.22,
+      "candidate_count": 10,
+      "internal_insight_count": 8,
+      "pillars": {
+        "CONVERT": 2,
+        "ATTRACT": 1,
+        "WARM": 7
+      },
+      "readiness": {
+        "supported": 10
+      },
+      "candidates": [
+        {
+          "title": "A self-service path to the first call creates room to deliver more events",
+          "strategic_purpose": "CONVERT",
+          "content_type": "social_proof",
+          "core_perspective": "The value of an automated inquiry journey can be the capacity it preserves before the first conversation, rather than the elimination of human involvement.",
+          "moment_ids": [
+            "moment_38d99accbdf475c2513fa9f5"
+          ]
+        },
+        {
+          "title": "Making sales value visible when two offers produce different booking volumes",
+          "strategic_purpose": "CONVERT",
+          "content_type": "solution_selling",
+          "core_perspective": "Different offers need to be evaluated with their sales value in view; equal booking or conversion counts are not a meaningful expectation by themselves.",
+          "moment_ids": [
+            "moment_685c9db487511394f76b1711"
+          ]
+        },
+        {
+          "title": "Reading attributed inquiries alongside the wider business picture",
+          "strategic_purpose": "ATTRACT",
+          "content_type": "opinion",
+          "core_perspective": "Direct attribution and overall business movement answer different questions; missing attribution is a reason to investigate influence, not proof that advertising deserves the credit.",
+          "moment_ids": [
+            "moment_685c9db487511394f76b1711"
+          ]
+        },
+        {
+          "title": "Coordinating ad landing pages with an unfinished website rebrand",
+          "strategic_purpose": "WARM",
+          "content_type": "behind_the_scenes",
+          "core_perspective": "A website launch and an advertising-page refresh can have different dependencies; approved assets may make coordinated progress possible before the entire site is finished.",
+          "moment_ids": [
+            "moment_e96fb74d553e10dfc6ddfb1f"
+          ]
+        },
+        {
+          "title": "Learning why couples choose when a visible feature does not explain all the value",
+          "strategic_purpose": "WARM",
+          "content_type": "thought_shift",
+          "core_perspective": "The feature an owner finds easiest to point to is a hypothesis about appeal; asking newly booked couples about their deciding factors can provide different evidence from praise alone.",
+          "moment_ids": [
+            "moment_dcdcf3f263a310bdf74fc8ee",
+            "moment_1fd04cdedc6080e01f4a40d6",
+            "moment_0ced0a098e016faa7be084e1"
+          ]
+        },
+        {
+          "title": "Separating purchase research from wedding-day information gathering",
+          "strategic_purpose": "WARM",
+          "content_type": "behind_the_scenes",
+          "core_perspective": "Client information should be gathered around its intended use: remembering a fresh buying decision and preparing a team for the wedding require different timing, questions and access.",
+          "moment_ids": [
+            "moment_0ced0a098e016faa7be084e1"
+          ]
+        },
+        {
+          "title": "Creative production and live campaign changes can follow different schedules",
+          "strategic_purpose": "WARM",
+          "content_type": "campaign_breakdown",
+          "core_perspective": "A regular supply of creative does not require automatic replacement of live ads; change decisions can follow performance while client review follows a reliable cadence.",
+          "moment_ids": [
+            "moment_baa14f0096a2495fb5aa0669"
+          ]
+        },
+        {
+          "title": "A quiet search campaign needs a clear reason to wait and a reason to reassess",
+          "strategic_purpose": "WARM",
+          "content_type": "process",
+          "core_perspective": "Keeping a quiet campaign active should rest on what is known about demand and cost exposure, with a stated condition for reassessment rather than an indefinite appeal to patience.",
+          "moment_ids": [
+            "moment_573c3e6d0094fc6fa6fd0259"
+          ]
+        },
+        {
+          "title": "Finding where an inquiry slowdown is happening before explaining it",
+          "strategic_purpose": "WARM",
+          "content_type": "process",
+          "core_perspective": "A slowdown becomes more actionable when the team establishes which channels and which stage are affected before treating it as a known advertising or sales problem.",
+          "moment_ids": [
+            "moment_a3deaf92e77cc94f7c6548e5"
+          ]
+        },
+        {
+          "title": "Making campaign comparisons useful through date and appointment checks",
+          "strategic_purpose": "WARM",
+          "content_type": "process",
+          "core_perspective": "A useful campaign comparison needs a clear change boundary and a clear meaning for the conversion being counted; client context can materially qualify the platform view.",
+          "moment_ids": [
+            "moment_c802d7cb180271683939f39f"
+          ]
+        }
+      ],
+      "coverage_notes": [
+        "Reviewed the supplied original source_evidence for all 18 moments. The passages are selected intervals, not complete recordings; recording dates and verified speaker identities were not supplied.",
+        "No historical signatures were supplied, so no candidate is described as historically new or unused.",
+        "Retained two treatments from the reporting exchange because offer-level sales economics and the limits of channel attribution concern different decisions and demonstrate different reasoning. Neither is a verified ROI case study.",
+        "Combined the client's unresolved differentiation question with the proposed buyer-decision research rather than generating an unsupported account of final positioning. The connection is explicitly editorial interpretation, not a reconstructed causal sequence.",
+        "The buying-decision research and separate-forms treatments share evidence but differ substantively: one concerns what to learn for positioning, while the other concerns timing, information recipients and operational ownership.",
+        "Merged creative-refresh timing and review cadence into one public treatment rather than multiplying versions of the same campaign conversation. Communication needs also support a separate internal investigation.",
+        "Kept the client-transition conversation as internal intelligence alongside the separate offboarding planning discussion. The available passages do not establish the earlier reasons for transition, completed handoffs or a standardized current consulting offer.",
+        "Kept prior-agency experience, curriculum feedback, offboarding planning, participant tracking, survey-question revision and vendor evaluation internal. Their sensitivity and unresolved scope make them more useful for investigation than public claims at this stage.",
+        "Retained tag troubleshooting internally rather than proposing a generic public lesson from an unresolved tool mismatch. The actual installation status, event behavior and resolution remain unknown.",
+        "No research_required public candidate was needed: selected process perspectives can be developed within present evidence, while missing results, technical explanations and sensitive product questions remain bounded internal research rather than speculative public opportunities.",
+        "Source labels, anonymization and supported status do not establish consent or publication clearance. Public use still requires appropriate factual, identity, privacy and commercial-scope checks."
+      ],
+      "review": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\research\\week3-week4-comparison-2026-10-15\\week3-sol.md"
+    },
+    {
+      "week": 3,
+      "stage": "angle_generation",
+      "slug": "sonnet",
+      "model": "anthropic/claude-sonnet-5.5",
+      "run_id": "week3-week4-shared-luna-angle-quality-20261015-w3-sonnet",
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "run_id": "week3-week4-shared-luna-angle-quality-20261015-w3-sonnet",
+        "week_index": 3,
+        "stage": "angle_generation",
+        "moments": 18,
+        "angles": 9,
+        "pool_hash": "06da8129f5347c20c1fd7cf5a8d941d1fd92188137e00e82043504aef884384f",
+        "embedding_requests": 0,
+        "similarity_status": "not_run"
+      },
+      "home": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\testing\\.data\\experiments\\week3-week4-shared-luna-angle-quality-20261015\\cells\\week3\\sonnet",
+      "raw_response_count": 1,
+      "costs": [
+        {
+          "requested_model_id": "anthropic/claude-sonnet-5.5",
+          "returned_model_id": "anthropic/claude-sonnet-5.5",
+          "provider": "Claude Platform on AWS",
+          "generation_id": "gen-1792074750-JRRq2hnkqDaRsveqOxno",
+          "dispatched": true,
+          "reused": false,
+          "validation_status": "validated",
+          "new_cost_usd": 0.453276,
+          "cost_status": "reported",
+          "usage": {
+            "prompt_tokens": 141768,
+            "completion_tokens": 16974,
+            "total_tokens": 158742,
+            "cost": 0.453276,
+            "is_byok": false,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 0,
+              "video_tokens": 0
+            },
+            "cost_details": {
+              "upstream_inference_cost": 0.453276,
+              "upstream_inference_prompt_cost": 0.283536,
+              "upstream_inference_completions_cost": 0.16974
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 2914,
+              "image_tokens": 0,
+              "audio_tokens": 0
+            }
+          }
+        }
+      ],
+      "elapsed_seconds": 131.604,
+      "candidate_count": 9,
+      "internal_insight_count": 8,
+      "pillars": {
+        "WARM": 9
+      },
+      "readiness": {
+        "supported": 9
+      },
+      "candidates": [
+        {
+          "title": "Great reviews are not the same as knowing why buyers chose you",
+          "strategic_purpose": "WARM",
+          "content_type": "thought_shift",
+          "core_perspective": "Reviews show that clients were happy after buying. They do not show which factors tipped the buying decision, and a short survey sent while the decision is fresh can fill that gap.",
+          "moment_ids": [
+            "moment_1fd04cdedc6080e01f4a40d6"
+          ]
+        },
+        {
+          "title": "Why a buyer-decision survey and a pre-wedding planning form should stay separate",
+          "strategic_purpose": "WARM",
+          "content_type": "process",
+          "core_perspective": "Learning why someone bought and preparing to serve them well both use client information, but they need different timing, length, questions and destinations. Combining them weakens both.",
+          "moment_ids": [
+            "moment_0ced0a098e016faa7be084e1"
+          ]
+        },
+        {
+          "title": "Attribution data and the business's overall growth answer different questions",
+          "strategic_purpose": "WARM",
+          "content_type": "thought_shift",
+          "core_perspective": "Direct attribution proves what it can prove, but it can miss an ad that started a customer's research before an organic inquiry, so owners should read attribution and overall business movement together.",
+          "moment_ids": [
+            "moment_685c9db487511394f76b1711"
+          ]
+        },
+        {
+          "title": "Starting the ad landing pages before the new website is finished",
+          "strategic_purpose": "WARM",
+          "content_type": "behind_the_scenes",
+          "core_perspective": "The page someone lands on from an ad is part of the brand experience, so it can be updated from approved brand assets without waiting for the entire site build to finish.",
+          "moment_ids": [
+            "moment_e96fb74d553e10dfc6ddfb1f"
+          ]
+        },
+        {
+          "title": "Why working ad creative is not replaced on a fixed monthly schedule",
+          "strategic_purpose": "WARM",
+          "content_type": "education",
+          "core_perspective": "Creative should be refreshed in response to performance and campaign type, not by calendar, and review cadence is a separate matter that can be made reliable with a standing meeting.",
+          "moment_ids": [
+            "moment_baa14f0096a2495fb5aa0669"
+          ]
+        },
+        {
+          "title": "What to do with a niche ad that has few searches and no clicks yet",
+          "strategic_purpose": "WARM",
+          "content_type": "education",
+          "core_perspective": "A low-volume campaign can be a cheap, bounded test, and the signal that matters is whether paid clicks arrive without inquiries, not that traffic is thin.",
+          "moment_ids": [
+            "moment_573c3e6d0094fc6fa6fd0259"
+          ]
+        },
+        {
+          "title": "When inquiries slow, first ask whether it is the ads or the whole business",
+          "strategic_purpose": "WARM",
+          "content_type": "campaign_breakdown",
+          "core_perspective": "When leads drop, first find out whether the pattern is channel-specific, then look at targeting and the page, and recognize that a combined change followed by a temporary bump does not isolate a cause.",
+          "moment_ids": [
+            "moment_a3deaf92e77cc94f7c6548e5"
+          ]
+        },
+        {
+          "title": "Judging a campaign change when the counts are small and still being corrected",
+          "strategic_purpose": "WARM",
+          "content_type": "campaign_breakdown",
+          "core_perspective": "To judge a campaign change, compare matching periods and ask what each recorded conversion represents, because small counts and repeat or cancelled appointments can make a quick before-and-after misleading.",
+          "moment_ids": [
+            "moment_c802d7cb180271683939f39f"
+          ]
+        },
+        {
+          "title": "Automation can handle the path to the first call so the human conversation arrives primed",
+          "strategic_purpose": "WARM",
+          "content_type": "thought_shift",
+          "core_perspective": "Automating the journey from inquiry to booked call and keeping the sales call human can produce people who arrive ready to decide.",
+          "moment_ids": [
+            "moment_38d99accbdf475c2513fa9f5"
+          ]
+        }
+      ],
+      "coverage_notes": [
+        "Speaker labels are unverified and no Zoom dates or names were supplied; client identities and business details appear in transcripts, so every public angle needs consent and anonymization checks.",
+        "The historical signature list is empty, so no angle is claimed as new or historically distinctive.",
+        "The two survey angles share the survey theme but differ in perspective: the buyer-versus-reviews research rationale and the separation of research from operational forms. Slowdown diagnosis and the Maximize Clicks review are kept separate: one scopes the problem across channels, the other evaluates a change using comparable periods.",
+        "The internal-only moments (agency retainers, course feedback, offboarding, participant tracking, survey revision) were kept as internal intelligence. The tag verification, positioning asymmetry and vendor evaluation moments lack a verified resolution, a WIA contribution or product facts, so they were kept internal with research questions.",
+        "The Bri handoff and the offboarding plan are tentative and not confirmed, and the clients' continued status is unknown.",
+        "Unknown outcomes are not treated as failures anywhere."
+      ],
+      "review": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\research\\week3-week4-comparison-2026-10-15\\week3-sonnet.md"
+    },
+    {
+      "week": 4,
+      "stage": "angle_generation",
+      "slug": "luna-pro",
+      "model": "openai/gpt-6-luna-pro",
+      "run_id": "week3-week4-shared-luna-angle-quality-20261015-w4-luna-pro",
+      "status": "running",
+      "result": {},
+      "home": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\testing\\.data\\experiments\\week3-week4-shared-luna-angle-quality-20261015\\cells\\week4\\luna-pro",
+      "raw_response_count": 0,
+      "costs": [
+        {
+          "requested_model_id": "openai/gpt-6-luna-pro",
+          "returned_model_id": null,
+          "provider": null,
+          "generation_id": null,
+          "dispatched": true,
+          "reused": false,
+          "validation_status": "awaiting_response",
+          "new_cost_usd": null,
+          "cost_status": "unknown",
+          "usage": null
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "stage": "angle_generation",
+      "slug": "sol",
+      "model": "openai/gpt-6.1-sol",
+      "run_id": "week3-week4-shared-luna-angle-quality-20261015-w4-sol",
+      "status": "ready_reviewed_evidence",
+      "result": {},
+      "home": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\testing\\.data\\experiments\\week3-week4-shared-luna-angle-quality-20261015\\cells\\week4\\sol",
+      "raw_response_count": 0,
+      "costs": []
+    },
+    {
+      "week": 4,
+      "stage": "angle_generation",
+      "slug": "sonnet",
+      "model": "anthropic/claude-sonnet-5.5",
+      "run_id": "week3-week4-shared-luna-angle-quality-20261015-w4-sonnet",
+      "status": "ready_reviewed_evidence",
+      "result": {},
+      "home": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\testing\\.data\\experiments\\week3-week4-shared-luna-angle-quality-20261015\\cells\\week4\\sonnet",
+      "raw_response_count": 0,
+      "costs": []
+    }
+  ],
+  "comparison_status": "in_progress_reviewed_week4_recovery",
+  "failed_count": 1,
+  "not_run_upstream_failed_count": 0,
+  "week4_failure_diagnostic": {
+    "batch_status": "failed",
+    "accepted_moments": 0,
+    "returned_proposals": 17,
+    "individual_parser_passes_for_diagnosis_only": 15,
+    "individual_parser_failures": 2,
+    "provider_reported_cost_usd": 0.09096267,
+    "angle_calls_sent": 0,
+    "partial_pool_created": false,
+    "automatic_repair_performed": false,
+    "coverage_notes": [
+      "The inventory confirms six delivered transcript records; the meeting metadata states zoom_metadata_not_supplied. Speaker labels and names are therefore treated as transcript attribution, not independently verified identity, and no publication permissions are supplied.",
+      "In m1, the market-research email, task assignment, and spreadsheet are discussed at m1.t0140-m1.t0215, but the actual research questions, client responses, and findings are not in the supplied exchange. The offboarding SOP is still being recalled and drafted at m1.t0338-m1.t0352, so no completed process or outcome is established.",
+      "In m2, Emily's scope-creep and niche-expansion discussion at m2.t0118-m2.t0196 was not elevated as a WIA service claim: it concerns another provider's client situation and contains no WIA resolution or verified outcome.",
+      "The m4 and m5 account and lead figures are participant-reported or discussed in live account reviews, not independently corroborated. The proposal stage in m5.t0231-m5.t0233 is not treated as an accepted sale.",
+      "The m6 workshop contains many additional teaching points. The 0.05-second website-impression figure at m6.t0223 is not treated as measured evidence because no supporting source or study is supplied. Selected workshop moments retain the speaker's attribution and do not imply implementation, results, or publication clearance."
+    ]
+  },
+  "week4_reviewed_recovery": {
+    "status": "admitted_user_approved_derivative",
+    "source_moments": 17,
+    "quote_fields_changed": 2,
+    "new_extraction_calls": 0,
+    "original_failure_preserved": true,
+    "home": "C:\\Users\\Jainil Trivedi\\Desktop\\Wedding_Industry_Ads\\content_atelier\\testing\\.data\\experiments\\week3-week4-shared-luna-angle-quality-20261015\\recoveries\\week4-reviewed-quotes-v1",
+    "approval": {
+      "origin": "explicit_user_reply",
+      "text": "Approve reviewed quote recovery and remaining calls",
+      "recorded_at_utc": "2026-10-15T15:20:03.544326+00:00",
+      "scope": "Only the two proposed quote edits; all 17 moments; three remaining Week 4 angle calls; no extraction retry"
+    }
+  }
+}

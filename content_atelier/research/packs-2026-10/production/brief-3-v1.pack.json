@@ -1,0 +1,956 @@
+{
+ "pack_id": "pack_271dc9aa2a2010b510293d48",
+ "contract_version": "content_pack_v2",
+ "title": "What goes into our decisions about competing venues",
+ "week_id": "week_2026-10-12",
+ "source_brief_id": "brief_56c3db2b73764e8f8606b939ca1499bd",
+ "source_brief_hash": "73485cb5e234ba68eabc746ba600a64c52c141ddc97512c6612b4e08a26e8cac",
+ "angle_id": "angle_42805fa134964598862f84e41aac1666",
+ "pillar": "WARM",
+ "rank": 5,
+ "state": "in_review",
+ "state_reason": null,
+ "approval_status": "pending",
+ "manifest_hash": "a007e4c306fa43bd04163ea6696000270209b3ce7317a14c76da9f1d78e8356b",
+ "approved_by": null,
+ "approved_at": null,
+ "created_at": "2026-10-24 17:09:44.657335+00:00",
+ "supersedes_id": null,
+ "run_id": "pack_run_271dc9aa2a2010b510293d48",
+ "run_active": false,
+ "pieces": [
+  {
+   "key": "email",
+   "channel": "email",
+   "label": "Email",
+   "kind": null,
+   "ordinal": 1,
+   "origin": "finished",
+   "not_written_reason": null,
+   "brief_key": "email",
+   "content": {
+    "cta": "reply",
+    "job": "Tell the full review story in a standalone email, then connect the judgment to guided support. Do not imply that the reviewed account belonged to an Accelerator member.",
+    "body": "Carmen, our Google Ads lead, had explained that her starting position was to leave competitor terms in. The client's team then gave her a reason that fit this particular venue: couples were actually making that comparison.\n\nLater in the same review, another venue came up. The team member placed it in a different market and didn't see those couples considering their venue. Carmen agreed that one should be excluded.\n\nBoth were other venues, and they called for different recommendations. What separated them was what the client's team knew about their market, considered alongside the searches Carmen was reviewing.\n\n**A competing venue showing up in your Google Ads doesn't tell us whether its couples would also consider yours.**\n\nYour team hears about those alternatives directly, in your conversations with couples. That's exactly the kind of information we want in front of us before we recommend keeping or excluding a competitor search.\n\nWe bring the advertising expertise and take responsibility for the recommendation. You and your team bring what you know about your venue, your market and the couples who weigh you against other venues. Good guidance needs both in the same conversation.\n\nIf you'd like to keep running your own Google Ads with that kind of support, that's what our Google Search Accelerator is built for: we build and launch your campaigns, and you run them with our experts beside you. What you know about your venue stays part of the conversation.",
+    "ending": "If there's a Google Ads decision you'd like expert support with, reply to this email and tell me a bit about what you're trying to solve.\n\nTalk soon,\nWhitney",
+    "opening": "Hi {{contact.first_name}},\n\nA member of a client's venue team gave Carmen a useful piece of context during a Google Ads review: some couples who had looked at a bigger venue had come to them instead.\n\nThat mattered because the other venue's name was appearing among the searches they were reviewing.",
+    "preview": "Your team often knows which venues couples actually compare. We want that before we make the call.",
+    "register": "written",
+    "send_header": {
+     "date": "Tuesday of the following week, exact date for WIA to confirm",
+     "send_time": "Proposed: 10:00 a.m. Central, for WIA to confirm",
+     "recipients": "Proposed: venue-owner prospects on the WIA email list, segment for WIA to confirm"
+    },
+    "subject_options": [
+     "We don't exclude a competing venue from Google Ads by name alone",
+     "Should competing venue searches stay in your Google Ads?",
+     "What your team knows that your Google Ads report doesn't"
+    ],
+    "offer_descriptor": "we build and launch your campaigns, and you run them with our experts beside you"
+   },
+   "brief_copy": {
+    "cta": "reply",
+    "job": "Tell the full review story in a standalone email, then connect the judgment to guided support. Do not imply that the reviewed account belonged to an Accelerator member.",
+    "body": "Carmen, our Google Ads lead, had explained that her starting position was to leave competitor terms in. The client's team then supplied a reason that made sense for this particular venue: there was an actual comparison being made by couples.\n\nLater in the review, they discussed another venue. The team member identified it as belonging to a different market and didn't see those couples considering their venue. Carmen agreed with excluding it.\n\nThe distinction came from what the client's team knew about the market, considered alongside the searches Carmen was reviewing.\n\n**Another venue appearing in the account doesn't tell us whether its couples would also consider yours.**\n\nYour team may hear about those alternatives directly. That is relevant information for an expert to understand before making a recommendation about competing venue searches.\n\nWe want our guidance to account for it. We bring the advertising expertise, while you and your team bring knowledge of the place, the market and the conversations you're having with couples.\n\nThat gives us a more meaningful basis for a decision than treating every other venue's name the same way.\n\nIf you want to remain involved in running your advertising with that kind of expert support, the Google Search Accelerator is built around a clear division of work: we build and launch your campaigns, and you run them with our experts beside you.\n\nYou keep a role in your advertising, with guidance that makes room for the knowledge you already have about your venue.",
+    "ending": "If there's a Google Ads decision you'd like expert support with, reply to this email and tell me a bit about what you're trying to solve.\n\nTalk soon,\nWhitney",
+    "opening": "Hi {{contact.first_name}},\n\nA member of a client's venue team gave Carmen a useful piece of context during a Google Ads review: some couples who had looked at a bigger venue had come to them instead.\n\nThat mattered because the other venue's name was appearing among the searches they were reviewing.",
+    "preview": "A couple's real alternatives matter to the recommendation, and your team may know what the report doesn't explain.",
+    "register": "written",
+    "send_header": {
+     "date": "Tuesday of the following week, exact date for WIA to confirm",
+     "send_time": "Proposed: 10:00 a.m. Central, for WIA to confirm",
+     "recipients": "Proposed: venue-owner prospects on the WIA email list, segment for WIA to confirm"
+    },
+    "subject_options": [
+     "We don't rule out a venue search by its name alone",
+     "Should competing venues stay in your Google Ads?",
+     "Your local knowledge belongs in Google Ads decisions"
+    ],
+    "offer_descriptor": "we build and launch your campaigns, and you run them with our experts beside you"
+   },
+   "locks": [
+    {
+     "at": "2026-10-24T16:23:01.551236+00:00",
+     "path": "opening",
+     "author": "ai@weddingindustryads.com",
+     "origin": "gate_two",
+     "delegated": true
+    }
+   ],
+   "findings": [
+    {
+     "finding_id": "check_134044d78351a263",
+     "source": "check",
+     "check": "consent.names",
+     "piece": "email",
+     "path": "preview",
+     "sentence": null,
+     "severity": "warning",
+     "message": "\"often\" is a frequency or prevalence claim the scenes do not show",
+     "status": "open",
+     "resolution": null,
+     "can_attest": false
+    }
+   ],
+   "changes": [
+    {
+     "kind": "finished",
+     "path": "subject_options[0]",
+     "after": "We don't exclude a competing venue from Google Ads by name alone",
+     "before": "We don't rule out a venue search by its name alone"
+    },
+    {
+     "kind": "finished",
+     "path": "subject_options[1]",
+     "after": "Should competing venue searches stay in your Google Ads?",
+     "before": "Should competing venues stay in your Google Ads?"
+    },
+    {
+     "kind": "finished",
+     "path": "subject_options[2]",
+     "after": "What your team knows that your Google Ads report doesn't",
+     "before": "Your local knowledge belongs in Google Ads decisions"
+    },
+    {
+     "kind": "finished",
+     "path": "preview",
+     "after": "Your team often knows which venues couples actually compare. We want that before we make the call.",
+     "before": "A couple's real alternatives matter to the recommendation, and your team may know what the report doesn't explain."
+    },
+    {
+     "kind": "finished",
+     "path": "body",
+     "after": "Carmen, our Google Ads lead, had explained that her starting position was to leave competitor terms in. The client's team then gave her a reason that fit this particular venue: couples were actually making that comparison.\n\nLater in the same review, another venue came up. The team member placed it in a different market and didn't see those couples considering their venue. Carmen agreed that one should be excluded.\n\nBoth were other venues, and they called for different recommendations. What separated them was what the client's team knew about their market, considered alongside the searches Carmen was reviewing.\n\n**A competing venue showing up in your Google Ads doesn't tell us whether its couples would also consider yours.**\n\nYour team hears about those alternatives directly, in your conversations with couples. That's exactly the kind of information we want in front of us before we recommend keeping or excluding a competitor search.\n\nWe bring the advertising expertise and take responsibility for the recommendation. You and your team bring what you know about your venue, your market and the couples who weigh you against other venues. Good guidance needs both in the same conversation.\n\nIf you'd like to keep running your own Google Ads with that kind of support, that's what our Google Search Accelerator is built for: we build and launch your campaigns, and you run them with our experts beside you. What you know about your venue stays part of the conversation.",
+     "before": "Carmen, our Google Ads lead, had explained that her starting position was to leave competitor terms in. The client's team then supplied a reason that made sense for this particular venue: there was an actual comparison being made by couples.\n\nLater in the review, they discussed another venue. The team member identified it as belonging to a different market and didn't see those couples considering their venue. Carmen agreed with excluding it.\n\nThe distinction came from what the client's team knew about the market, considered alongside the searches Carmen was reviewing.\n\n**Another venue appearing in the account doesn't tell us whether its couples would also consider yours.**\n\nYour team may hear about those alternatives directly. That is relevant information for an expert to understand before making a recommendation about competing venue searches.\n\nWe want our guidance to account for it. We bring the advertising expertise, while you and your team bring knowledge of the place, the market and the conversations you're having with couples.\n\nThat gives us a more meaningful basis for a decision than treating every other venue's name the same way.\n\nIf you want to remain involved in running your advertising with that kind of expert support, the Google Search Accelerator is built around a clear division of work: we build and launch your campaigns, and you run them with our experts beside you.\n\nYou keep a role in your advertising, with guidance that makes room for the knowledge you already have about your venue."
+    }
+   ],
+   "published": [],
+   "content_hash": "168fe3f3b1607353e86e452f7b98ff3348737bc233ab060c6b2ba05e605352c7",
+   "editable": [
+    "send_header",
+    "subject_options",
+    "preview",
+    "opening",
+    "body",
+    "ending"
+   ]
+  },
+  {
+   "key": "carousel",
+   "channel": "carousel",
+   "label": "Carousel",
+   "kind": null,
+   "ordinal": 2,
+   "origin": "finished",
+   "not_written_reason": null,
+   "brief_key": "carousel",
+   "content": {
+    "cta": "offer",
+    "job": "Go deeper into why the same apparent category, another venue, can require different judgment. Use nine substantive slides. This is the only Instagram asset with an offer invitation.",
+    "title": "A competing venue in your Google Ads isn't automatically one to exclude",
+    "slides": [
+     {
+      "job": "State the promise as an insight about the reader's advertising decision.",
+      "text": "A competing venue in your Google Ads isn't automatically one to exclude.\n\nIts name can't tell us whether those couples would also consider your venue.\n\nYour team often knows. We want that answer before we recommend ruling a search out.",
+      "number": 1
+     },
+     {
+      "job": "Establish the real review and the two contributors.",
+      "text": "Carmen, our Google Ads lead, was reviewing searches with someone from a client's venue team.\n\nOther venue names appeared in the discussion.\n\nCarmen brought her advertising judgment. The client's team brought what they knew about how those places related to their couples.",
+      "number": 2
+     },
+     {
+      "job": "Show the nearby comparison without price or outcome claims.",
+      "text": "For one bigger venue, the team member said some couples who had looked at it had come to them instead.\n\nThat made the comparison relevant to the review. The other venue's name represented an option some couples had explored, rather than something to dismiss simply because it belonged to another business.",
+      "number": 3
+     },
+     {
+      "job": "Show the contrasting market and Carmen's recommendation.",
+      "text": "Another venue prompted a different explanation.\n\nThe client's team placed it in a separate market and didn't see its couples considering their venue as an alternative.\n\nCarmen agreed with the team on excluding it. Same review, a different recommendation.",
+      "number": 4
+     },
+     {
+      "job": "Connect the moment to what the reader knows.",
+      "text": "Your team hears which venues couples compare you with, in conversations no search report records.\n\nThat knowledge can explain why an unfamiliar name matters, or why a similar-looking one serves another market.\n\nWe want it included when it bears on the decision.",
+      "number": 5
+     },
+     {
+      "job": "Explain the distinction between a report entry and a meaningful alternative.",
+      "text": "A report can bring a venue name to our attention without explaining how that venue relates to yours.\n\nWe still need to know whether the comparison makes sense for your couples.\n\nTreating all venue names alike would overlook the distinction the client's team helped Carmen make.",
+      "number": 6
+     },
+     {
+      "job": "State WIA's standard without turning it into account instructions.",
+      "text": "**We believe our expertise should make room for your knowledge of the market.**\n\nWe take responsibility for the advertising recommendation.\n\nAnd we listen when your team has context that helps us judge it, especially when a search could be a realistic alternative for local couples.",
+      "number": 7
+     },
+     {
+      "job": "Introduce guided support as a solution without attributing the story to that offer.",
+      "text": "If you want to keep running your own ads with expert support, the Google Search Accelerator is one way we work together.\n\nWe launch your campaigns, then guide you while you run them.\n\nWhat you know about your venue stays part of those conversations.",
+      "number": 8
+     },
+     {
+      "job": "Offer one low-barrier conversation that includes guided and done-for-you readers.",
+      "text": "Some owners want us to manage their advertising for them.\n\nOthers want us to launch their campaigns and guide them as they take over.\n\nEither way, we want your local knowledge in the conversation. If you'd like to work through a real advertising decision with an expert, DM us \"ADS\" and let's talk about it.",
+      "number": 9
+     }
+    ],
+    "caption": {
+     "body": "You run your own Google Ads, and you know your market well. When other venues' names start showing up in your search terms, the right call isn't always obvious. Is that a couple who might weigh your venue too, or someone looking in a different market altogether?\n\nIn a recent review, Carmen, our Google Ads lead, went through those searches with someone on a client's team and heard two very different explanations. Couples who explored the client's venue had also considered one of the venues. The second, the team said, belonged to a market that didn't overlap with theirs, and Carmen agreed with excluding it.\n\nThat's why we don't judge another venue's relevance from its name alone. The search report starts the conversation, and your team can explain the comparison it leaves out.\n\nWhen that knowledge is part of the recommendation, you get guidance that fits your venue and the couples you serve, from experts who still take responsibility for the advertising call.",
+     "hook": "Your venue team hears comparisons that a search report can't show.",
+     "ending": "Whether you'd like us to manage your ads, or you'd like us to launch your campaigns and guide you while you run them, DM us \"ADS\" and let's talk through a real decision you're weighing."
+    },
+    "register": "written",
+    "no_offer_ending": "If your team hears these comparisons too, save this for the next time you're talking through your Google Ads with someone.",
+    "offer_descriptor": "we launch your campaigns, then guide you while you run them"
+   },
+   "brief_copy": {
+    "cta": "offer",
+    "job": "Go deeper into why the same apparent category, another venue, can require different judgment. Use nine substantive slides. This is the only Instagram asset with an offer invitation.",
+    "title": "Another venue in your Google Ads report needs context before exclusion",
+    "slides": [
+     {
+      "job": "State the promise as an insight about the reader's advertising decision.",
+      "text": "Another venue in your Google Ads report needs context before exclusion.\n\nIts name alone doesn't establish whether those couples might also consider your venue. We want to understand that comparison before recommending that a search be ruled out.",
+      "number": 1
+     },
+     {
+      "job": "Establish the real review and the two contributors.",
+      "text": "Carmen, our Google Ads lead, was reviewing searches with a member of a client's venue team.\n\nOther venue names appeared in the discussion. Carmen brought her advertising judgment; the client's team brought information about how those places related to the couples considering their venue.",
+      "number": 2
+     },
+     {
+      "job": "Show the nearby comparison without price or outcome claims.",
+      "text": "For one bigger venue, the team member said some couples who had looked at it had come to them instead.\n\nThat made the comparison relevant to the review. The other venue's name represented an option some couples had explored, rather than something to dismiss simply because it belonged to another business.",
+      "number": 3
+     },
+     {
+      "job": "Show the contrasting market and Carmen's recommendation.",
+      "text": "Another venue prompted a different explanation.\n\nThe client's team identified it as being in a separate market and didn't see its couples considering their venue as an alternative. Carmen agreed with excluding it. The local context supported a different recommendation within the same review.",
+      "number": 4
+     },
+     {
+      "job": "Connect the moment to what the reader knows.",
+      "text": "Your team hears the comparisons couples make in conversations that never appear in a search report.\n\nThat knowledge can explain why an unfamiliar venue is relevant, or why an apparently similar one belongs to a different market. We want it included when it bears on the advertising decision.",
+      "number": 5
+     },
+     {
+      "job": "Explain the distinction between a report entry and a meaningful alternative.",
+      "text": "A report can bring a venue name to our attention without explaining the relationship between that venue and yours.\n\nWe still need to understand whether the comparison makes sense for your couples. Treating all venue names alike would overlook the distinction the client's team helped Carmen make.",
+      "number": 6
+     },
+     {
+      "job": "State WIA's standard without turning it into account instructions.",
+      "text": "**Our expertise should make room for your knowledge of the market.**\n\nWe take responsibility for the advertising recommendation, and we listen when your team has context that helps us judge it. Those contributions belong together, especially when a search could represent a realistic alternative for local couples.",
+      "number": 7
+     },
+     {
+      "job": "Introduce guided support as a solution without attributing the story to that offer.",
+      "text": "If you want to keep running your own ads with expert support, the Google Search Accelerator is one way we work together: we launch your campaigns, then guide you while you run them.\n\nThe venue knowledge you bring remains valuable in those conversations. Our role is to help turn relevant context into an advertising recommendation.",
+      "number": 8
+     },
+     {
+      "job": "Offer one low-barrier conversation that includes guided and done-for-you readers.",
+      "text": "Some owners want us to manage their advertising. Others want us to launch their campaigns and guide them as they take over.\n\nIn either case, we want your local knowledge in the conversation. If you'd like to work through a real advertising decision with an expert, DM us \"ADS\" and let's talk about it.",
+      "number": 9
+     }
+    ],
+    "caption": {
+     "body": "You can understand your local couples well and still want a specialist beside you when an advertising decision comes up. The useful relationship brings those perspectives together rather than asking one to stand in for the other.\n\nDuring a search review, Carmen heard two different explanations from a member of the client's team. One venue had been considered by couples who also explored theirs. A second belonged to a market the team didn't see as overlapping with their own. Carmen's agreement with excluding the second reflected that distinction.\n\nThis is why we don't want to judge another venue's relevance from its name alone. The report provides a starting point for the discussion, while the client's team can explain a comparison the account doesn't spell out.\n\nFor an owner who stays involved in running their ads, that kind of collaboration matters. You bring knowledge of your venue and its couples; we bring the expertise to weigh it in the recommendation.",
+     "hook": "Expert guidance should leave room for what your venue team knows.",
+     "ending": "DM us \"ADS\" if you'd like to talk about the expert support that would fit the way you want to run your advertising."
+    },
+    "register": "written",
+    "no_offer_ending": null,
+    "offer_descriptor": "we launch your campaigns, then guide you while you run them"
+   },
+   "locks": [
+    {
+     "at": "2026-10-24T16:23:01.551236+00:00",
+     "path": "slides[2].text",
+     "author": "ai@weddingindustryads.com",
+     "origin": "gate_two",
+     "delegated": true
+    }
+   ],
+   "findings": [
+    {
+     "finding_id": "check_0d3462f03d0a611a",
+     "source": "check",
+     "check": "copy.sibling_overlap",
+     "piece": "carousel",
+     "path": "slides[7].text",
+     "sentence": null,
+     "severity": "warning",
+     "message": "Carousel slide 8 and the email's body repeat the same words (\"what you know about your venue stays part...\"): siblings repeat the idea, never the language",
+     "status": "open",
+     "resolution": null,
+     "can_attest": false
+    },
+    {
+     "finding_id": "check_f9eb9baef21d7dae",
+     "source": "check",
+     "check": "format.carousel_cta",
+     "piece": "carousel",
+     "path": "slides[8].text",
+     "sentence": null,
+     "severity": "warning",
+     "message": "The carousel's CTA slide speaks to only one reader: name both the owner who wants our team to run their ads and the one who wants us to launch them and guide them",
+     "status": "open",
+     "resolution": null,
+     "can_attest": false
+    }
+   ],
+   "changes": [
+    {
+     "kind": "finished",
+     "path": "title",
+     "after": "A competing venue in your Google Ads isn't automatically one to exclude",
+     "before": "Another venue in your Google Ads report needs context before exclusion"
+    },
+    {
+     "kind": "finished",
+     "path": "slides[0].text",
+     "after": "A competing venue in your Google Ads isn't automatically one to exclude.\n\nIts name can't tell us whether those couples would also consider your venue.\n\nYour team often knows. We want that answer before we recommend ruling a search out.",
+     "before": "Another venue in your Google Ads report needs context before exclusion.\n\nIts name alone doesn't establish whether those couples might also consider your venue. We want to understand that comparison before recommending that a search be ruled out."
+    },
+    {
+     "kind": "finished",
+     "path": "slides[1].text",
+     "after": "Carmen, our Google Ads lead, was reviewing searches with someone from a client's venue team.\n\nOther venue names appeared in the discussion.\n\nCarmen brought her advertising judgment. The client's team brought what they knew about how those places related to their couples.",
+     "before": "Carmen, our Google Ads lead, was reviewing searches with a member of a client's venue team.\n\nOther venue names appeared in the discussion. Carmen brought her advertising judgment; the client's team brought information about how those places related to the couples considering their venue."
+    },
+    {
+     "kind": "finished",
+     "path": "slides[3].text",
+     "after": "Another venue prompted a different explanation.\n\nThe client's team placed it in a separate market and didn't see its couples considering their venue as an alternative.\n\nCarmen agreed with the team on excluding it. Same review, a different recommendation.",
+     "before": "Another venue prompted a different explanation.\n\nThe client's team identified it as being in a separate market and didn't see its couples considering their venue as an alternative. Carmen agreed with excluding it. The local context supported a different recommendation within the same review."
+    },
+    {
+     "kind": "finished",
+     "path": "slides[4].text",
+     "after": "Your team hears which venues couples compare you with, in conversations no search report records.\n\nThat knowledge can explain why an unfamiliar name matters, or why a similar-looking one serves another market.\n\nWe want it included when it bears on the decision.",
+     "before": "Your team hears the comparisons couples make in conversations that never appear in a search report.\n\nThat knowledge can explain why an unfamiliar venue is relevant, or why an apparently similar one belongs to a different market. We want it included when it bears on the advertising decision."
+    },
+    {
+     "kind": "finished",
+     "path": "slides[5].text",
+     "after": "A report can bring a venue name to our attention without explaining how that venue relates to yours.\n\nWe still need to know whether the comparison makes sense for your couples.\n\nTreating all venue names alike would overlook the distinction the client's team helped Carmen make.",
+     "before": "A report can bring a venue name to our attention without explaining the relationship between that venue and yours.\n\nWe still need to understand whether the comparison makes sense for your couples. Treating all venue names alike would overlook the distinction the client's team helped Carmen make."
+    },
+    {
+     "kind": "finished",
+     "path": "slides[6].text",
+     "after": "**We believe our expertise should make room for your knowledge of the market.**\n\nWe take responsibility for the advertising recommendation.\n\nAnd we listen when your team has context that helps us judge it, especially when a search could be a realistic alternative for local couples.",
+     "before": "**Our expertise should make room for your knowledge of the market.**\n\nWe take responsibility for the advertising recommendation, and we listen when your team has context that helps us judge it. Those contributions belong together, especially when a search could represent a realistic alternative for local couples."
+    },
+    {
+     "kind": "finished",
+     "path": "slides[7].text",
+     "after": "If you want to keep running your own ads with expert support, the Google Search Accelerator is one way we work together.\n\nWe launch your campaigns, then guide you while you run them.\n\nWhat you know about your venue stays part of those conversations.",
+     "before": "If you want to keep running your own ads with expert support, the Google Search Accelerator is one way we work together: we launch your campaigns, then guide you while you run them.\n\nThe venue knowledge you bring remains valuable in those conversations. Our role is to help turn relevant context into an advertising recommendation."
+    },
+    {
+     "kind": "finished",
+     "path": "slides[8].text",
+     "after": "Some owners want us to manage their advertising for them.\n\nOthers want us to launch their campaigns and guide them as they take over.\n\nEither way, we want your local knowledge in the conversation. If you'd like to work through a real advertising decision with an expert, DM us \"ADS\" and let's talk about it.",
+     "before": "Some owners want us to manage their advertising. Others want us to launch their campaigns and guide them as they take over.\n\nIn either case, we want your local knowledge in the conversation. If you'd like to work through a real advertising decision with an expert, DM us \"ADS\" and let's talk about it."
+    },
+    {
+     "kind": "finished",
+     "path": "caption.hook",
+     "after": "Your venue team hears comparisons that a search report can't show.",
+     "before": "Expert guidance should leave room for what your venue team knows."
+    },
+    {
+     "kind": "finished",
+     "path": "caption.body",
+     "after": "You run your own Google Ads, and you know your market well. When other venues' names start showing up in your search terms, the right call isn't always obvious. Is that a couple who might weigh your venue too, or someone looking in a different market altogether?\n\nIn a recent review, Carmen, our Google Ads lead, went through those searches with someone on a client's team and heard two very different explanations. Couples who explored the client's venue had also considered one of the venues. The second, the team said, belonged to a market that didn't overlap with theirs, and Carmen agreed with excluding it.\n\nThat's why we don't judge another venue's relevance from its name alone. The search report starts the conversation, and your team can explain the comparison it leaves out.\n\nWhen that knowledge is part of the recommendation, you get guidance that fits your venue and the couples you serve, from experts who still take responsibility for the advertising call.",
+     "before": "You can understand your local couples well and still want a specialist beside you when an advertising decision comes up. The useful relationship brings those perspectives together rather than asking one to stand in for the other.\n\nDuring a search review, Carmen heard two different explanations from a member of the client's team. One venue had been considered by couples who also explored theirs. A second belonged to a market the team didn't see as overlapping with their own. Carmen's agreement with excluding the second reflected that distinction.\n\nThis is why we don't want to judge another venue's relevance from its name alone. The report provides a starting point for the discussion, while the client's team can explain a comparison the account doesn't spell out.\n\nFor an owner who stays involved in running their ads, that kind of collaboration matters. You bring knowledge of your venue and its couples; we bring the expertise to weigh it in the recommendation."
+    },
+    {
+     "kind": "finished",
+     "path": "caption.ending",
+     "after": "Whether you'd like us to manage your ads, or you'd like us to launch your campaigns and guide you while you run them, DM us \"ADS\" and let's talk through a real decision you're weighing.",
+     "before": "DM us \"ADS\" if you'd like to talk about the expert support that would fit the way you want to run your advertising."
+    },
+    {
+     "kind": "finished",
+     "path": "no_offer_ending",
+     "after": "If your team hears these comparisons too, save this for the next time you're talking through your Google Ads with someone.",
+     "before": null
+    }
+   ],
+   "published": [],
+   "content_hash": "598419be66203c2078cc5d45d90b83583841fe5b6d16d06e9b3272fa75e301dd",
+   "editable": [
+    "title",
+    "slides",
+    "caption",
+    "no_offer_ending"
+   ]
+  },
+  {
+   "key": "reel_1",
+   "channel": "reel",
+   "label": "Reel 1",
+   "kind": "story",
+   "ordinal": 3,
+   "origin": "finished",
+   "not_written_reason": null,
+   "brief_key": "reel_1",
+   "content": {
+    "cta": "none",
+    "job": "Shows a real review where the client's team's knowledge of couples shaped how Carmen judged two competing venue searches.",
+    "kind": "story",
+    "beats": [
+     "Open on the client's explanation, without implying Whitney attended the call.",
+     "Introduce Carmen as WIA's Google Ads lead and the other participant only as a member of the client's team.",
+     "Contrast the nearby venue comparison with the different-market recommendation.",
+     "Close on WIA's judgment, not instructions for the viewer's account."
+    ],
+    "title": "Two venue names, one review",
+    "script": "During a venue's Google Ads review, the client's team explained why a competing venue's name made sense there.\n\nCarmen, our Google Ads lead, was looking through the searches with someone from the venue's team. And when a bigger venue came up, that team member explained that some couples who had looked at that venue had come to them instead.\n\nSo there was a reason to give that search some consideration. Those couples could be looking at both venues.\n\nThen they discussed another venue. The client's team explained that it was in a different market and wasn't somewhere they saw their couples making that same comparison. Carmen agreed with excluding it.\n\nThat's what matters to us in a review like this. We bring the advertising expertise, and the client's team brings knowledge of the conversations they're having with couples.\n\nWe need both before making that call. A venue name can tell us what someone searched for, but it doesn't explain whether our client's venue is a realistic alternative for them.\n\nWe want our recommendation to reflect that distinction, rather than treating every competing venue as the same decision.",
+    "source": "new_script",
+    "caption": {
+     "body": "When you run your venue's Google Ads, you want expert input that takes the account seriously and understands the market around it. Your team may hear about alternatives couples considered that wouldn't be obvious from a venue name alone.\n\nThat context came into a review led by Carmen, our Google Ads lead. A member of the client's team explained that some couples who had looked at a bigger venue had come to them instead. Later in the discussion, they identified another venue as serving a different market, without the same overlap. Carmen agreed with the recommendation to exclude that one.\n\nThe useful distinction came from combining the searches with what the client's team knew. We weren't treating every other venue as an interchangeable competitor, and the local explanation had a place in Carmen's judgment.\n\nThat's the kind of expert support we believe venue owners should have: someone who can make an advertising recommendation while understanding why a particular comparison does, or doesn't, make sense for their couples.",
+     "hook": "Your team's conversations with couples belong in the advertising discussion.",
+     "ending": "If your team hears these comparisons too, we'd want that knowledge in the conversation about your ads."
+    },
+    "screens": null,
+    "register": "spoken",
+    "cover_text": "Competitor searches in your Google Ads need your local knowledge",
+    "on_screen_hook": "Their Google Ads showed a venue their couples also considered.",
+    "personal_lines": [],
+    "spoken_opening": "During a venue's Google Ads review, the client's team explained why a competing venue's name made sense there.",
+    "no_offer_ending": null,
+    "cover_alternates": [
+     "Two venue searches. Two different recommendations.",
+     "Two competing venues showed up in a client's Google Ads"
+    ],
+    "offer_descriptor": null,
+    "read_time_seconds": 75
+   },
+   "brief_copy": {
+    "cta": "none",
+    "job": "Face-to-camera retelling of the review. Keep the two contrasting venue contexts together. Use two Reels for this narrow moment; a third would repeat the same argument without adding a distinct creative door.",
+    "kind": "story",
+    "beats": [
+     "Open on the client's explanation, without implying Whitney attended the call.",
+     "Introduce Carmen as WIA's Google Ads lead and the other participant only as a member of the client's team.",
+     "Contrast the nearby venue comparison with the different-market recommendation.",
+     "Close on WIA's judgment, not instructions for the viewer's account."
+    ],
+    "title": "Competitor searches in your Google Ads need your local knowledge",
+    "script": "During a venue's Google Ads review, the client's team explained why a competing venue's name made sense there.\n\nCarmen, our Google Ads lead, was looking through the searches with someone from the venue's team. And when a bigger venue came up, that team member explained that some couples who had looked at that venue had come to them instead.\n\nSo there was a reason to give that search some consideration. Those couples could be looking at both venues.\n\nThen they discussed another venue. The client's team explained that it was in a different market and wasn't somewhere they saw their couples making that same comparison. Carmen agreed with excluding it.\n\nThat's what matters to us in a review like this. We bring the advertising expertise, and the client's team brings knowledge of the conversations they're having with couples.\n\nWe need both before making that call. A venue name can tell us what someone searched for, but it doesn't explain whether our client's venue is a realistic alternative for them.\n\nWe want our recommendation to reflect that distinction, rather than treating every competing venue as the same decision.",
+    "source": "new_script",
+    "caption": {
+     "body": "When you run your venue's Google Ads, you want expert input that takes the account seriously and understands the market around it. Your team may hear about alternatives couples considered that wouldn't be obvious from a venue name alone.\n\nThat context came into a review led by Carmen, our Google Ads lead. A member of the client's team explained that some couples who had looked at a bigger venue had come to them instead. Later in the discussion, they identified another venue as serving a different market, without the same overlap. Carmen agreed with the recommendation to exclude that one.\n\nThe useful distinction came from combining the searches with what the client's team knew. We weren't treating every other venue as an interchangeable competitor, and the local explanation had a place in Carmen's judgment.\n\nThat's the kind of expert support we believe venue owners should have: someone who can make an advertising recommendation while understanding why a particular comparison does, or doesn't, make sense for their couples.",
+     "hook": "Your team's conversations with couples belong in the advertising discussion.",
+     "ending": "We want the decision to fit the venue and its market, with the client's knowledge included in the reasoning."
+    },
+    "screens": null,
+    "register": "spoken",
+    "cover_text": "Competitor searches in your Google Ads need your local knowledge",
+    "on_screen_hook": "Google Ads showed a venue couples also considered.",
+    "personal_lines": [],
+    "spoken_opening": "During a venue's Google Ads review, the client's team explained why a competing venue's name made sense there.",
+    "no_offer_ending": null,
+    "cover_alternates": [],
+    "offer_descriptor": null,
+    "read_time_seconds": 85
+   },
+   "locks": [
+    {
+     "at": "2026-10-24T16:23:01.551236+00:00",
+     "path": "caption.body",
+     "author": "ai@weddingindustryads.com",
+     "origin": "gate_two",
+     "delegated": true
+    },
+    {
+     "at": "2026-10-24T16:23:01.551236+00:00",
+     "path": "cover_text",
+     "author": "ai@weddingindustryads.com",
+     "origin": "gate_two",
+     "delegated": true
+    },
+    {
+     "at": "2026-10-24T16:23:01.551236+00:00",
+     "path": "script",
+     "author": "ai@weddingindustryads.com",
+     "origin": "gate_two",
+     "delegated": true
+    }
+   ],
+   "findings": [
+    {
+     "finding_id": "check_5d2de92e64bb036c",
+     "source": "check",
+     "check": "copy.sibling_overlap",
+     "piece": "reel_1",
+     "path": "caption.body",
+     "sentence": null,
+     "severity": "warning",
+     "message": "Reel 1's caption body and Reel 3's caption body repeat the same words (\"a bigger venue had come to them instead...\"): siblings repeat the idea, never the language",
+     "status": "open",
+     "resolution": null,
+     "can_attest": false
+    }
+   ],
+   "changes": [
+    {
+     "kind": "finished",
+     "path": "cover_alternates[0]",
+     "after": "One venue search kept its place. Another didn't.",
+     "before": null
+    },
+    {
+     "kind": "finished",
+     "path": "cover_alternates[1]",
+     "after": "Two competing venues showed up in a client's Google Ads",
+     "before": null
+    },
+    {
+     "kind": "finished",
+     "path": "on_screen_hook",
+     "after": "Their Google Ads showed a venue their couples also considered.",
+     "before": "Google Ads showed a venue couples also considered."
+    },
+    {
+     "kind": "finished",
+     "path": "caption.ending",
+     "after": "If your team hears these comparisons too, we'd want that knowledge in the conversation about your ads.",
+     "before": "We want the decision to fit the venue and its market, with the client's knowledge included in the reasoning."
+    },
+    {
+     "kind": "repaired",
+     "path": "cover_alternates[0]",
+     "after": "Two venue searches. Two different recommendations.",
+     "before": "One venue search kept its place. Another didn't."
+    }
+   ],
+   "published": [],
+   "content_hash": "a6fc0023f9a66e4b26ff653a582ed4434ef3719501ce8574f27dcf9a35ab1b20",
+   "editable": [
+    "title",
+    "cover_text",
+    "cover_alternates",
+    "on_screen_hook",
+    "spoken_opening",
+    "script",
+    "screens",
+    "caption",
+    "personal_lines",
+    "no_offer_ending"
+   ]
+  },
+  {
+   "key": "reel_2",
+   "channel": "reel",
+   "label": "Reel 2",
+   "kind": "stance",
+   "ordinal": 4,
+   "origin": "written",
+   "not_written_reason": null,
+   "brief_key": null,
+   "content": {
+    "cta": "none",
+    "job": "Gives Whitney's stance that competing venue searches should be judged with the owner's knowledge of which venues their couples actually compare.",
+    "kind": "stance",
+    "beats": [
+     "Open on the question every venue running Google Ads meets: does a competing venue's name mean exclude?",
+     "State the stance: a search report shows what was typed, not whether those couples would consider your venue.",
+     "Prove it in a few lines with the review: one bigger venue worth keeping in mind, one in a different market that Carmen agreed to exclude.",
+     "Close on the principle: WIA owns the advertising call, and the owner's knowledge of couples makes it a better one."
+    ],
+    "title": "A venue name isn't the whole answer",
+    "script": "Should another venue's name in your Google Ads searches automatically get excluded? Honestly, I don't think a venue name can answer that on its own.\n\nHere's how we think about it. A search report tells us what someone typed into Google. It doesn't tell us whether that couple would ever consider your venue too. And the people who often know that are you and your team, because you hear which other venues couples considered.\n\nWe saw this in a recent review. Carmen, our Google Ads lead, was going through the searches with someone on a client's team. One bigger venue was worth keeping in mind, because some of the couples who'd looked there had ended up with them. Another one, the team said, was a different market entirely, and Carmen agreed it made sense to exclude.\n\nTwo venue names in the same report, two different calls.\n\nSo when we make a recommendation about competing venues, we want both pieces in the room: the account data, and what you know about the couples who actually compare you. We still own the advertising call. We just think it's a better call when your local knowledge is part of it.",
+    "source": "new_script",
+    "caption": {
+     "body": "If you run Google Ads for your venue, you've probably seen other venues' names show up in your search terms. Some feel like obvious competitors. Some you've never heard of. And it's natural to want one simple rule for all of them.\n\nWe don't think one rule fits. In a recent review, Carmen, our Google Ads lead, heard two very different explanations from a client's team about two venues. One was a bigger venue their couples had sometimes looked at first. The other served a different market, and Carmen agreed excluding it made sense.\n\nThe account surfaced both names. Only the client's team could explain how each one related to the couples they talk with.\n\nThat's the kind of judgment we want to bring to the accounts we work on: our advertising expertise, informed by what you know about the couples who weigh your venue against others. You stay the expert on your market, and we stay responsible for the recommendation.",
+     "hook": "A search report can show who's looking at another venue. It can't show who'd also look at yours.",
+     "ending": "Your team's knowledge of who couples compare you with is worth having in every advertising conversation."
+    },
+    "screens": null,
+    "register": "spoken",
+    "cover_text": "A venue name in your Google Ads report isn't the whole story",
+    "on_screen_hook": "Should competing venues be excluded from your Google Ads?",
+    "personal_lines": [
+     "Honestly, I don't think a venue name can answer that on its own."
+    ],
+    "spoken_opening": "Should another venue's name in your Google Ads searches automatically get excluded? Honestly, I don't think a venue name can answer that on its own.",
+    "no_offer_ending": null,
+    "cover_alternates": [
+     "Your couples' real alternatives belong in your Google Ads decisions",
+     "What a search report can't tell you about competing venues"
+    ],
+    "offer_descriptor": null,
+    "read_time_seconds": 75
+   },
+   "brief_copy": null,
+   "locks": [],
+   "findings": [
+    {
+     "finding_id": "check_67220a45576ad212",
+     "source": "check",
+     "check": "copy.sibling_overlap",
+     "piece": "reel_2",
+     "path": "script",
+     "sentence": null,
+     "severity": "warning",
+     "message": "Reel 2's script and the carousel's caption body repeat the same words (\"a recent review carmen our google ads lead...\"): siblings repeat the idea, never the language",
+     "status": "open",
+     "resolution": null,
+     "can_attest": false
+    }
+   ],
+   "changes": [
+    {
+     "kind": "written",
+     "note": "Written by the finisher: the brief had no face to camera (stance) Reel",
+     "path": "*"
+    },
+    {
+     "kind": "repaired",
+     "path": "script",
+     "after": "Should another venue's name in your Google Ads searches automatically get excluded? Honestly, I don't think a venue name can answer that on its own.\n\nHere's how we think about it. A search report tells us what someone typed into Google. It doesn't tell us whether that couple would ever consider your venue too. And the people who often know that are you and your team, because you hear which other venues couples considered.\n\nWe saw this in a recent review. Carmen, our Google Ads lead, was going through the searches with someone on a client's team. One bigger venue was worth keeping in mind, because some of the couples who'd looked there had ended up with them. Another one, the team said, was a different market entirely, and Carmen agreed it made sense to exclude.\n\nTwo venue names in the same report, two different calls.\n\nSo when we make a recommendation about competing venues, we want both pieces in the room: the account data, and what you know about the couples who actually compare you. We still own the advertising call. We just think it's a better call when your local knowledge is part of it.",
+     "before": "Should another venue's name in your Google Ads searches automatically get excluded? Honestly, I don't think a venue name can answer that on its own.\n\nHere's how we think about it. A search report tells us what someone typed into Google. It doesn't tell us whether that couple would ever consider your venue too. And the people who usually know that are you and your team, because you're the ones talking with couples every week.\n\nWe saw this in a recent review. Carmen, our Google Ads lead, was going through the searches with someone on a client's team. One bigger venue was worth keeping in mind, because some of the couples who'd looked there had ended up with them. Another one, the team said, was a different market entirely, and Carmen agreed it made sense to exclude.\n\nTwo venue names in the same report, two different calls.\n\nSo when we make a recommendation about competing venues, we want both pieces in the room: the account data, and what you know about the couples who actually compare you. We still own the advertising call. We just think it's a better call when your local knowledge is part of it."
+    }
+   ],
+   "published": [],
+   "content_hash": "580630a901db775ebe25c222abb75d4ad7e63ef099c1faade65541215b6ffa6f",
+   "editable": [
+    "title",
+    "cover_text",
+    "cover_alternates",
+    "on_screen_hook",
+    "spoken_opening",
+    "script",
+    "screens",
+    "caption",
+    "personal_lines",
+    "no_offer_ending"
+   ]
+  },
+  {
+   "key": "reel_3",
+   "channel": "reel",
+   "label": "Reel 3",
+   "kind": "broll_text",
+   "ordinal": 5,
+   "origin": "finished",
+   "not_written_reason": null,
+   "brief_key": "reel_2",
+   "content": {
+    "cta": "none",
+    "job": "Lets a cold viewer follow, from three screens, how the client's team's knowledge changed how two competing venue searches were judged.",
+    "kind": "broll_text",
+    "beats": [
+     "Screen establishes Carmen's review of the client's Google Ads.",
+     "Screen credits the client's team with the comparison knowledge.",
+     "Screen distinguishes the other market and states Carmen's agreement, not a completed exclusion."
+    ],
+    "title": "Competing venues, two calls",
+    "script": null,
+    "source": "new_script",
+    "caption": {
+     "body": "You know your venue's place in the local market. You also hear which other places couples explored, and those conversations can add meaning to the searches appearing in your advertising account.\n\nIn one review, our Google Ads lead, Carmen, heard from the client's team that some couples who had looked at a bigger venue had come to them instead. That information gave the competing venue search a context worth taking into account. When a separate venue came up, the team explained that it belonged to another market and wasn't a comparable option for their couples. Carmen supported excluding it.\n\nOur view of those searches needed to reflect the difference. The account brought the names into the discussion; the client's team explained the relationship between those places and their couples.\n\nWe bring expertise to the recommendation without assuming that a report contains everything there is to know about a venue's market. Expert guidance should give relevant local knowledge a meaningful place in the decision.",
+     "hook": "A venue can be different from yours and still be part of a couple's shortlist.",
+     "ending": "That's how we want to work with venue teams: understanding the comparison before recommending what to rule out."
+    },
+    "screens": [
+     "Our Google Ads lead, Carmen, found other venues' names in a client's search terms.",
+     "The client's team knew some couples had looked at a bigger venue, then came to them.",
+     "Another venue, the team said, served a different market. Carmen agreed it should be excluded."
+    ],
+    "register": "on_screen",
+    "cover_text": "Which competitor searches belong in your Google Ads",
+    "on_screen_hook": "Some competing venue searches in Google Ads deserve a second look.",
+    "personal_lines": [],
+    "spoken_opening": null,
+    "no_offer_ending": null,
+    "cover_alternates": [
+     "Competing venue searches in Google Ads aren't all the same",
+     "Your couples' alternatives, inside your Google Ads"
+    ],
+    "offer_descriptor": null,
+    "read_time_seconds": 15
+   },
+   "brief_copy": {
+    "cta": "none",
+    "job": "Use neutral desk or review b-roll, with no client account, venue names or invented call footage. Three screens make the contrast understandable without sound; the caption develops WIA's view.",
+    "kind": "broll_text",
+    "beats": [
+     "Screen establishes Carmen's review of the client's Google Ads.",
+     "Screen credits the client's team with the comparison knowledge.",
+     "Screen distinguishes the other market and states Carmen's agreement, not a completed exclusion."
+    ],
+    "title": "Which competitor searches belong in your Google Ads",
+    "script": null,
+    "source": "new_script",
+    "caption": {
+     "body": "You know your venue's place in the local market. You also hear which other places couples explored, and those conversations can add meaning to the searches appearing in your advertising account.\n\nIn one review, our Google Ads lead, Carmen, heard from the client's team that some couples who had looked at a bigger venue had come to them instead. That information gave the competing venue search a context worth taking into account. When a separate venue came up, the team explained that it belonged to another market and wasn't a comparable option for their couples. Carmen supported excluding it.\n\nOur view of those searches needed to reflect the difference. The account brought the names into the discussion; the client's team explained the relationship between those places and their couples.\n\nWe bring expertise to the recommendation without assuming that a report contains everything there is to know about a venue's market. Expert guidance should give relevant local knowledge a meaningful place in the decision.",
+     "hook": "A venue can be different from yours and still be part of a couple's shortlist.",
+     "ending": "That is how we want to work with venue teams: understanding the comparison before recommending what to rule out."
+    },
+    "screens": [
+     "Carmen reviewed other venue names in a client's Google Ads.",
+     "The client's team knew some couples had looked at a bigger venue, then came to them.",
+     "They placed another in a different market. Carmen agreed it should be excluded."
+    ],
+    "register": "on_screen",
+    "cover_text": "Which competitor searches belong in your Google Ads",
+    "on_screen_hook": "Local knowledge mattered to a Google Ads exclusion.",
+    "personal_lines": [],
+    "spoken_opening": null,
+    "no_offer_ending": null,
+    "cover_alternates": [],
+    "offer_descriptor": null,
+    "read_time_seconds": 19
+   },
+   "locks": [
+    {
+     "at": "2026-10-24T16:23:01.551236+00:00",
+     "path": "caption.body",
+     "author": "ai@weddingindustryads.com",
+     "origin": "gate_two",
+     "delegated": true
+    },
+    {
+     "at": "2026-10-24T16:23:01.551236+00:00",
+     "path": "cover_text",
+     "author": "ai@weddingindustryads.com",
+     "origin": "gate_two",
+     "delegated": true
+    },
+    {
+     "at": "2026-10-24T16:23:01.551236+00:00",
+     "path": "screens[1]",
+     "author": "ai@weddingindustryads.com",
+     "origin": "gate_two",
+     "delegated": true
+    }
+   ],
+   "findings": [],
+   "changes": [
+    {
+     "kind": "finished",
+     "path": "cover_alternates[0]",
+     "after": "Competing venue searches in Google Ads aren't all the same",
+     "before": null
+    },
+    {
+     "kind": "finished",
+     "path": "cover_alternates[1]",
+     "after": "Your couples' alternatives, inside your Google Ads",
+     "before": null
+    },
+    {
+     "kind": "finished",
+     "path": "on_screen_hook",
+     "after": "Some competing venue searches in Google Ads deserve a second look.",
+     "before": "Local knowledge mattered to a Google Ads exclusion."
+    },
+    {
+     "kind": "finished",
+     "path": "screens[0]",
+     "after": "Our Google Ads lead, Carmen, found other venues' names in a client's search terms.",
+     "before": "Carmen reviewed other venue names in a client's Google Ads."
+    },
+    {
+     "kind": "finished",
+     "path": "screens[2]",
+     "after": "Another venue, the team said, served a different market. Carmen agreed it should be excluded.",
+     "before": "They placed another in a different market. Carmen agreed it should be excluded."
+    },
+    {
+     "kind": "finished",
+     "path": "caption.ending",
+     "after": "That's how we want to work with venue teams: understanding the comparison before recommending what to rule out.",
+     "before": "That is how we want to work with venue teams: understanding the comparison before recommending what to rule out."
+    }
+   ],
+   "published": [],
+   "content_hash": "398079f01b32184e242c5d3da80d41ce90234fafd25291ef8b97428f776ec71a",
+   "editable": [
+    "title",
+    "cover_text",
+    "cover_alternates",
+    "on_screen_hook",
+    "spoken_opening",
+    "script",
+    "screens",
+    "caption",
+    "personal_lines",
+    "no_offer_ending"
+   ]
+  }
+ ],
+ "findings": [],
+ "ready_blockers": [],
+ "before_publishing": [
+  {
+   "id": "P1",
+   "done": null,
+   "kind": "permission",
+   "text": "Obtain recorded client permission for this anonymous exchange and the reported comparisons. Hold every asset until permission is recorded.",
+   "answer": "Before posting: WIA confirms the client's okay",
+   "required": true,
+   "client_permission": true
+  },
+  {
+   "id": "P2",
+   "done": null,
+   "kind": "fact",
+   "text": "Confirm that Erin can accurately be described as a member of the client's team. Do not identify her as the owner or assign a role.",
+   "answer": "Confirmed under D12 by the WIA team: she is described only as a member of the client's team, never by name or role.",
+   "required": true,
+   "client_permission": false
+  },
+  {
+   "id": "P3",
+   "done": null,
+   "kind": "do_not_claim",
+   "text": "Keep Carmen's agreement as a recommendation, not a completed account change. Do not add competitor names, locations, price comparisons, booking claims or a claim that this client joined an Accelerator.",
+   "answer": "Kept out under D12: Carmen's agreement stays a recommendation; no competitor names, locations, price comparisons, booking claims or Accelerator membership.",
+   "required": true,
+   "client_permission": false
+  },
+  {
+   "id": "P4",
+   "done": null,
+   "kind": "cta",
+   "text": "Whitney to confirm the proposed ADS and email-reply invitations, the following-week timing, the email segment and the proposed send time.",
+   "answer": "Confirmed under D12: the ADS and email-reply invitations, with the proposed timing, segment and send time for WIA to confirm when scheduling.",
+   "required": true,
+   "client_permission": false
+  },
+  {
+   "id": "P5",
+   "done": null,
+   "kind": "other",
+   "text": "Check whether prior angle angle_b8c656564c3f3b524b723ae7 is an unpublished version of this idea. If the same central point was published within the last 90 days, hold this pack rather than repeat it.",
+   "answer": "Checked under D12 by the WIA team: the prior angle is an unpublished card from this cycle; nothing with this central point was published.",
+   "required": true,
+   "client_permission": false
+  }
+ ],
+ "client_quotes": [],
+ "stronger_with_permission": [
+  "The client's team member's own explanation of why couples chose them over the bigger venue would make the story more vivid, but it rests on a price comparison that is kept out of public copy.",
+  "Naming where the excluded venue is located would make the different-market point concrete for a cold reader, but locations are kept out of public copy.",
+  "The team member's own words about the excluded venue could carry the moment as a direct quote, but they reveal a location and the client's okay to quote has not been recorded."
+ ],
+ "pack_notes": [
+  "Locked lines in the email opening, carousel slide 3, the Reel 1 caption, the Reel 3 caption and Reel 3 screen 2 repeat close variants of the same sentence (some couples who had looked at a bigger venue had come to them instead); they were kept exactly as locked, so WIA may want to vary one at the next edit.",
+  "The email and carousel name the Google Search Accelerator with the Ads Accelerators descriptors; confirm this is the right offer name for the slot and that nothing implies the reviewed client was a member.",
+  "Reel 2's personal line (Honestly, I don't think a venue name can answer that on its own.) is listed for Whitney to keep or cut.",
+  "Reel 2 describes the bigger venue as one couples had sometimes looked at first and says they ended up with the client; confirm Whitney is comfortable that this does not read as a booking claim."
+ ],
+ "change_notes": [
+  "Email: kept the locked opening and the reply CTA; rewrote subject options to state WIA's decision and the reader's question with Google Ads named; tightened the body into the two-venue contrast, replaced the bold line with one that names Google Ads, cut repeated framing, and placed the Accelerator with its approved descriptor as the solution.",
+  "Reel 1 (anchor): script, cover and caption body kept exactly as locked; sharpened the on-screen hook, added cover alternates, softened the caption ending into a non-offer invitation, and trimmed the read time to match the script length.",
+  "Reel 2 (stance): written new from the brief's question hook, saying Whitney's stance on the same central point face to camera with the review as proof in a few lines, adding no new facts and closing on the principle with no CTA.",
+  "Reel 3: kept the locked cover, caption body and screen 2; rewrote screens 1 and 3 so a cold viewer knows the subject (competing venue names in search terms) and the different-market turn; replaced the vague on-screen hook with a specific one distinct from the carousel; tightened the caption ending.",
+  "Carousel: retitled so slide 1 carries a specific insight about the reader's Google Ads; broke dense slides into stacked lines; changed slide 2 to avoid a six-word overlap with the email opening; made slide 7 the belief slide; kept slide 3 exactly as locked; wrote a caption that opens in the reader's world, keeps the DM ADS invitation for both reader types, and added a no-offer ending."
+ ],
+ "fidelity": {
+  "open": 0,
+  "flags": [
+   {
+    "why": "Says the other search was removed, but the sources only give a recommendation, not a completed change.",
+    "path": "cover_alternates[0]",
+    "text": "One venue search kept its place. Another didn't.",
+    "piece": "reel_1",
+    "source": "Carmen agreed it should be excluded",
+    "verdict": "unsupported"
+   },
+   {
+    "why": "Adds a claim that venue teams talk with couples every week, which no source gives.",
+    "path": "script",
+    "text": "And the people who usually know that are you and your team, because you're the ones talking with couples every week.",
+    "piece": "reel_2",
+    "source": "",
+    "verdict": "unsupported"
+   }
+  ],
+  "checked": 36,
+  "repairs": [
+   {
+    "new": "Two venue searches. Two different recommendations.",
+    "old": "One venue search kept its place. Another didn't.",
+    "path": "cover_alternates[0]",
+    "piece": "reel_1"
+   },
+   {
+    "new": "And the people who often know that are you and your team, because you hear which other venues couples considered.",
+    "old": "And the people who usually know that are you and your team, because you're the ones talking with couples every week.",
+    "path": "script",
+    "piece": "reel_2"
+   }
+  ],
+  "settled": [],
+  "put_back": 0,
+  "rechecked": 10,
+  "survivors": [],
+  "check_called": true,
+  "recheck_flags": [],
+  "repair_called": true,
+  "missed_patches": [],
+  "recheck_called": true,
+  "finisher_called": true
+ },
+ "provenance": {
+  "mode": "replay",
+  "models": {
+   "writer": "anthropic/claude-opus-5.5",
+   "reviewer": "anthropic/claude-sonnet-5.5"
+  },
+  "run_id": "pack_run_271dc9aa2a2010b510293d48",
+  "brief_id": "brief_56c3db2b73764e8f8606b939ca1499bd",
+  "profiles": {
+   "pack_check": "2026-10-25.pack-check.v1",
+   "pack_finish": "2026-10-25.pack-finish.v1",
+   "pack_repair": "2026-10-25.pack-repair.v1",
+   "pack_recheck": "2026-10-25.pack-check.v1"
+  },
+  "approved_by": "ai@weddingindustryads.com",
+  "finish_mode": "finish",
+  "brief_schema": "brief_document_v4",
+  "approved_hash": "73485cb5e234ba68eabc746ba600a64c52c141ddc97512c6612b4e08a26e8cac",
+  "handoff_version": "brief_handoff_v2",
+  "approval_delegated": true,
+  "knowledge_base_version": "wia-kb-2026-10-22.c-a1a75795"
+ },
+ "change": {
+  "at": "2026-10-24T17:09:44.657335+00:00",
+  "by": "content-pack step",
+  "kind": "generated",
+  "note": null,
+  "paths": [],
+  "pieces": [],
+  "delegated": false
+ },
+ "versions": [
+  {
+   "pack_id": "pack_271dc9aa2a2010b510293d48",
+   "supersedes_id": null,
+   "manifest_hash": "a007e4c306fa43bd04163ea6696000270209b3ce7317a14c76da9f1d78e8356b",
+   "approval_status": "pending",
+   "created_at": "2026-10-24 17:09:44.657335+00:00",
+   "run_id": "pack_run_271dc9aa2a2010b510293d48",
+   "kind": "generated",
+   "by": "content-pack step",
+   "delegated": false,
+   "pieces": [],
+   "paths": [],
+   "note": null
+  }
+ ],
+ "approval_delegated": true,
+ "can_edit": true,
+ "can_decide": true,
+ "can_finish_again": true,
+ "can_mark_published": true
+}
