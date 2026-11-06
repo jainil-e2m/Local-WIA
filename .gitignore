@@ -1,0 +1,30 @@
+.env
+
+# dependencies / virtualenvs
+node_modules/
+.venv/
+*-venv/
+
+# python / tool caches
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.cache/
+npm-cache/
+
+# build + test output
+dist/
+coverage/
+.test-runs/
+.test-tmp/
+.pytest-tmp/
+.scratch-*/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# over GitHub 100 MB limit
+reference/lotus-sway/lotus_sway_alpha_prores4444.mov

@@ -1,0 +1,514 @@
+# Conversation Summary — Wedding Industry Ads
+
+**Session date:** Monday, 7 September 2026
+**Participants:** Jainil Trivedi (AI Engineer, E2M) + Claude
+**Engagement:** E2M Solutions × Wedding Industry Ads, LLC (dba LeadLock / LeadLock Pro)
+**Phase:** Audit & Blueprint, final week — Blueprint Review **Thursday 10 September**
+
+Two threads ran through this session: **understanding and scoping the Client Onboarding
+MVP** (the ClickUp provisioning automation), and **re-theming the central dashboard** to the
+Wedding Industry Ads brand. The frontend work is done and verified. The MVP is specced but
+deliberately unbuilt.
+
+---
+
+## 1. Context established
+
+### Documents in the project folder
+
+| File | Date | Status |
+|---|---|---|
+| `automation_scope.md` | 7 Sept, 1,884 lines | **The live document.** Supersedes the others |
+| `automationscope.md` | 3 Sept | Superseded — the previous 5-card scope |
+| `SEPT10-MVP-BUILD-PACK.md` | 3 Sept | The 4.75-day build pack for the *old* portfolio |
+| 4× dossier `.docx` / `.pdf` | 18 Aug | Client background (technical + discovery editions) |
+
+### Three findings flagged in `automation_scope.md` — not yet fixed
+
+1. **The MVP numbers mean two different cards in the same document.** Part 5 renumbered
+   (MVP 2 became the office-hours engine, Page Check moved to MVP 3), but Part 1.3,
+   Part 6.1, every "Status vs previous plan" line and Appendix A still use the 3 Sept
+   numbering. Literal collisions:
+   - `automation_scope.md:1136` — Page Check's own build-order line reads *"which is why
+     it survived the narrowing while MVP3 did not"* while Page Check **is** MVP 3
+   - `automation_scope.md:192` — status row `MVP2 · Page Check`, but MVP 2 is the
+     office-hours card
+   - `automation_scope.md:1816` — Appendix A: ChatGPT Project blocks *"MVP 3's
+     differentiator"* → now Page Check, which has no ChatGPT dependency
+
+   Whitney reads this Thursday with low AI literacy and a documented catalogue-paralysis
+   problem. A one-pass rename fixes it.
+
+2. **The pre-build gate is entirely unverified.** Part 7 puts four checks in hours 0–2
+   before any build code: ClickUp seat is **Member not Guest** (Guest kills offer-dependent
+   template selection outright), GHL is Agency Admin, Slack carries `channels:manage`, and
+   the GHL Communities roster endpoint exists at all. Plus the Ridgefield Drive inventory
+   (1–2 hrs), which decides the restore line.
+
+3. **One arithmetic paragraph contradicts Part 7.** MVP 2's Effort section sums to 5.25
+   days because it double-counts the spine (card 1's 2.30 *is* 1.25 spine + 1.05 card).
+   Part 7 has it right at exactly 4.00. Every other card's breakdown reconciles.
+
+### The engagement, as of today
+
+- **Timeline:** Discovery 11 Aug · Weekly Sync 1 26 Aug · Weekly Sync 2 2 Sept · access
+  request sent 3 Sept · samples received 5–7 Sept · **Blueprint Review Thu 10 Sept**
+- **Build window:** Mon 7 – Wed 9 Sept, 4.0 engineering days, half a day reserved for
+  rehearsal
+- **Commercial:** Apollo plan $9,499 quoted; the cheaper Audit & Blueprint closed instead,
+  creditable on upgrade
+- **The portfolio:** 20 automations collapse onto 5 cards on one shared ~1.25d spine, with
+  one structured cut — B3 "Nobody starts from a blank page", which was Whitney's own
+  unprompted #1 nomination
+- **The hours case is arithmetically dead:** the sheet derives to 18.1 hrs/month, only 6.0
+  client-attested, = **$175 per recovered hour** against the Apollo price. The surviving
+  cases are onboarding throughput, turnover-proofing, and founder capacity returned to
+  selling
+- **The largest cost has no row in the sheet:** Tina's monthly reporting at 18–24 hrs/month
+- **Coverage gap:** of seven people, only Whitney and Gisselle have ever been interviewed.
+  Carmen, Jacqueline, Ivy, Tina and Danielle — each a single point of institutional-knowledge
+  failure — have not
+
+---
+
+## 2. TASK-08 — the intended ClickUp flow
+
+**The audit row:** *"Client onboarding items: Create Clickup checklists, assign due dates and
+assignees"* — Gisselle, 2 hours depending, frequency depending on client onboarding, Manual,
+ClickUp, MED priority. Comment: *"When a client signs up, drafting welcome email, duplicating
+a checklist for them and assigning due dates once their kickoff call and messaging and
+positioning calls are scheduled."*
+
+### The trigger is a conjunction, and it's a Gmail signal
+
+> *"we get alerts in the Gmail inbox when they have signed the contract **and** have paid the
+> invoice"* — Whitney, 2 Sept @23:38
+> *"at this point, like, the trigger is that, like, we see in the inbox that they have signed
+> the contract and paid the invoice"* — @24:09
+
+Two separate Dubsado alerts, both to `hello@`, that must be **correlated to the same client**
+before anything fires. Upstream: sales call → recap email with a public proposal link → client
+accepts → Dubsado generates the agreement *and* the first invoice → two alerts.
+
+**Build on the Gmail alert, not on Dubsado.** Dubsado is being decommissioned into GHL offer
+by offer (@24:09) — Foolproof Follow-Up Advantage has already moved. The alert survives that
+migration; there is also no Dubsado API.
+
+### Template selection is offer-dependent and additive
+
+> *"if they're just doing the foolproof follow-up advantage, which is our, like, lead lock GHL
+> offer, then that's its own thing, versus if they're signing on for ads management as well,
+> then it's like, **we're going off both of those onboarding templates**"* — @19:59
+
+Not a 1-of-N switch. A set: `{LeadLock}`, `{Ads}`, or `{LeadLock, Ads}` — and the both-case
+means two templates merged into one client list, a materially different ClickUp operation.
+
+Confirmed to have templates: Foolproof Follow-Up Advantage, ads management.
+**Unconfirmed:** Elevate (the retainer), the two accelerators, "full service."
+
+### Due dates are gated on call scheduling — the load-bearing constraint
+
+Grammatically, *"once … are scheduled"* attaches to *assigning due dates*, not to duplicating
+the checklist. **Due dates are not computable at signature** — they anchor to call dates that
+don't exist yet, and the ads kickoff call is booked *by the client* via the link in the welcome
+email (@27:38). That's why this is "2 hours, depending" rather than one sitting: it's a task
+plus a **return visit** days later — exactly the shape of work a person forgets.
+
+| Anchor | Computable at signature? | Example tasks |
+|---|---|---|
+| Signature date | **Yes** | Welcome email, Drive folder, Slack channel, LeadLock sub-account, Gmail label |
+| Ads kickoff call | No — client books it | Access verification, keyword-research lead-in |
+| Messaging & positioning | No | Brief seeding, Ivy's creative brief, Tina's copy |
+| **Ad strategy presentation** | No — *not named in the sheet* | Carmen's keyword research (@33:01) |
+| **LeadLock kickoff** | No — *not named in the sheet* | DNS, A2P, Tina's landing pages |
+| A client approval event | **Never schedulable** | Campaign launches, testing, form go-live, URL swap |
+
+**The sheet names two call anchors; the transcript reveals four.**
+
+### Assignees are deterministic — but possibly already solved
+
+Roster map (@25:50): Carmen → Google Ads · Jacqueline → Meta Ads · Ivy → ads creative ·
+Tina → LeadLock/GHL design (landing pages, email + text nurture copy) · Danielle → LeadLock
+implementation (workflows, DNS, A2P, kickoff calls) · Whitney → every call · Gisselle → all admin
+
+> *"it's not like there are multiple team members that do the same things, right? It is just
+> like one person with set responsibilities."*
+
+But at @21:34 Whitney says: *"**I don't know if you're manually going in and assigning things
+every time**, but she's definitely manually going in and having to set due dates for
+everything."* She hedges on assignees and is certain about dates. **If the templates already
+carry assignees, that leg of this MVP is worth nothing and the entire value is due dates plus
+visibility.**
+
+### What the checklist contains: two parallel tracks converging
+
+**Track A — ads.** Ads kickoff call (expectations, education, live access collection — she
+takes remote control of their screen, @29:00–29:12) → messaging & positioning interview →
+ad strategy presentation with Carmen (keyword plan approved live on the call) → Carmen builds
+Google Search + records a Loom for sign-off; Jacqueline runs three sequential Meta approval
+cycles (attraction → conversion → retargeting), each review-approve-launch.
+
+**Track B — LeadLock,** running *"typically… simultaneously"*, headed by Danielle. LeadLock
+kickoff scopes the build (inquiry / pre-tour / post-tour workflows, booking pages,
+privacy-policy page) and does live technical setup: create client as user, connect email +
+calendar, purchase phone number, get DNS access → DNS records → A2P registration → Tina builds
+pages and writes all nurture copy → email for review → edits → internal + client testing →
+official LeadLock onboarding call → form goes live on the client's site.
+
+**The convergence:** *"then it's a matter of going back to Jacqueline and Carmen and saying,
+hey, LeadLock is live now, this page is approved, we need to switch the URL for the campaigns."*
+
+**Terminal state:** *"Once all of those campaigns are launched, like, that's when we consider
+the client fully onboarded, and then that's when we would shift more into the monthly
+maintenance"* — recurring 30-min 1:1, monthly reports begin.
+
+### Why the chase happens — and what it means for dates
+
+Roughly **11 client-dependent gates** in that chain: book the kickoff call, grant access on it,
+fill the questionnaire, approve the keyword plan, approve the Google build, approve three
+separate Meta ad cycles, approve the LeadLock build, test the workflows, approve at the
+LeadLock onboarding call. Plus log in, connect email + calendar, buy a phone number, hand over
+DNS.
+
+Whitney's Aug 26 @16:54 complaint maps onto this exactly. But structurally, most of the chase
+is the *team blocked on the client*. **A due date on a client-gated task is noise** — it goes
+overdue through no fault of the assignee, and on a team that already only uses ClickUp to tick
+boxes, false-overdue is how the tool gets ignored.
+
+### The signature fan-out is eight artifacts, not five
+
+1. Welcome email — three payloads: countersigned contract, kickoff booking link, questionnaire
+2. **ClickUp onboarding list(s)** ← this row
+3. Client Google Drive folder + sales call recording, contract, questionnaire
+4. Per-client Slack channel
+5. Team Slack announcement
+6. LeadLock sub-account
+7. Per-client ChatGPT Project, seeded with the questionnaire
+8. **Gmail label + back-filing their lead-stage emails** — Aug 26 @37:34, easy to miss because
+   it's in the earlier call; blocked on Gmail scope on `hello@`
+
+### Hard constraints
+
+- **Human in the loop, scoped to client-bound output.** @8:01: *"we'll review any drafts before
+  they go out."*
+- **ClickUp is a write target, not a coordination surface.** @42:16: *"the team has never, like,
+  fully adopted ClickUp other than to just, like, check off the tasks."* So task descriptions
+  must be self-sufficient, notification must land in Slack, and nothing can require the team to
+  comment in ClickUp.
+- **Whitney is open to process change** (Aug 26 @39:09) as long as the output is good and client
+  experience isn't affected. She invited it twice.
+
+---
+
+## 3. Scope decision
+
+**In scope:** signature → ClickUp onboarding list exists, with the right tasks assigned.
+
+- Trigger: the two-alert conjunction, correlated to one client
+- Offer → template set: `{LeadLock}`, `{Ads}`, or both merged
+- Instantiate the list(s); assignees from the closed roster map
+- One review gate before the writes land
+
+**Out, deferred to separate automations:** welcome email and its three payloads · Drive folder ·
+per-client Slack channel · team announcement · LeadLock sub-account · ChatGPT Project seeding ·
+Gmail label and back-filing · everything recording-driven (recaps, action items, filing
+transcripts) · the entire Track A/B lifecycle past list creation · the monthly-maintenance
+handoff.
+
+This narrows the audit row itself — the row names "drafting welcome email", which is now out.
+The upside: nothing in this MVP can reach a client, which makes the gate design much simpler.
+
+**Due dates stay in, split two ways.** Phase 1 sets every date computable off the signature
+date and renders the rest as `pending — awaiting kickoff call`. Phase 2 (the calendar backfill)
+gets decided after reading the actual template — if the templates carry relative offsets, it's
+arithmetic rather than a build.
+
+---
+
+## 4. The Dubsado alerts — evidence and findings
+
+Two real forwarded alerts were provided. Both are **subject-line-only**; the bodies carry a
+greeting to Whitney and a link, nothing structured.
+
+```
+Paid:   {FirstName} has paid {Amount} {Currency} - {ProjectName}
+Signed: {FirstName} has signed your contract for {ProjectName}
+```
+
+| Field | Alert 1 | Alert 2 |
+|---|---|---|
+| Subject | `Alina has paid 1997.00 USD - Dogwood Reserve` | `Brittanie has signed your contract for The Elia` |
+| From → To | `noreply@dubsado.com` → `hello@weddingindustryads.com` | same |
+| Original date | Mon, Aug 24 2026, 10:43 AM | Thu, Aug 27 2026, 11:02 AM |
+| Forwarded | Sat, Sep 5, 3:29 AM by Whitney | Sat, Sep 5, 3:28 AM |
+
+### Five findings
+
+1. **Both alert types exist** — that open ask is closed.
+2. **There is no matched pair.** Dogwood Reserve has a *paid* alert; The Elia has a *signed*
+   alert. Two halves, two different clients — so the conjunction correlator has nothing to test
+   against end to end.
+3. **Order is not guaranteed.** The correlator must be order-agnostic: a pending-pairs table
+   keyed on project name, with a timeout for a half-pair that never completes.
+4. **The offer name is nowhere on either alert.** The subject carries the *project*, never the
+   offer. Candidate sources: the contract link, the amount as a lookup, or a human picking it.
+   `$1,997.00` matches the published **Google Search Accelerator** price exactly — but treat
+   that as a hypothesis: `$1,697` is ambiguous between the Meta Accelerator and LeadLock setup,
+   and a retainer's first payment won't equal list price. Amount also only appears on the *paid*
+   alert, so it can't help at signature.
+5. **The project name is the client identity, not the person.** "Alina / Dogwood Reserve" and
+   "Brittanie / The Elia" — the person is the signatory, the project is the venue. Match on
+   **project, not person**: the payer and the signer can differ.
+
+**Sharper question raised by finding 4:** if Dogwood Reserve is an accelerator client, they get
+the members portal and office hours (Aug 26 @15:50) — and the templates Whitney described were
+for LeadLock and ads management. **The trigger may need to filter, not just fire.**
+
+---
+
+## 5. Architecture decided
+
+Poll → classify → dedupe → hold for approval → provision. Polling is right: this isn't
+latency-sensitive (today the delay is however long until Gisselle notices the alert), so every
+15–60 minutes is plenty. No push/watch needed.
+
+### Three corrections to the naive design
+
+**1. "Already onboarded or not" can't be binary.** Two alerts per client, so a single alert from
+a not-yet-onboarded client is not a green light. Three outcomes:
+
+```
+already provisioned  → ignore
+half-pair pending    → attach, re-check if pair now complete
+never seen           → open pending record, wait
+```
+
+**2. The sender filter will catch recurring payments, and month 2 looks identical to month 1.**
+`from:noreply@dubsado.com` catches every Dubsado notification — form submissions, proposal
+views, bookings, reminders, receipts — so subject-pattern matching is needed on top. But the one
+that will actually bite: **Elevate is a monthly retainer.** Month 2's payment fires the identical
+subject shape. *That* is the real reason the already-provisioned check exists.
+
+**3. Source of truth for the dedupe.** Own state store as the primary key (deterministic);
+ClickUp checked as a **soft warning** on the card (*"a list matching 'The Elia' already exists —
+provision anyway?"*) rather than making fuzzy name matching load-bearing. **Seed the store before
+the first poll** — otherwise run one scans 90 days of Dubsado mail against an empty store and
+tries to onboard the entire existing client book.
+
+### The honest gap
+
+The production query can't be run: `from:noreply@dubsado.com` lives in `hello@`, and **Gmail
+scope on `hello@` was never requested**. What exists are forwards in the engineer's mailbox,
+where the envelope belongs to Whitney and the real sender and date are text inside the body. The
+MVP poller parses the forwarded header block, and the dashboard card should say
+`source: forwarded alert (Gmail scope on hello@ not granted)`.
+
+### Why a dashboard rather than Slack
+
+The `awaiting_pair` state is what justifies it. A Slack message saying "Brittanie signed The
+Elia" scrolls away, and there's no persistent answer to *"which signed clients haven't paid
+yet?"* A board answers that by existing — and that state currently lives in Whitney's head.
+
+Caution noted: "dashboard" appears **zero times** across both transcripts, ClickUp was never
+adopted precisely because it's a surface nobody visits, and *"so much of our operations are in
+Slack right now"* (@42:16). So the **notification** should land in Slack and deep-link into the
+card. Gisselle's own sheet says *"I tend to forget"* on two separate rows.
+
+---
+
+## 6. The MVP mock flow
+
+Full screen-by-screen spec was delivered in-session. Summary:
+
+**Where it lives.** The card currently routes to `/automations/technical-seo` (the generic audit
+runner). It needs its own page — same pattern Lead Magnet already uses:
+`tools.ts → route: "/onboarding"` (id stays `technical-seo`), plus a route in `main.tsx` behind
+`RequireAuth`.
+
+**State model.** One card per client, keyed on project name:
+`AWAITING PAIR → NEEDS OFFER → READY → [preview] → PROVISIONED → DATES PENDING`
+
+**Screen 1 — The board.** Poll status strip with a `MOCK` badge and a "Check now" button, then
+three groups: *Ready to provision*, *Awaiting pair*, *Ignored* (with reasons). The two real
+forwarded alerts become the two `AWAITING PAIR` cards with ages on them — **the strongest demo
+beat, and the only part of this MVP that delivers value before a single ClickUp task is
+written.** The matched pair must be labelled as constructed.
+
+**Screen 2 — Review & provision.** Four panels: (A) trigger evidence with both raw subjects and
+parsed fields, plus a forwarded-envelope caveat; (B) offer selection — a *required* human step,
+with an amount-derived hint labelled as a guess; (C) the resolved task list grouped by template,
+assignees pre-filled, dates in three states (`✓` dated, `⧗` awaiting a call date, `⊘`
+client-gated, no date ever); (D) an explicit will-write / will-not-write table. Then
+Provision / Edit / Discard.
+
+**Screen 3 — Provisioned.** Shows what was created with a link out to ClickUp. For the MVP the
+"write" renders the exact ClickUp API payload it *would* have sent — more convincing than a fake
+success, and it's the artifact to check against the real template the moment the seat is
+confirmed.
+
+**Screen 4 — Date backfill.** Four date inputs (kickoff, M&P, ad strategy, LeadLock kickoff) —
+manual in the mock, a calendar read in production — then "14 due dates now computable →
+Review & apply."
+
+**Two guard demos worth showing:** the recurring-payment ignore (month-2 Elevate), and the
+half-pair that never completes.
+
+---
+
+## 7. Frontend work completed
+
+Repo: `frontend/` — `wahha-automation-hub`, Vite 6 + React 18 + Tailwind + framer-motion.
+**All work verified live in the browser. Type-check clean, 303/303 `src` tests pass, production
+build clean.** Lint unchanged at 2 pre-existing `AuditPanel.tsx` warnings. Two pre-existing
+failures in `server/favicon-resolver.test.mjs` (SSRF boundary, PWA icon picking) were left
+alone — unrelated to any change here.
+
+### 7a. Light-theme flip to the WIA brand
+
+Decision taken by the user after being offered a dark re-tint vs. a literal light flip: **light
+flip**, matching the extracted spec (`#ffffff` ground, `#000000` text, `#5070ff` primary).
+
+| File | Change |
+|---|---|
+| `tailwind.config.js` | `brand.*` repointed to the WIA extraction + 4 light-theme neutrals; `pulse-ring` glow follows the primary |
+| `src/index.css` | CSS vars → light theme; `.bg-hero`, `.hero-grid`, `.text-gradient-brand`, `.bg-ink` rebuilt |
+| `src/components/Header.tsx` | ~20 utilities inverted (pills, scrolled bar, dropdown, avatar, icons) |
+| `src/components/Hero.tsx` | 17 utilities + three aurora orbs, particles, spotlight, bottom fade |
+| `src/components/HeroVisual.tsx` | Glow + drop-shadow for a white ground |
+| `src/components/ui/button.tsx` | All 5 variants — every hover previously resolved to white, invisible on a white page |
+| `public/logo-ink.svg` | **New** — `logo-white.svg` disappears on a white header |
+
+**Palette:** `primary #5070ff` · `secondary #4b4137` · `accent #221e17` · `orange → #c39878`
+camel · `teal → #87725f` mocha · plus `mist #e0dfe2`, `stone #c7beb2`, `slate #9da2b1`,
+`gray #6d6e6d`. Nothing invented, per the spec's own rule. Original key names kept and repointed
+so all existing `brand-*` classes resolve; `orange` and `teal` are now misnomers, documented in
+a comment.
+
+**Known accessibility note:** white text on `#5070ff` at 14px bold is **4.08:1**, just under
+AA's 4.5:1. That is WIA's own button spec verbatim (`rgb(82,113,255)` bg, white text), so it was
+reproduced rather than silently deviated from — but it's an inherited issue, and dropping the
+fill a few points would fix it.
+
+**Deliberately not changed:** the overlays' internal card colours (hardcoded per-tool, not
+token-driven), shape and type (the spec wants 0px button radius and
+`glacialindifferenceregular` / `Times New Roman` — non-colour changes), `--destructive` (no red
+in the palette), and the other routes (they share the tokens and pick the palette up
+automatically, which is fine since they're being removed).
+
+### 7b. Content: Wahha Design → Wedding Industry Ads
+
+| File | Change |
+|---|---|
+| `index.html` | Title, description, favicon |
+| `src/components/Header.tsx` | Logo → `/logos/wia_logo.webp` at `h-11 md:h-12`; alt + aria-label |
+| `src/components/Hero.tsx` | Greeting gated on auth; link → `weddingindustryads.com`; timeline removed |
+| `src/data/user.ts` | Fallback display name |
+| `src/components/Header.test.tsx` | Logo alt-text assertion |
+
+- **Greeting:** now `{greeting()}` plus ` · {firstName}` only when
+  `status === "authenticated" && user?.name`. Verified live signed-out: the eyebrow reads
+  exactly `Good evening`. The signed-in branch was read but not exercised — the BFF on :8787
+  isn't running.
+- **Timeline removed** cleanly: button, `timelineOpen` state, the `<TimelineModal>` render, and
+  the now-unused `CalendarRange` + `TimelineModal` imports. `resolveTimelineView()` kept
+  because the stats row reads its tally; `TimelineModal.tsx` left on disk, its own tests
+  untouched and passing.
+- **Favicon** later repointed to `/logos/wia_favicon.png` (the "WIA" monogram) — holds up far
+  better at 16px than the three-line badge. `public/favicon.png` (the old Wahha mark) is now
+  unreferenced but was left in place.
+
+### 7c. Renames
+
+| Target | From | To |
+|---|---|---|
+| Header label | `Automation Hub` | `Command Center` |
+| Hero headline line 2 | `one command center.` | `ONE SINGLE HUB` |
+| Modal eyebrow | `Automation Hub` | `Command Center` |
+| Tab title | `Automation Hub — …` | `Command Center — …` |
+
+Still saying "Automation Hub", left alone on purpose: `TimelineModal.tsx:280` (unreachable),
+`Footer.tsx:61` (not rendered), the four other routes being removed, and `package.json`'s
+`wahha-automation-hub` name (ties into the repo URL and Docker config — a separate call).
+
+**Naming options offered before the pick:** *The Agency Brain* (recommended — Whitney's own
+Aug 11 phrase, *"We have the agency brain"*), *The Registry*, *Something Blue*, *First Look*,
+*The Reception*, *Mission Control*, *The Back Office*, *Ops Desk*. The user chose
+**Command Center**.
+
+### 7d. Automation library re-theme + first card rename
+
+`src/data/tools.ts` — the five card gradients now run one ramp across WIA's two colour
+families: **deep blue → indigo → slate-violet → brown → mocha.**
+
+| Card | from → to |
+|---|---|
+| **Client Onboarding** *(renamed)* | `#3644b8` → `#4a5ce0` |
+| AI Crawlability | `#3a3f96` → `#4d55b4` |
+| AI Presence Checker | `#3c3a6e` → `#52508e` |
+| On-Page SEO | `#4b4137` → `#6a5b4a` |
+| Lead Magnet | `#5c4c3c` → `#7a6752` |
+
+These are **shades** of the extracted hues, deepened — a contrast decision, not a taste one:
+card copy is white, and the palette's light end (`#8da1fd`, `#c39878`) sits near 2.2:1 against
+white type. Every stop clears 5.3:1.
+
+`src/components/AutomationsModal.tsx`: scrim → `rgba(34,30,23,0.6)` (brand warm ink, still dark
+because the page under it is white now); card edges → `border-brand-slate/55` raised, `/25`
+resting; card shadow → warm ink; the "Live" dot → `brand-sky` periwinkle, because `brand-teal`
+now resolves to the brand's *mocha* and a brown "live" dot doesn't read as live (there is no
+green in the extracted palette).
+
+**Rename propagation, flagged:** `name` was renamed in `tools.ts` — the single source — keeping
+`id: "technical-seo"` so the route, the `/api/technical-seo` BFF mount, the `auditType`
+cross-reference, and the HistoryPage/timeline joins all keep working (the same pattern the
+`ai-seo` entry already documents). But `ToolPage.tsx:90` renders `tool.name`, so the page behind
+the card now also says "Client Onboarding". Two leftovers on that card were not touched: its
+`description` still describes crawl audits and Core Web Vitals, and its icon is still `Gauge`.
+Neither shows in the fan; both show on the inner page.
+
+---
+
+## 8. Open questions, in priority order
+
+1. **ClickUp seat = Member, not Guest.** Guests cannot read templates. This kills the
+   offer-dependent selection outright, and it is the single gate on whether this MVP is
+   possible at all.
+2. **Do the templates carry due-date offsets already?** If yes, the phase-2 backfill is
+   arithmetic and this MVP is small and honest. If Gisselle sets them from judgement each time,
+   her rules have to be extracted — and **nobody has asked her.**
+3. **Are assignees pre-set on the templates?** Whitney hedged; decides half this card's value.
+4. **Do accelerator signups even get a ClickUp list?** The one real paid alert is `$1,997`, the
+   published Google Search Accelerator price. If accelerator clients only get the portal, the
+   trigger needs to filter.
+5. **List template or task template**, and where the client's list lives (Space, Folder-per-client,
+   or one Onboarding list). Different ClickUp endpoints; the merge-two-templates case behaves
+   differently for each.
+6. **The offer→template map**, and the offer string exactly as it appears on the alert.
+7. **How the four call anchors get booked and where their dates are readable** — likely a GHL
+   calendar, given everything else is GHL. This is the phase-2 trigger and it's undefined.
+8. **Gmail delegation or API scope on `hello@weddingindustryads.com`** — never requested. The
+   single biggest unlock: it converts the trigger from a paste into the real thing, and unblocks
+   TASK-04's triage half (the sheet's #1 HIGH row).
+9. **Onboarding volume per month.** The one place in this engagement where an hours claim is
+   defensible — `2 hrs × N` — and N was never given. Whitney says *"we're onboarding a lot of
+   clients"* (@32:16), which is directional, not a number.
+10. **One matched pair** for a single client, and **one raw non-forwarded alert** so the parser
+    sees real envelope headers.
+
+### Cheap asks worth bundling into one reply to Gisselle
+
+- One contract link — solely to see whether the offer/package name appears on that page. If it
+  does, offer detection can be automatic and the human step becomes confirm-not-choose.
+- The two items above (matched pair, raw alert).
+- The volume question.
+
+---
+
+## 9. Session state at close
+
+- Dev server running on `localhost:5173`; `.claude/launch.json` created at the project root
+  (`npm --prefix frontend run dev`, port 5173)
+- The BFF on `:8787` is **not** running, so `/api/auth/session` returns 500 and the app renders
+  signed-out. Unrelated to any change made here.
+- No backend or MVP implementation code was written. The onboarding flow is specced only, by
+  explicit instruction.

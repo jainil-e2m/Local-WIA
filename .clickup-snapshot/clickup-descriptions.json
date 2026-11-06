@@ -1,0 +1,1076 @@
+{
+ "fetchedAt": "2026-09-09",
+ "note": "Task descriptions + checklists + hyperlink targets, recovered from the ClickUp API (include_markdown_description=true). The earlier clickup-templates.json captured only descriptionLength; this file carries the actual text.",
+ "lists": [
+  {
+   "id": "901101886878",
+   "name": "Client Management",
+   "tasks": [
+    {
+     "name": "Bi-weekly Lead Funnel Progression Monitoring",
+     "parent": null,
+     "description": "Review how leads from ads are moving through the funnel in LeadLock (from lead capture to tour bookings/conversations). Check both the ad performance and post-lead engagement. Touch base with the client on progress and any strategic adjustments needed.\n\nVideo walkthrough",
+     "checklists": [],
+     "links": []
+    }
+   ]
+  },
+  {
+   "id": "901112080381",
+   "name": "LeadLock Onboarding",
+   "tasks": [
+    {
+     "name": "Add noindex Tag to Funnel Header Code",
+     "parent": "868kjnchd",
+     "description": "1. In HighLevel, open the funnel > Settings > Tracking Code > Header.\n2. Paste exactly this line:\n   <meta name=\"robots\" content=\"noindex, nofollow\">\n3. Save, then publish the funnel.\n4. Repeat for every funnel on the sub-account's domain. Header code applies per funnel, not per domain - one funnel can be tagged while another on the same domain is not.\n5. Verify: open a live page, view page source (Cmd+Option+U / Ctrl+U), search for \"robots\". It must appear as name=\"robots\". Or post the domain in the client Slack channel and tag @Viktor to check.\n\nDo not use the SEO section's custom meta tag field (Name: Robots / Content: Noindex, nofollow). It outputs <meta property=\"Robots\"> and Google ignores property=; only name= is honored. Confirmed on Ridgefield and The Penny, 8/21/26.\n\nNote for client conversations: Google only acts on the tag at its next crawl, typically days to a few weeks. Confirming a page has actually dropped out of search, or forcing faster removal, requires Search Console access on that domain.",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Submit A2P Registration",
+     "parent": "868frdufe",
+     "description": "Make sure the account has a phone number",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Automations",
+     "parent": "868frdufe",
+     "description": "Check Email/SMS Compliance workflows and publish all",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Funnels",
+     "parent": "868frdufe",
+     "description": "Connect Subdomain (Info.domain)\nCheck Email Preferences Funnel \nConnect Subdomain (Preferences.domain)\nConnect Branded Domain (Links.domain)",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Check Forms",
+     "parent": "868frdufe",
+     "description": "Set email preferences\nSMS compliance",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Custom Values",
+     "parent": "868frdufe",
+     "description": "Complete as many custom values as possible",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Privacy Policy",
+     "parent": "868frdufe",
+     "description": "Update the language on page as needed\nConnect privacy policy to subdomain - info.domain",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Obtain Zoom Link",
+     "parent": null,
+     "description": "Get a link for the client’s personal Zoom room if they will be doing virtual consultations",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Phone Number",
+     "parent": "868kjmpcx",
+     "description": "Help Client select a phone number similar to their existing business phone number",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Billing",
+     "parent": "868kjmpcx",
+     "description": "Have the client add their CC for monthly subscription",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "My Profile",
+     "parent": "868kjmpcx",
+     "description": "Email (2-way sync)\nConnect Calendar\nConnect Video Conferencing (If using Google)",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Integrations",
+     "parent": "868kjmpcx",
+     "description": "Google\nMeta",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Create Texts",
+     "parent": null,
+     "description": "Our usual automated text messages for inquiry and post nurture",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Share project timeline",
+     "parent": "868j0p697",
+     "description": "MODIFY DATES:\n\nWe are looking at the timeline below for this project (Subject to client's response and feedback). Due dates will be set in ClickUp checklists.) \n\nWeek 1 (May 27 – June 3) Kickoff call to make initial tech connections and set up the necessary accounts, as well as getting access to branding assets, photos, and template emails.\n\nWeek 2 (June 3 – June 10) Start BTS tech setup (phone setup, DNS, A2P, snapshot) and design/copy work.\n\nWeek 3 (June 10 – June 17) Complete implementation and review design work.\n\nWeek 4 (June 17 – June 24) Launch implementation. Share assets with the client for feedback and schedule an onboarding call.",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Create Bookmarks folder",
+     "parent": "868j0p697",
+     "description": "Create bookmarks folder and include client google drive and clickup checklist",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Send offboarding email",
+     "parent": null,
+     "description": "Email template:",
+     "checklists": [],
+     "links": [
+      {
+       "text": "https://docs.google.com/document/d/174QYRCyNH--oqsq56BY7Vw10YlhTcVUi2HToBdd2IvE/edit?tab=t.0",
+       "url": "https://docs.google.com/document/d/174QYRCyNH--oqsq56BY7Vw10YlhTcVUi2HToBdd2IvE/edit?tab=t.0"
+      }
+     ]
+    },
+    {
+     "name": "Share details with team in Slack",
+     "parent": "868j0p697",
+     "description": "TEMPLATE:\n\nHi @Danielle McGinnis and @Tina Henares! Tirzah Caffee at Meriwether Manor has signed on for the Foolproof Follow-Up Advantage, and her kickoff call is scheduled for May 27th \n\nHere's everything you need to get familiar with the account:\nGoogle Drive folder and Onboarding Checklist are in the Bookmarks folder of this channel\nLeadLock Kickoff Call Worksheet is also included in the Google Drive folder\n\nThings to note:\n(EXAMPLE) Their intake form has not been filled out completely, so we need to follow up before her kickoff call for more details. \n\n@Whitney Hodges Let us know if there are any other details to be aware of!",
+     "checklists": [],
+     "links": [
+      {
+       "text": "@Danielle McGinnis",
+       "url": "https://weddingindustryads.slack.com/team/U0AFN0NUZ9C"
+      },
+      {
+       "text": "@Tina Henares",
+       "url": "https://weddingindustryads.slack.com/team/U07J56D53RD"
+      },
+      {
+       "text": "@Whitney Hodges",
+       "url": "https://weddingindustryads.slack.com/team/U04LHK2MJVC"
+      }
+     ]
+    },
+    {
+     "name": "Load Snapshot",
+     "parent": "868kjmz9b",
+     "description": "SOP Link: https://docs.google.com/document/d/1QZmSew5pc6MTC94Zn4dHbuN3osDKue9EL48TC7Toq1A/edit?tab=t.0",
+     "checklists": [],
+     "links": [
+      {
+       "text": "https://docs.google.com/document/d/1QZmSew5pc6MTC94Zn4dHbuN3osDKue9EL48TC7Toq1A/edit?tab=t.0",
+       "url": "https://docs.google.com/document/d/1QZmSew5pc6MTC94Zn4dHbuN3osDKue9EL48TC7Toq1A/edit?tab=t.0"
+      }
+     ]
+    },
+    {
+     "name": "Turn on SaaS Account Payment Plan",
+     "parent": null,
+     "description": "Agency view > Select Subaccount > Click Select Plan Now > Select $147 (LeadLock Founding Member)",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Send Approval Email to Client",
+     "parent": null,
+     "description": "Share implementation with the client for feedback and include the Launch Call Booking Link to get the Launch Call scheduled.",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "A2P Compliant Website",
+     "parent": "868kj1wvq",
+     "description": "Very basic, branding and copy should match the client's existing website, but this is an asset that won't actually be used so don't spend too much time on this. The purpose of this website is to gain A2P approval for SMS marketing.\n\nHomepage\nAbout page\nContact page\nPrivacy policy\nTerms and conditions",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "A2P Prep & Registration",
+     "parent": null,
+     "description": "",
+     "checklists": [
+      {
+       "name": "Privacy Policy",
+       "items": [
+        "Update language on page as needed (design doesn’t matter at this point)",
+        "Connect privacy policy to subdomain - info.domain"
+       ]
+      },
+      {
+       "name": "Custom Values",
+       "items": [
+        "Complete as many custom values as possible"
+       ]
+      },
+      {
+       "name": "Check Forms",
+       "items": [
+        "Set email preferences",
+        "SMS compliance"
+       ]
+      },
+      {
+       "name": "Funnels",
+       "items": [
+        "Check A2P 10DLC Funnel (design doesn’t matter)",
+        "Connect subdomain - info.domain",
+        "Check Email Preferences Funnel (design doesn’t matter at this point)",
+        "Connect subdomain - preferences.domain",
+        "Connect Branded Domain - links.domain"
+       ]
+      },
+      {
+       "name": "Automations",
+       "items": [
+        "Check Email/SMS Compliance workflows. Publish all.",
+        "Check A2P 10DLC workflow. Publish.(need a user account created to publish) Also need to create triggerlink in the marketing tab for wait step"
+       ]
+      },
+      {
+       "name": "Other",
+       "items": [
+        "Customize chat widget (logo, font, colors)",
+        "Test A2P 10DLC Funnel + Workflow (email works, text works only after A2P is approved)",
+        "Submit A2P Registration (make sure the account has a phone number)",
+        "Configure consult/tour calendar event",
+        "Embed calendar on calendar funnel"
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "name": "Send channel Slack Message to Tina",
+     "parent": "868kjmz9b",
+     "description": "1.) Review Tina's task list and add or remove tasks as needed.\n2.) Send channel Slack message using template below:\nHi Tina! I hope that you are doing great. We have another client ready to onboard in LeadLock. Some of their information is linked above in Gisselle's message, but I am also including additional information about the project below. (cc Gisselle)\n \nBrand Assets\nWebsite\n \nForms:\nWebsite Inquiry Form\nAds Inquiry Form\n \nEmails:\nNurture Sequence (with 2 different 1st emails, the rest of the sequence can be generic)\nDifferent Welcome Email for Honeymoon \nCTA - Fill out this questionnaire (need the questionnaire from Kerri)\nDifferent Welcome Email for Destination Weddings\nCTA - Book A Consultation\nPost Consult Nurture Sequence (5)\nConsult Reminder Sequence\nCancellation & No Show Emails\n \nFunnels:\nZoom Room (1)\nCalendar Funnel (1)\nWebsite TY Page\nAds TY Page\nPreferences Funnel\nLegal Pages\n \nPlease let me know if you have any questions. I would love to present this to [Client] next [day of the week], [date]. Please let me know if this is doable with your schedule and how I can support you.\n \nThank You!",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Send Follow-up Email to client",
+     "parent": "868kjmz9b",
+     "description": "Use this  Post-Kickoff Call Email template and tailor",
+     "checklists": [],
+     "links": [
+      {
+       "text": "Use this Post-Kickoff Call Email template and tailor",
+       "url": "https://docs.google.com/document/d/1uVo3XwAFCvto18d_7PPAQwj1cPqCJ1FrVqUSGVWkQNU/edit?tab=t.0"
+      }
+     ]
+    },
+    {
+     "name": "Upload Call Recording to Google Drive",
+     "parent": "868kjmz9b",
+     "description": "Look for the client's folder in the Foolproof Follow-Up Advantage Folder and upload it to the client's folder inside the Recordings & Summaries folder.",
+     "checklists": [],
+     "links": [
+      {
+       "text": "Foolproof Follow-Up Advantage Folder",
+       "url": "https://drive.google.com/drive/folders/1CwMMJox4aSFSO-jjPfX20emRC-YyymeG?usp=drive_link"
+      }
+     ]
+    },
+    {
+     "name": "Complete Client Kickoff Call",
+     "parent": null,
+     "description": "Review LeadLock Kickoff Call worksheet Pt. 1",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Create LeadLock Subaccount",
+     "parent": null,
+     "description": "SOP: Creating a Sub-Account for the Client in LeadLock",
+     "checklists": [],
+     "links": [
+      {
+       "text": "SOP: Creating a Sub-Account for the Client in LeadLock",
+       "url": "https://docs.google.com/document/d/1HQK8ntDcBkzHUApsjhn4QSwlPduKWl8yLiUVwcfWPwE/edit?tab=t.0"
+      }
+     ]
+    },
+    {
+     "name": "Add LeadLock Kickoff Call Worksheet",
+     "parent": "868frdmcj",
+     "description": "Make a copy of the LeadLock Kickoff Call Worksheet Template\nUpdate the title with the client’s name.",
+     "checklists": [],
+     "links": [
+      {
+       "text": "LeadLock Kickoff Call Worksheet Template",
+       "url": "https://docs.google.com/document/d/1v3YYFQTRhDhCBRHcyaH5zsQAQeJslEZUGIMLHed7gVg/edit?tab=t.0"
+      }
+     ]
+    },
+    {
+     "name": "Check and Upload Brand Assets",
+     "parent": "868frdm58",
+     "description": "Review the answers in the questionnaire and check the uploaded assets.\nDownload any files the client included to the client folder in Google Drive in the Brand Assets folder.\nIf the client included links, ensure we have access to them.\nIf client is missing any items, email them from hello@leadlockpro.com (cc support@leadlockpro.com)",
+     "checklists": [],
+     "links": [
+      {
+       "text": "hello@leadlockpro.com",
+       "url": "mailto:hello@leadlockpro.com"
+      },
+      {
+       "text": "support@leadlockpro.com",
+       "url": "mailto:support@leadlockpro.com"
+      }
+     ]
+    },
+    {
+     "name": "Create Google Drive Client Folder",
+     "parent": null,
+     "description": "Create a folder titled the client's company name in the appropriate service in the shared drive - WIA | Clients. This folder will not be shared with the client.\nCreate a subfolder titled \" WIA + Client's company name\" \nModify the access to \"Anyone with the link\" is viewer as this will be shared with the client.\nInside the client folder created the following folders:\nBrand Assets\nCall Recordings & Summaries",
+     "checklists": [],
+     "links": [
+      {
+       "text": "WIA | Clients",
+       "url": "https://drive.google.com/drive/folders/1hNgm5xfG-TxdHK37Rb-0DcyQ_2tnlRwI?usp=drive_link"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "901112430846",
+   "name": "Google Ads VIP Day",
+   "tasks": [
+    {
+     "name": "Customize Strategy/Budget Template",
+     "parent": null,
+     "description": "Google Ads Strategy and Budget \nKeyword Planning Template",
+     "checklists": [],
+     "links": [
+      {
+       "text": "Google Ads Strategy and Budget",
+       "url": "https://docs.google.com/document/d/1s20dW2_z12gr3J3XY11cIIbK8qS-RX6nNCDouk6m8Bw/edit?tab=t.0#heading=h.c43eumufnvxp"
+      },
+      {
+       "text": "Keyword Planning Template",
+       "url": "https://docs.google.com/spreadsheets/d/1tOnUXRUf974DLglyRCze7uHTtqVXhbwKK4eeEkcT3Qw/edit?gid=0#gid=0"
+      }
+     ]
+    },
+    {
+     "name": "Upload Call Recording to Drive",
+     "parent": null,
+     "description": "Upload call recording to the call recordings folder for internal documentation.",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Create Google Drive Client Folder",
+     "parent": null,
+     "description": "This channel will be for internal documentation purposes only and will not be shared with the client. \nCreate a folder titled the client's company name \nInside the client folder created the following folders:\nCall Recordings \nBrand Assets\nResources",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Complete 72-hour Check-in Email",
+     "parent": null,
+     "description": "",
+     "checklists": [],
+     "links": [
+      {
+       "text": "docs.google.com\n\nhttps://docs.google.com/document/d/1gdd-mfvKTfMeBuAdiHrrQWwqPi1-c0SnZuBVFOrPX1c/edit?tab=t.0",
+       "url": "https://docs.google.com/document/d/1gdd-mfvKTfMeBuAdiHrrQWwqPi1-c0SnZuBVFOrPX1c/edit?tab=t.0"
+      }
+     ]
+    },
+    {
+     "name": "Build & Upload Google Ads Metrics Benchmarks",
+     "parent": "868gbnzfu",
+     "description": "*Make sure to upload document to the client's drive",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Build & Upload Google Ads Reporting Sheet",
+     "parent": "868gbnzfu",
+     "description": "*Make sure to upload document to the client's drive",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Complete Tech Connections",
+     "parent": "868gbnzez",
+     "description": "GA4 - permission\nGTM - permission\nGoogle Ads (client center)\nGoogle Ads Payment updated\nWebsite Access\nInstall GTM on Website (off call)\nDefine Conversion Event (Button Clicks or TY page)",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Complete VIP Day Call 1",
+     "parent": null,
+     "description": "Introductions, Strategy/Keyword Presentations, Tech Connections \nCall 1 Presentation (ads education + intros)",
+     "checklists": [],
+     "links": []
+    }
+   ]
+  },
+  {
+   "id": "901113178693",
+   "name": "Google + Meta Onboarding (v1, stale)",
+   "tasks": [
+    {
+     "name": "Send Referral Fee (If Applicable)",
+     "parent": null,
+     "description": "ELEVATE: $250\nLeadLock & Accelerators: $50\nGoogle or Meta Ads Management only: $100\n\nEmail to partner:\n\nReferral Fee Sent - Pecan Springs Ranch\n\nHi [Partner Name],\n\nThank you so much for referring [Client Name] from [Company Name] our way! We've sent your referral fee via PayPal.\n\nWe really appreciate you thinking of us!\n\nBest,\nWhitney",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Send call confirmation email",
+     "parent": "868hhtr6c",
+     "description": "Email template:",
+     "checklists": [],
+     "links": [
+      {
+       "text": "https://docs.google.com/document/d/190XCi3vWdYnFF1PChXjZS9vzxHbRsEpt0tvZZnwpzBk/edit?tab=t.0",
+       "url": "https://docs.google.com/document/d/190XCi3vWdYnFF1PChXjZS9vzxHbRsEpt0tvZZnwpzBk/edit?tab=t.0"
+      }
+     ]
+    },
+    {
+     "name": "Share Meta Permissions",
+     "parent": "868hhtr39",
+     "description": "Share the following accounts access with Tina, Jacqueline and any other team member as needed:\n\nFacebook page\nInstagram page\nAd account",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Send final update email once all meta ads are live",
+     "parent": null,
+     "description": "template:",
+     "checklists": [],
+     "links": [
+      {
+       "text": "https://docs.google.com/document/d/1m2fh34Ua2ZUGg8qrLnvFg9Qprs1fE3qjaELCG9pyKag/edit?tab=t.0",
+       "url": "https://docs.google.com/document/d/1m2fh34Ua2ZUGg8qrLnvFg9Qprs1fE3qjaELCG9pyKag/edit?tab=t.0"
+      }
+     ]
+    },
+    {
+     "name": "Send follow-up email",
+     "parent": "868j67ant",
+     "description": "Template:",
+     "checklists": [],
+     "links": [
+      {
+       "text": "https://docs.google.com/document/d/1CoKK07XYbeQgBLveAiUytJ889LOSMIeMBBbl5NppHi0/edit?usp=drive\\_link",
+       "url": "https://docs.google.com/document/d/1CoKK07XYbeQgBLveAiUytJ889LOSMIeMBBbl5NppHi0/edit?usp=drive_link"
+      }
+     ]
+    },
+    {
+     "name": "Send Onboarding Email with call links",
+     "parent": null,
+     "description": "email template:",
+     "checklists": [],
+     "links": [
+      {
+       "text": "https://docs.google.com/document/d/1k44-nata4Y6Unp5HHVkBSKmFqQosrbrDCAzzCBzMMw0/edit?tab=t.0",
+       "url": "https://docs.google.com/document/d/1k44-nata4Y6Unp5HHVkBSKmFqQosrbrDCAzzCBzMMw0/edit?tab=t.0"
+      }
+     ]
+    },
+    {
+     "name": "Share project timeline",
+     "parent": "868hhtr05",
+     "description": "MODIFY DATES:\n\nWe're looking at the timeline below for this project (Subject to the client's response and feedback). Due dates will be set in ClickUp checklists.\n\nWeek 1 (May 26 – June 2)\nOnboarding calls to make initial tech connections and set up the necessary accounts. (Ads Kickoff Call and Messaging & Positioning Call)\nGet access to branding assets, photos, and template emails.\n\nWeek 2 (June 2 – June 9)\nContinued onboarding calls and account setup. (Ads Strategy Call and LeadLock Kickoff Call)\n\nWeek 3 (June 9 – June 16)\nGoogle Ads launched\nIvy briefed on Meta Client Attraction Ads\nContent creation begins and ads are presented to the client for feedback. \nLeadLock BTS tech setup begins (phone setup, DNS, A2P, snapshot) and design/copy work.\n\nWeek 4 (June 16 – June 23)\nMeta Client Attraction Ads launched.\nIvy briefed on Conversion Ads. \nConversion Ads presented to the client for feedback. \n\nWeek 5 (June 23 – June 30)\nConversion Ads launched. \nRetargeting Ads content creation begins. \nRetargeting Ads presented to the client for feedback. \nLeadLock implementation completed and design work reviewed.\n LeadLock assets shared with client for feedback.\n\nWeek 6 (June 30 – July 7)\nRetargeting Ads launched. \nLeadLock onboarding call takes place, and system goes live.\n\nOngoing:\nLeadLock tech support. \nAd campaign maintenance and optimization\nDetailed analytics and reporting, and ad spend management\nA monthly 30-minute 1:1 call with your account manager available upon request.\n\nLet me know if anything needs to be modified!",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Share details with team in Slack",
+     "parent": "868hhtr05",
+     "description": "TEMPLATE: \n\n@channel Hi team! (CLIENT NAME) from (CLIENT COMPANY) has signed on for ELEVATE! We will be setting up Google ads, Meta Ads, LeadLock, and creating an ads traffic landing page.\n \nShe has scheduled her Ads Kickoff Call for (DATE) and their LeadLock Kickoff call for (DATE). From there, we will schedule her Messaging & Positioning Interview and her Ads Strategy Call.\n \nSharing her onboarding resources below. These can also be found in the Bookmarks folder at the top of this channel. I will be sharing her onboarding questionnaire and creating the LeadLock subaccount once that's completed.\n \nClient Folder\nLeadLock Kickoff Call Worksheet\nOnboarding Questionnaire\n \nChecklists:\nGoogle + Meta Onboarding Checklist\nLeadLock Checklist\nAds Traffic Landing Page Checklist\n \nSale Call:\nRecording\nSummary\n \nThings to note:\n(EXAMPLE) Lauren is currently working with Snowmad for Google Ads, Meta Ads, and SEO management, and is using Nurture Pro for her CRM/lead management. She also has a new website in the works with Celebrate Creative (Ami). The main thing to keep in mind is coordinating the timing of her transition away from Snowmad carefully so there is no gap in ad coverage or access to her current website.\n \n@Whitney Hodges Let us know of any other details that need to be shared for this client!",
+     "checklists": [],
+     "links": [
+      {
+       "text": "@Whitney Hodges",
+       "url": "https://weddingindustryads.slack.com/team/U04LHK2MJVC"
+      }
+     ]
+    },
+    {
+     "name": "Create Bookmarks folder",
+     "parent": "868hhtr05",
+     "description": "Create bookmarks folder and include the client's Google Drive, and the ClickUp checklist",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Add UTM Parameters to ads",
+     "parent": "868hhwjwb",
+     "description": "UTM parameter: utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_content={adgroupid}&utm_term={keyword}&utm_matchtype={matchtype}",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Share Recording with Tina to start ATLP",
+     "parent": "868hhtr61",
+     "description": "Share recording with Tina and prompt her to get started with the ads traffic landing page",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "SEND MARKET RESEARCH SURVEY",
+     "parent": "868hhtr4e",
+     "description": "Email template:",
+     "checklists": [],
+     "links": [
+      {
+       "text": "https://docs.google.com/document/d/15H7rycIKczYwQKJuuWKJy7lPpYE5yjgu4w9AxktLPqI/edit?tab=t.0",
+       "url": "https://docs.google.com/document/d/15H7rycIKczYwQKJuuWKJy7lPpYE5yjgu4w9AxktLPqI/edit?tab=t.0"
+      }
+     ]
+    },
+    {
+     "name": "Present Ads to Client",
+     "parent": "868jehjgb",
+     "description": "Template:",
+     "checklists": [],
+     "links": [
+      {
+       "text": "https://docs.google.com/document/d/1sGAhN2NftnDwNVNlP8VNoFcoEggHr-gWKrIVlJP9DTY/edit?usp=drive\\_link",
+       "url": "https://docs.google.com/document/d/1sGAhN2NftnDwNVNlP8VNoFcoEggHr-gWKrIVlJP9DTY/edit?usp=drive_link"
+      }
+     ]
+    },
+    {
+     "name": "Present Ads to Client",
+     "parent": "868jehgtw",
+     "description": "Template:",
+     "checklists": [],
+     "links": [
+      {
+       "text": "https://docs.google.com/document/d/1sEMzdH9OQpmpCKXjChs-FxY\\_sJVTvErxqqIQPqnZuIM/edit?usp=drive\\_link",
+       "url": "https://docs.google.com/document/d/1sEMzdH9OQpmpCKXjChs-FxY_sJVTvErxqqIQPqnZuIM/edit?usp=drive_link"
+      }
+     ]
+    },
+    {
+     "name": "Present ads to client",
+     "parent": "868hhtr2w",
+     "description": "Template:",
+     "checklists": [],
+     "links": [
+      {
+       "text": "https://docs.google.com/document/d/1kgdrG7hIZyVjPsuaKnlCf0RBB\\_Bij-1AKAeISgm\\_6IA/edit?usp=drive\\_link",
+       "url": "https://docs.google.com/document/d/1kgdrG7hIZyVjPsuaKnlCf0RBB_Bij-1AKAeISgm_6IA/edit?usp=drive_link"
+      }
+     ]
+    },
+    {
+     "name": "Send follow up email",
+     "parent": "868hhtr61",
+     "description": "Template:",
+     "checklists": [],
+     "links": [
+      {
+       "text": "https://docs.google.com/document/d/1tJpn\\_\\_eZ-Y7xeKZfafa1gezCmCnmHzhzyEYOqW5yR-I/edit?usp=drive\\_link",
+       "url": "https://docs.google.com/document/d/1tJpn__eZ-Y7xeKZfafa1gezCmCnmHzhzyEYOqW5yR-I/edit?usp=drive_link"
+      }
+     ]
+    },
+    {
+     "name": "Complete Ads Strategy Call",
+     "parent": null,
+     "description": "Present keyword research \nPresent ad strategy phases\nReview ad copy (time-permitting)\nComplete Mini Meta Ads and Google Ads Audit (As needed)",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Build out Google Ads",
+     "parent": null,
+     "description": "May be pushed based on client readiness.",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Keyword Research",
+     "parent": "868hhtr1b",
+     "description": "Keyword research planning template:",
+     "checklists": [],
+     "links": [
+      {
+       "text": "https://docs.google.com/spreadsheets/d/1tOnUXRUf974DLglyRCze7uHTtqVXhbwKK4eeEkcT3Qw/edit?gid=0#gid=0",
+       "url": "https://docs.google.com/spreadsheets/d/1tOnUXRUf974DLglyRCze7uHTtqVXhbwKK4eeEkcT3Qw/edit?gid=0#gid=0"
+      }
+     ]
+    },
+    {
+     "name": "Create LeadLock Subaccount",
+     "parent": null,
+     "description": "SOP",
+     "checklists": [],
+     "links": [
+      {
+       "text": "SOP",
+       "url": "https://docs.google.com/document/d/1HQK8ntDcBkzHUApsjhn4QSwlPduKWl8yLiUVwcfWPwE/edit?tab=t.0"
+      }
+     ]
+    },
+    {
+     "name": "Customize Presentation Template",
+     "parent": null,
+     "description": "Template link:",
+     "checklists": [],
+     "links": [
+      {
+       "text": "www.canva.com\n\nhttps://www.canva.com/design/DAGFZ3uHYGo/jwMAphKkRWjOtTakMYz76A/edit?utm\\_content=DAGFZ3uHYGo&utm\\_campaign=designshare&utm\\_medium=link2&utm\\_source=sharebutton",
+       "url": "https://www.canva.com/design/DAGFZ3uHYGo/jwMAphKkRWjOtTakMYz76A/edit?utm_content=DAGFZ3uHYGo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+      }
+     ]
+    },
+    {
+     "name": "Schedule Onboarding Calls",
+     "parent": null,
+     "description": "Client will schedule onboarding call and leadlock kickoff call. Messaging & Positioning interview and Ads strategy call will be scheduled at the end of the first onboarding call.",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Complete Messaging & Positioning Call ",
+     "parent": null,
+     "description": "Interview Client for messaging (to use in customizing snapshot):\nTemplate:",
+     "checklists": [],
+     "links": [
+      {
+       "text": "https://docs.google.com/document/d/1kQ-Ffu\\_Vbd\\_z\\_n7hSUvE\\_cK4YFxeNVFeIPBjpDQerXM/edit?tab=t.0#heading=h.r5ad0em1k5z0",
+       "url": "https://docs.google.com/document/d/1kQ-Ffu_Vbd_z_n7hSUvE_cK4YFxeNVFeIPBjpDQerXM/edit?tab=t.0#heading=h.r5ad0em1k5z0"
+      }
+     ]
+    },
+    {
+     "name": "Add Funnel Map Sheet",
+     "parent": "868hhtr57",
+     "description": "Make a copy of template with Client's name:\nhttps://docs.google.com/spreadsheets/d/1vl_LGwAgFecbuYeJjll-lX6BFgD2NEOXD08FV3VMIBg/edit",
+     "checklists": [],
+     "links": [
+      {
+       "text": "https://docs.google.com/spreadsheets/d/1vl\\_LGwAgFecbuYeJjll-lX6BFgD2NEOXD08FV3VMIBg/edit",
+       "url": "https://docs.google.com/spreadsheets/d/1vl_LGwAgFecbuYeJjll-lX6BFgD2NEOXD08FV3VMIBg/edit"
+      }
+     ]
+    },
+    {
+     "name": "Google Drive Client Folder",
+     "parent": null,
+     "description": "Create a folder titled the client's company name in the appropriate service in the shared drive - WIA | Clients. This folder will not be shared with the client.\nCreate a subfolder titled \" WIA + Client's company name\" \nModify the access to \"Anyone with the link\" is viewer as this will be shared with the client.\nInside the client folder create the following folders:\nBrand Assets\nCall Recordings & Summaries",
+     "checklists": [],
+     "links": [
+      {
+       "text": "WIA | Clients",
+       "url": "https://drive.google.com/drive/folders/1hNgm5xfG-TxdHK37Rb-0DcyQ_2tnlRwI?usp=drive_link"
+      }
+     ]
+    },
+    {
+     "name": "Check & Upload Brand Assets",
+     "parent": "868hhtr4e",
+     "description": "Review the answers in the questionnaire and check the uploaded assets.\nDownload any files the client included to the client folder in Google Drive in the Brand Assets folder.\nIf the client included links, ensure we have access to them.",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Send Reminder",
+     "parent": "868hhtr4e",
+     "description": "Reminder template",
+     "checklists": [],
+     "links": [
+      {
+       "text": "Reminder template",
+       "url": "https://docs.google.com/document/d/1BIO-SHaK9mr7VlMwgH2HYX3JQb82tZWKfOgoa8Xa37A/edit?tab=t.0"
+      }
+     ]
+    },
+    {
+     "name": "Complete Onboarding Questionnaire",
+     "parent": null,
+     "description": "If the client has not completed the onboarding questionnaire, you can send this reminder email: 3 Onboarding Questionnaire Reminder",
+     "checklists": [],
+     "links": [
+      {
+       "text": "3 Onboarding Questionnaire Reminder",
+       "url": "https://docs.google.com/document/d/1BIO-SHaK9mr7VlMwgH2HYX3JQb82tZWKfOgoa8Xa37A/edit?usp=sharing"
+      }
+     ]
+    },
+    {
+     "name": "Complete Ads Kickoff Call ",
+     "parent": null,
+     "description": "Go over the onboarding presentation\nComplete tech connections (Tech Connections Guide to Reference During Call)\n*Don't forget to record, use Fathom, and then drop the recording link and the AI generated notes inside of the client meetings doc found in the client folder.",
+     "checklists": [],
+     "links": [
+      {
+       "text": "Tech Connections Guide",
+       "url": "https://docs.google.com/document/d/1KMOZd5zCZCxNpJ6zLCxV1-v4PEuyy6V_a0MjDEeth9E/edit?tab=t.0"
+      }
+     ]
+    },
+    {
+     "name": "Prepare Ad Copy (Time-permitting)",
+     "parent": "868hhtr1b",
+     "description": "If you have the bandwidth and, if there's time during the call, prepare Meta and Google Ads Copy to review.",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Prepare Outline of Ad Strategy",
+     "parent": "868hhtr1b",
+     "description": "Customize to client + team to review",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Review Current Ads Setup (If Applicable)",
+     "parent": "868hhtr1b",
+     "description": "If the client has previously run ads, review the ads and prepare insights to share.",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Send follow-up email",
+     "parent": "868hhtr39",
+     "description": "Template:",
+     "checklists": [],
+     "links": [
+      {
+       "text": "https://docs.google.com/document/d/1H96omEUdFr4tl3LfoqjVIRok3BucVqVlrb\\_NBIPTwNU/edit?usp=drive\\_link",
+       "url": "https://docs.google.com/document/d/1H96omEUdFr4tl3LfoqjVIRok3BucVqVlrb_NBIPTwNU/edit?usp=drive_link"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "901114303479",
+   "name": "Google + Meta Onboarding (v2, live)",
+   "tasks": [
+    {
+     "name": "Send follow-up email",
+     "parent": "868kpxn74",
+     "description": "Template:",
+     "checklists": [],
+     "links": [
+      {
+       "text": "https://docs.google.com/document/d/1CoKK07XYbeQgBLveAiUytJ889LOSMIeMBBbl5NppHi0/edit?usp=drive\\_link",
+       "url": "https://docs.google.com/document/d/1CoKK07XYbeQgBLveAiUytJ889LOSMIeMBBbl5NppHi0/edit?usp=drive_link"
+      }
+     ]
+    },
+    {
+     "name": "Share Recording with Tina to start ATLP",
+     "parent": "868kpxn6u",
+     "description": "Share recording with Tina and prompt her to get started with the ads traffic landing page",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Complete Ads Strategy Call",
+     "parent": null,
+     "description": "Present keyword research \nPresent ad strategy phases\nReview ad copy (time-permitting)\nComplete Mini Meta Ads and Google Ads Audit (As needed)",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Send follow up email",
+     "parent": "868kpxn6u",
+     "description": "Template:",
+     "checklists": [],
+     "links": [
+      {
+       "text": "https://docs.google.com/document/d/1tJpn\\_\\_eZ-Y7xeKZfafa1gezCmCnmHzhzyEYOqW5yR-I/edit?usp=drive\\_link",
+       "url": "https://docs.google.com/document/d/1tJpn__eZ-Y7xeKZfafa1gezCmCnmHzhzyEYOqW5yR-I/edit?usp=drive_link"
+      }
+     ]
+    },
+    {
+     "name": "Share Meta Permissions",
+     "parent": "868kpxn6f",
+     "description": "Share the following accounts access with Tina, Jacqueline and any other team member as needed:\n\nFacebook page\nInstagram page\nAd account",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Send Onboarding Email with call links",
+     "parent": null,
+     "description": "email template:",
+     "checklists": [],
+     "links": [
+      {
+       "text": "https://docs.google.com/document/d/1k44-nata4Y6Unp5HHVkBSKmFqQosrbrDCAzzCBzMMw0/edit?tab=t.0",
+       "url": "https://docs.google.com/document/d/1k44-nata4Y6Unp5HHVkBSKmFqQosrbrDCAzzCBzMMw0/edit?tab=t.0"
+      }
+     ]
+    },
+    {
+     "name": "Customize Presentation Template",
+     "parent": null,
+     "description": "Template link:",
+     "checklists": [],
+     "links": [
+      {
+       "text": "www.canva.com\n\nhttps://www.canva.com/design/DAGFZ3uHYGo/jwMAphKkRWjOtTakMYz76A/edit?utm\\_content=DAGFZ3uHYGo&utm\\_campaign=designshare&utm\\_medium=link2&utm\\_source=sharebutton",
+       "url": "https://www.canva.com/design/DAGFZ3uHYGo/jwMAphKkRWjOtTakMYz76A/edit?utm_content=DAGFZ3uHYGo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+      }
+     ]
+    },
+    {
+     "name": "Complete Messaging & Positioning Call ",
+     "parent": null,
+     "description": "Interview Client for messaging (to use in customizing snapshot):\nTemplate:",
+     "checklists": [],
+     "links": [
+      {
+       "text": "https://docs.google.com/document/d/1kQ-Ffu\\_Vbd\\_z\\_n7hSUvE\\_cK4YFxeNVFeIPBjpDQerXM/edit?tab=t.0#heading=h.r5ad0em1k5z0",
+       "url": "https://docs.google.com/document/d/1kQ-Ffu_Vbd_z_n7hSUvE_cK4YFxeNVFeIPBjpDQerXM/edit?tab=t.0#heading=h.r5ad0em1k5z0"
+      }
+     ]
+    },
+    {
+     "name": "Send follow-up email",
+     "parent": "868kpxn6f",
+     "description": "Template:",
+     "checklists": [],
+     "links": [
+      {
+       "text": "https://docs.google.com/document/d/1H96omEUdFr4tl3LfoqjVIRok3BucVqVlrb\\_NBIPTwNU/edit?usp=drive\\_link",
+       "url": "https://docs.google.com/document/d/1H96omEUdFr4tl3LfoqjVIRok3BucVqVlrb_NBIPTwNU/edit?usp=drive_link"
+      }
+     ]
+    },
+    {
+     "name": "Send final update email once all meta ads are live",
+     "parent": null,
+     "description": "template:",
+     "checklists": [],
+     "links": [
+      {
+       "text": "https://docs.google.com/document/d/1m2fh34Ua2ZUGg8qrLnvFg9Qprs1fE3qjaELCG9pyKag/edit?tab=t.0",
+       "url": "https://docs.google.com/document/d/1m2fh34Ua2ZUGg8qrLnvFg9Qprs1fE3qjaELCG9pyKag/edit?tab=t.0"
+      }
+     ]
+    },
+    {
+     "name": "Complete Ads Kickoff Call ",
+     "parent": null,
+     "description": "Go over the onboarding presentation\nComplete tech connections (Tech Connections Guide to Reference During Call)\n*Don't forget to record, use Fathom, and then drop the recording link and the AI generated notes inside of the client meetings doc found in the client folder.",
+     "checklists": [],
+     "links": [
+      {
+       "text": "Tech Connections Guide",
+       "url": "https://docs.google.com/document/d/1KMOZd5zCZCxNpJ6zLCxV1-v4PEuyy6V_a0MjDEeth9E/edit?tab=t.0"
+      }
+     ]
+    },
+    {
+     "name": "Send call confirmation email",
+     "parent": "868kpxn67",
+     "description": "Email template:",
+     "checklists": [],
+     "links": [
+      {
+       "text": "https://docs.google.com/document/d/190XCi3vWdYnFF1PChXjZS9vzxHbRsEpt0tvZZnwpzBk/edit?tab=t.0",
+       "url": "https://docs.google.com/document/d/190XCi3vWdYnFF1PChXjZS9vzxHbRsEpt0tvZZnwpzBk/edit?tab=t.0"
+      }
+     ]
+    },
+    {
+     "name": "Schedule Onboarding Calls",
+     "parent": null,
+     "description": "Client will schedule onboarding call and leadlock kickoff call. Messaging & Positioning interview and Ads strategy call will be scheduled at the end of the first onboarding call.",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Present Ads to Client",
+     "parent": "868kpxn5w",
+     "description": "Template:",
+     "checklists": [],
+     "links": [
+      {
+       "text": "https://docs.google.com/document/d/1sGAhN2NftnDwNVNlP8VNoFcoEggHr-gWKrIVlJP9DTY/edit?usp=drive\\_link",
+       "url": "https://docs.google.com/document/d/1sGAhN2NftnDwNVNlP8VNoFcoEggHr-gWKrIVlJP9DTY/edit?usp=drive_link"
+      }
+     ]
+    },
+    {
+     "name": "Present ads to client",
+     "parent": "868kpxn5c",
+     "description": "Template:",
+     "checklists": [],
+     "links": [
+      {
+       "text": "https://docs.google.com/document/d/1kgdrG7hIZyVjPsuaKnlCf0RBB\\_Bij-1AKAeISgm\\_6IA/edit?usp=drive\\_link",
+       "url": "https://docs.google.com/document/d/1kgdrG7hIZyVjPsuaKnlCf0RBB_Bij-1AKAeISgm_6IA/edit?usp=drive_link"
+      }
+     ]
+    },
+    {
+     "name": "SEND MARKET RESEARCH SURVEY",
+     "parent": "868kpxn4d",
+     "description": "Email template:",
+     "checklists": [],
+     "links": [
+      {
+       "text": "https://docs.google.com/document/d/15H7rycIKczYwQKJuuWKJy7lPpYE5yjgu4w9AxktLPqI/edit?tab=t.0",
+       "url": "https://docs.google.com/document/d/15H7rycIKczYwQKJuuWKJy7lPpYE5yjgu4w9AxktLPqI/edit?tab=t.0"
+      }
+     ]
+    },
+    {
+     "name": "Create LeadLock Subaccount",
+     "parent": null,
+     "description": "SOP",
+     "checklists": [],
+     "links": [
+      {
+       "text": "SOP",
+       "url": "https://docs.google.com/document/d/1HQK8ntDcBkzHUApsjhn4QSwlPduKWl8yLiUVwcfWPwE/edit?tab=t.0"
+      }
+     ]
+    },
+    {
+     "name": "Add Funnel Map Sheet",
+     "parent": "868kpxn50",
+     "description": "Make a copy of template with Client's name:\nhttps://docs.google.com/spreadsheets/d/1vl_LGwAgFecbuYeJjll-lX6BFgD2NEOXD08FV3VMIBg/edit",
+     "checklists": [],
+     "links": [
+      {
+       "text": "https://docs.google.com/spreadsheets/d/1vl\\_LGwAgFecbuYeJjll-lX6BFgD2NEOXD08FV3VMIBg/edit",
+       "url": "https://docs.google.com/spreadsheets/d/1vl_LGwAgFecbuYeJjll-lX6BFgD2NEOXD08FV3VMIBg/edit"
+      }
+     ]
+    },
+    {
+     "name": "Present Ads to Client",
+     "parent": "868kpxn4y",
+     "description": "Template:",
+     "checklists": [],
+     "links": [
+      {
+       "text": "https://docs.google.com/document/d/1sEMzdH9OQpmpCKXjChs-FxY\\_sJVTvErxqqIQPqnZuIM/edit?usp=drive\\_link",
+       "url": "https://docs.google.com/document/d/1sEMzdH9OQpmpCKXjChs-FxY_sJVTvErxqqIQPqnZuIM/edit?usp=drive_link"
+      }
+     ]
+    },
+    {
+     "name": "Check & Upload Brand Assets",
+     "parent": "868kpxn4d",
+     "description": "Review the answers in the questionnaire and check the uploaded assets.\nDownload any files the client included to the client folder in Google Drive in the Brand Assets folder.\nIf the client included links, ensure we have access to them.",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Google Drive Client Folder",
+     "parent": null,
+     "description": "Create a folder titled the client's company name in the appropriate service in the shared drive - WIA | Clients. This folder will not be shared with the client.\nCreate a subfolder titled \" WIA + Client's company name\" \nModify the access to \"Anyone with the link\" is viewer as this will be shared with the client.\nInside the client folder create the following folders:\nBrand Assets\nCall Recordings & Summaries",
+     "checklists": [],
+     "links": [
+      {
+       "text": "WIA | Clients",
+       "url": "https://drive.google.com/drive/folders/1hNgm5xfG-TxdHK37Rb-0DcyQ_2tnlRwI?usp=drive_link"
+      }
+     ]
+    },
+    {
+     "name": "Send Reminder",
+     "parent": "868kpxn4d",
+     "description": "Reminder template",
+     "checklists": [],
+     "links": [
+      {
+       "text": "Reminder template",
+       "url": "https://docs.google.com/document/d/1BIO-SHaK9mr7VlMwgH2HYX3JQb82tZWKfOgoa8Xa37A/edit?tab=t.0"
+      }
+     ]
+    },
+    {
+     "name": "Prepare Outline of Ad Strategy",
+     "parent": "868kpxn3u",
+     "description": "Customize to client + team to review",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Complete Onboarding Questionnaire",
+     "parent": null,
+     "description": "If the client has not completed the onboarding questionnaire, you can send this reminder email: 3 Onboarding Questionnaire Reminder",
+     "checklists": [],
+     "links": [
+      {
+       "text": "3 Onboarding Questionnaire Reminder",
+       "url": "https://docs.google.com/document/d/1BIO-SHaK9mr7VlMwgH2HYX3JQb82tZWKfOgoa8Xa37A/edit?usp=sharing"
+      }
+     ]
+    },
+    {
+     "name": "Share project timeline",
+     "parent": "868kpxn3p",
+     "description": "MODIFY DATES:\n\nWe're looking at the timeline below for this project (Subject to the client's response and feedback). Due dates will be set in ClickUp checklists.\n\nWeek 1 (May 26 – June 2)\nOnboarding calls to make initial tech connections and set up the necessary accounts. (Ads Kickoff Call and Messaging & Positioning Call)\nGet access to branding assets, photos, and template emails.\n\nWeek 2 (June 2 – June 9)\nContinued onboarding calls and account setup. (Ads Strategy Call and LeadLock Kickoff Call)\n\nWeek 3 (June 9 – June 16)\nGoogle Ads launched\nIvy briefed on Meta Client Attraction Ads\nContent creation begins and ads are presented to the client for feedback. \nLeadLock BTS tech setup begins (phone setup, DNS, A2P, snapshot) and design/copy work.\n\nWeek 4 (June 16 – June 23)\nMeta Client Attraction Ads launched.\nIvy briefed on Conversion Ads. \nConversion Ads presented to the client for feedback. \n\nWeek 5 (June 23 – June 30)\nConversion Ads launched. \nRetargeting Ads content creation begins. \nRetargeting Ads presented to the client for feedback. \nLeadLock implementation completed and design work reviewed.\n LeadLock assets shared with client for feedback.\n\nWeek 6 (June 30 – July 7)\nRetargeting Ads launched. \nLeadLock onboarding call takes place, and system goes live.\n\nOngoing:\nLeadLock tech support. \nAd campaign maintenance and optimization\nDetailed analytics and reporting, and ad spend management\nA monthly 30-minute 1:1 call with your account manager available upon request.\n\nLet me know if anything needs to be modified!",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Keyword Research",
+     "parent": "868kpxn3u",
+     "description": "Keyword research planning template:",
+     "checklists": [],
+     "links": [
+      {
+       "text": "https://docs.google.com/spreadsheets/d/1tOnUXRUf974DLglyRCze7uHTtqVXhbwKK4eeEkcT3Qw/edit?gid=0#gid=0",
+       "url": "https://docs.google.com/spreadsheets/d/1tOnUXRUf974DLglyRCze7uHTtqVXhbwKK4eeEkcT3Qw/edit?gid=0#gid=0"
+      }
+     ]
+    },
+    {
+     "name": "Prepare Ad Copy (Time-permitting)",
+     "parent": "868kpxn3u",
+     "description": "If you have the bandwidth and, if there's time during the call, prepare Meta and Google Ads Copy to review.",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Review Current Ads Setup (If Applicable)",
+     "parent": "868kpxn3u",
+     "description": "If the client has previously run ads, review the ads and prepare insights to share.",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Create Bookmarks folder",
+     "parent": "868kpxn3p",
+     "description": "Create bookmarks folder and include the client's Google Drive, and the ClickUp checklist",
+     "checklists": [],
+     "links": []
+    },
+    {
+     "name": "Share details with team in Slack",
+     "parent": "868kpxn3p",
+     "description": "TEMPLATE: \n\n@channel Hi team! (CLIENT NAME) from (CLIENT COMPANY) has signed on for ELEVATE! We will be setting up Google ads, Meta Ads, LeadLock, and creating an ads traffic landing page.\n \nShe has scheduled her Ads Kickoff Call for (DATE) and their LeadLock Kickoff call for (DATE). From there, we will schedule her Messaging & Positioning Interview and her Ads Strategy Call.\n \nSharing her onboarding resources below. These can also be found in the Bookmarks folder at the top of this channel. I will be sharing her onboarding questionnaire and creating the LeadLock subaccount once that's completed.\n \nClient Folder\nLeadLock Kickoff Call Worksheet\nOnboarding Questionnaire\n \nChecklists:\nGoogle + Meta Onboarding Checklist\nLeadLock Checklist\nAds Traffic Landing Page Checklist\n \nSale Call:\nRecording\nSummary\n \nThings to note:\n(EXAMPLE) Lauren is currently working with Snowmad for Google Ads, Meta Ads, and SEO management, and is using Nurture Pro for her CRM/lead management. She also has a new website in the works with Celebrate Creative (Ami). The main thing to keep in mind is coordinating the timing of her transition away from Snowmad carefully so there is no gap in ad coverage or access to her current website.\n \n@Whitney Hodges Let us know of any other details that need to be shared for this client!",
+     "checklists": [],
+     "links": [
+      {
+       "text": "@Whitney Hodges",
+       "url": "https://weddingindustryads.slack.com/team/U04LHK2MJVC"
+      }
+     ]
+    },
+    {
+     "name": "Build out Google Ads",
+     "parent": null,
+     "description": "May be pushed based on client readiness.",
+     "checklists": [],
+     "links": []
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,140 @@
+{
+ "colours": {
+  "navy": {
+   "hex": "#0d112b",
+   "dark": "#040717",
+   "light": "#1f244f",
+   "ref_class": "navy",
+   "lab": [
+    5.97,
+    7.14,
+    -17.97
+   ],
+   "name": "Midnight Navy",
+   "brief_hex": "#0f1437",
+   "measured_on_f236": true
+  },
+  "cornflower": {
+   "hex": "#5973b7",
+   "dark": "#263a81",
+   "light": "#88a5e3",
+   "ref_class": "blue",
+   "lab": [
+    49.26,
+    10.02,
+    -38.89
+   ],
+   "name": "Cornflower Blue",
+   "brief_hex": "#6683d0",
+   "measured_on_f236": true
+  },
+  "cream": {
+   "hex": "#cbc5b8",
+   "dark": "#958d7b",
+   "light": "#e7e3da",
+   "ref_class": "cream",
+   "lab": [
+    79.67,
+    -0.17,
+    7.26
+   ],
+   "name": "Ivory Cream",
+   "brief_hex": "#d7d1c5",
+   "measured_on_f236": true
+  },
+  "periwinkle": {
+   "hex": "#8da1fd",
+   "dark": "#3d5fb7",
+   "light": "#c3c9fe",
+   "ref_class": "blue",
+   "lab": [
+    68.2,
+    16.25,
+    -48.0
+   ],
+   "name": "Periwinkle",
+   "brief_hex": "#8da1fd",
+   "measured_on_f236": false
+  },
+  "lilac": {
+   "hex": "#b1a4d6",
+   "dark": "#6d6095",
+   "light": "#d8d0ed",
+   "ref_class": "blue",
+   "lab": [
+    70.0,
+    14.74,
+    -23.66
+   ],
+   "name": "Dusty Lilac",
+   "brief_hex": "#b1a4d6",
+   "measured_on_f236": false
+  },
+  "champagne": {
+   "hex": "#d2b494",
+   "dark": "#8e6f4c",
+   "light": "#eedac6",
+   "ref_class": "cream",
+   "lab": [
+    75.13,
+    6.05,
+    20.34
+   ],
+   "name": "Champagne",
+   "brief_hex": "#d2b494",
+   "measured_on_f236": false
+  },
+  "slate": {
+   "hex": "#6c7fa8",
+   "dark": "#264169",
+   "light": "#a4aec8",
+   "ref_class": "blue",
+   "lab": [
+    53.16,
+    3.39,
+    -24.03
+   ],
+   "name": "Slate Blue",
+   "brief_hex": "#6c7fa8",
+   "measured_on_f236": false
+  }
+ },
+ "allowed": {
+  "navy": [
+   "cornflower",
+   "cream",
+   "periwinkle",
+   "lilac",
+   "champagne",
+   "slate"
+  ],
+  "blue": [
+   "navy",
+   "cream",
+   "periwinkle",
+   "lilac",
+   "champagne",
+   "slate"
+  ],
+  "cream": [
+   "navy",
+   "cornflower",
+   "periwinkle",
+   "lilac",
+   "champagne",
+   "slate"
+  ]
+ },
+ "class_colour": {
+  "navy": "navy",
+  "blue": "cornflower",
+  "cream": "cream"
+ },
+ "dropped": {},
+ "quality": {
+  "navy->cream": "soft: petal structure is present at 2x/3x but mid-tones are greyer and softer than a real cream rose (the 8-bit-crushed navy source carries little shading); smallest/occluded roses 1 and 4 are the weakest",
+  "navy->champagne": "soft: same source limitation as navy->cream; reads as a satin champagne rose, best on roses 2, 3, 5",
+  "cream->navy": "flat: dark rose with faint swirl, p90 V clamped into the real navy range; reads correctly at display size"
+ },
+ "notes": "navy/cornflower/cream remeasured on f236 from the label-map pools (median Lab; dark/light = median of the darkest/lightest 15% by L; brief_hex keeps the brief's values). Other colours: brief hex with the brief's dark/light shades. Lab = CIE Lab D65 from sRGB, the same conversion as base_lab.npy and the npz files. Recolour anchors sit at the rose's own t quantiles q10/q50/q90 so the median lands on hex; navy targets have the light anchor clamped so p90 V is within the real navy roses' range [53.0, 87.0]. Navy-source recolours use denoised shading, HF gain <= 1.0 and a stronger local-contrast boost (see fidelity.json class_params)."
+}

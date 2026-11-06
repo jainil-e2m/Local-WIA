@@ -1,0 +1,690 @@
+{
+  "fetchedAt": "2026-09-08T04:17:37.637Z",
+  "lists": [
+    {
+      "id": "901101886878",
+      "name": "Client Management",
+      "fields": []
+    },
+    {
+      "id": "901113178693",
+      "name": "Google + Meta Onboarding",
+      "fields": [
+        {
+          "id": "a3ed5a8a-2f6e-4d34-8264-936fb02f305a",
+          "name": "Phase (Full Service)",
+          "type": "drop_down",
+          "options": [
+            {
+              "id": "da05e7cf-3e7c-4c2b-b20c-b993366c3f3e",
+              "name": "Project Initiation",
+              "orderindex": 0,
+              "color": "#f9d900"
+            },
+            {
+              "id": "fb444af6-b1d3-4634-bd15-11e0338065cc",
+              "name": "Onboarding",
+              "orderindex": 1,
+              "color": "#f9d900"
+            },
+            {
+              "id": "eb3e8d6d-7c67-4227-8fd8-cd41d8b9ce0b",
+              "name": "Google Ads Setup",
+              "orderindex": 2,
+              "color": "#f9d900"
+            },
+            {
+              "id": "3d27cc40-9e9e-43b9-af14-ff2c524a3bf9",
+              "name": "Meta Ads Setup",
+              "orderindex": 3,
+              "color": "#f9d900"
+            }
+          ]
+        },
+        {
+          "id": "f7ff414f-c6ae-4f54-9223-349e0fad4ca5",
+          "name": "Role",
+          "type": "drop_down",
+          "options": [
+            {
+              "id": "43357163-a2fd-4f50-91dd-94906fbb4cbc",
+              "name": "Ads Manager",
+              "orderindex": 0,
+              "color": "#1bbc9c"
+            },
+            {
+              "id": "0119b661-8b3f-4bb4-937e-a9b6fb527b46",
+              "name": "Client",
+              "orderindex": 1,
+              "color": "#FF7FAB"
+            },
+            {
+              "id": "c40946af-ffa3-47a9-9d34-cd082712b42b",
+              "name": "Project Manager",
+              "orderindex": 2,
+              "color": "#667684"
+            },
+            {
+              "id": "da3c102f-4a3e-428f-9325-4a4dbf1f7c8a",
+              "name": "CEO",
+              "orderindex": 3,
+              "color": "#81B1FF"
+            },
+            {
+              "id": "c72d3fce-e20a-4364-adb0-93c28c0fcc3e",
+              "name": "LeadLock Designer",
+              "orderindex": 4,
+              "color": "#FF4081"
+            },
+            {
+              "id": "6f16a11b-4e41-41d6-96b5-df4ed355889d",
+              "name": "Assistant ",
+              "orderindex": 5,
+              "color": "#9b59b6"
+            },
+            {
+              "id": "d8a07b42-7e8c-4eed-a779-ebe7a12fd764",
+              "name": "All Team Members",
+              "orderindex": 6,
+              "color": "#f9d900"
+            },
+            {
+              "id": "f53347b1-2a53-465a-af90-f7b51662c064",
+              "name": "Opportunity for Automation",
+              "orderindex": 7,
+              "color": "#800000"
+            },
+            {
+              "id": "614c7903-88c8-4763-8949-e8245677ff1d",
+              "name": "GHL Specialist",
+              "orderindex": 8,
+              "color": "#f76808"
+            },
+            {
+              "id": "9504014f-92ad-400c-8234-6e95307d4bbc",
+              "name": "Marketing Assistant",
+              "orderindex": 9,
+              "color": "#dfafe3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "901112080381",
+      "name": "LeadLock Onboarding",
+      "fields": [
+        {
+          "id": "1752ebe3-0220-4172-b439-1ad2677848a6",
+          "name": "Phase (LeadLock)",
+          "type": "drop_down",
+          "options": [
+            {
+              "id": "afce07ad-7851-4e61-abc4-1390bc3ec810",
+              "name": "Project Initiation",
+              "orderindex": 0,
+              "color": "#f76808"
+            },
+            {
+              "id": "dde88130-2d4e-4d5b-b688-71c8456d6524",
+              "name": "Onboarding",
+              "orderindex": 1,
+              "color": "#ffc53d"
+            },
+            {
+              "id": "fe74a690-5704-4a64-a0b0-be43db676ee6",
+              "name": "Tech Setup",
+              "orderindex": 2,
+              "color": "#0091ff"
+            },
+            {
+              "id": "a2c0e0ae-a767-4f3c-8ae5-0af3385539f9",
+              "name": "Design/Copy work ",
+              "orderindex": 3,
+              "color": "#e93d82"
+            },
+            {
+              "id": "e6bcaeff-a38b-4f3c-8e38-f88a84b4f329",
+              "name": "Final Implementation",
+              "orderindex": 4,
+              "color": "#ab4aba"
+            },
+            {
+              "id": "efcfa944-3fd7-48fd-b890-5cdb54628129",
+              "name": "Launch",
+              "orderindex": 5,
+              "color": "#2ecd6f"
+            }
+          ]
+        },
+        {
+          "id": "a3ed5a8a-2f6e-4d34-8264-936fb02f305a",
+          "name": "Phase (Full Service)",
+          "type": "drop_down",
+          "options": [
+            {
+              "id": "da05e7cf-3e7c-4c2b-b20c-b993366c3f3e",
+              "name": "Project Initiation",
+              "orderindex": 0,
+              "color": "#f9d900"
+            },
+            {
+              "id": "fb444af6-b1d3-4634-bd15-11e0338065cc",
+              "name": "Onboarding",
+              "orderindex": 1,
+              "color": "#f9d900"
+            },
+            {
+              "id": "eb3e8d6d-7c67-4227-8fd8-cd41d8b9ce0b",
+              "name": "Google Ads Setup",
+              "orderindex": 2,
+              "color": "#f9d900"
+            },
+            {
+              "id": "3d27cc40-9e9e-43b9-af14-ff2c524a3bf9",
+              "name": "Meta Ads Setup",
+              "orderindex": 3,
+              "color": "#f9d900"
+            }
+          ]
+        },
+        {
+          "id": "f7ff414f-c6ae-4f54-9223-349e0fad4ca5",
+          "name": "Role",
+          "type": "drop_down",
+          "options": [
+            {
+              "id": "43357163-a2fd-4f50-91dd-94906fbb4cbc",
+              "name": "Ads Manager",
+              "orderindex": 0,
+              "color": "#1bbc9c"
+            },
+            {
+              "id": "0119b661-8b3f-4bb4-937e-a9b6fb527b46",
+              "name": "Client",
+              "orderindex": 1,
+              "color": "#FF7FAB"
+            },
+            {
+              "id": "c40946af-ffa3-47a9-9d34-cd082712b42b",
+              "name": "Project Manager",
+              "orderindex": 2,
+              "color": "#667684"
+            },
+            {
+              "id": "da3c102f-4a3e-428f-9325-4a4dbf1f7c8a",
+              "name": "CEO",
+              "orderindex": 3,
+              "color": "#81B1FF"
+            },
+            {
+              "id": "c72d3fce-e20a-4364-adb0-93c28c0fcc3e",
+              "name": "LeadLock Designer",
+              "orderindex": 4,
+              "color": "#FF4081"
+            },
+            {
+              "id": "6f16a11b-4e41-41d6-96b5-df4ed355889d",
+              "name": "Assistant ",
+              "orderindex": 5,
+              "color": "#9b59b6"
+            },
+            {
+              "id": "d8a07b42-7e8c-4eed-a779-ebe7a12fd764",
+              "name": "All Team Members",
+              "orderindex": 6,
+              "color": "#f9d900"
+            },
+            {
+              "id": "f53347b1-2a53-465a-af90-f7b51662c064",
+              "name": "Opportunity for Automation",
+              "orderindex": 7,
+              "color": "#800000"
+            },
+            {
+              "id": "614c7903-88c8-4763-8949-e8245677ff1d",
+              "name": "GHL Specialist",
+              "orderindex": 8,
+              "color": "#f76808"
+            },
+            {
+              "id": "9504014f-92ad-400c-8234-6e95307d4bbc",
+              "name": "Marketing Assistant",
+              "orderindex": 9,
+              "color": "#dfafe3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "901112430846",
+      "name": "Google Ads VIP Day",
+      "fields": [
+        {
+          "id": "1752ebe3-0220-4172-b439-1ad2677848a6",
+          "name": "Phase (LeadLock)",
+          "type": "drop_down",
+          "options": [
+            {
+              "id": "afce07ad-7851-4e61-abc4-1390bc3ec810",
+              "name": "Project Initiation",
+              "orderindex": 0,
+              "color": "#f76808"
+            },
+            {
+              "id": "dde88130-2d4e-4d5b-b688-71c8456d6524",
+              "name": "Onboarding",
+              "orderindex": 1,
+              "color": "#ffc53d"
+            },
+            {
+              "id": "fe74a690-5704-4a64-a0b0-be43db676ee6",
+              "name": "Tech Setup",
+              "orderindex": 2,
+              "color": "#0091ff"
+            },
+            {
+              "id": "a2c0e0ae-a767-4f3c-8ae5-0af3385539f9",
+              "name": "Design/Copy work ",
+              "orderindex": 3,
+              "color": "#e93d82"
+            },
+            {
+              "id": "e6bcaeff-a38b-4f3c-8e38-f88a84b4f329",
+              "name": "Final Implementation",
+              "orderindex": 4,
+              "color": "#ab4aba"
+            },
+            {
+              "id": "efcfa944-3fd7-48fd-b890-5cdb54628129",
+              "name": "Launch",
+              "orderindex": 5,
+              "color": "#2ecd6f"
+            }
+          ]
+        },
+        {
+          "id": "a3ed5a8a-2f6e-4d34-8264-936fb02f305a",
+          "name": "Phase (Full Service)",
+          "type": "drop_down",
+          "options": [
+            {
+              "id": "da05e7cf-3e7c-4c2b-b20c-b993366c3f3e",
+              "name": "Project Initiation",
+              "orderindex": 0,
+              "color": "#f9d900"
+            },
+            {
+              "id": "fb444af6-b1d3-4634-bd15-11e0338065cc",
+              "name": "Onboarding",
+              "orderindex": 1,
+              "color": "#f9d900"
+            },
+            {
+              "id": "eb3e8d6d-7c67-4227-8fd8-cd41d8b9ce0b",
+              "name": "Google Ads Setup",
+              "orderindex": 2,
+              "color": "#f9d900"
+            },
+            {
+              "id": "3d27cc40-9e9e-43b9-af14-ff2c524a3bf9",
+              "name": "Meta Ads Setup",
+              "orderindex": 3,
+              "color": "#f9d900"
+            }
+          ]
+        },
+        {
+          "id": "d4549190-f5da-4924-8798-545cb5acb7f0",
+          "name": "Phase (Google Ads VIP Day)",
+          "type": "drop_down",
+          "options": [
+            {
+              "id": "a7cd8f5c-09c3-4466-b6b8-fd0ef80e7d1b",
+              "name": "Project Initiation",
+              "orderindex": 0,
+              "color": "#f9d900"
+            },
+            {
+              "id": "88556aa1-edab-4f78-9506-81167a682229",
+              "name": "VIP Day Call 1",
+              "orderindex": 1,
+              "color": "#2ecd6f"
+            },
+            {
+              "id": "3c3e532d-1b8f-4712-8d23-3b4c425017b5",
+              "name": "VIP Day Call 2",
+              "orderindex": 2,
+              "color": "#2ecd6f"
+            },
+            {
+              "id": "ee7bbd0a-6e5d-4579-8da8-768aaa516fff",
+              "name": "Post-VIP Day",
+              "orderindex": 3,
+              "color": "#ff7800"
+            }
+          ]
+        },
+        {
+          "id": "f7ff414f-c6ae-4f54-9223-349e0fad4ca5",
+          "name": "Role",
+          "type": "drop_down",
+          "options": [
+            {
+              "id": "43357163-a2fd-4f50-91dd-94906fbb4cbc",
+              "name": "Ads Manager",
+              "orderindex": 0,
+              "color": "#1bbc9c"
+            },
+            {
+              "id": "0119b661-8b3f-4bb4-937e-a9b6fb527b46",
+              "name": "Client",
+              "orderindex": 1,
+              "color": "#FF7FAB"
+            },
+            {
+              "id": "c40946af-ffa3-47a9-9d34-cd082712b42b",
+              "name": "Project Manager",
+              "orderindex": 2,
+              "color": "#667684"
+            },
+            {
+              "id": "da3c102f-4a3e-428f-9325-4a4dbf1f7c8a",
+              "name": "CEO",
+              "orderindex": 3,
+              "color": "#81B1FF"
+            },
+            {
+              "id": "c72d3fce-e20a-4364-adb0-93c28c0fcc3e",
+              "name": "LeadLock Designer",
+              "orderindex": 4,
+              "color": "#FF4081"
+            },
+            {
+              "id": "6f16a11b-4e41-41d6-96b5-df4ed355889d",
+              "name": "Assistant ",
+              "orderindex": 5,
+              "color": "#9b59b6"
+            },
+            {
+              "id": "d8a07b42-7e8c-4eed-a779-ebe7a12fd764",
+              "name": "All Team Members",
+              "orderindex": 6,
+              "color": "#f9d900"
+            },
+            {
+              "id": "f53347b1-2a53-465a-af90-f7b51662c064",
+              "name": "Opportunity for Automation",
+              "orderindex": 7,
+              "color": "#800000"
+            },
+            {
+              "id": "614c7903-88c8-4763-8949-e8245677ff1d",
+              "name": "GHL Specialist",
+              "orderindex": 8,
+              "color": "#f76808"
+            },
+            {
+              "id": "9504014f-92ad-400c-8234-6e95307d4bbc",
+              "name": "Marketing Assistant",
+              "orderindex": 9,
+              "color": "#dfafe3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "901113739811",
+      "name": "Ads Traffic Landing Page",
+      "fields": [
+        {
+          "id": "1752ebe3-0220-4172-b439-1ad2677848a6",
+          "name": "Phase (LeadLock)",
+          "type": "drop_down",
+          "options": [
+            {
+              "id": "afce07ad-7851-4e61-abc4-1390bc3ec810",
+              "name": "Project Initiation",
+              "orderindex": 0,
+              "color": "#f76808"
+            },
+            {
+              "id": "dde88130-2d4e-4d5b-b688-71c8456d6524",
+              "name": "Onboarding",
+              "orderindex": 1,
+              "color": "#ffc53d"
+            },
+            {
+              "id": "fe74a690-5704-4a64-a0b0-be43db676ee6",
+              "name": "Tech Setup",
+              "orderindex": 2,
+              "color": "#0091ff"
+            },
+            {
+              "id": "a2c0e0ae-a767-4f3c-8ae5-0af3385539f9",
+              "name": "Design/Copy work ",
+              "orderindex": 3,
+              "color": "#e93d82"
+            },
+            {
+              "id": "e6bcaeff-a38b-4f3c-8e38-f88a84b4f329",
+              "name": "Final Implementation",
+              "orderindex": 4,
+              "color": "#ab4aba"
+            },
+            {
+              "id": "efcfa944-3fd7-48fd-b890-5cdb54628129",
+              "name": "Launch",
+              "orderindex": 5,
+              "color": "#2ecd6f"
+            }
+          ]
+        },
+        {
+          "id": "e80aaaf1-7d2a-438a-9d53-cdbd18023524",
+          "name": "Phase (Ads Traffic)",
+          "type": "drop_down",
+          "options": [
+            {
+              "id": "b56ad08e-f52b-4dd4-8439-2e190a2728c6",
+              "name": "Prep",
+              "orderindex": 0,
+              "color": "#ffc53d"
+            },
+            {
+              "id": "c897a72a-dcf1-4752-b297-65fc46dca03c",
+              "name": "Design & Build",
+              "orderindex": 1,
+              "color": "#ffc53d"
+            },
+            {
+              "id": "0e94bf10-eaf5-4f2e-aa01-e6c9b85ca8d2",
+              "name": "Pre-Launch",
+              "orderindex": 2,
+              "color": "#ffc53d"
+            },
+            {
+              "id": "c8c1d040-7db2-461a-9394-8b3459cbfe98",
+              "name": "Launch",
+              "orderindex": 3,
+              "color": "#ffc53d"
+            }
+          ]
+        },
+        {
+          "id": "f7ff414f-c6ae-4f54-9223-349e0fad4ca5",
+          "name": "Role",
+          "type": "drop_down",
+          "options": [
+            {
+              "id": "43357163-a2fd-4f50-91dd-94906fbb4cbc",
+              "name": "Ads Manager",
+              "orderindex": 0,
+              "color": "#1bbc9c"
+            },
+            {
+              "id": "0119b661-8b3f-4bb4-937e-a9b6fb527b46",
+              "name": "Client",
+              "orderindex": 1,
+              "color": "#FF7FAB"
+            },
+            {
+              "id": "c40946af-ffa3-47a9-9d34-cd082712b42b",
+              "name": "Project Manager",
+              "orderindex": 2,
+              "color": "#667684"
+            },
+            {
+              "id": "da3c102f-4a3e-428f-9325-4a4dbf1f7c8a",
+              "name": "CEO",
+              "orderindex": 3,
+              "color": "#81B1FF"
+            },
+            {
+              "id": "c72d3fce-e20a-4364-adb0-93c28c0fcc3e",
+              "name": "LeadLock Designer",
+              "orderindex": 4,
+              "color": "#FF4081"
+            },
+            {
+              "id": "6f16a11b-4e41-41d6-96b5-df4ed355889d",
+              "name": "Assistant ",
+              "orderindex": 5,
+              "color": "#9b59b6"
+            },
+            {
+              "id": "d8a07b42-7e8c-4eed-a779-ebe7a12fd764",
+              "name": "All Team Members",
+              "orderindex": 6,
+              "color": "#f9d900"
+            },
+            {
+              "id": "f53347b1-2a53-465a-af90-f7b51662c064",
+              "name": "Opportunity for Automation",
+              "orderindex": 7,
+              "color": "#800000"
+            },
+            {
+              "id": "614c7903-88c8-4763-8949-e8245677ff1d",
+              "name": "GHL Specialist",
+              "orderindex": 8,
+              "color": "#f76808"
+            },
+            {
+              "id": "9504014f-92ad-400c-8234-6e95307d4bbc",
+              "name": "Marketing Assistant",
+              "orderindex": 9,
+              "color": "#dfafe3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "901114303479",
+      "name": "Google + Meta Onboarding (version 2)",
+      "fields": [
+        {
+          "id": "a3ed5a8a-2f6e-4d34-8264-936fb02f305a",
+          "name": "Phase (Full Service)",
+          "type": "drop_down",
+          "options": [
+            {
+              "id": "da05e7cf-3e7c-4c2b-b20c-b993366c3f3e",
+              "name": "Project Initiation",
+              "orderindex": 0,
+              "color": "#f9d900"
+            },
+            {
+              "id": "fb444af6-b1d3-4634-bd15-11e0338065cc",
+              "name": "Onboarding",
+              "orderindex": 1,
+              "color": "#f9d900"
+            },
+            {
+              "id": "eb3e8d6d-7c67-4227-8fd8-cd41d8b9ce0b",
+              "name": "Google Ads Setup",
+              "orderindex": 2,
+              "color": "#f9d900"
+            },
+            {
+              "id": "3d27cc40-9e9e-43b9-af14-ff2c524a3bf9",
+              "name": "Meta Ads Setup",
+              "orderindex": 3,
+              "color": "#f9d900"
+            }
+          ]
+        },
+        {
+          "id": "f7ff414f-c6ae-4f54-9223-349e0fad4ca5",
+          "name": "Role",
+          "type": "drop_down",
+          "options": [
+            {
+              "id": "43357163-a2fd-4f50-91dd-94906fbb4cbc",
+              "name": "Ads Manager",
+              "orderindex": 0,
+              "color": "#1bbc9c"
+            },
+            {
+              "id": "0119b661-8b3f-4bb4-937e-a9b6fb527b46",
+              "name": "Client",
+              "orderindex": 1,
+              "color": "#FF7FAB"
+            },
+            {
+              "id": "c40946af-ffa3-47a9-9d34-cd082712b42b",
+              "name": "Project Manager",
+              "orderindex": 2,
+              "color": "#667684"
+            },
+            {
+              "id": "da3c102f-4a3e-428f-9325-4a4dbf1f7c8a",
+              "name": "CEO",
+              "orderindex": 3,
+              "color": "#81B1FF"
+            },
+            {
+              "id": "c72d3fce-e20a-4364-adb0-93c28c0fcc3e",
+              "name": "LeadLock Designer",
+              "orderindex": 4,
+              "color": "#FF4081"
+            },
+            {
+              "id": "6f16a11b-4e41-41d6-96b5-df4ed355889d",
+              "name": "Assistant ",
+              "orderindex": 5,
+              "color": "#9b59b6"
+            },
+            {
+              "id": "d8a07b42-7e8c-4eed-a779-ebe7a12fd764",
+              "name": "All Team Members",
+              "orderindex": 6,
+              "color": "#f9d900"
+            },
+            {
+              "id": "f53347b1-2a53-465a-af90-f7b51662c064",
+              "name": "Opportunity for Automation",
+              "orderindex": 7,
+              "color": "#800000"
+            },
+            {
+              "id": "614c7903-88c8-4763-8949-e8245677ff1d",
+              "name": "GHL Specialist",
+              "orderindex": 8,
+              "color": "#f76808"
+            },
+            {
+              "id": "9504014f-92ad-400c-8234-6e95307d4bbc",
+              "name": "Marketing Assistant",
+              "orderindex": 9,
+              "color": "#dfafe3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

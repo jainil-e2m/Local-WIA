@@ -1,0 +1,93 @@
+diff --git a/backend/transfer-work/OWNER_HANDOVER_REPORT.md b/backend/transfer-work/OWNER_HANDOVER_REPORT.md
+new file mode 100644
+index 0000000..d3817ce
+--- /dev/null
++++ b/backend/transfer-work/OWNER_HANDOVER_REPORT.md
+@@ -0,0 +1,66 @@
++# Content Atelier Railway handover — owner report
++
++Stamp: **2026-10-19**. Railway project: **Content Atelier**, workspace **E2M AI’s Projects**, logical bucket **transfer-inbox**.
++
++Status: **complete**. The requested listing command showed `2026-10-19: complete`. Every remote archive and dump was downloaded and checksum-verified; all unpacked files passed, and the 6,448 prepared payload files matched their original allowlist.
++
++## Database
++
++- Name: atelier
++- PostgreSQL: 17.10 (Debian 17.10-1.pgdg12+1)
++- pgvector: 0.8.2
++- Schema versions: not recorded by the source database; no version numbers inferred.
++- Custom-format dump bytes: 27973432
++- Transcripts: 170
++- Chunks: 2657
++- Chunk embeddings: 2657
++- Moments: 14
++- Angles: 13
++- Briefs: 2
++- Local restore test: all 13 table counts matched, with all 2,657 chunk embeddings.
++- Original-source coverage: 170 of 170 original transcript hashes verified.
++
++## Folders uploaded
++
++Sizes below are uncompressed source bytes. The dump is listed separately above.
++
++| Folder group | Files | Bytes | Additional files left out by uploader |
++| --- | ---: | ---: | ---: |
++| artifacts | 3410 | 264622280 | 0 |
++| extra-zoom-backfill | 240 | 10985154 | 0 |
++| extra-fathom-staging | 42 | 1769915 | 0 |
++| extra-legacy-zoom | 10 | 469383 | 0 |
++| extra-dating-inputs | 15 | 12001647 | 0 |
++| extra-code | 1291 | 51960063 | 0 |
++| extra-legacy-datastore | 1135 | 193318520 | 0 |
++| extra-corpus | 289 | 11124009 | 0 |
++| extra-reference-material | 15 | 2262977 | 0 |
++| extra-preparation-reports | 16 | 8389926 | 0 |
++| extra-package-metadata | 4 | 9446 | 0 |
++
++The two inventory reports and completion manifest were also uploaded.
++
++## Exclusions and handling
++
++- The uploader excluded zero additional files from the prepared package.
++- Preparation excluded 7,218 synthetic test-output or rebuildable tokenizer files, four environment/template files, and two duplicate ZIPs whose extracted packages were retained. Exact names and reasons are in the uploaded preparation reports.
++- Ignored scratch/runtime/dependency directories and unrelated client/WIA application folders were outside the prepared data scope.
++- Docker fixture databases atelier_test and atelier_intake_test, native fixture databases atelier_test and atelier_calendar_migration_test, and empty maintenance databases were inventoried and excluded. No separate non-test older intake database was found in those inspected clusters.
++- Credentials were excluded or redacted. The readable code snapshot has six redacted files; the sanitized 227-commit Git history has changed commit hashes. Original files and Git history remain unchanged.
++- The verified prepared dump was uploaded directly; the stopped original database was not started, stopped, migrated or modified during this upload.
++
++## Verification and retention
++
++- Core payload: 6448 files, 576487380 bytes.
++- Database plus compressed archive bytes: 176427322.
++- Downloaded copies and unpacked files: transfer-work/roundtrip.
++- Retained database and archive parts: transfer-work/pack.
++- Inventory, upload plan, resume arguments, tool review, remote manifest and verification report: transfer-work.
++- Source originals and the original prepared package remain intact.
++- Bucket credentials were used in memory and were not printed or saved.
++
++## Errors
++
++No unresolved upload or verification errors. The initial test invocation encountered an unrelated application-fixture dependency; the standalone transfer suite then passed all 10 tests.
++
++Verified at 2026-10-19T11:38:19+05:30.
+diff --git a/backend/transfer-work/remote-verification-report.json b/backend/transfer-work/remote-verification-report.json
+new file mode 100644
+index 0000000..271a9b2
+--- /dev/null
++++ b/backend/transfer-work/remote-verification-report.json
+@@ -0,0 +1,15 @@
++{
++  "stamp": "2026-10-19",
++  "status": "passed",
++  "remote_list_status": "complete",
++  "all_remote_objects_downloaded_and_checksums_verified": true,
++  "all_unpacked_files_verified": true,
++  "prepared_payload_files_matched": 6448,
++  "prepared_payload_bytes": 576487380,
++  "missing_payload_files": [],
++  "mismatched_payload_files": [],
++  "remote_groups": 11,
++  "database_dumps": 1,
++  "remote_object_bytes": 176427322,
++  "download_location": "C:\\Users\\Jainil Trivedi\\wia-handover-tools\\backend\\transfer-work\\roundtrip"
++}

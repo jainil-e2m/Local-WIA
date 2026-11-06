@@ -1,0 +1,1578 @@
+{
+ "docMeta": {
+  "title": "AI Blueprint",
+  "client": "Wedding Industry Ads",
+  "preparedBy": "E2M Solutions",
+  "date": "September 2026",
+  "version": "1.0",
+  "classification": "Confidential",
+  "purpose": "Prioritized automation roadmap for Wedding Industry Ads",
+  "sourceBasis": [
+   "Task audit: 12 rows, Operations / Admin, one role (Gisselle Jimenez)",
+   "Workflow interview, 26 August 2026",
+   "Prior discovery and stack review sessions",
+   "Client Onboarding MVP currently in build"
+  ],
+  "contact": "Minu Bhatt, AI adoption specialist, and Jainil, AI engineer, E2M Solutions"
+ },
+ "departments": [
+  {
+   "id": "operations",
+   "name": "Operations & Task Orchestration",
+   "team": [
+    "Gisselle Jimenez (executive assistant)",
+    "Whitney Hodges (owner)",
+    "Team members assigned tasks in ClickUp and Slack"
+   ],
+   "currentManualHours": "~3.1 hrs/month (R5+R15)",
+   "recoverableHours": "Up to ~3.1 hrs/month",
+   "summary": "Detects overdue tasks, unacknowledged action items, and billing or data-hygiene exceptions across ClickUp, Slack, Gmail, and GHL, and routes each one to a named human for action."
+  },
+  {
+   "id": "member-portal",
+   "name": "Member Portal & Community",
+   "team": [
+    "Gisselle Jimenez (EA)",
+    "Carmen (Google Ads office hours)",
+    "Jacqueline (Meta Ads office hours)",
+    "Whitney Hodges (monthly sessions)"
+   ],
+   "currentManualHours": "11 hrs/month (R11+R12+R13)",
+   "recoverableHours": "Up to 11 hrs/month",
+   "summary": "Track office-hours attendance and publish reminder and recap content inside the GHL Communities portal, while every member contact stays with a person."
+  },
+  {
+   "id": "meetings",
+   "name": "Meetings & Knowledge Capture",
+   "team": [
+    "Gisselle Jimenez",
+    "Whitney Hodges"
+   ],
+   "currentManualHours": "4 hrs/month (R6)",
+   "recoverableHours": "Up to 4 hrs/month",
+   "summary": "Converts meeting transcripts into action items, archived assets and reviewed recaps so decisions made on a call reach ClickUp, the team and, after review, the client."
+  },
+  {
+   "id": "onboarding",
+   "name": "Client Onboarding",
+   "team": [
+    "Gisselle Jimenez",
+    "Whitney Hodges",
+    "Multiple owners across onboarding steps"
+   ],
+   "currentManualHours": "Not separately quantified",
+   "recoverableHours": "Not separately quantified",
+   "summary": "Trigger onboarding from the signed-and-paid event, hand a human an editable checklist and welcome-email draft, and file inbound client assets into the client's Drive folder."
+  },
+  {
+   "id": "marketing",
+   "name": "Marketing & Content Engine",
+   "team": [
+    "Whitney Hodges",
+    "Gisselle Jimenez"
+   ],
+   "currentManualHours": "Not separately quantified",
+   "recoverableHours": "Not separately quantified",
+   "summary": "Converts client call recordings into reviewed marketing output: content ideas, reel scripts, carousels, email copy, and case studies."
+  },
+  {
+   "id": "client-comms",
+   "name": "Client Communications",
+   "team": [
+    "Whitney Hodges (Owner/Founder)",
+    "Gisselle Jimenez (EA)"
+   ],
+   "currentManualHours": "Not separately quantified",
+   "recoverableHours": "Not separately quantified",
+   "summary": "Draft, triage, and file client email in Gmail, holding client-facing replies behind a human review gate."
+  },
+  {
+   "id": "paid-media",
+   "name": "Paid Media Reporting",
+   "team": [
+    "Gisselle Jimenez",
+    "Whitney Hodges"
+   ],
+   "currentManualHours": "Not separately quantified",
+   "recoverableHours": "Not separately quantified",
+   "summary": "Produce weekly Google Ads and Meta Ads performance reports for every client account from one scheduled run, delivered to Slack for review."
+  }
+ ],
+ "initiatives": [
+  {
+   "id": "CC-01",
+   "title": "Inbox Triage & Auto-Filing",
+   "departmentId": "client-comms",
+   "owner": "Gisselle Jimenez (EA)",
+   "priority": "High",
+   "phase": 1,
+   "currentProcess": "Gisselle works the inbox daily, filing emails Whitney has already read into the appropriate client folder, applying the starring system by hand, and clearing a larger backlog on Mondays from mail that came in over the weekend.",
+   "outcome": "Classifies incoming mail against the client, partner, newsletter, and tools labels, files read no-action threads, and proposes a star state for everything that still needs a human.",
+   "capabilities": [
+    "Per-client label matching on sender and thread history",
+    "Auto-filing of read, no-action threads",
+    "Star state proposed against the existing starring system",
+    "Monday batch pass over weekend mail",
+    "Vendor newsletters grouped, never auto-archived",
+    "New client label created at signed-and-paid, with lead-stage mail back-filed"
+   ],
+   "tools": [
+    "Gmail",
+    "OpenRouter"
+   ],
+   "dependencies": [
+    "Gmail API access to Whitney's and Gisselle's mailboxes",
+    "Written mapping of each star symbol to a machine-readable state",
+    "Decision on whether to keep or revamp the label taxonomy, which Whitney is not attached to",
+    "Current list of client, partner, newsletter, and tools labels",
+    "CC-03 waiting-tag handling, which takes the threads this triage marks as awaiting a reply"
+   ],
+   "humanReview": "Filing runs without per-item approval. Gisselle Jimenez reviews an exceptions queue of threads the workflow could not classify, and the proposed star states. Nothing is deleted, and vendor newsletters under the tools label stay visible because one occasionally matters."
+  },
+  {
+   "id": "CC-02",
+   "title": "Draft Emails in Whitney's Voice",
+   "departmentId": "client-comms",
+   "owner": "Gisselle Jimenez (EA), reviewed by Whitney Hodges",
+   "priority": "High",
+   "phase": 1,
+   "currentProcess": "Gisselle writes roughly five replies a day by hand, leaves them in the Gmail drafts folder, and marks the thread with a symbol so Whitney knows to review and send.",
+   "outcome": "Drafts replies in Whitney's voice into the Gmail drafts folder, covering the bulk of the intended message, and retrains on the edits she makes before sending.",
+   "capabilities": [
+    "Reply drafts written into the Gmail drafts folder",
+    "Voice model trained on Whitney's sent mail",
+    "Thread context pulled from Gmail, Slack, and Google Drive",
+    "Edit capture on send, diffing draft against sent copy",
+    "Ready-for-review marker on the thread"
+   ],
+   "tools": [
+    "Gmail",
+    "OpenRouter",
+    "Slack",
+    "Google Drive"
+   ],
+   "dependencies": [
+    "Gmail API access to Whitney's mailbox including sent mail",
+    "Slack and Google Drive read access, since drafting cannot happen in isolation from where calls and client files live",
+    "Decision to keep drafting in Gmail rather than GHL, where Whitney does not see drafted replies and formatting breaks on send",
+    "Baseline set of approved sent emails for voice training",
+    "CC-01 label and star classification, which decides which threads reach the drafting step"
+   ],
+   "humanReview": "Whitney Hodges reviews and sends every AI-generated client reply; Gisselle Jimenez reviews first on the threads she owns. Nothing AI-generated reaches a client without Whitney Hodges sending it. Gisselle Jimenez's existing discretion to send her own short acknowledgements on threads she writes herself is unchanged and does not extend to generated drafts."
+  },
+  {
+   "id": "CC-03",
+   "title": "Waiting-Tag Follow-Up Detector",
+   "departmentId": "client-comms",
+   "owner": "Gisselle Jimenez (EA)",
+   "priority": "Medium",
+   "phase": 1,
+   "currentProcess": "Gisselle tags threads as waiting when a reply is owed, then reads back through them every Monday to spot clients who have not answered in about two weeks and asks Whitney whether to follow up, while also watching whether CC'd team members reply inside the 24–48 business hour target.",
+   "outcome": "Flags waiting threads that pass the two-week mark, groups them into a Monday queue, and attaches a follow-up draft for review.",
+   "capabilities": [
+    "Waiting tag applied automatically when a reply is owed",
+    "Thread age tracked against the two-week mark",
+    "Monday review queue grouped by client",
+    "Team-reply watch against the 24–48 business hour target",
+    "Follow-up draft attached to each flagged thread"
+   ],
+   "tools": [
+    "Gmail",
+    "OpenRouter"
+   ],
+   "dependencies": [
+    "Gmail API access",
+    "Confirmation of the waiting threshold currently judged by eye at roughly two weeks",
+    "List of team members CC'd on client threads and who owns which client",
+    "Scope split with OP-02: CC-03 watches the client side through the Gmail waiting tag, OP-02 watches the team side in Slack, so one unanswered thread is counted once",
+    "CC-01 star and label states, which mark the threads that carry the waiting tag"
+   ],
+   "humanReview": "Gisselle Jimenez reviews the flagged queue each Monday and puts it to Whitney Hodges, who decides whether a follow-up goes out. The detector flags; the human sends."
+  },
+  {
+   "id": "CC-04",
+   "title": "Post-Meeting Template Recap Emails",
+   "departmentId": "client-comms",
+   "owner": "Gisselle Jimenez (EA)",
+   "priority": "Medium",
+   "phase": 2,
+   "currentProcess": "After a client call Gisselle picks the matching template from Google Drive, depending on whether it was a general strategy call or an onboarding meeting, and writes the recap email in Gmail by hand.",
+   "outcome": "Selects the recap template that matches the meeting type and returns a filled Gmail draft carrying that call's specifics.",
+   "capabilities": [
+    "Call type matched to the general strategy or onboarding template",
+    "Template pulled from the Google Drive template set",
+    "Recap populated from the Zoom transcript and summary",
+    "Draft staged in Gmail for review"
+   ],
+   "tools": [
+    "Gmail",
+    "Zoom",
+    "Google Drive",
+    "OpenRouter"
+   ],
+   "dependencies": [
+    "Google Drive access to the recap template set",
+    "Zoom cloud recording and transcript access",
+    "Mapping of meeting type to template",
+    "CC-02 voice model in place",
+    "Scope split with MK-03 so one recap draft is produced per client call, not two: CC-04 fills the template email, MK-03 carries the internal decision summary and the action-item link back",
+    "MK-02 archived Zoom transcript and summary as the source for the recap content"
+   ],
+   "humanReview": "Gisselle Jimenez or Whitney Hodges reviews before sending, which is the condition the audit row itself sets. No recap leaves the inbox unreviewed."
+  },
+  {
+   "id": "CC-05",
+   "title": "Post-Sales-Call Proactive Drafts",
+   "departmentId": "client-comms",
+   "owner": "Whitney Hodges (Owner/Founder)",
+   "priority": "Medium",
+   "phase": 2,
+   "currentProcess": "The outcome of a sales call is known by the time the call ends, but the email that follows, such as sending the Elevate proposal, is still written from scratch afterwards.",
+   "outcome": "Extracts the agreed next step from a sales call and stages the matching proposal or follow-up email as a Gmail draft for review.",
+   "capabilities": [
+    "Agreed next step extracted from the sales call transcript",
+    "Offer matched against the current proposal set",
+    "Proposal or follow-up email drafted in Gmail",
+    "Draft raised for Whitney's review before any lead contact"
+   ],
+   "tools": [
+    "Gmail",
+    "Zoom",
+    "OpenRouter",
+    "Google Drive"
+   ],
+   "dependencies": [
+    "Zoom transcript access for sales calls",
+    "Current proposal and offer email templates",
+    "Decision on whether lead comms move into GHL, raised on the call as best practice for open-tracking and snippets",
+    "CC-02 voice model in place",
+    "MK-02 archived sales-call recording and transcript, subject to the same Drive filing rule as client calls"
+   ],
+   "humanReview": "Whitney Hodges reviews and sends every proposal and lead-facing email. Drafts stage in Gmail and never send on their own."
+  },
+  {
+   "id": "MC-01",
+   "title": "Transcript -> Content Idea Queue",
+   "departmentId": "marketing",
+   "owner": "Whitney Hodges and Gisselle Jimenez",
+   "priority": "High",
+   "phase": 2,
+   "currentProcess": "Whitney flags a client call to Gisselle, who pastes that transcript into ChatGPT to produce a reel script, so only flagged calls are mined for content.",
+   "outcome": "Reads client call transcripts as they land in Google Drive and posts content candidates to a queue, each carrying its source quote, timestamp, and a link to the recording.",
+   "capabilities": [
+    "Transcript pickup from Zoom recordings filed in Google Drive",
+    "Content candidate extraction with source quote and timestamp",
+    "Accept-or-reject queue for each candidate",
+    "Coverage of client call transcripts as they land, not only flagged calls",
+    "Link back to the source recording"
+   ],
+   "tools": [
+    "Zoom",
+    "Google Drive",
+    "OpenRouter"
+   ],
+   "dependencies": [
+    "MK-02 filing of the recording, transcript and summary into the client's Drive folder, which is the pickup point for this queue",
+    "Zoom and Google Drive access to the client call folders",
+    "Whitney's criteria for what makes a call worth posting about",
+    "Decision on where the content queue lives (ClickUp proposed)",
+    "Decision on which clients may be referenced in public content"
+   ],
+   "humanReview": "Whitney Hodges accepts or rejects every queued candidate; nothing advances out of the queue without her selection."
+  },
+  {
+   "id": "MC-02",
+   "title": "Reel Script Gen w/ Voice-Note Steering",
+   "departmentId": "marketing",
+   "owner": "Whitney Hodges and Gisselle Jimenez",
+   "priority": "High",
+   "phase": 2,
+   "currentProcess": "Gisselle pastes the flagged transcript into ChatGPT to generate a reel script and Whitney refines it before recording, so the angle and history she wants enter the work only when she rewrites the draft.",
+   "outcome": "Generates a reel script from the selected call plus a recorded voice note from Whitney: \"hey I want to reference this call, here's more context, here's more history, this is the direction I want to take it.\"",
+   "capabilities": [
+    "Voice note captured and transcribed as the steering input",
+    "Script drafted against the call transcript plus Whitney's spoken direction",
+    "Revision loop driven by a follow-up voice note",
+    "Voice calibration from Whitney's previously approved scripts"
+   ],
+   "tools": [
+    "OpenRouter",
+    "Zoom",
+    "Google Drive"
+   ],
+   "dependencies": [
+    "MC-01 content idea queue in place",
+    "Decision on where Whitney records voice notes (Slack audio clips proposed)",
+    "Sample set of Whitney's approved past reel scripts for voice calibration",
+    "Transcript access for the referenced call"
+   ],
+   "humanReview": "Whitney Hodges edits and approves every script before she records it; the draft never publishes on its own."
+  },
+  {
+   "id": "MC-03",
+   "title": "Multi-Format Repurposing",
+   "departmentId": "marketing",
+   "owner": "Whitney Hodges and Gisselle Jimenez",
+   "priority": "Medium",
+   "phase": 2,
+   "currentProcess": "Once the reel is recorded, the carousel and the email marketing piece are each written again from the same call: \"now we need to turn it into a carousel. Now we need to turn it into a piece of email marketing\".",
+   "outcome": "Expands one approved reel script into carousel copy and an email marketing draft built from the same call and the same voice note.",
+   "capabilities": [
+    "Carousel copy broken out slide by slide for the Canva build",
+    "Email marketing draft from the approved script",
+    "One source call and one voice note reused across formats",
+    "Derived formats gated behind reel script approval"
+   ],
+   "tools": [
+    "OpenRouter",
+    "Canva",
+    "Google Drive"
+   ],
+   "dependencies": [
+    "MC-02 approved reel script",
+    "MC-02 voice note capture, wherever that recording surface is settled",
+    "Canva brand templates for carousels",
+    "Decision on where marketing email sends from (GHL or Gmail)",
+    "Whitney's approval that a given call may be reused across formats"
+   ],
+   "humanReview": "Whitney Hodges approves each derived format before it goes out; Gisselle Jimenez builds the Canva carousel from approved copy only."
+  },
+  {
+   "id": "MC-04",
+   "title": "Case-Study Extraction",
+   "departmentId": "marketing",
+   "owner": "Whitney Hodges",
+   "priority": "Medium",
+   "phase": 2,
+   "currentProcess": "Case-study material sits inside client call recordings and is written up only when Whitney flags a call and Gisselle works the transcript.",
+   "outcome": "Assembles draft case studies from client call recordings, building the narrative from the client's own words with the supporting quote and timestamp attached.",
+   "capabilities": [
+    "Draft case study per client from call recordings",
+    "Quote extraction with speaker and timestamp",
+    "Narrative built from the client's own words on the call",
+    "Claims flagged where no source quote supports them"
+   ],
+   "tools": [
+    "Zoom",
+    "Google Drive",
+    "OpenRouter"
+   ],
+   "dependencies": [
+    "MC-01 content idea queue in place",
+    "Google Drive access to client call recordings and transcripts",
+    "Decision on which clients may be named in public content"
+   ],
+   "humanReview": "Whitney Hodges approves every draft case study, and the naming of the client in it, before anything publishes."
+  },
+  {
+   "id": "MK-01",
+   "title": "Meeting Recap -> Action Items -> ClickUp",
+   "departmentId": "meetings",
+   "owner": "Gisselle Jimenez",
+   "priority": "Medium",
+   "phase": 1,
+   "timeSaved": "Up to 4 hrs/month (R6: 1 hr × 4 Mondays)",
+   "currentProcess": "Each Monday Gisselle works through the team meeting recording in Fathom, writes a bullet list of action items per team member, creates the matching ClickUp tasks with descriptions, assignees and due dates, and posts the recap to Slack, taking up to an hour a week.",
+   "outcome": "Converts the Monday team meeting transcript into a per-person action-item list and pre-filled ClickUp task drafts that Gisselle edits before anything is written or posted.",
+   "capabilities": [
+    "Action items extracted per team member from the Fathom transcript",
+    "Draft ClickUp tasks carrying description, assignee and due date",
+    "Editable task list before any ClickUp write",
+    "Slack recap post released only after approval",
+    "Weekly run tied to the Monday team meeting"
+   ],
+   "tools": [
+    "Fathom",
+    "ClickUp",
+    "Slack",
+    "OpenRouter"
+   ],
+   "dependencies": [
+    "Fathom transcript export or API access for the Monday team meeting",
+    "ClickUp API access with task-creation rights in the team workspace",
+    "Slack app install and the channel the recap posts to",
+    "Mapping of team members to ClickUp assignees",
+    "Agreed default due-date convention for spoken commitments",
+    "Agreed handoff to OP-02, which chases the tasks this initiative creates"
+   ],
+   "humanReview": "Gisselle Jimenez reviews and edits every action item, assignee and due date before tasks are written to ClickUp or the recap is posted to Slack."
+  },
+  {
+   "id": "MK-02",
+   "title": "Zoom Asset Auto-Archival",
+   "departmentId": "meetings",
+   "owner": "Gisselle Jimenez",
+   "priority": "Medium",
+   "phase": 1,
+   "timeSaved": "15 min per client meeting",
+   "currentProcess": "After a client Zoom meeting Gisselle downloads the recording, transcript and summary and uploads them by hand into that client's Google Drive folder, at about 15 minutes per meeting with no monthly total recorded.",
+   "outcome": "Copies each client Zoom recording, transcript and summary into that client's Google Drive folder as soon as the meeting finishes processing.",
+   "capabilities": [
+    "Zoom cloud recording completion trigger",
+    "Recording, transcript and summary captured per meeting",
+    "Client folder matched per meeting before upload",
+    "Exception queue for meetings with no matched client folder",
+    "Drive links passed to recap drafting"
+   ],
+   "tools": [
+    "Zoom",
+    "Google Drive"
+   ],
+   "dependencies": [
+    "Zoom account admin access with cloud recording and transcription enabled",
+    "Google Drive credentials with write access to client folders",
+    "Map of client name to Drive folder ID",
+    "Decision on retention and storage location for recordings and transcripts",
+    "Scope split with ON-03 so Zoom recordings, transcripts and summaries are archived once, not twice"
+   ],
+   "humanReview": "Gisselle Jimenez clears the exception queue and confirms folder placement; this initiative produces no client-facing output."
+  },
+  {
+   "id": "MK-03",
+   "title": "Client-Facing Recap Drafting",
+   "departmentId": "meetings",
+   "owner": "Gisselle Jimenez",
+   "priority": "Medium",
+   "phase": 2,
+   "currentProcess": "Even with an AI notetaker on client Zoom calls, the team still writes the client recap from the appropriate template, relays the decisions to the team, creates the resulting action items, chases them, and reports completion back to the client.",
+   "outcome": "Drafts the client recap and the internal decision summary from the call transcript and holds both for review before anything reaches the client.",
+   "capabilities": [
+    "Recap draft built from the client call transcript",
+    "Recap template selected by call type, strategy or onboarding",
+    "Decisions, commitments and next steps extracted per call",
+    "Internal decision summary routed to the team in Slack",
+    "Action items linked back to the originating call",
+    "Draft held in Gmail for review before sending",
+    "Prompt to close the loop with the client when linked action items complete"
+   ],
+   "tools": [
+    "Zoom",
+    "OpenRouter",
+    "Gmail",
+    "Slack",
+    "ClickUp",
+    "Google Drive"
+   ],
+   "dependencies": [
+    "MK-02 archived recording, transcript and summary per client meeting",
+    "MK-01 action-item extraction and ClickUp task drafting",
+    "Scope split with CC-04 so one recap draft is produced per client call, not two: CC-04 fills the template email, MK-03 carries the internal decision summary and the action-item link back",
+    "Zoom cloud transcript access for client calls",
+    "Approved recap templates for strategy calls and onboarding calls",
+    "Samples of Whitney's sent recaps for voice calibration",
+    "Decision on which call types generate a client recap"
+   ],
+   "humanReview": "Whitney Hodges or Gisselle Jimenez reviews and edits every recap in Gmail drafts before it is sent; no AI-generated text goes to a client unreviewed."
+  },
+  {
+   "id": "MP-01",
+   "title": "Roll Call & Absence Flagging",
+   "departmentId": "member-portal",
+   "owner": "Gisselle Jimenez (EA)",
+   "priority": "High",
+   "phase": 1,
+   "timeSaved": "2 hrs/month (R13: 10 min × 12)",
+   "currentProcess": "Gisselle rolls both roll call sheets forward by hand each week, copying rows and updating the date, then counts consecutive misses per member against the 2-week and 4-week thresholds; her earlier attempt to automate the sheet did not complete.",
+   "outcome": "Maintains the consecutive-miss count per member from each session's attendance and raises a 2-week or 4-week flag for a human to action.",
+   "capabilities": [
+    "Per-member consecutive-miss counter",
+    "Separate Google Ads and Meta Ads rosters",
+    "Attendance reset on any session attended",
+    "2-week and 4-week flag thresholds",
+    "Weekly sheet rolled forward without copy-paste",
+    "Flag only - no automated DM or email",
+    "ClickUp task raised to confirm the human DM was sent"
+   ],
+   "tools": [
+    "GHL",
+    "Google Sheets",
+    "ClickUp"
+   ],
+   "dependencies": [
+    "Edit access to both roll call Google Sheets",
+    "Decision on the attendance source: the team-submitted roll call sheet entry or the Zoom session attendance record",
+    "Team members recording attendance after each session",
+    "Confirmation of the reset rule and the 2-week / 4-week thresholds",
+    "ClickUp list for the DM-monitoring tasks, which OP-01 then picks up in the overdue digest when a DM is not confirmed"
+   ],
+   "humanReview": "Gisselle reviews the flagged list; the assigned team member sends the portal DM at 2 weeks and the email at 4 weeks. The system flags only and never contacts a member."
+  },
+  {
+   "id": "MP-02",
+   "title": "Session Reminder Posts",
+   "departmentId": "member-portal",
+   "owner": "Gisselle Jimenez (EA)",
+   "priority": "Medium",
+   "phase": 1,
+   "timeSaved": "3 hrs/month (R11: 15 min × 12)",
+   "currentProcess": "Gisselle posts a one-hour reminder in the member portal before each Thursday office hours session and Whitney's monthly session, and has missed the posting window on occasion.",
+   "outcome": "Schedules and publishes the one-hour reminder post for both Thursday office hours tracks and Whitney's monthly session.",
+   "capabilities": [
+    "Recurring schedule for Thursday Google Ads and Meta Ads sessions",
+    "One-hour-ahead post timing",
+    "Reminder for Whitney's monthly session",
+    "Human-approved post templates, no generated copy",
+    "Failure alert to Gisselle if a post does not fire"
+   ],
+   "tools": [
+    "GHL"
+   ],
+   "dependencies": [
+    "Confirmed session times: Google Ads Thursdays ~10-11am CST, Meta Ads Thursdays ~3:30pm",
+    "Whitney's monthly session dates published in advance",
+    "Posting permission in the GHL Communities portal",
+    "Approved reminder copy per session type",
+    "Whitney's sign-off that a scheduled post carrying pre-approved copy meets the no-AI-content-to-members rule"
+   ],
+   "humanReview": "Gisselle approves the reminder copy before any post is scheduled and is alerted on a failed post; no post publishes with copy she has not approved. Whitney confirms her monthly session date before that reminder is scheduled."
+  },
+  {
+   "id": "MP-03",
+   "title": "Session Recap Post + Canva Banner",
+   "departmentId": "member-portal",
+   "owner": "Gisselle Jimenez (EA)",
+   "priority": "Medium",
+   "phase": 2,
+   "timeSaved": "6 hrs/month (R12: ~0.5 hr × 12)",
+   "currentProcess": "After each session Gisselle collects the recording and recap summary the team member posts in Slack, builds a Canva banner with the session date, uploads to the member portal, and writes the recap post.",
+   "outcome": "Assembles the recap post - recording, the team member's summary, and a dated banner - and holds it in draft until a human publishes it.",
+   "capabilities": [
+    "Recording and recap summary pulled from the team member's Slack post",
+    "Dated banner generated from a locked Canva template",
+    "Draft recap post assembled in the member portal",
+    "Summary text taken from the team member's own recap, not generated",
+    "Separate Google Ads and Meta Ads session tracks",
+    "Held in draft until approved"
+   ],
+   "tools": [
+    "GHL",
+    "Canva",
+    "Slack"
+   ],
+   "dependencies": [
+    "Team members posting the recording and recap summary in Slack after each session",
+    "Canva brand template with an editable date field",
+    "Canva export or API access",
+    "Posting permission in the GHL Communities portal"
+   ],
+   "humanReview": "Gisselle reviews the assembled post and banner before it publishes to the portal; no AI-generated text reaches members, so the recap stays the team member's own words."
+  },
+  {
+   "id": "ON-01",
+   "title": "Dubsado Contact Signing & Invoice Paid Monitoring",
+   "departmentId": "onboarding",
+   "owner": "Gisselle Jimenez",
+   "priority": "Complete",
+   "phase": 0,
+   "status": "In build, demoing at this review. Ends at batch approval — this build writes nothing to ClickUp. Observes Dubsado signed and paid alerts, correlates the pair into one match, and surfaces it on a Command Center dashboard. A human activates the match to open an editable execution draft — rename tasks, change assignees, change due dates, remove rows — then batch approves. Approval is terminal and closes on a persistent confirmation toast.",
+   "currentProcess": "A client counts as signed up when the proposal is filled, the contract is signed and the invoice is paid, and today a person notices that pairing by hand before onboarding starts.",
+   "outcome": "Correlates the Dubsado signed and paid alerts into a single onboarding trigger and presents an editable execution draft for batch approval.",
+   "capabilities": [
+    "Dubsado signed and paid alert correlation",
+    "Command Center dashboard notification on match",
+    "Human activation before any draft is built",
+    "Editable draft rows for task name, assignee and due date",
+    "Row removal before approval",
+    "Batch approval with persistent confirmation toast",
+    "Terminal approval with no downstream writes"
+   ],
+   "tools": [
+    "Dubsado"
+   ],
+   "dependencies": [
+    "ClickUp onboarding template walkthrough with Whitney Hodges — nobody at E2M has seen the template; the walkthrough offered Sept 2 has not happened",
+    "Access to Dubsado signed and paid alerts",
+    "Decision on trigger source while contracts sit in both systems — Foolproof Follow-Up Advantage has already moved to GHL, the majority of contracts are still in Dubsado"
+   ],
+   "humanReview": "Gisselle Jimenez activates the correlated match and edits every row; batch approval is the only action that closes the draft, and this build writes to no downstream system."
+  },
+  {
+   "id": "ON-02",
+   "title": "Welcome Email + Checklist Assignment",
+   "departmentId": "onboarding",
+   "owner": "Gisselle Jimenez",
+   "priority": "Medium",
+   "phase": 1,
+   "timeSaved": "2 hrs per client onboarding (R8)",
+   "currentProcess": "When a client signs up, Gisselle duplicates the ClickUp onboarding checklist by hand, sets assignees and due dates once the kickoff and messaging-and-positioning calls are scheduled, and drafts the welcome email; the sequence is documented in ClickUp but every step is executed manually across several owners.",
+   "outcome": "Extends the approved ON-01 draft into ClickUp, writing the checklist with assignees and due dates and queueing the welcome email as a draft for human send.",
+   "capabilities": [
+    "Checklist duplication from the ClickUp onboarding template",
+    "Due dates derived from the booked kickoff and messaging-and-positioning calls",
+    "Assignee mapping per onboarding step",
+    "Welcome email draft prepared for review",
+    "Gmail draft held for human send",
+    "ClickUp write-back only after batch approval"
+   ],
+   "tools": [
+    "ClickUp",
+    "Gmail",
+    "Dubsado"
+   ],
+   "dependencies": [
+    "ON-01 approved execution draft as the upstream trigger",
+    "ClickUp onboarding template walkthrough with Whitney Hodges — still unseen by E2M",
+    "ClickUp API write access",
+    "Approved welcome email template",
+    "Source of truth for kickoff and messaging-and-positioning call dates",
+    "Decision on which signup source fires the trigger while contracts sit in both Dubsado and GHL"
+   ],
+   "humanReview": "Gisselle Jimenez edits assignees and due dates before anything is written to ClickUp; the welcome email stays a Gmail draft until Whitney Hodges or Gisselle sends it."
+  },
+  {
+   "id": "ON-03",
+   "title": "Client Asset Intake -> Drive Filing",
+   "departmentId": "onboarding",
+   "owner": "Gisselle Jimenez",
+   "priority": "Low",
+   "phase": 1,
+   "timeSaved": "15 min per meeting (R14)",
+   "currentProcess": "Completed client questionnaires, surveys and forms arrive in Gmail during onboarding, and Gisselle downloads each one and uploads it to that client's Google Drive folder by hand.",
+   "outcome": "Files inbound client forms and onboarding assets into the matching client folder in Google Drive without manual download and re-upload.",
+   "capabilities": [
+    "Detection of completed client forms arriving in Gmail",
+    "Client-to-folder matching against the Drive client folder structure",
+    "Direct transfer with no local download step",
+    "Exception queue for assets that match no client"
+   ],
+   "tools": [
+    "Gmail",
+    "Google Drive"
+   ],
+   "dependencies": [
+    "Google Drive access to the client folders",
+    "Confirmed client folder naming convention",
+    "Client label mapping in Gmail — a label is created as soon as a client signs up",
+    "Scope split with MK-02 so Zoom recordings, transcripts and summaries are archived once, not twice"
+   ],
+   "humanReview": "Gisselle Jimenez clears the exception queue for assets that cannot be matched to a client folder; the initiative generates no client-facing message."
+  },
+  {
+   "id": "OP-01",
+   "title": "Overdue Task Digest -> Slack",
+   "departmentId": "operations",
+   "owner": "Gisselle Jimenez",
+   "priority": "Low",
+   "phase": 1,
+   "timeSaved": "2 hrs/month (R5: 0.5 hr × 4 Mondays)",
+   "currentProcess": "Gisselle reviews ClickUp for overdue tasks every Monday and posts a recap tagging the responsible team members in Slack, at 0.5 hr per week.",
+   "outcome": "Compiles overdue ClickUp tasks into a per-assignee digest and posts it to Slack once Gisselle approves it.",
+   "capabilities": [
+    "Scheduled Monday pull of overdue tasks from ClickUp",
+    "Grouping of overdue tasks by assignee",
+    "Slack post that @-mentions the responsible member",
+    "Gisselle approval step before anything posts"
+   ],
+   "tools": [
+    "ClickUp",
+    "Slack"
+   ],
+   "dependencies": [
+    "ClickUp API access covering all team task lists",
+    "Slack workspace app install and target channel decision",
+    "Confirmed mapping of ClickUp assignees to Slack handles",
+    "Decision on channel post versus per-member DM",
+    "MP-01 DM-monitoring ClickUp tasks included in the overdue pull, so an unsent 2-week portal DM surfaces in the Monday digest"
+   ],
+   "humanReview": "Gisselle Jimenez approves the digest before it posts to Slack."
+  },
+  {
+   "id": "OP-02",
+   "title": "Action-Item Chase & Ack Tracking",
+   "departmentId": "operations",
+   "owner": "Gisselle Jimenez",
+   "priority": "High",
+   "phase": 2,
+   "currentProcess": "Gisselle monitors Slack and email every day to see whether team members have acknowledged action items, and chases them manually when nothing comes back inside the 24-48 business hour target, with emails getting lost in team inboxes.",
+   "outcome": "Tracks assigned action items across Slack, Gmail, and ClickUp and surfaces the unacknowledged ones to Gisselle as a daily chase list.",
+   "capabilities": [
+    "Action-item register built from Slack threads, CC'd email, and ClickUp tasks",
+    "Acknowledgement detection against the 24-48 business hour target",
+    "Daily unacknowledged list for Gisselle",
+    "Draft nudge text per team member, held until approved"
+   ],
+   "tools": [
+    "Slack",
+    "Gmail",
+    "ClickUp",
+    "OpenRouter"
+   ],
+   "dependencies": [
+    "Slack workspace app install with history access on the channels in scope",
+    "Gmail access covering threads the team is CC'd on",
+    "ClickUp API access",
+    "Agreed definition of what counts as an acknowledgement",
+    "MK-01 action items as one source for the chase register, since the Monday meeting tasks are the ClickUp tasks and Slack posts this initiative then chases",
+    "Scope split with CC-03: CC-03 watches the client side through the Gmail waiting tag, OP-02 watches the team side in Slack, so one unanswered thread is counted once"
+   ],
+   "humanReview": "Gisselle Jimenez approves every nudge before it sends. Nothing goes to a client."
+  },
+  {
+   "id": "OP-03",
+   "title": "Billing & Data-Hygiene Flags",
+   "departmentId": "operations",
+   "owner": "Gisselle Jimenez",
+   "priority": "Medium",
+   "phase": 1,
+   "timeSaved": "~1.1 hrs/month (R15: 3 min × ~22 workdays)",
+   "currentProcess": "Gisselle checks GHL each day for invalid email addresses and overdue invoices, a 3-minute task she reports forgetting.",
+   "outcome": "Runs the GHL invalid-email and overdue-invoice checks on a schedule and flags exceptions to Gisselle and Whitney.",
+   "capabilities": [
+    "Daily invalid-email check using the existing GHL filter",
+    "Daily overdue-invoice check in GHL",
+    "Flag notification to Gisselle and Whitney",
+    "Flag only, no message to any client or payer"
+   ],
+   "tools": [
+    "GHL"
+   ],
+   "dependencies": [
+    "GHL API or webhook access on the shared GHL sub-account",
+    "The existing GHL invalid-email filter kept in place",
+    "Access to GHL invoice records",
+    "Agreed flag destination and recipients"
+   ],
+   "humanReview": "Gisselle Jimenez and Whitney Hodges do the follow-up themselves; the system flags only and never contacts a client or payer."
+  },
+  {
+   "id": "PM-01",
+   "title": "Google Ads Reporting",
+   "departmentId": "paid-media",
+   "owner": "Gisselle Jimenez",
+   "priority": "Medium",
+   "phase": 1,
+   "currentProcess": "Each client's Google Ads performance is reviewed and written up per account every week, and week-over-week comparison depends on whoever prepares it holding the prior week's figures.",
+   "outcome": "Pulls campaign-level Google Ads performance for every client account on a weekly schedule, compares it against the prior week and a 30-day average, and posts a downloadable report to Slack.",
+   "capabilities": [
+    "Campaign-level spend, clicks, impressions, CTR, conversions and cost per conversion",
+    "Week-over-week change against the prior week, with the prior figure shown",
+    "30-day weekly average as a second baseline",
+    "Paused and zero-delivery campaigns suppressed but counted",
+    "Account marked Strong or Needs attention",
+    "Downloadable report posted to Slack"
+   ],
+   "tools": [
+    "Claude / Openrouter",
+    "Google Ads MCP",
+    "Slack"
+   ],
+   "dependencies": [
+    "Google Ads MCP server deployed and connected to the reporting agent",
+    "Google Ads manager account access covering every client account to be reported",
+    "Slack app permitted to post the report to the agreed channel",
+    "List of client accounts and their Google Ads customer IDs",
+    "Agreed thresholds for marking an account Needs attention",
+    "Confirmation of who receives the report and whether any version reaches a client"
+   ],
+   "humanReview": "Gisselle Jimenez checks each report in Slack before it goes further. No report or figure reaches a client until Whitney Hodges approves it."
+  },
+  {
+   "id": "PM-02",
+   "title": "Meta Ads Reporting",
+   "departmentId": "paid-media",
+   "owner": "Gisselle Jimenez",
+   "priority": "Medium",
+   "phase": 1,
+   "currentProcess": "Each client's Meta Ads performance is reviewed and written up per account every week, separately from the Google Ads write-up and against a different metric set.",
+   "outcome": "Pulls campaign-level Meta Ads performance for every client ad account on a weekly schedule, compares it against the prior week and a 30-day average, and posts a downloadable report to Slack.",
+   "capabilities": [
+    "Campaign-level spend, clicks, impressions, CTR, conversions and cost per conversion",
+    "Week-over-week change against the prior week, with the prior figure shown",
+    "30-day weekly average as a second baseline",
+    "Placement, audience and creative breakdowns in place of search terms",
+    "Account marked Strong or Needs attention",
+    "Downloadable report posted to Slack"
+   ],
+   "tools": [
+    "Claude / Openrouter",
+    "Meta Ads MCP",
+    "Slack"
+   ],
+   "dependencies": [
+    "Meta Ads MCP server deployed and connected to the reporting agent",
+    "Meta Business Manager access to every client ad account to be reported",
+    "Slack app permitted to post the report to the agreed channel",
+    "List of client ad account IDs",
+    "Agreed thresholds for marking an account Needs attention",
+    "Confirmation of who receives the report and whether any version reaches a client"
+   ],
+   "humanReview": "Gisselle Jimenez checks each report in Slack before it goes further. No report or figure reaches a client until Whitney Hodges approves it."
+  }
+ ],
+ "matrix": [
+  {
+   "initiativeId": "CC-01",
+   "label": "Inbox Triage & Auto-Filing",
+   "impact": 7,
+   "effort": 3,
+   "phase": 1
+  },
+  {
+   "initiativeId": "CC-02",
+   "label": "Draft Emails in Whitney's Voice",
+   "impact": 10,
+   "effort": 5,
+   "phase": 1
+  },
+  {
+   "initiativeId": "CC-03",
+   "label": "Waiting-Tag Follow-Up Detector",
+   "impact": 6,
+   "effort": 3,
+   "phase": 1
+  },
+  {
+   "initiativeId": "CC-04",
+   "label": "Post-Meeting Recap Emails",
+   "impact": 7,
+   "effort": 5,
+   "phase": 2
+  },
+  {
+   "initiativeId": "CC-05",
+   "label": "Post-Sales-Call Drafts",
+   "impact": 8,
+   "effort": 6,
+   "phase": 2
+  },
+  {
+   "initiativeId": "MC-01",
+   "label": "Content Idea Queue",
+   "impact": 9,
+   "effort": 5,
+   "phase": 2
+  },
+  {
+   "initiativeId": "MC-02",
+   "label": "Voice-Note Reel Scripts",
+   "impact": 8,
+   "effort": 6,
+   "phase": 2
+  },
+  {
+   "initiativeId": "MC-03",
+   "label": "Multi-Format Repurposing",
+   "impact": 7,
+   "effort": 7,
+   "phase": 2
+  },
+  {
+   "initiativeId": "MC-04",
+   "label": "Case-Study Extraction",
+   "impact": 7,
+   "effort": 8,
+   "phase": 2
+  },
+  {
+   "initiativeId": "MK-01",
+   "label": "Meeting Recap to ClickUp Tasks",
+   "impact": 8,
+   "effort": 5,
+   "phase": 1
+  },
+  {
+   "initiativeId": "MK-02",
+   "label": "Zoom Asset Auto-Archival",
+   "impact": 6,
+   "effort": 3,
+   "phase": 1
+  },
+  {
+   "initiativeId": "MK-03",
+   "label": "Client-Facing Recap Drafts",
+   "impact": 7,
+   "effort": 6,
+   "phase": 2
+  },
+  {
+   "initiativeId": "MP-01",
+   "label": "Roll Call Absence Flags",
+   "impact": 8,
+   "effort": 4,
+   "phase": 1
+  },
+  {
+   "initiativeId": "MP-02",
+   "label": "Office Hours Reminders",
+   "impact": 6,
+   "effort": 2,
+   "phase": 1
+  },
+  {
+   "initiativeId": "MP-03",
+   "label": "Session Recap Posts",
+   "impact": 7,
+   "effort": 5,
+   "phase": 2
+  },
+  {
+   "initiativeId": "ON-01",
+   "label": "Dubsado Contact Signing & Invoice Paid Monitoring",
+   "impact": 9,
+   "effort": 4,
+   "phase": 0
+  },
+  {
+   "initiativeId": "ON-02",
+   "label": "Welcome Email + Checklist",
+   "impact": 7,
+   "effort": 4,
+   "phase": 1
+  },
+  {
+   "initiativeId": "ON-03",
+   "label": "Client Asset Intake to Drive",
+   "impact": 5,
+   "effort": 3,
+   "phase": 1
+  },
+  {
+   "initiativeId": "OP-01",
+   "label": "Overdue Task Digest",
+   "impact": 5,
+   "effort": 2,
+   "phase": 1
+  },
+  {
+   "initiativeId": "OP-02",
+   "label": "Action-Item Chase & Ack",
+   "impact": 8,
+   "effort": 7,
+   "phase": 2
+  },
+  {
+   "initiativeId": "OP-03",
+   "label": "Billing & Hygiene Flags",
+   "impact": 5,
+   "effort": 2,
+   "phase": 1
+  },
+  {
+   "initiativeId": "PM-01",
+   "label": "Google Ads Reporting",
+   "impact": 7,
+   "effort": 4,
+   "phase": 1
+  },
+  {
+   "initiativeId": "PM-02",
+   "label": "Meta Ads Reporting",
+   "impact": 6,
+   "effort": 4,
+   "phase": 1
+  }
+ ],
+ "phases": [
+  {
+   "phase": 1,
+   "name": "Stop the Leaks",
+   "strategy": [
+    "Build on Gmail, ClickUp, Slack, and GHL as they stand",
+    "Low build effort, human review on every send",
+    "Targets ~12 of the ~18 verified hrs/month"
+   ],
+   "featuredInitiatives": [
+    "ON-01",
+    "CC-02",
+    "CC-01",
+    "MP-01",
+    "MK-01",
+    "MP-02",
+    "ON-02",
+    "CC-03",
+    "MK-02",
+    "OP-01",
+    "OP-03",
+    "ON-03",
+    "PM-01",
+    "PM-02"
+   ]
+  },
+  {
+   "phase": 2,
+   "name": "Free the Founder",
+   "strategy": [
+    "Returns Whitney's sales and marketing time",
+    "Drafts prepared in advance, reviewed before sending",
+    "Content generated from call recordings already captured"
+   ],
+   "featuredInitiatives": [
+    "MC-01",
+    "MC-02",
+    "CC-05",
+    "OP-02",
+    "MP-03",
+    "CC-04",
+    "MK-03",
+    "MC-03",
+    "MC-04"
+   ]
+  }
+ ],
+ "stats": [
+  {
+   "label": "Manual hours verified (one role)",
+   "value": "~18 hrs/month"
+  },
+  {
+   "label": "Estimated full load (one role)",
+   "value": "45–70 hrs/month"
+  },
+  {
+   "label": "Share of assistant's ~108-hr month",
+   "value": "40–65%"
+  },
+  {
+   "label": "Blueprint automation count",
+   "value": "23",
+   "detail": "Across 7 departments: 14 from the audited task rows, 6 from the Aug 26 call, 1 in build, 2 paid media reporting."
+  }
+ ],
+ "governance": [
+  {
+   "category": "Data Security",
+   "rules": [
+    "Store no client credentials or sensitive business data beyond what the automation requires.",
+    "Encrypt all API tokens.",
+    "Keep Meta, Drive, and reporting access scoped to the automations that need them.",
+    "Follow SOC 2-aligned data handling practices."
+   ]
+  },
+  {
+   "category": "Cost Controls",
+   "rules": [
+    "Meter LLM use per automation run.",
+    "Start with the four foundation automations before scaling model spend.",
+    "Set per-automation alerts for unusual usage.",
+    "Prefer scheduled batch runs over always-on generation where possible."
+   ]
+  },
+  {
+   "category": "Rollback Policy",
+   "rules": [
+    "Keep a manual fallback so a failed automation does not lose data or block client delivery.",
+    "Deploy and test every automation in staging before production."
+   ]
+  },
+  {
+   "category": "Iteration Policy",
+   "rules": [
+    "Deliver a functional MVP before adding every configuration option.",
+    "Collect Explore Media feedback after two to four weeks on each live automation.",
+    "Apply feedback in the following sprint.",
+    "Only release versions that provide immediate operational value."
+   ]
+  }
+ ],
+ "reviewGates": [
+  {
+   "category": "Client communications",
+   "initiativeIds": [
+    "CC-02",
+    "CC-04",
+    "CC-05",
+    "MK-03"
+   ],
+   "reviewer": "Whitney Hodges, with Gisselle Jimenez drafting and marking threads ready",
+   "rule": "Generated replies and recaps stay in the Gmail drafts folder, marked ready for review. Whitney Hodges sends every AI-drafted client reply. Gisselle Jimenez's existing discretion on threads she writes herself — short acknowledgements, something a client has already approved, or when Whitney Hodges says so in Slack — is unchanged and does not extend to generated drafts."
+  },
+  {
+   "category": "Onboarding execution",
+   "initiativeIds": [
+    "ON-01",
+    "ON-02"
+   ],
+   "reviewer": "Gisselle Jimenez, with Whitney Hodges on the welcome email",
+   "rule": "ON-01 presents an editable draft — rename tasks, change assignees and dates, remove rows — and a human batch-approves it; approval is terminal and nothing writes to ClickUp in this build. ON-02 checklist items and due dates are confirmed against the ClickUp onboarding template before assignment, and the welcome email leaves as a draft."
+  },
+  {
+   "category": "Internal filing and archival",
+   "initiativeIds": [
+    "CC-01",
+    "MK-02",
+    "ON-03"
+   ],
+   "reviewer": "Gisselle Jimenez",
+   "rule": "Filing and asset archival run without per-item approval. Gisselle Jimenez reviews an exceptions list of anything the workflow could not classify. No email thread is deleted, and vendor newsletters under the tools label are never auto-archived."
+  },
+  {
+   "category": "Task creation and team posts",
+   "initiativeIds": [
+    "MK-01",
+    "OP-01",
+    "OP-02"
+   ],
+   "reviewer": "Gisselle Jimenez",
+   "rule": "Action items, ClickUp tasks and the overdue digest go to Gisselle Jimenez before they post to Slack or get assigned. She confirms owner and due date on each; the chase sequence pauses on anything she holds."
+  },
+  {
+   "category": "Flag-only, no automated action",
+   "initiativeIds": [
+    "CC-03",
+    "MP-01",
+    "OP-03"
+   ],
+   "reviewer": "Gisselle Jimenez and Whitney Hodges, with the responsible team member on member follow-up",
+   "rule": "These raise a flag and stop. MP-01 marks the 2-week and 4-week absence notches and the responsible team member sends the portal DM or the email. OP-03 flags overdue invoices and invalid emails to Gisselle Jimenez and Whitney Hodges. CC-03 lists waiting threads with no reply and Whitney Hodges decides which get a follow-up; any draft that produces goes through the client communications gate."
+  },
+  {
+   "category": "Member portal publishing",
+   "initiativeIds": [
+    "MP-02",
+    "MP-03"
+   ],
+   "reviewer": "Gisselle Jimenez",
+   "rule": "MP-02 posts from a template Gisselle Jimenez has approved, filling only session name, date and time. MP-03 assembles the recap from the session owner's own Slack summary and recording — Carmen for Google Ads, Jacqueline for Meta Ads — and Gisselle Jimenez checks and publishes it. No recap posts itself."
+  },
+  {
+   "category": "Marketing content",
+   "initiativeIds": [
+    "MC-01",
+    "MC-02",
+    "MC-03",
+    "MC-04"
+   ],
+   "reviewer": "Whitney Hodges",
+   "rule": "Idea queues, reel scripts, repurposed formats and case-study drafts are proposals. Whitney Hodges selects, refines and records; nothing publishes from the queue, and case-study drafts stay internal until she approves the client detail in them."
+  },
+  {
+   "category": "Paid media reporting",
+   "initiativeIds": [
+    "PM-01",
+    "PM-02"
+   ],
+   "reviewer": "Gisselle Jimenez, with Whitney Hodges approving anything client-facing",
+   "rule": "Reports are posted to Slack for internal review first. Nothing generated reaches a client until Whitney Hodges approves it."
+  }
+ ],
+ "portalDetail": {
+  "id": "",
+  "title": "",
+  "positioning": "",
+  "rationale": "",
+  "rollout": "",
+  "tools": [],
+  "modules": []
+ },
+ "impactTable": [
+  {
+   "department": "Session Recap Post + Canva Banner (MP-03)",
+   "currentManualHours": "6 hrs",
+   "recoverableHours": "up to 6 hrs",
+   "reduction": "up to 100%"
+  },
+  {
+   "department": "Meeting Recap → Action Items (MK-01)",
+   "currentManualHours": "4 hrs",
+   "recoverableHours": "up to 4 hrs",
+   "reduction": "up to 100%"
+  },
+  {
+   "department": "Session Reminder Posts (MP-02)",
+   "currentManualHours": "3 hrs",
+   "recoverableHours": "up to 3 hrs",
+   "reduction": "100%"
+  },
+  {
+   "department": "Roll Call & Absence Flagging (MP-01)",
+   "currentManualHours": "2 hrs",
+   "recoverableHours": "up to 2 hrs",
+   "reduction": "100%"
+  },
+  {
+   "department": "Overdue Task Digest → Slack (OP-01)",
+   "currentManualHours": "2 hrs",
+   "recoverableHours": "up to 2 hrs",
+   "reduction": "up to 100%"
+  },
+  {
+   "department": "Billing & Data-Hygiene Flags (OP-03)",
+   "currentManualHours": "~1.1 hrs",
+   "recoverableHours": "up to ~1.1 hrs",
+   "reduction": "100%"
+  },
+  {
+   "department": "Welcome Email + Checklist (ON-02)",
+   "currentManualHours": "2 hrs per onboarding",
+   "recoverableHours": "up to 2 hrs",
+   "reduction": "up to 100%"
+  },
+  {
+   "department": "Client Asset Intake → Drive (ON-03)",
+   "currentManualHours": "15 min per meeting",
+   "recoverableHours": "up to 15 min",
+   "reduction": "up to 100%"
+  },
+  {
+   "department": "Zoom Asset Auto-Archival (MK-02)",
+   "currentManualHours": "15 min per meeting",
+   "recoverableHours": "up to 15 min",
+   "reduction": "up to 100%"
+  }
+ ],
+ "activationAssets": [
+  {
+   "item": "Both roll call Google Sheets — Google Ads and Meta Ads — with their columns as they stand: members, consecutive misses, last attended, 2-week flag, 4-week flag. MP-01 is the recommended Phase 1 starting point, so these are the first inputs needed.",
+   "requiredBy": [
+    "MP-01"
+   ],
+   "provider": "Gisselle Jimenez"
+  },
+  {
+   "item": "Written definition of the starring system: what each star and symbol means, the per-client, newsletter, partner and tools labels currently in use, and the waiting tag. Needed as it stands on day one, whether or not the scheme is later replaced.",
+   "requiredBy": [
+    "CC-01",
+    "CC-02",
+    "CC-03"
+   ],
+   "provider": "Whitney Hodges and Gisselle Jimenez"
+  },
+  {
+   "item": "Export of Whitney Hodges's sent client emails as a voice reference set, including post-meeting recaps she wrote herself. Her stated test is that a draft reads in her voice and does not need a rewrite.",
+   "requiredBy": [
+    "CC-02",
+    "MK-03"
+   ],
+   "provider": "Whitney Hodges"
+  },
+  {
+   "item": "Roster mapping each team member to their ClickUp assignee and their Slack handle, and naming which team member owns which client.",
+   "requiredBy": [
+    "MK-01",
+    "OP-01",
+    "OP-02",
+    "CC-03"
+   ],
+   "provider": "Gisselle Jimenez"
+  },
+  {
+   "item": "Session schedule as published: the two Thursday office-hours tracks and Whitney Hodges's monthly session dates far enough ahead to schedule a reminder, with the approved reminder copy for each session type.",
+   "requiredBy": [
+    "MP-02",
+    "MP-03"
+   ],
+   "provider": "Whitney Hodges, with Carmen and Jacqueline confirming their own office-hours times"
+  },
+  {
+   "item": "Sample set of approved past reel scripts, as the voice reference for generated scripts.",
+   "requiredBy": [
+    "MC-02"
+   ],
+   "provider": "Whitney Hodges"
+  },
+  {
+   "item": "Source of truth for kickoff and messaging-and-positioning call dates — the calendar or record E2M reads once those calls are booked.",
+   "requiredBy": [
+    "ON-02"
+   ],
+   "provider": "Gisselle Jimenez"
+  },
+  {
+   "item": "Client account list with Google Ads customer IDs and Meta ad account IDs",
+   "requiredBy": [
+    "PM-01",
+    "PM-02"
+   ],
+   "provider": "Gisselle Jimenez"
+  },
+  {
+   "item": "Thresholds that mark an account Needs attention, and confirmation of who receives each report",
+   "requiredBy": [
+    "PM-01",
+    "PM-02"
+   ],
+   "provider": "Whitney Hodges"
+  }
+ ],
+ "activationApis": [
+  {
+   "api": "Gmail API",
+   "requiredBy": [
+    "CC-01",
+    "CC-02",
+    "CC-03",
+    "CC-04",
+    "CC-05",
+    "ON-02",
+    "ON-03",
+    "OP-02",
+    "MK-03"
+   ],
+   "action": "Grant OAuth on the mailbox Gisselle Jimenez works: read and label the client inbox, write to the drafts folder, and read-only on sent mail for voice calibration. No workflow holds send permission. Confirm at the review whether that mailbox is Whitney Hodges's account or a separate one — the sources establish one client inbox and do not name a second."
+  },
+  {
+   "api": "GHL API and webhooks",
+   "requiredBy": [
+    "OP-03",
+    "MP-01",
+    "MP-02",
+    "MP-03"
+   ],
+   "action": "Create an E2M user on the shared sub-account — both domains run in one — and confirm webhook access on the top-tier agency plan. Scope: invoice status and the existing invalid-email filter for OP-03, Communities posting rights for the portal posts, and signed and paid events if the onboarding trigger moves off Dubsado. A webhook carries one field; inbox parsing is the fallback and is wider access for less signal."
+  },
+  {
+   "api": "ClickUp API",
+   "requiredBy": [
+    "ON-02",
+    "MK-01",
+    "MK-03",
+    "OP-01",
+    "OP-02",
+    "MP-01"
+   ],
+   "action": "Issue a token with read access to every team task list and write access only to the lists named at the review. Read-only until ON-02 is approved to create tasks; the ON-01 build being demoed writes nothing to ClickUp."
+  },
+  {
+   "api": "Slack app install",
+   "requiredBy": [
+    "OP-01",
+    "OP-02",
+    "MK-01",
+    "MK-03",
+    "MP-03",
+    "CC-02"
+   ],
+   "action": "Install an E2M app with history access on the channels in scope and posting rights only on the channel named at the review. History access is what lets OP-02 tell an acknowledged action item from an ignored one."
+  },
+  {
+   "api": "Google Drive API",
+   "requiredBy": [
+    "MK-02",
+    "MK-03",
+    "ON-03",
+    "CC-02",
+    "CC-04",
+    "CC-05",
+    "MC-01",
+    "MC-02",
+    "MC-03",
+    "MC-04"
+   ],
+   "action": "Grant a service account write access to the client folders and read access to the template library. Recordings, transcripts, summaries and client assets stay in the client's own folder; no client asset is copied to third-party storage."
+  },
+  {
+   "api": "Zoom API",
+   "requiredBy": [
+    "MK-02",
+    "MK-03",
+    "CC-04",
+    "CC-05",
+    "MC-01",
+    "MC-04"
+   ],
+   "action": "Grant account admin access with cloud recording and transcription enabled, so the recording, transcript and summary can be pulled per meeting instead of downloaded by hand."
+  },
+  {
+   "api": "Fathom transcript export or API",
+   "requiredBy": [
+    "MK-01"
+   ],
+   "action": "Enable export or API access for the Monday team meeting transcript. No second transcription service is added — Fathom and Zoom already produce what the workflows read."
+  },
+  {
+   "api": "Google Sheets API",
+   "requiredBy": [
+    "MP-01"
+   ],
+   "action": "Grant edit access to both roll call sheets so flags are written back into the sheets the team already reads, not into a new system."
+  },
+  {
+   "api": "Dubsado access",
+   "requiredBy": [
+    "ON-01",
+    "ON-02"
+   ],
+   "action": "Grant read access to signed and paid alerts. Dubsado stays a live system of record until the migration to GHL completes; workflows read from it and write nothing back."
+  },
+  {
+   "api": "Canva export or API",
+   "requiredBy": [
+    "MP-03",
+    "MC-03"
+   ],
+   "action": "Confirm whether the current plan exposes API or scheduled export on the brand templates. If it does not, the banner step stays manual and the workflow hands Gisselle Jimenez a filled brief instead."
+  },
+  {
+   "api": "Google Ads MCP",
+   "requiredBy": [
+    "PM-01"
+   ],
+   "action": "E2M deploys the MCP server; WIA authorizes manager-account access covering every client account to be reported."
+  },
+  {
+   "api": "Meta Ads MCP",
+   "requiredBy": [
+    "PM-02"
+   ],
+   "action": "E2M deploys the MCP server; WIA authorizes Business Manager access to every client ad account to be reported."
+  }
+ ],
+ "activationOwners": [
+  {
+   "owner": "Gisselle Jimenez",
+   "action": "Confirm the attendance source for MP-01 — the team-submitted roll call sheet entry or the Zoom session record. MP-01 is the recommended first build."
+  },
+  {
+   "owner": "Whitney Hodges",
+   "action": "Is the invoicing maintained on GHL? Or is the entire contract signing and invoice payment on Dubsado?"
+  },
+  {
+   "owner": "Gisselle Jimenez",
+   "action": "Define what counts as an acknowledgement before OP-02 is built: a Slack reply, an emoji, a ClickUp status change, or an email reply inside the 24–48 business hour target."
+  },
+  {
+   "owner": "Gisselle Jimenez",
+   "action": "What is the Viktor Google Ads and Meta Ads reporting like today, and what is the client-facing output? PM-01 and PM-02 reproduce it on Claude / Openrouter over the Ads MCP servers, so we need one current report as it runs internally and the version a client actually receives — including whether the weekly comparison, the 30-day baseline and the Strong / Needs attention marking are all wanted."
+  }
+ ],
+ "stringReplacements": [
+  {
+   "old": "API integrations are provisioned and tested by E2M. The one-time setup checklist below captures the templates and business inputs E2M provides to activate the",
+   "new": "API integrations are provisioned and tested by E2M. The one-time setup checklist below captures the templates and business inputs Wedding Industry Ads provides to activate the"
+  },
+  {
+   "old": "Start with the impact-vs-effort matrix to spot quick wins, then explore how E2M automations connect across departments, shared systems, and the client portal.",
+   "new": "Start with the impact-vs-effort matrix to spot quick wins, then explore how these automations connect across departments and shared systems."
+  },
+  {
+   "old": "Web Development Lead’s repeatable setup, intake, QA, monitoring, and local-page workflows can be automated while final technical decisions remain with E2M.",
+   "new": "Gisselle Jimenez’s repeatable action-item, Zoom filing, and recap-drafting workflows can be automated while Whitney Hodges reviews every client recap."
+  },
+  {
+   "old": "Automation handles volume and scaffolding. E2M retains judgment, creative direction, and final approval for every client-facing output.",
+   "new": "Automation handles volume and scaffolding. Wedding Industry Ads retains judgment, voice, and final approval for every client-facing output."
+  },
+  {
+   "old": "A practical automation roadmap that protects E2M's craft while recovering time for strategy, design, and client growth.",
+   "new": "A practical automation roadmap that protects Wedding Industry Ads’ client experience while recovering time for sales and marketing."
+  },
+  {
+   "old": "Each initiative removes production drag while preserving the strategic and creative judgment that makes E2M valuable.",
+   "new": "Each initiative removes manual steps while keeping the judgment on every client touchpoint with a named human reviewer."
+  },
+  {
+   "old": "E2M can recover capacity across every department while opening productized, recurring revenue streams.",
+   "new": "Wedding Industry Ads can recover assistant capacity while moving process knowledge into a system the agency owns."
+  },
+  {
+   "old": "Impact versus effort priority matrix for 28 automations",
+   "new": "Impact versus effort priority matrix for 23 automations"
+  },
+  {
+   "old": "Six teams. One connected automation system.",
+   "new": "Seven workflow areas. One connected system."
+  },
+  {
+   "old": "E2M web development collaboration",
+   "new": "E2M and Wedding Industry Ads collaboration"
+  },
+  {
+   "old": "Web development department",
+   "new": "Meetings & knowledge capture"
+  },
+  {
+   "old": "Automation that protects custom development time.",
+   "new": "Automation that captures what each meeting decided."
+  },
+  {
+   "old": "Demo AI Blueprint — a phased automation roadmap by E2M Solutions.",
+   "new": "AI Blueprint for Wedding Industry Ads — a phased automation roadmap by E2M Solutions."
+  },
+  {
+   "old": "Demo Blueprint | E2M Solutions",
+   "new": "Wedding Industry Ads AI Blueprint | E2M Solutions"
+  },
+  {
+   "old": "Once priorities are clear, explore how automations connect across departments, systems, and the client portal.",
+   "new": "Once priorities are clear, explore how these automations connect across departments and shared systems."
+  },
+  {
+   "old": "370 manual hours are currently identified across the team each month.",
+   "new": "The task audit verifies 18 manual hours per month across 6 of its 12 rows; the other 6, including two marked High priority, carry no recorded monthly total."
+  },
+  {
+   "old": "80 monthly hours are recoverable from the recommended Phase 1 automations.",
+   "new": "Phase 1 targets roughly 12 verified hours per month, plus the daily email work the audit never timed."
+  },
+  {
+   "old": "28 automation opportunities identified across the blueprint.",
+   "new": "23 automation opportunities identified across 7 departments."
+  },
+  {
+   "old": "5 of 5 team members have high-automation opportunities.",
+   "new": "Only one role was audited — Gisselle's executive-assistant work — and all 12 of its documented tasks carry a named automation opportunity; no hours exist for anyone else."
+  },
+  {
+   "old": "370 hrs",
+   "new": "~18 hrs"
+  },
+  {
+   "old": "200 hrs",
+   "new": "~12 hrs"
+  },
+  {
+   "old": "E2M Client Intelligence Portal",
+   "new": "Connected operations layer"
+  },
+  {
+   "old": "Integration layer",
+   "new": "Connected systems"
+  },
+  {
+   "old": "Semrush, Google Ads, Google Business Profile, and Search Console — provisioned and tested by E2M.",
+   "new": "Gmail, Slack, ClickUp, Google Drive, Google Sheets, Zoom, Fathom, GHL, Canva and Dubsado."
+  },
+  {
+   "old": "Platform foundation",
+   "new": "Review surfaces"
+  },
+  {
+   "old": "Existing React + backend POC, client authentication, and white-label domain — managed by E2M.",
+   "new": "Every module ends in a queue a named human works: the Gmail drafts folder."
+  },
+  {
+   "old": "Activation requirements",
+   "new": "Sequencing"
+  },
+  {
+   "old": "Source automations must be live before each portal module can be enabled for clients.",
+   "new": "Each tab switches on only after its source initiative is live and stable."
+  },
+  {
+   "old": "White-label",
+   "new": "Access"
+  },
+  {
+   "old": "100% branded as E2M and maintained by E2M Solutions.",
+   "new": "Internal to Wedding Industry Ads — Whitney Hodges, Gisselle Jimenez and the next account manager."
+  },
+  {
+   "old": "Secure, authenticated client access",
+   "new": "Internal access only — no client login"
+  },
+  {
+   "old": "100% E2M branded experience",
+   "new": "Built and maintained by E2M Solutions"
+  },
+  {
+   "old": "Human-reviewed insights and recommendations",
+   "new": "Every module ends in a human review queue"
+  },
+  {
+   "old": " of manual work identified across the team each month.",
+   "new": " of manual work verified across one operations role each month."
+  },
+  {
+   "old": "\"for E2M\"",
+   "new": "\"for WIA\""
+  },
+  {
+   "old": "Each phase delivers usable value: recover time first, create recurring services next, and build E2M's long-term client platform last.",
+   "new": "Each phase delivers usable value: recover verified assistant hours first, then return Whitney's time to sales and marketing."
+  },
+  {
+   "old": "The blueprint defines 28 prioritized automations across brand strategy, SEO, web development, sales, and operations. These five actions capture the templates, validation, and business inputs E2M provides — E2M handles API integration and technical feasibility separately.",
+   "new": "The blueprint defines 23 prioritized automations across seven workflow areas. These 4 actions capture the decisions, templates and business inputs Wedding Industry Ads provides — E2M handles API integration and technical feasibility separately."
+  }
+ ]
+}
