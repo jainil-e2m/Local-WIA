@@ -5,12 +5,10 @@ import {
   useReducedMotion,
   type Variants,
 } from "framer-motion";
-import { Link } from "react-router-dom";
 import {
   ArrowRight,
   ArrowUpRight,
   Globe,
-  LayoutDashboard,
   Library,
   Zap,
 } from "lucide-react";
@@ -221,9 +219,8 @@ export function Hero() {
      production yet, so the delivered tally is labelled "Demoed at review"
      rather than the old "Live now": the three pinned rows are consoles walked
      through at the blueprint review, and calling them live would be a claim
-     this hub cannot support. "Consoles built" is the fourth figure — it counts
-     the mock surfaces in this app, including the AI Operations Hub, which is not
-     an automation and so is excluded from `total` above.
+     this hub cannot support. "Consoles built" includes the AI Operations Hub
+     walkthrough from the blueprint review.
 
      Still read through resolveTimelineView rather than counting anything
      locally. The timeline board is no longer reachable from the hero, but the
@@ -352,33 +349,6 @@ export function Hero() {
             <Magnetic strength={0.2}>
               <RotatingDestination />
             </Magnetic>
-          </motion.div>
-
-          {/* AI Operations Hub — centred under the two actions above, because it
-              is a third KIND of destination rather than a third option of the
-              same kind: not a tool launcher and not an external link, but a
-              whole console. Internal route, so it uses Link rather than the
-              external-link treatment RotatingDestination carries. */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 1.45 }}
-            className={cn(
-              "mt-6 flex max-w-xl flex-col items-center gap-2",
-              centered && "mx-auto",
-            )}
-          >
-            <Magnetic strength={0.2}>
-              <Button asChild variant="solid" size="lg">
-                <Link to="/ops-hub">
-                  <LayoutDashboard className="h-[18px] w-[18px]" />
-                  AI Operations Hub
-                </Link>
-              </Button>
-            </Magnetic>
-            <p className="text-[12px] text-brand-gray">
-              Attention, context and approval across every connected source
-            </p>
           </motion.div>
 
           {/* stats */}

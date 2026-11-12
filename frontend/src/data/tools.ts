@@ -1,7 +1,6 @@
 import {
   CalendarCheck,
   ClipboardCheck,
-  LayoutDashboard,
   ListChecks,
   Sparkles,
   FileSearch,
@@ -66,30 +65,6 @@ export interface Tool {
    Hero counters and every route derive from the resolved status.
    ──────────────────────────────────────────────────────────────── */
 const TOOLS: Tool[] = [
-  /* THE HUB COMES FIRST, and it is in this list as well as on the hero.
-     It was reachable only from the hero's own button, which meant the
-     automations library — the thing a client opens to see "what did you build
-     for us" — listed three single-purpose consoles and no sign of the surface
-     they report into. That is the wrong first impression of the work: the
-     question it answers is Whitney's own ("how is it all connected?",
-     26 Aug @19:21), and an index of the work should start with the answer. */
-  {
-    id: "ops-hub",
-    name: "AI Operations Hub",
-    description:
-      "One command centre over Gmail, Slack, ClickUp, Zoom, Fathom, Drive and HighLevel — what needs a decision today, the context behind it, and the approval gate in front of anything that leaves the building.",
-    tags: ["Six screens", "Every source", "Review gate"],
-    status: "live",
-    roles: ["team", "client"],
-    url: "",
-    route: "/ops-hub",
-    ctaLabel: "Open Hub",
-    icon: LayoutDashboard,
-    /* Opens the shared ramp one step above Client Onboarding — it is the
-       surface the others report into, so it reads as the brightest card. */
-    from: "#3244c4",
-    to: "#4f63ea",
-  },
   {
     // id stays "technical-seo": it is the route segment
     // (/automations/technical-seo), the BFF mount path (/api/technical-seo),

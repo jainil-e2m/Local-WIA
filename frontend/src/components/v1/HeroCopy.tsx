@@ -32,7 +32,8 @@ export function HeroCopy() {
   const { status, user } = useAuth();
   const run = useV1Action();
 
-  const name = status === "authenticated" && user?.name ? accountName(user.name) : null;
+  const signedIn = status === "authenticated";
+  const name = signedIn && user?.name ? accountName(user.name) : null;
 
   return (
     <div className="v1-copy">
@@ -57,16 +58,17 @@ export function HeroCopy() {
       </motion.h1>
 
       <motion.div {...rise(1.2)} className="v1-actions">
-        <Link
-          to="/ops-hub"
-          className="v1-cta"
-          onMouseEnter={wakeLaptop}
-          onFocus={wakeLaptop}
+        {status === "unauthenticated" && (
+          <Link to="/login" className="v1-cta" onMouseEnter={wakeLaptop} onFocus={wakeLaptop}>
+            <span>Enter Command Center</span>
+            <ArrowRight className="v1-cta-arrow" strokeWidth={1.6} aria-hidden />
+          </Link>
+        )}
+        <button
+          type="button"
+          className={signedIn ? "v1-cta" : "v1-watch"}
+          onClick={() => run({ kind: "automations" })}
         >
-          <span>Enter Command Center</span>
-          <ArrowRight className="v1-cta-arrow" strokeWidth={1.6} aria-hidden />
-        </Link>
-        <button type="button" className="v1-watch" onClick={() => run({ kind: "automations" })}>
           <Waypoints className="h-[18px] w-[18px]" aria-hidden />
           View automations
         </button>

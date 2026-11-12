@@ -1,9 +1,15 @@
-import { describe, it, expect, vi } from "vitest";
+import { afterEach, describe, it, expect, vi } from "vitest";
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { MemoryRouter } from "react-router-dom";
+import { MemoryRouter, Route, Routes } from "react-router-dom";
 import LoginPage from "./LoginPage";
+import { HeroCopy } from "@/components/v1/HeroCopy";
+import { V1ActionContext } from "@/components/v1/useV1Action";
 import { AuthContext, type AuthContextValue } from "@/context/auth";
+import { AuthProvider } from "@/context/AuthContext";
+import * as authApi from "@/services/api/auth";
+
+afterEach(() => vi.restoreAllMocks());
 
 function renderLogin(auth: Partial<AuthContextValue> = {}) {
   const value: AuthContextValue = {
@@ -91,6 +97,44 @@ describe("<LoginPage />", () => {
     await user.click(screen.getByRole("button", { name: /sign in/i }));
 
     expect(auth.login).toHaveBeenCalledWith("team@wahha.design", "some-password");
+  });
+
+  it("returns from the hero sign-in to the primary View automations button", async () => {
+    vi.spyOn(authApi, "getSession").mockResolvedValue(null);
+    vi.spyOn(authApi, "login").mockResolvedValue({
+      email: "team@example.com",
+      name: "Team",
+      role: "team",
+    });
+    const user = userEvent.setup();
+    const runAction = vi.fn();
+    render(
+      <MemoryRouter>
+        <AuthProvider>
+          <V1ActionContext.Provider value={runAction}>
+            <Routes>
+              <Route path="/" element={<HeroCopy />} />
+              <Route path="/login" element={<LoginPage />} />
+            </Routes>
+          </V1ActionContext.Provider>
+        </AuthProvider>
+      </MemoryRouter>,
+    );
+
+    const enter = await screen.findByRole("link", { name: "Enter Command Center" });
+    expect(enter).toHaveAttribute("href", "/login");
+    expect(screen.getByRole("button", { name: /view automations/i })).toHaveClass("v1-watch");
+    await user.click(enter);
+
+    await user.type(screen.getByLabelText(/email/i), "team@example.com");
+    await user.type(screen.getByLabelText("Password", { exact: true }), "some-password");
+    await user.click(screen.getByRole("button", { name: /sign in/i }));
+
+    const automations = await screen.findByRole("button", { name: /view automations/i });
+    expect(automations).toHaveClass("v1-cta");
+    expect(screen.queryByRole("link", { name: "Enter Command Center" })).not.toBeInTheDocument();
+    await user.click(automations);
+    expect(runAction).toHaveBeenCalledWith({ kind: "automations" });
   });
 });
 

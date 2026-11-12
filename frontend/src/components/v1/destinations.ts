@@ -1,10 +1,7 @@
 import {
-  ChartNoAxesColumnIncreasing,
   FilePenLine,
   House,
   Send,
-  Settings,
-  Users,
   Waypoints,
   type LucideIcon,
 } from "lucide-react";
@@ -14,10 +11,8 @@ import {
 
    One table feeds the sidebar, the orbiting cards and the command
    palette, so a destination can never mean one thing in the nav and
-   another on a card. Every target is a surface that already exists:
-   an Ops Hub screen (deep-linked through its `?screen=` key, see
-   OpsHubPage), the automations fan, the members portal, or the Content
-   Atelier's launch link (lib/atelierLaunch.ts).
+   another on a card. The targets include the automation library, the
+   members portal, and the Content Atelier's launch link (lib/atelierLaunch.ts).
    ──────────────────────────────────────────────────────────────── */
 
 export const VAULT_URL = "https://members.weddingindustryads.com/";
@@ -63,32 +58,11 @@ export const NAV: V1NavItem[] = [
     hint: "Content Atelier · WIA's own marketing",
   },
   {
-    id: "leads",
-    label: "Leads",
-    icon: Users,
-    action: { kind: "route", to: "/ops-hub?screen=inbox" },
-    hint: "AI Inbox · triage and drafts",
-  },
-  {
-    id: "insights",
-    label: "Insights",
-    icon: ChartNoAxesColumnIncreasing,
-    action: { kind: "route", to: "/ops-hub?screen=ops" },
-    hint: "Ops Watch · exceptions and routines",
-  },
-  {
     id: "resources",
     label: "Resources",
     icon: FilePenLine,
     action: { kind: "external", href: VAULT_URL },
     hint: "The Vault · members portal",
-  },
-  {
-    id: "settings",
-    label: "Settings",
-    icon: Settings,
-    action: { kind: "route", to: "/ops-hub?screen=settings" },
-    hint: "Source coverage and access",
   },
 ];
 

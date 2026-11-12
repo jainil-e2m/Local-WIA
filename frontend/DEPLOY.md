@@ -148,8 +148,8 @@ as protected or internal:
 2. **Not every dataset in this build is synthetic.** The Ops Hub is; the
    ClickUp onboarding templates are real WIA operational data, the roll-call
    Google transcript is a real members' session with real member names, and
-   the Vault content walks real client analytics. The full breakdown is on the
-   Source Coverage screen under "What each dataset actually is".
+   the Vault content walks real client analytics. See the data breakdown in
+   `README.md`.
 
 **Before sharing this URL outside WIA and E2M, pick one:** turn auth on (below),
 or replace the real fixtures with sanitised ones. Verify the deployed
@@ -180,10 +180,8 @@ With both set, `AUTH_EMAIL` / `AUTH_PASSWORD_HASH` / `AUTH_NAME` become
 irrelevant — no credential is checked. `SESSION_SECRET` also stops mattering,
 since nothing depends on a session surviving a restart.
 
-Verified against a production build (`NODE_ENV=production`, `AUTH_DISABLED=1`,
-guard-off bundle): `/api/onboarding` with no cookie → `200` (was `401`), login
-with any credentials → `200`, and `/ops-hub` renders the hub directly with no
-redirect to `/login`.
+In demo mode, expect `/api/onboarding` to return `200` without a cookie and
+`/onboarding` to render directly. The sign-in form accepts any credentials.
 
 **What this means, stated plainly:** anyone with the URL has full access to
 everything the app renders — including the two real verbatim call transcripts
@@ -233,8 +231,8 @@ Command Center is the only sign-in for both apps. The Atelier's `/login` sends t
 the page continues the hand-off, so the person lands back in the Atelier with the same session. `next` is followed only
 for the hand-off routes (`serverContinuation` in `src/lib/serverContinuation.ts`).
 
-Command Center's own Atelier entries (the landing's Atelier card and Campaigns destination; the Ops Hub's sidebar, Home
-card and palette) open `/api/auth/content-atelier/launch`, a full-page navigation into the same hand-off. Command Center
+Command Center's Atelier card and Campaigns destination open
+`/api/auth/content-atelier/launch`, a full-page navigation into the same hand-off. Command Center
 holds no Atelier screen and no proxy to its API. Where `VITE_CONTENT_ATELIER_URL` is unset or invalid the entries are
 disabled or hidden, and the route answers 503.
 
@@ -251,16 +249,12 @@ Signing out in either app ends the session in both:
 
 ### Deliberately not needed
 
-- **Nothing for the Operations Hub.** `/ops-hub` is a mock end to end: six
-  screens running in the browser off `src/data/opsHub.ts`, no `/api/ops-hub`
-  route, no connector, no persistence. No URL, token, flag or volume.
 - **Nothing for `/onboarding`.** It reads the committed
   `server/onboarding-templates.json` and issues no ClickUp calls at all, so
   `CLICKUP_TOKEN` is not a production variable.
 - **The audit BFF variables** (`TECHNICAL_SEO_*`, `AI_SEO_*`,
   `AI_PRESENCE_*`, `ON_PAGE_SEO_*`, `LEAD_MAGNET_*`). Leave them unset and
-  those tiles report unusable at boot — which is accurate. The rest of the app,
-  including the Ops Hub, is unaffected.
+  those tiles report unusable at boot.
 - **`VITE_TOOL_*_ENABLED` flags.** Blank means "the committed status in
   `src/data/tools.ts` wins". Note these are *build args*: changing one needs a
   **redeploy**, not a restart.
@@ -268,9 +262,10 @@ Signing out in either app ends the session in both:
 ### Optional: a volume
 
 Bookmarks and captured leads are JSON files on the container filesystem, which
-Railway **replaces on every deploy**. The boot log warns about both. Neither
-affects the Ops Hub or the onboarding console, so for a demo deployment this is
-fine to skip. To make them survive, mount a volume at `/data` and set:
+Railway **replaces on every deploy**. The boot log warns about both. The
+onboarding console does not depend on them, so a demo deployment can skip the
+volume. To keep bookmarks and captured leads across deploys, mount a volume at
+`/data` and set:
 
 ```
 BOOKMARKS_FILE=/data/bookmarks.json
@@ -279,8 +274,7 @@ LEADS_FILE=/data/leads.json
 
 ## 4. Verify the deploy
 
-Substitute your Railway domain. All four of these were confirmed locally
-against the real container command before this was written.
+Substitute your Railway domain.
 
 ```bash
 curl -s -w " [%{http_code}]\n" https://YOUR-APP.up.railway.app/health
@@ -289,13 +283,11 @@ curl -s -w " [%{http_code}]\n" https://YOUR-APP.up.railway.app/health
 Expect `ok [200]`.
 
 ```bash
-curl -s -o /dev/null -w "%{http_code} %{content_type}\n" https://YOUR-APP.up.railway.app/ops-hub
+curl -s -o /dev/null -w "%{http_code} %{content_type}\n" https://YOUR-APP.up.railway.app/onboarding
 ```
 
-Expect `200 text/html`. This is the check that matters for the new route: it
-proves the SPA fallback serves `index.html` for a path React Router owns, so a
-hard refresh or a pasted deep link works. The fallback is unconditional for
-GET/HEAD, so every client route behaves the same way.
+Expect `200 text/html`. This checks that the SPA fallback serves `index.html`
+for a client route on a hard refresh or pasted deep link.
 
 ```bash
 curl -s -o /dev/null -w "%{http_code}\n" https://YOUR-APP.up.railway.app/api/onboarding
@@ -306,17 +298,17 @@ deliberately open. A `401` means `AUTH_DISABLED` did not take effect. With auth
 switched back on, expect `401` instead. Either way, this is the single call
 that tells you which mode you actually got, rather than which one you intended.
 
-Then load `/ops-hub` in a browser — this checks the *other* half:
+In demo mode, open `/onboarding` in a signed-out browser to check the client flag:
 
-- **Renders the hub immediately** → both flags landed. Correct.
+- **Renders onboarding immediately** → the client flag reached the build.
 - **Redirects to `/login`** → the runtime flag is set but
   `VITE_AUTH_DISABLED` never reached the build. Confirm it is a service
   variable, confirm the Dockerfile still declares its `ARG`, and **redeploy**
   (a restart will not do it — it is a build arg).
 
-Finally confirm the **Operations Hub** button on the hero (centred below *View
-Automations* and the Website / Lead Lock / The Vault pill) lands on `/ops-hub`
-with the sidebar and all six screens.
+On `/`, select **Enter Command Center** while signed out. It should open
+`/login`. After signing in, the hero should show **View automations** as its
+sole button. Select it to scroll to the Automation Library.
 
 ## 5. Local parity, before you blame Railway
 
@@ -326,7 +318,7 @@ Build and run the same image locally:
 docker compose up --build
 ```
 
-Then hit `http://localhost:8080/health` and `http://localhost:8080/ops-hub`.
+Then open `http://localhost:8080/health` and `http://localhost:8080/`.
 
 Or run the production server against a fresh build without Docker — this is the
 closest reproduction of the container, because it loads no env files:
@@ -355,8 +347,7 @@ PORT=8099 NODE_ENV=production node server/index.mjs
   and lint are clean.
 - **`useLocationSuggestions` is an 8.7 MB chunk** (2.3 MB gzipped) — a location
   dataset, pre-existing, and the actual bundle problem in this repo. It is
-  lazy-loaded, so it does not affect first paint. For contrast `OpsHubPage` is
-  130 kB (34 kB gzipped).
+  lazy-loaded, so it does not affect first paint.
 - **`package.json` is still named `wahha-automation-hub`** and the server
   package `wahha-central-server`. Deliberate: the names tie into the Docker and
   repo configuration and renaming them was scoped out.

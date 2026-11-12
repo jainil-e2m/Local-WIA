@@ -1,9 +1,9 @@
 # Wedding Industry Ads — AI Command Center
 
 Central dashboard for Wedding Industry Ads to reach every automation from one
-place, plus the client-facing mockups that accompany the AI Blueprint: the AI
-Operations Hub (`/ops-hub`), Client Onboarding (`/onboarding`), Internal Meeting
-+ Action Items (`/internal-meeting`) and Office Hours Roll Call (`/roll-call`).
+place, plus the client-facing mockups that accompany the AI Blueprint: Client
+Onboarding (`/onboarding`), Internal Meeting + Action Items
+(`/internal-meeting`) and Office Hours Roll Call (`/roll-call`).
 
 Forked from the Wahha Design automation hub, which is why some inherited audit
 products (Technical SEO, AI SEO, AI Presence, On-Page SEO, Lead Magnet) are
@@ -219,8 +219,7 @@ args, so changing one needs a redeploy; the audit BFF values are runtime-only.
 
 **Content Atelier destination.** Set `VITE_CONTENT_ATELIER_URL` on the Command
 Center service to the deployed Content Atelier app URL, then redeploy. Every
-Atelier entry (the landing's "View Here" button and Campaigns destination, and
-the Ops Hub's sidebar, Home card and palette) opens
+Atelier entry (the landing's "View Here" button and Campaigns destination) opens
 `/api/auth/content-atelier/launch`, a full-page navigation that signs the
 current user into Atelier automatically; Command Center has no Atelier screen
 of its own. Both repositories must be deployed with the

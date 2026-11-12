@@ -1,8 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { Link } from "react-router-dom";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
-import { ArrowRight, ChevronLeft, ChevronRight, Pause, Play, RotateCcw, X } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { ChevronLeft, ChevronRight, Pause, Play, RotateCcw, X } from "lucide-react";
 import { useAuth } from "@/context/auth";
 import { toolsForRole } from "@/data/tools";
 import { ROADMAP_PHASES, resolveTimelineView } from "@/data/timeline";
@@ -388,11 +386,7 @@ function Ready({ onClose }: { onClose: () => void }) {
       <motion.h3 {...up(0.3)} className="v1-ch-title">
         Your wedding growth engine, <em>in one place.</em>
       </motion.h3>
-      <motion.div {...up(0.7)} className={cn("v1-ch-ctas")} onClick={(e) => e.stopPropagation()}>
-        <Link to="/ops-hub" className="v1-cta is-light" onClick={onClose}>
-          <span>Enter Command Center</span>
-          <ArrowRight className="v1-cta-arrow" strokeWidth={1.6} aria-hidden />
-        </Link>
+      <motion.div {...up(0.7)} className="v1-ch-ctas" onClick={(e) => e.stopPropagation()}>
         <button
           type="button"
           className="v1-film-text-btn"

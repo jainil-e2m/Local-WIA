@@ -82,7 +82,8 @@ describe("Campaigns destination", () => {
 
     vi.stubEnv("VITE_CONTENT_ATELIER_URL", "");
     renderPalette();
-    expect(screen.getByRole("option", { name: /^Leads/ })).toBeInTheDocument();
+    expect(screen.getByRole("option", { name: /^Resources/ })).toBeInTheDocument();
+    expect(screen.queryByRole("option", { name: /^(Leads|Insights|Settings)\b/ })).not.toBeInTheDocument();
     expect(screen.queryByRole("option", { name: /^Campaigns/ })).not.toBeInTheDocument();
   });
 });

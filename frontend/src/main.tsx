@@ -15,7 +15,6 @@ const LeadMagnetDashboardPage = lazy(() => import("./pages/LeadMagnetDashboardPa
 const OnboardingPage = lazy(() => import("./pages/OnboardingPage"));
 const InternalMeetingPage = lazy(() => import("./pages/InternalMeetingPage"));
 const RollCallPage = lazy(() => import("./pages/RollCallPage"));
-const OpsHubPage = lazy(() => import("./pages/OpsHubPage"));
 
 // Load the annotation toolbar only in development, across every route and variant.
 const Agentation = import.meta.env.DEV
@@ -52,11 +51,6 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
               {/* Roll call is client-side for the same reason: paste intake, a
                   local session store, and flags that terminate in the UI. */}
               <Route path="/roll-call" element={<RollCallPage />} />
-              {/* The AI Operations Hub is a six-screen mock of the connected
-                  ops layer. Entirely client-side — no /api/* counterpart, no
-                  connector, every action simulated. It sits behind the same
-                  session gate as the rest so the demo is not public. */}
-              <Route path="/ops-hub" element={<OpsHubPage />} />
             </Route>
           </Routes>
         </Suspense>

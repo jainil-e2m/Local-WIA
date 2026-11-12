@@ -1,7 +1,6 @@
 import { useRef, useState } from "react";
 import { motion, useInView, type Variants } from "framer-motion";
-import { Link } from "react-router-dom";
-import { ArrowRight, LayoutGrid } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Magnetic } from "@/components/Magnetic";
 import { AutomationsModal } from "@/components/AutomationsModal";
@@ -203,20 +202,6 @@ export function MarbleHero() {
             <Magnetic strength={0.2}>
               <RotatingDestination tone="vault" />
             </Magnetic>
-          </div>
-
-          {/* AI Operations Hub — a whole console rather than a third option of
-              the same kind, so it sits centred under the pair. */}
-          <div className="mt-5 flex flex-col items-center">
-            <Magnetic strength={0.2}>
-              <Link to="/ops-hub" className="lux-navy gap-[11px] px-[30px]">
-                <LayoutGrid className="h-[15px] w-[15px]" strokeWidth={2} aria-hidden />
-                AI Operations Hub
-              </Link>
-            </Magnetic>
-            <p className="mt-3 text-center text-[10.5px] leading-[14px] text-[#565866]">
-              Attention, context and approval across every connected source
-            </p>
           </div>
         </motion.div>
 

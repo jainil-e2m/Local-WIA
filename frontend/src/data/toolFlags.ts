@@ -5,7 +5,6 @@
    Audit is clickable) and "development" (locked, Coming soon) from the
    environment, without a code change:
 
-     VITE_TOOL_OPS_HUB_ENABLED=true
      VITE_TOOL_TECHNICAL_SEO_ENABLED=true
      VITE_TOOL_INTERNAL_MEETING_ENABLED=true
      VITE_TOOL_ROLL_CALL_ENABLED=true
@@ -33,7 +32,6 @@
 
 /** Raw env value per tool id. Literal accesses — see note 1 above. */
 export const TOOL_FLAG_ENV: Record<string, string | undefined> = {
-  "ops-hub": import.meta.env.VITE_TOOL_OPS_HUB_ENABLED,
   "technical-seo": import.meta.env.VITE_TOOL_TECHNICAL_SEO_ENABLED,
   "internal-meeting": import.meta.env.VITE_TOOL_INTERNAL_MEETING_ENABLED,
   "roll-call": import.meta.env.VITE_TOOL_ROLL_CALL_ENABLED,
