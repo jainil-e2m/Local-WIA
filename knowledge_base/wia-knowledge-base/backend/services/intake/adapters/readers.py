@@ -4,6 +4,7 @@ Provider dictionaries live only inside these functions. Checkpoints contain curs
 IDs and times; they never contain bodies or raw API responses.
 """
 import re
+from copy import deepcopy
 from dataclasses import replace
 from datetime import UTC, datetime, timedelta
 from urllib.parse import quote
@@ -42,7 +43,9 @@ def fetch_or_gap(batch, kind, external_id, stored, fetch):
 
 
 def read_page(adapter, ctx, state):
-    return READERS[adapter.provider](adapter, ctx, dict(state or {}))
+    # Deep copy: readers pop/append nested lists (Drive's folder queue, Calendar's series); a shallow copy shares
+    # them with the caller's checkpoint, which then looks unchanged and fails the page as "did not advance".
+    return READERS[adapter.provider](adapter, ctx, deepcopy(state or {}))
 
 
 def _finish(batch, state, cursor=None):
