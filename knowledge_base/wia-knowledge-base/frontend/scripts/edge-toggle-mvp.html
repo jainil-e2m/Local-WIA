@@ -1,0 +1,67 @@
+<script id="edge-toggle-js">
+/* Plain-JS twin of SidebarEdgeToggle.tsx: same markup, same Web Animations. Clicks go to the app's own collapse button (or the phone drawer's close). */
+(function(){
+  var S='M0 0H26L17.5 29L26 58H0Z';
+  var RIBBON='<span class="et-ribbon" aria-hidden="true"><span class="et-sway">'+
+    '<svg class="et-layer et-lift" viewBox="0 0 26 58"><path d="'+S+'" fill="#1e2a50"/></svg>'+
+    '<svg class="et-layer et-satin" viewBox="0 0 26 58"><defs>'+
+    '<linearGradient id="etBody" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1f449a"/><stop offset=".14" stop-color="#5c88e2"/><stop offset=".28" stop-color="#86a9ef"/><stop offset=".44" stop-color="#3f6dd2"/><stop offset=".6" stop-color="#22489f"/><stop offset=".78" stop-color="#4d7bd9"/><stop offset=".9" stop-color="#3360c2"/><stop offset="1" stop-color="#1b3d8c"/></linearGradient>'+
+    '<linearGradient id="etGold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6e3a4"/><stop offset=".5" stop-color="#c9a44c"/><stop offset="1" stop-color="#8f6e27"/></linearGradient>'+
+    '<linearGradient id="etTuck" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0b1430" stop-opacity=".38"/><stop offset="1" stop-color="#0b1430" stop-opacity="0"/></linearGradient>'+
+    '<clipPath id="etClip"><path d="'+S+'"/></clipPath></defs>'+
+    '<path d="'+S+'" fill="url(#etBody)"/><g clip-path="url(#etClip)"><rect x="0" y="0" width="26" height="2.4" fill="url(#etGold)"/><rect x="0" y="55.6" width="26" height="2.4" fill="url(#etGold)"/><rect x="0" y="0" width="4" height="58" fill="url(#etTuck)"/></g></svg>'+
+    '<span class="et-sheen-clip"><span class="et-sheen"></span></span>'+
+    '<span class="et-nudge"><svg class="et-layer et-chev" viewBox="0 0 26 58"><path d="M12.9 25l-4.8 4 4.8 4" fill="none" stroke="#f3dc96" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>'+
+    '</span></span>';
+  var E='ease-in-out';
+  var SWAY=[{transform:'skewY(0deg) scaleY(1)',easing:E},{transform:'skewY(-2.6deg) scaleY(.985)',offset:.22,easing:E},{transform:'skewY(1.8deg) scaleY(1.01)',offset:.48,easing:E},{transform:'skewY(-1deg) scaleY(.995)',offset:.72,easing:E},{transform:'skewY(0deg) scaleY(1)'}];
+  var SHEEN=[{transform:'translateX(-160%) skewX(-18deg)'},{transform:'translateX(390%) skewX(-18deg)'}];
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)');
+  function settle(el,anim){ if(!el||!anim) return; var from=getComputedStyle(el).transform; anim.cancel(); if(from&&from!=='none') el.animate([{transform:from},{transform:'none'}],{duration:450,easing:'cubic-bezier(.22,1,.36,1)'}); }
+  function wire(b){
+    var sway=b.querySelector('.et-sway'), nudge=b.querySelector('.et-nudge'), sheen=b.querySelector('.et-sheen'), swaying=null, nudging=null, sweeping=null;
+    b.addEventListener('pointerenter',function(ev){
+      if(ev.pointerType==='touch'||reduce.matches||swaying) return;
+      var lean=b.closest('.sidebar').classList.contains('collapsed')?1.6:-1.6;
+      swaying=sway.animate(SWAY,{duration:2600,delay:200,iterations:Infinity});
+      nudging=nudge.animate([{transform:'translateX(0)'},{transform:'translateX('+lean+'px)'},{transform:'translateX(0)'}],{duration:1300,easing:E,iterations:Infinity});
+      if(!sweeping||sweeping.playState!=='running') sweeping=sheen.animate(SHEEN,{duration:1100,delay:150,easing:'cubic-bezier(.4,0,.2,1)'});
+    });
+    b.addEventListener('pointerleave',function(){ settle(sway,swaying); settle(nudge,nudging); swaying=nudging=null; });
+  }
+  var aside=null, btn=null, was=null, timer=0;
+  /* while the width animates, labels hold one line (.et-resizing in the CSS) */
+  function resizing(a){
+    a.classList.add('et-resizing'); clearTimeout(timer);
+    var done=function(ev){ if(ev&&(ev.target!==a||ev.propertyName!=='width')) return; a.classList.remove('et-resizing'); a.removeEventListener('transitionend',done); clearTimeout(timer); };
+    a.addEventListener('transitionend',done); timer=setTimeout(done,600);
+  }
+  function sync(){
+    var c=aside.classList.contains('collapsed'), t=c?'Expand sidebar':'Collapse sidebar';
+    if(was!==null&&c!==was) resizing(aside);
+    was=c;
+    if(btn.getAttribute('aria-label')!==t){ btn.setAttribute('aria-label',t); btn.title=t; btn.setAttribute('aria-expanded',String(!c)); }
+  }
+  /* runs as a microtask after React flips .collapsed, so .et-resizing is on before the first animated frame is painted */
+  var classWatch=new MutationObserver(function(){ if(aside.classList.contains('collapsed')!==was) sync(); });
+  function ensure(){
+    var a=document.querySelector('aside.sidebar');
+    if(!a||(a===aside&&btn&&btn.isConnected)) return;
+    aside=a; was=null;
+    btn=document.createElement('button'); btn.type='button'; btn.className='edge-toggle'; btn.innerHTML=RIBBON;
+    btn.addEventListener('click',function(ev){
+      ev.preventDefault();
+      var mc=a.querySelector('.mobile-close'), target=(mc&&mc.offsetParent!==null)?mc:a.querySelector('.collapse-button');
+      if(target) target.click();
+    });
+    wire(btn); a.appendChild(btn); sync();
+    classWatch.disconnect(); classWatch.observe(a,{attributes:true,attributeFilter:['class']});
+  }
+  function start(){
+    ensure();
+    /* only re-insert if the app swaps the sidebar out; this callback does no DOM work otherwise */
+    new MutationObserver(function(){ if(!btn||!btn.isConnected) ensure(); }).observe(document.body,{childList:true,subtree:true});
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',start); else start();
+})();
+</script>

@@ -1,0 +1,76 @@
+{
+  "review_date": "2026-10-20",
+  "started_at_utc": "2026-10-20T07:53:13.202Z",
+  "mode": "GET_only_metadata_and_content_counts_no_callbacks_no_webhooks",
+  "credential_source": "frontend/.env",
+  "remote_writes": 0,
+  "calls": [
+    {
+      "label": "GHL_AGENCY_PIT_opportunities",
+      "method": "GET",
+      "path": "/opportunities/search",
+      "query": {
+        "locationId": "IAfZCWz2SlgOE6081j3F",
+        "limit": 2
+      },
+      "version_header": "v3",
+      "http_status": 401,
+      "ok": false,
+      "response_keys": [
+        "message",
+        "statusCode"
+      ],
+      "error": "\"The token is not authorized for this scope.\""
+    },
+    {
+      "label": "GHL_PIT_opportunities",
+      "method": "GET",
+      "path": "/opportunities/search",
+      "query": {
+        "locationId": "Xi40zxmRvW8Pbyk5DYHp",
+        "limit": 2
+      },
+      "version_header": "v3",
+      "http_status": 401,
+      "ok": false,
+      "response_keys": [
+        "message",
+        "statusCode"
+      ],
+      "error": "\"The token is not authorized for this scope.\""
+    }
+  ],
+  "selected_client": {
+    "id": "IAfZCWz2SlgOE6081j3F",
+    "name": "Dogwood Reserve"
+  },
+  "credential_checks": [
+    {
+      "variable": "GHL_AGENCY_PIT",
+      "present": true,
+      "location_id": "IAfZCWz2SlgOE6081j3F",
+      "format_hint": "private_integration_token",
+      "checks": [
+        {
+          "resource": "opportunities",
+          "http_status": 401,
+          "error": "\"The token is not authorized for this scope.\""
+        }
+      ]
+    },
+    {
+      "variable": "GHL_PIT",
+      "present": true,
+      "location_id": "Xi40zxmRvW8Pbyk5DYHp",
+      "format_hint": "private_integration_token",
+      "checks": [
+        {
+          "resource": "opportunities",
+          "http_status": 401,
+          "error": "\"The token is not authorized for this scope.\""
+        }
+      ]
+    }
+  ],
+  "finished_at_utc": "2026-10-20T07:53:14.580Z"
+}

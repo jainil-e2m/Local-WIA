@@ -1,0 +1,143 @@
+/* Action Hub v2 (§9.1). Layout from the action-hub.html reference, in the KB's own tokens and components. */
+.ah2-view { --we: #5974c3; --we-soft: #edf2ff; --they: #ae7b43; --they-soft: #fbf2e7; --unc: #9f894e; --unc-soft: #f7f3e7; --hot: #b1747a; --hot-soft: #fbf0f0; }
+.ah2-view .eyebrow { margin: 0; }
+
+.ah2-toolbar { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; padding: 8px; margin-bottom: 12px; background: #fff; border: 1px solid var(--line); border-radius: 18px; box-shadow: var(--shadow); }
+.ah2-toolbar .search-field { flex: 1; min-width: 180px; }
+.ah2-browse { display: inline-flex; gap: 3px; padding: 4px; border-radius: 999px; background: #edeff4; }
+.ah2-browse button { display: inline-flex; align-items: center; gap: 6px; min-height: 31px; padding: 0 13px; border-radius: 999px; color: #7a8698; font-size: 11px; font-weight: 500; white-space: nowrap; }
+.ah2-browse button.selected { background: var(--navy); color: #fff; box-shadow: 0 2px 7px #17335422; }
+.ah2-filters-btn { display: inline-flex; align-items: center; gap: 7px; min-height: 39px; padding: 0 14px; border: 1px solid var(--line); border-radius: 999px; background: #fff; color: #5d6a7e; font-size: 11px; font-weight: 500; }
+.ah2-filters-btn.active { border-color: #c9d5f5; background: var(--we-soft); color: var(--we); }
+.ah2-filters-btn b { min-width: 17px; padding: 0 5px; border-radius: 999px; background: var(--we); color: #fff; font-size: 9px; text-align: center; }
+.ah2-filters-btn svg:last-child { transition: transform .15s; }
+.ah2-filters-btn svg.is-open { transform: rotate(180deg); }
+
+.ah2-filters { margin-bottom: 12px; background: #fff; border: 1px solid var(--line); border-radius: 18px; box-shadow: var(--shadow); overflow: hidden; }
+.ah2-filters > div { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 14px; align-items: center; padding: 11px 16px; }
+.ah2-filters > div + div { border-top: 1px solid var(--line); }
+.ah2-filters > div > span { color: var(--muted); font-size: 10px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
+.ah2-filters .segmented { width: fit-content; }
+
+.ah2-split { display: grid; grid-template-columns: minmax(240px, 290px) minmax(0, 1fr); gap: 16px; min-height: 540px; }
+.ah2-rail, .ah2-pane { display: flex; flex-direction: column; min-width: 0; border: 1px solid var(--line); border-radius: 22px; box-shadow: var(--shadow); overflow: hidden; }
+.ah2-rail { background: #fafbfd; }
+.ah2-pane { background: #fff; }
+.ah2-rail-head { display: flex; align-items: baseline; justify-content: space-between; padding: 15px 18px 11px; border-bottom: 1px solid var(--line); }
+.ah2-rail-head h2 { font-family: inherit; font-size: 10px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.ah2-rail-head span { color: var(--muted); font-size: 11px; }
+.ah2-rail ul { list-style: none; margin: 0; padding: 8px; display: flex; flex-direction: column; gap: 4px; overflow-y: auto; }
+.ah2-group { width: 100%; display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 10px; align-items: center; padding: 9px 11px; text-align: left; border: 1px solid transparent; border-radius: 15px; }
+.ah2-group:hover { background: #fff; border-color: var(--line); }
+.ah2-group.selected { background: #fff; border-color: #c9d5f5; box-shadow: 0 4px 14px #1733540d; }
+.ah2-group-copy { min-width: 0; }
+.ah2-group-copy strong { display: block; color: var(--navy); font-size: 12px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ah2-group-copy small { display: block; color: var(--muted); font-size: 10px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ah2-group-stats { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; font-size: 9.5px; font-weight: 600; white-space: nowrap; }
+.ah2-group-stats em { font-style: normal; padding: 1px 6px; border-radius: 999px; color: var(--hot); background: var(--hot-soft); }
+.ah2-group-stats .is-we { color: var(--we); }
+.ah2-group-stats .is-they { color: var(--they); }
+
+.ah2-avatar { width: 33px; height: 33px; border-radius: 10px; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; font-family: var(--serif); font-size: 13px; color: #7a88b1; background: #edf0f8; border: 1px solid #e3e7f0; }
+.ah2-avatar.is-client { color: #987f5b; background: #f5efe6; }
+.ah2-avatar.is-programme { color: #2f8f99; background: #e6f5f6; }
+.ah2-avatar.is-due { color: var(--navy); background: #f3f5f8; }
+.ah2-avatar.is-all { font-family: inherit; font-size: 10px; font-weight: 600; color: var(--navy); background: #f3f5f8; }
+.ah2-identity .ah2-avatar, .ah2-identity .client-avatar { width: 47px; height: 47px; border-radius: 14px; font-size: 17px; }
+
+.ah2-pane-head { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding: 16px 18px; border-bottom: 1px solid var(--line); background: linear-gradient(180deg, #fbfcfe 0%, #fff 100%); }
+.ah2-identity { display: flex; align-items: center; gap: 12px; min-width: 0; }
+.ah2-identity h2 { font-size: 22px; line-height: 1.2; }
+.ah2-identity p { color: var(--muted); font-size: 11px; }
+.ah2-counters { display: flex; gap: 8px; flex-wrap: wrap; }
+.ah2-counter { min-width: 84px; padding: 7px 12px; border-radius: 14px; text-align: left; background: #f6f7fb; border: 1px solid var(--line); }
+.ah2-counter span { display: block; color: var(--muted); font-size: 9px; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; }
+.ah2-counter strong { color: var(--navy); font-size: 19px; font-weight: 500; }
+.ah2-counter:hover { border-color: #c9d5f5; }
+.ah2-counter.selected { background: var(--we-soft); border-color: #c9d5f5; }
+.ah2-counter.is-hot { background: var(--hot-soft); border-color: #f1d9db; }
+.ah2-counter.is-hot strong { color: var(--hot); }
+.ah2-counter.is-hot.selected { box-shadow: inset 0 0 0 1px var(--hot); }
+
+.ah2-tabs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); background: #fafbfd; border-bottom: 1px solid var(--line); }
+.ah2-tabs button { display: flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; border-bottom: 2px solid transparent; color: #7a8698; font-size: 11.5px; font-weight: 500; }
+.ah2-tabs button b { min-width: 20px; padding: 1px 7px; border-radius: 999px; background: #eef1f6; color: #7a8698; font-size: 10px; font-weight: 500; }
+.ah2-tabs button.selected { color: var(--navy); background: #fff; border-bottom-color: var(--we); }
+.ah2-tabs button.selected b { background: var(--we-soft); color: var(--we); }
+.ah2-tabs button.tab-they.selected { border-bottom-color: var(--they); }
+.ah2-tabs button.tab-they.selected b { background: var(--they-soft); color: var(--they); }
+.ah2-tabs button.tab-unc.selected { border-bottom-color: var(--unc); }
+.ah2-tabs button.tab-unc.selected b { background: var(--unc-soft); color: var(--unc); }
+
+/* Right of the title: the review button, then the sync status. The 96px keeps clear of the fixed bell and avatar
+   (mvp.css gives that margin only to a sync pill placed directly in .rb-head). */
+.ah2-head-tools { display: flex; align-items: center; gap: 10px; margin-right: 96px; }
+#main-content .ah2-head-tools .rb-sync { margin: 0; }
+.ah2-review-btn { display: inline-flex; align-items: center; gap: 7px; min-height: 34px; padding: 0 14px; border: 1px solid var(--line); border-radius: 999px; background: #fff; color: var(--navy); font-size: 11px; font-weight: 500; white-space: nowrap; box-shadow: var(--shadow); }
+.ah2-review-btn svg { color: var(--we); }
+.ah2-review-btn b { min-width: 18px; padding: 1px 6px; border-radius: 999px; background: var(--we-soft); color: var(--we); font-size: 10px; font-weight: 600; text-align: center; }
+.ah2-review-btn:hover { border-color: #c9d5f5; }
+.ah2-review-btn.selected { background: var(--navy); border-color: var(--navy); color: #fff; }
+.ah2-review-btn.selected svg { color: #fff; }
+.ah2-review-btn.selected b { background: #ffffff26; color: #fff; }
+.ah2-review { display: flex; flex-direction: column; align-items: flex-start; gap: 10px; }
+.ah2-review > .review-queue { width: 100%; }
+
+/* At most four rows of cards (16 at full width); the rest scroll inside the pane. */
+.ah2-view { --ah2-row: 150px; --ah2-gap: 12px; }
+.ah2-body { flex: 1; padding: 14px 16px 18px; background: #fbfcfe; overflow-y: auto; max-height: calc(4 * var(--ah2-row) + 3 * var(--ah2-gap) + 32px); scrollbar-gutter: stable; }
+.ah2-note { margin: 0 0 12px; padding: 8px 12px; border-radius: 12px; color: var(--unc); background: var(--unc-soft); font-size: 11px; }
+.ah2-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); grid-auto-rows: var(--ah2-row); gap: var(--ah2-gap); }
+.ah2-card { display: flex; flex-direction: column; gap: 8px; min-height: 0; overflow: hidden; padding: 13px 14px 12px; text-align: left; background: #fff; border: 1px solid var(--line); border-left: 3px solid #c9d3e3; border-radius: 16px; box-shadow: 0 2px 8px #17335408; }
+.ah2-card:hover { border-color: #c9d5f5; box-shadow: 0 6px 18px #1733540f; }
+.ah2-card.side-we { border-left-color: var(--we); }
+.ah2-card.side-they { border-left-color: var(--they); }
+.ah2-card.side-unc { border-left-color: var(--unc); }
+/* Selection: the checkbox sits over the card's top-left corner (a checkbox can't live inside the card button). */
+.ah2-cell { position: relative; min-height: 0; }
+.ah2-cell > .ah2-card { width: 100%; height: 100%; }
+.ah2-cell .ah2-card-top { padding-left: 22px; }
+.ah2-pick { position: absolute; top: 16px; left: 17px; z-index: 1; width: 14px; height: 14px; min-height: 0; margin: 0; accent-color: var(--we); cursor: pointer; }
+.ah2-cell.is-picked > .ah2-card { border-color: #b9c8f3; background: #f6f8ff; box-shadow: 0 0 0 1px #b9c8f3; }
+.ah2-bulk { position: sticky; top: -14px; z-index: 3; display: flex; align-items: center; gap: 12px; margin: -14px -16px 12px; padding: 9px 16px; background: #eef2ffee; backdrop-filter: blur(6px); border-bottom: 1px solid #d9e1fa; font-size: 11.5px; color: var(--navy); }
+.ah2-bulk .button { margin-left: auto; display: inline-flex; align-items: center; gap: 6px; padding: 7px 13px; font-size: 11px; }
+.ah2-bulk .text-button { font-size: 11px; }
+.ah2-card-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.ah2-due { color: #5d6a7e; font-size: 10.5px; font-weight: 500; }
+.ah2-due.is-hot, .ah2-facts dd.is-hot { color: var(--hot); }
+.ah2-owner { color: var(--muted); font-size: 10px; }
+.ah2-client { color: var(--we); font-size: 10px; font-weight: 500; }
+.ah2-card h3 { margin: 0; font-size: 12.5px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.ah2-card .ah2-meta { margin-top: auto; }
+.ah2-meta { display: flex; flex-wrap: wrap; gap: 5px; align-items: center; }
+
+.ah2-facts { display: grid; gap: 6px; margin: 0; }
+/* Centre each label on its value: the two use different font sizes, and the value can hold a padded pill. */
+.ah2-facts > div { display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 10px; align-items: center; }
+.ah2-facts dd.ah2-came { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 5px; }
+.ah2-facts dt { color: var(--muted); font-size: 10.5px; }
+.ah2-facts dd { margin: 0; color: var(--navy); font-size: 11.5px; }
+.ah2-said { margin: 8px 0 10px; padding: 10px 12px; border-left: 3px solid var(--we); border-radius: 0 12px 12px 0; background: #f6f8fc; }
+.ah2-said q { display: block; color: var(--navy); font-style: italic; font-size: 12px; }
+.ah2-said footer { margin-top: 5px; color: var(--muted); font-size: 10.5px; }
+/* ClickUp logo button at the section's top right; the facts grid narrows beside the float. */
+.ah2-clickup { float: right; display: grid; place-items: center; width: 30px; height: 30px; margin: -2px 0 6px 12px; border-radius: 50%; transition: transform .15s; }
+.ah2-clickup:hover { transform: translateY(-1px); }
+.ah2-clickup img { width: 28px; height: 28px; object-fit: contain; }
+.ah2-decide { display: flex; justify-content: flex-end; gap: 8px; margin-left: auto; }
+.ah2-decide .button { display: inline-flex; align-items: center; gap: 6px; }
+.ah2-notes { width: 100%; min-height: 84px; margin-top: 6px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 12px; font: inherit; font-size: 12px; color: var(--navy); resize: vertical; }
+.ah2-notes:focus-visible { outline: 0; border-color: #6a85ee; box-shadow: 0 0 0 3px #5070ff1f; }
+.ah2-remove { display: inline-flex; align-items: center; gap: 6px; color: #a14b4b; }
+.ah2-confirm { margin: 0; font-size: 11.5px; color: #8a3f3f; }
+.ah2-remove-confirm { display: inline-flex; align-items: center; gap: 6px; background: #b8433c; color: #fff; }
+.ah2-remove-confirm:hover { background: #9e3631; }
+
+@media (max-width: 900px) {
+  .ah2-split { grid-template-columns: 1fr; }
+  .ah2-rail { max-height: 280px; }
+  .ah2-filters > div { grid-template-columns: 1fr; gap: 6px; }
+}
+
+/* Tighter gap between the page title and the search/filter bar (v2 only; .rb-head is shared with the original hub). */
+.ah2-view > .rb-head { margin-bottom: 8px; }

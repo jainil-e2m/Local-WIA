@@ -1,0 +1,270 @@
+{
+  "research_date": "2026-10-20",
+  "offline_only": true,
+  "not_a_benchmark_or_account_bill": true,
+  "retained_implementation_candidates": [
+    "selective_hybrid",
+    "viktor_led"
+  ],
+  "selected_candidate": null,
+  "candidate_evaluation_performed": false,
+  "user_reported_baseline": {
+    "approximate_monthly_viktor_spend_usd": 1000.0,
+    "basis": "User recollection; invoice, plan, allowance and usage not verified",
+    "workload": "Team DMs, call preparation and proactive analysis; not equivalent to the prepared-prompt scenarios",
+    "gross_reduction_sensitivity_not_a_forecast": [
+      {
+        "percentage": 10,
+        "gross_usd_before_incremental_kb_expenses": 100.0
+      },
+      {
+        "percentage": 25,
+        "gross_usd_before_incremental_kb_expenses": 250.0
+      },
+      {
+        "percentage": 50,
+        "gross_usd_before_incremental_kb_expenses": 500.0
+      }
+    ],
+    "net_savings": "Measured Viktor cash-spend reduction minus incremental OpenRouter, Railway and operating costs"
+  },
+  "assumptions": {
+    "days": 30,
+    "analyses_per_client_per_day": 1,
+    "input_tokens_per_analysis": 10000,
+    "output_tokens_per_analysis": 1000,
+    "viktor_current_plan_credit_usd_equivalent": "0.0025",
+    "viktor_quick_task_credits": [
+      100,
+      300
+    ],
+    "openrouter_standard_credit_purchase_fee": "5.5%",
+    "equal_output_quality_not_established": true,
+    "excluded": [
+      "hosting",
+      "connector resources/provider fees",
+      "backfill",
+      "embeddings",
+      "additional reasoning tokens",
+      "retries",
+      "taxes",
+      "minimum purchase fees",
+      "existing Viktor subscriptions and other workspace workloads"
+    ],
+    "hybrid_cost": "OpenRouter work actually performed + incremental Viktor work actually performed; avoid duplicate work"
+  },
+  "pricing_sources": {
+    "viktor_plan_credit_rate": "https://viktor.com/docs/plans-and-credits",
+    "viktor_quick_tasks": "https://viktor.com/help/category/credits/how-credits-work",
+    "fast_model": "https://openrouter.ai/google/gemini-3.1-flash-lite",
+    "strong_model": "https://openrouter.ai/anthropic/claude-sonnet-4.6",
+    "openrouter_fee": "https://openrouter.ai/pricing",
+    "railway": "https://docs.railway.com/pricing/plans"
+  },
+  "scenarios": [
+    {
+      "clients": 15,
+      "illustrative_monthly_runs": 450,
+      "openrouter": {
+        "Gemini 3.1 Flash Lite illustration": {
+          "inference_usd": 1.8,
+          "with_standard_credit_purchase_fee_usd": 1.899
+        },
+        "Claude Sonnet 4.6 illustration": {
+          "inference_usd": 20.25,
+          "with_standard_credit_purchase_fee_usd": 21.36375
+        }
+      },
+      "viktor_quick_task_credit_equivalent_usd": {
+        "at_100_credits_per_run": 112.5,
+        "at_300_credits_per_run": 337.5
+      },
+      "unconditional_15_minute_per_client_runs_30_days": 43200
+    },
+    {
+      "clients": 20,
+      "illustrative_monthly_runs": 600,
+      "openrouter": {
+        "Gemini 3.1 Flash Lite illustration": {
+          "inference_usd": 2.4,
+          "with_standard_credit_purchase_fee_usd": 2.532
+        },
+        "Claude Sonnet 4.6 illustration": {
+          "inference_usd": 27.0,
+          "with_standard_credit_purchase_fee_usd": 28.485
+        }
+      },
+      "viktor_quick_task_credit_equivalent_usd": {
+        "at_100_credits_per_run": 150.0,
+        "at_300_credits_per_run": 450.0
+      },
+      "unconditional_15_minute_per_client_runs_30_days": 57600
+    },
+    {
+      "clients": 30,
+      "illustrative_monthly_runs": 900,
+      "openrouter": {
+        "Gemini 3.1 Flash Lite illustration": {
+          "inference_usd": 3.6,
+          "with_standard_credit_purchase_fee_usd": 3.798
+        },
+        "Claude Sonnet 4.6 illustration": {
+          "inference_usd": 40.5,
+          "with_standard_credit_purchase_fee_usd": 42.7275
+        }
+      },
+      "viktor_quick_task_credit_equivalent_usd": {
+        "at_100_credits_per_run": 225.0,
+        "at_300_credits_per_run": 675.0
+      },
+      "unconditional_15_minute_per_client_runs_30_days": 86400
+    },
+    {
+      "clients": 40,
+      "illustrative_monthly_runs": 1200,
+      "openrouter": {
+        "Gemini 3.1 Flash Lite illustration": {
+          "inference_usd": 4.8,
+          "with_standard_credit_purchase_fee_usd": 5.064
+        },
+        "Claude Sonnet 4.6 illustration": {
+          "inference_usd": 54.0,
+          "with_standard_credit_purchase_fee_usd": 56.97
+        }
+      },
+      "viktor_quick_task_credit_equivalent_usd": {
+        "at_100_credits_per_run": 300.0,
+        "at_300_credits_per_run": 900.0
+      },
+      "unconditional_15_minute_per_client_runs_30_days": 115200
+    }
+  ],
+  "railway_resource_sensitivities": {
+    "not_tested_capacity_or_a_total_project_quote": true,
+    "rates_usd": {
+      "ram_gb_month": "10",
+      "cpu_vcpu_month": "20",
+      "volume_gb_month": "0.15",
+      "egress_gb": "0.05"
+    },
+    "pro_monthly_minimum_applied_toward_usage_usd": 20,
+    "shared_account_allocation_requires_actual_bill": true,
+    "excludes": [
+      "AI",
+      "provider fees",
+      "separate backups/object storage",
+      "taxes",
+      "human operation"
+    ],
+    "examples": [
+      {
+        "combined_average_ram_gb": 2.5,
+        "combined_average_vcpu": 0.25,
+        "volume_gb": 20,
+        "egress_gb": 10,
+        "illustrative_monthly_usage_usd": 33.5
+      },
+      {
+        "combined_average_ram_gb": 5,
+        "combined_average_vcpu": 0.5,
+        "volume_gb": 50,
+        "egress_gb": 25,
+        "illustrative_monthly_usage_usd": 68.75
+      }
+    ]
+  },
+  "archived_viktor": {
+    "raw_channel_files_examined": 7,
+    "message_count": 9,
+    "by_channel": {
+      "c_dogwoodreserve": 6,
+      "c_funktasticproductions_djhybrid": 3
+    },
+    "scope": "Preserved local archive only; not live access, complete history, or measured correctness",
+    "messages": [
+      {
+        "archive": "frontend/corpus/slack/raw/c_dogwoodreserve.json",
+        "channel_archive_key": "c_dogwoodreserve",
+        "message_ts": "1788179868.774469",
+        "author_id": "U0BPF0MBD45",
+        "occurred_at_utc": "2026-08-31T12:37:48.774469+00:00",
+        "opening_excerpt": "**Prep for today's 3:00pm Ads Kickoff with Alina Stevens + Tirzah Caffee** \u2014 <@U04LHK2MJVC>  1. **Nothing exists yet on the ads side**: no Dogwood Google Ads account under our MCC,",
+        "underlying_claims_independently_verified": false
+      },
+      {
+        "archive": "frontend/corpus/slack/raw/c_dogwoodreserve.json",
+        "channel_archive_key": "c_dogwoodreserve",
+        "message_ts": "1788352543.342849",
+        "author_id": "U0BPF0MBD45",
+        "occurred_at_utc": "2026-09-02T12:35:43.342849+00:00",
+        "opening_excerpt": "**Prep for today's 9:15am Messaging &amp; Positioning Interview \u2014 Alina Stevens + Tirzah Caffee** \u2014 <@U04LHK2MJVC>  1. **The questionnaire came in on 8/31 and it's unusually thorou",
+        "underlying_claims_independently_verified": false
+      },
+      {
+        "archive": "frontend/corpus/slack/raw/c_dogwoodreserve.json",
+        "channel_archive_key": "c_dogwoodreserve",
+        "message_ts": "1788957783.203369",
+        "author_id": "U0BPF0MBD45",
+        "occurred_at_utc": "2026-09-09T12:43:03.203369+00:00",
+        "opening_excerpt": "**Dogwood Reserve | Ads Strategy Call \u2014 9:15am CT today** <@U04LHK2MJVC> <@U08MNKVJB1D>  - **Her Google Ads account is now live under our MCC** \u2014 `FS - Dogwood Reserve` (305-263-37",
+        "underlying_claims_independently_verified": false
+      },
+      {
+        "archive": "frontend/corpus/slack/raw/c_dogwoodreserve.json",
+        "channel_archive_key": "c_dogwoodreserve",
+        "message_ts": "1789482275.582909",
+        "author_id": "U0BPF0MBD45",
+        "occurred_at_utc": "2026-09-15T14:24:35.582909+00:00",
+        "opening_excerpt": "<@U08MNKVJB1D> <@U096WQC91AR> <@U04LHK2MJVC> \u2014 Dogwood's Google campaign went live yesterday :tada: I checked the first day against live data this morning. Good news up front: the ",
+        "underlying_claims_independently_verified": false
+      },
+      {
+        "archive": "frontend/corpus/slack/raw/c_dogwoodreserve.json",
+        "channel_archive_key": "c_dogwoodreserve",
+        "message_ts": "1789567985.522979",
+        "author_id": "U0BPF0MBD45",
+        "occurred_at_utc": "2026-09-16T14:13:05.522979+00:00",
+        "opening_excerpt": "<@U08MNKVJB1D> \u2014 Dogwood's first three days are in, and there's one fix worth doing today. Live pull this morning:  **505 impressions / 30 clicks / $56.24 / 0 conversions** (9/14, ",
+        "underlying_claims_independently_verified": false
+      },
+      {
+        "archive": "frontend/corpus/slack/raw/c_dogwoodreserve.json",
+        "channel_archive_key": "c_dogwoodreserve",
+        "message_ts": "1790099516.929449",
+        "author_id": "U0BPF0MBD45",
+        "occurred_at_utc": "2026-09-22T17:51:56.929449+00:00",
+        "opening_excerpt": "<@U08MNKVJB1D> \u2014 Dogwood week-two read, and first the good news: **conversion tracking is confirmed working.** The `Submit lead form` action fired on 9/17, and I matched it in Lead",
+        "underlying_claims_independently_verified": false
+      },
+      {
+        "archive": "frontend/corpus/slack/raw/c_funktasticproductions_djhybrid.json",
+        "channel_archive_key": "c_funktasticproductions_djhybrid",
+        "message_ts": "1787143045.438419",
+        "author_id": "U0BPF0MBD45",
+        "occurred_at_utc": "2026-08-19T12:37:25.438419+00:00",
+        "opening_excerpt": "**Call prep \u2014 Funktastic / DJ Hybrid Monthly Meeting, today 12:00pm CT** (Mike + Marisa) \u00b7 <@U04LHK2MJVC> <@U08MNKVJB1D>  1. **Funktastic's new Showit site looks untagged** \u2014 a sca",
+        "underlying_claims_independently_verified": false
+      },
+      {
+        "archive": "frontend/corpus/slack/raw/c_funktasticproductions_djhybrid.json",
+        "channel_archive_key": "c_funktasticproductions_djhybrid",
+        "message_ts": "1787747721.833609",
+        "author_id": "U0BPF0MBD45",
+        "occurred_at_utc": "2026-08-26T12:35:21.833609+00:00",
+        "opening_excerpt": "**Call prep DELTA \u2014 Funktastic / DJ Hybrid Monthly Meeting, today 12:00pm CT** (this is the 8/19 call Mike rescheduled) \u00b7 <@U04LHK2MJVC> <@U08MNKVJB1D>  1. **Good news to open with",
+        "underlying_claims_independently_verified": false
+      },
+      {
+        "archive": "frontend/corpus/slack/raw/c_funktasticproductions_djhybrid.json",
+        "channel_archive_key": "c_funktasticproductions_djhybrid",
+        "message_ts": "1789562161.380379",
+        "author_id": "U0BPF0MBD45",
+        "occurred_at_utc": "2026-09-16T12:36:01.380379+00:00",
+        "opening_excerpt": "**Call prep \u2014 Funktastic / DJ Hybrid Monthly Meeting, today 12:00pm CT** (Mike + Marisa) \u00b7 <@U04LHK2MJVC> <@U08MNKVJB1D>  1. **The two accounts swapped places.** Funktastic Google ",
+        "underlying_claims_independently_verified": false
+      }
+    ]
+  },
+  "paid_agent_runs_started": 0,
+  "messages_sent": 0
+}

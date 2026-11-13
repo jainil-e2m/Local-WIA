@@ -1,0 +1,1015 @@
+{
+  "review_date": "2026-10-19",
+  "started_at_utc": "2026-10-19T11:53:42.476Z",
+  "credential_present": true,
+  "credential_source": "frontend/.env:FATHOM_API_KEY",
+  "mode": "GET_only_no_callbacks_no_webhooks",
+  "limits": {
+    "meeting_pages": 20,
+    "content_samples": 3,
+    "sample_excerpt_characters": 420,
+    "summary_excerpt_characters": 1600
+  },
+  "calls": [
+    {
+      "label": "meeting_page_1",
+      "method": "GET",
+      "path": "/meetings",
+      "query": {},
+      "http_status": 200,
+      "ok": true,
+      "top_level_keys": [
+        "items",
+        "limit",
+        "next_cursor"
+      ],
+      "item_count": 4
+    },
+    {
+      "label": "teams",
+      "method": "GET",
+      "path": "/teams",
+      "query": {},
+      "http_status": 200,
+      "ok": true,
+      "top_level_keys": [
+        "items",
+        "limit",
+        "next_cursor"
+      ]
+    },
+    {
+      "label": "team_members",
+      "method": "GET",
+      "path": "/team_members",
+      "query": {},
+      "http_status": 200,
+      "ok": true,
+      "top_level_keys": [
+        "items",
+        "limit",
+        "next_cursor"
+      ]
+    },
+    {
+      "label": "inline_content_page",
+      "method": "GET",
+      "path": "/meetings",
+      "query": {
+        "include_transcript": true,
+        "include_summary": true,
+        "include_action_items": true,
+        "include_highlights": true,
+        "include_crm_matches": true
+      },
+      "http_status": 200,
+      "ok": true,
+      "top_level_keys": [
+        "items",
+        "limit",
+        "next_cursor"
+      ]
+    },
+    {
+      "label": "transcript_192191254",
+      "method": "GET",
+      "path": "/recordings/192191254/transcript",
+      "query": {},
+      "http_status": 200,
+      "ok": true,
+      "top_level_keys": [
+        "transcript"
+      ]
+    },
+    {
+      "label": "summary_192191254",
+      "method": "GET",
+      "path": "/recordings/192191254/summary",
+      "query": {},
+      "http_status": 200,
+      "ok": true,
+      "top_level_keys": [
+        "summary"
+      ]
+    },
+    {
+      "label": "transcript_186236649",
+      "method": "GET",
+      "path": "/recordings/186236649/transcript",
+      "query": {},
+      "http_status": 200,
+      "ok": true,
+      "top_level_keys": [
+        "transcript"
+      ]
+    },
+    {
+      "label": "summary_186236649",
+      "method": "GET",
+      "path": "/recordings/186236649/summary",
+      "query": {},
+      "http_status": 200,
+      "ok": true,
+      "top_level_keys": [
+        "summary"
+      ]
+    },
+    {
+      "label": "transcript_186193499",
+      "method": "GET",
+      "path": "/recordings/186193499/transcript",
+      "query": {},
+      "http_status": 200,
+      "ok": true,
+      "top_level_keys": [
+        "transcript"
+      ]
+    },
+    {
+      "label": "summary_186193499",
+      "method": "GET",
+      "path": "/recordings/186193499/summary",
+      "query": {},
+      "http_status": 200,
+      "ok": true,
+      "top_level_keys": [
+        "summary"
+      ]
+    }
+  ],
+  "meetings": [
+    {
+      "recording_id": 192191254,
+      "title": "Wedding Industry Ads X E2M AI Weekly Sync Calls",
+      "meeting_title": "Wedding Industry Ads X E2M AI Weekly Sync Calls",
+      "created_at": "2026-10-13T15:25:45Z",
+      "scheduled_start_time": "2026-10-13T14:45:00Z",
+      "scheduled_end_time": "2026-10-13T15:30:00Z",
+      "recording_start_time": "2026-10-13T14:49:20Z",
+      "recording_end_time": "2026-10-13T15:25:37Z",
+      "meeting_type": null,
+      "shared_with": "no_teams",
+      "transcript_language": "en",
+      "calendar_invitees_domains_type": "one_or_more_external",
+      "url": "https://fathom.video/calls/857377954",
+      "share_url": "https://fathom.video/share/v9E6zC1iAtRDz5Jd5Maz-UpuKHzqgVbJ",
+      "recorded_by": {
+        "name": "Jainil Trivedi",
+        "email": "jainil.trivedi@e2m.solutions",
+        "email_domain": "e2m.solutions",
+        "team": null
+      },
+      "calendar_invitees": [
+        {
+          "name": "Whitney Hodges",
+          "email": "hello@weddingindustryads.com",
+          "email_domain": "weddingindustryads.com",
+          "is_external": true,
+          "matched_speaker_display_name": null
+        },
+        {
+          "name": "gisselle@dotandcompany.co",
+          "email": "gisselle@dotandcompany.co",
+          "email_domain": "dotandcompany.co",
+          "is_external": true,
+          "matched_speaker_display_name": null
+        },
+        {
+          "name": "Asha Kumar",
+          "email": "asha.kumar@e2msolutions.com",
+          "email_domain": "e2msolutions.com",
+          "is_external": true,
+          "matched_speaker_display_name": null
+        },
+        {
+          "name": "Minu Bhatt",
+          "email": "minu.bhatt@e2msolutions.com",
+          "email_domain": "e2msolutions.com",
+          "is_external": true,
+          "matched_speaker_display_name": null
+        },
+        {
+          "name": "Kenil Shah",
+          "email": "kenil.shah@e2m.solutions",
+          "email_domain": "e2m.solutions",
+          "is_external": false,
+          "matched_speaker_display_name": null
+        },
+        {
+          "name": "Nandini Vithlani",
+          "email": "nandini.vithlani@e2m.solutions",
+          "email_domain": "e2m.solutions",
+          "is_external": false,
+          "matched_speaker_display_name": null
+        },
+        {
+          "name": "Jainil Trivedi",
+          "email": "jainil.trivedi@e2m.solutions",
+          "email_domain": "e2m.solutions",
+          "is_external": false,
+          "matched_speaker_display_name": null
+        }
+      ]
+    },
+    {
+      "recording_id": 186236649,
+      "title": "Impromptu Google Meet Meeting",
+      "meeting_title": "Impromptu Google Meet Meeting",
+      "created_at": "2026-09-24T09:21:31Z",
+      "scheduled_start_time": "2026-09-24T09:18:39Z",
+      "scheduled_end_time": "2026-09-24T09:33:39Z",
+      "recording_start_time": "2026-09-24T09:19:34Z",
+      "recording_end_time": "2026-09-24T09:21:22Z",
+      "meeting_type": null,
+      "shared_with": "no_teams",
+      "transcript_language": "unknown",
+      "calendar_invitees_domains_type": "one_or_more_external",
+      "url": "https://fathom.video/calls/836125863",
+      "share_url": "https://fathom.video/share/yD6sc8--vqUV1xMbN-R-vuo8hq5LRhit",
+      "recorded_by": {
+        "name": "Jainil Trivedi",
+        "email": "jainil.trivedi@e2m.solutions",
+        "email_domain": "e2m.solutions",
+        "team": null
+      },
+      "calendar_invitees": [
+        {
+          "name": "Jainil Trivedi",
+          "email": "jainil.trivedi@e2m.solutions",
+          "email_domain": "e2m.solutions",
+          "is_external": false,
+          "matched_speaker_display_name": null
+        }
+      ]
+    },
+    {
+      "recording_id": 186218372,
+      "title": "Impromptu Google Meet Meeting",
+      "meeting_title": "Impromptu Google Meet Meeting",
+      "created_at": "2026-09-24T08:13:21Z",
+      "scheduled_start_time": "2026-09-24T08:09:49Z",
+      "scheduled_end_time": "2026-09-24T08:24:49Z",
+      "recording_start_time": "2026-09-24T08:11:39Z",
+      "recording_end_time": "2026-09-24T08:13:12Z",
+      "meeting_type": null,
+      "shared_with": "no_teams",
+      "transcript_language": "unknown",
+      "calendar_invitees_domains_type": "one_or_more_external",
+      "url": "https://fathom.video/calls/836045614",
+      "share_url": "https://fathom.video/share/Y7xEKFc8n6_kv3RjTTEcvTr8dSw9Uh9z",
+      "recorded_by": {
+        "name": "Jainil Trivedi",
+        "email": "jainil.trivedi@e2m.solutions",
+        "email_domain": "e2m.solutions",
+        "team": null
+      },
+      "calendar_invitees": [
+        {
+          "name": "Jainil Trivedi",
+          "email": "jainil.trivedi@e2m.solutions",
+          "email_domain": "e2m.solutions",
+          "is_external": false,
+          "matched_speaker_display_name": null
+        }
+      ]
+    },
+    {
+      "recording_id": 186193499,
+      "title": "Fathom Demo",
+      "meeting_title": "Fathom Demo",
+      "created_at": "2026-09-24T06:23:25Z",
+      "scheduled_start_time": "2021-09-16T20:40:00Z",
+      "scheduled_end_time": "2021-09-16T21:00:00Z",
+      "recording_start_time": "2021-09-16T20:42:47Z",
+      "recording_end_time": "2026-09-24T06:23:25Z",
+      "meeting_type": null,
+      "shared_with": "no_teams",
+      "transcript_language": "unknown",
+      "calendar_invitees_domains_type": "only_internal",
+      "url": "https://fathom.video/calls/835900129",
+      "share_url": "https://fathom.video/share/S2UACRjiB6G1qs7a9zXDYzjahuQvsygX",
+      "recorded_by": {
+        "name": "Jainil Trivedi",
+        "email": "jainil.trivedi@e2m.solutions",
+        "email_domain": "e2m.solutions",
+        "team": null
+      },
+      "calendar_invitees": [
+        {
+          "name": "Susannah DuRant",
+          "email": "susannah.durant@fathom.video",
+          "email_domain": "fathom.video",
+          "is_external": false,
+          "matched_speaker_display_name": null
+        },
+        {
+          "name": "Jainil Trivedi",
+          "email": "jainil.trivedi@e2m.solutions",
+          "email_domain": "e2m.solutions",
+          "is_external": false,
+          "matched_speaker_display_name": null
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "metadata": {
+        "recording_id": 192191254,
+        "title": "Wedding Industry Ads X E2M AI Weekly Sync Calls",
+        "meeting_title": "Wedding Industry Ads X E2M AI Weekly Sync Calls",
+        "created_at": "2026-10-13T15:25:45Z",
+        "scheduled_start_time": "2026-10-13T14:45:00Z",
+        "scheduled_end_time": "2026-10-13T15:30:00Z",
+        "recording_start_time": "2026-10-13T14:49:20Z",
+        "recording_end_time": "2026-10-13T15:25:37Z",
+        "meeting_type": null,
+        "shared_with": "no_teams",
+        "transcript_language": "en",
+        "calendar_invitees_domains_type": "one_or_more_external",
+        "url": "https://fathom.video/calls/857377954",
+        "share_url": "https://fathom.video/share/v9E6zC1iAtRDz5Jd5Maz-UpuKHzqgVbJ",
+        "recorded_by": {
+          "name": "Jainil Trivedi",
+          "email": "jainil.trivedi@e2m.solutions",
+          "email_domain": "e2m.solutions",
+          "team": null
+        },
+        "calendar_invitees": [
+          {
+            "name": "Whitney Hodges",
+            "email": "hello@weddingindustryads.com",
+            "email_domain": "weddingindustryads.com",
+            "is_external": true,
+            "matched_speaker_display_name": null
+          },
+          {
+            "name": "gisselle@dotandcompany.co",
+            "email": "gisselle@dotandcompany.co",
+            "email_domain": "dotandcompany.co",
+            "is_external": true,
+            "matched_speaker_display_name": null
+          },
+          {
+            "name": "Asha Kumar",
+            "email": "asha.kumar@e2msolutions.com",
+            "email_domain": "e2msolutions.com",
+            "is_external": true,
+            "matched_speaker_display_name": null
+          },
+          {
+            "name": "Minu Bhatt",
+            "email": "minu.bhatt@e2msolutions.com",
+            "email_domain": "e2msolutions.com",
+            "is_external": true,
+            "matched_speaker_display_name": null
+          },
+          {
+            "name": "Kenil Shah",
+            "email": "kenil.shah@e2m.solutions",
+            "email_domain": "e2m.solutions",
+            "is_external": false,
+            "matched_speaker_display_name": null
+          },
+          {
+            "name": "Nandini Vithlani",
+            "email": "nandini.vithlani@e2m.solutions",
+            "email_domain": "e2m.solutions",
+            "is_external": false,
+            "matched_speaker_display_name": null
+          },
+          {
+            "name": "Jainil Trivedi",
+            "email": "jainil.trivedi@e2m.solutions",
+            "email_domain": "e2m.solutions",
+            "is_external": false,
+            "matched_speaker_display_name": null
+          }
+        ]
+      },
+      "content": {
+        "recording_id": 192191254,
+        "transcript_present": true,
+        "transcript_segments": 475,
+        "text_characters": 32684,
+        "segments_with_speaker": 475,
+        "segments_with_matched_email": 475,
+        "segments_with_timestamp": 475,
+        "speaker_names": [
+          "Jainil Trivedi",
+          "Whitney Hodges",
+          "Minu Bhatt",
+          "Gisselle Jimenez",
+          "Asha Kumar"
+        ],
+        "transcript_segment_keys": [
+          "speaker",
+          "text",
+          "timestamp"
+        ],
+        "speaker_keys": [
+          "display_name",
+          "matched_calendar_invitee_email"
+        ],
+        "opening_excerpt": [
+          {
+            "speaker": "Jainil Trivedi",
+            "timestamp": "00:00:00",
+            "text": "The thought process taking place."
+          },
+          {
+            "speaker": "Jainil Trivedi",
+            "timestamp": "00:00:01",
+            "text": "So what we have over here is what the purpose and the audience is that when the owners who are getting inquiries and tour bookings, but they"
+          },
+          {
+            "speaker": "Jainil Trivedi",
+            "timestamp": "00:00:12",
+            "text": "What is the central point of this particular content angle?"
+          }
+        ],
+        "summary_present": true,
+        "summary_keys": [
+          "markdown_formatted",
+          "template_name"
+        ],
+        "summary_characters": 7358,
+        "summary_excerpt": "## Meeting Purpose\n\n[Review AI-generated content concepts and provide feedback for refinement.](https://fathom.video/share/v9E6zC1iAtRDz5Jd5Maz-UpuKHzqgVbJ?tab=summary&timestamp=1.0)\n\n## Key Takeaways\n\n  - [**Content Angle Approved:** The \"inquiries but no follow-through\" angle was approved for its tangible focus on lead progression, a significant improvement over the previous draft.](https://fathom.video/share/v9E6zC1iAtRDz5Jd5Maz-UpuKHzqgVbJ?tab=summary&timestamp=90.0)\n  - [**Strategic Reframing Required:** Content must shift from a DIY \"how-to\" guide to a partner-led narrative. The goal is to demonstrate WIA's value by solving a client's specific problem, not to teach the audience how to solve it themselves.](https://fathom.video/share/v9E6zC1iAtRDz5Jd5Maz-UpuKHzqgVbJ?tab=summary&timestamp=600.0)\n  - [**Tone & Voice Refinement:** The AI-generated copy needs significant work to match Whitney's casual, conversational style. Hooks must be punchier, and the overall tone less polished.](https://fathom.video/share/v9E6zC1iAtRDz5Jd5Maz-UpuKHzqgVbJ?tab=summary&timestamp=1177.0)\n  - [**Increased Cadence & New Data Source:** The target is 3 strong content angles per week. To supplement call transcripts, WIA approved a $50 one-time purchase of a SERP API to pull trending Google data, ensuring a consistent content pipeline.](https://fathom.video/share/v9E6zC1iAtRDz5Jd5Maz-UpuKHzqgVbJ?tab=summary&timestamp=1573.0)\n\n## Topics\n\n### Content Angle & Strategy\n\n  - [Jainil presented the new content angle: \"Owners getting inquiries and tour bookings but uncertain about follow-through.\"](htt",
+        "action_items_count": 0,
+        "action_item_keys": [],
+        "actions_with_assignee": 0,
+        "actions_with_due_field": 0,
+        "actions_with_completion_flag": 0,
+        "action_items_sample": [],
+        "highlights_count": null,
+        "crm_keys": [],
+        "crm_error": null,
+        "crm_match_counts": {
+          "contacts": null,
+          "companies": null,
+          "deals": null
+        }
+      },
+      "inline_available": true
+    },
+    {
+      "metadata": {
+        "recording_id": 186236649,
+        "title": "Impromptu Google Meet Meeting",
+        "meeting_title": "Impromptu Google Meet Meeting",
+        "created_at": "2026-09-24T09:21:31Z",
+        "scheduled_start_time": "2026-09-24T09:18:39Z",
+        "scheduled_end_time": "2026-09-24T09:33:39Z",
+        "recording_start_time": "2026-09-24T09:19:34Z",
+        "recording_end_time": "2026-09-24T09:21:22Z",
+        "meeting_type": null,
+        "shared_with": "no_teams",
+        "transcript_language": "unknown",
+        "calendar_invitees_domains_type": "one_or_more_external",
+        "url": "https://fathom.video/calls/836125863",
+        "share_url": "https://fathom.video/share/yD6sc8--vqUV1xMbN-R-vuo8hq5LRhit",
+        "recorded_by": {
+          "name": "Jainil Trivedi",
+          "email": "jainil.trivedi@e2m.solutions",
+          "email_domain": "e2m.solutions",
+          "team": null
+        },
+        "calendar_invitees": [
+          {
+            "name": "Jainil Trivedi",
+            "email": "jainil.trivedi@e2m.solutions",
+            "email_domain": "e2m.solutions",
+            "is_external": false,
+            "matched_speaker_display_name": null
+          }
+        ]
+      },
+      "content": {
+        "recording_id": 186236649,
+        "transcript_present": true,
+        "transcript_segments": 8,
+        "text_characters": 968,
+        "segments_with_speaker": 8,
+        "segments_with_matched_email": 0,
+        "segments_with_timestamp": 8,
+        "speaker_names": [
+          "Krish Patel"
+        ],
+        "transcript_segment_keys": [
+          "speaker",
+          "text",
+          "timestamp"
+        ],
+        "speaker_keys": [
+          "display_name",
+          "matched_calendar_invitee_email"
+        ],
+        "opening_excerpt": [
+          {
+            "speaker": "Krish Patel",
+            "timestamp": "00:00:00",
+            "text": "Upgrading the features that the client asked for and the feature is basically to get more deep and drive on the proposal and SOP and the sec"
+          },
+          {
+            "speaker": "Krish Patel",
+            "timestamp": "00:00:19",
+            "text": "So what we are planning is to add a comment section specially for them and add a threading part there."
+          },
+          {
+            "speaker": "Krish Patel",
+            "timestamp": "00:00:28",
+            "text": "basically client can reply there and comment there and at the end when the comment is being commented then the relevant members and contact "
+          }
+        ],
+        "summary_present": true,
+        "summary_keys": [
+          "markdown_formatted",
+          "template_name"
+        ],
+        "summary_characters": 2953,
+        "summary_excerpt": "## Meeting Purpose\n\n[Review client feature requests and plan implementation.](https://fathom.video/share/yD6sc8--vqUV1xMbN-R-vuo8hq5LRhit?tab=summary&timestamp=0.0)\n\n## Key Takeaways\n\n  - [**New Features:** Implement a threaded comment section for proposals/SOPs and a project progress chart to meet client requests.](https://fathom.video/share/yD6sc8--vqUV1xMbN-R-vuo8hq5LRhit?tab=summary&timestamp=0.0)\n  - [**Notifications:** Comments will trigger email/in-app notifications for relevant team members to ensure timely engagement.](https://fathom.video/share/yD6sc8--vqUV1xMbN-R-vuo8hq5LRhit?tab=summary&timestamp=19.0)\n  - [**Dependencies:** The progress chart requires a client-provided credential/API list, which will be requested via LastPass.](https://fathom.video/share/yD6sc8--vqUV1xMbN-R-vuo8hq5LRhit?tab=summary&timestamp=47.0)\n\n## Topics\n\n### Client Feature Requests\n\n  - [**Goal:** Add depth to proposals and SOPs.](https://fathom.video/share/yD6sc8--vqUV1xMbN-R-vuo8hq5LRhit?tab=summary&timestamp=0.0)\n  - [**Specific Requests:**](https://fathom.video/share/yD6sc8--vqUV1xMbN-R-vuo8hq5LRhit?tab=summary&timestamp=0.0)\n    1.  **Threaded Comment Section:**\n          - [**Function:** Allow clients to comment and reply on specific sections.](https://fathom.video/share/yD6sc8--vqUV1xMbN-R-vuo8hq5LRhit?tab=summary&timestamp=19.0)\n          - [**Notification:** Triggers email/in-app alerts for relevant team members.](https://fathom.video/share/yD6sc8--vqUV1xMbN-R-vuo8hq5LRhit?tab=summary&timestamp=19.0)\n    2.  **Project Progress Chart:**\n          - [**Function:** Visually track pro",
+        "action_items_count": 0,
+        "action_item_keys": [],
+        "actions_with_assignee": 0,
+        "actions_with_due_field": 0,
+        "actions_with_completion_flag": 0,
+        "action_items_sample": [],
+        "highlights_count": null,
+        "crm_keys": [],
+        "crm_error": null,
+        "crm_match_counts": {
+          "contacts": null,
+          "companies": null,
+          "deals": null
+        }
+      },
+      "inline_available": true
+    },
+    {
+      "metadata": {
+        "recording_id": 186193499,
+        "title": "Fathom Demo",
+        "meeting_title": "Fathom Demo",
+        "created_at": "2026-09-24T06:23:25Z",
+        "scheduled_start_time": "2021-09-16T20:40:00Z",
+        "scheduled_end_time": "2021-09-16T21:00:00Z",
+        "recording_start_time": "2021-09-16T20:42:47Z",
+        "recording_end_time": "2026-09-24T06:23:25Z",
+        "meeting_type": null,
+        "shared_with": "no_teams",
+        "transcript_language": "unknown",
+        "calendar_invitees_domains_type": "only_internal",
+        "url": "https://fathom.video/calls/835900129",
+        "share_url": "https://fathom.video/share/S2UACRjiB6G1qs7a9zXDYzjahuQvsygX",
+        "recorded_by": {
+          "name": "Jainil Trivedi",
+          "email": "jainil.trivedi@e2m.solutions",
+          "email_domain": "e2m.solutions",
+          "team": null
+        },
+        "calendar_invitees": [
+          {
+            "name": "Susannah DuRant",
+            "email": "susannah.durant@fathom.video",
+            "email_domain": "fathom.video",
+            "is_external": false,
+            "matched_speaker_display_name": null
+          },
+          {
+            "name": "Jainil Trivedi",
+            "email": "jainil.trivedi@e2m.solutions",
+            "email_domain": "e2m.solutions",
+            "is_external": false,
+            "matched_speaker_display_name": null
+          }
+        ]
+      },
+      "content": {
+        "recording_id": 186193499,
+        "transcript_present": true,
+        "transcript_segments": 143,
+        "text_characters": 8974,
+        "segments_with_speaker": 143,
+        "segments_with_matched_email": 123,
+        "segments_with_timestamp": 143,
+        "speaker_names": [
+          "Richard White",
+          "Susannah DuRant"
+        ],
+        "transcript_segment_keys": [
+          "speaker",
+          "text",
+          "timestamp"
+        ],
+        "speaker_keys": [
+          "display_name",
+          "matched_calendar_invitee_email"
+        ],
+        "opening_excerpt": [
+          {
+            "speaker": "Richard White",
+            "timestamp": "00:00:00",
+            "text": "All right."
+          },
+          {
+            "speaker": "Richard White",
+            "timestamp": "00:00:01",
+            "text": "Hello."
+          },
+          {
+            "speaker": "Richard White",
+            "timestamp": "00:00:01",
+            "text": "And welcome to Fathom."
+          }
+        ],
+        "summary_present": false,
+        "summary_keys": [],
+        "summary_characters": 0,
+        "summary_excerpt": "",
+        "action_items_count": 0,
+        "action_item_keys": [],
+        "actions_with_assignee": 0,
+        "actions_with_due_field": 0,
+        "actions_with_completion_flag": 0,
+        "action_items_sample": [],
+        "highlights_count": null,
+        "crm_keys": [],
+        "crm_error": null,
+        "crm_match_counts": {
+          "contacts": null,
+          "companies": null,
+          "deals": null
+        }
+      },
+      "inline_available": true
+    }
+  ],
+  "observations": {
+    "teams": {
+      "response_keys": [
+        "items",
+        "limit",
+        "next_cursor"
+      ],
+      "items": [],
+      "next_page_present": false
+    },
+    "team_members": {
+      "response_keys": [
+        "items",
+        "limit",
+        "next_cursor"
+      ],
+      "returned_count": 0,
+      "member_keys": [],
+      "next_page_present": false
+    },
+    "inline_content": [
+      {
+        "recording_id": 192191254,
+        "transcript_present": true,
+        "transcript_segments": 475,
+        "text_characters": 32684,
+        "segments_with_speaker": 475,
+        "segments_with_matched_email": 475,
+        "segments_with_timestamp": 475,
+        "speaker_names": [
+          "Jainil Trivedi",
+          "Whitney Hodges",
+          "Minu Bhatt",
+          "Gisselle Jimenez",
+          "Asha Kumar"
+        ],
+        "transcript_segment_keys": [
+          "speaker",
+          "text",
+          "timestamp"
+        ],
+        "speaker_keys": [
+          "display_name",
+          "matched_calendar_invitee_email"
+        ],
+        "opening_excerpt": [
+          {
+            "speaker": "Jainil Trivedi",
+            "timestamp": "00:00:00",
+            "text": "The thought process taking place."
+          },
+          {
+            "speaker": "Jainil Trivedi",
+            "timestamp": "00:00:01",
+            "text": "So what we have over here is what the purpose and the audience is that when the owners who are getting inquiries and tour bookings, but they"
+          },
+          {
+            "speaker": "Jainil Trivedi",
+            "timestamp": "00:00:12",
+            "text": "What is the central point of this particular content angle?"
+          }
+        ],
+        "summary_present": true,
+        "summary_keys": [
+          "markdown_formatted",
+          "template_name"
+        ],
+        "summary_characters": 7358,
+        "summary_excerpt": "## Meeting Purpose\n\n[Review AI-generated content concepts and provide feedback for refinement.](https://fathom.video/share/v9E6zC1iAtRDz5Jd5Maz-UpuKHzqgVbJ?tab=summary&timestamp=1.0)\n\n## Key Takeaways\n\n  - [**Content Angle Approved:** The \"inquiries but no follow-through\" angle was approved for its tangible focus on lead progression, a significant improvement over the previous draft.](https://fathom.video/share/v9E6zC1iAtRDz5Jd5Maz-UpuKHzqgVbJ?tab=summary&timestamp=90.0)\n  - [**Strategic Reframing Required:** Content must shift from a DIY \"how-to\" guide to a partner-led narrative. The goal is to demonstrate WIA's value by solving a client's specific problem, not to teach the audience how to solve it themselves.](https://fathom.video/share/v9E6zC1iAtRDz5Jd5Maz-UpuKHzqgVbJ?tab=summary&timestamp=600.0)\n  - [**Tone & Voice Refinement:** The AI-generated copy needs significant work to match Whitney's casual, conversational style. Hooks must be punchier, and the overall tone less polished.](https://fathom.video/share/v9E6zC1iAtRDz5Jd5Maz-UpuKHzqgVbJ?tab=summary&timestamp=1177.0)\n  - [**Increased Cadence & New Data Source:** The target is 3 strong content angles per week. To supplement call transcripts, WIA approved a $50 one-time purchase of a SERP API to pull trending Google data, ensuring a consistent content pipeline.](https://fathom.video/share/v9E6zC1iAtRDz5Jd5Maz-UpuKHzqgVbJ?tab=summary&timestamp=1573.0)\n\n## Topics\n\n### Content Angle & Strategy\n\n  - [Jainil presented the new content angle: \"Owners getting inquiries and tour bookings but uncertain about follow-through.\"](htt",
+        "action_items_count": 3,
+        "action_item_keys": [
+          "assignee",
+          "completed",
+          "description",
+          "recording_playback_url",
+          "recording_timestamp",
+          "user_generated"
+        ],
+        "actions_with_assignee": 3,
+        "actions_with_due_field": 0,
+        "actions_with_completion_flag": 3,
+        "action_items_sample": [
+          {
+            "description": "Share updated content brief/pack w/ Whitney; request Suggestions-mode edits",
+            "user_generated": false,
+            "completed": false,
+            "recording_timestamp": "00:09:39",
+            "recording_playback_url": "https://fathom.video/calls/857377954?timestamp=579.9999",
+            "assignee": {
+              "name": "Jainil Trivedi",
+              "email": "jainil.trivedi@e2m.solutions",
+              "team": null
+            }
+          },
+          {
+            "description": "Send Whitney example Reel scripts/captions + Google Trends samples; request feedback",
+            "user_generated": false,
+            "completed": false,
+            "recording_timestamp": "00:19:56",
+            "recording_playback_url": "https://fathom.video/calls/857377954?timestamp=1196.9999",
+            "assignee": {
+              "name": "Minu Bhatt",
+              "email": "minu.bhatt@e2msolutions.com",
+              "team": null
+            }
+          },
+          {
+            "description": "Schedule monthly 5-min 1:1 check-ins w/ Whitney",
+            "user_generated": false,
+            "completed": false,
+            "recording_timestamp": "00:35:38",
+            "recording_playback_url": "https://fathom.video/calls/857377954?timestamp=2138.9999",
+            "assignee": {
+              "name": "Asha Kumar",
+              "email": "asha.kumar@e2msolutions.com",
+              "team": null
+            }
+          }
+        ],
+        "highlights_count": 0,
+        "crm_keys": [
+          "error"
+        ],
+        "crm_error": "No CRM connected",
+        "crm_match_counts": {
+          "contacts": null,
+          "companies": null,
+          "deals": null
+        }
+      },
+      {
+        "recording_id": 186236649,
+        "transcript_present": true,
+        "transcript_segments": 8,
+        "text_characters": 968,
+        "segments_with_speaker": 8,
+        "segments_with_matched_email": 0,
+        "segments_with_timestamp": 8,
+        "speaker_names": [
+          "Krish Patel"
+        ],
+        "transcript_segment_keys": [
+          "speaker",
+          "text",
+          "timestamp"
+        ],
+        "speaker_keys": [
+          "display_name",
+          "matched_calendar_invitee_email"
+        ],
+        "opening_excerpt": [
+          {
+            "speaker": "Krish Patel",
+            "timestamp": "00:00:00",
+            "text": "Upgrading the features that the client asked for and the feature is basically to get more deep and drive on the proposal and SOP and the sec"
+          },
+          {
+            "speaker": "Krish Patel",
+            "timestamp": "00:00:19",
+            "text": "So what we are planning is to add a comment section specially for them and add a threading part there."
+          },
+          {
+            "speaker": "Krish Patel",
+            "timestamp": "00:00:28",
+            "text": "basically client can reply there and comment there and at the end when the comment is being commented then the relevant members and contact "
+          }
+        ],
+        "summary_present": true,
+        "summary_keys": [
+          "markdown_formatted",
+          "template_name"
+        ],
+        "summary_characters": 2953,
+        "summary_excerpt": "## Meeting Purpose\n\n[Review client feature requests and plan implementation.](https://fathom.video/share/yD6sc8--vqUV1xMbN-R-vuo8hq5LRhit?tab=summary&timestamp=0.0)\n\n## Key Takeaways\n\n  - [**New Features:** Implement a threaded comment section for proposals/SOPs and a project progress chart to meet client requests.](https://fathom.video/share/yD6sc8--vqUV1xMbN-R-vuo8hq5LRhit?tab=summary&timestamp=0.0)\n  - [**Notifications:** Comments will trigger email/in-app notifications for relevant team members to ensure timely engagement.](https://fathom.video/share/yD6sc8--vqUV1xMbN-R-vuo8hq5LRhit?tab=summary&timestamp=19.0)\n  - [**Dependencies:** The progress chart requires a client-provided credential/API list, which will be requested via LastPass.](https://fathom.video/share/yD6sc8--vqUV1xMbN-R-vuo8hq5LRhit?tab=summary&timestamp=47.0)\n\n## Topics\n\n### Client Feature Requests\n\n  - [**Goal:** Add depth to proposals and SOPs.](https://fathom.video/share/yD6sc8--vqUV1xMbN-R-vuo8hq5LRhit?tab=summary&timestamp=0.0)\n  - [**Specific Requests:**](https://fathom.video/share/yD6sc8--vqUV1xMbN-R-vuo8hq5LRhit?tab=summary&timestamp=0.0)\n    1.  **Threaded Comment Section:**\n          - [**Function:** Allow clients to comment and reply on specific sections.](https://fathom.video/share/yD6sc8--vqUV1xMbN-R-vuo8hq5LRhit?tab=summary&timestamp=19.0)\n          - [**Notification:** Triggers email/in-app alerts for relevant team members.](https://fathom.video/share/yD6sc8--vqUV1xMbN-R-vuo8hq5LRhit?tab=summary&timestamp=19.0)\n    2.  **Project Progress Chart:**\n          - [**Function:** Visually track pro",
+        "action_items_count": 2,
+        "action_item_keys": [
+          "assignee",
+          "completed",
+          "description",
+          "recording_playback_url",
+          "recording_timestamp",
+          "user_generated"
+        ],
+        "actions_with_assignee": 2,
+        "actions_with_due_field": 0,
+        "actions_with_completion_flag": 2,
+        "action_items_sample": [
+          {
+            "description": "Prepare small chart + mind map for next client meeting re: progress/blockers",
+            "user_generated": false,
+            "completed": false,
+            "recording_timestamp": "00:00:36",
+            "recording_playback_url": "https://fathom.video/calls/836125863?timestamp=36.9999",
+            "assignee": {
+              "name": "Krish Patel",
+              "email": null,
+              "team": null
+            }
+          },
+          {
+            "description": "Draft requirements list for client re: credentials/APIs; request via LastPass",
+            "user_generated": false,
+            "completed": false,
+            "recording_timestamp": "00:01:04",
+            "recording_playback_url": "https://fathom.video/calls/836125863?timestamp=64.9999",
+            "assignee": {
+              "name": "Krish Patel",
+              "email": null,
+              "team": null
+            }
+          }
+        ],
+        "highlights_count": 0,
+        "crm_keys": [
+          "error"
+        ],
+        "crm_error": "No CRM connected",
+        "crm_match_counts": {
+          "contacts": null,
+          "companies": null,
+          "deals": null
+        }
+      },
+      {
+        "recording_id": 186218372,
+        "transcript_present": true,
+        "transcript_segments": 20,
+        "text_characters": 1090,
+        "segments_with_speaker": 20,
+        "segments_with_matched_email": 13,
+        "segments_with_timestamp": 20,
+        "speaker_names": [
+          "Jainil Trivedi",
+          "Ravi Ranjan"
+        ],
+        "transcript_segment_keys": [
+          "speaker",
+          "text",
+          "timestamp"
+        ],
+        "speaker_keys": [
+          "display_name",
+          "matched_calendar_invitee_email"
+        ],
+        "opening_excerpt": [
+          {
+            "speaker": "Jainil Trivedi",
+            "timestamp": "00:00:00",
+            "text": "This is just for the purpose of recording whether the webbook of Fathom is working or not."
+          },
+          {
+            "speaker": "Jainil Trivedi",
+            "timestamp": "00:00:07",
+            "text": "What do you have to say about Fathom?"
+          },
+          {
+            "speaker": "Ravi Ranjan",
+            "timestamp": "00:00:10",
+            "text": "First of all, this is the software which I'm not familiar with previously, but now after coming to E2M, I got to know about this software fo"
+          }
+        ],
+        "summary_present": true,
+        "summary_keys": [
+          "markdown_formatted",
+          "template_name"
+        ],
+        "summary_characters": 2262,
+        "summary_excerpt": "## Meeting Purpose\n\n[Test Fathom's webhook functionality by recording a brief review.](https://fathom.video/share/Y7xEKFc8n6_kv3RjTTEcvTr8dSw9Uh9z?tab=summary&timestamp=0.0)\n\n## Key Takeaways\n\n  - [**Fathom's Value:** A solid tool (rated 70/100) for meeting transcription, despite occasional speaker misidentification.](https://fathom.video/share/Y7xEKFc8n6_kv3RjTTEcvTr8dSw9Uh9z?tab=summary&timestamp=7.0)\n  - [**Killer Feature:** The free API and webhook access is a key differentiator, enabling automation without a paid subscription.](https://fathom.video/share/Y7xEKFc8n6_kv3RjTTEcvTr8dSw9Uh9z?tab=summary&timestamp=62.0)\n  - [**Meeting Goal:** This recording was created specifically to generate a Fathom output for testing the webhook integration.](https://fathom.video/share/Y7xEKFc8n6_kv3RjTTEcvTr8dSw9Uh9z?tab=summary&timestamp=0.0)\n\n## Topics\n\n### Fathom Review & Use Case\n\n  - [Ravi's first exposure to Fathom at E2M; finds it \"pretty good.\"](https://fathom.video/share/Y7xEKFc8n6_kv3RjTTEcvTr8dSw9Uh9z?tab=summary&timestamp=7.0)\n  - [**Primary Flaw:** Occasionally misidentifies speakers.](https://fathom.video/share/Y7xEKFc8n6_kv3RjTTEcvTr8dSw9Uh9z?tab=summary&timestamp=24.0)\n  - [**Key Strengths:**](https://fathom.video/share/Y7xEKFc8n6_kv3RjTTEcvTr8dSw9Uh9z?tab=summary&timestamp=34.0)\n      - [Accurate transcription.](https://fathom.video/share/Y7xEKFc8n6_kv3RjTTEcvTr8dSw9Uh9z?tab=summary&timestamp=34.0)\n      - [Easy transcript copying.](https://fathom.video/share/Y7xEKFc8n6_kv3RjTTEcvTr8dSw9Uh9z?tab=summary&timestamp=42.0)\n  - [**Overall Rating:** Jainil gave it a 70/100, a",
+        "action_items_count": 0,
+        "action_item_keys": [],
+        "actions_with_assignee": 0,
+        "actions_with_due_field": 0,
+        "actions_with_completion_flag": 0,
+        "action_items_sample": [],
+        "highlights_count": 0,
+        "crm_keys": [
+          "error"
+        ],
+        "crm_error": "No CRM connected",
+        "crm_match_counts": {
+          "contacts": null,
+          "companies": null,
+          "deals": null
+        }
+      },
+      {
+        "recording_id": 186193499,
+        "transcript_present": true,
+        "transcript_segments": 143,
+        "text_characters": 8974,
+        "segments_with_speaker": 143,
+        "segments_with_matched_email": 123,
+        "segments_with_timestamp": 143,
+        "speaker_names": [
+          "Richard White",
+          "Susannah DuRant"
+        ],
+        "transcript_segment_keys": [
+          "speaker",
+          "text",
+          "timestamp"
+        ],
+        "speaker_keys": [
+          "display_name",
+          "matched_calendar_invitee_email"
+        ],
+        "opening_excerpt": [
+          {
+            "speaker": "Richard White",
+            "timestamp": "00:00:00",
+            "text": "All right."
+          },
+          {
+            "speaker": "Richard White",
+            "timestamp": "00:00:01",
+            "text": "Hello."
+          },
+          {
+            "speaker": "Richard White",
+            "timestamp": "00:00:01",
+            "text": "And welcome to Fathom."
+          }
+        ],
+        "summary_present": false,
+        "summary_keys": [],
+        "summary_characters": 0,
+        "summary_excerpt": "",
+        "action_items_count": 0,
+        "action_item_keys": [],
+        "actions_with_assignee": 0,
+        "actions_with_due_field": 0,
+        "actions_with_completion_flag": 0,
+        "action_items_sample": [],
+        "highlights_count": 3,
+        "crm_keys": [
+          "error"
+        ],
+        "crm_error": "No CRM connected",
+        "crm_match_counts": {
+          "contacts": null,
+          "companies": null,
+          "deals": null
+        }
+      }
+    ],
+    "meeting_count": 4,
+    "by_recorder": {
+      "jainil.trivedi@e2m.solutions": 4
+    },
+    "by_sharing": {
+      "no_teams": 4
+    },
+    "by_meeting_type": {
+      "unknown": 4
+    },
+    "by_invitee_domain_type": {
+      "one_or_more_external": 3,
+      "only_internal": 1
+    },
+    "recording_date_range": {
+      "oldest": "2021-09-16T20:42:47Z",
+      "newest": "2026-10-13T14:49:20Z"
+    }
+  },
+  "full_content_backfill": false,
+  "inventory_exhausted_cursor": true,
+  "result": "probe_completed",
+  "finished_at_utc": "2026-10-19T11:53:59.219Z"
+}

@@ -1,0 +1,50 @@
+.client-meeting-toolbar .segmented { flex-wrap: wrap; }
+.client-meetings-panel .panel-heading { margin-bottom: 10px; }
+.client-meeting-list { list-style: none; margin: 0; padding: 0; }
+.client-meeting-list > li + li { border-top: 1px solid #edf1f7; }
+.client-meeting-row { display: grid; grid-template-columns: 38px minmax(0, 1fr) 160px 165px 18px; gap: 18px; align-items: center; width: 100%; min-height: 80px; text-align: left; padding: 14px 8px; border-radius: 10px; }
+.client-meeting-row:hover { background: #f5f8ff; }
+.client-meeting-icon { width: 36px; height: 36px; display: grid; place-items: center; color: #7890b3; background: #f1f4f9; border-radius: 11px; }
+.client-meeting-icon.is-scheduled { color: #526ed0; background: #edf2ff; }
+.client-meeting-name { min-width: 0; }
+.client-meeting-name strong { display: block; font-weight: 500; font-size: 12px; color: #254569; overflow-wrap: anywhere; }
+.client-meeting-name > span { display: block; margin-top: 4px; font-size: 10px; color: #7b8ca6; overflow-wrap: anywhere; }
+.client-meeting-date { font-size: 11px; color: #476184; }
+.client-meeting-date small { display: block; font-size: 9px; color: #7b8ca6; margin-top: 3px; }
+.client-meeting-state { justify-self: start; }
+.client-meeting-state .badge { font-size: 9px; white-space: normal; }
+.client-meeting-arrow { color: #8399b7; }
+.client-meeting-dialog .dialog-meta { font-size: 11px; color: #70829e; margin-top: 9px; }
+.client-meeting-details { display: grid; grid-template-columns: 1fr 1fr; gap: 17px 24px; padding: 17px 19px; margin: 0 0 23px; border: 1px solid #e5ebf5; border-radius: 13px; background: #fff; }
+.client-meeting-details dt { font-size: 9px; color: #7a8aa3; margin-bottom: 3px; }
+.client-meeting-details dd { margin: 0; font-size: 11px; color: #355577; overflow-wrap: anywhere; }
+.client-meeting-section + .client-meeting-section { margin-top: 22px; padding-top: 19px; border-top: 1px solid #e8edf5; }
+.client-meeting-section h3 { font-size: 13px; font-weight: 500; margin-bottom: 9px; }
+.client-meeting-section p, .client-meeting-section li { font-size: 11px; line-height: 1.85; color: #576b89; }
+.client-meeting-section p + p { margin-top: 8px; }
+.client-meeting-section ul { padding-left: 18px; margin: 0; }
+.client-meeting-section li + li { margin-top: 6px; }
+.client-meeting-section .source-link { margin-top: 9px; }
+.client-meeting-note { background: #eef3fc; border-radius: 9px; color: #667d9b; padding: 10px 12px; font-size: 10px; margin: 17px 0; }
+.client-meeting-section .client-meeting-actions { list-style: none; padding: 0; }
+.client-meeting-actions li { padding: 10px 12px; border: 1px solid #e5ebf5; border-radius: 9px; background: #fff; }
+.client-meeting-actions strong { display: block; color: #355577; font-weight: 500; }
+.client-meeting-actions span { display: block; font-size: 10px; color: #7a8aa3; }
+@container client-workspace (max-width: 850px) {
+  .client-meeting-row { grid-template-columns: 36px minmax(0, 1fr) 130px 16px; gap: 12px; }
+  .client-meeting-state { grid-column: 2; }
+  .client-meeting-arrow { grid-column: 4; grid-row: 1; }
+}
+@media (max-width: 700px) {
+  .client-meeting-row { grid-template-columns: 32px minmax(0, 1fr) 16px; gap: 9px 12px; padding: 14px 0; }
+  .client-meeting-date { grid-column: 2; grid-row: 2; }
+  .client-meeting-date small { display: inline; margin-left: 7px; }
+  .client-meeting-state { grid-column: 2; grid-row: 3; }
+  .client-meeting-arrow { grid-column: 3; grid-row: 1; }
+  .client-meeting-details { grid-template-columns: 1fr; }
+}
+.client-meeting-nolink { display: inline-flex; align-items: center; gap: 3px; color: #a0732a; }
+.client-meeting-link-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; }
+.client-meeting-link-row a { display: inline-flex; align-items: center; gap: 5px; color: #2f5fb3; font-weight: 500; }
+.client-meeting-link-form { display: flex; flex-wrap: wrap; gap: 8px; }
+.client-meeting-link-form input { flex: 1 1 260px; min-width: 0; font: inherit; font-size: 12px; padding: 8px 10px; border: 1px solid #d5deec; border-radius: 8px; background: #fff; color: #254569; }
