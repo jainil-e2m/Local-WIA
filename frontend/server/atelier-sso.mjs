@@ -25,8 +25,12 @@ const signIn = path => `/login?next=${encodeURIComponent(path)}`;
 /** One-time authorization codes. The original session stays on the backchannel;
  * the browser receives only a short-lived code bound to a PKCE challenge.
  * Codes are process-local and fail closed across restarts or other replicas.
+ *
+ * The same hand-off signs people into every app Command Center launches: the Content Atelier
+ * (/api/auth/content-atelier) and the Client Knowledge Base (/api/auth/knowledge-base). `appName` and
+ * `urlSetting` only change what the messages say; each mount has its own codes and its own pinned callback.
  */
-export function createAtelierSsoRouter({ atelierUrl, resolveUser, readToken, sessionExpiry, nodeEnv = process.env.NODE_ENV, now = Date.now, lifetimeMs = 60_000, capacity = 1000 }) {
+export function createAtelierSsoRouter({ atelierUrl, appName = "Content Atelier", urlSetting = "VITE_CONTENT_ATELIER_URL", resolveUser, readToken, sessionExpiry, nodeEnv = process.env.NODE_ENV, now = Date.now, lifetimeMs = 60_000, capacity = 1000 }) {
   const target = destination(atelierUrl, nodeEnv);
   const callback = target ? new URL(CALLBACK_PATH, target.origin).href : null;
   const codes = new Map();
@@ -37,7 +41,7 @@ export function createAtelierSsoRouter({ atelierUrl, resolveUser, readToken, ses
   });
   const configured = res => {
     if (target) return true;
-    res.status(503).json({ error: "Set VITE_CONTENT_ATELIER_URL to the public Content Atelier URL on Command Center." });
+    res.status(503).json({ error: `Set ${urlSetting} to the public ${appName} URL on Command Center.` });
     return false;
   };
   const purge = () => {
@@ -57,7 +61,7 @@ export function createAtelierSsoRouter({ atelierUrl, resolveUser, readToken, ses
     const { redirect_uri, state, code_challenge, code_challenge_method } = req.query;
     // Exact callback matching closes open redirects and code exfiltration.
     if (redirect_uri !== callback || !validState(state) || !validChallenge(code_challenge) || code_challenge_method !== "S256") {
-      return res.status(400).json({ error: "Invalid Content Atelier sign-in request." });
+      return res.status(400).json({ error: `Invalid ${appName} sign-in request.` });
     }
     const user = resolveUser(req);
     if (!user) return res.redirect(302, signIn(req.originalUrl));
@@ -84,7 +88,7 @@ export function createAtelierSsoRouter({ atelierUrl, resolveUser, readToken, ses
     }
     const key = crypto.createHash("sha256").update(code).digest("hex");
     const entry = codes.get(key);
-    if (!entry) return res.status(401).json({ error: "Sign-in code expired or was already used. Open Content Atelier again." });
+    if (!entry) return res.status(401).json({ error: `Sign-in code expired or was already used. Open ${appName} again.` });
     const challenge = crypto.createHash("sha256").update(code_verifier).digest("base64url");
     if (!crypto.timingSafeEqual(Buffer.from(challenge), Buffer.from(entry.challenge))) {
       return res.status(401).json({ error: "Invalid sign-in proof." });

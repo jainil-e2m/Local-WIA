@@ -247,6 +247,23 @@ Signing out in either app ends the session in both:
   cookie, which is why the browser makes the round trip; redirects go only to `VITE_CONTENT_ATELIER_URL`'s origin.
 - Revocations live in process memory: a restart forgets them, and the cleared cookies cover that case.
 
+### The Client Knowledge Base, the same way
+
+The library's **Client Knowledge Base** tile opens `/api/auth/knowledge-base/launch`, the same hand-off router
+(`server/atelier-sso.mjs`) mounted a second time with its own one-use codes and its own pinned callback
+(`<VITE_KNOWLEDGE_BASE_URL origin>/api/auth/sso/callback`). The KB's own server completes it
+(`knowledge_base/wia-knowledge-base/backend/routes/auth.py`).
+
+- **Here:** set `VITE_KNOWLEDGE_BASE_URL=https://<KB domain>/`, at build and run time like the Atelier's. The tile
+  turns Live with "View Here"; unset, it stays on the roadmap and the route answers 503.
+- **On the KB:** set `COMMAND_CENTER_AUTH_ORIGIN` and `COMMAND_CENTER_PUBLIC_ORIGIN` to this service's https origin,
+  and `KB_APP_URL` to the KB's own URL (the same one as `VITE_KNOWLEDGE_BASE_URL`).
+- **Sign-out:**
+  - The KB's Sign out revokes the session here (backchannel `/api/auth/logout`), then passes through
+    `/api/auth/signout?from=knowledge-base`, which goes on through the Atelier as usual.
+  - A sign-out started here or in the Atelier revokes the shared token, and the KB, which re-checks every 30 s,
+    signs out within that.
+
 ### Deliberately not needed
 
 - **Nothing for `/onboarding`.** It reads the committed

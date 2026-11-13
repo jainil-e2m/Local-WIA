@@ -121,3 +121,29 @@ test("unconfigured/insecure destinations fail closed; pending-code storage is bo
   f.advance(60_001);
   assert.equal((await f.authorize()).status, 302);
 });
+
+test("the same hand-off serves the Knowledge Base under its own name and pinned callback", async () => {
+  const app = express();
+  app.use("/api/auth/knowledge-base", createAtelierSsoRouter({
+    atelierUrl: "https://kb.example.invalid/", appName: "Knowledge Base", urlSetting: "VITE_KNOWLEDGE_BASE_URL",
+    nodeEnv: "production", resolveUser: () => null, readToken: () => "", sessionExpiry: () => undefined }));
+  const unconfigured = express();
+  unconfigured.use("/kb", createAtelierSsoRouter({ atelierUrl: "", appName: "Knowledge Base", urlSetting: "VITE_KNOWLEDGE_BASE_URL",
+    nodeEnv: "production", resolveUser: () => null, readToken: () => "", sessionExpiry: () => undefined }));
+  const servers = [];
+  const listen = a => new Promise(resolve => { const s = http.createServer(a); servers.push(s); s.listen(0, "127.0.0.1", () => resolve(`http://127.0.0.1:${s.address().port}`)); });
+  try {
+    const base = await listen(app);
+    const wrong = await fetch(`${base}/api/auth/knowledge-base/authorize?redirect_uri=${encodeURIComponent(callback)}&state=${state}&code_challenge=${challenge}&code_challenge_method=S256`, { redirect: "manual" });
+    assert.equal(wrong.status, 400);  // the Atelier's callback is not the Knowledge Base's
+    assert.equal((await wrong.json()).error, "Invalid Knowledge Base sign-in request.");
+    const signIn = await fetch(`${base}/api/auth/knowledge-base/authorize?redirect_uri=${encodeURIComponent("https://kb.example.invalid/api/auth/sso/callback")}&state=${state}&code_challenge=${challenge}&code_challenge_method=S256`, { redirect: "manual" });
+    assert.equal(signIn.status, 302);  // no session yet: Command Center's sign-in, then back here
+    assert.match(signIn.headers.get("location"), /^\/login\?next=/);
+    const off = await fetch(`${await listen(unconfigured)}/kb/launch`, { redirect: "manual" });
+    assert.equal(off.status, 503);
+    assert.equal((await off.json()).error, "Set VITE_KNOWLEDGE_BASE_URL to the public Knowledge Base URL on Command Center.");
+  } finally {
+    await Promise.all(servers.map(s => new Promise(resolve => { s.closeAllConnections(); s.close(resolve); })));
+  }
+});

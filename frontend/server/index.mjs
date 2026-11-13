@@ -563,6 +563,18 @@ app.use("/api/auth/content-atelier", createAtelierSsoRouter({
   sessionExpiry: token => (revocations.isRevoked(token) ? undefined : verifySessionToken(token)?.exp),
 }));
 
+/* The Client Knowledge Base signs in the same way: its "View Here" opens /api/auth/knowledge-base/launch, and the
+   KB's own server completes the hand-off (knowledge_base/wia-knowledge-base/backend/routes/auth.py). Its sign-out
+   comes back through /api/auth/signout?from=knowledge-base, which goes on through the Atelier like ours. */
+app.use("/api/auth/knowledge-base", createAtelierSsoRouter({
+  atelierUrl: env("VITE_KNOWLEDGE_BASE_URL"),
+  appName: "Knowledge Base",
+  urlSetting: "VITE_KNOWLEDGE_BASE_URL",
+  resolveUser: resolveUserOrDemo,
+  readToken: readSessionCookie,
+  sessionExpiry: token => (revocations.isRevoked(token) ? undefined : verifySessionToken(token)?.exp),
+}));
+
 function requireSession(req, res, next) {
   if (AUTH_DISABLED) {
     /* Prefer whoever actually signed in, so the header and any per-user copy

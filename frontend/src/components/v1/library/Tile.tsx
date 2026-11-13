@@ -1,6 +1,7 @@
 import { useRef, type PointerEvent } from "react";
 import { ArrowRight } from "lucide-react";
 import { ATELIER_LAUNCH_PATH, ATELIER_UNAVAILABLE } from "@/lib/atelierLaunch";
+import { KNOWLEDGE_BASE_LAUNCH_PATH, deployedKnowledgeBaseUrl } from "@/lib/knowledgeBaseLaunch";
 import { ActionLink } from "../ActionLink";
 import type { LibraryItem } from "./automations";
 import { CardArt } from "./Art";
@@ -23,7 +24,10 @@ export function Tile({
 }) {
   const cardRef = useRef<HTMLElement>(null);
   const titleId = `v1-tile-${item.id}`;
-  const live = item.status === "Live";
+  /* The Knowledge Base is live wherever its deployment is configured, and on the roadmap elsewhere. */
+  const kbLive = item.id === "client-knowledge-base" && !!deployedKnowledgeBaseUrl();
+  const live = item.status === "Live" || kbLive;
+  const status = kbLive ? "Live" : item.status;
 
   const drift = (e: PointerEvent<HTMLElement>) => {
     const el = cardRef.current;
@@ -49,7 +53,7 @@ export function Tile({
         <span className="v1-auto-index" aria-hidden>
           {String(index + 1).padStart(2, "0")}
         </span>
-        <span className={`v1-auto-status ${live ? "is-live" : "is-soon"}`}>{item.status}</span>
+        <span className={`v1-auto-status ${live ? "is-live" : "is-soon"}`}>{status}</span>
       </header>
 
       <CardArt id={item.id} />
@@ -76,6 +80,14 @@ function CardAction({ item, atelierUrl }: { item: LibraryItem; atelierUrl?: stri
       <button className="v1-auto-cta" type="button" disabled title={ATELIER_UNAVAILABLE}>
         View Here {arrow}
       </button>
+    );
+  }
+  /* The Knowledge Base, its own deployment, through the same hand-off; on the roadmap where it isn't configured. */
+  if (item.id === "client-knowledge-base" && deployedKnowledgeBaseUrl()) {
+    return (
+      <a className="v1-auto-cta" href={KNOWLEDGE_BASE_LAUNCH_PATH} aria-label="View Client Knowledge Base">
+        View Here {arrow}
+      </a>
     );
   }
   if (!item.action) return null;
